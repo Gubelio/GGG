@@ -1,6 +1,317 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
+###############
+## ISHAHFAZH ##
+###############
+
+gashdzii = {
+    leader = european
+    unit = EuropeanGC
+
+	north_gashdzii = {
+	  color = { 235 219 157 }
+        	first_names = { Godhiinimiz Godhiima^dho Bozzama^dho Bozzanimiz Godhiimushiig Gozomedes Bosha^shovii Bosha^da^zzi Gozoba^chiiz
+				Gauimushiig Gozopaja }
+
+		last_names = { Mohdha^gazh Midodazh Mazdazh Dhiizitazh Shafa^gazh Va^jiazh Niftazh Bodha^azh Modhijovazh Moshdza^za Piiztazh Nokdazh 
+				Jaudazh Dahazh Bidazh Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo 
+				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt }
+    }
+
+	south_gashdzii = {
+	  color = { 181 144 1 }
+        	first_names = { Bazadamaz Vazamak }
+
+	        last_names = { Paupiizh Gaufiizh Cha^kdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Cha^diizh Zhiiziizh Pifshopazh Zhof Fiifa^zh
+				Maptazh Vozzash Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo Jodti Shamniizh 
+				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt  }
+    }
+
+	west_gashdzii = {
+	  color = { 224 189 47 }
+        	first_names = {  }
+
+	      last_names = { Godhazh Paumna^zh Piha^pazh Shobazh Pauftazh Duftojazh Pa^shdazh Pa^shodazhi Pa^zh Pa^shdazh Shaumazh Vofa^zh Kubhazh 
+				Shozazh Cha^ftokazh Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo Jodti Shamniizh
+				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt Pa^dzh }
+    }
+	#tag = ???
+}
+
+diwvo = {
+    leader = european
+    unit = EuropeanGC
+
+    poumnian = {
+        color = { 113 171 153 }
+       	first_names = { Fouk Drid Ouruumra Druwoub Uush Mod Koum Droum Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
+				    Tangad Bouhw Fimpuu Kuuhwu Shov Wudrou Oro Shruk Wahwa Oukim Vodrid Uptad Mruuwub Rush Prummu
+				    Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud Wrushu }
+
+            last_names = {  Sha-Pokoungpt Sha-Tob Pruwuswi Sha-Woungpt Shrawuuf Sha-Fogi Sha-Pruub Sha-Pukou Pawuum 
+			  	    Sha-Rusham Pkumn Buumn Sha-Toubomput Rakuumoum Sha-Prousorum Sha-Umpou Pabupti Dohwu Pkomu
+				    Sha-Pomp Wruuba Shout Sha-Ashouw Dufun Sha-Oukam Sha-Gosod Buushu Sha-Ao Sha-Mushim Sha-Shoummid 
+				    Nguuksho Drukuw Sha-Ibu Prasibush Sha-Kuuwumn Protu Sha-Wongpt Sha-Prouf Sha-Puur Drom Pumpou
+				    Sha-Shruungpt Sha-Mroud Sha-Ufu Sha-Uush Sha-Gof Sha-Pouu }
+   		}
+
+    roshupt = {
+	  color = { 111 148 126 }
+        	first_names = { Fouhki Drihd Ourumri Druwoub Uush Mod H'Koum Droum H'Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
+				    Tangad Bouhw Fimpu Kuhwu Shove Wudrou Oro Shruhki Wahdimni Ouhki Vodrid Uptahdi Mrowub Rush Prummu
+				    Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
+
+        	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Toumbomput }
+    }
+}
+
+peninsular_diwvo = {
+    leader = european
+    unit = EuropeanGC
+
+    pruuntish = {
+	  color = { 90 161 105 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+	#tag = ???
+
+}
+
+surgoian = {
+    leader = european
+    unit = EuropeanGC
+
+    maumoujoy = { #mau?oujoy
+	  color = { 65 1 111 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+    yamoujoy = { #ya?oujoy
+	  color = { 115 175 72 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+    takemoujoy = { #take?oujoy
+	  color = { 1 111 59 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+    miegpaup = { 
+	  color = { 227 255 61 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+    gopza = { 
+	  color = { 255 249 96 }
+        	first_names = {  }
+
+	      last_names = {  }
+    }
+
+    unaian = {
+	  color = { 220 160 235 }
+        	first_names = { Uni }
+
+	      last_names = {  }
+    }
+
+}
+
+byotrish = {
+    leader = european
+    unit = EuropeanGC
+
+    ghechi = {
+	  color = { 45 75 145 }
+        	first_names = { Kyun Tha Reyq Ma´ykmo´ Emy Kug Then Kyipt Om Nop Rodree Threer }
+
+	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno´thed Dibyu 
+				   Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
+                           Byob Qipt }
+    }
+
+    anuvo = {
+	  color = { 102 10 32 }
+        	first_names = { Kyun Tha Reyq Ma´ykmo´ Emy Kug Then Kyipt Om Nop Rodree Threer }
+
+	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno´thed Dibyu 
+				   Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
+                           Byob Qipt }
+    }
+
+   shagmodt = {
+	  color = { 235 64 52 }
+        	first_names = { Kyun Tha Reyq Ma´ykmo´ Emy Kug Then Kyipt Om Nop Rodree Threer }
+
+	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno´thed Dibyu 
+				Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
+                           	Byob Qipt }
+    }
+
+}
+
+sitheve = { #sithev´e
+    leader = european
+    unit = EuropeanGC
+
+    hahuibi = {
+	  color = { 253 230 69 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub  }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    hahabi = {
+	  color = { 26 69 69 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub  }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    sevuma = {
+	  color = { 83 70 158 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub  }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    thesathi = {
+	  color = { 16 207 158 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    sithuchi = {
+	  color = { 162 207 158 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    chyothit = {
+	  color = { 162 70 158 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    tufume = { #tu´fume
+	  color = { 155 69 69 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+    vufami = { #tu´fume
+	  color = { 235 169 23 }
+	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
+                            Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
+
+        	last_names = { Fob U´ge Sichy Fub Biso Bathe V´ab Wuhi Som Hog Ruv Yoth Wiu´ Fuwa Rog Evoo Tosu V´uthi Sog Reth
+		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
+
+
+}
+
+vuyti = {
+    leader = european
+    unit = EuropeanGC
+
+    paguyti = { 
+	  color = { 80 145 1 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    vupuyti = { #vupuyti
+	  color = { 255 1 16 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+
+}
+
+huighian = {
+    leader = european
+    unit = EuropeanGC
+
+    eshemi = { 
+	  color = { 70 170 67 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    duyo = { 
+	  color = { 196 54 54 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    dehuogi = { 
+	  color = { 116 38 168 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    bogoran = { 
+	  color = { 31 212 168 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######## VANILLA #########
+
 germanic = {
 	leader = european
 	unit = EuropeanGC

@@ -2,6 +2,104 @@
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
+
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+# Colors: RGB - https://tug.org/pracjourn/2007-4/walden/color.pdf
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+paganism = {
+
+    pagan = {
+        icon = 1
+        color = { 0.0 0.0 0.0 }
+        pagan = yes
+    }
+}
+
+gashdzii_religion = {
+
+    #maftic = {
+    #    icon = 5
+    #    color = { 0.5 0.9 0.3 } #green
+    #}
+
+    #guzzadtic = {
+    #    icon = 3
+    #    color = { 0.5 0.9 1.0 } #blue
+    #}
+
+    #buzzamnanic = {
+    #    icon = 2
+    #    color = { 0.7 0.1 0.2 } #red
+    #}
+
+    #dozhktic = {
+    #    icon = 4
+    #    color = { 0.8 0.3 0.0 } #orange
+    #}
+
+    kadkohi = { #Kâdkohi
+        icon = 2
+        color = { 0.7 0.1 0.2 } #all four of the above
+    }
+
+    motkohnic = {
+        icon = 8
+        color = { 0.5 0.0 0.0 } #southern prophet
+    }
+}
+
+sedentarianism = {
+
+    tehuhrite = {
+        icon = 9
+        color = { 1.0 1.0 1.0 }
+    }
+
+}
+
+poumnian_religion = {
+
+    wompowushan = {
+        icon = 7
+        color = { 0.0 0.7 0.5 }
+    }
+
+}
+
+pruuntish_religion = {
+
+    shamush = {
+        icon = 1
+        color = { 0.3 0.0 0.4 }
+    }
+
+}
+
+cult_of_vewug  = {
+
+    vewugi = { #Vewúg
+        icon = 6
+        color = { 1.0 1.0 0.1 }
+    }
+
+}
+
+nautau_group = {
+
+    nautau = { #Nau'Tau
+        icon = 1
+        color = { 0.9 0.6 0.1 }
+    }
+
+}
+
+
+
+
+#### VANILLA ############
+
+
 christian = {
 
 	catholic = {
