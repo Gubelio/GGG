@@ -20,7 +20,7 @@ gashdzii = {
     }
 
 	south_gashdzii = {
-	  color = { 181 144 1 }
+	  color = { 201 133 30 }
         	first_names = { Bazadamaz Vazamak }
 
 	        last_names = { Paupiizh Gaufiizh Cha^kdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Cha^diizh Zhiiziizh Pifshopazh Zhof Fiifa^zh
@@ -57,12 +57,19 @@ diwvo = {
    		}
 
     roshupt = {
-	  color = { 111 148 126 }
+	  color = { 69 138 119 }
         	first_names = { Fouhki Drihd Ourumri Druwoub Uush Mod H'Koum Droum H'Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
 				    Tangad Bouhw Fimpu Kuhwu Shove Wudrou Oro Shruhki Wahdimni Ouhki Vodrid Uptahdi Mrowub Rush Prummu
 				    Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
 
         	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Toumbomput }
+    }
+
+    towuzhan = {
+	  color = { 161 191 182 }
+        	first_names = {  }
+
+        	last_names = {  }
     }
 }
 
@@ -71,7 +78,7 @@ peninsular_diwvo = {
     unit = EuropeanGC
 
     pruuntish = {
-	  color = { 90 161 105 }
+	  color = { 2 82 60 }
         	first_names = {  }
 
 	      last_names = {  }
@@ -134,7 +141,7 @@ byotrish = {
     unit = EuropeanGC
 
     ghechi = {
-	  color = { 45 75 145 }
+	  color = { 143 43 64 }
         	first_names = { Kyun Tha Reyq Ma´ykmo´ Emy Kug Then Kyipt Om Nop Rodree Threer }
 
 	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno´thed Dibyu 
@@ -152,7 +159,7 @@ byotrish = {
     }
 
    shagmodt = {
-	  color = { 235 64 52 }
+	  color = { 171 3 3 }
         	first_names = { Kyun Tha Reyq Ma´ykmo´ Emy Kug Then Kyipt Om Nop Rodree Threer }
 
 	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno´thed Dibyu 
@@ -176,7 +183,7 @@ sitheve = { #sithev´e
     }
 
     hahabi = {
-	  color = { 26 69 69 }
+	  color = { 153 139 49 }
 	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
                             Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub  }
 
@@ -185,7 +192,7 @@ sitheve = { #sithev´e
     }
 
     sevuma = {
-	  color = { 83 70 158 }
+	  color = { 217 199 108 }
 	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
                             Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub  }
 
@@ -194,7 +201,7 @@ sitheve = { #sithev´e
     }
 
     thesathi = {
-	  color = { 16 207 158 }
+	  color = { 245 212 49 }
 	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
                             Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
 
@@ -229,8 +236,8 @@ sitheve = { #sithev´e
 		      	   Misa V´uv´a Wob Bev Iv´u´t Vowi Bofe Tooth Ovu´ Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
     }
 
-    vufami = { #tu´fume
-	  color = { 235 169 23 }
+    vufami = { 
+	  color = { 250 222 130 }
 	      first_names = { Wiwu´chy Fithaoog Chyooha Toosob V´othayat Bochyet Sesooga Fu´wu´mug Masogu Thirim Chyichy Oov´ure 
                             Tichyoth Vuthohi Ru´v´ib Ru´chy Vethuchyub }
 
@@ -246,14 +253,14 @@ vuyti = {
     unit = EuropeanGC
 
     paguyti = { 
-	  color = { 80 145 1 }
+	  color = { 159 191 113 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
     vupuyti = { #vupuyti
-	  color = { 255 1 16 }
+	  color = { 25 117 43 }
 	      first_names = {  }
 
         	last_names = {  }
@@ -298,9 +305,32 @@ huighian = {
 }
 
 
+duttuphti = {
+    leader = european
+    unit = EuropeanGC
+
+    unnahu = { 
+	  color = { 186 180 2 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
 
 
+thihudian = {
+    leader = european
+    unit = EuropeanGC
 
+    ihntithot = { 
+	  color = { 201 83 192 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
 
 
 
