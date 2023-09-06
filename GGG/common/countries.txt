@@ -1,17 +1,21 @@
-#Please keep tags sorted alphabetically when you add/remove country tags
+#Please keep tags sorted alphabetically when you add/remove country tags #no, fuck you
 
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
-#Placeholder tags
-ENG		= "countries/United Kingdom.txt"
-RUS		= "countries/Russia.txt"
-FRA		= "countries/France.txt"
-PRU		= "countries/Prussia.txt"
-AUS		= "countries/Austria.txt"
-USA		= "countries/USA.txt"
-SPA		= "countries/Spain.txt"
-TUR		= "countries/Ottoman Empire.txt"
+#ISHAHFAZH
+POU		= "countries/Poumnia.txt"
+VOK		= "countries/Vokonazh.txt"
+JII		= "countries/Jiishanag.txt" #Jiishanâg
+HAH		= "countries/Hahaboroo.txt"
+VUG		= "countries/Vugioroo.txt" #Sublime Veyethu
+SOG		= "countries/Sog.txt"
+GHE		= "countries/Ghechi Confederacy.txt"
+VAF		= "countries/Vafaut.txt" #Vâfaut
+SHU		= "countries/Shuknazh.txt"
+PAK		= "countries/Paknag.txt"
+GOZ		= "countries/Gozonazh.txt"
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
