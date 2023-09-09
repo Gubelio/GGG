@@ -1,0 +1,32 @@
+capital = 310
+primary_culture = paguyti
+religion = pagan
+government = absolute_monarchy #parliamentary_despotate
+plurality = 5.0
+nationalvalue = nv_autocracy
+literacy = 0.01
+non_state_culture_literacy = 0.01
+civilized = no
+
+# Political reforms
+
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	fascist = 0
+	liberal = 25
+	conservative = 65
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = pagan_country
