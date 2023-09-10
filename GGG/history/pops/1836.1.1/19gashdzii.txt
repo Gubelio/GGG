@@ -10987,3 +10987,5511 @@
 
 }
 
+521 = {
+
+
+
+	thralls = {
+		culture = duyo
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = duyo
+		religion = motkohnic
+		size = 0
+	}
+
+	slaves = {
+		culture = duyo
+		religion = motkohnic
+		size = 11
+	}
+
+	farmers = {
+		culture = duyo
+		religion = motkohnic
+		size = 0
+	}
+
+	soldiers = {
+		culture = duyo
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = duyo
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = duyo
+		religion = kadkohi
+		size = 0
+	}
+
+	slaves = {
+		culture = duyo
+		religion = kadkohi
+		size = 12
+	}
+
+	farmers = {
+		culture = duyo
+		religion = kadkohi
+		size = 0
+	}
+
+	soldiers = {
+		culture = duyo
+		religion = kadkohi
+		size = 0
+	}
+
+	thralls = {
+		culture = duyo
+		religion = pagan
+		size = 1
+	}
+
+	serfs = {
+		culture = duyo
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = duyo
+		religion = pagan
+		size = 39
+	}
+
+	farmers = {
+		culture = duyo
+		religion = pagan
+		size = 1
+	}
+
+	soldiers = {
+		culture = duyo
+		religion = pagan
+		size = 0
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 74
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 3
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 57
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 38
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1738
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 86
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 9
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 8
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 5
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 263
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 13
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 1
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 5
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 3
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 173
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 8
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = pagan
+		size = 2
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = pagan
+		size = 1
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = pagan
+		size = 74
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = pagan
+		size = 3
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = pagan
+		size = 0
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = kadkohi
+		size = 8
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = kadkohi
+		size = 6
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = kadkohi
+		size = 175
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = kadkohi
+		size = 96
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = kadkohi
+		size = 5
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = motkohnic
+		size = 22
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = motkohnic
+		size = 15
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = motkohnic
+		size = 445
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 245
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 13
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = pagan
+		size = 3
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = pagan
+		size = 61
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = pagan
+		size = 33
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = pagan
+		size = 1
+	}
+
+	serfs = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 14
+	}
+
+	officers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	farmers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 642
+	}
+
+	soldiers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 13
+	}
+
+	artisans = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 52
+	}
+
+	clergymen = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 7
+	}
+
+
+
+	aristocrats = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 11
+	}
+
+
+	farmers = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 19
+	}
+
+	soldiers = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	clergymen = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 8
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 373
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 7
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 30
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 6
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 4
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 175
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 14
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 10
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 461
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 9
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 37
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 8
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 365
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 24
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 243
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1704
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 438
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 21057
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 24
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 486
+	}
+
+}
+
+522 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 223
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 148
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 6690
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 334
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 37
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 91
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 60
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 2740
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 137
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 15
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 16
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 10
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 488
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 24
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 2
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 13
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 8
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 390
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 19
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 2
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = pagan
+		size = 5
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = pagan
+		size = 3
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = pagan
+		size = 173
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = pagan
+		size = 8
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = pagan
+		size = 0
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 24
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1067
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 22
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 86
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 12
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 694
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 46
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 463
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3241
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 833
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 40059
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 46
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 926
+	}
+
+}
+
+523 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 6
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 4
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 182
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 9
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 30
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 20
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 920
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 46
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 5
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 115
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 76
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 3458
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 172
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 19
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 57
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 38
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 1738
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 86
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 9
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = pagan
+		size = 61
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = pagan
+		size = 40
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = pagan
+		size = 1830
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = pagan
+		size = 91
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = pagan
+		size = 10
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 19
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 851
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 17
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 68
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 9
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 14
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 846
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 564
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3950
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1015
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 48814
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 56
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1128
+	}
+
+}
+
+524 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 12
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 8
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 362
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 18
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 39
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 26
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1190
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 59
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 6
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 11
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 7
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 354
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 17
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 1
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 8
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 5
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 263
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 13
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 1
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = pagan
+		size = 3
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = pagan
+		size = 92
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = pagan
+		size = 4
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = pagan
+		size = 0
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 20
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 1
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 894
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 18
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 72
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 10
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 1
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 15
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 9
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 392
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 8
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 31
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 6
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 8
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 375
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 7
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 30
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 965
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 64
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 643
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 4504
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1158
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 55660
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 64
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1286
+	}
+
+}
+
+525 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 61
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 40
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1838
+	}
+
+	labourers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 91
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 10
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 6
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 4
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 209
+	}
+
+	labourers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 10
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 206
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 10
+	}
+
+	labourers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 8946
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 186
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 724
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 103
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 10
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 155
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 138
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 9
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 92
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 646
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 166
+	}
+
+
+	labourers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 7987
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 9
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 184
+	}
+
+}
+
+526 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 73
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 48
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2191
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 109
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 12
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 151
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 100
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 4530
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 226
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 25
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 10
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 6
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 309
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 15
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 1
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 8
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 5
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 263
+	}
+
+	farmers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 13
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 769
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 38
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 33262
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 692
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2691
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 384
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 38
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 576
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 155
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 10
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 103
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 724
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 186
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 8946
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 10
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 206
+	}
+
+}
+
+527 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 40
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 27
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1216
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 60
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 6
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 30
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 20
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 920
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 46
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 5
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 76
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3306
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 68
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 267
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 38
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 57
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 88
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 7
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 506
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 25
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 21923
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 456
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1774
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 253
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 25
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 380
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 351
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 23
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 234
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1641
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 422
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 20286
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 23
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 469
+	}
+
+}
+
+528 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 27
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 14
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 9
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 443
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 22
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 2
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 7
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 340
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 7
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 27
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 5
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 19
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 149
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 7
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 6472
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 134
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 523
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 74
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 7
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 112
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 81
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 5
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 54
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 380
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 97
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 4698
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 5
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 108
+	}
+
+}
+
+529 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 177
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 118
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 5338
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 266
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 29
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 907
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 604
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 27218
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1360
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 151
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 20
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 884
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 18
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 71
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 10
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 518
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 34
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 345
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2418
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 621
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 29887
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 34
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 691
+	}
+
+}
+
+530 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 30
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 20
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 920
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 46
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 5
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 117
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 78
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 3530
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 176
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 19
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 42
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1836
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 38
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 148
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 21
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 31
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 681
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 454
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3180
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 817
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 39298
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 45
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 908
+	}
+
+}
+
+531 = {
+
+
+
+	thralls = {
+		culture = anuvo
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = motkohnic
+		size = 0
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = motkohnic
+		size = 21
+	}
+
+	farmers = {
+		culture = anuvo
+		religion = motkohnic
+		size = 1
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = anuvo
+		religion = kadkohi
+		size = 2
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = kadkohi
+		size = 1
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = kadkohi
+		size = 74
+	}
+
+	farmers = {
+		culture = anuvo
+		religion = kadkohi
+		size = 3
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = kadkohi
+		size = 0
+	}
+
+	thralls = {
+		culture = anuvo
+		religion = pagan
+		size = 1
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = pagan
+		size = 1
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = pagan
+		size = 47
+	}
+
+	farmers = {
+		culture = anuvo
+		religion = pagan
+		size = 2
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = pagan
+		size = 0
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 253
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 169
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 7610
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 380
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 42
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 117
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 78
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 3538
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 176
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 19
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 706
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 35
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 30572
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 636
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2474
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 353
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 35
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 530
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 935
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 62
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 623
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 4363
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1122
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 53920
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 62
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1246
+	}
+
+}
+
+532 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1993
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 306
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 12266
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 689
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 76
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 509
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 78
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 3138
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 176
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 19
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 46
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2027
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 42
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 164
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 35
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 531
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 35
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 354
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2480
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 637
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 30648
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 35
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 708
+	}
+
+}
+
+533 = {
+
+
+
+	labourers = {
+		culture = sithuchi
+		religion = motkohnic
+		size = 928
+	}
+
+	artisans = {
+		culture = sithuchi
+		religion = motkohnic
+		size = 1393
+	}
+
+	labourers = {
+		culture = sithuchi
+		religion = vewugi
+		size = 1465
+	}
+
+	artisans = {
+		culture = sithuchi
+		religion = vewugi
+		size = 977
+	}
+
+	labourers = {
+		culture = sevuma
+		religion = motkohnic
+		size = 537
+	}
+
+	artisans = {
+		culture = sevuma
+		religion = motkohnic
+		size = 805
+	}
+
+	labourers = {
+		culture = sevuma
+		religion = vewugi
+		size = 613
+	}
+
+	artisans = {
+		culture = sevuma
+		religion = vewugi
+		size = 409
+	}
+
+	labourers = {
+		culture = poumnian
+		religion = motkohnic
+		size = 161
+	}
+
+	artisans = {
+		culture = poumnian
+		religion = motkohnic
+		size = 241
+	}
+
+	labourers = {
+		culture = poumnian
+		religion = wompowushan
+		size = 690
+	}
+
+	soldiers = {
+		culture = poumnian
+		religion = wompowushan
+		size = 13
+	}
+
+	artisans = {
+		culture = poumnian
+		religion = wompowushan
+		size = 87
+	}
+
+	thralls = {
+		culture = ghechi
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = ghechi
+		religion = motkohnic
+		size = 9
+	}
+
+	slaves = {
+		culture = ghechi
+		religion = motkohnic
+		size = 128
+	}
+
+	labourers = {
+		culture = ghechi
+		religion = motkohnic
+		size = 79
+	}
+
+	soldiers = {
+		culture = ghechi
+		religion = motkohnic
+		size = 4
+	}
+
+	artisans = {
+		culture = ghechi
+		religion = motkohnic
+		size = 11
+	}
+
+	thralls = {
+		culture = ghechi
+		religion = vewugi
+		size = 0
+	}
+
+	serfs = {
+		culture = ghechi
+		religion = vewugi
+		size = 59
+	}
+
+	slaves = {
+		culture = ghechi
+		religion = vewugi
+		size = 793
+	}
+
+	labourers = {
+		culture = ghechi
+		religion = vewugi
+		size = 492
+	}
+
+	soldiers = {
+		culture = ghechi
+		religion = vewugi
+		size = 25
+	}
+
+	artisans = {
+		culture = ghechi
+		religion = vewugi
+		size = 72
+	}
+
+	thralls = {
+		culture = duyo
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = duyo
+		religion = motkohnic
+		size = 50
+	}
+
+	slaves = {
+		culture = duyo
+		religion = motkohnic
+		size = 672
+	}
+
+	labourers = {
+		culture = duyo
+		religion = motkohnic
+		size = 417
+	}
+
+	soldiers = {
+		culture = duyo
+		religion = motkohnic
+		size = 22
+	}
+
+	artisans = {
+		culture = duyo
+		religion = motkohnic
+		size = 61
+	}
+
+	thralls = {
+		culture = duyo
+		religion = pagan
+		size = 0
+	}
+
+	serfs = {
+		culture = duyo
+		religion = pagan
+		size = 132
+	}
+
+	slaves = {
+		culture = duyo
+		religion = pagan
+		size = 1777
+	}
+
+	labourers = {
+		culture = duyo
+		religion = pagan
+		size = 1102
+	}
+
+	soldiers = {
+		culture = duyo
+		religion = pagan
+		size = 58
+	}
+
+	artisans = {
+		culture = duyo
+		religion = pagan
+		size = 161
+	}
+
+	thralls = {
+		culture = chyothit
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = chyothit
+		religion = motkohnic
+		size = 41
+	}
+
+	slaves = {
+		culture = chyothit
+		religion = motkohnic
+		size = 562
+	}
+
+	labourers = {
+		culture = chyothit
+		religion = motkohnic
+		size = 348
+	}
+
+	soldiers = {
+		culture = chyothit
+		religion = motkohnic
+		size = 18
+	}
+
+	artisans = {
+		culture = chyothit
+		religion = motkohnic
+		size = 51
+	}
+
+	thralls = {
+		culture = chyothit
+		religion = vewugi
+		size = 0
+	}
+
+	serfs = {
+		culture = chyothit
+		religion = vewugi
+		size = 83
+	}
+
+	slaves = {
+		culture = chyothit
+		religion = vewugi
+		size = 1118
+	}
+
+	labourers = {
+		culture = chyothit
+		religion = vewugi
+		size = 693
+	}
+
+	soldiers = {
+		culture = chyothit
+		religion = vewugi
+		size = 36
+	}
+
+	artisans = {
+		culture = chyothit
+		religion = vewugi
+		size = 101
+	}
+
+	thralls = {
+		culture = anuvo
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = motkohnic
+		size = 18
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = motkohnic
+		size = 249
+	}
+
+	labourers = {
+		culture = anuvo
+		religion = motkohnic
+		size = 154
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = motkohnic
+		size = 8
+	}
+
+	artisans = {
+		culture = anuvo
+		religion = motkohnic
+		size = 22
+	}
+
+	thralls = {
+		culture = anuvo
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = kadkohi
+		size = 13
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = kadkohi
+		size = 177
+	}
+
+	labourers = {
+		culture = anuvo
+		religion = kadkohi
+		size = 110
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = kadkohi
+		size = 5
+	}
+
+	artisans = {
+		culture = anuvo
+		religion = kadkohi
+		size = 16
+	}
+
+	thralls = {
+		culture = anuvo
+		religion = wompowushan
+		size = 0
+	}
+
+	serfs = {
+		culture = anuvo
+		religion = wompowushan
+		size = 50
+	}
+
+	slaves = {
+		culture = anuvo
+		religion = wompowushan
+		size = 677
+	}
+
+	labourers = {
+		culture = anuvo
+		religion = wompowushan
+		size = 420
+	}
+
+	soldiers = {
+		culture = anuvo
+		religion = wompowushan
+		size = 22
+	}
+
+	artisans = {
+		culture = anuvo
+		religion = wompowushan
+		size = 61
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 83
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1118
+	}
+
+	labourers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 693
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 36
+	}
+
+	artisans = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 101
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 3
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1403
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 18877
+	}
+
+	labourers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 11704
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 617
+	}
+
+	artisans = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 1716
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 83
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 1117
+	}
+
+	labourers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 692
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 36
+	}
+
+	artisans = {
+		culture = vupuyti
+		religion = kadkohi
+		size = 101
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 217
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 2927
+	}
+
+	labourers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 1815
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 95
+	}
+
+	artisans = {
+		culture = vupuyti
+		religion = motkohnic
+		size = 266
+	}
+
+	thralls = {
+		culture = vupuyti
+		religion = pagan
+		size = 0
+	}
+
+	serfs = {
+		culture = vupuyti
+		religion = pagan
+		size = 186
+	}
+
+	slaves = {
+		culture = vupuyti
+		religion = pagan
+		size = 2505
+	}
+
+	labourers = {
+		culture = vupuyti
+		religion = pagan
+		size = 1553
+	}
+
+	soldiers = {
+		culture = vupuyti
+		religion = pagan
+		size = 81
+	}
+
+	artisans = {
+		culture = vupuyti
+		religion = pagan
+		size = 227
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = kadkohi
+		size = 205
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = kadkohi
+		size = 2768
+	}
+
+	labourers = {
+		culture = paguyti
+		religion = kadkohi
+		size = 1716
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = kadkohi
+		size = 90
+	}
+
+	artisans = {
+		culture = paguyti
+		religion = kadkohi
+		size = 251
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = motkohnic
+		size = 141
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = motkohnic
+		size = 1900
+	}
+
+	labourers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 1178
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 62
+	}
+
+	artisans = {
+		culture = paguyti
+		religion = motkohnic
+		size = 172
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = pagan
+		size = 0
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = pagan
+		size = 205
+	}
+
+	slaves = {
+		culture = paguyti
+		religion = pagan
+		size = 2768
+	}
+
+	labourers = {
+		culture = paguyti
+		religion = pagan
+		size = 1716
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = pagan
+		size = 90
+	}
+
+	artisans = {
+		culture = paguyti
+		religion = pagan
+		size = 251
+	}
+
+	serfs = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 9
+	}
+
+	officers = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 0
+	}
+
+	labourers = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 361
+	}
+
+	soldiers = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 8
+	}
+
+	artisans = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 54
+	}
+
+	clergymen = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = north_gashdzii
+		religion = vewugi
+		size = 6
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 10
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 0
+	}
+
+	labourers = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 423
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 9
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 63
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = vewugi
+		size = 7
+	}
+
+	serfs = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 126
+	}
+
+	officers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 6
+	}
+
+	labourers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 5044
+	}
+
+	soldiers = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 114
+	}
+
+	artisans = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 761
+	}
+
+	clergymen = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 63
+	}
+
+	bureaucrats = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 6
+	}
+
+	aristocrats = {
+		culture = north_gashdzii
+		religion = kadkohi
+		size = 95
+	}
+
+	serfs = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 46
+	}
+
+	officers = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	labourers = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 1863
+	}
+
+	soldiers = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 42
+	}
+
+	artisans = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 281
+	}
+
+	clergymen = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	aristocrats = {
+		culture = north_gashdzii
+		religion = motkohnic
+		size = 35
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 244
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 12
+	}
+
+	labourers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 9726
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 220
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 1468
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 122
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 12
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 183
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 68
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	labourers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 2706
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 61
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 408
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 34
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 51
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 349
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 17
+	}
+
+	labourers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 13877
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 314
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2094
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 174
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 17
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 261
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 5631
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 375
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3754
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 45054
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 6758
+	}
+
+
+	labourers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 298486
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 375
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 7509
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 23
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 15
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 185
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 27
+	}
+
+
+	labourers = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 1226
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = vewugi
+		 size = 30
+	}
+
+}
+
+534 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 252
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 168
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 7588
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 396
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 42
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 174
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 348
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 15689
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 819
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 87
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 166
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 8
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 7199
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 149
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 582
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 83
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 8
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 124
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2015
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 134
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1343
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 9403
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2418
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 116198
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 134
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2686
+	}
+
+}
+
+535 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 43
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 86
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 3898
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 281
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 21
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 98
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 196
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 8849
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 639
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 49
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 64
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2795
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 58
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 226
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 32
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 48
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1024
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 68
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 683
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 4783
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1229
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 59107
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 68
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1366
+	}
+
+}
+
+536 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 29
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 58
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2639
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 190
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 14
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 143
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 286
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 12898
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 931
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 71
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 46
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2018
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 41
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 163
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 34
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2464
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 164
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1643
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 11502
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2957
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 142138
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 164
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3286
+	}
+
+}
+
+537 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 3
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 172
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 12
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 0
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 84
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 168
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 7589
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 548
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 42
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 118
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 5
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 5132
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 106
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 415
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 59
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 5
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 88
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 593
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 39
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 395
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2768
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 711
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 34205
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 39
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 790
+	}
+
+}
+
+538 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 120
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 60
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2719
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 105
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 15
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 373
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 186
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 8398
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 326
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 46
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 66
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2873
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 59
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 232
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 33
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 49
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 949
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 63
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 633
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 4433
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1139
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 54782
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 63
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1266
+	}
+
+}
+
+539 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 117
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 58
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 2639
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 102
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 14
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 617
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 308
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 13889
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 540
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 77
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 46
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2026
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 42
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 164
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 2
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 35
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1174
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 78
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 783
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 5483
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1409
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 67758
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 78
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1566
+	}
+
+}
+
+540 = {
+
+
+
+	thralls = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 73
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 146
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 6600
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 476
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = motkohnic
+		size = 36
+	}
+
+	thralls = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 83
+	}
+
+	serfs = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 166
+	}
+
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 7500
+	}
+
+	farmers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 541
+	}
+
+	soldiers = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 41
+	}
+
+	serfs = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 406
+	}
+
+	officers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 20
+	}
+
+	farmers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 17587
+	}
+
+	soldiers = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 365
+	}
+
+	artisans = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 1423
+	}
+
+	clergymen = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 203
+	}
+
+	bureaucrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 20
+	}
+
+	aristocrats = {
+		culture = west_gashdzii
+		religion = motkohnic
+		size = 304
+	}
+
+	aristocrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2316
+	}
+
+
+	bureaucrats = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 154
+	}
+
+
+	clergymen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 1544
+	}
+
+
+	artisans = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 10810
+	}
+
+
+	soldiers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 2779
+	}
+
+
+	farmers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 133584
+	}
+
+
+	officers = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 154
+	}
+
+
+	serfs = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 3088
+	}
+
+}
+
