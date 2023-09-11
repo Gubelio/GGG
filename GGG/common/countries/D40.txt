@@ -3,7 +3,7 @@ graphical_culture = EuropeanGC # inherit
 
 party = {
 	name = "dominion_conservative"
-	start_date = 1835.1.1
+	start_date = 1307.1.1
 	end_date = 1937.1.1
 
 	ideology = conservative
@@ -17,7 +17,7 @@ party = {
 
 party = {
 	name = "dominion_reactionary"
-	start_date = 1835.1.1
+	start_date = 1307.1.1
 	end_date = 1937.1.1
 
 	ideology = reactionary
@@ -31,7 +31,7 @@ party = {
 
 party = {
 	name = "dominion_liberal"
-	start_date = 1835.1.1
+	start_date = 1320.1.1
 	end_date = 1937.1.1
 
 	ideology = liberal
@@ -45,7 +45,7 @@ party = {
 
 party = {
 	name = "dominion_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1330.1.1
 	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
@@ -59,7 +59,7 @@ party = {
 
 party = {
 	name = "dominion_socialist"
-	start_date = 1848.1.1
+	start_date = 1307.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
@@ -73,7 +73,7 @@ party = {
 
 party = {
 	name = "dominion_communist"
-	start_date = 1848.1.1
+	start_date = 1307.1.1
 	end_date = 2000.1.1
 
 	ideology = communist
@@ -87,7 +87,7 @@ party = {
 
 party = {
 	name = "dominion_fascist"
-	start_date = 1905.1.1
+	start_date = 1370.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist
