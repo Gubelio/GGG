@@ -27,8 +27,8 @@
 #po_make_puppet
 #po_release_puppet
 #po_status_quo
-#po_install_communist_gov_type
-#po_uninstall_communist_gov_type
+#po_install_radical_liberationist_gov_type
+#po_uninstall_radical_liberationist_gov_type
 #po_remove_cores
 #po_colony
 
@@ -68,8 +68,8 @@ unification_casus_belli
 unification_annex_casus_belli
 rude_boy
 annex
-install_communist_gov_cb
-uninstall_communist_gov_cb
+install_radical_liberationist_gov_cb
+uninstall_radical_liberationist_gov_cb
 great_war_penalty_cb 
 }
 
@@ -1554,8 +1554,8 @@ rude_boy = {
 	}
 }
 
-# Install Communist Government
-install_communist_gov_cb = {
+# Install radical_liberationist Government
+install_radical_liberationist_gov_cb = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
@@ -1580,21 +1580,21 @@ install_communist_gov_cb = {
 			# If actor is a great power
 			is_greater_power = yes
 			
-			# If actor gov truly communist
+			# If actor gov truly radical_liberationist
 			government = proletarian_dictatorship
 			
-			# If actor ruling party is communist
-			ruling_party_ideology = communist
+			# If actor ruling party is radical_liberationist
+			ruling_party_ideology = radical_liberationist
 		}
 		
 		AND = {
-			# If reciever ruling party is not a communist
+			# If reciever ruling party is not a radical_liberationist
 			#NOT = {
-			#	ruling_party_ideology = communist
+			#	ruling_party_ideology = radical_liberationist
 			#}
 			
-			# There are some amount of communist already in the country
-			communist = 0.1
+			# There are some amount of radical_liberationist already in the country
+			radical_liberationist = 0.1
 				
 			# If reciever current gov is not proletarian_dictatorship
 			NOT = {
@@ -1606,7 +1606,7 @@ install_communist_gov_cb = {
 		}
 	}
 	
-	po_install_communist_gov_type = yes
+	po_install_radical_liberationist_gov_type = yes
 
 	war_name = WAR_NAME
 	
@@ -1628,14 +1628,14 @@ install_communist_gov_cb = {
 	}
 }
 
-# Revert from Communist Government
-uninstall_communist_gov_cb = {
+# Revert from radical_liberationist Government
+uninstall_radical_liberationist_gov_cb = {
 	sprite_index = 13
 	is_triggered_only = yes
 	months = 12
 	crisis = no
 	
-	# Is automatically added to countries that intervened at while install_communist_gov_cb
+	# Is automatically added to countries that intervened at while install_radical_liberationist_gov_cb
 	# so they can revert those countries government.
 	constructing_cb = no
 
@@ -1655,9 +1655,9 @@ uninstall_communist_gov_cb = {
 
 	can_use = {
 		THIS = {
-			# If actor ruling party is not communist
+			# If actor ruling party is not radical_liberationist
 			NOT = {
-				ruling_party_ideology = communist
+				ruling_party_ideology = radical_liberationist
 			}
 		}
 		
@@ -1665,7 +1665,7 @@ uninstall_communist_gov_cb = {
 		government = proletarian_dictatorship
 	}
 	
-	po_uninstall_communist_gov_type = yes
+	po_uninstall_radical_liberationist_gov_type = yes
 
 	war_name = WAR_NAME
 	

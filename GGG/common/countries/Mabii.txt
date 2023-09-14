@@ -30,11 +30,11 @@ party = {
 }
 
 party = {
-	name = "dominion_liberal"
+	name = "dominion_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
-	ideology = liberal
+	ideology = statist
 
 	economic_policy = interventionism
 	trade_policy = free_trade
@@ -44,11 +44,11 @@ party = {
 }
 
 party = {
-	name = "dominion_anarcho_liberal"
+	name = "dominion_absolutist"
 	start_date = 1330.1.1
 	end_date = 2000.1.1
 
-	ideology = anarcho_liberal
+	ideology = absolutist
 
 	economic_policy = laissez_faire
 	trade_policy = free_trade
@@ -58,11 +58,11 @@ party = {
 }
 
 party = {
-	name = "dominion_socialist"
+	name = "dominion_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
-	ideology = socialist
+	ideology = liberationist
 
 	economic_policy = planned_economy
 	trade_policy = protectionism
@@ -72,11 +72,11 @@ party = {
 }
 
 party = {
-	name = "dominion_communist"
+	name = "dominion_radical_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
-	ideology = communist
+	ideology = radical_liberationist
 
 	economic_policy = planned_economy
 	trade_policy = protectionism
@@ -86,11 +86,11 @@ party = {
 }
 
 party = {
-	name = "dominion_fascist"
+	name = "dominion_theocratist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 
-	ideology = fascist
+	ideology = theocratist
 
 	economic_policy = state_capitalism
 	trade_policy = protectionism

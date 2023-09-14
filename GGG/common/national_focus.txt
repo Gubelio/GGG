@@ -234,9 +234,9 @@ production_focus =
 
 party_loyalty_focus =
 {
-	fascist_focus =
+	theocratist_focus =
 	{
-		ideology = fascist
+		ideology = theocratist
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 25
 	}
@@ -255,30 +255,30 @@ party_loyalty_focus =
 		icon = 27
 	}
 	
-	socialist_focus =
+	liberationist_focus =
 	{
-		ideology = socialist
+		ideology = liberationist
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 28
 	}
 	
-	communist_focus =
+	radical_liberationist_focus =
 	{
-		ideology = communist
+		ideology = radical_liberationist
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 29
 	}
 	
-	liberal_focus =
+	statist_focus =
 	{
-		ideology = liberal
+		ideology = statist
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 30
 	}
 	
-	anarcho_liberal_focus =
+	absolutist_focus =
 	{
-		ideology = anarcho_liberal
+		ideology = absolutist
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 31
 	}

@@ -15,8 +15,8 @@ academic_confusion = {
 	icon = 6
 }
 
-##### LIBERAL REVOLUTIONS #####
-liberal_agitation = {
+##### statist REVOLUTIONS #####
+statist_agitation = {
 	pop_consciousness_modifier = 0.1
 	icon = 4
 }
@@ -26,7 +26,7 @@ springtime_of_nations = {
 	icon = 8
 }
 
-global_liberal_agitation = {
+global_statist_agitation = {
 	core_pop_militancy_modifier = 0.02
 	global_pop_consciousness_modifier = 0.05
 	icon = 4
@@ -58,7 +58,7 @@ conservative_reaction = {
 	icon = 4
 }
 
-liberal_reaction = {
+statist_reaction = {
 	pop_consciousness_modifier = 0.01
 	icon = 4
 }
@@ -263,7 +263,7 @@ the_massacre = {
 	population_growth = -0.01
 	icon = 18
 }
-fascist_welfare = {
+theocratist_welfare = {
 	poor_everyday_needs = -0.1
 	population_growth = 0.001
 	icon = 12
