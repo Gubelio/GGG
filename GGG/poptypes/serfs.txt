@@ -70,7 +70,7 @@ ideologies = {
 
     reactionary = { factor = 1 }
 
-    socialist = {
+    liberationist = {
         factor = 2
         modifier = {
             factor = 1.5
@@ -98,9 +98,9 @@ ideologies = {
         }
     }
 
-    communist = { factor = 1 }
+    radical_liberationist = { factor = 1 }
 
-    liberal = {
+    statist = {
         factor = 1
         modifier = {
             factor = 1.2

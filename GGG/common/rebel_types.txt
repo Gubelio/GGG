@@ -23,7 +23,7 @@ reactionary_rebels = {
 		proletarian_dictatorship = presidential_dictatorship
 		presidential_dictatorship = absolute_monarchy
 		bourgeois_dictatorship = presidential_dictatorship
-		fascist_dictatorship = presidential_dictatorship
+		theocratist_dictatorship = presidential_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
@@ -85,7 +85,7 @@ reactionary_rebels = {
 				OR = {
 					pop_majority_ideology = reactionary
 					pop_majority_ideology = conservative
-					pop_majority_ideology = fascist
+					pop_majority_ideology = theocratist
 				}
 			}
 		}
@@ -124,7 +124,7 @@ reactionary_rebels = {
 				pop_majority_ideology = conservative
 				NOT = {
 					country = {
-						has_country_modifier = global_liberal_agitation
+						has_country_modifier = global_statist_agitation
 						has_country_modifier = springtime_of_nations	
 					}
 				}
@@ -209,9 +209,9 @@ reactionary_rebels = {
 }
 
 ###################################
-# Fascist Rebels
+# theocratist Rebels
 ###################################
-fascist_rebels = {
+theocratist_rebels = {
 	icon = 2
 	
 	area = nation 					# Stays within the nation
@@ -219,14 +219,14 @@ fascist_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = fascist_dictatorship
-		presidential_dictatorship = fascist_dictatorship
-		bourgeois_dictatorship = fascist_dictatorship
-		fascist_dictatorship = fascist_dictatorship
-		absolute_monarchy = fascist_dictatorship
-		prussian_constitutionalism = fascist_dictatorship
-		hms_government = fascist_dictatorship
-		democracy = fascist_dictatorship
+		proletarian_dictatorship = theocratist_dictatorship
+		presidential_dictatorship = theocratist_dictatorship
+		bourgeois_dictatorship = theocratist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
+		absolute_monarchy = theocratist_dictatorship
+		prussian_constitutionalism = theocratist_dictatorship
+		hms_government = theocratist_dictatorship
+		democracy = theocratist_dictatorship
 	}
 	
 	
@@ -234,7 +234,7 @@ fascist_rebels = {
 	independence = none				# Does not strive for independence
 	defect_delay = 18
 	
-	ideology = fascist
+	ideology = theocratist
 	
 	allow_all_cultures = yes
 	allow_all_religions = yes
@@ -288,7 +288,7 @@ fascist_rebels = {
 		modifier = {
 			factor = 0
 			NOT = {
-				is_ideology_enabled = fascist
+				is_ideology_enabled = theocratist
 			}
 		}
 		modifier = {
@@ -299,7 +299,7 @@ fascist_rebels = {
 				}
 			NOT = {		
 				OR = {
-					pop_majority_ideology = fascist
+					pop_majority_ideology = theocratist
 					pop_majority_ideology = reactionary
 					militancy = 5
 				}
@@ -313,14 +313,14 @@ fascist_rebels = {
 			factor = 0.01
 			NOT = {
 				OR = {
-					pop_majority_ideology = fascist
+					pop_majority_ideology = theocratist
 					pop_majority_ideology = reactionary
 				}
 			}
 		}
 		modifier = {
 			factor = 1.5
-			pop_majority_ideology = fascist
+			pop_majority_ideology = theocratist
 		}
 		modifier = {
 			factor = 0.2
@@ -410,9 +410,9 @@ fascist_rebels = {
 }
 
 ###################################
-# Communist Rebels
+# radical_liberationist Rebels
 ###################################
-communist_rebels = {
+radical_liberationist_rebels = {
 	icon = 3
 	
 	area = nation 					# Stays within the nation
@@ -423,7 +423,7 @@ communist_rebels = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = proletarian_dictatorship
 		bourgeois_dictatorship = proletarian_dictatorship
-		fascist_dictatorship = proletarian_dictatorship
+		theocratist_dictatorship = proletarian_dictatorship
 		absolute_monarchy = proletarian_dictatorship
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
@@ -435,7 +435,7 @@ communist_rebels = {
 	independence = none				# Does not strive for independence
 	defect_delay = 18
 	
-	ideology = communist
+	ideology = radical_liberationist
 	
 	allow_all_cultures = yes
 	allow_all_religions = yes
@@ -462,7 +462,7 @@ communist_rebels = {
 		modifier = {
 			factor = 0
 			NOT = {
-				is_ideology_enabled = communist
+				is_ideology_enabled = radical_liberationist
 			}
 		}
 		
@@ -505,7 +505,7 @@ communist_rebels = {
 		modifier = {
 			factor = 0
 			NOT = {
-				is_ideology_enabled = communist
+				is_ideology_enabled = radical_liberationist
 			}
 		}
 		modifier = {
@@ -526,18 +526,18 @@ communist_rebels = {
 			factor = 0.01
 			NOT = {
 				OR = {
-					pop_majority_ideology = communist
-					pop_majority_ideology = socialist
+					pop_majority_ideology = radical_liberationist
+					pop_majority_ideology = liberationist
 				}
 			}
 		}
 		modifier = {
 			factor = 1.3
-			pop_majority_ideology = communist
+			pop_majority_ideology = radical_liberationist
 		}
 		modifier = {
 			factor = 1.15
-			pop_majority_ideology = socialist
+			pop_majority_ideology = liberationist
 		}
 		modifier = {
 			factor = 1.015
@@ -622,9 +622,9 @@ communist_rebels = {
 }
 
 ###################################
-# Anarcho-Liberal Rebels
+# Anarcho-statist Rebels
 ###################################
-anarcho_liberal_rebels = {
+absolutist_rebels = {
 	icon = 4
 	
 	area = nation 					# Stays within the nation
@@ -635,7 +635,7 @@ anarcho_liberal_rebels = {
 		proletarian_dictatorship = bourgeois_dictatorship
 		presidential_dictatorship = bourgeois_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = bourgeois_dictatorship
+		theocratist_dictatorship = bourgeois_dictatorship
 		absolute_monarchy = bourgeois_dictatorship
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
@@ -647,7 +647,7 @@ anarcho_liberal_rebels = {
 	independence = none				# Does not strive for independence
 	defect_delay = 18
 	
-	ideology = anarcho_liberal
+	ideology = absolutist
 	
 	allow_all_cultures = yes
 	allow_all_religions = yes
@@ -694,7 +694,7 @@ anarcho_liberal_rebels = {
 		modifier = {
 			factor = 3
 			country = {
-				has_country_modifier = global_liberal_agitation
+				has_country_modifier = global_statist_agitation
 			}
 		}
 	}
@@ -706,8 +706,8 @@ anarcho_liberal_rebels = {
 			factor = 0.01
 			NOT = {
 				OR = {
-					pop_majority_ideology = anarcho_liberal
-					pop_majority_ideology = liberal
+					pop_majority_ideology = absolutist
+					pop_majority_ideology = statist
 				}
 			}
 		}
@@ -725,18 +725,18 @@ anarcho_liberal_rebels = {
 		modifier = {
 			factor = 0
 			NOT = {
-				is_ideology_enabled = anarcho_liberal
+				is_ideology_enabled = absolutist
 			}
 		}
 		
 		modifier = {
 			factor = 1.15
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 		
 		modifier = {
 			factor = 1.05
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 
 		modifier = {
@@ -830,7 +830,7 @@ nationalist_rebels = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
@@ -919,19 +919,19 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 1.01
-			pop_majority_ideology = communist
+			pop_majority_ideology = radical_liberationist
 		}
 		modifier = {
 			factor = 1.01
-			pop_majority_ideology = socialist
+			pop_majority_ideology = liberationist
 		}
 		modifier = {
 			factor = 1.03
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 		modifier = {
 			factor = 1.05
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 		modifier = {
 			factor = 1.07
@@ -943,7 +943,7 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 1.11
-			pop_majority_ideology = fascist
+			pop_majority_ideology = theocratist
 		}
 		
 
@@ -1046,7 +1046,7 @@ pan_nationalist_rebels = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
@@ -1057,7 +1057,7 @@ pan_nationalist_rebels = {
 	independence = none
 	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
 	
-	ideology = liberal
+	ideology = statist
 	allow_all_cultures = yes
 	allow_all_culture_groups = no
 	allow_all_religions = yes
@@ -1109,7 +1109,7 @@ pan_nationalist_rebels = {
 		modifier = {
 			factor = 1.5
 			country = {
-				has_country_modifier = global_liberal_agitation
+				has_country_modifier = global_statist_agitation
 			}
 		}
 	}
@@ -1161,7 +1161,7 @@ pan_nationalist_rebels = {
 			factor = 1.3
 			OR = {
 				country = {
-					has_country_modifier = global_liberal_agitation
+					has_country_modifier = global_statist_agitation
 					has_country_modifier = springtime_of_nations
 				}
 			}
@@ -1169,12 +1169,12 @@ pan_nationalist_rebels = {
 		
 		modifier = {
 			factor = 1.2
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 		
 		modifier = {
 			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 
 		modifier = {
@@ -1241,7 +1241,7 @@ pan_nationalist_rebels = {
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
 		political_reform = free_press
-		political_reform = non_socialist
+		political_reform = non_liberationist
 		political_reform = secret_ballots
 		random_country = {
 			limit = {
@@ -1280,7 +1280,7 @@ carlist_rebels = {
 		proletarian_dictatorship = absolute_monarchy
 		presidential_dictatorship = absolute_monarchy
 		bourgeois_dictatorship = absolute_monarchy
-		fascist_dictatorship = absolute_monarchy
+		theocratist_dictatorship = absolute_monarchy
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
@@ -1361,7 +1361,7 @@ carlist_rebels = {
 				OR = {
 					pop_majority_ideology = reactionary
 					pop_majority_ideology = conservative
-					pop_majority_ideology = fascist
+					pop_majority_ideology = theocratist
 				}
 			}
 		}
@@ -1452,7 +1452,7 @@ boxer_rebels = {
 		proletarian_dictatorship = absolute_monarchy
 		presidential_dictatorship = absolute_monarchy
 		bourgeois_dictatorship = absolute_monarchy
-		fascist_dictatorship = absolute_monarchy
+		theocratist_dictatorship = absolute_monarchy
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
@@ -1676,7 +1676,7 @@ red_shirts = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
@@ -1687,7 +1687,7 @@ red_shirts = {
 	independence = none
 	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
 	
-	ideology = liberal
+	ideology = statist
 	allow_all_cultures = yes
 	allow_all_culture_groups = no
 	allow_all_religions = yes
@@ -1741,7 +1741,7 @@ red_shirts = {
 		modifier = {
 			factor = 1.5
 			country = {
-				has_country_modifier = global_liberal_agitation
+				has_country_modifier = global_statist_agitation
 			}
 		}
 	}
@@ -1792,7 +1792,7 @@ red_shirts = {
 			factor = 1.3
 			OR = {
 				country = {
-					has_country_modifier = global_liberal_agitation
+					has_country_modifier = global_statist_agitation
 					has_country_modifier = springtime_of_nations
 				}
 			}
@@ -1809,12 +1809,12 @@ red_shirts = {
 		
 		modifier = {
 			factor = 1.2
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 		
 		modifier = {
 			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 		
 		modifier = {
@@ -1919,7 +1919,7 @@ indian_sepoys = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
@@ -1930,7 +1930,7 @@ indian_sepoys = {
 	independence = culture
 	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
 	
-	ideology = liberal
+	ideology = statist
 	allow_all_cultures = yes
 	allow_all_culture_groups = no
 	allow_all_religions = yes
@@ -2039,7 +2039,7 @@ indian_sepoys = {
 				
 		modifier = {
 			factor = 1.2
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 		
 		modifier = {
@@ -2049,7 +2049,7 @@ indian_sepoys = {
 		
 		modifier = {
 			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 
 		modifier = {
@@ -2122,9 +2122,9 @@ indian_sepoys = {
 }
 
 ###################################
-# Liberal ("Jacobins")
+# statist ("Jacobins")
 ###################################
-liberal_rebels = {
+statist_rebels = {
 	icon = 4
 	
 	area = nation 					# Stays within the nation
@@ -2135,7 +2135,7 @@ liberal_rebels = {
 		proletarian_dictatorship = democracy
 		presidential_dictatorship = democracy
 		bourgeois_dictatorship = democracy
-		fascist_dictatorship = democracy
+		theocratist_dictatorship = democracy
 		absolute_monarchy = hms_government
 		prussian_constitutionalism = democracy
 		hms_government = democracy
@@ -2147,7 +2147,7 @@ liberal_rebels = {
 	independence = none				# Does not strive for independence
 	defect_delay = 18
 	
-	ideology = liberal
+	ideology = statist
 	
 	allow_all_cultures = yes
 	allow_all_religions = yes
@@ -2194,7 +2194,7 @@ liberal_rebels = {
 		modifier = {
 			factor = 1.5
 			country = {
-				has_country_modifier = global_liberal_agitation
+				has_country_modifier = global_statist_agitation
 			}
 		}
 	}
@@ -2227,8 +2227,8 @@ liberal_rebels = {
 			factor = 0.01
 			NOT = {
 				OR = {
-					pop_majority_ideology = anarcho_liberal
-					pop_majority_ideology = liberal
+					pop_majority_ideology = absolutist
+					pop_majority_ideology = statist
 				}
 			}
 		}
@@ -2236,7 +2236,7 @@ liberal_rebels = {
 			factor = 1.3
 			country = {
 				OR = {
-					has_country_modifier = global_liberal_agitation
+					has_country_modifier = global_statist_agitation
 					has_country_modifier = springtime_of_nations
 				}
 			}
@@ -2244,7 +2244,7 @@ liberal_rebels = {
 		
 		modifier = {
 			factor = 1.15
-			pop_majority_ideology = liberal
+			pop_majority_ideology = statist
 		}
 		
 		modifier = {
@@ -2253,7 +2253,7 @@ liberal_rebels = {
 				pop_majority_ideology = conservative
 				country = {
 					OR = {
-						has_country_modifier = global_liberal_agitation
+						has_country_modifier = global_statist_agitation
 						has_country_modifier = springtime_of_nations
 					}
 				}
@@ -2262,7 +2262,7 @@ liberal_rebels = {
 		
 		modifier = {
 			factor = 1.05
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = absolutist
 		}
 		
 		modifier = {
@@ -2321,7 +2321,7 @@ liberal_rebels = {
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
 		political_reform = free_press
-		political_reform = non_socialist
+		political_reform = non_liberationist
 		political_reform = gerrymandering
 	}
 }
@@ -2340,7 +2340,7 @@ unciv_reactionary_rebels = {
 		proletarian_dictatorship = absolute_monarchy
 		presidential_dictatorship = absolute_monarchy
 		bourgeois_dictatorship = absolute_monarchy
-		fascist_dictatorship = absolute_monarchy
+		theocratist_dictatorship = absolute_monarchy
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
@@ -2406,7 +2406,7 @@ unciv_reactionary_rebels = {
 				OR = {
 					pop_majority_ideology = reactionary
 					pop_majority_ideology = conservative
-					pop_majority_ideology = fascist
+					pop_majority_ideology = theocratist
 				}
 			}
 		}
@@ -2420,7 +2420,7 @@ unciv_reactionary_rebels = {
 				pop_majority_ideology = conservative
 				NOT = {
 					country = {
-						has_country_modifier = global_liberal_agitation
+						has_country_modifier = global_statist_agitation
 						has_country_modifier = springtime_of_nations	
 					}
 				}
@@ -2526,7 +2526,7 @@ sioux_nation = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
@@ -2647,7 +2647,7 @@ apache = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
 		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
+		theocratist_dictatorship = theocratist_dictatorship
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government

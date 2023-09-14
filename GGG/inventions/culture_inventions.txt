@@ -393,7 +393,7 @@ jazz = {
 		shared_prestige = 25 
 	}
 }
-socialist_realism = {
+liberationist_realism = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
@@ -404,7 +404,7 @@ socialist_realism = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 2
@@ -891,7 +891,7 @@ atheism = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 2
@@ -1063,8 +1063,8 @@ secularization = {
 		modifier = {
 			factor = 1
 			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = liberal
+				ruling_party_ideology = liberationist
+				ruling_party_ideology = statist
 			}
 		}
 	}
@@ -1102,7 +1102,7 @@ collectivism = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -1116,11 +1116,11 @@ determinism = {
 		base = 2
 		modifier = {
 			factor = 1
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 1
-			socialist = 0.2
+			liberationist = 0.2
 		}
 		modifier = {
 			factor = 1
@@ -1144,8 +1144,8 @@ social_justice = {
 		modifier = {
 			factor = 1
 			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = socialist
+				ruling_party_ideology = statist
+				ruling_party_ideology = liberationist
 			}
 		}
 	}
@@ -1283,7 +1283,7 @@ manifest_destiny = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1402,12 +1402,12 @@ dogma_of_mass_action = {
 		}
 		modifier = {
 			factor = 3
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = communist_rebels
+			faction = radical_liberationist_rebels
 			value = 0.25
 		}
 	}
@@ -1419,13 +1419,13 @@ terrorism = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 3
 			OR = {
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
+				ruling_party_ideology = theocratist
+				ruling_party_ideology = radical_liberationist
 			}
 		}
 		modifier = {
@@ -1454,8 +1454,8 @@ secret_police = {
 		modifier = {
 			factor = 3
 			OR = {
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
+				ruling_party_ideology = theocratist
+				ruling_party_ideology = radical_liberationist
 			}
 		}
 		modifier = {
@@ -1486,7 +1486,7 @@ womens_suffrage_movement = {
 		}
 		modifier = {
 			factor = 3
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1505,8 +1505,8 @@ rhetoric_of_hate = {
 		modifier = {
 			factor = 2
 			OR = {
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
+				ruling_party_ideology = theocratist
+				ruling_party_ideology = radical_liberationist
 			}
 		}
 		modifier = {
@@ -1567,16 +1567,16 @@ vangaurd_party = {
 		base = 2
 		modifier = {
 			factor = 1
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = communist
+			ruling_party_ideology = radical_liberationist
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = communist_rebels
+			faction = radical_liberationist_rebels
 			value = 0.75
 		}
 	}
@@ -1589,7 +1589,7 @@ the_doctrine_of_fascism = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = fascist
+			ruling_party_ideology = theocratist
 		}
 		modifier = {
 			factor = 1
@@ -1602,7 +1602,7 @@ the_doctrine_of_fascism = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = fascist_rebels
+			faction = theocratist_rebels
 			value = 0.75
 		}
 	}
@@ -1623,7 +1623,7 @@ paramilitary_groups = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = fascist_rebels
+			faction = theocratist_rebels
 			value = 0.25
 		} 
 	}
@@ -1636,8 +1636,8 @@ the_police_state = {
 		modifier = {
 			factor = 3
 			OR = {
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
+				ruling_party_ideology = theocratist
+				ruling_party_ideology = radical_liberationist
 			}
 		}
 		modifier = {

@@ -97,7 +97,7 @@ distribution_channels = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 1
@@ -157,7 +157,7 @@ industrial_distribution_investments = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -198,7 +198,7 @@ market_behaviour_monitoring = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -213,7 +213,7 @@ buying_on_margin = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 1
@@ -434,7 +434,7 @@ nassau_william_sr = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -452,7 +452,7 @@ james_mill = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -489,7 +489,7 @@ robert_torrens = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -507,7 +507,7 @@ john_stuart_mill = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -526,7 +526,7 @@ pierre_joseph_proudhon = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -540,7 +540,7 @@ karl_marx = {
 		base = 2
 		modifier = {
 			factor = 3
-			ruling_party_ideology = communist
+			ruling_party_ideology = radical_liberationist
 		}
 		modifier = {
 			factor = 2
@@ -656,7 +656,7 @@ jean_jaurès = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -946,7 +946,7 @@ vilfredo_pareto = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1093,11 +1093,11 @@ friedrich_hayek = {
 		base = 2
 		modifier = {
 			factor = 2
-			is_ideology_enabled = socialist
+			is_ideology_enabled = liberationist
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -1120,7 +1120,7 @@ polypoly_structure = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 2
@@ -1213,7 +1213,7 @@ joint_stock_company = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1235,7 +1235,7 @@ patent = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1276,7 +1276,7 @@ anti_trust_laws = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		modifier = {
 			factor = 2
@@ -1316,7 +1316,7 @@ banking_regulations = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -1331,7 +1331,7 @@ working_board_of_directors = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 2
@@ -1353,7 +1353,7 @@ bankruptcy_proceedings = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1390,7 +1390,7 @@ priming_the_pump_ = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -1408,7 +1408,7 @@ mixed_economy = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1444,7 +1444,7 @@ autarky = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 		#modifier = {
 		#	factor = 100
@@ -1493,7 +1493,7 @@ work_classification = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1611,7 +1611,7 @@ time_studies = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			ruling_party_ideology = liberationist
 		}
 	}
 	effect = {
@@ -1704,7 +1704,7 @@ marketized_smallholder_business = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberal
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {

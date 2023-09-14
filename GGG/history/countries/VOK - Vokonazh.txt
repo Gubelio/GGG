@@ -16,13 +16,13 @@ prestige = 100
 
 ruling_party = dominion_conservative
 upper_house = { # inherit
-	fascist = 0
-	liberal = 25
+	theocratist = 0
+	statist = 25
 	conservative = 65
 	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+	absolutist = 0
+	liberationist = 0
+	radical_liberationist = 0
 }
 
 
