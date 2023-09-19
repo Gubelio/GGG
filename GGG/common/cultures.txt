@@ -6,7 +6,7 @@
 ###############
 
 gashdzii = {
-    leader = european
+    leader = gashdzii1
     unit = EuropeanGC
 
 	north_gashdzii = {
@@ -40,7 +40,7 @@ gashdzii = {
 }
 
 diwvo = {
-    leader = european
+    leader = poumnian1
     unit = EuropeanGC
 
     poumnian = {
@@ -74,7 +74,7 @@ diwvo = {
 }
 
 peninsular_diwvo = {
-    leader = european
+    leader = poumnian1
     unit = EuropeanGC
 
     pruuntish = {
