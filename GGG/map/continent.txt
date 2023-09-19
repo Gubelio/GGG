@@ -1,5 +1,5 @@
 
-ishahfazh = {
+north_america = { #ishahfazh
     provinces = {
 
 1
@@ -926,7 +926,7 @@ ishahfazh = {
     assimilation_rate = -0.05
 }
 
-kovazh = {
+south_america = { #kovazh
     provinces = {
 
 919
@@ -1316,7 +1316,7 @@ kovazh = {
     assimilation_rate = -0.05
 }
 
-bafozh = {
+europe = { #bafozh
     provinces = {
 1391
 1392
@@ -2051,7 +2051,7 @@ bafozh = {
     assimilation_rate = -0.05
 }
 
-gofakidzia = {
+oceania = { #paukzhodo
     provinces = {
 848
 1302
@@ -2145,7 +2145,7 @@ gofakidzia = {
     assimilation_rate = -0.25
 }
 
-paukzhodo = {
+asia = { #gofakidzia
     provinces = {
 2005
 2009
@@ -2212,7 +2212,7 @@ paukzhodo = {
     assimilation_rate = -0.25
 }
 
-shobgizob = {
+africa = { #shobgizob
     provinces = {
 1941
 1942

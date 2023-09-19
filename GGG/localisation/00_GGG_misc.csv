@@ -102,7 +102,7 @@ movement_restricted;Movement Restricted;;;;;;;;;;;;;x
 property_law;Property Law;;;;;;;;;;;;;x
 ad_hoc_property_laws;Ad-Hoc Property Laws;;;;;;;;;;;;;x
 writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
-anti_magisterial;Anti-Magisterial;;;;;;;;;;;;;x
+radical_liberationist;Radical Liberationist;;;;;;;;;;;;;x
 liberationist;Liberationist;;;;;;;;;;;;;x
 statist;Statist;;;;;;;;;;;;;x
 absolutist;Absolutist;;;;;;;;;;;;;x
@@ -133,16 +133,24 @@ hahabi;Hahabi;;;;;;;;;;;;;x
 sevuma;Sevuma;;;;;;;;;;;;;x
 vupuyti;Vupuyti;;;;;;;;;;;;;x
 paguyti;Paguyti;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_NORTH_AMERICA;Ishahfazh;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List 即Ishahfazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA;Paukzhodo;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List 即Paukzhodi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_EUROPE;Bafozh;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_EUROPE_TOOLTIP;List 即Bafozhi劬 countries;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_SOUTH_AMERICA;Kovazh;;;;;;;;;;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List 即Kovazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA;Gofakidzia;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA_TOOLTIP;List 即Gofakidzi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA;Shobgizob;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA_TOOLTIP;List 即Shobgizobi劬 countries;;;;;;;;;;;;;
+south_america;Kovazh;;;;;;;;;;;;;x
+north_america;Ishahfazh;;;;;;;;;;;;;x
+asia;Gofakidzia;;;;;;;;;;;;;x
+africa;Shobgizob;;;;;;;;;;;;;x
+oceania;Paukzhodo;;;;;;;;;;;;;x
+europe;Bafozh;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
