@@ -590,18 +590,7 @@ assimilation_chance =
     	factor = -20
 		has_culture_core = yes
 	}
-	modifier = {
-		factor = 10
-		AND = {
-			is_accepted_culture = no
-			OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-			}
-		}
-	}
-
+	
 	group = {
 		modifier = {
 			factor = 0.2
