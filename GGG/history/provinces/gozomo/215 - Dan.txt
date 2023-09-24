@@ -1,6 +1,6 @@
 owner = VAF
 controller = VAF
 add_core = VAF
-trade_goods = fruit
+trade_goods = timber
 life_rating = 33
-
+terrain = savanna_woodland
