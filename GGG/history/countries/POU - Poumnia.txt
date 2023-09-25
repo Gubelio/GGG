@@ -25,6 +25,7 @@ upper_house = { # inherit
 	radical_liberationist = 0
 }
 
+oob = "POU_oob.txt"
 
 #technologies
 
