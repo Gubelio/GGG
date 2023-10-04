@@ -1083,37 +1083,37 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 1753
 	}
 
 	labourers = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 52596
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 1168
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 2805
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 58
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = kadkhoi
+		religion = kadkohi
 		size = 58
 	}
 
@@ -1155,7 +1155,7 @@
 
 	serfs = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 10
 	}
 
@@ -1163,19 +1163,19 @@
 
 	labourers = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 23
 	}
 
 	soldiers = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 1
 	}
 
 	artisans = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 1
 	}
 
@@ -1234,35 +1234,35 @@
 
 	soldiers = {
 		 culture = paguyti
-		 religion = kadkhoi
+		 religion = kadkohi
 		 size = 11
 	}
 
 
 	farmers = {
 		 culture = paguyti
-		 religion = kadkhoi
+		 religion = kadkohi
 		 size = 107
 	}
 
 
 	slaves = {
 		 culture = paguyti
-		 religion = kadkhoi
+		 religion = kadkohi
 		 size = 2154
 	}
 
 
 	serfs = {
 		 culture = paguyti
-		 religion = kadkhoi
+		 religion = kadkohi
 		 size = 47
 	}
 
 
 	thralls = {
 		 culture = paguyti
-		 religion = kadkhoi
+		 religion = kadkohi
 		 size = 71
 	}
 
