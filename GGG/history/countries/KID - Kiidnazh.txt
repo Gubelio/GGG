@@ -1,0 +1,34 @@
+capital = 533
+primary_culture = west_gashdzii
+culture = north_gashdzii
+culture = south_gashdzii
+religion = kadkohi
+government = absolute_monarchy #parliamentary_despotate
+plurality = 5.0
+nationalvalue = nv_autocracy
+literacy = 0.12
+non_state_culture_literacy = 0.01
+civilized = yes
+
+# Political reforms
+
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 25
+	conservative = 65
+	reactionary = 10
+	absolutist = 0
+	liberationist = 0
+	radical_liberationist = 0
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = kadkohi_country

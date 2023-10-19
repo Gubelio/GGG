@@ -81,7 +81,7 @@ UPO		= "countries/Upo.txt"
 MAB		= "countries/Mabii.txt"
 SHK		= "countries/Shukshoz.txt"
 JAD		= "countries/Jadiim.txt"
-
+KID		= "countries/Kiidnazh.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

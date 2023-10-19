@@ -1,6 +1,7 @@
 owner = NFS
 controller = NFS
 add_core = NFS
+add_core = KID
 trade_goods = cattle
 life_rating = 33
 

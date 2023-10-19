@@ -1,6 +1,7 @@
 owner = POF
 controller = POF
 add_core = POF
+add_core = KID
 trade_goods = grain
 life_rating = 33
 
