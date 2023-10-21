@@ -11,30 +11,30 @@ gashdzii = {
 
 	north_gashdzii = {
 	  color = { 235 219 157 }
-        	first_names = { Godhiinimiz Godhiima^dho Bozzama^dho Bozzanimiz Godhiimushiig Gozomedes Bosha^shovii Bosha^da^zzi Gozoba^chiiz
+        	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Gozomedes Boshâshovii Boshâdâzzi Gozobâchiiz
 				Gauimushiig Gozopaja }
 
-		last_names = { Mohdha^gazh Midodazh Mazdazh Dhiizitazh Shafa^gazh Va^jiazh Niftazh Bodha^azh Modhijovazh Moshdza^za Piiztazh Nokdazh 
-				Jaudazh Dahazh Bidazh Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo 
-				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt }
+		last_names = { Mohdhâgazh Midodazh Mazdazh Dhiizitazh Shafâgazh Vâjiazh Niftazh Bodhâazh Modhijovazh Moshdzâza Piiztazh Nokdazh 
+				Jaudazh Dahazh Bidazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo 
+				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt }
     }
 
 	south_gashdzii = {
 	  color = { 201 133 30 }
         	first_names = { Bazadamaz Vazamak }
 
-	        last_names = { Paupiizh Gaufiizh Cha^kdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Cha^diizh Zhiiziizh Pifshopazh Zhof Fiifa^zh
-				Maptazh Vozzash Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo Jodti Shamniizh 
-				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt  }
+	        last_names = { Paupiizh Gaufiizh Châkdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Châdiizh Zhiiziizh Pifshopazh Zhof Fiifâzh
+				Maptazh Vozzash Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh 
+				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt  }
     }
 
 	west_gashdzii = {
 	  color = { 224 189 47 }
         	first_names = {  }
 
-	      last_names = { Godhazh Paumna^zh Piha^pazh Shobazh Pauftazh Duftojazh Pa^shdazh Pa^shodazhi Pa^zh Pa^shdazh Shaumazh Vofa^zh Kubhazh 
-				Shozazh Cha^ftokazh Vofuma^ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukfta^sh Bosha^mzi Faushdzo Jodti Shamniizh
-				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Bota^dt Moai Nagjoni Dazhpt Fadofk Jocha^ Mudt Pa^dzh }
+	      last_names = { Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
+				Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh
+				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Pâdzh }
     }
 	union = KID
 }
