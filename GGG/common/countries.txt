@@ -84,6 +84,7 @@ JAD		= "countries/Jadiim.txt"
 KID		= "countries/Kiidnazh.txt"
 RAN		= "countries/Rannu Empire.txt"
 BUD		= "countries/Budobaman.txt"
+TAK		= "countries/Takemog.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
