@@ -1,4 +1,3 @@
-#Please keep tags sorted alphabetically when you add/remove country tags #no, fuck you
 
 # Special countries...
 REB 	= 	"countries/rebels.txt"
@@ -88,6 +87,11 @@ TAK		= "countries/Takemog.txt"
 MAM		= "countries/Mamatoukat.txt"
 BOG		= "countries/Bogorug.txt"
 YAM		= "countries/Yamatoukat.txt"
+PED		= "countries/Pedithuhd.txt"
+OMU		= "countries/Omuthuhd.txt"
+POH		= "countries/Pohethuhd.txt"
+SIH		= "countries/Sihnthuhd.txt"
+SPO		= "countries/Spohthuhd.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

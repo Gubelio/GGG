@@ -1,0 +1,33 @@
+capital = 711
+primary_culture = chyothit
+culture = ihnthedehrt
+religion = vewugi
+government = absolute_monarchy #princely_despotate
+plurality = 5.0
+nationalvalue = nv_autocracy
+literacy = 0.04
+non_state_culture_literacy = 0.01
+civilized = no
+
+# Political reforms
+
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 100
+	reactionary = 0
+	absolutist = 0
+	liberationist = 0
+	radical_liberationist = 0
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = vewugi_country

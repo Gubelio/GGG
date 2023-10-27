@@ -1,0 +1,115 @@
+797 = {
+
+
+
+	serfs = {
+		culture = duyo
+		religion = vewugi
+		size = 497
+	}
+
+	labourers = {
+		culture = duyo
+		religion = vewugi
+		size = 124
+	}
+
+	farmers = {
+		culture = duyo
+		religion = vewugi
+		size = 559
+	}
+
+	artisans = {
+		culture = duyo
+		religion = vewugi
+		size = 49
+	}
+
+	clergymen = {
+		culture = duyo
+		religion = vewugi
+		size = 12
+	}
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 4222
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 3800
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 337
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 84
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 19
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 38
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 21
+	}
+
+
+	labourers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 467
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 216
+	}
+
+}
+
