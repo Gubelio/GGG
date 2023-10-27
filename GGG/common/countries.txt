@@ -92,6 +92,12 @@ OMU		= "countries/Omuthuhd.txt"
 POH		= "countries/Pohethuhd.txt"
 SIH		= "countries/Sihnthuhd.txt"
 SPO		= "countries/Spohthuhd.txt"
+MUB		= "countries/Muboroo.txt"
+VAS		= "countries/Vasimoroo.txt"
+STH		= "countries/Sithit.txt"
+MAC		= "countries/Machy.txt"
+THS		= "countries/Thesoroo.txt"
+UNI		= "countries/Uni.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
