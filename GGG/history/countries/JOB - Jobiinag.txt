@@ -1,6 +1,6 @@
 capital = 517
 primary_culture = west_gashdzii
-religion = kadkohi
+religion = motkohnic
 government = absolute_monarchy #parliamentary_despotate
 plurality = 5.0
 nationalvalue = nv_autocracy
@@ -29,4 +29,4 @@ upper_house = { # inherit
 
 #flags
 
-set_country_flag = kadkohi_country
+set_country_flag = motkohnic_country
