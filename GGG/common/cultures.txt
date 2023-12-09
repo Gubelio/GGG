@@ -322,6 +322,13 @@ duttuphti = {
 
         	last_names = {  }
     }
+
+     ngoghu = { 
+	  color = { 192 219 118 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
 }
 
 
@@ -363,3 +370,22 @@ thihudian = {
 
 }
 
+
+###############
+## PAUKZHODO ##
+###############
+
+orgehi = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+	 ogrehi = { 
+	  color = { 187 216 237 }
+	      first_names = { }
+
+        	last_names = {  }
+   	 }
+
+
+}

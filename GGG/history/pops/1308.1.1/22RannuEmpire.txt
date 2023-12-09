@@ -2924,3 +2924,4606 @@
 
 
 
+824 = {
+
+
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 88
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 122
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 8
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 2
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 11201
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 23
+	}
+
+	slaves = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 9451
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 653
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1166
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 233
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 23
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 583
+	}
+
+	serfs = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 4336
+	}
+
+	officers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 14
+	}
+
+	labourers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 8745
+	}
+
+	soldiers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 404
+	}
+
+	artisans = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 433
+	}
+
+	clergymen = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 144
+	}
+
+	bureaucrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 14
+	}
+
+	aristocrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 361
+	}
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 432
+	}
+
+	labourers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 932
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 57
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 14
+	}
+
+	aristocrats = {
+		culture = dehuogi
+		religion = vewugi
+		size = 5
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 308
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 12
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 123
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 370
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 345
+	}
+
+
+	labourers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 7462
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 12
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 3700
+	}
+
+}
+825 = {
+
+
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 532
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 732
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 53
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 13
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 63
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 53
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 6
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 966
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 2082
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 128
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 32
+	}
+
+	aristocrats = {
+		culture = dehuogi
+		religion = vewugi
+		size = 12
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 610
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 24
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 244
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 732
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 684
+	}
+
+
+	farmers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 14781
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 24
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 7329
+	}
+
+}
+
+826 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 308
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 424
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 30
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 680
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 27
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 272
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 816
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 762
+	}
+
+
+	farmers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 16475
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 27
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 8169
+	}
+
+}
+
+827 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 128
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 177
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 12
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 3
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1383
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 553
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1660
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1549
+	}
+
+
+	farmers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 33478
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 16600
+	}
+
+}
+
+828 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 132
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 182
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 13
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 3
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 938
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 375
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1126
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1051
+	}
+
+
+	farmers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 22720
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 11266
+	}
+
+}
+
+829 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = vewugi
+		size = 621
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = vewugi
+		size = 854
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = vewugi
+		size = 62
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = vewugi
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1780
+	}
+
+
+	bureaucrats = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 71
+	}
+
+
+	clergymen = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 712
+	}
+
+
+	artisans = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 2136
+	}
+
+
+	soldiers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 1994
+	}
+
+
+	farmers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 43095
+	}
+
+
+	officers = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 71
+	}
+
+
+	serfs = {
+		 culture = dehuogi
+		 religion = tehuhrite
+		 size = 21369
+	}
+
+}
+
+830 = {
+
+
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 16933
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 23283
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 1693
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 423
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1652
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1394
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 96
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 172
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 34
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 86
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 33
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 39
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 805
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 399
+	}
+
+}
+
+831 = {
+
+
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 6577
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 9043
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 657
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 164
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 11728
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 24
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 9895
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 684
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1221
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 244
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 24
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 610
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 19
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 21
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 468
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 232
+	}
+
+}
+
+832 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 43
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 87
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 4
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 4
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 89
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 122
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 8
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 2
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 783
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 661
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 45
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 81
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 16
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 40
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 941
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 376
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1129
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1054
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 22786
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11299
+	}
+
+}
+833 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 22
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 47
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 2
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 2
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 44
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 89
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 78
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 8
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 2
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 318
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 268
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 18
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 33
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 6
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 16
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 836
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 33
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 334
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1003
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 936
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 16888
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 33
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 13377
+	}
+
+}
+
+834 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 19
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 41
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 1554
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 6217
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 6994
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 621
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 155
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3625
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 7
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3059
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 211
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 377
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 75
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 7
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 188
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 628
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 25
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 251
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 754
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 704
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 12698
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 25
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 10058
+	}
+
+}
+
+835 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 836
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 33
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 334
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1004
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 937
+	}
+
+
+	labourers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 16904
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 33
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 13389
+	}
+
+}
+
+836 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 7366
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 24
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 15469
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 687
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 736
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 245
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 24
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 385
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 15
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 154
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 462
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 432
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 7793
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 15
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 6173
+	}
+
+}
+
+837 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1932
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 6
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 4059
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 180
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 193
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 64
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 280
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 112
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 337
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 314
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 5673
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 4493
+	}
+
+}
+
+838 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 367
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 771
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 34
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 36
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 12
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 916
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 366
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1099
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1026
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 18505
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 14657
+	}
+
+}
+
+839 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 766
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 3065
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 3448
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 306
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 76
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1652
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1394
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 96
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 172
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 34
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 86
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 583
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 23
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 233
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 700
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 653
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11789
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 23
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 9338
+	}
+
+}
+
+840 = {
+
+
+
+	artisans = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 25
+	}
+
+	clergymen = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 15
+	}
+
+	aristocrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 5
+	}
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 30
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 63
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 2
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 3
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 1
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 0
+	}
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 333
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 1333
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 1500
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 133
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 33
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 3189
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 6
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 2690
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 186
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 332
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 66
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 6
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 166
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1138
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 455
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1365
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1274
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 22994
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 45
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 18213
+	}
+
+}
+
+841 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 644
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 644
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 4832
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 257
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 64
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 136
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 5
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 54
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 272
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 152
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 3837
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 5
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 979
+	}
+
+}
+
+842 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 443
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 443
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 3324
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 177
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 44
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 188
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 75
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 377
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 211
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 5324
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 1359
+	}
+
+}
+
+843 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 866
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 866
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 6498
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 346
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 86
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 216
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 8
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 86
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 433
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 242
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 6108
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 8
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 1559
+	}
+
+}
+
+844 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 553
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 553
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 4149
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 221
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 55
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 111
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 222
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 124
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 3133
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 4
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 799
+	}
+
+}
+
+845 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 332
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 332
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 2491
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 132
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 33
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 193
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 77
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 387
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 217
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 5466
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 1395
+	}
+
+}
+
+846 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 244
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 244
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 1832
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 97
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 24
+	}
+
+	aristocrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 166
+	}
+
+
+	bureaucrats = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 6
+	}
+
+
+	clergymen = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 66
+	}
+
+
+	artisans = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 333
+	}
+
+
+	soldiers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 186
+	}
+
+
+	labourers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 2698
+	}
+
+
+	officers = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 6
+	}
+
+
+	serfs = {
+		 culture = ihnthedehert
+		 religion = tehuhrite
+		 size = 3198
+	}
+
+}
+
+847 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 961
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 38
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 384
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1153
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1076
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 19414
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 38
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 15378
+	}
+
+}
+
+848 = {
+
+
+
+	thralls = {
+		culture = ogrehi
+		religion = pagan
+		size = 1071
+	}
+
+	officers = {
+		culture = ogrehi
+		religion = pagan
+		size = 21
+	}
+
+	slaves = {
+		culture = ogrehi
+		religion = pagan
+		size = 1071
+	}
+
+	farmers = {
+		culture = ogrehi
+		religion = pagan
+		size = 17256
+	}
+
+	soldiers = {
+		culture = ogrehi
+		religion = pagan
+		size = 600
+	}
+
+	artisans = {
+		culture = ogrehi
+		religion = pagan
+		size = 643
+	}
+
+	clergymen = {
+		culture = ogrehi
+		religion = pagan
+		size = 214
+	}
+
+	bureaucrats = {
+		culture = ogrehi
+		religion = pagan
+		size = 21
+	}
+
+	aristocrats = {
+		culture = ogrehi
+		religion = pagan
+		size = 535
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 30
+	}
+
+
+	bureaucrats = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 34
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 992
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 61
+	}
+
+
+	officers = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 1
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 61
+	}
+
+}
+
+849 = {
+
+
+
+	serfs = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 5598
+	}
+
+	officers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 18
+	}
+
+	farmers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 11757
+	}
+
+	soldiers = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 522
+	}
+
+	artisans = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 559
+	}
+
+	clergymen = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 186
+	}
+
+	bureaucrats = {
+		culture = dehuogi
+		religion = tehuhrite
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 389
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 15
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 155
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 467
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 436
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 7864
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 15
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 6229
+	}
+
+}
+
+850 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1385
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 554
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1663
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1552
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 39080
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11086
+	}
+
+}
+
+851 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 936
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 374
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1123
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1048
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 26396
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 37
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 7488
+	}
+
+}
+
+852 = {
+
+
+
+	serfs = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 3114
+	}
+
+	officers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 15
+	}
+
+	farmers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 10979
+	}
+
+	soldiers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 436
+	}
+
+	artisans = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 467
+	}
+
+	clergymen = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 155
+	}
+
+	bureaucrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 15
+	}
+
+	aristocrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 389
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1443
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 57
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 577
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1732
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1616
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 40710
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 57
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 11549
+	}
+
+}
+
+853 = {
+
+
+
+	serfs = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 894
+	}
+
+	officers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 4
+	}
+
+	farmers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 3154
+	}
+
+	soldiers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 125
+	}
+
+	artisans = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 134
+	}
+
+	clergymen = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 44
+	}
+
+	bureaucrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 4
+	}
+
+	aristocrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 111
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1216
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 48
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 486
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1459
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1362
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 34308
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 48
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 9732
+	}
+
+}
+
+854 = {
+
+
+
+	serfs = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 9113
+	}
+
+	officers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 45
+	}
+
+	farmers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 32124
+	}
+
+	soldiers = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 1275
+	}
+
+	artisans = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 1366
+	}
+
+	clergymen = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 455
+	}
+
+	bureaucrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 45
+	}
+
+	aristocrats = {
+		culture = unnahu
+		religion = tehuhrite
+		size = 1139
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 211
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 8
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 84
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 253
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 236
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 5952
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 8
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1688
+	}
+
+}
+
+855 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 911
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 364
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1093
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 1020
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 22051
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 10934
+	}
+
+}
+
+856 = {
+
+
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 783
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 31
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 313
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 940
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 877
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 19583
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 31
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 8773
+	}
+
+}
+
+857 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 775
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 3102
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 3489
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 310
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 77
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 588
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 496
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 34
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 61
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 12
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 1
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 30
+	}
+
+	aristocrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 583
+	}
+
+
+	bureaucrats = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 23
+	}
+
+
+	clergymen = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 233
+	}
+
+
+	artisans = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 700
+	}
+
+
+	soldiers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 653
+	}
+
+
+	farmers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 14595
+	}
+
+
+	officers = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 23
+	}
+
+
+	serfs = {
+		 culture = ngoghu
+		 religion = tehuhrite
+		 size = 6538
+	}
+
+}
+
+858 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1222
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 48
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 488
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1466
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1369
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 34470
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 48
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 9778
+	}
+
+}
+
+859 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1416
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 566
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1699
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1586
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 39934
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 56
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 11328
+	}
+
+}
+
+860 = {
+
+
+
+	serfs = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 1108
+	}
+
+	officers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 5
+	}
+
+	farmers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 3908
+	}
+
+	soldiers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 155
+	}
+
+	artisans = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 166
+	}
+
+	clergymen = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 55
+	}
+
+	bureaucrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 5
+	}
+
+	aristocrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 138
+	}
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 611
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 24
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 244
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 733
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 684
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 17240
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 24
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 4891
+	}
+
+}
+
+861 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1693
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 67
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 677
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2031
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1896
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 47751
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 67
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 13546
+	}
+
+}
+
+862 = {
+
+
+
+	thralls = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 102
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 408
+	}
+
+	farmers = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 459
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 40
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = vewugi
+		size = 10
+	}
+
+	serfs = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 372
+	}
+
+	officers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	labourers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 313
+	}
+
+	soldiers = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 21
+	}
+
+	artisans = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 38
+	}
+
+	clergymen = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 7
+	}
+
+	bureaucrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 0
+	}
+
+	aristocrats = {
+		culture = ihnthedehert
+		religion = tehuhrite
+		size = 19
+	}
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 638
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 25
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 255
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 766
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 715
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 18003
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 25
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 5107
+	}
+
+}
+
+863 = {
+
+
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 4934
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 12
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 6229
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 345
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 370
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 123
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 12
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 308
+	}
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1530
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 61
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 612
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1836
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1714
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 43162
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 61
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 12244
+	}
+
+}
+
+864 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1833
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 73
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 733
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2200
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2053
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 44373
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 73
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 22003
+	}
+
+}
+
+865 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1443
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 57
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 577
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1732
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1617
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 34941
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 57
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 11551
+	}
+
+}
+
+866 = {
+
+
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 916
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 366
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1099
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 1026
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 18515
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 14665
+	}
+
+}
+
+867 = {
+
+
+
+	serfs = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 2665
+	}
+
+	officers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 6
+	}
+
+	farmers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 3365
+	}
+
+	soldiers = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 186
+	}
+
+	artisans = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 199
+	}
+
+	clergymen = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 66
+	}
+
+	bureaucrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 6
+	}
+
+	aristocrats = {
+		culture = ngoghu
+		religion = tehuhrite
+		size = 166
+	}
+
+	aristocrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2280
+	}
+
+
+	bureaucrats = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 91
+	}
+
+
+	clergymen = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 912
+	}
+
+
+	artisans = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2736
+	}
+
+
+	soldiers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 2554
+	}
+
+
+	farmers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 73434
+	}
+
+
+	officers = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 91
+	}
+
+
+	serfs = {
+		 culture = unnahu
+		 religion = tehuhrite
+		 size = 9122
+	}
+
+}
+
