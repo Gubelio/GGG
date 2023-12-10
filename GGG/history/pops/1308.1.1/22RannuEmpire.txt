@@ -7850,56 +7850,56 @@
 
 	aristocrats = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 1836
 	}
 
 
 	bureaucrats = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 73
 	}
 
 
 	clergymen = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 734
 	}
 
 
 	artisans = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 5875
 	}
 
 
 	soldiers = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 12056
 	}
 
 
 	farmers = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 55450
 	}
 
 
 	officers = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 73
 	}
 
 
 	serfs = {
 		 culture = unaian
-		 religion = tehuhrite
+		 religion = pagan
 		 size = 7344
 	}
 
@@ -11029,3 +11029,2272 @@
 	}
 
 }
+905 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 35467
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 6650
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1773
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 443
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 28453
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 5335
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 1422
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 355
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 7660
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 25
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 15576
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 714
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 766
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 255
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 25
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 510
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 1003
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 2039
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 93
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 100
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 33
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 66
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 19
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 52
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 590
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 77
+	}
+
+}
+
+906 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 34675
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 6501
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1733
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 433
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 2659
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 498
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 132
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 33
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 4000
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 13
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 8133
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 373
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 400
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 133
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 13
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 266
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 103
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 209
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 9
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 10
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 5
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 15
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 170
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 22
+	}
+
+}
+
+907 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 11108
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 2082
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 555
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 138
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 29315
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 5496
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 1465
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 366
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 399
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 813
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 37
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 39
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 13
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 26
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 1333
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 4
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 2711
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 124
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 133
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 44
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 4
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 88
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 16
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 6
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 20
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 46
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 517
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 67
+	}
+
+}
+
+908 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 27564
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 5168
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1378
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 344
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 231
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 471
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 21
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 23
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 7
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 724
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 28
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 289
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 869
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1971
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 22181
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 28
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2899
+	}
+
+}
+
+909 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 32978
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 6183
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1648
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 412
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 1867
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 350
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 93
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 23
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 703
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1429
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 65
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 70
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 46
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 39
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 81
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 1
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 2
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 19
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 52
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 594
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 77
+	}
+
+}
+
+910 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 12426
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 2329
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 621
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 155
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 6204
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 1163
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 310
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 77
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 163
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 331
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 15
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 16
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 10
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 132
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 270
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 12
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 13
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 8
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 26
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 0
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 3
+	}
+
+}
+
+911 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 31561
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 5917
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1578
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 394
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1993
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 6
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 4052
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 186
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 199
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 66
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 6
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 132
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 30
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 36
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 83
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 935
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 122
+	}
+
+}
+
+912 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 15337
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 5751
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 639
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1022
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 255
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 999
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 3
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2033
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 93
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 99
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 33
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 3
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 66
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 860
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 34
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 344
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1033
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2341
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 26343
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 34
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 3443
+	}
+
+}
+
+913 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 23732
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 8899
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 988
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1582
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 395
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 4443
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 833
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 222
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 55
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 366
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 746
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 34
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 36
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 12
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 24
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 100
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 203
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 9
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 10
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 533
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 21
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 213
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 640
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1450
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 16320
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 21
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2133
+	}
+
+}
+
+914 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 12931
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 4849
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 538
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 862
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 215
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 643
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1307
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 60
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 64
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 21
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 42
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1830
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 73
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 732
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2196
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 4979
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 56015
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 73
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 7322
+	}
+
+}
+
+915 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 26004
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 9751
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1083
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1733
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 433
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1339
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 4
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 2723
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 124
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 133
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 44
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 4
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 89
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 333
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 13
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 133
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 400
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 906
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 10200
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 13
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 1333
+	}
+
+}
+
+916 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 28531
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 10699
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1188
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1902
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 475
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 898
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 168
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 44
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = tehuhrite
+		size = 11
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1663
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 5
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 3381
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 155
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 166
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 55
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 5
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 110
+	}
+
+	serfs = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 99
+	}
+
+	officers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 202
+	}
+
+	soldiers = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 9
+	}
+
+	artisans = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 9
+	}
+
+	clergymen = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = uttobanhu
+		religion = vewugi
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 166
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 6
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 66
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 199
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 453
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 5097
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 6
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 666
+	}
+
+}
+
+917 = {
+
+
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 25333
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 9500
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1055
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1688
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 422
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 1599
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 5
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 3253
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 149
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 159
+	}
+
+	clergymen = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 53
+	}
+
+	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 5
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 106
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 83
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 99
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 226
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 2548
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 3
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size = 333
+	}
+
+}
+
