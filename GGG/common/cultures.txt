@@ -329,6 +329,8 @@ duttuphti = {
 
         	last_names = {  }
     }
+
+   
 }
 
 
@@ -386,6 +388,28 @@ orgehi = {
 
         	last_names = {  }
    	 }
+
+
+}
+
+yat-pugurian = {
+    leader = european
+    unit = EuropeanGC
+
+
+	   pugure = { 
+	  color = { 128 102 114 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+     yattae = { 
+	  color = { 224 105 161 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
 
 
 }
