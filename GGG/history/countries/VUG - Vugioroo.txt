@@ -7,7 +7,7 @@ religion = vewugi
 government = democracy #paternalistic_council
 plurality = 5.0
 nationalvalue = nv_autocracy
-literacy = 0.10
+literacy = 0.11
 non_state_culture_literacy = 0.01
 civilized = yes
 
@@ -20,14 +20,15 @@ prestige = 25
 ruling_party = dominion_conservative
 upper_house = { # inherit
 	theocratist = 0
-	statist = 25
-	conservative = 65
-	reactionary = 10
+	statist = 0
+	conservative = 0
+	reactionary = 0
 	absolutist = 0
-	liberationist = 0
-	radical_liberationist = 0
+	liberationist = 60
+	radical_liberationist = 40
 }
 
+oob = "VUG_oob.txt"
 
 #technologies
 
