@@ -170,7 +170,7 @@ byotrish = {
 }
 
 sitheve = { #sithev e
-    leader = vewugist1
+    leader = european
     unit = EuropeanGC
 
     hahuibi = {
@@ -196,7 +196,7 @@ sitheve = { #sithev e
 	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
                             Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub  }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu Vuthi Sog Reth
+        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
 		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
     }
 
@@ -383,7 +383,7 @@ orgehi = {
 
 
 	 ogrehi = { 
-	  color = { 187 216 237 }
+	  color = { 87 201 177 }
 	      first_names = { }
 
         	last_names = {  }
@@ -398,14 +398,14 @@ yat-pugurian = {
 
 
 	   pugure = { 
-	  color = { 128 102 114 }
+	  color = { 195 237 78 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
      yattae = { 
-	  color = { 224 105 161 }
+	  color = { 177 230 30 }
 	      first_names = {  }
 
         	last_names = {  }
