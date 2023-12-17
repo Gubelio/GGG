@@ -1,0 +1,57 @@
+918 = {
+
+
+
+	serfs = {
+		culture = tufume
+		religion = vewugi
+		size = 21
+	}
+
+	farmers = {
+		culture = tufume
+		religion = vewugi
+		size = 47
+	}
+
+	soldiers = {
+		culture = tufume
+		religion = vewugi
+		size = 2
+	}
+
+	artisans = {
+		culture = tufume
+		religion = vewugi
+		size = 1
+	}
+
+	bureaucrats = {
+		 culture = takemoujoy
+		 religion = tehuhrite
+		 size = 1
+	}
+
+
+	artisans = {
+		 culture = takemoujoy
+		 religion = tehuhrite
+		 size = 2
+	}
+
+
+	soldiers = {
+		 culture = takemoujoy
+		 religion = tehuhrite
+		 size = 3
+	}
+
+
+	farmers = {
+		 culture = takemoujoy
+		 religion = tehuhrite
+		 size = 125
+	}
+
+}
+

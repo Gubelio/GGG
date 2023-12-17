@@ -5479,5 +5479,553 @@ slaves = {
 
 }
 
+1381 = {
 
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1002
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2112
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 93
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 16
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 33
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 83
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1244
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 670
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 223
+	}
+
+}
+
+1382 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 283
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 113
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 56
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 317
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 7163
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3400
+	}
+
+}
+
+1383 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2329
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 4906
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 217
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 38
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 77
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 194
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 104
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2085
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1123
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 374
+	}
+
+}
+
+
+1384 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 533
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 213
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 106
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 597
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 13483
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 6400
+	}
+
+}
+
+1385 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 146
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 58
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 29
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 164
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3707
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1759
+	}
+
+}
+
+1386 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 308
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 123
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 61
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 345
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 7795
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3700
+	}
+
+}
+
+1387 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 139
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 27
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 155
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3516
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1669
+	}
+
+}
+
+1388 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 110
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 124
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 2801
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1329
+	}
+
+}
+
+1389 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 91
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 102
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 2315
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1099
+	}
+
+}
+
+1390 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 133
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 26
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 149
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2570
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1066
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1333
+	}
+
+}
 
