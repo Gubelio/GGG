@@ -95,6 +95,28 @@ nautau_group = {
 }
 
 
+momurism_group = { #crystalreligion
+
+	 momurist = { #crystalians
+        icon = 13
+        color = { 0.3 0.6 0.9 }
+    }
+
+	rechktist = { #schismatics
+	icon = 12
+	color = { 0.6 0.1 0.3 }
+	}
+}
+
+green_group = {
+
+	 green = { 
+        icon = 11
+        color = { 0.3 0.6 0.1 }
+    }
+
+}
+
 
 
 #### VANILLA ############
