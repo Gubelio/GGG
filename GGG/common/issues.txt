@@ -399,71 +399,8 @@ land_reform = {
         }
 
     }
-
-##OLD
-	vote_franschise = {
-		next_step_only = yes
-		none_voting = {
-			
-		}
-		landed_voting = {
-			
-		}
-		wealth_weighted_voting = {
-		
-		}
-		wealth_voting = {
-			
-		}
-		universal_weighted_voting = {
-			
-		}
-		universal_voting = {
-			
-		}
-	}
 	
-	
-	upper_house_composition = {
-		party_appointed = {
-			
-		}
-		appointed = {
-			
-		}
-		state_equal_weight = {
-			
-		}
-		population_equal_weight = {
-		
-		}
-	}
-
-	voting_system = {
-		first_past_the_post = {
-			}
-
-		jefferson_method = {
-
-			}
-		proportional_representation = {
-
-			}			
-		}
-
-	public_meetings = {
-		no_meeting = {
-			#no immediate effect
-		}
-		yes_meeting = {
-		
-		}
-
-	}
-	
-###OLDEND ###
-
-thralldom = {
+	thralldom = {
         thralldom_allowed = {
 
             poor_life_needs = -0.1
@@ -562,62 +499,8 @@ thralldom = {
         }
 
     }
-
-#OLD#
-
-	press_rights = {
-		next_step_only = yes
-		state_press = {
-			
-		}
-		censored_press = {
-			
-		}
-		free_press = {
-			
-		}
-	}
 	
-	
-	trade_unions = {
-		next_step_only = yes
-		no_trade_unions = {
-	
-		}
-		state_controlled = {
-	
-		}
-		non_liberationist = {
-	
-		}
-		all_trade_unions = {
-		
-		}
-	}
-
-	
-	political_parties = {
-		next_step_only = yes
-		underground_parties = {
-		
-		}
-		harassment = {
-			
-		}
-		gerrymandering = {
-			
-		}
-		non_secret_ballots = {
-			
-		}
-		secret_ballots = {
-			
-		}
-	}
-
-	#OLDEND#
-
-  infrastructure = {
+	 infrastructure = {
         next_step_only = yes
 
         ad_hoc_development = {
@@ -727,6 +610,123 @@ health_care = {
         }
 		
 	}
+
+##OLD
+	vote_franschise = {
+		next_step_only = yes
+		none_voting = {
+			
+		}
+		landed_voting = {
+			
+		}
+		wealth_weighted_voting = {
+		
+		}
+		wealth_voting = {
+			
+		}
+		universal_weighted_voting = {
+			
+		}
+		universal_voting = {
+			
+		}
+	}
+	
+	
+	upper_house_composition = {
+		party_appointed = {
+			
+		}
+		appointed = {
+			
+		}
+		state_equal_weight = {
+			
+		}
+		population_equal_weight = {
+		
+		}
+	}
+
+	voting_system = {
+		first_past_the_post = {
+			}
+
+		jefferson_method = {
+
+			}
+		proportional_representation = {
+
+			}			
+		}
+
+	public_meetings = {
+		no_meeting = {
+			#no immediate effect
+		}
+		yes_meeting = {
+		
+		}
+
+	}
+	
+
+
+	press_rights = {
+		next_step_only = yes
+		state_press = {
+			
+		}
+		censored_press = {
+			
+		}
+		free_press = {
+			
+		}
+	}
+	
+	
+	trade_unions = {
+		next_step_only = yes
+		no_trade_unions = {
+	
+		}
+		state_controlled = {
+	
+		}
+		non_liberationist = {
+	
+		}
+		all_trade_unions = {
+		
+		}
+	}
+
+	
+	political_parties = {
+		next_step_only = yes
+		underground_parties = {
+		
+		}
+		harassment = {
+			
+		}
+		gerrymandering = {
+			
+		}
+		non_secret_ballots = {
+			
+		}
+		secret_ballots = {
+			
+		}
+	}
+
+	#OLDEND#
+
+ 
 
 }
 
@@ -1153,28 +1153,6 @@ slavery = {
 			
 		}
 	}
-	
-	#OLD
-	safety_regulations = {
-		administrative = yes
-		next_step_only = yes
-		no_safety = {
-		}
-		trinket_safety = {
-			
-		}
-		low_safety = {
-		
-		}
-		acceptable_safety = {
-		
-		}
-		good_safety = {
-			
-		}
-	}
-	#OLDEND
-
 	 social_privileges = {
         administrative = yes
         next_step_only = yes
@@ -1226,9 +1204,27 @@ slavery = {
         }
 
     }
-
-
-#OLD#
+	
+	#OLD
+	safety_regulations = {
+		administrative = yes
+		next_step_only = yes
+		no_safety = {
+		}
+		trinket_safety = {
+			
+		}
+		low_safety = {
+		
+		}
+		acceptable_safety = {
+		
+		}
+		good_safety = {
+			
+		}
+	}
+	
 
 	unemployment_subsidies = {
 		next_step_only = yes
@@ -1248,7 +1244,6 @@ slavery = {
 		}
 	}
 	
-#OLD#
 	pensions = {
 		next_step_only = yes
 		no_pensions = {
@@ -1271,6 +1266,7 @@ slavery = {
 		
 }
 
+#olden
 
 ####UNCIV####
 
