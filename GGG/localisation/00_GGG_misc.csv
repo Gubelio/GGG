@@ -1,73 +1,129 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
 public_order;Public Order;;;;;;;;;;;;;x
 feudal_courts;Feudal Courts;;;;;;;;;;;;;x
+feudal_courts_desc;Justice is in the hands of various aristocratic and ecclesiastical courts.;;;;;;;;;;;;;x
 appointed_justices;Appointed Justices;;;;;;;;;;;;;x
+appointed_justices_desc;Judges are appointed by the central government to regional courts.;;;;;;;;;;;;;x
 unified_legal_code;Unified Legal Code;;;;;;;;;;;;;x
-land_reform_pol;Land Reform;;;;;;;;;;;;;x
+unified_legal_code_desc;There is a unified legal code for the entire polity.;;;;;;;;;;;;;x
+land_reform_civ;Land Reform;;;;;;;;;;;;;x
 feudal_tenure;Feudal Tenure;;;;;;;;;;;;;x
+feudal_tenure_desc;Land is held in feudal terms, with commons and noble estates.;;;;;;;;;;;;;x
 enclosure_of_commons;Enclosure of Commons;;;;;;;;;;;;;x
+enclosure_of_commons_desc;The government has passed private acts enclosing upon commons.;;;;;;;;;;;;;x
 private_landownership;Private Landownership;;;;;;;;;;;;;x
+private_landownership_desc;Most land is held in private writs.;;;;;;;;;;;;;x
 land_banking;Land Banking;;;;;;;;;;;;;x
+land_banking_desc;The government has established various land banks for the allocation of land.;;;;;;;;;;;;;x
 farm_cooperatives;Farming Cooperatives;;;;;;;;;;;;;x
+farm_cooperatives_desc;Many lands are held as cooperatives.;;;;;;;;;;;;;x
 collectivized_farming;Collectivized Farming;;;;;;;;;;;;;x
+collectivized_farming_desc;Much land is held in large collectives.;;;;;;;;;;;;;x
 banking_system;Banking System;;;;;;;;;;;;;x
 unregulated_currency;Unregulated Currency;;;;;;;;;;;;;x
+unregulated_currency_desc;The government makes little effort to restrict bills of exchange.;;;;;;;;;;;;;x
 banking_licenses;Banking Licenses;;;;;;;;;;;;;x
+banking_licenses_desc;All banks need a license to issue bills.;;;;;;;;;;;;;x
 central_banking;Central Banking;;;;;;;;;;;;;x
+central_banking_desc;There is an established central bank.;;;;;;;;;;;;;x
 regulatory_institutions;Regulatory Institutions;;;;;;;;;;;;;x
+regulatory_institutions_desc;There are various bodies dedicated to regulating currency flows.;;;;;;;;;;;;;x
 school_system;School System;;;;;;;;;;;;;x
 no_school_system;No School System;;;;;;;;;;;;;x
+no_school_system_desc;There is no governmental school system.;;;;;;;;;;;;;x
 parish_school_system;Parish School System;;;;;;;;;;;;;x
+parish_school_system_desc;The government works with the clergy to provide schooling.;;;;;;;;;;;;;x
 state_school_system;State School System;;;;;;;;;;;;;x
+state_school_system_desc;There is a state school system.;;;;;;;;;;;;;x
 thralldom;Thralldom;;;;;;;;;;;;;x
 thralldom_allowed;Allowed;;;;;;;;;;;;;x
+thralldom_allowed_desc;The pratice of keeping thralls is permitted.;;;;;;;;;;;;;x
 thralldom_outlawed;Outlawed;;;;;;;;;;;;;x
+thralldom_outlawed_desc;The pratice of keeping thralls is outlawed.;;;;;;;;;;;;;x
 administrative_reform;Administrative Reform;;;;;;;;;;;;;x
 hereditary_bureaucracy;Hereditary Bureaucracy;;;;;;;;;;;;;x
+hereditary_bureaucracy_desc;Civil office is inherited.;;;;;;;;;;;;;x
 nepotistic_bureaucracy;Nepotistic Bureaucracy;;;;;;;;;;;;;x
+nepotistic_bureaucracy_desc;There is no civil appointment bodies, leading to common nepotism.;;;;;;;;;;;;;x
 appointed_bureaucrats;Appointed Bureaucrats;;;;;;;;;;;;;x
+appointed_bureaucrats_desc;Bureaucrats are appointed by the government.;;;;;;;;;;;;;x
 professional_bureaucracy;Professional Bureaucracy;;;;;;;;;;;;;x
+professional_bureaucracy_desc;The civil service is meritocratic and outcomes oriented.;;;;;;;;;;;;;x
 legislative_system;Legislative System;;;;;;;;;;;;;x
 tribal_assembly;Tribal Assembly;;;;;;;;;;;;;x
+tribal_assembly_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
 noble_parliament;Noble Parliament;;;;;;;;;;;;;x
-regulated elections;Regulated Elections;;;;;;;;;;;;;x
+noble_parliament_desc;All hereditary peers of the higher orders have a seat in the legislative assembly.;;;;;;;;;;;;;x
+regulated_elections;Regulated Elections;;;;;;;;;;;;;x
+regulated_elections_desc;The legislative assembly is composed of candidates chosen by organised regional election.;;;;;;;;;;;;;x
 approved_candidacy;Approved Candidacy;;;;;;;;;;;;;x
+approved_candidacy_desc;The legislature only consists of delegates chosen in elections directed by the central government.;;;;;;;;;;;;;x
 appointed_legislatures;Appointed Legislatures;;;;;;;;;;;;;x
+appointed_legislatures_desc;The legislature is composed of civil servants chosen by the ruling party.;;;;;;;;;;;;;x
 infrastructure;Infrastructure;;;;;;;;;;;;;x
 ad_hoc_development;Ad-Hoc Development;;;;;;;;;;;;;x
+ad_hoc_development_desc;There are no laws or instituions regulating or promoting infrastructure development.;;;;;;;;;;;;;x
 turnpikes_n_municipal_funding;Turnpikes & Municipal Funding;;;;;;;;;;;;;x
+turnpikes_n_municipal_funding_desc;Infrastructure is largely funded by regional levies and directed by local authorites.;;;;;;;;;;;;;x
 urban_planning;Urban Planning;;;;;;;;;;;;;x
+urban_planning_desc;Most large cities have regional planning authorities.;;;;;;;;;;;;;x
 public_works_division;Public Works Division;;;;;;;;;;;;;x
+public_works_division_desc;There is a government public works division to direct and support infrastructure expansion.;;;;;;;;;;;;;x
 worker_protections;Worker Protections;;;;;;;;;;;;;x
 no_protections;No Protections;;;;;;;;;;;;;x
+no_protections_desc;There are no worker protections;;;;;;;;;;;;;x
 trinket_protections;Trinket Protections;;;;;;;;;;;;;x
+trinket_protections_desc;There are trinket protections for the worker.;;;;;;;;;;;;;x
 low_protections;Low Protections;;;;;;;;;;;;;x
+low_protections_desc;There are low levels of protection for the worker.;;;;;;;;;;;;;x
 acceptable_protections;Acceptable Protections;;;;;;;;;;;;;x
+acceptable_protections_desc;There are acceptable levels of protection for the worker.;;;;;;;;;;;;;x
 good_protections;Good Protections;;;;;;;;;;;;;x
-clerical_policy;Clerical Policy;;;;;;;;;;;;;x
+good_protections_desc;There are good protections for the worker.;;;;;;;;;;;;;x
+scriptural_law;Scriptural Law;;;;;;;;;;;;;x
 morality_police;Morality Police;;;;;;;;;;;;;x
+morality_police_desc;Morality enforce religious legislation with wide powers.;;;;;;;;;;;;;x
 courts_of_canon;Courts of Canon;;;;;;;;;;;;;x
+courts_of_canon_desc;Clerical courts have the right to prosecute religious offenders and heretics.;;;;;;;;;;;;;x
 freedom_of_conscience;Freedom of Conscience;;;;;;;;;;;;;x
+freedom_of_conscience_desc;Subjects cannot face trial for religious views.;;;;;;;;;;;;;x
 permitted_heterodoxy;Permitted Heterodoxy;;;;;;;;;;;;;x
+permitted_heterodoxy_desc;Heterodox views are permitted to form organsations and churches.;;;;;;;;;;;;;x
 local_congregationalism;Local Congregationalism;;;;;;;;;;;;;x
+local_congregationalism_desc;Local congregations are free to endorse their own religious views.;;;;;;;;;;;;;x
 social_privileges;Social Privileges;;;;;;;;;;;;;x
 feudal_rights;Feudal Rights;;;;;;;;;;;;;x
+feudal_rights_desc;Aristocrats have wide proprietary rights against their subjects and the government.;;;;;;;;;;;;;x
 sanctioned_privileges;Sanctioned Privileges;;;;;;;;;;;;;x
+sanctioned_privileges_desc;The government endorses a number of privileges held by aristocrats against the lower orders.;;;;;;;;;;;;;x
 sumptuary_laws;Sumptuary Laws;;;;;;;;;;;;;x
+sumptuary_laws_desc;The lower orders are prohibited from certain luxuries and conspicous consumption.;;;;;;;;;;;;;x
 legal_disabilities;Legal Disabilities;;;;;;;;;;;;;x
+legal_disabilities_desc;Certain castes face a number of legal restritctions.;;;;;;;;;;;;;x
 equality_before_the_law;Equality Before the Law;;;;;;;;;;;;;x
+equality_before_the_law;The government recognises no heritary disabilities or privileges.;;;;;;;;;;;;;x
 welfare_laws;Welfare Laws;;;;;;;;;;;;;x
 no_dole;No Dole;;;;;;;;;;;;;x
+no_dole_desc;There are no welfare policies in the state.;;;;;;;;;;;;;x
 public_granaries;Public Granaries;;;;;;;;;;;;;x
+public_granaries_desc;The government maintains large public granaries to protect against famine.;;;;;;;;;;;;;x
 subsidized_grain_imports;Subsidized Grain Imports;;;;;;;;;;;;;x
+subsidized_grain_imports_desc;The government subsidizes large quantities of grain to reduce the price.;;;;;;;;;;;;;x
 universal_grain_dole;Universal Grain Dole;;;;;;;;;;;;;x
+universal_grain_dole_desc;Most major cities provide a free grain dole to paupers, invalids, and the unemployed.;;;;;;;;;;;;;x
 mule_n_seed_law;Mule & Seed Law;;;;;;;;;;;;;x
+mule_n_seed_law_desc;The government is commited to providing a mule and yearly grains to its paupers and peasants.;;;;;;;;;;;;;x
 slavery;Slavery;;;;;;;;;;;;;x
 yes_slavery;Allowed;;;;;;;;;;;;;x
+yes_slavery_desc;Slavery is allowed;;;;;;;;;;;;;x
 code_of_rights;Code of Rights;;;;;;;;;;;;;x
+code_of_rights_desc;Slaves have some legal protections against abuse.;;;;;;;;;;;;;x
 public_ownership;Public Ownership;;;;;;;;;;;;;x
+public_ownership_desc;All slaves are owned by the state.;;;;;;;;;;;;;x
 gradual_abolition;Gradual Abolition;;;;;;;;;;;;;x
+gradual_abolition_desc;Slaves are regularly emancipated and those born to slaves are free.;;;;;;;;;;;;;x
 no_slavery;Outlawed;;;;;;;;;;;;;x
+no_slavery_desc;Slavery is outlawed;;;;;;;;;;;;;x
 ishahfazh;Ishahfazh;;;;;;;;;;;;;x
 kovazh;Kovazh;;;;;;;;;;;;;x
 bafozh;Bafozh;;;;;;;;;;;;;x
