@@ -673,19 +673,6 @@ health_care = {
 	}
 	
 
-
-	press_rights = {
-		next_step_only = yes
-		state_press = {
-			
-		}
-		censored_press = {
-			
-		}
-		free_press = {
-			
-		}
-	}
 	
 	
 	trade_unions = {
