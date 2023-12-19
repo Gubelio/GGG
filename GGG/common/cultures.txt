@@ -413,3 +413,46 @@ yat-pugurian = {
 
 
 }
+
+
+################
+#### KOFAZH ####
+################
+
+bemuven = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+	  kova = { 
+	  color = { 237 5 37 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+     biori = { 
+	  color = { 166 25 44 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+
+}
+
+nhendian = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+	  bhukhegi = { 
+	  color = { 110 69 42 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+ 
+
+}
