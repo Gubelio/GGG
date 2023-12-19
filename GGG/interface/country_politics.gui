@@ -985,6 +985,63 @@ guiTypes = {
 			########################
 			### social
 			########################
+			
+			windowType = {
+				name = "debt_law"
+				backGround =""
+				position = { x = 384 y = 380 }
+				size = { x=151 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+					 name = "politics_school"
+					 spriteType = "GFX_politics_school"
+					 position = { x = 6 y = 7 }
+					 Orientation = "UPPER_LEFT"
+				 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 39 y = 15 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+		
+		windowType = {
+				name = "penal_system"
+				backGround =""
+				position = { x = 536 y = 380 }
+				size = { x=151 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+			
+			iconType = {
+				name = "politics_penal_system"
+				spriteType = "GFX_politics_slavery"
+				position = { x = 6 y = 7 }
+				Orientation = "UPPER_LEFT"
+			 }
+			
+			instantTextBoxType = { 
+				name = "reform_name"
+				position = { x = 39 y = 15 }
+				font = "vic_18"
+				text = "REFORM_NAME"	
+				maxWidth = 100
+				maxHeight = 20	
+			}
+		}
+		
 		
 		windowType = {
 				name = "public_order"
@@ -1043,7 +1100,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "work_hours"
+				name = "worker_protections"
 				backGround =""
 				position = { x = 536 y = 74 }
 				size = { x=151 y=100 }
@@ -1071,7 +1128,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "safety_regulations"
+				name = "scriptural_law"
 				backGround =""
 				position = { x = 384 y = 176 }
 				size = { x=151 y=100 }
@@ -1156,7 +1213,7 @@ guiTypes = {
 #			}
 			
 			windowType = {
-				name = "pensions"
+				name = "welfare_laws"
 				backGround =""
 				position = { x = 384 y = 278 }
 				size = { x=151 y=100 }
