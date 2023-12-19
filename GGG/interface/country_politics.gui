@@ -618,32 +618,31 @@ guiTypes = {
 			
 
 			
-		windowType = {
-				name = "infrastructure"
-				backGround =""
-				position = { x = 843 y = 248 }
-				size = { x=151 y= 100}
-				moveable = 0
-				dontRender = ""
-				horizontalBorder = "0"
-				verticalBorder = ""
-				fullScreen = no
+			 windowType = {
+            name = "infrastructure"
+            backGround =""
+            position = { x = 843 y = 248 }
+            size = { x=151 y= 100}
+            moveable = 0
+            dontRender = ""
+            horizontalBorder = "0"
+            verticalBorder = ""
+            fullScreen = no
             
-                iconType = {
+                 iconType = {
                 name = "politics_infrastructure"
                 spriteType = "GFX_politics_infrastructure"
                 position = { x= 6 y = 8 } #WAS { x= 7 y = 8 }
                 Orientation = "UPPER_LEFT"
             }
-			
                 instantTextBoxType = { 
-					name = "reform_name"
-					position = { x = 39 y = 15 } #WAS { x = 40 y = 15 }
-					font = "vic_18"
-					text = "REFORM_NAME"    
-					maxWidth = 100
-					maxHeight = 20    
-                }
+                name = "reform_name"
+                position = { x = 39 y = 15 } #WAS { x = 40 y = 15 }
+                font = "vic_18"
+                text = "REFORM_NAME"    
+                maxWidth = 100
+                maxHeight = 20    
+                    }
 
             }
 			
@@ -693,7 +692,6 @@ guiTypes = {
 				 position = { x= 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
-			 
 				
 				instantTextBoxType = { 
 					name = "reform_name"
@@ -716,12 +714,13 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-				iconType = {
+					iconType = {
 				 name = "politics_land_reform_civ"
 				 spriteType = "GFX_politics_land_reform_civ"
 				 position = { x= 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
+				
 				
 				instantTextBoxType = { 
 					name = "reform_name"
@@ -747,7 +746,7 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-				iconType = {
+			iconType = {
 					name = "politics_thralldom"
 					spriteType = "GFX_politics_thralldom"
 					position = { x= 7 y = 8 }
@@ -784,6 +783,7 @@ guiTypes = {
 				 Orientation = "UPPER_LEFT"
 			 }
 				
+				
 				instantTextBoxType = { 
 					name = "reform_name"
 					position = { x = 39 y = 15 }
@@ -809,7 +809,7 @@ guiTypes = {
 				
 				iconType = {
 				 name = "politics_administrative_reform"
-				 spriteType = "politics_administrative_reform"
+				 spriteType = "GFX_politics_administrative_reform"
 				 position = { x= 6 y = 8 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -868,7 +868,7 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			
-			iconType = {
+				iconType = {
 				name = "politics_emigration_law"
 				spriteType = "GFX_politics_emigration_law"
 				position = { x = 6 y = 6 }
@@ -896,7 +896,7 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			
-			iconType = {
+				iconType = {
 			 name = "politics_clerical_law"
 			 spriteType = "GFX_politics_clerical_law"
 			 position = { x= 7 y = 6 }
@@ -924,7 +924,7 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-				iconType = {
+					iconType = {
 					 name = "politics_penal"
 					 spriteType = "GFX_politics_penal"
 					 position = { x = 6 y = 7 }
@@ -981,7 +981,7 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-				iconType = {
+					iconType = {
 				 name = "politics_public_order"
 				 spriteType = "GFX_politics_public_order"
 				 position = { x= 6 y = 7 }
@@ -1124,7 +1124,7 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-				iconType = {
+					iconType = {
 				 name = "politics_welfare_laws"
 				 spriteType = "GFX_politics_welfare_laws"
 				 position = { x = 6 y = 7 }
