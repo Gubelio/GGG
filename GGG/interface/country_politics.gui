@@ -588,6 +588,34 @@ guiTypes = {
 			### political
 			########################
 			
+			windowType = {
+				name = "citizens_rights"
+				backGround =""
+				position = { x = 691 y = 520 }
+				size = { x=151 y=70 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_border_policy"
+				 spriteType = "GFX_politics_healthcare"
+				 position = { x= 6 y = 7 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 36 y = 15 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
 #			windowType = {
 #			name = "conscription"
 #			backGround =""
@@ -870,7 +898,7 @@ guiTypes = {
 #			}
 			
 			windowType = {
-				name = "press_rights"
+				name = "border_policy"
 				backGround =""
 				position = { x = 843 y = 520 }
 				size = { x=151 y=100 }
@@ -985,6 +1013,62 @@ guiTypes = {
 			########################
 			### social
 			########################
+			
+			windowType = {
+			name = "emigration_law"
+			position = { x = 384 y = 520 }
+			backGround =""
+			size = { x=151 y= 100}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType = {
+				name = "politics_citizens_rights"
+				spriteType = "GFX_politics_school"
+				position = { x = 6 y = 6 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = { 
+				name = "reform_name"
+				position = { x = 39 y = 15 } #WAS { x = 40 y = 15 }
+				font = "vic_18" #WAS "vic_18"
+				text = "REFORM_NAME"	
+				maxWidth = 100
+				maxHeight = 20	
+			}
+		}
+			
+			
+			windowType = {
+			name = "clerical_law"
+			backGround =""
+			position = { x = 536 y = 520 }
+			size = { x=151 y=73 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType = {
+			 name = "politics_child_labor"
+			 spriteType = "GFX_politics_school"
+			 position = { x= 7 y = 6 }
+			 Orientation = "UPPER_LEFT"
+		 }
+			
+			instantTextBoxType = { 
+				name = "reform_name"
+				position = { x = 39 y = 15 }
+				font = "vic_18"
+				text = "REFORM_NAME"	
+				maxWidth = 100
+				maxHeight = 20	
+			}
+		}
 			
 			windowType = {
 				name = "debt_law"

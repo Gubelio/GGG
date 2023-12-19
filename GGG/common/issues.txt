@@ -184,6 +184,61 @@ party_issues = {
 ##########################################
 political_reforms = {
 
+citizens_rights = {
+	administrative = yes
+        next_step_only = yes
+        primary_culture_only = {
+            rules = { primary_culture_voting = yes }
+            non_accepted_pop_consciousness_modifier = 0.01
+            allow = {
+                citizenship_policy = residency
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        culture_voting_only = {
+            rules = { culture_voting = yes }
+            global_assimilation_rate = 0.05
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        all_voting_pops = {
+            rules = { all_voting = yes }
+            non_accepted_pop_militancy_modifier = -0.01
+            global_assimilation_rate = 0.15
+            global_immigrant_attract = 0.08
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
+border_policy = {
+        closed_borders = {
+            global_immigrant_attract = -8
+            literacy_con_impact = -0.1
+            administrative_multiplier = 6
+            allow = {
+                citizenship_policy = residency
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        quota_immigration = {
+            administrative_multiplier = 2
+            global_immigrant_attract = -0.02
+            core_pop_militancy_modifier = -0.01
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        open_borders = {
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
+
 legislative_system = {
         next_step_only = yes
 
@@ -508,27 +563,22 @@ thralldom = {
 
     }
 
-
+#OLD#
 
 	press_rights = {
 		next_step_only = yes
 		state_press = {
-			literacy_con_impact = -0.25
-			suppression_points_modifier = 0.25
+			
 		}
 		censored_press = {
-			issue_change_speed = 0.25
-			global_immigrant_attract = 0.01
+			
 		}
 		free_press = {
-			literacy_con_impact = 0.25
-			issue_change_speed = 0.5
-			global_immigrant_attract = 0.02
-			suppression_points_modifier = -0.25
+			
 		}
 	}
 	
-	#OLD#
+	
 	trade_unions = {
 		next_step_only = yes
 		no_trade_unions = {
@@ -686,6 +736,63 @@ health_care = {
 
 
 social_reforms = {
+
+
+    emigration_law = {
+        administrative = yes
+        next_step_only = yes
+
+        emigration_forbidden = {
+            administrative_multiplier = 6
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        emigration_restricted = {
+            administrative_multiplier = 2
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        emigration_permitted = {
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
+
+  clerical_law = {
+        next_step_only = yes
+
+        empowered_clergy = {
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        magisterialism = {
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        anti_clericalism = {
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+    }
+
 
 worker_protections = {
         administrative = yes
