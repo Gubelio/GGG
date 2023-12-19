@@ -304,7 +304,7 @@ legislative_system = {
     }
 
 	
-land_reform = {
+land_reform_civ = {
         next_step_only = yes
 
         feudal_tenure = {

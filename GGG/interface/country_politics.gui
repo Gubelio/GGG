@@ -705,7 +705,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "land_reform"
+				name = "land_reform_civ"
 				backGround =""
 				position = { x = 691 y = 278 }
 				size = { x = 151 y = 114 }
