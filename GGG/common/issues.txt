@@ -650,46 +650,12 @@ health_care = {
 		}
 	}
 
-	voting_system = {
-		first_past_the_post = {
-			}
 
-		jefferson_method = {
 
-			}
-		proportional_representation = {
 
-			}			
-		}
-
-	public_meetings = {
-		no_meeting = {
-			#no immediate effect
-		}
-		yes_meeting = {
-		
-		}
-
-	}
-	
 
 	
-	
-	trade_unions = {
-		next_step_only = yes
-		no_trade_unions = {
-	
-		}
-		state_controlled = {
-	
-		}
-		non_liberationist = {
-	
-		}
-		all_trade_unions = {
-		
-		}
-	}
+
 
 	
 	political_parties = {
