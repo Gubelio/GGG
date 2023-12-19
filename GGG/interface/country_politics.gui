@@ -728,7 +728,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "upper_house_composition"
+				name = "banking_system"
 				backGround =""
 				position = { x = 843 y = 73 }
 				size = { x=151 y=100 }
@@ -757,7 +757,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "vote_franschise"
+				name = "land_reform"
 				backGround =""
 				position = { x = 691 y = 278 }
 				size = { x = 151 y = 114 }
@@ -784,36 +784,37 @@ guiTypes = {
 				}
 			}
 			
-			windowType = {
-				name = "voting_system"
-				backGround =""
-				position = { x = 691 y = 394 }
-				size = { x=151 y=70 }
-				moveable = 0
-				dontRender = ""
-				horizontalBorder = "0"
-				verticalBorder = ""
-				fullScreen = no
-				
-				iconType = {
-				 name = "politics_votingsys"
-				 spriteType = "GFX_politics_votingsys"
-				 position = { x= 6 y = 8 }
-				 Orientation = "UPPER_LEFT"
-			 }
-				
-				instantTextBoxType = { 
-					name = "reform_name"
-					position = { x = 36 y = 15 }
-					font = "vic_18"
-					text = "REFORM_NAME"	
-					maxWidth = 100
-					maxHeight = 20	
-				}
-			}
+#			windowType = {
+#				name = "voting_system"
+#				backGround =""
+#				position = { x = 691 y = 394 }
+#				size = { x=151 y=70 }
+#				moveable = 0
+#				dontRender = ""
+#				horizontalBorder = "0"
+#				verticalBorder = ""
+#				fullScreen = no
+#				
+#				iconType = {
+#				 name = "politics_votingsys"
+#				 spriteType = "GFX_politics_votingsys"
+#				 position = { x= 6 y = 8 }
+#				 Orientation = "UPPER_LEFT"
+#			 }
+#				
+#				instantTextBoxType = { 
+#					name = "reform_name"
+#					position = { x = 36 y = 15 }
+#					font = "vic_18"
+#					text = "REFORM_NAME"	
+#					maxWidth = 100
+#					maxHeight = 20	
+#				}
+#			}
+			
 			
 			windowType = {
-				name = "public_meetings"
+				name = "thralldom"
 				backGround =""
 				position = { x = 843 y = 408 }
 				size = { x=151 y=100 }
@@ -839,6 +840,34 @@ guiTypes = {
 					maxHeight = 20	
 				}
 			}
+			
+#			windowType = {
+#				name = "public_meetings"
+#				backGround =""
+#				position = { x = 843 y = 408 }
+#				size = { x=151 y=100 }
+#				moveable = 0
+#				dontRender = ""
+#				horizontalBorder = "0"
+#				verticalBorder = ""
+#				fullScreen = no
+#				
+#				iconType = {
+#					name = "politics_publicmeet"
+#					spriteType = "GFX_politics_publicmeet"
+#					position = { x= 7 y = 8 }
+#					Orientation = "UPPER_LEFT"
+#				}
+#				
+#				instantTextBoxType = { 
+#					name = "reform_name"
+#					position = { x = 39 y = 15 }
+#					font = "vic_18"
+#					text = "REFORM_NAME"	
+#					maxWidth = 100
+#					maxHeight = 20	
+#				}
+#			}
 			
 			windowType = {
 				name = "press_rights"
@@ -897,7 +926,7 @@ guiTypes = {
 #			}
 			
 			windowType = {
-				name = "trade_unions"
+				name = "administrative_reform"
 				backGround =""
 				position = { x = 843 y = 160 }
 				size = { x=151 y=100 }
@@ -926,7 +955,7 @@ guiTypes = {
 			
 			
 			windowType = {
-				name = "political_parties"
+				name = "legislative_system"
 				backGround =""
 				position = { x = 691 y = 74 }
 				size = { x=151 y=100 }
@@ -956,6 +985,34 @@ guiTypes = {
 			########################
 			### social
 			########################
+		
+		windowType = {
+				name = "public_order"
+				backGround =""
+				position = { x = 843 y = 335 }
+				size = { x=151 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_slavery"
+				 spriteType = "GFX_politics_slavery"
+				 position = { x= 6 y = 7 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 39 y = 15 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
 		
 			windowType = {
 				name = "wage_reform"
@@ -1041,8 +1098,9 @@ guiTypes = {
 				}
 			}
 			
+			
 			windowType = {
-				name = "unemployment_subsidies"
+				name = "social_privileges"
 				backGround =""
 				position = { x = 536 y = 176 }
 				size = { x=151 y=100 }
@@ -1068,6 +1126,34 @@ guiTypes = {
 					maxHeight = 20	
 				}
 			}
+			
+#			windowType = {
+#				name = "unemployment_subsidies"
+#				backGround =""
+#				position = { x = 536 y = 176 }
+#				size = { x=151 y=100 }
+#				moveable = 0
+#				dontRender = ""
+#				horizontalBorder = "0"
+#				verticalBorder = ""
+#				fullScreen = no
+#				
+#				iconType = {
+#				 name = "politics_unemplsub"
+#				 spriteType = "GFX_politics_unemplsub"
+#				 position = { x = 6 y = 7 }
+#				 Orientation = "UPPER_LEFT"
+#			 }
+#				
+#				instantTextBoxType = { 
+#					name = "reform_name"
+#					position = { x = 39 y = 15 }
+#					font = "vic_18"
+#					text = "REFORM_NAME"	
+#					maxWidth = 100
+#					maxHeight = 20	
+#				}
+#			}
 			
 			windowType = {
 				name = "pensions"
@@ -1128,7 +1214,7 @@ guiTypes = {
 			windowType = {
 				name = "school_reforms"
 				backGround =""
-				position = { x = 384 y = 380 }
+				position = { x = 691 y = 394 }
 				size = { x=151 y=100 }
 				moveable = 0
 				dontRender = ""
