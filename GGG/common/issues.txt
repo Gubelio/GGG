@@ -357,6 +357,55 @@ political_reforms = {
 			global_immigrant_attract = 0.05
 		}
 	}
+
+  infrastructure = {
+        next_step_only = yes
+
+        ad_hoc_development = {
+
+            factory_cost = 0.1
+            factory_owner_cost = 0.03
+            factory_input = -0.05
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        turnpikes_n_municipal_funding = {
+
+            factory_cost = 0.01
+            factory_owner_cost = 0.01
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+
+            }
+        }
+
+        urban_planning = {
+
+            factory_cost = -0.02
+            factory_owner_cost = -0.01
+            factory_input = 0.02
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        public_works_division = {
+
+            factory_cost = -0.05
+            factory_owner_cost = -0.05
+            factory_input = 0.05
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
 }
 
 ##########################################
