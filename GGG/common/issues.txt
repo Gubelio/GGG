@@ -174,30 +174,17 @@ party_issues = {
 			reinforce_speed = -0.5
 		}
 	}
+
+
+
 }
 
 ##########################################
 # Political reforms.
 ##########################################
 political_reforms = {
-	slavery = {
-		yes_slavery = {
-			rules = { slavery_allowed = yes }
-		}
-		no_slavery = {
-			rules = { slavery_allowed = no }
-			allow = { 
-				OR = {
-					NOT = { 
-						has_country_flag = the_slavery_debate
-					}
-					year = 1875
-				}
-			}
+	
 
-			global_immigrant_attract = 0.01
-		}
-	}
 
 	vote_franschise = {
 		next_step_only = yes
@@ -406,12 +393,89 @@ political_reforms = {
         }
     }
 
+health_care = {
+		administrative = yes
+		next_step_only = yes
+		no_health_care = {
+		}
+		trinket_health_care = {
+			global_population_growth = 0.002
+			administrative_multiplier = 1
+			global_immigrant_attract = 0.01
+		}
+		low_health_care = {
+			global_population_growth = 0.004
+			administrative_multiplier = 2
+			global_immigrant_attract = 0.02
+		}
+		acceptable_health_care = {
+			global_population_growth = 0.006
+			administrative_multiplier = 3
+			global_immigrant_attract = 0.03
+		}
+		good_health_care = {
+			global_population_growth = 0.008
+			administrative_multiplier = 4
+			global_immigrant_attract = 0.04
+		}
+	}
+
 }
 
 ##########################################
 # Social reforms.
 ##########################################
 social_reforms = {
+slavery = {
+        #next_step_only = yes
+        administrative = yes
+
+        yes_slavery = {
+            rules = { slavery_allowed = yes }
+
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+
+        code_of_rights = {
+            rules = { slavery_allowed = yes }
+
+            global_immigrant_attract = 0.01
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        public_ownership = {
+            rules = { slavery_allowed = yes }
+
+        tax_efficiency = 0.05 
+            global_immigrant_attract = 0.02
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        gradual_abolition = {
+            rules = { slavery_allowed = yes }
+
+            global_immigrant_attract = 0.03
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+        no_slavery = {
+            rules = { slavery_allowed = no }
+
+            global_immigrant_attract = 0.04
+
+            allow = {
+                NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
 	wage_reform = {
 		administrative = yes
 		next_step_only = yes
@@ -553,32 +617,7 @@ social_reforms = {
 			global_immigrant_attract = 0.04
 		}
 	}	
-	health_care = {
-		administrative = yes
-		next_step_only = yes
-		no_health_care = {
-		}
-		trinket_health_care = {
-			global_population_growth = 0.002
-			administrative_multiplier = 1
-			global_immigrant_attract = 0.01
-		}
-		low_health_care = {
-			global_population_growth = 0.004
-			administrative_multiplier = 2
-			global_immigrant_attract = 0.02
-		}
-		acceptable_health_care = {
-			global_population_growth = 0.006
-			administrative_multiplier = 3
-			global_immigrant_attract = 0.03
-		}
-		good_health_care = {
-			global_population_growth = 0.008
-			administrative_multiplier = 4
-			global_immigrant_attract = 0.04
-		}
-	}
+	
 
 	school_reforms = {
 		next_step_only = yes

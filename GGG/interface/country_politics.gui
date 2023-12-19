@@ -702,7 +702,7 @@ guiTypes = {
 			windowType = {
 				name = "slavery"
 				backGround =""
-				position = { x = 843 y = 335 }
+				position = { x = 536 y = 278 }
 				size = { x=151 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -1100,7 +1100,7 @@ guiTypes = {
 			windowType = {
 				name = "health_care"
 				backGround =""
-				position = { x = 536 y = 278 }
+				position = { x = 691 y = 176 }
 				size = { x=151 y=100 }
 				moveable = 0
 				dontRender = ""
