@@ -124,6 +124,53 @@ gradual_abolition;Gradual Abolition;;;;;;;;;;;;;x
 gradual_abolition_desc;Slaves are regularly emancipated and those born to slaves are free.;;;;;;;;;;;;;x
 no_slavery;Outlawed;;;;;;;;;;;;;x
 no_slavery_desc;Slavery is outlawed;;;;;;;;;;;;;x
+citizens_rights;Cultural Rights;;;;;;;;;;;;;x
+primary_culture_only;Primary Culture Only;;;;;;;;;;;;;x
+primary_culture_only_desc;Only our primary culture can vote.;;;;;;;;;;;;;x
+culture_voting_only;Minority Rights;;;;;;;;;;;;;x
+culture_voting_only_desc;Certain accepted minorities are allowed to participate politically.;;;;;;;;;;;;;x
+all_voting_pops;All Cultures Accepted;;;;;;;;;;;;;x
+all_voting_pops_desc;All cultures are allowed to participate in the political process.;;;;;;;;;;;;;x
+border_policy;Immigration Law;;;;;;;;;;;;;x
+closed_borders;Closed Borders;;;;;;;;;;;;;x
+closed_borders_desc;The border is strictly closed to immigrants.;;;;;;;;;;;;;x
+quota_immigration;Immigration Quotas;;;;;;;;;;;;;x
+quota_immigration_desc;Quotas carefuly restrict the amount of immigrants.;;;;;;;;;;;;;x
+open_borders;Open Borders;;;;;;;;;;;;;x
+open_borders_desc;All immigrants are free to come to our country.;;;;;;;;;;;;;x
+emigration_law;Emigration Law;;;;;;;;;;;;;x
+emigration_forbidden;Emigration Forbidden;;;;;;;;;;;;;x
+emigration_forbidden_desc;Emigration is strictly forbidden.;;;;;;;;;;;;;x
+emigration_restricted;Restricted Migration;;;;;;;;;;;;;x
+emigration_restricted_desc;Certain permits allow for legal emigration.;;;;;;;;;;;;;x
+emigration_permitted;Emigration Permitted;;;;;;;;;;;;;x
+emigration_permitted_desc;Emigration is unrestricted and legal.;;;;;;;;;;;;;x
+clerical_law;Clerical Law;;;;;;;;;;;;;x
+empowered_clergy;Empowered Clergy;;;;;;;;;;;;;x
+empowered_clergy_desc;The clergy maintains an extensive private state and judiciary.;;;;;;;;;;;;;x
+magisterialism;Magisterialism;;;;;;;;;;;;;x
+magisterialism_desc;The state and the ecclesiastical structure meld into one.;;;;;;;;;;;;;x
+anti_clericalism;Anti-Clericalism;;;;;;;;;;;;;x
+anti_clericalism_desc;The state is strictly seperate from the clergy, and clerical influence is legislated against.;;;;;;;;;;;;;x
+debt_law;Debt Law;;;;;;;;;;;;;x
+serfdom;Serfdom;;;;;;;;;;;;;x
+serfdom_desc;Those unable to pay their debts descend into hereditary, landbound servitude.;;;;;;;;;;;;;x
+peonage;Peonage;;;;;;;;;;;;;x
+peonage_desc;Those unable to pay their debts descend into the service of their creditor.;;;;;;;;;;;;;x
+debtors_prisons;Debtors' Prisons;;;;;;;;;;;;;x
+debtors_prisons_desc;Those unable to pay their debts are interned in state run labour facilities until their debts are payed.;;;;;;;;;;;;;x
+bankruptcy;Bankruptcy;;;;;;;;;;;;;x
+bankruptcy_desc;Those unable to pay their debts may declare bankrupty to seek relief.;;;;;;;;;;;;;x
+penal_system;Penal System;;;;;;;;;;;;;x
+capital_punishment;Capital Punishment;;;;;;;;;;;;;x
+capital_punishment_desc;The death penalty is a legal and common punishment for certain criminals.;;;;;;;;;;;;;x
+colonial_transportation;Transportation;;;;;;;;;;;;;x
+colonial_transportation_desc;Transportation to colonial servitute is a common punishment for crimes.;;;;;;;;;;;;;x
+incarceration;Incarceration;;;;;;;;;;;;;x
+incarceration_desc;Criminals are most often interned in state prisons or dungeons.;;;;;;;;;;;;;x
+rehabilitation;Rehabilitation;;;;;;;;;;;;;x
+rehabilitation_desc;Criminals are directed to correctional facilities with an intention to release them after correction.;;;;;;;;;;;;;x
+POLITICS_MATTERS_OF_STATE;Matters of State;;;;;;;;;;;;;x
 ishahfazh;Ishahfazh;;;;;;;;;;;;;x
 kovazh;Kovazh;;;;;;;;;;;;;x
 bafozh;Bafozh;;;;;;;;;;;;;x
