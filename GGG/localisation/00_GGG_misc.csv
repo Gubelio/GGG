@@ -82,7 +82,7 @@ good_protections;Good Protections;;;;;;;;;;;;;x
 good_protections_desc;There are good protections for the worker.;;;;;;;;;;;;;x
 scriptural_law;Scriptural Law;;;;;;;;;;;;;x
 morality_police;Morality Police;;;;;;;;;;;;;x
-morality_police_desc;Morality enforce religious legislation with wide powers.;;;;;;;;;;;;;x
+morality_police_desc;Morality police enforce religious legislation with wide powers.;;;;;;;;;;;;;x
 courts_of_canon;Courts of Canon;;;;;;;;;;;;;x
 courts_of_canon_desc;Clerical courts have the right to prosecute religious offenders and heretics.;;;;;;;;;;;;;x
 freedom_of_conscience;Freedom of Conscience;;;;;;;;;;;;;x
@@ -171,6 +171,13 @@ incarceration_desc;Criminals are most often interned in state prisons or dungeon
 rehabilitation;Rehabilitation;;;;;;;;;;;;;x
 rehabilitation_desc;Criminals are directed to correctional facilities with an intention to release them after correction.;;;;;;;;;;;;;x
 POLITICS_MATTERS_OF_STATE;Matters of State;;;;;;;;;;;;;x
+theocracy;Theocracy;;;;;;;;;;;;;x
+parliamentary_despotate;Parliamentarary Despotate;;;;;;;;;;;;;x
+princely_despotate;Princely Despotate;;;;;;;;;;;;;x
+absolute_autocracy;Absolutist Autocracy;;;;;;;;;;;;;x
+statist_bureaucracy;Statist Bureaucracy;;;;;;;;;;;;;x
+sublime_synod;Sublime Synod;;;;;;;;;;;;;x
+paternalistic_council;Paternalistic Council;;;;;;;;;;;;;x
 ishahfazh;Ishahfazh;;;;;;;;;;;;;x
 kovazh;Kovazh;;;;;;;;;;;;;x
 bafozh;Bafozh;;;;;;;;;;;;;x
