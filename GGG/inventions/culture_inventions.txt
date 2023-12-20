@@ -400,7 +400,7 @@ liberationist_realism = {
 		base = 2
 		modifier = {
 			factor = 2
-			government = proletarian_dictatorship
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 2
@@ -866,11 +866,7 @@ constitutionalism = {
 		base = 3
 		modifier = {
 			factor = 2
-			government = hms_government
-		}
-		modifier = {
-			factor = 1
-			NOT = { political_parties = underground_parties }
+			government = parliamentary_despotate
 		}
 		
 
@@ -891,7 +887,7 @@ atheism = {
 		}
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = absolutist
 		}
 		modifier = {
 			factor = 2
@@ -907,14 +903,6 @@ egalitarianism = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 3
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 2
-			government = democracy
-		}
 		modifier = {
 			factor = 1
 			NOT = {
@@ -955,10 +943,7 @@ authoritarianism = {
 			factor = 5
 			OR = {
 				ruling_party_ideology = reactionary
-				AND = {
-					government = absolute_monarchy
-					ruling_party_ideology = conservative
-					}
+				ruling_party_ideology = conservative
 				}
 		}
 	}
@@ -969,20 +954,19 @@ hierarchical_order = {
 	limit = { 
 			ideological_thought = 1 
 			OR = { 
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
+			government = princely_despotate
+			government = parliamentary_despotate
 			}			
 	}
 	chance = {
 		base = 1
 		modifier = {
 			factor = 3
-			government = absolute_monarchy
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 2
-			government = prussian_constitutionalism
+			government = parliamentary_despotate
 		}
 	}
 	core_pop_militancy_modifier = -0.01
@@ -1003,11 +987,11 @@ traditionalism = {
 		}
 		modifier = {
 			factor = 2
-			government = absolute_monarchy
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 1
-			government = prussian_constitutionalism
+			government = parliamentary_despotate
 		}
 	}
 	core_pop_consciousness_modifier = -0.01
@@ -1666,11 +1650,11 @@ mass_advertising = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			government = statist_bureaucracy
 		}
 		modifier = {
 			factor = 1
-			government = hms_government
+			government = absolute_autocracy
 		}
 	}
 	effect = {
@@ -1690,7 +1674,7 @@ national_radio_networks = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = -1

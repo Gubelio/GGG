@@ -1,7 +1,107 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new forms of governemnts, make sure they are uniquely named.
 
+############################
+#  Liberationist Councils  #
+############################
 
+paternalistic_council = {
+    
+    liberationist = yes
+    radical_liberationist = yes
+    conservative = yes
+
+    election = yes
+    duration = 48
+    appoint_ruling_party = yes
+    flagType = republic
+}
+
+###############
+# Theocratist #
+###############
+
+sublime_synod = {
+
+    theocratist = yes
+
+    election = no
+    appoint_ruling_party = yes
+    flagType = fascist
+}
+
+######################
+# statist absolutism #
+######################
+
+statist_bureaucracy = {
+    theocratist = yes
+    statist = yes
+    absolutist = yes
+    conservative = yes
+
+    election = yes
+    appoint_ruling_party = yes
+    flagType = communist
+}
+
+absolute_autocracy = {
+    absolutist = yes
+
+    election = no
+    appoint_ruling_party = yes
+    flagType = communist
+}
+
+###########################
+# Conservative Foundation #
+###########################
+
+theocracy = { #could represent clergy council?
+
+    reactionary = yes
+    conservative = yes
+    theocratist = yes
+    radical_liberationist = yes
+    liberationist = yes
+
+    election = yes
+    duration = 48
+    #appoint_ruling_party = yes
+    flagType = fascist
+}
+
+parliamentary_despotate = {
+    reactionary = yes
+    conservative = yes
+    theocratist = yes
+    radical_liberationist = yes
+    liberationist = yes
+    statist = yes
+    absolutist = yes
+
+    election = yes
+    duration = 48
+    flagType = monarchy
+}
+
+princely_despotate = {
+    reactionary = yes
+    conservative = yes
+    liberationist = yes
+    statist = yes
+    theocratist = yes
+
+    election = yes
+    duration = 48
+    #appoint_ruling_party = yes
+    flagType = monarchy
+}
+
+
+##################
+## VANILLA GOVS ##
+##################
 
 proletarian_dictatorship =
 {
