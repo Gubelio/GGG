@@ -852,10 +852,6 @@ paternalism = {
 			factor = 2
 			NOT = { average_consciousness = 3.0 }
 		}
-		modifier = {
-			factor = 2
-			vote_franschise = landed_voting
-		}
 	}
 	org_regain = 0.05
 }

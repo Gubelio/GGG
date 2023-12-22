@@ -1510,7 +1510,191 @@ pan_nationalist_rebels = {
 					cultural_union = { exists = yes }
 				}
 			}
-			country_event = { id=11100 days=0 }
+			#country_event = { id=11100 days=0 }
 		}
 	}
 }
+
+###################################
+# Bondsmen Rebellion
+###################################
+#bondsman_rebels = {
+#    icon = 7
+#
+#    area = nation                     # Stays within the nation
+#    break_alliance_on_win = no
+#
+#    # <this is the government in the country> = <this is what the rebels want>
+#    government = {
+#        paternalistic_council = sublime_synod
+#        sublime_synod = sublime_synod
+#        absolutist_bureaucracy = sublime_synod
+#        theocracy = sublime_synod
+#        parliamentary_despotate = sublime_synod
+#        princely_despotate = sublime_synod
+#    }
+#
+#
+#    defection = none                    # Will defect to the "best" alternative.
+#    independence = none                # Does not strive for independence
+#    defect_delay = 18
+#
+#    ideology = radical_liberationist
+#
+#    allow_all_cultures = yes
+#    allow_all_religions = yes
+#    allow_all_ideologies = yes
+#
+#    resilient = yes                    # Does not disband on retreat
+#    reinforcing = yes                # Receives reinforcements
+#    general = yes                    # Uses generals
+#    smart = yes                    # Assaults forts, tactically withdraws from battle, etc.
+#    unit_transfer = no                # Units remain after enforcing demands.
+#
+#    occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
+#
+#    # triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
+#    will_rise = {
+#        factor = 0.5
+#
+#        modifier = {
+#            war = yes
+#            factor = 0.8
+#        }
+#        modifier = {
+#            war_exhaustion = 40
+#            factor = 0.95
+#        }
+#        modifier = {
+#            war_exhaustion = 60
+#            factor = 0.95
+#        }
+#        modifier = {
+#            war_exhaustion = 80
+#            factor = 0.95
+#        }
+#    }
+#
+#    # The rebel type with the highest modifier for this pop gets picked
+#    spawn_chance = {
+#        factor = 1.02
+#
+#        modifier = {
+#            factor = 0
+#	    NOT = {
+#		   OR = {
+#                         type = slaves
+#			 types = thralls
+#		   }
+#	      }
+#        }
+#
+#        modifier = {
+#            factor = 0
+#            AND = {
+#		country = { slavery = no_slavery }
+#		country = { thralldom = thralldom_outlawed }
+#	    }
+#        }
+#
+#        modifier = {
+#            factor = 0
+#            country = { civilized = no }
+#        }
+#
+#        modifier = {
+#            factor = 0.2
+#            is_primary_culture = no
+#            is_accepted_culture = yes
+#        }
+#
+#        modifier = {
+#            factor = 0.4
+#            is_primary_culture = no
+#            is_accepted_culture = no
+#        }
+#
+#        modifier = {
+#            factor = 1.015
+#            country = { NOT = { plurality = 35 } }
+#        }
+#
+#
+#    }
+#
+#     #This is checked for EACH province in the Area of Operations
+#    movement_evaluation = {
+#        factor = 1
+#        modifier = {
+#            factor = 0.1
+#            units_in_province = 1
+#            NOT = { is_capital = yes }
+#        }
+#        modifier = {
+#            factor = 0.001
+#            controlled_by = REB
+#            NOT = { is_capital = yes }
+#        }
+#        modifier = {
+#            factor = 1.5
+#            average_militancy = 4
+#        }
+#        modifier = {
+#            factor = 1.5
+#            average_militancy = 6
+#        }
+#        modifier = {
+#            factor = 1.5
+#            average_militancy = 8
+#        }
+#        modifier = {
+#            factor = 5.0
+#            is_capital = yes
+#        }
+#    }
+#
+#     # Province Scope
+#     siege_won_trigger = {
+#        NOT = { has_province_modifier = war_torn }
+#     }
+#
+#    siege_won_effect = {
+#        add_province_modifier = {
+#            name = war_torn
+#            duration = 365
+#        }
+#        any_pop = {
+#            ideology = {
+#                value = liberationist
+#                factor = 0.05
+#            }
+#        }
+#        owner = { war_exhaustion = 2.5 }
+#    }
+#
+#
+#    # Country scope
+#    demands_enforced_trigger = {
+#        OR = {
+#            capital_scope = {
+#                controlled_by = REB
+#                province_control_days = 90
+#            }
+#            NOT = {
+#                any_owned_province = {
+#                    is_colonial = no
+#                    controlled_by = THIS
+#                }
+#            }
+#        }
+#    }
+#
+#    demands_enforced_effect = {
+#        release_vassal = REB
+#        modify_relation = {
+#            tag = REB
+#            relation = -150
+#        }
+#        prestige_factor = -0.3
+#    }
+#}

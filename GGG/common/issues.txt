@@ -650,33 +650,6 @@ health_care = {
 		}
 	}
 
-
-
-
-
-	
-
-
-	
-	political_parties = {
-		next_step_only = yes
-		underground_parties = {
-		
-		}
-		harassment = {
-			
-		}
-		gerrymandering = {
-			
-		}
-		non_secret_ballots = {
-			
-		}
-		secret_ballots = {
-			
-		}
-	}
-
 	#OLDEND#
 
  
@@ -1088,24 +1061,6 @@ slavery = {
 			global_immigrant_attract = 0.04
 		}
 	}
-	work_hours = {
-		administrative = yes
-		next_step_only = yes
-		no_work_hour_limit = {
-		}
-		fourteen_hours = {
-		
-		}
-		twelve_hours = {
-			
-		}
-		ten_hours = {
-		
-		}
-		eight_hours = {
-			
-		}
-	}
 	 social_privileges = {
         administrative = yes
         next_step_only = yes
@@ -1154,72 +1109,12 @@ slavery = {
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
+			
         }
 
     }
 	
-	#OLD
-	safety_regulations = {
-		administrative = yes
-		next_step_only = yes
-		no_safety = {
-		}
-		trinket_safety = {
-			
-		}
-		low_safety = {
-		
-		}
-		acceptable_safety = {
-		
-		}
-		good_safety = {
-			
-		}
-	}
-	
-
-	unemployment_subsidies = {
-		next_step_only = yes
-		no_subsidies = {
-		}
-		trinket_subsidies = {
-			
-		}
-		low_subsidies = {
-			
-		}
-		acceptable_subsidies = {
-			
-		}
-		good_subsidies = {
-	
-		}
-	}
-	
-	pensions = {
-		next_step_only = yes
-		no_pensions = {
-		}
-		trinket_pensions = {
-		
-		}
-		low_pensions = {
-		
-		}
-		acceptable_pensions = {
-	
-		}
-		good_pensions = {
-			
-		}
-	}	
-	
-
-		
 }
-
-#olden
 
 ####UNCIV####
 
