@@ -1581,7 +1581,7 @@ install_radical_liberationist_gov_cb = {
 			is_greater_power = yes
 			
 			# If actor gov truly radical_liberationist
-			government = proletarian_dictatorship
+			government = paternalistic_council
 			
 			# If actor ruling party is radical_liberationist
 			ruling_party_ideology = radical_liberationist
@@ -1619,12 +1619,17 @@ install_radical_liberationist_gov_cb = {
 	}
 	
 	on_po_accepted = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = state_controlled
-		political_reform = underground_parties
+        political_reform = thralldom_allowed
+        political_reform = regulated_elections
+        political_reform = no_school_system
+
+        social_reform = good_minimum_wage
+        social_reform = good_protections
+        social_reform = local_congregationalism
+        social_reform = equality_before_the_law
+        social_reform = mule_n_seed_law
+        social_reform = no_slavery
+        social_reform = bankruptcy
 	}
 }
 
@@ -1662,7 +1667,7 @@ uninstall_radical_liberationist_gov_cb = {
 		}
 		
 		# If reciever current gov is proletarian_dictatorship
-		government = proletarian_dictatorship
+		government = paternalistic_council
 	}
 	
 	po_uninstall_radical_liberationist_gov_type = yes
