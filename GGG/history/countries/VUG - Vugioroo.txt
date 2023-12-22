@@ -14,8 +14,29 @@ civilized = yes
 prestige = 25
 
 # Political reforms
+citizens_rights = culture_voting_only
+border_policy = quota_immigration
+legislative_system = regulated_elections
+land_reform_civ = feudal_tenure
+banking_system = banking_licenses
+thralldom = thralldom_allowed
+public_order = feudal_courts
+administrative_reform = hereditary_bureaucracy
+infrastructure = ad_hoc_development
+health_care = no_health_care
+school_reforms = no_school_system
 
 # Social Reforms
+emigration_law = emigration_restricted
+clerical_law = anti_clericalism
+worker_protections = acceptable_protections
+scriptural_law = local_congregationalism 
+welfare_laws = mule_n_seed_law
+debt_law = debtors_prisons
+penal_system = incarceration
+slavery = no_slavery
+wage_reform = acceptable_minimum_wage
+social_privileges = equality_before_the_law
 
 ruling_party = dominion_conservative
 upper_house = { # inherit
