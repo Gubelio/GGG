@@ -113,16 +113,6 @@ ideologies = {
         }
 
         modifier = {
-            factor = 1.8
-            country = {
-                OR = {
-                    vote_franschise = universal_weighted_voting
-                    vote_franschise = universal_voting
-                }
-            }
-        }
-
-        modifier = {
             factor = 1.1
             consciousness = 6
         }
@@ -171,5 +161,53 @@ issues = {
 
     anti_military = {
         factor = 1.1
+    }
+
+peonage = {
+    factor = 1
+
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = peonage }
+                country = {    civilized = no }
+            }
+        }
+
+        modifier = {
+            factor = 1.2
+            OR = {
+                pop_majority_ideology = statist
+                pop_majority_ideology = liberationist
+                pop_majority_ideology = radical_liberationist
+            }
+        }
+
+        modifier = {
+            factor = 1.2
+            literacy = 0.6
+        }
+
+        modifier = {
+            factor = 1.3
+            literacy = 0.7
+        }
+
+        modifier = {
+            factor = 1.1
+            consciousness = 6
+        }
+        modifier = {
+            factor = 1.1
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.3
+            consciousness = 8
+        }
+        modifier = {
+            factor = 2
+            consciousness = 9
+        }
     }
 }

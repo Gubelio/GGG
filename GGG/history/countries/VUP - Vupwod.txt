@@ -3,7 +3,7 @@ primary_culture = vupuyti
 religion = pagan
 government = absolute_monarchy #parliamentary_despotate
 plurality = 5.0
-nationalvalue = nv_autocracy
+nationalvalue = nv_none
 literacy = 0.01
 non_state_culture_literacy = 0.01
 civilized = no
@@ -15,12 +15,12 @@ civilized = no
 ruling_party = dominion_conservative
 upper_house = { # inherit
 	theocratist = 0
-	statist = 25
+	statist = 0
 	conservative = 65
-	reactionary = 10
+	reactionary = 15
 	absolutist = 0
-	liberationist = 0
-	radical_liberationist = 0
+	liberationist = 15
+	radical_liberationist = 5
 }
 
 

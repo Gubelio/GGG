@@ -56,3 +56,6 @@ nv_productivity = {
     mobilisation_size = 0.04
     mobilisation_economy_impact = 0.5
 }
+
+nv_none = {
+}

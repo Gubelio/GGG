@@ -3,7 +3,7 @@ primary_culture = west_gashdzii
 religion = kadkohi
 government = absolute_monarchy
 plurality = 25.1
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.17
 civilized = yes
 civilized = yes
@@ -31,12 +31,12 @@ school_reforms = no_schools
 ruling_party = dominion_conservative
 upper_house = { # inherit
 	theocratist = 0
-	statist = 25
+	statist = 0
 	conservative = 65
-	reactionary = 10
+	reactionary = 15
 	absolutist = 0
-	liberationist = 0
-	radical_liberationist = 0
+	liberationist = 15
+	radical_liberationist = 5
 }
 
 
