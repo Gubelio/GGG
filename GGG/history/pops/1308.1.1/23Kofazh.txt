@@ -289,3 +289,531 @@
 
 }
 
+922 = {
+
+
+
+	thralls = {
+		culture = kova
+		religion = wompowushan
+		size = 74
+	}
+
+	slaves = {
+		culture = kova
+		religion = wompowushan
+		size = 669
+	}
+
+	thralls = {
+		culture = kova
+		religion = rechktist
+		size = 2554
+	}
+
+	slaves = {
+		culture = kova
+		religion = rechktist
+		size = 22988
+	}
+
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 55
+	}
+
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 110
+	}
+
+
+	soldiers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 166
+	}
+
+
+	farmers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 3493
+	}
+
+
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 1663
+	}
+
+}
+
+923 = {
+
+
+
+	thralls = {
+		culture = kova
+		religion = wompowushan
+		size = 300
+	}
+
+	slaves = {
+		culture = kova
+		religion = wompowushan
+		size = 2703
+	}
+
+	thralls = {
+		culture = kova
+		religion = rechktist
+		size = 2664
+	}
+
+	slaves = {
+		culture = kova
+		religion = rechktist
+		size = 23981
+	}
+
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 44
+	}
+
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 133
+	}
+
+
+	farmers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 2794
+	}
+
+
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 1330
+	}
+
+}
+
+924 = {
+
+
+
+	thralls = {
+		culture = kova
+		religion = wompowushan
+		size = 1
+	}
+
+	slaves = {
+		culture = kova
+		religion = wompowushan
+		size = 11
+	}
+
+	thralls = {
+		culture = kova
+		religion = rechktist
+		size = 3225
+	}
+
+	slaves = {
+		culture = kova
+		religion = rechktist
+		size = 29028
+	}
+
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 143
+	}
+
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 143
+	}
+
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 286
+	}
+
+
+	soldiers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 430
+	}
+
+
+	farmers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 9036
+	}
+
+
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 4302
+	}
+
+}
+
+925 = {
+
+
+
+	thralls = {
+		culture = kova
+		religion = wompowushan
+		size = 20
+	}
+
+	slaves = {
+		culture = kova
+		religion = wompowushan
+		size = 182
+	}
+
+	thralls = {
+		culture = kova
+		religion = rechktist
+		size = 810
+	}
+
+	slaves = {
+		culture = kova
+		religion = rechktist
+		size = 7292
+	}
+
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 7
+	}
+
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 14
+	}
+
+
+	soldiers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 21
+	}
+
+
+	farmers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 441
+	}
+
+
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 210
+	}
+
+}
+
+926 = {
+
+
+
+	labourers = {
+		culture = kova
+		religion = kadkohi
+		size = 200
+	}
+
+	farmers = {
+		culture = kova
+		religion = kadkohi
+		size = 33
+	}
+
+	soldiers = {
+		culture = kova
+		religion = kadkohi
+		size = 4
+	}
+
+	labourers = {
+		culture = kova
+		religion = motkohnic
+		size = 893
+	}
+
+	farmers = {
+		culture = kova
+		religion = motkohnic
+		size = 149
+	}
+
+	soldiers = {
+		culture = kova
+		religion = motkohnic
+		size = 17
+	}
+
+	labourers = {
+		culture = kova
+		religion = rechktist
+		size = 5978
+	}
+
+	farmers = {
+		culture = kova
+		religion = rechktist
+		size = 1003
+	}
+
+	soldiers = {
+		culture = kova
+		religion = rechktist
+		size = 119
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 177
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 16
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 2
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = kadkohi
+		size = 3
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 11
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 4
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 35
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 7
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 383
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 0
+	}
+
+}
+
+927 = {
+
+
+
+	aristocrats = {
+		 culture = biori
+		 religion = rechktist
+		 size = 233
+	}
+
+
+	clergymen = {
+		 culture = biori
+		 religion = rechktist
+		 size = 93
+	}
+
+
+	artisans = {
+		 culture = biori
+		 religion = rechktist
+		 size = 233
+	}
+
+
+	soldiers = {
+		 culture = biori
+		 religion = rechktist
+		 size = 634
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = rechktist
+		 size = 6832
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = rechktist
+		 size = 1306
+	}
+
+}
+
+928 = {
+
+
+
+	aristocrats = {
+		 culture = biori
+		 religion = rechktist
+		 size = 308
+	}
+
+
+	clergymen = {
+		 culture = biori
+		 religion = rechktist
+		 size = 123
+	}
+
+
+	artisans = {
+		 culture = biori
+		 religion = rechktist
+		 size = 308
+	}
+
+
+	soldiers = {
+		 culture = biori
+		 religion = rechktist
+		 size = 839
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = rechktist
+		 size = 9035
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = rechktist
+		 size = 1728
+	}
+
+}
+

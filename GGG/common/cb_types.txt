@@ -1598,7 +1598,7 @@ install_radical_liberationist_gov_cb = {
 				
 			# If reciever current gov is not proletarian_dictatorship
 			NOT = {
-				government = proletarian_dictatorship
+				government = paternalistic_council
 			}
 			
 			# If reciever is not a great power
