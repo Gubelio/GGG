@@ -662,7 +662,41 @@ health_care = {
 
 
 social_reforms = {
-
+unemployment_subsidies = {
+		next_step_only = yes
+		no_subsidies = {
+		}
+		trinket_subsidies = {
+			
+		}
+		low_subsidies = {
+			
+		}
+		acceptable_subsidies = {
+			
+		}
+		good_subsidies = {
+	
+		}
+	}
+	
+	pensions = {
+		next_step_only = yes
+		no_pensions = {
+		}
+		trinket_pensions = {
+		
+		}
+		low_pensions = {
+		
+		}
+		acceptable_pensions = {
+	
+		}
+		good_pensions = {
+			
+		}
+	}	
 
     emigration_law = {
         administrative = yes
