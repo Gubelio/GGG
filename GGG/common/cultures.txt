@@ -273,20 +273,6 @@ huighian = {
     leader = european
     unit = EuropeanGC
 
-    eshemi = { 
-	  color = { 70 170 67 }
-	      first_names = {  }
-
-        	last_names = {  }
-    }
-
-    duyo = { 
-	  color = { 196 54 54 }
-	      first_names = {  }
-
-        	last_names = {  }
-    }
-
     dehuogi = { 
 	  color = { 116 38 168 }
 	      first_names = {  }
@@ -294,13 +280,35 @@ huighian = {
         	last_names = { Budobam }
     }
 
-    bogoran = { 
-	  color = { 110 73 158 }
+   
+    duyo = { 
+	  color = { 196 54 54 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
+
+  eshemi = { 
+	  color = { 70 170 67 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
+
+bogoroid = {
+    leader = european
+    unit = EuropeanGC
+
+
+ bogoran = { 
+	  color = { 110 73 158 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
 
 }
 
@@ -323,16 +331,15 @@ duttuphti = {
         	last_names = {  }
     }
 
-     ngoghu = { 
+
+   ngoghu = { 
 	  color = { 192 219 118 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
-   
 }
-
 
 thihudian = {
     leader = european
@@ -441,18 +448,66 @@ bemuven = {
 
 }
 
-nhendian = {
+bhukheg = {
     leader = arab
     unit = MiddleEasternGC
 
-
-	  bhukhegi = { 
+  bhukhegi = { 
 	  color = { 110 69 42 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
+}
+
+nhendian = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+	
+
+	 aucbocharr = { 
+	  color = { 163 84 33 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+ aucubhur = { 
+	  color = { 222 129 22 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
  
+
+}
+
+chobajhin = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ chobajhi = { 
+	  color = { 250 105 243 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
+
+
+ostbzaif = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ Ftemioq = { 
+	  color = { 57 39 176 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
 
 }
