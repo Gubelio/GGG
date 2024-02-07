@@ -99,6 +99,28 @@ MAC		= "countries/Machy.txt"
 THS		= "countries/Thesoroo.txt"
 UNI		= "countries/Uni.txt"
 
+#KOVAZH
+QOO		= "countries/Qooxib.txt" #Qooxibi Empire
+ORH		= "countries/Ourrhond.txt"
+FCH		= "countries/Fazhri Chrur.txt" #Fazhri Chrůr
+HUH		= "countries/Huhob.txt"
+EID		= "countries/Eidhiganod.txt"
+BUM		= "countries/Bumid.txt"
+GOX		= "countries/Goxoor.txt"
+SOM		= "countries/Soma.txt"
+CHR		= "countries/Chro.txt"
+CRR		= "countries/Chirran.txt" #Chirrån
+OHO		= "countries/Ohochk.txt"
+MHI		= "countries/Mhivoundho.txt"
+NEX		= "countries/Nexabo.txt"
+GHU		= "countries/Ghurghik.txt"
+VUN		= "countries/Vun Mour.txt"
+TIA		= "countries/Tiamten.txt"
+UXA		= "countries/Uxamiar.txt"
+BHI		= "countries/Bhibaunghir.txt"
+AYU		= "countries/Anyumb.txt"
+
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

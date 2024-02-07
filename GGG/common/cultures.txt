@@ -448,6 +448,27 @@ bemuven = {
 
 }
 
+buksedian= {
+    leader = arab
+    unit = MiddleEasternGC
+
+     humabi = { 
+	  color = { 219 182 33 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+     dexun = { 
+	  color = { 182 219 33 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+
+}
+
 bhukheg = {
     leader = arab
     unit = MiddleEasternGC
@@ -503,11 +524,54 @@ ostbzaif = {
     leader = arab
     unit = MiddleEasternGC
 
- Ftemioq = { 
+ ftemioq = { 
 	  color = { 57 39 176 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
+ nordftemioq = { 
+	  color = { 100 81 224 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
 }
+
+ruadian = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+    anbmedh = { #lowlanders
+	  color = { 50 168 82 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    ibhuamn = { #highlanders
+	  color = { 100 179 100 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+
+}
+
+chrawyayian= {
+    leader = arab
+    unit = MiddleEasternGC
+
+ yigo = { 
+	  color = { 68 115 101 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
+
