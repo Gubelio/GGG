@@ -536,3 +536,263 @@ country_event = {
 		enable_ideology = theocratist
 	}
 }
+
+
+###################
+## MISCELLANEOUS ##
+###################
+
+country_event = { #MOBILIZATION DURING PEACE TIME PUNISHMENT
+    id = 50007
+    title = "EVTNAME50007"
+    desc = "EVTDESC50007"
+    #picture = "conscription_marching"
+
+    trigger = {
+        is_mobilised = yes
+        war = no
+        NOT = { has_country_modifier = peacetime_mobilization }
+        ai = no
+        military_score = 5
+        OR = {
+            military_score = 10
+            NOT = { any_core = { country_units_in_province = REB } }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 6
+
+        modifier = { factor = 1.5 is_secondary_power = yes is_greater_power = no }
+        modifier = { factor = 2 is_secondary_power = no is_greater_power = no }
+        modifier = { factor = 0.5 constructing_cb_progress = 0.1 }
+        modifier = {
+            factor = 2
+            NOT = { badboy = 0.5 }
+            any_neighbor_country = { NOT = { relation = { who = THIS value = 0 } } casus_belli = THIS }
+        }
+    }
+
+    option = {
+        name = "EVT50007OPTA"
+        random_owned = { limit = { owner = { is_greater_power = yes } }
+            owner = {
+            add_country_modifier = { name = peacetime_mobilization duration = 365 }
+
+            war_exhaustion = 10
+            any_pop = { dominant_issue = { value = pacifism factor = 0.1 } }
+
+            any_country = {
+                limit = { neighbour = THIS NOT = { relation = { who = THIS value = -50 } alliance_with = THIS casus_belli = THIS in_sphere = THIS } }
+                casus_belli = { target = THIS type = cut_down_to_size months = 12 }
+            }
+
+            any_country = { limit = { is_greater_power = yes } relation = { who = THIS value = -75 } }
+            any_country = { limit = { is_secondary_power = yes } relation = { who = THIS value = -50 } }
+
+            any_country = {
+                limit = { neighbour = THIS NOT = { vassal_of = THIS } NOT = { in_sphere = THIS } NOT = { alliance_with = THIS } }
+                    any_pop = { dominant_issue = { value = jingoism factor = 0.05 } }
+                    relation = { who = THIS value = -100 }
+            }
+
+            any_country = {
+                limit = { neighbour = THIS NOT = { vassal_of = THIS } alliance_with = THIS }
+                    any_pop = { dominant_issue = { value = jingoism factor = 0.05 } }
+                    relation = { who = THIS value = -25 }
+                    }
+                }
+            }
+
+        random_owned = { limit = { owner = { is_greater_power = no is_secondary_power = yes } }
+            owner = {
+            add_country_modifier = { name = peacetime_mobilization duration = 365 }
+
+            war_exhaustion = 10
+            any_pop = { dominant_issue = { value = pacifism factor = 0.1 } }
+
+            any_country = {
+                limit = { neighbour = THIS NOT = { relation = { who = THIS value = -50 } alliance_with = THIS casus_belli = THIS } }
+                casus_belli = { target = THIS type = cut_down_to_size months = 12 }
+            }
+
+            any_country = { limit = { is_greater_power = yes } relation = { who = THIS value = -25 } }
+
+        any_country = {
+            limit = { neighbour = THIS NOT = { vassal_of = THIS } NOT = { alliance_with = THIS } }
+                any_pop = { dominant_issue = { value = jingoism factor = 0.05 } }
+                relation = { who = THIS value = -75 }
+        }
+
+        any_country = {
+            limit = { neighbour = THIS NOT = { vassal_of = THIS } alliance_with = THIS }
+                any_pop = { dominant_issue = { value = jingoism factor = 0.05 } }
+                relation = { who = THIS value = -25 }
+                }
+            }
+        }
+
+        random_owned = { limit = { owner = { is_greater_power = no is_secondary_power = no } }
+            owner = {
+            add_country_modifier = { name = peacetime_mobilization duration = 182 }
+
+            war_exhaustion = 10
+            any_pop = { dominant_issue = { value = pacifism factor = 0.1 } }
+
+
+        any_country = {
+            limit = { neighbour = THIS NOT = { vassal_of = THIS } NOT = { alliance_with = THIS } NOT = { is_greater_power = yes } }
+                any_pop = { dominant_issue = { value = jingoism factor = 0.05 } }
+                relation = { who = THIS value = -100 }
+                }
+            }
+        }
+
+    }
+}
+
+#################
+## GOVERNMENTS ##
+#################
+
+country_event = {
+	id = 50008 #theocratic government reforms
+	title = "EVTNAME50008"
+	desc = "EVTDESC50008"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		social_reform = morality_police
+		social_reform = empowered_clergy
+		political_reform = parish_school_system
+
+		OR = {
+		    political_reform = regulated_elections
+		    political_reform = approved_candidacy
+		    political_reform = appointed_legislatures
+		}
+		#OR = {
+		#    government = princely_despotate
+		#    government = parliamentary_despotate
+		#
+		#}
+		NOT = {
+		    government = theocracy
+		}
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50008OPTA"
+		government = theocracy
+	}
+}
+
+country_event = {
+	id = 50009 #statist bureaucracy government reforms
+	title = "EVTNAME50009"
+	desc = "EVTDESC50009"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		political_reform = appointed_legislatures
+		political_reform = professional_bureaucracy
+		political_reform = unified_legal_code
+
+		NOT = {
+		    government = statist_bureaucracy
+		}
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50009OPTA"
+		government = statist_bureaucracy
+	}
+}
+
+country_event = {
+	id = 50010 #princely despotate government reforms
+	title = "EVTNAME50010"
+	desc = "EVTDESC50010"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		political_reform = feudal_tenure
+		political_reform = feudal_courts
+
+		OR = {
+		    political_reform = tribal_assembly
+		    political_reform = noble_parliament
+		}
+
+		NOT = {
+		    government = princely_despotate
+		}
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50010OPTA"
+		government = princely_despotate
+	}
+}
+
+country_event = {
+	id = 50011 #parliamentary despotate government reforms
+	title = "EVTNAME50011"
+	desc = "EVTDESC50011"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+
+		OR = {
+		    political_reform = tribal_assembly
+		    political_reform = noble_parliament
+		}
+
+		OR = {
+		    political_reform = hereditary_bureaucracy
+		    political_reform = nepotistic_bureaucracy
+		}
+
+		OR = {
+		    political_reform = enclosure_of_commons
+		    political_reform = private_landownership
+		}
+
+		NOT = {
+		    government = parliamentary_despotate
+		}
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50011OPTA"
+		government = parliamentary_despotate
+	}
+}
