@@ -270,7 +270,7 @@ reactionary_rebels = {
         }
         prestige_factor = -0.25
         plurality = -25
-        #country_event = 800050
+        country_event = 50000
     }
 }
 
@@ -554,7 +554,7 @@ theocratist_rebels = {
         }
         prestige_factor = -0.25
         plurality = -25
-        #country_event = 800051
+        country_event = 50001
     }
 }
 
@@ -823,7 +823,7 @@ radical_liberationist_rebels = {
         }
         prestige_factor = -0.25
         plurality = -25
-        #country_event = 800052
+        country_event = 50002
     }
 }
 
@@ -1104,7 +1104,7 @@ absolutist_rebels = {
 
         prestige_factor = -0.25
         plurality = -25
-        #country_event = 800053
+        country_event = 50003
     }
 }
 

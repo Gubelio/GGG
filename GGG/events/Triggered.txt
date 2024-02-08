@@ -1,0 +1,538 @@
+
+#########################
+## COUNTRY REVOLUTIONS ##
+#########################
+
+country_event = {
+
+    id = 50000
+    is_triggered_only = yes
+
+    title = "EVTNAME50000" #Reactionary
+    desc = "EVTDESC50000"
+    #picture = "???"
+
+    option = {
+        name = "EVT50000OPTA"
+
+        random_country = {
+            limit = {
+                is_sphere_leader_of = THIS
+                NOT = { is_our_vassal = THIS }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_sphere_leader
+            leave_alliance = THIS
+            #country_event = 800056
+        }
+
+        random_country = {
+            limit = { is_our_vassal = THIS }
+            release_vassal = THIS
+            leave_alliance = THIS
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_overlord
+            #country_event = 800055
+        }
+
+        any_country = {
+            limit = {
+                neighbour = THIS
+                NOT = {
+                    government = princely_despotate
+                }
+            }
+            any_pop = {
+                scaled_militancy = {
+                    ideology = reactionary
+                    factor = 3
+                }
+            }
+        }
+
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                NOT = {
+                    has_country_flag = former_sphere_leader
+                    has_country_flag = former_overlord
+                }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -25
+            }
+            relation = {
+                who = THIS
+                value = -25
+            }
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = {
+                    ruling_party_ideology = reactionary
+                    vassal_of = THIS
+                    substate_of = THIS
+                    in_sphere = THIS
+                }
+            }
+            relation = { who = THIS value = -100 }
+            leave_alliance = THIS
+        }
+	}
+}
+
+country_event = {
+
+    id = 50001
+    is_triggered_only = yes
+
+    title = "EVTNAME50001" #Theocratist
+    desc = "EVTDESC50001"
+    #picture = "???"
+
+    option = {
+        name = "EVT50001OPTA"
+
+        random_country = {
+            limit = {
+                is_sphere_leader_of = THIS
+                NOT = { is_our_vassal = THIS }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_sphere_leader
+            leave_alliance = THIS
+            #country_event = 800056
+        }
+
+        random_country = {
+            limit = { is_our_vassal = THIS }
+            release_vassal = THIS
+            leave_alliance = THIS
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_overlord
+            #country_event = 800055
+        }
+
+        any_country = {
+            limit = {
+                neighbour = THIS
+                NOT = {
+                    government = sublime_synod
+                }
+            }
+            any_pop = {
+                scaled_militancy = {
+                    ideology = theocratist
+                    factor = 3
+                }
+            }
+        }
+
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                NOT = {
+                    has_country_flag = former_sphere_leader
+                    has_country_flag = former_overlord
+                }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -25
+            }
+            relation = {
+                who = THIS
+                value = -25
+            }
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = {
+                    ruling_party_ideology = theocratist
+                    vassal_of = THIS
+                    substate_of = THIS
+                    in_sphere = THIS
+                }
+            }
+            relation = { who = THIS value = -100 }
+            leave_alliance = THIS
+        }
+	}
+}
+
+country_event = {
+
+    id = 50002
+    is_triggered_only = yes
+
+    title = "EVTNAME50002" #Radical Liberationists
+    desc = "EVTDESC50002"
+    #picture = "???"
+
+    option = {
+        name = "EVT50002OPTA"
+
+        random_country = {
+            limit = {
+                is_sphere_leader_of = THIS
+                NOT = { is_our_vassal = THIS }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_sphere_leader
+            leave_alliance = THIS
+            #country_event = 800056
+        }
+
+        random_country = {
+            limit = { is_our_vassal = THIS }
+            release_vassal = THIS
+            leave_alliance = THIS
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_overlord
+            #country_event = 800055
+        }
+
+        any_country = {
+            limit = {
+                neighbour = THIS
+                NOT = {
+                    government = paternalistic_council
+                }
+            }
+            any_pop = {
+                scaled_militancy = {
+                    ideology = radical_liberationist
+                    factor = 3
+                }
+            }
+        }
+
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                NOT = {
+                    has_country_flag = former_sphere_leader
+                    has_country_flag = former_overlord
+                }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -25
+            }
+            relation = {
+                who = THIS
+                value = -25
+            }
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = {
+                    ruling_party_ideology = radical_liberationist
+                    vassal_of = THIS
+                    substate_of = THIS
+                    in_sphere = THIS
+                }
+            }
+            relation = { who = THIS value = -100 }
+            leave_alliance = THIS
+        }
+	}
+}
+
+country_event = {
+
+    id = 50003
+    is_triggered_only = yes
+
+    title = "EVTNAME50003" #Absolutist
+    desc = "EVTDESC50003"
+    #picture = "???"
+
+    option = {
+        name = "EVT50003OPTA"
+
+        random_country = {
+            limit = {
+                is_sphere_leader_of = THIS
+                NOT = { is_our_vassal = THIS }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_sphere_leader
+            leave_alliance = THIS
+            #country_event = 800056
+        }
+
+        random_country = {
+            limit = { is_our_vassal = THIS }
+            release_vassal = THIS
+            leave_alliance = THIS
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            set_country_flag = former_overlord
+            #country_event = 800055
+        }
+
+        any_country = {
+            limit = {
+                neighbour = THIS
+                NOT = {
+                    government = absolute_autocracy
+                }
+            }
+            any_pop = {
+                scaled_militancy = {
+                    ideology = absolutist
+                    factor = 3
+                }
+            }
+        }
+
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                NOT = {
+                    has_country_flag = former_sphere_leader
+                    has_country_flag = former_overlord
+                }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -25
+            }
+            relation = {
+                who = THIS
+                value = -25
+            }
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = {
+                    ruling_party_ideology = absolutist
+                    vassal_of = THIS
+                    substate_of = THIS
+                    in_sphere = THIS
+                }
+            }
+            relation = { who = THIS value = -100 }
+            leave_alliance = THIS
+        }
+	}
+}
+
+#######################
+## IDEOLOGY ENABLING ##
+#######################
+
+country_event = {
+	id = 50004 #Statism enabled
+	title = "EVTNAME50004" 
+	desc = "EVTDESC50004"
+	#picture = "Socialism"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = statist
+		}
+		year = 1320
+		civilized = yes
+		literacy = 0.2
+		OR = {
+			unemployment = 0.2
+			NOT = {
+				poor_strata_life_needs = 0.8
+			}
+			NOT = {
+				poor_strata_everyday_needs = 0.5
+			}
+			NOT = {
+				middle_strata_everyday_needs = 0.5
+			}
+		}
+	}
+	major = yes
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 250
+		
+		modifier = {
+			factor = 0.5
+			OR = {
+			unemployment = 0.2
+			NOT = {
+				poor_strata_life_needs = 0.5
+				}
+			NOT = {
+				poor_strata_everyday_needs = 0.25
+				}
+			NOT = {
+				middle_strata_everyday_needs = 0.25
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_life_needs = 0.95
+			}
+	}
+
+	option = {
+		name = "EVT50004OPTA"
+		enable_ideology = statist
+	}
+}
+
+country_event = {
+	id = 50005 #absolutism enabled
+	title = "EVTNAME50005"
+	desc = "EVTDESC50005"
+	#picture = "Socialism"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = absolutist
+		}
+		year = 1330
+		civilized = yes
+		literacy = 0.3
+		OR = {
+			planned_economy = 10
+			pro_atheism = 10
+			pro_military = 15
+			unemployment = 0.2
+			AND = {
+				NOT = {
+					poor_strata_life_needs = 0.9
+					}
+				average_militancy = 3
+			}
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 1.5
+			poor_strata_life_needs = 0.95
+		}
+	}
+
+	option = {
+		name = "EVT50005OPTA"
+		enable_ideology = absolutist
+	}
+}
+
+country_event = {
+	id = 50006 #Theocratism enabled
+	title = "EVTNAME50006"
+	desc = "EVTDESC50006"
+	#picture = "Fascist"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = theocratist
+		}
+		
+		year = 1370 
+		literacy = 0.65
+		civilized = yes
+		OR = {
+			moralism = 25
+			residency = 5
+			social_reform_want = 0.5
+			unemployment = 0.2
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				average_consciousness = 3
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50006OPTA"
+		enable_ideology = theocratist
+	}
+}
