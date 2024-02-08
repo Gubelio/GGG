@@ -1,2029 +1,6030 @@
-918 = {
 
+1302 = {
 
-
-	serfs = {
-		culture = tufume
-		religion = vewugi
-		size = 21
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 33
 	}
 
-	farmers = {
-		culture = tufume
-		religion = vewugi
-		size = 47
-	}
 
-	soldiers = {
-		culture = tufume
-		religion = vewugi
-		size = 2
-	}
-
-	artisans = {
-		culture = tufume
-		religion = vewugi
-		size = 1
-	}
-
-	bureaucrats = {
-		 culture = takemoujoy
-		 religion = tehuhrite
-		 size = 1
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
 	}
 
 
 	artisans = {
-		 culture = takemoujoy
-		 religion = tehuhrite
-		 size = 2
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
 	}
 
 
 	soldiers = {
-		 culture = takemoujoy
-		 religion = tehuhrite
-		 size = 3
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
 	}
 
 
 	farmers = {
-		 culture = takemoujoy
-		 religion = tehuhrite
-		 size = 125
+		 culture = ogrehi
+		 religion = pagan
+		 size = 692
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 135
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 54
 	}
 
 }
-919 = {
+
+1303 = {
 
 
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 33
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 265
-	}
-
-	labourers = {
-		culture = kova
-		religion = wompowushan
-		size = 33
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 443
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 3547
-	}
-
-	labourers = {
-		culture = kova
-		religion = rechktist
-		size = 443
-	}
 
 	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 33
+		 culture = ogrehi
+		 religion = pagan
+		 size = 35
 	}
 
 
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 33
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 14
 	}
 
 
 	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 66
+		 culture = ogrehi
+		 religion = pagan
+		 size = 7
 	}
 
 
 	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
+		 culture = ogrehi
+		 religion = pagan
+		 size = 40
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 732
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 143
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 57
+	}
+
+}
+
+1304 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 38
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 15
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 7
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 794
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 155
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+}
+
+1305 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1192
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+}
+
+1306 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 38
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 15
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 7
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 793
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 155
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+}
+
+1307 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 33
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 686
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 134
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+}
+
+1308 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 41
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 8
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 46
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 851
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 166
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 66
+	}
+
+}
+
+1309 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1194
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+}
+
+1310 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 60
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 24
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 68
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1243
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 243
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 97
+	}
+
+}
+
+1311 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 33
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 681
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 133
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 533
+	}
+
+}
+
+1312 = {
+
+
+
+	thralls = {
+		culture = paguyti
+		religion = motkohnic
+		size = 283
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = motkohnic
+		size = 953
+	}
+
+	labourers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 4721
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 3314
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 169
+	}
+
+	thralls = {
+		culture = paguyti
+		religion = pagan
+		size = 67
+	}
+
+	serfs = {
+		culture = paguyti
+		religion = pagan
+		size = 226
+	}
+
+	labourers = {
+		culture = paguyti
+		religion = pagan
+		size = 1122
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = pagan
+		size = 787
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = pagan
+		size = 40
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 139
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 5
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 445
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
 		 size = 100
 	}
 
 
 	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 2106
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 4813
 	}
 
 
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 1003
+	officers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 5
 	}
 
 }
-920 = {
+
+1313 = {
 
 
 
 	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 22
+		culture = paguyti
+		religion = motkohnic
+		size = 367
 	}
 
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 179
+	serfs = {
+		culture = paguyti
+		religion = motkohnic
+		size = 1235
 	}
 
 	labourers = {
-		culture = kova
-		religion = wompowushan
-		size = 22
+		culture = paguyti
+		religion = motkohnic
+		size = 8563
+	}
+
+	farmers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 1847
+	}
+
+	soldiers = {
+		culture = paguyti
+		religion = motkohnic
+		size = 220
 	}
 
 	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 554
+		culture = paguyti
+		religion = pagan
+		size = 100
 	}
 
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 4434
+	serfs = {
+		culture = paguyti
+		religion = pagan
+		size = 337
 	}
 
 	labourers = {
-		culture = kova
-		religion = rechktist
-		size = 554
+		culture = paguyti
+		religion = pagan
+		size = 2339
 	}
-
-	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 44
-	}
-
-
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 44
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 88
-	}
-
-
-	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 132
-	}
-
 
 	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 2792
+		culture = paguyti
+		religion = pagan
+		size = 504
 	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 1329
-	}
-
-}
-
-921 = {
-
-
-
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 200
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 1800
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 4437
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 39934
-	}
-
-	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 99
-	}
-
-
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 99
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 199
-	}
-
 
 	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 299
-	}
-
-
-	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 6282
-	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 2991
-	}
-
-}
-
-922 = {
-
-
-
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 74
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 669
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 2554
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 22988
+		culture = paguyti
+		religion = pagan
+		size = 60
 	}
 
 	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 55
-	}
-
-
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 55
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
+		 culture = south_gashdzii
+		 religion = motkohnic
 		 size = 110
 	}
 
 
-	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 166
-	}
-
-
-	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 3493
-	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 1663
-	}
-
-}
-
-923 = {
-
-
-
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 300
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 2703
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 2664
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 23981
-	}
-
-	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 44
-	}
-
-
 	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 44
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 88
-	}
-
-
-	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 133
-	}
-
-
-	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 2794
-	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 1330
-	}
-
-}
-
-924 = {
-
-
-
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 1
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 11
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 3225
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 29028
-	}
-
-	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 143
-	}
-
-
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 143
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 286
-	}
-
-
-	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 430
-	}
-
-
-	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 9036
-	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 4302
-	}
-
-}
-
-925 = {
-
-
-
-	thralls = {
-		culture = kova
-		religion = wompowushan
-		size = 20
-	}
-
-	slaves = {
-		culture = kova
-		religion = wompowushan
-		size = 182
-	}
-
-	thralls = {
-		culture = kova
-		religion = rechktist
-		size = 810
-	}
-
-	slaves = {
-		culture = kova
-		religion = rechktist
-		size = 7292
-	}
-
-	aristocrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 7
-	}
-
-
-	bureaucrats = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 7
-	}
-
-
-	artisans = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 14
-	}
-
-
-	soldiers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 21
-	}
-
-
-	farmers = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 441
-	}
-
-
-	serfs = {
-		 culture = poumnian
-		 religion = wompowushan
-		 size = 210
-	}
-
-}
-
-926 = {
-
-
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1122
-	}
-
-
-
-	labourers = {
-		culture = kova
-		religion = kadkohi
-		size = 200
-	}
-
-	farmers = {
-		culture = kova
-		religion = kadkohi
-		size = 33
-	}
-
-	soldiers = {
-		culture = kova
-		religion = kadkohi
-		size = 4
-	}
-
-	labourers = {
-		culture = kova
-		religion = motkohnic
-		size = 893
-	}
-
-	farmers = {
-		culture = kova
-		religion = motkohnic
-		size = 149
-	}
-
-	soldiers = {
-		culture = kova
-		religion = motkohnic
-		size = 17
-	}
-
-	labourers = {
-		culture = kova
-		religion = rechktist
-		size = 5978
-	}
-
-	farmers = {
-		culture = kova
-		religion = rechktist
-		size = 1003
-	}
-
-	soldiers = {
-		culture = kova
-		religion = rechktist
-		size = 119
-	}
-
-	officers = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 0
-	}
-
-	farmers = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 177
-	}
-
-	soldiers = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 3
-	}
-
-	artisans = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 16
-	}
-
-	clergymen = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 2
-	}
-
-	bureaucrats = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 0
-	}
-
-	aristocrats = {
-		culture = south_gashdzii
-		religion = kadkohi
-		size = 3
-	}
-
-	aristocrats = {
-		 culture = south_gashdzii
-		 religion = motkohnic
-		 size = 11
-	}
-
-
-	bureaucrats = {
-		 culture = south_gashdzii
-		 religion = motkohnic
-		 size = 0
-	}
-
-
-	clergymen = {
 		 culture = south_gashdzii
 		 religion = motkohnic
 		 size = 4
 	}
 
 
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 44
+	}
+
+
 	artisans = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 35
+		 size = 354
 	}
 
 
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 7
+		 size = 79
 	}
 
 
 	farmers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 383
+		 size = 3836
 	}
 
 
 	officers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
+		 size = 4
+	}
+
+}
+
+1314 = {
+
+
+
+	slaves = {
+		culture = paguyti
+		religion = pagan
+		size = 200
+	}
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
 		 size = 0
 	}
 
-}
-
-927 = {
-
-
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 233
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 93
-	}
-
 
 	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 233
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 1
 	}
 
 
 	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 634
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 2
 	}
 
 
 	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 6832
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 25
 	}
 
 
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1306
-	}
-
-}
-
-928 = {
-
-
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 308
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 123
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 308
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 839
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 9035
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1728
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 45
 	}
 
 }
-
-929 = {
-
-
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 716
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 286
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 716
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1949
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 20982
-	}
+1315 = {
 
 
 	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 4012
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = pagan
-		 size = 1223
-	}
-
-
-	slaves = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 773
-	}
-
-
-
-	slaves = {
-		 culture = bhukhegi
-		 religion = rechktist
-		 size = 223
-	}
-
-}
-
-930 = {
-
-
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 383
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 153
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 383
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1044
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 11854
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1535
-	}
-
-}
-
-931 = {
-
-
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1386
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 554
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1386
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 3772
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 37280
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 11095
-	}
-
-}
-
-932 = {
-
-
-
-	slaves = {
-		culture = biori
-		religion = pagan
-		size = 244
-	}
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 662
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 264
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 662
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1800
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 17797
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 5296
-	}
-
-}
-
-933 = {
-
-
-
-	slaves = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 115
-	}
-
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 433
-	}
-
-	slaves = {
-		culture = biori
-		religion = pagan
-		size = 1226
-	}
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1055
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 422
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1055
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 2872
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 28383
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 8447
-	}
-
-}
-
-934 = {
-
-
-
-	slaves = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 55
-	}
-
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 333
-	}
-
-	slaves = {
-		culture = biori
-		religion = pagan
+		culture = yattae
+		religion = tehuhrite
 		size = 223
 	}
 
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 443
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 177
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 443
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1206
-	}
-
-
 	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 11923
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 3548
-	}
-
-}
-
-935 = {
-
-
-
-	slaves = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 413
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 487
+		culture = yattae
+		religion = tehuhrite
+		size = 144
 	}
 
 	soldiers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 70
-	}
-
-	artisans = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 25
-	}
-
-	clergymen = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 10
-	}
-
-	aristocrats = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 25
-	}
-
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 2244
-	}
-
-	aristocrats = {
-		 culture = biori
-		 religion = rechktist
-		 size = 633
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = rechktist
-		 size = 253
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = rechktist
-		 size = 633
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 1722
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = rechktist
-		 size = 19557
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = rechktist
-		 size = 2533
-	}
-
-}
-
-936 = {
-
-
-
-	slaves = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 11
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 90
-	}
-
-	soldiers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 6
-	}
-
-	artisans = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 0
-	}
-
-	clergymen = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 1
-	}
-
-	aristocrats = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 2
-	}
-
-	thralls = {
-		culture = bhukhegi
-		religion = pagan
-		size = 70
-	}
-
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 177
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 1351
-	}
-
-	soldiers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 102
-	}
-
-	artisans = {
-		culture = bhukhegi
-		religion = pagan
-		size = 8
-	}
-
-	clergymen = {
-		culture = bhukhegi
-		religion = pagan
-		size = 17
-	}
-
-	aristocrats = {
-		culture = bhukhegi
-		religion = pagan
+		culture = yattae
+		religion = tehuhrite
 		size = 44
 	}
 
-	slaves = {
-		culture = biori
-		religion = rechktist
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
 		size = 22
 	}
 
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 179
-	}
-
-	soldiers = {
-		culture = biori
-		religion = rechktist
-		size = 12
-	}
-
-	artisans = {
-		culture = biori
-		religion = rechktist
-		size = 1
-	}
-
 	clergymen = {
-		culture = biori
-		religion = rechktist
+		culture = yattae
+		religion = tehuhrite
 		size = 2
 	}
 
 	aristocrats = {
-		culture = biori
-		religion = rechktist
-		size = 5
-	}
-
-	aristocrats = {
-		 culture = biori
-		 religion = pagan
-		 size = 83
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = pagan
-		 size = 33
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = pagan
-		 size = 16
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = pagan
-		 size = 193
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = pagan
-		 size = 2538
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = pagan
-		 size = 333
-	}
-
-
-	thralls = {
-		 culture = biori
-		 religion = pagan
-		 size = 133
-	}
-
-}
-
-937 = {
-
-
-
-	slaves = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 5
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 40
-	}
-
-	soldiers = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 2
-	}
-
-	artisans = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 0
-	}
-
-	clergymen = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 0
-	}
-
-	aristocrats = {
-		culture = bhukhegi
-		religion = rechktist
-		size = 1
-	}
-
-	thralls = {
-		culture = bhukhegi
-		religion = pagan
+		culture = yattae
+		religion = tehuhrite
 		size = 22
 	}
 
 	slaves = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 55
+		size = 666
 	}
 
 	farmers = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 422
+		size = 5536
 	}
 
 	soldiers = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 32
+		size = 186
 	}
 
 	artisans = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 2
+		size = 166
 	}
 
 	clergymen = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 5
+		size = 66
 	}
 
 	aristocrats = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 13
-	}
-
-	slaves = {
-		culture = biori
-		religion = rechktist
-		size = 11
-	}
-
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 90
-	}
-
-	soldiers = {
-		culture = biori
-		religion = rechktist
-		size = 6
-	}
-
-	artisans = {
-		culture = biori
-		religion = rechktist
-		size = 0
-	}
-
-	clergymen = {
-		culture = biori
-		religion = rechktist
-		size = 1
+		size = 166
 	}
 
 	aristocrats = {
-		culture = biori
-		religion = rechktist
-		size = 2
-	}
-
-	aristocrats = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 110
+		 size = 106
 	}
 
 
 	clergymen = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 44
+		 size = 213
 	}
 
 
 	artisans = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 22
+		 size = 106
 	}
 
 
 	soldiers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 257
+		 size = 170
 	}
 
 
 	farmers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 3377
+		 size = 16875
 	}
 
 
 	slaves = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 443
+		 size = 2986
 	}
 
 
 	thralls = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 177
-	}
-
-}
-938 = {
-
-
-
-	slaves = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 5
-	}
-
-	farmers = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 40
-	}
-
-	soldiers = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 2
-	}
-
-	artisans = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 0
-	}
-
-	clergymen = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 0
-	}
-
-	aristocrats = {
-		culture = nordftemioq
-		religion = rechktist
-		size = 1
-	}
-
-	thralls = {
-		culture = bhukhegi
-		religion = pagan
-		size = 12
-	}
-
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 32
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 245
-	}
-
-	soldiers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 18
-	}
-
-	artisans = {
-		culture = bhukhegi
-		religion = pagan
-		size = 1
-	}
-
-	clergymen = {
-		culture = bhukhegi
-		religion = pagan
-		size = 3
-	}
-
-	aristocrats = {
-		culture = bhukhegi
-		religion = pagan
-		size = 8
-	}
-
-	slaves = {
-		culture = biori
-		religion = rechktist
-		size = 5
-	}
-
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 44
-	}
-
-	soldiers = {
-		culture = biori
-		religion = rechktist
-		size = 3
-	}
-
-	artisans = {
-		culture = biori
-		religion = rechktist
-		size = 0
-	}
-
-	clergymen = {
-		culture = biori
-		religion = rechktist
-		size = 0
-	}
-
-	aristocrats = {
-		culture = biori
-		religion = rechktist
-		size = 1
-	}
-
-	aristocrats = {
-		 culture = biori
-		 religion = pagan
-		 size = 83
-	}
-
-
-	clergymen = {
-		 culture = biori
-		 religion = pagan
-		 size = 33
-	}
-
-
-	artisans = {
-		 culture = biori
-		 religion = pagan
-		 size = 16
-	}
-
-
-	soldiers = {
-		 culture = biori
-		 religion = pagan
-		 size = 193
-	}
-
-
-	farmers = {
-		 culture = biori
-		 religion = pagan
-		 size = 2548
-	}
-
-
-	slaves = {
-		 culture = biori
-		 religion = pagan
-		 size = 334
-	}
-
-
-	thralls = {
-		 culture = biori
-		 religion = pagan
-		 size = 133
+		 size = 1280
 	}
 
 }
 
-939 = {
+1316 = {
 
+slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 223
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 144
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 44
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 2
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1112
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 9031
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 311
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 278
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 111
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 278
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 67
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 134
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 67
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 107
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 10379
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1882
+	}
 
 
 	thralls = {
-		culture = bhukhegi
+		 culture = ogrehi
+		 religion = pagan
+		 size = 806
+	}
+
+}
+
+1317 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 108
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 21
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 121
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3946
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 433
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 173
+	}
+
+}
+
+1318 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 102
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 41
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 20
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 115
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3258
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 411
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 164
+	}
+
+}
+
+1319 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 112
+	}
+
+	soldiers = {
+		culture = yattae
 		religion = pagan
 		size = 6
 	}
 
-	slaves = {
-		culture = bhukhegi
-		religion = pagan
-		size = 15
-	}
-
-	farmers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 116
-	}
-
-	soldiers = {
-		culture = bhukhegi
-		religion = pagan
-		size = 8
-	}
-
 	artisans = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 0
+		size = 3
 	}
 
 	clergymen = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
 		size = 1
 	}
 
 	aristocrats = {
-		culture = bhukhegi
-		religion = pagan
-		size = 3
+		 culture = ogrehi
+		 religion = pagan
+		 size = 102
 	}
 
-	slaves = {
-		culture = biori
-		religion = rechktist
-		size = 44
-	}
-
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 357
-	}
-
-	soldiers = {
-		culture = biori
-		religion = rechktist
-		size = 25
-	}
-
-	artisans = {
-		culture = biori
-		religion = rechktist
-		size = 2
-	}
 
 	clergymen = {
-		culture = biori
-		religion = rechktist
-		size = 4
+		 culture = ogrehi
+		 religion = pagan
+		 size = 41
 	}
 
-	aristocrats = {
-		culture = biori
-		religion = rechktist
-		size = 11
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 20
 	}
 
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 115
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3258
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 411
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 164
+	}
+
+}
+
+1320 = {
+
+
+
 	aristocrats = {
-		 culture = biori
+		 culture = ogrehi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 17
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 99
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2813
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 355
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 142
+	}
+
+}
+
+1321 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 21
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 10
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 59
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1691
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 213
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 85
+	}
+
+}
+
+1322 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1848
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+}
+
+1322 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
 		 religion = pagan
 		 size = 63
 	}
 
 
 	clergymen = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
 		 size = 25
 	}
 
 
 	artisans = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
 		 size = 12
 	}
 
 
 	soldiers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 146
+		 size = 71
 	}
 
 
 	farmers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 1930
+		 size = 2021
 	}
 
 
 	slaves = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 253
+		 size = 255
 	}
 
 
 	thralls = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 101
+		 size = 102
 	}
 
 }
 
-940 = {
+1323 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 63
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1793
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 226
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 90
+	}
+
+}
+
+1324 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 79
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 31
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 15
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 89
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2529
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 319
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 127
+	}
+
+}
+1325 = {
+
+    slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 223
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 144
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 44
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 2
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+
+	slaves = {
+		culture = yattae
+		religion = pagan
+		size = 368
+	}
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 2994
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 103
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 92
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 36
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = pagan
+		size = 92
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 46
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 92
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 46
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 74
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 7167
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1299
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 557
+	}
+
+}
+
+1326 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 68
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 3
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 0
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 113
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 45
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 127
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3605
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 455
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 182
+	}
+
+}
+
+1327 = {
+
+slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 223
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 144
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 44
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 2
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+
+	slaves = {
+		culture = yattae
+		religion = pagan
+		size = 2344
+	}
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 19038
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 656
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 586
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 234
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = pagan
+		size = 586
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 10
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1029
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 186
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 80
+	}
+
+}
+
+1328 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 111
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 6
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 3
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1865
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 235
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 94
+	}
+
+}
+
+1329 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 47
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 18
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 9
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1500
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 189
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 75
+	}
+
+}
+
+1330 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 224
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1823
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 62
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 56
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 56
+	}
+
+	slaves = {
+		culture = yattae
+		religion = pagan
+		size = 673
+	}
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 5468
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 188
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 168
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 67
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = pagan
+		size = 168
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 25
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2489
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 451
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 193
+	}
+
+}
+
+1331 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 164
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1334
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 46
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 41
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 16
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 41
+	}
+
+	aristocrats = {
+		 culture = yattae
+		 religion = pagan
+		 size = 608
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = pagan
+		 size = 243
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = pagan
+		 size = 608
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 681
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 19760
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = pagan
+		 size = 2433
+	}
+
+}
+
+1332 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 607
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 33
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 16
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 83
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2655
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 335
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 134
+	}
+
+}
+
+1333 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 1624
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 88
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 44
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1848
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+}
+
+1334 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 795
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 6458
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 222
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 198
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 79
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 198
+	}
+
+	aristocrats = {
+		 culture = yattae
+		 religion = pagan
+		 size = 389
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = pagan
+		 size = 155
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = pagan
+		 size = 389
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 436
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 12648
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = pagan
+		 size = 1557
+	}
+
+}
+
+1335 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 54
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 21
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 10
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 60
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1724
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 217
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 87
+	}
+
+}
+
+1336 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 405
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 22
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 11
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 4
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 110
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 124
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3512
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 443
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 177
+	}
+
+}
+1337 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1346
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 10932
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 376
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 336
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 134
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 336
+	}
+
+	aristocrats = {
+		 culture = yattae
+		 religion = pagan
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = pagan
+		 size = 56
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 1821
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = pagan
+		 size = 224
+	}
+
+}
+
+1338 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = tehuhrite
+		size = 1546
+	}
+
+	farmers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 12556
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = tehuhrite
+		size = 432
+	}
+
+	artisans = {
+		culture = yattae
+		religion = tehuhrite
+		size = 386
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = tehuhrite
+		size = 154
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = tehuhrite
+		size = 386
+	}
+
+	aristocrats = {
+		 culture = yattae
+		 religion = pagan
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = pagan
+		 size = 56
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 1821
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = pagan
+		 size = 224
+	}
+
+}
+
+1339 = {
+
+
+
+	aristocrats = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 185
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 74
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 185
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 208
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 6037
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 743
+	}
+
+}
+
+1340 = {
+
+
+
+	aristocrats = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 331
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 132
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 331
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 371
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 10762
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 1325
+	}
+
+}
+
+1341 = {
+
+
+
+	aristocrats = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 188
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 75
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 188
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 210
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 6116
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = tehuhrite
+		 size = 753
+	}
+
+}
+1342 = {
 
 
 
 	thralls = {
-		culture = bhukhegi
+		culture = ogrehi
+		religion = pagan
+		size = 22
+	}
+
+	slaves = {
+		culture = ogrehi
+		religion = pagan
+		size = 200
+	}
+
+	aristocrats = {
+		 culture = yattae
+		 religion = pagan
+		 size = 116
+	}
+
+
+	clergymen = {
+		 culture = yattae
+		 religion = pagan
+		 size = 46
+	}
+
+
+	artisans = {
+		 culture = yattae
+		 religion = pagan
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 130
+	}
+
+
+	farmers = {
+		 culture = yattae
+		 religion = pagan
+		 size = 3882
+	}
+
+
+	slaves = {
+		 culture = yattae
+		 religion = pagan
+		 size = 464
+	}
+
+}
+
+1343 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = pagan
+		size = 253
+	}
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 2117
+	}
+
+	soldiers = {
+		culture = yattae
 		religion = pagan
 		size = 70
 	}
 
-	slaves = {
-		culture = bhukhegi
+	artisans = {
+		culture = yattae
 		religion = pagan
-		size = 177
+		size = 12
 	}
 
-	farmers = {
-		culture = bhukhegi
+	clergymen = {
+		culture = yattae
 		religion = pagan
-		size = 1351
+		size = 25
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = pagan
+		size = 63
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 111
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 124
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3526
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 445
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 178
+	}
+
+}
+
+1344 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 212
 	}
 
 	soldiers = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 102
+		size = 11
 	}
 
 	artisans = {
-		culture = bhukhegi
+		culture = yattae
+		religion = pagan
+		size = 5
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 138
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 27
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 154
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 4383
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 553
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 221
+	}
+
+}
+
+1345 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 505
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 27
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 13
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 5
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 17
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 99
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2800
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 353
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 141
+	}
+
+}
+
+1346 = {
+
+
+
+	slaves = {
+		culture = yattae
+		religion = pagan
+		size = 315
+	}
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 2635
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 88
+	}
+
+	artisans = {
+		culture = yattae
+		religion = pagan
+		size = 15
+	}
+
+	clergymen = {
+		culture = yattae
+		religion = pagan
+		size = 31
+	}
+
+	aristocrats = {
+		culture = yattae
+		religion = pagan
+		size = 78
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 60
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 24
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 68
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1927
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 243
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 97
+	}
+
+}
+
+1347 = {
+
+
+
+	farmers = {
+		culture = yattae
+		religion = pagan
+		size = 323
+	}
+
+	soldiers = {
+		culture = yattae
+		religion = pagan
+		size = 17
+	}
+
+	artisans = {
+		culture = yattae
 		religion = pagan
 		size = 8
 	}
 
 	clergymen = {
-		culture = bhukhegi
+		culture = yattae
 		religion = pagan
-		size = 17
+		size = 3
 	}
 
 	aristocrats = {
-		culture = bhukhegi
-		religion = pagan
-		size = 44
+		 culture = ogrehi
+		 religion = pagan
+		 size = 78
 	}
 
-	slaves = {
-		culture = biori
-		religion = rechktist
-		size = 2
-	}
-
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 17
-	}
-
-	soldiers = {
-		culture = biori
-		religion = rechktist
-		size = 1
-	}
-
-	artisans = {
-		culture = biori
-		religion = rechktist
-		size = 0
-	}
 
 	clergymen = {
-		culture = biori
-		religion = rechktist
-		size = 0
+		 culture = ogrehi
+		 religion = pagan
+		 size = 31
 	}
 
-	aristocrats = {
-		culture = biori
-		religion = rechktist
-		size = 0
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 15
 	}
 
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2497
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 315
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 126
+	}
+
+}
+
+1348 = {
+
+
+
 	aristocrats = {
-		 culture = biori
+		 culture = ogrehi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 17
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 99
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2816
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 355
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 142
+	}
+
+}
+
+1349 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 61
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 24
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 68
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1945
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 245
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 98
+	}
+
+}
+
+1350 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 55
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1628
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 222
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 222
+	}
+
+}
+
+1351 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 8
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 48
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1363
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 174
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 87
+	}
+
+}
+
+1352 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 28
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	artisans = {
+		 culture = ogrehi
 		 religion = pagan
 		 size = 5
 	}
 
 
-	clergymen = {
-		 culture = biori
+	soldiers = {
+		 culture = ogrehi
 		 religion = pagan
-		 size = 2
+		 size = 31
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 659
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 339
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 56
+	}
+
+}
+
+1353 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 30
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
 	}
 
 
 	artisans = {
-		 culture = biori
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 34
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 718
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 370
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 61
+	}
+
+}
+
+1354 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 35
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 14
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 7
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 40
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 835
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 430
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 71
+	}
+
+}
+
+1355 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 63
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 25
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 71
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1735
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 508
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 127
+	}
+
+}
+
+1356 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1583
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 464
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 116
+	}
+
+}
+1357 = {
+
+
+
+	slaves = {
+		culture = pugure
+		religion = pagan
+		size = 154
+	}
+
+	farmers = {
+		culture = pugure
+		religion = pagan
+		size = 1290
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = pagan
+		size = 43
+	}
+
+	artisans = {
+		culture = pugure
+		religion = pagan
+		size = 7
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = pagan
+		size = 15
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = pagan
+		size = 38
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 60
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 24
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 68
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 954
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 730
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 584
+	}
+
+}
+
+1358 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 224
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 89
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 251
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 5324
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2698
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 359
+	}
+
+}
+
+1359 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 255
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 102
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 51
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 286
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 6058
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3070
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 409
+	}
+
+}
+
+1360 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 134
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 26
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 150
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 4793
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 214
+	}
+
+}
+
+1361 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 185
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 74
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 208
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 5145
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1487
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 297
+	}
+
+}
+
+1362 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 108
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 21
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 121
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3884
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 174
+	}
+
+}
+
+1363 = {
+
+
+
+	slaves = {
+		culture = pugure
+		religion = tehuhrite
+		size = 154
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1290
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 43
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 7
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 15
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 38
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = tehuhrite
+		 size = 43
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 8
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 48
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1546
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 69
+	}
+
+}
+
+1364 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 81
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 91
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2911
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 130
+	}
+
+}
+
+1365 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 93
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 104
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3114
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 374
+	}
+
+}
+
+1366 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 77
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 31
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 15
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 87
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2590
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 311
+	}
+
+}
+
+1367 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1865
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 224
+	}
+
+}
+
+1368 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 47
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 18
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 9
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 52
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1566
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 188
+	}
+
+}
+
+1369 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1866
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 224
+	}
+
+}
+
+1370 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 61
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 24
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 68
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2034
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 244
+	}
+
+}
+
+1371 = {
+
+
+
+	slaves = {
+		culture = pugure
+		religion = tehuhrite
+		size = 22
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 186
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 6
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 5
+	}
+
+	slaves = {
+		culture = pugure
+		religion = pagan
+		size = 33
+	}
+
+	farmers = {
+		culture = pugure
+		religion = pagan
+		size = 279
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = pagan
+		size = 9
+	}
+
+	artisans = {
+		culture = pugure
+		religion = pagan
+		size = 1
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = pagan
+		size = 3
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = pagan
+		size = 8
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 113
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 45
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 127
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3788
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 455
+	}
+
+}
+
+1372 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 733
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1300
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 68
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 12
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 24
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 61
+	}
+
+	aristocrats = {
+		 culture = pugure
+		 religion = pagan
+		 size = 58
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = pagan
+		 size = 1951
+	}
+
+
+	slaves = {
+		 culture = pugure
+		 religion = pagan
+		 size = 233
+	}
+
+}
+
+1373 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 826
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1741
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 77
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 13
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 27
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 68
+	}
+
+	aristocrats = {
+		 culture = pugure
+		 religion = pagan
+		 size = 30
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = pagan
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = pagan
+		 size = 6
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = pagan
+		 size = 34
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = pagan
+		 size = 1017
+	}
+
+
+	slaves = {
+		 culture = pugure
+		 religion = pagan
+		 size = 122
+	}
+
+}
+1374 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 133
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 280
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 12
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 4
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 11
+	}
+
+	slaves = {
+		culture = pugure
+		religion = pagan
+		size = 177
+	}
+
+	farmers = {
+		culture = pugure
+		religion = pagan
+		size = 1476
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = pagan
+		size = 49
+	}
+
+	artisans = {
+		culture = pugure
+		religion = pagan
+		size = 8
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = pagan
+		size = 44
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 0
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 110
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
+	}
+
+}
+
+
+1375 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 733
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 293
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 146
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 821
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 18545
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 8803
+	}
+
+}
+
+1376 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 7002
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 14752
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 653
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 116
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 233
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 583
+	}
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 0
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 70
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 39
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 13
+	}
+
+}
+
+1377 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 7662
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 16143
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 715
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 127
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 255
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 638
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 3
+	}
+
+
+	artisans = {
+		 culture = ogrehi
 		 religion = pagan
 		 size = 1
 	}
 
 
 	soldiers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 12
+		 size = 9
 	}
 
 
 	farmers = {
-		 culture = biori
+		 culture = ogrehi
 		 religion = pagan
-		 size = 169
+		 size = 186
 	}
 
 
-	slaves = {
-		 culture = biori
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 100
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 33
+	}
+
+}
+
+1378 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1003
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2113
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 93
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 16
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 33
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 83
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 248
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 4947
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2664
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 888
+	}
+
+}
+
+1379 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 669
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1411
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 62
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 11
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 22
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 55
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = ogrehi
 		 religion = pagan
 		 size = 22
 	}
 
 
-	thralls = {
-		 culture = biori
+	soldiers = {
+		 culture = ogrehi
 		 religion = pagan
-		 size = 8
+		 size = 124
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2470
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1330
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 443
+	}
+
+}
+
+1380 = {
+
+
+
+	thralls = {
+		culture = ogrehi
+		religion = pagan
+		size = 407
+	}
+
+	slaves = {
+		culture = ogrehi
+		religion = pagan
+		size = 3664
+	}
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1030
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 412
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 206
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1154
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 26052
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 12366
+	}
+
+}
+
+1381 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 1002
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2112
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 93
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 16
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 33
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 83
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1244
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 670
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 223
+	}
+
+}
+
+1382 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 283
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 113
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 56
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 317
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 7163
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3400
+	}
+
+}
+
+1383 = {
+
+
+
+	serfs = {
+		culture = pugure
+		religion = tehuhrite
+		size = 2329
+	}
+
+	farmers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 4906
+	}
+
+	soldiers = {
+		culture = pugure
+		religion = tehuhrite
+		size = 217
+	}
+
+	artisans = {
+		culture = pugure
+		religion = tehuhrite
+		size = 38
+	}
+
+	clergymen = {
+		culture = pugure
+		religion = tehuhrite
+		size = 77
+	}
+
+	aristocrats = {
+		culture = pugure
+		religion = tehuhrite
+		size = 194
+	}
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 104
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2085
+	}
+
+
+	serfs = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1123
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 374
+	}
+
+}
+
+
+1384 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 533
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 213
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 106
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 597
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 13483
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 6400
+	}
+
+}
+
+1385 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 146
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 58
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 29
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 164
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3707
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1759
+	}
+
+}
+
+1386 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 308
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 123
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 61
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 345
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 7795
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3700
+	}
+
+}
+
+1387 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 139
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 27
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 155
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 3516
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1669
+	}
+
+}
+
+1388 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 110
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 124
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 2801
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1329
+	}
+
+}
+
+1389 = {
+
+
+
+	aristocrats = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 91
+	}
+
+
+	clergymen = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 36
+	}
+
+
+	artisans = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 102
+	}
+
+
+	farmers = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 2315
+	}
+
+
+	serfs = {
+		 culture = pugure
+		 religion = tehuhrite
+		 size = 1099
+	}
+
+}
+
+1390 = {
+
+
+
+	aristocrats = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 133
+	}
+
+
+	clergymen = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 53
+	}
+
+
+	artisans = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 26
+	}
+
+
+	soldiers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 149
+	}
+
+
+	farmers = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 2570
+	}
+
+
+	slaves = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1066
+	}
+
+
+	thralls = {
+		 culture = ogrehi
+		 religion = pagan
+		 size = 1333
 	}
 
 }
