@@ -663,14 +663,14 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-		social_reform = morality_police
-		social_reform = empowered_clergy
-		political_reform = parish_school_system
+		scriptural_law = morality_police 
+		clerical_law = empowered_clergy
+		school_system = parish_school_system
 
 		OR = {
-		    political_reform = regulated_elections
-		    political_reform = approved_candidacy
-		    political_reform = appointed_legislatures
+		    legislative_system = regulated_elections
+		    legislative_system = approved_candidacy
+		    legislative_system = appointed_legislatures
 		}
 		#OR = {
 		#    government = princely_despotate
@@ -702,9 +702,9 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-		political_reform = appointed_legislatures
-		political_reform = professional_bureaucracy
-		political_reform = unified_legal_code
+		legislative_system = appointed_legislatures
+		administrative_reform = professional_bureaucracy
+		public_order = unified_legal_code
 
 		NOT = {
 		    government = statist_bureaucracy
@@ -731,12 +731,12 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-		political_reform = feudal_tenure
-		political_reform = feudal_courts
+		land_reform_civ = feudal_tenure
+		public_order = feudal_courts
 
 		OR = {
-		    political_reform = tribal_assembly
-		    political_reform = noble_parliament
+		    legislative_system = tribal_assembly
+		    legislative_system = noble_parliament
 		}
 
 		NOT = {
@@ -766,18 +766,18 @@ country_event = {
 		civilized = yes
 
 		OR = {
-		    political_reform = tribal_assembly
-		    political_reform = noble_parliament
+		    legislative_system = tribal_assembly
+		    legislative_system = noble_parliament
 		}
 
 		OR = {
-		    political_reform = hereditary_bureaucracy
-		    political_reform = nepotistic_bureaucracy
+		    administrative_reform = hereditary_bureaucracy
+		    administrative_reform = nepotistic_bureaucracy
 		}
 
 		OR = {
-		    political_reform = enclosure_of_commons
-		    political_reform = private_landownership
+		    land_reform_civ = enclosure_of_commons
+		    land_reform_civ = private_landownership
 		}
 
 		NOT = {
