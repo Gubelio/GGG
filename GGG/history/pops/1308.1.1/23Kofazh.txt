@@ -2344,6 +2344,8 @@
 
 
 
+
+
 	slaves = {
 		culture = bhukhegi
 		religion = pagan
@@ -2450,12 +2452,6 @@
 		culture = biori
 		religion = rechktist
 		size = 994
-	}
-
-	farmers = {
-		culture = biori
-		religion = rechktist
-		size = 8014
 	}
 
 	soldiers = {
@@ -3791,6 +3787,530 @@ thralls = {
 		 culture = bhukhegi
 		 religion = pagan
 		 size = 1389
+	}
+
+}
+
+961 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = rechktist
+		size = 334
+	}
+
+	farmers = {
+		culture = biori
+		religion = rechktist
+		size = 2681
+	}
+
+	soldiers = {
+		culture = biori
+		religion = rechktist
+		size = 193
+	}
+
+	artisans = {
+		culture = biori
+		religion = rechktist
+		size = 16
+	}
+
+	clergymen = {
+		culture = biori
+		religion = rechktist
+		size = 33
+	}
+
+	aristocrats = {
+		culture = biori
+		religion = rechktist
+		size = 83
+	}
+
+	aristocrats = {
+		 culture = biori
+		 religion = pagan
+		 size = 27
+	}
+
+
+	clergymen = {
+		 culture = biori
+		 religion = pagan
+		 size = 11
+	}
+
+
+	artisans = {
+		 culture = biori
+		 religion = pagan
+		 size = 5
+	}
+
+
+	soldiers = {
+		 culture = biori
+		 religion = pagan
+		 size = 64
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = pagan
+		 size = 891
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 111
+	}
+
+}
+
+962 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = rechktist
+		size = 255
+	}
+
+	farmers = {
+		culture = biori
+		religion = rechktist
+		size = 2047
+	}
+
+	soldiers = {
+		culture = biori
+		religion = rechktist
+		size = 148
+	}
+
+	artisans = {
+		culture = biori
+		religion = rechktist
+		size = 12
+	}
+
+	clergymen = {
+		culture = biori
+		religion = rechktist
+		size = 25
+	}
+
+	aristocrats = {
+		culture = biori
+		religion = rechktist
+		size = 63
+	}
+
+	aristocrats = {
+		 culture = biori
+		 religion = pagan
+		 size = 13
+	}
+
+
+	clergymen = {
+		 culture = biori
+		 religion = pagan
+		 size = 5
+	}
+
+
+	artisans = {
+		 culture = biori
+		 religion = pagan
+		 size = 2
+	}
+
+
+	soldiers = {
+		 culture = biori
+		 religion = pagan
+		 size = 32
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = pagan
+		 size = 444
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 55
+	}
+
+}
+
+963 = {
+
+
+
+	farmers = {
+		culture = biori
+		religion = pagan
+		size = 1900
+	}
+
+	soldiers = {
+		culture = biori
+		religion = pagan
+		size = 40
+	}
+
+	soldiers = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 7
+	}
+
+
+	farmers = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 376
+	}
+
+}
+
+964 = {
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 9885
+	}
+
+	farmers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 25799
+	}
+
+	soldiers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 1662
+	}
+
+	artisans = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 716
+	}
+
+	clergymen = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 286
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 716
+	}
+
+	slaves = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 6553
+	}
+
+}
+
+965 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 13224
+	}
+
+	farmers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 55019
+	}
+
+	soldiers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 2445
+	}
+
+	artisans = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 1528
+	}
+
+	clergymen = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 611
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 1528
+	}
+
+	slaves = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 3355
+	}
+
+}
+
+966 = {
+
+
+
+	soldiers = {
+		 culture = biori
+		 religion = pagan
+		 size = 60
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = pagan
+		 size = 1841
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 1002
+	}
+
+}
+
+967 = {
+
+
+
+	soldiers = {
+		 culture = biori
+		 religion = pagan
+		 size = 384
+	}
+
+
+	farmers = {
+		 culture = biori
+		 religion = pagan
+		 size = 11760
+	}
+
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 6403
+	}
+
+}
+
+968 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 532
+	}
+
+	farmers = {
+		culture = biori
+		religion = pagan
+		size = 977
+	}
+
+	soldiers = {
+		culture = biori
+		religion = pagan
+		size = 31
+	}
+
+	soldiers = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	farmers = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 284
+	}
+
+}
+
+969 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 2233
+	}
+
+	farmers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 5979
+	}
+
+	soldiers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 265
+	}
+
+	artisans = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 166
+	}
+
+	clergymen = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 66
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 166
+	}
+
+	slaves = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 332
+	}
+
+}
+
+970 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 1788
+	}
+
+	farmers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 6779
+	}
+
+	soldiers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 301
+	}
+
+	artisans = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 188
+	}
+
+	clergymen = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 75
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 188
+	}
+
+	slaves = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 112
+	}
+
+}
+
+971 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 4443
+	}
+
+	farmers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 13978
+	}
+
+	soldiers = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 621
+	}
+
+	artisans = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 388
+	}
+
+	clergymen = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 155
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = rechktist
+		size = 388
+	}
+
+	slaves = {
+		 culture = bhukhegi
+		 religion = pagan
+		 size = 66
 	}
 
 }
