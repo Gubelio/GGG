@@ -575,3 +575,16 @@ chrawyayian= {
 
 }
 
+
+soxuppapi = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ soxuppapi = { 
+	  color = { 237 216 28 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
