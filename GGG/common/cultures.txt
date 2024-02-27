@@ -426,6 +426,23 @@ yat-pugurian = {
 #### KOFAZH ####
 ################
 
+
+tikongian = {
+    leader = arab
+    unit = MiddleEasternGC
+
+
+	  tingi = { 
+	  color = { 38 5 99 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+  
+
+}
+
 bemuven = {
     leader = arab
     unit = MiddleEasternGC
@@ -566,8 +583,14 @@ chrawyayian= {
     leader = arab
     unit = MiddleEasternGC
 
- yigo = { 
+ kwargoi = { 
 	  color = { 68 115 101 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+ rozhyu = { 
+	  color = { 27 94 13 }
 	      first_names = {  }
 
         	last_names = {  }
@@ -576,7 +599,7 @@ chrawyayian= {
 }
 
 
-soxuppapi = {
+soxuppapi_group = {
     leader = arab
     unit = MiddleEasternGC
 

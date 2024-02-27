@@ -3349,94 +3349,122 @@ thralls = {
 	}
 
 }
-
 955 = {
 
 
 
-	thralls = {
-		culture = aucubhur
-		religion = momurist
-		size = 28
-	}
-
-	slaves = {
-		culture = aucubhur
-		religion = momurist
-		size = 1156
-	}
-
-	labourers = {
-		culture = aucubhur
-		religion = momurist
-		size = 260
-	}
-
 	slaves = {
 		culture = bhukhegi
 		religion = rechktist
-		size = 1655
+		size = 3334
+	}
+
+	serfs = {
+		culture = bhukhegi
+		religion = momurist
+		size = 133
+	}
+
+	officers = {
+		culture = bhukhegi
+		religion = momurist
+		size = 4
 	}
 
 	farmers = {
 		culture = bhukhegi
-		religion = rechktist
-		size = 13689
+		religion = momurist
+		size = 3576
 	}
 
 	soldiers = {
 		culture = bhukhegi
-		religion = rechktist
-		size = 960
+		religion = momurist
+		size = 346
 	}
 
 	artisans = {
 		culture = bhukhegi
-		religion = rechktist
-		size = 82
+		religion = momurist
+		size = 155
 	}
 
 	clergymen = {
 		culture = bhukhegi
-		religion = rechktist
-		size = 165
+		religion = momurist
+		size = 44
 	}
 
+	bureaucrats = {
+		culture = bhukhegi
+		religion = momurist
+		size = 4
+	}
+
+	aristocrats = {
+		culture = bhukhegi
+		religion = momurist
+		size = 177
+	}
+
+	aristocrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 236
+	}
+
+
+	bureaucrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 9
+	}
+
+
 	clergymen = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 22
+		 culture = aucubhur
+		 religion = momurist
+		 size = 94
 	}
 
 
 	artisans = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 11
+		 culture = aucubhur
+		 religion = momurist
+		 size = 755
 	}
 
 
 	soldiers = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 129
+		 culture = aucubhur
+		 religion = momurist
+		 size = 264
 	}
 
 
 	farmers = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 1846
+		 culture = aucubhur
+		 religion = momurist
+		 size = 7129
 	}
 
 
-	slaves = {
-		 culture = bhukhegi
-		 religion = pagan
-		 size = 223
+	officers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 9
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 944
 	}
 
 }
+
+
 
 956 = {
 
@@ -5143,11 +5171,6 @@ thralls = {
 		 size = 2223
 	}
 
-}
-
-990 = {
-
-
 
 	aristocrats = {
 		 culture = soxuppapi
@@ -5206,3 +5229,2597 @@ thralls = {
 
 }
 
+991 = {
+
+
+
+	farmers = {
+		culture = biori
+		religion = momurist
+		size = 141
+	}
+
+	soldiers = {
+		culture = biori
+		religion = momurist
+		size = 13
+	}
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 777
+	}
+
+
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 247
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 9
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 98
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 494
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 573
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 7956
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 9
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 494
+	}
+
+}
+
+992 = {
+
+
+	farmers = {
+		culture = biori
+		religion = momurist
+		size = 141
+	}
+
+	soldiers = {
+		culture = biori
+		religion = momurist
+		size = 13
+	}
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 777
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 860
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 34
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 344
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1721
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1997
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 27718
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 34
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1721
+	}
+
+}
+
+993 = {
+
+
+	farmers = {
+		culture = biori
+		religion = momurist
+		size = 141
+	}
+
+	soldiers = {
+		culture = biori
+		religion = momurist
+		size = 13
+	}
+
+	slaves = {
+		 culture = biori
+		 religion = pagan
+		 size = 777
+	}
+
+	serfs = {
+		culture = kwargoi
+		religion = momurist
+		size = 669
+	}
+
+	farmers = {
+		culture = kwargoi
+		religion = momurist
+		size = 6774
+	}
+
+	serfs = {
+		culture = rozhyu
+		religion = momurist
+		size = 1298
+	}
+
+	farmers = {
+		culture = rozhyu
+		religion = momurist
+		size = 13134
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 610
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 24
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 244
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1221
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1417
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 19668
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 24
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1221
+	}
+
+}
+
+994 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 334
+	}
+
+	aristocrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 665
+	}
+
+
+	bureaucrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 166
+	}
+
+
+	artisans = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 582
+	}
+
+
+	soldiers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 1298
+	}
+
+
+	farmers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 13398
+	}
+
+
+	officers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 16
+	}
+
+
+	serfs = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 499
+	}
+
+}
+
+995 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 4433
+	}
+
+	aristocrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 355
+	}
+
+
+	bureaucrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 8
+	}
+
+
+	clergymen = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 88
+	}
+
+
+	artisans = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 310
+	}
+
+
+	soldiers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 692
+	}
+
+
+	farmers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 7151
+	}
+
+
+	officers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 8
+	}
+
+
+	serfs = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 266
+	}
+
+}
+
+996 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 1232
+	}
+
+	serfs = {
+		culture = aucubhur
+		religion = momurist
+		size = 333
+	}
+
+	officers = {
+		culture = aucubhur
+		religion = momurist
+		size = 3
+	}
+
+	farmers = {
+		culture = aucubhur
+		religion = momurist
+		size = 2515
+	}
+
+	soldiers = {
+		culture = aucubhur
+		religion = momurist
+		size = 93
+	}
+
+	artisans = {
+		culture = aucubhur
+		religion = momurist
+		size = 266
+	}
+
+	clergymen = {
+		culture = aucubhur
+		religion = momurist
+		size = 33
+	}
+
+	bureaucrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 3
+	}
+
+	aristocrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 83
+	}
+
+	aristocrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 577
+	}
+
+
+	bureaucrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 14
+	}
+
+
+	clergymen = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 144
+	}
+
+
+	artisans = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 505
+	}
+
+
+	soldiers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 1125
+	}
+
+
+	farmers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 11618
+	}
+
+
+	officers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 14
+	}
+
+
+	serfs = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 432
+	}
+
+}
+
+997 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 8833
+	}
+
+	aristocrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 310
+	}
+
+
+	bureaucrats = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 77
+	}
+
+
+	artisans = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 271
+	}
+
+
+	soldiers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 605
+	}
+
+
+	farmers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 6250
+	}
+
+
+	officers = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = rozhyu
+		 religion = momurist
+		 size = 232
+	}
+
+}
+
+998 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 1113
+	}
+
+	serfs = {
+		culture = biori
+		religion = momurist
+		size = 66
+	}
+
+	officers = {
+		culture = biori
+		religion = momurist
+		size = 2
+	}
+
+	farmers = {
+		culture = biori
+		religion = momurist
+		size = 1797
+	}
+
+	soldiers = {
+		culture = biori
+		religion = momurist
+		size = 174
+	}
+
+	artisans = {
+		culture = biori
+		religion = momurist
+		size = 78
+	}
+
+	clergymen = {
+		culture = biori
+		religion = momurist
+		size = 22
+	}
+
+	bureaucrats = {
+		culture = biori
+		religion = momurist
+		size = 2
+	}
+
+	aristocrats = {
+		culture = biori
+		religion = momurist
+		size = 89
+	}
+
+	aristocrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 194
+	}
+
+
+	bureaucrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 77
+	}
+
+
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 621
+	}
+
+
+	soldiers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 217
+	}
+
+
+	farmers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 5868
+	}
+
+
+	officers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 777
+	}
+
+}
+
+999 = {
+
+
+
+	slaves = {
+		culture = biori
+		religion = pagan
+		size = 3334
+	}
+
+	serfs = {
+		culture = biori
+		religion = momurist
+		size = 133
+	}
+
+	officers = {
+		culture = biori
+		religion = momurist
+		size = 4
+	}
+
+	farmers = {
+		culture = biori
+		religion = momurist
+		size = 3576
+	}
+
+	soldiers = {
+		culture = biori
+		religion = momurist
+		size = 346
+	}
+
+	artisans = {
+		culture = biori
+		religion = momurist
+		size = 155
+	}
+
+	clergymen = {
+		culture = biori
+		religion = momurist
+		size = 44
+	}
+
+	bureaucrats = {
+		culture = biori
+		religion = momurist
+		size = 4
+	}
+
+	aristocrats = {
+		culture = biori
+		religion = momurist
+		size = 177
+	}
+
+	aristocrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 268
+	}
+
+
+	bureaucrats = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 10
+	}
+
+
+	clergymen = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 107
+	}
+
+
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 858
+	}
+
+
+	soldiers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 300
+	}
+
+
+	farmers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 8104
+	}
+
+
+	officers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 10
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 1073
+	}
+
+}
+1000 = {
+
+
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 806
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 32
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 322
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1612
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1870
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 25633
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 32
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1934
+	}
+
+}
+
+1001 = {
+
+
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1283
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 51
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 513
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2566
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2977
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 40810
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 51
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 3080
+	}
+
+}
+
+1002 = {
+
+
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 686
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 27
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 274
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1372
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1591
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 21817
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 27
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1646
+	}
+
+}
+
+1003 = {
+
+
+
+	serfs = {
+		culture = tingi
+		religion = momurist
+		size = 3098
+	}
+
+	officers = {
+		culture = tingi
+		religion = momurist
+		size = 34
+	}
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 26341
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 1997
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 1721
+	}
+
+	clergymen = {
+		culture = tingi
+		religion = momurist
+		size = 344
+	}
+
+	bureaucrats = {
+		culture = tingi
+		religion = momurist
+		size = 34
+	}
+
+	aristocrats = {
+		culture = tingi
+		religion = momurist
+		size = 860
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 486
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 19
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 194
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 972
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1127
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 15458
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 19
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1166
+	}
+
+}
+
+1004 = {
+
+
+
+	labourers = {
+		culture = tingi
+		religion = momurist
+		size = 17939
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 342
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 2285
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1943
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 77
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 777
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 3886
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 4508
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 61799
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 77
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 4664
+	}
+
+}
+1005 = {
+
+
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 5749
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 112
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 374
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1144
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 457
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2288
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2654
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 36383
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 45
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2745
+	}
+
+}
+
+1006 = {
+
+
+
+	serfs = {
+		culture = tingi
+		religion = momurist
+		size = 3084
+	}
+
+	officers = {
+		culture = tingi
+		religion = momurist
+		size = 30
+	}
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 23284
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 1788
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 1542
+	}
+
+	clergymen = {
+		culture = tingi
+		religion = momurist
+		size = 308
+	}
+
+	bureaucrats = {
+		culture = tingi
+		religion = momurist
+		size = 30
+	}
+
+	aristocrats = {
+		culture = tingi
+		religion = momurist
+		size = 771
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 693
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 27
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 277
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1387
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1609
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 22056
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 27
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1664
+	}
+
+}
+
+1007 = {
+
+
+
+	serfs = {
+		culture = tingi
+		religion = momurist
+		size = 5334
+	}
+
+	officers = {
+		culture = tingi
+		religion = momurist
+		size = 53
+	}
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 40274
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 3093
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 2667
+	}
+
+	clergymen = {
+		culture = tingi
+		religion = momurist
+		size = 533
+	}
+
+	bureaucrats = {
+		culture = tingi
+		religion = momurist
+		size = 53
+	}
+
+	aristocrats = {
+		culture = tingi
+		religion = momurist
+		size = 1333
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 305
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 12
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 122
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 611
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 709
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 9726
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 12
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 734
+	}
+
+}
+
+1008 = {
+
+
+
+	serfs = {
+		culture = tingi
+		religion = momurist
+		size = 12689
+	}
+
+	officers = {
+		culture = tingi
+		religion = momurist
+		size = 63
+	}
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 41557
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 3679
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 3172
+	}
+
+	clergymen = {
+		culture = tingi
+		religion = momurist
+		size = 634
+	}
+
+	bureaucrats = {
+		culture = tingi
+		religion = momurist
+		size = 63
+	}
+
+	aristocrats = {
+		culture = tingi
+		religion = momurist
+		size = 1586
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 193
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 77
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 386
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 448
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 5374
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1237
+	}
+
+}
+
+1009 = {
+
+
+
+	serfs = {
+		culture = tingi
+		religion = momurist
+		size = 14466
+	}
+
+	officers = {
+		culture = tingi
+		religion = momurist
+		size = 72
+	}
+
+	farmers = {
+		culture = tingi
+		religion = momurist
+		size = 47378
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 4195
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 3616
+	}
+
+	clergymen = {
+		culture = tingi
+		religion = momurist
+		size = 723
+	}
+
+	bureaucrats = {
+		culture = tingi
+		religion = momurist
+		size = 72
+	}
+
+	aristocrats = {
+		culture = tingi
+		religion = momurist
+		size = 1808
+	}
+
+	aristocrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 55
+	}
+
+
+	bureaucrats = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 111
+	}
+
+
+	soldiers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 128
+	}
+
+
+	farmers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 1544
+	}
+
+
+	officers = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 2
+	}
+
+
+	serfs = {
+		 culture = soxuppapi
+		 religion = momurist
+		 size = 355
+	}
+
+}
+
+1010 = {
+
+
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1888
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 75
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 755
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3777
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 4381
+	}
+
+
+	farmers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 49481
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 75
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 15108
+	}
+
+}
+
+1011 = {
+
+
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1533
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 61
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 613
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3066
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3557
+	}
+
+
+	labourers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 40173
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 61
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 12266
+	}
+
+}
+
+1012 = {
+
+
+
+	serfs = {
+		culture = dexun
+		religion = momurist
+		size = 8911
+	}
+
+	officers = {
+		culture = dexun
+		religion = momurist
+		size = 44
+	}
+
+	farmers = {
+		culture = dexun
+		religion = momurist
+		size = 28515
+	}
+
+	soldiers = {
+		culture = dexun
+		religion = momurist
+		size = 2584
+	}
+
+	artisans = {
+		culture = dexun
+		religion = momurist
+		size = 2227
+	}
+
+	clergymen = {
+		culture = dexun
+		religion = momurist
+		size = 445
+	}
+
+	bureaucrats = {
+		culture = dexun
+		religion = momurist
+		size = 44
+	}
+
+	aristocrats = {
+		culture = dexun
+		religion = momurist
+		size = 1782
+	}
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 611
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 24
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 244
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1222
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1417
+	}
+
+
+	farmers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 16011
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 24
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 4889
+	}
+
+}
+
+1013 = {
+
+
+
+	serfs = {
+		culture = dexun
+		religion = momurist
+		size = 17548
+	}
+
+	officers = {
+		culture = dexun
+		religion = momurist
+		size = 87
+	}
+
+	farmers = {
+		culture = dexun
+		religion = momurist
+		size = 56156
+	}
+
+	soldiers = {
+		culture = dexun
+		religion = momurist
+		size = 5089
+	}
+
+	artisans = {
+		culture = dexun
+		religion = momurist
+		size = 4387
+	}
+
+	clergymen = {
+		culture = dexun
+		religion = momurist
+		size = 877
+	}
+
+	bureaucrats = {
+		culture = dexun
+		religion = momurist
+		size = 87
+	}
+
+	aristocrats = {
+		culture = dexun
+		religion = momurist
+		size = 3509
+	}
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1026
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 153
+	}
+
+
+	labourers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 7373
+	}
+
+}
+
+1014 = {
+
+
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1634
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 65
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 653
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3268
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3791
+	}
+
+
+	farmers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 45434
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 65
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 10459
+	}
+
+}
+
+
+1015 = {
+
+
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 1610
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 64
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 644
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3221
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 3737
+	}
+
+
+	farmers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 35761
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 64
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 19330
+	}
+
+}
+
+
+
+1016 = {
+
+
+
+	aristocrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 2111
+	}
+
+
+	bureaucrats = {
+		 culture = tingi
+		 religion = momurist
+		 size = 84
+	}
+
+
+	clergymen = {
+		 culture = tingi
+		 religion = momurist
+		 size = 844
+	}
+
+
+	artisans = {
+		 culture = tingi
+		 religion = momurist
+		 size = 4222
+	}
+
+
+	soldiers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 4897
+	}
+
+
+	farmers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 46866
+	}
+
+
+	officers = {
+		 culture = tingi
+		 religion = momurist
+		 size = 84
+	}
+
+
+	serfs = {
+		 culture = tingi
+		 religion = momurist
+		 size = 25333
+	}
+
+}
+
+1017 = {
+
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 28
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 288
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 1442
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 1672
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 19613
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 28
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 5768
+	}
+
+}
+
+1018 = {
+
+
+
+	labourers = {
+		culture = tingi
+		religion = momurist
+		size = 6701
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 139
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 932
+	}
+
+	aristocrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2462
+	}
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 61
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 615
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 3077
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 3570
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 39394
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 61
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 12310
+	}
+
+}
+
+1019 = {
+
+
+
+	aristocrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 1779
+	}
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 44
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 444
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2223
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2579
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 28464
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 44
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 8895
+	}
+
+}
+
+1020 = {
+
+
+
+	aristocrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2265
+	}
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 566
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2832
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 3285
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 30587
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 56
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 16993
+	}
+
+}
+
+1021 = {
+
+
+
+	labourers = {
+		culture = tingi
+		religion = momurist
+		size = 8614
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 179
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 1199
+	}
+
+	aristocrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2582
+	}
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 64
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 645
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 3227
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 3744
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 34858
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 64
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 19365
+	}
+
+}
+
+1022 = {
+
+
+
+	labourers = {
+		culture = tingi
+		religion = momurist
+		size = 4778
+	}
+
+	soldiers = {
+		culture = tingi
+		religion = momurist
+		size = 99
+	}
+
+	artisans = {
+		culture = tingi
+		religion = momurist
+		size = 665
+	}
+
+	aristocrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 1693
+	}
+
+
+	bureaucrats = {
+		 culture = dexun
+		 religion = momurist
+		 size = 42
+	}
+
+
+	clergymen = {
+		 culture = dexun
+		 religion = momurist
+		 size = 423
+	}
+
+
+	artisans = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2116
+	}
+
+
+	soldiers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 2455
+	}
+
+
+	farmers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 27093
+	}
+
+
+	officers = {
+		 culture = dexun
+		 religion = momurist
+		 size = 42
+	}
+
+
+	serfs = {
+		 culture = dexun
+		 religion = momurist
+		 size = 8466
+	}
+
+}
