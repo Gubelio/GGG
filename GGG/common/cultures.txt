@@ -431,15 +431,19 @@ tikongian = {
     leader = arab
     unit = MiddleEasternGC
 
-
-	  tingi = { 
+   tingi = { 
 	  color = { 38 5 99 }
 	      first_names = {  }
 
         	last_names = {  }
     }
 
-  
+   teong = { 
+	  color = { 138 53 59 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
 
 }
 
