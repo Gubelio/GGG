@@ -615,3 +615,16 @@ soxuppapi_group = {
     }
 
 }
+
+babi_group = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ babi = { 
+	  color = { 84 112 161 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
