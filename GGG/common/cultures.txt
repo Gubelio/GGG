@@ -628,3 +628,16 @@ babi_group = {
     }
 
 }
+
+fenag_group = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ fenag = { 
+	  color = { 168 50 166 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
