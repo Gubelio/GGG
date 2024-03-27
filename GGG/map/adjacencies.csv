@@ -1,0 +1,17 @@
+From;To;Type;Through;Data;Comment
+
+#### water crossings
+
+96;94;sea;2271;0;X
+93;95;sea;2270;0;X
+351;352;sea;2280;0;X
+368;367;sea;2279;0;X
+122;123;sea;2263;0;X
+379;364;sea;2273;0;X
+870;871;sea;2296;0;X
+2006;2008;sea;2486;0;X
+235;207;sea;2245;0;X
+
+#### impassables
+
+#XX;XX;impassable;0;0;impassable range
