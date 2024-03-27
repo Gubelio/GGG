@@ -717,3 +717,16 @@ stouian = {
     }
 
 }
+
+gert_group = {
+    leader = arab
+    unit = MiddleEasternGC
+
+ gert = { 
+	  color = { 69 32 14 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
