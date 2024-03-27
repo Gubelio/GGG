@@ -541,7 +541,7 @@ chobajhin = {
 }
 
 
-ostbzaif = {
+bzaifmodian = {
     leader = arab
     unit = MiddleEasternGC
 
@@ -554,6 +554,20 @@ ostbzaif = {
 
  jigubi = { 
 	  color = { 100 81 224 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+ fenag = { 
+	  color = { 168 50 166 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    deuseuian = { 
+	  color = { 68 15 126 }
 	      first_names = {  }
 
         	last_names = {  }
@@ -629,12 +643,74 @@ babi_group = {
 
 }
 
-fenag_group = {
+preirish = {
     leader = arab
     unit = MiddleEasternGC
 
- fenag = { 
-	  color = { 168 50 166 }
+    bofungi = { 
+	  color = { 98 198 2 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    coebeju = { 
+	  color = { 43 82 73 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    bogurg = { 
+	  color = { 56 173 220 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    gengugemeg = { 
+	  color = { 234 22 32 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    bauchir = { 
+	  color = { 34 122 1 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+}
+
+stouian = {
+    leader = arab
+    unit = MiddleEasternGC
+
+   assatiog = { 
+	  color = { 184 12 61 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    piok = { 
+	  color = { 43 11 16 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    gior = { 
+	  color = { 234 212 21 }
+	      first_names = {  }
+
+        	last_names = {  }
+    }
+
+    poussan = { 
+	  color = { 84 233 11 }
 	      first_names = {  }
 
         	last_names = {  }
