@@ -1,0 +1,191 @@
+#Relations
+
+leader = {
+    name = "Mruuwub Sha-Ibu"
+    type = land
+    date = 1306.1.1
+    personality = careful
+    background = innovative_tactician
+}
+
+leader = {
+    name = "Vodrid Prasibush"
+    type = land
+    date = 1285.1.1
+    personality = keen
+    background = elderly
+}
+
+army = {
+    name = "Army of the Center"
+    location = 7
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 2
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 1
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 2
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 3
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 3
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 4
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 4
+    }
+}
+
+army = {
+    name = "Army of the East"
+    location = 75
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 5
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 7
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 10
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 19
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 32
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 19
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 20
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 22
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 23
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 33
+    }
+}
+
+army = {
+    name = "Army of the West"
+    location = 83
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 52
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 42
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 18
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 27
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 32
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 19
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 20
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 33
+    }
+}

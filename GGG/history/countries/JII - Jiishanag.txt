@@ -1,7 +1,7 @@
 capital = 240
 primary_culture = south_gashdzii
 religion = motkohnic
-government = parliamentary_despotate
+government = princely_despotate #parliamentary_despotate
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.36
@@ -11,29 +11,8 @@ civilized = yes
 prestige = 45
 
 # Political reforms
-citizens_rights = primary_culture_only
-border_policy = quota_immigration
-legislative_system = noble_parliament
-land_reform_civ = feudal_tenure
-banking_system = banking_licenses
-thralldom = thralldom_allowed
-public_order = appointed_justices 
-administrative_reform = hereditary_bureaucracy
-infrastructure = ad_hoc_development
-health_care = no_health_care
-school_reforms = parish_school_system
 
 # Social Reforms
-emigration_law = restricted_emigration
-clerical_law = magisteralism
-worker_protections = trinket_protections
-scriptural_law = freedom_of_conscience
-welfare_laws = public_granaries
-debt_law = peonage
-penal_system = incarceration
-slavery = yes_slavery
-wage_reform = no_minimum_wage
-social_privileges = legal_disabilities
 
 ruling_party = dominion_conservative
 upper_house = { # inherit

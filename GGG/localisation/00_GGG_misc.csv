@@ -1,0 +1,677 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+public_order;Public Order;;;;;;;;;;;;;x
+feudal_courts;Feudal Courts;;;;;;;;;;;;;x
+feudal_courts_desc;Justice is in the hands of various aristocratic and ecclesiastical courts.;;;;;;;;;;;;;x
+appointed_justices;Appointed Justices;;;;;;;;;;;;;x
+appointed_justices_desc;Judges are appointed by the central government to regional courts.;;;;;;;;;;;;;x
+unified_legal_code;Unified Legal Code;;;;;;;;;;;;;x
+unified_legal_code_desc;There is a unified legal code for the entire polity.;;;;;;;;;;;;;x
+land_reform_civ;Land Reform;;;;;;;;;;;;;x
+feudal_tenure;Feudal Tenure;;;;;;;;;;;;;x
+feudal_tenure_desc;Land is held in feudal terms, with commons and noble estates.;;;;;;;;;;;;;x
+enclosure_of_commons;Enclosure of Commons;;;;;;;;;;;;;x
+enclosure_of_commons_desc;The government has passed private acts enclosing upon commons.;;;;;;;;;;;;;x
+private_landownership;Private Landownership;;;;;;;;;;;;;x
+private_landownership_desc;Most land is held in private writs.;;;;;;;;;;;;;x
+land_banking;Land Banking;;;;;;;;;;;;;x
+land_banking_desc;The government has established various land banks for the allocation of land.;;;;;;;;;;;;;x
+farm_cooperatives;Farming Cooperatives;;;;;;;;;;;;;x
+farm_cooperatives_desc;Many lands are held as cooperatives.;;;;;;;;;;;;;x
+collectivized_farming;Collectivized Farming;;;;;;;;;;;;;x
+collectivized_farming_desc;Much land is held in large collectives.;;;;;;;;;;;;;x
+banking_system;Banking System;;;;;;;;;;;;;x
+unregulated_currency;Unregulated Currency;;;;;;;;;;;;;x
+unregulated_currency_desc;The government makes little effort to restrict bills of exchange.;;;;;;;;;;;;;x
+banking_licenses;Banking Licenses;;;;;;;;;;;;;x
+banking_licenses_desc;All banks need a license to issue bills.;;;;;;;;;;;;;x
+central_banking;Central Banking;;;;;;;;;;;;;x
+central_banking_desc;There is an established central bank.;;;;;;;;;;;;;x
+regulatory_institutions;Regulatory Institutions;;;;;;;;;;;;;x
+regulatory_institutions_desc;There are various bodies dedicated to regulating currency flows.;;;;;;;;;;;;;x
+school_system;School System;;;;;;;;;;;;;x
+no_school_system;No School System;;;;;;;;;;;;;x
+no_school_system_desc;There is no governmental school system.;;;;;;;;;;;;;x
+parish_school_system;Parish School System;;;;;;;;;;;;;x
+parish_school_system_desc;The government works with the clergy to provide schooling.;;;;;;;;;;;;;x
+state_school_system;State School System;;;;;;;;;;;;;x
+state_school_system_desc;There is a state school system.;;;;;;;;;;;;;x
+thralldom;Thralldom;;;;;;;;;;;;;x
+thralldom_allowed;Allowed;;;;;;;;;;;;;x
+thralldom_allowed_desc;The pratice of keeping thralls is permitted.;;;;;;;;;;;;;x
+thralldom_outlawed;Outlawed;;;;;;;;;;;;;x
+thralldom_outlawed_desc;The pratice of keeping thralls is outlawed.;;;;;;;;;;;;;x
+administrative_reform;Administrative Reform;;;;;;;;;;;;;x
+hereditary_bureaucracy;Hereditary Bureaucracy;;;;;;;;;;;;;x
+hereditary_bureaucracy_desc;Civil office is inherited.;;;;;;;;;;;;;x
+nepotistic_bureaucracy;Nepotistic Bureaucracy;;;;;;;;;;;;;x
+nepotistic_bureaucracy_desc;There is no civil appointment bodies, leading to common nepotism.;;;;;;;;;;;;;x
+appointed_bureaucrats;Appointed Bureaucrats;;;;;;;;;;;;;x
+appointed_bureaucrats_desc;Bureaucrats are appointed by the government.;;;;;;;;;;;;;x
+professional_bureaucracy;Professional Bureaucracy;;;;;;;;;;;;;x
+professional_bureaucracy_desc;The civil service is meritocratic and outcomes oriented.;;;;;;;;;;;;;x
+legislative_system;Legislative System;;;;;;;;;;;;;x
+tribal_assembly;Tribal Assembly;;;;;;;;;;;;;x
+tribal_assembly_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
+noble_parliament;Noble Parliament;;;;;;;;;;;;;x
+noble_parliament_desc;All hereditary peers of the higher orders have a seat in the legislative assembly.;;;;;;;;;;;;;x
+regulated_elections;Regulated Elections;;;;;;;;;;;;;x
+regulated_elections_desc;The legislative assembly is composed of candidates chosen by organised regional election.;;;;;;;;;;;;;x
+approved_candidacy;Approved Candidacy;;;;;;;;;;;;;x
+approved_candidacy_desc;The legislature only consists of delegates chosen in elections directed by the central government.;;;;;;;;;;;;;x
+appointed_legislatures;Appointed Legislatures;;;;;;;;;;;;;x
+appointed_legislatures_desc;The legislature is composed of civil servants chosen by the ruling party.;;;;;;;;;;;;;x
+infrastructure;Infrastructure;;;;;;;;;;;;;x
+ad_hoc_development;Ad-Hoc Development;;;;;;;;;;;;;x
+ad_hoc_development_desc;There are no laws or instituions regulating or promoting infrastructure development.;;;;;;;;;;;;;x
+turnpikes_n_municipal_funding;Turnpikes & Municipal Funding;;;;;;;;;;;;;x
+turnpikes_n_municipal_funding_desc;Infrastructure is largely funded by regional levies and directed by local authorites.;;;;;;;;;;;;;x
+urban_planning;Urban Planning;;;;;;;;;;;;;x
+urban_planning_desc;Most large cities have regional planning authorities.;;;;;;;;;;;;;x
+public_works_division;Public Works Division;;;;;;;;;;;;;x
+public_works_division_desc;There is a government public works division to direct and support infrastructure expansion.;;;;;;;;;;;;;x
+worker_protections;Worker Protections;;;;;;;;;;;;;x
+no_protections;No Protections;;;;;;;;;;;;;x
+no_protections_desc;There are no worker protections;;;;;;;;;;;;;x
+trinket_protections;Trinket Protections;;;;;;;;;;;;;x
+trinket_protections_desc;There are trinket protections for the worker.;;;;;;;;;;;;;x
+low_protections;Low Protections;;;;;;;;;;;;;x
+low_protections_desc;There are low levels of protection for the worker.;;;;;;;;;;;;;x
+acceptable_protections;Acceptable Protections;;;;;;;;;;;;;x
+acceptable_protections_desc;There are acceptable levels of protection for the worker.;;;;;;;;;;;;;x
+good_protections;Good Protections;;;;;;;;;;;;;x
+good_protections_desc;There are good protections for the worker.;;;;;;;;;;;;;x
+scriptural_law;Scriptural Law;;;;;;;;;;;;;x
+morality_police;Morality Police;;;;;;;;;;;;;x
+morality_police_desc;Morality police enforce religious legislation with wide powers.;;;;;;;;;;;;;x
+courts_of_canon;Courts of Canon;;;;;;;;;;;;;x
+courts_of_canon_desc;Clerical courts have the right to prosecute religious offenders and heretics.;;;;;;;;;;;;;x
+freedom_of_conscience;Freedom of Conscience;;;;;;;;;;;;;x
+freedom_of_conscience_desc;Subjects cannot face trial for religious views.;;;;;;;;;;;;;x
+permitted_heterodoxy;Permitted Heterodoxy;;;;;;;;;;;;;x
+permitted_heterodoxy_desc;Heterodox views are permitted to form organsations and churches.;;;;;;;;;;;;;x
+local_congregationalism;Local Congregationalism;;;;;;;;;;;;;x
+local_congregationalism_desc;Local congregations are free to endorse their own religious views.;;;;;;;;;;;;;x
+social_privileges;Social Privileges;;;;;;;;;;;;;x
+feudal_rights;Feudal Rights;;;;;;;;;;;;;x
+feudal_rights_desc;Aristocrats have wide proprietary rights against their subjects and the government.;;;;;;;;;;;;;x
+sanctioned_privileges;Sanctioned Privileges;;;;;;;;;;;;;x
+sanctioned_privileges_desc;The government endorses a number of privileges held by aristocrats against the lower orders.;;;;;;;;;;;;;x
+sumptuary_laws;Sumptuary Laws;;;;;;;;;;;;;x
+sumptuary_laws_desc;The lower orders are prohibited from certain luxuries and conspicous consumption.;;;;;;;;;;;;;x
+legal_disabilities;Legal Disabilities;;;;;;;;;;;;;x
+legal_disabilities_desc;Certain castes face a number of legal restritctions.;;;;;;;;;;;;;x
+equality_before_the_law;Equality Before the Law;;;;;;;;;;;;;x
+equality_before_the_law_desc;The government recognises no hereditary disabilities or privileges.;;;;;;;;;;;;;x
+welfare_laws;Welfare Laws;;;;;;;;;;;;;x
+no_dole;No Dole;;;;;;;;;;;;;x
+no_dole_desc;There are no welfare policies in the state.;;;;;;;;;;;;;x
+public_granaries;Public Granaries;;;;;;;;;;;;;x
+public_granaries_desc;The government maintains large public granaries to protect against famine.;;;;;;;;;;;;;x
+subsidized_grain_imports;Subsidized Grain Imports;;;;;;;;;;;;;x
+subsidized_grain_imports_desc;The government subsidizes large quantities of grain to reduce the price.;;;;;;;;;;;;;x
+universal_grain_dole;Universal Grain Dole;;;;;;;;;;;;;x
+universal_grain_dole_desc;Most major cities provide a free grain dole to paupers, invalids, and the unemployed.;;;;;;;;;;;;;x
+mule_n_seed_law;Mule & Seed Law;;;;;;;;;;;;;x
+mule_n_seed_law_desc;The government is commited to providing a mule and yearly grains to its paupers and peasants.;;;;;;;;;;;;;x
+slavery;Slavery;;;;;;;;;;;;;x
+yes_slavery;Allowed;;;;;;;;;;;;;x
+yes_slavery_desc;Slavery is allowed;;;;;;;;;;;;;x
+code_of_rights;Code of Rights;;;;;;;;;;;;;x
+code_of_rights_desc;Slaves have some legal protections against abuse.;;;;;;;;;;;;;x
+public_ownership;Public Ownership;;;;;;;;;;;;;x
+public_ownership_desc;All slaves are owned by the state.;;;;;;;;;;;;;x
+gradual_abolition;Gradual Abolition;;;;;;;;;;;;;x
+gradual_abolition_desc;Slaves are regularly emancipated and those born to slaves are free.;;;;;;;;;;;;;x
+no_slavery;Outlawed;;;;;;;;;;;;;x
+no_slavery_desc;Slavery is outlawed;;;;;;;;;;;;;x
+citizens_rights;Cultural Rights;;;;;;;;;;;;;x
+primary_culture_only;Primary Culture Only;;;;;;;;;;;;;x
+primary_culture_only_desc;Only our primary culture can vote.;;;;;;;;;;;;;x
+culture_voting_only;Minority Rights;;;;;;;;;;;;;x
+culture_voting_only_desc;Certain accepted minorities are allowed to participate politically.;;;;;;;;;;;;;x
+all_voting_pops;All Cultures Accepted;;;;;;;;;;;;;x
+all_voting_pops_desc;All cultures are allowed to participate in the political process.;;;;;;;;;;;;;x
+border_policy;Immigration Law;;;;;;;;;;;;;x
+closed_borders;Closed Borders;;;;;;;;;;;;;x
+closed_borders_desc;The border is strictly closed to immigrants.;;;;;;;;;;;;;x
+quota_immigration;Immigration Quotas;;;;;;;;;;;;;x
+quota_immigration_desc;Quotas carefuly restrict the amount of immigrants.;;;;;;;;;;;;;x
+open_borders;Open Borders;;;;;;;;;;;;;x
+open_borders_desc;All immigrants are free to come to our country.;;;;;;;;;;;;;x
+emigration_law;Emigration Law;;;;;;;;;;;;;x
+emigration_forbidden;Emigration Forbidden;;;;;;;;;;;;;x
+emigration_forbidden_desc;Emigration is strictly forbidden.;;;;;;;;;;;;;x
+emigration_restricted;Restricted Migration;;;;;;;;;;;;;x
+emigration_restricted_desc;Certain permits allow for legal emigration.;;;;;;;;;;;;;x
+emigration_permitted;Emigration Permitted;;;;;;;;;;;;;x
+emigration_permitted_desc;Emigration is unrestricted and legal.;;;;;;;;;;;;;x
+clerical_law;Clerical Law;;;;;;;;;;;;;x
+empowered_clergy;Empowered Clergy;;;;;;;;;;;;;x
+empowered_clergy_desc;The clergy maintains an extensive private state and judiciary.;;;;;;;;;;;;;x
+magisterialism;Magisterialism;;;;;;;;;;;;;x
+magisterialism_desc;The state and the ecclesiastical structure meld into one.;;;;;;;;;;;;;x
+anti_clericalism;Anti-Clericalism;;;;;;;;;;;;;x
+anti_clericalism_desc;The state is strictly seperate from the clergy, and clerical influence is legislated against.;;;;;;;;;;;;;x
+debt_law;Debt Law;;;;;;;;;;;;;x
+serfdom;Serfdom;;;;;;;;;;;;;x
+serfdom_desc;Those unable to pay their debts descend into hereditary, landbound servitude.;;;;;;;;;;;;;x
+peonage;Peonage;;;;;;;;;;;;;x
+peonage_desc;Those unable to pay their debts descend into the service of their creditor.;;;;;;;;;;;;;x
+debtors_prisons;Debtors' Prisons;;;;;;;;;;;;;x
+debtors_prisons_desc;Those unable to pay their debts are interned in state run labour facilities until their debts are payed.;;;;;;;;;;;;;x
+bankruptcy;Bankruptcy;;;;;;;;;;;;;x
+bankruptcy_desc;Those unable to pay their debts may declare bankrupty to seek relief.;;;;;;;;;;;;;x
+penal_system;Penal System;;;;;;;;;;;;;x
+capital_punishment;Capital Punishment;;;;;;;;;;;;;x
+capital_punishment_desc;The death penalty is a legal and common punishment for certain criminals.;;;;;;;;;;;;;x
+colonial_transportation;Transportation;;;;;;;;;;;;;x
+colonial_transportation_desc;Transportation to colonial servitute is a common punishment for crimes.;;;;;;;;;;;;;x
+incarceration;Incarceration;;;;;;;;;;;;;x
+incarceration_desc;Criminals are most often interned in state prisons or dungeons.;;;;;;;;;;;;;x
+rehabilitation;Rehabilitation;;;;;;;;;;;;;x
+rehabilitation_desc;Criminals are directed to correctional facilities with an intention to release them after correction.;;;;;;;;;;;;;x
+POLITICS_MATTERS_OF_STATE;Matters of State;;;;;;;;;;;;;x
+theocracy;Theocracy;;;;;;;;;;;;;x
+parliamentary_despotate;Parliamentary Despotate;;;;;;;;;;;;;x
+princely_despotate;Princely Despotate;;;;;;;;;;;;;x
+absolute_autocracy;Absolutist Autocracy;;;;;;;;;;;;;x
+statist_bureaucracy;Statist Bureaucracy;;;;;;;;;;;;;x
+sublime_synod;Sublime Synod;;;;;;;;;;;;;x
+paternalistic_council;Paternalistic Council;;;;;;;;;;;;;x
+ishahfazh;Ishahfazh;;;;;;;;;;;;;x
+kovazh;Kovazh;;;;;;;;;;;;;x
+bafozh;Bafozh;;;;;;;;;;;;;x
+military_reforms;Political Reforms;;;;;;;;;;;;;x
+fiscal_institutions;Fiscal Institutions;;;;;;;;;;;;;x
+sovereign_proprietry;Sovereign Proprietry;;;;;;;;;;;;;x
+royal_exchequer;Royal Exchequer;;;;;;;;;;;;;x
+regional_government;Regional Government;;;;;;;;;;;;;x
+local_estates;Local Estates;;;;;;;;;;;;;x
+intendants_system;Intendants System;;;;;;;;;;;;;x
+legal_system;Legal System;;;;;;;;;;;;;x
+customary_law;Customary Law;;;;;;;;;;;;;x
+sitting_courts;Sitting Courts;;;;;;;;;;;;;x
+military_leadership;Military Leadership;;;;;;;;;;;;;x
+private_command;Private Command;;;;;;;;;;;;;x
+officer_class;Officer Class;;;;;;;;;;;;;x
+army_structure;Army Structure;;;;;;;;;;;;;x
+war_parties;War Parties;;;;;;;;;;;;;x
+standing_army;Standing Army;;;;;;;;;;;;;x
+courtly_ritual;Courtly Ritual;;;;;;;;;;;;;x
+ad_hoc_assembly;Ad-Hoc Assembly;;;;;;;;;;;;;x
+royal_audiences;Royal Audiences;;;;;;;;;;;;;x
+municipal_law;Municipal Law;;;;;;;;;;;;;x
+no_legal_status;No Legal Status;;;;;;;;;;;;;x
+town_charters;Town Charters;;;;;;;;;;;;;x
+census_laws;Census Laws;;;;;;;;;;;;;x
+no_census;No Census;;;;;;;;;;;;;x
+irregular_census;Irregular Census;;;;;;;;;;;;;x
+freedom_of_movement;Freedom of Movement;;;;;;;;;;;;;x
+unfettered_movement;Unfettered Movement;;;;;;;;;;;;;x
+movement_restricted;Movement Restricted;;;;;;;;;;;;;x
+property_law;Property Law;;;;;;;;;;;;;x
+ad_hoc_property_laws;Ad-Hoc Property Laws;;;;;;;;;;;;;x
+writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
+radical_liberationist;Radical Liberationist;;;;;;;;;;;;;x
+liberationist;Liberationist;;;;;;;;;;;;;x
+statist;Statist;;;;;;;;;;;;;x
+absolutist;Absolutist;;;;;;;;;;;;;x
+theocractist;Theocractist;;;;;;;;;;;;;x
+agricultural_methods;x;;;;;;;;;;;;;x
+ad_hoc_farming;x;;;;;;;;;;;;;x
+crop_rotation;x;;;;;;;;;;;;;x
+metallurgy;x;;;;;;;;;;;;;x
+bog_iron_harvesting;x;;;;;;;;;;;;;x
+village_smithies;x;;;;;;;;;;;;;x
+finance_reform;x;;;;;;;;;;;;;x
+no_finance_reform;x;;;;;;;;;;;;;x
+yes_finance_reform;x;;;;;;;;;;;;;x
+terrain_marsh;Swamp;;;;;;;;;;;;;x
+marsh;Swamp;;;;;;;;;;;;;x
+savanna;Savanna;;;;;;;;;;;;;x
+savanna_woodland;Savanna Woodland;;;;;;;;;;;;;x
+plateau_mountains;Plateau Mountains;;;;;;;;;;;;;x
+GG_DESC;On the great plains of the continent of Ishahfazh, by the imperial reckoning, the year is 1308. For the past four hundred years, since the traumatic and prolonged shattering of the Gashdzii empire in the times of sorrow, the face of Ishahfazh has been transformed by a series of events and innovations, the implications of which are only now becoming clear. A steady trickle of exploration has mapped the world and brought more and more regions into a global market, while vicious competition, politically and economically, has driven the proliferation of new forms of economic organization and innovations. At the same time, Gashdzii society has been wracked by perennial social upheaval since the collapse of the empire. The traditional lordly and ecclesiastical domination has been steadily challenged in more unstable regions, leading to the gradual development of what has been termed the "anti-magisterial" movement, rejecting centralized ecclesiastical organization. This movement, already tinged with social radicalism, in recent years has taken a critically radical turn. Calling themselves "social liberationists", these radicals seek to overthrow the traditional organization of society at large. Calling for the abolition of proprietary social rights, manorial society, and aristocratic privilege, they seek to establish a society that caters to the common people, and to a traditional agricultural and arcadian lifestyle. As the game begins, the states of Ishahfazh are set poised for a vast confrontation as the very fabric of society changes: the merchants and industrials of the south look to command the very planet by their clever technologies, while the social liberationists across the former empire and its peripheries look to the Siethve liberationist state with all their hopes for a worldly paradise, and in the ancient Poumnian empire and the great Vokonazh domains of the North, the forces of reaction and aristocracy rally their armies...;x;x;;x;;;;;;;;;x
+GG_NAME;Gozomedes' Great Game;;;;;;;;;;;;;x
+south_gashdzii;South Gashdzii;;;;;;;;;;;;;x
+west_gashdzii;West Gashdzii;;;;;;;;;;;;;x
+north_gashdzii;North Gashdzii;;;;;;;;;;;;;x
+shagmodt;Shagmodt;;;;;;;;;;;;;x
+poumnian;Poumnian;;;;;;;;;;;;;x
+hahuibi;Hahuibi;;;;;;;;;;;;;x
+anuvo;Anuvo;;;;;;;;;;;;;x
+ghechi;Ghechi;;;;;;;;;;;;;x
+hahabi;Hahabi;;;;;;;;;;;;;x
+sevuma;Sevuma;;;;;;;;;;;;;x
+vupuyti;Vupuyti;;;;;;;;;;;;;x
+paguyti;Paguyti;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_NORTH_AMERICA;Ishahfazh;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List 即Ishahfazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA;Paukzhodo;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List 即Paukzhodi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_EUROPE;Bafozh;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_EUROPE_TOOLTIP;List 即Bafozhi劬 countries;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_SOUTH_AMERICA;Kovazh;;;;;;;;;;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List 即Kovazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA;Gofakidzia;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA_TOOLTIP;List 即Gofakidzi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA;Shobgizob;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA_TOOLTIP;List 即Shobgizobi劬 countries;;;;;;;;;;;;;
+south_america;Kovazh;;;;;;;;;;;;;x
+north_america;Ishahfazh;;;;;;;;;;;;;x
+asia;Gofakidzia;;;;;;;;;;;;;x
+africa;Shobgizob;;;;;;;;;;;;;x
+oceania;Paukzhodo;;;;;;;;;;;;;x
+europe;Bafozh;;;;;;;;;;;;;x
+motkohnic;Motkohnic;;;;;;;;;;;;;x
+kadkohi;Kadkohi;;;;;;;;;;;;;x
+pagan;Pagan;;;;;;;;;;;;;x
+towuzhan;Towuzhan;;;;;;;;;;;;;x
+wompowushan;Wompowushan;;;;;;;;;;;;;x
+vewugi;Vewugi;;;;;;;;;;;;;x
+tehuhrite;Tehuhrite;;;;;;;;;;;;;x
+pruuntish;Pruuntish;;;;;;;;;;;;;x
+duyo;Duyo;;;;;;;;;;;;;x
+serfs;Serfs;;;;;;;;;;;;;x
+thralls;Thralls;;;;;;;;;;;;;x
+thesathi;Thesathi;;;;;;;;;;;;;x
+unnahu;Unnahu;;;;;;;;;;;;;x
+coffee;Nuddi;;;;;;;;;;;;;x
+opium;Pruub;;;;;;;;;;;;;x
+tobacco;Nuzhdap;;;;;;;;;;;;;x
+vufami;Vufami;;;;;;;;;;;;;x
+eshemi;Eshemi;;;;;;;;;;;;;x
+dehuogi;Dehuogi;;;;;;;;;;;;;x
+ihnthedehert;Ihnthedehert;;;;;;;;;;;;;x
+chyothit;Chyothit;;;;;;;;;;;;;x
+ihnpihmi;Ihnpihmi;;;;;;;;;;;;;x
+sithuchi;Sithuchi;;;;;;;;;;;;;x
+ihntithot;Ihntithot;;;;;;;;;;;;;x
+takemoujoy;Takemoujoy;;;;;;;;;;;;;x
+tufume;Tufume;;;;;;;;;;;;;x
+miegpaup;Miegpaup;;;;;;;;;;;;;x
+yamoujoy;Yamoujoy;;;;;;;;;;;;;x
+bogoran;Bogoran;;;;;;;;;;;;;x
+gopza;Gopza;;;;;;;;;;;;;x
+uttobanhu;Uttobanhu;;;;;;;;;;;;;x
+roshupt;Roshupt;;;;;;;;;;;;;x
+maumoujoy;Maumoujoy;;;;;;;;;;;;;x
+shamush;Shamush;;;;;;;;;;;;;x
+ihnpedi;Ihnpedi;;;;;;;;;;;;;x
+ogrehi;Ogrehi;;;;;;;;;;;;;x
+kova;Kova;;;;;;;;;;;;;x
+biori;Biori;;;;;;;;;;;;;x
+bukhegi;Bukhegi;;;;;;;;;;;;;x
+pugure;Pugure;;;;;;;;;;;;;x
+yattae;Yattae;;;;;;;;;;;;;x
+cavalry;Swinery;;;;;;;;;;;;;x
+hussar;Swinery Gunner;;;;;;;;;;;;;x
+dragoon;Swinery Lancer;;;;;;;;;;;;;x
+cuirassier;Swinery Raider;;;;;;;;;;;;;x
+aucubhur;Aucubhur;;;;;;;;;;;;;x
+aucbocharr;Aucbocharr;;;;;;;;;;;;;x
+bhukhegi;Bhukhegi;;;;;;;;;;;;;x
+jigubi;Jigubi;;;;;;;;;;;;;x
+ngoghu;Ngoghu;;;;;;;;;;;;;x
+princely_despotate_ruler;My Lord;;;;;;;;;;;;;x
+parliamentary_despotate_ruler;Lord Minister;;;;;;;;;;;;;x
+theocracy_ruler;High Priest;;;;;;;;;;;;;x
+sublime_synod_ruler;Pontifex;;;;;;;;;;;;;x
+paternalistic_council_ruler;Lord Protector;;;;;;;;;;;;;x
+statist_bureaucracy_ruler;Premier;;;;;;;;;;;;;x
+absolute_autocracy_ruler;Chairman;;;;;;;;;;;;;x
+engineer;Sapper;;;;;;;;;;;;;x
+guard;Forayer;;;;;;;;;;;;;x
+HOLD_ELECTION_BUTTON;Hold Election;;;;;;;;;;;;;x
+rechktist;Rechktist;;;;;;;;;;;;;x
+soxuppapi;Soxuppapi;;;;;;;;;;;;;x
+momurist;Momurist;;;;;;;;;;;;;x
+kwargoi;Kwargoi;;;;;;;;;;;;;x
+rozhyu;Rozhyu;;;;;;;;;;;;;x
+humabi;Humabi;;;;;;;;;;;;;x
+teong;Teong;;;;;;;;;;;;;x
+dexun;Dexun;;;;;;;;;;;;;x
+fenag;Fenag;;;;;;;;;;;;;x
+babi;Babi;;;;;;;;;;;;;x
+tingi;Tingi;;;;;;;;;;;;;x
+teong;Teong;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
