@@ -367,14 +367,16 @@ land_reform_civ = {
  banking_system = {
         unregulated_currency = {
             
-            tax_efficiency = -0.2 
+            #tax_efficiency = -0.2 
 
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
         }
         banking_licenses = {
-            
+
+            tax_efficiency = 0.01 
+
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
