@@ -1155,6 +1155,392 @@ slavery = {
 ####UNCIV####
 
 economic_reforms = {
+
+	agricultural_methods = {
+		ad_hoc_farming = {
+			farm_rgo_size = 0.25
+			mine_rgo_size = 0.25
+			global_pop_militancy_modifier = -0.005
+		}
+		crop_rotation = {
+			technology_cost = 8000
+			farm_rgo_eff = 0.25
+			mine_rgo_eff = 0.25
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+
+    metallurgy_law = {
+        bog_iron_harvesting = {
+			global_pop_militancy_modifier = -0.005
+        }
+
+        village_smithies = {
+            technology_cost = 14000
+            education_efficiency_modifier = 0.1
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 0.5
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+	record_keeping = {
+		chroniclers = {
+				global_pop_militancy_modifier = -0.005
+		}
+		rudimentary_records = {
+			technology_cost = 10000
+			administrative_efficiency_modifier = 0.1
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+
+	education_law = {
+		inherited_wisdom = { #Elder's Promise
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		clerical_education = { 
+			education_efficiency_modifier = 0.15
+			technology_cost = 10000
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	currency_law = {
+		next_step_only = yes
+		barter_system = {
+			max_loan_modifier = -1.0 # no loan 4 u
+			global_pop_militancy_modifier = -0.005
+		}
+		unregulated_bullion = {
+			technology_cost = 10000
+			tax_efficiency = 0.1
+			civilization_progress_modifier = 0.15
+			max_loan_modifier = -1.0 # no loan 4 u
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 3
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 1
+						}
+					}
+				}
+			}
+		}
+		minting_n_coinage = {
+			technology_cost = 15000
+			tax_efficiency = 0.1
+			civilization_progress_modifier = 0.35
+			
+			max_loan_modifier = -0.2 # 80% loans
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 2
+						}
+					}
+				}
+			}
+		}
+	}
+
+    tax_collection = {
+        next_step_only = yes
+        tribute_tax = {
+        }
+		
+        land_tax = {
+            technology_cost = 12000
+            tax_efficiency = 0.05
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    treasury = 10000
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 0.5
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+        tax_farming = {
+            technology_cost = 18000
+            tax_efficiency = 0.05
+            civilization_progress_modifier = 0.25
+
+            on_execute = {
+                effect = {
+                    treasury = 100000
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 3
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 0.5
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 2
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+	market_reforms = {
+		parochial_exchange = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		regional_markets = {
+			technology_cost = 10000
+			farm_rgo_eff = 0.25
+			mine_rgo_eff = 0.25
+			civilization_progress_modifier = 0.15
+			on_execute = {
+				#trigger = {
+				#	can_build_railway_in_capital = {
+				#		in_whole_capital_state = yes # no = just in main capital province.
+				#		limit_to_world_greatest_level = yes
+				#	}
+				#}
+				effect = {
+					#activate_technology = experimental_railroad
+					#build_railway_in_capital = {
+					#	in_whole_capital_state = yes # no = just in main capital province.
+					#	limit_to_world_greatest_level = yes
+					#	}
+					
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	
+    trade_practices = {
+        irregular_trade = {
+			global_pop_militancy_modifier = -0.005
+        }
+        merchant_contracts = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    treasury = 75000
+
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+	financial_instruments = {
+		usury_banned = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		tokens_of_exchange = {
+			technology_cost = 17500
+			civilization_progress_modifier = 0.25
+			on_execute = {
+				effect = {
+					#build_factory_in_capital_state = cement_factory
+					
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 3
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 2
+						}
+					}
+				}
+			}
+		}	
+	}
+	
+	manufacturing_law = {
+		ad_hoc_fabrication = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		artisan_guilds = {
+			technology_cost = 15000
+			civilization_progress_modifier = 0.2
+			on_execute = {
+				trigger = {
+					can_build_factory_in_capital_state = fabric_factory # example, no trigger needed here
+				}
+				effect = {
+					activate_technology = water_wheel_power
+					build_factory_in_capital_state = fabric_factory
+                    activate_technology = guild_based_production
+					
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberationist
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+
+####### VANILLA ########
+
 	land_reform = {
 		no_land_reform = {
 			farm_rgo_size = 0.25
@@ -1411,7 +1797,318 @@ economic_reforms = {
 	}
 }
 
-military_reforms = {
+#########################################
+####### UNCIV POLITICAL REFORMS #########
+#########################################
+
+military_reforms = { #Political Reforms
+
+    fiscal_institutions = {
+
+        sovereign_proprietry = {
+            core_pop_militancy_modifier = -0.005
+        }
+        royal_exchequer = {
+            technology_cost = 13000
+            civilization_progress_modifier = 0.15
+            #research_points_on_conquer = 0.25
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    legal_system = {
+        customary_law = {
+            core_pop_militancy_modifier = -0.005
+        }
+        sitting_courts = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    regional_government = {
+        local_estates = {
+                core_pop_militancy_modifier = -0.005
+        }
+        intendants_system = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    property_law = {
+        ad_hoc_property_laws = {
+                core_pop_militancy_modifier = -0.005
+        }
+        writs_of_the_state = {
+            #tariff_efficiency_modifier = 0.2
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+            #research_points_on_conquer = 0.25
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 3
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 2
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    military_leadership = {
+        private_command = {
+                core_pop_militancy_modifier = -0.005
+        }
+        officer_class = {
+            leadership_modifier = 0.1
+            technology_cost = 10000
+            civilization_progress_modifier = 0.1
+            research_points_on_conquer = 0.25
+
+            on_execute = {
+                effect = {
+                    activate_technology = military_staff_system
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    army_structure = {
+        war_parties = {
+                core_pop_militancy_modifier = -0.005
+        }
+        standing_army = {
+            land_unit_start_experience = 10
+            technology_cost = 10000
+            civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    census_law = {
+        no_census = {
+                core_pop_militancy_modifier = -0.005
+        }
+        irregular_census = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    freedom_of_movement = {
+        unfettered_movement = {
+                core_pop_militancy_modifier = -0.005
+        }
+        movement_restricted = {
+            technology_cost = 19000
+            civilization_progress_modifier = 0.20
+			tariff_efficiency_modifier = 0.25
+
+            on_execute = {
+                effect = {
+
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 3
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 2
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    courtly_ritual = {
+        ad_hoc_assembly = {
+                core_pop_militancy_modifier = -0.005
+        }
+
+        royal_audiences = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 2
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    municipal_law = {
+        no_legal_status = {
+            core_pop_militancy_modifier = -0.005
+        }
+        town_charters = {
+            technology_cost = 12000
+            civilization_progress_modifier = 0.15
+
+            on_execute = {
+                effect = {
+                    any_pop = {
+                        scaled_militancy = {
+                            ideology = liberationist
+                            factor = 2
+                        }
+                        scaled_militancy = {
+                            ideology = conservative
+                            factor = 1
+                        }
+                        scaled_militancy = {
+                            ideology = reactionary
+                            factor = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+####### VANILLA ######
+
 	foreign_training = {
 		
 		no_foreign_training = {

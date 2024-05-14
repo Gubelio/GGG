@@ -1,6 +1,106 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_politics_municipal_law"
+		texturefile = "gfx\\interface\\politics_municipal_law.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_courtly_ritual"
+		texturefile = "gfx\\interface\\politics_courtly_ritual.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_freedom_of_movement"
+		texturefile = "gfx\\interface\\politics_freedom_of_movement.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_census_law"
+		texturefile = "gfx\\interface\\politics_census_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_army_structure"
+		texturefile = "gfx\\interface\\politics_army_structure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_military_leadership"
+		texturefile = "gfx\\interface\\politics_military_leadership.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_property_law"
+		texturefile = "gfx\\interface\\politics_property_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_regional_government"
+		texturefile = "gfx\\interface\\politics_regional_government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_legal_system"
+		texturefile = "gfx\\interface\\politics_legal_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_fiscal_institutions"
+		texturefile = "gfx\\interface\\politics_fiscal_institutions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_manufacturing_law"
+		texturefile = "gfx\\interface\\politics_manufacturing_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_financial_instruments"
+		texturefile = "gfx\\interface\\politics_financial_instruments.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_trade_practices"
+		texturefile = "gfx\\interface\\politics_trade_practices.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_market_reforms"
+		texturefile = "gfx\\interface\\politics_market_reforms.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_tax_collection"
+		texturefile = "gfx\\interface\\politics_tax_collection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_currency_law"
+		texturefile = "gfx\\interface\\politics_currency_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_education_law"
+		texturefile = "gfx\\interface\\politics_education_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_record_keeping"
+		texturefile = "gfx\\interface\\politics_record_keeping.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_metallurgy_law"
+		texturefile = "gfx\\interface\\politics_metallurgy_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_politics_agricultural_methods"
+		texturefile = "gfx\\interface\\politics_agricultural_methods.dds"
+	}
+
+	spriteType = {
 		name = "GFX_politics_citizens_rights"
 		texturefile = "gfx\\interface\\politics_citizens_rights.dds"
 	}
@@ -30,12 +130,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_border_policy.dds"
 	}
 	
-
-spriteType = {
+	spriteType = {
 		name = "GFX_politics_administrative_reform"
 		texturefile = "gfx\\interface\\politics_administrative_reform.dds"
 	}
-	
 	
 	spriteType = {
 		name = "GFX_politics_legislative_system"
@@ -47,7 +145,7 @@ spriteType = {
 		texturefile = "gfx\\interface\\politics_emigration_law.dds"
 	}
 	
-spriteType = {
+	spriteType = {
 		name = "GFX_politics_clerical_law"
 		texturefile = "gfx\\interface\\politics_clerical_law.dds"
 	}
@@ -67,7 +165,7 @@ spriteType = {
 		texturefile = "gfx\\interface\\politics_public_order.dds"
 	}
 
-spriteType = {
+	spriteType = {
 		name = "GFX_politics_workers_protections"
 		texturefile = "gfx\\interface\\politics_workers_protections.dds"
 	}
@@ -77,8 +175,7 @@ spriteType = {
 		texturefile = "gfx\\interface\\politics_scriptural_law.dds"
 	}
 
-
-spriteType = {
+	spriteType = {
 		name = "GFX_politics_social_privileges"
 		texturefile = "gfx\\interface\\politics_social_privileges.dds"
 	}

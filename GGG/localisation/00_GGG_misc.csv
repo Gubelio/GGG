@@ -181,53 +181,8 @@ paternalistic_council;Paternalistic Council;;;;;;;;;;;;;x
 ishahfazh;Ishahfazh;;;;;;;;;;;;;x
 kovazh;Kovazh;;;;;;;;;;;;;x
 bafozh;Bafozh;;;;;;;;;;;;;x
-military_reforms;Political Reforms;;;;;;;;;;;;;x
-fiscal_institutions;Fiscal Institutions;;;;;;;;;;;;;x
-sovereign_proprietry;Sovereign Proprietry;;;;;;;;;;;;;x
-royal_exchequer;Royal Exchequer;;;;;;;;;;;;;x
-regional_government;Regional Government;;;;;;;;;;;;;x
-local_estates;Local Estates;;;;;;;;;;;;;x
-intendants_system;Intendants System;;;;;;;;;;;;;x
-legal_system;Legal System;;;;;;;;;;;;;x
-customary_law;Customary Law;;;;;;;;;;;;;x
-sitting_courts;Sitting Courts;;;;;;;;;;;;;x
-military_leadership;Military Leadership;;;;;;;;;;;;;x
-private_command;Private Command;;;;;;;;;;;;;x
-officer_class;Officer Class;;;;;;;;;;;;;x
-army_structure;Army Structure;;;;;;;;;;;;;x
-war_parties;War Parties;;;;;;;;;;;;;x
-standing_army;Standing Army;;;;;;;;;;;;;x
-courtly_ritual;Courtly Ritual;;;;;;;;;;;;;x
-ad_hoc_assembly;Ad-Hoc Assembly;;;;;;;;;;;;;x
-royal_audiences;Royal Audiences;;;;;;;;;;;;;x
-municipal_law;Municipal Law;;;;;;;;;;;;;x
-no_legal_status;No Legal Status;;;;;;;;;;;;;x
-town_charters;Town Charters;;;;;;;;;;;;;x
-census_laws;Census Laws;;;;;;;;;;;;;x
-no_census;No Census;;;;;;;;;;;;;x
-irregular_census;Irregular Census;;;;;;;;;;;;;x
-freedom_of_movement;Freedom of Movement;;;;;;;;;;;;;x
-unfettered_movement;Unfettered Movement;;;;;;;;;;;;;x
-movement_restricted;Movement Restricted;;;;;;;;;;;;;x
-property_law;Property Law;;;;;;;;;;;;;x
-ad_hoc_property_laws;Ad-Hoc Property Laws;;;;;;;;;;;;;x
-writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
-radical_liberationist;Radical Liberationist;;;;;;;;;;;;;x
-liberationist;Liberationist;;;;;;;;;;;;;x
-statist;Statist;;;;;;;;;;;;;x
-absolutist;Absolutist;;;;;;;;;;;;;x
-theocractist;Theocractist;;;;;;;;;;;;;x
-agricultural_methods;x;;;;;;;;;;;;;x
-ad_hoc_farming;x;;;;;;;;;;;;;x
-crop_rotation;x;;;;;;;;;;;;;x
-metallurgy;x;;;;;;;;;;;;;x
-bog_iron_harvesting;x;;;;;;;;;;;;;x
-village_smithies;x;;;;;;;;;;;;;x
-finance_reform;x;;;;;;;;;;;;;x
-no_finance_reform;x;;;;;;;;;;;;;x
-yes_finance_reform;x;;;;;;;;;;;;;x
-terrain_marsh;Swamp;;;;;;;;;;;;;x
 marsh;Swamp;;;;;;;;;;;;;x
+terrain_marsh;Swamp;;;;;;;;;;;;;x
 savanna;Savanna;;;;;;;;;;;;;x
 savanna_woodland;Savanna Woodland;;;;;;;;;;;;;x
 plateau_mountains;Plateau Mountains;;;;;;;;;;;;;x
@@ -347,28 +302,74 @@ bogurg;Bogurg;;;;;;;;;;;;;x
 coebeju;Coebeju;;;;;;;;;;;;;x
 bofungi;Bofungi;;;;;;;;;;;;;x
 unaian;Unaian;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+radical_liberationist;Radical Liberationist;;;;;;;;;;;;;x
+liberationist;Liberationist;;;;;;;;;;;;;x
+statist;Statist;;;;;;;;;;;;;x
+absolutist;Absolutist;;;;;;;;;;;;;x
+theocractist;Theocractist;;;;;;;;;;;;;x
+POLITICS_MILITARY_REFORMS;Political Reforms;;;;;;;;;;;;;x
+fiscal_institutions;Fiscal Institutions;;;;;;;;;;;;;x
+sovereign_proprietry;Sovereign Proprietry;;;;;;;;;;;;;x
+royal_exchequer;Royal Exchequer;;;;;;;;;;;;;x
+regional_government;Regional Government;;;;;;;;;;;;;x
+local_estates;Local Estates;;;;;;;;;;;;;x
+intendants_system;Intendants System;;;;;;;;;;;;;x
+legal_system;Legal System;;;;;;;;;;;;;x
+customary_law;Customary Law;;;;;;;;;;;;;x
+sitting_courts;Sitting Courts;;;;;;;;;;;;;x
+military_leadership;Military Leadership;;;;;;;;;;;;;x
+private_command;Private Command;;;;;;;;;;;;;x
+officer_class;Officer Class;;;;;;;;;;;;;x
+army_structure;Army Structure;;;;;;;;;;;;;x
+war_parties;War Parties;;;;;;;;;;;;;x
+standing_army;Standing Army;;;;;;;;;;;;;x
+courtly_ritual;Courtly Ritual;;;;;;;;;;;;;x
+ad_hoc_assembly;Ad-Hoc Assembly;;;;;;;;;;;;;x
+royal_audiences;Royal Audiences;;;;;;;;;;;;;x
+municipal_law;Municipal Law;;;;;;;;;;;;;x
+no_legal_status;No Legal Status;;;;;;;;;;;;;x
+town_charters;Town Charters;;;;;;;;;;;;;x
+census_law;Census;;;;;;;;;;;;;x
+no_census;No Census;;;;;;;;;;;;;x
+irregular_census;Irregular Census;;;;;;;;;;;;;x
+freedom_of_movement;Freedom of Movement;;;;;;;;;;;;;x
+unfettered_movement;Unfettered Movement;;;;;;;;;;;;;x
+movement_restricted;Movement Restricted;;;;;;;;;;;;;x
+property_law;Property Law;;;;;;;;;;;;;x
+ad_hoc_property_laws;Ad-Hoc Property Laws;;;;;;;;;;;;;x
+writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
+agricultural_methods;Agricultural Methods;;;;;;;;;;;;;x
+ad_hoc_farming;Ad-Hoc Farming;;;;;;;;;;;;;x
+crop_rotation;Crop Rotation;;;;;;;;;;;;;x
+metallurgy_law;Metallurgy;;;;;;;;;;;;;x
+bog_iron_harvesting;Bog Iron Harvesting;;;;;;;;;;;;;x
+village_smithies;Village Smithies;;;;;;;;;;;;;x
+record_keeping;Record-Keeping;;;;;;;;;;;;;x
+chroniclers;Chroniclers;;;;;;;;;;;;;x
+rudimentary_records;Rudimentary Records;;;;;;;;;;;;;x
+education_law;Education;;;;;;;;;;;;;x
+inherited_wisdom;Inherited Wisdom;;;;;;;;;;;;;x #Elder's Promise
+clerical_education;Clerical Education;;;;;;;;;;;;;x
+currency_law;Currency;;;;;;;;;;;;;x
+barter_system;Barter System;;;;;;;;;;;;;x
+unregulated_bullion;Unregulated Bullion;;;;;;;;;;;;;x
+minting_n_coinage;Minting & Coinage;;;;;;;;;;;;;x
+tax_collection;Tax Collection;;;;;;;;;;;;;x
+tribute_tax;Tribute Tax;;;;;;;;;;;;;x
+land_tax;Land Tax;;;;;;;;;;;;;x
+tax_farming;Tax Farming;;;;;;;;;;;;;x
+market_reforms;Market Reforms;;;;;;;;;;;;;x
+parochial_exchange;Parochial Exchange;;;;;;;;;;;;;x
+regional_markets;Regional Markets;;;;;;;;;;;;;x
+trade_practices;Trade Practices;;;;;;;;;;;;;x
+irregular_trade;Irregular Trade;;;;;;;;;;;;;x
+merchant_contracts;Merchant Contracts;;;;;;;;;;;;;x
+financial_instruments;Financial Instruments;;;;;;;;;;;;;x
+usury_banned;Usury Banned;;;;;;;;;;;;;x
+tokens_of_exchange;Tokens of Exchange;;;;;;;;;;;;;x
+manufacturing_law;Manufacturing;;;;;;;;;;;;;x
+ad_hoc_fabrication;Ad-Hoc Fabrication;;;;;;;;;;;;;x
+artisan_guilds;Artisan Guilds;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
