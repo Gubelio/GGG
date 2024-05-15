@@ -602,7 +602,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_citizens_rights"
 				 spriteType = "GFX_politics_citizens_rights"
-				 position = { x= 6 y = 7 }
+				 position = { x= 6 y = 6 } #y7
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -689,13 +689,13 @@ guiTypes = {
 				iconType = {
 				 name = "politics_banking_system"
 				 spriteType = "GFX_politics_banking_system"
-				 position = { x= 6 y = 7 }
+				 position = { x= 6 y = 13 } #y7
 				 Orientation = "UPPER_LEFT"
 			 }
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 39 y = 15 }
+					position = { x = 36 y = 15 } #x39
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -786,7 +786,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 39 y = 15 }
+					position = { x = 35 y = 15 } #x39
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -810,7 +810,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_administrative_reform"
 				 spriteType = "GFX_politics_administrative_reform"
-				 position = { x= 6 y = 8 }
+				 position = { x= 6 y = 9 } #y8
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -896,10 +896,10 @@ guiTypes = {
 			verticalBorder = ""
 			fullScreen = no
 			
-				iconType = {
+			iconType = {
 			 name = "politics_clerical_law"
 			 spriteType = "GFX_politics_clerical_law"
-			 position = { x= 7 y = 6 }
+			 position = { x= 9 y = 10 } #y6
 			 Orientation = "UPPER_LEFT"
 		 }
 			
@@ -1040,17 +1040,17 @@ guiTypes = {
 				iconType = {
 				 name = "politics_workers_protections"
 				 spriteType = "GFX_politics_workers_protections"
-				 position = { x = 6 y = 8 }
+				 position = { x = 2 y = 8 } #x6
 				 Orientation = "UPPER_LEFT"
 			 }
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 35 y = 15 }
+					position = { x = 24 y = 15 } #x35 
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 120
-					maxHeight = 20	
+					maxHeight = 20
 				}
 			}
 			
@@ -1124,10 +1124,10 @@ guiTypes = {
 				verticalBorder = ""
 				fullScreen = no
 				
-					iconType = {
+				iconType = {
 				 name = "politics_welfare_laws"
 				 spriteType = "GFX_politics_welfare_laws"
-				 position = { x = 6 y = 7 }
+				 position = { x = 6 y = 9 } #y7
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -1318,10 +1318,10 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 4 }
+					position = { x = 34 y = -1 } #y4
 					font = "vic_18"
 					text = "REFORM_NAME"	
-					maxWidth = 149
+					maxWidth = 100 #149
 					maxHeight = 29	
 				}
 
@@ -1347,7 +1347,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 1 }
+					position = { x = 34 y = 4 } #y1
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1431,7 +1431,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 15 }
+					position = { x = 37 y = 15 } #x34
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 149
@@ -1453,7 +1453,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_tax_collection"
 				 spriteType = "GFX_politics_tax_collection"
-				 position = { x= 1 y = 12 }
+				 position = { x= 1 y = 11 } #y12
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -1571,7 +1571,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 1 }
+					position = { x = 34 y = 4 } #y1
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1579,9 +1579,9 @@ guiTypes = {
 				}
 			}
 			
-			########################
-			### military
-			########################
+			###############################
+			### military ### POLITICAL ####
+			###############################
 
 			windowType = {
 				name = "fiscal_institutions"
@@ -1625,13 +1625,13 @@ guiTypes = {
 				iconType = {
 				 name = "politics_legal_system"
 				 spriteType = "GFX_politics_legal_system"
-				 position = { x= 5 y = 6 }
+				 position = { x= 1 y = -2 } #x5 y6
 				 Orientation = "UPPER_LEFT"
 			 }
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 1 }
+					position = { x = 34 y = 4 } #y1
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1659,7 +1659,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 4 }
+					position = { x = 34 y = -1 } #y4
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1715,7 +1715,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 4 }
+					position = { x = 34 y = -1 } #y4
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1771,7 +1771,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 1 }
+					position = { x = 34 y = 4 } #y1
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1799,7 +1799,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 4 }
+					position = { x = 34 y = -1 } #y4
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -1821,13 +1821,13 @@ guiTypes = {
 				iconType = {
 				 name = "politics_courtly_ritual"
 				 spriteType = "GFX_politics_courtly_ritual"
-				 position = { x= 1 y = -2 }
+				 position = { x= 1 y = -2 } 
 				 Orientation = "UPPER_LEFT"
 			 }
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 34 y = 4 }
+					position = { x = 36 y = 4 } #x34 y4
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100

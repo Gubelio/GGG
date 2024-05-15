@@ -40,7 +40,7 @@ thralldom_allowed;Allowed;;;;;;;;;;;;;x
 thralldom_allowed_desc;The pratice of keeping thralls is permitted.;;;;;;;;;;;;;x
 thralldom_outlawed;Outlawed;;;;;;;;;;;;;x
 thralldom_outlawed_desc;The pratice of keeping thralls is outlawed.;;;;;;;;;;;;;x
-administrative_reform;Administrative Reform;;;;;;;;;;;;;x
+administrative_reform;Administration;;;;;;;;;;;;;x #Administrative Reform
 hereditary_bureaucracy;Hereditary Bureaucracy;;;;;;;;;;;;;x
 hereditary_bureaucracy_desc;Civil office is inherited.;;;;;;;;;;;;;x
 nepotistic_bureaucracy;Nepotistic Bureaucracy;;;;;;;;;;;;;x
@@ -49,7 +49,7 @@ appointed_bureaucrats;Appointed Bureaucrats;;;;;;;;;;;;;x
 appointed_bureaucrats_desc;Bureaucrats are appointed by the government.;;;;;;;;;;;;;x
 professional_bureaucracy;Professional Bureaucracy;;;;;;;;;;;;;x
 professional_bureaucracy_desc;The civil service is meritocratic and outcomes oriented.;;;;;;;;;;;;;x
-legislative_system;Legislative System;;;;;;;;;;;;;x
+legislative_system;Legislation;;;;;;;;;;;;;x #Legislative System
 tribal_assembly;Tribal Assembly;;;;;;;;;;;;;x
 tribal_assembly_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
 noble_parliament;Noble Parliament;;;;;;;;;;;;;x
