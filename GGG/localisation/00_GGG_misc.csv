@@ -201,17 +201,17 @@ sevuma;Sevuma;;;;;;;;;;;;;x
 vupuyti;Vupuyti;;;;;;;;;;;;;x
 paguyti;Paguyti;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_NORTH_AMERICA;Ishahfazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List ßYIshahfazhißW countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List Âç≥IshahfazhiÂä¨ countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_OCEANIA;Paukzhodo;;;;;;;;;;;;;
-DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List ßYPaukzhodißW countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List Âç≥PaukzhodiÂä¨ countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_EUROPE;Bafozh;;;;;;;;;;;;;x
-DIPLOMACY_FILTER_EUROPE_TOOLTIP;List ßYBafozhißW countries;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_EUROPE_TOOLTIP;List Âç≥BafozhiÂä¨ countries;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_SOUTH_AMERICA;Kovazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List ßYKovazhißW countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List Âç≥KovazhiÂä¨ countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_ASIA;Gofakidzia;;;;;;;;;;;;;
-DIPLOMACY_FILTER_ASIA_TOOLTIP;List ßYGofakidzißW countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA_TOOLTIP;List Âç≥GofakidziÂä¨ countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_AFRICA;Shobgizob;;;;;;;;;;;;;
-DIPLOMACY_FILTER_AFRICA_TOOLTIP;List ßYShobgizobißW countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA_TOOLTIP;List Âç≥ShobgizobiÂä¨ countries;;;;;;;;;;;;;
 south_america;Kovazh;;;;;;;;;;;;;x
 north_america;Ishahfazh;;;;;;;;;;;;;x
 asia;Gofakidzia;;;;;;;;;;;;;x
@@ -311,34 +311,54 @@ theocractist;Theocractist;;;;;;;;;;;;;x
 POLITICS_MILITARY_REFORMS;Political Reforms;;;;;;;;;;;;;x
 fiscal_institutions;Fiscal Institutions;;;;;;;;;;;;;x
 sovereign_proprietry;Sovereign Proprietry;;;;;;;;;;;;;x
+sovereign_proprietry_desc;The trearusy is an extension of the household of the soveriegn.;;;;;;;;;;;;;x
 royal_exchequer;Royal Exchequer;;;;;;;;;;;;;x
+royal_exchequer_desc;The royal exchequer is a seperate department in the government.;;;;;;;;;;;;;x
 regional_government;Regional Government;;;;;;;;;;;;;x
 local_estates;Local Estates;;;;;;;;;;;;;x
+local_estates_desc;Much of local governance is left to local estates with quasi-soviergn rights.;;;;;;;;;;;;;x
 intendants_system;Intendants System;;;;;;;;;;;;;x
+intendants_system_desc;The power of local elites are abridged by supervisiory intendants.;;;;;;;;;;;;;x
 legal_system;Legal System;;;;;;;;;;;;;x
 customary_law;Customary Law;;;;;;;;;;;;;x
+customary_law_desc;Most law remains customary and uncodified, enforced by social pressures and ad hoc relations.;;;;;;;;;;;;;x
 sitting_courts;Sitting Courts;;;;;;;;;;;;;x
+sitting_courts_desc;The government now maintains sitting courts for the maintinence of the law.;;;;;;;;;;;;;x
 military_leadership;Military Leadership;;;;;;;;;;;;;x
 private_command;Private Command;;;;;;;;;;;;;x
+private_command_desc;Most military leaders maintain a private and personal relationship with their soldiers, beyond state conrtol.;;;;;;;;;;;;;x
 officer_class;Officer Class;;;;;;;;;;;;;x
+officer_class_desc;There is a professional officer class with a culture of responsibility for the purposes of directing soldiers.;;;;;;;;;;;;;x
 army_structure;Army Structure;;;;;;;;;;;;;x
 war_parties;War Parties;;;;;;;;;;;;;x
+war_parties_desc;Most organised armies are ad hoc war parties or mercanary bands organised for the sake of a campaign.;;;;;;;;;;;;;x
 standing_army;Standing Army;;;;;;;;;;;;;x
+standing_army_desc;The state pays for the maintinence of a regular standing army for defense and offense.;;;;;;;;;;;;;x
 courtly_ritual;Courtly Ritual;;;;;;;;;;;;;x
 ad_hoc_assembly;Ad-Hoc Assembly;;;;;;;;;;;;;x
+ad_hoc_assembly_desc;The royal court only assembles on ex tempore occasions.;;;;;;;;;;;;;x
 royal_audiences;Royal Audiences;;;;;;;;;;;;;x
+royal_audiences_desc;The government maintains regular royal audiences for the purposes of governance.;;;;;;;;;;;;;x
 municipal_law;Municipal Law;;;;;;;;;;;;;x
 no_legal_status;No Legal Status;;;;;;;;;;;;;x
+no_legal_status_desc;Towns and cities have no privlieged legal status.;;;;;;;;;;;;;x
 town_charters;Town Charters;;;;;;;;;;;;;x
+town_charters_desc;Towns and cities have been granted special legal protections.;;;;;;;;;;;;;x
 census_law;Census;;;;;;;;;;;;;x
 no_census;No Census;;;;;;;;;;;;;x
+no_census_desc;There is no census carried out by the state.;;;;;;;;;;;;;x
 irregular_census;Irregular Census;;;;;;;;;;;;;x
+irregular_census_desc;The state has the bureaucratic machinery to carry out an irregular census.;;;;;;;;;;;;;x
 freedom_of_movement;Freedom of Movement;;;;;;;;;;;;;x
 unfettered_movement;Unfettered Movement;;;;;;;;;;;;;x
+unfettered_movement_desc;Subjects and residents are able to move as they will.;;;;;;;;;;;;;x
 movement_restricted;Movement Restricted;;;;;;;;;;;;;x
+movement_restricted_desc;The state has passed numerous laws to restrict movement of subjects and residents.;;;;;;;;;;;;;x
 property_law;Property Law;;;;;;;;;;;;;x
 ad_hoc_property_laws;Ad-Hoc Property Laws;;;;;;;;;;;;;x
+ad_hoc_property_laws_desc;Most property laws are only loosely enforced by regional authorities.;;;;;;;;;;;;;x
 writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
+writs_of_the_state_desc;All property is guaranteed by royal writs.;;;;;;;;;;;;;x
 agricultural_methods;Agricultural Methods;;;;;;;;;;;;;x
 ad_hoc_farming;Ad-Hoc Farming;;;;;;;;;;;;;x
 crop_rotation;Crop Rotation;;;;;;;;;;;;;x
