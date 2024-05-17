@@ -150,6 +150,8 @@ MAJ		= "countries/Majumeft.txt"
 STA		= "countries/Stastrus.txt"
 FIB		= "countries/Fibut.txt"
 
+#BAFOZH
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"
