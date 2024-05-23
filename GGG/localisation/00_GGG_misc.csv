@@ -361,37 +361,64 @@ writs_of_the_state;Writs of the State;;;;;;;;;;;;;x
 writs_of_the_state_desc;All property is guaranteed by royal writs.;;;;;;;;;;;;;x
 agricultural_methods;Agricultural Methods;;;;;;;;;;;;;x
 ad_hoc_farming;Ad-Hoc Farming;;;;;;;;;;;;;x
+ad_hoc_farming_desc;Most farming is done on an ad hoc basis in common fields.;;;;;;;;;;;;;x
 crop_rotation;Crop Rotation;;;;;;;;;;;;;x
+crop_rotation;The principles of crop rotation and fallowing are widely understood and socially enforced.;;;;;;;;;;;;;x
 metallurgy_law;Metallurgy;;;;;;;;;;;;;x
 bog_iron_harvesting;Bog Iron Harvesting;;;;;;;;;;;;;x
+bog_iron_harvesting_desc;Most iron sources are irregular and shallow, such as bog iron harvesting or surface quarries.;;;;;;;;;;;;;x
 village_smithies;Village Smithies;;;;;;;;;;;;;x
+village_smithies_desc;Metallurgical pratices are widely understood and iron is very accessable, such that even small villages maintain smithies.;;;;;;;;;;;;;x
 record_keeping;Record-Keeping;;;;;;;;;;;;;x
 chroniclers;Chroniclers;;;;;;;;;;;;;x
+chroniclers_desc;Much record keeping is done by monastic and idiosyncratic chroniclers.;;;;;;;;;;;;;x
 rudimentary_records;Rudimentary Records;;;;;;;;;;;;;x
+rudimentary_records_desc;The state maintains a rudimentary records office with professional scribes.;;;;;;;;;;;;;x
 education_law;Education;;;;;;;;;;;;;x
 inherited_wisdom;Inherited Wisdom;;;;;;;;;;;;;x #Elder's Promise
+inherited_wisdom_desc;Much education is done by elders and parochial authorities;;;;;;;;;;;;;x #Elder's Promise
 clerical_education;Clerical Education;;;;;;;;;;;;;x
+clerical_education_desc;Standardised cirricula organised by clerical instituions serves to perserve much knowledge and train effective civil servants.;;;;;;;;;;;;;x
 currency_law;Currency;;;;;;;;;;;;;x
 barter_system;Barter System;;;;;;;;;;;;;x
+barter_system_desc;Most local and long distance trade is done by means of clumsy barter.;;;;;;;;;;;;;x
 unregulated_bullion;Unregulated Bullion;;;;;;;;;;;;;x
+unregulated_bullion_desc;Trade is facilitated by the near ubiquitous use of bullion and specie.;;;;;;;;;;;;;x
 minting_n_coinage;Minting & Coinage;;;;;;;;;;;;;x
+minting_n_coinage;Trade prospers due to state issued metallic coins.;;;;;;;;;;;;;x
 tax_collection;Tax Collection;;;;;;;;;;;;;x
 tribute_tax;Tribute Tax;;;;;;;;;;;;;x
+tribute_tax_desc;Most taxes are tributary and head taxes in nature.;;;;;;;;;;;;;x
 land_tax;Land Tax;;;;;;;;;;;;;x
+land_tax_desc;Graduated land taxes faciliate access to more regular incomes and tap into the wealth of the landed elites.;;;;;;;;;;;;;x
 tax_farming;Tax Farming;;;;;;;;;;;;;x
+tax_farming_desc;The pratice of tax farming, quasi-private offices of collection, ensures the state a regular and flexible supply of income.;;;;;;;;;;;;;x
 market_reforms;Market Reforms;;;;;;;;;;;;;x
 parochial_exchange;Parochial Exchange;;;;;;;;;;;;;x
+parochial_exchange_desc;Exchange often occurs only on a parish level.;;;;;;;;;;;;;x
 regional_markets;Regional Markets;;;;;;;;;;;;;x
+regional_markets_desc;Organised regional fares and broader road systems now faciliate trade on an integrated regional scale.;;;;;;;;;;;;;x
 trade_practices;Trade Practices;;;;;;;;;;;;;x
 irregular_trade;Irregular Trade;;;;;;;;;;;;;x
+irregular_trade_desc;Trade is done usually in irregular ways and with no set practices.;;;;;;;;;;;;;x
 merchant_contracts;Merchant Contracts;;;;;;;;;;;;;x
+merchant_contracts_desc;Regular contractual arrangements, embedded in the legal system, ensure mercantile confidence and stimulate oppertunity.;;;;;;;;;;;;;x
 financial_instruments;Financial Instruments;;;;;;;;;;;;;x
 usury_banned;Usury Banned;;;;;;;;;;;;;x
+usury_banned_desc;A wide relgious and philosophical aversion to the multiplication of value has led to restrictions on usury and other instruments of credit.;;;;;;;;;;;;;x
 tokens_of_exchange;Tokens of Exchange;;;;;;;;;;;;;x
+tokens_of_exchange_desc;Bills, credit, loans, and other financial implements are increasingly avaliable and prolific in the financial and mercantile communities.;;;;;;;;;;;;;x
 manufacturing_law;Manufacturing;;;;;;;;;;;;;x
 ad_hoc_fabrication;Ad-Hoc Fabrication;;;;;;;;;;;;;x
+ad_hoc_fabrication_desc;Most fabrication is done on a pratical or cottage basis, or by regional masters.;;;;;;;;;;;;;x
 artisan_guilds;Artisan Guilds;;;;;;;;;;;;;x
-POLITICS_CIVILIZE;Civilize;;;;;;;;;;;;;x
+artisan_guilds_desc;Sophisticated guild regulations help manage a quality of output and a quantity of supply, stabalizing and thickening markets.;;;;;;;;;;;;;x
+POLITICS_CIVILIZE;Modernize;;;;;;;;;;;;;x
+liberationist_uh;Liberationists want to pass social reforms, but will pass political reforms under pressure.;;;;;;;;;;;;;x
+radical_liberationist_uh;Radical liberationists want to pass social reforms and repeal political reforms when they are in power.;;;;;;;;;;;;;x
+statist_uh;Statists want to pass political reforms, but will pass social reforms under pressure.;;;;;;;;;;;;;x
+absolutist_uh;Absolutists want to pass political reforms when they are in power.;;;;;;;;;;;;;x
+theocratist_uh;Theocratists will only participate politically if they are in power, and in that case they will tow the party line.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
