@@ -18430,43 +18430,43 @@ thralls = {
 
 
 	serfs = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 1551
 	}
 
 	officers = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 4
 	}
 
 	slaves = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 886
 	}
 
 	farmers = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 1374
 	}
 
 	soldiers = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 39
 	}
 
 	artisans = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 531
 	}
 
 	clergymen = {
-		culture = nordftemioq
+		culture = jigubi
 		religion = rechktist
 		size = 44
 	}
@@ -18488,7 +18488,7 @@ thralls = {
 		religion = vewugi
 		size = 684
 	}
-	
+
 		slaves = {
 	    culture = aucubhur
 		 religion = momurist
@@ -18573,6 +18573,1078 @@ thralls = {
 		 culture = aucubhur
 		 religion = momurist
 		 size = 706
+	}
+
+}
+
+1154 = {
+
+
+
+	officers = {
+		culture = biori
+		religion = rechktist
+		size = 23
+	}
+
+	slaves = {
+		culture = biori
+		religion = rechktist
+		size = 4668
+	}
+
+	farmers = {
+		culture = biori
+		religion = rechktist
+		size = 15407
+	}
+
+	soldiers = {
+		culture = biori
+		religion = rechktist
+		size = 210
+	}
+
+	artisans = {
+		culture = biori
+		religion = rechktist
+		size = 2801
+	}
+
+	clergymen = {
+		culture = biori
+		religion = rechktist
+		size = 233
+	}
+
+	serfs = {
+		culture = jigubi
+		religion = rechktist
+		size = 10011
+	}
+
+	officers = {
+		culture = jigubi
+		religion = rechktist
+		size = 28
+	}
+
+	slaves = {
+		culture = jigubi
+		religion = rechktist
+		size = 5720
+	}
+
+	farmers = {
+		culture = jigubi
+		religion = rechktist
+		size = 8866
+	}
+
+	soldiers = {
+		culture = jigubi
+		religion = rechktist
+		size = 257
+	}
+
+	artisans = {
+		culture = jigubi
+		religion = rechktist
+		size = 3432
+	}
+
+	clergymen = {
+		culture = jigubi
+		religion = rechktist
+		size = 286
+	}
+
+	serfs = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 4302
+	}
+
+	officers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 12
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 5408
+	}
+
+	soldiers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 98
+	}
+
+	artisans = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 1843
+	}
+
+	clergymen = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 122
+	}
+
+	bureaucrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 12
+	}
+
+	aristocrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 491
+	}
+
+	clergymen = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 207
+	}
+
+
+	soldiers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 15
+	}
+
+
+	farmers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 883
+	}
+
+
+	officers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 606
+	}
+
+}
+
+1155 = {
+
+
+
+	serfs = {
+		culture = coebeju
+		religion = vewugi
+		size = 606
+	}
+
+	officers = {
+		culture = coebeju
+		religion = vewugi
+		size = 1
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = vewugi
+		size = 987
+	}
+
+	soldiers = {
+		culture = coebeju
+		religion = vewugi
+		size = 15
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = vewugi
+		size = 103
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = vewugi
+		size = 17
+	}
+
+	serfs = {
+		culture = coebeju
+		religion = green
+		size = 3431
+	}
+
+	officers = {
+		culture = coebeju
+		religion = green
+		size = 9
+	}
+
+	slaves = {
+		culture = coebeju
+		religion = green
+		size = 1960
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = green
+		size = 3038
+	}
+
+	soldiers = {
+		culture = coebeju
+		religion = green
+		size = 88
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = green
+		size = 1176
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = green
+		size = 98
+	}
+
+	serfs = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 20312
+	}
+
+	officers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 58
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 25536
+	}
+
+	soldiers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 464
+	}
+
+	artisans = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 3705
+	}
+
+	clergymen = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 580
+	}
+
+	bureaucrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 58
+	}
+
+	aristocrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 2321
+	}
+
+	serfs = {
+		culture = chobajhi
+		religion = vewugi
+		size = 256
+	}
+
+	officers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 373
+	}
+
+
+	soldiers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 6
+	}
+
+	artisans = {
+		culture = chobajhi
+		religion = vewugi
+		size = 87
+	}
+
+	clergymen = {
+		culture = bchobajhi
+		religion = vewugi
+		size = 7
+	}
+
+	clergymen = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 199
+	}
+
+
+	soldiers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 29
+	}
+
+
+	farmers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 1899
+	}
+
+
+	officers = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 3
+	}
+
+
+	serfs = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 1166
+	}
+
+}
+
+1156 = {
+
+
+
+	serfs = {
+		culture = coebeju
+		religion = vewugi
+		size = 100
+	}
+
+	officers = {
+		culture = coebeju
+		religion = vewugi
+		size = 0
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = vewugi
+		size = 207
+	}
+
+	soldiers = {
+		culture = coebeju
+		religion = vewugi
+		size = 3
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = vewugi
+		size = 20
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = vewugi
+		size = 3
+	}
+
+	serfs = {
+		culture = coebeju
+		religion = green
+		size = 1170
+	}
+
+	officers = {
+		culture = coebeju
+		religion = green
+		size = 3
+	}
+
+	slaves = {
+		culture = coebeju
+		religion = green
+		size = 668
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = green
+		size = 1237
+	}
+
+	soldiers = {
+		culture = coebeju
+		religion = green
+		size = 30
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = green
+		size = 200
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = green
+		size = 33
+	}
+
+	serfs = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 13455
+	}
+
+	officers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 38
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 20759
+	}
+
+	soldiers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 307
+	}
+
+	artisans = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 1922
+	}
+
+	clergymen = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 384
+	}
+
+	bureaucrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 38
+	}
+
+	aristocrats = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 1537
+	}
+
+	clergymen = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 144
+	}
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	soldiers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 129
+	}
+
+
+	farmers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 8810
+	}
+
+
+	officers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 14
+	}
+
+
+	serfs = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 3610
+	}
+
+}
+
+1157 = {
+
+
+
+	serfs = {
+		culture = aucubhur
+		religion = momurist
+		size = 19380
+	}
+
+	officers = {
+		culture = aucubhur
+		religion = momurist
+		size = 55
+	}
+
+	farmers = {
+		culture = aucubhur
+		religion = momurist
+		size = 29901
+	}
+
+	soldiers = {
+		culture = aucubhur
+		religion = momurist
+		size = 442
+	}
+
+	artisans = {
+		culture = aucubhur
+		religion = momurist
+		size = 2768
+	}
+
+	clergymen = {
+		culture = aucubhur
+		religion = momurist
+		size = 553
+	}
+
+	bureaucrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 55
+	}
+
+	aristocrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 2214
+	}
+
+	clergymen = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 288
+	}
+
+
+	artisans = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 1730
+	}
+
+
+	soldiers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 259
+	}
+
+
+	farmers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 17883
+	}
+
+
+	officers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 28
+	}
+
+
+	serfs = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 8653
+	}
+
+}
+
+1158 = {
+
+
+
+	serfs = {
+		culture = aucbocharr
+		religion = momurist
+		size = 8941
+	}
+
+	officers = {
+		culture = aucbocharr
+		religion = momurist
+		size = 25
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = momurist
+		size = 13795
+	}
+
+	soldiers = {
+		culture = aucbocharr
+		religion = momurist
+		size = 204
+	}
+
+	artisans = {
+		culture = aucbocharr
+		religion = momurist
+		size = 1277
+	}
+
+	clergymen = {
+		culture = aucbocharr
+		religion = momurist
+		size = 255
+	}
+
+	bureaucrats = {
+		culture = aucbocharr
+		religion = momurist
+		size = 25
+	}
+
+	aristocrats = {
+		culture = aucbocharr
+		religion = momurist
+		size = 1021
+	}
+
+	serfs = {
+		culture = aucubhur
+		religion = momurist
+		size = 7859
+	}
+
+	officers = {
+		culture = aucubhur
+		religion = momurist
+		size = 22
+	}
+
+	farmers = {
+		culture = aucubhur
+		religion = momurist
+		size = 12125
+	}
+
+	soldiers = {
+		culture = aucubhur
+		religion = momurist
+		size = 179
+	}
+
+	artisans = {
+		culture = aucubhur
+		religion = momurist
+		size = 1122
+	}
+
+	clergymen = {
+		culture = aucubhur
+		religion = momurist
+		size = 224
+	}
+
+	bureaucrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 22
+	}
+
+	aristocrats = {
+		culture = aucubhur
+		religion = momurist
+		size = 898
+	}
+
+	clergymen = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 135
+	}
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = momurist
+		 size = 813
+	}
+
+
+	soldiers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 122
+	}
+
+
+	farmers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 8406
+	}
+
+
+	officers = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 13
+	}
+
+
+	serfs = {
+		 culture = bauchir
+		 religion = momurist
+		 size = 4067
+	}
+
+		serfs = {
+		 culture = poussan
+		 religion = green
+		 size = 6546
+	}
+
+}
+
+1159 = {
+
+
+
+	slaves = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 93
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = vewugi
+		size = 129
+	}
+
+	slaves = {
+		culture = aucbocharr
+		religion = green
+		size = 699
+	}
+
+	farmers = {
+		culture = aucbocharr
+		religion = green
+		size = 966
+	}
+
+	aristocrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 1955
+	}
+
+
+	bureaucrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 48
+	}
+
+
+	clergymen = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 488
+	}
+
+
+	artisans = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 2443
+	}
+
+
+	soldiers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 391
+	}
+
+
+	farmers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 26393
+	}
+
+
+	officers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 48
+	}
+
+
+	serfs = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 17106
+	}
+
+}
+
+1160 = {
+
+
+
+	serfs = {
+		culture = poussan
+		religion = green
+		size = 20066
+	}
+
+	slaves = {
+		culture = poussan
+		religion = green
+		size = 8026
+	}
+
+	farmers = {
+		culture = poussan
+		religion = green
+		size = 38794
+	}
+
+	aristocrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 89
+	}
+
+
+	bureaucrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 111
+	}
+
+
+	soldiers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 17
+	}
+
+
+	farmers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 1986
+	}
+
+
+	officers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 2
+	}
+
+}
+
+1161 = {
+
+
+
+	serfs = {
+		culture = chobajhi
+		religion = momurist
+		size = 4999
+	}
+
+	officers = {
+		culture = chobajhi
+		religion = momurist
+		size = 16
+	}
+
+	farmers = {
+		culture = chobajhi
+		religion = momurist
+		size = 10332
+	}
+
+	soldiers = {
+		culture = chobajhi
+		religion = momurist
+		size = 149
+	}
+
+	artisans = {
+		culture = chobajhi
+		religion = momurist
+		size = 999
+	}
+
+	clergymen = {
+		culture = chobajhi
+		religion = momurist
+		size = 166
+	}
+
+	serfs = {
+		culture = poussan
+		religion = green
+		size = 1464
+	}
+
+	slaves = {
+		culture = poussan
+		religion = green
+		size = 585
+	}
+
+	farmers = {
+		culture = poussan
+		religion = green
+		size = 2830
+	}
+
+	aristocrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 1475
+	}
+
+
+	bureaucrats = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 36
+	}
+
+
+	clergymen = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 368
+	}
+
+
+	artisans = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 1844
+	}
+
+
+	soldiers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 295
+	}
+
+
+	farmers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 18444
+	}
+
+
+	officers = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 36
+	}
+
+
+	serfs = {
+		 culture = aucbocharr
+		 religion = momurist
+		 size = 14386
 	}
 
 }

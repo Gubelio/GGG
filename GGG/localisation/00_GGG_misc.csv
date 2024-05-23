@@ -363,7 +363,7 @@ agricultural_methods;Agricultural Methods;;;;;;;;;;;;;x
 ad_hoc_farming;Ad-Hoc Farming;;;;;;;;;;;;;x
 ad_hoc_farming_desc;Most farming is done on an ad hoc basis in common fields.;;;;;;;;;;;;;x
 crop_rotation;Crop Rotation;;;;;;;;;;;;;x
-crop_rotation;The principles of crop rotation and fallowing are widely understood and socially enforced.;;;;;;;;;;;;;x
+crop_rotation_desc;The principles of crop rotation and fallowing are widely understood and socially enforced.;;;;;;;;;;;;;x
 metallurgy_law;Metallurgy;;;;;;;;;;;;;x
 bog_iron_harvesting;Bog Iron Harvesting;;;;;;;;;;;;;x
 bog_iron_harvesting_desc;Most iron sources are irregular and shallow, such as bog iron harvesting or surface quarries.;;;;;;;;;;;;;x
@@ -385,7 +385,7 @@ barter_system_desc;Most local and long distance trade is done by means of clumsy
 unregulated_bullion;Unregulated Bullion;;;;;;;;;;;;;x
 unregulated_bullion_desc;Trade is facilitated by the near ubiquitous use of bullion and specie.;;;;;;;;;;;;;x
 minting_n_coinage;Minting & Coinage;;;;;;;;;;;;;x
-minting_n_coinage;Trade prospers due to state issued metallic coins.;;;;;;;;;;;;;x
+minting_n_coinage_desc;Trade prospers due to state issued metallic coins.;;;;;;;;;;;;;x
 tax_collection;Tax Collection;;;;;;;;;;;;;x
 tribute_tax;Tribute Tax;;;;;;;;;;;;;x
 tribute_tax_desc;Most taxes are tributary and head taxes in nature.;;;;;;;;;;;;;x
