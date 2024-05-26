@@ -27,8 +27,8 @@
 #po_make_puppet
 #po_release_puppet
 #po_status_quo
-#po_install_radical_liberationist_gov_type
-#po_uninstall_radical_liberationist_gov_type
+#po_install_free_yoker_gov_type
+#po_uninstall_free_yoker_gov_type
 #po_remove_cores
 #po_colony
 
@@ -68,8 +68,8 @@ unification_casus_belli
 unification_annex_casus_belli
 rude_boy
 annex
-install_radical_liberationist_gov_cb
-uninstall_radical_liberationist_gov_cb
+install_free_yoker_gov_cb
+uninstall_free_yoker_gov_cb
 great_war_penalty_cb 
 }
 
@@ -1554,8 +1554,8 @@ rude_boy = {
 	}
 }
 
-# Install radical_liberationist Government
-install_radical_liberationist_gov_cb = {
+# Install free_yoker Government
+install_free_yoker_gov_cb = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
@@ -1580,21 +1580,21 @@ install_radical_liberationist_gov_cb = {
 			# If actor is a great power
 			is_greater_power = yes
 			
-			# If actor gov truly radical_liberationist
+			# If actor gov truly free_yoker
 			government = paternalistic_council
 			
-			# If actor ruling party is radical_liberationist
-			ruling_party_ideology = radical_liberationist
+			# If actor ruling party is free_yoker
+			ruling_party_ideology = free_yoker
 		}
 		
 		AND = {
-			# If reciever ruling party is not a radical_liberationist
+			# If reciever ruling party is not a free_yoker
 			#NOT = {
-			#	ruling_party_ideology = radical_liberationist
+			#	ruling_party_ideology = free_yoker
 			#}
 			
-			# There are some amount of radical_liberationist already in the country
-			radical_liberationist = 0.1
+			# There are some amount of free_yoker already in the country
+			free_yoker = 0.1
 				
 			# If reciever current gov is not proletarian_dictatorship
 			NOT = {
@@ -1606,7 +1606,7 @@ install_radical_liberationist_gov_cb = {
 		}
 	}
 	
-	po_install_radical_liberationist_gov_type = yes
+	po_install_free_yoker_gov_type = yes
 
 	war_name = WAR_NAME
 	
@@ -1633,14 +1633,14 @@ install_radical_liberationist_gov_cb = {
 	}
 }
 
-# Revert from radical_liberationist Government
-uninstall_radical_liberationist_gov_cb = {
+# Revert from free_yoker Government
+uninstall_free_yoker_gov_cb = {
 	sprite_index = 13
 	is_triggered_only = yes
 	months = 12
 	crisis = no
 	
-	# Is automatically added to countries that intervened at while install_radical_liberationist_gov_cb
+	# Is automatically added to countries that intervened at while install_free_yoker_gov_cb
 	# so they can revert those countries government.
 	constructing_cb = no
 
@@ -1660,9 +1660,9 @@ uninstall_radical_liberationist_gov_cb = {
 
 	can_use = {
 		THIS = {
-			# If actor ruling party is not radical_liberationist
+			# If actor ruling party is not free_yoker
 			NOT = {
-				ruling_party_ideology = radical_liberationist
+				ruling_party_ideology = free_yoker
 			}
 		}
 		
@@ -1670,7 +1670,7 @@ uninstall_radical_liberationist_gov_cb = {
 		government = paternalistic_council
 	}
 	
-	po_uninstall_radical_liberationist_gov_type = yes
+	po_uninstall_free_yoker_gov_type = yes
 
 	war_name = WAR_NAME
 	

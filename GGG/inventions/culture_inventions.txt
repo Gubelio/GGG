@@ -1387,7 +1387,7 @@ dogma_of_mass_action = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = radical_liberationist_rebels
+			faction = free_yoker_rebels
 			value = 0.25
 		}
 	}
@@ -1405,7 +1405,7 @@ terrorism = {
 			factor = 3
 			OR = {
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = radical_liberationist
+				ruling_party_ideology = free_yoker
 			}
 		}
 		modifier = {
@@ -1435,7 +1435,7 @@ secret_police = {
 			factor = 3
 			OR = {
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = radical_liberationist
+				ruling_party_ideology = free_yoker
 			}
 		}
 		modifier = {
@@ -1486,7 +1486,7 @@ rhetoric_of_hate = {
 			factor = 2
 			OR = {
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = radical_liberationist
+				ruling_party_ideology = free_yoker
 			}
 		}
 		modifier = {
@@ -1551,12 +1551,12 @@ vangaurd_party = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = radical_liberationist
+			ruling_party_ideology = free_yoker
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = radical_liberationist_rebels
+			faction = free_yoker_rebels
 			value = 0.75
 		}
 	}
@@ -1617,7 +1617,7 @@ the_police_state = {
 			factor = 3
 			OR = {
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = radical_liberationist
+				ruling_party_ideology = free_yoker
 			}
 		}
 		modifier = {

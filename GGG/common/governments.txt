@@ -8,7 +8,7 @@
 paternalistic_council = {
     
     liberationist = yes
-    radical_liberationist = yes
+    free_yoker = yes
     conservative = yes
 
     election = yes
@@ -62,7 +62,7 @@ theocracy = { #could represent clergy council?
     reactionary = yes
     conservative = yes
     theocratist = yes
-    radical_liberationist = yes
+    free_yoker = yes
     liberationist = yes
 
     election = yes
@@ -75,7 +75,7 @@ parliamentary_despotate = {
     reactionary = yes
     conservative = yes
     theocratist = yes
-    radical_liberationist = yes
+    free_yoker = yes
     liberationist = yes
     statist = yes
     absolutist = yes

@@ -317,7 +317,7 @@ liberationist_group = {
         }
     }
 
-    radical_liberationist = {
+    free_yoker = {
         uncivilized = no
         color = { 27 81 45 }
 
@@ -328,14 +328,14 @@ liberationist_group = {
             base = 1
             modifier = {
                 factor = -1
-                NOT = { ruling_party_ideology = radical_liberationist }
+                NOT = { ruling_party_ideology = free_yoker }
             }
         }
         add_social_reform = {
             base = 1
             modifier = {
                 factor = -1
-                NOT = { ruling_party_ideology = radical_liberationist }
+                NOT = { ruling_party_ideology = free_yoker }
             }
         }
         remove_social_reform = {

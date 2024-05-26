@@ -72,11 +72,11 @@ party = {
 }
 
 party = {
-	name = "dominion_radical_liberationist"
+	name = "dominion_free_yoker"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
-	ideology = radical_liberationist
+	ideology = free_yoker
 
 	economic_policy = planned_economy
 	trade_policy = protectionism

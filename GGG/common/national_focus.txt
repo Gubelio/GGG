@@ -262,9 +262,9 @@ party_loyalty_focus =
 		icon = 28
 	}
 	
-	radical_liberationist_focus =
+	free_yoker_focus =
 	{
-		ideology = radical_liberationist
+		ideology = free_yoker
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 29
 	}

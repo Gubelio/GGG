@@ -22,7 +22,7 @@ upper_house = { # inherit
 	reactionary = 15
 	absolutist = 0
 	liberationist = 15
-	radical_liberationist = 5
+	free_yoker = 5
 }
 
 oob = "POU_oob.txt"

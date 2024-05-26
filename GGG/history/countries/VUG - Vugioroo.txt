@@ -46,7 +46,7 @@ upper_house = { # inherit
 	reactionary = 0
 	absolutist = 0
 	liberationist = 60
-	radical_liberationist = 40
+	free_yoker = 40
 }
 
 oob = "VUG_oob.txt"

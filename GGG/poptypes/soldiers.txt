@@ -834,7 +834,7 @@ ideologies = {
         factor = 1
         modifier = {
             factor = 1.1
-            country = { NOT = { ruling_party_ideology = radical_liberationist } }
+            country = { NOT = { ruling_party_ideology = free_yoker } }
             OR = {
                 is_accepted_culture = yes
                 is_primary_culture = yes
@@ -970,7 +970,7 @@ ideologies = {
         }
     }
 
-    radical_liberationist = {
+    free_yoker = {
         factor = 1
 
         modifier = {
@@ -1005,7 +1005,7 @@ ideologies = {
 
         modifier = {
             factor = 2
-            ruling_party_ideology = radical_liberationist
+            ruling_party_ideology = free_yoker
         }
 
         modifier = {
@@ -1067,7 +1067,7 @@ ideologies = {
             factor = 1.2
             NOT = { literacy = 0.30 }
             OR = {
-                country = { ruling_party_ideology = radical_liberationist }
+                country = { ruling_party_ideology = free_yoker }
                 militancy = 7
             }
         }
@@ -1075,7 +1075,7 @@ ideologies = {
             factor = 1.5
             country = {
                 NOT = { plurality = 30 }
-                ruling_party_ideology = radical_liberationist
+                ruling_party_ideology = free_yoker
             }
         }
     }
@@ -1134,7 +1134,7 @@ ideologies = {
         }
         modifier = {
             factor = 1.2
-            NOT = { is_ideology_enabled = radical_liberationist }
+            NOT = { is_ideology_enabled = free_yoker }
         }
         modifier = {
             factor = 1.2
@@ -2191,7 +2191,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 6
         }
@@ -2200,7 +2200,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 7
         }
@@ -2209,7 +2209,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 8
         }
@@ -2218,7 +2218,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 9
         }
@@ -2386,7 +2386,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 6
         }
@@ -2395,7 +2395,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 7
         }
@@ -2404,7 +2404,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 8
         }
@@ -2413,7 +2413,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 9
         }
@@ -2480,7 +2480,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 6
         }
@@ -2489,7 +2489,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 7
         }
@@ -2498,7 +2498,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 8
         }
@@ -2507,7 +2507,7 @@ issues =
             state_scope = { is_slave = no }
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}
             consciousness = 9
         }
@@ -3243,7 +3243,7 @@ issues =
             factor = 1.25
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}	
 			
             NOT = { life_needs = 0.7 }
@@ -3254,7 +3254,7 @@ issues =
             factor = 1.25
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}	
 
             NOT = { life_needs = 0.7 }
@@ -3265,7 +3265,7 @@ issues =
             factor = 1.25
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}	
 
             NOT = { life_needs = 0.7 }
@@ -3276,7 +3276,7 @@ issues =
             factor = 1.25
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}	
 
             NOT = { life_needs = 0.7 }
@@ -3287,7 +3287,7 @@ issues =
             factor = 3
 			OR = {
             pop_majority_ideology = liberationist
-			pop_majority_ideology = radical_liberationist
+			pop_majority_ideology = free_yoker
 			}	
 
             NOT = { life_needs = 0.7 }

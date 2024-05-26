@@ -21,6 +21,14 @@ colonial_chaos = {
     icon = 2
 }
 
+national_confusion = {
+    research_points_modifier = -0.01
+    global_pop_consciousness_modifier = 0.01
+    global_pop_militancy_modifier = 0.01
+    prestige = -0.01
+    icon = 4
+}
+
 loss_of_control = {
     icon = 2
 }

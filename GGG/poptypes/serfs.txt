@@ -98,7 +98,7 @@ ideologies = {
         }
     }
 
-    radical_liberationist = { factor = 1 }
+    free_yoker = { factor = 1 }
 
     statist = {
         factor = 1
@@ -179,7 +179,7 @@ peonage = {
             OR = {
                 pop_majority_ideology = statist
                 pop_majority_ideology = liberationist
-                pop_majority_ideology = radical_liberationist
+                pop_majority_ideology = free_yoker
             }
         }
 
