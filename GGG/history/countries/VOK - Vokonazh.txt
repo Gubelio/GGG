@@ -31,4 +31,6 @@ upper_house = { # inherit
 
 #flags
 
+oob = "VOK_oob.txt"
+
 set_country_flag = kadkohi_country

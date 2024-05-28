@@ -1,0 +1,251 @@
+#Relations
+
+leader = {
+    name = "Gozomedes Midodazh" #King Gozomedes Himself
+    type = land
+    date = 1305.1.1
+    personality = audacious
+    background = natural_born_leader
+}
+
+leader = {
+    name = "Bozzanimiz Midodazh" #His lesser brother
+    type = land
+    date = 1306.1.1
+    personality = coward
+    background = sycophant
+}
+
+leader = {
+    name = "Godhiinimiz Shamniizh"
+    type = land
+    date = 1300.1.1
+    personality = openminded
+    background = war_college
+}
+
+leader = {
+    name = "Gauimushiig Papuzhi"
+    type = land
+    date = 1295.1.1
+    personality = reserved 
+    background = gifted_administrator
+}
+
+leader = {
+    name = "Boshâshovii Vizhfag"
+    type = land
+    date = 1290.1.1
+    personality = confident
+    background = old_school 
+}
+
+army = {
+    name = "Royal Army"
+    location = 621
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 612
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 613
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 619
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 616
+    }	
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 618
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 617
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 615
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 614
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 620
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 628
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 625
+    }
+
+}
+
+army = {
+    name = "The Arm of Doshzk"
+    location = 616
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 621
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 622
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 624
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 623
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 631
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 627
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 649
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 648
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 656
+    }
+
+}
+
+army = {
+    name = "Northern Garrison"
+    location = 785
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 794
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 678
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 677
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 676
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 675
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 790
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 692
+    }
+	
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 786
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 689
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 773
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 772
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 785
+    }
+
+}
+
