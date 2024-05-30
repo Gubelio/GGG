@@ -4,25 +4,25 @@
 
 	thralls = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 36
 	}
 
 	slaves = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 101
 	}
 
 	farmers = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 5
 	}
 
 	artisans = {
 		culture = paguyti
-		religion = kadkhoi
+		religion = kadkohi
 		size = 1
 	}
 
