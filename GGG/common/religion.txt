@@ -117,3 +117,40 @@ paorusu_group = {
 
 }
 
+bafozhi_group = {
+
+    redrel = { 
+        icon = 15
+        color = { 0.3 0.6 0.1 }
+    }
+
+    limerel = { 
+        icon = 16
+        color = { 0.3 0.6 0.1 }
+    }
+
+    cyanrel = { 
+        icon = 13
+        color = { 0.3 0.6 0.1 }
+    }
+
+    orangerel = { 
+        icon = 14
+        color = { 0.3 0.6 0.1 }
+    }
+
+    brownrel = { 
+        icon = 2
+        color = { 0.3 0.6 0.1 }
+    }
+
+}
+
+shobgizob_group = {
+
+    pinkrel = { 
+        icon = 3
+        color = { 0.3 0.6 0.1 }
+    }
+
+}

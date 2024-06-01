@@ -1,0 +1,31 @@
+capital = 1472
+primary_culture = gokam
+religion = redrel
+government = princely_despotate
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.03
+non_state_culture_literacy = 0.01
+civilized = no
+
+# Political reforms
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 70
+	reactionary = 30
+	absolutist = 0
+	liberationist = 0
+	free_yoker = 0
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = redrel_country

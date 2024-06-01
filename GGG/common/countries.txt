@@ -98,6 +98,11 @@ STH		= "countries/Sithit.txt"
 MAC		= "countries/Machy.txt"
 THS		= "countries/Thesoroo.txt"
 UNI		= "countries/Uni.txt"
+CHD		= "countries/Chazd.txt" #Châzd
+
+#PAUKZHODO
+NGJ		= "countries/Ngjutto.txt" #Ngjuttô
+HUP		= "countries/Hupennohu.txt" #Hûpênnohu
 
 #KOVAZH
 QOO		= "countries/Qooxib.txt" #Qooxibi Empire
@@ -151,6 +156,76 @@ STA		= "countries/Stastrus.txt"
 FIB		= "countries/Fibut.txt"
 
 #BAFOZH
+NYW		= "countries/Nywut.txt"
+NIK		= "countries/Nikwiss.txt"
+MJO		= "countries/Mjotass.txt" #Mj'otass
+KOC		= "countries/Kochusa.txt"
+JUR		= "countries/Jurhunt.txt" #J'urhunt
+NGG		= "countries/Nggafeh.txt"
+MPA		= "countries/Mpacha.txt"
+KUC		= "countries/Kuchwu.txt"
+PWA		= "countries/Pwamke.txt"
+SES		= "countries/Sesy.txt"
+DHC		= "countries/Dhurch.txt"
+MTU		= "countries/Mtuntass.txt"
+MWI		= "countries/Mwida.txt" #Mwid'a
+BIM		= "countries/Bimku.txt" #B'imku
+SUC		= "countries/Suchup.txt"
+RAS		= "countries/Rashev.txt"
+DAU		= "countries/Daushim.txt"
+YAW		= "countries/Yaw.txt"
+MJE		= "countries/Mjekwu.txt" #Mj'ekwu
+SHO		= "countries/Shomn.txt"
+THO		= "countries/Thokie.txt"
+BOZ		= "countries/Bozzanazh.txt"
+WCH		= "countries/Wechzang.txt"
+ZHE		= "countries/Zheset.txt"
+KHR		= "countries/Khragirou.txt"
+SWM		= "countries/Swemboum.txt"
+HOV		= "countries/Hovyi.txt"
+YBA		= "countries/Yuba.txt" #Yub'a
+GIK		= "countries/Giktu.txt" #G'iktu
+UMC		= "countries/Umcho.txt"
+MWN		= "countries/Mwan.txt"
+FET		= "countries/Fetass.txt"
+ZIV		= "countries/Zivur.txt"
+CHK		= "countries/Chokess.txt"
+MTC		= "countries/Mturch.txt"
+WOJ		= "countries/Wojasyu.txt" #Woj'asyu
+YSG		= "countries/Yusanggum.txt"
+DNT		= "countries/Dont.txt" #D'ont
+SHN		= "countries/Shurnu.txt"
+BWU		= "countries/Bwunt.txt" #B'wunt
+NZO		= "countries/Nze Ochwo.txt" #Nze-Ochwo
+HMO		= "countries/Hamog.txt"
+KUS		= "countries/Kushnag.txt" #Kushnâg
+CHM		= "countries/Chomebed.txt" #Chömebed
+GYR		= "countries/Gyriedaav.txt"
+HIE		= "countries/Hiedaav.txt"
+KAH		= "countries/Kahafkidaav.txt"
+ISA		= "countries/Isaudaav.txt"
+HYU		= "countries/Hyutdaav.txt"
+TAR		= "countries/Tahradaav.txt"
+RYG		= "countries/Rygdaav.txt"
+HUD		= "countries/Hudaav.txt"
+NEH		= "countries/Nehrshi.txt"
+DDH		= "countries/Do Dhruzd.txt"
+GUD		= "countries/Gudzo.txt" #Gudzö
+BSH		= "countries/Boshare.txt" #Bösharë
+GRM		= "countries/Germgan.txt" #Gërmgan
+MSH		= "countries/Mashad.txt"
+MNJ		= "countries/Mnejoz.txt" #Mnëjöz
+IDA		= "countries/Idarm.txt"
+PER		= "countries/Perzob.txt"
+KAN		= "countries/Kaneun.txt"
+NTS		= "countries/Nan Tsetk.txt"
+
+#SHOBGIZOB
+NSP		= "countries/Nasup.txt"
+JAN		= "countries/Janaa.txt"
+MSQ		= "countries/Misuq.txt"
+JGG		= "countries/Jigguva.txt"
+BAA		= "countries/Baastuu.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

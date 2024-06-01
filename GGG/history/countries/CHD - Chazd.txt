@@ -1,0 +1,31 @@
+capital = 322
+primary_culture = south_gashdzii
+religion = motkohnic
+government = paternalistic_council
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.21
+non_state_culture_literacy = 0.01
+civilized = yes
+
+# Political reforms
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 0
+	reactionary = 0
+	absolutist = 0
+	liberationist = 80
+	free_yoker = 20
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = motkohnic_country

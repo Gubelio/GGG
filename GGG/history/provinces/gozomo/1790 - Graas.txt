@@ -1,3 +1,6 @@
+owner = HUD
+controller = HUD
+add_core = HUD
 trade_goods = fish
 life_rating = 33
 
