@@ -862,7 +862,7 @@ constitutionalism = {
 		base = 3
 		modifier = {
 			factor = 2
-			government = parliamentary_despotate
+			government = aristocratic_commonwealth
 		}
 		
 
@@ -951,7 +951,7 @@ hierarchical_order = {
 			ideological_thought = 1 
 			OR = { 
 			government = princely_despotate
-			government = parliamentary_despotate
+			government = aristocratic_commonwealth
 			}			
 	}
 	chance = {
@@ -962,7 +962,7 @@ hierarchical_order = {
 		}
 		modifier = {
 			factor = 2
-			government = parliamentary_despotate
+			government = aristocratic_commonwealth
 		}
 	}
 	core_pop_militancy_modifier = -0.01
@@ -987,7 +987,7 @@ traditionalism = {
 		}
 		modifier = {
 			factor = 1
-			government = parliamentary_despotate
+			government = aristocratic_commonwealth
 		}
 	}
 	core_pop_consciousness_modifier = -0.01

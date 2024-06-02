@@ -1,7 +1,7 @@
 capital = 2188
 primary_culture = gji
-religion = redrel
-government = princely_despotate
+religion = brownrel
+government = theocracy
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.02
@@ -28,4 +28,4 @@ upper_house = { # inherit
 
 #flags
 
-set_country_flag = redrel_country
+set_country_flag = brownrel_country

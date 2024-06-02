@@ -377,13 +377,13 @@ political_reforms = {
 		administrative = yes
         next_step_only = yes
 
-        hereditary_bureaucracy = {
+        aristocratic_bureaucracy = {
 			administrative_efficiency_modifier = -0.05
             tax_efficiency = -0.05
 
         }
 
-        nepotistic_bureaucracy = {
+        proprietary_bureaucracy = {
             administrative_multiplier = 1
 			
         }

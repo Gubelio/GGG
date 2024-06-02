@@ -1,7 +1,7 @@
 capital = 240
 primary_culture = south_gashdzii
 religion = motkohnic
-government = parliamentary_despotate
+government = aristocratic_commonwealth
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.36
@@ -18,7 +18,7 @@ land_reform_civ = feudal_tenure
 banking_system = banking_licenses
 thralldom = thralldom_allowed
 public_order = appointed_justices 
-administrative_reform = hereditary_bureaucracy
+administrative_reform = aristocratic_bureaucracy
 infrastructure = ad_hoc_development
 health_care = no_health_care
 school_reforms = parish_school_system

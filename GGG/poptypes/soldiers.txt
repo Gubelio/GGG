@@ -122,8 +122,8 @@ country_migration_target = {
 #        }
 #        OR = {
 #            government = paternalistic_council
-#            government = parliamentary_despotate
-#            government = parliamentary_despotate
+#            government = aristocratic_commonwealth
+#            government = aristocratic_commonwealth
 #        }
     }
 
@@ -139,8 +139,8 @@ country_migration_target = {
 #        }
 #        OR = {
 #            government = paternalistic_council
-#            government = parliamentary_despotate
-#            government = parliamentary_despotate
+#            government = aristocratic_commonwealth
+#            government = aristocratic_commonwealth
 #        }
     }
 
@@ -574,7 +574,7 @@ ideologies = {
                     ruling_party_ideology = reactionary
                     OR = {
                         government = princely_despotate
-                        government = parliamentary_despotate
+                        government = aristocratic_commonwealth
                         government = theocracy
                     }
                 }
@@ -605,8 +605,8 @@ ideologies = {
             country = {
                 ruling_party_ideology = reactionary
                 OR = {
-                    government = parliamentary_despotate
-                    government = parliamentary_despotate
+                    government = aristocratic_commonwealth
+                    government = aristocratic_commonwealth
                     government = paternalistic_council
                 }
             }
@@ -624,7 +624,7 @@ ideologies = {
             country = {
                 ruling_party_ideology = reactionary
                 OR = {
-                    government = parliamentary_despotate
+                    government = aristocratic_commonwealth
                     government = princely_despotate
                     government = theocracy
                 }
@@ -6420,14 +6420,14 @@ rehabilitation = {
 	
 ############### Administrative Reform ###############
 
-    nepotistic_bureaucracy = {
+    proprietary_bureaucracy = {
         factor = 1
         modifier = {
             factor = 0
             OR = {
    			    NOT = { is_ideology_enabled = statist }
                 NOT = { consciousness = 6 }
-                NOT = { is_next_reform = nepotistic_bureaucracy }
+                NOT = { is_next_reform = proprietary_bureaucracy }
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }

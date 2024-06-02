@@ -674,7 +674,7 @@ country_event = {
 		}
 		#OR = {
 		#    government = princely_despotate
-		#    government = parliamentary_despotate
+		#    government = aristocratic_commonwealth
 		#
 		#}
 		NOT = {
@@ -732,7 +732,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 
-		administrative_reform = nepotistic_bureaucracy
+		administrative_reform = proprietary_bureaucracy
 		land_reform_civ = feudal_tenure
 		public_order = appointed_justices
 		scriptural_law = courts_of_canon
@@ -775,7 +775,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 
-		administrative_reform = hereditary_bureaucracy
+		administrative_reform = aristocratic_bureaucracy
 		public_order = feudal_courts
 
 		OR = {
@@ -791,7 +791,7 @@ country_event = {
 		}
 
 		NOT = {
-		    government = parliamentary_despotate
+		    government = aristocratic_commonwealth
 		}
 		
 		    
@@ -803,7 +803,7 @@ country_event = {
 
 	option = {
 		name = "EVT50011OPTA"
-		government = parliamentary_despotate
+		government = aristocratic_commonwealth
 	}
 }
 

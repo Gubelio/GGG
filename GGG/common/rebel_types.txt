@@ -25,7 +25,7 @@ reactionary_rebels = {
         	absolute_autocracy = princely_despotate
         	statist_bureaucracy = princely_despotate
         	theocracy = princely_despotate
-        	parliamentary_despotate = princely_despotate
+        	aristocratic_commonwealth = princely_despotate
         	princely_despotate = theocracy
 	}
 	
@@ -254,7 +254,7 @@ reactionary_rebels = {
         ruling_party_ideology = reactionary
 
         political_reform = feudal_tenure
-        political_reform = hereditary_bureaucracy
+        political_reform = aristocratic_bureaucracy
         political_reform = noble_parliament
         political_reform = primary_culture_only
         political_reform = feudal_courts
@@ -290,7 +290,7 @@ theocratist_rebels = {
         absolute_autocracy = sublime_synod
 	statist_bureaucracy = sublime_synod
         theocracy = sublime_synod
-        parliamentary_despotate = sublime_synod
+        aristocratic_commonwealth = sublime_synod
         princely_despotate = sublime_synod
     }
 
@@ -574,7 +574,7 @@ free_yoker_rebels = {
         absolute_autocracy = paternalistic_council
 	statist_bureaucracy = paternalistic_council
         theocracy = paternalistic_council
-        parliamentary_despotate = paternalistic_council
+        aristocratic_commonwealth = paternalistic_council
         princely_despotate = paternalistic_council
     }
 
@@ -843,7 +843,7 @@ absolutist_rebels = {
         statist_bureaucracy = absolute_autocracy
 		absolute_autocracy = absolute_autocracy
         theocracy = absolute_autocracy
-        parliamentary_despotate = absolute_autocracy
+        aristocratic_commonwealth = absolute_autocracy
         princely_despotate = absolute_autocracy
     }
 
@@ -927,7 +927,7 @@ absolutist_rebels = {
             factor = 0
             country = {
                 OR = {
-                    government = parliamentary_despotate
+                    government = aristocratic_commonwealth
                     government = princely_despotate
                 }
                 ruling_party_ideology = absolutist
@@ -937,7 +937,7 @@ absolutist_rebels = {
             factor = 0.5
             country = {
                 OR = {
-                    government = parliamentary_despotate
+                    government = aristocratic_commonwealth
                     government = princely_despotate
                 }
                 ruling_party_ideology = statist
@@ -1125,7 +1125,7 @@ nationalist_rebels = {
         	statist_bureaucracy = statist_bureaucracy
 			absolute_autocracy = absolute_autocracy
         	theocracy = theocracy
-        	parliamentary_despotate = parliamentary_despotate
+        	aristocratic_commonwealth = aristocratic_commonwealth
         	princely_despotate = princely_despotate
 	}
 	
@@ -1340,7 +1340,7 @@ pan_nationalist_rebels = {
         	statist_bureaucracy = statist_bureaucracy
 			absolute_autocracy = absolute_autocracy
         	theocracy = theocracy
-        	parliamentary_despotate = parliamentary_despotate
+        	aristocratic_commonwealth = aristocratic_commonwealth
         	princely_despotate = princely_despotate
 	}
 
@@ -1530,7 +1530,7 @@ pan_nationalist_rebels = {
 #        sublime_synod = sublime_synod
 #        absolutist_bureaucracy = sublime_synod
 #        theocracy = sublime_synod
-#        parliamentary_despotate = sublime_synod
+#        aristocratic_commonwealth = sublime_synod
 #        princely_despotate = sublime_synod
 #    }
 #

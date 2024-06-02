@@ -71,7 +71,7 @@ theocracy = { #could represent clergy council?
     flagType = fascist
 }
 
-parliamentary_despotate = {
+aristocratic_commonwealth = {
     reactionary = yes
     conservative = yes
     theocratist = yes
