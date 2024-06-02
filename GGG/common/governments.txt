@@ -45,13 +45,13 @@ statist_bureaucracy = {
     flagType = communist
 }
 
-absolute_autocracy = {
-    absolutist = yes
-
-    election = no
-    appoint_ruling_party = yes
-    flagType = communist
-}
+#absolute_autocracy = {
+#    absolutist = yes
+#
+#    election = no
+#    appoint_ruling_party = yes
+#    flagType = communist
+#}
 
 ###########################
 # Conservative Foundation #

@@ -22,7 +22,6 @@ reactionary_rebels = {
 	government = {
         	paternalistic_council = princely_despotate
         	sublime_synod = princely_despotate
-        	absolute_autocracy = princely_despotate
         	statist_bureaucracy = princely_despotate
         	theocracy = princely_despotate
         	aristocratic_commonwealth = princely_despotate
@@ -287,7 +286,6 @@ theocratist_rebels = {
     government = {
         paternalistic_council = sublime_synod
         sublime_synod = sublime_synod
-        absolute_autocracy = sublime_synod
 	statist_bureaucracy = sublime_synod
         theocracy = sublime_synod
         aristocratic_commonwealth = sublime_synod
@@ -571,7 +569,6 @@ free_yoker_rebels = {
     government = {
         paternalistic_council = paternalistic_council
         sublime_synod = paternalistic_council
-        absolute_autocracy = paternalistic_council
 	statist_bureaucracy = paternalistic_council
         theocracy = paternalistic_council
         aristocratic_commonwealth = paternalistic_council
@@ -838,13 +835,12 @@ absolutist_rebels = {
 
     # <this is the government in the country> = <this is what the rebels want>
     government = {
-        paternalistic_council = absolute_autocracy
-        sublime_synod = absolute_autocracy
-        statist_bureaucracy = absolute_autocracy
-		absolute_autocracy = absolute_autocracy
-        theocracy = absolute_autocracy
-        aristocratic_commonwealth = absolute_autocracy
-        princely_despotate = absolute_autocracy
+        paternalistic_council = statist_bureaucracy
+        sublime_synod = statist_bureaucracy
+        statist_bureaucracy = statist_bureaucracy
+        theocracy = statist_bureaucracy
+        aristocratic_commonwealth = statist_bureaucracy
+        princely_despotate = statist_bureaucracy
     }
 
 
@@ -889,7 +885,7 @@ absolutist_rebels = {
         modifier = {
             factor = 0.95
             any_neighbor_country = {
-                government = absolutist_bureaucracy
+                government = statist_bureaucracy
             }
         }
     }
@@ -921,7 +917,7 @@ absolutist_rebels = {
         }
         modifier = {
             factor = 0
-            country = { government = absolutist_bureaucracy }
+            country = { government = statist_bureaucracy }
         }
         modifier = {
             factor = 0
@@ -1123,7 +1119,6 @@ nationalist_rebels = {
      		paternalistic_council = paternalistic_council
     		sublime_synod = sublime_synod 
         	statist_bureaucracy = statist_bureaucracy
-			absolute_autocracy = absolute_autocracy
         	theocracy = theocracy
         	aristocratic_commonwealth = aristocratic_commonwealth
         	princely_despotate = princely_despotate
@@ -1338,7 +1333,6 @@ pan_nationalist_rebels = {
      		paternalistic_council = paternalistic_council
     		sublime_synod = sublime_synod 
         	statist_bureaucracy = statist_bureaucracy
-			absolute_autocracy = absolute_autocracy
         	theocracy = theocracy
         	aristocratic_commonwealth = aristocratic_commonwealth
         	princely_despotate = princely_despotate
@@ -1528,8 +1522,8 @@ pan_nationalist_rebels = {
 #    government = {
 #        paternalistic_council = sublime_synod
 #        sublime_synod = sublime_synod
-#        absolutist_bureaucracy = sublime_synod
 #        theocracy = sublime_synod
+#        	statist_bureaucracy = statist_bureaucracy
 #        aristocratic_commonwealth = sublime_synod
 #        princely_despotate = sublime_synod
 #    }
