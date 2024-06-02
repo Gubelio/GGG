@@ -185,9 +185,9 @@ party_issues = {
 
 political_reforms = {
 
-	citizens_rights = {
+   citizens_rights = {
 		administrative = yes
-        next_step_only = yes
+        	next_step_only = yes
 		
         primary_culture_only = {
             rules = { primary_culture_voting = yes }
@@ -472,12 +472,13 @@ political_reforms = {
 		}
 	}
 	
-	school_reforms = {
-		next_step_only = yes
-		administrative = yes
+school_reforms = {
+	next_step_only = yes
+	administrative = yes
 		
-		no_school_system = {
-            global_assimilation_rate = -0.002
+	no_school_system = {
+        
+	    global_assimilation_rate = -0.002
 
         }
 		
@@ -662,7 +663,7 @@ worker_protections = {
 
         }
 
-		courts_of_canon = {
+	courts_of_canon = {
 
         }
 

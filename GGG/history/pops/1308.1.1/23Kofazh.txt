@@ -28271,3 +28271,2950 @@ thralls = {
 
 }
 
+1231 = {
+
+
+
+	officers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 0
+	}
+
+	slaves = {
+		culture = deuseuian
+		religion = vewugi
+		size = 60
+	}
+
+	farmers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 458
+	}
+
+	soldiers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 34
+	}
+
+	artisans = {
+		culture = deuseuian
+		religion = vewugi
+		size = 24
+	}
+
+	clergymen = {
+		culture = deuseuian
+		religion = vewugi
+		size = 6
+	}
+
+	bureaucrats = {
+		culture = deuseuian
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = deuseuian
+		religion = vewugi
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 766
+	}
+
+
+	bureaucrats = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 25
+	}
+
+
+	clergymen = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 255
+	}
+
+
+	artisans = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 1021
+	}
+
+
+	soldiers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 1481
+	}
+
+
+	farmers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 19413
+	}
+
+
+	slaves = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 2554
+	}
+
+
+	officers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 25
+	}
+
+}
+
+1232 = {
+
+
+
+	thralls = {
+		culture = deuseuian
+		religion = paorusu
+		size = 22
+	}
+
+	serfs = {
+		culture = deuseuian
+		religion = paorusu
+		size = 314
+	}
+
+	farmers = {
+		culture = deuseuian
+		religion = paorusu
+		size = 1719
+	}
+
+	soldiers = {
+		culture = deuseuian
+		religion = paorusu
+		size = 66
+	}
+
+	artisans = {
+		culture = deuseuian
+		religion = paorusu
+		size = 66
+	}
+
+	clergymen = {
+		culture = deuseuian
+		religion = paorusu
+		size = 22
+	}
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 39
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 1343
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 2206
+	}
+
+	soldiers = {
+		culture = bogurg
+		religion = paorusu
+		size = 118
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 118
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 39
+	}
+
+	aristocrats = {
+		culture = bogurg
+		religion = paorusu
+		size = 39
+	}
+
+	aristocrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 763
+	}
+
+
+	bureaucrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 25
+	}
+
+
+	clergymen = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 254
+	}
+
+
+	artisans = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 1526
+	}
+
+
+	soldiers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 1475
+	}
+
+
+	farmers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 15900
+	}
+
+
+	slaves = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 2544
+	}
+
+
+	officers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 25
+	}
+
+
+	serfs = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 2925
+	}
+
+}
+
+1233 = {
+
+
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 263
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 8979
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 14746
+	}
+
+	soldiers = {
+		culture = bogurg
+		religion = paorusu
+		size = 789
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 789
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 263
+	}
+
+	aristocrats = {
+		culture = bogurg
+		religion = paorusu
+		size = 263
+	}
+
+	aristocrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 2671
+	}
+
+
+	bureaucrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 89
+	}
+
+
+	clergymen = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 890
+	}
+
+
+	artisans = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 5342
+	}
+
+
+	soldiers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 5164
+	}
+
+
+	farmers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 55648
+	}
+
+
+	slaves = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 8903
+	}
+
+
+	officers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 89
+	}
+
+
+	serfs = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 10239
+	}
+
+}
+
+1234 = {
+
+
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 78
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 2691
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 4420
+	}
+
+	soldiers = {
+		culture = bogurg
+		religion = paorusu
+		size = 236
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 236
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 78
+	}
+
+	aristocrats = {
+		culture = bogurg
+		religion = paorusu
+		size = 78
+	}
+
+	aristocrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 1071
+	}
+
+
+	bureaucrats = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 35
+	}
+
+
+	clergymen = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 357
+	}
+
+
+	artisans = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 2143
+	}
+
+
+	soldiers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 2072
+	}
+
+
+	farmers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 22331
+	}
+
+
+	slaves = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 3573
+	}
+
+
+	officers = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 35
+	}
+
+
+	serfs = {
+		 culture = assatiog
+		 religion = paorusu
+		 size = 4108
+	}
+
+}
+
+1235 = {
+
+
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 7466
+	}
+
+	officers = {
+		culture = bogurg
+		religion = paorusu
+		size = 21
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 10879
+	}
+
+	soldiers = {
+		culture = bogurg
+		religion = paorusu
+		size = 191
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 2559
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 213
+	}
+
+	clergymen = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 209
+	}
+
+
+	artisans = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 2513
+	}
+
+
+	soldiers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 188
+	}
+
+
+	farmers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 10681
+	}
+
+
+	officers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 20
+	}
+
+
+	serfs = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 7330
+	}
+
+}
+
+1236 = {
+
+
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 1733
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 12133
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 2599
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 693
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 173
+	}
+
+	officers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 7
+	}
+
+	slaves = {
+		culture = deuseuian
+		religion = vewugi
+		size = 733
+	}
+
+	farmers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 5573
+	}
+
+	soldiers = {
+		culture = deuseuian
+		religion = vewugi
+		size = 425
+	}
+
+	artisans = {
+		culture = deuseuian
+		religion = vewugi
+		size = 293
+	}
+
+	clergymen = {
+		culture = deuseuian
+		religion = vewugi
+		size = 73
+	}
+
+	bureaucrats = {
+		culture = deuseuian
+		religion = vewugi
+		size = 7
+	}
+
+	aristocrats = {
+		culture = deuseuian
+		religion = vewugi
+		size = 219
+	}
+
+	aristocrats = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 1497
+	}
+
+
+	bureaucrats = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 49
+	}
+
+
+	clergymen = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 499
+	}
+
+
+	artisans = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 1996
+	}
+
+
+	soldiers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 2894
+	}
+
+
+	farmers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 37927
+	}
+
+
+	slaves = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 4990
+	}
+
+
+	officers = {
+		 culture = deuseuian
+		 religion = paorusu
+		 size = 49
+	}
+
+}
+1237 = {
+
+
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 4033
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 28233
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 6049
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 1613
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 403
+	}
+
+	thralls = {
+		culture = bogurg
+		religion = vewugi
+		size = 1450
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = vewugi
+		size = 10152
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = vewugi
+		size = 2175
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = vewugi
+		size = 580
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = vewugi
+		size = 145
+	}
+
+	serfs = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 34
+	}
+
+	officers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	slaves = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 30
+	}
+
+	farmers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 192
+	}
+
+	soldiers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 17
+	}
+
+	artisans = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 18
+	}
+
+	clergymen = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	aristocrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 44
+	}
+
+
+	bureaucrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 133
+	}
+
+
+	soldiers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 128
+	}
+
+
+	farmers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 1410
+	}
+
+
+	slaves = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 222
+	}
+
+
+	officers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	serfs = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 255
+	}
+
+}
+
+1238 = {
+
+
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 444
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 3111
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 666
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 177
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 44
+	}
+
+	thralls = {
+		culture = bogurg
+		religion = vewugi
+		size = 5840
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = vewugi
+		size = 40882
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = vewugi
+		size = 8760
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = vewugi
+		size = 2336
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = vewugi
+		size = 584
+	}
+
+	serfs = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 25
+	}
+
+	officers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	slaves = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 22
+	}
+
+	farmers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 141
+	}
+
+	soldiers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 12
+	}
+
+	artisans = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 13
+	}
+
+	clergymen = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 2
+	}
+
+	bureaucrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	aristocrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 4
+	}
+
+	aristocrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 20
+	}
+
+
+	bureaucrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 10
+	}
+
+
+	artisans = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 60
+	}
+
+
+	soldiers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 58
+	}
+
+
+	farmers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 636
+	}
+
+
+	slaves = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 100
+	}
+
+
+	officers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 115
+	}
+
+}
+
+1239 = {
+
+
+
+	thralls = {
+		culture = coebeju
+		religion = paorusu
+		size = 394
+	}
+
+	serfs = {
+		culture = coebeju
+		religion = paorusu
+		size = 5525
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = paorusu
+		size = 1578
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = paorusu
+		size = 315
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = paorusu
+		size = 78
+	}
+
+	thralls = {
+		culture = coebeju
+		religion = vewugi
+		size = 1222
+	}
+
+	serfs = {
+		culture = coebeju
+		religion = vewugi
+		size = 17110
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = vewugi
+		size = 4888
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = vewugi
+		size = 977
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = vewugi
+		size = 244
+	}
+
+	thralls = {
+		culture = ftemioq
+		religion = paorusu
+		size = 447
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = paorusu
+		size = 6260
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = paorusu
+		size = 1788
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = paorusu
+		size = 357
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = paorusu
+		size = 89
+	}
+
+	thralls = {
+		culture = ftemioq
+		religion = vewugi
+		size = 16
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = vewugi
+		size = 233
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 66
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = vewugi
+		size = 13
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = vewugi
+		size = 3
+	}
+
+	thralls = {
+		culture = bogurg
+		religion = paorusu
+		size = 166
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = paorusu
+		size = 2325
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = paorusu
+		size = 664
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = paorusu
+		size = 132
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = paorusu
+		size = 33
+	}
+
+	thralls = {
+		culture = bogurg
+		religion = vewugi
+		size = 819
+	}
+
+	serfs = {
+		culture = bogurg
+		religion = vewugi
+		size = 11473
+	}
+
+	farmers = {
+		culture = bogurg
+		religion = vewugi
+		size = 3278
+	}
+
+	artisans = {
+		culture = bogurg
+		religion = vewugi
+		size = 655
+	}
+
+	clergymen = {
+		culture = bogurg
+		religion = vewugi
+		size = 163
+	}
+
+	serfs = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 38
+	}
+
+	officers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	slaves = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 33
+	}
+
+	farmers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 211
+	}
+
+	soldiers = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 19
+	}
+
+	artisans = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 19
+	}
+
+	clergymen = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 0
+	}
+
+	aristocrats = {
+		culture = gengugemeg
+		religion = paorusu
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 66
+	}
+
+
+	bureaucrats = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 200
+	}
+
+
+	soldiers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 193
+	}
+
+
+	farmers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 2123
+	}
+
+
+	slaves = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 334
+	}
+
+
+	officers = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 3
+	}
+
+
+	serfs = {
+		 culture = gengugemeg
+		 religion = vewugi
+		 size = 384
+	}
+
+}
+
+1240 = {
+
+
+
+	serfs = {
+		culture = coebeju
+		religion = vewugi
+		size = 21262
+	}
+
+	officers = {
+		culture = coebeju
+		religion = vewugi
+		size = 60
+	}
+
+	farmers = {
+		culture = coebeju
+		religion = vewugi
+		size = 30981
+	}
+
+	soldiers = {
+		culture = coebeju
+		religion = vewugi
+		size = 546
+	}
+
+	artisans = {
+		culture = coebeju
+		religion = vewugi
+		size = 7289
+	}
+
+	clergymen = {
+		culture = coebeju
+		religion = vewugi
+		size = 607
+	}
+
+	clergymen = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 79
+	}
+
+
+	artisans = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 951
+	}
+
+
+	soldiers = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 71
+	}
+
+
+	farmers = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 4045
+	}
+
+
+	officers = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = bofungi
+		 religion = paorusu
+		 size = 2776
+	}
+
+}
+
+
+1241 = {
+
+
+
+	serfs = {
+		culture = assatiog
+		religion = paorusu
+		size = 1784
+	}
+
+	officers = {
+		culture = assatiog
+		religion = paorusu
+		size = 5
+	}
+
+	farmers = {
+		culture = assatiog
+		religion = paorusu
+		size = 2599
+	}
+
+	soldiers = {
+		culture = assatiog
+		religion = paorusu
+		size = 45
+	}
+
+	artisans = {
+		culture = assatiog
+		religion = paorusu
+		size = 611
+	}
+
+	clergymen = {
+		culture = assatiog
+		religion = paorusu
+		size = 50
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1786
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 89
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 893
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 5359
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 5181
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 56726
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 8933
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 89
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 10273
+	}
+
+}
+
+1242 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 2465
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 7
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 3592
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 63
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 845
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 70
+	}
+
+	serfs = {
+		culture = chobajhi
+		religion = paorusu
+		size = 778
+	}
+
+	officers = {
+		culture = chobajhi
+		religion = paorusu
+		size = 2
+	}
+
+	farmers = {
+		culture = chobajhi
+		religion = paorusu
+		size = 1133
+	}
+
+	soldiers = {
+		culture = chobajhi
+		religion = paorusu
+		size = 20
+	}
+
+	artisans = {
+		culture = chobajhi
+		religion = paorusu
+		size = 266
+	}
+
+	clergymen = {
+		culture = chobajhi
+		religion = paorusu
+		size = 22
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 768
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 38
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 384
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2306
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2229
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 24411
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 3844
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 38
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 4421
+	}
+
+}
+
+1243 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 781
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 2
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 1139
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 20
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 268
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 22
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 4354
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 12
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 6344
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 111
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 1492
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 124
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1688
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 84
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 844
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 5065
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 4896
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 53613
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 8443
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 84
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 9709
+	}
+
+}
+
+1244 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 2779
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 7
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 4049
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 71
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 952
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 79
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 3130
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 8
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 4561
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 80
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 1073
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 89
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1500
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 75
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 750
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 4502
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 4352
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 47652
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 7504
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 75
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 8630
+	}
+
+}
+
+1245 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 1940
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 5
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 2826
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 49
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 665
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 55
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 4318
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 12
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 6292
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 111
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 1480
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 123
+	}
+
+	serfs = {
+		culture = chobajhi
+		religion = vewugi
+		size = 10585
+	}
+
+	officers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 30
+	}
+
+	farmers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 15424
+	}
+
+	soldiers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 272
+	}
+
+	artisans = {
+		culture = chobajhi
+		religion = vewugi
+		size = 3629
+	}
+
+	clergymen = {
+		culture = chobajhi
+		religion = vewugi
+		size = 302
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1788
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 89
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 894
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 5366
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 5187
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 56796
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 8944
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 89
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 10286
+	}
+
+}
+
+1246 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 4561
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 13
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 6647
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 117
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 1564
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 130
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2346
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 117
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1173
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 7038
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 6803
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 74488
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 11730
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 117
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 13489
+	}
+
+}
+
+1247 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 45605
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 130
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 66453
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 1172
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 15636
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 1303
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 1397
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 3
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 2036
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 35
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 479
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 39
+	}
+
+	serfs = {
+		culture = chobajhi
+		religion = vewugi
+		size = 22905
+	}
+
+	officers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 65
+	}
+
+	farmers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 33376
+	}
+
+	soldiers = {
+		culture = chobajhi
+		religion = vewugi
+		size = 588
+	}
+
+	artisans = {
+		culture = chobajhi
+		religion = vewugi
+		size = 7853
+	}
+
+	clergymen = {
+		culture = chobajhi
+		religion = vewugi
+		size = 654
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 446
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 22
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 223
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1339
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1295
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 14181
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2233
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 22
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2568
+	}
+
+}
+1248 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 22558
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 64
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 32871
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 580
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 7734
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 644
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 11865
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 33
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 17289
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 305
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 4068
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 339
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = vewugi
+		size = 11670
+	}
+
+	officers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 33
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 17004
+	}
+
+	soldiers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 300
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = vewugi
+		size = 4001
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = vewugi
+		size = 333
+	}
+
+	clergymen = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 1303
+	}
+
+
+	artisans = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 15640
+	}
+
+
+	soldiers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 1173
+	}
+
+
+	farmers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 66470
+	}
+
+
+	officers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 130
+	}
+
+
+	serfs = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 45616
+	}
+
+}
+
+1249 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 23556
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 67
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 34324
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 605
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 8076
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 673
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 14118
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 40
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 20572
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 363
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 4840
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 403
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = vewugi
+		size = 10863
+	}
+
+	officers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 31
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 15829
+	}
+
+	soldiers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 279
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = vewugi
+		size = 3724
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = vewugi
+		size = 310
+	}
+
+	clergymen = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 1559
+	}
+
+
+	artisans = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 18712
+	}
+
+
+	soldiers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 1403
+	}
+
+
+	farmers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 79529
+	}
+
+
+	officers = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 155
+	}
+
+
+	serfs = {
+		 culture = ftemioq
+		 religion = paorusu
+		 size = 54579
+	}
+
+}
+
+1250 = {
+
+
+
+	serfs = {
+		culture = bofungi
+		religion = vewugi
+		size = 4666
+	}
+
+	officers = {
+		culture = bofungi
+		religion = vewugi
+		size = 13
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = vewugi
+		size = 6799
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = vewugi
+		size = 119
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = vewugi
+		size = 1599
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = vewugi
+		size = 133
+	}
+
+	serfs = {
+		culture = bofungi
+		religion = paorusu
+		size = 3617
+	}
+
+	officers = {
+		culture = bofungi
+		religion = paorusu
+		size = 10
+	}
+
+	farmers = {
+		culture = bofungi
+		religion = paorusu
+		size = 5270
+	}
+
+	soldiers = {
+		culture = bofungi
+		religion = paorusu
+		size = 93
+	}
+
+	artisans = {
+		culture = bofungi
+		religion = paorusu
+		size = 1240
+	}
+
+	clergymen = {
+		culture = bofungi
+		religion = paorusu
+		size = 103
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = vewugi
+		size = 1170
+	}
+
+	officers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 3
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 1705
+	}
+
+	soldiers = {
+		culture = ftemioq
+		religion = vewugi
+		size = 30
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = vewugi
+		size = 401
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = vewugi
+		size = 33
+	}
+
+	serfs = {
+		culture = ftemioq
+		religion = paorusu
+		size = 778
+	}
+
+	officers = {
+		culture = ftemioq
+		religion = paorusu
+		size = 2
+	}
+
+	farmers = {
+		culture = ftemioq
+		religion = paorusu
+		size = 1133
+	}
+
+	soldiers = {
+		culture = ftemioq
+		religion = paorusu
+		size = 20
+	}
+
+	artisans = {
+		culture = ftemioq
+		religion = paorusu
+		size = 266
+	}
+
+	clergymen = {
+		culture = ftemioq
+		religion = paorusu
+		size = 22
+	}
+
+	aristocrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 2186
+	}
+
+
+	bureaucrats = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 109
+	}
+
+
+	clergymen = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 1093
+	}
+
+
+	artisans = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 6560
+	}
+
+
+	soldiers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 6341
+	}
+
+
+	farmers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 69427
+	}
+
+
+	slaves = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 10933
+	}
+
+
+	officers = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 109
+	}
+
+
+	serfs = {
+		 culture = coebeju
+		 religion = vewugi
+		 size = 12573
+	}
+
+}
+

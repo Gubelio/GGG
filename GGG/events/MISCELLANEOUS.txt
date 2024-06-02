@@ -665,7 +665,7 @@ country_event = {
 		civilized = yes
 		scriptural_law = morality_police 
 		clerical_law = empowered_clergy
-		school_system = parish_school_system
+		school_reforms = parish_school_system
 
 		OR = {
 		    legislative_system = regulated_elections
@@ -731,12 +731,22 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+
+		administrative_reform = nepotistic_bureaucracy
 		land_reform_civ = feudal_tenure
-		public_order = feudal_courts
+		public_order = appointed_justices
+		scriptural_law = courts_of_canon
+
+		OR = {
+			social_privileges = feudal_rights
+			social_privileges = sanctioned_privileges
+			social_privileges = sumptuary_laws
+		}
 
 		OR = {
 		    legislative_system = tribal_assembly
 		    legislative_system = noble_parliament
+		    legislative_system = regulated_elections
 		}
 
 		NOT = {
@@ -765,17 +775,17 @@ country_event = {
 	trigger = {
 		civilized = yes
 
+		administrative_reform = hereditary_bureaucracy
+		public_order = feudal_courts
+
 		OR = {
 		    legislative_system = tribal_assembly
 		    legislative_system = noble_parliament
+		    legislative_system = regulated_elections
 		}
 
 		OR = {
-		    administrative_reform = hereditary_bureaucracy
-		    administrative_reform = nepotistic_bureaucracy
-		}
-
-		OR = {
+		    land_reform_civ = feudal_tenure
 		    land_reform_civ = enclosure_of_commons
 		    land_reform_civ = private_landownership
 		}
@@ -794,5 +804,63 @@ country_event = {
 	option = {
 		name = "EVT50011OPTA"
 		government = parliamentary_despotate
+	}
+}
+
+country_event = {
+	id = 50012 #end of serfdom
+	title = "EVTNAME50012"
+	desc = "EVTDESC50012"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		any_owned_province = {
+			has_pop_type = serfs
+		}
+		NOT = {
+		    debt_law = serfdom
+		}
+	}
+
+	option = {
+		name = "EVT50012OPTA"
+			any_owned = {
+				has_pop_type = serfs
+				OR = {
+					has_pop_type = farmers
+					has_pop_type = labourers
+				}
+				serfs = { pop_type = farmers }
+			}
+	}
+}
+
+country_event = {
+	id = 50013 #end of thralldom
+	title = "EVTNAME50013"
+	desc = "EVTDESC50013"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		any_owned_province = {
+			has_pop_type = thralls
+		}
+		NOT = {
+		    thralldom = thralldom_allowed
+		}
+	}
+
+	option = {
+		name = "EVT50013OPTA"
+			any_owned = {
+				has_pop_type = thralls
+				OR = {
+					has_pop_type = farmers
+					has_pop_type = labourers
+				}
+				thralls = { pop_type = farmers }
+			}
 	}
 }
