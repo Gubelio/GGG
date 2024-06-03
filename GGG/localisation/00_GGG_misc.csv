@@ -42,9 +42,9 @@ thralldom_outlawed;Outlawed;;;;;;;;;;;;;x
 thralldom_outlawed_desc;The pratice of keeping thralls is outlawed.;;;;;;;;;;;;;x
 administrative_reform;Administration;;;;;;;;;;;;;x #Administrative Reform
 aristocratic_bureaucracy;Aristocratic Bureaucracy;;;;;;;;;;;;;x
-aristocratic_bureaucracy_desc;The country's executive machinery is squarely in the hands of local aristocrats and magnates; whether through hereditary sheriffs or starotsa, the regional executive remains deeply structurally entangled with hereditary social privilege.;;;;;;;;;;;;;x
+aristocratic_bureaucracy_desc;The country's executive machinery is squarely in the hands of local aristocrats and magnates: whether through hereditary sheriffs or starotsa, the regional executive remains deeply structurally entangled with hereditary social privilege.;;;;;;;;;;;;;x
 proprietary_bureaucracy;Proprietary Bureaucracy;;;;;;;;;;;;;x
-proprietary_bureaucracy_desc;There is no civil appointment bodies, leading to common nepotism.;;;;;;;;;;;;;x
+proprietary_bureaucracy_desc; The offices of the bureaucracy are bought and sold, and treated as hereditary property with government permission, sometimes with a small tax, often leading them to be the reserve of the local and loyal bourgeois.;;;;;;;;;;;;;x
 appointed_bureaucrats;Appointed Bureaucrats;;;;;;;;;;;;;x
 appointed_bureaucrats_desc;The offices of the bureaucracy are bought and sold, and treated as hereditary property with government permission, sometimes with a small tax, often leading them to be the reserve of the local and loyal bourgeois.;;;;;;;;;;;;;x
 professional_bureaucracy;Professional Bureaucracy;;;;;;;;;;;;;x
