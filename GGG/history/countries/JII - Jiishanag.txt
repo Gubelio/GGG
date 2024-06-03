@@ -14,7 +14,7 @@ prestige = 45
 citizens_rights = primary_culture_only
 border_policy = quota_immigration
 legislative_system = noble_parliament
-land_reform_civ = feudal_tenure
+land_reform_civ = enclosure_of_commons
 banking_system = banking_licenses
 thralldom = thralldom_allowed
 public_order = appointed_justices 
@@ -25,7 +25,7 @@ school_reforms = parish_school_system
 
 # Social Reforms
 emigration_law = emigration_restricted
-clerical_law = magisteralism
+clerical_law = magisterialism
 worker_protections = trinket_protections
 scriptural_law = freedom_of_conscience
 welfare_laws = public_granaries
