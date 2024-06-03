@@ -1,7 +1,7 @@
 capital = 671
 primary_culture = north_gashdzii
 religion = kadkohi
-government = princely_despotate #aristocratic_commonwealth
+government = princely_despotate
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.13
@@ -10,7 +10,30 @@ civilized = yes
 
 # Political reforms
 
+citizens_rights = primary_culture_only
+border_policy = closed_borders
+legislative_system = noble_parliament
+land_reform_civ = feudal_tenure
+banking_system = unregulated_currency
+thralldom = thralldom_allowed
+public_order = feudal_courts
+administrative_reform = proprietary_bureaucracy
+infrastructure = ad_hoc_development
+health_care = no_health_care
+school_reforms = no_school_system
+
 # Social Reforms
+
+emigration_law = emigration_restricted
+clerical_law = magisterialism
+worker_protections = no_protections
+scriptural_law = courts_of_canon
+welfare_laws = public_granaries
+debt_law = serfdom
+penal_system = capital_punishment
+slavery = yes_slavery
+wage_reform = no_minimum_wage
+social_privileges = feudal_rights
 
 ruling_party = dominion_conservative
 upper_house = { # inherit

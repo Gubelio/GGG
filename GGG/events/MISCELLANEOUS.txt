@@ -694,43 +694,21 @@ country_event = {
 	}
 }
 
+
+
 country_event = {
-	id = 50009 #statist bureaucracy government reforms
+	id = 50009 #princely despotate government reforms
 	title = "EVTNAME50009"
 	desc = "EVTDESC50009"
 	#picture = "Socialism"
 	
 	trigger = {
 		civilized = yes
-		legislative_system = appointed_legislatures
-		administrative_reform = professional_bureaucracy
-		public_order = unified_legal_code
 
-		NOT = {
-		    government = statist_bureaucracy
-		}
-		
-		    
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
-	option = {
-		name = "EVT50009OPTA"
-		government = statist_bureaucracy
-	}
-}
-
-country_event = {
-	id = 50010 #princely despotate government reforms
-	title = "EVTNAME50010"
-	desc = "EVTDESC50010"
-	#picture = "Socialism"
-	
-	trigger = {
-		civilized = yes
+		NOT = { 
+		    tag = POU #Poumnian God King cannot become secular
+		    government = theocracy
+		}	
 
 		administrative_reform = proprietary_bureaucracy
 		land_reform_civ = feudal_tenure
@@ -761,19 +739,24 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT50010OPTA"
+		name = "EVT50009OPTA"
 		government = princely_despotate
 	}
 }
 
 country_event = {
-	id = 50011 #parliamentary despotate government reforms
-	title = "EVTNAME50011"
-	desc = "EVTDESC50011"
+	id = 50010 #aristocratic commonwealth government reforms
+	title = "EVTNAME50010"
+	desc = "EVTDESC50010"
 	#picture = "Socialism"
 	
 	trigger = {
 		civilized = yes
+
+		NOT = { 
+		    tag = POU #Poumnian God King cannot become secular
+		    government = theocracy
+		}	
 
 		administrative_reform = aristocratic_bureaucracy
 		public_order = feudal_courts
@@ -802,15 +785,15 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT50011OPTA"
+		name = "EVT50010OPTA"
 		government = aristocratic_commonwealth
 	}
 }
 
 country_event = {
-	id = 50012 #end of serfdom
-	title = "EVTNAME50012"
-	desc = "EVTDESC50012"
+	id = 50011 #end of serfdom
+	title = "EVTNAME50011"
+	desc = "EVTDESC50011"
 	#picture = "Socialism"
 	
 	trigger = {
@@ -824,7 +807,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT50012OPTA"
+		name = "EVT50011OPTA"
 			any_owned = {
 				has_pop_type = serfs
 				OR = {
@@ -837,9 +820,9 @@ country_event = {
 }
 
 country_event = {
-	id = 50013 #end of thralldom
-	title = "EVTNAME50013"
-	desc = "EVTDESC50013"
+	id = 50012 #end of thralldom
+	title = "EVTNAME50012"
+	desc = "EVTDESC50012"
 	#picture = "Socialism"
 	
 	trigger = {
@@ -853,7 +836,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT50013OPTA"
+		name = "EVT50012OPTA"
 			any_owned = {
 				has_pop_type = thralls
 				OR = {
