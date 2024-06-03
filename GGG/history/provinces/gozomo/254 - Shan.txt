@@ -6,3 +6,9 @@ add_core = KID
 trade_goods = iron
 life_rating = 33
 
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+railroad = 1
