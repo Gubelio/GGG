@@ -32668,6 +32668,11 @@ labourers = {
 		 size = 110455
 	}
 
+	craftsmen = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 4100
+	}
 
 	officers = {
 		 culture = north_gashdzii
