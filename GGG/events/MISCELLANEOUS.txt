@@ -710,6 +710,13 @@ country_event = {
 		    government = theocracy
 		}	
 
+		NOT = { #Can't reform out of radical government
+		    OR = {
+		       government = paternalistic_council
+		       government = statist_bureaucracy
+		    }
+		}	
+
 		administrative_reform = proprietary_bureaucracy
 		land_reform_civ = feudal_tenure
 		public_order = appointed_justices
@@ -756,6 +763,13 @@ country_event = {
 		NOT = { 
 		    tag = POU #Poumnian God King cannot become secular
 		    government = theocracy
+		}
+
+		NOT = { #Can't reform out of radical government
+		    OR = {
+		       government = paternalistic_council
+		       government = statist_bureaucracy
+		    }
 		}	
 
 		administrative_reform = aristocratic_bureaucracy
@@ -791,33 +805,25 @@ country_event = {
 }
 
 country_event = {
-	id = 50011 #end of serfdom
-	title = "EVTNAME50011"
-	desc = "EVTDESC50011"
-	#picture = "Socialism"
-	
-	trigger = {
-		civilized = yes
-		any_owned_province = {
-			has_pop_type = serfs
-		}
-		NOT = {
-		    debt_law = serfdom
-		}
-	}
-
-	option = {
-		name = "EVT50011OPTA"
-			any_owned = {
-				has_pop_type = serfs
-				OR = {
-					has_pop_type = farmers
-					has_pop_type = labourers
-				}
-				serfs = { pop_type = farmers }
-			}
-	}
-}
+    id = 50011 #end of serfdom
+    title = "EVTNAME50011"
+    desc = "EVTDESC50011"
+    #picture = "Socialism"
+    
+    trigger = {
+    
+        random_country = { ai = yes }
+        
+        any_country = {
+            civilized = yes
+            any_owned_province = {
+                has_pop_type = serfs
+            }
+            NOT = {
+                debt_law = serfdom
+            }
+        }
+    }
 
 country_event = {
 	id = 50012 #end of thralldom

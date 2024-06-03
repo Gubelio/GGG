@@ -80,7 +80,6 @@ UPO		= "countries/Upo.txt"
 MAB		= "countries/Mabii.txt"
 SHK		= "countries/Shukshoz.txt"
 JAD		= "countries/Jadiim.txt"
-KID		= "countries/Kiidnazh.txt"
 RAN		= "countries/Rannu Empire.txt"
 BUD		= "countries/Budobaman.txt"
 TAK		= "countries/Takemog.txt"
@@ -226,6 +225,9 @@ JAN		= "countries/Janaa.txt"
 MSQ		= "countries/Misuq.txt"
 JGG		= "countries/Jigguva.txt"
 BAA		= "countries/Baastuu.txt"
+
+#FORMABLES
+KID		= "countries/Kiidnazh.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
