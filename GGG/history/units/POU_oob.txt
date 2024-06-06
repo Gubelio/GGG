@@ -1,5 +1,15 @@
 #Relations
 
+VOK = {
+    value = -200
+}
+
+VUG = {
+    value = -150
+}
+
+#Armies
+
 leader = {
     name = "Mruuwub Sha-Ibu"
     type = land

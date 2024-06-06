@@ -1,5 +1,15 @@
 #Relations
 
+POU = {
+    value = -200
+}
+
+VUG = {
+    value = -150
+}
+
+#Armies
+
 leader = {
     name = "Gozomedes Midodazh" #King Gozomedes Himself
     type = land

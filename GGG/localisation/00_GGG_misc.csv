@@ -431,6 +431,355 @@ cotton;Spindleweed;;;;;;;;;;;;;x
 chobajhi;Chobajhi;;;;;;;;;;;;;x
 deuseuian;Deuseuian;;;;;;;;;;;;;x
 ftemioq;Ftemioq;;;;;;;;;;;;;x
+social_policy;Welfare Policy;;;;;;;;;;;;;
+colonial_spending_policy;Colonial;;;;;;;;;;;;;
+colonial_spending_policy_l;Colonial;;;;;;;;;;;;;
+colonial_spending_policy_desc;The government has a colonial policy towards its subjects and has no intention of spending any money on their welfare.;;;;;;;;;;;;;
+no_state_interference;Opposed to Welfare;;;;;;;;;;;;;
+no_state_interference_l;Opposed to Welfare;;;;;;;;;;;;;
+no_state_interference_desc;The government feels that welfare expenditures are unnecessary and that individuals should look after themselves.;;;;;;;;;;;;;
+no_position_set;No Official Policy;;;;;;;;;;;;;
+no_position_set_l;No Official Welfare Policy;;;;;;;;;;;;;
+no_position_set_desc;There's no official position on welfare policy and how much should the government spend on it, the amount being largely left for the ruler to decide.;;;;;;;;;;;;;
+populist_welfare;Paternalistic;;;;;;;;;;;;;
+populist_welfare_l;Paternalistic Welfare;;;;;;;;;;;;;
+populist_welfare_desc;The welfare system in this government has a paternalistic characteristic, with a minimum amount set to be spent in support of this oftentimes populist policy.;;;;;;;;;;;;;
+welfare_state;Full Welfare State;;;;;;;;;;;;;
+welfare_state_l;Full Welfare State;;;;;;;;;;;;;
+welfare_state_desc;This government feels that the welfare of the less fortunate is of the utmost importance and dedicates a piece of the budget to pursue this objective.;;;;;;;;;;;;;
+primary_culture_only_l;Primary Culture Only;;;;;;;;;;;;;x
+culture_voting_only_l;Minority Rights;;;;;;;;;;;;;x
+all_voting_pops_l;All Cultures Accepted;;;;;;;;;;;;;x
+closed_borders_l;Closed Borders;;;;;;;;;;;;;x
+quota_immigration_l;Quota Immigration;;;;;;;;;;;;;x
+open_borders_l;Open Borders;;;;;;;;;;;;;x
+tribal_assembly_l;Tribal Assembly;;;;;;;;;;;;;x
+noble_parliament_l;Noble Parliament;;;;;;;;;;;;;x
+regulated_elections_l;Regulated Elections;;;;;;;;;;;;;x
+approved_candidacy_l;Approved Candidacy;;;;;;;;;;;;;x
+appointed_legislatures_l;Appointed Legislatures;;;;;;;;;;;;;x
+feudal_tenure_l;Feudal Tenure;;;;;;;;;;;;;x
+enclosure_of_commons_l;Enclosure of Commons;;;;;;;;;;;;;x
+private_landownership_l;Private Landownership;;;;;;;;;;;;;x
+land_banking_l;Land Banking;;;;;;;;;;;;;x
+farm_cooperatives_l;Farm Cooperatives;;;;;;;;;;;;;x
+collectivized_farming_l;Collectivized Farming;;;;;;;;;;;;;x
+unregulated_currency_l;Unregulated Currency;;;;;;;;;;;;;x
+banking_licenses_l;Banking Licenses;;;;;;;;;;;;;x
+central_banking_l;Central Banking;;;;;;;;;;;;;x
+regulatory_institutions_l;Regulatory Institutions;;;;;;;;;;;;;x
+thralldom_allowed_l;Thralldom Allowed;;;;;;;;;;;;;x
+thralldom_outlawed_l;Thralldom Outlawed;;;;;;;;;;;;;x
+feudal_courts_l;Feudal Courts;;;;;;;;;;;;;x
+appointed_justices_l;Appointed Justices;;;;;;;;;;;;;x
+unified_legal_code_l;Unified Legal Code;;;;;;;;;;;;;x
+aristocratic_bureaucracy_l;Aristocratic Bureaucracy;;;;;;;;;;;;;x
+proprietary_bureaucracy_l;Proprietary Bureaucracy;;;;;;;;;;;;;x
+appointed_bureaucrats_l;Appointed Bureaucrats;;;;;;;;;;;;;x
+professional_bureaucracy_l;Professional Bureaucracy;;;;;;;;;;;;;x
+ad_hoc_development_l;Ad-Hoc Development;;;;;;;;;;;;;x
+turnpikes_n_municipal_funding_l;Turnpikes & Municipal Funding;;;;;;;;;;;;;x
+urban_planning_l;Urban Planning;;;;;;;;;;;;;x
+public_works_division_l;Public Works Division;;;;;;;;;;;;;x
+no_health_care_l;No Health Care;;;;;;;;;;;;;x
+trinket_health_care_l;Trinket Health Care;;;;;;;;;;;;;x
+low_health_care_l;Low Health Care;;;;;;;;;;;;;x
+acceptable_health_care_l;Acceptable Health Care;;;;;;;;;;;;;x
+good_health_care_l;Good Health Care;;;;;;;;;;;;;x
+no_school_system_l;No School System;;;;;;;;;;;;;x
+parish_school_system_l;Parish School System;;;;;;;;;;;;;x
+state_school_system_l;State School System;;;;;;;;;;;;;x
+emigration_forbidden_l;Emigration Forbidden;;;;;;;;;;;;;x
+emigration_restricted_l;Emigration Restricted;;;;;;;;;;;;;x
+emigration_permitted_l;Emigration Permitted;;;;;;;;;;;;;x
+empowered_clergy_l;Empowered Clergy;;;;;;;;;;;;;x
+magisterialism_l;Magisterialism;;;;;;;;;;;;;x
+anti_clericalism_l;Anti-Clericalism;;;;;;;;;;;;;x
+no_protections_l;No Protections;;;;;;;;;;;;;x
+trinket_protections_l;Trinket Protections;;;;;;;;;;;;;x
+low_protections_l;Low Protections;;;;;;;;;;;;;x
+acceptable_protections_l;Acceptable Protections;;;;;;;;;;;;;x
+good_protections_l;Good Protections;;;;;;;;;;;;;x
+morality_police_l;Morality Police;;;;;;;;;;;;;x
+courts_of_canon_l;Courts of Canon;;;;;;;;;;;;;x
+freedom_of_conscience_l;Freedom of Conscience;;;;;;;;;;;;;x
+permitted_heterodoxy_l;Permitted Heterodoxy;;;;;;;;;;;;;x
+local_congregationalism_l;Local Congregationalism;;;;;;;;;;;;;x
+no_dole_l;No Dole;;;;;;;;;;;;;x
+public_granaries_l;Public Granaries;;;;;;;;;;;;;x
+subsidized_grain_imports_l;Subsidized Grain Imports;;;;;;;;;;;;;x
+universal_grain_dole_l;Universal Grain Dole;;;;;;;;;;;;;x
+mule_n_seed_law_l;Mule & Seed Law;;;;;;;;;;;;;x
+serfdom_l;Serfdom;;;;;;;;;;;;;x
+peonage_l;Peonage;;;;;;;;;;;;;x
+debtors_prisons_l;Debtors Prisons;;;;;;;;;;;;;x
+bankruptcy_l;Bankruptcy;;;;;;;;;;;;;x
+capital_punishment_l;Capital Punishment;;;;;;;;;;;;;x
+colonial_transportation_l;Colonial Transportation;;;;;;;;;;;;;x
+incarceration_l;Incarceration;;;;;;;;;;;;;x
+rehabilitation_l;Rehabilitation;;;;;;;;;;;;;x
+yes_slavery_l;Slavery Allowed;;;;;;;;;;;;;x #Normally just Allowed
+code_of_rights_l;Code of Rights;;;;;;;;;;;;;x
+public_ownership_l;Public Ownership;;;;;;;;;;;;;x
+gradual_abolition_l;Gradual Abolition;;;;;;;;;;;;;x
+no_slavery_l;Slavery Outlawed;;;;;;;;;;;;;x #Normally just Outlawed
+feudal_rights_l;Feudal Rights;;;;;;;;;;;;;x
+sanctioned_privileges_l;Sanctioned Privileges;;;;;;;;;;;;;x
+sumptuary_laws_l;Sumptuary Laws;;;;;;;;;;;;;x
+legal_disabilities_l;Legal Disabilities;;;;;;;;;;;;;x
+equality_before_the_law_l;Equality Before the Law;;;;;;;;;;;;;x
+movement_primary_culture_only;Primary Culture Only Movement;;;;;;;;;;;;;x
+movement_culture_voting_only;Minority Rights Movement;;;;;;;;;;;;;x
+movement_all_voting_pops;All Cultures Accepted Movement;;;;;;;;;;;;;x
+movement_closed_borders;Closed Borders Movement;;;;;;;;;;;;;x
+movement_quota_immigration;Quota Immigration Movement;;;;;;;;;;;;;x
+movement_open_borders;Open Borders Movement;;;;;;;;;;;;;x
+movement_tribal_assembly;Tribal Assembly Movement;;;;;;;;;;;;;x
+movement_noble_parliament;Noble Parliament Movement;;;;;;;;;;;;;x
+movement_regulated_elections;Regulated Elections Movement;;;;;;;;;;;;;x
+movement_approved_candidacy;Approved Candidacy Movement;;;;;;;;;;;;;x
+movement_appointed_legislatures;Appointed Legislatures Movement;;;;;;;;;;;;;x
+movement_feudal_tenure;Feudal Tenure Movement;;;;;;;;;;;;;x
+movement_enclosure_of_commons;Enclosure of Commons Movement;;;;;;;;;;;;;x
+movement_private_landownership;Private Landownership Movement;;;;;;;;;;;;;x
+movement_land_banking;Land Banking Movement;;;;;;;;;;;;;x
+movement_farm_cooperatives;Farm Cooperatives Movement;;;;;;;;;;;;;x
+movement_collectivized_farming;Collectivized Farming Movement;;;;;;;;;;;;;x
+movement_unregulated_currency;Unregulated Currency Movement;;;;;;;;;;;;;x
+movement_banking_licenses;Banking Licenses Movement;;;;;;;;;;;;;x
+movement_central_banking;Central Banking Movement;;;;;;;;;;;;;x
+movement_regulatory_institutions;Regulatory Institutions Movement;;;;;;;;;;;;;x
+movement_thralldom_allowed;Thralldom Allowed Movement;;;;;;;;;;;;;x
+movement_thralldom_outlawed;Thralldom Outlawed Movement;;;;;;;;;;;;;x
+movement_feudal_courts;Feudal Courts Movement;;;;;;;;;;;;;x
+movement_appointed_justices;Appointed Justices Movement;;;;;;;;;;;;;x
+movement_unified_legal_code;Unified Legal Code Movement;;;;;;;;;;;;;x
+movement_aristocratic_bureaucracy;Aristocratic Bureaucracy Movement;;;;;;;;;;;;;x
+movement_proprietary_bureaucracy;Proprietary Bureaucracy Movement;;;;;;;;;;;;;x
+movement_appointed_bureaucrats;Appointed Bureaucrats Movement;;;;;;;;;;;;;x
+movement_professional_bureaucracy;Professional Bureaucracy Movement;;;;;;;;;;;;;x
+movement_ad_hoc_development;Ad-Hoc Development Movement;;;;;;;;;;;;;x
+movement_turnpikes_n_municipal_funding;Turnpikes & Municipal Funding Movement;;;;;;;;;;;;;x
+movement_urban_planning;Urban Planning Movement;;;;;;;;;;;;;x
+movement_public_works_division;Public Works Division Movement;;;;;;;;;;;;;x
+movement_no_health_care;No Health Care Movement;;;;;;;;;;;;;x
+movement_trinket_health_care;Trinket Health Care Movement;;;;;;;;;;;;;x
+movement_low_health_care;Low Health Care Movement;;;;;;;;;;;;;x
+movement_acceptable_health_care;Acceptable Health Care Movement;;;;;;;;;;;;;x
+movement_good_health_care;Good Health Care Movement;;;;;;;;;;;;;x
+movement_no_school_system;No School System Movement;;;;;;;;;;;;;x
+movement_parish_school_system;Parish School System Movement;;;;;;;;;;;;;x
+movement_state_school_system;State School System Movement;;;;;;;;;;;;;x
+movement_emigration_forbidden;Emigration Forbidden Movement;;;;;;;;;;;;;x
+movement_emigration_restricted;Emigration Restricted Movement;;;;;;;;;;;;;x
+movement_emigration_permitted;Emigration Permitted Movement;;;;;;;;;;;;;x
+movement_empowered_clergy;Empowered Clergy Movement;;;;;;;;;;;;;x
+movement_magisterialism;Magisterialism Movement;;;;;;;;;;;;;x
+movement_anti_clericalism;Anti-Clericalism Movement;;;;;;;;;;;;;x
+movement_no_protections;No Protections Movement;;;;;;;;;;;;;x
+movement_trinket_protections;Trinket Protections Movement;;;;;;;;;;;;;x
+movement_low_protections;Low Protections Movement;;;;;;;;;;;;;x
+movement_acceptable_protections;Acceptable Protections Movement;;;;;;;;;;;;;x
+movement_good_protections;Good Protections Movement;;;;;;;;;;;;;x
+movement_morality_police;Morality Police Movement;;;;;;;;;;;;;x
+movement_courts_of_canon;Courts of Canon Movement;;;;;;;;;;;;;x
+movement_freedom_of_conscience;Freedom of Conscience Movement;;;;;;;;;;;;;x
+movement_permitted_heterodoxy;Permitted Heterodoxy Movement;;;;;;;;;;;;;x
+movement_local_congregationalism;Local Congregationalism Movement;;;;;;;;;;;;;x
+movement_no_dole;No Dole Movement;;;;;;;;;;;;;x
+movement_public_granaries;Public Granaries Movement;;;;;;;;;;;;;x
+movement_subsidized_grain_imports;Subsidized Grain Imports Movement;;;;;;;;;;;;;x
+movement_universal_grain_dole;Universal Grain Dole Movement;;;;;;;;;;;;;x
+movement_mule_n_seed_law;Mule & Seed Law Movement;;;;;;;;;;;;;x
+movement_serfdom;Serfdom Movement;;;;;;;;;;;;;x
+movement_peonage;Peonage Movement;;;;;;;;;;;;;x
+movement_debtors_prisons;Debtors Prisons Movement;;;;;;;;;;;;;x
+movement_bankruptcy;Bankruptcy Movement;;;;;;;;;;;;;x
+movement_capital_punishment;Capital Punishment Movement;;;;;;;;;;;;;x
+movement_colonial_transportation;Colonial Transportation Movement;;;;;;;;;;;;;x
+movement_incarceration;Incarceration Movement;;;;;;;;;;;;;x
+movement_rehabilitation;Rehabilitation Movement;;;;;;;;;;;;;x
+movement_yes_slavery;Slavery Allowed Movement;;;;;;;;;;;;;x #Normally just Allowed
+movement_code_of_rights;Code of Rights Movement;;;;;;;;;;;;;x
+movement_public_ownership;Public Ownership Movement;;;;;;;;;;;;;x
+movement_gradual_abolition;Gradual Abolition Movement;;;;;;;;;;;;;x
+movement_no_slavery;Slavery Outlawed Movement;;;;;;;;;;;;;x #Normally just Outlawed
+movement_feudal_rights;Feudal Rights Movement;;;;;;;;;;;;;x
+movement_sanctioned_privileges;Sanctioned Privileges Movement;;;;;;;;;;;;;x
+movement_sumptuary_laws;Sumptuary Laws Movement;;;;;;;;;;;;;x
+movement_legal_disabilities;Legal Disabilities Movement;;;;;;;;;;;;;x
+movement_equality_before_the_law;Equality Before the Law Movement;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

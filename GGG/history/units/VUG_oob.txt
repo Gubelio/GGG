@@ -1,5 +1,21 @@
 #Relations
 
+POU = {
+    value = -150
+}
+
+VOK = {
+    value = -150
+}
+
+#Armies
+
+POU = {
+    value = -200
+}
+
+#Armies
+
 leader = {
     name = "Soora Gooth"
     type = land
