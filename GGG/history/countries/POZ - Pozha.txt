@@ -1,12 +1,13 @@
 capital = 534
 primary_culture = west_gashdzii
 religion = kadkohi
-government = theocracy
+government = princely_despotate
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.13
 non_state_culture_literacy = 0.01
 civilized = yes
+
 
 # Political reforms
 
