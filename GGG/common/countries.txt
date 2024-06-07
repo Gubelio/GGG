@@ -11,7 +11,7 @@ VUG		= "countries/Vugioroo.txt" #Sublime Veyethu
 SOG		= "countries/Sog.txt"
 GHE		= "countries/Ghechi Confederacy.txt"
 VAF		= "countries/Vafaut.txt" #Vâfaut
-SHU		= "countries/Shuknazh.txt"
+SHZ		= "countries/Shuknazh.txt"
 PAK		= "countries/Paknag.txt"
 GOZ		= "countries/Gozonazh.txt"
 TWD		= "countries/Towuorud.txt"
@@ -228,6 +228,7 @@ BAA		= "countries/Baastuu.txt"
 
 #FORMABLES
 KID		= "countries/Kiidnazh.txt"
+TGN		= "countries/The Great Nag.txt" #The Great Nâg
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

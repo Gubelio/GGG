@@ -37,15 +37,15 @@ slavery = yes_slavery
 wage_reform = no_minimum_wage
 social_privileges = feudal_rights
 
-ruling_party = dominion_conservative
+ruling_party = dominion_reactionary
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0
 	conservative = 65
-	reactionary = 15
+	reactionary = 31
 	absolutist = 0
-	liberationist = 15
-	free_yoker = 5
+	liberationist = 3
+	free_yoker = 1
 }
 
 

@@ -1,0 +1,215 @@
+political_decisions = {
+
+    form_kiidnazh = {
+        #news = yes
+        #news_desc_long = "form_italy_NEWS_LONG"
+        #news_desc_medium = "form_italy_NEWS_MEDIUM"
+        #news_desc_short = "form_italy_NEWS_SHORT"
+		picture = "form_kiidnazh_image"
+		
+        potential = {
+            is_culture_group = gashdzii
+            capital_scope = { continent = north_america }
+            NOT = {
+                exists = KID
+            }
+        }
+
+        allow = {
+            prestige = 100
+            nationalism_n_imperialism = 1
+            is_greater_power = yes
+            war = no
+            KID = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            prestige = 50
+            #all_core = { remove_core = THIS }
+            change_tag = KID
+            capital = 533
+            add_accepted_culture = west_gashdzii
+            add_accepted_culture = south_gashdzii
+            add_accepted_culture = north_gashdzii
+            any_country = {
+                limit = {
+                    is_culture_group = gashdzii
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    form_the_great_nag = {
+        #news = yes
+        #news_desc_long = "form_italy_NEWS_LONG"
+        #news_desc_medium = "form_italy_NEWS_MEDIUM"
+        #news_desc_short = "form_italy_NEWS_SHORT"
+		picture = "form_great_nag_image"
+		
+        potential = {
+			OR = {
+				tag = GAU
+				tag = PAK
+				tag = SHZ
+				tag = JII
+			}
+            NOT = {
+                exists = TGN
+            }
+        }
+
+        allow = {
+            nationalism_n_imperialism = 1
+            is_greater_power = yes
+            war = no
+			SHZ = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+			}
+			GAU = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+			}
+			JII = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+			}
+			PAK = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+			}
+        }
+
+        effect = {
+            prestige = 25
+            #all_core = { remove_core = THIS }
+            change_tag = TGN
+            any_country = {
+                limit = {
+                    OR = {
+						tag = SHZ
+						tag = JII
+						tag = GAU
+						tag = PAK
+					}
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

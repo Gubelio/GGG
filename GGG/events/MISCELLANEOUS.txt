@@ -853,3 +853,340 @@ country_event = {
 			}
 	}
 }
+
+##################
+## UNIFICATION ###
+##################
+
+# Event to Inherit
+country_event = {
+    id = 50013
+    title = "EVTNAME50013"
+    desc = "EVTDESC50013"
+    #picture = "Celebration"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT50013OPTA"
+        any_country = {
+            limit = {
+                OR = {
+                    is_sphere_leader_of = THIS
+                    is_our_vassal = THIS
+                }
+                NOT = { tag = FROM }
+            }
+            relation = {
+                who = FROM
+                value = -25
+            }
+            casus_belli = {
+                target = FROM
+                type = humiliate
+                months = 24
+            }
+            casus_belli = {
+                target = FROM
+                type = free_peoples
+                months = 24
+            }
+        }
+
+        any_country = {
+            limit = {
+                exists = yes
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        any_country = {
+            limit = {
+                exists = yes
+                military_access = THIS
+            }
+            end_military_access = THIS
+        }
+
+        #any_country = {
+        #    limit = {
+        #        exists = yes
+        #        vassal_of = THIS
+        #        any_owned_province = { is_core = FROM }
+        #    }
+        #    any_owned = {
+        #        limit = { is_core = FROM }
+        #        add_province_modifier = { name = core_when_done duration = 30 }
+        #    }
+        #}
+
+        random_owned = {
+            limit = { owner = { NOT = { num_of_vassals = 1 } } }
+            owner = { FROM = { inherit = THIS } }
+        }
+
+        #random_owned = {
+        #    limit = { owner = { num_of_vassals = 1 } }
+        #    owner = {
+        #        FROM = { country_event =  6016822 }
+        #    }
+        #}
+
+        ai_chance = {
+            factor = 75
+            modifier = {
+                factor = 0
+                is_greater_power = yes
+                NOT = { has_country_flag = wants_to_unify }
+            }
+            modifier = {
+                factor = 2
+                OR = {
+                    alliance_with = FROM
+                    relation = { who = FROM value = 100 }
+                }
+            }
+            modifier = {
+                factor = 0.1
+                government = sublime_synod 
+                FROM = { government = paternalistic_council }
+            }
+            modifier = {
+                factor = 0.1
+                government = paternalistic_council
+                FROM = { government = sublime_synod  }
+            }
+        }
+    }
+
+    option = {
+        name = "EVT50013OPTB"
+        #clr_country_flag = wants_to_unify
+        prestige = 1
+        leave_alliance = FROM
+        relation = {
+            who = FROM
+            value = -200
+        }
+        FROM = {
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                vassal_of = THIS
+                in_sphere = FROM
+            }
+            leave_alliance = FROM
+            end_military_access = FROM
+            relation = { who = FROM value = -200 }
+            #set_country_flag = failed_unification_remove_from_sphere
+        }
+        any_pop = {
+            limit = { is_primary_culture = yes }
+            militancy = 3
+            consciousness = 2
+        }
+        ai_chance = {
+            factor = 25
+            #modifier = {
+            #    factor = 0
+            #    has_country_flag = wants_to_unify
+            #}
+            modifier = {
+                factor = 0
+                vassal_of = FROM
+            }
+            modifier = {
+                factor = 0.75
+                is_secondary_power = no
+            }
+            modifier = {
+                factor = 0.75
+                part_of_sphere = no
+            }
+            modifier = {
+                factor = 1.5
+                truce_with = FROM
+            }
+            modifier = {
+                factor = 1.5
+                NOT = {
+                    relation = { who = FROM value = 0 }
+                }
+            }
+            modifier = {
+                factor = 0.25
+                in_sphere = FROM
+            }
+            modifier = {
+                factor = 0.25
+                government = sublime_synod
+                FROM = { government = sublime_synod }
+            }
+            modifier = {
+                factor = 0.25
+                government = paternalistic_council
+                FROM = { government = paternalistic_council }
+            }
+            modifier = {
+                factor = 0.25
+                OR = {
+                    government = theocracy 
+                    government = aristocratic_commonwealth 
+                    government = princely_despotate 
+                }
+                FROM = {
+                    OR = {
+						government = theocracy 
+						government = aristocratic_commonwealth 
+						government = princely_despotate 
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Pan-Nationalist
+country_event = {
+    title = "EVTNAME50014"
+    desc = "EVTDESC50014"
+    #picture = "Celebration"
+
+    id = 50014
+
+    trigger = {
+        war = no
+        has_country_flag = crown_from_the_gutter
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {                # Accept inheritance
+        name = "EVT50014OPTA"
+        clr_country_flag = crown_from_the_gutter
+        #all_core = { remove_core = THIS }
+        change_tag = culture
+        any_country = {
+            limit = {
+                war = no
+                NOT = { tag = THIS }
+                is_culture_group = THIS
+                is_greater_power = no
+                OR = {
+                    OR = {
+                        in_sphere = THIS
+                        sphere_owner = { is_sphere_leader_of = THIS }
+                        AND = {
+                            part_of_sphere = no
+                            relation = { who = THIS value = 50 }
+                        }
+                    }
+                }
+                num_of_cities = 1
+            }
+            country_event = 50013
+        }
+        prestige = -15
+        badboy = 10
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 5
+                government = princely_despotate
+            }
+            modifier = {
+                factor = 10
+                government = aristocratic_commonwealth
+            }
+        }
+    }
+
+    option = {
+        name = "EVT50014OPTB"
+        clr_country_flag = crown_from_the_gutter
+        prestige = 2
+        ai_chance = {
+            factor = 95
+            modifier = {
+                factor = 1.5
+                government = absolute_monarchy
+            }
+        }
+        any_pop = {
+            limit = { is_primary_culture = yes }
+            militancy = 1
+        }
+    }
+}
+
+
+country_event = {
+	id = 50015 
+	title = "EVTNAME50015"
+	desc = "EVTDESC50015"
+	#picture = "Socialism"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50015OPTA"
+		clr_country_flag = recently_stacked_upper_house
+	}
+}
+
+############################
+#### MULTIPLAYER GRANTS ####
+############################
+
+country_event = {
+	id = 50016 #GRANT REQUEST
+	title = "EVTNAME50016"
+	desc = "EVTDESC50016"
+	#picture = "Socialism"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50016OPTA" #Deny request
+	}
+	
+	option = {
+		name = "EVT50016OPTB" #50,000
+		treasury = -50000
+		FROM = {
+			treasury = 50000
+		}
+	}
+	
+	option = {
+		name = "EVT50016OPTC" #100,000
+		treasury = -100000
+		FROM = {
+			treasury = 100000
+		}
+	}
+	
+	option = {
+		name = "EVT50016OPTD" #250,000
+		treasury = -250000
+		FROM = {
+			treasury = 250000
+		}
+	}
+	
+	option = {
+		name = "EVT50016OPTE" #500,000
+		treasury = -500000
+		FROM = {
+			treasury = 500000
+		}
+	}
+}

@@ -38,6 +38,13 @@ national_confusion = {
     icon = 4
 }
 
+political_outrage = {
+    ruling_party_support = -0.001
+    global_pop_consciousness_modifier = 0.01
+    global_pop_militancy_modifier = 0.01
+    icon = 18
+}
+
 loss_of_control = {
     icon = 2
 }

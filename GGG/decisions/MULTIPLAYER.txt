@@ -1,0 +1,59 @@
+political_decisions = {
+
+    not_interested_in_grants = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = not_interested_in_grants }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = not_interested_in_grants
+			clr_country_flag = interested_in_grants
+        }
+    }
+
+    interested_in_grants = {
+        alert = no
+        potential = {
+			ai = no
+			has_country_flag = not_interested_in_grants
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = interested_in_grants
+			clr_country_flag = not_interested_in_grants
+        }
+    }
+
+    request_grant = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = not_interested_in_grants }
+        }
+
+        allow = {
+        }
+
+        effect = {
+
+			any_country = {
+				limit = {
+					ai = no
+					NOT = { has_country_flag = not_interested_in_grants }
+				}
+				country_event = { id = 50016 }
+			}
+        }
+    }
+
+
+
+}

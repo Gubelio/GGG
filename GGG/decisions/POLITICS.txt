@@ -1,0 +1,237 @@
+political_decisions = {
+
+    stack_upper_house_liberationist = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = liberationist
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = liberationist
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = statist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = absolutist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 4
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+	
+    stack_upper_house_free_yoker = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = free_yoker
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = free_yoker
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = statist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = absolutist
+					factor = 4
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 4
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+	
+    stack_upper_house_reactionary = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = reactionary
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = reactionary
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = conservative
+					factor = 1
+				}
+				scaled_militancy = {
+					ideology = statist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = absolutist
+					factor = 4
+				}
+				scaled_militancy = {
+					ideology = liberationist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = free_yoker
+					factor = 4
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+
+    stack_upper_house_statist = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = statist
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = statist
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = liberationist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = free_yoker
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 4
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+	
+    stack_upper_house_absolutist = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = absolutist
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = absolutist
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = liberationist
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = free_yoker
+					factor = 4
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 4
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+
+}

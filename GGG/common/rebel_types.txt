@@ -1504,7 +1504,7 @@ pan_nationalist_rebels = {
 					cultural_union = { exists = yes }
 				}
 			}
-			#country_event = { id=11100 days=0 }
+			country_event = { id=50014 days=0 }
 		}
 	}
 }
