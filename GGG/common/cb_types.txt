@@ -225,7 +225,7 @@ conquest_low = {
     crisis = no
 
     can_use = {
-        THIS = { ai = no }
+        #THIS = { ai = no }
         total_pops = 100000
         NOT = { total_pops = 400000 }
         NOT = { is_our_vassal = THIS }
@@ -291,7 +291,7 @@ conquest_tiny = {
     crisis = no
 
     can_use = {
-        THIS = { ai = no }
+        #THIS = { ai = no }
         total_pops = 20000
         NOT = { total_pops = 100000 }
         NOT = { is_our_vassal = THIS }
@@ -359,7 +359,7 @@ conquest_minuscule = {
     can_use = {
 	is_vassal = no
 	is_substate = no
-        THIS = { ai = no }
+        #THIS = { ai = no }
         NOT = { total_pops = 20000 }
         NOT = { is_our_vassal = THIS }
         # only one state or unciv
