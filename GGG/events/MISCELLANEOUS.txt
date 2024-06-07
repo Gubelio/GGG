@@ -811,19 +811,27 @@ country_event = {
     #picture = "Socialism"
     
     trigger = {
-    
-        random_country = { ai = yes }
-        
-        any_country = {
-            civilized = yes
-            any_owned_province = {
-                has_pop_type = serfs
-            }
-            NOT = {
-                debt_law = serfdom
-            }
+        civilized = yes
+        any_owned_province = {
+            has_pop_type = serfs
+        }
+        NOT = {
+            debt_law = serfdom
         }
     }
+
+    option = {
+        name = "EVT50011OPTA"
+            any_owned = {
+                has_pop_type = serfs
+                OR = {
+                    has_pop_type = farmers
+                    has_pop_type = labourers
+                }
+                serfs = { pop_type = farmers }
+            }
+    }
+}
 
 country_event = {
 	id = 50012 #end of thralldom
@@ -1190,3 +1198,55 @@ country_event = {
 		}
 	}
 }
+
+
+
+
+
+#country_event = {
+#    id = 50011 #end of serfdom
+#    title = "EVTNAME50011"
+#    desc = "EVTDESC50011"
+#    #picture = "Socialism"
+#    
+#    trigger = {
+#    
+#        random_country = { ai = yes }
+#        
+#        any_country = {
+#            civilized = yes
+#            any_owned_province = {
+#                has_pop_type = serfs
+#            }
+#            NOT = {
+#                debt_law = serfdom
+#            }
+#        }
+#    }
+#
+#    option = {
+#        name = "EVT50011OPTA"
+#        
+#            any_country = {
+#				limit = {
+#					civilized = yes
+#					any_owned_province = {
+#						has_pop_type = serfs
+#					}
+#					NOT = {
+#						debt_law = serfdom
+#					}
+#				}
+#                
+#                any_owned = {
+#                    has_pop_type = serfs
+#                    OR = {
+#                        has_pop_type = farmers
+#                        has_pop_type = labourers
+#                    }
+#                    serfs = { pop_type = farmers }
+#                }
+#            
+#            }
+#    }
+#}

@@ -1,13 +1,12 @@
 country_event = {
 	id = 12345 
 	title = "militancy and consciousness debug"
-	desc = "fuck you"
-	#picture = "Fascist"
+	desc = "10 militancy and 10 consciousness"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "FUC YOU"
+		name = "THANKS BUDDY"
 		any_pop = {
 			militancy = 10
 			consciousness = 10

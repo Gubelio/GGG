@@ -615,15 +615,25 @@ peacetime_mobilization;Peacetime Mobilization;;;;;;;;;;;;;x
 national_confusion;National Confusion;;;;;;;;;;;;;x
 political_outrage;Political Outrage;;;;;;;;;;;;;x
 loss_of_control;Loss of Control;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+take_capital;Take Capital;;;;;;;;;;;;;x
+take_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;Negotiated Transfer of $SECOND$ Land;;;;;;;;;;;;;x
+negotiated_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$;;;;;;;;;;;;;x
+conquest_minuscule;Minuscule Conquest;;;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_MINUSCULE_NAME;$ORDER$Minuscule Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
+conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
+conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low;Lowly Conquest;;;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_LOW_NAME;$ORDER$Lowly Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
+conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
