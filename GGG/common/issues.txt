@@ -175,22 +175,22 @@ party_issues = {
 		}
 	}
 
-#    social_policy = {
-#        no_state_interference = {
-#            max_social_spending = 0.5
-#        }
-#        colonial_spending_policy = {
-#            max_social_spending = 0.01
-#        }
-#        no_position_set = {
-#        }
-#        populist_welfare = {
-#            min_social_spending = 0.15
-#        }
-#        welfare_state = {
-#            min_social_spending = 0.33
-#        }
-#    }
+    social_policy = {
+        no_state_interference = {
+            max_social_spending = 0.5
+        }
+        colonial_spending_policy = {
+            max_social_spending = 0.01
+        }
+        no_position_set = {
+        }
+        populist_welfare = {
+            min_social_spending = 0.15
+        }
+        welfare_state = {
+            min_social_spending = 0.33
+        }
+    }
 
 
 }
