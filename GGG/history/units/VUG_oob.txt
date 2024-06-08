@@ -1,17 +1,19 @@
 #Relations
 
 POU = {
-    value = -150
+    value = -200
 }
 
 VOK = {
     value = -150
 }
 
-#Armies
+JII = {
+    value = -75
+}
 
-POU = {
-    value = -200
+GAU = {
+    value = -150
 }
 
 #Armies

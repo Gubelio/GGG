@@ -1,0 +1,37 @@
+#Relations
+
+#Armies
+
+leader = {
+    name = "Gozopaja 'Paja' Vizhfag"
+    type = land
+    date = 1301.1.1
+    personality = impulsive
+    background = womanizer 
+}
+
+army = {
+    name = "Colonial Expeditionary Force"
+    location = 260
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 260
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 259
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 265
+    }
+
+}
+
+

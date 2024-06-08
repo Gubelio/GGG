@@ -29,4 +29,6 @@ upper_house = { # inherit
 
 #flags
 
+oob = "JJG_oob.txt"
+
 set_country_flag = pagan_country

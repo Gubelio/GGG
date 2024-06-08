@@ -77,4 +77,6 @@ experimental_railroad = 1
 
 #flags
 
+oob = "JII_oob.txt"
+
 set_country_flag = motkohnic_country

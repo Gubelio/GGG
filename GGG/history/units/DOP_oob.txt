@@ -1,0 +1,16 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "War Party"
+    location = 299
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 299
+    }
+
+}
+

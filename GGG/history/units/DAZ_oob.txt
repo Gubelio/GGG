@@ -1,0 +1,28 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of the Great Dazhun"
+    location = 310
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 310
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 312
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 311
+    }
+
+}
+

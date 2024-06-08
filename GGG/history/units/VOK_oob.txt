@@ -8,6 +8,14 @@ VUG = {
     value = -150
 }
 
+GAU = {
+    value = -15
+}
+
+JII = {
+    value = -15
+}
+
 #Armies
 
 leader = {
@@ -16,6 +24,7 @@ leader = {
     date = 1305.1.1
     personality = audacious
     background = natural_born_leader
+    prestige = 0.4
 }
 
 leader = {

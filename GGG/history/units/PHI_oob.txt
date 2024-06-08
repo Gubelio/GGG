@@ -1,0 +1,28 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Knights of the Mountain"
+    location = 303
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 303
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 316
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 298
+    }
+
+}
+

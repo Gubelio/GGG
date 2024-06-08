@@ -79,4 +79,6 @@ mechanical_production = 1
 
 #flags
 
+oob = "GAU_oob.txt"
+
 set_country_flag = kadkohi_country

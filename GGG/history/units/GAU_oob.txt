@@ -1,0 +1,102 @@
+#Relations
+
+POU = {
+    value = -200
+}
+
+VUG = {
+    value = -150
+}
+
+VOK = {
+    value = -15
+}
+
+JII = {
+    value = 15
+}
+
+#Armies
+
+leader = {
+    name = "Vazamak Paupiizh"
+    type = land
+    date = 1307.1.1
+    personality = gallant
+    background = brownnoser
+}
+
+army = {
+    name = "Army of the King"
+    location = 503
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 505
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 506
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 511
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 514
+    }	
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 495
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 494
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 493
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 492
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 327
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 325
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 323
+    }
+
+}
+
+
+

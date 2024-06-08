@@ -1,0 +1,28 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Elder's Band"
+    location = 279
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 290
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 290
+    }
+
+    regiment = {
+        name= "Warrior Band"
+        type = irregular
+        home = 290
+    }
+
+}
+

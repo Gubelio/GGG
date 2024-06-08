@@ -1,7 +1,7 @@
 capital = 288
 primary_culture = vupuyti
 religion = pagan
-government = princely_despotate #aristocratic_commonwealth
+government = princely_despotate
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.01
@@ -28,5 +28,7 @@ upper_house = { # inherit
 
 
 #flags
+
+oob = "PHP_oob.txt"
 
 set_country_flag = pagan_country
