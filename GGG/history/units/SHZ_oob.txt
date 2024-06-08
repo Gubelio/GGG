@@ -4,79 +4,59 @@ POU = {
     value = -200
 }
 
-VOK = {
-    value = -150
-}
-
-JII = {
-    value = -75
-}
-
-GAU = {
-    value = -150
-}
-
-THS = {
-    value = -150
-}
-
-HAH = {
-    value = -150
-}
-
 #Armies
 
-leader = {
-    name = "Soora Gooth"
-    type = land
-    date = 1301.1.1
-    personality = cautious
-    background = pawn
-}
-
 army = {
-    name = "Revolutionary Guard"
-    location = 178
+    name = "Men of the Holy Sepulchre"
+    location = 194
+
+
     regiment = {
-        name= "Freemen Militia"
+        name= "Commoner Levies"
         type = irregular
-        home = 184
+        home = 195
     }
 
     regiment = {
-        name= "Freemen Militia"
+        name= "Commoner Levies"
         type = irregular
-        home = 186
+        home = 196
     }
 
     regiment = {
         name= "Infantry Brigade"
         type = infantry
-        home = 170
+        home = 197
     }
 
     regiment = {
         name= "Infantry Brigade"
         type = infantry
-        home = 168
+        home = 193
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 194
     }
 
     regiment = {
         name= "Artillery Brigade"
         type = artillery
-        home = 165
+        home = 237
     }
 
     regiment = {
         name= "Artillery Brigade"
         type = artillery
-        home = 166
+        home = 236
     }
 
     regiment = {
         name= "Swinery Brigade"
         type = hussar
-        home = 160
+        home = 235
     }
 
 }

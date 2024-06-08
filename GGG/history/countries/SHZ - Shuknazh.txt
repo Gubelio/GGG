@@ -75,4 +75,6 @@ basic_chemistry = 1
 
 #flags
 
+oob = "SHZ_oob.txt"
+
 set_country_flag = motkohnic_country

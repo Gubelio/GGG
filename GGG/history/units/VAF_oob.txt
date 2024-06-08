@@ -1,0 +1,176 @@
+#Relations
+
+POU = {
+    value = -200
+}
+
+#Armies
+
+leader = {
+    name = "Godhiinimiz 'Snake-Mangler' Zhobodt"
+    type = land
+    date = 1305.1.1
+    personality = aggressive 
+    background = artillerist
+}
+
+leader = {
+    name = "Bozzanimiz 'Thrallmaster' Gohofkzh" 
+    type = land
+    date = 1306.1.1
+    personality = sharp
+    background = butcher
+}
+
+leader = {
+    name = "Gauimushiig Faushdzo"
+    type = land
+    date = 1300.1.1
+    personality = deeply_religious
+    background = priest
+}
+
+army = {
+    name = "Royal Army"
+    location = 201
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 201
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 202
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 205
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 233
+    }	
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 233
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 232
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 232
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 232
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 213
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 214
+    }
+
+}
+
+army = {
+    name = "The Mountaineers"
+    location = 212
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 212
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 215
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 231
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 215
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 231
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 223
+    }
+
+}
+
+army = {
+    name = "Army of Buzzamnan"
+    location = 228
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 222
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 226
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 228
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 228
+    }
+	
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 228
+    }
+
+
+}
+

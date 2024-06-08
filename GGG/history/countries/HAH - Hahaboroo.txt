@@ -75,4 +75,6 @@ basic_chemistry = 1
 
 #flags
 
+oob = "HAH_oob.txt"
+
 set_country_flag = vewugi_country

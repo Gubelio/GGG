@@ -1,0 +1,17 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of Soneuhn"
+    location = 114
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 114
+    }
+
+}
+
+

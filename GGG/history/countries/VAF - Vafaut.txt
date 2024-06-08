@@ -75,4 +75,6 @@ basic_chemistry = 1
 
 #flags
 
+oob = "VAF_oob.txt"
+
 set_country_flag = kadkohi_country

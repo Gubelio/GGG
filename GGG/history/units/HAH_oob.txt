@@ -1,0 +1,41 @@
+#Relations
+
+VUG = {
+    value = -150
+}
+
+#Armies
+
+leader = {
+    name = "Thirim 'True-King' Mibi"
+    type = land
+    date = 1301.1.1
+    personality = wrathful
+    background = aristocrat
+}
+
+army = {
+    name = "Army of the True King"
+    location = 100
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 100
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 92
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 96
+    }
+
+}
+
+

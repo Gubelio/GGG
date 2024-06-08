@@ -1,0 +1,47 @@
+#Relations
+
+VUG = {
+    value = -150
+}
+
+#Armies
+
+leader = {
+    name = "King Wiwu"
+    type = land
+    date = 1296.1.1
+    personality = bigoted 
+    background = war_college 
+}
+
+army = {
+    name = "Army of the Old King"
+    location = 375
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 375
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 376
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 380
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 382
+    }
+
+}
+
+

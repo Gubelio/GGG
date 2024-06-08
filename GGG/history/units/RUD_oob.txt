@@ -1,0 +1,17 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of Rudtum"
+    location = 121
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 121
+    }
+
+}
+
+

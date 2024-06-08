@@ -77,4 +77,6 @@ basic_chemistry = 1
 
 #flags
 
+oob = "PAK_oob.txt"
+
 set_country_flag = motkohnic_country

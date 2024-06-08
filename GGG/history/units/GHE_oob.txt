@@ -1,0 +1,61 @@
+#Relations
+
+POU = {
+    value = -100
+}
+
+#Armies
+
+leader = {
+    name = "Om Drit"
+    type = land
+    date = 1301.1.1
+    personality = disciplined
+    background = sucker
+}
+
+leader = {
+    name = "Tha Baym-Ghech"
+    type = land
+    date = 1307.1.1
+    personality = stout
+    background = school_of_defense
+}
+
+army = {
+    name = "Army of the Great Ghech"
+    location = 191
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 192
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 192
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 191
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 191
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 189
+    }
+
+}
+
+

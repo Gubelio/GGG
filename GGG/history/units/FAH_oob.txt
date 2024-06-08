@@ -1,0 +1,23 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of Fahseuhn"
+    location = 106
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 106
+    }
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 112
+    }
+
+}
+
+

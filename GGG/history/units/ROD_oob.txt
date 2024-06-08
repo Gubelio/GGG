@@ -1,0 +1,23 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of Rodhrot"
+    location = 125
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 124
+    }
+
+    regiment = {
+        name= "Freemen's Militia"
+        type = irregular
+        home = 128
+    }
+
+}
+
+

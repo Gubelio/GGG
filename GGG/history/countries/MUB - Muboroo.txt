@@ -66,4 +66,6 @@ publishing_industry = 1
 
 #flags
 
+oob = "MUB_oob.txt"
+
 set_country_flag = vewugi_country

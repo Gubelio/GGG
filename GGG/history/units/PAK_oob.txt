@@ -1,0 +1,29 @@
+#Relations
+
+#Armies
+
+army = {
+    name = "Army of the Crown"
+    location = 393
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 393
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 389
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 394
+    }
+
+}
+
+
