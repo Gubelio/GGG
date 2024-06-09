@@ -1,0 +1,25 @@
+
+country_event = { 
+    id = 50023 
+    title = "EVTNAME50023" #Poumnian Ancestral Swamp Farms
+    desc = "EVTDESC50023"
+
+	fire_only_once = yes
+
+    trigger = {
+		tag = POU
+		any_owned_province = {
+			terrain = marsh
+		}
+    }
+
+
+    option = {
+        name = "EVT50023OPTA"
+		all_core = {
+			limit = { terrain = marsh }
+			add_province_modifier = { name = ancestral_swamp_farms duration = 36525 }
+		}
+	}
+}
+

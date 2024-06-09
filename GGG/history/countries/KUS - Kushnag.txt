@@ -11,7 +11,7 @@ civilized = yes
 # Political reforms
 
 citizens_rights = primary_culture_only
-border_policy = closed_borders
+border_policy = open_borders
 legislative_system = noble_parliament
 land_reform_civ = feudal_tenure
 banking_system = unregulated_currency

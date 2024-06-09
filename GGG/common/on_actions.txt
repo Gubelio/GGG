@@ -1,4 +1,4 @@
-
+#GGG
 # (TOMASZ: Scripters! Please fill on_yearly_pulse and on_quarterly_pulse with proper events.
 #  I just filled them with random id's for my internal testing purposes.)
 # David: I have commented these out for now, as with only a few events these are far too spammy. Will re-enable if we have more.
@@ -110,17 +110,17 @@ on_colony_to_state_free_slaves =
 
 on_debtor_default =
 {
-	100 = 70002
+    100 = 50019
 }
 
 on_debtor_default_small =
 {
-	#100 = 70004
+    100 = 50018
 }
 
 on_debtor_default_second =
 {
-	100 = 70003
+    100 = 50017
 }
 
 on_civilize =

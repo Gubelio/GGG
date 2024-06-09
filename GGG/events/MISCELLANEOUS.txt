@@ -1250,3 +1250,125 @@ country_event = {
 #            }
 #    }
 #}
+
+##########################
+#### BANKRUPTCY MISC #####
+##########################
+
+#Disrepair - Naval Bases
+province_event = {
+    id = 50020 #22590
+    title = "EVTNAME50020"
+    desc = "EVTDESC50020"
+
+    trigger = {
+        NOT = { has_province_modifier = in_disrepair }
+        has_building = naval_base
+        owner = {
+            OR = {
+                has_country_modifier = in_bankrupcy
+                has_country_modifier = generalised_debt_default
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 400
+        modifier = {
+            factor = 0.9
+            owner = { colonial_nation = yes }
+        }
+        modifier = {
+            factor = 0.9
+            owner = { economic_policy = laissez_faire }
+        }
+    }
+
+    option = {
+        name = "EVT50020OPTA"
+        naval_base = -1
+        add_province_modifier = { name = in_disrepair duration = 545 }
+    }
+}
+
+#Disrepair - Railways
+province_event = {
+    id = 50021 #22591
+    title = "EVTNAME50021"
+    desc = "EVTDESC50021"
+
+    trigger = {
+        NOT = { has_province_modifier = in_disrepair }
+        has_building = railroad
+        owner = {
+            OR = {
+                has_country_modifier = in_bankrupcy
+                has_country_modifier = generalised_debt_default
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 600
+        modifier = {
+            factor = 0.9
+            owner = { colonial_nation = yes }
+        }
+        modifier = {
+            factor = 0.9
+            owner = { economic_policy = laissez_faire }
+        }
+    }
+
+    option = {
+        name = "EVT50021OPTA"
+        state_scope = {
+            infrastructure = -1
+            add_province_modifier = { name = in_disrepair duration = 545 }
+        }
+    }
+}
+
+#Disrepair - Railways
+province_event = {
+    id = 50022 #22592
+    title = "EVTNAME50022"
+    desc = "EVTDESC50022"
+
+    trigger = {
+        NOT = { has_province_modifier = in_disrepair }
+        has_building = fort
+        owner = {
+            OR = {
+                has_country_modifier = in_bankrupcy
+                has_country_modifier = generalised_debt_default
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 600
+        modifier = {
+            factor = 0.9
+            owner = { colonial_nation = yes }
+        }
+        modifier = {
+            factor = 0.9
+            owner = { economic_policy = laissez_faire }
+        }
+    }
+
+    option = {
+        name = "EVT50022OPTA"
+        state_scope = {
+            fort = -1
+            add_province_modifier = { name = in_disrepair duration = 545 }
+        }
+    }
+}

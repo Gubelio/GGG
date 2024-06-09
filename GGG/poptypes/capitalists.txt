@@ -99,26 +99,35 @@ country_migration_target = {
         is_culture_group = THIS
     }
 
-    modifier = {
-        factor = 4.0
-        number_of_states = 2
-#        has_country_flag = new_world_nation
-#        OR = {
-#            capital_scope = { is_colonial = no continent = north_america }
-#            capital_scope = { is_colonial = no continent = south_america }
-#            capital_scope = { is_colonial = no continent = australia_new_zealand }
-#        }
-#        OR = {
-#            government = paternalistic_council
-#            government = aristocratic_commonwealth
-#            government = aristocratic_commonwealth
-#        }
-    }
+	modifier = {
+		factor = 4.0
+		OR = {
+			is_culture_group = THIS
+			is_state_religion = yes
+		}
+		OR = { 
+			continent = europe #Bafozh
+			continent = africa #Shobgizob
+			continent = asia #Gofakidzia
+		}
+	}
+	
+	modifier = {
+		factor = 2.0
+		OR = {
+			is_culture_group = THIS
+			is_state_religion = yes
+		}
+		OR = { 
+			continent = oceania #Paukzhodo
+			continent = north_america #Ishahfazh
+			continent = south_america #Gofakidzia
+		}
+	}
 
-    modifier = {
-        factor = 3.7
-        NOT = { total_pops = 500000 }
-        NOT = { number_of_states = 2 }
+#    modifier = {
+#        factor = 4.0
+#        number_of_states = 2
 #        has_country_flag = new_world_nation
 #        OR = {
 #            capital_scope = { is_colonial = no continent = north_america }
@@ -130,7 +139,24 @@ country_migration_target = {
 #            government = aristocratic_commonwealth
 #            government = aristocratic_commonwealth
 #        }
-    }
+#    }
+
+#    modifier = {
+#        factor = 3.7
+#        NOT = { total_pops = 500000 }
+#        NOT = { number_of_states = 2 }
+#        has_country_flag = new_world_nation
+#        OR = {
+#            capital_scope = { is_colonial = no continent = north_america }
+#            capital_scope = { is_colonial = no continent = south_america }
+#            capital_scope = { is_colonial = no continent = australia_new_zealand }
+#        }
+#        OR = {
+#            government = paternalistic_council
+#            government = aristocratic_commonwealth
+#            government = aristocratic_commonwealth
+#        }
+#    }
 }
 
 migration_target = {
@@ -7008,6 +7034,137 @@ rehabilitation = {
    			    NOT = { is_ideology_enabled = statist }
                 NOT = { consciousness = 6 }
                 NOT = { is_next_reform = public_works_division }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+            }
+        }
+
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+	
+############### Emigration ###############
+
+    emigration_restricted = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+   			    NOT = { is_ideology_enabled = statist }
+                NOT = { consciousness = 6 }
+                NOT = { is_next_reform = emigration_restricted }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+            }
+        }
+
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+    emigration_forbidden = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+   			    NOT = { is_ideology_enabled = statist }
+                NOT = { consciousness = 6 }
+                NOT = { is_next_reform = emigration_forbidden }
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }

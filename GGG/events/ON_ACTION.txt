@@ -1,0 +1,324 @@
+
+
+# Nation that owns your debt goes bankrupt in defiance of our gunboats
+country_event = {
+    id = 50017 #70003
+    title = "EVTNAME50017"
+    desc = "EVTDESC50017"
+    #picture = "Bankruptcy"
+    trigger = {
+        NOT = { tag = FROM }
+        NOT = { has_country_flag = bankruptcy_events_disabled }
+    }
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT50017OPTA"
+        relation = { who = FROM value = -100 }
+        diplomatic_influence = { who = FROM value = -75 }
+        casus_belli = {
+            type = cut_down_to_size
+            target = FROM
+            months = 12
+        }
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = { factor = 0.95 }
+    }
+
+    option = {
+        name = "EVT50017OPTB"
+        relation = { who = FROM value = 50 }
+        diplomatic_influence = { who = FROM value = 25 }
+        any_pop = { limit = { strata = rich } militancy = 2 consciousness = 4 }
+        prestige_factor = -0.15
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = {
+            factor = 0.05
+            modifier = { factor = 3 is_sphere_leader_of = FROM }
+            modifier = { factor = 1.5 relation = { who = FROM value = 199 } }
+            modifier = { factor = 0.5 is_greater_power = yes }
+            modifier = { factor = 0 NOT = { relation = { who = THIS value = 100 } } }
+            modifier = { factor = 0 NOT = { money = 100000 } }
+        }
+    }
+}
+
+
+# Nation that owns your debt goes bankrupt, but the amount is small
+country_event = {
+    id = 50018 #70004
+    title = "EVTNAME50018"
+    desc = "EVTDESC50018"
+    #picture = "stock_crash"
+    trigger = {
+        NOT = { tag = FROM }
+        NOT = { has_country_flag = bankruptcy_events_disabled }
+    }
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT50018OPTA"
+        relation = { who = FROM value = -50 }
+        diplomatic_influence = { who = FROM value = -5 }
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = { factor = 0.85 }
+    }
+
+    option = {
+        name = "EVT50018OPTB"
+        relation = { who = FROM value = -75 }
+        diplomatic_influence = { who = FROM value = -10 }
+        random_list = {
+            33 = { badboy = 1 }
+            34 = { badboy = 2 }
+            33 = { }
+        }
+        casus_belli = { target = FROM type = gunboat months = 12 }
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = {
+            factor = 0.05
+            modifier = { factor = 0 is_sphere_leader_of = FROM }
+            modifier = { factor = 0 war = yes }
+            modifier = { factor = 0 badboy = 0.5 }
+            modifier = { factor = 0 is_disarmed = yes }
+            modifier = { factor = 0 has_recently_lost_war = yes }
+            modifier = { factor = 0 truce_with = FROM }
+            modifier = { factor = 0 relation = { who = FROM value = -100 } }
+            modifier = { factor = 5 NOT = { money = 100000 } }
+        }
+    }
+
+    option = {
+        name = "EVT50018OPTC"
+        relation = { who = FROM value = 50 }
+        any_pop = { limit = { strata = rich } militancy = 2 consciousness = 4 }
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = {
+            factor = 0.1
+            modifier = { factor = 10 is_sphere_leader_of = FROM }
+            modifier = { factor = 2 war = yes relation = { who = FROM value = 100 } }
+            modifier = { factor = 3 relation = { who = FROM value = 199 } }
+            modifier = { factor = 0 NOT = { relation = { who = THIS value = 100 } } }
+            modifier = { factor = 0 NOT = { money = 100000 } }
+        }
+    }
+}
+
+# Nation that owns your debt goes bankrupt
+country_event = {
+    id = 50019 #70002
+    title = "EVTNAME50019"
+    desc = "EVTDESC50019"
+    #picture = "Bankruptcy"
+
+    trigger = {
+        NOT = { tag = FROM }
+        NOT = { has_country_flag = bankruptcy_events_disabled }
+    }
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT50019OPTA"
+        relation = { who = FROM value = -50 }
+        diplomatic_influence = { who = FROM value = -10 }
+        casus_belli = { target = FROM type = gunboat months = 12 }
+        casus_belli = { target = FROM type = add_to_sphere months = 12 }
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = { factor = 0.95 }
+    }
+
+    option = {
+        name = "EVT50019OPTB"
+        relation = { who = FROM value = 50 }
+        diplomatic_influence = { who = FROM value = 5 }
+        any_pop = { limit = { strata = rich } militancy = 2 consciousness = 4 }
+        prestige_factor = -0.01
+        #FROM = {
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = mercantilism } }
+        #        owner = { remove_country_modifier = mercantilism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = economic_nationalism } }
+        #        owner = { remove_country_modifier = economic_nationalism }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = french_liberal_school } }
+        #        owner = { remove_country_modifier = french_liberal_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = non_interventionism_trade_policy } }
+        #        owner = { remove_country_modifier = non_interventionism_trade_policy }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = smithian_school } }
+        #        owner = { remove_country_modifier = smithian_school }
+        #    }
+        #    random_owned = {
+        #        limit = { owner = { has_country_modifier = no_trade_policy_set } }
+        #        owner = { remove_country_modifier = no_trade_policy_set }
+        #    }
+        #}
+        ai_chance = {
+            factor = 0.05
+            modifier = { factor = 10 is_sphere_leader_of = FROM }
+            modifier = { factor = 3 relation = { who = FROM value = 199 } }
+            modifier = { factor = 0.5 is_greater_power = yes }
+            modifier = { factor = 0 NOT = { relation = { who = THIS value = 100 } } }
+            modifier = { factor = 0 NOT = { money = 100000 } }
+        }
+    }
+}
