@@ -1119,6 +1119,7 @@ army_command_principle = {
 	morale = 0.25
 	unciv_military = yes
 	military_tactics = 0.25
+	mobilisation_size = 0.05 #Added because otherwise nations unable to mobilize
 
 	army_base = {
 		supply_consumption = 0.10

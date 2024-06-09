@@ -618,23 +618,27 @@ loss_of_control;Loss of Control;;;;;;;;;;;;;x
 take_capital;Take Capital;;;;;;;;;;;;;x
 take_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
 take_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_capital_desc;Aquire an enemy's 即capital state劬;;;;;;;;;;;;;x
 negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_NAME;Negotiated Transfer of $SECOND$ Land;;;;;;;;;;;;;x
 negotiated_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$;;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer another player's 即state劬 to your domain;;;;;;;;;;;;;x
 conquest_minuscule;Minuscule Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_MINUSCULE_NAME;$ORDER$Minuscule Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_minuscule_desc;Annex a single-state 即country劬 or an 即uncivilized nation劬 with less than 20,000 pops;;;;;;;;;;;;;x
 conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_tiny_desc;Annex a single-state 即country劬 or an 即uncivilized nation劬 with less than 100,000 pops;;;;;;;;;;;;;x
 conquest_low;Lowly Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_LOW_NAME;$ORDER$Lowly Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+conquest_low_desc;Annex a single-state 即country劬 or an 即uncivilized nation劬 with less than 400,000 pops;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
