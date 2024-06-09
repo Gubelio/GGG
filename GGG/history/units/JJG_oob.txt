@@ -2,6 +2,14 @@
 
 #Armies
 
+leader = {
+    name = "Pishyir 'the World-Burner'"
+    type = land
+    date = 1301.1.1
+    personality = vicious
+    background = natural_born_leader
+}
+
 army = {
     name = "Elder's Band"
     location = 279
@@ -21,7 +29,7 @@ army = {
     regiment = {
         name= "Warrior Band"
         type = irregular
-        home = 290
+        home = 291
     }
 
 }

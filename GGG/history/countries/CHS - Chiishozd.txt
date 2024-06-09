@@ -74,4 +74,6 @@ basic_chemistry = 1
 
 #flags
 
+oob = "CHS_oob.txt"
+
 set_country_flag = kadkohi_country

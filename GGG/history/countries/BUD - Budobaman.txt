@@ -66,4 +66,6 @@ publishing_industry = 1
 
 #flags
 
+oob = "BUD_oob.txt"
+
 set_country_flag = kadkohi_country

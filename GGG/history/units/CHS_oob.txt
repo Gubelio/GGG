@@ -1,0 +1,31 @@
+#Relations
+
+#Armies
+
+leader = {
+    name = "Gozomenes Najiizhi"
+    type = land
+    date = 1305.1.1
+    personality = gallant 
+    background = warmonger 
+}
+
+army = {
+    name = "Army of Chiishozd"
+    location = 278
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 278
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 280
+    }
+
+}
+
+

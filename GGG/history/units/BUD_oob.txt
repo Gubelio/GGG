@@ -1,0 +1,27 @@
+#Relations
+
+VOK = {
+    value = 150
+}
+
+#Armies
+
+army = {
+    name = "Bannermen of House Budobam"
+    location = 780
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 779
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 780
+    }
+
+}
+
+
