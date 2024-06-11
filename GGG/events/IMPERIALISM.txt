@@ -295,124 +295,21 @@ country_event = {
 		year = 1318
 		is_vassal = no
 		OR = {
-			NGJ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HUP = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			QOO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			ORH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			FCH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HUH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			EID = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BUM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GOX = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SOM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			CHR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			CRR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			OHO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MHI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NEX = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GHU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			VUN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			TIA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			UXA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BHI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			AYU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BBO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BIW = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NAR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			OIU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			RBU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			EBE = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			DRI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			UIN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			RIB = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NHQ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			RSS = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			PUS = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SUG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GUS = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GOG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NAI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GAF = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			IBE = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GAP = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			PNU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			AIO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			STU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			TNB = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			TUT = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			OTI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BEO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MOM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MAJ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			STA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			FIB = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NYW = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NIK = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MJO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			KOC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			JUR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NGG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MPA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			KUC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			PWA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SES = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			DHC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MTU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MWI = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BIM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SUC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			RAS = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			DAU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			YAW = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MJE = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SHO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			THO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			WCH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			ZHE = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			KHR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SWM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HOV = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			YBA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GIK = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			UMC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MWN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			FET = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			ZIV = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			CHK = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MTC = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			WOJ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			YSG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			DNT = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			SHN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BWU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NZO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HMO = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			CHM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GYR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HIE = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			KAH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			ISA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HYU = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			TAR = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			RYG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			HUD = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NEH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			DDH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GUD = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BSH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			GRM = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MSH = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MNJ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			IDA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			PER = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			KAN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NTS = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			NSP = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			JAN = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			MSQ = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			JGG = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
-			BAA = { neighbour = THIS civilized = no number_of_states = 2 war = no is_vassal = no NOT = { alliance_with = THIS truce_with = THIS} }
+			is_greater_power = yes
+			is_secondary_power = yes
 		}
+		any_neighbor_country = { 
+			civilized = no 
+			number_of_states = 2 
+			war = no 
+			is_vassal = no 
+			NOT = { 
+				OR = {
+				alliance_with = THIS 
+				truce_with = THIS
+				capital_scope = { continent = north_america } #ISHAHFAZH
+				}
+			}
     }
 
     mean_time_to_happen = {
@@ -438,15 +335,14 @@ country_event = {
             is_vassal = no
 			civilized = no
 			neighbour = THIS
-			OR = {	
-				capital_scope = { continent = north_america }
-				capital_scope = { continent = south_america }
-			}
 			number_of_states = 2
-            NOT = {
-                    alliance_with = THIS
-                    truce_with = THIS
-                }
+				NOT = { 
+					OR = {
+						alliance_with = THIS 
+						truce_with = THIS
+						capital_scope = { continent = north_america } #ISHAHFAZH
+					}
+				}
             }
             add_casus_belli = {
                 target = THIS
@@ -472,67 +368,67 @@ country_event = {
     }
 }
 
-country_event = { #south america
-    id = 50442
-    title = "Establish Protectorate!"
-    desc = "south_america_native_war_c_desc"
-    picture = "south_american_native"
-
-    trigger = {
-	capital_scope = { continent = south_america }
-	NOT = {
-	tag = CTR
-	}
-	civilized = yes
-	war = no
-	year = 1845
-	is_vassal = no
-    }
-
-    mean_time_to_happen = {
-        days = 1825
-    }
-
-    option = {
-        name = "They will be no more!"
-	ai_chance = { 
-		factor = 99
-		}
-	random_country = {
-            limit = {
-                is_vassal = no
-		civilized = no
-		neighbour = THIS
-			OR = {	
-	capital_scope = { continent = north_america }
-	capital_scope = { continent = south_america }
-		}
-		NOT = {
-		number_of_states = 2
-		}
-                NOT = {
-                    alliance_with = THIS
-                    truce_with = THIS
-                }
-            }
-            add_casus_belli = {
-                target = THIS
-                type = establish_protectorate_casus_belli
-                months = 12
-            }
-            relation = {
-                who = THIS
-                value = -150
-            }
-        }
-	
-    }
-
-    option = {
-        name = "We can't afford to do anything at this moment"
-	prestige = -5
-	ai_chance = { 
-		factor = 1
-		}
-    }
-}
+#country_event = { #south america
+#    id = 50442
+#    title = "Establish Protectorate!"
+#    desc = "south_america_native_war_c_desc"
+#    picture = "south_american_native"
+#
+#    trigger = {
+#	capital_scope = { continent = south_america }
+#	NOT = {
+#	tag = CTR
+#	}
+#	civilized = yes
+#	war = no
+#	year = 1845
+#	is_vassal = no
+#    }
+#
+#    mean_time_to_happen = {
+#        days = 1825
+#    }
+#
+#    option = {
+#        name = "They will be no more!"
+#	ai_chance = { 
+#		factor = 99
+#		}
+#	random_country = {
+#            limit = {
+#                is_vassal = no
+#		civilized = no
+#		neighbour = THIS
+#			OR = {	
+#	capital_scope = { continent = north_america }
+#	capital_scope = { continent = south_america }
+#		}
+#		NOT = {
+#		number_of_states = 2
+#		}
+#                NOT = {
+#                    alliance_with = THIS
+#                    truce_with = THIS
+#                }
+#            }
+#            add_casus_belli = {
+#                target = THIS
+#                type = establish_protectorate_casus_belli
+#                months = 12
+#            }
+#            relation = {
+#                who = THIS
+#                value = -150
+#            }
+#        }
+#	
+#    }
+#
+#    option = {
+#        name = "We can't afford to do anything at this moment"
+#	prestige = -5
+#	ai_chance = { 
+#		factor = 1
+#		}
+#    }
+#}
