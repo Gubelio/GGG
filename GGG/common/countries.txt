@@ -230,6 +230,9 @@ BAA		= "countries/Baastuu.txt"
 KID		= "countries/Kiidnazh.txt"
 TGN		= "countries/The Great Nag.txt" #The Great Nâg
 
+#UTILITY TAG
+UTY		= "countries/Utility Tag.txt"
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

@@ -270,6 +270,8 @@ reactionary_rebels = {
         prestige_factor = -0.25
         plurality = -25
         country_event = 50000
+		
+		clr_country_flag = filibuster_state
     }
 }
 
@@ -553,6 +555,8 @@ theocratist_rebels = {
         prestige_factor = -0.25
         plurality = -25
         country_event = 50001
+		
+		clr_country_flag = filibuster_state
     }
 }
 
@@ -821,7 +825,9 @@ free_yoker_rebels = {
         prestige_factor = -0.25
         plurality = -25
         country_event = 50002
-    }
+    
+		clr_country_flag = filibuster_state
+	}
 }
 
 ###################################
@@ -1101,7 +1107,9 @@ absolutist_rebels = {
         prestige_factor = -0.25
         plurality = -25
         country_event = 50003
-    }
+    
+		clr_country_flag = filibuster_state	
+	}
 }
 
 

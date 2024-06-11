@@ -8,7 +8,7 @@ country_event = {
     id = 50000
     is_triggered_only = yes
 
-    title = "EVTNAME50000" #Reactionary
+    title = "EVTNAME50000" #Reactionary revolution
     desc = "EVTDESC50000"
     #picture = "???"
 
@@ -103,7 +103,7 @@ country_event = {
     id = 50001
     is_triggered_only = yes
 
-    title = "EVTNAME50001" #Theocratist
+    title = "EVTNAME50001" #Theocratist revolution
     desc = "EVTDESC50001"
     #picture = "???"
 
@@ -198,7 +198,7 @@ country_event = {
     id = 50002
     is_triggered_only = yes
 
-    title = "EVTNAME50002" #Radical Liberationists
+    title = "EVTNAME50002" #free yokers revolution
     desc = "EVTDESC50002"
     #picture = "???"
 
@@ -293,7 +293,7 @@ country_event = {
     id = 50003
     is_triggered_only = yes
 
-    title = "EVTNAME50003" #Absolutist
+    title = "EVTNAME50003" #Absolutist revolution
     desc = "EVTDESC50003"
     #picture = "???"
 
@@ -804,6 +804,10 @@ country_event = {
 	}
 }
 
+#################################
+### THRALLDOM & SERFDOM DEBUG ###
+#################################
+
 country_event = {
     id = 50011 #end of serfdom
     title = "EVTNAME50011"
@@ -832,6 +836,46 @@ country_event = {
             }
     }
 }
+
+
+#country_event = { #Seems to effect performance by >20% - figure out a way to make it trigger for only one country? 
+#    id = 50011 #end of serfdom
+#    title = "EVTNAME50011"
+#    desc = "EVTDESC50011"
+#    #picture = "Socialism"
+#    
+#    trigger = { 
+#		ai = yes
+#	}
+#	
+#	allow_multiple_instances = no
+#
+#    option = {
+#        name = "EVT50011OPTA"
+#        
+#            any_country = {
+#				limit = {
+#					civilized = yes
+#					any_owned_province = {
+#						has_pop_type = serfs
+#					}
+#					NOT = {
+#						debt_law = serfdom
+#					}
+#				}
+#                
+#                any_owned = {
+#                    has_pop_type = serfs
+#                    OR = {
+#                        has_pop_type = farmers
+#                        has_pop_type = labourers
+#                    }
+#                    serfs = { pop_type = farmers }
+#                }
+#            
+#            }
+#    }
+#}
 
 country_event = {
 	id = 50012 #end of thralldom
@@ -1199,57 +1243,6 @@ country_event = {
 	}
 }
 
-
-
-
-
-#country_event = {
-#    id = 50011 #end of serfdom
-#    title = "EVTNAME50011"
-#    desc = "EVTDESC50011"
-#    #picture = "Socialism"
-#    
-#    trigger = {
-#    
-#        random_country = { ai = yes }
-#        
-#        any_country = {
-#            civilized = yes
-#            any_owned_province = {
-#                has_pop_type = serfs
-#            }
-#            NOT = {
-#                debt_law = serfdom
-#            }
-#        }
-#    }
-#
-#    option = {
-#        name = "EVT50011OPTA"
-#        
-#            any_country = {
-#				limit = {
-#					civilized = yes
-#					any_owned_province = {
-#						has_pop_type = serfs
-#					}
-#					NOT = {
-#						debt_law = serfdom
-#					}
-#				}
-#                
-#                any_owned = {
-#                    has_pop_type = serfs
-#                    OR = {
-#                        has_pop_type = farmers
-#                        has_pop_type = labourers
-#                    }
-#                    serfs = { pop_type = farmers }
-#                }
-#            
-#            }
-#    }
-#}
 
 ##########################
 #### BANKRUPTCY MISC #####

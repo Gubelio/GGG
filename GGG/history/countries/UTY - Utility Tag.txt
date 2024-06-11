@@ -1,10 +1,9 @@
-capital = 1408
-primary_culture = cherasass
-religion = redrel
+capital = 1
+primary_culture = assatiog
 government = princely_despotate
 plurality = 5.0
 nationalvalue = nv_none
-literacy = 0.05
+literacy = 0.09
 non_state_culture_literacy = 0.01
 civilized = no
 
@@ -28,4 +27,4 @@ upper_house = { # inherit
 
 #flags
 
-set_country_flag = redrel_country
+set_country_flag = utility_tag

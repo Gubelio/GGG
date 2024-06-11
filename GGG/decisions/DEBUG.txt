@@ -1,0 +1,52 @@
+#political_decisions = {
+#
+#    ai_remove_serfs = {
+#        alert = no
+#        potential = {
+#			ai = no
+#        }
+#
+#        allow = {
+#			any_country = {
+#				civilized = yes
+#				any_owned_province = {
+#					has_pop_type = serfs
+#				}
+#				NOT = {
+#					debt_law = serfdom
+#				}
+#			}
+#        }
+#
+#        effect = {
+#		
+#            any_country = {
+#				limit = {
+#					civilized = yes
+#					any_owned_province = {
+#						has_pop_type = serfs
+#					}
+#					NOT = {
+#						debt_law = serfdom
+#					}
+#				}
+#                
+#                any_owned = {
+#                    has_pop_type = serfs
+#                    OR = {
+#                        has_pop_type = farmers
+#                        has_pop_type = labourers
+#                    }
+#                    serfs = { pop_type = farmers }
+#                }
+#            
+#            }
+#		
+#        }
+#    }
+#
+#
+#
+#
+#
+#}
