@@ -12,25 +12,26 @@ gashdzii = {
 	north_gashdzii = {
 	  color = { 235 219 157 }
         	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Gozomedes Boshâshovii Boshâdâzzi Gozobâchiiz
-				Gauimushiig Gozopaja }
+				Gauimushiig Gozopaja Bozzamogga Nokdopau Kazdmachii Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd Bozzazhakd 
+				Chogzhimo }
 
 		last_names = { Mohdhâgazh Midodazh Mazdazh Dhiizitazh Shafâgazh Vâjiazh Niftazh Bodhâazh Modhijovazh Moshdzâza Piiztazh Nokdazh 
 				Jaudazh Dahazh Bidazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo 
-				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt }
+				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Nozkazh M¼hdha^gazh }
     }
 
 	south_gashdzii = {
 	  color = { 201 133 30 }
-        	first_names = { Bazadamaz Vazamak }
+        	first_names = { Bazadamaz Vazamak Bida Foda Madha Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Dhauzud Ganuk Zhudiima Zhahadoma }
 
 	        last_names = { Paupiizh Gaufiizh Châkdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Châdiizh Zhiiziizh Pifshopazh Zhof Fiifâzh
 				Maptazh Vozzash Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh 
-				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt  }
+				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Bidazh Ashkazh }
     }
 
 	west_gashdzii = {
 	  color = { 224 189 47 }
-        	first_names = {  }
+        	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig }
 
 	      last_names = { Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
 				Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh

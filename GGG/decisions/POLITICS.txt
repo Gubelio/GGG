@@ -1,5 +1,9 @@
 political_decisions = {
 
+##########################
+### STACKING THE HOUSE ###
+##########################
+
     stack_upper_house_liberationist = {
         alert = no
         potential = {
@@ -233,5 +237,124 @@ political_decisions = {
 			
         }
     }
+	
+    stack_upper_house_theocratist = {
+        alert = no
+        potential = {
+			ai = no
+			NOT = { has_country_flag = recently_stacked_upper_house }
+			ruling_party_ideology = theocratist
+        }
+
+        allow = {
+
+        }
+
+        effect = {
+			set_country_flag = recently_stacked_upper_house
+			prestige = -10
+			upper_house = {
+				ideology = theocratist
+				value = 5
+			}			
+			
+			any_pop = {
+				limit = { location = { is_colonial = no } }
+				scaled_militancy = {
+					ideology = liberationist
+					factor = 4
+				}
+				scaled_militancy = {
+					ideology = free_yoker
+					factor = 5
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 1
+				}
+				scaled_militancy = {
+					ideology = statist
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = absolutist
+					factor = 3
+				}
+			}
+			
+			add_country_modifier = { name = political_outrage duration = 365 }
+			country_event = { id = 50015 days = 3652 }
+			
+        }
+    }
+	
+##########################
+### POLITICAL FUNCTION ### 
+##########################
+
+	leave_soi = {
+		alert = no
+		potential = {
+			part_of_sphere = yes
+			
+		}
+		allow = {
+			is_secondary_power = yes
+			sphere_owner = {
+				NOT = { relation = {
+					who = THIS
+					value = 0
+					}
+				truce_with = THIS
+				}
+			}
+		}
+		effect = {
+			sphere_owner = {
+				diplomatic_influence = {
+				who = THIS
+				value = -200
+				}
+			country_event = { id=50032 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			# Ai will do, if sphere owner has LESS than twice our brigades.
+			modifier = {
+				factor = 0
+				sphere_owner = {
+						# Factor = (sphere_owner regiments) / (our regiments).
+						# Returns true if( factor >= x ).
+						# Use NOT statement to check if( factor < x )
+						brigades_compare = 2
+				}
+			}
+		}
+	}
+	
+	nationalize = {
+		alert = no
+			
+		potential = {
+			can_nationalize = yes 
+		}
+		allow = {
+			NOT = { part_of_sphere = yes }
+		}
+		effect = {
+			nationalize = yes
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 }

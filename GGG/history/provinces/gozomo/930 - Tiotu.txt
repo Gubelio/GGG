@@ -3,4 +3,4 @@ controller = TIA
 add_core = TIA
 trade_goods = fruit
 life_rating = 20
-
+is_slave = yes

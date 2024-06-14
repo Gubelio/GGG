@@ -1365,3 +1365,64 @@ province_event = {
         }
     }
 }
+
+#############################
+### SPHERE LEAVE RESPONSE ###
+#############################
+
+country_event = {
+	id = 50032
+	title = "EVTNAME50032"
+	desc = "EVTDESC50032"
+	picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50032OPTA"
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		casus_belli = {
+			target = FROM
+			type = add_to_sphere
+			months = 12
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50032OPTB"
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = FROM
+			call_ally = yes
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50032OPTB"
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		prestige = -20
+	}
+}

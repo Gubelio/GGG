@@ -23,8 +23,9 @@
 	labourers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 10797
+		size = 25641
 	}
+
 
 	soldiers = {
 		culture = fauhwozi
@@ -56,11 +57,6 @@
 		size = 811
 	}
 
-	labourers = {
-		culture = fauhwozi
-		religion = redrel
-		size = 13643
-	}
 
 	soldiers = {
 		culture = fauhwozi
@@ -92,11 +88,7 @@
 		size = 166
 	}
 
-	labourers = {
-		culture = fauhwozi
-		religion = motkohnic
-		size = 2794
-	}
+
 
 	soldiers = {
 		culture = fauhwozi
@@ -206,7 +198,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 2633
@@ -274,7 +266,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 4107
@@ -342,7 +334,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 4244
@@ -410,7 +402,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 6744
@@ -478,7 +470,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 2579
@@ -552,7 +544,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 4508
@@ -620,7 +612,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 7239
@@ -688,7 +680,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 5709
@@ -756,7 +748,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 4244
@@ -824,7 +816,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 7037
@@ -898,7 +890,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 3633
@@ -966,7 +958,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 4540
@@ -1034,7 +1026,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 2340
@@ -1126,7 +1118,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 3790
@@ -1218,7 +1210,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 6733
@@ -1310,7 +1302,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 3488
@@ -1402,7 +1394,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 3676
@@ -1494,7 +1486,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 223
@@ -1610,7 +1602,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 499
@@ -1726,7 +1718,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = cherasass
 		 religion = redrel
 		 size = 221
@@ -1794,7 +1786,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 1449
@@ -1886,7 +1878,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 1739
@@ -2002,7 +1994,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 77
@@ -2100,7 +2092,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 1737
@@ -2198,7 +2190,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 223
@@ -2266,7 +2258,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 3367
@@ -2334,7 +2326,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 1733
@@ -2408,7 +2400,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 1364
@@ -2506,7 +2498,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = gokam
 		 religion = redrel
 		 size = 122
@@ -2574,7 +2566,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 1493
@@ -2666,7 +2658,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 2133
@@ -2758,7 +2750,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 798
@@ -2850,7 +2842,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 3556
@@ -2942,7 +2934,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 2983
@@ -3016,7 +3008,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 6234
@@ -3108,7 +3100,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 1663
@@ -3176,7 +3168,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 1544
@@ -3244,7 +3236,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 1763
@@ -3312,7 +3304,7 @@
 	}
 
 
-	labourers = {
+	slaves = {
 		 culture = charch
 		 religion = redrel
 		 size = 3577
@@ -3330,6 +3322,16247 @@
 		 culture = charch
 		 religion = redrel
 		 size = 10731
+	}
+
+}
+
+1431 = {
+
+
+
+	serfs = {
+		culture = cherasass
+		religion = redrel
+		size = 940
+	}
+
+	farmers = {
+		culture = cherasass
+		religion = redrel
+		size = 846
+	}
+
+	artisans = {
+		culture = cherasass
+		religion = redrel
+		size = 75
+	}
+
+	clergymen = {
+		culture = cherasass
+		religion = redrel
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1135
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 37
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 378
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1892
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1438
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 17786
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 3784
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 37
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 11352
+	}
+
+}
+
+1432 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1335
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 44
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 445
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 2226
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1692
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 20930
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 4453
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 44
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 13359
+	}
+
+}
+
+1433 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1022
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 34
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 340
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1704
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1295
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 16023
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 3409
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 34
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 10227
+	}
+
+}
+
+1434 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 3324
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 110
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 1108
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 8866
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 4211
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 49874
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 11083
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 110
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 33249
+	}
+
+}
+
+1435 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1141
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 38
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 380
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1521
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1445
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 17882
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 3804
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 38
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 11414
+	}
+
+}
+
+1436 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1391
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 46
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 463
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1855
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1763
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 22271
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 4639
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 46
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 13919
+	}
+
+}
+
+1437 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1672
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 55
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 557
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 2229
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2118
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 26754
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 5573
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 55
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 16721
+	}
+
+}
+
+1438 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1904
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 63
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 634
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 2539
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2412
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 30475
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 6349
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 63
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 19047
+	}
+
+}
+
+1439 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 482
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 160
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 643
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 611
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 7724
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 1609
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 16
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 4827
+	}
+
+}
+
+1440 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 1435
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 47
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 478
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1913
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1817
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 22962
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 4783
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 47
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 14351
+	}
+
+}
+
+1441 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 2321
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 77
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 773
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 3095
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2940
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 37143
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 7738
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 77
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 23214
+	}
+
+}
+
+1442 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 2246
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 74
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 748
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 2995
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2845
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 35943
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 7488
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 74
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 22464
+	}
+
+}
+
+1443 = {
+
+
+
+	aristocrats = {
+		 culture = babhra
+		 religion = redrel
+		 size = 281
+	}
+
+
+	bureaucrats = {
+		 culture = babhra
+		 religion = redrel
+		 size = 9
+	}
+
+
+	clergymen = {
+		 culture = babhra
+		 religion = redrel
+		 size = 93
+	}
+
+
+	artisans = {
+		 culture = babhra
+		 religion = redrel
+		 size = 375
+	}
+
+
+	soldiers = {
+		 culture = babhra
+		 religion = redrel
+		 size = 357
+	}
+
+
+	farmers = {
+		 culture = babhra
+		 religion = redrel
+		 size = 4135
+	}
+
+
+	slaves = {
+		 culture = babhra
+		 religion = redrel
+		 size = 939
+	}
+
+
+	officers = {
+		 culture = babhra
+		 religion = redrel
+		 size = 9
+	}
+
+
+	serfs = {
+		 culture = babhra
+		 religion = redrel
+		 size = 2819
+	}
+
+
+	thralls = {
+		 culture = babhra
+		 religion = redrel
+		 size = 375
+	}
+
+}
+
+1444 = {
+
+
+
+	serfs = {
+		culture = charch
+		religion = pagan
+		size = 5416
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 4874
+	}
+
+	artisans = {
+		culture = charch
+		religion = pagan
+		size = 433
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 108
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 116
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 38
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 155
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 147
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1864
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 388
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 3
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 1165
+	}
+
+}
+
+1445 = {
+
+
+
+	serfs = {
+		culture = charch
+		religion = pagan
+		size = 1117
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 1005
+	}
+
+	artisans = {
+		culture = charch
+		religion = pagan
+		size = 89
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 22
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 820
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 27
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 273
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 1093
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 1038
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 13122
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 2733
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 27
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 8201
+	}
+
+}
+
+1446 = {
+
+
+
+	serfs = {
+		culture = charch
+		religion = pagan
+		size = 386
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 347
+	}
+
+	artisans = {
+		culture = charch
+		religion = pagan
+		size = 30
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 399
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 13
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 133
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 532
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 506
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 6395
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 1332
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 13
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 3997
+	}
+
+}
+
+1447 = {
+
+
+
+	serfs = {
+		culture = charch
+		religion = pagan
+		size = 519
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 467
+	}
+
+	artisans = {
+		culture = charch
+		religion = pagan
+		size = 41
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 663
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 22
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 221
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 884
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 840
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 10614
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 2211
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 22
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 6633
+	}
+
+}
+
+1448 = {
+
+
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 498
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 166
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 665
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 632
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 7983
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 1663
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 16
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 4989
+	}
+
+    serfs = {
+		culture = cherasass
+		religion = redrel
+		size = 223
+	}
+
+}
+
+1449 = {
+
+
+
+	serfs = {
+		culture = cherasass
+		religion = redrel
+		size = 5019
+	}
+
+	farmers = {
+		culture = cherasass
+		religion = redrel
+		size = 4517
+	}
+
+	artisans = {
+		culture = cherasass
+		religion = redrel
+		size = 401
+	}
+
+	clergymen = {
+		culture = cherasass
+		religion = redrel
+		size = 100
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 132
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 177
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 168
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2127
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 443
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 4
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 1329
+	}
+
+}
+
+1450 = {
+
+
+
+	serfs = {
+		culture = cherasass
+		religion = redrel
+		size = 386
+	}
+
+	farmers = {
+		culture = cherasass
+		religion = redrel
+		size = 347
+	}
+
+	artisans = {
+		culture = cherasass
+		religion = redrel
+		size = 30
+	}
+
+	clergymen = {
+		culture = cherasass
+		religion = redrel
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 383
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 12
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 127
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 510
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 485
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 6131
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 1277
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 12
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 3831
+	}
+
+}
+
+1451 = {
+
+
+
+	serfs = {
+		culture = cherasass
+		religion = redrel
+		size = 3369
+	}
+
+	farmers = {
+		culture = cherasass
+		religion = redrel
+		size = 3032
+	}
+
+	artisans = {
+		culture = cherasass
+		religion = redrel
+		size = 269
+	}
+
+	clergymen = {
+		culture = cherasass
+		religion = redrel
+		size = 67
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 223
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 74
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 297
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 283
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 3575
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 744
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = charch
+		 religion = redrel
+		 size = 2234
+	}
+
+}
+
+1452 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 223
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 295
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 9
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 98
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 196
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 373
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2870
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 983
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 9
+	}
+
+}
+
+1453 = {
+
+
+
+	farmers = {
+		culture = charch
+		religion = redrel
+		size = 3731
+	}
+
+	clergymen = {
+		culture = charch
+		religion = redrel
+		size = 47
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 1392
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 44
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 23
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 0
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 15
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 29
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 226
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 78
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 0
+	}
+
+}
+
+1454 = {
+
+
+
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 111
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 111
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 166
+	}
+
+
+	bureaucrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 5
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 55
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 110
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 210
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 4435
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 554
+	}
+
+
+	officers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 5
+	}
+
+}
+1455 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 541
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 541
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 129
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 86
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 164
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 3465
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 433
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 4
+	}
+
+}
+
+1456 = {
+
+
+
+	thralls = {
+		culture = charch
+		religion = pagan
+		size = 247
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 2198
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 24
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 100
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = redrel
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = redrel
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = redrel
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = redrel
+		 size = 126
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = redrel
+		 size = 2667
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = redrel
+		 size = 333
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = redrel
+		 size = 3
+	}
+
+}
+
+1457 = {
+
+
+
+	thralls = {
+		culture = charch
+		religion = redrel
+		size = 17
+	}
+
+	farmers = {
+		culture = charch
+		religion = redrel
+		size = 158
+	}
+
+	clergymen = {
+		culture = charch
+		religion = redrel
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = charch
+		 religion = pagan
+		 size = 146
+	}
+
+
+	bureaucrats = {
+		 culture = charch
+		 religion = pagan
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = charch
+		 religion = pagan
+		 size = 48
+	}
+
+
+	artisans = {
+		 culture = charch
+		 religion = pagan
+		 size = 97
+	}
+
+
+	soldiers = {
+		 culture = charch
+		 religion = pagan
+		 size = 185
+	}
+
+
+	farmers = {
+		 culture = charch
+		 religion = pagan
+		 size = 3906
+	}
+
+
+	slaves = {
+		 culture = charch
+		 religion = pagan
+		 size = 488
+	}
+
+
+	officers = {
+		 culture = charch
+		 religion = pagan
+		 size = 4
+	}
+
+}
+
+1458 = {
+
+
+
+	thralls = {
+		culture = charch
+		religion = pagan
+		size = 129
+	}
+
+	farmers = {
+		culture = charch
+		religion = pagan
+		size = 1154
+	}
+
+	clergymen = {
+		culture = charch
+		religion = pagan
+		size = 12
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 99
+	}
+
+
+	bureaucrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 126
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2659
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 332
+	}
+
+
+	officers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3
+	}
+
+}
+
+1459 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 133
+	}
+
+
+	bureaucrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 168
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 3550
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 443
+	}
+
+
+	officers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 4
+	}
+
+}
+
+1460 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 159
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 1421
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 106
+	}
+
+
+	bureaucrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 70
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 134
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 2835
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 354
+	}
+
+
+	officers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 3
+	}
+
+}
+
+1461 = {
+
+
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 503
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 167
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 335
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 637
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 13418
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 1677
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 16
+	}
+
+}
+
+1462 = {
+
+
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 383
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 12
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 127
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 255
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 741
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 9974
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 1278
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 12
+	}
+
+}
+
+1463 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 2441
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 2441
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 113
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 3
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 75
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 219
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2946
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 377
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 3
+	}
+
+}
+
+1464 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 886
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 886
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 84
+	}
+
+
+	bureaucrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 28
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 56
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 162
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2191
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 280
+	}
+
+
+	officers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2
+	}
+
+}
+
+1465 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 98
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 65
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 197
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2564
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 328
+	}
+
+}
+
+1466 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 146
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 146
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 113
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 75
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 226
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2942
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 377
+	}
+
+}
+
+1467 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 159
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 1421
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = redrel
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = pagan
+		 size = 113
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 75
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 226
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 2942
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 377
+	}
+
+}
+
+1468 = {
+
+
+
+	aristocrats = {
+		 culture = gokam
+		 religion = pagan
+		 size = 106
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 71
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 213
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 2776
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 355
+	}
+
+}
+
+1469 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 188
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 1675
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = redrel
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = pagan
+		 size = 122
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 40
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 81
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 244
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 3176
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 407
+	}
+
+}
+
+1470 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = kadkohi
+		size = 7
+	}
+
+	farmers = {
+		culture = gokam
+		religion = kadkohi
+		size = 69
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 277
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 2467
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = redrel
+		size = 27
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = pagan
+		 size = 92
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 30
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 61
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 185
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 2407
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 308
+	}
+
+}
+
+1471 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 198
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 1769
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = pagan
+		size = 19
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 89
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 29
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 59
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 179
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 2330
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 298
+	}
+
+}
+
+1472 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 398
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 3543
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = pagan
+		size = 39
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 461
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 153
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 307
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 922
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 11994
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 1537
+	}
+
+}
+
+1473 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 48
+	}
+
+	serfs = {
+		culture = gokam
+		religion = pagan
+		size = 66
+	}
+
+	slaves = {
+		culture = gokam
+		religion = pagan
+		size = 849
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 589
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = pagan
+		size = 29
+	}
+
+	artisans = {
+		culture = gokam
+		religion = pagan
+		size = 48
+	}
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 840
+	}
+
+	serfs = {
+		culture = gokam
+		religion = redrel
+		size = 1145
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 14564
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 10110
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = redrel
+		size = 504
+	}
+
+	artisans = {
+		culture = gokam
+		religion = redrel
+		size = 840
+	}
+
+	thralls = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = gokam
+		religion = kadkohi
+		size = 1
+	}
+
+	slaves = {
+		culture = gokam
+		religion = kadkohi
+		size = 16
+	}
+
+	farmers = {
+		culture = gokam
+		religion = kadkohi
+		size = 11
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	thralls = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	slaves = {
+		culture = gokam
+		religion = motkohnic
+		size = 11
+	}
+
+	farmers = {
+		culture = gokam
+		religion = motkohnic
+		size = 7
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 83
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 4
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 5
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 35
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 107
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 85
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1502
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 35
+	}
+
+}
+
+1474 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 53
+	}
+
+	serfs = {
+		culture = gokam
+		religion = pagan
+		size = 72
+	}
+
+	slaves = {
+		culture = gokam
+		religion = pagan
+		size = 924
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 641
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = pagan
+		size = 31
+	}
+
+	artisans = {
+		culture = gokam
+		religion = pagan
+		size = 53
+	}
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 236
+	}
+
+	serfs = {
+		culture = gokam
+		religion = redrel
+		size = 322
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 4099
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 2845
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = redrel
+		size = 141
+	}
+
+	artisans = {
+		culture = gokam
+		religion = redrel
+		size = 236
+	}
+
+	thralls = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	serfs = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	slaves = {
+		culture = gokam
+		religion = kadkohi
+		size = 11
+	}
+
+	farmers = {
+		culture = gokam
+		religion = kadkohi
+		size = 8
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = kadkohi
+		size = 0
+	}
+
+	thralls = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	slaves = {
+		culture = gokam
+		religion = motkohnic
+		size = 21
+	}
+
+	farmers = {
+		culture = gokam
+		religion = motkohnic
+		size = 14
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 6
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 256
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 14
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 21
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 915
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 457
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 3204
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 2197
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 37990
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 45
+	}
+
+
+	serfs = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 915
+	}
+
+}
+
+1475 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 47
+	}
+
+	serfs = {
+		culture = gokam
+		religion = pagan
+		size = 64
+	}
+
+	slaves = {
+		culture = gokam
+		religion = pagan
+		size = 822
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 571
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = pagan
+		size = 28
+	}
+
+	artisans = {
+		culture = gokam
+		religion = pagan
+		size = 47
+	}
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 1074
+	}
+
+	serfs = {
+		culture = gokam
+		religion = redrel
+		size = 1464
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 18617
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 12924
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = redrel
+		size = 644
+	}
+
+	artisans = {
+		culture = gokam
+		religion = redrel
+		size = 1074
+	}
+
+	thralls = {
+		culture = gokam
+		religion = kadkohi
+		size = 14
+	}
+
+	serfs = {
+		culture = gokam
+		religion = kadkohi
+		size = 19
+	}
+
+	slaves = {
+		culture = gokam
+		religion = kadkohi
+		size = 248
+	}
+
+	farmers = {
+		culture = gokam
+		religion = kadkohi
+		size = 172
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = kadkohi
+		size = 8
+	}
+
+	artisans = {
+		culture = gokam
+		religion = kadkohi
+		size = 14
+	}
+
+	thralls = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	slaves = {
+		culture = gokam
+		religion = motkohnic
+		size = 23
+	}
+
+	farmers = {
+		culture = gokam
+		religion = motkohnic
+		size = 15
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = motkohnic
+		size = 2
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 56
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 3
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 37
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 62
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 60
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1054
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 25
+	}
+
+}
+
+1476 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 19
+	}
+
+	serfs = {
+		culture = gokam
+		religion = pagan
+		size = 27
+	}
+
+	slaves = {
+		culture = gokam
+		religion = pagan
+		size = 344
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 239
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = pagan
+		size = 11
+	}
+
+	artisans = {
+		culture = gokam
+		religion = pagan
+		size = 19
+	}
+
+	thralls = {
+		culture = gokam
+		religion = redrel
+		size = 1169
+	}
+
+	serfs = {
+		culture = gokam
+		religion = redrel
+		size = 1595
+	}
+
+	slaves = {
+		culture = gokam
+		religion = redrel
+		size = 20279
+	}
+
+	farmers = {
+		culture = gokam
+		religion = redrel
+		size = 14078
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = redrel
+		size = 701
+	}
+
+	artisans = {
+		culture = gokam
+		religion = redrel
+		size = 1169
+	}
+
+	thralls = {
+		culture = gokam
+		religion = kadkohi
+		size = 8
+	}
+
+	serfs = {
+		culture = gokam
+		religion = kadkohi
+		size = 10
+	}
+
+	slaves = {
+		culture = gokam
+		religion = kadkohi
+		size = 138
+	}
+
+	farmers = {
+		culture = gokam
+		religion = kadkohi
+		size = 96
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = kadkohi
+		size = 4
+	}
+
+	artisans = {
+		culture = gokam
+		religion = kadkohi
+		size = 8
+	}
+
+	thralls = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	slaves = {
+		culture = gokam
+		religion = motkohnic
+		size = 18
+	}
+
+	farmers = {
+		culture = gokam
+		religion = motkohnic
+		size = 11
+	}
+
+	soldiers = {
+		culture = gokam
+		religion = motkohnic
+		size = 0
+	}
+
+	artisans = {
+		culture = gokam
+		religion = motkohnic
+		size = 1
+	}
+
+	serfs = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	officers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	farmers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 29
+	}
+
+	soldiers = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	artisans = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	clergymen = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 0
+	}
+
+	aristocrats = {
+		culture = south_gashdzii
+		religion = motkohnic
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 39
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 65
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 62
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1098
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 26
+	}
+
+}
+
+1477 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 228
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 2031
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = pagan
+		size = 22
+	}
+
+	aristocrats = {
+		 culture = gokam
+		 religion = redrel
+		 size = 469
+	}
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = redrel
+		 size = 156
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = redrel
+		 size = 312
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 938
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = redrel
+		 size = 12196
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = redrel
+		 size = 1563
+	}
+
+}
+
+1478 = {
+
+
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 222
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 1976
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 22
+	}
+
+	aristocrats = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 130
+	}
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 87
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 261
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 3402
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = redrel
+		 size = 436
+	}
+
+}
+
+1479 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 77
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 687
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 107
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 71
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 215
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 2807
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 359
+	}
+
+}
+
+1480 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 33
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 300
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 3
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 111
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 74
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 223
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 2911
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 373
+	}
+
+}
+
+1481 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 44
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 394
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 4
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 60
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 20
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 40
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 120
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 1560
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 200
+	}
+
+}
+
+1482 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = redrel
+		size = 40
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 361
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 4
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = vewugi
+		size = 29
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = vewugi
+		size = 266
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = vewugi
+		size = 2
+	}
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 164
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 164
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 1318
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 98
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 32
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 16
+	}
+
+	aristocrats = {
+		culture = khrayian
+		religion = pagan
+		size = 16
+	}
+
+	aristocrats = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 16
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 33
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 101
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 1350
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 168
+	}
+
+
+	thralls = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 168
+	}
+
+}
+
+1483 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = redrel
+		size = 20
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 180
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 2
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = vewugi
+		size = 23
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = vewugi
+		size = 207
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = vewugi
+		size = 2
+	}
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 110
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 110
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 772
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 66
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 22
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 11
+	}
+
+	aristocrats = {
+		culture = khrayian
+		religion = pagan
+		size = 11
+	}
+
+	aristocrats = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 13
+	}
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 13
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 27
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 81
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 944
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 135
+	}
+
+
+	thralls = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 135
+	}
+
+}
+
+1484 = {
+
+
+
+	thralls = {
+		culture = gokam
+		religion = pagan
+		size = 179
+	}
+
+	farmers = {
+		culture = gokam
+		religion = pagan
+		size = 4601
+	}
+
+	clergymen = {
+		culture = gokam
+		religion = pagan
+		size = 17
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = vewugi
+		size = 44
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = vewugi
+		size = 396
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = vewugi
+		size = 4
+	}
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 144
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 144
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 4010
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 86
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 28
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 14
+	}
+
+	aristocrats = {
+		culture = khrayian
+		religion = pagan
+		size = 14
+	}
+
+	aristocrats = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 8
+	}
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 8
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 17
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 53
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 1629
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 89
+	}
+
+
+	thralls = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 89
+	}
+
+}
+
+1485 = {
+
+
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 310
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 3102
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 443
+	}
+
+
+	thralls = {
+		 culture = gokam
+		 religion = pagan
+		 size = 443
+	}
+
+}
+
+1486 = {
+
+
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 799
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 799
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 5595
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 479
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 159
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 79
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 79
+	}
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 58
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 117
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 411
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 4118
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 588
+	}
+
+
+	thralls = {
+		 culture = gokam
+		 religion = pagan
+		 size = 588
+	}
+
+}
+
+1487 = {
+
+
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 399
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 399
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 2794
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 239
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 79
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 39
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 39
+	}
+
+	clergymen = {
+		 culture = gokam
+		 religion = pagan
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = gokam
+		 religion = pagan
+		 size = 15
+	}
+
+
+	soldiers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 54
+	}
+
+
+	farmers = {
+		 culture = gokam
+		 religion = pagan
+		 size = 541
+	}
+
+
+	slaves = {
+		 culture = gokam
+		 religion = pagan
+		 size = 77
+	}
+
+
+	thralls = {
+		 culture = gokam
+		 religion = pagan
+		 size = 77
+	}
+
+}
+
+1488 = {
+
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 75
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 264
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 2645
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 377
+	}
+
+
+	thralls = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 377
+	}
+
+}
+
+1489 = {
+
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 71
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 248
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 2487
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 355
+	}
+
+
+	thralls = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 355
+	}
+
+}
+
+1490 = {
+
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 127
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 254
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 891
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 10190
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 1273
+	}
+
+}
+
+1491 = {
+
+
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 52
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 105
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 369
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 4224
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 528
+	}
+
+}
+
+1492 = {
+
+
+
+	thralls = {
+		culture = fauhwozi
+		religion = vewugi
+		size = 216
+	}
+
+	farmers = {
+		culture = fauhwozi
+		religion = vewugi
+		size = 1925
+	}
+
+	clergymen = {
+		culture = fauhwozi
+		religion = vewugi
+		size = 21
+	}
+
+	clergymen = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 89
+	}
+
+
+	artisans = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 178
+	}
+
+
+	soldiers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 623
+	}
+
+
+	farmers = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 7123
+	}
+
+
+	slaves = {
+		 culture = foussuni
+		 religion = pagan
+		 size = 890
+	}
+
+}
+
+1493 = {
+
+
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 891
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 891
+	}
+
+	clergymen = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 85
+	}
+
+
+	artisans = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 170
+	}
+
+
+	soldiers = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 598
+	}
+
+
+	farmers = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 6835
+	}
+
+
+	slaves = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 854
+	}
+
+}
+
+1494 = {
+
+
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 622
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 622
+	}
+
+	slaves = {
+		culture = fauhwozi
+		religion = redrel
+		size = 399
+	}
+
+	farmers = {
+		culture = fauhwozi
+		religion = redrel
+		size = 3193
+	}
+
+	soldiers = {
+		culture = fauhwozi
+		religion = redrel
+		size = 239
+	}
+
+	artisans = {
+		culture = fauhwozi
+		religion = redrel
+		size = 79
+	}
+
+	clergymen = {
+		culture = fauhwozi
+		religion = redrel
+		size = 39
+	}
+
+	aristocrats = {
+		culture = fauhwozi
+		religion = redrel
+		size = 39
+	}
+
+	aristocrats = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 85
+	}
+
+
+	clergymen = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 85
+	}
+
+
+	artisans = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 170
+	}
+
+
+	soldiers = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 512
+	}
+
+
+	farmers = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 6835
+	}
+
+
+	slaves = {
+		 culture = fauhwozi
+		 religion = pagan
+		 size = 854
+	}
+
+}
+
+1495 = {
+
+
+
+	thralls = {
+		culture = fauhwozi
+		religion = pagan
+		size = 1
+	}
+
+	serfs = {
+		culture = fauhwozi
+		religion = pagan
+		size = 708
+	}
+
+	slaves = {
+		culture = fauhwozi
+		religion = pagan
+		size = 866
+	}
+
+	labourers = {
+		culture = fauhwozi
+		religion = pagan
+		size = 14577
+	}
+
+	soldiers = {
+		culture = fauhwozi
+		religion = pagan
+		size = 311
+	}
+
+	artisans = {
+		culture = fauhwozi
+		religion = pagan
+		size = 866
+	}
+
+	thralls = {
+		culture = fauhwozi
+		religion = redrel
+		size = 1
+	}
+
+	serfs = {
+		culture = fauhwozi
+		religion = redrel
+		size = 457
+	}
+
+	slaves = {
+		culture = fauhwozi
+		religion = redrel
+		size = 559
+	}
+
+	labourers = {
+		culture = fauhwozi
+		religion = redrel
+		size = 9413
+	}
+
+	soldiers = {
+		culture = fauhwozi
+		religion = redrel
+		size = 201
+	}
+
+	artisans = {
+		culture = fauhwozi
+		religion = redrel
+		size = 559
+	}
+
+	thralls = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 0
+	}
+
+	serfs = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 122
+	}
+
+	slaves = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 149
+	}
+
+	labourers = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 2517
+	}
+
+	soldiers = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 53
+	}
+
+	artisans = {
+		culture = fauhwozi
+		religion = motkohnic
+		size = 149
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 35
+	}
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 124
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 49
+	}
+
+
+	farmers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 1542
+	}
+
+
+	officers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 1
+	}
+
+}
+
+1496 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 38
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 305
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 26
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 7
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 3
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 68
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 241
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2754
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 344
+	}
+
+}
+
+1497 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 20
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 160
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 14
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 4
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 2
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 38
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 77
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 272
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3114
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 389
+	}
+
+}
+
+1498 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 207
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 1658
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 145
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 41
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 20
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 233
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2673
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 334
+	}
+
+}
+
+1499 = {
+
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 36
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 73
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 258
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2954
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 369
+	}
+
+}
+
+1500 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 407
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 3257
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 285
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 81
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 40
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 14
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 49
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 562
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 70
+	}
+
+}
+
+1501 = {
+
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 68
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 238
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2726
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 340
+	}
+
+}
+
+1502 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 233
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 1867
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 163
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 46
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 23
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 6
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 13
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 45
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 522
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 65
+	}
+
+}
+
+1503 = {
+
+
+
+	slaves = {
+		culture = mnashi
+		religion = redrel
+		size = 138
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = redrel
+		size = 1104
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = redrel
+		size = 96
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = redrel
+		size = 27
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = redrel
+		size = 13
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 46
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 370
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 32
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 9
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = pagan
+		size = 4
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 136
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 1092
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 95
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 27
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 13
+	}
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 4
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 16
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 186
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 23
+	}
+
+}
+
+1504 = {
+
+
+
+	slaves = {
+		culture = mnashi
+		religion = redrel
+		size = 544
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = redrel
+		size = 4354
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = redrel
+		size = 381
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = redrel
+		size = 108
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = redrel
+		size = 54
+	}
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 4
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 16
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 186
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 23
+	}
+
+}
+
+1505 = {
+
+
+
+	slaves = {
+		culture = behshi
+		religion = redrel
+		size = 37
+	}
+
+	farmers = {
+		culture = behshi
+		religion = redrel
+		size = 298
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = redrel
+		size = 26
+	}
+
+	artisans = {
+		culture = behshi
+		religion = redrel
+		size = 7
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = redrel
+		size = 3
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 38
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 307
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 26
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 7
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 3
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = redrel
+		size = 22
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = redrel
+		size = 178
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = redrel
+		size = 15
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = redrel
+		size = 4
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = redrel
+		size = 2
+	}
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 310
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 3545
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 443
+	}
+
+}
+
+1506 = {
+
+
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 44
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 355
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 31
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 8
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 4
+	}
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 234
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 2675
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 334
+	}
+
+}
+
+1507 = {
+
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 30
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 61
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 215
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 2462
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 307
+	}
+
+}
+
+1508 = {
+
+
+
+	aristocrats = {
+		 culture = behshi
+		 religion = redrel
+		 size = 120
+	}
+
+
+	clergymen = {
+		 culture = behshi
+		 religion = redrel
+		 size = 120
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = redrel
+		 size = 241
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = redrel
+		 size = 725
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = redrel
+		 size = 9674
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = redrel
+		 size = 1209
+	}
+
+}
+
+1509 = {
+
+
+
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 899
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 7194
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 629
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 179
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = pagan
+		size = 89
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 70
+	}
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 73
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 147
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 443
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 5918
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = redrel
+		 size = 739
+	}
+
+}
+1510 = {
+
+
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 493
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 3946
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 345
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 98
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = pagan
+		size = 49
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 134
+	}
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 134
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 268
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 804
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 10725
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 1340
+	}
+
+}
+
+1511 = {
+
+
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 478
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 3824
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 334
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 95
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = pagan
+		size = 47
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 4
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 14
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 191
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = limerel
+		 size = 23
+	}
+
+}
+
+1512 = {
+
+
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 73
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 588
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 51
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 14
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 25
+	}
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 25
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 50
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 150
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 2000
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 250
+	}
+
+}
+1513 = {
+
+
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 178
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 1426
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 124
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 35
+	}
+
+	clergymen = {
+		culture = nuukheu
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	clergymen = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 133
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 1778
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 222
+	}
+
+}
+
+1514 = {
+
+
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 188
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = pagan
+		size = 1506
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 131
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 37
+	}
+
+	clergymen = {
+		culture = thaunti
+		religion = pagan
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 20
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 20
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 40
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 120
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 1601
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 200
+	}
+
+}
+
+1515 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 1366
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 1366
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 30
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 30
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 61
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 185
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 2470
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 308
+	}
+
+}
+
+1516 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 42
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 42
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 85
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 256
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3424
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 428
+	}
+
+}
+
+1517 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = redrel
+		size = 173
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = redrel
+		size = 1385
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 121
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 34
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = redrel
+		size = 17
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 36
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 36
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 73
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 219
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2929
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 366
+	}
+
+}
+1518 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 65
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 197
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2638
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 329
+	}
+
+}
+
+1519 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 199
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2659
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 332
+	}
+
+}
+
+1520 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 689
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 5519
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 482
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 137
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 68
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 47
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 47
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 94
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 283
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 3786
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 473
+	}
+
+}
+
+1521 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 279
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 279
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 559
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 1679
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 22394
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = redrel
+		 size = 2799
+	}
+
+}
+
+1522 = {
+
+
+
+	serfs = {
+		culture = khrayian
+		religion = redrel
+		size = 0
+	}
+
+	labourers = {
+		culture = khrayian
+		religion = redrel
+		size = 40
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = redrel
+		size = 1
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = redrel
+		size = 0
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 132
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3123
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+}
+
+1523 = {
+
+
+
+	thralls = {
+		culture = thaunti
+		religion = pagan
+		size = 221
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 221
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 132
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3123
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+}
+
+1524 = {
+
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 27
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 111
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2616
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 27
+	}
+
+}
+
+1525 = {
+
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 25
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 101
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2384
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 25
+	}
+
+}
+
+1526 = {
+
+
+
+	thralls = {
+		culture = thaunti
+		religion = pagan
+		size = 221
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 221
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 26
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 105
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2478
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 26
+	}
+
+}
+
+1527 = {
+
+
+
+	thralls = {
+		culture = thaunti
+		religion = pagan
+		size = 195
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 195
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 137
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3233
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+}
+
+1528 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 277
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 277
+	}
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 38
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 155
+	}
+
+
+	labourers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 3644
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 38
+	}
+
+}
+
+1529 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 58
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 58
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 41
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 41
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 83
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 250
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 3341
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 417
+	}
+
+}
+
+1530 = {
+
+
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 7
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 62
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 5
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 1
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 45
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 362
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 31
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 9
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 4
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 45
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 91
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 273
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 3642
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 455
+	}
+
+}
+
+1531 = {
+
+
+
+	serfs = {
+		culture = thaunti
+		religion = redrel
+		size = 7
+	}
+
+	labourers = {
+		culture = thaunti
+		religion = redrel
+		size = 692
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = redrel
+		size = 29
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = redrel
+		size = 7
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = pagan
+		size = 23
+	}
+
+	labourers = {
+		culture = thaunti
+		religion = pagan
+		size = 2192
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 93
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 23
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 153
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 153
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 307
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 923
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 12310
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 1538
+	}
+
+}
+
+1532 = {
+
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2867
+	}
+
+
+	thralls = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 322
+	}
+
+}
+
+1533 = {
+
+
+
+	thralls = {
+		culture = gji
+		religion = brownrel
+		size = 0
+	}
+
+	farmers = {
+		culture = gji
+		religion = brownrel
+		size = 1
+	}
+
+	clergymen = {
+		culture = gji
+		religion = brownrel
+		size = 0
+	}
+
+	thralls = {
+		culture = gji
+		religion = pagan
+		size = 23
+	}
+
+	farmers = {
+		culture = gji
+		religion = pagan
+		size = 207
+	}
+
+	clergymen = {
+		culture = gji
+		religion = pagan
+		size = 2
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 133
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3141
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 33
+	}
+
+}
+
+1534 = {
+
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 25
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 101
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2381
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 25
+	}
+
+}
+
+1535 = {
+
+
+
+	thralls = {
+		culture = gji
+		religion = brownrel
+		size = 3
+	}
+
+	farmers = {
+		culture = gji
+		religion = brownrel
+		size = 28
+	}
+
+	clergymen = {
+		culture = gji
+		religion = brownrel
+		size = 0
+	}
+
+	thralls = {
+		culture = gji
+		religion = pagan
+		size = 54
+	}
+
+	farmers = {
+		culture = gji
+		religion = pagan
+		size = 484
+	}
+
+	clergymen = {
+		culture = gji
+		religion = pagan
+		size = 5
+	}
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 20
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 80
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 1882
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 20
+	}
+
+}
+
+1536 = {
+
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 95
+	}
+
+
+	labourers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2234
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 23
+	}
+
+}
+
+1537 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 243
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 2169
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 24
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 28
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 115
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 2714
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 28
+	}
+
+}
+
+1538 = {
+
+
+
+	serfs = {
+		culture = thaunti
+		religion = redrel
+		size = 0
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = redrel
+		size = 2
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = redrel
+		size = 24
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = redrel
+		size = 1
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = redrel
+		size = 0
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = pagan
+		size = 7
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 77
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = pagan
+		size = 649
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 30
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 47
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 47
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 95
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 286
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 3818
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 477
+	}
+
+}
+
+1539 = {
+
+
+
+	serfs = {
+		culture = thaunti
+		religion = redrel
+		size = 8
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = redrel
+		size = 83
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = redrel
+		size = 699
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = redrel
+		size = 33
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = redrel
+		size = 8
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 22
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = pagan
+		size = 187
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 8
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 56
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 56
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 113
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 339
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 4524
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 565
+	}
+
+}
+
+1540 = {
+
+
+
+	serfs = {
+		culture = thaunti
+		religion = redrel
+		size = 32
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = redrel
+		size = 321
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = redrel
+		size = 2698
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = redrel
+		size = 128
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = redrel
+		size = 32
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = pagan
+		size = 9
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 99
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = pagan
+		size = 834
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 39
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 9
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 1
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 3
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 10
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 138
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 17
+	}
+
+}
+
+1541 = {
+
+
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 443
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 3545
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 310
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 88
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 44
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 45
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 362
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 31
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 9
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 4
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = redrel
+		size = 9
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = redrel
+		size = 98
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = redrel
+		size = 829
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = redrel
+		size = 39
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = redrel
+		size = 9
+	}
+
+	serfs = {
+		culture = thaunti
+		religion = pagan
+		size = 18
+	}
+
+	slaves = {
+		culture = thaunti
+		religion = pagan
+		size = 188
+	}
+
+	farmers = {
+		culture = thaunti
+		religion = pagan
+		size = 1581
+	}
+
+	soldiers = {
+		culture = thaunti
+		religion = pagan
+		size = 75
+	}
+
+	artisans = {
+		culture = thaunti
+		religion = pagan
+		size = 18
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 4
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 13
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 186
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = vewugi
+		 size = 23
+	}
+
+}
+
+1542 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 66
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 501
+	}
+
+	officers = {
+		culture = wushauw
+		religion = pagan
+		size = 1
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 167
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 736
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 63
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 66
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 16
+	}
+
+	bureaucrats = {
+		culture = wushauw
+		religion = pagan
+		size = 1
+	}
+
+	aristocrats = {
+		culture = wushauw
+		religion = pagan
+		size = 50
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 94
+	}
+
+	serfs = {
+		culture = foussuni
+		religion = pagan
+		size = 711
+	}
+
+	officers = {
+		culture = foussuni
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 237
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 1044
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 90
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 94
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 23
+	}
+
+	bureaucrats = {
+		culture = foussuni
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 71
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 503
+	}
+
+
+	bureaucrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 16
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 167
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 671
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 637
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 7384
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1678
+	}
+
+
+	officers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 16
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 5034
+	}
+
+
+	thralls = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 671
+	}
+
+}
+
+1543 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 48
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 363
+	}
+
+	officers = {
+		culture = wushauw
+		religion = pagan
+		size = 1
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 121
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 533
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 46
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 48
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 12
+	}
+
+	bureaucrats = {
+		culture = wushauw
+		religion = pagan
+		size = 1
+	}
+
+	aristocrats = {
+		culture = wushauw
+		religion = pagan
+		size = 36
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 70
+	}
+
+	serfs = {
+		culture = foussuni
+		religion = pagan
+		size = 531
+	}
+
+	officers = {
+		culture = foussuni
+		religion = pagan
+		size = 1
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 177
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 779
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 67
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 70
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 17
+	}
+
+	bureaucrats = {
+		culture = foussuni
+		religion = pagan
+		size = 1
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 53
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 353
+	}
+
+
+	bureaucrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 11
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 117
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 471
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 447
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 5186
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1178
+	}
+
+
+	officers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 11
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 3536
+	}
+
+
+	thralls = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 471
+	}
+
+}
+
+1544 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 17
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 131
+	}
+
+	officers = {
+		culture = wushauw
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 43
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 192
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 16
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 17
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = wushauw
+		religion = pagan
+		size = 0
+	}
+
+	aristocrats = {
+		culture = wushauw
+		religion = pagan
+		size = 13
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 13
+	}
+
+	serfs = {
+		culture = foussuni
+		religion = pagan
+		size = 101
+	}
+
+	officers = {
+		culture = foussuni
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 33
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 148
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 12
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 13
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = foussuni
+		religion = pagan
+		size = 0
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 127
+	}
+
+
+	bureaucrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 4
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 42
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 170
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 162
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1877
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 426
+	}
+
+
+	officers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 4
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1279
+	}
+
+
+	thralls = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 170
+	}
+
+}
+
+1545 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 131
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 987
+	}
+
+	officers = {
+		culture = wushauw
+		religion = pagan
+		size = 3
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 329
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 1448
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 125
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 131
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 32
+	}
+
+	bureaucrats = {
+		culture = wushauw
+		religion = pagan
+		size = 3
+	}
+
+	aristocrats = {
+		culture = wushauw
+		religion = pagan
+		size = 98
+	}
+
+	thralls = {
+		culture = foussuni
+		religion = pagan
+		size = 8
+	}
+
+	serfs = {
+		culture = foussuni
+		religion = pagan
+		size = 66
+	}
+
+	officers = {
+		culture = foussuni
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = foussuni
+		religion = pagan
+		size = 22
+	}
+
+	farmers = {
+		culture = foussuni
+		religion = pagan
+		size = 98
+	}
+
+	soldiers = {
+		culture = foussuni
+		religion = pagan
+		size = 8
+	}
+
+	artisans = {
+		culture = foussuni
+		religion = pagan
+		size = 8
+	}
+
+	clergymen = {
+		culture = foussuni
+		religion = pagan
+		size = 2
+	}
+
+	bureaucrats = {
+		culture = foussuni
+		religion = pagan
+		size = 0
+	}
+
+	aristocrats = {
+		culture = foussuni
+		religion = pagan
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 51
+	}
+
+
+	bureaucrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 17
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 69
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 65
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 762
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 173
+	}
+
+
+	officers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 519
+	}
+
+
+	thralls = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 69
+	}
+
+}
+
+1546 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 85
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 639
+	}
+
+	officers = {
+		culture = wushauw
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 213
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 938
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 81
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 85
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 21
+	}
+
+	bureaucrats = {
+		culture = wushauw
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		culture = wushauw
+		religion = pagan
+		size = 63
+	}
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 12
+	}
+
+	serfs = {
+		culture = khrayian
+		religion = pagan
+		size = 92
+	}
+
+	officers = {
+		culture = khrayian
+		religion = pagan
+		size = 0
+	}
+
+	slaves = {
+		culture = khrayian
+		religion = pagan
+		size = 30
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 135
+	}
+
+	soldiers = {
+		culture = khrayian
+		religion = pagan
+		size = 11
+	}
+
+	artisans = {
+		culture = khrayian
+		religion = pagan
+		size = 12
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = khrayian
+		religion = pagan
+		size = 0
+	}
+
+	aristocrats = {
+		culture = khrayian
+		religion = pagan
+		size = 9
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 81
+	}
+
+
+	bureaucrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 2
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 27
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 109
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 103
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 1202
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 273
+	}
+
+
+	officers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 2
+	}
+
+
+	serfs = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 819
+	}
+
+
+	thralls = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 109
+	}
+
+}
+
+1548 = {
+
+
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 159
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 1272
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 111
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 31
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 15
+	}
+
+	aristocrats = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 28
+	}
+
+
+	clergymen = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 28
+	}
+
+
+	artisans = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 57
+	}
+
+
+	soldiers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 172
+	}
+
+
+	farmers = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 2306
+	}
+
+
+	slaves = {
+		 culture = thaunti
+		 religion = pagan
+		 size = 288
+	}
+
+}
+
+1549 = {
+
+
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 132
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 1057
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 92
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 26
+	}
+
+	clergymen = {
+		culture = wushauw
+		religion = pagan
+		size = 13
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 64
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 192
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2568
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 321
+	}
+
+}
+
+1550 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 35
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 70
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 211
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2814
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 351
+	}
+
+}
+
+1551 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 32
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 64
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 193
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2575
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 321
+	}
+
+}
+
+1552 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 34
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 69
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 209
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2798
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 349
+	}
+
+}
+
+1553 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 44
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 89
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 268
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3578
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 447
+	}
+
+}
+
+1554 = {
+
+
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 45
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 45
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 91
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 275
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3674
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 459
+	}
+
+}
+
+1555 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 113
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 1009
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 11
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 37
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 151
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 3551
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 37
+	}
+
+}
+
+1556 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 77
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 687
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 7
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 42
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 171
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 4030
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 42
+	}
+
+}
+
+1557 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 47
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 420
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 4
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 40
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 163
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 3837
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 40
+	}
+
+}
+
+1558 = {
+
+
+
+	thralls = {
+		culture = khrayian
+		religion = pagan
+		size = 23
+	}
+
+	farmers = {
+		culture = khrayian
+		religion = pagan
+		size = 208
+	}
+
+	clergymen = {
+		culture = khrayian
+		religion = pagan
+		size = 2
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 42
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 169
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 3983
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 42
+	}
+
+}
+
+1559 = {
+
+
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 45
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 183
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 4312
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 45
+	}
+
+}
+
+1560 = {
+
+
+
+	thralls = {
+		culture = gajadi
+		religion = pagan
+		size = 189
+	}
+
+	farmers = {
+		culture = gajadi
+		religion = pagan
+		size = 1684
+	}
+
+	clergymen = {
+		culture = gajadi
+		religion = pagan
+		size = 18
+	}
+
+	artisans = {
+		 culture = gji
+		 religion = pagan
+		 size = 33
+	}
+
+
+	soldiers = {
+		 culture = gji
+		 religion = pagan
+		 size = 133
+	}
+
+
+	labourers = {
+		 culture = gji
+		 religion = pagan
+		 size = 3143
+	}
+
+
+	serfs = {
+		 culture = gji
+		 religion = pagan
+		 size = 33
+	}
+
+}
+
+1561 = {
+
+
+
+	thralls = {
+		culture = gajadi
+		religion = pagan
+		size = 123
+	}
+
+	farmers = {
+		culture = gajadi
+		religion = pagan
+		size = 1097
+	}
+
+	clergymen = {
+		culture = gajadi
+		religion = pagan
+		size = 12
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 16
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 64
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 1524
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 16
+	}
+
+}
+
+1562 = {
+
+
+
+	thralls = {
+		culture = mnashi
+		religion = pagan
+		size = 77
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 693
+	}
+
+	clergymen = {
+		culture = mnashi
+		religion = pagan
+		size = 7
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 18
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 73
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 1728
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 18
+	}
+
+}
+
+1563 = {
+
+
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 135
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 543
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 12773
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 135
+	}
+
+}
+
+1564 = {
+
+
+
+	thralls = {
+		culture = behshi
+		religion = pagan
+		size = 1183
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 10528
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 118
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 28
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 112
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 2640
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 28
+	}
+
+}
+
+
+1565 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 331
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 5837
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 265
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 9
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 205
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+}
+
+1566 = {
+
+
+
+	thralls = {
+		culture = behshi
+		religion = pagan
+		size = 103
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 919
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 10
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 53
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 213
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 5013
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 53
+	}
+
+}
+
+1567 = {
+
+
+
+	thralls = {
+		culture = behshi
+		religion = pagan
+		size = 1644
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 14634
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 164
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 0
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 0
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 21
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 0
+	}
+
+}
+
+1568 = {
+
+
+
+	thralls = {
+		culture = behshi
+		religion = pagan
+		size = 1408
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 12534
+	}
+
+	clergymen = {
+		culture = behshi
+		religion = pagan
+		size = 140
+	}
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 177
+	}
+
+
+	labourers = {
+		 culture = geep
+		 religion = pagan
+		 size = 4166
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 44
+	}
+
+}
+
+1569 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 12
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 61
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 1072
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 49
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 12
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 12
+	}
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 16
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 81
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 1420
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 65
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 16
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 16
+	}
+
+	aristocrats = {
+		 culture = geep
+		 religion = pagan
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 93
+	}
+
+
+	farmers = {
+		 culture = geep
+		 religion = pagan
+		 size = 2028
+	}
+
+
+	slaves = {
+		 culture = geep
+		 religion = pagan
+		 size = 116
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 23
+	}
+
+}
+
+1570 = {
+
+
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 6
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 33
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 583
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 26
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 6
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 6
+	}
+
+	aristocrats = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 43
+	}
+
+
+	soldiers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 174
+	}
+
+
+	farmers = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 3842
+	}
+
+
+	slaves = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 218
+	}
+
+
+	serfs = {
+		 culture = mnashi
+		 religion = pagan
+		 size = 43
+	}
+
+}
+
+1571 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 11
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 196
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 8
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 54
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 54
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 217
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 4791
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 272
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 54
+	}
+
+}
+
+1572 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 144
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 2537
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 115
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 98
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 98
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 393
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 8662
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 492
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 98
+	}
+
+}
+
+1573 = {
+
+
+
+	serfs = {
+		culture = gajadi
+		religion = pagan
+		size = 5
+	}
+
+	slaves = {
+		culture = gajadi
+		religion = pagan
+		size = 28
+	}
+
+	farmers = {
+		culture = gajadi
+		religion = pagan
+		size = 504
+	}
+
+	soldiers = {
+		culture = gajadi
+		religion = pagan
+		size = 22
+	}
+
+	artisans = {
+		culture = gajadi
+		religion = pagan
+		size = 5
+	}
+
+	aristocrats = {
+		culture = gajadi
+		religion = pagan
+		size = 5
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 88
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 440
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 7746
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 352
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 88
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 88
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 78
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 78
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 313
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 6897
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 391
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 78
+	}
+
+}
+
+1574 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 10
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 54
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 961
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 43
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 173
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 173
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 693
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 15253
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 866
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 173
+	}
+
+}
+
+1575 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 4
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 20
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 359
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 16
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 4
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 4
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 7
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 38
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 680
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 30
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 177
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 3901
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 221
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 44
+	}
+
+}
+
+1576 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 43
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 216
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 3813
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 173
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 43
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 43
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 77
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 386
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 6809
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 309
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 77
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 77
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 49
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1090
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 61
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 12
+	}
+
+}
+
+1577 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 80
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 404
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 7113
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 323
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 80
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 80
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 87
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 87
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 350
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 7720
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 438
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 87
+	}
+
+}
+
+1578 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 21
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 105
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 1851
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 84
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 21
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 21
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 158
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 794
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 13977
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 635
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 158
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 158
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 8
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 8
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 35
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 777
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 8
+	}
+
+}
+
+1579 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 16
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 292
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 13
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 137
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 688
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 12121
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 550
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 137
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 137
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 4
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 107
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 6
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1
+	}
+
+}
+
+1580 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 47
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 236
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 4168
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 189
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 47
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 47
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 167
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 2941
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 133
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 278
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 278
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1115
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 24537
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 1394
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 278
+	}
+
+}
+
+1581 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 16
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 81
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 1437
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 65
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 16
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 16
+	}
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 98
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 492
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 8666
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 393
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 98
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 98
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 331
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 5837
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 265
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 66
+	}
+
+	aristocrats = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+
+	artisans = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+
+	soldiers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 9
+	}
+
+
+	farmers = {
+		 culture = behshi
+		 religion = pagan
+		 size = 205
+	}
+
+
+	slaves = {
+		 culture = behshi
+		 religion = pagan
+		 size = 11
+	}
+
+
+	serfs = {
+		 culture = behshi
+		 religion = pagan
+		 size = 2
+	}
+
+}
+
+1582 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 244
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 1223
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 21536
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 978
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 244
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 244
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 22
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 89
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 1964
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 111
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 22
+	}
+
+}
+
+1583 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 10
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 50
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 883
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 40
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 10
+	}
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 10
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 50
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 882
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 40
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 10
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 177
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 3901
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 221
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 44
+	}
+
+}
+
+1584 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 7
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 38
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 680
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 30
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 7
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 45
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 45
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 182
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 4006
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 227
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = pagan
+		 size = 45
+	}
+
+}
+
+1585 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 27
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 139
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 2449
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 111
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 27
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 27
+	}
+
+	serfs = {
+		culture = mipabi
+		religion = orangerel
+		size = 43
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = orangerel
+		size = 216
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = orangerel
+		size = 3812
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = orangerel
+		size = 173
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = orangerel
+		size = 43
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = orangerel
+		size = 43
+	}
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 33
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 167
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 2942
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 133
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 66
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 66
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 265
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 5836
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 331
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 66
+	}
+
+}
+
+1586 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 23
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 117
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 2060
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 93
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 23
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 23
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 174
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 174
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 697
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 15349
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 872
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 174
+	}
+
+}
+
+1587 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 2
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 14
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 249
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 11
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 2
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 163
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 163
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 653
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 14373
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 816
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 163
+	}
+
+}
+
+1588 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 38
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 194
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 3417
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 155
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 38
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 38
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 93
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2061
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 117
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+}
+
+1589 = {
+
+
+
+	serfs = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = pagan
+		size = 16
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = pagan
+		size = 292
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = pagan
+		size = 13
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = pagan
+		size = 3
+	}
+
+	serfs = {
+		culture = mnashi
+		religion = orangerel
+		size = 3
+	}
+
+	slaves = {
+		culture = mnashi
+		religion = orangerel
+		size = 16
+	}
+
+	farmers = {
+		culture = mnashi
+		religion = orangerel
+		size = 293
+	}
+
+	soldiers = {
+		culture = mnashi
+		religion = orangerel
+		size = 13
+	}
+
+	artisans = {
+		culture = mnashi
+		religion = orangerel
+		size = 3
+	}
+
+	aristocrats = {
+		culture = mnashi
+		religion = orangerel
+		size = 3
+	}
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 120
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 601
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 10593
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 481
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 120
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 120
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 36
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 36
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 145
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 3197
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 181
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 36
+	}
+
+}
+
+1590 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = pagan
+		size = 102
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = pagan
+		size = 514
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = pagan
+		size = 9049
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = pagan
+		size = 411
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = pagan
+		size = 102
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = pagan
+		size = 102
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 95
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2094
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 119
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 23
+	}
+
+}
+
+
+1591 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 298
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 298
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1193
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 26253
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1491
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 298
+	}
+
+}
+
+1592 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 657
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 657
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2631
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 57885
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 3288
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 657
+	}
+
+}
+
+1593 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 738
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 16256
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 923
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+}
+1594 = {
+
+
+
+	farmers = {
+		culture = gji
+		religion = brownrel
+		size = 248
+	}
+
+	soldiers = {
+		culture = gji
+		religion = brownrel
+		size = 2
+	}
+
+	artisans = {
+		culture = gji
+		religion = brownrel
+		size = 19
+	}
+
+	clergymen = {
+		culture = gji
+		religion = brownrel
+		size = 2
+	}
+
+	farmers = {
+		culture = gji
+		religion = orangerel
+		size = 14413
+	}
+
+	soldiers = {
+		culture = gji
+		religion = orangerel
+		size = 158
+	}
+
+	artisans = {
+		culture = gji
+		religion = orangerel
+		size = 1108
+	}
+
+	clergymen = {
+		culture = gji
+		religion = orangerel
+		size = 158
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 79
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 79
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 316
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 6954
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 395
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 79
+	}
+
+}
+
+1595 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 220
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 220
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 881
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 19389
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1101
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 220
+	}
+
+}
+
+1596 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 173
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 173
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 695
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 15309
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 869
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 173
+	}
+
+}
+
+1597 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 738
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 16246
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 923
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 184
+	}
+
+}
+
+1598 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 440
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 440
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1761
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 38752
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2201
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 440
+	}
+
+}
+
+1599 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 523
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 523
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2093
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 46064
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2617
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 523
+	}
+
+}
+
+1600 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 374
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 374
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1498
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 32967
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1873
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 374
+	}
+
+}
+
+1601 = {
+
+
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 443
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 443
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1775
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 39061
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 2219
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 443
+	}
+
+}
+
+1602 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = orangerel
+		size = 167
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = orangerel
+		size = 836
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = orangerel
+		size = 14729
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = orangerel
+		size = 669
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = orangerel
+		size = 167
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = orangerel
+		size = 167
+	}
+
+	aristocrats = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 12
+	}
+
+
+	artisans = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 12
+	}
+
+
+	soldiers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 49
+	}
+
+
+	farmers = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 1082
+	}
+
+
+	slaves = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 61
+	}
+
+
+	serfs = {
+		 culture = nuukheu
+		 religion = orangerel
+		 size = 12
+	}
+
+}
+1603 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 237
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 237
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 950
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20921
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1188
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 237
+	}
+
+}
+
+1604 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 648
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 648
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2593
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 57050
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 3241
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 648
+	}
+
+}
+
+1605 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 539
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 539
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2157
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 47458
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2696
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 539
+	}
+
+}
+
+1606 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = orangerel
+		size = 278
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = orangerel
+		size = 1392
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = orangerel
+		size = 24507
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = orangerel
+		size = 1113
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = orangerel
+		size = 278
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = orangerel
+		size = 278
+	}
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 433
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 433
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1733
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 38140
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2167
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 433
+	}
+
+}
+
+1607 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 233
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 233
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 933
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20542
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1167
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 233
+	}
+
+}
+
+
+
+1608 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 228
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 228
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 913
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20097
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1141
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 228
+	}
+
+}
+1609 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 177
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 177
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 709
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 15613
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 887
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 177
+	}
+
+}
+
+1610 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 678
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 678
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2713
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 59699
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 3392
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 678
+	}
+
+}
+
+1611 = {
+
+
+
+	serfs = {
+		culture = nuukheu
+		religion = orangerel
+		size = 37
+	}
+
+	slaves = {
+		culture = nuukheu
+		religion = orangerel
+		size = 188
+	}
+
+	farmers = {
+		culture = nuukheu
+		religion = orangerel
+		size = 3321
+	}
+
+	soldiers = {
+		culture = nuukheu
+		religion = orangerel
+		size = 150
+	}
+
+	artisans = {
+		culture = nuukheu
+		religion = orangerel
+		size = 37
+	}
+
+	aristocrats = {
+		culture = nuukheu
+		religion = orangerel
+		size = 37
+	}
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 127
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 127
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 509
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 11202
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 636
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 127
+	}
+
+}
+
+1612 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 159
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 159
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 637
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 14025
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 796
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 159
+	}
+
+}
+
+1613 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 43
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 43
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 175
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 3851
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 218
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 43
+	}
+
+}
+
+1614 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 698
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 698
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2792
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 61426
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 3490
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 698
+	}
+
+}
+
+1615 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 474
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 474
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1899
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 41799
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 2374
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 474
+	}
+
+}
+
+1616 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 363
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 363
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1455
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 32014
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1819
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 363
+	}
+
+}
+
+1617 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 366
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 366
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1465
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 32231
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1831
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 366
+	}
+
+}
+
+1618 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 167
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 167
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 669
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 14738
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 837
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 167
+	}
+
+}
+
+1619 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 149
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 149
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 599
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 13190
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 749
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 149
+	}
+
+}
+
+1620 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 99
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 99
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 396
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 8714
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 495
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 99
+	}
+
+}
+
+1621 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 220
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 220
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 883
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 19447
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1104
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 220
+	}
+
+}
+
+1622 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 168
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 168
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 673
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 14818
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 841
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 168
+	}
+
+}
+
+1623 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 248
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 248
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 995
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 21896
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1244
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 248
+	}
+
+}
+
+1624 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 136
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 136
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 547
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 12035
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 683
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 136
+	}
+
+}
+
+1625 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = orangerel
+		size = 112
+	}
+
+	slaves = {
+		culture = geep
+		religion = orangerel
+		size = 564
+	}
+
+	farmers = {
+		culture = geep
+		religion = orangerel
+		size = 9926
+	}
+
+	soldiers = {
+		culture = geep
+		religion = orangerel
+		size = 451
+	}
+
+	artisans = {
+		culture = geep
+		religion = orangerel
+		size = 112
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = orangerel
+		size = 112
+	}
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 83
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 1846
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 104
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 20
+	}
+
+}
+
+1626 = {
+
+
+
+	serfs = {
+		culture = gajadi
+		religion = orangerel
+		size = 218
+	}
+
+	slaves = {
+		culture = gajadi
+		religion = orangerel
+		size = 1091
+	}
+
+	farmers = {
+		culture = gajadi
+		religion = orangerel
+		size = 19216
+	}
+
+	soldiers = {
+		culture = gajadi
+		religion = orangerel
+		size = 873
+	}
+
+	artisans = {
+		culture = gajadi
+		religion = orangerel
+		size = 218
+	}
+
+	aristocrats = {
+		culture = gajadi
+		religion = orangerel
+		size = 218
+	}
+
+	serfs = {
+		culture = geep
+		religion = orangerel
+		size = 38
+	}
+
+	slaves = {
+		culture = geep
+		religion = orangerel
+		size = 194
+	}
+
+	farmers = {
+		culture = geep
+		religion = orangerel
+		size = 3429
+	}
+
+	soldiers = {
+		culture = geep
+		religion = orangerel
+		size = 155
+	}
+
+	artisans = {
+		culture = geep
+		religion = orangerel
+		size = 38
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = orangerel
+		size = 38
+	}
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 7
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 7
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 28
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 616
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 35
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 7
+	}
+
+}
+
+1627 = {
+
+
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 130
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 130
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 523
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 11527
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 654
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = orangerel
+		 size = 130
+	}
+
+}
+
+1628 = {
+
+
+
+	serfs = {
+		culture = gajadi
+		religion = pagan
+		size = 103
+	}
+
+	slaves = {
+		culture = gajadi
+		religion = pagan
+		size = 518
+	}
+
+	farmers = {
+		culture = gajadi
+		religion = pagan
+		size = 9128
+	}
+
+	soldiers = {
+		culture = gajadi
+		religion = pagan
+		size = 414
+	}
+
+	artisans = {
+		culture = gajadi
+		religion = pagan
+		size = 103
+	}
+
+	aristocrats = {
+		culture = gajadi
+		religion = pagan
+		size = 103
+	}
+
+	aristocrats = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	artisans = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 44
+	}
+
+
+	soldiers = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 179
+	}
+
+
+	farmers = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 3949
+	}
+
+
+	slaves = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 224
+	}
+
+
+	serfs = {
+		 culture = mipabi
+		 religion = pagan
+		 size = 44
+	}
+
+}
+
+1629 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 166
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 2925
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 132
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 33
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 238
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 238
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 955
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 21017
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 1194
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 238
+	}
+
+}
+
+1630 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 83
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 419
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 7391
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 335
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 83
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 83
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 573
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 573
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 2295
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 50504
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 2869
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 573
+	}
+
+}
+
+1631 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 134
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 672
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 11834
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 537
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 134
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 134
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 233
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 933
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 20541
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 1167
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 233
+	}
+
+}
+
+1632 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 143
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 718
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 12652
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 575
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 143
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 143
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 2514
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 55328
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 3143
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+}
+
+1634 = {
+
+
+
+	serfs = {
+		culture = mipabi
+		religion = pagan
+		size = 78
+	}
+
+	slaves = {
+		culture = mipabi
+		religion = pagan
+		size = 391
+	}
+
+	farmers = {
+		culture = mipabi
+		religion = pagan
+		size = 6898
+	}
+
+	soldiers = {
+		culture = mipabi
+		religion = pagan
+		size = 313
+	}
+
+	artisans = {
+		culture = mipabi
+		religion = pagan
+		size = 78
+	}
+
+	aristocrats = {
+		culture = mipabi
+		religion = pagan
+		size = 78
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 163
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 163
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 654
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 14399
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 818
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 163
+	}
+
+}
+
+1635 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 17
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 88
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 1560
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 70
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 743
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 743
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 2975
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 65471
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 3719
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 743
+	}
+
+}
+
+1636 = {
+
+
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 14
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 70
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 1239
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 56
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 14
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 14
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 144
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 2537
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 115
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 28
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 2515
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 55337
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 3144
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 628
+	}
+
+}
+
+1637 = {
+
+
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 34
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 174
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 3079
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 139
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 34
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 34
+	}
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 378
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 1894
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 33337
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 1515
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 378
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 378
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 37
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 150
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 3319
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 188
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 37
+	}
+
+}
+
+1638 = {
+
+
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 17
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 86
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 1529
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 69
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 17
+	}
+
+	aristocrats = {
+		 culture = geep
+		 religion = pagan
+		 size = 98
+	}
+
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 98
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 395
+	}
+
+
+	farmers = {
+		 culture = geep
+		 religion = pagan
+		 size = 8697
+	}
+
+
+	slaves = {
+		 culture = geep
+		 religion = pagan
+		 size = 494
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 98
+	}
+
+}
+
+1639 = {
+
+
+
+	serfs = {
+		culture = behshi
+		religion = pagan
+		size = 23
+	}
+
+	slaves = {
+		culture = behshi
+		religion = pagan
+		size = 119
+	}
+
+	farmers = {
+		culture = behshi
+		religion = pagan
+		size = 2101
+	}
+
+	soldiers = {
+		culture = behshi
+		religion = pagan
+		size = 95
+	}
+
+	artisans = {
+		culture = behshi
+		religion = pagan
+		size = 23
+	}
+
+	aristocrats = {
+		culture = behshi
+		religion = pagan
+		size = 23
+	}
+
+	aristocrats = {
+		 culture = geep
+		 religion = pagan
+		 size = 127
+	}
+
+
+	artisans = {
+		 culture = geep
+		 religion = pagan
+		 size = 127
+	}
+
+
+	soldiers = {
+		 culture = geep
+		 religion = pagan
+		 size = 510
+	}
+
+
+	farmers = {
+		 culture = geep
+		 religion = pagan
+		 size = 11240
+	}
+
+
+	slaves = {
+		 culture = geep
+		 religion = pagan
+		 size = 638
+	}
+
+
+	serfs = {
+		 culture = geep
+		 religion = pagan
+		 size = 127
+	}
+
+}
+
+1640 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 53
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 267
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 4707
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 213
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 53
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 53
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 48
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 48
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 195
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 4297
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 244
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 48
+	}
+
+}
+
+1641 = {
+
+
+
+	serfs = {
+		culture = geep
+		religion = pagan
+		size = 32
+	}
+
+	slaves = {
+		culture = geep
+		religion = pagan
+		size = 164
+	}
+
+	farmers = {
+		culture = geep
+		religion = pagan
+		size = 2893
+	}
+
+	soldiers = {
+		culture = geep
+		religion = pagan
+		size = 131
+	}
+
+	artisans = {
+		culture = geep
+		religion = pagan
+		size = 32
+	}
+
+	aristocrats = {
+		culture = geep
+		religion = pagan
+		size = 32
+	}
+
+	aristocrats = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 227
+	}
+
+
+	artisans = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 227
+	}
+
+
+	soldiers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 910
+	}
+
+
+	farmers = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 20040
+	}
+
+
+	slaves = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 1138
+	}
+
+
+	serfs = {
+		 culture = gajadi
+		 religion = pagan
+		 size = 227
 	}
 
 }

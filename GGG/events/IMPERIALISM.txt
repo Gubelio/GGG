@@ -21,73 +21,996 @@ country_event = {
 		money = 250000
 		
 		OR = {
-			ZIV = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NYW = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NIK = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MJO = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			KOC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			JUR = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NGG = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MPA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			KUC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			PWA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SES = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			DHC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MTU = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MWI = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			BIM = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SUC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			RAS = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			DAU = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			YAW = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MJE = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SHO = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			THO = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			WCH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			ZHE = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			KHR = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SWM = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			HOV = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			YBA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			GIK = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			UMC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MWN = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			FET = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			ZIV = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			CHK = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MTC = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			WOJ = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			YSG = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			DNT = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SHN = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			BWU = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NZO = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			HMO = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			SHM = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			GYR = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			HIE = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			KAH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			ISA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			HYU = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			TAR = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			RYG = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			HUD = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NEH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			DDH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			GUD = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			BSH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			GRM = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MSH = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MNJ = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			IDA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			PER = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			KAN = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NTS = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			NSP = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			JAN = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			MSQ = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			JGG = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
-			BAA = { ai = yes civilized = no any_owned_province = { is_coastal = yes } war = no is_vassal = no part_of_sphere = no NOT = { number_of_states = 4 } }	
+			NYW = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NIK = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MJO = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			KOC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}		
+			JUR = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NGG = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MPA = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			KUC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			PWA = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			SES = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			DHC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MTU = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MWI = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			BIM = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			SUC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			RAS = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			DAU = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			YAW = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MJE = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			SHO = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			THO = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}
+			WCH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}				
+			ZHE = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			KHR = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			SWM = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			HOV = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			YBA = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			GIK = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			UMC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MWN = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			FET = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			ZIV = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			CHK = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MTC = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			WOJ = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			YSG = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			DNT = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			SHN = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			BWU = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NZO = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			HMO = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			CHM = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			GYR = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			HIE = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			KAH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			ISA = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			HYU = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			TAR = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			RYG = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			HUD = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NEH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			DDH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			GUD = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			BSH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			GRM = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MSH = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MNJ = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			IDA = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			PER = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			KAN = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NTS = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			NSP = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			JAN = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			MSQ = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}	
+			JGG = { 
+					ai = yes 
+					civilized = no 
+					any_owned_province = { is_coastal = yes } 
+					war = no 
+					is_vassal = no 
+					part_of_sphere = no 
+					NOT = {
+						OR = {
+							number_of_states = 4 
+							alliance_with = THIS 
+							truce_with = THIS
+						}	
+					} 
+				}
+			BAA = { 
+				ai = yes 
+				civilized = no 
+				any_owned_province = { is_coastal = yes } 
+				war = no 
+				is_vassal = no 
+				part_of_sphere = no 
+				NOT = {
+					OR = {
+						number_of_states = 4 
+						alliance_with = THIS 
+						truce_with = THIS
+					}	
+				} 
+			}
 		}
     }
 	
@@ -109,25 +1032,6 @@ country_event = {
             factor = 0.9
             owner = { war_policy = pro_military }
         }
-		
-		#modifier = { #Event effectively won't fire if no viable filibuster targets are available
-		#	any_country = {
-		#		NOT = {
-		#			OR = {
-		#				capital_scope = { continent = europe } #Bafozh
-		#				capital_scope = { continent = africa } #Shobgizob			
-		#			}
-		#			ai = yes
-		#			civilized = no
-		#			any_owned_province = { is_coastal = yes }
-		#			war = no
-		#			is_vassal = no
-		#			part_of_sphere = no
-		#			NOT = { number_of_states = 4 } #Used to be 3
-		#		}
-		#	}
-		#	factor = -100
-        #}
     }
 
     option = {
@@ -148,7 +1052,7 @@ country_event = {
 			
 		ai_chance = {
             factor = 25
-            modifier = { factor = 0 NOT = { money = 350000 } }
+            modifier = { factor = 0 NOT = { money = 300000 } }
         }
     }
 	
@@ -163,7 +1067,7 @@ country_event = {
 			
 		ai_chance = {
             factor = 25
-            modifier = { factor = 0 NOT = { money = 550000 } }
+            modifier = { factor = 0 NOT = { money = 500000 } }
         }
     }
 	
@@ -178,7 +1082,7 @@ country_event = {
 			
 		ai_chance = {
             factor = 25
-            modifier = { factor = 0 NOT = { money = 750000 } }
+            modifier = { factor = 0 NOT = { money = 700000 } }
         }
     }
 }
@@ -286,7 +1190,7 @@ country_event = {
 country_event = { 
     id = 50028
     title = "EVTNAME50028" #demand a concession from unciv
-    desc = "EVTDESC50028"
+    desc = "EVTDESC50028" 
     #picture = "south_american_native"
 
     trigger = {
@@ -310,13 +1214,14 @@ country_event = {
 				capital_scope = { continent = north_america } #ISHAHFAZH
 				}
 			}
+		}
     }
 
     mean_time_to_happen = {
         months = 180
 		modifier = {
             factor = 0.3
-            year = 1842
+            year = 1342
         }
         #modifier = {
         #    factor = 0.9
@@ -368,67 +1273,166 @@ country_event = {
     }
 }
 
-#country_event = { #south america
-#    id = 50442
-#    title = "Establish Protectorate!"
-#    desc = "south_america_native_war_c_desc"
-#    picture = "south_american_native"
-#
-#    trigger = {
-#	capital_scope = { continent = south_america }
-#	NOT = {
-#	tag = CTR
-#	}
-#	civilized = yes
-#	war = no
-#	year = 1845
-#	is_vassal = no
-#    }
-#
-#    mean_time_to_happen = {
-#        days = 1825
-#    }
-#
-#    option = {
-#        name = "They will be no more!"
-#	ai_chance = { 
-#		factor = 99
-#		}
-#	random_country = {
-#            limit = {
-#                is_vassal = no
-#		civilized = no
-#		neighbour = THIS
-#			OR = {	
-#	capital_scope = { continent = north_america }
-#	capital_scope = { continent = south_america }
-#		}
-#		NOT = {
-#		number_of_states = 2
-#		}
-#                NOT = {
-#                    alliance_with = THIS
-#                    truce_with = THIS
-#                }
-#            }
-#            add_casus_belli = {
-#                target = THIS
-#                type = establish_protectorate_casus_belli
-#                months = 12
-#            }
-#            relation = {
-#                who = THIS
-#                value = -150
-#            }
-#        }
-#	
-#    }
-#
-#    option = {
-#        name = "We can't afford to do anything at this moment"
-#	prestige = -5
-#	ai_chance = { 
-#		factor = 1
-#		}
-#    }
-#}
+country_event = { 
+    id = 50029
+    title = "EVTNAME50029" # establish protectorate
+    desc = "EVTDESC50029"     
+	#picture = "south_american_native"
+	
+    trigger = {
+        year = 1318
+        civilized = yes
+        war = no
+        is_vassal = no
+        OR = {
+            is_greater_power = yes
+            is_secondary_power = yes
+        }
+        any_neighbor_country = {
+            NOT = { tag = THIS }
+            civilized = no 
+            war = no 
+            is_vassal = no 
+            NOT = { 
+                OR = {
+					number_of_states = 2 
+                    alliance_with = THIS 
+                    truce_with = THIS
+                    capital_scope = { continent = north_america } 
+                }
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 180
+		modifier = {
+            factor = 0.3
+            year = 1342
+        }
+        #modifier = {
+        #    factor = 0.9
+        #    owner = { war_policy = pro_military }
+        #}
+        #modifier = {
+        #    factor = 0.9
+        #    owner = { war_policy = jingoism }
+        #}
+    }
+
+    option = {
+        name = "EVT50029OPTA"
+		random_country = {
+            limit = {
+                is_vassal = no
+				civilized = no
+				neighbour = THIS
+				NOT = { 
+					number_of_states = 2 
+					OR = {
+					alliance_with = THIS 
+					truce_with = THIS
+					capital_scope = { continent = north_america } #ISHAHFAZH
+					}
+				}
+            }
+            add_casus_belli = {
+                target = THIS
+                type = establish_protectorate_casus_belli
+                months = 12
+            }
+            relation = {
+                who = THIS
+                value = -150
+            }
+        }
+		ai_chance = { 
+		factor = 90
+		}
+    }
+
+    option = {
+        name = "EVT50029OPTB"
+		prestige = -5
+		ai_chance = { 
+		factor = 10
+		}
+    }
+}
+
+#########################
+### DESERT OCCUPATION ###
+#########################
+
+country_event = { #Occupy sithuchi desert 1
+    id = 50030
+    title = "EVTNAME50030"
+    desc = "EVTDESC50030"     
+	#picture = "south_american_native"
+	
+    trigger = {
+		any_greater_power = { invention = colonial_negotiations } #not perfect but game has no any_secondary_power scope :/
+		owns = 219
+		402 = { empty = yes }
+		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
+		#year = 1342
+	}
+
+    option = {
+        name = "EVT50030OPTA"
+			398 = { secede_province = THIS add_core = THIS }
+			399 = { secede_province = THIS add_core = THIS }
+			401 = { secede_province = THIS add_core = THIS }
+			402 = { secede_province = THIS add_core = THIS }
+			403 = { secede_province = THIS add_core = THIS }
+    }
+}
+
+country_event = { #Occupy sithuchi desert 2
+    id = 50031
+    title = "EVTNAME50031"
+    desc = "EVTDESC50031"     
+	#picture = "south_american_native"
+	
+    trigger = {
+		any_greater_power = { invention = colonial_negotiations }
+		owns = 579
+		406 = { empty = yes }
+		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
+    }
+
+    option = {
+        name = "EVT50031OPTA"
+			408 = { secede_province = THIS add_core = THIS }
+			407 = { secede_province = THIS add_core = THIS }
+			406 = { secede_province = THIS add_core = THIS }
+			405 = { secede_province = THIS add_core = THIS }
+			404 = { secede_province = THIS add_core = THIS }
+    }
+}
+
+country_event = { #Occupy sithuchi desert 3
+    id = 50033
+    title = "EVTNAME50033"
+    desc = "EVTDESC50033"     
+	#picture = "south_american_native"
+	
+    trigger = {
+		any_greater_power = { invention = colonial_negotiations }
+		owns = 415
+		owns = 416
+		413 = { empty = yes }
+		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
+    }
+
+    option = {
+        name = "EVT50033OPTA"
+			415 = { add_core = THIS }
+			416 = { add_core = THIS }
+			413 = { secede_province = THIS add_core = THIS }
+			412 = { secede_province = THIS add_core = THIS }
+			411 = { secede_province = THIS add_core = THIS }
+			410 = { secede_province = THIS add_core = THIS }
+			409 = { secede_province = THIS add_core = THIS }
+    }
+}

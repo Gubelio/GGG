@@ -3,4 +3,5 @@ controller = TIA
 add_core = TIA
 trade_goods = cattle
 life_rating = 33
+is_slave = yes
 

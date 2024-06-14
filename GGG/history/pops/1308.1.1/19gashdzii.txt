@@ -15238,9 +15238,26 @@
 	labourers = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 298486
+		 size = 283486
 	}
 
+	craftsmen = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 12000
+	}
+
+	capitalists = {
+		 culture = west_gashdzii
+		 religion = kadkohi
+		 size = 6
+	}
+
+	craftsmen = {
+		 culture = west_gashdzii
+		 religion = motkohnic
+		 size = 4994
+	}
 
 	officers = {
 		 culture = west_gashdzii
