@@ -768,14 +768,14 @@ mhorish_group = {
     unit = MiddleEasternGC
 
     hohraeth = { 
-	  color = { 237 192 193 }
+	  color = { 255 132 173 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     ighoureth = { 
-	  color = { 219 102 40 }
+	  color = { 255 50 71 }
 	      first_names = {  }
 
               last_names = {  }
@@ -788,7 +788,7 @@ hrusaan_group = {
     unit = MiddleEasternGC
 
     hrusaan = { 
-	  color = { 45 50 223 }
+	  color = { 137 213 255 }
 	      first_names = {  }
 
               last_names = {  }
@@ -808,35 +808,35 @@ jeznpoian_group = {
     }
 
     roshudbi = { 
-	  color = { 43 255 123 }
+	  color = { 161 73 71 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     goshaja = { 
-	  color = { 100 65 89 }
+	  color = { 161 216 71 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     umodi = { 
-	  color = { 68 98 178 }
+	  color = { 49 132 44 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     padud = { 
-	  color = { 255 99 15 }
-	      first_names = {  }
+	  color = { 178 167 67 }
+			first_names = {  }
 
-              last_names = {  }
+            last_names = {  }
     }
 
     mnashi = { 
-	  color = { 45 65 95 }
+	  color = { 49 132 44 }
 	      first_names = {  }
 
               last_names = {  }
@@ -870,7 +870,7 @@ dhrahdian_group = {
     }
 
     babhra = { 
-	  color = { 110 32 100 }
+	  color = { 81 116 181 }
 	      first_names = {  }
 
               last_names = {  }
@@ -890,14 +890,14 @@ ratskian_group = {
     unit = MiddleEasternGC
 
     nuukheu = { 
-	  color = { 143 123 60 }
+	  color = { 242 129 106 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     sarengi = { 
-	  color = { 61 91 161 }
+	  color = { 242 223 176 }
 	      first_names = {  }
 
               last_names = {  }
@@ -910,14 +910,14 @@ tgoen_group = {
     unit = MiddleEasternGC
 
     mipabi = { 
-	  color = { 60 75 160 }
+	  color = { 239 44 0 }
 	      first_names = {  }
 
               last_names = {  }
     }
 
     pomiga = { 
-	  color = { 200 100 50 }
+	  color = { 239 189 0 }
 	      first_names = {  }
 
               last_names = {  }
@@ -930,7 +930,7 @@ gji_group = {
     unit = MiddleEasternGC
 
     gji = { 
-	  color = { 25 175 90 }
+	  color = { 239 255 0 }
 	      first_names = {  }
 
               last_names = {  }
@@ -943,7 +943,7 @@ khrayian_group = {
     unit = MiddleEasternGC
 
     khrayian = { 
-	  color = { 125 75 90 }
+	  color = { 255 97 0 }
 	      first_names = {  }
 
               last_names = {  }
@@ -956,7 +956,7 @@ mromen_group = {
     unit = MiddleEasternGC
 
     gokam = { 
-	  color = { 25 75 190 }
+	  color = { 137 75 121 }
 	      first_names = {  }
 
               last_names = {  }

@@ -18912,7 +18912,7 @@ thralls = {
 	}
 
 	clergymen = {
-		culture = bchobajhi
+		culture = chobajhi
 		religion = vewugi
 		size = 7
 	}
@@ -20126,49 +20126,49 @@ thralls = {
 
 	serfs = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 6844
 	}
 
 	officers = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 24
 	}
 
 	slaves = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 4888
 	}
 
 	farmers = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 4888
 	}
 
 	soldiers = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 219
 	}
 
 	artisans = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 733
 	}
 
 	clergymen = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 244
 	}
 
 	aristocrats = {
 		culture = aucbocharr
-		religion = rechtist
+		religion = rechktist
 		size = 244
 	}
 
@@ -23205,37 +23205,37 @@ thralls = {
 	}
 
 	thralls = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 111
 	}
 
 	serfs = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 7727
 	}
 
 	farmers = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 13400
 	}
 
 	soldiers = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 201
 	}
 
 	artisans = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 670
 	}
 
 	clergymen = {
-		culture = coebejhi
+		culture = coebeju
 		religion = vewugi
 		size = 223
 	}
@@ -26175,19 +26175,19 @@ thralls = {
 
 
 	thralls = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 868
 	}
 
 	slaves = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 868
 	}
 
 	farmers = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 2604
 	}
@@ -26254,19 +26254,19 @@ thralls = {
 
 
 	thralls = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 446
 	}
 
 	slaves = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 446
 	}
 
 	farmers = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 1338
 	}
@@ -26333,19 +26333,19 @@ thralls = {
 
 
 	thralls = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 176
 	}
 
 	slaves = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 176
 	}
 
 	farmers = {
-		culture = assatioq
+		culture = assatiog
 		religion = paorusu
 		size = 530
 	}

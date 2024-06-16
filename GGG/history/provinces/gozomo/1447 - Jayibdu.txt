@@ -1,6 +1,6 @@
-owner = MTU
-controller = MTU
-add_core = MTU
+owner = MTC
+controller = MTC
+add_core = MTC
 trade_goods = grain
 life_rating = 33
 

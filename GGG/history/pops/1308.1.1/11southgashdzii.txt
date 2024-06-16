@@ -4384,56 +4384,56 @@
 
 	aristocrats = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 15
 	}
 
 
 	bureaucrats = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 1
 	}
 
 
 	clergymen = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 10
 	}
 
 
 	artisans = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 71
 	}
 
 
 	soldiers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 18
 	}
 
 
 	farmers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 885
 	}
 
 
 	officers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 1
 	}
 
 
 	serfs = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 20
 	}
 
@@ -4729,7 +4729,7 @@
 
 	aristocrats = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 9
 	}
 
@@ -4737,28 +4737,28 @@
 
 	clergymen = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 6
 	}
 
 
 	artisans = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 44
 	}
 
 
 	soldiers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 11
 	}
 
 
 	farmers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 548
 	}
 
@@ -4767,7 +4767,7 @@
 
 	serfs = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 12
 	}
 
@@ -4924,63 +4924,6 @@
 
 }
 
-	aristocrats = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 19
-	}
-
-
-	bureaucrats = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 1
-	}
-
-
-	clergymen = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 13
-	}
-
-
-	artisans = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 92
-	}
-
-
-	soldiers = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 23
-	}
-
-
-	farmers = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 1144
-	}
-
-
-	officers = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 1
-	}
-
-
-	serfs = {
-		 culture = south_gashdzii
-		 religion = motkohnici
-		 size = 26
-	}
-
-}
-
 261 = {
 
 
@@ -5133,7 +5076,7 @@
 
 	aristocrats = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 11
 	}
 
@@ -5142,28 +5085,28 @@
 
 	clergymen = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 7
 	}
 
 
 	artisans = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 55
 	}
 
 
 	soldiers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 14
 	}
 
 
 	farmers = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 691
 	}
 
@@ -5171,7 +5114,7 @@
 
 	serfs = {
 		 culture = south_gashdzii
-		 religion = motkohnici
+		 religion = motkohnic
 		 size = 15
 	}
 
@@ -5274,49 +5217,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 4
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 0
 	}
 
 	labourers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 202
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 4
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 16
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 0
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 3
 	}
 
@@ -5563,49 +5506,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 3
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 0
 	}
 
 	labourers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 166
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 3
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 13
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 0
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
@@ -5762,49 +5705,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 38
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1
 	}
 
 	farmers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1672
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 34
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 135
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 19
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 29
 	}
 
@@ -5985,49 +5928,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 128
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 6
 	}
 
 	farmers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 5563
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 115
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1450
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 64
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 6
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 96
 	}
 
@@ -6185,49 +6128,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 46
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
 	labourers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2028
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 42
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 164
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 23
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 35
 	}
 
@@ -6384,49 +6327,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 46
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
 	farmers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2028
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 42
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 164
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 23
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 2
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 35
 	}
 
@@ -6583,49 +6526,49 @@
 
 	serfs = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 20
 	}
 
 	officers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1
 	}
 
 	farmers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 894
 	}
 
 	soldiers = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 18
 	}
 
 	artisans = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 72
 	}
 
 	clergymen = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 10
 	}
 
 	bureaucrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 1
 	}
 
 	aristocrats = {
 		culture = south_gashdzii
-		religion = motkohnici
+		religion = motkohnic
 		size = 15
 	}
 
