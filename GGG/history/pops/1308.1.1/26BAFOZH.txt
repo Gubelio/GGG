@@ -59243,3 +59243,107 @@
 
 }
 
+1547 = {
+
+
+
+	thralls = {
+		culture = wushauw
+		religion = pagan
+		size = 200
+	}
+
+	serfs = {
+		culture = wushauw
+		religion = pagan
+		size = 50
+	}
+
+	slaves = {
+		culture = wushauw
+		religion = pagan
+		size = 500
+	}
+
+	farmers = {
+		culture = wushauw
+		religion = pagan
+		size = 4000
+	}
+
+	soldiers = {
+		culture = wushauw
+		religion = pagan
+		size = 200
+	}
+
+	artisans = {
+		culture = wushauw
+		religion = pagan
+		size = 50
+	}
+
+	aristocrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 210
+	}
+
+
+	bureaucrats = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 7
+	}
+
+
+	clergymen = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 70
+	}
+
+
+	artisans = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 281
+	}
+
+
+	soldiers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 267
+	}
+
+
+	farmers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 3375
+	}
+
+
+	slaves = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 703
+	}
+
+
+	officers = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 7
+	}
+
+
+	serfs = {
+		 culture = khrayian
+		 religion = pagan
+		 size = 2109
+	}
+
+}
+
