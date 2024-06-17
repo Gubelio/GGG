@@ -183,7 +183,69 @@ political_decisions = {
         }
     }
 
+    restore_house_athis = {
+        #news = yes
+        #news_desc_long = "form_italy_NEWS_LONG"
+        #news_desc_medium = "form_italy_NEWS_MEDIUM"
+        #news_desc_short = "form_italy_NEWS_SHORT"
+		picture = "restore_house_athis_image"
+		
+        potential = {
+            is_culture_group = sitheve
+            capital_scope = { continent = north_america }
+            NOT = {
+				OR = {
+					exists = ATH
+					government = paternalistic_council
+					government = statist_bureaucracy
+				}
+            }
+        }
 
+        allow = {
+            is_greater_power = yes
+            war = no
+            ATH = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            prestige = 50
+            #all_core = { remove_core = THIS }
+            change_tag = ATH
+            capital = 165
+            primary_culture = hahuibi
+            add_accepted_culture = hahabi
+            add_accepted_culture = sevuma
+            add_accepted_culture = thesathi
+            add_accepted_culture = sithuchi
+            any_country = {
+                limit = {
+                    is_culture_group = sitheve
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 
 

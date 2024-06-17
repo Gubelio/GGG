@@ -219,15 +219,6 @@ sitheve = { #sithev e
 		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
     }
 
-    chyothit = {
-	  color = { 162 70 158 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
-
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
-    }
-
     tufume = { #tu fume
 	  color = { 155 69 69 }
 	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
@@ -236,6 +227,15 @@ sitheve = { #sithev e
         	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
 		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
     }
+
+	union = ATH
+
+}
+
+
+sitheve_not_formable = { #sithev e
+    leader = vewugist1
+    unit = EuropeanGC
 
     vufami = { 
 	  color = { 250 222 130 }
@@ -246,6 +246,14 @@ sitheve = { #sithev e
 		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
     }
 
+    chyothit = {
+	  color = { 162 70 158 }
+	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
+                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+
+        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
+		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+    }
 
 }
 
