@@ -1,6 +1,7 @@
 owner = TWD
 controller = TWD
 add_core = TWD
+add_core = RST
 trade_goods = opium
 life_rating = 33
 

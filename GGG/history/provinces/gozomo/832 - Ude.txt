@@ -1,6 +1,7 @@
 owner = RAN
 controller = RAN
 add_core = RAN
+add_core = VAD
 trade_goods = fish
 life_rating = 33
 

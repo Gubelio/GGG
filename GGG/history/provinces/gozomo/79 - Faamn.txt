@@ -1,6 +1,7 @@
 owner = POU
 controller = POU
 add_core = POU
+add_core = RST
 trade_goods = timber
 life_rating = 33
 

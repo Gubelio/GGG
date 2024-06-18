@@ -1,6 +1,7 @@
 owner = TWD
 controller = TWD
 add_core = TWD
+add_core = RST
 trade_goods = timber
 life_rating = 33
 

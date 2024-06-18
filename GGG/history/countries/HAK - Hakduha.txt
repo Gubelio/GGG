@@ -1,0 +1,32 @@
+capital = 785
+primary_culture = eshemi
+religion = kadkohi
+government = princely_despotate
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.11
+non_state_culture_literacy = 0.01
+civilized = yes
+
+# Political reforms
+
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 65
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+
+# Technologies
+
+
+#flags
+
+set_country_flag = kadkohi_country

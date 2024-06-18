@@ -20,9 +20,10 @@ political_decisions = {
 
         allow = {
             prestige = 100
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             is_greater_power = yes
             war = no
+			is_vassal = no
             KID = {
                 all_core = {
                     OR = {
@@ -84,10 +85,10 @@ political_decisions = {
         }
 
         allow = {
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             is_greater_power = yes
             war = no
-			ai = no
+			is_vassal = no
 			SHZ = {
                 all_core = {
                     OR = {
@@ -170,14 +171,20 @@ political_decisions = {
 						tag = GAU
 						tag = PAK
 					}
-                    in_sphere = THIS
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
                 }
                 country_event = 50013
-				all_core = {
-					add_core = TGN
-				}
             }
-        }
+		
+			SHZ = { all_core = { add_core = TGN }
+			JII = { all_core = { add_core = TGN }
+			GAU = { all_core = { add_core = TGN }
+			PAK = { all_core = { add_core = TGN }
+		
+		}
         ai_will_do = {
             factor = 1
         }
@@ -205,6 +212,7 @@ political_decisions = {
         allow = {
             is_greater_power = yes
             war = no
+			is_vassal = no
             ATH = {
                 all_core = {
                     OR = {
@@ -266,6 +274,7 @@ political_decisions = {
             #religion = shamush #won't work for some reason?
             is_greater_power = yes
             war = no
+			is_vassal = no
             PRT = {
                 all_core = {
                     OR = {
