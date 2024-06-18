@@ -518,29 +518,6 @@ school_reforms = {
 	}
 
 #### VANILLA UNUSED #####
-
-	vote_franschise = {
-		
-		none_voting = {
-			
-		}
-		landed_voting = {
-			
-		}
-		wealth_weighted_voting = {
-		
-		}
-		wealth_voting = {
-			
-		}
-		universal_weighted_voting = {
-			
-		}
-		universal_voting = {
-			
-		}
-	}
-	
 	
 	upper_house_composition = {
 	
@@ -586,7 +563,8 @@ social_reforms = {
     }
 
 
-  clerical_law = {
+	clerical_law = {
+		administrative = yes
         next_step_only = yes
 
         empowered_clergy = {
@@ -604,7 +582,7 @@ social_reforms = {
     }
 
 
-worker_protections = {
+	worker_protections = {
         administrative = yes
         next_step_only = yes
 
@@ -619,7 +597,7 @@ worker_protections = {
             factory_throughput = -0.02
             RGO_throughput = -0.02
             artisan_throughput = -0.02
-            minimum_wage = 0.1
+            #minimum_wage = 0.1
             administrative_multiplier = 1
             global_immigrant_attract = 0.01
 			
@@ -633,7 +611,7 @@ worker_protections = {
             factory_throughput = -0.05
             RGO_throughput = -0.05
             artisan_throughput = -0.03
-            minimum_wage = 0.15
+            #minimum_wage = 0.15
             administrative_multiplier = 2
             global_immigrant_attract = 0.02
 
@@ -648,7 +626,7 @@ worker_protections = {
             factory_throughput = -0.075
             RGO_throughput = -0.075
             artisan_throughput = -0.04
-            minimum_wage = 0.2
+            #minimum_wage = 0.2
             administrative_multiplier = 3
             global_immigrant_attract = 0.03
 
@@ -663,7 +641,7 @@ worker_protections = {
             factory_throughput = -0.1
             RGO_throughput = -0.1
             artisan_throughput = -0.05
-            minimum_wage = 0.3
+            #minimum_wage = 0.3
             administrative_multiplier = 4
             global_immigrant_attract = 0.04
 
@@ -679,7 +657,7 @@ worker_protections = {
 
         }
 
-	courts_of_canon = {
+		courts_of_canon = {
 
         }
 
@@ -702,7 +680,6 @@ worker_protections = {
     }
 
 	welfare_laws = {
-        administrative = yes
         next_step_only = yes
 
         no_dole = {
@@ -834,7 +811,7 @@ worker_protections = {
     }
 
 	wage_reform = {
-		administrative = yes
+		#administrative = yes
 		next_step_only = yes
 		
 		no_minimum_wage = {
@@ -865,7 +842,7 @@ worker_protections = {
 		}
 	}
 	 social_privileges = {
-        administrative = yes
+		administrative = yes
         next_step_only = yes
 
         feudal_rights = {
@@ -894,46 +871,6 @@ worker_protections = {
         }
 
     }
-	
-#### VANILLA UNUSED ####
-
-	unemployment_subsidies = {
-		next_step_only = yes
-		
-		no_subsidies = {
-		}
-		trinket_subsidies = {
-			
-		}
-		low_subsidies = {
-			
-		}
-		acceptable_subsidies = {
-			
-		}
-		good_subsidies = {
-	
-		}
-	}
-	
-	pensions = {
-		next_step_only = yes
-		
-		no_pensions = {
-		}
-		trinket_pensions = {
-		
-		}
-		low_pensions = {
-		
-		}
-		acceptable_pensions = {
-	
-		}
-		good_pensions = {
-			
-		}
-	}	
 	
 }
 

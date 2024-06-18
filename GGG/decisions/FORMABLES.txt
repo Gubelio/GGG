@@ -247,7 +247,59 @@ political_decisions = {
         }
     }
 
+    form_pruuntawrish = {
+        #news = yes
+        #news_desc_long = "form_italy_NEWS_LONG"
+        #news_desc_medium = "form_italy_NEWS_MEDIUM"
+        #news_desc_short = "form_italy_NEWS_SHORT"
+		picture = "form_pruuntawrish_image"
+		
+        potential = {
+            is_culture_group = peninsular_diwvo
+            NOT = {
+				exists = PRT
+            }
+        }
 
+        allow = {
+            religion = shamush
+            is_greater_power = yes
+            war = no
+            PRT = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            prestige = 20
+            #all_core = { remove_core = THIS }
+            change_tag = PRT
+            any_country = {
+                limit = {
+                    is_culture_group = peninsular_diwvo
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 
 

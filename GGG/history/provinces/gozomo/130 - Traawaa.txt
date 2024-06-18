@@ -1,6 +1,7 @@
 owner = ROD
 controller = ROD
 add_core = ROD
+add_core = PRT
 trade_goods = coal
 life_rating = 33
 

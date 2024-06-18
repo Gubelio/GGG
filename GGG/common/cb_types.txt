@@ -40,6 +40,7 @@
 # Order that CBs are executed in a peace treaty
 peace_order = { 
 add_to_sphere 
+pruuntish_submission
 take_from_sphere 
 status_quo 
 gunboat 
@@ -2066,3 +2067,49 @@ great_war_penalty_cb = {
 	}
 }
 
+### Poumnian - Pruuntish submission
+
+pruuntish_submission = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+	crisis = no
+	
+	#can_use = {
+	#	NOT = { is_our_vassal = THIS }
+	#	OR =
+	#	{
+	#		has_country_modifier = in_bankrupcy
+	#		has_country_modifier = generalised_debt_default
+	#	}
+	#	
+	#	in_default = THIS
+	#}
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	badboy_factor = 1
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.00
+		}
+	}
+	
+	on_po_accepted = {
+		country_event = { id = 50035 }
+	}
+	po_make_puppet = yes
+	po_add_to_sphere = yes
+	
+	war_name = WAR_NAME
+}

@@ -1374,7 +1374,7 @@ country_event = {
 	id = 50032
 	title = "EVTNAME50032"
 	desc = "EVTDESC50032"
-	picture = "Outside_influences"
+	#picture = "Outside_influences"
 
 	is_triggered_only = yes
 
@@ -1424,5 +1424,69 @@ country_event = {
 			value = -100
 		}
 		prestige = -20
+	}
+}
+
+######################################
+### POUMNIAN / PRUUNTISH RELATIONS ###
+######################################
+
+country_event = {
+	id = 50034
+	title = "EVTNAME50034" #Poumnian side of embracing shamush
+	desc = "EVTDESC50034"
+	#picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50034OPTA" #invade them
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		#casus_belli = {
+		#	target = FROM
+		#	type = pruuntish_submission
+		#	months = 12
+		#}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = pruuntish_submission
+			}
+		}
+		ai_chance = {
+            factor = 95
+        }
+	}
+
+	option = {
+		name = "EVT50034OPTB" #Let them go
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		prestige = -20
+		set_global_flag = poumnia_appears_weak
+		ai_chance = {
+            factor = 5
+        }
+	}
+}
+
+country_event = {
+	id = 50035
+	title = "EVTNAME50035" #Poumnian succeeds in quelling shamushi dissent
+	desc = "EVTDESC50035"
+	#picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50035OPTA" #Woe is me!
+		religion = wompowushan
+		set_country_flag = poumnia_quelled_shamush
+		set_global_flag = poumnia_defeated_shamush
 	}
 }

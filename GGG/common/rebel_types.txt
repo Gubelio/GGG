@@ -271,7 +271,7 @@ reactionary_rebels = {
         plurality = -25
         country_event = 50000
 		
-		clr_country_flag = filibuster_state
+		clr_country_flag = we_embraced_shamush
     }
 }
 
@@ -556,7 +556,7 @@ theocratist_rebels = {
         plurality = -25
         country_event = 50001
 		
-		clr_country_flag = filibuster_state
+		clr_country_flag = we_embraced_shamush
     }
 }
 
@@ -826,7 +826,7 @@ free_yoker_rebels = {
         plurality = -25
         country_event = 50002
     
-		clr_country_flag = filibuster_state
+		clr_country_flag = we_embraced_shamush
 	}
 }
 
@@ -1108,7 +1108,7 @@ absolutist_rebels = {
         plurality = -25
         country_event = 50003
     
-		clr_country_flag = filibuster_state	
+		clr_country_flag = we_embraced_shamush	
 	}
 }
 

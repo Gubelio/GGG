@@ -85,9 +85,9 @@ cult_of_vewug  = {
 
 }
 
-momurism_group = { #crystalreligion
+momurism_group = { 
 
-    momurist = { #crystalians
+    momurist = { 
         icon = 10
         color = { 0.3 0.6 0.9 }
     }
@@ -111,27 +111,27 @@ bafozhi_group = {
 
     redrel = { 
         icon = 15
-        color = { 0.3 0.6 0.1 }
+        color = { 0.8 0.0 0.2  }
     }
 
     limerel = { 
         icon = 5
-        color = { 0.3 0.6 0.1 }
+        color = { 0.5 0.8 0.3 }
     }
 
     cyanrel = { 
         icon = 13
-        color = { 0.3 0.6 0.1 }
+        color = { 0.6 1.0 0.9  }
     }
 
     orangerel = { 
         icon = 16
-        color = { 0.3 0.6 0.1 }
+        color = { 0.8 0.4 0.0 }
     }
 
     brownrel = { 
         icon = 3
-        color = { 0.3 0.6 0.1 }
+        color = { 0.7 0.5 0.0 }
     }
 
 }
@@ -140,7 +140,7 @@ shobgizob_group = {
 
     pinkrel = { 
         icon = 4
-        color = { 0.3 0.6 0.1 }
+        color = { 0.8 0.1 0.8  }
     }
 
 }
