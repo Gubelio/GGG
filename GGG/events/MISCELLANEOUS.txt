@@ -1488,5 +1488,6 @@ country_event = {
 		religion = wompowushan
 		set_country_flag = poumnia_quelled_shamush
 		set_global_flag = poumnia_defeated_shamush
+		clr_country_flag = we_are_shamush
 	}
 }

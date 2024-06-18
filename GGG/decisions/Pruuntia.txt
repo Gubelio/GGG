@@ -18,7 +18,8 @@ political_decisions = {
 
         effect = {
 			set_country_flag = we_embraced_shamush
-			clr_country_flag = wompowushan 
+			clr_country_flag = wompowushan_country
+			set_country_flag = we_are_shamush
 			religion = shamush
 			prestige = 5
 			relation = {
@@ -28,33 +29,33 @@ political_decisions = {
 			POU = { country_event = { id = 50034 } }			
         }
 		
-		ai_will_do = {
-			factor = 1
-			modifier = { 
-				factor = 2 #will never do if
-				has_global_flag = poumnia_defeated_shamush #poumnia has defeated a previous shamush dissident state
-			}
-			modifier = { 
-				factor = 0 #will always do if
-				POU = { brigades_compare = 2 } #have twice the amount of brigades as POU
-			}
-			modifier = { 
-				factor = 0 #will always do if
-				is_greater_power = yes
-			}
-			modifier = { 
-				factor = 0.5 #more likely to do if
-				NOT = { relation = { POU = THIS value = 1 } } #negative relations with POU
-			}
-			modifier = { 
-				factor = 0.5 #more likely to do if
-				is_secondary_power = yes
-			}
-			modifier = { 
-				factor = 0.5 #more likely to do if
-				prestige = 11 #has 11 or more prestige
-			}
-		}
+		#ai_will_do = {
+		#	factor = 1
+		#	modifier = { 
+		#		factor = 2 #will never do if
+		#		has_global_flag = poumnia_defeated_shamush #poumnia has defeated a previous shamush dissident state
+		#	}
+		#	modifier = { 
+		#		factor = 0 #will always do if
+		#		POU = { brigades_compare = 2 } #have twice the amount of brigades as POU
+		#	}
+		#	modifier = { 
+		#		factor = 0 #will always do if
+		#		is_greater_power = yes
+		#	}
+		#	modifier = { 
+		#		factor = 0.5 #more likely to do if
+		#		NOT = { relation = { POU = THIS value = 1 } } #negative relations with POU
+		#	}
+		#	modifier = { 
+		#		factor = 0.5 #more likely to do if
+		#		is_secondary_power = yes
+		#	}
+		#	modifier = { 
+		#		factor = 0.5 #more likely to do if
+		#		prestige = 11 #has 11 or more prestige
+		#	}
+		#}
 		
     }
 	

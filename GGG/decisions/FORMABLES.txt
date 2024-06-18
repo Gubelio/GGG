@@ -256,13 +256,14 @@ political_decisions = {
 		
         potential = {
             is_culture_group = peninsular_diwvo
+			has_country_flag = we_are_shamush
             NOT = {
 				exists = PRT
             }
         }
 
         allow = {
-            religion = shamush
+            #religion = shamush #won't work for some reason?
             is_greater_power = yes
             war = no
             PRT = {
