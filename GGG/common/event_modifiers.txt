@@ -67,3 +67,8 @@ bustling_metropolis = {
     mine_rgo_size = 0.50
     icon = 19
 }
+
+switched_production = {
+    local_RGO_throughput = -0.05
+    icon = 14
+}

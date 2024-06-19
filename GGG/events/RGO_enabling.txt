@@ -1,0 +1,269 @@
+############# OIL #############
+
+province_event = {
+    id = 50035 ## OIL ENABLING FIRST WAVE
+    title = "EVTNAME5035" 
+    desc = "EVTDESC50035"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		year = 1342 
+		or = {
+			province_id = 2204 #Iemes
+			province_id = 2206 #Esoespma
+			province_id = 1901 #Prarch
+			province_id = 1900 #Mstet			
+			province_id = 692 #Pizto
+			province_id = 797 #Hoyim
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50035OPTA"
+		trade_goods = oil
+        add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}
+
+province_event = {
+    id = 50036 ## OIL ENABLING SECOND WAVE
+    title = "EVTNAME5035" 
+    desc = "EVTDESC50035"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		year = 1352 
+		or = {
+			province_id = 1911 #Hinseo
+			province_id = 2072 #Uemae
+			province_id = 2210 #Huespmit
+			province_id = 2212 #Aho	
+			province_id = 2217 #Dongu
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50035OPTA"
+		trade_goods = oil
+        add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}
+
+province_event = {
+    id = 50037 ## OIL ENABLING THIRD WAVE
+    title = "EVTNAME5035" 
+    desc = "EVTDESC50035"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		year = 1362 
+		or = {
+			province_id = 811 #Bichui
+			province_id = 816 #Tashom
+			province_id = 822 #Hueyow
+			province_id = 2091 #Fabtued
+			province_id = 2199 #Hod
+			province_id = 2200 #Gibtasfu
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVT50035OPTA"
+		trade_goods = oil
+        add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}
+
+####### RUBBER ###########
+
+province_event = {
+    id = 50038 ## RUBBER ENABLING FIRST WAVE
+    title = "EVTNAME5038" 
+    desc = "EVTDESC50038"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		year = 1352 
+		or = {
+			province_id = 28 
+			province_id = 36 
+			province_id = 42 
+			province_id = 44
+			province_id = 49
+			province_id = 87
+			province_id = 89 
+			province_id = 90 
+			province_id = 285
+			province_id = 284
+			province_id = 291	
+			province_id = 294
+			province_id = 296
+			province_id = 297
+			province_id = 1936
+			province_id = 1937
+			province_id = 1938 
+			province_id = 1932 
+			province_id = 1933
+			province_id = 1940 
+			province_id = 1739
+			province_id = 1735
+			province_id = 1734
+			province_id = 1731
+			province_id = 1729
+			province_id = 1730
+			province_id = 1725
+			province_id = 1722			
+		}
+		not = { trade_goods = rubber }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+			}
+	}
+
+	option = {
+		name = "EVT50038OPTA"
+		trade_goods = rubber
+        add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}
+
+province_event = {
+    id = 50039 ## RUBBER ENABLING SECOND WAVE
+    title = "EVTNAME5038" 
+    desc = "EVTDESC50038"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		year = 1362 
+		or = {
+			province_id = 184 
+			province_id = 190
+			province_id = 562
+			province_id = 233
+			province_id = 205
+			province_id = 201
+			province_id = 562
+			province_id = 503
+			province_id = 627		
+		}
+		not = { trade_goods = rubber }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+			}
+	}
+
+	option = {
+		name = "EVT50038OPTA"
+		trade_goods = rubber
+        add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}

@@ -124,3 +124,9 @@ EVTNAME50034;$FROMCOUNTRY$ denies the divinity of the Pudwou!;;;;;;;;;;;;;
 EVTDESC50034;x;;;;;;;;;;;;;
 EVT50034OPTA;Death to the snake-worshippers!;;;;;;;;;;;;;
 EVT50034OPTB;It is their right to do so;;;;;;;;;;;;;
+EVTNAME50035;Oil Discovered!;;;;;;;;;;;;; #OIL EVENTS GO TO 50037
+EVTDESC50035;x;;;;;;;;;;;;;
+EVT50035OPTA;Excellent;;;;;;;;;;;;;
+EVTNAME50038;Rubber Discovered!;;;;;;;;;;;;; #RUBBER EVENTS GO TO 50039
+EVTDESC50038;x;;;;;;;;;;;;;
+EVT50038OPTA;Excellent;;;;;;;;;;;;;

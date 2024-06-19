@@ -42,11 +42,11 @@ ruling_party = dominion_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0
-	conservative = 0
+	conservative = 65
 	reactionary = 0
 	absolutist = 0
-	liberationist = 60
-	free_yoker = 40
+	liberationist = 25 #60
+	free_yoker = 10 #40
 }
 
 oob = "VUG_oob.txt"

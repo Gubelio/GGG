@@ -36,6 +36,12 @@ DEU = {
     influence_value = 0
 }
 
+SOG = {
+    value = 50        #relation
+    level = 5        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
 #Armies
 
 leader = {
