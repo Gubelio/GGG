@@ -201,17 +201,17 @@ sevuma;Sevuma;;;;;;;;;;;;;x
 vupuyti;Vupuyti;;;;;;;;;;;;;x
 paguyti;Paguyti;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_NORTH_AMERICA;Ishahfazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List ?Ishahfazhi? countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List 即Ishahfazhi劬 countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_OCEANIA;Paukzhodo;;;;;;;;;;;;;
-DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List ?Paukzhodi? countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List 即Paukzhodi劬 countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_EUROPE;Bafozh;;;;;;;;;;;;;x
-DIPLOMACY_FILTER_EUROPE_TOOLTIP;List ?Bafozhi? countries;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_EUROPE_TOOLTIP;List 即Bafozhi劬 countries;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_SOUTH_AMERICA;Kovazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List ?Kovazhi? countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List 即Kovazhi劬 countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_ASIA;Gofakidzia;;;;;;;;;;;;;
-DIPLOMACY_FILTER_ASIA_TOOLTIP;List ?Gofakidzi? countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA_TOOLTIP;List 即Gofakidzi劬 countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_AFRICA;Shobgizob;;;;;;;;;;;;;
-DIPLOMACY_FILTER_AFRICA_TOOLTIP;List ?Shobgizobi? countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA_TOOLTIP;List 即Shobgizobi劬 countries;;;;;;;;;;;;;
 south_america;Kovazh;;;;;;;;;;;;;x
 north_america;Ishahfazh;;;;;;;;;;;;;x
 asia;Gofakidzia;;;;;;;;;;;;;x
@@ -618,27 +618,27 @@ loss_of_control;Loss of Control;;;;;;;;;;;;;x
 take_capital;Take Capital;;;;;;;;;;;;;x
 take_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
 take_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
-take_capital_desc;Aquire an enemy's ?capital state?;;;;;;;;;;;;;x
+take_capital_desc;Aquire an enemy's 即capital state劬;;;;;;;;;;;;;x
 negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_NAME;Negotiated Transfer of $SECOND$ Land;;;;;;;;;;;;;x
 negotiated_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$;;;;;;;;;;;;;x
-negotiated_transfer_desc;Transfer another player's ?state? to your domain;;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer another player's 即state劬 to your domain;;;;;;;;;;;;;x
 conquest_minuscule;Minuscule Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_MINUSCULE_NAME;$ORDER$Minuscule Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_minuscule_desc;Annex a single-state ?country? or an ?uncivilized nation? with less than 20,000 pops;;;;;;;;;;;;;x
+conquest_minuscule_desc;Annex a single-state 即country劬 with less than 20,000 pops;;;;;;;;;;;;;x
 conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_tiny_desc;Annex a single-state ?country? or an ?uncivilized nation? with less than 100,000 pops;;;;;;;;;;;;;x
+conquest_tiny_desc;Annex a single-state 即country劬 with less than 100,000 pops;;;;;;;;;;;;;x
 conquest_low;Lowly Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_LOW_NAME;$ORDER$Lowly Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_low_desc;Annex a single-state ?country? or an ?uncivilized nation? with less than 400,000 pops;;;;;;;;;;;;;x
+conquest_low_desc;Annex a single-state 即country劬 with less than 400,000 pops;;;;;;;;;;;;;x
 in_bankrupcy;In Bankruptcy;;;;;;;;;;;;;x
 in_disrepair;In Disrepair;;;;;;;;;;;;;x
 ancestral_swamp_farms;Ancestral Swamp Farming;;;;;;;;;;;;;x
@@ -684,7 +684,22 @@ war_reparations;Reparations;;;;;;;;;;;;;
 war_reparations_desc;Demand 即reparations劬 from another country.;;;;;;;;;;;;;
 war_reparations_short;Demand Reparations;;;;;;;;;;;;;
 war_reparations_setup;Demand 即reparations劬 from another country.;;;;;;;;;;;;;
-X;x;;;;;;;;;;;;;x
+take_colonial_concession_capital;Demand Capital;;;;;;;;;;;;;x
+take_colonial_concession_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_desc;Aquire a primitive enemy's 即capital state劬;;;;;;;;;;;;;x
+colonial_conquest_minuscule;Establish Minuscule Protectorate;;;;;;;;;;;;;x
+colonial_conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_minuscule_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_minuscule_desc;Annex a single-state 即uncivilized country劬 with less than 20,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_tiny;Establish Tiny Protectorate;;;;;;;;;;;;;x
+colonial_conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_tiny_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_tiny_desc;Annex a single-state 即uncivilized country劬 with less than 100,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_low;Establish Lowly Protectorate;;;;;;;;;;;;;x
+colonial_conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_low_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_low_desc;Annex a single-state 即uncivilized country劬 with less than 400,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
