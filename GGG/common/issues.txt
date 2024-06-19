@@ -587,9 +587,7 @@ social_reforms = {
         next_step_only = yes
 
         no_protections = {
-            allow = {
-                NOT = { has_country_flag = government_busy_with_something }
-            }
+		
         }
         trinket_protections = {
 			factory_cost = 0.20

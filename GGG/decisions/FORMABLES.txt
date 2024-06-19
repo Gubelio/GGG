@@ -44,6 +44,7 @@ political_decisions = {
         }
 
         effect = {
+			badboy = 25 #35 #Reforming the empire will cause the surrounding world to panic!
             prestige = 50
             #all_core = { remove_core = THIS }
             change_tag = KID

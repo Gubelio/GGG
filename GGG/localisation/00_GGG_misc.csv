@@ -675,9 +675,15 @@ tuqqikian;Tuqqikian;;;;;;;;;;;;;x
 zagkhan;Zagkhan;;;;;;;;;;;;;x
 mjhman;Mjhm'an;;;;;;;;;;;;;x
 pruuntish_submission;Quelling Shamush Dissent;;;;;;;;;;;;;x
-pruuntish_submission_short;Puppet, sphere and restore Wompowushan as the stae religion in $RECIPIENT$;;;;;;;;;;;;;x
-pruuntish_submission_setup;Puppet, sphere and restore Wompowushan as the stae religion in $RECIPIENT$;;;;;;;;;;;;;x
-pruuntish_submission_desc;Puppet, sphere and restore Wompowushan as the stae religion in $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_submission_short;Poumnia is attempting puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
+pruuntish_submission_setup;Poumnia is attempting puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
+pruuntish_submission_desc;Poumnia is attempting puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
+NORMAL_WAR_NAME_REPARATIONS;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;
+AGRESSION_WAR_NAME_REPARATIONS;$ORDER$War of $FIRST$ Aggression;;;;;;;;;;;;;
+war_reparations;Reparations;;;;;;;;;;;;;
+war_reparations_desc;Demand §Yreparations§W from another country.;;;;;;;;;;;;;
+war_reparations_short;Demand Reparations;;;;;;;;;;;;;
+war_reparations_setup;Demand §Yreparations§W from another country.;;;;;;;;;;;;;
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
