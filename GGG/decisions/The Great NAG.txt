@@ -3,7 +3,7 @@ political_decisions = {
     annex_dhuknag = {
         potential = {
             tag = TGN
-			NOT = { exists = DKN }
+			#NOT = { exists = DKN } #can bring them in unwilling if need be
 			NOT = { has_country_flag = cored_dhuknag }
         }
 

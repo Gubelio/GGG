@@ -2080,9 +2080,9 @@ great_war_penalty_cb = {
 ### Poumnian - Pruuntish submission
 
 pruuntish_submission = {
-	sprite_index = 1
+	sprite_index = 23
 	is_triggered_only = yes
-	months = 23
+	months = 12
 	constructing_cb = no
 	crisis = no
 	
