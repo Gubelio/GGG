@@ -235,7 +235,7 @@ province_event = {
 			province_id = 205
 			province_id = 201
 			province_id = 562
-			province_id = 503
+			province_id = 502
 			province_id = 627		
 		}
 		not = { trade_goods = rubber }
