@@ -1476,15 +1476,15 @@ country_event = {
 }
 
 country_event = {
-	id = 50035
-	title = "EVTNAME50035" #Poumnian succeeds in quelling shamushi dissent
-	desc = "EVTDESC50035"
+	id = 50044
+	title = "EVTNAME50044" #Poumnian succeeds in quelling shamushi dissent
+	desc = "EVTDESC50044"
 	#picture = "Outside_influences"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT50035OPTA" #Woe is me!
+		name = "EVT50044OPTA" #Woe is me!
 		religion = wompowushan
 		set_country_flag = poumnia_quelled_shamush
 		set_global_flag = poumnia_defeated_shamush
