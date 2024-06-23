@@ -180,10 +180,30 @@ political_decisions = {
                 country_event = 50013
             }
 		
-			SHZ = { all_core = { add_core = TGN }
-			JII = { all_core = { add_core = TGN }
-			GAU = { all_core = { add_core = TGN }
-			PAK = { all_core = { add_core = TGN }
+			SHZ = { 
+				all_core = { 
+					add_core = TGN 
+					remove_core = KID 
+				} 
+			}
+			JII = { 
+				all_core = { 
+					add_core = TGN 
+					remove_core = KID 
+				}
+			}
+			GAU = { 
+				all_core = { 
+					add_core = TGN 
+					remove_core = KID 
+				}
+			}
+			PAK = { 
+				all_core = { 
+					add_core = TGN 
+					remove_core = KID 
+				} 
+			}
 		
 		}
         ai_will_do = {

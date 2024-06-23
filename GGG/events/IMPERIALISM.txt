@@ -395,7 +395,7 @@ country_event = { #Occupy sithuchi desert 1
 	
     trigger = {
 		any_greater_power = { invention = colonial_negotiations } #not perfect but game has no any_secondary_power scope :/
-		owns = 219
+		owns = 579
 		402 = { empty = yes }
 		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
 		#year = 1342
@@ -419,7 +419,7 @@ country_event = { #Occupy sithuchi desert 2
 	
     trigger = {
 		any_greater_power = { invention = colonial_negotiations }
-		owns = 579
+		owns = 397
 		406 = { empty = yes }
 		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
     }
