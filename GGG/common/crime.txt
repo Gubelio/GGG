@@ -1,86 +1,88 @@
-anarchic_bomb_throwers = {
-    pop_consciousness_modifier = 0.05
-    icon = 2
+firebrand_congregation = {
+	icon = 2
+	active = yes
+
+	pop_consciousness_modifier = 0.05
+	issue_change_speed = 0.01 #tiny stacking national modifier
 
     trigger = {
     }
 }
 
-citizen_guard = {
-    life_rating = -0.02
-    local_rgo_output = -0.1
-    local_factory_throughput = -0.05
-    local_artisan_throughput = -0.1
+pruub_epidemic = {
     icon = 3
+	active = yes
+
+	pop_consciousness_modifier = -0.1
+	local_rgo_output = -0.2
 
     trigger = {
     }
 }
 
-immoral_business = {
-
-    active = yes
-
-    local_rgo_output = -0.2
-    local_artisan_output = -0.1
+brigand_war = {
     icon = 4
+	active = yes
+
+	life_rating = -0.02
+	local_rgo_output = -0.1
 
     trigger = {
     }
 }
 
-machine_politics = {
-    active = yes
-
-    boost_strongest_party = 5.0
+wicked_governor = {
     icon = 5
+	active = yes
+
+	tax_efficiency = -0.01 #tiny stacking national modifier
+	local_ruling_party_support = -2.0
 
     trigger = {
 
     }
 }
 
-mafia = {
-    active = yes
-
-    local_factory_output = -0.05
-    local_rgo_output = -0.05
-    local_artisan_output = -0.05
+squalid_tenements = {
     icon = 6
+	active = yes
+
+	immigrant_push = 0.05 
+	life_rating = -0.02
 
     trigger = {
     }
 }
 
-rotten_boroughs = {
-
-    active = yes
-
-    number_of_voters = 1.0    #double voters.
+militant_ruralfolk = {
     icon = 7
+	active = yes
+
+	local_rgo_output = -0.1
+	pop_militancy_modifier = 0.05
 
     trigger = {
 
     }
 }
 
-spoil_system = {
-
-    active = yes
-    local_ruling_party_support = 2.0
+powder_keg_plots = {
     icon = 8
+	active = yes
+
+	pop_consciousness_modifier = 0.05	
+	local_ruling_party_support = -1.0
 
     trigger = {
     }
 }
 
-terrorist_cells = {
-
-    local_factory_throughput = -0.15
-    local_artisan_throughput = -0.1
+smuggling_ring = {
     icon = 9
+	active = yes
+
+	tax_efficiency = -0.01 #tiny stacking national modifier
 
     trigger = {
-        #average_militancy = 3
     }
 }
