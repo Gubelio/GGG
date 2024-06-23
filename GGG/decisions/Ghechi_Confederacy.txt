@@ -1,0 +1,219 @@
+political_decisions = {
+
+    the_ghan_gheecha_idea = {
+        potential = {
+            tag = GHE
+			NOT = { has_country_flag = the_ghan_gheecha_idea }
+        }
+
+        allow = {
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+			prestige = 20
+			romanticism = 1
+			war = no
+			is_vassal = no
+			part_of_sphere = no
+        }
+
+        effect = {
+			set_country_flag = the_ghan_gheecha_idea
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = west_gashdzii
+						primary_culture = poumnian
+						primary_culture = hahuibi
+					}
+					neighbour = this
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -200
+				}
+				add_casus_belli = {
+					target = GHE
+					type = cut_down_to_size 
+					months = 12
+				}
+			}
+        }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0 
+				has_recently_lost_war = yes
+			}
+			modifier = { 
+				factor = 0 
+				NOT = { total_amount_of_divisions = 4 }
+			}
+		}
+		
+    }
+	
+    liberate_the_anuvo = {
+        potential = {
+            tag = GHE
+			has_country_flag = the_ghan_gheecha_idea
+			NOT = { has_country_flag = liberate_the_anuvo }
+        }
+
+        allow = {
+			is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
+        }
+
+        effect = {
+			badboy = 16
+			add_accepted_culture = anuvo
+			REG_12 = { add_core = GHE }
+			REG_11 = { add_core = GHE }
+			
+			any_country = {
+				limit = {
+					OR = {
+						owns = 102
+						owns = 53
+					}
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -200
+				}
+			}
+			
+			set_country_flag = liberate_the_anuvo
+        }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0 
+				has_recently_lost_war = yes
+			}
+			modifier = { 
+				factor = 0 
+				NOT = { total_amount_of_divisions = 4 }
+			}
+			modifier = { 
+				factor = 0 
+				badboy = 0.55
+			}
+		}
+		
+    }
+	
+    liberate_the_shagmodt = {
+        potential = {
+            tag = GHE
+			has_country_flag = the_ghan_gheecha_idea
+			NOT = { has_country_flag = liberate_the_shagmodt }
+        }
+
+        allow = {
+			is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
+        }
+
+        effect = {
+			badboy = 12
+			add_accepted_culture = shagmodt
+			REG_53 = { add_core = GHE }
+			
+			any_country = {
+				limit = {
+					owns = 225
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -200
+				}
+			}
+			
+			set_country_flag = liberate_the_shagmodt
+        }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0 
+				has_recently_lost_war = yes
+			}
+			modifier = { 
+				factor = 0 
+				NOT = { total_amount_of_divisions = 4 }
+			}
+			modifier = { 
+				factor = 0 
+				badboy = 0.66
+			}
+		}
+		
+    }
+	
+    liberate_the_west_ghechi = {
+        potential = {
+            tag = GHE
+			has_country_flag = the_ghan_gheecha_idea
+			NOT = { has_country_flag = liberate_the_west_ghechi }
+        }
+
+        allow = {
+			is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
+        }
+
+        effect = {
+			badboy = 8
+			REG_38 = { add_core = GHE }
+			
+			any_country = {
+				limit = {
+					owns = 184
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -200
+				}
+			}
+			
+			set_country_flag = liberate_the_west_ghechi
+        }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0 
+				has_recently_lost_war = yes
+			}
+			modifier = { 
+				factor = 0 
+				NOT = { total_amount_of_divisions = 4 }
+			}
+			modifier = { 
+				factor = 0 
+				NOT = { total_amount_of_divisions = 4 }
+			}
+			modifier = { 
+				factor = 0 
+				badboy = 0.77
+			}
+		}
+		
+    }
+	
+	
+	
+}

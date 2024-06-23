@@ -526,7 +526,7 @@ country_event = {
             factor = 2
 			modifier = { 
 				factor = 0 
-				badboy = 36 
+				badboy = 0.86
 			}
 			modifier = { 
 				factor = 0 
@@ -629,3 +629,492 @@ country_event = {
 		}
     }
 }
+
+########################
+### ISLAND DISCOVERY ###
+########################
+
+country_event = {
+    id = 50045 ## Discover 1873 island
+    title = "EVTNAME5045" 
+    desc = "EVTDESC50045"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1873 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1873 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50046 ## Discover 1874 island
+    title = "EVTNAME5046" 
+    desc = "EVTDESC50046"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1874 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1874 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50047 ## Discover 1752 island
+    title = "EVTNAME5047" 
+    desc = "EVTDESC50047"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1752 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1752 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50048 ## Discover 1751 island
+    title = "EVTNAME5048" 
+    desc = "EVTDESC50048"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1751 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1751 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50049 ## Discover 1443 island
+    title = "EVTNAME5049" 
+    desc = "EVTDESC50049"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1443 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1443 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50050 ## Discover 1750 island
+    title = "EVTNAME5050" 
+    desc = "EVTDESC50050"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		1750 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		1750 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+country_event = {
+    id = 50051 ## Discover 2005 island
+    title = "EVTNAME5051" 
+    desc = "EVTDESC50051"
+
+	trigger = {
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		2005 = { empty = yes }
+		NOT = { year = 1342 }
+		any_owned_province = { has_building = naval_base }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 150
+		
+		modifier = {
+            factor = 2.5
+		    OR = {
+				1873 = { owned_by = THIS }
+				1874 = { owned_by = THIS }
+				1752 = { owned_by = THIS }
+				1751 = { owned_by = THIS }
+				1443 = { owned_by = THIS }
+				1750 = { owned_by = THIS }
+				2005 = { owned_by = THIS }				
+		    }
+		}
+		modifier = {
+            factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+            factor = 1.5
+			NOT = { total_amount_of_ships = 11 }
+		}
+		modifier = {
+            factor = 0.9
+			total_amount_of_ships = 11
+			NOT = { total_amount_of_ships = 36 }
+		}
+		modifier = {
+            factor = 0.8
+			total_amount_of_ships = 36
+		}
+		modifier = {
+            factor = 0.9
+			colonial_nation = no
+		}
+	}
+
+	option = {
+		name = "EVT50045OPTA" #
+		2005 = { secede_province = THIS }
+		prestige = 5
+		ai_chance = {
+            factor = 1
+		}	
+	}
+	
+	option = {
+		name = "EVT50045OPTB"
+	}
+}
+
+####
