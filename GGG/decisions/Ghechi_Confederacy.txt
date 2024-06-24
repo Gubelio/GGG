@@ -35,7 +35,7 @@ political_decisions = {
 					who = THIS
 					value = -200
 				}
-				add_casus_belli = {
+				casus_belli = {
 					target = GHE
 					type = cut_down_to_size 
 					months = 12
