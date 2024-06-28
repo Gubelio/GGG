@@ -12,33 +12,46 @@ gashdzii = {
 	north_gashdzii = {
 	  color = { 235 219 157 }
         	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Gozomedes Boshâshovii Boshâdâzzi Gozobâchiiz
-				Gauimushiig Gozopaja Bozzamogga Nokdopau Kazdmachii Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd Bozzazhakd 
-				Chogzhimo }
+							Gauimushiig Gozopaja Bozzamogga Nokdopau Kazdmachii Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd 					
+							Bozzazhakd Chogzhimo Doshamogga Ishadhov Dhovjâdhov Maufo Dhofmachii Fadzzhiim Dâgmachii Ishamedes Ishagiza Vimedes 					
+							Shozzomedes Puvomedes Puvomenes Fiid Doshkva Doshva Shozzomenes Zadakzhodo }
 
-		last_names = { Mohdhâgazh Midodazh Mazdazh Dhiizitazh Shafâgazh Vâjiazh Niftazh Bodhâazh Modhijovazh Moshdzâza Piiztazh Nokdazh 
-				Jaudazh Dahazh Bidazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo 
-				Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Nozkazh M¼hdha^gazh }
+			last_names = { 	Mohdhâgazh Midodazh Mazdazh Dhiizitazh Shafâgazh Vâjiazh Niftazh Bodhâazh Modhijovazh Moshdzâza Piiztazh Nokdazh 
+							Jaudazh Dahazh Bidazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo 
+							Jodti Shamniizh Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Nozkazh }
     }
 
 	south_gashdzii = {
 	  color = { 201 133 30 }
-        	first_names = { Bazadamaz Vazamak Bida Foda Madha Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Dhauzud Ganuk Zhudiima Zhahadoma }
+        	first_names = { Bazadamaz Vazamak Bida Foda Madha Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Dhauzud Ganuk Zhudiima 					
+							Zhahadoma Zadak Godt Joduzd Opau Paun Fiifshug Mipau Jabhik Bamuzpt Mauzpt Gâzht Diimash Pâzhpt Zobâd Nobamedes Gohofk
+							Bâzajop Kaukftâ Jâfshau Mofauk Nipodaun Madmhaut Miizhnâd Bodmha Châchâg Bodamedes Joshdzâ Mofâzh Dabikak Shomoho Kaumnau
+							Vausho Dhuchâ Nibhaun Dhomâmak Modzzhot Zhigidva Gidda Middanak Midadamaz Vazamedes Vuydazh Shagdozh }
 
 	        last_names = { Paupiizh Gaufiizh Châkdazh Nozhkhazh Zofkazh Gaubazh Mabomazh Piizh Châdiizh Zhiiziizh Pifshopazh Zhof Fiifâzh
-				Maptazh Vozzash Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh 
-				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Bidazh Ashkazh }
+							Maptazh Vozzash Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh 
+							Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Nagjoni Dazhpt Fadofk Jochâ Mudt Bidazh Ashkazh Nagjon
+							Nagjonzh Nagjoni Nagjonva Aptziva Botâzh Daunuva Dhoztva Doshkva Buzzmananva Maftva Fuztva Zhudiumva Gidva Gidazh Vizhja 
+							Kâfazhva Kohiizhva Maftazhva Miib Miibazhva Nagjonmiib Modt Nuozhva Okiptazh Pâfâmva Vizhfag Zidzzhâzh Govazh  }
     }
 
 	west_gashdzii = {
 	  color = { 224 189 47 }
-        	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig }
+        	first_names = { Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Ishamenes Ishamushiig Ishamedes Dhamamedes Pazhamedes Pashamenes
+							Pashamoda Pasha Isha Dhama Mâdho Jadoz Gizamobba Nofshaug Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd 				
+							Bozzazhakd Chogzhimo Doshamogga Ishadhov Dhovjâdhov Maufo Dhofmachii Kiifshug Mipau Jabhik Bamuzpt Mauzpt Gâzht Diimash Pâzhpt 				
+							Zobâd Nobamedes Gohofk Bâzajop Kaukftâ Dhomâfub Ishafub Izamenes Izamobba Ishadopau Pazhanimiz Godhiidopau Godhimobba 					
+							Godhimenes Godhimedes Gauimenes }
 
-	      last_names = { Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
-				Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh
-				Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Pâdzh }
+			last_names = { 	Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
+							Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh
+							Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Pâdzh Pâshdzizha 					
+							Vodtzha Dhamapahazh Mojifazhi Jadmazh Jadiazh Gizobnazhizh Doshkiidva Zhudiumva Miib Nuozhva Okiptva Vâfazh Vizhfag Vâfazhva
+							Vâfautazh }
     }
 	union = KID
 }
+
 
 diwvo = {
     leader = poumnian1
@@ -48,13 +61,16 @@ diwvo = {
         color = { 113 171 153 }
        	first_names = { Fouk Drid Ouruumra Druwoub Uush Mod Koum Droum Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
 				    Tangad Bouhw Fimpuu Kuuhwu Shov Wudrou Oro Shruk Wahwa Oukim Vodrid Uptad Mruuwub Rush Prummu
-				    Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud Wrushu }
+				    Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud Wrushu Drut Pigu Shrov Shrumu
+				    Duwgad Shouuwuhu Mongoun Domongoun Goun Vodid Rodrid Wodid Rushum Prudum Ovat Otun Umun Vorofumo
+				    Tukdwo Rorid "Shov Wudrou" "Domongoun Goun" "Mod Koum Vuptun" }
 
             last_names = {  Sha-Pokoungpt Sha-Tob Pruwuswi Sha-Woungpt Shrawuuf Sha-Fogi Sha-Pruub Sha-Pukou Pawuum 
 			  	    Sha-Rusham Pkumn Buumn Sha-Toubomput Rakuumoum Sha-Prousorum Sha-Umpou Pabupti Dohwu Pkomu
 				    Sha-Pomp Wruuba Shout Sha-Ashouw Dufun Sha-Oukam Sha-Gosod Buushu Sha-Ao Sha-Mushim Sha-Shoummid 
 				    Nguuksho Drukuw Sha-Ibu Prasibush Sha-Kuuwumn Protu Sha-Wongpt Sha-Prouf Sha-Puur Drom Pumpou
-				    Sha-Shruungpt Sha-Mroud Sha-Ufu Sha-Uush Sha-Gof Sha-Pouu }
+				    Sha-Shruungpt Sha-Mroud Sha-Ufu Sha-Uush Sha-Gof Sha-Pouu Sha-Rod "Sha-Rod Sha-Ashaouw" "Sha-Dont Sha-Vodrid"
+				    "Sha-Frout Sha-Tangad" "Sha-Gosod Sha-Man" "Sha-Shrov Sha-Rod" }
    		}
 
     roshupt = {
@@ -63,14 +79,21 @@ diwvo = {
 				    Tangad Bouhw Fimpu Kuhwu Shove Wudrou Oro Shruhki Wahdimni Ouhki Vodrid Uptahdi Mrowub Rush Prummu
 				    Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
 
-        	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Toumbomput }
+        	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Poumbomput Sham-Tomo Sham-Shoto Sham-Famo Sham-Moro Bodo Mrufo
+				Pankad Dokhi Prudgoun Fokzum Gogoun Ohrun Murmrun Ohrun Gomon Domu }
     }
 
     towuzhan = {
 	  color = { 161 191 182 }
-        	first_names = {  }
+        	first_names = { Fouk Drid Ouruumrau Druwoub Uush Mod Koum Droum Kib Hwamp Outzusunt Vat Drukshoum Tuptun Tufom
+   			 	Taengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Todrid Uptad Mruuwub Ruz Trummun
+   			 	Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Zroth Zrumun
+   			 	Kuwgad Zouuwuhu Monogoun Komongoun Goun Todid Rodrid Rodid Ruzum Trudum Othat Otun Umn Torofumom
+   			 	Thukwo }
 
-        	last_names = {  }
+        	last_names = { Zaum-Towuzh Zaum-Taerid Zaum-Truunt Zaum-Drogon Tzau-Ybom Zaum-Thomon Zaum-Hydom Zaum-Worryd Zaum-Zotom Zaum-Faemon
+			     Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
+			     Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
     }
 }
 
@@ -80,9 +103,15 @@ peninsular_diwvo = {
 
     pruuntish = {
 	  color = { 2 82 60 }
-        	first_names = {  }
+        	first_names = { Fouk Drid Ouruumrau Druwoub Uush Mod Koum Droum Kib Hwamp Outzusunt Vat Drukshoum Thuptun Thufom
+   			 	Thaengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Thodrid Uptad Mruuwub Ruz Thrummun
+   			 	Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Tzroth Zrumun
+   			 	Kuwgad Tzouuwuhu Monogoun Komongoun Goun Thodid Rodryd Rodyd Rutzum Trudum Othat Otun Umn Thorofumom
+   			 	Thukwo }
 
-	      last_names = {  }
+	      last_names = { Tzau-Thaeryd Tzau-Thruunt Tzau-Drogon Tzau-Ybom Tzau-Thomon Tzau-Hydom Tzau-Worryd Tzau-Zothom Tzau-Faemon
+			     Tzau-Tzamutz Tzamutzi Betz-Oromon Betz-Ybomon Tzau-Morot Tzau-Doromon Tzutzmykon Otunmynon Tromynon Dubrunt Thyukum 
+			     Mykoum Itzygoun Trudugoun Fokzum Gogoun Ohrun Murmorun Betz-Ohrun "Tzau-Touromon-Autron" Gomon Domun }
     }
 	union = PRT
 }
@@ -136,7 +165,7 @@ surgoian = {
 }
 
 byotrish = {
-    leader = european
+    leader = anuvo1
     unit = EuropeanGC
 
     ghechi = {
