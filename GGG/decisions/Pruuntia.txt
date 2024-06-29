@@ -1,6 +1,7 @@
 political_decisions = {
 
     embrace_shamush = {
+	picture = "embrace_shamush"
         potential = {
             is_culture_group = peninsular_diwvo
 			NOT = { has_country_flag = we_embraced_shamush }
@@ -45,6 +46,7 @@ political_decisions = {
     }
 	
     embrace_shamush_peaceful = { #If poumnia is not a theocracy anymore pruuntish peoples can peacefully become shamush
+	picture = "embrace_shamush"
         potential = {
             is_culture_group = peninsular_diwvo
 			NOT = { has_country_flag = we_embraced_shamush }
