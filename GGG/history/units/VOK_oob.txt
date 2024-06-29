@@ -28,6 +28,7 @@ BUD = {
 
 leader = {
     name = "Gozomedes Midodazh" #King Gozomedes Himself
+    picture = gozomedes_midodazh
     type = land
     date = 1305.1.1
     personality = audacious
