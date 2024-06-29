@@ -1,0 +1,57 @@
+political_decisions = {
+
+    player_settings_open = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }            
+			ai = no
+			NOT = { has_country_flag = player_settings_opened }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = player_settings_opened
+			clr_country_flag = player_settings_closed
+        }
+		
+    }
+
+    player_settings_close = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = player_settings_closed
+			clr_country_flag = player_settings_opened
+        }
+		
+    }
+
+
+    bankruptcy_events = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			NOT = { has_country_flag = bankruptcy_events_disabled }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = bankruptcy_events_disabled
+        }
+		
+    }
+	
+}	
