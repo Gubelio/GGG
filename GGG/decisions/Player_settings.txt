@@ -42,6 +42,7 @@ political_decisions = {
         potential = {
 			NOT = { year = 1309 }
 			ai = no
+			has_country_flag = player_settings_opened
 			NOT = { has_country_flag = bankruptcy_events_disabled }
         }
 
