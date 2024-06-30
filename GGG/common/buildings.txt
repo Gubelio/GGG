@@ -634,22 +634,43 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
-fort = {      
-	type = fort
-	goods_cost =
-	{
-		lumber = 100
-		cement = 100
-		explosives = 50
-		small_arms = 50
-		artillery = 40
-	}
-	time = 1080 
-	visibility = yes
-	onmap = yes
-	max_level = 6
-	province = yes
-	fort_level = 1
+fort = {
+    type = fort
+    goods_cost = {
+        steel = 500
+        lumber = 500
+        cement = 500
+        explosives = 250
+        small_arms = 250
+        artillery = 200
+        ammunition = 50
+    }
+    time = 1080
+    cost = 50000 #25000
+    visibility = yes
+    onmap = yes
+    max_level = 6
+    province = yes
+    one_per_state = yes
+    fort_level = 2 #1
+	
+# Original fort incase this new idea goes miserably...
+#
+#	type = fort
+#	goods_cost =
+#	{
+#		lumber = 100
+#		cement = 100
+#		explosives = 50
+#		small_arms = 50
+#		artillery = 40
+#	}
+#	time = 1080 
+#	visibility = yes
+#	onmap = yes
+#	max_level = 6
+#	province = yes
+#	fort_level = 1
 }
 
 naval_base = {    

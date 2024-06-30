@@ -5,7 +5,7 @@ post_napoleonic_thought = {
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = fort	
+	#activate_building = fort	#for balance reasons, because of new fort strength, the first defensive tech will NOT unlock forts
 	army_base = {
 		default_organisation = 5
 		supply_consumption = 0.10
@@ -55,7 +55,8 @@ strategic_mobility = {
 	army_base = {
 		supply_consumption = 0.10
 	}
-	max_fort = 1
+	#max_fort = 1
+	activate_building = fort #New start of fortbuilding
 	dig_in_cap = 1
 	
 	ai_chance = {
