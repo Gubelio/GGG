@@ -73,6 +73,8 @@ publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
 
+oob = "POZ_oob.txt"
+
 #flags
 
 set_country_flag = kadkohi_country

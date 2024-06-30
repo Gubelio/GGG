@@ -600,7 +600,7 @@ acquire_core_state = {
 		any_owned_province = {
 			is_core = THIS
 		}
-		not = { any_owned_province = { is_capital = yes } }
+		#not = { any_owned_province = { is_capital = yes } } #You can take someone's capital if you have cores on it!
 	}
 
 	po_demand_state = yes
@@ -2171,7 +2171,7 @@ war_reparations = {
 
 #Take Unciv Capital
 take_colonial_concession_capital = {
-    sprite_index = 6
+    sprite_index = 7
     #is_triggered_only = yes
     months = 12
     construction_speed = 0.5

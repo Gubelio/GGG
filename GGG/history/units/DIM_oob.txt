@@ -1,0 +1,35 @@
+#Leaders
+
+leader = {
+    name = "Pashamoda Boshâmzi"
+    type = land
+    date = 1307.1.1
+    personality = charismatic 
+    background = womanizer
+}
+
+#Armies
+
+army = {
+    name = "Army of Dimog"
+    location = 540
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 540
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 541
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = cavalry
+        home = 541
+    }
+
+}

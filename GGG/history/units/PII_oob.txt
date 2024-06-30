@@ -1,0 +1,21 @@
+#Leaders
+
+#Armies
+
+army = {
+    name = "Royal Army"
+    location = 581
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 581
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 539
+    }
+
+}

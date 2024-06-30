@@ -1,0 +1,47 @@
+#Leaders
+
+leader = {
+    name = "Dhovjâdhov Shauzzh"
+    type = land
+    date = 1307.1.1
+    personality = shirker 
+    background = adventurer 
+}
+
+#Armies
+
+army = {
+    name = "Army of Pozha"
+    location = 534
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 531
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 534
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 535
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 543
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = cavalry
+        home = 543
+    }
+
+}

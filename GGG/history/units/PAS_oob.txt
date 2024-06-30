@@ -1,0 +1,51 @@
+#Leaders
+
+leader = {
+    name = "Bozzanimiz Mohdha^gazh"
+    type = land
+    date = 1307.1.1
+    personality = brash
+    background = politician 
+}
+
+leader = {
+    name = "Dhofmachii Mohdha^gazh"
+    type = land
+    date = 1307.1.1
+    personality = inept 
+    background = armchair_general
+}
+
+leader = {
+    name = "Zobâd Jadmazh"
+    type = land
+    date = 1307.1.1
+    personality = impulsive
+    background = drillmaster 
+}
+
+#Armies
+
+army = {
+    name = "1000 Year Army"
+    location = 533
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 533
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 533
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 533
+    }
+
+}

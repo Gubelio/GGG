@@ -1,0 +1,43 @@
+#Leaders
+
+leader = {
+    name = "Bâzajop Moai"
+    type = land
+    date = 1307.1.1
+    personality = bigoted  
+    background = corrupt
+}
+
+leader = {
+    name = "Pazhamedes Shamniizh"
+    type = land
+    date = 1307.1.1
+    personality = arrogant  
+    background = spoiled 
+}
+
+#Armies
+
+army = {
+    name = "Army of Jadiim"
+    location = 553
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 553
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 554
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = cavalry
+        home = 583
+    }
+
+}

@@ -1,0 +1,41 @@
+#Leaders
+
+leader = {
+    name = "Mâdho Nagjoni"
+    type = land
+    date = 1307.1.1
+    personality = earnest
+    background = aristocrat
+}
+
+#Armies
+
+army = {
+    name = "Army of Fobhinazh"
+    location = 524
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 524
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 523
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 519
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = cavalry
+        home = 520
+    }
+
+}

@@ -1,0 +1,15 @@
+#Leaders
+
+#Armies
+
+army = {
+    name = "Royal Army"
+    location = 550
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 550
+    }
+
+}

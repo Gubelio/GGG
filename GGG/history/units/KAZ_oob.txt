@@ -1,0 +1,21 @@
+#Leaders
+
+#Armies
+
+army = {
+    name = "Army of Kazhaukiim"
+    location = 590
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 589
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 593
+    }
+
+}
