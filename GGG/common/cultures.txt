@@ -122,16 +122,31 @@ surgoian = {
 
     maumoujoy = { #mau?oujoy
 	  color = { 84 204 148 }
-        	first_names = {  }
+        	first_names = { Yaukau Pagaundz Zoukiemou Miemo Mauasz Gaundasz Atasz Pepem Moumem Seasz Gaam Pamam Geam Awhoascz 
+							Giepz Samou Mouwhous Jemie Yaswau Gawhoume Sauswauy Sajaupz Mouswendz Ziewho  Yakau Siewhapz
+							Yejaum Zouswou Goume Goswapz Maukoy Pakaug Mesweg Ojeg Auja Oswag Aswom Miege Gego Poswa Gozzou
+							Sakausway Mejoma Temejo Amous Gaumou Segezziem Sagaup  Togaugo Zouswau Saukie Yaswous Aundza }
 
-	      last_names = {  }
+	      last_names = {  tausz-au-Pagaundz tausz-au-Zoukiemou tausz-au-Miemo tausz-au-Mauasz tausz-au-Gaundasz tausz-au-Atasz 
+							tausz-au-Pepem tausz-au-Moumem tausz-au-Seasz tausz-au-Gaam tausz-au-Pamam tausz-au-Geam tausz-au-Awhoascz 
+							Gako Gege tausz-au-Mouwhous tausz-au-Yemie tausz-au-Yaswau tausz-au-Gawhoume Mag Mat Mazzau tausz-au-Ziewho  
+							tausz-au-Yakau tausz-au-Siewhapz Momom tausz-au-Zouswou tausz-au-Goswapz Maukoy Pakaug Opomom tausz-au-Ojeg 
+							tausz-au-Oswag tausz-au-Aswom tausz-au-Miege tausz-au-Gego tausz-au-Poswa tausz-au-Gozzou
+							tausz-au-Sakausway tausz-au-Mejoma tausz-au-Temejo tausz-au-Amous tausz-au-Gaumou tausz-au-Segezziem Sagaup  
+							tausz-au-Togaugo tausz-au-Zouswau tausz-au-Saukie tausz-au-Yaswous tausz-au-Aundza }
     }
 
     yamoujoy = { #ya?oujoy
 	  color = { 5 227 123 }
-        	first_names = {  }
+        	first_names = { Jawkow Pagaundz Zeukiemeu Miemo Moasz Gandasz Atasz Pepem Meumem Seasz Gaam Pamam Geam Awhoascz 
+							Oheg Auha Oswag Aswom Miege Gego Poswa Gozzeu Sakausway Mejoma Temeho Amos Gavmo Segezziem Sagaup 
+							Togaugo Zouswau Saukie Jaswos Aundza Zaujou Pakakou Mamowsz Mozzasz Mavmie Mageu Meugaozzapz 
+							Yazzandz Peuga Zeuswo Meuwhaw Goswapz Memaundz Yawhondz}
 
-	      last_names = {  }
+	      last_names = { tav-ov-Jawkow tav-ov-Pagaundz tav-ov-Zeukiemeu tav-ov-Miemo tav-ov-Moasz tav-ov-Gandasz tav-ov-Atasz tav-ov-Pepem tav-ov-Meumem tav-ov-Seasz tav-ov-Gaam tav-ov-Pamam Gtav-ov-eam tav-ov-Awhoascz 
+							tav-ov-Oheg tav-ov-Auha tav-ov-Oswag tav-ov-Aswom tav-ov-Miege tav-ov-Gego tav-ov-Poswa tav-ov-Gozzeu tav-ov-Sakausway tav-ov-Mejoma tav-ov-Temeho tav-ov-Amos tav-ov-Gavmo tav-ov-Segezziem tav-ov-Sagaup 
+							tav-ov-Togaugo tav-ov-Zouswau tav-ov-Saukie tav-ov-Jaswos tav-ov-Aundza tav-ov-Zaujou tav-ov-Pakakou tav-ov-Mamowsz tav-ov-Mozzasz tav-ov-Mavmie tav-ov-Mageu tav-ov-Meugaozzapz 
+							tav-ov-Yazzandz tav-ov-Peuga tav-ov-Zeuswo tav-ov-Meuwhaw tav-ov-Goswapz tav-ov-Memaundz tav-ov-Yawhondz }
     }
 
     takemoujoy = { #take?oujoy

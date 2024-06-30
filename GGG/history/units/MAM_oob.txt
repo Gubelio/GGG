@@ -1,0 +1,208 @@
+#Relations
+
+BOG = {
+    value = -200
+}
+
+RAN = {
+    value = -70
+}
+
+TAK = {
+    value = 50
+}
+
+#Sphere of Influence
+
+#Leaders
+
+leader = {
+    name = "Pagaundz tausz-au-Siewhapz" 
+    type = land
+    date = 1305.1.1
+    personality = gallant 
+    background = cartographer 
+}
+
+leader = {
+    name = "Yejaum tausz-au-Pepem"
+    type = land
+    date = 1298.1.1
+    personality = gutsy 
+    background = war_college 
+}
+
+leader = {
+    name = "Yaswau tausz-au-Miege"
+    type = land
+    date = 1300.1.1
+    personality = fanatic 
+    background = old_school 
+}
+
+#Armies
+
+army = {
+    name = "Army of the Core"
+    location = 424
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 477
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 754
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 426
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 423
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 420
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 749
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 418
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 419
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 421
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 422
+    }
+
+}
+
+army = {
+    name = "Army of the North"
+    location = 475
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 424
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 427
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 428
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 429
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 431
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 431
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 432
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 440
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 433
+    }
+
+}
+
+army = {
+    name = "Western Garrison"
+    location = 465
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 465
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 464
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 461
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 463
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 459
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 462
+    }
+
+}
