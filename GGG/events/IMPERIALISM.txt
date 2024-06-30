@@ -394,7 +394,8 @@ country_event = { #Occupy sithuchi desert 1
 	#picture = "south_american_native"
 	
     trigger = {
-		any_greater_power = { invention = colonial_negotiations } #not perfect but game has no any_secondary_power scope :/
+		#any_greater_power = { invention = colonial_negotiations } #not perfect but game has no any_secondary_power scope :/
+		year = 1342	
 		owns = 579
 		402 = { empty = yes }
 		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
@@ -418,7 +419,8 @@ country_event = { #Occupy sithuchi desert 2
 	#picture = "south_american_native"
 	
     trigger = {
-		any_greater_power = { invention = colonial_negotiations }
+		#any_greater_power = { invention = colonial_negotiations }
+		year = 1342
 		owns = 397
 		406 = { empty = yes }
 		#war = no #Perhaps wrong decision, just don't want any great powers getting the chance to steal these regions
@@ -441,7 +443,8 @@ country_event = { #Occupy sithuchi desert 3
 	#picture = "south_american_native"
 	
     trigger = {
-		any_greater_power = { invention = colonial_negotiations }
+		#any_greater_power = { invention = colonial_negotiations }
+		year = 1342
 		owns = 415
 		owns = 416
 		413 = { empty = yes }
