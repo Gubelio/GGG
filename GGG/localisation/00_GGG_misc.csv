@@ -702,16 +702,16 @@ colonial_conquest_low;Establish Lowly Protectorate;;;;;;;;;;;;;x
 colonial_conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_low_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
 colonial_conquest_low_desc;Annex a single-state §Yuncivilized country§W with less than 400,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+manowar;Sea-Castle;;;;;;;;;;;;;x
+ironclad;Pitpot;;;;;;;;;;;;;x
+commerce_raider;Brigand;;;;;;;;;;;;;x
+frigate;Diwvish;;;;;;;;;;;;;x
+monitor;Bibbler;;;;;;;;;;;;;x
+dreadnought;Pudwou;;;;;;;;;;;;;x
+cruiser;Pond-Skipper;;;;;;;;;;;;;x #Crackwhip
+clipper_transport;Sail-Transport;;;;;;;;;;;;;x
+battleship;Sea-Fort;;;;;;;;;;;;;x
+tank;Two-Legger;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

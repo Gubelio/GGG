@@ -4,6 +4,217 @@ MAM = {
     value = 50
 }
 
+#Sphere of Influence
+
+#Leaders
+
+leader = {
+    name = "X" 
+    type = land
+    date = 1300.1.1
+    personality = impetuous  
+    background = war_college  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1302.1.1
+    personality = clever  
+    background = warmonger  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1300.1.1
+    personality = gutsy  
+    background = sucker  
+}
+
+leader = {
+    name = "X"
+    type = sea
+    date = 1300.1.1
+    personality = intelligent   
+    background = bureaucrat_speed   
+}
+
+#Armies
+
+army = {
+    name = "Army of the Isles"
+    location = 334
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 336
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 335
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 334
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 343
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 348
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 347
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 349
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 359
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 357
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 358
+    }
+
+}
+
+navy = {
+	name = "The King's Navy"
+	location = 334
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}	
+}
 
 
 

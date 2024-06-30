@@ -277,3 +277,121 @@ army = {
 
 }
 
+navy = {
+	name = "Royal Fleet"
+	location = 623
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sea-Castle"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Diwvish"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}	
+}

@@ -10,5 +10,330 @@ MAM = {
 
 #Sphere of Influence
 
+#Leaders
+
+leader = {
+    name = "X" 
+    type = land
+    date = 1305.1.1
+    personality = stalwart  
+    background = yesman  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1298.1.1
+    personality = spirited  
+    background = unfit  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1290.1.1
+    personality = clever  
+    background = elderly  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1300.1.1
+    personality = timid   
+    background = incompetent  
+}
+
 #Armies
 
+army = {
+    name = "Imperial Company"
+    location = 879
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 904
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 903
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 900
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 764
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 895
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 887
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 896
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 898
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 880
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 881
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 884
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 886
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 879
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 879
+    }
+
+}
+
+army = {
+    name = "Army of the West"
+    location = 903
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 750
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 878
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 882
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 885
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 883
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 863
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 866
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 867
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 853
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 864
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 877
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 875
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 874
+    }
+
+}
+
+army = {
+    name = "Eastern Garrison"
+    location = 812
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 865
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 861
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 859
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 858
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 854
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 852
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 851
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 850
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 847
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 855
+    }
+
+}
+
+army = {
+    name = "Southern Garrison"
+    location = 893
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 838
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 840
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 832
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 827
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 828
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 829
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 812
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 809
+    }
+
+}

@@ -1,0 +1,109 @@
+political_decisions = {
+	
+    conquest_kovazhi_desert = { 
+	#picture = "embrace_shamush"
+        potential = {
+			OR = {
+				AND = {
+					tag = QOO
+					owns = 991
+					owns = 989
+				}
+				AND = {
+					tag = ORH
+					owns = 995
+					owns = 996
+					owns = 999
+				}
+			}
+			978 = { empty = yes }
+			972 = { empty = yes }
+			982 = { empty = yes }
+		}
+
+        allow = {
+			civilized = yes
+        }
+
+        effect = {
+			967 = { secede_province = THIS add_core = THIS }
+			982 = { secede_province = THIS add_core = THIS }
+			981 = { secede_province = THIS add_core = THIS }
+			
+			980 = { secede_province = THIS add_core = THIS }
+			979 = { secede_province = THIS add_core = THIS }
+			977 = { secede_province = THIS add_core = THIS }			
+			978 = { secede_province = THIS add_core = THIS }
+			976 = { secede_province = THIS add_core = THIS }			
+			975 = { secede_province = THIS add_core = THIS }
+
+			966 = { secede_province = THIS add_core = THIS }
+			973 = { secede_province = THIS add_core = THIS }
+			974 = { secede_province = THIS add_core = THIS }
+			972 = { secede_province = THIS add_core = THIS }			
+        }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+    }
+	
+    centralize_the_empire = {
+	#picture = "embrace_shamush"
+        potential = {
+        	tag = QOO
+			NOT = { has_country_flag = centralize_the_empire }
+		}
+
+        allow = {
+			state_n_government = 1
+			OR = {
+				NOT = { exists = HUH }
+				QOO = { is_sphere_leader_of = HUH }
+				HUH = { vassal_of = QOO }
+			}
+			OR = {
+				NOT = { exists = EID }
+				QOO = { is_sphere_leader_of = EID }
+				EID = { vassal_of = QOO }
+			}
+			OR = {
+				NOT = { exists = BUM }
+				QOO = { is_sphere_leader_of = BUM }
+				BUM = { vassal_of = QOO }
+			}
+			OR = {
+				NOT = { exists = GOX }
+				QOO = { is_sphere_leader_of = GOX }
+				GOX = { vassal_of = QOO }
+			}
+			OR = {
+				NOT = { exists = SOM }
+				QOO = { is_sphere_leader_of = SOM }
+				SOM = { vassal_of = QOO }
+			}
+        }
+
+        effect = {
+			set_country_flag = centralize_the_empire
+			HUH = { all_core = { add_core = QOO } }		
+			QOO = { inherit = HUH }
+			EID = { all_core = { add_core = QOO } }				
+			QOO = { inherit = EID }		
+			BUM = { all_core = { add_core = QOO } }				
+			QOO = { inherit = BUM }
+			GOX = { all_core = { add_core = QOO } }	
+			QOO = { inherit = GOX }
+			SOM = { all_core = { add_core = QOO } }	
+			QOO = { inherit = SOM }			
+        }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+    }
+	
+	
+}

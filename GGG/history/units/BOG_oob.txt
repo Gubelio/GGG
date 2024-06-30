@@ -10,5 +10,171 @@ RAN = {
 
 #Sphere of Influence
 
+# Leaders
+
+leader = {
+    name = "X" 
+    type = land
+    date = 1305.1.1
+    personality = aggressive  
+    background = poet  
+}
+
+leader = {
+    name = "X"
+    type = land
+    date = 1298.1.1
+    personality = stout  
+    background = diplomat  
+}
+
 #Armies
+
+army = {
+    name = "Royal Army"
+    location = 478
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 425
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 915
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 436
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 435
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 474
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 476
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 473
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 478
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 472
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 466
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 482
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 467
+    }
+
+}
+
+army = {
+    name = "The Forayers"
+    location = 425
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 916
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 908
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 479
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 481
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 480
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 485
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 484
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 486
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 912
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 913
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 914
+    }
+
+}
 
