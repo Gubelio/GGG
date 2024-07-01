@@ -2,3 +2,238 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
+
+trinket_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = trinket_health_care
+        administration_spending = 0.2
+    }
+    global_population_growth = 0.001
+    icon = 19
+}
+
+low_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = low_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.25
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.3
+            }
+        }
+    }
+    global_population_growth = 0.002
+    icon = 19
+}
+
+acceptable_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = acceptable_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.3
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.4
+            }
+        }
+    }
+    global_population_growth = 0.003
+    icon = 19
+}
+
+good_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = good_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.3
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.5
+            }
+        }
+    }
+    global_population_growth = 0.004
+    icon = 19
+}
+
+health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = good_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.74
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.99
+            }
+        }
+    }
+    global_population_growth = 0.001
+    icon = 19
+}
+
+acceptable_schools_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = parish_school_system 
+        education_spending = 0.4
+    }
+    education_efficiency_modifier = 0.075
+    icon = 19
+}
+
+good_schools_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = state_school_system 
+        education_spending = 0.5
+    }
+    education_efficiency_modifier = 0.1
+    icon = 19
+}
+
+education_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = good_schools
+        OR = {
+            AND = {
+                ai = yes
+                education_spending = 0.74
+            }
+            AND = {
+                ai = no
+                education_spending = 0.99
+            }
+        }
+    }
+    education_efficiency_modifier = 0.1
+    icon = 19
+}
+
+neglected_education = {
+    trigger = {
+        exists = yes
+        civilized = yes
+        ai = no
+        number_of_states = 2
+        total_pops = 1000000
+        OR = {
+            AND = {
+                literacy = 0.75
+                NOT = { education_spending = 0.3 }
+            }
+            AND = {
+                literacy = 0.5
+                NOT = { education_spending = 0.2 }
+            }
+            AND = {
+                literacy = 0.25
+                NOT = { education_spending = 0.1 }
+            }
+        }
+    }
+    education_efficiency_modifier = -1
+    icon = 19
+}
+
+vassal_nation = {
+    trigger = {
+        exists = yes
+        is_vassal = yes
+        is_substate = no
+    }
+    icon = 10
+    prestige = -0.1
+}
+
+substate_nation = {
+    trigger = {
+        exists = yes
+        is_substate = yes
+        civilized = yes
+        ai = yes
+    }
+
+    prestige = -0.25
+    max_loan_modifier = -1.0
+    min_tax = 0.25
+    max_military_spending = -0.25
+    min_tariff = 1.2
+    tax_efficiency = 0.3
+
+    icon = 10
+}
+
+landlocked_nation = {
+    trigger = {
+        exists = yes
+        NOT = { total_num_of_ports = 1 }
+        NOT = { has_country_modifier = trek_boers }
+    }
+
+    import_cost = 0.5
+    global_immigrant_attract = -1.5
+    icon = 8
+}
+
+social_reformed_nation = {
+        trigger = {
+            exists = yes
+			emigration_law = emigration_permitted 
+			clerical_law = anti_clericalism 
+			worker_protections = good_protections 
+			scriptural_law = local_congregationalism 
+			welfare_laws = mule_n_seed_law 
+			debt_law = bankruptcy 
+			penal_system = rehabilitation 
+			slavery = no_slavery 
+			wage_reform = good_minimum_wage 
+			social_privileges = equality_before_the_law 
+        }
+
+    social_reform_desire = -0.3
+    icon = 13
+}
+
+educational_spen = {
+        trigger = {
+            ai = yes
+            exists = yes
+            administration_spending = 0.74
+        }
+
+    education_efficiency_modifier = 0.3
+    icon = 16
+}
+
+admin_spen = {
+        trigger = {
+            ai = yes
+            exists = yes
+            administration_spending = 0.74
+        }
+
+    administrative_efficiency_modifier = 0.3
+    icon = 16
+}
+
+
+ 

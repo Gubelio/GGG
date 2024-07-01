@@ -712,9 +712,19 @@ cruiser;Pond-Skipper;;;;;;;;;;;;;x #Crackwhip
 clipper_transport;Sail-Transport;;;;;;;;;;;;;x
 battleship;Sea-Fort;;;;;;;;;;;;;x
 tank;Two-Legger;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+trinket_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;
+low_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;
+acceptable_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;
+good_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;
+low_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
+acceptable_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
+good_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
+education_fully_funded;Excellent Education System;;;;;;;;;;;;;
+health_care_fully_funded;Excellent Healthcare;;;;;;;;;;;;;
+neglected_education;Neglected Education Funding;;;;;;;;;;;;;
+vassal_nation;Vassal Nation;;;;;;;;;;;;;x
+substate_nation;Substate;;;;;;;;;;;;;x
+landlocked_nation;Landlocked Nation;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
