@@ -1139,18 +1139,23 @@ promote_to = {
         }
     }
 
-    #slaves = {
-    #    factor = 0
-    #    modifier = {
-    #        factor = -100
-    #        OR = {
-    #            country = { NOT = { slavery = yes_slavery } }
-    #            NOT = { location = { is_colonial = yes } }
-    #            is_primary_culture = yes
-    #            is_accepted_culture = yes
-    #        }
-    #    }
-    #}
+	# experimental slavery idea
+    slaves = {
+        factor = 0.002 #Negligable but will be made relevant by a national focus - hopefully
+
+        modifier = {
+            is_accepted_culture = no
+			country = {
+				NOT = {
+					OR = {
+						slavery = gradual_abolition
+						slavery = no_slavery
+					}
+				}
+			}
+        }
+    }
+	#
 }
 
 

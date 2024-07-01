@@ -1,8 +1,28 @@
-rail_focus =
+rail_focus = #Undesirable Populations
 {
-	encourage_rail = 
-	{
-		railroads = 0.5 #Capitalists 50% more likeley to choose railroads
+	forced_assimilation_focus = {
+		assimilation_rate = 0.2
+		pop_militancy_modifier = 0.01 
+		limit = {
+			owner = {
+				NOT = { citizens_rights = all_voting_pops }
+			}
+		}
+		icon = 32
+	}
+	encourage_enslavement_focus = {
+		slaves = 3 #100 #this is obscenely large, to counterweight the minuscule base chance of demoting to slave
+		pop_militancy_modifier = 0.01 
+		limit = {
+			owner = { 
+				NOT = {
+					OR = {
+						slavery = gradual_abolition
+						slavery = no_slavery
+					}
+				}
+			}
+        }
 		icon = 2
 	}
 }

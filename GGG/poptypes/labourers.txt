@@ -1136,6 +1136,23 @@ serfs = {
             not = { literacy = 0.50 }
         }
     }
+	# experimental slavery idea
+    slaves = {
+        factor = 0.002 #Negligable but will be made relevant by a national focus - hopefully
+
+        modifier = {
+            is_accepted_culture = no
+			country = {
+				NOT = {
+					OR = {
+						slavery = gradual_abolition
+						slavery = no_slavery
+					}
+				}
+			}
+        }
+    }
+	#
 }
 
 
