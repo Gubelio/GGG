@@ -638,7 +638,7 @@ assimilation_chance =
 		}
 	}
 
-	modifier = {
+	modifier = { 
 		factor = -1
 		is_accepted_culture = yes
 	}

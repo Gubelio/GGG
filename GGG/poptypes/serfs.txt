@@ -51,6 +51,15 @@ luxury_needs = {
     opium = 2
 }
 
+country_migration_target = {
+    factor = 1
+
+    modifier = {
+        factor = -100 #0
+		NOT = { debt_law = serfdom }
+    }
+}
+
 
 promote_to = {
     farmers = {

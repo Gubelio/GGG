@@ -24,6 +24,15 @@ luxury_needs = {
     grain = 1
 }
 
+country_migration_target = {
+    factor = 1
+
+    modifier = {
+        factor = -100 #0
+		NOT = { thralldom = thralldom_allowed }
+    }
+}
+
 ideologies = {
     statist = {
         factor = 3
