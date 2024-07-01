@@ -853,7 +853,7 @@ serfs = {
             is_primary_culture = no
             is_accepted_culture = no
             OR = {
-                has_pop_religion = animist
+                has_pop_religion = pagan
                 NOT = { country = { has_country_flag = colonial_armies } }
             }
         }
@@ -864,7 +864,7 @@ serfs = {
             location = { is_colonial = yes is_overseas = yes }
             is_primary_culture = no
             is_accepted_culture = no
-            NOT = { has_pop_religion = animist }
+            NOT = { has_pop_religion = pagan }
             country = { has_country_flag = colonial_armies }
         }
     }
