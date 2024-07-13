@@ -1,7 +1,7 @@
 political_decisions = {
 	
     conquest_kovazhi_desert = { 
-	#picture = "embrace_shamush"
+	picture = "carl_hasch_libyan_desert"
         potential = {
 			OR = {
 				AND = {
@@ -50,7 +50,7 @@ political_decisions = {
     }
 	
     centralize_the_empire = {
-	#picture = "embrace_shamush"
+	picture = "abolish_the_prayerlands"
         potential = {
         	tag = QOO
 			NOT = { has_country_flag = centralize_the_empire }
@@ -61,27 +61,27 @@ political_decisions = {
 			OR = {
 				NOT = { exists = HUH }
 				QOO = { is_sphere_leader_of = HUH }
-				HUH = { vassal_of = QOO }
+				HUH = { is_substate = yes } #vassal_of = QOO
 			}
 			OR = {
 				NOT = { exists = EID }
 				QOO = { is_sphere_leader_of = EID }
-				EID = { vassal_of = QOO }
+				EID = { is_substate = yes } #vassal_of = QOO
 			}
 			OR = {
 				NOT = { exists = BUM }
 				QOO = { is_sphere_leader_of = BUM }
-				BUM = { vassal_of = QOO }
+				BUM = { is_substate = yes } #vassal_of = QOO
 			}
 			OR = {
 				NOT = { exists = GOX }
 				QOO = { is_sphere_leader_of = GOX }
-				GOX = { vassal_of = QOO }
+				GOX = { is_substate = yes } #vassal_of = QOO
 			}
 			OR = {
 				NOT = { exists = SOM }
 				QOO = { is_sphere_leader_of = SOM }
-				SOM = { vassal_of = QOO }
+				SOM = { is_substate = yes } #vassal_of = QOO
 			}
         }
 

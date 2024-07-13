@@ -27,7 +27,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 700 #380 #180
+        months = 1400 #700 #380 #180
     }
 	
     option = {
@@ -70,7 +70,7 @@ country_event = {
                 25 = { country_event = { id = 50025 days = 465 } } #Succeeds
                 65 = { country_event = { id = 50026 days = 465 } } #Fails 
 				10 = { country_event = { id = 50027 days = 465 } } #Adventurer Betrays
-            }	
+            }
 			treasury = -250000
 			
 		ai_chance = {

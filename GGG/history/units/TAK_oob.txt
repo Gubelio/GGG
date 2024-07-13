@@ -9,7 +9,7 @@ MAM = {
 #Leaders
 
 leader = {
-    name = "X" 
+    name = "Sem Yammar Moyi" 
     type = land
     date = 1300.1.1
     personality = impetuous  
@@ -17,7 +17,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Sem Toswou Sokamat"
     type = land
     date = 1302.1.1
     personality = clever  
@@ -25,7 +25,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Sem Pagarnd Yekep"
     type = land
     date = 1300.1.1
     personality = gutsy  
@@ -33,7 +33,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Sem Ejam ApMoswie"
     type = sea
     date = 1300.1.1
     personality = intelligent   

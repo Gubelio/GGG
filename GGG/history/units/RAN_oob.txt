@@ -13,7 +13,7 @@ MAM = {
 #Leaders
 
 leader = {
-    name = "X" 
+    name = "Jabûhegh Rahuttup" 
     type = land
     date = 1305.1.1
     personality = stalwart  
@@ -21,7 +21,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Oddugh Obâhâttup"
     type = land
     date = 1298.1.1
     personality = spirited  
@@ -29,7 +29,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Juttepht Pâttu"
     type = land
     date = 1290.1.1
     personality = clever  
@@ -37,7 +37,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Ye'uvuth Ngêtuhe"
     type = land
     date = 1300.1.1
     personality = timid   
@@ -60,12 +60,6 @@ army = {
         name= "Commoner Levies"
         type = irregular
         home = 903
-    }
-	
-    regiment = {
-        name= "Commoner Levies"
-        type = irregular
-        home = 900
     }
 	
     regiment = {
@@ -292,6 +286,12 @@ army = {
         name= "Commoner Levies"
         type = irregular
         home = 838
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 900
     }
 
     regiment = {

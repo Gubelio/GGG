@@ -55,4 +55,22 @@ political_decisions = {
 		
     }
 	
+    disable_multiplayer = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_country_flag = multiplayer_disabled }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = multiplayer_disabled
+        }
+		
+    }
+	
 }	

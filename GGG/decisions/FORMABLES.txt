@@ -204,6 +204,7 @@ political_decisions = {
 					remove_core = KID 
 				} 
 			}
+			DKN = { all_core = { remove_core = KID } }
 		
 		}
         ai_will_do = {

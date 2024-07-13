@@ -5,6 +5,7 @@ political_decisions = {
 ##########################
 
     stack_upper_house_liberationist = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -44,13 +45,14 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }
     }
 	
     stack_upper_house_free_yoker = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -90,13 +92,14 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }
     }
 	
     stack_upper_house_reactionary = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -140,13 +143,14 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }
     }
 
     stack_upper_house_statist = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -186,13 +190,14 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }
     }
 	
     stack_upper_house_absolutist = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -232,13 +237,14 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }
     }
 	
     stack_upper_house_theocratist = {
+		picture = "generic_political_gashdzii"
         alert = no
         potential = {
 			ai = no
@@ -286,7 +292,7 @@ political_decisions = {
 				}
 			}
 			
-			add_country_modifier = { name = political_outrage duration = 365 }
+			add_country_modifier = { name = political_outrage duration = 1095 }
 			country_event = { id = 50015 days = 3652 }
 			
         }

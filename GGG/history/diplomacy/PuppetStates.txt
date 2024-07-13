@@ -1,35 +1,36 @@
-## Qooxibi Puppets
-vassal = {
+## Qooxibi Prayerlands
+substate = { #vassal
     first = QOO
     second = HUH
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
 
-vassal = {
+substate = { #vassal
     first = QOO
     second = EID
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
 
-vassal = {
+substate = { #vassal
     first = QOO
     second = BUM
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
 
-vassal = {
+substate = { #vassal
     first = QOO
     second = GOX
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
 
-vassal = {
+substate = { #vassal
     first = QOO
     second = SOM
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
+

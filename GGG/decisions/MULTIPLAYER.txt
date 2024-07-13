@@ -4,6 +4,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
+			NOT = { has_country_flag = multiplayer_disabled }
 			NOT = { has_country_flag = not_interested_in_grants }
         }
 
@@ -20,6 +21,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
+			NOT = { has_country_flag = multiplayer_disabled }
 			has_country_flag = not_interested_in_grants
         }
 
@@ -36,6 +38,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
+			NOT = { has_country_flag = multiplayer_disabled }
 			NOT = { has_country_flag = not_interested_in_grants }
         }
 
@@ -47,7 +50,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					ai = no
-					NOT = { has_country_flag = not_interested_in_grants }
+					OR = { 
+						NOT = { has_country_flag = multiplayer_disabled }
+						NOT = { has_country_flag = not_interested_in_grants }
+					}
 				}
 				country_event = { id = 50016 }
 			}

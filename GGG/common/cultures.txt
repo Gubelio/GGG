@@ -80,20 +80,20 @@ diwvo = {
 				    Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
 
         	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Poumbomput Sham-Tomo Sham-Shoto Sham-Famo Sham-Moro Bodo Mrufo
-				Pankad Dokhi Prudgoun Fokzum Gogoun Ohrun Murmrun Ohrun Gomon Domu }
+							Pankad Dokhi Prudgoun Fokzum Gogoun Ohrun Murmrun Ohrun Gomon Domu }
     }
 
     towuzhan = {
 	  color = { 161 191 182 }
         	first_names = { Fouk Drid Ouruumrau Druwoub Uush Mod Koum Droum Kib Hwamp Outzusunt Vat Drukshoum Tuptun Tufom
-   			 	Taengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Todrid Uptad Mruuwub Ruz Trummun
-   			 	Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Zroth Zrumun
-   			 	Kuwgad Zouuwuhu Monogoun Komongoun Goun Todid Rodrid Rodid Ruzum Trudum Othat Otun Umn Torofumom
-   			 	Thukwo }
+							Taengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Todrid Uptad Mruuwub Ruz Trummun
+							Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Zroth Zrumun
+							Kuwgad Zouuwuhu Monogoun Komongoun Goun Todid Rodrid Rodid Ruzum Trudum Othat Otun Umn Torofumom
+							Thukwo }
 
         	last_names = { Zaum-Towuzh Zaum-Taerid Zaum-Truunt Zaum-Drogon Tzau-Ybom Zaum-Thomon Zaum-Hydom Zaum-Worryd Zaum-Zotom Zaum-Faemon
-			     Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
-			     Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
+							Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
+							Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
     }
 }
 
@@ -382,7 +382,16 @@ duttuphti = {
 							Botto Vathony Nehep Jabûhegh Ye'uvuth Rattugh Bâdath Adunnô Rônnugh Gôttegh Yevôpht Jâdôgh
 							Yôgenn'a Pannujâ Nupht Vuhakh Runna Odeg Juttepht Ngoth Nôneth Joth Huttag Yejannuv Ruvô }
 
+<<<<<<< Updated upstream
         	last_names = { Ngagedofrt Dûbukh Rothdofrt Dubepth Rothak }
+=======
+        	last_names = {  Ngagedofrt Dûbukh Rothdofrt Dubepth Rothak Pâttu Vadûnnud Rahuttup Juttô Jugûhe Hûpnnohu Dûnnegûgh Ebôttup  
+							Yogûbuhe Yudunnud Hôbugûgh Pobuttup Obâhâttup Ngêtuhe Huvunnud Jônnûgannony Unnephnnohu Dagunnud Yugorohu
+							Ûttênnahud Ûttôbuttup Ve-Ugôg Ve-Ûgunna Rugahûrgûgh Yâpuhe Hâfurttup Gôhâgannud Gôbogannud Duttûnnony Ve-Bennâ 
+							Ârêthatte Ârênnud Vadgûgh Ve-Bûth Ve-Dôg Ve-Agâ Ve-Dâveb Jabûttup Puttunnud Ngubânnony Ve-Yuvu Nenygûgh Yevônnud
+							Dûvonnud Yôguhttup Yôggennony Ve-Re'ob Ve-Bôgorugu Jâgunnud Ngubâbattup Nunnuhe Pâduhe Jûvgûgh Ôgûguttup Vônnud
+							Ve-Yobubê Pôthuhe Navottup Hûgnnohu Vôhannud Vôbagûgh Yêkhnnohu Yattânnony }
+>>>>>>> Stashed changes
     }
 
     uttobanhu = { 
