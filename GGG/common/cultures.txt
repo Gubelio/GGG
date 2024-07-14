@@ -363,9 +363,11 @@ bogoroid_huighian = {
 
  bogoran = { 
 	  color = { 110 73 158 }
-	      first_names = {  }
+			first_names ={ Vuiya Kushom Buaki Duguo Hoyome Touarig Tuaborig Fahuya Kuibo Boyig Timuoy Bibshua Kogui Uagsha }
 
-        	last_names = {  }
+        	last_names = { bui'Buaw bui'Dukemog bui'Rannutani bui'Tuiyamo bui'Duobam bui'Bishua bui'Tuatoh bui'Togab
+						   bui'Hame bui'Tuoyi bui'Tuikue bui'Dimichyhi bui'Okshuab bui'Ohuig bui'Kumukui bui'Tibu bui'Oh
+						   bui'Kuduob bui'Kui bui'Tibubah bui'Tikamsho }
     }
 
 }

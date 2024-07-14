@@ -13,7 +13,7 @@ RAN = {
 # Leaders
 
 leader = {
-    name = "X" 
+    name = "Vuiya bui'Dukemog" 
     type = land
     date = 1305.1.1
     personality = aggressive  
@@ -21,7 +21,7 @@ leader = {
 }
 
 leader = {
-    name = "X"
+    name = "Fahuya bui'Rannutani"
     type = land
     date = 1298.1.1
     personality = stout  
