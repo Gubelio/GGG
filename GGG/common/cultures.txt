@@ -117,7 +117,7 @@ peninsular_diwvo = {
 }
 
 surgoian = {
-    leader = european
+    leader = genericgeneral
     unit = EuropeanGC
 
     maumoujoy = { #mau?oujoy
@@ -328,7 +328,7 @@ vuyti = {
 }
 
 huighian = {
-    leader = european
+    leader = genericgeneral
     unit = EuropeanGC
 
     dehuogi = { 
@@ -408,7 +408,7 @@ duttuphti = {
 }
 
 thihudian = {
-    leader = european
+    leader = genericgeneral
     unit = EuropeanGC
 
     ihntithot = { 
@@ -451,7 +451,7 @@ thihudian = {
 ###############
 
 orgehi = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
 
@@ -466,7 +466,7 @@ orgehi = {
 }
 
 yat-pugurian = {
-    leader = european
+    leader = genericgeneral
     unit = EuropeanGC
 
 
@@ -494,7 +494,7 @@ yat-pugurian = {
 
 
 tikongian = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
    tingi = { 
@@ -514,7 +514,7 @@ tikongian = {
 }
 
 bemuven = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
 
@@ -536,7 +536,7 @@ bemuven = {
 }
 
 buksedian= {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
      humabi = { 
@@ -557,7 +557,7 @@ buksedian= {
 }
 
 bhukheg = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
   bhukhegi = { 
@@ -570,7 +570,7 @@ bhukheg = {
 }
 
 nhendian = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
 
@@ -594,7 +594,7 @@ nhendian = {
 }
 
 chobajhin = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
  chobajhi = { 
@@ -608,7 +608,7 @@ chobajhin = {
 
 
 bzaifmodian = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
  ftemioq = { 
@@ -642,7 +642,7 @@ bzaifmodian = {
 }
 
 ruadian = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
 
@@ -664,7 +664,7 @@ ruadian = {
 }
 
 chrawyayian= {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
  kwargoi = { 
@@ -684,7 +684,7 @@ chrawyayian= {
 
 
 soxuppapi_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
  soxuppapi = { 
@@ -697,7 +697,7 @@ soxuppapi_group = {
 }
 
 babi_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
  babi = { 
@@ -710,7 +710,7 @@ babi_group = {
 }
 
 preirish = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     bofungi = { 
@@ -751,7 +751,7 @@ preirish = {
 }
 
 stouian = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
    assatiog = { 
@@ -785,7 +785,7 @@ stouian = {
 }
 
 gert_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     gert = { 
@@ -802,7 +802,7 @@ gert_group = {
 ################
 
 sharna_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     asyum = { 
@@ -829,7 +829,7 @@ sharna_group = {
 }
 
 mhorish_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     hohraeth = { 
@@ -849,7 +849,7 @@ mhorish_group = {
 }
 
 hrusaan_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     hrusaan = { 
@@ -862,7 +862,7 @@ hrusaan_group = {
 }
 
 jeznpoian_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     nubiju = { 
@@ -924,7 +924,7 @@ jeznpoian_group = {
 }
 
 dhrahdian_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     behshi = { 
@@ -951,7 +951,7 @@ dhrahdian_group = {
 }
 
 ratskian_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     nuukheu = { 
@@ -971,7 +971,7 @@ ratskian_group = {
 }
 
 tgoen_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     mipabi = { 
@@ -991,7 +991,7 @@ tgoen_group = {
 }
 
 gji_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     gji = { 
@@ -1004,7 +1004,7 @@ gji_group = {
 }
 
 khrayian_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     khrayian = { 
@@ -1017,7 +1017,7 @@ khrayian_group = {
 }
 
 mromen_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     gokam = { 
@@ -1060,7 +1060,7 @@ mromen_group = {
 ##### OTHERS
 
 tuqqikian_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     tuqqikian = { 
@@ -1073,7 +1073,7 @@ tuqqikian_group = {
 }
 
 zagkhan_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     zagkhan = { 
@@ -1086,7 +1086,7 @@ zagkhan_group = {
 }
 
 mjhman_group = {
-    leader = arab
+    leader = genericgeneral
     unit = MiddleEasternGC
 
     mjhman = { 

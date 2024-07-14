@@ -1430,67 +1430,75 @@ country_event = {
 	}
 }
 
-######################################
-### POUMNIAN / PRUUNTISH RELATIONS ###
-######################################
+###########################
+### GAINING CORES EVENT ###
+###########################
 
-country_event = {
-	id = 50034
-	title = "EVTNAME50034" #Poumnian side of embracing shamush
-	desc = "EVTDESC50034"
-	#picture = "Outside_influences"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVT50034OPTA" #invade them
-		diplomatic_influence = {
-			who = FROM
-			value = -100
-		}
-		#casus_belli = {
-		#	target = FROM
-		#	type = pruuntish_submission
-		#	months = 12
-		#}
-		war = {
-			target = FROM
-			attacker_goal = {
-				casus_belli = pruuntish_submission
+# Gain Core event
+province_event = {
+	id = 50055
+	title = "EVTNAME50055"
+	desc = "EVTDESC50055"
+	
+	trigger = {
+		NOT = { is_core = THIS }
+		controlled_by = THIS
+		is_colonial = no
+		OR = {
+			is_primary_culture = yes
+			is_accepted_culture = yes
+			any_neighbor_province = {
+				AND = {
+					is_core = THIS
+					controlled_by = THIS
+				}
 			}
 		}
-		ai_chance = {
-            factor = 95
-        }
-	}
-
-	option = {
-		name = "EVT50034OPTB" #Let them go
-		diplomatic_influence = {
-			who = FROM
-			value = -100
+		owner = {
+			tag = THIS
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
 		}
-		prestige = -20
-		set_global_flag = poumnia_appears_weak
-		ai_chance = {
-            factor = 5
-        }
 	}
-}
-
-country_event = {
-	id = 50044
-	title = "EVTNAME50044" #Poumnian succeeds in quelling shamushi dissent
-	desc = "EVTDESC50044"
-	#picture = "Outside_influences"
-
-	is_triggered_only = yes
-
+	
+	mean_time_to_happen = {
+		months = 180
+		modifier = {
+			factor = 0.5
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_coastal = yes
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				average_militancy = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				average_militancy = 2
+			}
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 3
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+	}
+	
 	option = {
-		name = "EVT50044OPTA" #Woe is me!
-		religion = wompowushan
-		set_country_flag = poumnia_quelled_shamush
-		set_global_flag = poumnia_defeated_shamush
-		clr_country_flag = we_are_shamush
+		name = "EVT50055OPTA"
+		add_core = THIS
 	}
 }

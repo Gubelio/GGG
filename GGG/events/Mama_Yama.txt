@@ -1,0 +1,32 @@
+country_event = {
+    id = 50054 
+    title = "EVTNAME50054" #Mamatoukat has embraced us, Yamatoukat
+    desc = "EVTDESC50054"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+
+    option = {
+        name = "EVT50054OPTA" #Hurrah!
+
+		annex_to = FROM
+
+		ai_chance = {
+            factor = 5
+        }
+    }
+	
+    option = {
+        name = "EVT50054OPTB" #WE REFUSE
+		prestige = 20
+		diplomatic_influence = {
+			who = FROM
+			value = -500
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+    }
+	
+}

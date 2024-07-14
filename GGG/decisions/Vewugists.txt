@@ -1,0 +1,74 @@
+political_decisions = {
+
+	torching_of_the_great_drupe = {
+		potential = {
+			war_countries = {
+				owns = 221
+			}
+
+			war = yes 
+			#NOT = { religion = vewugi } #allegedly does not work
+			NOT = { has_country_flag = vewugi_country }
+			NOT = { owns = 221 }
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			NOT = {
+				has_global_flag = drupe_torched
+			}
+		}
+		
+		allow = {
+			controls = 221
+		}
+		
+		effect = {
+			badboy = 3
+			prestige = 10
+			any_country = {
+				limit = {
+					#religion = vewugi #allegedly does not work
+					has_country_flag = vewugi_country
+					is_vassal = no
+					civilized = yes
+					NOT = { owns = 221 }
+				}
+				country_event = { id = 50052 }
+			}
+			any_country = {
+				limit = {
+					owns = 221 
+				}
+				country_event = { id = 50053 }
+			}
+			set_global_flag = drupe_torched
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0 
+				badboy = 0.92
+			}
+			modifier = {
+				factor = 0 
+				NOT = { prestige = 49 }
+			}
+			modifier = { 
+				factor = 0 
+				war_countries = {
+					NOT = {
+						relation = { 
+							who = THIS 
+							value = -189
+						}
+					}
+					owns = 221
+				}
+			}
+		}
+	}
+
+
+}

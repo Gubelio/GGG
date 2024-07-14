@@ -1,0 +1,63 @@
+
+#################################
+### TORCHING THE DRUPE EVENTS ###
+#################################
+
+country_event = {
+    id = 50052 
+    title = "EVTNAME50052" #Someone has torched the drupe!
+    desc = "EVTDESC50052"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+
+    option = {
+        name = "EVT50052OPTA" #Death to the heathen!
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+		ai_chance = {
+            factor = 5
+        }
+    }
+	
+    option = {
+        name = "EVT50052OPTB" #We will not act
+		prestige = -25
+			
+    }
+}
+
+country_event = {
+    id = 50053 
+    title = "EVTNAME50053" #Someone has torched OUR drupe!
+    desc = "EVTDESC50053"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+
+    option = {
+        name = "EVT50053OPTA" #Woe is me!
+		prestige = -20
+		war_exhaustion = 40
+		any_pop = {
+			limit = { 
+				has_pop_religion = vewugi
+				location = { is_colonial = no }
+			}
+			militancy = 4
+			consciousness = 2
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+    }
+	
+}
