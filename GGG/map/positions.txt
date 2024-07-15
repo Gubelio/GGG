@@ -460,7 +460,7 @@
 
         naval_base = {
             x = 1124.038462
-            y = 1022.865385
+            y = 1022.565385
         }
 
     }
@@ -5839,7 +5839,7 @@
 
         naval_base = {
             x = 1171.818590
-            y = 978.470513
+            y = 978.270513
         }
 
     }
@@ -6063,8 +6063,8 @@
         }
 
         naval_base = {
-            x = 1205.629167
-            y = 942.537500
+            x = 1205.416667
+            y = 943.388889
         }
 
     }
@@ -16103,8 +16103,8 @@
         }
 
         naval_base = {
-            x = 1637.000000
-            y = 1109.666667
+            x = 1637.055556
+            y = 1109.111111
         }
 
     }
@@ -16160,7 +16160,7 @@
 
         naval_base = {
             x = 1519.080556
-            y = 1192.994444
+            y = 1193.194444
         }
 
     }
@@ -31228,7 +31228,7 @@
 
         naval_base = {
             x = 1444.890741
-            y = 1251.633333
+            y = 1251.333333
         }
 
     }
@@ -32218,7 +32218,7 @@
 
         naval_base = {
             x = 1470.112963
-            y = 1263.494444
+            y = 1262.894444
         }
 
     }
@@ -32496,8 +32496,8 @@
 
 653 = {
     text_position = {
-        x = 1514.773333
-        y = 1306.381667
+        x = 1514.860185
+        y = 1305.357407
     }
 
     text_scale = 2
@@ -45833,21 +45833,21 @@
 
         naval_base = {
             x = 1350.495000
-            y = 880.640000
+            y = 880.840000
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.590794
+        naval_base = 4.712389
     }
 
 }
 
 920 = {
     text_position = {
-        x = 1354.300000
-        y = 837.150000
+        x = 1354.575000
+        y = 836.200000
     }
 
     text_scale = 2
@@ -45888,14 +45888,14 @@
         }
 
         naval_base = {
-            x = 1351.300000
-            y = 839.700000
+            x = 1348.983333
+            y = 838.277778
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.763417
+        naval_base = 0.771215
     }
 
 }
@@ -45945,13 +45945,13 @@
 
         naval_base = {
             x = 1358.300000
-            y = 868.400000
+            y = 868.200000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.707364
+        naval_base = 1.555797
     }
 
 }
@@ -46008,7 +46008,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.965841
+        naval_base = 2.225275
     }
 
 }
@@ -46057,14 +46057,14 @@
         }
 
         naval_base = {
-            x = 1323.300000
-            y = 828.800000
+            x = 1325.814815
+            y = 829.328704
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.565300
+        naval_base = 1.585795
     }
 
 }
@@ -46113,14 +46113,14 @@
         }
 
         naval_base = {
-            x = 1281.450000
-            y = 824.650000
+            x = 1285.500000
+            y = 828.344444
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.875658
+        naval_base = 0.891383
     }
 
 }
@@ -46226,14 +46226,14 @@
         }
 
         naval_base = {
-            x = 1149.400000
-            y = 779.750000
+            x = 1151.083333
+            y = 779.944444
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.025516
+        naval_base = 4.082859
     }
 
 }
@@ -46284,13 +46284,13 @@
 
         naval_base = {
             x = 1145.680000
-            y = 760.520000
+            y = 760.320000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.707364
+        naval_base = 1.525827
     }
 
 }
@@ -46340,14 +46340,14 @@
         }
 
         naval_base = {
-            x = 1201.210000
-            y = 801.520000
+            x = 1209.100000
+            y = 804.713889
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.522693
+        naval_base = 0.916318
     }
 
 }
@@ -46397,14 +46397,14 @@
         }
 
         naval_base = {
-            x = 1155.016667
-            y = 738.275000
+            x = 1161.500000
+            y = 734.833333
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.948229
+        naval_base = 6.273135
     }
 
 }
@@ -46454,13 +46454,13 @@
 
         naval_base = {
             x = 1125.650000
-            y = 728.400000
+            y = 728.100000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.702339
+        naval_base = 1.585795
     }
 
 }
@@ -46509,14 +46509,14 @@
         }
 
         naval_base = {
-            x = 1094.520000
-            y = 718.550000
+            x = 1094.603704
+            y = 718.283333
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.405196
+        naval_base = 0.895274
     }
 
 }
@@ -46566,14 +46566,14 @@
         }
 
         naval_base = {
-            x = 1240.600000
-            y = 805.600000
+            x = 1240.555556
+            y = 805.555556
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.015725
+        naval_base = 2.225275
     }
 
 }
@@ -46622,14 +46622,14 @@
         }
 
         naval_base = {
-            x = 1268.250000
-            y = 811.350000
+            x = 1259.277778
+            y = 812.601852
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.697315
+        naval_base = 1.565796
     }
 
 }
@@ -46679,14 +46679,14 @@
         }
 
         naval_base = {
-            x = 1282.566667
-            y = 792.560000
+            x = 1283.010185
+            y = 790.454630
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.965841
+        naval_base = 3.141593
     }
 
 }
@@ -46737,13 +46737,13 @@
 
         naval_base = {
             x = 1306.600000
-            y = 761.500000
+            y = 761.300000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.692291
+        naval_base = 1.585795
     }
 
 }
@@ -47015,13 +47015,13 @@
 
         naval_base = {
             x = 1137.126667
-            y = 688.586667
+            y = 688.286667
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.580796
+        naval_base = 4.702339
     }
 
 }
@@ -47070,14 +47070,14 @@
         }
 
         naval_base = {
-            x = 1148.521667
-            y = 687.580000
+            x = 1148.245370
+            y = 687.262963
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.959252
+        naval_base = 5.391051
     }
 
 }
@@ -47721,7 +47721,7 @@
 
     military_construction = {
         x = 1359.760000
-        y = 753.040000
+        y = 753.037000
     }
 
     building_position = {
@@ -47737,13 +47737,13 @@
 
         naval_base = {
             x = 1339.420000
-            y = 767.500000
+            y = 767.400000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.752568
+        naval_base = 1.565796
     }
 
 }
@@ -47792,14 +47792,14 @@
         }
 
         naval_base = {
-            x = 1385.300000
-            y = 746.400000
+            x = 1373.888889
+            y = 751.386667
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.727463
+        naval_base = 1.565796
     }
 
 }
@@ -47851,7 +47851,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.965841
+        naval_base = 2.236206
     }
 
 }
@@ -47994,7 +47994,7 @@
         }
 
         naval_base = {
-            x = 1434.350000
+            x = 1434.050000
             y = 758.585000
         }
 
@@ -48057,7 +48057,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.944657
+        naval_base = 2.335071
     }
 
 }
@@ -48107,13 +48107,13 @@
 
         naval_base = {
             x = 1498.106667
-            y = 728.583333
+            y = 728.273333
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.692291
+        naval_base = 1.560797
     }
 
 }
@@ -48178,8 +48178,8 @@
     }
 
     city = {
-        x = 1535.960000
-        y = 751.740000
+        x = 1531.348148
+        y = 754.244444
     }
 
     factory = {
@@ -48209,14 +48209,14 @@
         }
 
         naval_base = {
-            x = 1534.460000
-            y = 753.540000
+            x = 1537.985185
+            y = 754.206296
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.097967
+        naval_base = 1.585795
     }
 
 }
@@ -48312,14 +48312,14 @@
         }
 
         naval_base = {
-            x = 1563.540000
-            y = 762.720000
+            x = 1553.109259
+            y = 756.823148
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.462341
+        naval_base = 0.927295
     }
 
 }
@@ -48981,14 +48981,14 @@
         }
 
         naval_base = {
-            x = 1676.353333
-            y = 794.473333
+            x = 1676.685185
+            y = 794.550000
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.972895
+        naval_base = 2.243203
     }
 
 }
@@ -49037,14 +49037,10 @@
         }
 
         naval_base = {
-            x = 1605.338333
-            y = 778.596667
+            x = 1606.081481
+            y = 781.459259
         }
 
-    }
-
-    building_rotation = {
-        naval_base = 5.875658
     }
 
 }
@@ -49094,13 +49090,13 @@
 
         naval_base = {
             x = 1730.986667
-            y = 761.350000
+            y = 761.250000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.677228
+        naval_base = 1.570796
     }
 
 }
@@ -49149,14 +49145,14 @@
         }
 
         naval_base = {
-            x = 1765.550000
-            y = 754.650000
+            x = 1770.418519
+            y = 745.474074
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.022782
+        naval_base = 3.131593
     }
 
 }
@@ -49213,7 +49209,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.430180
+        naval_base = 2.271293
     }
 
 }
@@ -49263,13 +49259,13 @@
 
         naval_base = {
             x = 1807.533333
-            y = 720.560000
+            y = 720.310000
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.722439
+        naval_base = 1.555797
     }
 
 }
@@ -49318,14 +49314,14 @@
         }
 
         naval_base = {
-            x = 1853.530000
-            y = 710.540000
+            x = 1845.150000
+            y = 713.170370
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.965841
+        naval_base = 1.580796
     }
 
 }
@@ -50128,14 +50124,14 @@
         }
 
         naval_base = {
-            x = 1869.583333
-            y = 695.813333
+            x = 1869.530556
+            y = 695.658333
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.824152
+        naval_base = 2.218285
     }
 
 }
@@ -50230,6 +50226,15 @@
             y = 672.148333
         }
 
+        naval_base = {
+            x = 1886.650000
+            y = 684.441667
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 2.331465
     }
 
 }
@@ -50372,14 +50377,14 @@
         }
 
         naval_base = {
-            x = 1912.460000
-            y = 657.360000
+            x = 1919.339815
+            y = 649.259259
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.916391
+        naval_base = 3.141593
     }
 
 }
@@ -50877,7 +50882,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.760099
+        naval_base = 2.366795
     }
 
 }
@@ -51075,7 +51080,7 @@
     }
 
     building_rotation = {
-        naval_base = 3.767078
+        naval_base = 2.352661
     }
 
 }
@@ -51124,14 +51129,14 @@
         }
 
         naval_base = {
-            x = 1946.550000
-            y = 509.640000
+            x = 1949.122222
+            y = 514.040741
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.377318
+        naval_base = 3.146593
     }
 
 }
@@ -51181,14 +51186,14 @@
         }
 
         naval_base = {
-            x = 1898.933333
-            y = 479.666667
+            x = 1912.162963
+            y = 481.140741
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.615766
+        naval_base = 3.962437
     }
 
 }
@@ -51378,14 +51383,14 @@
         }
 
         naval_base = {
-            x = 1871.400000
-            y = 468.666667
+            x = 1871.288889
+            y = 467.792593
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.605782
+        naval_base = 4.687269
     }
 
 }
@@ -51435,13 +51440,13 @@
 
         naval_base = {
             x = 1855.850000
-            y = 461.600000
+            y = 461.400000
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.630724
+        naval_base = 4.712389
     }
 
 }
@@ -51490,14 +51495,14 @@
         }
 
         naval_base = {
-            x = 1832.550000
-            y = 462.650000
+            x = 1834.444444
+            y = 462.418519
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.756451
+        naval_base = 4.712389
     }
 
 }
@@ -51878,14 +51883,14 @@
         }
 
         naval_base = {
-            x = 1806.400000
-            y = 451.550000
+            x = 1805.429630
+            y = 450.355185
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.771119
+        naval_base = 4.712389
     }
 
 }
@@ -51934,14 +51939,14 @@
         }
 
         naval_base = {
-            x = 1818.500000
-            y = 455.600000
+            x = 1818.707407
+            y = 455.325926
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.402099
+        naval_base = 4.129934
     }
 
 }
@@ -53169,14 +53174,14 @@
         }
 
         naval_base = {
-            x = 1788.600000
-            y = 447.800000
+            x = 1791.000000
+            y = 447.962963
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.605782
+        naval_base = 4.134122
     }
 
 }
@@ -53274,7 +53279,7 @@
 
         naval_base = {
             x = 1774.400000
-            y = 441.750000
+            y = 441.450000
         }
 
     }
@@ -54004,14 +54009,14 @@
         }
 
         naval_base = {
-            x = 1763.200000
-            y = 406.851852
+            x = 1763.459259
+            y = 406.488889
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.328033
+        naval_base = 4.086904
     }
 
 }
@@ -54392,13 +54397,13 @@
 
         naval_base = {
             x = 1735.896296
-            y = 385.837037
+            y = 385.537037
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.660555
+        naval_base = 4.697315
     }
 
 }
@@ -54495,14 +54500,14 @@
         }
 
         naval_base = {
-            x = 1690.472222
-            y = 379.458333
+            x = 1690.013889
+            y = 379.152778
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.977254
+        naval_base = 5.383995
     }
 
 }
@@ -54648,13 +54653,13 @@
 
         naval_base = {
             x = 1670.644444
-            y = 392.288889
+            y = 392.088889
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.555797
+        naval_base = 4.702339
     }
 
 }
@@ -54704,7 +54709,7 @@
         }
 
         naval_base = {
-            x = 1651.835185
+            x = 1651.635185
             y = 424.894444
         }
 
@@ -54807,14 +54812,14 @@
         }
 
         naval_base = {
-            x = 1646.700000
-            y = 439.492593
+            x = 1646.151852
+            y = 439.150000
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.906235
+        naval_base = 5.437363
     }
 
 }
@@ -54937,8 +54942,8 @@
     }
 
     city = {
-        x = 1609.207292
-        y = 456.379167
+        x = 1605.439815
+        y = 458.888889
     }
 
     factory = {
@@ -54969,13 +54974,13 @@
 
         naval_base = {
             x = 1613.297917
-            y = 451.566667
+            y = 451.536667
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.595791
+        naval_base = 4.712389
     }
 
 }
@@ -55317,13 +55322,13 @@
 
         naval_base = {
             x = 1576.025000
-            y = 517.575000
+            y = 517.375000
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.500910
+        naval_base = 4.712389
     }
 
 }
@@ -55421,14 +55426,14 @@
         }
 
         naval_base = {
-            x = 1553.275000
-            y = 526.137500
+            x = 1552.779630
+            y = 526.886111
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.070236
+        naval_base = 5.458661
     }
 
 }
@@ -55524,14 +55529,14 @@
         }
 
         naval_base = {
-            x = 1547.663542
-            y = 530.589583
+            x = 1541.907407
+            y = 524.511111
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.761349
+        naval_base = 4.697315
     }
 
 }
@@ -55628,13 +55633,13 @@
 
         naval_base = {
             x = 1497.658333
-            y = 523.391667
+            y = 523.191667
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.505888
+        naval_base = 4.702339
     }
 
 }
@@ -55825,14 +55830,14 @@
         }
 
         naval_base = {
-            x = 1477.254167
-            y = 519.679167
+            x = 1477.503704
+            y = 519.659259
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.289157
+        naval_base = 4.050908
     }
 
 }
@@ -55883,7 +55888,7 @@
 
         naval_base = {
             x = 1465.153846
-            y = 504.480769
+            y = 503.500769
         }
 
     }
@@ -55996,8 +56001,8 @@
         }
 
         naval_base = {
-            x = 1485.448958
-            y = 478.635417
+            x = 1486.925926
+            y = 476.222222
         }
 
     }
@@ -56242,14 +56247,14 @@
         }
 
         naval_base = {
-            x = 1415.704167
-            y = 530.347917
+            x = 1420.603333
+            y = 521.172222
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.494957
+        naval_base = 0.015074
     }
 
 }
@@ -56441,13 +56446,13 @@
 
         naval_base = {
             x = 1407.840000
-            y = 541.480000
+            y = 541.220000
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.560797
+        naval_base = 4.712389
     }
 
 }
@@ -56544,14 +56549,14 @@
         }
 
         naval_base = {
-            x = 1373.600000
-            y = 524.540000
+            x = 1373.748148
+            y = 524.103704
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.455729
+        naval_base = 4.036867
     }
 
 }
@@ -56601,14 +56606,14 @@
         }
 
         naval_base = {
-            x = 1323.400000
-            y = 530.330000
+            x = 1322.185185
+            y = 533.038889
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.607445
+        naval_base = 0.030142
     }
 
 }
@@ -57129,14 +57134,14 @@
         }
 
         naval_base = {
-            x = 1320.787500
-            y = 542.793750
+            x = 1318.822222
+            y = 542.903704
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.700496
+        naval_base = 5.448182
     }
 
 }
@@ -58144,14 +58149,14 @@
         }
 
         naval_base = {
-            x = 1142.675000
-            y = 673.395833
+            x = 1144.011111
+            y = 675.847222
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.636672
+        naval_base = 0.902300
     }
 
 }
@@ -58201,14 +58206,14 @@
         }
 
         naval_base = {
-            x = 1124.604167
-            y = 650.262500
+            x = 1127.105556
+            y = 656.741667
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.722992
+        naval_base = 0.916318
     }
 
 }
@@ -58304,14 +58309,14 @@
         }
 
         naval_base = {
-            x = 1115.612500
-            y = 627.393750
+            x = 1115.518519
+            y = 628.737963
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.697968
+        naval_base = 0.025120
     }
 
 }
@@ -58745,7 +58750,7 @@
         }
 
         naval_base = {
-            x = 1097.812500
+            x = 1097.512500
             y = 573.575000
         }
 
@@ -58801,14 +58806,14 @@
         }
 
         naval_base = {
-            x = 1092.425000
-            y = 546.737500
+            x = 1096.000000
+            y = 550.829630
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.777623
+        naval_base = 0.835003
     }
 
 }
@@ -58858,14 +58863,14 @@
         }
 
         naval_base = {
-            x = 1079.683333
-            y = 537.266667
+            x = 1080.143519
+            y = 542.037037
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.547392
+        naval_base = 0.909315
     }
 
 }
@@ -58914,14 +58919,14 @@
         }
 
         naval_base = {
-            x = 1082.512500
-            y = 524.531250
+            x = 1079.677778
+            y = 523.366667
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.570796
+        naval_base = 4.697315
     }
 
 }
@@ -58971,13 +58976,13 @@
 
         naval_base = {
             x = 1305.503125
-            y = 546.003125
+            y = 545.453125
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.570796
+        naval_base = 4.712389
     }
 
 }
@@ -59074,8 +59079,8 @@
         }
 
         naval_base = {
-            x = 1299.268750
-            y = 537.925000
+            x = 1300.444444
+            y = 540.111111
         }
 
     }
@@ -59130,8 +59135,8 @@
         }
 
         naval_base = {
-            x = 1303.456250
-            y = 521.444792
+            x = 1303.407407
+            y = 520.787963
         }
 
     }
@@ -59564,14 +59569,14 @@
         }
 
         naval_base = {
-            x = 1316.910417
-            y = 503.402083
+            x = 1317.471296
+            y = 503.305556
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.606723
+        naval_base = 1.570796
     }
 
 }
@@ -59627,7 +59632,7 @@
     }
 
     building_rotation = {
-        naval_base = 5.668763
+        naval_base = 0.884365
     }
 
 }
@@ -59645,8 +59650,8 @@
     }
 
     city = {
-        x = 1379.353125
-        y = 496.231250
+        x = 1384.925926
+        y = 485.451852
     }
 
     factory = {
@@ -59683,7 +59688,7 @@
     }
 
     building_rotation = {
-        naval_base = 4.727463
+        naval_base = 1.570796
     }
 
 }
@@ -59874,14 +59879,14 @@
         }
 
         naval_base = {
-            x = 1399.233333
-            y = 470.566667
+            x = 1397.624074
+            y = 474.928704
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.792101
+        naval_base = 3.156592
     }
 
 }
@@ -59930,14 +59935,14 @@
         }
 
         naval_base = {
-            x = 1402.314583
-            y = 437.720833
+            x = 1405.657407
+            y = 435.103704
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.121595
+        naval_base = 2.349152
     }
 
 }
@@ -59986,14 +59991,14 @@
         }
 
         naval_base = {
-            x = 1408.500000
-            y = 408.487500
+            x = 1414.362963
+            y = 411.942593
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.455161
+        naval_base = 4.118846
     }
 
 }
@@ -60042,8 +60047,8 @@
         }
 
         naval_base = {
-            x = 1435.644792
-            y = 425.597917
+            x = 1434.303148
+            y = 427.333333
         }
 
     }
@@ -60390,14 +60395,14 @@
         }
 
         naval_base = {
-            x = 1402.258333
-            y = 382.766667
+            x = 1402.612963
+            y = 381.996296
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.525973
+        naval_base = 4.134122
     }
 
 }
@@ -60447,14 +60452,14 @@
         }
 
         naval_base = {
-            x = 1387.181250
-            y = 367.800000
+            x = 1386.494444
+            y = 363.225926
         }
 
     }
 
     building_rotation = {
-        naval_base = 2.608859
+        naval_base = 3.151592
     }
 
 }
@@ -60504,13 +60509,13 @@
 
         naval_base = {
             x = 1211.925000
-            y = 316.543750
+            y = 316.243750
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.585795
+        naval_base = 4.697315
     }
 
 }
@@ -60560,13 +60565,13 @@
 
         naval_base = {
             x = 1270.750000
-            y = 307.762500
+            y = 307.362500
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.590794
+        naval_base = 4.687269
     }
 
 }
@@ -60616,13 +60621,13 @@
 
         naval_base = {
             x = 1276.995833
-            y = 289.754167
+            y = 289.554167
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.722439
+        naval_base = 1.560797
     }
 
 }
@@ -61236,8 +61241,8 @@
         }
 
         naval_base = {
-            x = 1065.952083
-            y = 437.050000
+            x = 1065.194444
+            y = 437.282407
         }
 
     }
@@ -62384,14 +62389,14 @@
         }
 
         naval_base = {
-            x = 1105.975000
-            y = 481.987500
+            x = 1101.670370
+            y = 477.888889
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.035161
+        naval_base = 0.010050
     }
 
 }
@@ -62440,14 +62445,14 @@
         }
 
         naval_base = {
-            x = 1100.181250
-            y = 460.456250
+            x = 1098.343519
+            y = 464.081481
         }
 
     }
 
     building_rotation = {
-        naval_base = 5.741048
+        naval_base = 0.010050
     }
 
 }
@@ -62684,14 +62689,14 @@
         }
 
         naval_base = {
-            x = 1087.033333
-            y = 452.491667
+            x = 1087.233333
+            y = 452.691667
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.697315
+        naval_base = 1.590794
     }
 
 }
@@ -62740,14 +62745,14 @@
         }
 
         naval_base = {
-            x = 1082.671875
-            y = 406.595833
+            x = 1081.560185
+            y = 406.325926
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.176389
+        naval_base = 4.692291
     }
 
 }
@@ -62796,8 +62801,8 @@
         }
 
         naval_base = {
-            x = 1101.546875
-            y = 372.612500
+            x = 1100.722222
+            y = 374.303704
         }
 
     }
@@ -62946,14 +62951,14 @@
         }
 
         naval_base = {
-            x = 1138.414583
-            y = 355.991667
+            x = 1138.222222
+            y = 354.533333
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.035523
+        naval_base = 5.430274
     }
 
 }
@@ -63002,14 +63007,14 @@
         }
 
         naval_base = {
-            x = 1176.125000
-            y = 356.575000
+            x = 1175.570370
+            y = 356.272222
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.565796
+        naval_base = 4.702339
     }
 
 }
@@ -65598,14 +65603,14 @@
         }
 
         naval_base = {
-            x = 1821.741667
-            y = 1209.866667
+            x = 1821.787037
+            y = 1209.097222
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.570796
+        naval_base = 4.687269
     }
 
 }
@@ -65650,14 +65655,14 @@
         }
 
         naval_base = {
-            x = 1839.062500
-            y = 1218.489583
+            x = 1840.462963
+            y = 1216.449074
         }
 
     }
 
     building_rotation = {
-        naval_base = 3.895199
+        naval_base = 0.015074
     }
 
 }
@@ -65707,13 +65712,13 @@
 
         naval_base = {
             x = 1789.937500
-            y = 1058.437500
+            y = 1058.237500
         }
 
     }
 
     building_rotation = {
-        naval_base = 4.712389
+        naval_base = 1.555797
     }
 
 }
