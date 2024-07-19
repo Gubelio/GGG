@@ -46,6 +46,111 @@
 #    }
 #
 #
+#    medicine_flags = {
+#        potential = {
+#            ai = yes
+#            exists = yes
+#            OR = {
+#                any_greater_power = {
+#                    ai = no
+#                    NOT = { has_country_flag = medicine_invented }
+#                    medicine = 1
+#                }
+#                any_neighbor_country = {
+#                    ai = no
+#                    NOT = { has_country_flag = medicine_invented }
+#                    medicine = 1
+#                }
+#                any_greater_power = {
+#                    ai = no
+#                    NOT = { has_country_flag = germs_invented }
+#                    invention = germ_theory
+#                }
+#                any_neighbor_country = {
+#                    ai = no
+#                    NOT = { has_country_flag = germs_invented }
+#                    invention = germ_theory
+#                }
+#                any_greater_power = {
+#                    ai = no
+#                    NOT = { has_country_flag = gaslights_invented }
+#                    invention = gaslights
+#                }
+#                any_neighbor_country = {
+#                    ai = no
+#                    NOT = { has_country_flag = gaslights_invented }
+#                    invention = gaslights
+#                }
+#                any_greater_power = {
+#                    ai = no
+#                    NOT = { has_country_flag = electricity_invented }
+#                    electricity = 1
+#                }
+#                any_neighbor_country = {
+#                    ai = no
+#                    NOT = { has_country_flag = electricity_invented }
+#                    electricity = 1
+#                }
+#                AND = {
+#                    NOT = { has_country_flag = medicine_invented }
+#                    medicine = 1
+#                }
+#                AND = {
+#                    NOT = { has_country_flag = germs_invented }
+#                    invention = germ_theory
+#                }
+#                AND = {
+#                    NOT = { has_country_flag = gaslights_invented }
+#                    invention = gaslights
+#                }
+#                AND = {
+#                    NOT = { has_country_flag = electricity_invented }
+#                    electricity = 1
+#                }
+#            }
+#        }
+#
+#        allow = {
+#        }
+#
+#        effect = {
+#            random_owned = {
+#                limit = { owner = { NOT = { has_country_flag = medicine_invented } medicine = 1 } }
+#                owner = { set_country_flag = medicine_invented }
+#            }
+#            random_owned = {
+#                limit = { owner = { NOT = { has_country_flag = germs_invented } invention = germ_theory } }
+#                owner = { set_country_flag = germs_invented }
+#            }
+#            random_owned = {
+#                limit = { owner = { NOT = { has_country_flag = gaslights_invented } invention = gaslights } }
+#                owner = { set_country_flag = gaslights_invented }
+#            }
+#            random_owned = {
+#                limit = { owner = { NOT = { has_country_flag = electricity_invented } electricity = 1 } }
+#                owner = { set_country_flag = electricity_invented }
+#            }
+#            any_country = {
+#                limit = { NOT = { has_country_flag = medicine_invented } medicine = 1 }
+#                set_country_flag = medicine_invented
+#            }
+#            any_country = {
+#                limit = { NOT = { has_country_flag = germs_invented } invention = germ_theory }
+#                set_country_flag = germs_invented
+#            }
+#            any_country = {
+#                limit = { NOT = { has_country_flag = gaslights_invented } invention = gaslights }
+#                set_country_flag = gaslights_invented
+#            }
+#            any_country = {
+#                limit = { NOT = { has_country_flag = electricity_invented } electricity = 1 }
+#                set_country_flag = electricity_invented
+#            }
+#        }
+#
+#        ai_will_do = { factor = 1 }
+#    }
+#
 #
 #
 #

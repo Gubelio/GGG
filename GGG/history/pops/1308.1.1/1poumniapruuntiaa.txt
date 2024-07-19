@@ -11194,25 +11194,46 @@
 		 size = 656
 	}
 
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 256
+	}
 
 	bureaucrats = {
 		 culture = pruuntish
 		 religion = wompowushan
-		 size = 43
+		 size = 18
 	}
 
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 25
+	}
 
 	clergymen = {
 		 culture = pruuntish
 		 religion = wompowushan
-		 size = 437
+		 size = 200
 	}
 
+	clergymen = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 237
+	}
 
 	artisans = {
 		 culture = pruuntish
 		 religion = wompowushan
-		 size = 3064
+		 size = 2064
+	}
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 1064
 	}
 
 
@@ -11226,9 +11247,14 @@
 	farmers = {
 		 culture = pruuntish
 		 religion = shamush
-		 size = 30866
+		 size = 27200
 	}
 
+	farmers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 2866
+	}
 
 	officers = {
 		 culture = pruuntish

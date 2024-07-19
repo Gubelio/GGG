@@ -13,3 +13,18 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 2468 
+	title = "rebel debug"
+	desc = "rebels control everything"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "THANKS BUDDY"			
+		any_owned = {
+			change_controller = REB
+		}
+	}
+}

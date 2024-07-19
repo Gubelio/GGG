@@ -93,7 +93,16 @@ acceptable_schools_fully_funded = {
     trigger = {
         exists = yes
         school_reforms = parish_school_system 
-        education_spending = 0.4
+        OR = {
+            AND = {
+                ai = yes
+                education_spending = 0.69
+            }
+            AND = {
+                ai = no
+                education_spending = 0.95
+            }
+        }
     }
     education_efficiency_modifier = 0.075
     icon = 19
@@ -103,16 +112,6 @@ good_schools_fully_funded = {
     trigger = {
         exists = yes
         school_reforms = state_school_system 
-        education_spending = 0.5
-    }
-    education_efficiency_modifier = 0.1
-    icon = 19
-}
-
-education_fully_funded = {
-    trigger = {
-        exists = yes
-        school_reforms = good_schools
         OR = {
             AND = {
                 ai = yes
@@ -135,20 +134,23 @@ neglected_education = {
         ai = no
         number_of_states = 2
         total_pops = 1000000
-        OR = {
-            AND = {
-                literacy = 0.75
-                NOT = { education_spending = 0.3 }
-            }
-            AND = {
-                literacy = 0.5
-                NOT = { education_spending = 0.2 }
-            }
-            AND = {
-                literacy = 0.25
-                NOT = { education_spending = 0.1 }
-            }
-        }
+
+		NOT = { education_spending = 0.26 }
+		
+        #OR = {
+        #    AND = {
+        #        literacy = 0.75
+        #        NOT = { education_spending = 0.3 }
+        #    }
+        #    AND = {
+        #        literacy = 0.5
+        #        NOT = { education_spending = 0.2 }
+        #    }
+        #    AND = {
+        #        literacy = 0.25
+        #        NOT = { education_spending = 0.1 }
+        #    }
+        #}
     }
     education_efficiency_modifier = -1
     icon = 19
@@ -186,7 +188,6 @@ landlocked_nation = {
     trigger = {
         exists = yes
         NOT = { total_num_of_ports = 1 }
-        NOT = { has_country_modifier = trek_boers }
     }
 
     import_cost = 0.5
@@ -213,27 +214,19 @@ social_reformed_nation = {
     icon = 13
 }
 
-educational_spen = {
-        trigger = {
-            ai = yes
-            exists = yes
-            administration_spending = 0.74
-        }
+small_but_efficient = {
+    trigger = {
+        exists = yes
+        capital_scope = { continent = north_america } #Ishahfazh
+        civilized = yes
+        NOT = { number_of_states = 3 }
+        NOT = { total_pops = 125000 }
+        NOT = { money = 1000000 }
+    }
 
-    education_efficiency_modifier = 0.3
-    icon = 16
+    icon = 9
+    tax_efficiency = 0.5
+    administrative_efficiency_modifier = 0.4
+    tariff_efficiency_modifier = 0.4
+    supply_consumption = -0.95
 }
-
-admin_spen = {
-        trigger = {
-            ai = yes
-            exists = yes
-            administration_spending = 0.74
-        }
-
-    administrative_efficiency_modifier = 0.3
-    icon = 16
-}
-
-
- 

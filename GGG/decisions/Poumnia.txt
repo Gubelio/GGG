@@ -1,0 +1,29 @@
+political_decisions = {
+
+	annex_deuuyeuru = {
+		potential = {
+			tag = POU
+			DEU = { exists = yes }
+			NOT = { has_global_flag = annex_deuuyeuru }
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			is_sphere_leader_of = DEU
+			OR = {
+				DEU = { vassal_of = POU }
+				DEU = { is_independant = yes }
+			}
+			all_core = { owned_by = POU }
+			war = no
+		}
+		
+		effect = {
+			badboy = 3
+			DEU = { all_core = { add_core = POU } }
+			DEU = { country_event = { id = 50056 } }
+			set_global_flag = annex_deuuyeuru			
+		}
+	}
+
+}

@@ -98,3 +98,40 @@ country_event = {
 	}
 }
 
+##################
+### ANNEXATION ###
+##################
+
+country_event = {
+    id = 50056 
+    title = "EVTNAME50056" #Poumnia demands annexation
+    desc = "EVTDESC50056"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+
+    option = {
+        name = "EVT50056OPTA" #we agree
+
+		annex_to = FROM
+
+		ai_chance = {
+            factor = 5
+        }
+    }
+	
+    option = {
+        name = "EVT50056OPTB" #WE REFUSE
+		prestige = 20
+		diplomatic_influence = {
+			who = FROM
+			value = -500
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+    }
+	
+}
+
