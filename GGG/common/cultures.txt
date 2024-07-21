@@ -59,25 +59,25 @@ diwvo = {
 
     poumnian = {
         color = { 113 171 153 }
-       	first_names = { Fouk Drid Ouruumra Druwoub Uush Mod Koum Droum Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
-				    Tangad Bouhw Fimpuu Kuuhwu Shov Wudrou Oro Shruk Wahwa Oukim Vodrid Uptad Mruuwub Rush Prummu
-				    Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud Wrushu Drut Pigu Shrov Shrumu
-				    Duwgad Shouuwuhu Mongoun Domongoun Goun Vodid Rodrid Wodid Rushum Prudum Ovat Otun Umun Vorofumo
-				    Tukdwo Rorid "Shov Wudrou" "Domongoun Goun" "Mod Koum Vuptun" }
+			first_names = { Fouk Drid Ouruumra Druwoub Uush Mod Koum Droum Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
+							Tangad Bouhw Fimpuu Kuuhwu Shov Wudrou Oro Shruk Wahwa Oukim Vodrid Uptad Mruuwub Rush Prummu
+							Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud Wrushu Drut Pigu Shrov Shrumu
+							Duwgad Shouuwuhu Mongoun Domongoun Goun Vodid Rodrid Wodid Rushum Prudum Ovat Otun Umun Vorofumo
+							Tukdwo Rorid "Shov Wudrou" "Domongoun Goun" "Mod Koum Vuptun" }
 
             last_names = {  Sha-Pokoungpt Sha-Tob Pruwuswi Sha-Woungpt Shrawuuf Sha-Fogi Sha-Pruub Sha-Pukou Pawuum 
-			  	    Sha-Rusham Pkumn Buumn Sha-Toubomput Rakuumoum Sha-Prousorum Sha-Umpou Pabupti Dohwu Pkomu
-				    Sha-Pomp Wruuba Shout Sha-Ashouw Dufun Sha-Oukam Sha-Gosod Buushu Sha-Ao Sha-Mushim Sha-Shoummid 
-				    Nguuksho Drukuw Sha-Ibu Prasibush Sha-Kuuwumn Protu Sha-Wongpt Sha-Prouf Sha-Puur Drom Pumpou
-				    Sha-Shruungpt Sha-Mroud Sha-Ufu Sha-Uush Sha-Gof Sha-Pouu Sha-Rod "Sha-Rod Sha-Ashaouw" "Sha-Dont Sha-Vodrid"
-				    "Sha-Frout Sha-Tangad" "Sha-Gosod Sha-Man" "Sha-Shrov Sha-Rod" }
+							Sha-Rusham Pkumn Buumn Sha-Toubomput Rakuumoum Sha-Prousorum Sha-Umpou Pabupti Dohwu Pkomu
+							Sha-Pomp Wruuba Shout Sha-Ashouw Dufun Sha-Oukam Sha-Gosod Buushu Sha-Ao Sha-Mushim Sha-Shoummid 
+							Nguuksho Drukuw Sha-Ibu Prasibush Sha-Kuuwumn Protu Sha-Wongpt Sha-Prouf Sha-Puur Drom Pumpou
+							Sha-Shruungpt Sha-Mroud Sha-Ufu Sha-Uush Sha-Gof Sha-Pouu Sha-Rod "Sha-Rod Sha-Ashaouw" "Sha-Dont Sha-Vodrid"
+							"Sha-Frout Sha-Tangad" "Sha-Gosod Sha-Man" "Sha-Shrov Sha-Rod" }
    		}
 
     roshupt = {
 	  color = { 69 138 119 }
         	first_names = { Fouhki Drihd Ourumri Druwoub Uush Mod H'Koum Droum H'Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
-				    Tangad Bouhw Fimpu Kuhwu Shove Wudrou Oro Shruhki Wahdimni Ouhki Vodrid Uptahdi Mrowub Rush Prummu
-				    Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
+							Tangad Bouhw Fimpu Kuhwu Shove Wudrou Oro Shruhki Wahdimni Ouhki Vodrid Uptahdi Mrowub Rush Prummu
+							Prigu Pkuswu Ungoun Fuhg Mrashash Prakunt Ngungu Foug Drut Prud Wrushu }
 
         	last_names = {  Sham-Doudki Sham-Wozum Sham-Dumpivou Sham-Poumbomput Sham-Tomo Sham-Shoto Sham-Famo Sham-Moro Bodo Mrufo
 							Pankad Dokhi Prudgoun Fokzum Gogoun Ohrun Murmrun Ohrun Gomon Domu }
@@ -91,7 +91,7 @@ diwvo = {
 							Kuwgad Zouuwuhu Monogoun Komongoun Goun Todid Rodrid Rodid Ruzum Trudum Othat Otun Umn Torofumom
 							Thukwo }
 
-        	last_names = { Zaum-Towuzh Zaum-Taerid Zaum-Truunt Zaum-Drogon Tzau-Ybom Zaum-Thomon Zaum-Hydom Zaum-Worryd Zaum-Zotom Zaum-Faemon
+        	last_names = { 	Zaum-Towuzh Zaum-Taerid Zaum-Truunt Zaum-Drogon Tzau-Ybom Zaum-Thomon Zaum-Hydom Zaum-Worryd Zaum-Zotom Zaum-Faemon
 							Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
 							Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
     }
@@ -104,14 +104,14 @@ peninsular_diwvo = {
     pruuntish = {
 	  color = { 2 82 60 }
         	first_names = { Fouk Drid Ouruumrau Druwoub Uush Mod Koum Droum Kib Hwamp Outzusunt Vat Drukshoum Thuptun Thufom
-   			 	Thaengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Thodrid Uptad Mruuwub Ruz Thrummun
-   			 	Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Tzroth Zrumun
-   			 	Kuwgad Tzouuwuhu Monogoun Komongoun Goun Thodid Rodryd Rodyd Rutzum Trudum Othat Otun Umn Thorofumom
-   			 	Thukwo }
+							Thaengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Thodrid Uptad Mruuwub Ruz Thrummun
+							Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Tzroth Zrumun
+							Kuwgad Tzouuwuhu Monogoun Komongoun Goun Thodid Rodryd Rodyd Rutzum Trudum Othat Otun Umn Thorofumom
+							Thukwo }
 
-	      last_names = { Tzau-Thaeryd Tzau-Thruunt Tzau-Drogon Tzau-Ybom Tzau-Thomon Tzau-Hydom Tzau-Worryd Tzau-Zothom Tzau-Faemon
-			     Tzau-Tzamutz Tzamutzi Betz-Oromon Betz-Ybomon Tzau-Morot Tzau-Doromon Tzutzmykon Otunmynon Tromynon Dubrunt Thyukum 
-			     Mykoum Itzygoun Trudugoun Fokzum Gogoun Ohrun Murmorun Betz-Ohrun "Tzau-Touromon-Autron" Gomon Domun }
+			last_names = { 	Tzau-Thaeryd Tzau-Thruunt Tzau-Drogon Tzau-Ybom Tzau-Thomon Tzau-Hydom Tzau-Worryd Tzau-Zothom Tzau-Faemon
+							Tzau-Tzamutz Tzamutzi Betz-Oromon Betz-Ybomon Tzau-Morot Tzau-Doromon Tzutzmykon Otunmynon Tromynon Dubrunt Thyukum 
+							Mykoum Itzygoun Trudugoun Fokzum Gogoun Ohrun Murmorun Betz-Ohrun "Tzau-Touromon-Autron" Gomon Domun }
     }
 	union = PRT
 }
@@ -120,14 +120,14 @@ surgoian = {
     leader = genericgeneral
     unit = EuropeanGC
 
-    maumoujoy = { #mau?oujoy
+    maumoujoy = { 
 	  color = { 84 204 148 }
         	first_names = { Yaukau Pagaundz Zoukiemou Miemo Mauasz Gaundasz Atasz Pepem Moumem Seasz Gaam Pamam Geam Awhoascz 
 							Giepz Samou Mouwhous Jemie Yaswau Gawhoume Sauswauy Sajaupz Mouswendz Ziewho  Yakau Siewhapz
 							Yejaum Zouswou Goume Goswapz Maukoy Pakaug Mesweg Ojeg Auja Oswag Aswom Miege Gego Poswa Gozzou
 							Sakausway Mejoma Temejo Amous Gaumou Segezziem Sagaup  Togaugo Zouswau Saukie Yaswous Aundza }
 
-	      last_names = {  tausz-au-Pagaundz tausz-au-Zoukiemou tausz-au-Miemo tausz-au-Mauasz tausz-au-Gaundasz tausz-au-Atasz 
+			last_names = {  tausz-au-Pagaundz tausz-au-Zoukiemou tausz-au-Miemo tausz-au-Mauasz tausz-au-Gaundasz tausz-au-Atasz 
 							tausz-au-Pepem tausz-au-Moumem tausz-au-Seasz tausz-au-Gaam tausz-au-Pamam tausz-au-Geam tausz-au-Awhoascz 
 							Gako Gege tausz-au-Mouwhous tausz-au-Yemie tausz-au-Yaswau tausz-au-Gawhoume Mag Mat Mazzau tausz-au-Ziewho  
 							tausz-au-Yakau tausz-au-Siewhapz Momom tausz-au-Zouswou tausz-au-Goswapz Maukoy Pakaug Opomom tausz-au-Ojeg 
@@ -136,20 +136,20 @@ surgoian = {
 							tausz-au-Togaugo tausz-au-Zouswau tausz-au-Saukie tausz-au-Yaswous tausz-au-Aundza }
     }
 
-    yamoujoy = { #ya?oujoy
+    yamoujoy = { 
 	  color = { 5 227 123 }
         	first_names = { Jawkow Pagaundz Zeukiemeu Miemo Moasz Gandasz Atasz Pepem Meumem Seasz Gaam Pamam Geam Awhoascz 
 							Oheg Auha Oswag Aswom Miege Gego Poswa Gozzeu Sakausway Mejoma Temeho Amos Gavmo Segezziem Sagaup 
 							Togaugo Zouswau Saukie Jaswos Aundza Zaujou Pakakou Mamowsz Mozzasz Mavmie Mageu Meugaozzapz 
 							Yazzandz Peuga Zeuswo Meuwhaw Goswapz Memaundz Yawhondz}
 
-	      last_names = { tav-ov-Jawkow tav-ov-Pagaundz tav-ov-Zeukiemeu tav-ov-Miemo tav-ov-Moasz tav-ov-Gandasz tav-ov-Atasz tav-ov-Pepem tav-ov-Meumem tav-ov-Seasz tav-ov-Gaam tav-ov-Pamam Gtav-ov-eam tav-ov-Awhoascz 
+			last_names = { 	tav-ov-Jawkow tav-ov-Pagaundz tav-ov-Zeukiemeu tav-ov-Miemo tav-ov-Moasz tav-ov-Gandasz tav-ov-Atasz tav-ov-Pepem tav-ov-Meumem tav-ov-Seasz tav-ov-Gaam tav-ov-Pamam Gtav-ov-eam tav-ov-Awhoascz 
 							tav-ov-Oheg tav-ov-Auha tav-ov-Oswag tav-ov-Aswom tav-ov-Miege tav-ov-Gego tav-ov-Poswa tav-ov-Gozzeu tav-ov-Sakausway tav-ov-Mejoma tav-ov-Temeho tav-ov-Amos tav-ov-Gavmo tav-ov-Segezziem tav-ov-Sagaup 
 							tav-ov-Togaugo tav-ov-Zouswau tav-ov-Saukie tav-ov-Jaswos tav-ov-Aundza tav-ov-Zaujou tav-ov-Pakakou tav-ov-Mamowsz tav-ov-Mozzasz tav-ov-Mavmie tav-ov-Mageu tav-ov-Meugaozzapz 
 							tav-ov-Yazzandz tav-ov-Peuga tav-ov-Zeuswo tav-ov-Meuwhaw tav-ov-Goswapz tav-ov-Memaundz tav-ov-Yawhondz }
     }
 
-    takemoujoy = { #take?oujoy
+    takemoujoy = { 
 	  color = { 0 111 59 }
         	first_names = { "Sem Ejam" "Sem Ojeg" "Sem Tokar" "Sem Zot" "Yosem Pojar" "Mog Tokar" "Sem Mozza" "Sem Saki"
 							"Sem Gome" "Yosem Gakar" "Sem Yakar" "Sem Pagarnd" "Sem Posva" "Sem Amos" "Sem Mago" "Sem Yarvond"
@@ -157,31 +157,35 @@ surgoian = {
 							"Sem Parkond" "Sem Aumar" "Sem Toza" "Sem Toswou" "Sem Tekag" "Sem Yammar" "Sem Meigondz"
 							"Sem Arvor" }
 
-	      last_names = { ApYejow ApMoswie ApGakaum ApOrran ApPaswie Yekep Sagopz Makowhan Zegos ApMokau ApGoa ApYojor
-						Takar Yandaz Aswom Jaswos Geogor Azzo Mawhog Mokandz Mejaum Yejour Yejoun Takon ApMakosz ApGoswaz
+			last_names = { 	ApYejow ApMoswie ApGakaum ApOrran ApPaswie Yekep Sagopz Makowhan Zegos ApMokau ApGoa ApYojor
+							Takar Yandaz Aswom Jaswos Geogor Azzo Mawhog Mokandz Mejaum Yejour Yejoun Takon ApMakosz ApGoswaz
 							Yohkowhan Pojar Seki Maus Akau Mokoun Pasvie Sokamat Moyi Moswat Miehau Pokam Tizzaun Tizzar Pagond
 							Momaus Sousaum Yomaus Youndor Pajaus ApMaswos ApYoundz }
     }
 
     miegpaup = { 
 	  color = { 37 153 99 }
-        	first_names = {  }
+        	first_names = { Yaukau Pagaundz Zoukiemou Miemo Mauasz Gaundasz Atasz Pepem Moumem Seasz Gaam Pamam Geam Awhoascz 
+							Giepz Samou Mouwhous Jemie Yaswau Gawhoume Sauswauy Sajaupz Mouswendz Ziewho  Yakau Siewhapz
+							Yejaum Zouswou Goume Goswapz Maukoy Pakaug Mesweg Ojeg Auja Oswag Aswom Miege Gego Poswa Gozzou
+							Sakausway Mejoma Temejo Amous Gaumou Segezziem Sagaup Togaugo Zouswau Saukie Yaswous Aundza }
 
-	      last_names = {  }
+			last_names = { 	tasz-Tegou tasz-Maumie tasz-Tamiewhou tasz-Pougauzzoundz tasz-Mouswendz tasz-Maukouwha tasz-Maus 
+							tasz-Ziewho tasz-Sous }
     }
 
     gopza = { 
 	  color = { 6 66 38 }
-        	first_names = {  }
+        	first_names = { Moujie Gomou Ezzout Tejop Tozza Yojekhhz Yemaukhhz Moukauga Poukaundz }
 
-	      last_names = {  }
+			last_names = {  tav-Gejiekhh tav-Pokaka tav-Takiekosz tav-Tozgag tav-Auwha tav-Mougaup }
     }
 
     unaian = {
 	  color = { 220 160 235 }
         	first_names = { Uni }
 
-	      last_names = {  }
+			last_names = {  Taujat Zawhou Miejege Gaugiet Yauswa Tiegoy Saemoukhhz Moje Powhe }
     }
 
 }
@@ -192,89 +196,124 @@ byotrish = {
 
     ghechi = {
 	  color = { 143 43 64 }
-        	first_names = { Kyun Tha Reyq Ma ykmo  Emy Kug Then Kyipt Om Nop Rodree Threer }
+        	first_names = { Kyun Tha Reyq Máykmo Emy Kug Then Kyipt Ôm Nop Rodree Threer Pímyím Truny Kro Theakh 
+							Ghómy Kug Then Byôb Rôby Ódnatr Qík Remy Kyad Meu Nóp Dibyu }
 
-	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno thed Dibyu 
-				   Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
-                           Byob Qipt }
+			last_names = {  Betony Baym-Truny Baym-Qir Bony Baym-Drept im-Thugekh Baym-Yeakh Yiky Eyno im-Thed Dibyu 
+							Eebatrag Baym-Cheydne Nuky Baym-Ghech Drit Baym-Reema Niro Baym-Thómnôkh Odma Pimin
+							im-Boyob im-Qipt Baym-Boyôkh im-Byeepa Nyapt Baym-Ônyakh Baym-Thugekh Máykmó Eynóthed }
     }
 
     anuvo = {
 	  color = { 153 3 39 } #102 10 32
-        	first_names = { Kyun Tha Reyq Ma ykmo  Emy Kug Then Kyipt Om Nop Rodree Threer }
+        	first_names = { Fouk Drid Ouruumra Druwoub Uush Mod Koum Droum Kib Hwamp Oushusunt Vat Drukshou Vuptun Vufo
+							Tangad Bouhw Fimpuu Kuuhwu Shov Wudrou Oro Shruk Wahwa Oukim Vodrid Uptad Mruuwub Rush Prummu
+							Priguu Pkuuswuu Ungoun Fuug Mrashush Prakuunt Ngungu Foug Druut Prud }
 
-	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno thed Dibyu 
-				   Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
-                           Byob Qipt }
+			last_names = { 	Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno Thed Dibyu 
+							Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
+							Byob Qipt Pokoungpt Tob Pruwuswi Woungpt Shrawuuf Fogi Pruub Pukou Pawuum 
+							Rusham Pkumn Buumn Toubomput Rakuumoum Prousorum Umpou Pabupti Dohwu Pkomu
+							Pomp Wruuba Shout Ashouw Dufun Oukam Gosod Buushu Ao Mushim Shoummid 
+							Nguuksho Drukuw Ibu Prasibush Kuuwumn Protu }
     }
 
    shagmodt = {
 	  color = { 171 3 3 }
-        	first_names = { Kyun Tha Reyq Ma ykmo  Emy Kug Then Kyipt Om Nop Rodree Threer }
+        	first_names = { Kyun Tha Reyq Máykmo Emy Kug Then Kyipt Ôm Nop Rodree Threer Pímyím Truny Kro Theakh 
+							Ghómy Kug Then Byôb Rôby Ódnatr Qík Remy Kyad Meu Nóp Dibyu }
 
-	      last_names = { Betony Truny Qir Bony Drept im-Thugekh Yeakh Yiky Eyno thed Dibyu 
-				Eebatrag Cheydne Nuky Baym-Ghech Drit Reema Niro Thomnokh Odma Pimyim
-                           	Byob Qipt }
+			last_names = { Bafti Jauzt Shiizu Jiim Modt Betony Drit Niro Bony Nuky Nyapt Odma Eynóthed Máykmó Pimin 
+						   Isha Fiikd Miidag Nabau Zhiizh Gaba }
     }
 
 }
 
-sitheve = { #sithev e
+sitheve = { 
     leader = vewugist1
     unit = EuropeanGC
 
     hahuibi = {
 	  color = { 253 230 69 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub  }
+			first_names = { Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Wuwithet-So Sesooga-So Gooth-So Simogum-So Vethuchyub-So Vothayat-So Ravechy-So Thichy-So
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So }
     }
 
     hahabi = {
 	  color = { 153 139 49 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub  }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Athis-So Thes-So Vasim-So Mub-So Vugi-So Hahab-So Wuwithet-So Sesooga-So Gooth-So Simogum-So 
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So 
+						   Vethuchyub-So Vothayat-So Ravechy-So Thichy-So }
     }
 
     sevuma = {
 	  color = { 217 199 108 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub  }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Thes-So Vasim-So Mub-So Vugi-So Hahab-So Wuwithet-So Sesooga-So Gooth-So Simogum-So 
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So 
+						   Vethuchyub-So Vothayat-So Ravechy-So Thichy-So }
     }
 
     thesathi = {
 	  color = { 245 212 49 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Athis-So Thes-So Vasim-So Mub-So Vugi-So Hahab-So Wuwithet-So Sesooga-So Gooth-So Simogum-So 
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So 
+						   Vethuchyub-So Vothayat-So Ravechy-So Thichy-So }
     }
 
     sithuchi = {
 	  color = { 162 207 158 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Thes-So Vasim-So Mub-So Vugi-So Hahab-So Wuwithet-So Sesooga-So Gooth-So Simogum-So 
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So 
+						   Vethuchyub-So Vothayat-So Ravechy-So Thichy-So }
     }
 
     tufume = { #tu fume
 	  color = { 155 69 69 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = { Thes-So Vasim-So Mub-So Vugi-So Hahab-So Wuwithet-So Sesooga-So Gooth-So Simogum-So 
+						   Vom-So Foma-So Ivu-So Yoosa-So Woothi-So Ruyu-So Rúvib-So Temo-So Tichyoth-So Vuthohi-So 
+						   Erubib-So Tugot-So Hútho-So Tisath-So Sothobut-So Sobet-So Seyúmi-So Ruwe-So Thom-So Vav-So
+						   Ifo-So Mefe-So Vob-So Tothú-So Voosuv-So Giyi-So Vib-So Gafu-So Egat-So Tum-So Bochyet-So
+						   Sesooga-So Som-So Yoth-So Masogu-So Somoth-So Fuwa-So Thesim-So Tosu-So Roogi-So Usoob-So 
+						   Vethuchyub-So Vothayat-So Ravechy-So Thichy-So }
     }
 
 	union = ATH
@@ -288,20 +327,20 @@ sitheve_not_formable = { #sithev e
 
     vufami = { 
 	  color = { 250 222 130 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+			first_names = {  Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+							 Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+							 Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = {   Mibi Visem Totooth Tobuv Tebithi Bevoosuv Wobith Sogthem Evoosu Sathiti Vuthisoob }
     }
 
     chyothit = {
 	  color = { 162 70 158 }
-	      first_names = { Wiwu chy Fithaoog Chyooha Toosob V othayat Bochyet Sesooga Fu wu mug Masogu Thirim Chyichy Oov ure 
-                            Tichyoth Vuthohi Ru v ib Ru chy Vethuchyub }
+			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
+                            Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
+						    Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
 
-        	last_names = { Fob U ge Sichy Fub Biso Bathe V ab Wuhi Som Hog Ruv Yoth Wiu  Fuwa Rog Evoo Tosu V uthi Sog Reth
-		      	   Misa V uv a Wob Bev Iv u t Vowi Bofe Tooth Ovu  Vot Yov Mibi Bov Heg Rab Wiga Ruyu Hig Yot Temo }
+        	last_names = {  Mibi Visem Totooth Tobuv Tebithi Bevoosuv Wobith Sogthem Evoosu Sathiti Vuthisoob }
     }
 
 }
@@ -312,16 +351,32 @@ vuyti = {
 
     paguyti = { 
 	  color = { 159 191 113 }
-	      first_names = {  }
+			first_names = { Dyanbu Jir Unju Ntunur Junwa Vutju¨phi Dazhtu Onna Phosh Jduzh Twobyub Pyav Zhobnu Yu¨wjapho Voppu¨g
+							Vonjar Ji'did A'dunbo Gu'da }
 
-        	last_names = {  }
+        	last_names = { "the World-Burner" Long-Stroke Head-Cracker "the Snake-Eater" "the Elder" "the Wiser" Fire-Eyes
+							Spirit-Talker Club-Wielder "of the Leaves" "of the Streams" Four-Tooth Six-Tooth Nine-Tooth 
+							Head-Taker Swine-Kin Tree-Feller Ground-Shaker Long-Cock Seed-Spiller Foggy-Eyes Life-Taker 
+							"of the Mud" Bone-Feller "the Castrator" Spirit-Taker Pruub-Eater "the Man-Slaver" War-Slave
+							Man-Flesher Brain-Eater "the Fleshmonger" Bone-Taker Hand-Taker Smoke-Breather Sword-Wielder
+							"the Good-headed" Tail-Eater "of the Fire" "of the Sea" "of the Mountain" Gun-Wielder Gâshd-Hater
+							"the Fish" "the Toad" "the Swine" "the Snake" "the Bird" "the Carp" "the Seer" "the Knower" 
+							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
     }
 
     vupuyti = { #vupuyti
 	  color = { 25 117 43 }
-	      first_names = {  }
+			first_names = { Pishyir Ozh Batbit Raph Upwu Dyar Ta'dov Shuph Jdughügh Rozh Tonbuv Vüt Zhüyi Atü Ntosh Inuytwi
+							Ubna Rüt Phiwju Nowo }
 
-        	last_names = {  }
+        	last_names = { "the World-Burner" Long-Stroke Head-Cracker "the Snake-Eater" "the Elder" "the Wiser" Fire-Eyes
+							Spirit-Talker Club-Wielder "of the Leaves" "of the Streams" Four-Tooth Six-Tooth Nine-Tooth 
+							Head-Taker Swine-Kin Tree-Feller Ground-Shaker Long-Cock Seed-Spiller Foggy-Eyes Life-Taker 
+							"of the Mud" Bone-Feller "the Castrator" Spirit-Taker Pruub-Eater "the Man-Slaver" War-Slave
+							Man-Flesher Brain-Eater "the Fleshmonger" Bone-Taker Hand-Taker Smoke-Breather Sword-Wielder
+							"the Good-headed" Tail-Eater "of the Fire" "of the Sea" "of the Mountain" Gun-Wielder Gâshd-Hater
+							"the Fish" "the Toad" "the Swine" "the Snake" "the Bird" "the Carp" "the Seer" "the Knower" 
+							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
     }
 
 
@@ -333,25 +388,36 @@ huighian = {
 
     dehuogi = { 
 	  color = { 116 38 168 }
-	      first_names = {  }
+	      first_names = { Hushu Kuishaw Dime Taha Tochyhi Kuokoh Figua Kuamu Hishua Bage Biba Bukua Fakuochyhe Domui Favu
+						  Heho Kuiviru Huachyhig Yuhum Tuakego Kibua Hovug Kuoguh Tueb Duihi Kurochyhuh Bogo Duihu Bichyhig
+						  Bokuekue Tovah Tishua Tuebuechyhu Huami Komua Tachyhua Huishuo Tuomog Teyuo Fukuo Duako Kichyhag }
 
-        	last_names = { Budobam }
+        	last_names = { 	Budobam Budobam Budobam Budobam Budobam Budobam Budobam Budobam Budobam #Noble family dominates martial culture
+							Buishuabam Huivibam Kuibam Hoguibam Bayashegbam Dobuibam Berogbam Borebam Tegibam
+							Touobam Uaguemogbam Buashuebam Kuebuogbam Figobam Iyubam Houegbam Hohugbam Bibombam Buchyhuewbam 
+							Fovuebam Tuoshabam Hukuabam Bikigobam Foguowbam Tamuimbam Duikewbam Kuovuhbam Huekbam }
     }
 
    
     duyo = { 
 	  color = { 196 54 54 }
-	      first_names = {  }
+	      first_names = { Hushu Kuishaw Dime Taha Tochyhi Kuokoh Figua Kuamu Hishua Bage Biba Bukua Fakuochyhe Domui Favu
+						  Heho Kuiviru Huachyhig Yuhum Tuakego Kibua Hovug Kuoguh Tueb Duihi Kurochyhuh Bogo Duihu Bichyhig
+						  Bokuekue Tovah Tishua Tuebuechyhu Huami Komua Tachyhua Huishuo Tuomog Teyuo Fukuo Duako Kichyhag }
 
-        	last_names = {  }
+        	last_names = { Beshuomuw Kuerew Tokuam Fuiko Bigag Togaw Buehoh Huekiw Toshe Uchyhob Fuhuyuo Tuehui } #the 12 clans
     }
 
 
   eshemi = { 
 	  color = { 70 170 67 }
-	      first_names = {  }
+	      first_names = { Hushu Kuishaw Dime Taha Tochyhi Kuokoh Figua Kuamu Hishua Bage Biba Bukua Fakuochyhe Domui Favu
+						  Heho Kuiviru Huachyhig Yuhum Tuakego Kibua Hovug Kuoguh Tueb Duihi Kurochyhuh Bogo Duihu Bichyhig
+						  Bokuekue Tovah Tishua Tuebuechyhu Huami Komua Tachyhua Huishuo Tuomog Teyuo Fukuo Duako Kichyhag }
 
-        	last_names = {  }
+        	last_names = { Buishuabum Huivibum Kuibum Hoguibum Bayashegbum Dobuibum Berogbum Borebum Tegibum
+							Touobum Uaguemogbum Buashuebum Kuebuogbum Figobum Iyubum Houegbum Hohugbum Bibombum Buchyhuewbum 
+							Fovuebum Tuoshabum Hukuabum Bikigobum Foguowbum Tamuimbum Duikewbum Kuovuhbum Huekbum }
     }
 
 }
@@ -367,7 +433,11 @@ bogoroid_huighian = {
 
         	last_names = { bui'Buaw bui'Dukemog bui'Rannutani bui'Tuiyamo bui'Duobam bui'Bishua bui'Tuatoh bui'Togab
 						   bui'Hame bui'Tuoyi bui'Tuikue bui'Dimichyhi bui'Okshuab bui'Ohuig bui'Kumukui bui'Tibu bui'Oh
-						   bui'Kuduob bui'Kui bui'Tibubah bui'Tikamsho }
+						   bui'Kuduob bui'Kui bui'Tibubah bui'Tikamsho bui'Kivu bui'Tuokuag bui'Kuoshua bui'Tuikuw bui'Fihe 
+						   bui'Tushoru bui'Tuekew bui'Buoyi bui'Duova bui'Himui bui'Ireh bui'Duegaki bui'Kuhue bui'Duiguim 
+						   bui'Tochyhuo bui'Tekuah bui'Hishuh bui'Egiw bui'Tobui bui' Kahuoh bui'Tubui bui'Dueua bui'Hovuovi
+						   bui'Biruaw bui'Kuoyuh bui'Kuiyo bui'Buohow bui'Teschachyhuo bui'Imehuo bui'Humua bui'Ueyua bui'Hou
+						   Bui'Fimuaw bui'Hagueb bui'Buevueshueh bui'ihuo bui'Teshuim bui'Hayi bui'Tovag bui'Fuechyhog bui'Buokig }
     }
 
 }
@@ -379,10 +449,10 @@ duttuphti = {
 
     unnahu = { 
 	  color = { 186 180 2 }
-	      first_names = {  Ava Pu'a Rugath Vuhak Oddugh Rajug Rohuth Rajug Joth Nôheth Juhô Juttepht Eutthôg Ruhô
+			first_names = { Ava Pu'a Rugath Vuhak Oddugh Rajug Rohuth Joth Nôheth Juhô Juttepht Eutthôg Ruhô
 							Huttag Ngûth Pôpht Yuhag Ahenno Jogog Vopht Onnup Vupht Goth Juttuvohu Raphoth Pogyuth 
 							Botto Vathony Nehep Jabûhegh Ye'uvuth Rattugh Bâdath Adunnô Rônnugh Gôttegh Yevôpht Jâdôgh
-							Yôgenn'a Pannujâ Nupht Vuhakh Runna Odeg Juttepht Ngoth Nôneth Joth Huttag Yejannuv Ruvô }
+							Yôgenn'a Pannujâ Nupht Vuhakh Runna Odeg Ngoth Nôneth Huttag Yejannuv Ruvô }
 
         	last_names = {  Ngagedofrt Dûbukh Rothdofrt Dubepth Rothak Pâttu Vadûnnud Rahuttup Juttô Jugûhe Hûpnnohu Dûnnegûgh Ebôttup  
 							Yogûbuhe Yudunnud Hôbugûgh Pobuttup Obâhâttup Ngêtuhe Huvunnud Jônnûgannony Unnephnnohu Dagunnud Yugorohu
@@ -394,17 +464,33 @@ duttuphti = {
 
     uttobanhu = { 
 	  color = { 89 87 12 }
-	      first_names = {  }
+			first_names = { Ava Pu'a Rugath Vuhak Oddugh Rajug Rohuth Joth Nôheth Juhô Juttepht Eutthôg Ruhô
+							Huttag Ngûth Pôpht Yuhag Ahenno Jogog Vopht Onnup Vupht Goth Juttuvohu Raphoth Pogyuth 
+							Botto Vathony Nehep Jabûhegh Ye'uvuth Rattugh Bâdath Adunnô Rônnugh Gôttegh Yevôpht Jâdôgh
+							Yôgenn'a Pannujâ Nupht Vuhakh Runna Odeg Ngoth Nôneth Huttag Yejannuv Ruvô }
 
-        	last_names = {  }
+        	last_names = {  Ngagedofrt Dûbukh Rothdofrt Dubepth Rothak Pâttu Vadûnnud Rahuttup Juttô Jugûhe Hûpnnohu Dûnnegûgh Ebôttup  
+							Yogûbuhe Yudunnud Hôbugûgh Pobuttup Obâhâttup Ngêtuhe Huvunnud Jônnûgannony Unnephnnohu Dagunnud Yugorohu
+							Ûttênnahud Ûttôbuttup Ve-Ugôg Ve-Ûgunna Rugahûrgûgh Yâpuhe Hâfurttup Gôhâgannud Gôbogannud Duttûnnony Ve-Bennâ 
+							Ârêthatte Ârênnud Vadgûgh Ve-Bûth Ve-Dôg Ve-Agâ Ve-Dâveb Jabûttup Puttunnud Ngubânnony Ve-Yuvu Nenygûgh Yevônnud
+							Dûvonnud Yôguhttup Yôggennony Ve-Re'ob Ve-Bôgorugu Jâgunnud Ngubâbattup Nunnuhe Pâduhe Jûvgûgh Ôgûguttup Vônnud
+							Ve-Yobubê Pôthuhe Navottup Hûgnnohu Vôhannud Vôbagûgh Yêkhnnohu Yattânnony }
     }
 
 
    ngoghu = { 
 	  color = { 192 219 118 }
-	      first_names = {  }
+			first_names = { Ava Pu'a Rugath Vuhak Oddugh Rajug Rohuth Joth Nôheth Juhô Juttepht Eutthôg Ruhô
+							Huttag Ngûth Pôpht Yuhag Ahenno Jogog Vopht Onnup Vupht Goth Juttuvohu Raphoth Pogyuth 
+							Botto Vathony Nehep Jabûhegh Ye'uvuth Rattugh Bâdath Adunnô Rônnugh Gôttegh Yevôpht Jâdôgh
+							Yôgenn'a Pannujâ Nupht Vuhakh Runna Odeg Ngoth Nôneth Huttag Yejannuv Ruvô }
 
-        	last_names = {  }
+        	last_names = {  Ngagedofrt Dûbukh Rothdofrt Dubepth Rothak Pâttu Vadûnnud Rahuttup Juttô Jugûhe Hûpnnohu Dûnnegûgh Ebôttup  
+							Yogûbuhe Yudunnud Hôbugûgh Pobuttup Obâhâttup Ngêtuhe Huvunnud Jônnûgannony Unnephnnohu Dagunnud Yugorohu
+							Ûttênnahud Ûttôbuttup Ve-Ugôg Ve-Ûgunna Rugahûrgûgh Yâpuhe Hâfurttup Gôhâgannud Gôbogannud Duttûnnony Ve-Bennâ 
+							Ârêthatte Ârênnud Vadgûgh Ve-Bûth Ve-Dôg Ve-Agâ Ve-Dâveb Jabûttup Puttunnud Ngubânnony Ve-Yuvu Nenygûgh Yevônnud
+							Dûvonnud Yôguhttup Yôggennony Ve-Re'ob Ve-Bôgorugu Jâgunnud Ngubâbattup Nunnuhe Pâduhe Jûvgûgh Ôgûguttup Vônnud
+							Ve-Yobubê Pôthuhe Navottup Hûgnnohu Vôhannud Vôbagûgh Yêkhnnohu Yattânnony }
     }
 
 }
@@ -415,32 +501,36 @@ thihudian = {
 
     ihntithot = { 
 	  color = { 201 83 192 }
-	      first_names = {  }
+			first_names = { Tehno Thuhne Spemu Thohuth Spuhmu Tedìgheth Sume Ihmud Dhudihd Peghùh Pehidi Sothì Teho Tithuth  }
 
-        	last_names = {  }
+        	last_names = { Spodidì Dhùmì Sehnì Thìdet Sehnude Thethehd Pethuhmù Sohme Uùhmìhrt Tuhmiht Tomuth Sputhe Dhudohrt 
+						   Dhehmet Thethehìt Suhihrt }
     }
 
     ihnpedi = { 
 	  color = { 179 109 173 }
-	      first_names = {  }
+			first_names = { Tehno Thuhne Spemu Thohuth Spuhmu Tedìgheth Sume Ihmud Dhudihd Peghùh Pehidi Sothì Teho Tithuth  }
 
-        	last_names = {  }
+        	last_names = { Spodidì Dhùmì Sehnì Thìdet Sehnude Thethehd Pethuhmù Sohme Uùhmìhrt Tuhmiht Tomuth Sputhe Dhudohrt 
+						   Dhehmet Thethehìt Suhihrt }
     }
 
 
-   ihnpihmi = { 
+	ihnpihmi = { 
 	  color = { 130 86 126 }
-	      first_names = {  }
+			first_names = { Tehno Thuhne Spemu Thohuth Spuhmu Tedìgheth Sume Ihmud Dhudihd Peghùh Pehidi Sothì Teho Tithuth  }
 
-        	last_names = {  }
+        	last_names = { Spodidì Dhùmì Sehnì Thìdet Sehnude Thethehd Pethuhmù Sohme Uùhmìhrt Tuhmiht Tomuth Sputhe Dhudohrt 
+						   Dhehmet Thethehìt Suhihrt }
     }
 
 
-      ihnthedehert = { 
+    ihnthedehert = { 
 	  color = { 94 75 93 }
-	      first_names = {  }
+			first_names = { Tehno Thuhne Spemu Thohuth Spuhmu Tedìgheth Sume Ihmud Dhudihd Peghùh Pehidi Sothì Teho Tithuth  }
 
-        	last_names = {  }
+        	last_names = { Spodidì Dhùmì Sehnì Thìdet Sehnude Thethehd Pethuhmù Sohme Uùhmìhrt Tuhmiht Tomuth Sputhe Dhudohrt 
+						   Dhehmet Thethehìt Suhihrt }
     }
 
 
@@ -452,16 +542,17 @@ thihudian = {
 ## PAUKZHODO ##
 ###############
 
-orgehi = {
+ogrehi_culture = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
 
-	 ogrehi = { 
+	ogrehi = { 
 	  color = { 87 201 177 }
-	      first_names = { }
+	      first_names = { Azpig Bábi Báz Szamah Túm Únaj Úzso Vidi Vúz Zág Zajen Man Mepá Mu Juk Ját Isun Gúr Gujá }
 
-        	last_names = {  }
+        	last_names = { Ghúbui Ghúh Gipibáz Fagút Dneb Demúb Bzúnesi Bogak Bezbáj Asájam Birevú Bosasom Dúnusú 
+						   Fegeztú Fobir Fogred Fujvozásajva Gedime Gezbúh Ghegat Gipibáz }
    	 }
 
 
@@ -472,18 +563,22 @@ yat-pugurian = {
     unit = EuropeanGC
 
 
-	   pugure = { 
+	pugure = { 
 	  color = { 195 237 78 }
-	      first_names = {  }
+			first_names = { Jêjor Jâhoo Vuhak Oddugh Ava Joth Bâdath Jogog Juttuvohu Juttepht Juttô Pepufrt 
+							Rahurâth Vôba Vânnud Yâgoth Yutta Ôjab Obeth Ogujab Ngudô }
 
-        	last_names = {  }
-    }
+        	last_names = { Ûttêngûonna Ngâhohogêr Nânnuttu Juguhe Hêphtuhud Hônnup Gânne Jodûnne Eduho'o
+						   Juupugâ Rehuvuv Yoguthâhu Yuttôny Poghuty Nubu Hâbagu }         
+    }                                 
 
-     yattae = { 
-	  color = { 177 230 30 }
-	      first_names = {  }
+    yattae = {                        
+	  color = { 177 230 30 }          
+			first_names = { Jêjor Jâhoo Vuhak Oddugh Ava Joth Bâdath Jogog Juttuvohu Juttepht Juttô Pepufrt 
+							Rahurâth Vôba Vânnud Yâgoth Yutta Ôjab Obeth Ogujab Ngudô }
 
-        	last_names = {  }
+        	last_names = { Ûttêngûonna Ngâhohogêr Nânnuttu Juguhe Hêphtuhud Hônnup Gânne Jodûnne Eduho'o
+						   Juupugâ Rehuvuv Yoguthâhu Yuttôny Poghuty Nubu Hâbagu } 
     }
 
 
@@ -491,7 +586,7 @@ yat-pugurian = {
 
 
 ################
-#### KOFAZH ####
+#### KOVAZH ####
 ################
 
 
@@ -499,18 +594,54 @@ tikongian = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
-   tingi = { 
+	tingi = { 
 	  color = { 38 5 99 }
-	      first_names = {  }
+			first_names = { Ksote Fetu Gungo Kigu Kato Gingi Qokh Meot Qejif Ote Mita Ageng Qojo Ksiteo 
+							Nifu Gereng Firejas Keja Negi Qimeos Imuf Omeonut Qujeos Mingit Gingingeon Kena 
+							Ganut Qeokef }
 
-        	last_names = {  }
+        	last_names = {  Mejimung-Gejin Ksaung-Uksinge Mejimung-Ogekh Mejimung-Kseng Mejimung-Kofikeo #Male Marriage combinations
+							Mejimung-Qeongukso Mejimung-Qati Keoksu-Gongijam Mejimung-Uking Fojeogag-Qerus 
+							Gejin-Fugajom Gejin-Kofikeo Gejin-Keoksu Gejin-Qeongukso Gejin-Mofaja Gejin-Qetifeo 
+							Gejin-Ksijiju Keoksu-Ogekh Fugajom-Kofikeo Fugajom-Qati Fugajom-Nejingo 
+							Fugajom-Qerus Fugajom-Ksijiju Neoku-Qaging Ogekh-Gejin Ogekh-Kofikeo 
+							Ogekh-Gingingeon Ogekh-Qati Qingung-Gongijam Gingot-Qerus Kseng-Mejimung Kseng-Fugajom 
+							Kseng-Ogekh Kseng-Mofaja Kseng-Qeongukso Kseng-Qati Kseng-Gongijam Kseng-Qerus 
+							Kofikeo-Mejimung Kofikeo-Gejin Mofaja-Quging Kofikeo-Ogekh Kofikeo-Kseng 
+							Kofikeo-Qati Kofikeo-Uking Kofikeo-Neong Kureoof-Mejimung Tifut-Gejin 
+							Qaging-Fugajom Qeongukso-Ogekh Tifut-Kseng Qeongukso-Qati Qeongukso-Gongijam 
+							Qeongukso-Qerus
+			
+						   #Mejimung Gejin Fugajom Ogekh Kseng Kofikeo Qeongukso Keoksu Qati Nejingo 
+						   #Gongijam Mofaja Uking Qetifeo Ksaung Neong Tifut Qerus Gingot Ksijiju Qaging  
+						   #Neoku Kseneoju Qingung Quging Uksinge Fojeogag Kureoof Gingingeon  
+						   
+						   }
     }
 
-   teong = { 
+	teong = { 
 	  color = { 138 53 59 }
-	      first_names = {  }
+			first_names = { Ksote Fetu Gungo Kigu Kato Gingi Qokh Meot Qejif Ote Mita Ageng Qojo Ksiteo 
+							Nifu Gereng Firejas Keja Negi Qimeos Imuf Omeonut Qujeos Mingit Gingingeon Kena 
+							Ganut Qeokef }
 
-        	last_names = {  }
+        	last_names = {  Mejimung-Gejin Ksaung-Uksinge Mejimung-Ogekh Mejimung-Kseng Mejimung-Kofikeo #Male Marriage combinations
+							Mejimung-Qeongukso Mejimung-Qati Keoksu-Gongijam Mejimung-Uking Fojeogag-Qerus 
+							Gejin-Fugajom Gejin-Kofikeo Gejin-Keoksu Gejin-Qeongukso Gejin-Mofaja Gejin-Qetifeo 
+							Gejin-Ksijiju Keoksu-Ogekh Fugajom-Kofikeo Fugajom-Qati Fugajom-Nejingo 
+							Fugajom-Qerus Fugajom-Ksijiju Neoku-Qaging Ogekh-Gejin Ogekh-Kofikeo 
+							Ogekh-Gingingeon Ogekh-Qati Qingung-Gongijam Gingot-Qerus Kseng-Mejimung Kseng-Fugajom 
+							Kseng-Ogekh Kseng-Mofaja Kseng-Qeongukso Kseng-Qati Kseng-Gongijam Kseng-Qerus 
+							Kofikeo-Mejimung Kofikeo-Gejin Mofaja-Quging Kofikeo-Ogekh Kofikeo-Kseng 
+							Kofikeo-Qati Kofikeo-Uking Kofikeo-Neong Kureoof-Mejimung Tifut-Gejin 
+							Qaging-Fugajom Qeongukso-Ogekh Tifut-Kseng Qeongukso-Qati Qeongukso-Gongijam 
+							Qeongukso-Qerus
+			
+						   #Mejimung Gejin Fugajom Ogekh Kseng Kofikeo Qeongukso Keoksu Qati Nejingo 
+						   #Gongijam Mofaja Uking Qetifeo Ksaung Neong Tifut Qerus Gingot Ksijiju Qaging  
+						   #Neoku Kseneoju Qingung Quging Uksinge Fojeogag Kureoof Gingingeon  
+				
+						   }
     }
 
 }
@@ -520,53 +651,103 @@ bemuven = {
     unit = MiddleEasternGC
 
 
-	  kova = { 
-	  color = { 237 5 37 }
-	      first_names = {  }
+	kova = { 
+		color = { 237 5 37 }
+			first_names = { Xeso Xiomuraes Vioxuxo Vixi Veppaer Xime Xusof Ximi Vaesior Riami Tubis Raeiaf Mouvio Borae  
+							Xiobia Takae Mune Nesiappin Raeka Xiosiob Vouwe Vaekiob Vemae Isio Bevatk Vouvechk Besi Vita 
+							Xouxom Riowe Biamexio Matus Baexi Tita Xawio Mixouchk Vaemup Sixaetk Bokio Niation Voro Nobiomaen }
 
-        	last_names = {  }
+			last_names = { x'Rioaes x'Tunem x'Riviam x'Memu x'Ruto x'Rovep x'Riavou x'Ouketk x'Buem x'Tousos x'Mamous 
+						   x'Tuion x'Viowechk x'Ukouniatchk x'Vusio x'Vioppun x'Vaewatun x'Emechk x'Raeso x'Tiova x'Miotchk 
+						   x'Viawe x'Mami x'Xevoiob x'Tunouran x'Bemutk x'Sanochk x'Tou x'Aeni x'Tomub x'Miotchk x'Taeteka 
+						   x'Mokes x'Miatiasou x'Vumon x'Viaxur x'Aekouriap x'Niab x'Niawa x'Umochk x'Bubae x'Buwas x'Nomios 
+						   x'Riobexechk x'Maetk x'Ian x'Ubi x'Maevior x'Noretchk }
     }
 
-     biori = { 
-	  color = { 166 25 44 }
-	      first_names = {  }
+    biori = { 
+		color = { 166 25 44 }
+			first_names = { Xeso Xiomuraes Vioxuxo Vixi Veppaer Xime Xusof Ximi Vaesior Riami Tubis Raeiaf Mouvio Borae  
+							Xiobia Takae Mune Nesiappin Raeka Xiosiob Vouwe Vaekiob Vemae Isio Bevatk Vouvechk Besi Vita 
+							Xouxom Riowe Biamexio Matus Baexi Tita Xawio Mixouchk Vaemup Sixaetk Bokio Niation Voro Nobiomaen }
 
-        	last_names = {  }
+			last_names = { x'Rioaes x'Tunem x'Riviam x'Memu x'Ruto x'Rovep x'Riavou x'Ouketk x'Buem x'Tousos x'Mamous 
+						   x'Tuion x'Viowechk x'Ukouniatchk x'Vusio x'Vioppun x'Vaewatun x'Emechk x'Raeso x'Tiova x'Miotchk 
+						   x'Viawe x'Mami x'Xevoiob x'Tunouran x'Bemutk x'Sanochk x'Tou x'Aeni x'Tomub x'Miotchk x'Taeteka 
+						   x'Mokes x'Miatiasou x'Vumon x'Viaxur x'Aekouriap x'Niab x'Niawa x'Umochk x'Bubae x'Buwas x'Nomios 
+						   x'Riobexechk x'Maetk x'Ian x'Ubi x'Maevior x'Noretchk }
     }
 
+	soxuppapi = { 
+		color = { 237 216 28 }
+			first_names = { Xeso Xiomuraes Vioxuxo Vixi Veppaer Xime Xusof Ximi Vaesior Riami Tubis Raeiaf Mouvio Borae  
+							Xiobia Takae Mune Nesiappin Raeka Xiosiob Vouwe Vaekiob Vemae Isio Bevatk Vouvechk Besi Vita 
+							Xouxom Riowe Biamexio Matus Baexi Tita Xawio Mixouchk Vaemup Sixaetk Bokio Niation Voro Nobiomaen }
+
+        	last_names = { Rioaes-Tunem Riviam-Memu Ruto-Rovep Riavou-Ouketk Buem-Tousos Mamous-Tuion Viowechk-Ukouniatchk #Male Marriage combinations
+						   Vusio-Vioppun Vaewatun-Emechk Raeso-Tiova Miotchk-Viawe Mami-Xevoiob Tunouran-Bemutk Sanochk-Tou Aeni-Tomub 
+						   Miotchk-Taeteka Mokes-Miatiasou Vumon-Viaxur Aekouriap-Niab Niawa-Umochk Bubae-Buwas Nomios-Riobexechk Maetk-Ian 
+						   Ubi-Maevior Noretchk-Rioaes Tunem-Riviam Memu-Ruto Rovep-Riavou Ouketk-Buem Tousos-Mamous Tuion-Viowechk 
+						   Ukouniatchk-Vusio Vioppun-Vaewatun Emechk-Raeso Tiova-Miotchk Viawe-Mami Xevoiob-Tunouran Bemutk-Sanochk Tou-Aeni 
+						   Tomub-Miotchk Taeteka-Mokes Miatiasou-Vumon Viaxur-Aekouriap Niab-Niawa Umochk-Bubae Buwas-Nomios Riobexechk-Maetk 
+						   Ian-Ubi Maevior-Noretchk Maetk-Vumon }
+    }
 
 }
 
-buksedian= {
+buksedian = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
-     humabi = { 
-	  color = { 219 182 33 }
-	      first_names = {  }
+    humabi = {
+		color = { 219 182 33 }
+			first_names = { Oweo Deko Oko Susod Bewad Oosab Gixa Duma Dexun Hedad Qedab Soneb Hoxu Hodwe Dodwe 
+							Goko Ikedh Dexud Bone Dokwo Sime Gidheb Mehawi Hudad Bomun Mudwu Bekwid Qumu Sidwedh 
+							Garob Qihub }
 
-        	last_names = {  }
+        	last_names = { 	Qonoob-Qamo Qonoob-Hawi Qonoob-Sudwer Qonoob-Direhid Qonoob-Ohadh Qonoob-Qadhobwe #Male Marriage combinations
+							Qonoob-Bohen Qonoob-Madwobwe Qonoob-Goxoor Qonoob-Qekwohobwe Ohadh-Qadhobwe Ohadh-Bohen 
+							Ohadh-Madwobwe Ohadh-Goxoor Ohadh-Qekwohobwe Qadhobwe-Bohen Qadhobwe-Madwobwe Qadhobwe-Goxoor 
+							Qadhobwe-Qekwohobwe Bohen-Madwobwe Bohen-Goxoor Bohen-Qekwohobwe Madwobwe-Goxoor 
+							Madwobwe-Qekwohobwe Goxoor-Qekwohobwe Adur-Exoor Adur-Mohadh Adur-Bedhi Adur-Hadwobwe 
+							Exoor-Mohadh Exoor-Bedhi Exoor-Hadwobwe Mohadh-Bedhi Mohadh-Hadwobwe Bedhi-Hadwobwe 
+							Ukwobwe-Qaxooka Ukwobwe-Gadhin Ukwobwe-Honedhed Qaxooka-Gadhin Qaxooka-Honedhed 
+							Gadhin-Honedhed Hekwemo-Qono Hekwemo-Bowebwe Qono-Bowebwe Qooed-Asudh Qooed-Soheb 
+							Asudh-Soheb Harohab-Bamaha Harohab-Bohad Bamaha-Bohad Husorod-Mokoon Husorod-Biwadh 
+							Mokoon-Biwadh Mareb-Uwaxob Mareb-Qooha Uwaxob-Qooha Bomobwe-Hudha Bomobwe-Qemudh 
+							Hudha-Qemudh Dirohi-Hawudh Dirohi-Honoodh Hawudh-Honoodh
+			
+						   #Qonoob Qamo Hawi Sudwer Direhid Ohadh Qadhobwe Bohen Madwobwe Goxoor Qekwohobwe Adur 
+						   #Exoor Mohadh Bedhi Hadwobwe Ukwobwe Qaxooka Gadhin Honedhed Hekwemo Qono Bowebwe Qooed 
+						   #Asudh Soheb Harohab Bamaha Bohad Husorod Mokoon Biwadh Mareb Uwaxob Qooha Bomobwe Hudha 
+						   #Qemudh Dirohi Hawudh Honoodh 
+						   
+						   }
     }
 
-     dexun = { 
-	  color = { 182 219 33 }
-	      first_names = {  }
+    dexun = {
+		color = { 182 219 33 }
+			first_names = { Oweo Deko Oko Susod Bewad Oosab Gixa Duma Dexun Hedad Qedab Soneb Hoxu Hodwe Dodwe 
+							Goko Ikedh Dexud Bone Dokwo Sime Gidheb Mehawi Hudad Bomun Mudwu Bekwid Qumu Sidwedh 
+							Garob Qihub }
 
-        	last_names = {  }
-    }
-
-
-}
-
-bhukheg = {
-    leader = genericgeneral
-    unit = MiddleEasternGC
-
-  bhukhegi = { 
-	  color = { 110 69 42 }
-	      first_names = {  }
-
-        	last_names = {  }
+        	last_names = { 	Qonoob-Qamo Qonoob-Hawi Qonoob-Sudwer Qonoob-Direhid Qonoob-Ohadh Qonoob-Qadhobwe #Male Marriage combinations
+							Qonoob-Bohen Qonoob-Madwobwe Qonoob-Goxoor Qonoob-Qekwohobwe Ohadh-Qadhobwe Ohadh-Bohen 
+							Ohadh-Madwobwe Ohadh-Goxoor Ohadh-Qekwohobwe Qadhobwe-Bohen Qadhobwe-Madwobwe Qadhobwe-Goxoor 
+							Qadhobwe-Qekwohobwe Bohen-Madwobwe Bohen-Goxoor Bohen-Qekwohobwe Madwobwe-Goxoor 
+							Madwobwe-Qekwohobwe Goxoor-Qekwohobwe Adur-Exoor Adur-Mohadh Adur-Bedhi Adur-Hadwobwe 
+							Exoor-Mohadh Exoor-Bedhi Exoor-Hadwobwe Mohadh-Bedhi Mohadh-Hadwobwe Bedhi-Hadwobwe 
+							Ukwobwe-Qaxooka Ukwobwe-Gadhin Ukwobwe-Honedhed Qaxooka-Gadhin Qaxooka-Honedhed 
+							Gadhin-Honedhed Hekwemo-Qono Hekwemo-Bowebwe Qono-Bowebwe Qooed-Asudh Qooed-Soheb 
+							Asudh-Soheb Harohab-Bamaha Harohab-Bohad Bamaha-Bohad Husorod-Mokoon Husorod-Biwadh 
+							Mokoon-Biwadh Mareb-Uwaxob Mareb-Qooha Uwaxob-Qooha Bomobwe-Hudha Bomobwe-Qemudh 
+							Hudha-Qemudh Dirohi-Hawudh Dirohi-Honoodh Hawudh-Honoodh
+			
+						   #Qonoob Qamo Hawi Sudwer Direhid Ohadh Qadhobwe Bohen Madwobwe Goxoor Qekwohobwe Adur 
+						   #Exoor Mohadh Bedhi Hadwobwe Ukwobwe Qaxooka Gadhin Honedhed Hekwemo Qono Bowebwe Qooed 
+						   #Asudh Soheb Harohab Bamaha Bohad Husorod Mokoon Biwadh Mareb Uwaxob Qooha Bomobwe Hudha 
+						   #Qemudh Dirohi Hawudh Honoodh 
+						   
+						   }
     }
 
 }
@@ -575,70 +756,118 @@ nhendian = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
-
-	
-
-	 aucbocharr = { 
+	aucbocharr = { 
 	  color = { 163 84 33 }
-	      first_names = {  }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
 
-        	last_names = {  }
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
     }
 
- aucubhur = { 
+	aucubhur = { 
 	  color = { 222 129 22 }
-	      first_names = {  }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
 
-        	last_names = {  }
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
     }
- 
+	
+	bhukhegi = { 
+	  color = { 110 69 42 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
 
-}
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
 
-chobajhin = {
-    leader = genericgeneral
-    unit = MiddleEasternGC
-
- chobajhi = { 
+	chobajhi = { 
 	  color = { 250 105 243 }
-	      first_names = {  }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
 
-        	last_names = {  }
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
+	
+	babi = { 
+	  color = { 84 112 161 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
+
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
     }
 
 }
-
 
 bzaifmodian = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
- ftemioq = { 
+	ftemioq = { 
 	  color = { 57 39 176 }
-	      first_names = {  }
+			first_names = { Doso Jón Joz Ftod Idaf Mate Matmn Fisio Metai Tafi Ftudi Fadzq Guq Dat Bin Faif Baga Totó Muft 
+							Iso Biof Qun Igeu Bzón Fez Jiog Ejaz Fteu Ujeudo Tmaib Ftøsigft Tmeg Qionaig Qajo Ten Gfadu  
+							Neujio Móq Neub Næt Fasa Neum Bun Zifu Teq }
 
-        	last_names = {  }
+        	last_names = { Inbetmn Ajug Tmaif Ózotmn Gfeusót Anbina Jinbait Gfeuq Qonót Zisgeu Bzaigait Daisufai Mómai Nigaidø 
+						   Umnó Anamnu Bunbeuft Bzaisgiot Tónæju Domnogft Zegót Jomneuf Ben Zagótaf Bzæq Gfefuz Giofmeug Bzóqioqig 
+						   Ftæju Gutiodzq Qabód Gfamiotmn Gfidzq Qifæf Mataf Gfeba Nótmn Omnaqæ Jaidzq Jisait Zasiog Tmeud Jijóbe 
+						   Mójib Ftiob Zasog Jameu }
     }
 
- jigubi = { 
+	jigubi = { 
 	  color = { 100 81 224 }
-	      first_names = {  }
+			first_names = { Doso Jón Joz Ftod Idaf Mate Matmn Fisio Metai Tafi Ftudi Fadzq Guq Dat Bin Faif Baga Totó Muft 
+							Iso Biof Qun Igeu Bzón Fez Jiog Ejaz Fteu Ujeudo Tmaib Ftøsigft Tmeg Qionaig Qajo Ten Gfadu  
+							Neujio Móq Neub Næt Fasa Neum Bun Zifu Teq }
 
-        	last_names = {  }
+        	last_names = { Inbetmn Ajug Tmaif Ózotmn Gfeusót Anbina Jinbait Gfeuq Qonót Zisgeu Bzaigait Daisufai Mómai Nigaidø 
+						   Umnó Anamnu Bunbeuft Bzaisgiot Tónæju Domnogft Zegót Jomneuf Ben Zagótaf Bzæq Gfefuz Giofmeug Bzóqioqig 
+						   Ftæju Gutiodzq Qabód Gfamiotmn Gfidzq Qifæf Mataf Gfeba Nótmn Omnaqæ Jaidzq Jisait Zasiog Tmeud Jijóbe 
+						   Mójib Ftiob Zasog Jameu }
     }
 
- fenag = { 
+	fenag = { 
 	  color = { 168 50 166 }
-	      first_names = {  }
+			first_names = { Doso Jón Joz Ftod Idaf Mate Matmn Fisio Metai Tafi Ftudi Fadzq Guq Dat Bin Faif Baga Totó Muft 
+							Iso Biof Qun Igeu Bzón Fez Jiog Ejaz Fteu Ujeudo Tmaib Ftøsigft Tmeg Qionaig Qajo Ten Gfadu  
+							Neujio Móq Neub Næt Fasa Neum Bun Zifu Teq }
 
-        	last_names = {  }
+        	last_names = { Inbetmn Ajug Tmaif Ózotmn Gfeusót Anbina Jinbait Gfeuq Qonót Zisgeu Bzaigait Daisufai Mómai Nigaidø 
+						   Umnó Anamnu Bunbeuft Bzaisgiot Tónæju Domnogft Zegót Jomneuf Ben Zagótaf Bzæq Gfefuz Giofmeug Bzóqioqig 
+						   Ftæju Gutiodzq Qabód Gfamiotmn Gfidzq Qifæf Mataf Gfeba Nótmn Omnaqæ Jaidzq Jisait Zasiog Tmeud Jijóbe 
+						   Mójib Ftiob Zasog Jameu }
     }
 
     deuseuian = { 
 	  color = { 68 15 126 }
-	      first_names = {  }
+			first_names = { Doso Jón Joz Ftod Idaf Mate Matmn Fisio Metai Tafi Ftudi Fadzq Guq Dat Bin Faif Baga Totó Muft 
+							Iso Biof Qun Igeu Bzón Fez Jiog Ejaz Fteu Ujeudo Tmaib Ftøsigft Tmeg Qionaig Qajo Ten Gfadu  
+							Neujio Móq Neub Næt Fasa Neum Bun Zifu Teq }
 
-        	last_names = {  }
+        	last_names = { Inbetmn Ajug Tmaif Ózotmn Gfeusót Anbina Jinbait Gfeuq Qonót Zisgeu Bzaigait Daisufai Mómai Nigaidø 
+						   Umnó Anamnu Bunbeuft Bzaisgiot Tónæju Domnogft Zegót Jomneuf Ben Zagótaf Bzæq Gfefuz Giofmeug Bzóqioqig 
+						   Ftæju Gutiodzq Qabód Gfamiotmn Gfidzq Qifæf Mataf Gfeba Nótmn Omnaqæ Jaidzq Jisait Zasiog Tmeud Jijóbe 
+						   Mójib Ftiob Zasog Jameu }
     }
 
 }
@@ -650,16 +879,29 @@ ruadian = {
 
     anbmedh = { #lowlanders
 	  color = { 50 168 82 }
-	      first_names = {  }
+			first_names = { Jamd Gaf Ufa Nyaèjuo Bmubhèbhi Mèmb Aèmd Fom Bohæb Himn Uomd Fiad Aèmbu Agofaè Baègoban Bahod
+							Bamo Bathi Bètua Danya Dubbaj Ebbær Etiramb Fæmn Fèthoj Gènyu Gonyi Hany Hihae Hobbu Jatabhii 
+							Johaeth Mahufaè Meju Milog Nimin Nudog Nyaèga Nyodo Rofutun Ruabh Tonyam Uombu }
 
-        	last_names = {  }
+        	last_names = { "Dir Madh" "Dir Tuhæny" "Dir Duod" "Dir Bèd" "Dir Fæyab" "Dir Tèmme" "Dir Jaètim" "Dir Tuotom" "Dir Ughemd" 
+						   "Dir Tohgen" "Dir Tuotuetèth" "Dir Fætuaja" "Dir Mofuamd" "Dir Aèommuor" "Dir Buob" "Dir Ruetaè" 
+						   "Dir Nuoth" "Dir Buomr" "Dir Rammi" "Dir Nimd" "Dir Mofabh" "Dir Omg" "Dir Baèr" "Dir Bagu" "Dir Rany" "Dir Jurèb"
+						   "Dir Bog" "Dir Mejum" "Dir Hunyo" "Dir Oboth" "Dir Fuemd" "Dir Tab" "Dir Bomhèmb" "Dir Nerhohueny" 
+						   "Dir Buetogghuh" "Dir Rimuoruemf" "Dir Nyohuar" "Dir Nuammuaj" "Dir Bujh" "Dir Begghuh" "Dir Nin" }
     }
 
     ibhuamn = { #highlanders
 	  color = { 100 179 100 }
-	      first_names = {  }
+			first_names = { Jamd Gaf Ufa Nyaèjuo Bmubhèbhi Mèmb Aèmd Fom Bohæb Himn Uomd Fiad Aèmbu Agofaè Baègoban Bahod
+							Bamo Bathi Bètua Danya Dubbaj Ebbær Etiramb Fæmn Fèthoj Gènyu Gonyi Hany Hihae Hobbu Jatabhii 
+							Johaeth Mahufaè Meju Milog Nimin Nudog Nyaèga Nyodo Rofutun Ruabh Tonyam Uombu }
 
-        	last_names = {  }
+        	last_names = { "Tir Madh" "Tir Tuhæny" "Tir Duod" "Tir Bèd" "Tir Fæyab" "Tir Tèmme" "Tir Jaètim" "Tir Tuotom" "Tir Ughemd" 
+						   "Tir Tohgen" "Tir Tuotuetèth" "Tir Fætuaja" "Tir Mofuamd" "Tir Aèommuor" "Tir Buob" "Tir Ruetaè" 
+						   "Tir Nuoth" "Tir Buomr" "Tir Rammi" "Tir Nimd" "Tir Mofabh" "Tir Omg" "Tir Baèr" "Tir Bagu" "Tir Rany" "Tir Jurèb"
+						   "Tir Bog" "Tir Mejum" "Tir Hunyo" "Tir Oboth" "Tir Fuemd" "Tir Tab" "Tir Bomhèmb" "Tir Nerhohueny" 
+						   "Tir Tigghuny" "Tir Fuad" "Tir Rohuo" "Tir Ora" "Tir Guorib" "Tir Ibæ" "Tir Juonyaèh" "Tir Noghaè" 
+						   "Tir Fuomn" "Tir Huahuog" "Tir Tuhæh" }
     }
 
 
@@ -669,44 +911,31 @@ chrawyayian= {
     leader = genericgeneral
     unit = MiddleEasternGC
 
- kwargoi = { 
+	kwargoi = { 
 	  color = { 68 115 101 }
-	      first_names = {  }
+			first_names = { Yrirf Yagou Nåra Roinyu Choin Kwuch Varri Roufkik Zhuw Gachk Chårur Vråny Chuy Choifi Chåy Chun Gåky 
+							Fåfou Fokokirg Wråuky Kwåky Vyounirk Zinazhi Rourråk Kwuwroi Chonkoryå Vifoi Fåkyaw Zhouvyifkurf Vfouch
+							Akyo Chrourroiw Yoiy Kråro Zhowo Vruva }
 
-        	last_names = {  }
+        	last_names = { "Zhro Vyarv" "Zhro Yiwarf" "Zhro Razo" "Zhro Yriruch" "Zhro Vuzå" "Zhro Yurron" "Zhro Zoky" "Zhro Yourv"
+						   "Zhro Gunar" "Zhro Aryouch" "Zhro Yraky" "Zhro Vor" "Zhro Chiwiv" "Zhro Vourro" "Zhro Vyoizhyåruk" 
+						   "Zhro Yroiwirag" "Zhro Goich" "Zhro Guny" "Zhro Zhiwyou" "Zhro Yroivirv" "Zhro Vyikyou" "Zhro Guny"
+						   "Zhro Zhiwyou" "Zhro Forg" "Zhro Yroirf" "Zhro Vårri" "Zhro Zhriwå" "Zhro Chrouch" "Zhro Gouchk" 
+						   "Zhro Wrar" "Zhro Ouyorg" "Zhro Awiny" "Zhro Kwouzhyå" "Zhro Chrikkouwa" "Zhro Iva" "Zhro Runy" 
+						   "Zhro Nouwruchåny" "Zhro Vouvouki" }
     }
- rozhyu = { 
+	rozhyu = { 
 	  color = { 27 94 13 }
-	      first_names = {  }
+			first_names = { Yrirf Yagou Nåra Roinyu Choin Kwuch Varri Roufkik Zhuw Gachk Chårur Vråny Chuy Choifi Chåy Chun Gåky 
+							Fåfou Fokokirg Wråuky Kwåky Vyounirk Zinazhi Rourråk Kwuwroi Chonkoryå Vifoi Fåkyaw Zhouvyifkurf Vfouch
+							Akyo Chrourroiw Yoiy Kråro Zhowo Vruva }
 
-        	last_names = {  }
-    }
-
-}
-
-
-soxuppapi_group = {
-    leader = genericgeneral
-    unit = MiddleEasternGC
-
- soxuppapi = { 
-	  color = { 237 216 28 }
-	      first_names = {  }
-
-        	last_names = {  }
-    }
-
-}
-
-babi_group = {
-    leader = genericgeneral
-    unit = MiddleEasternGC
-
- babi = { 
-	  color = { 84 112 161 }
-	      first_names = {  }
-
-        	last_names = {  }
+        	last_names = { "Zhro Vyarv" "Zhro Yiwarf" "Zhro Razo" "Zhro Yriruch" "Zhro Vuzå" "Zhro Yurron" "Zhro Zoky" "Zhro Yourv"
+						   "Zhro Gunar" "Zhro Aryouch" "Zhro Yraky" "Zhro Vor" "Zhro Chiwiv" "Zhro Vourro" "Zhro Vyoizhyåruk" 
+						   "Zhro Yroiwirag" "Zhro Goich" "Zhro Guny" "Zhro Zhiwyou" "Zhro Yroivirv" "Zhro Vyikyou" "Zhro Guny"
+						   "Zhro Zhiwyou" "Zhro Forg" "Zhro Yroirf" "Zhro Vårri" "Zhro Zhriwå" "Zhro Chrouch" "Zhro Gouchk" 
+						   "Zhro Wrar" "Zhro Ouyorg" "Zhro Awiny" "Zhro Kwouzhyå" "Zhro Chrikkouwa" "Zhro Iva" "Zhro Runy" 
+						   "Zhro Nouwruchåny" "Zhro Vouvouki" }
     }
 
 }
@@ -783,13 +1012,7 @@ stouian = {
 
         	last_names = {  }
     }
-
-}
-
-gert_group = {
-    leader = genericgeneral
-    unit = MiddleEasternGC
-
+	
     gert = { 
 	  color = { 69 32 14 }
 	      first_names = {  }
@@ -798,6 +1021,7 @@ gert_group = {
     }
 
 }
+
 
 ################
 #### BAFOZH ####

@@ -24,9 +24,13 @@ upper_house = { # inherit
 	free_yoker = 0
 }
 
+oob = "QOO_oob.txt"
 
 #technologies
 
+property_law = writs_of_the_state
+army_structure = standing_army
+record_keeping = rudimentary_records 
 
 #flags
 

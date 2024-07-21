@@ -1,0 +1,463 @@
+#Relations
+
+#Leaders
+
+leader = {
+    name = "Susod Qono-Bowebwe"
+    type = land
+    date = 1301.1.1
+    personality = aggressive
+    background = hated 
+}
+
+leader = {
+    name = "Gixa Qonoob-Direhid"
+    type = land
+    date = 1301.1.1
+    personality = persistant 
+    background = innovative_tactician 
+}
+
+leader = {
+    name = "Bone Adur-Mohadh"
+    type = land
+    date = 1301.1.1
+    personality = gallant 
+    background = old_school 
+}
+
+leader = {
+    name = "Ikedh Exoor-Bedhi"
+    type = land
+    date = 1301.1.1
+    personality = brutish 
+    background = politician 
+}
+
+leader = {
+    name = "Sidwedh Hekwemo-Qono"
+    type = land
+    date = 1301.1.1
+    personality = polite 
+    background = butcher 
+}
+
+leader = {
+    name = "Bekwid Mokoon-Biwadh"
+    type = land
+    date = 1301.1.1
+    personality = glory_hound 
+    background = madman 
+}
+
+leader = {
+    name = "Bomun Hawudh-Honoodh"
+    type = land
+    date = 1301.1.1
+    personality = hellbent 
+    background = engineer 
+}
+
+#Armies
+
+army = {
+    name = "1st Army of the Qooxib"
+    location = 1039
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1066
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1067
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1029
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1039
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1039
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1039
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1040
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1041
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1031
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1030
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1039
+    }
+
+}
+
+army = {
+    name = "2nd Army of the Qooxib"
+    location = 1072
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1029
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1028
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1028
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1027
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1027
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1026
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1032
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1032
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1019
+    }
+
+}
+
+army = {
+    name = "3rd Army of the Qooxib"
+    location = 1078
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1022
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1036
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1036
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1037
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1037
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1035
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1035
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1035
+    }
+	
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1045
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1046
+    }
+
+}
+
+army = {
+    name = "4th Army of the Qooxib"
+    location = 1016
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1048
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1049
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1047
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1038
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1038
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 993
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 992
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1034
+    }
+	
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1034
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1034
+    }
+
+}
+
+army = {
+    name = "5th Army of the Qooxib"
+    location = 1002
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1051
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1052
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1020
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1020
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1016
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1016
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1015
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1015
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1013
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1013
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1012
+    }
+
+}
+
+army = {
+    name = "6th Army of the Qooxib"
+    location = 1013
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1012
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1014
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1014
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1011
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1011
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1009
+    }
+	
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1009
+    }
+
+    regiment = {
+        name= "Standing Militia"
+        type = irregular
+        home = 1010
+    }
+	
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1010
+    }
+
+    regiment = {
+        name= "Swinemen Band"
+        type = cavalry
+        home = 1007
+    }
+
+}
