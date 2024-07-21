@@ -558,7 +558,7 @@ ogrehi_culture = {
 
 }
 
-yat-pugurian = {
+yat-pugurian = { #a relative to duttuphti linguistic group
     leader = genericgeneral
     unit = EuropeanGC
 
@@ -944,39 +944,74 @@ preirish = {
     leader = genericgeneral
     unit = MiddleEasternGC
 
-    bofungi = { 
+    bofungi = {
 	  color = { 98 198 2 }
-	      first_names = {  }
+			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
+							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
+							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
 
-        	last_names = {  }
+        	last_names = { Prosuq Pimei Dusorg Poring Serimou Doro Pesson Trengei Gounoji Tursou Dousso Purso Fibomo Chyerse Oubejei 
+						   Gines Kerso Troubis Somou Chyerso Steirseig Fosoug Fimimo Toursei Feirsu Steig Guseg Pijursei Boboreir 
+						   Troung Stesi Gounei Toungou Chyiru Korsourso Toubu Chyoumi Penou Debumou Deng Pousu Kessen Prosse Pebessou 
+						   Tinein Dimu Kemog Pimog Chyoubos Oungos Ungo Boujei Prumeisig Deisse Gijo Fobos Dengu Ourusi Chyumu Preibousis  
+						   Kijei Trein Stono Prusse Girer Peisoug Gersur Pousou Ourig Pissu Prouso Trojeire Tinon Kouju Chyisses Pengusou 
+						   Deirsou Prursei Treiq Preimoumourg }
     }
 
     coebeju = { 
 	  color = { 43 82 73 }
-	      first_names = {  }
+			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
+							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
+							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
 
-        	last_names = {  }
+        	last_names = { Prosuq Pimei Dusorg Poring Serimou Doro Pesson Trengei Gounoji Tursou Dousso Purso Fibomo Chyerse Oubejei 
+						   Gines Kerso Troubis Somou Chyerso Steirseig Fosoug Fimimo Toursei Feirsu Steig Guseg Pijursei Boboreir 
+						   Troung Stesi Gounei Toungou Chyiru Korsourso Toubu Chyoumi Penou Debumou Deng Pousu Kessen Prosse Pebessou 
+						   Tinein Dimu Kemog Pimog Chyoubos Oungos Ungo Boujei Prumeisig Deisse Gijo Fobos Dengu Ourusi Chyumu Preibousis  
+						   Kijei Trein Stono Prusse Girer Peisoug Gersur Pousou Ourig Pissu Prouso Trojeire Tinon Kouju Chyisses Pengusou 
+						   Deirsou Prursei Treiq Preimoumourg }
     }
 
     bogurg = { 
 	  color = { 56 173 220 }
-	      first_names = {  }
+			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
+							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
+							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
 
-        	last_names = {  }
+        	last_names = { Prosuq Pimei Dusorg Poring Serimou Doro Pesson Trengei Gounoji Tursou Dousso Purso Fibomo Chyerse Oubejei 
+						   Gines Kerso Troubis Somou Chyerso Steirseig Fosoug Fimimo Toursei Feirsu Steig Guseg Pijursei Boboreir 
+						   Troung Stesi Gounei Toungou Chyiru Korsourso Toubu Chyoumi Penou Debumou Deng Pousu Kessen Prosse Pebessou 
+						   Tinein Dimu Kemog Pimog Chyoubos Oungos Ungo Boujei Prumeisig Deisse Gijo Fobos Dengu Ourusi Chyumu Preibousis  
+						   Kijei Trein Stono Prusse Girer Peisoug Gersur Pousou Ourig Pissu Prouso Trojeire Tinon Kouju Chyisses Pengusou 
+						   Deirsou Prursei Treiq Preimoumourg }
     }
 
     gengugemeg = { 
 	  color = { 234 22 32 }
-	      first_names = {  }
+			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
+							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
+							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
 
-        	last_names = {  }
+        	last_names = { Prosuq Pimei Dusorg Poring Serimou Doro Pesson Trengei Gounoji Tursou Dousso Purso Fibomo Chyerse Oubejei 
+						   Gines Kerso Troubis Somou Chyerso Steirseig Fosoug Fimimo Toursei Feirsu Steig Guseg Pijursei Boboreir 
+						   Troung Stesi Gounei Toungou Chyiru Korsourso Toubu Chyoumi Penou Debumou Deng Pousu Kessen Prosse Pebessou 
+						   Tinein Dimu Kemog Pimog Chyoubos Oungos Ungo Boujei Prumeisig Deisse Gijo Fobos Dengu Ourusi Chyumu Preibousis  
+						   Kijei Trein Stono Prusse Girer Peisoug Gersur Pousou Ourig Pissu Prouso Trojeire Tinon Kouju Chyisses Pengusou 
+						   Deirsou Prursei Treiq Preimoumourg }
     }
 
     bauchir = { 
 	  color = { 34 122 1 }
-	      first_names = {  }
+			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
+							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
+							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
 
-        	last_names = {  }
+        	last_names = { Prosuq Pimei Dusorg Poring Serimou Doro Pesson Trengei Gounoji Tursou Dousso Purso Fibomo Chyerse Oubejei 
+						   Gines Kerso Troubis Somou Chyerso Steirseig Fosoug Fimimo Toursei Feirsu Steig Guseg Pijursei Boboreir 
+						   Troung Stesi Gounei Toungou Chyiru Korsourso Toubu Chyoumi Penou Debumou Deng Pousu Kessen Prosse Pebessou 
+						   Tinein Dimu Kemog Pimog Chyoubos Oungos Ungo Boujei Prumeisig Deisse Gijo Fobos Dengu Ourusi Chyumu Preibousis  
+						   Kijei Trein Stono Prusse Girer Peisoug Gersur Pousou Ourig Pissu Prouso Trojeire Tinon Kouju Chyisses Pengusou 
+						   Deirsou Prursei Treiq Preimoumourg }
     }
 
 }
@@ -987,37 +1022,62 @@ stouian = {
 
    assatiog = { 
 	  color = { 184 12 61 }
-	      first_names = {  }
+	      first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
+						  Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
+						  Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
+						  Thionaio-Thoufak Gugu-Stoun Stiou-Kaioksouk Paion-Nian Naog-Tuaior Stoustrout-Giastres }
 
-        	last_names = {  }
+        	last_names = { Touksti Thiarorsti Posiksti Nogorsti Terosti Gossaioksti Paiokesti Storousti Afasti Stagasti Tiakosti 
+						   Poukasti Tunirsti Stopasti Piapasti Iatsti Gokiasti Tastriosti Punastri Raiososti Paiotuksti Stougosti 
+						   Steksoksti Tugorsti Koupuksti Niorsti Thastriotsti Stestresti Thakaiosti }
     }
 
     piok = { 
 	  color = { 43 11 16 }
-	      first_names = {  }
+	      first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
+						  Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
+						  Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
+						  Thionaio-Thoufak Gugu-Stoun Stiou-Kaioksouk Paion-Nian Naog-Tuaior Stoustrout-Giastres }
 
-        	last_names = {  }
+        	last_names = { Touksti Thiarorsti Posiksti Nogorsti Terosti Gossaioksti Paiokesti Storousti Afasti Stagasti Tiakosti 
+						   Poukasti Tunirsti Stopasti Piapasti Iatsti Gokiasti Tastriosti Punastri Raiososti Paiotuksti Stougosti 
+						   Steksoksti Tugorsti Koupuksti Niorsti Thastriotsti Stestresti Thakaiosti }
     }
 
     gior = { 
 	  color = { 234 212 21 }
-	      first_names = {  }
+	      first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
+						  Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
+						  Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
+						  Thionaio-Thoufak Gugu-Stoun Stiou-Kaioksouk Paion-Nian Naog-Tuaior Stoustrout-Giastres }
 
-        	last_names = {  }
+        	last_names = { Touksti Thiarorsti Posiksti Nogorsti Terosti Gossaioksti Paiokesti Storousti Afasti Stagasti Tiakosti 
+						   Poukasti Tunirsti Stopasti Piapasti Iatsti Gokiasti Tastriosti Punastri Raiososti Paiotuksti Stougosti 
+						   Steksoksti Tugorsti Koupuksti Niorsti Thastriotsti Stestresti Thakaiosti }
     }
 
     poussan = { 
 	  color = { 84 233 11 }
-	      first_names = {  }
+	      first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
+						  Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
+						  Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
+						  Thionaio-Thoufak Gugu-Stoun Stiou-Kaioksouk Paion-Nian Naog-Tuaior Stoustrout-Giastres }
 
-        	last_names = {  }
+        	last_names = { Touksti Thiarorsti Posiksti Nogorsti Terosti Gossaioksti Paiokesti Storousti Afasti Stagasti Tiakosti 
+						   Poukasti Tunirsti Stopasti Piapasti Iatsti Gokiasti Tastriosti Punastri Raiososti Paiotuksti Stougosti 
+						   Steksoksti Tugorsti Koupuksti Niorsti Thastriotsti Stestresti Thakaiosti }
     }
 	
     gert = { 
 	  color = { 69 32 14 }
-	      first_names = {  }
+	      first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
+						  Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
+						  Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
+						  Thionaio-Thoufak Gugu-Stoun Stiou-Kaioksouk Paion-Nian Naog-Tuaior Stoustrout-Giastres }
 
-        	last_names = {  }
+        	last_names = { Touksti Thiarorsti Posiksti Nogorsti Terosti Gossaioksti Paiokesti Storousti Afasti Stagasti Tiakosti 
+						   Poukasti Tunirsti Stopasti Piapasti Iatsti Gokiasti Tastriosti Punastri Raiososti Paiotuksti Stougosti 
+						   Steksoksti Tugorsti Koupuksti Niorsti Thastriotsti Stestresti Thakaiosti }
     }
 
 }
