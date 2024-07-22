@@ -1,6 +1,7 @@
 owner = CHM
 controller = CHM
 add_core = CHM
+add_core = HID
 trade_goods = grain
 life_rating = 33
 

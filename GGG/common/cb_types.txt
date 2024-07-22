@@ -169,8 +169,15 @@ conquest = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
         total_pops = 400001
+		
+		OR = {
+			NOT = { total_pops = 500001 }
+			NOT = { number_of_states = 2 }	
+		}
+
+		NOT = { number_of_states = 4 } #was 5	
+
 		# only one state or unciv
-		NOT = { number_of_states = 5 }
 		civilized = yes
 		#OR = {
 		#	AND = {

@@ -1,6 +1,6 @@
 capital = 2188
 primary_culture = gji
-religion = brownrel
+religion = juewaeg
 government = theocracy
 plurality = 5.0
 nationalvalue = nv_none
@@ -28,4 +28,4 @@ upper_house = { # inherit
 
 #flags
 
-set_country_flag = brownrel_country
+set_country_flag = juewaeg_country

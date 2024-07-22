@@ -78,7 +78,7 @@ pruuntish_religion = {
 
 cult_of_vewug  = {
 
-    vewugi = { #VewuÃÅg
+    vewugi = { #Vew˙g
         icon = 6
         color = { 1.0 1.0 0.1 }
     }
@@ -109,27 +109,27 @@ paorusu_group = {
 
 bafozhi_group = {
 
-    redrel = { 
+    jur = { #J'ur
         icon = 15
         color = { 0.8 0.0 0.2  }
     }
 
-    limerel = { 
+    parqmun = { 
         icon = 5
         color = { 0.5 0.8 0.3 }
     }
 
-    cyanrel = { 
+    gyahki = { 
         icon = 13
         color = { 0.6 1.0 0.9  }
     }
 
-    orangerel = { 
+    dkatkang = { #DkÂtkang
         icon = 16
         color = { 0.8 0.4 0.0 }
     }
 
-    brownrel = { 
+    juewaeg = { 
         icon = 3
         color = { 0.7 0.5 0.0 }
     }
@@ -138,7 +138,7 @@ bafozhi_group = {
 
 shobgizob_group = {
 
-    pinkrel = { 
+    kusii = { 
         icon = 4
         color = { 0.8 0.1 0.8  }
     }

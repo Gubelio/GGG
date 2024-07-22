@@ -117,7 +117,7 @@ peninsular_diwvo = {
 }
 
 surgoian = {
-    leader = genericgeneral
+    leader = gouwhouian1
     unit = EuropeanGC
 
     maumoujoy = { 
@@ -149,20 +149,6 @@ surgoian = {
 							tav-ov-Yazzandz tav-ov-Peuga tav-ov-Zeuswo tav-ov-Meuwhaw tav-ov-Goswapz tav-ov-Memaundz tav-ov-Yawhondz }
     }
 
-    takemoujoy = { 
-	  color = { 0 111 59 }
-        	first_names = { "Sem Ejam" "Sem Ojeg" "Sem Tokar" "Sem Zot" "Yosem Pojar" "Mog Tokar" "Sem Mozza" "Sem Saki"
-							"Sem Gome" "Yosem Gakar" "Sem Yakar" "Sem Pagarnd" "Sem Posva" "Sem Amos" "Sem Mago" "Sem Yarvond"
-							"Yomog Jakar" "Yosem Tarva" "Yomog Ojeg" "Sem Ejam" "Sem Maswam" "Sem Mawsmam" "Yomog Mago" 
-							"Sem Parkond" "Sem Aumar" "Sem Toza" "Sem Toswou" "Sem Tekag" "Sem Yammar" "Sem Meigondz"
-							"Sem Arvor" }
-
-			last_names = { 	ApYejow ApMoswie ApGakaum ApOrran ApPaswie Yekep Sagopz Makowhan Zegos ApMokau ApGoa ApYojor
-							Takar Yandaz Aswom Jaswos Geogor Azzo Mawhog Mokandz Mejaum Yejour Yejoun Takon ApMakosz ApGoswaz
-							Yohkowhan Pojar Seki Maus Akau Mokoun Pasvie Sokamat Moyi Moswat Miehau Pokam Tizzaun Tizzar Pagond
-							Momaus Sousaum Yomaus Youndor Pajaus ApMaswos ApYoundz }
-    }
-
     miegpaup = { 
 	  color = { 37 153 99 }
         	first_names = { Yaukau Pagaundz Zoukiemou Miemo Mauasz Gaundasz Atasz Pepem Moumem Seasz Gaam Pamam Geam Awhoascz 
@@ -186,6 +172,26 @@ surgoian = {
         	first_names = { Uni }
 
 			last_names = {  Taujat Zawhou Miejege Gaugiet Yauswa Tiegoy Saemoukhhz Moje Powhe }
+    }
+
+}
+
+surgoian_islander = {
+    leader = takemogi
+    unit = EuropeanGC
+
+    takemoujoy = { 
+	  color = { 0 111 59 }
+        	first_names = { "Sem Ejam" "Sem Ojeg" "Sem Tokar" "Sem Zot" "Yosem Pojar" "Mog Tokar" "Sem Mozza" "Sem Saki"
+							"Sem Gome" "Yosem Gakar" "Sem Yakar" "Sem Pagarnd" "Sem Posva" "Sem Amos" "Sem Mago" "Sem Yarvond"
+							"Yomog Jakar" "Yosem Tarva" "Yomog Ojeg" "Sem Ejam" "Sem Maswam" "Sem Mawsmam" "Yomog Mago" 
+							"Sem Parkond" "Sem Aumar" "Sem Toza" "Sem Toswou" "Sem Tekag" "Sem Yammar" "Sem Meigondz"
+							"Sem Arvor" }
+
+			last_names = { 	ApYejow ApMoswie ApGakaum ApOrran ApPaswie Yekep Sagopz Makowhan Zegos ApMokau ApGoa ApYojor
+							Takar Yandaz Aswom Jaswos Geogor Azzo Mawhog Mokandz Mejaum Yejour Yejoun Takon ApMakosz ApGoswaz
+							Yohkowhan Pojar Seki Maus Akau Mokoun Pasvie Sokamat Moyi Moswat Miehau Pokam Tizzaun Tizzar Pagond
+							Momaus Sousaum Yomaus Youndor Pajaus ApMaswos ApYoundz }
     }
 
 }
@@ -1152,7 +1158,7 @@ jeznpoian_group = {
     unit = MiddleEasternGC
 
     nubiju = { 
-	  color = { 145 20 57 }
+	  color = { 213 224 164 } #145 20 57
 	      first_names = {  }
 
               last_names = {  }
@@ -1173,7 +1179,7 @@ jeznpoian_group = {
     }
 
     umodi = { 
-	  color = { 49 132 44 }
+	  color = { 252 186 3 }
 	      first_names = {  }
 
               last_names = {  }

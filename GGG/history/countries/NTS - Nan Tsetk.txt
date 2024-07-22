@@ -1,6 +1,6 @@
 capital = 1647
 primary_culture = nuukheu
-religion = orangerel
+religion = dkatkang
 government = princely_despotate
 plurality = 5.0
 nationalvalue = nv_none
@@ -28,4 +28,4 @@ upper_house = { # inherit
 
 #flags
 
-set_country_flag = orangerel_country
+set_country_flag = dkatkang_country

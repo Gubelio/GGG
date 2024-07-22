@@ -1,6 +1,8 @@
 owner = QOO
 controller = QOO
 add_core = QOO
+add_core = DEX
+add_core = GGN
 trade_goods = grain
 life_rating = 33
 

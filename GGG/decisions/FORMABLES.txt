@@ -217,7 +217,7 @@ political_decisions = {
         #news_desc_long = "form_italy_NEWS_LONG"
         #news_desc_medium = "form_italy_NEWS_MEDIUM"
         #news_desc_short = "form_italy_NEWS_SHORT"
-		picture = "restore_house_athis_image"
+	picture = "restore_house_athis_image"
 		
         potential = {
             is_culture_group = sitheve

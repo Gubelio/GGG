@@ -157,6 +157,8 @@ MOM		= "countries/Momneb.txt"
 MAJ		= "countries/Majumeft.txt"
 STA		= "countries/Stastrus.txt"
 FIB		= "countries/Fibut.txt"
+GGN		= "countries/Gimeng Gon.txt"
+DEX		= "countries/Dexunu.txt"
 
 #BAFOZH
 NYW		= "countries/Nywut.txt"
@@ -222,6 +224,7 @@ IDA		= "countries/Idarm.txt"
 PER		= "countries/Perzob.txt"
 KAN		= "countries/Kaneun.txt"
 NTS		= "countries/Nan Tsetk.txt"
+HID		= "countries/Hiduherath.txt"
 
 #SHOBGIZOB
 NSP		= "countries/Nasup.txt"

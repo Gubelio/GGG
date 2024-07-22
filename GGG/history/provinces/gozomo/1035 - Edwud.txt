@@ -1,6 +1,8 @@
 owner = QOO
 controller = QOO
 add_core = QOO
+add_core = DEX
+add_core = GGN
 trade_goods = wool
 life_rating = 33
 
