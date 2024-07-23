@@ -1525,8 +1525,6 @@ mromen_group = {
 						   Sa-Dheash Ta-Reazhdaun Sa-Reazhdaun Ta-Tud Sa-Tud Ta-Wuf Sa-Wuf Ta-Edhdich Sa-Edhdich }
     }
 
-    }
-
     thaunti = { 
 	  color = { 145 165 195 }
 			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
@@ -1543,8 +1541,6 @@ mromen_group = {
 						   Ta-Thream Sa-Thream Ta-Zheam Sa-Zheam Ta-Shosh Sa-Shosh Ta-Thiem Sa-Thiem Ta-Shrouw Sa-Shrouw 
 						   Ta-Hwaud Sa-Hwaud Ta-Thohwau Sa-Thohwau Ta-Zhkiethrau Sa-Zhkiethrau Ta-Fire Sa-Fire Ta-Dheash 
 						   Sa-Dheash Ta-Reazhdaun Sa-Reazhdaun Ta-Tud Sa-Tud Ta-Wuf Sa-Wuf Ta-Edhdich Sa-Edhdich }
-    }
-
     }
 
     foussuni = { 
@@ -1565,8 +1561,6 @@ mromen_group = {
 						   Sa-Dheash Ta-Reazhdaun Sa-Reazhdaun Ta-Tud Sa-Tud Ta-Wuf Sa-Wuf Ta-Edhdich Sa-Edhdich }
     }
 
-    }
-
     wushauw = { 
 	  color = { 37 120 65 }
 			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
@@ -1583,8 +1577,6 @@ mromen_group = {
 						   Ta-Thream Sa-Thream Ta-Zheam Sa-Zheam Ta-Shosh Sa-Shosh Ta-Thiem Sa-Thiem Ta-Shrouw Sa-Shrouw 
 						   Ta-Hwaud Sa-Hwaud Ta-Thohwau Sa-Thohwau Ta-Zhkiethrau Sa-Zhkiethrau Ta-Fire Sa-Fire Ta-Dheash 
 						   Sa-Dheash Ta-Reazhdaun Sa-Reazhdaun Ta-Tud Sa-Tud Ta-Wuf Sa-Wuf Ta-Edhdich Sa-Edhdich }
-    }
-
     }
 
 }

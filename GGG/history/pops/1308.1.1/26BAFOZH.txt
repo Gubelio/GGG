@@ -30,7 +30,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 231
+		size = 69
 	}
 
 	artisans = {
@@ -61,7 +61,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -93,7 +93,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = motkohnic
-		size = 59
+		size = 17
 	}
 
 	artisans = {
@@ -133,7 +133,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 124
+		 size = 37
 	}
 
 
@@ -187,7 +187,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1000
+		 size = 300
 	}
 
 
@@ -255,7 +255,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1560
+		 size = 468
 	}
 
 
@@ -323,7 +323,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1612
+		 size = 483
 	}
 
 
@@ -391,7 +391,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 2562
+		 size = 768
 	}
 
 
@@ -459,7 +459,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 980
+		 size = 294
 	}
 
 
@@ -533,7 +533,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1713
+		 size = 513
 	}
 
 
@@ -601,7 +601,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 2750
+		 size = 825
 	}
 
 
@@ -669,7 +669,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 2169
+		 size = 650
 	}
 
 
@@ -737,7 +737,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1612
+		 size = 483
 	}
 
 
@@ -805,7 +805,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 2674
+		 size = 802
 	}
 
 
@@ -879,7 +879,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 1380
+		 size = 414
 	}
 
 
@@ -947,7 +947,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1725
+		 size = 517
 	}
 
 
@@ -1015,7 +1015,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 889
+		 size = 266
 	}
 
 
@@ -1107,7 +1107,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1440
+		 size = 432
 	}
 
 
@@ -1199,7 +1199,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 2558
+		 size = 767
 	}
 
 
@@ -1291,7 +1291,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1325
+		 size = 397
 	}
 
 
@@ -1383,7 +1383,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 1397
+		 size = 419
 	}
 
 
@@ -1475,7 +1475,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 84
+		 size = 25
 	}
 
 
@@ -1591,7 +1591,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 189
+		 size = 56
 	}
 
 
@@ -1707,7 +1707,7 @@
 	soldiers = {
 		 culture = cherasass
 		 religion = jur
-		 size = 84
+		 size = 25
 	}
 
 
@@ -1775,7 +1775,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 550
+		 size = 165
 	}
 
 
@@ -1867,7 +1867,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 660
+		 size = 198
 	}
 
 
@@ -1983,7 +1983,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 29
+		 size = 8
 	}
 
 
@@ -2081,7 +2081,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 660
+		 size = 198
 	}
 
 
@@ -2179,7 +2179,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 84
+		 size = 25
 	}
 
 
@@ -2247,7 +2247,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 1279
+		 size = 383
 	}
 
 
@@ -2315,7 +2315,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 658
+		 size = 197
 	}
 
 
@@ -2389,7 +2389,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 518
+		 size = 155
 	}
 
 
@@ -2487,7 +2487,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 46
+		 size = 13
 	}
 
 
@@ -2555,7 +2555,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 567
+		 size = 170
 	}
 
 
@@ -2647,7 +2647,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 810
+		 size = 243
 	}
 
 
@@ -2739,7 +2739,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 303
+		 size = 90
 	}
 
 
@@ -2831,7 +2831,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1351
+		 size = 405
 	}
 
 
@@ -2923,7 +2923,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1133
+		 size = 339
 	}
 
 
@@ -2997,7 +2997,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 2369
+		 size = 710
 	}
 
 
@@ -3089,7 +3089,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 632
+		 size = 189
 	}
 
 
@@ -3157,7 +3157,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 586
+		 size = 175
 	}
 
 
@@ -3225,7 +3225,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 670
+		 size = 201
 	}
 
 
@@ -3293,7 +3293,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1359
+		 size = 407
 	}
 
 
@@ -3385,7 +3385,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1438
+		 size = 431
 	}
 
 
@@ -3453,7 +3453,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1692
+		 size = 507
 	}
 
 
@@ -3521,7 +3521,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1295
+		 size = 388
 	}
 
 
@@ -3589,7 +3589,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 4211
+		 size = 1263
 	}
 
 
@@ -3657,7 +3657,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1445
+		 size = 433
 	}
 
 
@@ -3725,7 +3725,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1763
+		 size = 528
 	}
 
 
@@ -3793,7 +3793,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 2118
+		 size = 635
 	}
 
 
@@ -3861,7 +3861,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 2412
+		 size = 723
 	}
 
 
@@ -3929,7 +3929,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 611
+		 size = 183
 	}
 
 
@@ -3997,7 +3997,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1817
+		 size = 545
 	}
 
 
@@ -4065,7 +4065,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 2940
+		 size = 882
 	}
 
 
@@ -4133,7 +4133,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 2845
+		 size = 853
 	}
 
 
@@ -4201,7 +4201,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = jur
-		 size = 357
+		 size = 107
 	}
 
 
@@ -4300,7 +4300,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 147
+		 size = 44
 	}
 
 
@@ -4392,7 +4392,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 1038
+		 size = 311
 	}
 
 
@@ -4484,7 +4484,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 506
+		 size = 151
 	}
 
 
@@ -4576,7 +4576,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 840
+		 size = 252
 	}
 
 
@@ -4644,7 +4644,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 632
+		 size = 189
 	}
 
 
@@ -4742,7 +4742,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 168
+		 size = 50
 	}
 
 
@@ -4834,7 +4834,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 485
+		 size = 145
 	}
 
 
@@ -4926,7 +4926,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 283
+		 size = 84
 	}
 
 
@@ -5000,7 +5000,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 373
+		 size = 111
 	}
 
 
@@ -5085,7 +5085,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 29
+		 size = 8
 	}
 
 
@@ -5159,7 +5159,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 210
+		 size = 63
 	}
 
 
@@ -5231,7 +5231,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 164
+		 size = 49
 	}
 
 
@@ -5310,7 +5310,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 126
+		 size = 37
 	}
 
 
@@ -5389,7 +5389,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = pagan
-		 size = 185
+		 size = 55
 	}
 
 
@@ -5468,7 +5468,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 126
+		 size = 37
 	}
 
 
@@ -5529,7 +5529,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 168
+		 size = 50
 	}
 
 
@@ -5608,7 +5608,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 134
+		 size = 40
 	}
 
 
@@ -5669,7 +5669,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 637
+		 size = 191
 	}
 
 
@@ -5730,7 +5730,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 741
+		 size = 222
 	}
 
 
@@ -5803,7 +5803,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 219
+		 size = 65
 	}
 
 
@@ -5876,7 +5876,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 162
+		 size = 48
 	}
 
 
@@ -5930,7 +5930,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 197
+		 size = 59
 	}
 
 
@@ -5989,7 +5989,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 226
+		 size = 67
 	}
 
 
@@ -6054,7 +6054,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 226
+		 size = 67
 	}
 
 
@@ -6101,7 +6101,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 213
+		 size = 63
 	}
 
 
@@ -6166,7 +6166,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 244
+		 size = 73
 	}
 
 
@@ -6249,7 +6249,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 185
+		 size = 55
 	}
 
 
@@ -6314,7 +6314,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 179
+		 size = 53
 	}
 
 
@@ -6379,7 +6379,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 922
+		 size = 276
 	}
 
 
@@ -6429,7 +6429,7 @@
 	soldiers = {
 		culture = gokam
 		religion = pagan
-		size = 29
+		size = 8
 	}
 
 	artisans = {
@@ -6465,7 +6465,7 @@
 	soldiers = {
 		culture = gokam
 		religion = jur
-		size = 504
+		size = 151
 	}
 
 	artisans = {
@@ -6567,7 +6567,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -6625,7 +6625,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 85
+		 size = 25
 	}
 
 
@@ -6682,7 +6682,7 @@
 	soldiers = {
 		culture = gokam
 		religion = pagan
-		size = 31
+		size = 9
 	}
 
 	artisans = {
@@ -6718,7 +6718,7 @@
 	soldiers = {
 		culture = gokam
 		religion = jur
-		size = 141
+		size = 42
 	}
 
 	artisans = {
@@ -6820,7 +6820,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 14
+		size = 4
 	}
 
 	artisans = {
@@ -6878,7 +6878,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 2197
+		 size = 659
 	}
 
 
@@ -6935,7 +6935,7 @@
 	soldiers = {
 		culture = gokam
 		religion = pagan
-		size = 28
+		size = 8
 	}
 
 	artisans = {
@@ -6971,7 +6971,7 @@
 	soldiers = {
 		culture = gokam
 		religion = jur
-		size = 644
+		size = 193
 	}
 
 	artisans = {
@@ -7007,7 +7007,7 @@
 	soldiers = {
 		culture = gokam
 		religion = kadkohi
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -7073,7 +7073,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+		size = 0
 	}
 
 	artisans = {
@@ -7131,7 +7131,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 60
+		 size = 18
 	}
 
 
@@ -7188,7 +7188,7 @@
 	soldiers = {
 		culture = gokam
 		religion = pagan
-		size = 11
+		size = 3
 	}
 
 	artisans = {
@@ -7224,7 +7224,7 @@
 	soldiers = {
 		culture = gokam
 		religion = jur
-		size = 701
+		size = 210
 	}
 
 	artisans = {
@@ -7260,7 +7260,7 @@
 	soldiers = {
 		culture = gokam
 		religion = kadkohi
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -7326,7 +7326,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+		size = 0
 	}
 
 	artisans = {
@@ -7384,7 +7384,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 62
+		 size = 18
 	}
 
 
@@ -7456,7 +7456,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = jur
-		 size = 938
+		 size = 281
 	}
 
 
@@ -7521,7 +7521,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = jur
-		 size = 261
+		 size = 78
 	}
 
 
@@ -7586,7 +7586,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 215
+		 size = 64
 	}
 
 
@@ -7651,7 +7651,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 223
+		 size = 66
 	}
 
 
@@ -7716,7 +7716,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 120
+		 size = 36
 	}
 
 
@@ -7796,7 +7796,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 98
+		size = 29
 	}
 
 	artisans = {
@@ -7841,7 +7841,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 101
+		 size = 30
 	}
 
 
@@ -7928,7 +7928,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 66
+		size = 19
 	}
 
 	artisans = {
@@ -7973,7 +7973,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 81
+		 size = 24
 	}
 
 
@@ -8060,7 +8060,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 86
+		size = 25
 	}
 
 	artisans = {
@@ -8105,7 +8105,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 53
+		 size = 15
 	}
 
 
@@ -8152,7 +8152,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 310
+		 size = 93
 	}
 
 
@@ -8203,7 +8203,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 479
+		size = 143
 	}
 
 	artisans = {
@@ -8241,7 +8241,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 411
+		 size = 123
 	}
 
 
@@ -8292,7 +8292,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 239
+		size = 71
 	}
 
 	artisans = {
@@ -8330,7 +8330,7 @@
 	soldiers = {
 		 culture = gokam
 		 religion = pagan
-		 size = 54
+		 size = 16
 	}
 
 
@@ -8377,7 +8377,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 264
+		 size = 79
 	}
 
 
@@ -8424,7 +8424,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 248
+		 size = 74
 	}
 
 
@@ -8471,7 +8471,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 891
+		 size = 267
 	}
 
 
@@ -8511,7 +8511,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 369
+		 size = 110
 	}
 
 
@@ -8569,7 +8569,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 623
+		 size = 186
 	}
 
 
@@ -8621,7 +8621,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 598
+		 size = 179
 	}
 
 
@@ -8671,7 +8671,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 239
+		size = 71
 	}
 
 	artisans = {
@@ -8716,7 +8716,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 512
+		 size = 153
 	}
 
 
@@ -8766,7 +8766,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 311
+		size = 93
 	}
 
 	artisans = {
@@ -8802,7 +8802,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 201
+		size = 60
 	}
 
 	artisans = {
@@ -8838,7 +8838,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = motkohnic
-		size = 53
+		size = 15
 	}
 
 	artisans = {
@@ -8878,7 +8878,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 49
+		 size = 14
 	}
 
 
@@ -8916,7 +8916,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 26
+		size = 7
 	}
 
 	artisans = {
@@ -8948,7 +8948,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 241
+		 size = 72
 	}
 
 
@@ -8986,7 +8986,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 14
+		size = 4
 	}
 
 	artisans = {
@@ -9018,7 +9018,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 272
+		 size = 81
 	}
 
 
@@ -9056,7 +9056,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 145
+		size = 43
 	}
 
 	artisans = {
@@ -9088,7 +9088,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 233
+		 size = 69
 	}
 
 
@@ -9128,7 +9128,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 258
+		 size = 77
 	}
 
 
@@ -9166,7 +9166,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 285
+		size = 85
 	}
 
 	artisans = {
@@ -9198,7 +9198,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 49
+		 size = 14
 	}
 
 
@@ -9238,7 +9238,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 238
+		 size = 71
 	}
 
 
@@ -9276,7 +9276,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 163
+		size = 48
 	}
 
 	artisans = {
@@ -9308,7 +9308,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 45
+		 size = 13
 	}
 
 
@@ -9346,7 +9346,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = jur
-		size = 96
+		size = 28
 	}
 
 	artisans = {
@@ -9376,7 +9376,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 32
+		size = 9
 	}
 
 	artisans = {
@@ -9406,7 +9406,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 95
+		size = 28
 	}
 
 	artisans = {
@@ -9438,7 +9438,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 16
+		 size = 4
 	}
 
 
@@ -9476,7 +9476,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = jur
-		size = 381
+		size = 114
 	}
 
 	artisans = {
@@ -9508,7 +9508,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 16
+		 size = 4
 	}
 
 
@@ -9546,7 +9546,7 @@
 	soldiers = {
 		culture = behshi
 		religion = jur
-		size = 26
+		size = 7
 	}
 
 	artisans = {
@@ -9576,7 +9576,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 26
+		size = 7
 	}
 
 	artisans = {
@@ -9606,7 +9606,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = jur
-		size = 15
+		size = 4
 	}
 
 	artisans = {
@@ -9638,7 +9638,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 310
+		 size = 93
 	}
 
 
@@ -9676,7 +9676,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 31
+		size = 9
 	}
 
 	artisans = {
@@ -9708,7 +9708,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 234
+		 size = 70
 	}
 
 
@@ -9748,7 +9748,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 215
+		 size = 64
 	}
 
 
@@ -9795,7 +9795,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = jur
-		 size = 725
+		 size = 217
 	}
 
 
@@ -9834,7 +9834,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 629
+		size = 188
 	}
 
 	artisans = {
@@ -9873,7 +9873,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = jur
-		 size = 443
+		 size = 132
 	}
 
 
@@ -9910,7 +9910,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 345
+		size = 103
 	}
 
 	artisans = {
@@ -9949,7 +9949,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = parqmun
-		 size = 804
+		 size = 241
 	}
 
 
@@ -9987,7 +9987,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 334
+		size = 100
 	}
 
 	artisans = {
@@ -10026,7 +10026,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = parqmun
-		 size = 14
+		 size = 4
 	}
 
 
@@ -10064,7 +10064,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 51
+		size = 15
 	}
 
 	artisans = {
@@ -10103,7 +10103,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 150
+		 size = 45
 	}
 
 
@@ -10140,7 +10140,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 124
+		size = 37
 	}
 
 	artisans = {
@@ -10179,7 +10179,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 133
+		 size = 39
 	}
 
 
@@ -10217,7 +10217,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 131
+		size = 39
 	}
 
 	artisans = {
@@ -10256,7 +10256,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 120
+		 size = 36
 	}
 
 
@@ -10315,7 +10315,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 185
+		 size = 55
 	}
 
 
@@ -10362,7 +10362,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 256
+		 size = 76
 	}
 
 
@@ -10400,7 +10400,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 121
+		size = 36
 	}
 
 	artisans = {
@@ -10439,7 +10439,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 219
+		 size = 65
 	}
 
 
@@ -10485,7 +10485,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 197
+		 size = 59
 	}
 
 
@@ -10532,7 +10532,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 199
+		 size = 59
 	}
 
 
@@ -10570,7 +10570,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 482
+		size = 144
 	}
 
 	artisans = {
@@ -10609,7 +10609,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 283
+		 size = 84
 	}
 
 
@@ -10656,7 +10656,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = jur
-		 size = 1679
+		 size = 503
 	}
 
 
@@ -10694,7 +10694,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = jur
-		size = 1
+		size = 0
 	}
 
 	artisans = {
@@ -10713,7 +10713,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 132
+		 size = 39
 	}
 
 
@@ -10758,7 +10758,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 132
+		 size = 39
 	}
 
 
@@ -10791,7 +10791,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 111
+		 size = 33
 	}
 
 
@@ -10824,7 +10824,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 101
+		 size = 30
 	}
 
 
@@ -10869,7 +10869,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 105
+		 size = 31
 	}
 
 
@@ -10914,7 +10914,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 137
+		 size = 41
 	}
 
 
@@ -10959,7 +10959,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 155
+		 size = 46
 	}
 
 
@@ -11018,7 +11018,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 250
+		 size = 75
 	}
 
 
@@ -11056,7 +11056,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 5
+		size = 1
 	}
 
 	artisans = {
@@ -11086,7 +11086,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 31
+		size = 9
 	}
 
 	artisans = {
@@ -11125,7 +11125,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 273
+		 size = 81
 	}
 
 
@@ -11163,7 +11163,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = jur
-		size = 29
+		size = 8
 	}
 
 	artisans = {
@@ -11187,7 +11187,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 93
+		size = 27
 	}
 
 	artisans = {
@@ -11220,7 +11220,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = vewugi
-		 size = 923
+		 size = 276
 	}
 
 
@@ -11315,7 +11315,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 133
+		 size = 39
 	}
 
 
@@ -11348,7 +11348,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 101
+		 size = 30
 	}
 
 
@@ -11417,7 +11417,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 80
+		 size = 24
 	}
 
 
@@ -11450,7 +11450,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -11501,7 +11501,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -11545,7 +11545,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = jur
-		size = 1
+		size = 0
 	}
 
 	artisans = {
@@ -11575,7 +11575,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 30
+		size = 9
 	}
 
 	artisans = {
@@ -11608,7 +11608,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = vewugi
-		 size = 286
+		 size = 85
 	}
 
 
@@ -11652,7 +11652,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = jur
-		size = 33
+		size = 9
 	}
 
 	artisans = {
@@ -11682,7 +11682,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -11715,7 +11715,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = vewugi
-		 size = 339
+		 size = 101
 	}
 
 
@@ -11759,7 +11759,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = jur
-		size = 128
+		size = 38
 	}
 
 	artisans = {
@@ -11789,7 +11789,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 39
+		size = 11
 	}
 
 	artisans = {
@@ -11822,7 +11822,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = vewugi
-		 size = 10
+		 size = 3
 	}
 
 
@@ -11860,7 +11860,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 310
+		size = 93
 	}
 
 	artisans = {
@@ -11890,7 +11890,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 31
+		size = 9
 	}
 
 	artisans = {
@@ -11926,7 +11926,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = jur
-		size = 39
+		size = 11
 	}
 
 	artisans = {
@@ -11956,7 +11956,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 75
+		size = 22
 	}
 
 	artisans = {
@@ -11989,7 +11989,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = vewugi
-		 size = 13
+		 size = 3
 	}
 
 
@@ -12045,7 +12045,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 63
+		size = 18
 	}
 
 	artisans = {
@@ -12105,7 +12105,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 90
+		size = 27
 	}
 
 	artisans = {
@@ -12163,7 +12163,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 637
+		 size = 191
 	}
 
 
@@ -12240,7 +12240,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 46
+		size = 13
 	}
 
 	artisans = {
@@ -12300,7 +12300,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 67
+		size = 20
 	}
 
 	artisans = {
@@ -12358,7 +12358,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 447
+		 size = 134
 	}
 
 
@@ -12435,7 +12435,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 16
+		size = 4
 	}
 
 	artisans = {
@@ -12495,7 +12495,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -12553,7 +12553,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 162
+		 size = 48
 	}
 
 
@@ -12630,7 +12630,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 125
+		size = 37
 	}
 
 	artisans = {
@@ -12690,7 +12690,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -12748,7 +12748,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 65
+		 size = 19
 	}
 
 
@@ -12825,7 +12825,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 81
+		size = 24
 	}
 
 	artisans = {
@@ -12885,7 +12885,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 11
+		size = 3
 	}
 
 	artisans = {
@@ -12943,7 +12943,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 103
+		 size = 30
 	}
 
 
@@ -13002,7 +13002,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 111
+		size = 33
 	}
 
 	artisans = {
@@ -13041,7 +13041,7 @@
 	soldiers = {
 		 culture = thaunti
 		 religion = pagan
-		 size = 172
+		 size = 51
 	}
 
 
@@ -13079,7 +13079,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -13118,7 +13118,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 192
+		 size = 57
 	}
 
 
@@ -13165,7 +13165,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 211
+		 size = 63
 	}
 
 
@@ -13212,7 +13212,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 193
+		 size = 57
 	}
 
 
@@ -13259,7 +13259,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 209
+		 size = 62
 	}
 
 
@@ -13306,7 +13306,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 268
+		 size = 80
 	}
 
 
@@ -13353,7 +13353,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 275
+		 size = 82
 	}
 
 
@@ -13404,7 +13404,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 151
+		 size = 45
 	}
 
 
@@ -13455,7 +13455,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 171
+		 size = 51
 	}
 
 
@@ -13506,7 +13506,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 163
+		 size = 48
 	}
 
 
@@ -13557,7 +13557,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 169
+		 size = 50
 	}
 
 
@@ -13590,7 +13590,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 183
+		 size = 54
 	}
 
 
@@ -13641,7 +13641,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 133
+		 size = 39
 	}
 
 
@@ -13692,7 +13692,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 64
+		 size = 19
 	}
 
 
@@ -13743,7 +13743,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 73
+		 size = 21
 	}
 
 
@@ -13776,7 +13776,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 543
+		 size = 162
 	}
 
 
@@ -13827,7 +13827,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 112
+		 size = 33
 	}
 
 
@@ -13872,7 +13872,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 265
+		size = 79
 	}
 
 	artisans = {
@@ -13904,7 +13904,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 9
+		 size = 2
 	}
 
 
@@ -13962,7 +13962,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 213
+		 size = 63
 	}
 
 
@@ -14064,7 +14064,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 177
+		 size = 53
 	}
 
 
@@ -14108,7 +14108,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 49
+		size = 14
 	}
 
 	artisans = {
@@ -14144,7 +14144,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 65
+		size = 19
 	}
 
 	artisans = {
@@ -14176,7 +14176,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 93
+		 size = 27
 	}
 
 
@@ -14227,7 +14227,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 26
+		size = 7
 	}
 
 	artisans = {
@@ -14259,7 +14259,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = pagan
-		 size = 174
+		 size = 52
 	}
 
 
@@ -14310,7 +14310,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -14342,7 +14342,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 217
+		 size = 65
 	}
 
 
@@ -14393,7 +14393,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 115
+		size = 34
 	}
 
 	artisans = {
@@ -14425,7 +14425,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 393
+		 size = 117
 	}
 
 
@@ -14476,7 +14476,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = pagan
-		size = 22
+		size = 6
 	}
 
 	artisans = {
@@ -14512,7 +14512,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 352
+		size = 105
 	}
 
 	artisans = {
@@ -14544,7 +14544,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 313
+		 size = 93
 	}
 
 
@@ -14595,7 +14595,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 43
+		size = 12
 	}
 
 	artisans = {
@@ -14627,7 +14627,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 693
+		 size = 207
 	}
 
 
@@ -14678,7 +14678,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 16
+		size = 4
 	}
 
 	artisans = {
@@ -14714,7 +14714,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 30
+		size = 9
 	}
 
 	artisans = {
@@ -14746,7 +14746,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 177
+		 size = 53
 	}
 
 
@@ -14797,7 +14797,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 173
+		size = 51
 	}
 
 	artisans = {
@@ -14833,7 +14833,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 309
+		size = 92
 	}
 
 	artisans = {
@@ -14865,7 +14865,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 49
+		 size = 14
 	}
 
 
@@ -14916,7 +14916,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 323
+		size = 96
 	}
 
 	artisans = {
@@ -14948,7 +14948,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 350
+		 size = 105
 	}
 
 
@@ -14999,7 +14999,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 84
+		size = 25
 	}
 
 	artisans = {
@@ -15035,7 +15035,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 635
+		size = 190
 	}
 
 	artisans = {
@@ -15067,7 +15067,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 35
+		 size = 10
 	}
 
 
@@ -15118,7 +15118,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 13
+		size = 3
 	}
 
 	artisans = {
@@ -15154,7 +15154,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 550
+		size = 165
 	}
 
 	artisans = {
@@ -15186,7 +15186,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 4
+		 size = 1
 	}
 
 
@@ -15237,7 +15237,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 189
+		size = 56
 	}
 
 	artisans = {
@@ -15273,7 +15273,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 133
+		size = 39
 	}
 
 	artisans = {
@@ -15305,7 +15305,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 1115
+		 size = 334
 	}
 
 
@@ -15356,7 +15356,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 65
+		size = 19
 	}
 
 	artisans = {
@@ -15392,7 +15392,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 393
+		size = 117
 	}
 
 	artisans = {
@@ -15428,7 +15428,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 265
+		size = 79
 	}
 
 	artisans = {
@@ -15460,7 +15460,7 @@
 	soldiers = {
 		 culture = behshi
 		 religion = pagan
-		 size = 9
+		 size = 2
 	}
 
 
@@ -15511,7 +15511,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 978
+		size = 293
 	}
 
 	artisans = {
@@ -15543,7 +15543,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = pagan
-		 size = 89
+		 size = 26
 	}
 
 
@@ -15594,7 +15594,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -15630,7 +15630,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -15662,7 +15662,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = pagan
-		 size = 177
+		 size = 53
 	}
 
 
@@ -15713,7 +15713,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 30
+		size = 9
 	}
 
 	artisans = {
@@ -15745,7 +15745,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = pagan
-		 size = 182
+		 size = 54
 	}
 
 
@@ -15796,7 +15796,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 111
+		size = 33
 	}
 
 	artisans = {
@@ -15832,7 +15832,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 173
+		size = 51
 	}
 
 	artisans = {
@@ -15868,7 +15868,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 133
+		size = 39
 	}
 
 	artisans = {
@@ -15900,7 +15900,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 265
+		 size = 79
 	}
 
 
@@ -15951,7 +15951,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 93
+		size = 27
 	}
 
 	artisans = {
@@ -15983,7 +15983,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 697
+		 size = 209
 	}
 
 
@@ -16034,7 +16034,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 11
+		size = 3
 	}
 
 	artisans = {
@@ -16066,7 +16066,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 653
+		 size = 195
 	}
 
 
@@ -16117,7 +16117,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 155
+		size = 46
 	}
 
 	artisans = {
@@ -16149,7 +16149,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 93
+		 size = 27
 	}
 
 
@@ -16200,7 +16200,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 13
+		size = 3
 	}
 
 	artisans = {
@@ -16236,7 +16236,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = dkatkang
-		size = 13
+		size = 3
 	}
 
 	artisans = {
@@ -16272,7 +16272,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 481
+		size = 144
 	}
 
 	artisans = {
@@ -16304,7 +16304,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 145
+		 size = 43
 	}
 
 
@@ -16355,7 +16355,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = pagan
-		size = 411
+		size = 123
 	}
 
 	artisans = {
@@ -16387,7 +16387,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 95
+		 size = 28
 	}
 
 
@@ -16435,7 +16435,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1193
+		 size = 357
 	}
 
 
@@ -16482,7 +16482,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2631
+		 size = 789
 	}
 
 
@@ -16529,7 +16529,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 738
+		 size = 221
 	}
 
 
@@ -16567,7 +16567,7 @@
 	soldiers = {
 		culture = gji
 		religion = juewaeg
-		size = 2
+		size = 0
 	}
 
 	artisans = {
@@ -16591,7 +16591,7 @@
 	soldiers = {
 		culture = gji
 		religion = dkatkang
-		size = 158
+		size = 47
 	}
 
 	artisans = {
@@ -16623,7 +16623,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 316
+		 size = 94
 	}
 
 
@@ -16670,7 +16670,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 881
+		 size = 264
 	}
 
 
@@ -16717,7 +16717,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 695
+		 size = 208
 	}
 
 
@@ -16764,7 +16764,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 738
+		 size = 221
 	}
 
 
@@ -16811,7 +16811,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1761
+		 size = 528
 	}
 
 
@@ -16858,7 +16858,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2093
+		 size = 627
 	}
 
 
@@ -16905,7 +16905,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1498
+		 size = 449
 	}
 
 
@@ -16952,7 +16952,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1775
+		 size = 532
 	}
 
 
@@ -17003,7 +17003,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 669
+		size = 200
 	}
 
 	artisans = {
@@ -17035,7 +17035,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 49
+		 size = 14
 	}
 
 
@@ -17081,7 +17081,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 950
+		 size = 285
 	}
 
 
@@ -17128,7 +17128,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2593
+		 size = 777
 	}
 
 
@@ -17175,7 +17175,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2157
+		 size = 647
 	}
 
 
@@ -17226,7 +17226,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 1113
+		size = 333
 	}
 
 	artisans = {
@@ -17258,7 +17258,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1733
+		 size = 519
 	}
 
 
@@ -17305,7 +17305,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 933
+		 size = 279
 	}
 
 
@@ -17354,7 +17354,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 913
+		 size = 273
 	}
 
 
@@ -17400,7 +17400,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 709
+		 size = 212
 	}
 
 
@@ -17447,7 +17447,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2713
+		 size = 813
 	}
 
 
@@ -17498,7 +17498,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 150
+		size = 45
 	}
 
 	artisans = {
@@ -17530,7 +17530,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 509
+		 size = 152
 	}
 
 
@@ -17577,7 +17577,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 637
+		 size = 191
 	}
 
 
@@ -17624,7 +17624,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 175
+		 size = 52
 	}
 
 
@@ -17671,7 +17671,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2792
+		 size = 837
 	}
 
 
@@ -17718,7 +17718,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1899
+		 size = 569
 	}
 
 
@@ -17765,7 +17765,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1455
+		 size = 436
 	}
 
 
@@ -17812,7 +17812,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1465
+		 size = 439
 	}
 
 
@@ -17859,7 +17859,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 669
+		 size = 200
 	}
 
 
@@ -17906,7 +17906,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 599
+		 size = 179
 	}
 
 
@@ -17953,7 +17953,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 396
+		 size = 118
 	}
 
 
@@ -18000,7 +18000,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 883
+		 size = 264
 	}
 
 
@@ -18047,7 +18047,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 673
+		 size = 201
 	}
 
 
@@ -18094,7 +18094,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 995
+		 size = 298
 	}
 
 
@@ -18141,7 +18141,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 547
+		 size = 164
 	}
 
 
@@ -18192,7 +18192,7 @@
 	soldiers = {
 		culture = geep
 		religion = dkatkang
-		size = 451
+		size = 135
 	}
 
 	artisans = {
@@ -18224,7 +18224,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 83
+		 size = 24
 	}
 
 
@@ -18275,7 +18275,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = dkatkang
-		size = 873
+		size = 261
 	}
 
 	artisans = {
@@ -18311,7 +18311,7 @@
 	soldiers = {
 		culture = geep
 		religion = dkatkang
-		size = 155
+		size = 46
 	}
 
 	artisans = {
@@ -18343,7 +18343,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 28
+		 size = 8
 	}
 
 
@@ -18390,7 +18390,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 523
+		 size = 156
 	}
 
 
@@ -18441,7 +18441,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = pagan
-		size = 414
+		size = 124
 	}
 
 	artisans = {
@@ -18473,7 +18473,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = pagan
-		 size = 179
+		 size = 53
 	}
 
 
@@ -18524,7 +18524,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 132
+		size = 39
 	}
 
 	artisans = {
@@ -18556,7 +18556,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 955
+		 size = 286
 	}
 
 
@@ -18607,7 +18607,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 335
+		size = 100
 	}
 
 	artisans = {
@@ -18639,7 +18639,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 2295
+		 size = 688
 	}
 
 
@@ -18690,7 +18690,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 537
+		size = 161
 	}
 
 	artisans = {
@@ -18722,7 +18722,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 933
+		 size = 279
 	}
 
 
@@ -18773,7 +18773,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 575
+		size = 172
 	}
 
 	artisans = {
@@ -18805,7 +18805,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 2514
+		 size = 754
 	}
 
 
@@ -18856,7 +18856,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = pagan
-		size = 313
+		size = 93
 	}
 
 	artisans = {
@@ -18888,7 +18888,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 654
+		 size = 196
 	}
 
 
@@ -18939,7 +18939,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 70
+		size = 21
 	}
 
 	artisans = {
@@ -18971,7 +18971,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 2975
+		 size = 892
 	}
 
 
@@ -19022,7 +19022,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 56
+		size = 16
 	}
 
 	artisans = {
@@ -19058,7 +19058,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 115
+		size = 34
 	}
 
 	artisans = {
@@ -19090,7 +19090,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 2515
+		 size = 754
 	}
 
 
@@ -19141,7 +19141,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 139
+		size = 41
 	}
 
 	artisans = {
@@ -19177,7 +19177,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 1515
+		size = 454
 	}
 
 	artisans = {
@@ -19209,7 +19209,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 150
+		 size = 45
 	}
 
 
@@ -19260,7 +19260,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 69
+		size = 20
 	}
 
 	artisans = {
@@ -19292,7 +19292,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 395
+		 size = 118
 	}
 
 
@@ -19343,7 +19343,7 @@
 	soldiers = {
 		culture = behshi
 		religion = pagan
-		size = 95
+		size = 28
 	}
 
 	artisans = {
@@ -19375,7 +19375,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 510
+		 size = 153
 	}
 
 
@@ -19426,7 +19426,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 213
+		size = 63
 	}
 
 	artisans = {
@@ -19458,7 +19458,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 195
+		 size = 58
 	}
 
 
@@ -19509,7 +19509,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 131
+		size = 39
 	}
 
 	artisans = {
@@ -19541,7 +19541,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 910
+		 size = 273
 	}
 
 
@@ -19588,7 +19588,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2713
+		 size = 813
 	}
 
 
@@ -19635,7 +19635,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1277
+		 size = 383
 	}
 
 
@@ -19682,7 +19682,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1035
+		 size = 310
 	}
 
 
@@ -19729,7 +19729,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 695
+		 size = 208
 	}
 
 
@@ -19776,7 +19776,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2093
+		 size = 627
 	}
 
 
@@ -19823,7 +19823,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2600
+		 size = 780
 	}
 
 
@@ -19870,7 +19870,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2919
+		 size = 875
 	}
 
 
@@ -19917,7 +19917,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1060
+		 size = 318
 	}
 
 
@@ -19964,7 +19964,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1717
+		 size = 515
 	}
 
 
@@ -20011,7 +20011,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1069
+		 size = 320
 	}
 
 
@@ -20050,7 +20050,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = dkatkang
-		size = 30
+		size = 9
 	}
 
 	artisans = {
@@ -20082,7 +20082,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1003
+		 size = 300
 	}
 
 
@@ -20129,7 +20129,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2473
+		 size = 741
 	}
 
 
@@ -20176,7 +20176,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2841
+		 size = 852
 	}
 
 
@@ -20215,7 +20215,7 @@
 	soldiers = {
 		culture = dhrasho
 		religion = dkatkang
-		size = 122
+		size = 36
 	}
 
 	artisans = {
@@ -20247,7 +20247,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 2217
+		 size = 665
 	}
 
 
@@ -20294,7 +20294,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 936
+		 size = 280
 	}
 
 
@@ -20341,7 +20341,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 963
+		 size = 288
 	}
 
 
@@ -20380,7 +20380,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = dkatkang
-		size = 133
+		size = 39
 	}
 
 	artisans = {
@@ -20404,7 +20404,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 293
+		size = 87
 	}
 
 	artisans = {
@@ -20436,7 +20436,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1176
+		 size = 352
 	}
 
 
@@ -20475,7 +20475,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 210
+		size = 63
 	}
 
 	artisans = {
@@ -20507,7 +20507,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1821
+		 size = 546
 	}
 
 
@@ -20546,7 +20546,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 340
+		size = 102
 	}
 
 	artisans = {
@@ -20578,7 +20578,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 291
+		 size = 87
 	}
 
 
@@ -20617,7 +20617,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 230
+		size = 69
 	}
 
 	artisans = {
@@ -20649,7 +20649,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 221
+		 size = 66
 	}
 
 
@@ -20688,7 +20688,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 183
+		size = 54
 	}
 
 	artisans = {
@@ -20720,7 +20720,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1201
+		 size = 360
 	}
 
 
@@ -20759,7 +20759,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 237
+		size = 71
 	}
 
 	artisans = {
@@ -20791,7 +20791,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 89
+		 size = 26
 	}
 
 
@@ -20830,7 +20830,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 630
+		size = 189
 	}
 
 	artisans = {
@@ -20862,7 +20862,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 44
+		 size = 13
 	}
 
 
@@ -20901,7 +20901,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 49
+		size = 14
 	}
 
 	artisans = {
@@ -20933,7 +20933,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 865
+		 size = 259
 	}
 
 
@@ -20984,7 +20984,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 955
+		size = 286
 	}
 
 	artisans = {
@@ -21024,7 +21024,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 1839
+		 size = 551
 	}
 
 
@@ -21089,7 +21089,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 580
+		size = 174
 	}
 
 	artisans = {
@@ -21129,7 +21129,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 295
+		 size = 88
 	}
 
 
@@ -21194,7 +21194,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 580
+		size = 174
 	}
 
 	artisans = {
@@ -21234,7 +21234,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 295
+		 size = 88
 	}
 
 
@@ -21309,7 +21309,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 810
+		 size = 243
 	}
 
 
@@ -21384,7 +21384,7 @@
 	soldiers = {
 		 culture = nuukheu
 		 religion = dkatkang
-		 size = 951
+		 size = 285
 	}
 
 
@@ -21450,7 +21450,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 288
+		size = 86
 	}
 
 	artisans = {
@@ -21490,7 +21490,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 609
+		 size = 182
 	}
 
 
@@ -21557,7 +21557,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 93
+		size = 27
 	}
 
 	artisans = {
@@ -21597,7 +21597,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1209
+		 size = 362
 	}
 
 
@@ -21672,7 +21672,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = dkatkang
-		 size = 1057
+		 size = 317
 	}
 
 
@@ -21737,7 +21737,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 893
+		size = 267
 	}
 
 	artisans = {
@@ -21777,7 +21777,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 191
+		 size = 57
 	}
 
 
@@ -21842,7 +21842,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 117
+		size = 35
 	}
 
 	artisans = {
@@ -21882,7 +21882,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 2374
+		 size = 712
 	}
 
 
@@ -21947,7 +21947,7 @@
 	soldiers = {
 		culture = drasho
 		religion = dkatkang
-		size = 161
+		size = 48
 	}
 
 	artisans = {
@@ -21987,7 +21987,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1082
+		 size = 324
 	}
 
 
@@ -22052,7 +22052,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 201
+		size = 60
 	}
 
 	artisans = {
@@ -22092,7 +22092,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 2391
+		 size = 717
 	}
 
 
@@ -22157,7 +22157,7 @@
 	soldiers = {
 		culture = drasho
 		religion = dkatkang
-		size = 1751
+		size = 525
 	}
 
 	artisans = {
@@ -22197,7 +22197,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1113
+		 size = 333
 	}
 
 
@@ -22262,7 +22262,7 @@
 	soldiers = {
 		culture = drasho
 		religion = dkatkang
-		size = 265
+		size = 79
 	}
 
 	artisans = {
@@ -22302,7 +22302,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 674
+		 size = 202
 	}
 
 
@@ -22366,7 +22366,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 44
+		size = 13
 	}
 
 	artisans = {
@@ -22402,7 +22402,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 1360
+		size = 408
 	}
 
 	artisans = {
@@ -22442,7 +22442,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 657
+		 size = 197
 	}
 
 
@@ -22506,7 +22506,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 944
+		size = 283
 	}
 
 	artisans = {
@@ -22546,7 +22546,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 720
+		 size = 216
 	}
 
 
@@ -22604,7 +22604,7 @@
 	soldiers = {
 		culture = drasho
 		religion = dkatkang
-		size = 655
+		size = 196
 	}
 
 	artisans = {
@@ -22640,7 +22640,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -22680,7 +22680,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 85
+		 size = 25
 	}
 
 
@@ -22748,7 +22748,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1778
+		 size = 533
 	}
 
 
@@ -22816,7 +22816,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1306
+		 size = 391
 	}
 
 
@@ -22884,7 +22884,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1421
+		 size = 426
 	}
 
 
@@ -22948,7 +22948,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 1157
+		size = 347
 	}
 
 	artisans = {
@@ -22988,7 +22988,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 89
+		 size = 26
 	}
 
 
@@ -23052,7 +23052,7 @@
 	soldiers = {
 		culture = nuukheu
 		religion = dkatkang
-		size = 1076
+		size = 322
 	}
 
 	artisans = {
@@ -23092,7 +23092,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 912
+		 size = 273
 	}
 
 
@@ -23156,7 +23156,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = pagan
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -23196,7 +23196,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 2593
+		 size = 777
 	}
 
 
@@ -23260,7 +23260,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -23300,7 +23300,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 660
+		 size = 198
 	}
 
 
@@ -23364,7 +23364,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 9
+		size = 2
 	}
 
 	artisans = {
@@ -23418,7 +23418,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -23454,7 +23454,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 996
+		size = 298
 	}
 
 	artisans = {
@@ -23494,7 +23494,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 65
+		 size = 19
 	}
 
 
@@ -23558,7 +23558,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 65
+		size = 19
 	}
 
 	artisans = {
@@ -23612,7 +23612,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 173
+		size = 51
 	}
 
 	artisans = {
@@ -23648,7 +23648,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 2203
+		size = 660
 	}
 
 	artisans = {
@@ -23688,7 +23688,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 299
+		 size = 89
 	}
 
 
@@ -23752,7 +23752,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 29
+		size = 8
 	}
 
 	artisans = {
@@ -23792,7 +23792,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 827
+		 size = 248
 	}
 
 
@@ -23850,7 +23850,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -23890,7 +23890,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1683
+		 size = 504
 	}
 
 
@@ -23948,7 +23948,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 10
+		size = 3
 	}
 
 	artisans = {
@@ -23988,7 +23988,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1798
+		 size = 539
 	}
 
 
@@ -24052,7 +24052,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 2242
+		size = 672
 	}
 
 	artisans = {
@@ -24106,7 +24106,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -24142,7 +24142,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -24182,7 +24182,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 48
+		 size = 14
 	}
 
 
@@ -24246,7 +24246,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -24300,7 +24300,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 17
+		size = 5
 	}
 
 	artisans = {
@@ -24336,7 +24336,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 2695
+		size = 808
 	}
 
 	artisans = {
@@ -24376,7 +24376,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 12
+		 size = 3
 	}
 
 
@@ -24440,7 +24440,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 9
+		size = 2
 	}
 
 	artisans = {
@@ -24459,7 +24459,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 996
+		 size = 298
 	}
 
 
@@ -24523,7 +24523,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 13
+		size = 3
 	}
 
 	artisans = {
@@ -24559,7 +24559,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 1480
+		size = 444
 	}
 
 	artisans = {
@@ -24599,7 +24599,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 296
+		 size = 88
 	}
 
 
@@ -24663,7 +24663,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 13
+		size = 3
 	}
 
 	artisans = {
@@ -24699,7 +24699,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 937
+		size = 281
 	}
 
 	artisans = {
@@ -24739,7 +24739,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 90
+		 size = 27
 	}
 
 
@@ -24803,7 +24803,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 167
+		size = 50
 	}
 
 	artisans = {
@@ -24857,7 +24857,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 695
+		size = 208
 	}
 
 	artisans = {
@@ -24897,7 +24897,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 152
+		 size = 45
 	}
 
 
@@ -24961,7 +24961,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 813
+		size = 243
 	}
 
 	artisans = {
@@ -25015,7 +25015,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 695
+		size = 208
 	}
 
 	artisans = {
@@ -25055,7 +25055,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 266
+		 size = 79
 	}
 
 
@@ -25119,7 +25119,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = gyahki
-		size = 1243
+		size = 372
 	}
 
 	artisans = {
@@ -25155,7 +25155,7 @@
 	soldiers = {
 		culture = babhra
 		religion = gyahki
-		size = 175
+		size = 52
 	}
 
 	artisans = {
@@ -25195,7 +25195,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 532
+		 size = 159
 	}
 
 
@@ -25259,7 +25259,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 75
+		size = 22
 	}
 
 	artisans = {
@@ -25295,7 +25295,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 1255
+		size = 376
 	}
 
 	artisans = {
@@ -25335,7 +25335,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1634
+		 size = 490
 	}
 
 
@@ -25399,7 +25399,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 1175
+		size = 352
 	}
 
 	artisans = {
@@ -25439,7 +25439,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = dkatkang
-		 size = 1824
+		 size = 547
 	}
 
 
@@ -25507,7 +25507,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 1038
+		 size = 311
 	}
 
 
@@ -25571,7 +25571,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 75
+		size = 22
 	}
 
 	artisans = {
@@ -25611,7 +25611,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 2938
+		 size = 881
 	}
 
 
@@ -25679,7 +25679,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 1209
+		 size = 362
 	}
 
 
@@ -25747,7 +25747,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 943
+		 size = 282
 	}
 
 
@@ -25811,7 +25811,7 @@
 	soldiers = {
 		culture = babhra
 		religion = jur
-		size = 155
+		size = 46
 	}
 
 	artisans = {
@@ -25851,7 +25851,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 2463
+		 size = 738
 	}
 
 
@@ -25915,7 +25915,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = parqmun
-		size = 315
+		size = 94
 	}
 
 	artisans = {
@@ -25955,7 +25955,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 563
+		 size = 168
 	}
 
 
@@ -26023,7 +26023,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 878
+		 size = 263
 	}
 
 
@@ -26087,7 +26087,7 @@
 	soldiers = {
 		culture = mnashi
 		religion = parqmun
-		size = 36
+		size = 10
 	}
 
 	artisans = {
@@ -26123,7 +26123,7 @@
 	soldiers = {
 		culture = babhra
 		religion = jur
-		size = 480
+		size = 144
 	}
 
 	artisans = {
@@ -26159,7 +26159,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = parqmun
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -26199,7 +26199,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 3044
+		 size = 913
 	}
 
 
@@ -26263,7 +26263,7 @@
 	soldiers = {
 		culture = babhra
 		religion = jur
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -26303,7 +26303,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 1714
+		 size = 514
 	}
 
 
@@ -26367,7 +26367,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = parqmun
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -26407,7 +26407,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 776
+		 size = 232
 	}
 
 
@@ -26471,7 +26471,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = parqmun
-		size = 1615
+		size = 484
 	}
 
 	artisans = {
@@ -26511,7 +26511,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = parqmun
-		 size = 1004
+		 size = 301
 	}
 
 
@@ -26575,7 +26575,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 89
+		size = 26
 	}
 
 	artisans = {
@@ -26615,7 +26615,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 2676
+		 size = 802
 	}
 
 
@@ -26683,7 +26683,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 2562
+		 size = 768
 	}
 
 
@@ -26751,7 +26751,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 2942
+		 size = 882
 	}
 
 
@@ -26815,7 +26815,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = gyahki
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -26851,7 +26851,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = parqmun
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -26891,7 +26891,7 @@
 	soldiers = {
 		 culture = mnashi
 		 religion = parqmun
-		 size = 206
+		 size = 61
 	}
 
 
@@ -26955,7 +26955,7 @@
 	soldiers = {
 		culture = padud
 		religion = pagan
-		size = 233
+		size = 69
 	}
 
 	artisans = {
@@ -26995,7 +26995,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = dkatkang
-		 size = 662
+		 size = 198
 	}
 
 
@@ -27059,7 +27059,7 @@
 	soldiers = {
 		culture = sarengi
 		religion = pagan
-		size = 433
+		size = 129
 	}
 
 	artisans = {
@@ -27099,7 +27099,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = dkatkang
-		 size = 662
+		 size = 198
 	}
 
 
@@ -27163,7 +27163,7 @@
 	soldiers = {
 		culture = padud
 		religion = pagan
-		size = 175
+		size = 52
 	}
 
 	artisans = {
@@ -27199,7 +27199,7 @@
 	soldiers = {
 		culture = sarengi
 		religion = pagan
-		size = 153
+		size = 45
 	}
 
 	artisans = {
@@ -27239,7 +27239,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = dkatkang
-		 size = 244
+		 size = 73
 	}
 
 
@@ -27303,7 +27303,7 @@
 	soldiers = {
 		culture = padud
 		religion = pagan
-		size = 255
+		size = 76
 	}
 
 	artisans = {
@@ -27339,7 +27339,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 5
+		size = 1
 	}
 
 	artisans = {
@@ -27379,7 +27379,7 @@
 	soldiers = {
 		 culture = sarengi
 		 religion = pagan
-		 size = 662
+		 size = 198
 	}
 
 
@@ -27443,7 +27443,7 @@
 	soldiers = {
 		culture = sarengi
 		religion = pagan
-		size = 215
+		size = 64
 	}
 
 	artisans = {
@@ -27479,7 +27479,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -27519,7 +27519,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = pagan
-		 size = 548
+		 size = 164
 	}
 
 
@@ -27583,7 +27583,7 @@
 	soldiers = {
 		culture = padud
 		religion = dkatkang
-		size = 243
+		size = 72
 	}
 
 	artisans = {
@@ -27619,7 +27619,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 400
+		size = 120
 	}
 
 	artisans = {
@@ -27659,7 +27659,7 @@
 	soldiers = {
 		 culture = padud
 		 religion = pagan
-		 size = 282
+		 size = 84
 	}
 
 
@@ -27723,7 +27723,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 240
+		size = 72
 	}
 
 	artisans = {
@@ -27763,7 +27763,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 662
+		 size = 198
 	}
 
 
@@ -27827,7 +27827,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 320
+		size = 96
 	}
 
 	artisans = {
@@ -27867,7 +27867,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 548
+		 size = 164
 	}
 
 
@@ -27931,7 +27931,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -27971,7 +27971,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 130
+		 size = 39
 	}
 
 
@@ -28035,7 +28035,7 @@
 	soldiers = {
 		culture = padud
 		religion = pagan
-		size = 643
+		size = 192
 	}
 
 	artisans = {
@@ -28071,7 +28071,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 400
+		size = 120
 	}
 
 	artisans = {
@@ -28111,7 +28111,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 966
+		 size = 289
 	}
 
 
@@ -28175,7 +28175,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 360
+		size = 108
 	}
 
 	artisans = {
@@ -28215,7 +28215,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = pagan
-		 size = 624
+		 size = 187
 	}
 
 
@@ -28279,7 +28279,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = pagan
-		size = 83
+		size = 24
 	}
 
 	artisans = {
@@ -28315,7 +28315,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 403
+		size = 120
 	}
 
 	artisans = {
@@ -28351,7 +28351,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 164
+		size = 49
 	}
 
 	artisans = {
@@ -28391,7 +28391,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = gyahki
-		 size = 1074
+		 size = 322
 	}
 
 
@@ -28455,7 +28455,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 163
+		size = 48
 	}
 
 	artisans = {
@@ -28491,7 +28491,7 @@
 	soldiers = {
 		culture = babhra
 		religion = dkatkang
-		size = 124
+		size = 37
 	}
 
 	artisans = {
@@ -28531,7 +28531,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 124
+		 size = 37
 	}
 
 
@@ -28595,7 +28595,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 107
+		size = 32
 	}
 
 	artisans = {
@@ -28635,7 +28635,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = pagan
-		 size = 276
+		 size = 82
 	}
 
 
@@ -28699,7 +28699,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 187
+		size = 56
 	}
 
 	artisans = {
@@ -28735,7 +28735,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 123
+		size = 36
 	}
 
 	artisans = {
@@ -28775,7 +28775,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 200
+		 size = 60
 	}
 
 
@@ -28839,7 +28839,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -28875,7 +28875,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = pagan
-		size = 147
+		size = 44
 	}
 
 	artisans = {
@@ -28911,7 +28911,7 @@
 	soldiers = {
 		culture = umodi
 		religion = pagan
-		size = 203
+		size = 60
 	}
 
 	artisans = {
@@ -28951,7 +28951,7 @@
 	soldiers = {
 		 culture = umodi
 		 religion = dkatkang
-		 size = 86
+		 size = 25
 	}
 
 
@@ -29015,7 +29015,7 @@
 	soldiers = {
 		culture = umodi
 		religion = dkatkang
-		size = 372
+		size = 111
 	}
 
 	artisans = {
@@ -29051,7 +29051,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = dkatkang
-		size = 147
+		size = 44
 	}
 
 	artisans = {
@@ -29087,7 +29087,7 @@
 	soldiers = {
 		culture = babhra
 		religion = gyahki
-		size = 243
+		size = 72
 	}
 
 	artisans = {
@@ -29127,7 +29127,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = dkatkang
-		 size = 1112
+		 size = 333
 	}
 
 
@@ -29191,7 +29191,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = pagan
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -29227,7 +29227,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 107
+		size = 32
 	}
 
 	artisans = {
@@ -29267,7 +29267,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = dkatkang
-		 size = 48
+		 size = 14
 	}
 
 
@@ -29331,7 +29331,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -29367,7 +29367,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 307
+		size = 92
 	}
 
 	artisans = {
@@ -29407,7 +29407,7 @@
 	soldiers = {
 		 culture = babhra
 		 religion = dkatkang
-		 size = 33
+		 size = 9
 	}
 
 
@@ -29471,7 +29471,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = pagan
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -29507,7 +29507,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = parqmun
-		size = 67
+		size = 20
 	}
 
 	artisans = {
@@ -29547,7 +29547,7 @@
 	soldiers = {
 		 culture = roshudbi
 		 religion = gyahki
-		 size = 261
+		 size = 78
 	}
 
 
@@ -29611,7 +29611,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -29651,7 +29651,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 641
+		 size = 192
 	}
 
 
@@ -29715,7 +29715,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 215
+		size = 64
 	}
 
 	artisans = {
@@ -29755,7 +29755,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 261
+		 size = 78
 	}
 
 
@@ -29819,7 +29819,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 1015
+		size = 304
 	}
 
 	artisans = {
@@ -29859,7 +29859,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = gyahki
-		 size = 1827
+		 size = 548
 	}
 
 
@@ -29923,7 +29923,7 @@
 	soldiers = {
 		culture = umodi
 		religion = gyahki
-		size = 375
+		size = 112
 	}
 
 	artisans = {
@@ -29963,7 +29963,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = gyahki
-		 size = 2283
+		 size = 684
 	}
 
 
@@ -30031,7 +30031,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1865
+		 size = 559
 	}
 
 
@@ -30099,7 +30099,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 877
+		 size = 263
 	}
 
 
@@ -30163,7 +30163,7 @@
 	soldiers = {
 		culture = nubiju
 		religion = jur
-		size = 43
+		size = 12
 	}
 
 	artisans = {
@@ -30199,7 +30199,7 @@
 	soldiers = {
 		culture = babhra
 		religion = parqmun
-		size = 124
+		size = 37
 	}
 
 	artisans = {
@@ -30239,7 +30239,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 3537
+		 size = 1061
 	}
 
 
@@ -30307,7 +30307,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 2701
+		 size = 810
 	}
 
 
@@ -30375,7 +30375,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 1945
+		 size = 583
 	}
 
 
@@ -30439,7 +30439,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = parqmun
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -30475,7 +30475,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -30515,7 +30515,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 1679
+		 size = 503
 	}
 
 
@@ -30583,7 +30583,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 45
+		 size = 13
 	}
 
 
@@ -30651,7 +30651,7 @@
 	soldiers = {
 		 culture = charch
 		 religion = jur
-		 size = 75
+		 size = 22
 	}
 
 
@@ -30715,7 +30715,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 232
+		size = 69
 	}
 
 	artisans = {
@@ -30755,7 +30755,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 649
+		 size = 194
 	}
 
 
@@ -30819,7 +30819,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 191
+		size = 57
 	}
 
 	artisans = {
@@ -30855,7 +30855,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 712
+		size = 213
 	}
 
 	artisans = {
@@ -30895,7 +30895,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 1568
+		 size = 470
 	}
 
 
@@ -30959,7 +30959,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -30995,7 +30995,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 191
+		size = 57
 	}
 
 	artisans = {
@@ -31031,7 +31031,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 312
+		size = 93
 	}
 
 	artisans = {
@@ -31071,7 +31071,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 238
+		 size = 71
 	}
 
 
@@ -31135,7 +31135,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -31171,7 +31171,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -31207,7 +31207,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 648
+		size = 194
 	}
 
 	artisans = {
@@ -31251,7 +31251,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -31287,7 +31287,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = gyahki
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -31323,7 +31323,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 248
+		size = 74
 	}
 
 	artisans = {
@@ -31363,7 +31363,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = gyahki
-		 size = 349
+		 size = 104
 	}
 
 
@@ -31427,7 +31427,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = gyahki
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -31463,7 +31463,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 448
+		size = 134
 	}
 
 	artisans = {
@@ -31503,7 +31503,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 273
+		 size = 81
 	}
 
 
@@ -31567,7 +31567,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 535
+		size = 160
 	}
 
 	artisans = {
@@ -31607,7 +31607,7 @@
 	soldiers = {
 		 culture = roshudbi
 		 religion = gyahki
-		 size = 2173
+		 size = 651
 	}
 
 
@@ -31671,7 +31671,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 1175
+		size = 352
 	}
 
 	artisans = {
@@ -31711,7 +31711,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1603
+		 size = 480
 	}
 
 
@@ -31775,7 +31775,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 955
+		size = 286
 	}
 
 	artisans = {
@@ -31811,7 +31811,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = parqmun
-		size = 675
+		size = 202
 	}
 
 	artisans = {
@@ -31851,7 +31851,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 752
+		 size = 225
 	}
 
 
@@ -31915,7 +31915,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 659
+		size = 197
 	}
 
 	artisans = {
@@ -31951,7 +31951,7 @@
 	soldiers = {
 		culture = roshudbi
 		religion = parqmun
-		size = 415
+		size = 124
 	}
 
 	artisans = {
@@ -31991,7 +31991,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 516
+		 size = 154
 	}
 
 
@@ -32055,7 +32055,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 527
+		size = 158
 	}
 
 	artisans = {
@@ -32095,7 +32095,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 376
+		 size = 112
 	}
 
 
@@ -32159,7 +32159,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 128
+		size = 38
 	}
 
 	artisans = {
@@ -32199,7 +32199,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = gyahki
-		 size = 991
+		 size = 297
 	}
 
 
@@ -32267,7 +32267,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 307
+		 size = 92
 	}
 
 
@@ -32331,7 +32331,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 340
+		size = 102
 	}
 
 	artisans = {
@@ -32371,7 +32371,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 535
+		 size = 160
 	}
 
 
@@ -32435,7 +32435,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = gyahki
-		size = 47
+		size = 14
 	}
 
 	artisans = {
@@ -32475,7 +32475,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 193
+		 size = 57
 	}
 
 
@@ -32539,7 +32539,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 411
+		size = 123
 	}
 
 	artisans = {
@@ -32579,7 +32579,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 611
+		 size = 183
 	}
 
 
@@ -32643,7 +32643,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = gyahki
-		size = 244
+		size = 73
 	}
 
 	artisans = {
@@ -32683,7 +32683,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 162
+		 size = 48
 	}
 
 
@@ -32747,7 +32747,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 244
+		size = 73
 	}
 
 	artisans = {
@@ -32787,7 +32787,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = gyahki
-		 size = 770
+		 size = 231
 	}
 
 
@@ -32851,7 +32851,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = gyahki
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -32891,7 +32891,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 98
+		 size = 29
 	}
 
 
@@ -32959,7 +32959,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2758
+		 size = 827
 	}
 
 
@@ -33027,7 +33027,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1238
+		 size = 371
 	}
 
 
@@ -33095,7 +33095,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2416
+		 size = 724
 	}
 
 
@@ -33163,7 +33163,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 516
+		 size = 154
 	}
 
 
@@ -33231,7 +33231,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1846
+		 size = 553
 	}
 
 
@@ -33299,7 +33299,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1643
+		 size = 492
 	}
 
 
@@ -33367,7 +33367,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1643
+		 size = 492
 	}
 
 
@@ -33435,7 +33435,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -33503,7 +33503,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2609
+		 size = 782
 	}
 
 
@@ -33571,7 +33571,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2578
+		 size = 773
 	}
 
 
@@ -33639,7 +33639,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2198
+		 size = 659
 	}
 
 
@@ -33707,7 +33707,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1780
+		 size = 534
 	}
 
 
@@ -33775,7 +33775,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2920
+		 size = 876
 	}
 
 
@@ -33843,7 +33843,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2666
+		 size = 799
 	}
 
 
@@ -33911,7 +33911,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1146
+		 size = 343
 	}
 
 
@@ -33979,7 +33979,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 842
+		 size = 252
 	}
 
 
@@ -34047,7 +34047,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 956
+		 size = 286
 	}
 
 
@@ -34115,7 +34115,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2856
+		 size = 856
 	}
 
 
@@ -34183,7 +34183,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 310
+		 size = 93
 	}
 
 
@@ -34251,7 +34251,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1811
+		 size = 543
 	}
 
 
@@ -34319,7 +34319,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2571
+		 size = 771
 	}
 
 
@@ -34387,7 +34387,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1051
+		 size = 315
 	}
 
 
@@ -34455,7 +34455,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2343
+		 size = 702
 	}
 
 
@@ -34523,7 +34523,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 443
+		 size = 132
 	}
 
 
@@ -34591,7 +34591,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1963
+		 size = 588
 	}
 
 
@@ -34659,7 +34659,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1697
+		 size = 509
 	}
 
 
@@ -34727,7 +34727,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2153
+		 size = 645
 	}
 
 
@@ -34795,7 +34795,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 557
+		 size = 167
 	}
 
 
@@ -34863,7 +34863,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 443
+		 size = 132
 	}
 
 
@@ -34931,7 +34931,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 595
+		 size = 178
 	}
 
 
@@ -34999,7 +34999,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 355
+		 size = 106
 	}
 
 
@@ -35063,7 +35063,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -35099,7 +35099,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 61
+		size = 18
 	}
 
 	artisans = {
@@ -35139,7 +35139,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 42
+		 size = 12
 	}
 
 
@@ -35203,7 +35203,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -35239,7 +35239,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 141
+		size = 42
 	}
 
 	artisans = {
@@ -35279,7 +35279,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 42
+		 size = 12
 	}
 
 
@@ -35347,7 +35347,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 536
+		 size = 160
 	}
 
 
@@ -35415,7 +35415,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 954
+		 size = 286
 	}
 
 
@@ -35483,7 +35483,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2474
+		 size = 742
 	}
 
 
@@ -35551,7 +35551,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 2322
+		 size = 696
 	}
 
 
@@ -35615,7 +35615,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 273
+		size = 81
 	}
 
 	artisans = {
@@ -35655,7 +35655,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 1372
+		 size = 411
 	}
 
 
@@ -35719,7 +35719,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 393
+		size = 117
 	}
 
 	artisans = {
@@ -35759,7 +35759,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 612
+		 size = 183
 	}
 
 
@@ -35823,7 +35823,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = gyahki
-		size = 215
+		size = 64
 	}
 
 	artisans = {
@@ -35859,7 +35859,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 193
+		size = 57
 	}
 
 	artisans = {
@@ -35899,7 +35899,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 574
+		 size = 172
 	}
 
 
@@ -35963,7 +35963,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 95
+		size = 28
 	}
 
 	artisans = {
@@ -35999,7 +35999,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -36039,7 +36039,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = gyahki
-		 size = 308
+		 size = 92
 	}
 
 
@@ -36103,7 +36103,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 565
+		size = 169
 	}
 
 	artisans = {
@@ -36143,7 +36143,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 1068
+		 size = 320
 	}
 
 
@@ -36207,7 +36207,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 485
+		size = 145
 	}
 
 	artisans = {
@@ -36247,7 +36247,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 308
+		 size = 92
 	}
 
 
@@ -36315,7 +36315,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 346
+		 size = 103
 	}
 
 
@@ -36379,7 +36379,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 685
+		size = 205
 	}
 
 	artisans = {
@@ -36419,7 +36419,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 1106
+		 size = 331
 	}
 
 
@@ -36483,7 +36483,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 285
+		size = 85
 	}
 
 	artisans = {
@@ -36523,7 +36523,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 232
+		 size = 69
 	}
 
 
@@ -36587,7 +36587,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 365
+		size = 109
 	}
 
 	artisans = {
@@ -36627,7 +36627,7 @@
 	soldiers = {
 		 culture = goshaja
 		 religion = parqmun
-		 size = 612
+		 size = 183
 	}
 
 
@@ -36691,7 +36691,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 765
+		size = 229
 	}
 
 	artisans = {
@@ -36731,7 +36731,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 1752
+		 size = 525
 	}
 
 
@@ -36795,7 +36795,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 189
+		size = 56
 	}
 
 	artisans = {
@@ -36831,7 +36831,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 245
+		size = 73
 	}
 
 	artisans = {
@@ -36871,7 +36871,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 80
+		 size = 24
 	}
 
 
@@ -36935,7 +36935,7 @@
 	soldiers = {
 		culture = goshaja
 		religion = parqmun
-		size = 1045
+		size = 313
 	}
 
 	artisans = {
@@ -36975,7 +36975,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 1600
+		 size = 480
 	}
 
 
@@ -37039,7 +37039,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 429
+		size = 128
 	}
 
 	artisans = {
@@ -37075,7 +37075,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 645
+		size = 193
 	}
 
 	artisans = {
@@ -37115,7 +37115,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 156
+		 size = 46
 	}
 
 
@@ -37179,7 +37179,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 1445
+		size = 433
 	}
 
 	artisans = {
@@ -37219,7 +37219,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 1676
+		 size = 502
 	}
 
 
@@ -37283,7 +37283,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 425
+		size = 127
 	}
 
 	artisans = {
@@ -37319,7 +37319,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 853
+		size = 255
 	}
 
 	artisans = {
@@ -37359,7 +37359,7 @@
 	soldiers = {
 		 culture = nubiju
 		 religion = parqmun
-		 size = 483
+		 size = 144
 	}
 
 
@@ -37423,7 +37423,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = pagan
-		size = 105
+		size = 31
 	}
 
 	artisans = {
@@ -37459,7 +37459,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 213
+		size = 63
 	}
 
 	artisans = {
@@ -37499,7 +37499,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 293
+		 size = 87
 	}
 
 
@@ -37563,7 +37563,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 185
+		size = 55
 	}
 
 	artisans = {
@@ -37599,7 +37599,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 53
+		size = 15
 	}
 
 	artisans = {
@@ -37639,7 +37639,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 255
+		 size = 76
 	}
 
 
@@ -37703,7 +37703,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 133
+		size = 39
 	}
 
 	artisans = {
@@ -37743,7 +37743,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 787
+		 size = 236
 	}
 
 
@@ -37807,7 +37807,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 933
+		size = 279
 	}
 
 	artisans = {
@@ -37847,7 +37847,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1813
+		 size = 543
 	}
 
 
@@ -37915,7 +37915,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = jur
-		 size = 1053
+		 size = 315
 	}
 
 
@@ -37979,7 +37979,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 413
+		size = 123
 	}
 
 	artisans = {
@@ -38019,7 +38019,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = jur
-		 size = 673
+		 size = 201
 	}
 
 
@@ -38083,7 +38083,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 453
+		size = 135
 	}
 
 	artisans = {
@@ -38123,7 +38123,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = jur
-		 size = 2193
+		 size = 657
 	}
 
 
@@ -38187,7 +38187,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 293
+		size = 87
 	}
 
 	artisans = {
@@ -38227,7 +38227,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1053
+		 size = 315
 	}
 
 
@@ -38291,7 +38291,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 265
+		size = 79
 	}
 
 	artisans = {
@@ -38327,7 +38327,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 693
+		size = 207
 	}
 
 	artisans = {
@@ -38367,7 +38367,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1813
+		 size = 543
 	}
 
 
@@ -38435,7 +38435,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1965
+		 size = 589
 	}
 
 
@@ -38499,7 +38499,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 853
+		size = 255
 	}
 
 	artisans = {
@@ -38539,7 +38539,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1091
+		 size = 327
 	}
 
 
@@ -38603,7 +38603,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 93
+		size = 27
 	}
 
 	artisans = {
@@ -38643,7 +38643,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 255
+		 size = 76
 	}
 
 
@@ -38707,7 +38707,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 185
+		size = 55
 	}
 
 	artisans = {
@@ -38747,7 +38747,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 407
+		 size = 122
 	}
 
 
@@ -38811,7 +38811,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 345
+		size = 103
 	}
 
 	artisans = {
@@ -38851,7 +38851,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 673
+		 size = 201
 	}
 
 
@@ -38915,7 +38915,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = parqmun
-		size = 505
+		size = 151
 	}
 
 	artisans = {
@@ -38955,7 +38955,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = gyahki
-		 size = 1433
+		 size = 429
 	}
 
 
@@ -39019,7 +39019,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 1225
+		size = 367
 	}
 
 	artisans = {
@@ -39059,7 +39059,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 901
+		 size = 270
 	}
 
 
@@ -39123,7 +39123,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 345
+		size = 103
 	}
 
 	artisans = {
@@ -39163,7 +39163,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 179
+		 size = 53
 	}
 
 
@@ -39227,7 +39227,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 65
+		size = 19
 	}
 
 	artisans = {
@@ -39267,7 +39267,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 103
+		 size = 30
 	}
 
 
@@ -39335,7 +39335,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -39399,7 +39399,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 65
+		size = 19
 	}
 
 	artisans = {
@@ -39439,7 +39439,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 49
+		 size = 14
 	}
 
 
@@ -39507,7 +39507,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 125
+		 size = 37
 	}
 
 
@@ -39571,7 +39571,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 25
+		size = 7
 	}
 
 	artisans = {
@@ -39607,7 +39607,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 33
+		size = 9
 	}
 
 	artisans = {
@@ -39647,7 +39647,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 80
+		 size = 24
 	}
 
 
@@ -39715,7 +39715,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 118
+		 size = 35
 	}
 
 
@@ -39779,7 +39779,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -39819,7 +39819,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 106
+		 size = 31
 	}
 
 
@@ -39887,7 +39887,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 106
+		 size = 31
 	}
 
 
@@ -39951,7 +39951,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 112
+		size = 33
 	}
 
 	artisans = {
@@ -39991,7 +39991,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 8
+		 size = 2
 	}
 
 
@@ -40059,7 +40059,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 312
+		 size = 93
 	}
 
 
@@ -40127,7 +40127,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 410
+		 size = 123
 	}
 
 
@@ -40191,7 +40191,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = jur
-		size = 295
+		size = 88
 	}
 
 	artisans = {
@@ -40227,7 +40227,7 @@
 	soldiers = {
 		culture = ighoureth
 		religion = gyahki
-		size = 225
+		size = 67
 	}
 
 	artisans = {
@@ -40267,7 +40267,7 @@
 	soldiers = {
 		 culture = ighoureth
 		 religion = parqmun
-		 size = 1816
+		 size = 544
 	}
 
 
@@ -40331,7 +40331,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 185
+		size = 55
 	}
 
 	artisans = {
@@ -40371,7 +40371,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 296
+		 size = 88
 	}
 
 
@@ -40439,7 +40439,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 410
+		 size = 123
 	}
 
 
@@ -40507,7 +40507,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 334
+		 size = 100
 	}
 
 
@@ -40571,7 +40571,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 135
+		size = 40
 	}
 
 	artisans = {
@@ -40607,7 +40607,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 22
+		size = 6
 	}
 
 	artisans = {
@@ -40647,7 +40647,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 32
+		 size = 9
 	}
 
 
@@ -40704,7 +40704,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 729
+		size = 218
 	}
 
 	artisans = {
@@ -40740,7 +40740,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 76
+		size = 22
 	}
 
 	artisans = {
@@ -40780,7 +40780,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 122
+		 size = 36
 	}
 
 
@@ -40837,7 +40837,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 189
+		size = 56
 	}
 
 	artisans = {
@@ -40873,7 +40873,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 616
+		size = 184
 	}
 
 	artisans = {
@@ -40913,7 +40913,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 1022
+		 size = 306
 	}
 
 
@@ -40970,7 +40970,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 27
+		size = 8
 	}
 
 	artisans = {
@@ -41006,7 +41006,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 256
+		size = 76
 	}
 
 	artisans = {
@@ -41046,7 +41046,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 716
+		 size = 214
 	}
 
 
@@ -41103,7 +41103,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 153
+		size = 45
 	}
 
 	artisans = {
@@ -41139,7 +41139,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 184
+		size = 55
 	}
 
 	artisans = {
@@ -41179,7 +41179,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 662
+		 size = 198
 	}
 
 
@@ -41236,7 +41236,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 15
+		size = 4
 	}
 
 	artisans = {
@@ -41272,7 +41272,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 18
+		size = 5
 	}
 
 	artisans = {
@@ -41308,7 +41308,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 148
+		size = 44
 	}
 
 	artisans = {
@@ -41344,7 +41344,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 112
+		size = 33
 	}
 
 	artisans = {
@@ -41384,7 +41384,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 194
+		 size = 58
 	}
 
 
@@ -41441,7 +41441,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 255
+		size = 76
 	}
 
 	artisans = {
@@ -41477,7 +41477,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 70
+		size = 21
 	}
 
 	artisans = {
@@ -41513,7 +41513,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 26
+		size = 7
 	}
 
 	artisans = {
@@ -41549,7 +41549,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 28
+		size = 8
 	}
 
 	artisans = {
@@ -41589,7 +41589,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 37
+		 size = 11
 	}
 
 
@@ -41646,7 +41646,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 201
+		size = 60
 	}
 
 	artisans = {
@@ -41682,7 +41682,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -41718,7 +41718,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 134
+		size = 40
 	}
 
 	artisans = {
@@ -41754,7 +41754,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 46
+		size = 13
 	}
 
 	artisans = {
@@ -41794,7 +41794,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 25
+		 size = 7
 	}
 
 
@@ -41851,7 +41851,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 219
+		size = 65
 	}
 
 	artisans = {
@@ -41887,7 +41887,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 88
+		size = 26
 	}
 
 	artisans = {
@@ -41923,7 +41923,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 134
+		size = 40
 	}
 
 	artisans = {
@@ -41959,7 +41959,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 46
+		size = 13
 	}
 
 	artisans = {
@@ -41999,7 +41999,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 322
+		 size = 96
 	}
 
 
@@ -42056,7 +42056,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -42092,7 +42092,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 70
+		size = 21
 	}
 
 	artisans = {
@@ -42128,7 +42128,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 296
+		size = 88
 	}
 
 	artisans = {
@@ -42164,7 +42164,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -42204,7 +42204,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 664
+		 size = 199
 	}
 
 
@@ -42261,7 +42261,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -42297,7 +42297,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = motkohnic
-		size = 3
+		size = 0
 	}
 
 	artisans = {
@@ -42333,7 +42333,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = pagan
-		size = 296
+		size = 88
 	}
 
 	artisans = {
@@ -42369,7 +42369,7 @@
 	soldiers = {
 		culture = hohraeth
 		religion = motkohnic
-		size = 46
+		size = 13
 	}
 
 	artisans = {
@@ -42409,7 +42409,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 21
+		 size = 6
 	}
 
 
@@ -42460,7 +42460,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 32
+		size = 9
 	}
 
 	artisans = {
@@ -42514,7 +42514,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 152
+		size = 45
 	}
 
 	artisans = {
@@ -42554,7 +42554,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 1094
+		 size = 328
 	}
 
 
@@ -42612,7 +42612,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 68
+		size = 20
 	}
 
 	artisans = {
@@ -42666,7 +42666,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 48
+		size = 14
 	}
 
 	artisans = {
@@ -42706,7 +42706,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 1170
+		 size = 351
 	}
 
 
@@ -42764,7 +42764,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 14
+		size = 4
 	}
 
 	artisans = {
@@ -42818,7 +42818,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 104
+		size = 31
 	}
 
 	artisans = {
@@ -42858,7 +42858,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 1056
+		 size = 316
 	}
 
 
@@ -42916,7 +42916,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 28
+		size = 8
 	}
 
 	artisans = {
@@ -42970,7 +42970,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 144
+		size = 43
 	}
 
 	artisans = {
@@ -43010,7 +43010,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 774
+		 size = 232
 	}
 
 
@@ -43068,7 +43068,7 @@
 	soldiers = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 16
+		size = 4
 	}
 
 	artisans = {
@@ -43122,7 +43122,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = pagan
-		size = 264
+		size = 79
 	}
 
 	artisans = {
@@ -43162,7 +43162,7 @@
 	soldiers = {
 		 culture = hohraeth
 		 religion = pagan
-		 size = 660
+		 size = 198
 	}
 
 
@@ -43226,7 +43226,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -43266,7 +43266,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 166
+		 size = 49
 	}
 
 
@@ -43330,7 +43330,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -43370,7 +43370,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 124
+		 size = 37
 	}
 
 
@@ -43434,7 +43434,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -43474,7 +43474,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 339
+		 size = 101
 	}
 
 
@@ -43538,7 +43538,7 @@
 	soldiers = {
 		culture = hrusaan
 		religion = gyahki
-		size = 36
+		size = 10
 	}
 
 	artisans = {
@@ -43578,7 +43578,7 @@
 	soldiers = {
 		 culture = hrusaan
 		 religion = pagan
-		 size = 491
+		 size = 147
 	}
 
 
@@ -43642,7 +43642,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 156
+		size = 46
 	}
 
 	artisans = {
@@ -43682,7 +43682,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 3151
+		 size = 945
 	}
 
 
@@ -43746,7 +43746,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 68
+		size = 20
 	}
 
 	artisans = {
@@ -43786,7 +43786,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 354
+		 size = 106
 	}
 
 
@@ -43850,7 +43850,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 188
+		size = 56
 	}
 
 	artisans = {
@@ -43890,7 +43890,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2520
+		 size = 756
 	}
 
 
@@ -43954,7 +43954,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 252
+		size = 75
 	}
 
 	artisans = {
@@ -43994,7 +43994,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2642
+		 size = 792
 	}
 
 
@@ -44058,7 +44058,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -44098,7 +44098,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2338
+		 size = 701
 	}
 
 
@@ -44162,7 +44162,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -44202,7 +44202,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2680
+		 size = 804
 	}
 
 
@@ -44266,7 +44266,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 212
+		size = 63
 	}
 
 	artisans = {
@@ -44306,7 +44306,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 400
+		 size = 120
 	}
 
 
@@ -44370,7 +44370,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 252
+		size = 75
 	}
 
 	artisans = {
@@ -44410,7 +44410,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2300
+		 size = 690
 	}
 
 
@@ -44474,7 +44474,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 412
+		size = 123
 	}
 
 	artisans = {
@@ -44514,7 +44514,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2072
+		 size = 621
 	}
 
 
@@ -44578,7 +44578,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 412
+		size = 123
 	}
 
 	artisans = {
@@ -44618,7 +44618,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 552
+		 size = 165
 	}
 
 
@@ -44682,7 +44682,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 772
+		size = 231
 	}
 
 	artisans = {
@@ -44722,7 +44722,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2452
+		 size = 735
 	}
 
 
@@ -44786,7 +44786,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 572
+		size = 171
 	}
 
 	artisans = {
@@ -44826,7 +44826,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1122
+		 size = 336
 	}
 
 
@@ -44890,7 +44890,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -44930,7 +44930,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 894
+		 size = 268
 	}
 
 
@@ -44994,7 +44994,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 252
+		size = 75
 	}
 
 	artisans = {
@@ -45034,7 +45034,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 1654
+		 size = 496
 	}
 
 
@@ -45098,7 +45098,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 132
+		size = 39
 	}
 
 	artisans = {
@@ -45138,7 +45138,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 1882
+		 size = 564
 	}
 
 
@@ -45202,7 +45202,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -45242,7 +45242,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 1920
+		 size = 576
 	}
 
 
@@ -45306,7 +45306,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -45346,7 +45346,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2604
+		 size = 781
 	}
 
 
@@ -45410,7 +45410,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 692
+		size = 207
 	}
 
 	artisans = {
@@ -45450,7 +45450,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2300
+		 size = 690
 	}
 
 
@@ -45516,7 +45516,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 812
+		size = 243
 	}
 
 	artisans = {
@@ -45556,7 +45556,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2908
+		 size = 872
 	}
 
 
@@ -45620,7 +45620,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 1972
+		size = 591
 	}
 
 	artisans = {
@@ -45660,7 +45660,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 1388
+		 size = 416
 	}
 
 
@@ -45724,7 +45724,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 132
+		size = 39
 	}
 
 	artisans = {
@@ -45764,7 +45764,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 552
+		 size = 165
 	}
 
 
@@ -45828,7 +45828,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 252
+		size = 75
 	}
 
 	artisans = {
@@ -45868,7 +45868,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 324
+		 size = 97
 	}
 
 
@@ -45932,7 +45932,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -45972,7 +45972,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2224
+		 size = 667
 	}
 
 
@@ -46036,7 +46036,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -46076,7 +46076,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 1084
+		 size = 325
 	}
 
 
@@ -46140,7 +46140,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -46180,7 +46180,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2566
+		 size = 769
 	}
 
 
@@ -46244,7 +46244,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 172
+		size = 51
 	}
 
 	artisans = {
@@ -46284,7 +46284,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 666
+		 size = 199
 	}
 
 
@@ -46348,7 +46348,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 412
+		size = 123
 	}
 
 	artisans = {
@@ -46388,7 +46388,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2186
+		 size = 655
 	}
 
 
@@ -46452,7 +46452,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 1052
+		size = 315
 	}
 
 	artisans = {
@@ -46492,7 +46492,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1426
+		 size = 427
 	}
 
 
@@ -46556,7 +46556,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 1172
+		size = 351
 	}
 
 	artisans = {
@@ -46596,7 +46596,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1730
+		 size = 519
 	}
 
 
@@ -46660,7 +46660,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 300
+		size = 90
 	}
 
 	artisans = {
@@ -46700,7 +46700,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2631
+		 size = 789
 	}
 
 
@@ -46764,7 +46764,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 260
+		size = 78
 	}
 
 	artisans = {
@@ -46804,7 +46804,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 3391
+		 size = 1017
 	}
 
 
@@ -46868,7 +46868,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 740
+		size = 222
 	}
 
 	artisans = {
@@ -46908,7 +46908,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 6431
+		 size = 1929
 	}
 
 
@@ -46972,7 +46972,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 340
+		size = 102
 	}
 
 	artisans = {
@@ -47012,7 +47012,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 4151
+		 size = 1245
 	}
 
 
@@ -47076,7 +47076,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 1136
+		size = 340
 	}
 
 	artisans = {
@@ -47116,7 +47116,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2327
+		 size = 698
 	}
 
 
@@ -47180,7 +47180,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 56
+		size = 16
 	}
 
 	artisans = {
@@ -47220,7 +47220,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -47284,7 +47284,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 216
+		size = 64
 	}
 
 	artisans = {
@@ -47324,7 +47324,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 2669
+		 size = 800
 	}
 
 
@@ -47388,7 +47388,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 32
+		size = 9
 	}
 
 	artisans = {
@@ -47428,7 +47428,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 389
+		 size = 116
 	}
 
 
@@ -47492,7 +47492,7 @@
 	soldiers = {
 		culture = asyum
 		religion = jur
-		size = 152
+		size = 45
 	}
 
 	artisans = {
@@ -47532,7 +47532,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = pagan
-		 size = 351
+		 size = 105
 	}
 
 
@@ -47596,7 +47596,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 212
+		size = 63
 	}
 
 	artisans = {
@@ -47636,7 +47636,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1491
+		 size = 447
 	}
 
 
@@ -47700,7 +47700,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -47740,7 +47740,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1111
+		 size = 333
 	}
 
 
@@ -47804,7 +47804,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 132
+		size = 39
 	}
 
 	artisans = {
@@ -47844,7 +47844,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2251
+		 size = 675
 	}
 
 
@@ -47908,7 +47908,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -47948,7 +47948,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -48012,7 +48012,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -48052,7 +48052,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2783
+		 size = 834
 	}
 
 
@@ -48116,7 +48116,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 132
+		size = 39
 	}
 
 	artisans = {
@@ -48156,7 +48156,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -48220,7 +48220,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 212
+		size = 63
 	}
 
 	artisans = {
@@ -48260,7 +48260,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2669
+		 size = 800
 	}
 
 
@@ -48324,7 +48324,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 412
+		size = 123
 	}
 
 	artisans = {
@@ -48364,7 +48364,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 3049
+		 size = 914
 	}
 
 
@@ -48428,7 +48428,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 252
+		size = 75
 	}
 
 	artisans = {
@@ -48468,7 +48468,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2289
+		 size = 686
 	}
 
 
@@ -48532,7 +48532,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 292
+		size = 87
 	}
 
 	artisans = {
@@ -48572,7 +48572,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -48636,7 +48636,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 212
+		size = 63
 	}
 
 	artisans = {
@@ -48676,7 +48676,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2023
+		 size = 606
 	}
 
 
@@ -48740,7 +48740,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -48780,7 +48780,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 123
+		 size = 36
 	}
 
 
@@ -48844,7 +48844,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -48884,7 +48884,7 @@
 	soldiers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 7
+		 size = 2
 	}
 
 
@@ -48941,7 +48941,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 360
+		size = 108
 	}
 
 	artisans = {
@@ -48981,7 +48981,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 503
+		 size = 150
 	}
 
 
@@ -49045,7 +49045,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 320
+		size = 96
 	}
 
 	artisans = {
@@ -49085,7 +49085,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 617
+		 size = 185
 	}
 
 
@@ -49149,7 +49149,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 320
+		size = 96
 	}
 
 	artisans = {
@@ -49189,7 +49189,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 2403
+		 size = 720
 	}
 
 
@@ -49253,7 +49253,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 240
+		size = 72
 	}
 
 	artisans = {
@@ -49293,7 +49293,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 503
+		 size = 150
 	}
 
 
@@ -49357,7 +49357,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 360
+		size = 108
 	}
 
 	artisans = {
@@ -49397,7 +49397,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 465
+		 size = 139
 	}
 
 
@@ -49461,7 +49461,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 320
+		size = 96
 	}
 
 	artisans = {
@@ -49501,7 +49501,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 579
+		 size = 173
 	}
 
 
@@ -49565,7 +49565,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 400
+		size = 120
 	}
 
 	artisans = {
@@ -49605,7 +49605,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1339
+		 size = 401
 	}
 
 
@@ -49669,7 +49669,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 440
+		size = 132
 	}
 
 	artisans = {
@@ -49709,7 +49709,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 579
+		 size = 173
 	}
 
 
@@ -49773,7 +49773,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 120
+		size = 36
 	}
 
 	artisans = {
@@ -49813,7 +49813,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 1529
+		 size = 458
 	}
 
 
@@ -49877,7 +49877,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 400
+		size = 120
 	}
 
 	artisans = {
@@ -49917,7 +49917,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 465
+		 size = 139
 	}
 
 
@@ -49981,7 +49981,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -50021,7 +50021,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 579
+		 size = 173
 	}
 
 
@@ -50085,7 +50085,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -50125,7 +50125,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 389
+		 size = 116
 	}
 
 
@@ -50189,7 +50189,7 @@
 	soldiers = {
 		culture = asyum
 		religion = pagan
-		size = 400
+		size = 120
 	}
 
 	artisans = {
@@ -50229,7 +50229,7 @@
 	soldiers = {
 		 culture = asyum
 		 religion = jur
-		 size = 427
+		 size = 128
 	}
 
 
@@ -50293,7 +50293,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -50333,7 +50333,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -50397,7 +50397,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 128
+		size = 38
 	}
 
 	artisans = {
@@ -50437,7 +50437,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 3
+		 size = 0
 	}
 
 
@@ -50501,7 +50501,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 120
+		size = 36
 	}
 
 	artisans = {
@@ -50541,7 +50541,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 11
+		 size = 3
 	}
 
 
@@ -50605,7 +50605,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -50645,7 +50645,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 428
+		 size = 128
 	}
 
 
@@ -50709,7 +50709,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 120
+		size = 36
 	}
 
 	artisans = {
@@ -50749,7 +50749,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 10
+		 size = 3
 	}
 
 
@@ -50813,7 +50813,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 240
+		size = 72
 	}
 
 	artisans = {
@@ -50853,7 +50853,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 314
+		 size = 94
 	}
 
 
@@ -50917,7 +50917,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 120
+		size = 36
 	}
 
 	artisans = {
@@ -50957,7 +50957,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 6
+		 size = 1
 	}
 
 
@@ -51021,7 +51021,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 120
+		size = 36
 	}
 
 	artisans = {
@@ -51061,7 +51061,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 6
+		 size = 1
 	}
 
 
@@ -51129,7 +51129,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 382
+		 size = 114
 	}
 
 
@@ -51197,7 +51197,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 420
+		 size = 126
 	}
 
 
@@ -51265,7 +51265,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 344
+		 size = 103
 	}
 
 
@@ -51333,7 +51333,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1750
+		 size = 525
 	}
 
 
@@ -51401,7 +51401,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2510
+		 size = 753
 	}
 
 
@@ -51469,7 +51469,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2598
+		 size = 779
 	}
 
 
@@ -51537,7 +51537,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1458
+		 size = 437
 	}
 
 
@@ -51605,7 +51605,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1648
+		 size = 494
 	}
 
 
@@ -51673,7 +51673,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 515
+		 size = 154
 	}
 
 
@@ -51741,7 +51741,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1275
+		 size = 382
 	}
 
 
@@ -51809,7 +51809,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2408
+		 size = 722
 	}
 
 
@@ -51877,7 +51877,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2788
+		 size = 836
 	}
 
 
@@ -51941,7 +51941,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 608
+		size = 182
 	}
 
 	artisans = {
@@ -51981,7 +51981,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 2826
+		 size = 847
 	}
 
 
@@ -52045,7 +52045,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 1408
+		size = 422
 	}
 
 	artisans = {
@@ -52085,7 +52085,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 9666
+		 size = 2899
 	}
 
 
@@ -52149,7 +52149,7 @@
 	soldiers = {
 		culture = gji
 		religion = dkatkang
-		size = 808
+		size = 242
 	}
 
 	artisans = {
@@ -52189,7 +52189,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 8982
+		 size = 2694
 	}
 
 
@@ -52253,7 +52253,7 @@
 	soldiers = {
 		culture = gji
 		religion = dkatkang
-		size = 488
+		size = 146
 	}
 
 	artisans = {
@@ -52293,7 +52293,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2142
+		 size = 642
 	}
 
 
@@ -52357,7 +52357,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 535
+		size = 160
 	}
 
 	artisans = {
@@ -52393,7 +52393,7 @@
 	soldiers = {
 		culture = gji
 		religion = dkatkang
-		size = 888
+		size = 266
 	}
 
 	artisans = {
@@ -52433,7 +52433,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 2142
+		 size = 642
 	}
 
 
@@ -52501,7 +52501,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1002
+		 size = 300
 	}
 
 
@@ -52565,7 +52565,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 535
+		size = 160
 	}
 
 	artisans = {
@@ -52605,7 +52605,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 166
+		 size = 49
 	}
 
 
@@ -52669,7 +52669,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 335
+		size = 100
 	}
 
 	artisans = {
@@ -52705,7 +52705,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 688
+		size = 206
 	}
 
 	artisans = {
@@ -52745,7 +52745,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 1534
+		 size = 460
 	}
 
 
@@ -52809,7 +52809,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 1088
+		size = 326
 	}
 
 	artisans = {
@@ -52849,7 +52849,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 1648
+		 size = 494
 	}
 
 
@@ -52913,7 +52913,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 147
+		size = 44
 	}
 
 	artisans = {
@@ -52949,7 +52949,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 128
+		size = 38
 	}
 
 	artisans = {
@@ -52989,7 +52989,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 166
+		 size = 49
 	}
 
 
@@ -53053,7 +53053,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 307
+		size = 92
 	}
 
 	artisans = {
@@ -53093,7 +53093,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 2294
+		 size = 688
 	}
 
 
@@ -53157,7 +53157,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 1445
+		size = 433
 	}
 
 	artisans = {
@@ -53197,7 +53197,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 1116
+		 size = 334
 	}
 
 
@@ -53261,7 +53261,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 325
+		size = 97
 	}
 
 	artisans = {
@@ -53297,7 +53297,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 288
+		size = 86
 	}
 
 	artisans = {
@@ -53337,7 +53337,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 128
+		 size = 38
 	}
 
 
@@ -53401,7 +53401,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 368
+		size = 110
 	}
 
 	artisans = {
@@ -53441,7 +53441,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 90
+		 size = 27
 	}
 
 
@@ -53505,7 +53505,7 @@
 	soldiers = {
 		culture = gji
 		religion = dkatkang
-		size = 48
+		size = 14
 	}
 
 	artisans = {
@@ -53545,7 +53545,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 1610
+		 size = 483
 	}
 
 
@@ -53609,7 +53609,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 725
+		size = 217
 	}
 
 	artisans = {
@@ -53649,7 +53649,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 1610
+		 size = 483
 	}
 
 
@@ -53713,7 +53713,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 205
+		size = 61
 	}
 
 	artisans = {
@@ -53753,7 +53753,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 850
+		 size = 255
 	}
 
 
@@ -53817,7 +53817,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = pagan
-		size = 215
+		size = 64
 	}
 
 	artisans = {
@@ -53857,7 +53857,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 736
+		 size = 220
 	}
 
 
@@ -53921,7 +53921,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 45
+		size = 13
 	}
 
 	artisans = {
@@ -53957,7 +53957,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 88
+		size = 26
 	}
 
 	artisans = {
@@ -53997,7 +53997,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = dkatkang
-		 size = 356
+		 size = 106
 	}
 
 
@@ -54065,7 +54065,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 356
+		 size = 106
 	}
 
 
@@ -54129,7 +54129,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = pagan
-		size = 215
+		size = 64
 	}
 
 	artisans = {
@@ -54165,7 +54165,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -54205,7 +54205,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = dkatkang
-		 size = 546
+		 size = 163
 	}
 
 
@@ -54269,7 +54269,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = dkatkang
-		size = 55
+		size = 16
 	}
 
 	artisans = {
@@ -54305,7 +54305,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 125
+		size = 37
 	}
 
 	artisans = {
@@ -54345,7 +54345,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 356
+		 size = 106
 	}
 
 
@@ -54409,7 +54409,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 175
+		size = 52
 	}
 
 	artisans = {
@@ -54445,7 +54445,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 21
+		size = 6
 	}
 
 	artisans = {
@@ -54485,7 +54485,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 470
+		 size = 141
 	}
 
 
@@ -54549,7 +54549,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 31
+		size = 9
 	}
 
 	artisans = {
@@ -54589,7 +54589,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 1762
+		 size = 528
 	}
 
 
@@ -54653,7 +54653,7 @@
 	soldiers = {
 		culture = gajadi
 		religion = pagan
-		size = 488
+		size = 146
 	}
 
 	artisans = {
@@ -54693,7 +54693,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 1382
+		 size = 414
 	}
 
 
@@ -54761,7 +54761,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 546
+		 size = 163
 	}
 
 
@@ -54829,7 +54829,7 @@
 	soldiers = {
 		 culture = geep
 		 religion = pagan
-		 size = 465
+		 size = 139
 	}
 
 
@@ -54893,7 +54893,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 48
+		size = 14
 	}
 
 	artisans = {
@@ -54933,7 +54933,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 321
+		 size = 96
 	}
 
 
@@ -54997,7 +54997,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 48
+		size = 14
 	}
 
 	artisans = {
@@ -55037,7 +55037,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 397
+		 size = 119
 	}
 
 
@@ -55101,7 +55101,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 271
+		size = 81
 	}
 
 	artisans = {
@@ -55141,7 +55141,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 663
+		 size = 198
 	}
 
 
@@ -55205,7 +55205,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 151
+		size = 45
 	}
 
 	artisans = {
@@ -55241,7 +55241,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 61
+		size = 18
 	}
 
 	artisans = {
@@ -55281,7 +55281,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 283
+		 size = 84
 	}
 
 
@@ -55345,7 +55345,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 391
+		size = 117
 	}
 
 	artisans = {
@@ -55385,7 +55385,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 625
+		 size = 187
 	}
 
 
@@ -55449,7 +55449,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 431
+		size = 129
 	}
 
 	artisans = {
@@ -55485,7 +55485,7 @@
 	soldiers = {
 		culture = gajada
 		religion = pagan
-		size = 169
+		size = 50
 	}
 
 	artisans = {
@@ -55525,7 +55525,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 321
+		 size = 96
 	}
 
 
@@ -55589,7 +55589,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 71
+		size = 21
 	}
 
 	artisans = {
@@ -55629,7 +55629,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 321
+		 size = 96
 	}
 
 
@@ -55697,7 +55697,7 @@
 	soldiers = {
 		 culture = mipabi
 		 religion = pagan
-		 size = 359
+		 size = 107
 	}
 
 
@@ -55761,7 +55761,7 @@
 	soldiers = {
 		culture = gji
 		religion = juewaeg
-		size = 93
+		size = 27
 	}
 
 	artisans = {
@@ -55801,7 +55801,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 316
+		 size = 94
 	}
 
 
@@ -55865,7 +55865,7 @@
 	soldiers = {
 		culture = gji
 		religion = juewaeg
-		size = 173
+		size = 51
 	}
 
 	artisans = {
@@ -55905,7 +55905,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 240
+		 size = 72
 	}
 
 
@@ -55973,7 +55973,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 202
+		 size = 60
 	}
 
 
@@ -56041,7 +56041,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 88
+		 size = 26
 	}
 
 
@@ -56109,7 +56109,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 126
+		 size = 37
 	}
 
 
@@ -56173,7 +56173,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 293
+		size = 87
 	}
 
 	artisans = {
@@ -56213,7 +56213,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 544
+		 size = 163
 	}
 
 
@@ -56281,7 +56281,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 354
+		 size = 106
 	}
 
 
@@ -56349,7 +56349,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 620
+		 size = 186
 	}
 
 
@@ -56417,7 +56417,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 164
+		 size = 49
 	}
 
 
@@ -56483,7 +56483,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -56546,7 +56546,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 25
+		size = 7
 	}
 
 	artisans = {
@@ -56586,7 +56586,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 92
+		 size = 27
 	}
 
 
@@ -56654,7 +56654,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -56722,7 +56722,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 119
+		 size = 35
 	}
 
 
@@ -56786,7 +56786,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 48
+		size = 14
 	}
 
 	artisans = {
@@ -56826,7 +56826,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 157
+		 size = 47
 	}
 
 
@@ -56890,7 +56890,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 24
+		size = 7
 	}
 
 	artisans = {
@@ -56930,7 +56930,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 119
+		 size = 35
 	}
 
 
@@ -56998,7 +56998,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 423
+		 size = 126
 	}
 
 
@@ -57062,7 +57062,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 249
+		size = 74
 	}
 
 	artisans = {
@@ -57102,7 +57102,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 537
+		 size = 161
 	}
 
 
@@ -57166,7 +57166,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 89
+		size = 26
 	}
 
 	artisans = {
@@ -57202,7 +57202,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 64
+		size = 19
 	}
 
 	artisans = {
@@ -57242,7 +57242,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = pagan
-		 size = 81
+		 size = 24
 	}
 
 
@@ -57306,7 +57306,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -57346,7 +57346,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 347
+		 size = 104
 	}
 
 
@@ -57414,7 +57414,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 423
+		 size = 126
 	}
 
 
@@ -57482,7 +57482,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 727
+		 size = 218
 	}
 
 
@@ -57546,7 +57546,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 212
+		size = 63
 	}
 
 	artisans = {
@@ -57586,7 +57586,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 271
+		 size = 81
 	}
 
 
@@ -57650,7 +57650,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -57690,7 +57690,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 385
+		 size = 115
 	}
 
 
@@ -57754,7 +57754,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 532
+		size = 159
 	}
 
 	artisans = {
@@ -57794,7 +57794,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 309
+		 size = 92
 	}
 
 
@@ -57858,7 +57858,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -57898,7 +57898,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 575
+		 size = 172
 	}
 
 
@@ -57962,7 +57962,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -58002,7 +58002,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 81
+		 size = 24
 	}
 
 
@@ -58066,7 +58066,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -58106,7 +58106,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 423
+		 size = 126
 	}
 
 
@@ -58174,7 +58174,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 651
+		 size = 195
 	}
 
 
@@ -58242,7 +58242,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 696
+		 size = 208
 	}
 
 
@@ -58306,7 +58306,7 @@
 	soldiers = {
 		culture = khrayian
 		religion = pagan
-		size = 92
+		size = 27
 	}
 
 	artisans = {
@@ -58346,7 +58346,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 658
+		 size = 197
 	}
 
 
@@ -58414,7 +58414,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 392
+		 size = 117
 	}
 
 
@@ -58482,7 +58482,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 354
+		 size = 106
 	}
 
 
@@ -58550,7 +58550,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 544
+		 size = 163
 	}
 
 
@@ -58618,7 +58618,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 696
+		 size = 208
 	}
 
 
@@ -58682,7 +58682,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 28
+		size = 8
 	}
 
 	artisans = {
@@ -58722,7 +58722,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -58786,7 +58786,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 9
+		size = 2
 	}
 
 	artisans = {
@@ -58826,7 +58826,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -58890,7 +58890,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 449
+		size = 134
 	}
 
 	artisans = {
@@ -58930,7 +58930,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 2015
+		 size = 604
 	}
 
 
@@ -58994,7 +58994,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 609
+		size = 182
 	}
 
 	artisans = {
@@ -59030,7 +59030,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 268
+		size = 80
 	}
 
 	artisans = {
@@ -59070,7 +59070,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 761
+		 size = 228
 	}
 
 
@@ -59134,7 +59134,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 1169
+		size = 350
 	}
 
 	artisans = {
@@ -59170,7 +59170,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 188
+		size = 56
 	}
 
 	artisans = {
@@ -59210,7 +59210,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 1407
+		 size = 422
 	}
 
 
@@ -59274,7 +59274,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 200
+		size = 60
 	}
 
 	artisans = {
@@ -59314,7 +59314,7 @@
 	soldiers = {
 		 culture = khrayian
 		 religion = pagan
-		 size = 267
+		 size = 80
 	}
 
 
@@ -59378,7 +59378,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1329
+		size = 398
 	}
 
 	artisans = {
@@ -59414,7 +59414,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 588
+		size = 176
 	}
 
 	artisans = {
@@ -59454,7 +59454,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1787
+		 size = 536
 	}
 
 
@@ -59518,7 +59518,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1209
+		size = 362
 	}
 
 	artisans = {
@@ -59558,7 +59558,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 457
+		 size = 137
 	}
 
 
@@ -59622,7 +59622,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 569
+		size = 170
 	}
 
 	artisans = {
@@ -59662,7 +59662,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1977
+		 size = 593
 	}
 
 
@@ -59726,7 +59726,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1769
+		size = 530
 	}
 
 	artisans = {
@@ -59766,7 +59766,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1217
+		 size = 365
 	}
 
 
@@ -59830,7 +59830,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1009
+		size = 302
 	}
 
 	artisans = {
@@ -59870,7 +59870,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 875
+		 size = 262
 	}
 
 
@@ -59934,7 +59934,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 409
+		size = 122
 	}
 
 	artisans = {
@@ -59974,7 +59974,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 2015
+		 size = 604
 	}
 
 
@@ -60038,7 +60038,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1209
+		size = 362
 	}
 
 	artisans = {
@@ -60074,7 +60074,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 228
+		size = 68
 	}
 
 	artisans = {
@@ -60114,7 +60114,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 2395
+		 size = 718
 	}
 
 
@@ -60178,7 +60178,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 105
+		size = 31
 	}
 
 	artisans = {
@@ -60214,7 +60214,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 529
+		size = 158
 	}
 
 	artisans = {
@@ -60254,7 +60254,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1255
+		 size = 376
 	}
 
 
@@ -60318,7 +60318,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 265
+		size = 79
 	}
 
 	artisans = {
@@ -60354,7 +60354,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 369
+		size = 110
 	}
 
 	artisans = {
@@ -60390,7 +60390,7 @@
 	soldiers = {
 		culture = thaunti
 		religion = pagan
-		size = 348
+		size = 104
 	}
 
 	artisans = {
@@ -60430,7 +60430,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1217
+		 size = 365
 	}
 
 
@@ -60494,7 +60494,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 665
+		size = 199
 	}
 
 	artisans = {
@@ -60530,7 +60530,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 409
+		size = 122
 	}
 
 	artisans = {
@@ -60570,7 +60570,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 837
+		 size = 251
 	}
 
 
@@ -60634,7 +60634,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 113
+		size = 33
 	}
 
 	artisans = {
@@ -60670,7 +60670,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1209
+		size = 362
 	}
 
 	artisans = {
@@ -60710,7 +60710,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1711
+		 size = 513
 	}
 
 
@@ -60774,7 +60774,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 73
+		size = 21
 	}
 
 	artisans = {
@@ -60810,7 +60810,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 249
+		size = 74
 	}
 
 	artisans = {
@@ -60850,7 +60850,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1487
+		 size = 446
 	}
 
 
@@ -60914,7 +60914,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 49
+		size = 14
 	}
 
 	artisans = {
@@ -60950,7 +60950,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 649
+		size = 194
 	}
 
 	artisans = {
@@ -60990,7 +60990,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 955
+		 size = 286
 	}
 
 
@@ -61054,7 +61054,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 25
+		size = 7
 	}
 
 	artisans = {
@@ -61090,7 +61090,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1449
+		size = 434
 	}
 
 	artisans = {
@@ -61130,7 +61130,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 309
+		 size = 92
 	}
 
 
@@ -61194,7 +61194,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 85
+		size = 25
 	}
 
 	artisans = {
@@ -61230,7 +61230,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1289
+		size = 386
 	}
 
 	artisans = {
@@ -61270,7 +61270,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1449
+		 size = 434
 	}
 
 
@@ -61334,7 +61334,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 205
+		size = 61
 	}
 
 	artisans = {
@@ -61370,7 +61370,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1169
+		size = 350
 	}
 
 	artisans = {
@@ -61410,7 +61410,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1145
+		 size = 343
 	}
 
 
@@ -61474,7 +61474,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 125
+		size = 37
 	}
 
 	artisans = {
@@ -61510,7 +61510,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 1329
+		size = 398
 	}
 
 	artisans = {
@@ -61550,7 +61550,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = vewugi
-		 size = 1183
+		 size = 354
 	}
 
 
@@ -61614,7 +61614,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 125
+		size = 37
 	}
 
 	artisans = {
@@ -61650,7 +61650,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 529
+		size = 158
 	}
 
 	artisans = {
@@ -61690,7 +61690,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = jur
-		 size = 271
+		 size = 81
 	}
 
 
@@ -61754,7 +61754,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -61790,7 +61790,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 929
+		size = 278
 	}
 
 	artisans = {
@@ -61830,7 +61830,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = jur
-		 size = 423
+		 size = 126
 	}
 
 
@@ -61894,7 +61894,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 285
+		size = 85
 	}
 
 	artisans = {
@@ -61930,7 +61930,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 929
+		size = 278
 	}
 
 	artisans = {
@@ -61970,7 +61970,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = vewugi
-		 size = 2171
+		 size = 651
 	}
 
 
@@ -62034,7 +62034,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 45
+		size = 13
 	}
 
 	artisans = {
@@ -62070,7 +62070,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 449
+		size = 134
 	}
 
 	artisans = {
@@ -62110,7 +62110,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = vewugi
-		 size = 499
+		 size = 149
 	}
 
 
@@ -62174,7 +62174,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -62210,7 +62210,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 49
+		size = 14
 	}
 
 	artisans = {
@@ -62250,7 +62250,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = vewugi
-		 size = 2323
+		 size = 696
 	}
 
 
@@ -62314,7 +62314,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 325
+		size = 97
 	}
 
 	artisans = {
@@ -62350,7 +62350,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 129
+		size = 38
 	}
 
 	artisans = {
@@ -62390,7 +62390,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 1183
+		 size = 354
 	}
 
 
@@ -62454,7 +62454,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 85
+		size = 25
 	}
 
 	artisans = {
@@ -62490,7 +62490,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 369
+		size = 110
 	}
 
 	artisans = {
@@ -62530,7 +62530,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 765
+		 size = 229
 	}
 
 
@@ -62594,7 +62594,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = jur
-		size = 45
+		size = 13
 	}
 
 	artisans = {
@@ -62630,7 +62630,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 165
+		size = 49
 	}
 
 	artisans = {
@@ -62666,7 +62666,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 769
+		size = 230
 	}
 
 	artisans = {
@@ -62706,7 +62706,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 1867
+		 size = 560
 	}
 
 
@@ -62770,7 +62770,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 129
+		size = 38
 	}
 
 	artisans = {
@@ -62810,7 +62810,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 727
+		 size = 218
 	}
 
 
@@ -62934,7 +62934,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 588
+		size = 176
 	}
 
 	artisans = {
@@ -62974,7 +62974,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 1639
+		 size = 491
 	}
 
 
@@ -63038,7 +63038,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 17
+		size = 5
 	}
 
 	artisans = {
@@ -63074,7 +63074,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 289
+		size = 86
 	}
 
 	artisans = {
@@ -63110,7 +63110,7 @@
 	soldiers = {
 		culture = gji
 		religion = juewaeg
-		size = 148
+		size = 44
 	}
 
 	artisans = {
@@ -63150,7 +63150,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 157
+		 size = 47
 	}
 
 
@@ -63214,7 +63214,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 308
+		size = 92
 	}
 
 	artisans = {
@@ -63254,7 +63254,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 537
+		 size = 161
 	}
 
 
@@ -63318,7 +63318,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 161
+		size = 48
 	}
 
 	artisans = {
@@ -63354,7 +63354,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 41
+		size = 12
 	}
 
 	artisans = {
@@ -63390,7 +63390,7 @@
 	soldiers = {
 		culture = geep
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -63430,7 +63430,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 172
+		 size = 51
 	}
 
 
@@ -63494,7 +63494,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 121
+		size = 36
 	}
 
 	artisans = {
@@ -63530,7 +63530,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 181
+		size = 54
 	}
 
 	artisans = {
@@ -63570,7 +63570,7 @@
 	soldiers = {
 		 culture = gajadi
 		 religion = pagan
-		 size = 267
+		 size = 80
 	}
 
 
@@ -63634,7 +63634,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 201
+		size = 60
 	}
 
 	artisans = {
@@ -63670,7 +63670,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 101
+		size = 30
 	}
 
 	artisans = {
@@ -63706,7 +63706,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -63746,7 +63746,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 84
+		 size = 25
 	}
 
 
@@ -63810,7 +63810,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 281
+		size = 84
 	}
 
 	artisans = {
@@ -63846,7 +63846,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 61
+		size = 18
 	}
 
 	artisans = {
@@ -63882,7 +63882,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 52
+		size = 15
 	}
 
 	artisans = {
@@ -63922,7 +63922,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 95
+		 size = 28
 	}
 
 
@@ -63986,7 +63986,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 121
+		size = 36
 	}
 
 	artisans = {
@@ -64022,7 +64022,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 5
+		size = 1
 	}
 
 	artisans = {
@@ -64058,7 +64058,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 28
+		size = 8
 	}
 
 	artisans = {
@@ -64098,7 +64098,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 57
+		 size = 17
 	}
 
 
@@ -64162,7 +64162,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 81
+		size = 24
 	}
 
 	artisans = {
@@ -64198,7 +64198,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 17
+		size = 5
 	}
 
 	artisans = {
@@ -64234,7 +64234,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -64274,7 +64274,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 19
+		 size = 5
 	}
 
 
@@ -64338,7 +64338,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -64378,7 +64378,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 110
+		 size = 33
 	}
 
 
@@ -64446,7 +64446,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 338
+		 size = 101
 	}
 
 
@@ -64514,7 +64514,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -64578,7 +64578,7 @@
 	soldiers = {
 		culture = mipabi
 		religion = orangrel
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -64618,7 +64618,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 228
+		 size = 68
 	}
 
 
@@ -64686,7 +64686,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -64750,7 +64750,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 160
+		size = 48
 	}
 
 	artisans = {
@@ -64790,7 +64790,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 57
+		 size = 17
 	}
 
 
@@ -64854,7 +64854,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -64894,7 +64894,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -64958,7 +64958,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -64998,7 +64998,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 76
+		 size = 22
 	}
 
 
@@ -65062,7 +65062,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 16
+		size = 4
 	}
 
 	artisans = {
@@ -65102,7 +65102,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 266
+		 size = 79
 	}
 
 
@@ -65166,7 +65166,7 @@
 	soldiers = {
 		culture = gji
 		religion = juewaeg
-		size = 17
+		size = 5
 	}
 
 	artisans = {
@@ -65202,7 +65202,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 56
+		size = 16
 	}
 
 	artisans = {
@@ -65242,7 +65242,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 228
+		 size = 68
 	}
 
 
@@ -65306,7 +65306,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 361
+		size = 108
 	}
 
 	artisans = {
@@ -65342,7 +65342,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -65382,7 +65382,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 380
+		 size = 114
 	}
 
 
@@ -65446,7 +65446,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 241
+		size = 72
 	}
 
 	artisans = {
@@ -65482,7 +65482,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -65522,7 +65522,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 114
+		 size = 34
 	}
 
 
@@ -65586,7 +65586,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -65626,7 +65626,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 266
+		 size = 79
 	}
 
 
@@ -65690,7 +65690,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -65730,7 +65730,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 304
+		 size = 91
 	}
 
 
@@ -65794,7 +65794,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -65834,7 +65834,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 76
+		 size = 22
 	}
 
 
@@ -65898,7 +65898,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 200
+		size = 60
 	}
 
 	artisans = {
@@ -65938,7 +65938,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 76
+		 size = 22
 	}
 
 
@@ -66002,7 +66002,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 41
+		size = 12
 	}
 
 	artisans = {
@@ -66038,7 +66038,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -66078,7 +66078,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -66142,7 +66142,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 41
+		size = 12
 	}
 
 	artisans = {
@@ -66178,7 +66178,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -66218,7 +66218,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -66282,7 +66282,7 @@
 	soldiers = {
 		culture = pomiga
 		religion = juewaeg
-		size = 41
+		size = 12
 	}
 
 	artisans = {
@@ -66318,7 +66318,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 41
+		size = 12
 	}
 
 	artisans = {
@@ -66354,7 +66354,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 40
+		size = 12
 	}
 
 	artisans = {
@@ -66394,7 +66394,7 @@
 	soldiers = {
 		 culture = gji
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -66458,7 +66458,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -66498,7 +66498,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 190
+		 size = 57
 	}
 
 
@@ -66562,7 +66562,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -66602,7 +66602,7 @@
 	soldiers = {
 		 culture = pomiga
 		 religion = juewaeg
-		 size = 38
+		 size = 11
 	}
 
 
@@ -66666,7 +66666,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 200
+		size = 60
 	}
 
 	artisans = {
@@ -66706,7 +66706,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -66770,7 +66770,7 @@
 	soldiers = {
 		culture = gji
 		religion = pagan
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -66810,7 +66810,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -66878,7 +66878,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 285
+		 size = 85
 	}
 
 
@@ -66946,7 +66946,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 171
+		 size = 51
 	}
 
 
@@ -67014,7 +67014,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 274
+		 size = 82
 	}
 
 
@@ -67078,7 +67078,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = juewaeg
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -67118,7 +67118,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -67182,7 +67182,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = juewaeg
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -67222,7 +67222,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -67290,7 +67290,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -67358,7 +67358,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -67426,7 +67426,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -67490,7 +67490,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 100
+		size = 30
 	}
 
 	artisans = {
@@ -67530,7 +67530,7 @@
 	soldiers = {
 		 culture = wushauw
 		 religion = pagan
-		 size = 19
+		 size = 5
 	}
 
 
@@ -67594,7 +67594,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 100
+		size = 30
 	}
 
 	artisans = {
@@ -67634,7 +67634,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 285
+		 size = 85
 	}
 
 
@@ -67698,7 +67698,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 161
+		size = 48
 	}
 
 	artisans = {
@@ -67734,7 +67734,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 220
+		size = 66
 	}
 
 	artisans = {
@@ -67774,7 +67774,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 361
+		 size = 108
 	}
 
 
@@ -67838,7 +67838,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -67878,7 +67878,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -67942,7 +67942,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = vewugi
-		size = 20
+		size = 6
 	}
 
 	artisans = {
@@ -67982,7 +67982,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
@@ -68050,7 +68050,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -68114,7 +68114,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 201
+		size = 60
 	}
 
 	artisans = {
@@ -68150,7 +68150,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = jur
-		size = 280
+		size = 84
 	}
 
 	artisans = {
@@ -68190,7 +68190,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 381
+		 size = 114
 	}
 
 
@@ -68258,7 +68258,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -68326,7 +68326,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 115
+		 size = 34
 	}
 
 
@@ -68390,7 +68390,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 80
+		size = 24
 	}
 
 	artisans = {
@@ -68430,7 +68430,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 39
+		 size = 11
 	}
 
 
@@ -68494,7 +68494,7 @@
 	soldiers = {
 		culture = wushauw
 		religion = pagan
-		size = 8
+		size = 2
 	}
 
 	artisans = {
@@ -68534,7 +68534,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 108
+		 size = 32
 	}
 
 
@@ -68602,7 +68602,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -68670,7 +68670,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -68738,7 +68738,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 114
+		 size = 34
 	}
 
 
@@ -68802,7 +68802,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 4
+		size = 1
 	}
 
 	artisans = {
@@ -68842,7 +68842,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 110
+		 size = 33
 	}
 
 
@@ -68906,7 +68906,7 @@
 	soldiers = {
 		culture = fauhwozi
 		religion = pagan
-		size = 12
+		size = 3
 	}
 
 	artisans = {
@@ -68946,7 +68946,7 @@
 	soldiers = {
 		 culture = foussuni
 		 religion = pagan
-		 size = 103
+		 size = 30
 	}
 
 
@@ -69010,7 +69010,7 @@
 	soldiers = {
 		culture = foussuni
 		religion = pagan
-		size = 21
+		size = 6
 	}
 
 	artisans = {
@@ -69050,7 +69050,7 @@
 	soldiers = {
 		 culture = fauhwozi
 		 religion = pagan
-		 size = 95
+		 size = 28
 	}
 
 
