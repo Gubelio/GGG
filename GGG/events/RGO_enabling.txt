@@ -2,7 +2,7 @@
 
 province_event = {
     id = 50035 ## OIL ENABLING FIRST WAVE
-    title = "EVTNAME5035" 
+    title = "EVTNAME50035" 
     desc = "EVTDESC50035"
 
 	mean_time_to_happen = {

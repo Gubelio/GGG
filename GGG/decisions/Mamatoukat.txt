@@ -73,7 +73,7 @@ political_decisions = {
 		effect = {
 			badboy = 18
 			prestige = 20
-			add_accepted_culture = mamoujoy
+			add_accepted_culture = maumoujoy
 			MAM = { all_core = { add_core = YAM } }
 			YAM = { country_event = { id = 50054 } }
 			set_global_flag = embrace_the_mamatoukat			

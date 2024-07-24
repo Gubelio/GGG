@@ -68,6 +68,7 @@ EVT50018OPTC;Issue an official declaration forgiving their debt.;;;;;;;;;;;;;
 EVTNAME50019;$FROMCOUNTRY$ Goes Bankrupt!;;;;;;;;;;;;;
 EVTDESC50019;Wave after wave of selling again moved down prices on the Stock Exchange today and billions of moji were clipped from values. Traders surged about brokerage offices watching their holdings wiped out.... It was one of the worst breaks in history.... For a time, in the morning, the market was showing signs of rallying power.... Then new waves of selling out of poorly margined accounts started another reaction...\n\n$FROMCOUNTRY$ has gone bankrupt and defaulted on all their debts. We must use our military might if we want to safeguard our investors.;;;;;;;;;;;;;
 EVT50019OPTA;The $FROMCOUNTRY_ADJ$ better pay their debts.;;;;;;;;;;;;;
+EVT50019OPTB;Issue an official declaration forgiving their debt.;;;;;;;;;;;;;
 EVTNAME50020;$PROVINCENAME$ Old Naval Base;;;;;;;;;;;;;
 EVTDESC50020;A half abandoned leviathan stuck in the coast. That is how locals in $PROVINCENAME$ describe the decrepit facilities of the old naval base that used to be a local asset strategically important for the $COUNTRY_ADJ$ government. In truth, the naval base has been in decline for a long while and the government defaulting is just the rock bottom. Hit with a severe economic recession in $YEAR$, $COUNTRY_ADJ$ politicians in $CAPITAL$ have no money to spend on repairing and maintaining non-essential staff and facilities.;;;;;;;;;;;;;
 EVT50020OPTA;A sad state of affairs;;;;;;;;;;;;;
@@ -163,7 +164,7 @@ EVTNAME50054;The Guiding hand of $FROMCOUNTRY$;;;;;;;;;;;;;
 EVTDESC50054;X;;;;;;;;;;;;;
 EVT50054OPTA;Brothers we shall be!;;;;;;;;;;;;;
 EVT50054OPTB;You're no brother of mine;;;;;;;;;;;;;
-EVTNAME50055;$PROVINCENAME$ recognized as an integral part of $COUNTRY$!;;;;;;;;;;;;;
+EVTNAME50055;$PROVINCENAME$ Cored!;;;;;;;;;;;;; #$PROVINCENAME$ recognized as an integral part of $COUNTRY$!
 EVTDESC50055;It has been long since $PROVINCENAME$ was added to our mighty domain. Many of our people now reside here and call $PROVINCENAME$ home. Both domestically and internationally $PROVINCENAME$ is referred to as an integral part of $PROVINCENAME$, without scrutiny or debate.;;;;;;;;;;;;;
 EVT50055OPTA;Excellent;;;;;;;;;;;;;
 EVTNAME50056;The Poumnian Demand!;;;;;;;;;;;;;
