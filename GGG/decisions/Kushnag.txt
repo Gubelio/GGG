@@ -1,0 +1,36 @@
+political_decisions = {
+
+	conquest_of_the_bushlands = {
+		potential = {
+			1856 = { empty = yes }
+			1872 = { empty = yes }
+			tag = KUS
+			NOT = { has_country_flag = conquest_of_the_bushlands }
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			KUS = { all_core = { owned_by = KUS } }
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+		}
+		
+		effect = {
+			badboy = 5
+			prestige = 10
+			1856 = { secede_province = THIS add_core = THIS }
+			1855 = { secede_province = THIS add_core = THIS }
+			1870 = { secede_province = THIS add_core = THIS }
+			1854 = { secede_province = THIS add_core = THIS }
+			1872 = { secede_province = THIS add_core = THIS }
+			1869 = { secede_province = THIS add_core = THIS }
+			1871 = { secede_province = THIS add_core = THIS }
+			set_country_flag = conquest_of_the_bushlands			
+		}
+	}
+
+
+}
