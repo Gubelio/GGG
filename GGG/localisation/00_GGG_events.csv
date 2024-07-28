@@ -158,16 +158,16 @@ EVTDESC50052;Rumors that the wretched $FROMCOUNTRY_ADJ$ have razed our holy site
 EVT50052OPTA;Ten thousand $FROMCOUNTRY_ADJ$ heads on pikes will line the ruins of the holy Drupe!;;;;;;;;;;;;;
 EVT50052OPTB;It is a shame, truly, but what do they want me to do about it?;;;;;;;;;;;;;
 EVTNAME50053;$FROMCOUNTRY$ has Razed the Great Drupe!;;;;;;;;;;;;;
-EVTDESC50053;X;;;;;;;;;;;;;
+EVTDESC50053;Reports have just trickled in that $FROMCOUNTRY$ has razed our Holy Drupe, a site of utmost importance in the Vewugi faith. Thousands of years of history and spiritual guidance have gone up in smoke due to this cursed war. Pious Vewugis across the nation cry out in anguish at this heinous loss. Many call for an end to the conflict that caused this, while others call for the heads of all leading officials. Whatever the future may hold for the millions of Vewugis around the world, we can be certain that never again will the light of the Great Vewug shine as brightly as it did even a few days ago.;;;;;;;;;;;;;
 EVT50053OPTA;May the great Vewug guide us through this!;;;;;;;;;;;;;
 EVTNAME50054;The Guiding hand of $FROMCOUNTRY$;;;;;;;;;;;;;
-EVTDESC50054;X;;;;;;;;;;;;;
+EVTDESC50054;It is no secret that the Yamoujoy and Maumoujoy peoples are one and the same. We speak the same language, worship the same gods, and live in the same manner! Even in our folktales, we are born as one family! When the Soil gave birth to the Sky's children, did not the Yamoujoy and Maumoujoy rise from the mud together? It has only been by the will of petty kings and dividing foreign Vewugis that we have become separate people, but now, $FROMCOUNTRY$ offers the people of $COUNTRY$ to form a union with them to finally unite our divided people. We are really in no position to refuse this offer with their domineering position over us, but their offer is kind and our people cheer loudly in the streets at the idea of a union.;;;;;;;;;;;;;
 EVT50054OPTA;Brothers we shall be!;;;;;;;;;;;;;
-EVT50054OPTB;You're no brother of mine;;;;;;;;;;;;;
+EVT50054OPTB;You're no brother of mine, $FROMCOUNTRY_ADJ$ swine!;;;;;;;;;;;;;
 EVTNAME50055;$PROVINCENAME$ Cored!;;;;;;;;;;;;; #$PROVINCENAME$ recognized as an integral part of $COUNTRY$!
 EVTDESC50055;It has been long since $PROVINCENAME$ was added to our mighty domain. Many of our people now reside here and call $PROVINCENAME$ home. Both domestically and internationally $PROVINCENAME$ is referred to as an integral part of $PROVINCENAME$, without scrutiny or debate.;;;;;;;;;;;;;
 EVT50055OPTA;Excellent;;;;;;;;;;;;;
 EVTNAME50056;The Poumnian Demand!;;;;;;;;;;;;;
-EVTDESC50056;X;;;;;;;;;;;;;
+EVTDESC50056;The time that many $COUNTRY_ADJ$s have feared would come has now finally come. The Poumnians, who for long have meddled in our affairs, seized our treasures, and yoked our people to their plows, have now officially demanded we become their protectorate. If we refuse, it will surely result in a swift invasion, the deaths of thousands, and the complete destruction of Aaykeum.;;;;;;;;;;;;;
 EVT50056OPTA;We will submit;;;;;;;;;;;;;
 EVT50056OPTB;Let them come!;;;;;;;;;;;;;
