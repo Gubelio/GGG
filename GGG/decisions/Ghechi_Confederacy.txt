@@ -1,7 +1,7 @@
 political_decisions = {
 
     the_ghan_gheecha_idea = {
-		image = "great_warrior"
+		#image = "great_warrior"
         potential = {
             tag = GHE
 			NOT = { has_country_flag = the_ghan_gheecha_idea }
