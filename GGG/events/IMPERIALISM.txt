@@ -391,7 +391,7 @@ country_event = { #Occupy sithuchi desert 1
     id = 50030
     title = "EVTNAME50030"
     desc = "EVTDESC50030"     
-	#picture = "south_american_native"
+	picture = "carl_hasch_libyan_desert"
 	
     mean_time_to_happen = {
         months = 60
@@ -423,7 +423,7 @@ country_event = { #Occupy sithuchi desert 2
     id = 50031
     title = "EVTNAME50031"
     desc = "EVTDESC50031"     
-	#picture = "south_american_native"
+	picture = "carl_hasch_libyan_desert"
 	
     mean_time_to_happen = {
         months = 60
@@ -455,7 +455,7 @@ country_event = { #Occupy sithuchi desert 3
     id = 50033
     title = "EVTNAME50033"
     desc = "EVTDESC50033"     
-	#picture = "south_american_native"
+	picture = "carl_hasch_libyan_desert"
 	
     mean_time_to_happen = {
         months = 60
