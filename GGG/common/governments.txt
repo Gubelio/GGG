@@ -14,7 +14,7 @@ paternalistic_council = {
     election = yes
     duration = 48
     appoint_ruling_party = yes
-    flagType = republic
+    flagType = communist
 }
 
 ###############
@@ -42,7 +42,7 @@ statist_bureaucracy = {
 
     election = yes
     appoint_ruling_party = yes
-    flagType = communist
+    flagType = republic
 }
 
 #absolute_autocracy = {
