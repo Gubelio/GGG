@@ -1,7 +1,7 @@
 political_decisions = {
 
     player_settings_open = {
-        alert = no
+        alert = yes
         potential = {
 			NOT = { year = 1309 }            
 			ai = no

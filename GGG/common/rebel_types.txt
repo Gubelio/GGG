@@ -1452,6 +1452,14 @@ pan_nationalist_rebels = {
 			factor = 1.015
 			political_reform_want = 0.15
 		}
+		
+        modifier = { #STOPS PAN-NATIONALISTS FROM FORMING KIIDNAZH!
+            factor = 0
+            country = {
+                is_culture_group = gashdzii
+            }
+        }
+		
 	}
  
  	#This is checked for EACH province in the Area of Operations
