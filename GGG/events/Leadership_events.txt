@@ -1,0 +1,595 @@
+#####################
+### SETUP & DEBUG ###
+#####################
+
+country_event = {
+    title = "EVTNAME65000" 
+    desc = "EVTDESC65000"
+    #picture = "Celebration"
+
+    id = 65000
+
+    trigger = {
+		nationalvalue = nv_none
+		OR = {
+			government = aristocratic_commonwealth
+			government = princely_despotate
+			government = theocracy
+		}
+		NOT = { has_global_flag = leadership_disabled_nv }
+    }
+
+    option = {
+        name = "EVT65000OPTA" 
+		random_list = {
+			1 = { nationalvalue = comfortable_optimist }
+			1 = { nationalvalue = staunch_conservative }
+			1 = { nationalvalue = indolent_landowner }
+			1 = { nationalvalue = wellspoken_statesman }
+			1 = { nationalvalue = striking_cavalier }
+			1 = { nationalvalue = milquetoast_orator }
+			1 = { nationalvalue = somber_diplomat }
+			1 = { nationalvalue = charming_jingoist }
+			1 = { nationalvalue = pragmatic_financier }
+			1 = { nationalvalue = hapless_buffoon }
+			1 = { nationalvalue = ruthless_schemer }
+			1 = { nationalvalue = oafish_brute }
+			1 = { nationalvalue = tepid_charmer }
+			1 = { nationalvalue = dashing_adventurer }
+			1 = { nationalvalue = churlish_hothead }
+			1 = { nationalvalue = pious_servant }
+			1 = { nationalvalue = relentless_driver }
+			1 = { nationalvalue = paranoid_tyrant }
+			1 = { nationalvalue = popular_veteran }
+			1 = { nationalvalue = diligent_administrator }
+			1 = { nationalvalue = radical_firebrand }
+			1 = { nationalvalue = affable_gentleman }
+			1 = { nationalvalue = crooked_bombast }
+			1 = { nationalvalue = polished_orator }
+			1 = { nationalvalue = lovable_figurehead }
+			1 = { nationalvalue = pigheaded_bully }
+			1 = { nationalvalue = stern_ideologue }
+			1 = { nationalvalue = impeccable_pleb }
+			1 = { nationalvalue = stoic_scholar }
+			1 = { nationalvalue = weathered_hermit }
+			1 = { nationalvalue = intricate_organizer }
+			1 = { nationalvalue = hateful_demagogue }
+			1 = { nationalvalue = inept_braggart }
+			1 = { nationalvalue = incapable_bore }
+			1 = { nationalvalue = traveled_envoy }
+			1 = { nationalvalue = learned_moralist }
+			1 = { nationalvalue = implacable_jingoist }
+			1 = { nationalvalue = pedantic_elder }
+			1 = { nationalvalue = wordy_sophist }
+			1 = { nationalvalue = neurotic_curmudgeon }
+			1 = { nationalvalue = sheltered_cynic }
+			1 = { nationalvalue = virtuous_exemplar }
+			1 = { nationalvalue = irritable_pedant }
+			1 = { nationalvalue = astute_oldguard }
+			1 = { nationalvalue = shrewd_toiler }
+			1 = { nationalvalue = spineless_charmer }
+			1 = { nationalvalue = lethargic_conformist }
+			1 = { nationalvalue = pugnacious_contrarian }
+			1 = { nationalvalue = paternalistic_overlord }
+			1 = { nationalvalue = kindly_dignitary }
+			1 = { nationalvalue = uncouth_halfwit }
+			1 = { nationalvalue = dogmatic_lecturer }
+			1 = { nationalvalue = priggish_malcontent }
+			1 = { nationalvalue = tepid_dissenter }
+			1 = { nationalvalue = adored_fool }
+			1 = { nationalvalue = sentimental_elder }
+			1 = { nationalvalue = simpering_legatee }
+		### DESPOTATE/THEOCRACY/COMMONWEALTH LEADERS
+			1 = { nationalvalue = ghoulish_noble }
+			1 = { nationalvalue = distracted_dilettante }
+			1 = { nationalvalue = tortured_misanthrope }
+			1 = { nationalvalue = uninterested_ruler }
+		}
+    }
+}
+
+country_event = {
+    title = "EVTNAME65001" 
+    desc = "EVTDESC65001"
+    #picture = "Celebration"
+
+    id = 65001
+
+    trigger = {
+		nationalvalue = nv_none
+		government = paternalistic_council
+		NOT = { has_global_flag = leadership_disabled_nv }
+    }
+
+    option = {
+        name = "EVT65001OPTA" 
+		random_list = {
+			1 = { nationalvalue = comfortable_optimist }
+			1 = { nationalvalue = staunch_conservative }
+			1 = { nationalvalue = indolent_landowner }
+			1 = { nationalvalue = wellspoken_statesman }
+			1 = { nationalvalue = striking_cavalier }
+			1 = { nationalvalue = milquetoast_orator }
+			1 = { nationalvalue = somber_diplomat }
+			1 = { nationalvalue = charming_jingoist }
+			1 = { nationalvalue = pragmatic_financier }
+			1 = { nationalvalue = hapless_buffoon }
+			1 = { nationalvalue = ruthless_schemer }
+			1 = { nationalvalue = oafish_brute }
+			1 = { nationalvalue = tepid_charmer }
+			1 = { nationalvalue = dashing_adventurer }
+			1 = { nationalvalue = churlish_hothead }
+			1 = { nationalvalue = pious_servant }
+			1 = { nationalvalue = relentless_driver }
+			1 = { nationalvalue = paranoid_tyrant }
+			1 = { nationalvalue = popular_veteran }
+			1 = { nationalvalue = diligent_administrator }
+			1 = { nationalvalue = radical_firebrand }
+			1 = { nationalvalue = affable_gentleman }
+			1 = { nationalvalue = crooked_bombast }
+			1 = { nationalvalue = polished_orator }
+			1 = { nationalvalue = lovable_figurehead }
+			1 = { nationalvalue = pigheaded_bully }
+			1 = { nationalvalue = stern_ideologue }
+			1 = { nationalvalue = impeccable_pleb }
+			1 = { nationalvalue = stoic_scholar }
+			1 = { nationalvalue = weathered_hermit }
+			1 = { nationalvalue = intricate_organizer }
+			1 = { nationalvalue = hateful_demagogue }
+			1 = { nationalvalue = inept_braggart }
+			1 = { nationalvalue = incapable_bore }
+			1 = { nationalvalue = traveled_envoy }
+			1 = { nationalvalue = learned_moralist }
+			1 = { nationalvalue = implacable_jingoist }
+			1 = { nationalvalue = pedantic_elder }
+			1 = { nationalvalue = wordy_sophist }
+			1 = { nationalvalue = neurotic_curmudgeon }
+			1 = { nationalvalue = sheltered_cynic }
+			1 = { nationalvalue = virtuous_exemplar }
+			1 = { nationalvalue = irritable_pedant }
+			1 = { nationalvalue = astute_oldguard }
+			1 = { nationalvalue = shrewd_toiler }
+			1 = { nationalvalue = spineless_charmer }
+			1 = { nationalvalue = lethargic_conformist }
+			1 = { nationalvalue = pugnacious_contrarian }
+			1 = { nationalvalue = paternalistic_overlord }
+			1 = { nationalvalue = kindly_dignitary }
+			1 = { nationalvalue = uncouth_halfwit }
+			1 = { nationalvalue = dogmatic_lecturer }
+			1 = { nationalvalue = priggish_malcontent }
+			1 = { nationalvalue = tepid_dissenter }
+			1 = { nationalvalue = adored_fool }
+			1 = { nationalvalue = sentimental_elder }
+			1 = { nationalvalue = simpering_legatee }
+		}
+    }
+}
+
+country_event = {
+    title = "EVTNAME65002" 
+    desc = "EVTDESC65002"
+    #picture = "Celebration"
+
+    id = 65002
+
+	is_triggered_only = yes
+
+    option = {
+        name = "EVT65002OPTA" 
+		any_country = {
+			nationalvalue = leadership_disabled
+		}
+    }
+}
+
+#######################
+### GENERAL CHANGES ###
+#######################
+
+country_event = {
+    title = "EVTNAME65003" ### ASSASSINATION
+    desc = "EVTDESC65003"
+    #picture = "Celebration"
+
+    id = 65003
+
+	trigger = {
+		NOT = { has_global_flag = leadership_disabled_nv }	
+	}
+	
+	mean_time_to_happen = {
+        months = 1200
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.9
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 9
+		}
+		
+		modifier = {
+           factor = 0.9
+		   unemployment = 0.05
+		   NOT = { unemployment = 0.1 }
+		}
+		modifier = {
+           factor = 0.8
+		   unemployment = 0.1
+		}
+		
+		modifier = { #Neglecting the welfare of the people
+           factor = 0.9
+		   NOT = { social_spending = 0.1 }
+		}
+		modifier = { #Taxing the poor over the rich
+           factor = 0.9
+		   rich_tax_above_poor = no
+		}
+		modifier = {
+           factor = 0.9
+		   election = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_recently_lost_war = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_unclaimed_cores = yes
+		}
+		modifier = { #if over infamy limit
+           factor = 0.9
+		   badboy = 1 
+		}
+		modifier = { #neglected crime fighting force
+           factor = 0.9
+		   NOT = { crime_fighting = 0.1 }
+		}
+		
+		modifier = { 
+           factor = 0.9
+		   NOT = { poor_strata_life_needs = 0.5 } 
+		}
+		modifier = { 
+           factor = 0.9
+		   NOT = { middle_strata_life_needs = 0.5 }
+		}
+		modifier = { 
+           factor = 0.8
+		   NOT = { rich_strata_life_needs = 0.5 } 
+		}
+
+		modifier = {
+           factor = 0.9
+		   war_exhaustion = 60
+		   NOT = { war_exhaustion = 95 }
+		}
+		modifier = {
+           factor = 0.8
+		   war_exhaustion = 95
+		}
+		
+		modifier = {
+           factor = 0.9
+		   has_country_modifier = in_bankrupcy
+		}
+		
+    }
+
+    option = {
+        name = "EVT65003OPTA" 
+		random_list = {
+			1 = { nationalvalue = comfortable_optimist }
+			1 = { nationalvalue = staunch_conservative }
+			1 = { nationalvalue = indolent_landowner }
+			1 = { nationalvalue = wellspoken_statesman }
+			1 = { nationalvalue = striking_cavalier }
+			1 = { nationalvalue = milquetoast_orator }
+			1 = { nationalvalue = somber_diplomat }
+			1 = { nationalvalue = charming_jingoist }
+			1 = { nationalvalue = pragmatic_financier }
+			1 = { nationalvalue = hapless_buffoon }
+			1 = { nationalvalue = ruthless_schemer }
+			1 = { nationalvalue = oafish_brute }
+			1 = { nationalvalue = tepid_charmer }
+			1 = { nationalvalue = dashing_adventurer }
+			1 = { nationalvalue = churlish_hothead }
+			1 = { nationalvalue = pious_servant }
+			1 = { nationalvalue = relentless_driver }
+			1 = { nationalvalue = paranoid_tyrant }
+			1 = { nationalvalue = popular_veteran }
+			1 = { nationalvalue = diligent_administrator }
+			1 = { nationalvalue = radical_firebrand }
+			1 = { nationalvalue = affable_gentleman }
+			1 = { nationalvalue = crooked_bombast }
+			1 = { nationalvalue = polished_orator }
+			1 = { nationalvalue = lovable_figurehead }
+			1 = { nationalvalue = pigheaded_bully }
+			1 = { nationalvalue = stern_ideologue }
+			1 = { nationalvalue = impeccable_pleb }
+			1 = { nationalvalue = stoic_scholar }
+			1 = { nationalvalue = weathered_hermit }
+			1 = { nationalvalue = intricate_organizer }
+			1 = { nationalvalue = hateful_demagogue }
+			1 = { nationalvalue = inept_braggart }
+			1 = { nationalvalue = incapable_bore }
+			1 = { nationalvalue = traveled_envoy }
+			1 = { nationalvalue = learned_moralist }
+			1 = { nationalvalue = implacable_jingoist }
+			1 = { nationalvalue = pedantic_elder }
+			1 = { nationalvalue = wordy_sophist }
+			1 = { nationalvalue = neurotic_curmudgeon }
+			1 = { nationalvalue = sheltered_cynic }
+			1 = { nationalvalue = virtuous_exemplar }
+			1 = { nationalvalue = irritable_pedant }
+			1 = { nationalvalue = astute_oldguard }
+			1 = { nationalvalue = shrewd_toiler }
+			1 = { nationalvalue = spineless_charmer }
+			1 = { nationalvalue = lethargic_conformist }
+			1 = { nationalvalue = pugnacious_contrarian }
+			1 = { nationalvalue = paternalistic_overlord }
+			1 = { nationalvalue = kindly_dignitary }
+			1 = { nationalvalue = uncouth_halfwit }
+			1 = { nationalvalue = dogmatic_lecturer }
+			1 = { nationalvalue = priggish_malcontent }
+			1 = { nationalvalue = tepid_dissenter }
+			1 = { nationalvalue = adored_fool }
+			1 = { nationalvalue = sentimental_elder }
+			1 = { nationalvalue = simpering_legatee }
+		### DESPOTATE/THEOCRACY/COMMONWEALTH LEADERS
+			1 = { nationalvalue = ghoulish_noble }
+			1 = { nationalvalue = distracted_dilettante }
+			1 = { nationalvalue = tortured_misanthrope }
+			1 = { nationalvalue = uninterested_ruler }
+		}
+    }
+}
+
+country_event = {
+    title = "EVTNAME65004" ### NATURAL DEATH
+    desc = "EVTDESC65004"
+    #picture = "Celebration"
+
+    id = 65004
+
+	trigger = {
+		NOT = { has_global_flag = leadership_disabled_nv }	
+	}
+	
+	mean_time_to_happen = {
+        months = 960 #~80 years	
+    }
+
+    option = {
+        name = "EVT65004OPTA" 
+		random_list = {
+			1 = { nationalvalue = comfortable_optimist }
+			1 = { nationalvalue = staunch_conservative }
+			1 = { nationalvalue = indolent_landowner }
+			1 = { nationalvalue = wellspoken_statesman }
+			1 = { nationalvalue = striking_cavalier }
+			1 = { nationalvalue = milquetoast_orator }
+			1 = { nationalvalue = somber_diplomat }
+			1 = { nationalvalue = charming_jingoist }
+			1 = { nationalvalue = pragmatic_financier }
+			1 = { nationalvalue = hapless_buffoon }
+			1 = { nationalvalue = ruthless_schemer }
+			1 = { nationalvalue = oafish_brute }
+			1 = { nationalvalue = tepid_charmer }
+			1 = { nationalvalue = dashing_adventurer }
+			1 = { nationalvalue = churlish_hothead }
+			1 = { nationalvalue = pious_servant }
+			1 = { nationalvalue = relentless_driver }
+			1 = { nationalvalue = paranoid_tyrant }
+			1 = { nationalvalue = popular_veteran }
+			1 = { nationalvalue = diligent_administrator }
+			1 = { nationalvalue = radical_firebrand }
+			1 = { nationalvalue = affable_gentleman }
+			1 = { nationalvalue = crooked_bombast }
+			1 = { nationalvalue = polished_orator }
+			1 = { nationalvalue = lovable_figurehead }
+			1 = { nationalvalue = pigheaded_bully }
+			1 = { nationalvalue = stern_ideologue }
+			1 = { nationalvalue = impeccable_pleb }
+			1 = { nationalvalue = stoic_scholar }
+			1 = { nationalvalue = weathered_hermit }
+			1 = { nationalvalue = intricate_organizer }
+			1 = { nationalvalue = hateful_demagogue }
+			1 = { nationalvalue = inept_braggart }
+			1 = { nationalvalue = incapable_bore }
+			1 = { nationalvalue = traveled_envoy }
+			1 = { nationalvalue = learned_moralist }
+			1 = { nationalvalue = implacable_jingoist }
+			1 = { nationalvalue = pedantic_elder }
+			1 = { nationalvalue = wordy_sophist }
+			1 = { nationalvalue = neurotic_curmudgeon }
+			1 = { nationalvalue = sheltered_cynic }
+			1 = { nationalvalue = virtuous_exemplar }
+			1 = { nationalvalue = irritable_pedant }
+			1 = { nationalvalue = astute_oldguard }
+			1 = { nationalvalue = shrewd_toiler }
+			1 = { nationalvalue = spineless_charmer }
+			1 = { nationalvalue = lethargic_conformist }
+			1 = { nationalvalue = pugnacious_contrarian }
+			1 = { nationalvalue = paternalistic_overlord }
+			1 = { nationalvalue = kindly_dignitary }
+			1 = { nationalvalue = uncouth_halfwit }
+			1 = { nationalvalue = dogmatic_lecturer }
+			1 = { nationalvalue = priggish_malcontent }
+			1 = { nationalvalue = tepid_dissenter }
+			1 = { nationalvalue = adored_fool }
+			1 = { nationalvalue = sentimental_elder }
+			1 = { nationalvalue = simpering_legatee }
+		### DESPOTATE/THEOCRACY/COMMONWEALTH LEADERS
+			1 = { nationalvalue = ghoulish_noble }
+			1 = { nationalvalue = distracted_dilettante }
+			1 = { nationalvalue = tortured_misanthrope }
+			1 = { nationalvalue = uninterested_ruler }
+		}
+    }
+}
+
+country_event = {
+    title = "EVTNAME65005" ### RESIGNATION
+    desc = "EVTDESC65005"
+    #picture = "Celebration"
+
+    id = 65005
+
+	trigger = {
+		NOT = { has_global_flag = leadership_disabled_nv }	
+	}
+	
+	mean_time_to_happen = { 
+        months = 960 #~80 years	
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.9
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 9
+		}
+		
+		modifier = {
+           factor = 0.9
+		   unemployment = 0.05
+		   NOT = { unemployment = 0.1 }
+		}
+		modifier = {
+           factor = 0.8
+		   unemployment = 0.1
+		}
+		
+		modifier = {
+           factor = 0.7
+		   has_recently_lost_war = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_unclaimed_cores = yes
+		}
+		modifier = { #if over infamy limit
+           factor = 0.9
+		   badboy = 1 
+		}
+		
+		modifier = { 
+           factor = 0.9
+		   NOT = { poor_strata_life_needs = 0.5 } 
+		}
+		modifier = { 
+           factor = 0.9
+		   NOT = { middle_strata_life_needs = 0.5 }
+		}
+		modifier = {
+           factor = 0.8
+		   NOT = { rich_strata_life_needs = 0.5 } 
+		}
+
+		modifier = {
+           factor = 0.7
+		   war_exhaustion = 60
+		   NOT = { war_exhaustion = 95 }
+		}
+		modifier = {
+           factor = 0.6
+		   war_exhaustion = 95
+		}
+		
+		modifier = {
+           factor = 0.5
+		   has_country_modifier = in_bankrupcy
+		}
+		
+    }
+
+    option = {
+        name = "EVT65005OPTA" 
+		random_list = {
+			1 = { nationalvalue = comfortable_optimist }
+			1 = { nationalvalue = staunch_conservative }
+			1 = { nationalvalue = indolent_landowner }
+			1 = { nationalvalue = wellspoken_statesman }
+			1 = { nationalvalue = striking_cavalier }
+			1 = { nationalvalue = milquetoast_orator }
+			1 = { nationalvalue = somber_diplomat }
+			1 = { nationalvalue = charming_jingoist }
+			1 = { nationalvalue = pragmatic_financier }
+			1 = { nationalvalue = hapless_buffoon }
+			1 = { nationalvalue = ruthless_schemer }
+			1 = { nationalvalue = oafish_brute }
+			1 = { nationalvalue = tepid_charmer }
+			1 = { nationalvalue = dashing_adventurer }
+			1 = { nationalvalue = churlish_hothead }
+			1 = { nationalvalue = pious_servant }
+			1 = { nationalvalue = relentless_driver }
+			1 = { nationalvalue = paranoid_tyrant }
+			1 = { nationalvalue = popular_veteran }
+			1 = { nationalvalue = diligent_administrator }
+			1 = { nationalvalue = radical_firebrand }
+			1 = { nationalvalue = affable_gentleman }
+			1 = { nationalvalue = crooked_bombast }
+			1 = { nationalvalue = polished_orator }
+			1 = { nationalvalue = lovable_figurehead }
+			1 = { nationalvalue = pigheaded_bully }
+			1 = { nationalvalue = stern_ideologue }
+			1 = { nationalvalue = impeccable_pleb }
+			1 = { nationalvalue = stoic_scholar }
+			1 = { nationalvalue = weathered_hermit }
+			1 = { nationalvalue = intricate_organizer }
+			1 = { nationalvalue = hateful_demagogue }
+			1 = { nationalvalue = inept_braggart }
+			1 = { nationalvalue = incapable_bore }
+			1 = { nationalvalue = traveled_envoy }
+			1 = { nationalvalue = learned_moralist }
+			1 = { nationalvalue = implacable_jingoist }
+			1 = { nationalvalue = pedantic_elder }
+			1 = { nationalvalue = wordy_sophist }
+			1 = { nationalvalue = neurotic_curmudgeon }
+			1 = { nationalvalue = sheltered_cynic }
+			1 = { nationalvalue = virtuous_exemplar }
+			1 = { nationalvalue = irritable_pedant }
+			1 = { nationalvalue = astute_oldguard }
+			1 = { nationalvalue = shrewd_toiler }
+			1 = { nationalvalue = spineless_charmer }
+			1 = { nationalvalue = lethargic_conformist }
+			1 = { nationalvalue = pugnacious_contrarian }
+			1 = { nationalvalue = paternalistic_overlord }
+			1 = { nationalvalue = kindly_dignitary }
+			1 = { nationalvalue = uncouth_halfwit }
+			1 = { nationalvalue = dogmatic_lecturer }
+			1 = { nationalvalue = priggish_malcontent }
+			1 = { nationalvalue = tepid_dissenter }
+			1 = { nationalvalue = adored_fool }
+			1 = { nationalvalue = sentimental_elder }
+			1 = { nationalvalue = simpering_legatee }
+		### DESPOTATE/THEOCRACY/COMMONWEALTH LEADERS
+			1 = { nationalvalue = ghoulish_noble }
+			1 = { nationalvalue = distracted_dilettante }
+			1 = { nationalvalue = tortured_misanthrope }
+			1 = { nationalvalue = uninterested_ruler }
+		}
+    }
+}

@@ -1,3 +1,323 @@
-nv_none = {
+################
+#HEADS OF STATE#
+################
+
+comfortable_optimist = {
+    core_pop_militancy_modifier = -0.02
+    badboy = -0.02
 }
 
+staunch_conservative = {
+    issue_change_speed = -0.2
+    ruling_party_support = 0.2
+}
+
+indolent_landowner = {
+    cb_generation_speed_modifier = -0.05
+    leadership_modifier = -0.15
+}
+
+wellspoken_statesman = {
+    influence_modifier = 0.05
+    core_pop_militancy_modifier = -0.01
+}
+
+striking_cavalier = {
+    leadership_modifier = 0.1
+    mobilisation_size = 0.01
+}
+
+milquetoast_orator = {
+    core_pop_consciousness_modifier = -0.01
+    cb_generation_speed_modifier = -0.10
+}
+
+somber_diplomat = {
+    influence_modifier = 0.05
+    global_pop_militancy_modifier = -0.01
+}
+
+charming_jingoist = {
+    cb_generation_speed_modifier = 0.08
+    badboy = -0.01
+}
+
+pragmatic_financier = {
+    tax_efficiency = 0.1
+    RGO_throughput = 0.05
+}
+
+hapless_buffoon = {
+    RGO_throughput = -0.05
+    ruling_party_support = -0.2
+}
+
+ruthless_schemer = {
+    cb_generation_speed_modifier = 0.05
+    ruling_party_support = 0.2    
+}
+
+oafish_brute = {
+    mobilisation_size = 0.2
+    badboy = 0.02
+}
+
+tepid_charmer = {
+    ruling_party_support = 0.3
+    core_pop_militancy_modifier = -0.01
+}
+
+dashing_adventurer = {
+    prestige = 0.02
+    land_unit_start_experience = 5
+}
+
+churlish_hothead = {
+    badboy = 0.01
+    diplomatic_points_modifier = -0.05
+}
+
+pious_servant = {
+    core_pop_consciousness_modifier = -0.01
+    core_pop_militancy_modifier = -0.01
+}
+
+relentless_driver = {
+    RGO_throughput = 0.05
+    core_pop_militancy_modifier = 0.01
+}
+
+paranoid_tyrant = {
+    ruling_party_support = 0.35
+    global_pop_militancy_modifier = 0.02
+}
+
+popular_veteran = {
+    core_pop_militancy_modifier = -0.01
+    leadership_modifier = 0.15
+}
+
+diligent_administrator = {
+    administrative_efficiency_modifier = 0.1
+    tax_efficiency = 0.1
+}
+
+radical_firebrand = {
+    political_reform_desire = 0.05
+    social_reform_desire = 0.05
+}
+
+affable_gentleman = {
+    prestige = 0.3
+    diplomatic_points_modifier = 0.1
+}
+
+crooked_bombast = {
+    prestige = -0.2
+    administrative_efficiency_modifier = -0.05
+}
+
+polished_orator = {
+    prestige = 0.2
+    core_pop_consciousness_modifier = -0.01
+}
+
+lovable_figurehead = {
+    core_pop_consciousness_modifier = -0.01
+    core_pop_militancy_modifier = -0.01
+}
+
+pigheaded_bully = {
+    non_accepted_pop_militancy_modifier = 0.02
+    core_pop_consciousness_modifier = 0.01
+}
+
+stern_ideologue = {
+    ruling_party_support = 0.2
+    core_pop_consciousness_modifier = 0.01
+}
+
+impeccable_pleb = {
+    core_pop_consciousness_modifier = 0.01
+    administrative_efficiency_modifier = 0.1
+}
+
+stoic_scholar = {
+    ruling_party_support = 0.1
+    prestige = 0.1
+}
+
+weathered_hermit = {
+    artisan_throughput = 0.05
+    assimilation_rate = -0.05
+}
+
+intricate_organizer = {
+    org_regain = 0.05
+    mobilisation_economy_impact = -0.1
+}
+
+hateful_demagogue = {
+    core_pop_militancy_modifier = -0.02
+    non_accepted_pop_militancy_modifier = 0.03
+}
+
+inept_braggart = {
+    global_pop_militancy_modifier = 0.01
+    core_pop_consciousness_modifier = -0.01
+}
+
+incapable_bore = {
+    administrative_efficiency_modifier = -0.05
+    ruling_party_support = -0.2
+}
+
+traveled_envoy = {
+    influence_modifier = 0.05
+    diplomatic_points_modifier = 0.15
+}
+
+learned_moralist = {
+    core_pop_consciousness_modifier = 0.01
+    issue_change_speed = 0.2
+}
+
+implacable_jingoist = {
+    cb_generation_speed_modifier = 0.05
+    mobilisation_size = 0.01
+}
+
+pedantic_elder = {
+    issue_change_speed = -0.2
+    core_pop_consciousness_modifier = -0.01
+}
+
+wordy_sophist = {
+    prestige = 0.2
+    administrative_efficiency_modifier = -0.05
+}
+
+neurotic_curmudgeon = {
+    prestige = -0.2
+    badboy = 0.01
+}
+
+sheltered_cynic = {
+    influence_modifier = -0.05
+    ruling_party_support = -0.1
+}
+
+virtuous_exemplar = {
+    tax_efficiency = 0.1
+    ruling_party_support = 0.2
+}
+
+irritable_pedant = {
+    diplomatic_points_modifier = -0.05
+    ruling_party_support = 0.1
+}
+
+astute_oldguard = {
+    issue_change_speed = -0.2
+    cb_generation_speed_modifier = 0.1
+}
+
+shrewd_toiler = {
+    tax_efficiency = 0.1
+    RGO_throughput = 0.05
+}
+
+spineless_charmer = {
+    influence_modifier = 0.05
+    mobilisation_size = -0.01
+}
+
+lethargic_conformist = {
+    issue_change_speed = -0.2
+    diplomatic_points_modifier = -0.1
+}
+
+pugnacious_contrarian = {
+    cb_generation_speed_modifier = 0.05
+    core_pop_consciousness_modifier = 0.02
+}
+
+paternalistic_overlord = {
+    core_pop_militancy_modifier = -0.02
+    core_pop_consciousness_modifier = -0.02
+}
+
+kindly_dignitary = {
+    prestige = 0.2
+    core_pop_militancy_modifier = -0.01
+}
+
+uncouth_halfwit = {
+    global_pop_militancy_modifier = 0.01
+    ruling_party_support = -0.1
+}
+
+dogmatic_lecturer = {
+    ruling_party_support = 0.3
+    commerce_tech_research_bonus = 0.05
+}
+
+priggish_malcontent = {
+    political_reform_desire = 0.05
+    core_pop_militancy_modifier = 0.01
+}
+
+tepid_dissenter = {
+    issue_change_speed = 0.2
+    global_pop_consciousness_modifier = 0.01
+}
+
+adored_fool = {
+    core_pop_militancy_modifier = -0.01
+    factory_throughput = -0.05
+}
+
+sentimental_elder = {
+    political_reform_desire = -0.05
+    core_pop_militancy_modifier = -0.01
+}
+
+simpering_legatee =  {
+    ruling_party_support = -0.1
+    leadership_modifier = 0.1
+}
+
+##########
+#MONARCHS#
+##########
+
+ghoulish_noble = {
+    prestige = -0.5
+    global_pop_consciousness_modifier = 0.01
+}
+
+distracted_dilettante  = {
+    administrative_efficiency_modifier = -0.1
+    culture_tech_research_bonus = 0.05
+}
+
+tortured_misanthrope = {
+    influence_modifier = -0.05
+    diplomatic_points_modifier = -0.15
+}
+
+uninterested_ruler = {
+    administrative_efficiency_modifier = -0.1
+    diplomatic_points_modifier = -0.1
+}
+
+############ DEBUG ##############
+
+nv_none = {
+    tax_efficiency = -0.05
+    administrative_efficiency_modifier = -0.05
+}
+
+leadership_disabled = {
+
+}

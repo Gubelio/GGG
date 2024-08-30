@@ -401,7 +401,7 @@ country_event = { #Occupy sithuchi desert 1
         }
     }
 	
-    trigger = {s
+    trigger = {
 		#any_greater_power = { invention = colonial_negotiations } #not perfect but game has no any_secondary_power scope :/
 		year = 1322 #1342	
 		owns = 579
@@ -534,7 +534,7 @@ country_event = {
 				in_sphere = THIS
 				#ai = yes
 				NOT = { 
-					capital_scope = { continent = north_america } 
+					capital_scope = { continent = north_america } #Ishahfazh
 					has_country_flag = refused_protectorate 
 					number_of_states = 4
 				}

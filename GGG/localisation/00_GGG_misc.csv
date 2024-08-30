@@ -728,16 +728,16 @@ landlocked_nation;Landlocked Nation;;;;;;;;;;;;;x
 rail_focus;Undesirable Populations;;;;;;;;;;;;;x
 encourage_enslavement_focus;Facilitate Enslavement of Unnacepted Populations;;;;;;;;;;;;;x
 forced_assimilation_focus;Forced Assimilation;;;;;;;;;;;;;x
-liberationist_focus;Party loyalty towards 即liberationist? ;;;;;;;;;;;;;x
-liberationist_focus_short;即Liberationist? loyalty;;;;;;;;;;;;;x
-free_yoker_focus;Party loyalty towards 即free-yoker? ;;;;;;;;;;;;;x
-free_yoker_focus_short;即Free-Yoker? loyalty;;;;;;;;;;;;;x
-statist_focus;Party loyalty towards 即statist? ;;;;;;;;;;;;;x
-statist_focus_short;即Statist? loyalty;;;;;;;;;;;;;x
-absolutist_focus;Party loyalty towards 即absolutist? ;;;;;;;;;;;;;x
-absolutist_focus_short;即Absolutist? loyalty;;;;;;;;;;;;;x
-theocratist_focus;Party loyalty towards 即theocratist? ;;;;;;;;;;;;;x
-theocractist_focus_short;即Theocratist? loyalty;;;;;;;;;;;;;x
+liberationist_focus;Party loyalty towards 即liberationist劬;;;;;;;;;;;;;x
+liberationist_focus_short;即Liberationist劬 loyalty;;;;;;;;;;;;;x
+free_yoker_focus;Party loyalty towards 即free-yoker劬;;;;;;;;;;;;;x
+free_yoker_focus_short;即Free-Yoker劬 loyalty;;;;;;;;;;;;;x
+statist_focus;Party loyalty towards 即statist劬;;;;;;;;;;;;;x
+statist_focus_short;即Statist劬 loyalty;;;;;;;;;;;;;x
+absolutist_focus;Party loyalty towards 即absolutist劬;;;;;;;;;;;;;x
+absolutist_focus_short;即Absolutist劬 loyalty;;;;;;;;;;;;;x
+theocratist_focus;Party loyalty towards 即theocratist劬;;;;;;;;;;;;;x
+theocractist_focus_short;即Theocratist劬 loyalty;;;;;;;;;;;;;x
 PLURALITY_EXPLANATION;Plurality is the shared level of consciousness in our country. The memories of the past victories and defeats in the name of liberation remind our people of what could be.;;;;;;;;;;;;;x
 REVANCHISM_EXPLANATION;Revanchism is the yearning for the return for our rightful land. Our people are ready to make greater sacrifices for their return.;;;;;;;;;;;;;x
 small_but_efficient;Small But Efficient;;;;;;;;;;;;;x
@@ -747,71 +747,71 @@ parqmun;Parqmun;;;;;;;;;;;;;x
 kusii;Kusii;;;;;;;;;;;;;x
 dkatkang;Dkatkang;;;;;;;;;;;;;x
 juewaeg;Juewaeg;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+comfortable_optimist;Comfortable Optimist;;;;;;;;;;;;;x
+staunch_conservative;Staunch Conservative;;;;;;;;;;;;;x
+indolent_landowner;Indolent Landowner;;;;;;;;;;;;;x
+wellspoken_statesman;Wellspoken Statesman;;;;;;;;;;;;;x
+striking_cavalier;Striking Cavalier;;;;;;;;;;;;;x
+milquetoast_orator;Milquetoast Orator;;;;;;;;;;;;;x
+somber_diplomat;Somber Diplomat;;;;;;;;;;;;;x
+charming_jingoist;Charming Jingoist;;;;;;;;;;;;;x
+pragmatic_financier;Pragmatic Financier;;;;;;;;;;;;;x
+hapless_buffoon;Hapless Buffoon;;;;;;;;;;;;;x
+ruthless_schemer;Ruthless Schemer;;;;;;;;;;;;;x
+oafish_brute;Oafish Brute;;;;;;;;;;;;;x
+tepid_charmer;Tepid Charmer;;;;;;;;;;;;;x
+dashing_adventurer;Dashing Adventurer;;;;;;;;;;;;;x
+churlish_hothead;Churlish Hothead;;;;;;;;;;;;;x
+pious_servant;Pious Servant;;;;;;;;;;;;;x
+relentless_driver;Relentless Driver;;;;;;;;;;;;;x
+paranoid_tyrant;Paranoid Tyrant;;;;;;;;;;;;;x
+popular_veteran;Popular Veteran;;;;;;;;;;;;;x
+diligent_administrator;Diligent Administrator;;;;;;;;;;;;;x
+radical_firebrand;Radical Firebrand;;;;;;;;;;;;;x
+affable_gentleman;Affable Gentleman;;;;;;;;;;;;;x
+crooked_bombast;Crooked Bombast;;;;;;;;;;;;;x
+polished_orator;Polished Orator;;;;;;;;;;;;;x
+lovable_figurehead;Lovable Figurehead;;;;;;;;;;;;;x
+pigheaded_bully;Pigheaded Bully;;;;;;;;;;;;;x
+stern_ideologue;Stern Ideologue;;;;;;;;;;;;;x
+impeccable_pleb;Impeccable Pleb;;;;;;;;;;;;;x
+stoic_scholar;Stoic Scholar;;;;;;;;;;;;;x
+weathered_hermit;Weathered Hermit;;;;;;;;;;;;;x
+intricate_organizer;Intricate Organizer;;;;;;;;;;;;;x
+hateful_demagogue;Hateful Demagogue;;;;;;;;;;;;;x
+inept_braggart;Inept Braggart;;;;;;;;;;;;;x
+incapable_bore;Incapable Bore;;;;;;;;;;;;;x
+traveled_envoy;Traveled Envoy;;;;;;;;;;;;;x
+learned_moralist;Learned Moralist;;;;;;;;;;;;;x
+implacable_jingoist;Implacable Jingoist;;;;;;;;;;;;;x
+pedantic_elder;Pedantic Elder;;;;;;;;;;;;;x
+wordy_sophist;Wordy Sophist;;;;;;;;;;;;;x
+neurotic_curmudgeon;Neurotic Curmudgeon;;;;;;;;;;;;;x
+sheltered_cynic;Sheltered Cynic;;;;;;;;;;;;;x
+virtuous_exemplar;Virtuous Exemplar;;;;;;;;;;;;;x
+irritable_pedant;Irritable Pedant;;;;;;;;;;;;;x
+astute_oldguard;Astute Oldguard;;;;;;;;;;;;;x
+shrewd_toiler;Shrewd Toiler;;;;;;;;;;;;;x
+spineless_charmer;Spineless Charmer;;;;;;;;;;;;;x
+lethargic_conformist;Lethargic Conformist;;;;;;;;;;;;;x
+pugnacious_contrarian;Pugnacious Contrarian;;;;;;;;;;;;;x
+paternalistic_overlord;Paternalistic Overlord;;;;;;;;;;;;;x
+kindly_dignitary;Kindly Dignitary;;;;;;;;;;;;;x
+uncouth_halfwit;Uncouth Halfwit;;;;;;;;;;;;;x
+dogmatic_lecturer;Dogmatic Lecturer;;;;;;;;;;;;;x
+priggish_malcontent;Priggish Malcontent;;;;;;;;;;;;;x
+tepid_dissenter;Tepid Dissenter;;;;;;;;;;;;;x
+adored_fool;Adored Fool;;;;;;;;;;;;;x
+sentimental_elder;Sentimental Elder;;;;;;;;;;;;;x
+simpering_legatee;Simpering Legatee;;;;;;;;;;;;;x
+ghoulish_noble;Ghoulish Noble;;;;;;;;;;;;;x
+distracted_dilettante;Distracted Dilettante;;;;;;;;;;;;;x
+tortured_misanthrope;Tortured Misanthrope;;;;;;;;;;;;;x
+uninterested_ruler;Uninterested Ruler;;;;;;;;;;;;;x
+nv_none;No Leader;;;;;;;;;;;;;x
+leadership_disabled;Leadership Disabled;;;;;;;;;;;;;x
+LEDGER_COUNTRY_NATIONALVALUE;National Leader;;;;;;;;;;;;;x
+POLITICS_NATIONALVALUE_TOOLTIP;Our national leader is a 即$NATIONALVALUE$劬.\n;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

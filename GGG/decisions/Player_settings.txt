@@ -73,4 +73,25 @@ political_decisions = {
 		
     }
 	
+    disable_leadership = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = leadership_disabled_nv }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = leadership_disabled_nv
+			nationalvalue = leadership_disabled
+			country_event = { id = 65002 }
+        }
+		
+    }
+	
+	
 }	
