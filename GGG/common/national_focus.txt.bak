@@ -149,15 +149,6 @@ promotion_focus =
 		soldiers = 0.20 #20% more likeley to become this type
 		icon = 15
 		outliner_show_as_percent = yes
-        limit = {
-            NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-            NOT = { state_scope = { soldiers = 0.05 } }
-            NOT = { state_scope = { is_colonial = yes } }
-            OR = {
-                NOT = { state_scope = { soldiers = 0.048 } }
-                owner = { ai = no }
-            }
-        }
 	}
 }
 

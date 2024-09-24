@@ -219,7 +219,7 @@ province_event = {
 
 province_event = {
     id = 50039 ## RUBBER ENABLING SECOND WAVE
-    title = "EVTNAME50038" 
+    title = "EVTNAME5038" 
     desc = "EVTDESC50038"
 
 	mean_time_to_happen = {

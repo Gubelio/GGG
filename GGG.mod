@@ -1,4 +1,4 @@
-name = "GGG: Gozomedes' Great Game 0.9.6"
+name = "GGG: Gozomedes' Great Game 0.9.7"
 path = "mod/GGG"
 user_dir = "GGG"
 replace_path = "common"
