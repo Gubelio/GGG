@@ -2023,6 +2023,16 @@
 		 size = 53228
 	}
 
+	craftsmen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 1028
+	}
+	craftsmen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 228
+	}
 
 	officers = {
 		 culture = south_gashdzii

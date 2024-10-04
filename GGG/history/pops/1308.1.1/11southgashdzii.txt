@@ -2485,7 +2485,7 @@
 	craftsmen = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 3651
+		 size = 7051
 	}
 
 
@@ -3640,7 +3640,7 @@
 	craftsmen = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 2200
+		size = 3200
 	}
 
 	labourers = {
@@ -3724,7 +3724,7 @@
 	craftsmen = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size = 699
+		 size = 1899
 	}
 
 
@@ -4905,7 +4905,13 @@
 	farmers = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 47825
+		 size = 45825
+	}
+
+	craftsmen = {
+		 culture = south_gashdzii
+		 religion = kadkohi
+		 size = 3825
 	}
 
 

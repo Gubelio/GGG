@@ -3598,6 +3598,13 @@
 	}
 
 
+	craftsmen = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 4202
+	}
+
+
 	labourers = {
 		 culture = poumnian
 		 religion = wompowushan
