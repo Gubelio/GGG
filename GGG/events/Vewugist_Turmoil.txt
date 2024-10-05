@@ -11,6 +11,9 @@ country_event = {
   
 	is_triggered_only = yes
 
+   major = yes
+
+
     option = {
         name = "EVT50052OPTA" #Death to the heathen!
 		casus_belli = {

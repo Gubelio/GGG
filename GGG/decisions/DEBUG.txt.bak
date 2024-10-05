@@ -63,10 +63,10 @@ political_decisions = {
         potential = {
 			ai = no
 			NOT = { has_country_flag = enslaved_the_thralls }
-			OR = {
-				ruling_party_ideology = statist
-				ruling_party_ideology = absolutist
-			}
+			#OR = {
+			#	ruling_party_ideology = statist
+			#	ruling_party_ideology = absolutist
+			#}
 			civilized = yes
 			any_owned_province = {
 				has_pop_type = thralls

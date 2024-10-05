@@ -824,7 +824,6 @@ country_event = {
         NOT = {
             debt_law = serfdom
         }
-		NOT = { has_country_flag = end_serfdom }	
     }
 
     option = {
@@ -837,8 +836,6 @@ country_event = {
                 }
                 serfs = { pop_type = farmers }
             }
-			set_country_flag = end_serfdom	
-			
     }
 }
 
