@@ -76,6 +76,11 @@ mechanized_mining = 1
 basic_chemistry = 1
 army_professionalism = 1
 
+#For testing purposes
+#colonial_negotiations = yes
+#mission_to_civilize = yes
+#prophylaxis_against_malaria = yes
+
 #flags
 
 set_country_flag = wompowushan_country

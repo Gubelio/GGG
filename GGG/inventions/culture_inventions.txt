@@ -1010,7 +1010,7 @@ political_religion = {
 			religious_policy = pro_atheism
 		}
 	}
-	political_reform_desire = 0.1
+	social_reform_desire = 0.1
 }
 individualism = {
 	limit = { ideological_thought = 1 }

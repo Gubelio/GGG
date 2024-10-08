@@ -35,7 +35,7 @@ slavery = yes_slavery
 wage_reform = no_minimum_wage
 social_privileges = feudal_rights
 
-ruling_party = dominion_conservative
+ruling_party = GOZ_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0

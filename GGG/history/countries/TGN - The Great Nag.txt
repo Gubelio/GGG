@@ -12,7 +12,7 @@ civilized = yes
 
 # Social Reforms
 
-ruling_party = dominion_conservative
+ruling_party = TGN_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0
