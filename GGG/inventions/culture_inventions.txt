@@ -1019,7 +1019,9 @@ individualism = {
 		base = 2
 		modifier = {
 			factor = 3
-			nationalvalue = nv_liberty
+			OR = { ruling_party_ideology = conservative
+				   ruling_party_ideology = reactionary
+			}
 		}
 		modifier = {
 			factor = 1
@@ -1038,7 +1040,7 @@ secularization = {
 		base = 1
 		modifier = {
 			factor = 3
-			nationalvalue = nv_equality
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 1
@@ -1096,11 +1098,11 @@ determinism = {
 		base = 2
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 1
-			liberationist = 0.2
+			statist = 0.2
 		}
 		modifier = {
 			factor = 1
