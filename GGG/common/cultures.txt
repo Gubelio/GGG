@@ -1093,11 +1093,11 @@ stouian = {
 #### BAFOZH ####
 ################
 
-sharna_group = {
-    leader = genericgeneral
+asyum_group = {
+	leader = genericgeneral
     unit = MiddleEasternGC
-
-    asyum = { 
+	
+	asyum = { 
 	  color = { 169 92 13 }
 			first_names = { Kop Sep Qokh Nom Vamchet Ab'wumoss Miksoru Kaw Seh Nggoj'ih Fezwo Tichwor Nyutwi 
 							Mbekta Chimunt Mche Payaw Mfiachu B'inyib'wa Nggenchuw Umta Zut Puista Msanggan 
@@ -1110,6 +1110,13 @@ sharna_group = {
 						   Kanotty Mchuvo Mpyesy Nista Dhakh Nyothor Prume Mchoru Unggi Retiss Affukh Kwikh 
 						   B'eg'oss Kova Dhoya Han Watu Mchozwinzo Mwitty Kakse Mzom Ndiw B'latty Mstisy Dham }
     }
+	union = JTN
+}
+
+sharna_group = {
+    leader = genericgeneral
+    unit = MiddleEasternGC
+
 
     charch = { 
 	  color = { 116 191 96 }

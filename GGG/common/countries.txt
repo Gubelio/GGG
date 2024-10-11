@@ -225,6 +225,7 @@ PER		= "countries/Perzob.txt"
 KAN		= "countries/Kaneun.txt"
 NTS		= "countries/Nan Tsetk.txt"
 HID		= "countries/Hiduherath.txt"
+WSW		= "countries/Wushauw Free State.txt"
 
 #SHOBGIZOB
 NSP		= "countries/Nasup.txt"
@@ -238,6 +239,7 @@ KID		= "countries/Kiidnazh.txt"
 TGN		= "countries/The Great Nag.txt" #The Great Nâg
 ATH		= "countries/Athisoroo.txt"
 PRT		= "countries/Pruuntawrish.txt"
+JTN     = "countries/Juruntine.txt"
 
 #UTILITY TAG
 UTY		= "countries/Utility Tag.txt"

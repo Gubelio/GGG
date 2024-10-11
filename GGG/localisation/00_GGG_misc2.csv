@@ -34,13 +34,30 @@ TGN_conservative;The Particularists;;;;;;;;;;;;;x
 TGN_reactionary;The Ultra-Regionalists;;;;;;;;;;;;;x
 steel_factory;Steelmill;;;;;;;;;;;;;x
 steel_factory_desc;This factory complex is a steelmill, producing steel and iron products for private and public entities. It consists of large furnaces or crucibles for smelting pig iron, mills for rolling, casting pits as part of a foundry, as well as likely some specialised operations. Its workers work long hours in sweltering conditions, making the essential metalworks for consumer and military use.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+WSW;Wushauwland;;;;;;;;;;;;;x
+WSW_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_paternalistic_council;Wushauw Free State;;;;;;;;;;;;;x
+WSW_aristocratic_commonwealth;Wushauw Free State;;;;;;;;;;;;;x
+WSW_princely_despotate;Wushauw Free State;;;;;;;;;;;;;x
+WSW_theocracy;Wushauwland;;;;;;;;;;;;;x
+WSW_theocratist_dictatorship;Wushauw Free State;;;;;;;;;;;;;x
+WSW_paternalistic_council_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_aristocratic_commonwealth_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_princely_despotate_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_theocracy_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_theocratist_dictatorship_ADJ;Wushavian;;;;;;;;;;;;;x
+JTN;Juruntine Territories;;;;;;;;;;;;;x
+JTN_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_paternalistic_council;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_aristocratic_commonwealth;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_princely_despotate;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_theocracy;Juruntine Territories;;;;;;;;;;;;;x
+JTN_theocratist_dictatorship;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_paternalistic_council_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_aristocratic_commonwealth_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_princely_despotate_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_theocracy_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_theocratist_dictatorship_ADJ;Juruntine;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
