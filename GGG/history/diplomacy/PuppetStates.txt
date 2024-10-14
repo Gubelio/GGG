@@ -42,8 +42,8 @@ substate = { #vassal
 }
 
 substate = { #vassal
-    first = CRR
-    second = 
+    first = FCH
+    second = CRR
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
