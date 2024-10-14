@@ -1,8 +1,8 @@
-color = { 81 188 174 }
+color = { 149 124 224 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "POU_conservative"
+	name = "JII_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "POU_reactionary"
+	name = "JII_reactionary"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "POU_statist"
+	name = "JII_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
@@ -40,14 +40,14 @@ party = {
 
 	economic_policy = planned_economy
 	trade_policy = protectionism
-	religious_policy = moralism
+	religious_policy = secularized
 	citizenship_policy = full_citizenship
 	war_policy = pro_military
 	social_policy = no_state_interference
 }
 
 party = {
-	name = "POU_absolutist"
+	name = "JII_absolutist"
 	start_date = 1330.1.1
 	end_date = 2000.1.1
 
@@ -55,14 +55,14 @@ party = {
 
 	economic_policy = planned_economy
 	trade_policy = protectionism
-	religious_policy = secularized
+	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
 	war_policy = jingoism
 	social_policy = no_state_interference
 }
 
 party = {
-	name = "POU_liberationist"
+	name = "JII_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "POU_free_yoker"
+	name = "JII_free_yoker"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "POU_theocratist"
+	name = "JII_theocratist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 

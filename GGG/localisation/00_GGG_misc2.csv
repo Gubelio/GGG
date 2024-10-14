@@ -3,9 +3,9 @@ free_yoker_rebels_army;Freeman's Militia;;;;;;;;;;;;;x
 absolutist_rebels_army;Protocivil Commissariat;;;;;;;;;;;;;x
 theocratist_rebels_army;Freikorper Unit;;;;;;;;;;;;;x
 reactionary_rebels_army;Civil Guard;;;;;;;;;;;;;x
-free_yoker_rebels_title;Free Yoker Rebels;;;;;;;;;;;;;x
-theocratist_rebels_title;Theocratist Rebels;;;;;;;;;;;;;x
-absolutist_rebels_title;Absolutist Rebels;;;;;;;;;;;;;x
+free_yoker_rebels_title;Free Yoker;;;;;;;;;;;;;x
+theocratist_rebels_title;Theocratist;;;;;;;;;;;;;x
+absolutist_rebels_title;Absolutist;;;;;;;;;;;;;x
 theocratist;Theocratist;;;;;;;;;;;;;x
 barrel_factory;Two-Legger Factory;;;;;;;;;;;;;x
 barrel_factory_desc;This factory produces "Two-Leggers", the moveable artillery landship of the late fourteenth century. It depends upon automobiles, steel, machine parts, and artilery for the production of these war machines. From artillery pieces installed upon automobile chasis, sheet metal is sculpted around this, to protect the engine and cabintower, as well as gunnery hold.;;;;;;;;;;;;;x
@@ -26,7 +26,7 @@ GOZ_theocratist;Deacon Mogga's Clique;;;;;;;;;;;;;x
 GOZ_conservative;The Federalists;;;;;;;;;;;;;x
 GOZ_reactionary;The Royalists;;;;;;;;;;;;;x
 TGN_liberationist;The Social-Radical Bloc;;;;;;;;;;;;;x
-TGN_free_yoker;Pan-Nagi Landsman's Bund;;;;;;;;;;;;;x
+TGN_free_yoker;Pan-Nâgi Landsman's Bund;;;;;;;;;;;;;x
 TGN_statist;The Ministerial Party;;;;;;;;;;;;;x
 TGN_absolutist;The Land Reform Trust;;;;;;;;;;;;;x
 TGN_theocratist;The Theocratist Party;;;;;;;;;;;;;x
@@ -58,8 +58,129 @@ JTN_aristocratic_commonwealth_ADJ;Juruntine;;;;;;;;;;;;;x
 JTN_princely_despotate_ADJ;Juruntine;;;;;;;;;;;;;x
 JTN_theocracy_ADJ;Juruntine;;;;;;;;;;;;;x
 JTN_theocratist_dictatorship_ADJ;Juruntine;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+D01;$REGION$;;;;;;;;;;;;;x
+D01_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D02;Organised $REGION$ Colonies;;;;;;;;;;;;;x
+D02_ADJ;$REGION$ite;;;;;;;;;;;;;;x
+D03;$REGION$ Territories;;;;;;;;;;;;;x
+D03_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D04;$REGION$land;;;;;;;;;;;;;x
+D04_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D05;The Dominion of $REGION$;;;;;;;;;;;;;x
+D05_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D06;Governate of $REGION$;;;;;;;;;;;;;x
+D06_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D07;$REGION$ Free State;;;;;;;;;;;;;x
+D07_ADJ;Freestater;;;;;;;;;;;;;x
+D08;$REGION$ Colony;;;;;;;;;;;;;x
+D08_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D09;$REGION$ Protectorate;;;;;;;;;;;;;x
+D09_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D10;The $REGION$ Protectorate;;;;;;;;;;;;;x
+D10_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D11;The $REGION$ Concession;;;;;;;;;;;;;x
+D11_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D12;$REGION$ Districts Protectorate;;;;;;;;;;;;;x
+D12_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D13;The $REGION$ Company;;;;;;;;;;;;;x
+D13_ADJ;Company;;;;;;;;;;;;;x
+D14;The Dominion of $REGION$;;;;;;;;;;;;;x
+D14_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D15;$REGION$ Protectorate;;;;;;;;;;;;;x
+D15_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D16;The $REGION$ Colonies;;;;;;;;;;;;;x
+D16_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D17;The $REGION$ Colony;;;;;;;;;;;;;x
+D17_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D18;Captiancy of $REGION$;;;;;;;;;;;;;x
+D18_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D19;Colonial $REGION$;;;;;;;;;;;;;x
+D19_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D20;$REGION$ Territory;;;;;;;;;;;;;x
+D20_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D21;Concession Territory of $REGION$;;;;;;;;;;;;;x
+D21_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D22;$REGION$land;;;;;;;;;;;;;x
+D22_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D23;$REGION$land;;;;;;;;;;;;;x
+D23_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D24;$REGION$ Dependencies;;;;;;;;;;;;;x
+D24_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D25;$REGION$ District;;;;;;;;;;;;;x
+D25_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D26;The $REGION$ Free State;;;;;;;;;;;;;x
+D26_ADJ;Freestater;;;;;;;;;;;;;x
+D27;The $REGION$ Settlements;;;;;;;;;;;;;x
+D27_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D28;$REGION$ Protectorate;;;;;;;;;;;;;x
+D28_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D29;The $REGION$ Colony;;;;;;;;;;;;;x
+D29_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D30;$REGION$land;;;;;;;;;;;;;x
+D30_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D31;$REGION$land;;;;;;;;;;;;;x
+D31_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D32;The $REGION$ Colony;;;;;;;;;;;;;x
+D32_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D33;The $REGION$ Department;;;;;;;;;;;;;x
+D33_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D34;United Colonies of $REGION$;;;;;;;;;;;;;x
+D34_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D35;The $REGION$ Governate;;;;;;;;;;;;;x
+D35_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D36;The $REGION$ Concession;;;;;;;;;;;;;x
+D36_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D37;$REGION$ Colonial Governate;;;;;;;;;;;;;x
+D37_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D38;$REGION$ Land;;;;;;;;;;;;;x
+D38_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D39;$REGION$ Territories;;;;;;;;;;;;;x
+D39_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D40;$REGION$ Protectorate;;;;;;;;;;;;;x
+D40_ADJ;$REGION$itet;;;;;;;;;;;;;x
+D41;The $REGION$ Protectorate;;;;;;;;;;;;;x
+D41_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D42;$REGION$ Protectorate;;;;;;;;;;;;;x
+D42_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D43;$REGION$ Colony;;;;;;;;;;;;;x
+D43_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D44;Trucical $REGION$;;;;;;;;;;;;;x
+D44_ADJ;Trucical;;;;;;;;;;;;;x
+D45;Colony and Protectorate of $REGION$;;;;;;;;;;;;;x
+D45_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D46;$REGION$land;;;;;;;;;;;;;x
+D46_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D47;The $REGION$ Dominion;;;;;;;;;;;;;x
+D47_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D48;The $REGION$ Protectorate;;;;;;;;;;;;;x
+D48_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D49;$REGION$land Colony;;;;;;;;;;;;;x
+D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D50;$REGION$land;;;;;;;;;;;;;x
+D50_ADJ;$REGION$lander;;;;;;;;;;;;;x
+POU_liberationist;The Dridniks;;;;;;;;;;;;;x
+POU_free_yoker;Mudmen's Bund;;;;;;;;;;;;;x
+POU_statist;Imperial Reform Party;;;;;;;;;;;;;x
+POU_absolutist;Lord Shum's Faction;;;;;;;;;;;;;x
+POU_theocratist;Imperial Temple League;;;;;;;;;;;;;x
+POU_conservative;The Royalists;;;;;;;;;;;;;x
+POU_reactionary;The Ultraroyalists;;;;;;;;;;;;;x
+THN;Theanâg;;;;;;;;;;;;;x
+THN_ADJ;Theanâgi;;;;;;;;;;;;;x
+PAK_liberationist;Free-Communitarian Party;;;;;;;;;;;;;x
+PAK_free_yoker;The Bandit's League;;;;;;;;;;;;;x
+PAK_statist;Developmentalist Party;;;;;;;;;;;;;x
+PAK_absolutist;The Reform Party;;;;;;;;;;;;;x
+PAK_theocratist;Justicial Party;;;;;;;;;;;;;x
+PAK_conservative;The Confederalists;;;;;;;;;;;;;x
+PAK_reactionary;The Magnates' Faction;;;;;;;;;;;;;x
+PAS_liberationist;The Municipal Reform Party;;;;;;;;;;;;;x
+PAS_free_yoker;West-Pozzak Dining Club;;;;;;;;;;;;;x
+PAS_statist;Road-Reform Leauge;;;;;;;;;;;;;x
+PAS_absolutist;PSGA;;;;;;;;;;;;;x
+PAS_theocratist;The Poets' Party;;;;;;;;;;;;;x
+PAS_conservative;The Burghers' Syndicate;;;;;;;;;;;;;x
+PAS_reactionary;The Courtiers' Party;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

@@ -33,4 +33,26 @@ substate = { #vassal
     start_date = 1300.1.1
     end_date = 1936.1.1
 }
+#Chrur Prayerlands
+substate = { #vassal
+    first = FCH
+    second = CHR
+    start_date = 1300.1.1
+    end_date = 1936.1.1
+}
+
+substate = { #vassal
+    first = CRR
+    second = 
+    start_date = 1300.1.1
+    end_date = 1936.1.1
+}
+
+substate = { #vassal
+    first = FCH
+    second = OHO
+    start_date = 1300.1.1
+    end_date = 1936.1.1
+}
+
 

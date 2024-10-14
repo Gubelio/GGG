@@ -1,7 +1,8 @@
-capital = 2221
-primary_culture = wushauw
-religion = pagan
-government = theocracy
+capital = 1391
+primary_culture = south_gashdzii
+culture = fauhwozi
+religion = motkohnic
+government = aristocratic_commonwealth
 plurality = 5.0
 nationalvalue = nv_none
 literacy = 0.02
@@ -35,7 +36,7 @@ slavery = yes_slavery
 wage_reform = no_minimum_wage
 social_privileges = feudal_rights
 
-ruling_party = dominion_conservative
+ruling_party = JII_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0
@@ -59,4 +60,4 @@ water_wheel_power = 1
 
 #flags
 
-set_country_flag = pagan_country
+set_country_flag = motkohnic_country
