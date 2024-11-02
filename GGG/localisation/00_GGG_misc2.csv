@@ -32,7 +32,8 @@ TGN_absolutist;The Land Reform Trust;;;;;;;;;;;;;x
 TGN_theocratist;The Theocratist Party;;;;;;;;;;;;;x
 TGN_conservative;The Particularists;;;;;;;;;;;;;x
 TGN_reactionary;The Ultra-Regionalists;;;;;;;;;;;;;x
-steel_factory;Steelmill;;;;;;;;;;;;;x
+steel_factory;Steel Mill;;;;;;;;;;;;;x
+fabric_factory;Textile Mill;;;;;;;;;;;;;x
 steel_factory_desc;This factory complex is a steelmill, producing steel and iron products for private and public entities. It consists of large furnaces or crucibles for smelting pig iron, mills for rolling, casting pits as part of a foundry, as well as likely some specialised operations. Its workers work long hours in sweltering conditions, making the essential metalworks for consumer and military use.;;;;;;;;;;;;;x
 WSW;Wushauwland;;;;;;;;;;;;;x
 WSW_ADJ;Wushavian;;;;;;;;;;;;;x
@@ -177,10 +178,45 @@ PAK_reactionary;The Magnates' Faction;;;;;;;;;;;;;x
 PAS_liberationist;The Municipal Reform Party;;;;;;;;;;;;;x
 PAS_free_yoker;West-Pozzak Dining Club;;;;;;;;;;;;;x
 PAS_statist;Road-Reform Leauge;;;;;;;;;;;;;x
-PAS_absolutist;PSGA;;;;;;;;;;;;;x
+PAS_absolutist;The PSGA;;;;;;;;;;;;;x
 PAS_theocratist;The Poets' Party;;;;;;;;;;;;;x
 PAS_conservative;The Burghers' Syndicate;;;;;;;;;;;;;x
 PAS_reactionary;The Courtiers' Party;;;;;;;;;;;;;x
+VOK_liberationist;The Radical Party;;;;;;;;;;;;;x
+VOK_free_yoker;The Metayer's Leauge;;;;;;;;;;;;;x
+VOK_statist;Orthodox Mudtian Statist Party;;;;;;;;;;;;;x
+VOK_absolutist;The VSGA;;;;;;;;;;;;;x
+VOK_theocratist;Doshkine Honour Leauge;;;;;;;;;;;;;x
+VOK_conservative;The Constabular Party;;;;;;;;;;;;;x
+VOK_reactionary;The High Constabulary;;;;;;;;;;;;;x
+GAU_liberationist;The Social Radicals;;;;;;;;;;;;;x
+GAU_free_yoker;Soldiers of the False Nimiz;;;;;;;;;;;;;x
+GAU_statist;The Statists;;;;;;;;;;;;;x
+GAU_absolutist;All-Gaubja Absolutist Syndicate;;;;;;;;;;;;;x
+GAU_theocratist;The Churchman's Party;;;;;;;;;;;;;x
+GAU_conservative;The Conservatives;;;;;;;;;;;;;x
+GAU_reactionary;The King's Party;;;;;;;;;;;;;x
+VAF_liberationist;The Independent Radicals;;;;;;;;;;;;;x
+VAF_free_yoker;The Whiteback Party;;;;;;;;;;;;;x
+VAF_statist;Union and Defence Party;;;;;;;;;;;;;x
+VAF_absolutist;Vafauti Absolutist Board;;;;;;;;;;;;;x
+VAF_theocratist;The Clericalists;;;;;;;;;;;;;x
+VAF_conservative;The Planter's Party;;;;;;;;;;;;;x
+VAF_reactionary;The Militarists;;;;;;;;;;;;;x
+VUG_liberationist;The Oortothi Party;;;;;;;;;;;;;x
+VUG_free_yoker;Blessed Landsman's Leauge;;;;;;;;;;;;;x
+VUG_statist;The Developmentalist Party;;;;;;;;;;;;;x
+VUG_absolutist;Order and Solidarity Party;;;;;;;;;;;;;x
+VUG_theocratist;Party of the Drupe;;;;;;;;;;;;;x
+VUG_conservative;The Goothins;;;;;;;;;;;;;x
+VUG_reactionary;The Old Athisards;;;;;;;;;;;;;x
+KID_liberationist;The Social Extremists;;;;;;;;;;;;;x
+KID_free_yoker;The Free-Soil Party;;;;;;;;;;;;;x
+KID_statist;Imperial Reform Party;;;;;;;;;;;;;x
+KID_absolutist;Imperial Unity Party;;;;;;;;;;;;;x
+KID_theocratist;Pan-Gashdziik Theocratist Synod;;;;;;;;;;;;;x
+KID_conservative;The Particularists;;;;;;;;;;;;;x
+KID_reactionary;The Party of the Dhovs;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
