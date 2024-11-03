@@ -1061,7 +1061,7 @@ social_conscience = {
 		base = 2
 		modifier = {
 			factor = 3
-			nationalvalue = nv_equality
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 3
@@ -1080,7 +1080,7 @@ collectivism = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_equality
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 1
@@ -1121,7 +1121,7 @@ social_justice = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_equality
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 1
@@ -1380,16 +1380,16 @@ dogma_of_mass_action = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_equality
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 3
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = free_yoker_rebels
+			faction = absolutist_rebels
 			value = 0.25
 		}
 	}
