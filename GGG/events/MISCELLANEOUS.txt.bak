@@ -1473,7 +1473,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 360 #180
 		modifier = {
 			factor = 0.5
 			is_primary_culture = yes
@@ -1511,5 +1511,60 @@ province_event = {
 	option = {
 		name = "EVT50055OPTA"
 		add_core = THIS
+	}
+}
+
+###############################
+### International Sanctions ###
+###############################
+
+# Internatinal sanctions
+country_event = {
+	id = 50057
+	title = "EVTNAME50057"
+	desc = "EVTDESC50057"
+	
+    trigger = {
+        ai = no
+        badboy = 1.312
+        is_disarmed = no
+        NOT = {
+            has_country_modifier = international_sanctions
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50057OPTA"
+        prestige = -20
+        add_country_modifier = {
+            name = international_sanctions
+            duration = 36525
+        }
+	}
+}
+
+# Internatinal sanctions Lifted
+country_event = {
+	id = 50058
+	title = "EVTNAME50058"
+	desc = "EVTDESC50058"
+	
+    trigger = {
+        ai = no
+        NOT = { badboy = 1.312 }
+		has_country_modifier = international_sanctions
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50058OPTA"
+        remove_country_modifier = international_sanctions
 	}
 }

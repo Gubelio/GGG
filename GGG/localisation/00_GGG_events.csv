@@ -189,7 +189,12 @@ EVT65004OPTA;x;;;;;;;;;;;;;x
 EVTNAME65005;Leader Resigns!;;;;;;;;;;;;;x
 EVTDESC65005;x;;;;;;;;;;;;;x
 EVT65005OPTA;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50057;International Sanctions;;;;;;;;;;;;;x
+EVTDESC50057;x;;;;;;;;;;;;;x
+EVT50057OPTA;This is worrying;;;;;;;;;;;;;x
+EVTNAME50058;International Sanctions Lifted;;;;;;;;;;;;;x
+EVTDESC50058;x;;;;;;;;;;;;;x
+EVT50058OPTA;May this dark period be forgotten;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
