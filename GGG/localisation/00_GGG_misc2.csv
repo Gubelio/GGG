@@ -243,6 +243,10 @@ NORMAL_WAR_PRUUNTISH_CONQUEST_NAME;$ORDER$Conquest of $SECOND_COUNTRY$;;;;;;;;;;
 pruuntish_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 pruuntish_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 pruuntish_conquest_desc;Annex a Pruuntish §Ycountry§W to establish controll of the peninsula.;;;;;;;;;;;;;x
+swallow_me_whole;Establish Protectorate;;;;;;;;;;;;;x
+swallow_me_whole_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+swallow_me_whole_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+swallow_me_whole_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

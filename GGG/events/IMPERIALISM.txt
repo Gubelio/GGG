@@ -358,10 +358,11 @@ country_event = {
 					capital_scope = { continent = north_america } #ISHAHFAZH
 					}
 				}
+				
             }
             add_casus_belli = {
                 target = THIS
-                type = establish_protectorate_casus_belli
+                type = swallow_me_whole
                 months = 12
             }
             relation = {
