@@ -231,13 +231,18 @@ take_colonial_concession_capital_EM_short;Acquire $STATE$;;;;;;;;;;;;;x
 take_colonial_concession_capital_EM_setup;Acquire $STATE$;;;;;;;;;;;;;x
 take_colonial_concession_capital_EM_desc;Aquire a primitive enemy's §Ycapital state§W;;;;;;;;;;;;;x
 demand_concession_casus_belli_KF;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
-demand_concession_casus_belli_KF_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W à faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
-demand_concession_casus_belli_KF_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez à ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
 demand_concession_casus_belli_KF_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
 demand_concession_casus_belli_EM;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
-demand_concession_casus_belli_EM_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W à faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
-demand_concession_casus_belli_EM_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez à ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
 demand_concession_casus_belli_EM_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+pruuntish_conquest;Conquest;;;;;;;;;;;;;x
+NORMAL_WAR_PRUUNTISH_CONQUEST_NAME;$ORDER$Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
+pruuntish_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_conquest_desc;Annex a Pruuntish §Ycountry§W to establish controll of the peninsula.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
