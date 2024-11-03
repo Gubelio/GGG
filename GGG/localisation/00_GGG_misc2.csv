@@ -217,7 +217,27 @@ KID_absolutist;Imperial Unity Party;;;;;;;;;;;;;x
 KID_theocratist;Pan-Gashdziik Theocratist Synod;;;;;;;;;;;;;x
 KID_conservative;The Particularists;;;;;;;;;;;;;x
 KID_reactionary;The Party of the Dhovs;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+colonial_conquest_low_KF;Establish Lowly Protectorate;;;;;;;;;;;;;x
+colonial_conquest_low_KF_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_low_KF_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_low_KF_desc;Annex a single-state §Yuncivilized country§W with less than 400,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF;Demand Capital;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_desc;Aquire a primitive enemy's §Ycapital state§W;;;;;;;;;;;;;x
+international_sanctions;International Sanctions;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM;Demand Capital;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_desc;Aquire a primitive enemy's §Ycapital state§W;;;;;;;;;;;;;x
+demand_concession_casus_belli_KF;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_KF_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W à faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez à ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+demand_concession_casus_belli_EM;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_EM_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W à faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez à ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

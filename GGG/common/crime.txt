@@ -6,6 +6,7 @@ firebrand_congregation = {
 	issue_change_speed = 0.01 #tiny stacking national modifier
 
     trigger = {
+		is_colonial = no
     }
 }
 
@@ -17,6 +18,7 @@ pruub_epidemic = {
 	local_rgo_output = -0.2
 
     trigger = {
+		
     }
 }
 
@@ -35,11 +37,11 @@ wicked_governor = {
     icon = 5
 	active = yes
 
-	tax_efficiency = -0.01 #tiny stacking national modifier
+	#tax_efficiency = -0.01 #tiny stacking national modifier
 	local_ruling_party_support = -2.0
 
     trigger = {
-
+		is_colonial = no
     }
 }
 
@@ -81,8 +83,10 @@ smuggling_ring = {
     icon = 9
 	active = yes
 
-	tax_efficiency = -0.01 #tiny stacking national modifier
+	#tax_efficiency = -0.01 #tiny stacking national modifier
+	local_rgo_output = -0.1
 
     trigger = {
+		is_colonial = no
     }
 }
