@@ -1366,7 +1366,7 @@ dogma_of_violence = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 	}
 	effect = {
