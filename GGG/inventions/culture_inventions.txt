@@ -1243,11 +1243,11 @@ biased_multiculturalism = {
 		}
 		modifier = {
 			factor = 1
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 	}
 	effect = {
-		colonial_migration = 0.05
+		colonial_migration = 0.10
 	}
 }
 manifest_destiny = {
@@ -1261,7 +1261,7 @@ manifest_destiny = {
 		}
 		modifier = {
 			factor = -1
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 2
