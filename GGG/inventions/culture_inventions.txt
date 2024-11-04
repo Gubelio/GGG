@@ -1147,7 +1147,7 @@ populism_vs._establishment = {
 		}
 		modifier = {
 			factor = 1
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 	}
 	political_reform_desire = 0.05
@@ -1180,7 +1180,7 @@ bureaucracy_vs._nepotism = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 1
@@ -1201,7 +1201,7 @@ meritocracy_vs._aristocracy = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			government = aristocratic_commonwealth
 		}
 	}
 	effect = {
@@ -1549,16 +1549,16 @@ vangaurd_party = {
 		base = 2
 		modifier = {
 			factor = 1
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = free_yoker
+			ruling_party_ideology = absolutist
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = free_yoker_rebels
+			faction = absolutist_rebels
 			value = 0.75
 		}
 	}
