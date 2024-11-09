@@ -233,7 +233,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -252,7 +252,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 58
+size = 174
 	}
 
 
@@ -462,7 +462,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 7
+size = 21
 	}
 
 	aristocrats = {
@@ -481,7 +481,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 35
+size = 105
 	}
 
 
@@ -691,7 +691,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -710,7 +710,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 27
+size = 81
 	}
 
 
@@ -920,7 +920,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 7
+size = 21
 	}
 
 	aristocrats = {
@@ -939,7 +939,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 47
+size = 141
 	}
 
 
@@ -1149,7 +1149,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 16
+size = 48
 	}
 
 	aristocrats = {
@@ -1168,7 +1168,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 27
+size = 81
 	}
 
 
@@ -1408,7 +1408,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 67
+size = 201
 	}
 
 	aristocrats = {
@@ -1427,7 +1427,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 3
+size = 9
 	}
 
 
@@ -1667,7 +1667,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 53
+size = 159
 	}
 
 	aristocrats = {
@@ -1686,7 +1686,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 2
+size = 6
 	}
 
 
@@ -1926,7 +1926,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 55
+size = 165
 	}
 
 	aristocrats = {
@@ -1945,7 +1945,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 4
+size = 12
 	}
 
 
@@ -2185,7 +2185,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 55
+size = 165
 	}
 
 	aristocrats = {
@@ -2204,7 +2204,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 4
+size = 12
 	}
 
 
@@ -2444,7 +2444,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -2463,7 +2463,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -2703,7 +2703,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 14
+size = 42
 	}
 
 	aristocrats = {
@@ -2722,7 +2722,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 54
+size = 162
 	}
 
 
@@ -2961,7 +2961,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -2980,7 +2980,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -3220,7 +3220,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -3239,7 +3239,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -3479,7 +3479,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -3498,7 +3498,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -3810,7 +3810,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -3829,7 +3829,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 53
+size = 159
 	}
 
 
@@ -4142,7 +4142,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -4161,7 +4161,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 27
+size = 81
 	}
 
 
@@ -4473,7 +4473,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -4492,7 +4492,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -4804,7 +4804,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -4823,7 +4823,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 31
+size = 93
 	}
 
 
@@ -5135,7 +5135,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 9
+size = 27
 	}
 
 	aristocrats = {
@@ -5154,7 +5154,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 57
+size = 171
 	}
 
 
@@ -5466,7 +5466,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 66
+size = 198
 	}
 
 	aristocrats = {
@@ -5485,7 +5485,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 6
+size = 18
 	}
 
 
@@ -5797,7 +5797,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -5816,7 +5816,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 30
+size = 90
 	}
 
 
@@ -6128,7 +6128,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -6176,7 +6176,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -6224,7 +6224,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -6243,7 +6243,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 42
+size = 126
 	}
 
 
@@ -6555,7 +6555,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -6603,7 +6603,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -6651,7 +6651,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -6670,7 +6670,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 36
+size = 108
 	}
 
 
@@ -6892,7 +6892,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -6940,7 +6940,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -6988,7 +6988,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -7007,7 +7007,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -7247,7 +7247,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -7295,7 +7295,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -7343,7 +7343,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -7362,7 +7362,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 68
+size = 204
 	}
 
 
@@ -7602,7 +7602,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -7650,7 +7650,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -7698,7 +7698,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -7717,7 +7717,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 30
+size = 90
 	}
 
 
@@ -8029,7 +8029,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -8077,7 +8077,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 5
+size = 15
 	}
 
 	aristocrats = {
@@ -8125,7 +8125,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -8144,7 +8144,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 55
+size = 165
 	}
 
 
@@ -8456,7 +8456,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -8504,7 +8504,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 7
+size = 21
 	}
 
 	aristocrats = {
@@ -8552,7 +8552,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -8571,7 +8571,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 72
+size = 216
 	}
 
 
@@ -8883,7 +8883,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -8931,7 +8931,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -8979,7 +8979,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -8998,7 +8998,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 55
+size = 165
 	}
 
 
@@ -9309,7 +9309,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9357,7 +9357,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9405,7 +9405,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -9453,7 +9453,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9501,7 +9501,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9520,7 +9520,7 @@
 	bureaucrats = {
 		 culture = south_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -9760,7 +9760,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9808,7 +9808,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -9856,7 +9856,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -9875,7 +9875,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 57
+size = 171
 	}
 
 
@@ -10115,7 +10115,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -10163,7 +10163,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -10211,7 +10211,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -10230,7 +10230,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 44
+size = 132
 	}
 
 
@@ -10470,7 +10470,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -10518,7 +10518,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -10566,7 +10566,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -10585,7 +10585,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 67
+size = 201
 	}
 
 
@@ -10825,7 +10825,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -10873,7 +10873,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -10921,7 +10921,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -10940,7 +10940,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 65
+size = 195
 	}
 
 
@@ -11393,7 +11393,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -11441,7 +11441,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -11489,7 +11489,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -11537,7 +11537,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -11556,7 +11556,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -11796,7 +11796,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -11815,7 +11815,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 46
+size = 138
 	}
 
 
@@ -12055,7 +12055,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -12074,7 +12074,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 56
+size = 168
 	}
 
 
@@ -12314,7 +12314,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -12362,7 +12362,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -12410,7 +12410,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -12429,7 +12429,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 64
+size = 192
 	}
 
 
@@ -12579,7 +12579,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 10
+size = 30
 	}
 
 	aristocrats = {
@@ -12598,7 +12598,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 9
+size = 27
 	}
 
 
@@ -12808,7 +12808,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 38
+size = 114
 	}
 
 	aristocrats = {
@@ -12827,7 +12827,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 10
+size = 30
 	}
 
 
@@ -12977,7 +12977,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -13025,7 +13025,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -13073,7 +13073,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 25
+size = 75
 	}
 
 	aristocrats = {
@@ -13092,7 +13092,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 23
+size = 69
 	}
 
 
@@ -13242,7 +13242,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -13290,7 +13290,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -13338,7 +13338,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 7
+size = 21
 	}
 
 	aristocrats = {
@@ -13357,7 +13357,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 5
+size = 15
 	}
 
 
@@ -13507,7 +13507,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -13526,7 +13526,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 34
+size = 102
 	}
 
 
@@ -13676,7 +13676,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -13695,7 +13695,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -13935,7 +13935,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 35
+size = 105
 	}
 
 	aristocrats = {
@@ -13954,7 +13954,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 62
+size = 186
 	}
 
 
@@ -14104,7 +14104,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -14123,7 +14123,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 35
+size = 105
 	}
 
 
@@ -14903,7 +14903,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = vewugi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -14951,7 +14951,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = vewugi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -14999,7 +14999,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 6
+size = 18
 	}
 
 	aristocrats = {
@@ -15047,7 +15047,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -15095,7 +15095,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 12
+size = 36
 	}
 
 	aristocrats = {
@@ -15143,7 +15143,7 @@
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -15191,7 +15191,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 17
+size = 51
 	}
 
 	aristocrats = {
@@ -15210,7 +15210,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 375
+size = 1125
 	}
 
 
@@ -15282,7 +15282,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = vewugi
-		 size = 1
+size = 3
 	}
 
 
@@ -15432,7 +15432,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 8
+size = 24
 	}
 
 	aristocrats = {
@@ -15451,7 +15451,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 134
+size = 402
 	}
 
 
@@ -15601,7 +15601,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -15620,7 +15620,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 68
+size = 204
 	}
 
 
@@ -15770,7 +15770,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -15789,7 +15789,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 164
+size = 492
 	}
 
 
@@ -15939,7 +15939,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 5
+size = 15
 	}
 
 	aristocrats = {
@@ -15958,7 +15958,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 39
+size = 117
 	}
 
 
@@ -16108,7 +16108,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -16127,7 +16127,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 63
+size = 189
 	}
 
 
@@ -16277,7 +16277,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -16296,7 +16296,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 78
+size = 234
 	}
 
 
@@ -16446,7 +16446,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 20
+size = 60
 	}
 
 	aristocrats = {
@@ -16465,7 +16465,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 154
+size = 462
 	}
 
 
@@ -16586,7 +16586,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 68
+size = 204
 	}
 
 
@@ -16677,7 +16677,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -16797,7 +16797,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 57
+size = 171
 	}
 
 	aristocrats = {
@@ -16816,7 +16816,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 67
+size = 201
 	}
 
 
@@ -16956,7 +16956,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -16975,7 +16975,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 23
+size = 69
 	}
 
 
@@ -17112,7 +17112,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -17131,7 +17131,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 55
+size = 165
 	}
 
 
@@ -17241,7 +17241,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 38
+size = 114
 	}
 
 	aristocrats = {
@@ -17260,7 +17260,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 40
+size = 120
 	}
 
 
@@ -17377,7 +17377,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -17396,7 +17396,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 41
+size = 123
 	}
 
 
@@ -17507,7 +17507,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -17526,7 +17526,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 55
+size = 165
 	}
 
 
@@ -17749,7 +17749,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -17768,7 +17768,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 23
+size = 69
 	}
 
 
@@ -17900,7 +17900,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -17919,7 +17919,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 64
+size = 192
 	}
 
 
@@ -18235,7 +18235,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -18254,7 +18254,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 22
+size = 66
 	}
 
 
@@ -18479,7 +18479,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -18498,7 +18498,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 53
+size = 159
 	}
 
 
@@ -18710,7 +18710,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -18729,7 +18729,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 104
+size = 312
 	}
 
 
@@ -18821,7 +18821,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 65
+size = 195
 	}
 
 
@@ -18912,7 +18912,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -19005,7 +19005,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 16
+size = 48
 	}
 
 
@@ -19124,7 +19124,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 15
+size = 45
 	}
 
 	aristocrats = {
@@ -19143,7 +19143,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -19219,7 +19219,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 16
+size = 48
 	}
 
 
@@ -19390,7 +19390,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 39
+size = 117
 	}
 
 
@@ -19508,7 +19508,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -19527,7 +19527,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 22
+size = 66
 	}
 
 
@@ -19707,7 +19707,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 41
+size = 123
 	}
 
 
@@ -19795,7 +19795,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 47
+size = 141
 	}
 
 
@@ -20053,7 +20053,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -20205,7 +20205,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 23
+size = 69
 	}
 
 
@@ -20355,7 +20355,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 37
+size = 111
 	}
 
 
@@ -20509,7 +20509,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 39
+size = 117
 	}
 
 
@@ -20659,7 +20659,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -20678,7 +20678,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 37
+size = 111
 	}
 
 
@@ -20830,7 +20830,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 27
+size = 81
 	}
 
 	aristocrats = {
@@ -20849,7 +20849,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -20971,7 +20971,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 8
+size = 24
 	}
 
 	aristocrats = {
@@ -20990,7 +20990,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 21
+size = 63
 	}
 
 
@@ -21104,7 +21104,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 28
+size = 84
 	}
 
 	aristocrats = {
@@ -21123,7 +21123,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -21326,7 +21326,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -21345,7 +21345,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -21430,7 +21430,7 @@
 	bureaucrats = {
 		 culture = chyothit
 		 religion = vewugi
-		 size = 7
+size = 21
 	}
 
 
@@ -21641,7 +21641,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -21942,7 +21942,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -22153,7 +22153,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 18
+size = 54
 	}
 
 
@@ -22364,7 +22364,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 3
+size = 9
 	}
 
 
@@ -22449,7 +22449,7 @@
 	bureaucrats = {
 		 culture = chyothit
 		 religion = vewugi
-		 size = 15
+size = 45
 	}
 
 
@@ -22690,7 +22690,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 2
+size = 6
 	}
 
 
@@ -23021,7 +23021,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -23106,7 +23106,7 @@
 	bureaucrats = {
 		 culture = chyothit
 		 religion = vewugi
-		 size = 13
+size = 39
 	}
 
 
@@ -23261,7 +23261,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -23280,7 +23280,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 67
+size = 201
 	}
 
 
@@ -23430,7 +23430,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 17
+size = 51
 	}
 
 	aristocrats = {
@@ -23449,7 +23449,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 16
+size = 48
 	}
 
 
@@ -23599,7 +23599,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -23618,7 +23618,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 112
+size = 336
 	}
 
 
@@ -23768,7 +23768,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 7
+size = 21
 	}
 
 	aristocrats = {
@@ -23787,7 +23787,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 35
+size = 105
 	}
 
 
@@ -23937,7 +23937,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -23956,7 +23956,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -24106,7 +24106,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -24125,7 +24125,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 67
+size = 201
 	}
 
 
@@ -24275,7 +24275,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -24294,7 +24294,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 68
+size = 204
 	}
 
 
@@ -24444,7 +24444,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -24463,7 +24463,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 62
+size = 186
 	}
 
 
@@ -24703,7 +24703,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -24722,7 +24722,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 57
+size = 171
 	}
 
 
@@ -24872,7 +24872,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -24891,7 +24891,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 43
+size = 129
 	}
 
 
@@ -25041,7 +25041,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -25089,7 +25089,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -25108,7 +25108,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -25164,7 +25164,7 @@
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -25316,7 +25316,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -25364,7 +25364,7 @@
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -25412,7 +25412,7 @@
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -25431,7 +25431,7 @@
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 11
+size = 33
 	}
 
 
@@ -25586,7 +25586,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -25634,7 +25634,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -25682,7 +25682,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -25701,7 +25701,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 56
+size = 168
 	}
 
 
@@ -25851,7 +25851,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -25870,7 +25870,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -26020,7 +26020,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 27
+size = 81
 	}
 
 	aristocrats = {
@@ -26039,7 +26039,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 31
+size = 93
 	}
 
 
@@ -26189,7 +26189,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 26
+size = 78
 	}
 
 	aristocrats = {
@@ -26208,7 +26208,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -26358,7 +26358,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -26377,7 +26377,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 75
+size = 225
 	}
 
 
@@ -26527,7 +26527,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -26546,7 +26546,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 35
+size = 105
 	}
 
 
@@ -26696,7 +26696,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -26744,7 +26744,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -26792,7 +26792,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 26
+size = 78
 	}
 
 	aristocrats = {
@@ -26811,7 +26811,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -26961,7 +26961,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -27009,7 +27009,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -27057,7 +27057,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -27076,7 +27076,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 32
+size = 96
 	}
 
 
@@ -27197,7 +27197,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -27323,7 +27323,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 41
+size = 123
 	}
 
 
@@ -27533,7 +27533,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -27581,7 +27581,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = kadkohi
-		size = 37
+size = 111
 	}
 
 	aristocrats = {
@@ -27629,7 +27629,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -27648,7 +27648,7 @@ labourers = {
 	bureaucrats = {
 		 culture = west_gashdzii
 		 religion = kadkohi
-		 size = 2
+size = 6
 	}
 
 
@@ -27918,7 +27918,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -27966,7 +27966,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -28014,7 +28014,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -28033,7 +28033,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 54
+size = 162
 	}
 
 
@@ -28309,7 +28309,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -28328,7 +28328,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 42
+size = 126
 	}
 
 
@@ -28598,7 +28598,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -28617,7 +28617,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 82
+size = 246
 	}
 
 
@@ -28887,7 +28887,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -28935,7 +28935,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -28983,7 +28983,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -29002,7 +29002,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 51
+size = 153
 	}
 
 
@@ -29212,7 +29212,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -29231,7 +29231,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 48
+size = 144
 	}
 
 
@@ -29352,7 +29352,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 40
+size = 120
 	}
 
 
@@ -29484,7 +29484,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -29526,7 +29526,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -29568,7 +29568,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 15
+size = 45
 	}
 
 	aristocrats = {
@@ -29587,7 +29587,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -29701,7 +29701,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -29911,7 +29911,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -29959,7 +29959,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -30007,7 +30007,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 17
+size = 51
 	}
 
 	aristocrats = {
@@ -30026,7 +30026,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -30236,7 +30236,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -30284,7 +30284,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 5
+size = 15
 	}
 
 	aristocrats = {
@@ -30332,7 +30332,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 13
+size = 39
 	}
 
 	aristocrats = {
@@ -30351,7 +30351,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 44
+size = 132
 	}
 
 
@@ -30621,7 +30621,7 @@ labourers = {
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -30669,7 +30669,7 @@ labourers = {
 	bureaucrats = {
 		culture = south_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -30717,7 +30717,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -30736,7 +30736,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 65
+size = 195
 	}
 
 
@@ -30886,7 +30886,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -30905,7 +30905,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 64
+size = 192
 	}
 
 
@@ -31055,7 +31055,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31103,7 +31103,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -31151,7 +31151,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31170,7 +31170,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -31320,7 +31320,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31339,7 +31339,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 84
+size = 252
 	}
 
 
@@ -31490,7 +31490,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31509,7 +31509,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 64
+size = 192
 	}
 
 
@@ -31660,7 +31660,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31679,7 +31679,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 64
+size = 192
 	}
 
 
@@ -31889,7 +31889,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -31937,7 +31937,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -31985,7 +31985,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 3
+size = 9
 	}
 
 	aristocrats = {
@@ -32004,7 +32004,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 56
+size = 168
 	}
 
 
@@ -32214,7 +32214,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -32262,7 +32262,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 2
+size = 6
 	}
 
 	aristocrats = {
@@ -32310,7 +32310,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -32329,7 +32329,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 68
+size = 204
 	}
 
 
@@ -32539,7 +32539,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -32587,7 +32587,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 1
+size = 3
 	}
 
 	aristocrats = {
@@ -32635,7 +32635,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 4
+size = 12
 	}
 
 	aristocrats = {
@@ -32654,7 +32654,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 138
+size = 414
 	}
 
 
@@ -32868,7 +32868,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -32887,7 +32887,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 98
+size = 294
 	}
 
 
@@ -33039,7 +33039,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -33058,7 +33058,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 56
+size = 168
 	}
 
 
@@ -33208,7 +33208,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -33227,7 +33227,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 51
+size = 153
 	}
 
 
@@ -33318,7 +33318,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -33409,7 +33409,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -33500,7 +33500,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 62
+size = 186
 	}
 
 
@@ -33591,7 +33591,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 17
+size = 51
 	}
 
 
@@ -33682,7 +33682,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 18
+size = 54
 	}
 
 
@@ -33773,7 +33773,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 38
+size = 114
 	}
 
 
@@ -34613,7 +34613,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -34661,7 +34661,7 @@ labourers = {
 	bureaucrats = {
 		culture = west_gashdzii
 		religion = kadkohi
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -34709,7 +34709,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -34728,7 +34728,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -34998,7 +34998,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -35017,7 +35017,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 12
+size = 36
 	}
 
 
@@ -35108,7 +35108,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35199,7 +35199,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35320,7 +35320,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35441,7 +35441,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35562,7 +35562,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35683,7 +35683,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 0
+size = 0
 	}
 
 
@@ -35774,7 +35774,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 17
+size = 51
 	}
 
 
@@ -35865,7 +35865,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -35956,7 +35956,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 44
+size = 132
 	}
 
 
@@ -36047,7 +36047,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 51
+size = 153
 	}
 
 
@@ -36138,7 +36138,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 27
+size = 81
 	}
 
 
@@ -36229,7 +36229,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 18
+size = 54
 	}
 
 
@@ -36320,7 +36320,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -36411,7 +36411,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 27
+size = 81
 	}
 
 
@@ -36502,7 +36502,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -36593,7 +36593,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 29
+size = 87
 	}
 
 
@@ -36684,7 +36684,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 36
+size = 108
 	}
 
 
@@ -36775,7 +36775,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 33
+size = 99
 	}
 
 
@@ -36866,7 +36866,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 34
+size = 102
 	}
 
 
@@ -36957,7 +36957,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 19
+size = 57
 	}
 
 
@@ -37048,7 +37048,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 24
+size = 72
 	}
 
 
@@ -37169,7 +37169,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 17
+size = 51
 	}
 
 
@@ -37260,7 +37260,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 17
+size = 51
 	}
 
 
@@ -37351,7 +37351,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 15
+size = 45
 	}
 
 
@@ -37442,7 +37442,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -37563,7 +37563,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -37654,7 +37654,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 26
+size = 78
 	}
 
 
@@ -37745,7 +37745,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 12
+size = 36
 	}
 
 
@@ -37836,7 +37836,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 11
+size = 33
 	}
 
 
@@ -37927,7 +37927,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 18
+size = 54
 	}
 
 
@@ -38106,7 +38106,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 45
+size = 135
 	}
 
 
@@ -38197,7 +38197,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -38288,7 +38288,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -38379,7 +38379,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 21
+size = 63
 	}
 
 
@@ -38470,7 +38470,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 36
+size = 108
 	}
 
 
@@ -38561,7 +38561,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 56
+size = 168
 	}
 
 
@@ -38652,7 +38652,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 59
+size = 177
 	}
 
 
@@ -38796,7 +38796,7 @@ labourers = {
 	bureaucrats = {
 		culture = north_gashdzii
 		religion = motkohnic
-		size = 0
+size = 0
 	}
 
 	aristocrats = {
@@ -38815,7 +38815,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 72
+size = 216
 	}
 
 
@@ -38906,7 +38906,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -38997,7 +38997,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 1
+size = 3
 	}
 
 
@@ -39112,7 +39112,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 2
+size = 6
 	}
 
 
@@ -39221,7 +39221,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 2
+size = 6
 	}
 
 
@@ -39330,7 +39330,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 4
+size = 12
 	}
 
 
@@ -39439,7 +39439,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 14
+size = 42
 	}
 
 
@@ -39548,7 +39548,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 19
+size = 57
 	}
 
 
@@ -39639,7 +39639,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 16
+size = 48
 	}
 
 
@@ -39730,7 +39730,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 13
+size = 39
 	}
 
 
@@ -39821,7 +39821,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 12
+size = 36
 	}
 
 
@@ -39930,7 +39930,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 42
+size = 126
 	}
 
 
@@ -40021,7 +40021,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 23
+size = 69
 	}
 
 
@@ -40130,7 +40130,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 25
+size = 75
 	}
 
 
@@ -40239,7 +40239,7 @@ labourers = {
 	bureaucrats = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size = 37
+size = 111
 	}
 
 

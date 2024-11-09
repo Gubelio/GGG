@@ -41,7 +41,7 @@ gashdzii = {
 							Pashamoda Pasha Isha Dhama Mâdho Jadoz Gizamobba Nofshaug Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd 				
 							Bozzazhakd Chogzhimo Doshamogga Ishadhov Dhovjâdhov Maufo Dhofmachii Kiifshug Mipau Jabhik Bamuzpt Mauzpt Gâzht Diimash Pâzhpt 				
 							Zobâd Nobamedes Gohofk Bâzajop Kaukftâ Dhomâfub Ishafub Izamenes Izamobba Ishadopau Pazhanimiz Godhiidopau Godhimobba 					
-							Godhimenes Godhimedes Gauimenes }
+							Godhimenes Godhimedes Gauimenes  }
 
 			last_names = { 	Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
 							Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh
@@ -50,6 +50,30 @@ gashdzii = {
 							Vâfautazh }
     }
 	union = KID
+}
+
+colonial_gashdzii = {
+	leader = gashdzii1
+	unit = EuropeanGC
+	
+		jazhakdii = {
+		color = { 252 221 93 }
+        	first_names = { Bozza Bazadamaz Vazamak Bida Foda Madha Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Dhauzud Ganuk Zhudiima 					
+							Zhahadoma Zadak Godt Joduzd Opau Paun Fiifshug Mipau Jabhik Bamuzpt Mauzpt Gâzht Diimash Pâzhpt Zobâd Nobamedes Gohofk
+							Bâzajop Kaukftâ Jâfshau Mofauk Nipodaun Madmhaut Miizhnâd Bodmha Châchâg Bodamedes Joshdzâ Mofâzh Dabikak Shomoho Kaumnau
+							Vausho Dhuchâ Nibhaun Dhomâmak Modzzhot Zhigidva Gidda Middanak Midadamaz Vazamedes Vuydazh Shagdozh Godhiinimiz Godhiimâdho Bozzamâdho Bozzanimiz Godhiimushiig Ishamenes Ishamushiig Ishamedes Dhamamedes Pazhamedes Pashamenes
+							Pashamoda Pasha Isha Dhama Mâdho Jadoz Gizamobba Nofshaug Godhimachii Bozzamachii Boazzadopau Gozomachii Nizgiza Chogzhakd 				
+							Bozzazhakd Chogzhimo Doshamogga Ishadhov Dhovjâdhov Maufo Dhofmachii Kiifshug Mipau Jabhik Bamuzpt Mauzpt Gâzht Diimash Pâzhpt 				
+							Zobâd Nobamedes Gohofk Bâzajop Kaukftâ Dhomâfub Ishafub Izamenes Izamobba Ishadopau Pazhanimiz Godhiidopau Godhimobba 					
+							Godhimenes Godhimedes Gauimenes }
+
+			last_names = { 	Bozzanak Kushnagazhk Godhazh Paumnâzh Pihâpazh Shobazh Pauftazh Duftojazh Pâshdazh Pâshodazhi Pâzh Pâshdazh Shaumazh Vofâzh Kubhazh 
+							Shozazh Châftokazh Vofumâ Zhobodt Najiizhi Papuzhi Shauzzh Gudhiigh Gohofkzh Kaukftâsh Boshâmzi Faushdzo Jodti Shamniizh
+							Goafti Godti Zhakdi Zhakdt Nuodt Zhododt Vizhfag Kushdt Botâdt Moai Nagjoni Dazhpt Fadofk Jochâ Mudt Pâdzh Pâshdzizha 					
+							Vodtzha Dhamapahazh Mojifazhi Jadmazh Jadiazh Gizobnazhizh Doshkiidva Zhudiumva Miib Nuozhva Okiptva Vâfazh Vizhfag Vâfazhva
+							Vâfautazh }
+    }
+	
 }
 
 
