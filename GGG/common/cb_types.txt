@@ -1833,7 +1833,7 @@ negotiated_transfer = {
 #Take Capital
 take_capital = {
     sprite_index = 6
-    #is_triggered_only = yes
+    is_triggered_only = yes
     months = 12
     construction_speed = 0.5
 
@@ -2228,7 +2228,7 @@ war_reparations = {
 #Take Unciv Capital
 take_colonial_concession_capital = {
     sprite_index = 7
-    #is_triggered_only = yes
+    is_triggered_only = yes
     months = 12
     construction_speed = 0.5
 
@@ -2751,9 +2751,9 @@ demand_concession_casus_belli_EM = {
 	}
 }
 
-take_colonial_concession_capital_KF = {
+#take_colonial_concession_capital_KF = {
     sprite_index = 7
-    #is_triggered_only = yes
+    is_triggered_only = yes
     months = 12
     construction_speed = 0.5
 
@@ -2853,7 +2853,7 @@ take_colonial_concession_capital_KF = {
 
 take_colonial_concession_capital_EM = {
     sprite_index = 7
-    #is_triggered_only = yes
+    is_triggered_only = yes
     months = 12
     construction_speed = 0.5
 
