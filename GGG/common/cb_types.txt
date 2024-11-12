@@ -66,8 +66,11 @@ make_puppet
 dismantle_forts
 humiliate
 demand_concession_casus_belli
+demand_concession_casus_belli_EM
+demand_concession_casus_belli_KF
 establish_protectorate_casus_belli
 colonial_conquest_low
+colonial_conquest_low_KF
 colonial_conquest_tiny
 colonial_conquest_minuscule 
 unification_humiliate_cb
@@ -76,9 +79,12 @@ unification_casus_belli
 unification_annex_casus_belli
 rude_boy
 annex
+swallow_me_whole
 negotiated_transfer
 take_capital
 take_colonial_concession_capital
+take_colonial_concession_capital_EM
+take_colonial_concession_capital_KF
 install_free_yoker_gov_cb
 uninstall_free_yoker_gov_cb
 great_war_penalty_cb 
