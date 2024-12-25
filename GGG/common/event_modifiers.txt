@@ -82,3 +82,11 @@ international_sanctions = {
     core_pop_militancy_modifier = 0.1
     icon = 6
 }
+
+plantations = {
+    farm_rgo_size = 2
+	farm_rgo_eff = 1
+	life_rating = 0.2
+	assimilation_rate = -0.05
+	icon = 11
+}
