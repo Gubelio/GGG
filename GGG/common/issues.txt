@@ -358,7 +358,7 @@ political_reforms = {
 	thralldom = {
 	
         thralldom_allowed = {
-            poor_life_needs = -0.1
+            poor_life_needs = -0.02
 
         }
 		
@@ -372,7 +372,7 @@ political_reforms = {
         next_step_only = yes
 
         feudal_courts = {
-	      administrative_efficiency_modifier = -0.02
+	      administrative_efficiency_modifier = -0.01
 
         }
 
@@ -394,8 +394,8 @@ political_reforms = {
         next_step_only = yes
 
         aristocratic_bureaucracy = {
-			administrative_efficiency_modifier = -0.05
-            tax_efficiency = -0.05
+			administrative_efficiency_modifier = -0.03
+            tax_efficiency = -0.04
 
         }
 
