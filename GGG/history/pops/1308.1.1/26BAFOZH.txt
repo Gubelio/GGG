@@ -157,29 +157,29 @@ size = 2
 
 
 	aristocrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 395
 	}
 
 
 	bureaucrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 13
 	}
 
 
 	clergymen = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 131
 	}
 
 
 	artisans = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 658
 	}
 
@@ -192,8 +192,8 @@ size = 500
 
 
 	farmers = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 6189
 	}
 
@@ -225,36 +225,36 @@ size = 3950
 
 
 	aristocrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 616
 	}
 
 
 	bureaucrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 20
 	}
 
 
 	clergymen = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 205
 	}
 
 
 	artisans = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1026
 	}
 
 
 	soldiers = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 780
 	}
 
@@ -262,7 +262,13 @@ size = 780
 	farmers = {
 		 culture = cherasass
 		 religion = jur
-size = 9652
+size = 4552
+	}
+
+	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+size = 3652
 	}
 
 
@@ -293,29 +299,29 @@ size = 6160
 
 
 	aristocrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 636
 	}
 
 
 	bureaucrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 21
 	}
 
 
 	clergymen = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 212
 	}
 
 
 	artisans = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1061
 	}
 
@@ -361,36 +367,36 @@ size = 6366
 
 
 	aristocrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1011
 	}
 
 
 	bureaucrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 33
 	}
 
 
 	clergymen = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 337
 	}
 
 
 	artisans = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1686
 	}
 
 
 	soldiers = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1281
 	}
 
@@ -398,7 +404,13 @@ size = 1281
 	farmers = {
 		 culture = cherasass
 		 religion = jur
-size = 15849
+		size = 15849
+	}
+
+	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+		size = 5849
 	}
 
 
@@ -571,44 +583,56 @@ size = 6762
 
 
 	aristocrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1085
 	}
 
 
 	bureaucrats = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 36
 	}
 
 
 	clergymen = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 361
 	}
 
 
 	artisans = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1809
 	}
 
 
 	soldiers = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 1375
 	}
 
 
 	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+size = 22012
+	}
+	
+	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+		size = 15849
+	}
+
+	farmers = {
 		 culture = cherasass
 		 religion = jur
-size = 17012
+size = 5012
 	}
 
 
@@ -620,8 +644,8 @@ size = 3619
 
 
 	officers = {
-		 culture = cherasass
-		 religion = jur
+		 culture = jazhakdii
+		 religion = kadkohii
 size = 36
 	}
 
@@ -785,6 +809,12 @@ size = 1055
 		 culture = cherasass
 		 religion = jur
 size = 35
+	}
+	
+	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+		size = 9849
 	}
 
 
@@ -1181,6 +1211,11 @@ size = 1009
 size = 33
 	}
 
+	farmers = {
+		 culture = jazhakdii
+		 religion = kadkohii
+		size = 7849
+	}
 
 	clergymen = {
 		 culture = cherasass
@@ -8642,7 +8677,11 @@ size = 427
 
 1494 = {
 
-
+	farmers = {
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 3296
+	}
 
 	thralls = {
 		culture = foussuni
@@ -47502,43 +47541,43 @@ size = 19
 	}
 
 	aristocrats = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 138
 	}
 
 
 	bureaucrats = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 4
 	}
 
 
 	clergymen = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 46
 	}
 
 
 	artisans = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 184
 	}
 
 
 	soldiers = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 175
 	}
 
 
 	farmers = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 2217
 	}
 
@@ -47551,15 +47590,15 @@ size = 461
 
 
 	officers = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 4
 	}
 
 
 	serfs = {
-		 culture = asyum
-		 religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 1385
 	}
 
@@ -47569,45 +47608,39 @@ size = 1385
 
 
 
-	thralls = {
-		culture = asyum
-		religion = pagan
-size = 106
-	}
-
 	serfs = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 26
 	}
 
 	slaves = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 266
 	}
 
 	farmers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 2128
 	}
 
 	soldiers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 106
 	}
 
 	artisans = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 26
 	}
 
 	aristocrats = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 588
 	}
 
@@ -47662,15 +47695,14 @@ size = 19
 
 
 	serfs = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 5885
 	}
 
 }
 
 1916 = {
-
 
 
 	thralls = {
@@ -47680,38 +47712,38 @@ size = 6
 	}
 
 	serfs = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 1
 	}
 
 	slaves = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 16
 	}
 
 	farmers = {
-		culture = asyum
-		religion = pagan
-size = 128
+		 culture = rashuum
+		 religion = wompowushan
+		 size = 23898
 	}
 
 	soldiers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 6
 	}
 
 	artisans = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 1
 	}
 
 	aristocrats = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 438
 	}
 
@@ -47778,44 +47810,44 @@ size = 4385
 
 
 	thralls = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 66
 	}
 
 	serfs = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 16
 	}
 
 	slaves = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 166
 	}
 
 	farmers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 1328
 	}
 
 	soldiers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 66
 	}
 
 	artisans = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 16
 	}
 
 	aristocrats = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 888
 	}
 
@@ -47828,15 +47860,15 @@ size = 29
 
 
 	clergymen = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 296
 	}
 
 
 	artisans = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 1184
 	}
 
@@ -47863,8 +47895,8 @@ size = 2961
 
 
 	officers = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 29
 	}
 
@@ -47888,38 +47920,38 @@ size = 26
 	}
 
 	serfs = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 6
 	}
 
 	slaves = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 66
 	}
 
 	farmers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 528
 	}
 
 	soldiers = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 26
 	}
 
 	artisans = {
-		culture = asyum
-		religion = pagan
+		 culture = rashuum
+		 religion = wompowushan
 size = 6
 	}
 
 	aristocrats = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 948
 	}
 
@@ -47939,8 +47971,8 @@ size = 316
 
 
 	artisans = {
-		 culture = asyum
-		 religion = jur
+		 culture = rashuum
+		 religion = wompowushan
 size = 1264
 	}
 
@@ -61586,7 +61618,6 @@ size = 4669
 2179 = {
 
 
-
 	thralls = {
 		culture = fauhwozi
 		religion = vewugi
@@ -61606,8 +61637,8 @@ size = 157
 	}
 
 	farmers = {
-		culture = fauhwozi
-		religion = vewugi
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 1258
 	}
 
@@ -61642,14 +61673,14 @@ size = 662
 	}
 
 	farmers = {
-		culture = fauhwozi
-		religion = pagan
-size = 5296
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 15296
 	}
 
 	soldiers = {
-		culture = fauhwozi
-		religion = pagan
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 264
 	}
 
@@ -61660,15 +61691,15 @@ size = 66
 	}
 
 	aristocrats = {
-		 culture = fauhwozi
-		 religion = jur
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 106
 	}
 
 
 	bureaucrats = {
-		 culture = fauhwozi
-		 religion = jur
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 3
 	}
 
@@ -61688,8 +61719,8 @@ size = 142
 
 
 	soldiers = {
-		 culture = fauhwozi
-		 religion = jur
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 135
 	}
 
@@ -61709,8 +61740,8 @@ size = 356
 
 
 	officers = {
-		 culture = fauhwozi
-		 religion = jur
+		 culture = jazhakdii
+		 religion = motkohnic
 size = 3
 	}
 
@@ -61725,12 +61756,10 @@ size = 1069
 
 2180 = {
 
-
-
 	thralls = {
 		culture = fauhwozi
 		religion = vewugi
-size = 82
+		size = 82
 	}
 
 	serfs = {
@@ -61779,6 +61808,12 @@ size = 116
 		culture = fauhwozi
 		religion = pagan
 size = 1162
+	}
+
+	farmers = {
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 3296
 	}
 
 	farmers = {
@@ -61865,7 +61900,11 @@ size = 1669
 
 2181 = {
 
-
+	farmers = {
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 10296
+	}
 
 	thralls = {
 		culture = fauhwozi
@@ -62145,7 +62184,11 @@ size = 1969
 
 2183 = {
 
-
+	farmers = {
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 5296
+	}
 
 	thralls = {
 		culture = fauhwozi

@@ -7,3 +7,12 @@ bookmark =
     cameraY = 1100 #1550
 }
 
+bookmark =
+{
+    name = "GG_NAME_CONS" #Consolidated States
+    desc = "GG_DESC_CONS"
+    date = 1308.1.2
+    cameraX = 1100 #2950
+    cameraY = 1100 #1550
+}
+

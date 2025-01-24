@@ -6,3 +6,10 @@ trade_goods = cattle
 life_rating = 33
 terrain = savanna
 
+1308.1.2 = {
+    owner = FOB
+    controller = FOB
+    add_core = FOB
+    remove_core = KAZ
+}
+

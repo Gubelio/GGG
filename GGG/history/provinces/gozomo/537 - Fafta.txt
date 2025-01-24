@@ -5,3 +5,11 @@ add_core = KID
 trade_goods = timber
 life_rating = 33
 terrain = savanna_woodland
+
+1308.1.2 = {
+    owner = PAS
+    controller = PAS
+    add_core = PAS
+    remove_core = POZ
+}
+

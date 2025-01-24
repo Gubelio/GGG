@@ -1,5 +1,6 @@
-owner = RAS
-controller = RAS
+owner = PPN
+controller = PPN
+add_core = PPN
 add_core = RAS
 trade_goods = grain
 life_rating = 33

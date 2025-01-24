@@ -5,3 +5,10 @@ add_core = PRT
 trade_goods = dye
 life_rating = 33
 
+1308.1.2 = {
+    owner = ROD
+    controller = ROD
+    add_core = ROD
+    remove_core = YEU
+}
+

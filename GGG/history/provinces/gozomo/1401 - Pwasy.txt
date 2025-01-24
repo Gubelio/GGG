@@ -1,5 +1,6 @@
-owner = BIM
-controller = BIM
+owner = PPN
+controller = PPN
+add_core = PPN
 add_core = BIM
 trade_goods = fish
 life_rating = 33

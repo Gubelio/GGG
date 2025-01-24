@@ -5,3 +5,10 @@ add_core = KID
 trade_goods = grain
 life_rating = 33
 
+1308.1.2 = {
+    owner = VAF
+    controller = VAF
+    add_core = VAF
+    remove_core = CHA
+}
+

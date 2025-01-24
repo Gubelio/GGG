@@ -1,0 +1,33 @@
+capital = 741
+primary_culture = ihnpedi
+culture = gopza
+religion = vewugi
+government = princely_despotate #princely_despotate
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.10
+non_state_culture_literacy = 0.01
+civilized = no
+
+slavery = yes_slavery
+
+# Social Reforms
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 100
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+
+#technologies
+
+
+#flags
+
+set_country_flag = vewugi_country

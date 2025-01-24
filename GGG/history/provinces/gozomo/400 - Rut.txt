@@ -5,3 +5,10 @@ add_core = ATH
 trade_goods = wool
 life_rating = 20
 
+1308.1.2 = {
+    owner = THS
+    controller = THS
+    add_core = THS
+    remove_core = STH
+}
+

@@ -5,3 +5,10 @@ add_core = ATH
 trade_goods = sulphur
 life_rating = 33
 
+1308.1.2 = {
+    owner = THS
+    controller = THS
+    add_core = THS
+    remove_core = VAS
+}
+

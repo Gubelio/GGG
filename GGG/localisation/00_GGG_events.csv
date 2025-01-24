@@ -177,8 +177,8 @@ EVT65000OPTA;Hopefully he's no fool;;;;;;;;;;;;;x
 EVTNAME65001;Initial Leadership Selection;;;;;;;;;;;;;x
 EVTDESC65001;GGG has a ‘leader’ system, by which national civilian political leaders are represented in the former functional role for ‘national values’. Leaders change with elections, deaths, resignations, and more. The ‘leadership’ system can be turned off in the settings decision within the first year of play. In multiplayer, this will disable the mechanic for everyone. This event exists to inform you of this system and randomly select a first leader for your state.;;;;;;;;;;;;;x
 EVT65001OPTA;Hopefully he's no fool;;;;;;;;;;;;;x
-EVTNAME65002;Leadership Disabled;;;;;;;;;;;;;x
-EVTDESC65002;GGG's 'leadership' mechanic has been disabled by you or another player for the duration of this game.;;;;;;;;;;;;;x
+EVTNAME65002;Leadership Enabled;;;;;;;;;;;;;x
+EVTDESC65002;GGG's 'leadership' mechanic has been enabled for the duration of this game. This cannot be undone and is still a work in progress feature.;;;;;;;;;;;;;x
 EVT65002OPTA;Excellent;;;;;;;;;;;;;x
 EVTNAME65003;Leader Assassinated!;;;;;;;;;;;;;x
 EVTDESC65003;Shock and horror in $CAPITAL$! We have just received harrowing reports that our leader, that old $NATIONAL_VALUE$, has just been slain on the streets of $CAPITAL$ by some lunatic or fanatic. It’s not exactly clear whether this was driven by some personal disturbance or part of a broader political or revolutionary conspiracy. Nonetheless, the government is scrambling to organize a replacement and crack down on civil disturbances like this.;;;;;;;;;;;;;x

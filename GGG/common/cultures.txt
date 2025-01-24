@@ -119,6 +119,19 @@ diwvo = {
 							Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
 							Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
     }
+	
+    rashuum = {
+	  color = { 30 104 135 }
+        	first_names = { Fouk Drid Ouruumrau Druwoub Uush Mod Koum Droum Kib Hwamp Outzusunt Vat Drukshoum Tuptun Tufom
+							Taengaud Bouhw Fimpuu Kuuhwu Zoth Rukroum Orom Zruk Raehwa Oukim Todrid Uptad Mruuwub Ruz Trummun
+							Thriguu Thkuuswuu Ungoun Fuug Mrashush Thrakuunt Ngungu Foug Kruut Thrud Worushu Krut Pygu Zroth Zrumun
+							Kuwgad Zouuwuhu Monogoun Komongoun Goun Todid Rodrid Rodid Ruzum Trudum Othat Otun Umn Torofumom
+							Thukwo }
+
+        	last_names = { 	Zaum-Towuzh Zaum-Taerid Zaum-Truunt Zaum-Drogon Tzau-Ybom Zaum-Thomon Zaum-Hydom Zaum-Worryd Zaum-Zotom Zaum-Faemon
+							Zaum-Zamuz Zamuzi Oromon Ybomon Zaum-Morot Zaum-Doromon Zuzmikon Otunmynon Trominon Dubrunt Tiukum 
+							Mykoum Itzigoun Trudugoun Fokzum Gogoun Ohrun Murmorun Ohrun Gomon Domun }
+    }
 }
 
 peninsular_diwvo = {

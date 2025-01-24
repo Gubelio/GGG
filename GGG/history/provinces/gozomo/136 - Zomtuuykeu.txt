@@ -5,3 +5,10 @@ add_core = PRT
 trade_goods = opium
 life_rating = 33
 
+1308.1.2 = {
+    owner = FAH
+    controller = FAH
+    add_core = FAH
+    remove_core = BAH
+}
+

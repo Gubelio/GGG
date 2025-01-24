@@ -1,5 +1,6 @@
-owner = DHC
-controller = DHC
+owner = PPN
+controller = PPN
+add_core = PPN
 add_core = DHC
 trade_goods = wool
 life_rating = 33

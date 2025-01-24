@@ -1,5 +1,6 @@
-owner = SUC
-controller = SUC
+owner = PPN
+controller = PPN
+add_core = PPN
 add_core = SUC
 trade_goods = fish
 life_rating = 33

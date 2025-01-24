@@ -5,3 +5,10 @@ add_core = KID
 trade_goods = cattle
 life_rating = 33
 
+1308.1.2 = {
+    owner = JAD
+    controller = JAD
+    add_core = JAD
+    remove_core = NOK
+}
+

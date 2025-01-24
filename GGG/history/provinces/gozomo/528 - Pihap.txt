@@ -5,3 +5,11 @@ add_core = KID
 trade_goods = fruit
 life_rating = 33
 terrain = savanna_woodland
+
+1308.1.2 = {
+    owner = VAF
+    controller = VAF
+    add_core = VAF
+    remove_core = VUF
+}
+

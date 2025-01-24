@@ -6,3 +6,10 @@ trade_goods = cattle
 life_rating = 33
 terrain = savanna
 
+1308.1.2 = {
+    owner = PAS
+    controller = PAS
+    add_core = PAS
+    remove_core = DIM
+}
+

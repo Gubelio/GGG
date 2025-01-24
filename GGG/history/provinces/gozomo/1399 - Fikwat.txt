@@ -1,5 +1,6 @@
-owner = MWI
-controller = MWI
+owner = PPN
+controller = PPN
+add_core = PPN
 add_core = MWI
 trade_goods = cattle
 life_rating = 33

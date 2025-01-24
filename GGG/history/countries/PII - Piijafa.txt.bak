@@ -1,0 +1,79 @@
+capital = 581
+primary_culture = west_gashdzii
+religion = kadkohi
+government = princely_despotate
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.13
+non_state_culture_literacy = 0.01
+civilized = yes
+
+# Political reforms
+
+citizens_rights = primary_culture_only
+border_policy = closed_borders
+legislative_system = noble_parliament
+land_reform_civ = feudal_tenure
+banking_system = unregulated_currency
+thralldom = thralldom_allowed
+public_order = feudal_courts
+administrative_reform = proprietary_bureaucracy
+infrastructure = ad_hoc_development
+health_care = no_health_care
+school_reforms = no_school_system
+
+# Social Reforms
+
+emigration_law = emigration_restricted
+clerical_law = magisterialism
+worker_protections = no_protections
+scriptural_law = courts_of_canon
+welfare_laws = public_granaries
+debt_law = serfdom
+penal_system = capital_punishment
+slavery = yes_slavery
+wage_reform = no_minimum_wage
+social_privileges = feudal_rights
+
+ruling_party = dominion_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 65
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
+
+oob = "PII_oob.txt"
+
+#flags
+
+set_country_flag = kadkohi_country

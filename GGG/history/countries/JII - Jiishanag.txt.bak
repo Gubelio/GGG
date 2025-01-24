@@ -1,0 +1,82 @@
+capital = 240
+primary_culture = south_gashdzii
+religion = motkohnic
+government = aristocratic_commonwealth
+plurality = 5.0
+nationalvalue = nv_none
+literacy = 0.36
+non_state_culture_literacy = 0.01
+civilized = yes
+
+prestige = 45
+
+# Political reforms
+citizens_rights = primary_culture_only
+border_policy = quota_immigration
+legislative_system = noble_parliament
+land_reform_civ = enclosure_of_commons
+banking_system = banking_licenses
+thralldom = thralldom_allowed
+public_order = appointed_justices 
+administrative_reform = aristocratic_bureaucracy
+infrastructure = ad_hoc_development
+health_care = no_health_care
+school_reforms = parish_school_system
+
+# Social Reforms
+emigration_law = emigration_restricted
+clerical_law = magisterialism
+worker_protections = trinket_protections
+scriptural_law = freedom_of_conscience
+welfare_laws = public_granaries
+debt_law = peonage
+penal_system = incarceration
+slavery = code_of_rights
+wage_reform = no_minimum_wage
+social_privileges = legal_disabilities
+
+ruling_party = JII_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 65
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
+mechanical_production = 1
+experimental_railroad = 1
+
+#flags
+
+oob = "JII_oob.txt"
+
+set_country_flag = motkohnic_country
