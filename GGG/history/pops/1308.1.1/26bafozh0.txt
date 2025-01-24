@@ -404,13 +404,13 @@ size = 1281
 	farmers = {
 		 culture = cherasass
 		 religion = jur
-		size = 15849
+		size = 23773
 	}
 
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 5849
+		size = 8773
 	}
 
 
@@ -626,7 +626,7 @@ size = 22012
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 15849
+		size = 23773
 	}
 
 	farmers = {
@@ -814,7 +814,7 @@ size = 35
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 9849
+		size = 14773
 	}
 
 
@@ -1214,7 +1214,7 @@ size = 33
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 7849
+		size = 11773
 	}
 
 	clergymen = {
@@ -8680,7 +8680,7 @@ size = 427
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 3296
+		size = 4944
 	}
 
 	thralls = {
@@ -47726,7 +47726,7 @@ size = 16
 	farmers = {
 		 culture = rashuum
 		 religion = wompowushan
-		 size = 23898
+		 size =35847
 	}
 
 	soldiers = {
@@ -61675,7 +61675,7 @@ size = 662
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 15296
+		size = 22944
 	}
 
 	soldiers = {
@@ -61759,7 +61759,7 @@ size = 1069
 	thralls = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 82
+		size = 123
 	}
 
 	serfs = {
@@ -61813,7 +61813,7 @@ size = 1162
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 3296
+		size = 4944
 	}
 
 	farmers = {
@@ -61903,7 +61903,7 @@ size = 1669
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 10296
+		size = 15444
 	}
 
 	thralls = {
@@ -62184,7 +62184,11 @@ size = 1969
 
 2183 = {
 
-
+	farmers = {
+		 culture = jazhakdii
+		 religion = motkohnic
+		size = 7944
+	}
 
 	thralls = {
 		culture = fauhwozi
