@@ -5,63 +5,63 @@
 	aristocrats = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 150
+		 size =225
 	}
 
 
 	bureaucrats = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 6
+		 size =22
 	}
 
 
 	clergymen = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 60
+		 size =90
 	}
 
 
 	artisans = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 300
+		 size =450
 	}
 
 
 	soldiers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 168
+		 size =252
 	}
 
 
 	farmers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 3036
+		 size =4554
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 601
+		 size =901
 	}
 
 
 	officers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 6
+		 size =22
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 1683
+		 size =2524
 	}
 
 
@@ -70,35 +70,35 @@
 	soldiers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 70
+		 size =105
 	}
 
 
 	farmers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 632
+		 size =948
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 12648
+		 size =18972
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 281
+		 size =421
 	}
 
 
 	thralls = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 421
+		 size =631
 	}
 
 }
@@ -110,93 +110,93 @@
 	thralls = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 30
+		size = 45
 	}
 
 	serfs = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 20
+		size = 30
 	}
 
 	slaves = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 920
+		size = 1380
 	}
 
 	farmers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 46
+		size = 69
 	}
 
 	soldiers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 75
+		 size =112
 	}
 
 
 	bureaucrats = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 30
+		 size =45
 	}
 
 
 	artisans = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 151
+		 size =226
 	}
 
 
 	soldiers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 84
+		 size =126
 	}
 
 
 	farmers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 1532
+		 size =2298
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 303
+		 size =454
 	}
 
 
 	officers = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = tehuhrite
-		 size = 849
+		 size =1273
 	}
 
 
@@ -204,35 +204,35 @@
 	soldiers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 22
+		 size =33
 	}
 
 
 	labourers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 205
+		 size =307
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 4108
+		 size =6162
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 91
+		 size =136
 	}
 
 
 	thralls = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 136
+		 size =204
 	}
 
 }
@@ -245,90 +245,90 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 660
+		size = 990
 	}
 
 	labourers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 29739
+		size = 44608
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 165
+		size = 247
 	}
 
 	thralls = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 22
+		size = 33
 	}
 
 	serfs = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 14
+		size = 21
 	}
 
 	slaves = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 669
+		size = 1003
 	}
 
 	labourers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 33
+		size = 49
 	}
 
 	soldiers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 864
+		 size =1296
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 34
+		 size =127
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 345
+		 size =517
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1729
+		 size =2593
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 968
+		 size =1452
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 20467
+		 size =30700
 	}
 
 
@@ -336,14 +336,14 @@
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 34
+		 size =127
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 9685
+		 size =14527
 	}
 
 
@@ -351,35 +351,35 @@
 	soldiers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 23
+		 size =34
 	}
 
 
 	labourers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 215
+		 size =322
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 4315
+		 size =6472
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 95
+		 size =142
 	}
 
 
 	thralls = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 143
+		 size =214
 	}
 
 }
@@ -392,100 +392,100 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 620
+		size = 930
 	}
 
 
 	labourers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 27939
+		size = 41908
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 155
+		size = 232
 	}
 
 	thralls = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	serfs = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	slaves = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 108
+		size = 162
 	}
 
 	labourers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 939
+		 size =1408
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 37
+		 size =137
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 375
+		 size =562
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1879
+		 size =2818
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1052
+		 size =1578
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 22982
+		 size =34473
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 37
+		 size =137
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 10525
+		 size =15787
 	}
 
 
@@ -494,35 +494,35 @@
 	soldiers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 12
+		 size =18
 	}
 
 
 	labourers = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 116
+		 size =174
 	}
 
 
 	slaves = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 2334
+		 size =3501
 	}
 
 
 	serfs = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 51
+		 size =76
 	}
 
 
 	thralls = {
 		 culture = ihntithot
 		 religion = vewugi
-		 size = 77
+		 size =115
 	}
 
 }
@@ -535,19 +535,19 @@
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 19740
+		size = 29610
 	}
 
 	soldiers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 109
+		size = 163
 	}
 
 	thralls = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	serfs = {
@@ -559,13 +559,13 @@
 	slaves = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 63
+		size = 94
 	}
 
 	labourers = {
 		culture = ihnpedi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 
@@ -573,42 +573,42 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1503
+		 size =2254
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 60
+		 size =90
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 601
+		 size =901
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3006
+		 size =4509
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1683
+		 size =2524
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 39012
+		 size =58518
 	}
 
 
@@ -616,14 +616,14 @@
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 60
+		 size =90
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 16834
+		 size =25251
 	}
 
 }
@@ -635,147 +635,147 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 6141
+		size = 9211
 	}
 
 	officers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 21
+		size = 31
 	}
 
 
 	labourers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 13076
+		size = 19614
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 614
+		size = 921
 	}
 
 	artisans = {
 		culture = gopza
 		religion = tehuhrite
-		size = 1096
+		size = 1644
 	}
 
 	clergymen = {
 		culture = gopza
 		religion = tehuhrite
-		size = 219
+		size = 328
 	}
 
 	bureaucrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 21
+		size = 31
 	}
 
 	aristocrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 548
+		size = 822
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1135
+		 size =1702
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 45
+		 size =167
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 454
+		 size =681
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2271
+		 size =3406
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1272
+		 size =1908
 	}
 
 
 	labourers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 26543
+		 size =39814
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 45
+		 size =167
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 12720
+		 size =19080
 	}
 
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 80
+		 size =120
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 32
+		 size =48
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 161
+		 size =241
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 90
+		 size =135
 	}
 
 
 	labourers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1927
+		 size =2890
 	}
 
 
@@ -785,14 +785,14 @@
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 902
+		 size =1353
 	}
 
 }
@@ -804,120 +804,120 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 220
+		size = 330
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 146
+		size = 219
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 6608
+		size = 9912
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 330
+		size = 495
 	}
 
 	soldiers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 36
+		size = 54
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 563
+		size = 844
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1016
+		size = 1524
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 56
+		size = 84
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 100
+		size = 150
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 20
+		size = 30
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 50
+		size = 75
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2366
+		 size =3549
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 94
+		 size =352
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 946
+		 size =1419
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4733
+		 size =7099
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2650
+		 size =3975
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 56803
+		 size =85204
 	}
 
 
@@ -925,14 +925,14 @@
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 94
+		 size =352
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 26505
+		 size =39757
 	}
 
 }
@@ -944,67 +944,67 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 60
+		size = 90
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 40
+		size = 60
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1829
+		size = 2743
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
+		size = 136
+	}
+
+	soldiers = {
+		culture = ihntithot
+		religion = vewugi
+		size = 15
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 513
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1108
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 51
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
 		size = 91
 	}
 
-	soldiers = {
-		culture = ihntithot
-		religion = vewugi
-		size = 10
-	}
-
-	serfs = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 342
-	}
-
-	officers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 1
-	}
-
-	farmers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 739
-	}
-
-	soldiers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 34
-	}
-
-	artisans = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 61
-	}
-
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -1016,62 +1016,62 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 30
+		size = 45
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2385
+		 size =3577
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 95
+		 size =142
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 954
+		 size =1431
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4770
+		 size =7155
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2671
+		 size =4006
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 57717
+		 size =86575
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 95
+		 size =142
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 26712
+		 size =40068
 	}
 
 }
@@ -1083,85 +1083,85 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 3444
+		size = 5166
 	}
 
 	officers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 12
+		size = 18
 	}
 
 	farmers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 6213
+		size = 9319
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 344
+		size = 516
 	}
 
 	artisans = {
 		culture = gopza
 		religion = tehuhrite
-		size = 615
+		size = 922
 	}
 
 	clergymen = {
 		culture = gopza
 		religion = tehuhrite
-		size = 123
+		size = 184
 	}
 
 	bureaucrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 12
+		size = 18
 	}
 
 	aristocrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 307
+		size = 460
 	}
 
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 25
+		size = 37
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 16
+		size = 24
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 758
+		size = 1137
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 37
+		size = 55
 	}
 
 	soldiers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 4
+		size = 6
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 166
+		size = 249
 	}
 
 
@@ -1169,25 +1169,25 @@
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 299
+		size = 448
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 16
+		size = 24
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 29
+		size = 43
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 
@@ -1195,48 +1195,48 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 14
+		size = 21
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2058
+		 size =3087
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 82
+		 size =307
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 823
+		 size =1234
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4117
+		 size =6175
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2305
+		 size =3457
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 49581
+		 size =74371
 	}
 
 
@@ -1244,14 +1244,14 @@
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 82
+		 size =307
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 23055
+		 size =34582
 	}
 
 }
@@ -1264,211 +1264,211 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 645
+		size = 967
 	}
 
 	officers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 1393
+		size = 2089
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 64
+		size = 96
 	}
 
 	artisans = {
 		culture = gopza
 		religion = tehuhrite
-		size = 115
+		size = 172
 	}
 
 	clergymen = {
 		culture = gopza
 		religion = tehuhrite
-		size = 23
+		size = 34
 	}
 
 	bureaucrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 57
+		size = 85
 	}
 
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 656
+		size = 984
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1418
+		size = 2127
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 65
+		size = 97
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 117
+		size = 175
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 23
+		size = 34
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 58
+		size = 87
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 656
+		size = 984
 	}
 
 	officers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 1418
+		size = 2127
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 65
+		size = 97
 	}
 
 	artisans = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 117
+		size = 175
 	}
 
 	clergymen = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 23
+		size = 34
 	}
 
 	bureaucrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 58
+		size = 87
 	}
 
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 60
+		size = 90
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 40
+		size = 60
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1829
+		size = 2743
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
+		size = 136
+	}
+
+	soldiers = {
+		culture = ihntithot
+		religion = vewugi
+		size = 15
+	}
+
+	serfs = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 513
+	}
+
+	officers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1
+	}
+
+	farmers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 1108
+	}
+
+	soldiers = {
+		culture = yamoujoy
+		religion = tehuhrite
+		size = 51
+	}
+
+	artisans = {
+		culture = yamoujoy
+		religion = tehuhrite
 		size = 91
 	}
 
-	soldiers = {
-		culture = ihntithot
-		religion = vewugi
-		size = 10
-	}
-
-	serfs = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 342
-	}
-
-	officers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 1
-	}
-
-	farmers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 739
-	}
-
-	soldiers = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 34
-	}
-
-	artisans = {
-		culture = yamoujoy
-		religion = tehuhrite
-		size = 61
-	}
-
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -1480,62 +1480,62 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 30
+		size = 45
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3350
+		 size =5025
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 134
+		 size =502
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1340
+		 size =2010
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 6701
+		 size = 40051
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3752
+		 size =5628
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 81083
+		 size = 91624
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 134
+		 size =502
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 37526
+		 size =56289
 	}
 
 }
@@ -1547,164 +1547,164 @@
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 20267
+		size = 30400
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 72
+		size = 108
 	}
 
 	slaves = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 3619
+		size = 5428
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 40173
+		size = 60259
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 2026
+		size = 3039
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 3619
+		size = 5428
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 723
+		size = 1084
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 72
+		size = 108
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 1809
+		size = 2713
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 2865
+		size = 4297
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	slaves = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 511
+		size = 766
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 5679
+		size = 8518
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 286
+		size = 429
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 511
+		size = 766
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 102
+		size = 153
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 255
+		size = 382
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 98
+		 size =147
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 39
+		 size =58
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 196
+		 size =294
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 109
+		 size =163
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2373
+		 size =3559
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1098
+		 size =1647
 	}
 
 }
@@ -1718,116 +1718,116 @@
 	serfs = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 1104
+		size = 1656
 	}
 
 	officers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	labourers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 2386
+		size = 3579
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 110
+		size = 165
 	}
 
 	artisans = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 197
+		size = 295
 	}
 
 	clergymen = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 39
+		size = 58
 	}
 
 	bureaucrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 98
+		size = 147
 	}
 
 	officers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	labourers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 2386
+		size = 3579
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2086
+		 size =3129
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 83
+		 size =310
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 834
+		 size =1251
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4172
+		 size =6258
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2336
+		 size =3504
 	}
 
 
 	labourers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 50483
+		 size =75724
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 83
+		 size =310
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 23364
+		 size =35046
 	}
 
 }
@@ -1839,56 +1839,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2280
+		 size =3420
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 91
+		 size =136
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 912
+		 size =1368
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4561
+		 size =6841
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2554
+		 size =3831
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 55196
+		 size =82794
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 91
+		 size =136
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 25545
+		 size =38317
 	}
 
 }
@@ -1902,7 +1902,7 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 232
+		size = 348
 	}
 
 
@@ -1910,896 +1910,7 @@
 	labourers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 503
-	}
-
-	soldiers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 23
-	}
-
-	artisans = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 41
-	}
-
-	clergymen = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 8
-	}
-
-
-
-	aristocrats = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 20
-	}
-
-	serfs = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 1104
-	}
-
-	officers = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 3
-	}
-
-	labourers = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 2386
-	}
-
-	soldiers = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 110
-	}
-
-	artisans = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 197
-	}
-
-	clergymen = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 39
-	}
-
-	bureaucrats = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 3
-	}
-
-	aristocrats = {
-		culture = bogoran
-		religion = tehuhrite
-		size = 98
-	}
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 3258
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 130
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1303
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 6516
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 3649
-	}
-
-
-	labourers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 78849
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 130
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 36492
-	}
-
-}
-
-429 = {
-
-
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2436
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 97
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 974
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 4872
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2728
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 58953
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 97
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 27284
-	}
-
-}
-
-430 = {
-
-
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1002
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 91
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 912
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 4561
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2554
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 55195
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 91
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 25545
-	}
-
-}
-
-431 = {
-
-
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2180
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 87
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 872
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 4361
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2442
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 52775
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 87
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 24425
-	}
-
-}
-
-432 = {
-
-
-
-	thralls = {
-		culture = bogoran
-		religion = vewugi
-		size = 219
-	}
-
-	serfs = {
-		culture = bogoran
-		religion = vewugi
-		size = 146
-	}
-
-	slaves = {
-		culture = bogoran
-		religion = vewugi
-		size = 6599
-	}
-
-	labourers = {
-		culture = bogoran
-		religion = vewugi
-		size = 329
-	}
-
-	soldiers = {
-		culture = bogoran
-		religion = vewugi
-		size = 36
-	}
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1277
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 51
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 510
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2554
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1430
-	}
-
-
-	labourers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 30911
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 51
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 14306
-	}
-
-}
-
-433 = {
-
-
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1161
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 46
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 464
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2322
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1300
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 28098
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 46
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 13004
-	}
-
-}
-
-434 = {
-
-
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1048
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 41
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 419
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 2096
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1173
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 25362
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 41
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 11738
-	}
-
-}
-
-435 = {
-
-
-
-	serfs = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 11867
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 42
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 2119
-	}
-
-	farmers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 23522
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1186
-	}
-
-	artisans = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 2119
-	}
-
-	clergymen = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 423
-	}
-
-	bureaucrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 42
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1059
-	}
-
-	serfs = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 1969
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 7
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 351
-	}
-
-	farmers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 3903
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 196
-	}
-
-	artisans = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 351
-	}
-
-	clergymen = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 70
-	}
-
-	bureaucrats = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 7
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 175
-	}
-
-	aristocrats = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 598
-	}
-
-
-	bureaucrats = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 23
-	}
-
-
-	clergymen = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 239
-	}
-
-
-	artisans = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 1197
-	}
-
-
-	soldiers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 670
-	}
-
-
-	farmers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 14486
-	}
-
-
-	officers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 23
-	}
-
-
-	serfs = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 6704
-	}
-
-}
-
-436 = {
-
-
-
-	serfs = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 12553
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 44
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 2241
-	}
-
-	labourers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 24882
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1255
-	}
-
-	artisans = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 2241
-	}
-
-	clergymen = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 448
-	}
-
-	bureaucrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 44
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1120
-	}
-
-	serfs = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 3593
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 12
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 641
-	}
-
-	labourers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 7122
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 359
-	}
-
-	artisans = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 641
-	}
-
-	clergymen = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 128
-	}
-
-	bureaucrats = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 12
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 320
-	}
-
-	aristocrats = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 86
-	}
-
-
-	bureaucrats = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 3
-	}
-
-
-	clergymen = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 34
-	}
-
-
-	artisans = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 172
-	}
-
-
-	soldiers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 96
-	}
-
-
-	labourers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 2086
-	}
-
-
-	officers = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 3
-	}
-
-
-	serfs = {
-		 culture = bogoran
-		 religion = vewugi
-		 size = 965
-	}
-
-}
-
-
-
-437 = {
-
-
-
-	serfs = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 342
-	}
-
-	officers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 1
-	}
-
-	labourers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 739
+		size = 754
 	}
 
 	soldiers = {
@@ -2820,6 +1931,895 @@
 		size = 12
 	}
 
+
+
+	aristocrats = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 30
+	}
+
+	serfs = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 1656
+	}
+
+	officers = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 4
+	}
+
+	labourers = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 3579
+	}
+
+	soldiers = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 165
+	}
+
+	artisans = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 295
+	}
+
+	clergymen = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 58
+	}
+
+	bureaucrats = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 4
+	}
+
+	aristocrats = {
+		culture = bogoran
+		religion = tehuhrite
+		size = 147
+	}
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =4887
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =487
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1954
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =9774
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =5473
+	}
+
+
+	labourers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =118273
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =487
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =54738
+	}
+
+}
+
+429 = {
+
+
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3654
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =362
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1461
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =7308
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =4092
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =88429
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =362
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =40926
+	}
+
+}
+
+430 = {
+
+
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1503
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =136
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1368
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =6841
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3831
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =82792
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =136
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =38317
+	}
+
+}
+
+431 = {
+
+
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3270
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =325
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1308
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =6541
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3663
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =79162
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =325
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =36637
+	}
+
+}
+
+432 = {
+
+
+
+	thralls = {
+		culture = bogoran
+		religion = vewugi
+		size = 328
+	}
+
+	serfs = {
+		culture = bogoran
+		religion = vewugi
+		size = 219
+	}
+
+	slaves = {
+		culture = bogoran
+		religion = vewugi
+		size = 9898
+	}
+
+	labourers = {
+		culture = bogoran
+		religion = vewugi
+		size = 493
+	}
+
+	soldiers = {
+		culture = bogoran
+		religion = vewugi
+		size = 54
+	}
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1915
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =76
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =765
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3831
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =2145
+	}
+
+
+	labourers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =46366
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =76
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =21459
+	}
+
+}
+
+433 = {
+
+
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1741
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =172
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =696
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3483
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1950
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =42147
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =172
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =19506
+	}
+
+}
+
+434 = {
+
+
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1572
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =152
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =628
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =3144
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1759
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =38043
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =152
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =17607
+	}
+
+}
+
+435 = {
+
+
+
+	serfs = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 17800
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 63
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 3178
+	}
+
+	farmers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 35283
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1779
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 3178
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 634
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 63
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1588
+	}
+
+	serfs = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 2953
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 10
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 526
+	}
+
+	farmers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 5854
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 294
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 526
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 105
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 10
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 262
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =897
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =34
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =358
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =1795
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =1005
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =21729
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =34
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =10056
+	}
+
+}
+
+436 = {
+
+
+
+	serfs = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 18829
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 66
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 3361
+	}
+
+	labourers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 37323
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1882
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 3361
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 672
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 66
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1680
+	}
+
+	serfs = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 5389
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 18
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 961
+	}
+
+	labourers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 10683
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 538
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 961
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 192
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 18
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 480
+	}
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =129
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =10
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =127
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =258
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =144
+	}
+
+
+	labourers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =3129
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =10
+	}
+
+
+	serfs = {
+		 culture = bogoran
+		 religion = vewugi
+		 size =1447
+	}
+
+}
+
+
+
+437 = {
+
+
+
+	serfs = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 513
+	}
+
+	officers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 1
+	}
+
+	labourers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 1108
+	}
+
+	soldiers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 51
+	}
+
+	artisans = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 91
+	}
+
+	clergymen = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 18
+	}
+
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
@@ -2829,62 +2829,62 @@
 	aristocrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 30
+		size = 45
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 430
+		 size =645
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 17
+		 size =62
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 172
+		 size =258
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 861
+		 size =1291
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 482
+		 size =723
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 20425
+		 size =30637
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 17
+		 size =62
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4825
+		 size =7237
 	}
 
 }
@@ -2897,56 +2897,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1030
+		 size =1545
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 41
+		 size =152
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 412
+		 size =618
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2061
+		 size =3091
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1154
+		 size =1731
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 24947
+		 size =37420
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 41
+		 size =152
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 11545
+		 size =17317
 	}
 
 }
@@ -2958,32 +2958,32 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 135
+		size = 202
 	}
 
 
 	labourers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 304
+		size = 456
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 13
+		size = 19
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 24
+		size = 36
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4
+		size = 6
 	}
 
 
@@ -2991,56 +2991,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1050
+		 size =1575
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 420
+		 size =630
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2101
+		 size =3151
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1176
+		 size =1764
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 25428
+		 size =38142
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 11768
+		 size =17652
 	}
 
 }
@@ -3052,56 +3052,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1050
+		 size =1575
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 420
+		 size =630
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2101
+		 size =3151
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1176
+		 size =1764
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 25428
+		 size =38142
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 11768
+		 size =17652
 	}
 
 }
@@ -3113,56 +3113,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1034
+		 size =1551
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 56
+		 size =210
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 569
+		 size =853
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2847
+		 size =4270
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1594
+		 size =2391
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 34457
+		 size =51685
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 56
+		 size =210
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 15947
+		 size =23920
 	}
 
 }
@@ -3174,56 +3174,56 @@
 	aristocrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 108
+		 size =162
 	}
 
 
 	bureaucrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	clergymen = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 43
+		 size =64
 	}
 
 
 	artisans = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 216
+		 size =324
 	}
 
 
 	soldiers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 121
+		 size =181
 	}
 
 
 	farmers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 2625
+		 size =3937
 	}
 
 
 	officers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	serfs = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1214
+		 size =1821
 	}
 
 }
@@ -3235,56 +3235,56 @@
 	aristocrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 43
+		 size =64
 	}
 
 
 	bureaucrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	clergymen = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 17
+		 size =62
 	}
 
 
 	artisans = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 86
+		 size =129
 	}
 
 
 	soldiers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 48
+		 size =72
 	}
 
 
 	farmers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1042
+		 size =1563
 	}
 
 
 	officers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	serfs = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 482
+		 size =723
 	}
 
 }
@@ -3298,98 +3298,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1412
+		size = 2118
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 	labourers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 3178
+		size = 4767
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 141
+		size = 211
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 252
+		size = 378
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 50
+		size = 75
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 195
+		 size =292
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 7
+		 size =25
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 78
+		 size =117
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 391
+		 size =586
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 219
+		 size =328
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4738
+		 size =7107
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 7
+		 size =25
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2193
+		 size =3289
 	}
 
 }
@@ -3401,56 +3401,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 195
+		 size =292
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 7
+		 size =25
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 78
+		 size =117
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 391
+		 size =586
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 219
+		 size =328
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4738
+		 size =7107
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 7
+		 size =25
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2193
+		 size =3289
 	}
 
 }
@@ -3462,98 +3462,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1300
+		size = 1950
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4
+		size = 6
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2926
+		size = 4389
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 130
+		size = 195
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 232
+		size = 348
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 46
+		size = 69
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4
+		size = 6
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 608
+		 size =912
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 24
+		 size =90
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 243
+		 size =364
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1217
+		 size =1825
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 681
+		 size =1021
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 14728
+		 size =22092
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 24
+		 size =90
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 6816
+		 size =10224
 	}
 
 }
@@ -3565,7 +3565,110 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 846
+		size = 1269
+	}
+
+	officers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 4
+	}
+
+	farmers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 2856
+	}
+
+	soldiers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 126
+	}
+
+	artisans = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 226
+	}
+
+	clergymen = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 45
+	}
+
+	bureaucrats = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 4
+	}
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =451
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =18
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =180
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =903
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =505
+	}
+
+
+	farmers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =10933
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =18
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =5059
+	}
+
+}
+
+446 = {
+
+
+
+	serfs = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 853
 	}
 
 	officers = {
@@ -3577,7 +3680,7 @@
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1904
+		size = 1921
 	}
 
 	soldiers = {
@@ -3607,159 +3710,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 301
+		 size =1404
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 12
+		 size =137
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 120
+		 size =561
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 602
+		 size =2808
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 337
+		 size =1572
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 7289
+		 size =33981
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 12
+		 size =137
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3373
-	}
-
-}
-
-446 = {
-
-
-
-	serfs = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 569
-	}
-
-	officers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 2
-	}
-
-	farmers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 1281
-	}
-
-	soldiers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 56
-	}
-
-	artisans = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 101
-	}
-
-	clergymen = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 20
-	}
-
-	bureaucrats = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 2
-	}
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 936
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 37
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 374
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1872
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1048
-	}
-
-
-	farmers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 22654
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 37
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 10484
+		 size =15726
 	}
 
 }
@@ -3771,7 +3771,7 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 446
+		size = 669
 	}
 
 	officers = {
@@ -3783,19 +3783,122 @@
 	labourers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1003
+		size = 1504
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 44
+		size = 66
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 79
+		size = 118
+	}
+
+	clergymen = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 22
+	}
+
+	bureaucrats = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 1
+	}
+
+	aristocrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =649
+	}
+
+
+	bureaucrats = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =62
+	}
+
+
+	clergymen = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =259
+	}
+
+
+	artisans = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =1300
+	}
+
+
+	soldiers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =727
+	}
+
+
+	labourers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =15739
+	}
+
+
+	officers = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =62
+	}
+
+
+	serfs = {
+		 culture = maumoujoy
+		 religion = tehuhrite
+		 size =7284
+	}
+
+}
+
+448 = {
+
+
+
+	serfs = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 433
+	}
+
+	officers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 1
+	}
+
+	labourers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 976
+	}
+
+	soldiers = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 42
+	}
+
+	artisans = {
+		culture = miegpaup
+		religion = tehuhrite
+		size = 76
 	}
 
 	clergymen = {
@@ -3813,159 +3916,56 @@
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 433
+		 size =795
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 17
+		 size =77
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 173
+		 size =318
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 867
+		 size =1591
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 485
+		 size =891
 	}
 
 
 	labourers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 10493
+		 size =19261
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 17
+		 size =77
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4856
-	}
-
-}
-
-448 = {
-
-
-
-	serfs = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 289
-	}
-
-	officers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 1
-	}
-
-	labourers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 651
-	}
-
-	soldiers = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 28
-	}
-
-	artisans = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 51
-	}
-
-	clergymen = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 10
-	}
-
-	bureaucrats = {
-		culture = miegpaup
-		religion = tehuhrite
-		size = 1
-	}
-
-	aristocrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 530
-	}
-
-
-	bureaucrats = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 21
-	}
-
-
-	clergymen = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 212
-	}
-
-
-	artisans = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 1061
-	}
-
-
-	soldiers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 594
-	}
-
-
-	labourers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 12841
-	}
-
-
-	officers = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 21
-	}
-
-
-	serfs = {
-		 culture = maumoujoy
-		 religion = tehuhrite
-		 size = 5943
+		 size =8914
 	}
 
 }
@@ -3977,98 +3977,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 3077
+		size = 4615
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 6924
+		size = 10386
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 307
+		size = 460
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 549
+		size = 823
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 109
+		size = 163
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 75
+		 size =112
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 30
+		 size =45
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 151
+		 size =226
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 84
+		 size =126
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1828
+		 size =2742
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 846
+		 size =1269
 	}
 
 }
@@ -4080,56 +4080,56 @@
 	aristocrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 45
+		 size =167
 	}
 
 
 	bureaucrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	clergymen = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 18
+		 size =27
 	}
 
 
 	artisans = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 91
+		 size =136
 	}
 
 
 	soldiers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 51
+		 size =76
 	}
 
 
 	farmers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1102
+		 size =1653
 	}
 
 
 	officers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	serfs = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 510
+		 size =765
 	}
 
 }
@@ -4141,56 +4141,56 @@
 	aristocrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 38
+		 size =57
 	}
 
 
 	bureaucrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	clergymen = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 15
+		 size =22
 	}
 
 
 	artisans = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 77
+		 size =115
 	}
 
 
 	soldiers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 43
+		 size =64
 	}
 
 
 	farmers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 934
+		 size =1401
 	}
 
 
 	officers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1
+		 size =2
 	}
 
 
 	serfs = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 432
+		 size =648
 	}
 
 }
@@ -4202,56 +4202,56 @@
 	aristocrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 97
+		 size =362
 	}
 
 
 	bureaucrats = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 39
+		 size =58
 	}
 
 
 	artisans = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 195
+		 size =292
 	}
 
 
 	soldiers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 109
+		 size =163
 	}
 
 
 	farmers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 2360
+		 size =3540
 	}
 
 
 	officers = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = miegpaup
 		 religion = tehuhrite
-		 size = 1092
+		 size =1638
 	}
 
 }
@@ -4263,98 +4263,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2067
+		size = 3100
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 7
+		size = 10
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4651
+		size = 6976
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 206
+		size = 309
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 369
+		size = 553
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 73
+		size = 109
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 7
+		size = 10
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 100
+		 size =150
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 40
+		 size =60
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 201
+		 size =301
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 112
+		 size =168
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2440
+		 size =3660
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1129
+		 size =1693
 	}
 
 }
@@ -4366,98 +4366,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1695
+		size = 2542
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 3814
+		size = 5721
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 169
+		size = 253
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 302
+		size = 453
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 60
+		size = 90
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 112
+		 size =168
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 45
+		 size =167
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 225
+		 size =337
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 126
+		 size =189
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2722
+		 size =4083
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 4
+		 size =15
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1260
+		 size =1890
 	}
 
 }
@@ -4469,98 +4469,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2616
+		size = 3924
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 9
+		size = 13
 	}
 
 	labourers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 5886
+		size = 8829
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 261
+		size = 391
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 467
+		size = 700
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 93
+		size = 139
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 9
+		size = 13
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 223
+		 size =334
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 8
+		 size =30
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 89
+		 size =133
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 446
+		 size =669
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 250
+		 size =375
 	}
 
 
 	labourers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 5405
+		 size =8107
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 8
+		 size =30
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2501
+		 size =3751
 	}
 
 }
@@ -4572,7 +4572,7 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -4584,25 +4584,25 @@
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 644
+		size = 966
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -4614,56 +4614,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 300
+		 size =450
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 12
+		 size =18
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 120
+		 size =180
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 600
+		 size =900
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 336
+		 size =504
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 7263
+		 size =10894
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 12
+		 size =18
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3361
+		 size =5041
 	}
 
 }
@@ -4675,98 +4675,98 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 614
+		size = 921
 	}
 
 	officers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 1381
+		size = 2071
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 61
+		size = 91
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 109
+		size = 163
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 21
+		size = 31
 	}
 
 	bureaucrats = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 393
+		 size =589
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 15
+		 size =22
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 157
+		 size =235
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 787
+		 size =1180
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 440
+		 size =660
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 9525
+		 size =14287
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 15
+		 size =22
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 4408
+		 size =6612
 	}
 
 }
@@ -4778,32 +4778,32 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 138
+		size = 207
 	}
 
 
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 310
+		size = 465
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 13
+		size = 19
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 24
+		size = 36
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4
+		size = 6
 	}
 
 
@@ -4811,56 +4811,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 386
+		 size =579
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 15
+		 size =22
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 154
+		 size =231
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 772
+		 size =1158
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 432
+		 size =648
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 9350
+		 size =14025
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 15
+		 size =22
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 4327
+		 size =6490
 	}
 
 }
@@ -4872,56 +4872,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1074
+		 size =1611
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 429
+		 size =643
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 2149
+		 size =3223
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1203
+		 size =1804
 	}
 
 
 	labourers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 26011
+		 size =39016
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 42
+		 size =157
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 12038
+		 size =18057
 	}
 
 }
@@ -4933,56 +4933,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1809
+		 size =2713
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 72
+		 size =270
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 723
+		 size =1084
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3619
+		 size =5428
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 2026
+		 size =3039
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 43791
+		 size =65686
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 72
+		 size =270
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 20267
+		 size =30400
 	}
 
 }
@@ -4994,7 +4994,7 @@
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 252
+		size = 378
 	}
 
 
@@ -5002,25 +5002,25 @@
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 546
+		size = 819
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 25
+		size = 37
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 45
+		size = 67
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 9
+		size = 13
 	}
 
 
@@ -5028,62 +5028,62 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 22
+		size = 33
 	}
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1809
+		 size =2713
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 72
+		 size =270
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 723
+		 size =1084
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3619
+		 size =5428
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 2026
+		 size =3039
 	}
 
 
 	labourers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 43791
+		 size =65686
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 72
+		 size =270
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 20267
+		 size =30400
 	}
 
 }
@@ -5095,56 +5095,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3108
+		 size =4662
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 124
+		 size =465
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1243
+		 size =1864
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 6216
+		 size =9324
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3481
+		 size =5221
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 75223
+		 size =112834
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 124
+		 size =465
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 34814
+		 size =52221
 	}
 
 }
@@ -5156,7 +5156,7 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 112
+		size = 168
 	}
 
 
@@ -5164,62 +5164,62 @@
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 252
+		size = 378
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 11
+		size = 16
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 20
+		size = 30
 	}
 
 	clergymen = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 4
+		size = 6
 	}
 
 
 	thralls = {
 		culture = bogoran
 		religion = vewugi
-		size = 103
+		size = 154
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = vewugi
-		size = 69
+		size = 103
 	}
 
 	slaves = {
 		culture = bogoran
 		religion = vewugi
-		size = 3109
+		size = 4663
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = vewugi
-		size = 155
+		size = 232
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = vewugi
-		size = 17
+		size = 25
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -5231,25 +5231,25 @@
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 618
+		size = 927
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -5261,62 +5261,62 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 25
+		size = 37
 	}
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3758
+		 size =5637
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 150
+		 size =225
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1503
+		 size =2254
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 7517
+		 size =11275
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 4209
+		 size =6313
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 90958
+		 size =136437
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 150
+		 size =225
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 42096
+		 size =63144
 	}
 
 }
@@ -5328,56 +5328,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1600
+		 size =2400
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 64
+		 size =240
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 640
+		 size =960
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3200
+		 size =4800
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1792
+		 size =2688
 	}
 
 
 	labourers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 38720
+		 size =58080
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 64
+		 size =240
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 17920
+		 size =26880
 	}
 
 }
@@ -5389,56 +5389,56 @@
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1780
+		 size =2670
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 71
+		 size =265
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 712
+		 size =1068
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3561
+		 size =5341
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1994
+		 size =2991
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 43095
+		 size =64642
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 71
+		 size =265
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 19945
+		 size =29917
 	}
 
 }
@@ -5450,164 +5450,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 15642
+		size = 23463
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 55
+		size = 82
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2793
+		size = 4189
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 31005
+		size = 46507
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1564
+		size = 2346
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2793
+		size = 4189
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 558
+		size = 837
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 55
+		size = 82
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1396
+		size = 2094
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 2053
+		size = 3079
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 7
+		size = 10
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 366
+		size = 549
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 4070
+		size = 6105
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 205
+		size = 307
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 366
+		size = 549
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 73
+		size = 109
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 7
+		size = 10
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 183
+		size = 274
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 684
+		 size =1026
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 27
+		 size =100
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 273
+		 size =409
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1369
+		 size =2053
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 766
+		 size =1149
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 16566
+		 size =24849
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 27
+		 size =100
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7667
+		 size =11500
 	}
 
 }
@@ -5619,164 +5619,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 3764
+		size = 5646
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 13
+		size = 19
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 672
+		size = 1008
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 7461
+		size = 11191
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 376
+		size = 564
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 672
+		size = 1008
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 134
+		size = 201
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 13
+		size = 19
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 336
+		size = 504
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1521
+		size = 2281
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 271
+		size = 406
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3015
+		size = 4522
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 152
+		size = 228
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 271
+		size = 406
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 54
+		size = 81
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 135
+		size = 202
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1473
+		 size =2209
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 58
+		 size =217
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 589
+		 size =883
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2947
+		 size =4420
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1650
+		 size =2475
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 35661
+		 size =53491
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 58
+		 size =217
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 16504
+		 size =24756
 	}
 
 }
@@ -5790,7 +5790,7 @@
 	serfs = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 
@@ -5798,19 +5798,19 @@
 	farmers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 64
+		size = 96
 	}
 
 	soldiers = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	artisans = {
 		culture = miegpaup
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 	clergymen = {
@@ -5823,104 +5823,104 @@
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 1683
+		size = 2524
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 3637
+		size = 5455
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 168
+		size = 252
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 300
+		size = 450
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 60
+		size = 90
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 150
+		size = 225
 	}
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 125
+		 size =187
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 5
+		 size =17
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 50
+		 size =75
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 251
+		 size =376
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 140
+		 size =210
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 3045
+		 size =4567
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 5
+		 size =17
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1409
+		 size =2113
 	}
 
 }
@@ -5935,7 +5935,7 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 56
+		size = 84
 	}
 
 
@@ -5943,25 +5943,25 @@
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 122
+		size = 183
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 
@@ -5969,62 +5969,62 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 225
+		 size =337
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 9
+		 size =32
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 90
+		 size =135
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 451
+		 size =676
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 252
+		 size =378
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 5465
+		 size =8197
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 9
+		 size =32
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2529
+		 size =3793
 	}
 
 }
@@ -6036,31 +6036,31 @@
 	serfs = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 82
+		size = 123
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 177
+		size = 265
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 8
+		size = 12
 	}
 
 	artisans = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 14
+		size = 21
 	}
 
 	clergymen = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 
@@ -6068,140 +6068,140 @@
 	aristocrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 7
+		size = 10
 	}
 
 	thralls = {
 		culture = bogoran
 		religion = vewugi
-		size = 30
+		size = 45
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = vewugi
-		size = 20
+		size = 30
 	}
 
 	slaves = {
 		culture = bogoran
 		religion = vewugi
-		size = 920
+		size = 1380
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = vewugi
-		size = 46
+		size = 69
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 5693
+		size = 8539
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 20
+		size = 30
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 12302
+		size = 18453
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 569
+		size = 853
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1016
+		size = 1524
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 203
+		size = 304
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 20
+		size = 30
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 508
+		size = 762
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 586
+		 size =879
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 23
+		 size =34
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 234
+		 size =351
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1172
+		 size =1758
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 656
+		 size =984
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 14183
+		 size =21274
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 23
+		 size =34
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 6564
+		 size =9846
 	}
 
 }
@@ -6213,115 +6213,115 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 6479
+		size = 9718
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 33
+		size = 49
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1692
+		size = 2538
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 8789
+		size = 13183
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 947
+		size = 1420
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1692
+		size = 2538
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 338
+		size = 507
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 33
+		size = 49
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 846
+		size = 1269
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1104
+		size = 1656
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 197
+		size = 295
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 2188
+		size = 3282
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 110
+		size = 165
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 197
+		size = 295
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 39
+		size = 58
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 98
+		size = 147
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -6333,31 +6333,31 @@
 	slaves = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 51
+		size = 76
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 567
+		size = 850
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -6369,13 +6369,13 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 25
+		size = 37
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 28
+		size = 42
 	}
 
 	officers = {
@@ -6387,25 +6387,25 @@
 	slaves = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 56
+		size = 84
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	clergymen = {
@@ -6423,62 +6423,62 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 125
+		 size =187
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 5
+		 size =17
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 50
+		 size =75
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 251
+		 size =376
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 140
+		 size =210
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 13045
+		 size =19567
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 5
+		 size =17
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7409
+		 size =11113
 	}
 
 }
@@ -6491,164 +6491,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 7253
+		size = 10879
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 47
+		size = 70
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2366
+		size = 3549
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 13269
+		size = 19903
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1325
+		size = 1987
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2366
+		size = 3549
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 473
+		size = 709
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 47
+		size = 70
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1183
+		size = 1774
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1353
+		size = 2029
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 4
+		size = 6
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 241
+		size = 361
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 2682
+		size = 4023
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 135
+		size = 202
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 241
+		size = 361
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 48
+		size = 72
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 4
+		size = 6
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 120
+		size = 180
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 150
+		 size =225
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 6
+		 size =22
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 60
+		 size =90
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 301
+		 size =451
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 168
+		 size =252
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 16649
+		 size =24973
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 6
+		 size =22
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7689
+		 size =11533
 	}
 
 }
@@ -6661,208 +6661,208 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 821
+		size = 1231
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 146
+		size = 219
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1627
+		size = 2440
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 82
+		size = 123
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 146
+		size = 219
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 29
+		size = 43
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 73
-	}
-
-	serfs = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 65
-	}
-
-	officers = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 0
-	}
-
-	slaves = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 11
-	}
-
-	farmers = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 129
-	}
-
-	soldiers = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 6
-	}
-
-	artisans = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 11
-	}
-
-	clergymen = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 2
-	}
-
-	bureaucrats = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 0
-	}
-
-	aristocrats = {
-		culture = yamoujoy
-		religion = vewugi
-		size = 5
-	}
-
-	serfs = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 345
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 61
-	}
-
-	labourers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 684
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 34
-	}
-
-	artisans = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 61
-	}
-
-	clergymen = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 12
-	}
-
-	bureaucrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 30
-	}
-
-	serfs = {
-		culture = maumoujoy
-		religion = vewugi
 		size = 109
 	}
 
+	serfs = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 97
+	}
+
 	officers = {
-		culture = maumoujoy
+		culture = yamoujoy
 		religion = vewugi
 		size = 0
 	}
 
 	slaves = {
-		culture = maumoujoy
+		culture = yamoujoy
 		religion = vewugi
-		size = 19
+		size = 16
 	}
 
-	labourers = {
-		culture = maumoujoy
+	farmers = {
+		culture = yamoujoy
 		religion = vewugi
-		size = 217
+		size = 193
 	}
 
 	soldiers = {
-		culture = maumoujoy
+		culture = yamoujoy
 		religion = vewugi
-		size = 10
+		size = 9
 	}
 
 	artisans = {
-		culture = maumoujoy
+		culture = yamoujoy
 		religion = vewugi
-		size = 19
+		size = 16
 	}
 
 	clergymen = {
-		culture = maumoujoy
+		culture = yamoujoy
 		religion = vewugi
 		size = 3
 	}
 
 	bureaucrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	aristocrats = {
+		culture = yamoujoy
+		religion = vewugi
+		size = 7
+	}
+
+	serfs = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 517
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 91
+	}
+
+	labourers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1026
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 51
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 91
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 18
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 45
+	}
+
+	serfs = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 163
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 0
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 28
+	}
+
+	labourers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 325
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 15
+	}
+
+	artisans = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 28
+	}
+
+	clergymen = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 4
+	}
+
+	bureaucrats = {
 		culture = maumoujoy
 		religion = vewugi
 		size = 0
@@ -6871,62 +6871,62 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 9
+		size = 13
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1211
+		 size =1816
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 48
+		 size =72
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 484
+		 size =726
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2422
+		 size =3633
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1356
+		 size =2034
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 29308
+		 size =43962
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 48
+		 size =72
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 13564
+		 size =20346
 	}
 
 }
@@ -6940,134 +6940,134 @@
 	serfs = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 1902
+		size = 2853
 	}
 
 	officers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 4109
+		size = 6163
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 190
+		size = 285
 	}
 
 	artisans = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 339
+		size = 508
 	}
 
 	clergymen = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 67
+		size = 100
 	}
 
 	bureaucrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 6
+		size = 9
 	}
 
 	aristocrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 169
+		size = 253
 	}
 
 	thralls = {
 		culture = bogoran
 		religion = vewugi
-		size = 473
+		size = 709
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = vewugi
-		size = 315
+		size = 472
 	}
 
 	slaves = {
 		culture = bogoran
 		religion = vewugi
-		size = 14214
+		size = 21321
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = vewugi
-		size = 710
+		size = 1065
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = vewugi
-		size = 78
+		size = 117
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1243
+		 size =1864
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 49
+		 size =182
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 497
+		 size =745
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 2486
+		 size =3729
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 1392
+		 size =2088
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 30092
+		 size =45138
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 49
+		 size =182
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 13926
+		 size =20889
 	}
 
 }
@@ -7079,188 +7079,188 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 7964
+		size = 11946
 	}
 
 	officers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	labourers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 17209
+		size = 25813
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 796
+		size = 1194
 	}
 
 	artisans = {
 		culture = gopza
 		religion = tehuhrite
-		size = 1422
+		size = 2133
 	}
 
 	clergymen = {
 		culture = gopza
 		religion = tehuhrite
-		size = 284
+		size = 426
 	}
 
 	bureaucrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	aristocrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 711
+		size = 1066
 	}
 
 	thralls = {
 		culture = bogoran
 		religion = vewugi
-		size = 87
+		size = 130
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = vewugi
-		size = 58
+		size = 87
 	}
 
 	slaves = {
 		culture = bogoran
 		religion = vewugi
-		size = 2639
+		size = 3958
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = vewugi
-		size = 131
+		size = 196
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = vewugi
-		size = 14
+		size = 21
 	}
 
 	aristocrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 462
+		 size =693
 	}
 
 
 	bureaucrats = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 18
+		 size =27
 	}
 
 
 	clergymen = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 184
+		 size =276
 	}
 
 
 	artisans = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 924
+		 size =1386
 	}
 
 
 	soldiers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 517
+		 size =775
 	}
 
 
 	farmers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 11188
+		 size =16782
 	}
 
 
 	officers = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 18
+		 size =27
 	}
 
 
 	serfs = {
 		 culture = maumoujoy
 		 religion = tehuhrite
-		 size = 5178
+		 size =7767
 	}
     aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 203
+		 size =304
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 10
+		 size =37
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 102
+		 size =153
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 503
+		 size =754
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 301
+		 size =451
 	}
 
 
 	farmers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 13223
+		 size =19834
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 20
+		 size =30
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 5136
+		 size =7704
 	}
 
 
@@ -7272,61 +7272,61 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 988
+		size = 1482
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 176
+		size = 264
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1959
+		size = 2938
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 98
+		size = 147
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 176
+		size = 264
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 35
+		size = 52
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 88
+		size = 132
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -7338,31 +7338,31 @@
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 567
+		size = 850
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -7374,170 +7374,170 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 25
+		size = 37
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 12147
+		size = 18220
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 43
+		size = 64
 	}
 
 	slaves = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 2169
+		size = 3253
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 24078
+		size = 36117
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 1214
+		size = 1821
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 2169
+		size = 3253
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
+		size = 649
+	}
+
+	bureaucrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 64
+	}
+
+	aristocrats = {
+		culture = maumoujoy
+		religion = tehuhrite
+		size = 1626
+	}
+
+	serfs = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 4344
+	}
+
+	officers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 15
+	}
+
+	slaves = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 775
+	}
+
+	labourers = {
+		culture = maumoujoy
+		religion = vewugi
+		size = 8610
+	}
+
+	soldiers = {
+		culture = maumoujoy
+		religion = vewugi
 		size = 433
 	}
 
-	bureaucrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 43
-	}
-
-	aristocrats = {
-		culture = maumoujoy
-		religion = tehuhrite
-		size = 1084
-	}
-
-	serfs = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 2896
-	}
-
-	officers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 10
-	}
-
-	slaves = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 517
-	}
-
-	labourers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 5740
-	}
-
-	soldiers = {
-		culture = maumoujoy
-		religion = vewugi
-		size = 289
-	}
-
 	artisans = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 517
+		size = 775
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 103
+		size = 154
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 258
+		size = 387
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 226
+		 size =339
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 9
+		 size =32
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 90
+		 size =135
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 452
+		 size =678
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 253
+		 size =379
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 5471
+		 size =8206
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 9
+		 size =32
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2532
+		 size =3798
 	}
 
 }
@@ -7550,55 +7550,55 @@
 	serfs = {
 		culture = gopza
 		religion = tehuhrite
-		size = 569
+		size = 853
 	}
 
 	officers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	labourers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 1230
+		size = 1845
 	}
 
 	soldiers = {
 		culture = gopza
 		religion = tehuhrite
-		size = 56
+		size = 84
 	}
 
 	artisans = {
 		culture = gopza
 		religion = tehuhrite
-		size = 101
+		size = 151
 	}
 
 	clergymen = {
 		culture = gopza
 		religion = tehuhrite
-		size = 20
+		size = 30
 	}
 
 	bureaucrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = gopza
 		religion = tehuhrite
-		size = 50
+		size = 75
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -7610,25 +7610,25 @@
 	labourers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 618
+		size = 927
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -7640,140 +7640,140 @@
 	aristocrats = {
 		culture = bogoran
 		religion = tehuhrite
-		size = 25
+		size = 37
 	}
 
 	thralls = {
 		culture = bogoran
 		religion = vewugi
-		size = 70
+		size = 105
 	}
 
 	serfs = {
 		culture = bogoran
 		religion = vewugi
-		size = 46
+		size = 69
 	}
 
 	slaves = {
 		culture = bogoran
 		religion = vewugi
-		size = 2100
+		size = 3150
 	}
 
 	farmers = {
 		culture = bogoran
 		religion = vewugi
-		size = 105
+		size = 157
 	}
 
 	soldiers = {
 		culture = bogoran
 		religion = vewugi
-		size = 11
+		size = 16
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 5164
+		size = 7746
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 18
+		size = 27
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 11158
+		size = 16737
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 516
+		size = 774
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 922
+		size = 1383
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 184
+		size = 276
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 18
+		size = 27
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 461
+		size = 691
 	}
 
 	aristocrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1083
+		 size =1624
 	}
 
 
 	bureaucrats = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 43
+		 size =64
 	}
 
 
 	clergymen = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 433
+		 size =649
 	}
 
 
 	artisans = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 2167
+		 size =3250
 	}
 
 
 	soldiers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 1213
+		 size =1819
 	}
 
 
 	labourers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 26223
+		 size =39334
 	}
 
 
 	officers = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 43
+		 size =64
 	}
 
 
 	serfs = {
 		 culture = yamoujoy
 		 religion = tehuhrite
-		 size = 12136
+		 size =18204
 	}
 
 }
@@ -7785,61 +7785,61 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2114
+		size = 3171
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 7
+		size = 10
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 377
+		size = 565
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 4191
+		size = 6286
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 211
+		size = 316
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 377
+		size = 565
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 75
+		size = 112
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 7
+		size = 10
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 188
+		size = 282
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 457
+		size = 685
 	}
 
 	officers = {
@@ -7851,31 +7851,31 @@
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 81
+		size = 121
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 906
+		size = 1359
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 45
+		size = 67
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 81
+		size = 121
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 16
+		size = 24
 	}
 
 	bureaucrats = {
@@ -7887,67 +7887,67 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 40
+		size = 60
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 905
+		size = 1357
 	}
 
 	officers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 161
+		size = 241
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 1794
+		size = 2691
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 90
+		size = 135
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 161
+		size = 241
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 32
+		size = 48
 	}
 
 	bureaucrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = maumoujoy
 		religion = tehuhrite
-		size = 80
+		size = 120
 	}
 
 	serfs = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 211
+		size = 316
 	}
 
 	officers = {
@@ -7959,31 +7959,31 @@
 	slaves = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 37
+		size = 55
 	}
 
 	labourers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 419
+		size = 628
 	}
 
 	soldiers = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 21
+		size = 31
 	}
 
 	artisans = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 37
+		size = 55
 	}
 
 	clergymen = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 7
+		size = 10
 	}
 
 	bureaucrats = {
@@ -7995,62 +7995,62 @@
 	aristocrats = {
 		culture = maumoujoy
 		religion = vewugi
-		size = 18
+		size = 27
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1898
+		 size =2847
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 75
+		 size =112
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 759
+		 size =1138
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3796
+		 size =5694
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2125
+		 size =3187
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 45934
+		 size =68901
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 75
+		 size =112
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 21259
+		 size =31888
 	}
 
 }
@@ -8062,164 +8062,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 13594
+		size = 20391
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 48
+		size = 72
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2427
+		size = 3640
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 26945
+		size = 40417
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1359
+		size = 2038
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2427
+		size = 3640
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 485
+		size = 727
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 48
+		size = 72
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1213
+		size = 1819
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 846
+		size = 1269
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 151
+		size = 226
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1677
+		size = 2515
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 84
+		size = 126
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 151
+		size = 226
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 30
+		size = 45
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 75
+		size = 112
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 71
+		 size =265
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2
+		 size =7
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 28
+		 size =42
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 142
+		 size =213
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 79
+		 size =118
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1720
+		 size =2580
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2
+		 size =7
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 796
+		 size =1194
 	}
 
 }
@@ -8231,61 +8231,61 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 12693
+		size = 19039
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 45
+		size = 67
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2266
+		size = 3399
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 25160
+		size = 37740
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1269
+		size = 1903
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2266
+		size = 3399
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 453
+		size = 679
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 45
+		size = 67
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1133
+		size = 1699
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -8297,31 +8297,31 @@
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 567
+		size = 850
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -8333,62 +8333,62 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 25
+		size = 37
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 78
+		 size =117
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 31
+		 size =46
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 157
+		 size =235
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 88
+		 size =132
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1908
+		 size =2862
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 883
+		 size =1324
 	}
 
 }
@@ -8400,164 +8400,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 11996
+		size = 17994
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 42
+		size = 63
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2142
+		size = 3213
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 23778
+		size = 35667
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1199
+		size = 1798
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2142
+		size = 3213
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 428
+		size = 642
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 42
+		size = 63
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1071
+		size = 1606
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1524
+		size = 2286
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 272
+		size = 408
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3020
+		size = 4530
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 152
+		size = 228
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 272
+		size = 408
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 54
+		size = 81
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 136
+		size = 204
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 216
+		 size =324
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 8
+		 size =30
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 86
+		 size =129
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 432
+		 size =648
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 242
+		 size =363
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 5229
+		 size =7843
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 8
+		 size =30
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2420
+		 size =3630
 	}
 
 }
@@ -8569,164 +8569,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 10764
+		size = 16146
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 38
+		size = 57
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1922
+		size = 2883
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 21336
+		size = 32004
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1076
+		size = 1614
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1922
+		size = 2883
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 384
+		size = 576
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 38
+		size = 57
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 961
+		size = 1441
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 964
+		size = 1446
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 172
+		size = 258
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1911
+		size = 2866
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 96
+		size = 144
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 172
+		size = 258
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 34
+		size = 51
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 86
+		size = 129
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 309
+		 size =463
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 12
+		 size =18
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 123
+		 size =184
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 619
+		 size =928
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 346
+		 size =519
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7492
+		 size =11238
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 12
+		 size =18
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3467
+		 size =5200
 	}
 
 }
@@ -8738,61 +8738,61 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 9365
+		size = 14047
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 33
+		size = 49
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1672
+		size = 2508
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 18564
+		size = 27846
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 936
+		size = 1404
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1672
+		size = 2508
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 334
+		size = 501
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 33
+		size = 49
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 836
+		size = 1254
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 516
+		size = 774
 	}
 
 	officers = {
@@ -8804,31 +8804,31 @@
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 92
+		size = 138
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1023
+		size = 1534
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 92
+		size = 138
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 18
+		size = 27
 	}
 
 	bureaucrats = {
@@ -8840,62 +8840,62 @@
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 46
+		size = 69
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 19
+		 size =28
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 0
+		 size =0
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7
+		 size =25
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 39
+		 size =58
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 21
+		 size =77
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 473
+		 size =709
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 0
+		 size =0
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 219
+		 size =328
 	}
 
 }
@@ -8907,260 +8907,260 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 17467
+		size = 26200
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 62
+		size = 93
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 3119
+		size = 4678
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 34623
+		size = 51934
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1746
+		size = 2619
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 3119
+		size = 4678
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 623
+		size = 934
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 62
+		size = 93
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1559
+		size = 2338
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1664
+		size = 2496
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 297
+		size = 445
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3298
+		size = 4947
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 166
+		size = 249
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 297
+		size = 445
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 59
+		size = 88
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 148
+		size = 222
 	}
 
 	serfs = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 1661
+		size = 2491
 	}
 
 	officers = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	farmers = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 3590
+		size = 5385
 	}
 
 	soldiers = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 166
+		size = 249
 	}
 
 	artisans = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 296
+		size = 444
 	}
 
 	clergymen = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 59
+		size = 88
 	}
 
 	bureaucrats = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	aristocrats = {
 		culture = uttobanhu
 		religion = vewugi
-		size = 148
+		size = 222
 	}
 
 	serfs = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 4884
+		size = 7326
 	}
 
 	officers = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 17
+		size = 25
 	}
 
 	farmers = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 10554
+		size = 15831
 	}
 
 	soldiers = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 488
+		size = 732
 	}
 
 	artisans = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 872
+		size = 1308
 	}
 
 	clergymen = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 174
+		size = 261
 	}
 
 	bureaucrats = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 17
+		size = 25
 	}
 
 	aristocrats = {
 		culture = uttobanhu
 		religion = tehuhrite
-		size = 436
+		size = 654
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 50
+		 size =75
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2
+		 size =7
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 20
+		 size =30
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 101
+		 size =151
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 56
+		 size =210
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1229
+		 size =1843
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2
+		 size =7
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 569
+		 size =853
 	}
 
 }
@@ -9172,164 +9172,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 13594
+		size = 20391
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 48
+		size = 72
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2427
+		size = 3640
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 26945
+		size = 40417
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1359
+		size = 2038
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2427
+		size = 3640
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 485
+		size = 727
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 48
+		size = 72
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1213
+		size = 1819
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 1048
+		size = 1572
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 187
+		size = 280
 	}
 
 	labourers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 2077
+		size = 3115
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 104
+		size = 156
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 187
+		size = 280
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 37
+		size = 55
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 93
+		size = 139
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 98
+		 size =147
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 39
+		 size =58
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 197
+		 size =295
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 110
+		 size =165
 	}
 
 
 	labourers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 2386
+		 size =3579
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 3
+		 size =10
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1104
+		 size =1656
 	}
 
 }
@@ -9341,164 +9341,164 @@
 	serfs = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 15493
+		size = 23239
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 55
+		size = 82
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2766
+		size = 4149
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 30709
+		size = 46063
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1549
+		size = 2323
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 2766
+		size = 4149
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 553
+		size = 829
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 55
+		size = 82
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = tehuhrite
-		size = 1383
+		size = 2074
 	}
 
 	serfs = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 3705
+		size = 5557
 	}
 
 	officers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 13
+		size = 19
 	}
 
 	slaves = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 661
+		size = 991
 	}
 
 	farmers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 7344
+		size = 11016
 	}
 
 	soldiers = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 370
+		size = 555
 	}
 
 	artisans = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 661
+		size = 991
 	}
 
 	clergymen = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 132
+		size = 198
 	}
 
 	bureaucrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 13
+		size = 19
 	}
 
 	aristocrats = {
 		culture = yamoujoy
 		religion = vewugi
-		size = 330
+		size = 495
 	}
 
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 688
+		 size =1032
 	}
 
 
 	bureaucrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 27
+		 size =100
 	}
 
 
 	clergymen = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 275
+		 size =412
 	}
 
 
 	artisans = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 1377
+		 size =2065
 	}
 
 
 	soldiers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 771
+		 size =1156
 	}
 
 
 	farmers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 16673
+		 size =25009
 	}
 
 
 	officers = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 27
+		 size =100
 	}
 
 
 	serfs = {
 		 culture = bogoran
 		 religion = vewugi
-		 size = 7716
+		 size =11574
 	}
 
 }

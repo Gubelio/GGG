@@ -6,140 +6,140 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 315
+		size = 472
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 39
+		size = 58
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 39
+		size = 58
 	}
 
 	thralls = {
 		culture = ghechi
 		religion = vewugi
-		size = 98
+		size = 147
 	}
 
 	serfs = {
 		culture = ghechi
 		religion = vewugi
-		size = 12
+		size = 18
 	}
 
 	farmers = {
 		culture = ghechi
 		religion = vewugi
+		size = 18
+	}
+
+	serfs = {
+		culture = sithuchi
+		religion = vewugi
+		size = 3567
+	}
+
+	officers = {
+		culture = sithuchi
+		religion = vewugi
 		size = 12
 	}
 
-	serfs = {
-		culture = sithuchi
-		religion = vewugi
-		size = 2378
-	}
-
-	officers = {
-		culture = sithuchi
-		religion = vewugi
-		size = 8
-	}
-
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 5155
+		size = 7732
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 237
+		size = 355
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 424
+		size = 636
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 84
+		size = 126
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 8
+		size = 12
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 195
+		size = 292
 	}
 
 	aristocrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 180
+		 size =270
 	}
 
 
 	bureaucrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 7
+		 size =30
 	}
 
 
 	clergymen = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 78
+		 size =117
 	}
 
 
 	artisans = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 392
+		 size =588
 	}
 
 
 	soldiers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 219
+		 size =328
 	}
 
 
 	farmers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 4761
+		 size =7141
 	}
 
 
 	officers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 7
+		 size =30
 	}
 
 
 	serfs = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 2196
+		 size =3294
 	}
 
 }
@@ -153,115 +153,115 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 92
+		size = 138
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	thralls = {
 		culture = ghechi
 		religion = vewugi
-		size = 173
+		size = 259
 	}
 
 	labourers = {
 		culture = ghechi
 		religion = vewugi
-		size = 19
+		size = 28
 	}
 
 	officers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	labourers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3334
+		size = 5001
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 85
+		size = 127
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 224
+		size = 336
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 37
+		size = 55
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 44
+		size = 66
 	}
 
 	aristocrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 399
+		 size =598
 	}
 
 
 	bureaucrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 33
+		 size =147
 	}
 
 
 	clergymen = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 333
+		 size =499
 	}
 
 
 	artisans = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 1998
+		 size =2997
 	}
 
 
 	soldiers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 765
+		 size =1147
 	}
 
 
 	labourers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 29737
+		 size =44605
 	}
 
 
 	officers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 33
+		 size =147
 	}
 
 }
@@ -273,31 +273,31 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 53
+		size = 79
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 5
+		size = 7
 	}
 
 	thralls = {
 		culture = ghechi
 		religion = vewugi
-		size = 66
+		size = 99
 	}
 
 	farmers = {
 		culture = ghechi
 		religion = vewugi
-		size = 7
+		size = 10
 	}
 
 	serfs = {
 		culture = thesathi
 		religion = vewugi
-		size = 359
+		size = 538
 	}
 
 	officers = {
@@ -309,25 +309,25 @@
 	farmers = {
 		culture = thesathi
 		religion = vewugi
-		size = 786
+		size = 1179
 	}
 
 	soldiers = {
 		culture = thesathi
 		religion = vewugi
-		size = 35
+		size = 52
 	}
 
 	artisans = {
 		culture = thesathi
 		religion = vewugi
-		size = 64
+		size = 96
 	}
 
 	clergymen = {
 		culture = thesathi
 		religion = vewugi
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -339,62 +339,62 @@
 	aristocrats = {
 		culture = thesathi
 		religion = vewugi
-		size = 21
+		size = 31
 	}
 
 	aristocrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 67
+		 size =100
 	}
 
 
 	bureaucrats = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 3
+		 size =12
 	}
 
 
 	clergymen = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 39
+		 size =58
 	}
 
 
 	artisans = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 197
+		 size =295
 	}
 
 
 	soldiers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 110
+		 size =165
 	}
 
 
 	farmers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 2418
+		 size =3627
 	}
 
 
 	officers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 3
+		 size =12
 	}
 
 
 	serfs = {
 		 culture = sevuma
 		 religion = vewugi
-		 size = 1104
+		 size =1656
 	}
 
 }
@@ -406,19 +406,19 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 91
+		size = 136
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	serfs = {
 		culture = sevuma
 		religion = vewugi
-		size = 429
+		size = 643
 	}
 
 	officers = {
@@ -430,25 +430,25 @@
 	farmers = {
 		culture = sevuma
 		religion = vewugi
-		size = 940
+		size = 1410
 	}
 
 	soldiers = {
 		culture = sevuma
 		religion = vewugi
-		size = 42
+		size = 63
 	}
 
 	artisans = {
 		culture = sevuma
 		religion = vewugi
-		size = 76
+		size = 114
 	}
 
 	clergymen = {
 		culture = sevuma
 		religion = vewugi
-		size = 15
+		size = 22
 	}
 
 	bureaucrats = {
@@ -460,47 +460,47 @@
 	aristocrats = {
 		culture = sevuma
 		religion = vewugi
-		size = 26
+		size = 39
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 161
+		 size =241
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 94
+		 size =141
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 473
+		 size =709
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 265
+		 size =397
 	}
 
   farmers = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 1923
+		 size =2884
 	}
 
 
@@ -508,21 +508,21 @@
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 4002
+		 size =6003
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2653
+		 size =3979
 	}
 
 }
@@ -534,19 +534,19 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 137
+		size = 205
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 15
+		size = 22
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 482
+		size = 723
 	}
 
 	officers = {
@@ -558,25 +558,25 @@
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 1056
+		size = 1584
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 48
+		size = 72
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 86
+		size = 129
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 17
+		size = 25
 	}
 
 	bureaucrats = {
@@ -588,62 +588,62 @@
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 29
+		size = 43
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 161
+		 size =241
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 94
+		 size =141
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 473
+		 size =709
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 265
+		 size =397
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 5806
+		 size =8709
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2652
+		 size =3978
 	}
 
 }
@@ -655,68 +655,68 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 137
+		size = 205
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 15
+		size = 22
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 865
+		 size =1297
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 50
+		 size =225
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 508
+		 size =762
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2544
+		 size =3816
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1424
+		 size =2136
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31196
+		 size =46794
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 50
+		 size =225
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 14249
+		 size =21373
 	}
 
 }
@@ -728,116 +728,116 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 920
+		size = 1380
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
+		size = 153
+	}
+
+	serfs = {
+		culture = sevuma
+		religion = vewugi
+		size = 1693
+	}
+
+	officers = {
+		culture = sevuma
+		religion = vewugi
+		size = 6
+	}
+
+	farmers = {
+		culture = sevuma
+		religion = vewugi
+		size = 3708
+	}
+
+	soldiers = {
+		culture = sevuma
+		religion = vewugi
+		size = 168
+	}
+
+	artisans = {
+		culture = sevuma
+		religion = vewugi
+		size = 301
+	}
+
+	clergymen = {
+		culture = sevuma
+		religion = vewugi
+		size = 60
+	}
+
+	bureaucrats = {
+		culture = sevuma
+		religion = vewugi
+		size = 6
+	}
+
+	aristocrats = {
+		culture = sevuma
+		religion = vewugi
 		size = 102
 	}
 
-	serfs = {
-		culture = sevuma
-		religion = vewugi
-		size = 1129
-	}
-
-	officers = {
-		culture = sevuma
-		religion = vewugi
-		size = 4
-	}
-
-	farmers = {
-		culture = sevuma
-		religion = vewugi
-		size = 2472
-	}
-
-	soldiers = {
-		culture = sevuma
-		religion = vewugi
-		size = 112
-	}
-
-	artisans = {
-		culture = sevuma
-		religion = vewugi
-		size = 201
-	}
-
-	clergymen = {
-		culture = sevuma
-		religion = vewugi
-		size = 40
-	}
-
-	bureaucrats = {
-		culture = sevuma
-		religion = vewugi
-		size = 4
-	}
-
-	aristocrats = {
-		culture = sevuma
-		religion = vewugi
-		size = 68
-	}
-
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 739
+		 size =1108
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 43
+		 size =192
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 434
+		 size =651
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2174
+		 size =3261
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1217
+		 size =1825
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 26664
+		 size =39996
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 43
+		 size =192
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12179
+		 size =18268
 	}
 
 }
@@ -850,19 +850,19 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 215
+		size = 322
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	serfs = {
 		culture = sevuma
 		religion = vewugi
-		size = 362
+		size = 543
 	}
 
 	officers = {
@@ -874,25 +874,25 @@
 	farmers = {
 		culture = sevuma
 		religion = vewugi
-		size = 792
+		size = 1188
 	}
 
 	soldiers = {
 		culture = sevuma
 		religion = vewugi
-		size = 36
+		size = 54
 	}
 
 	artisans = {
 		culture = sevuma
 		religion = vewugi
-		size = 64
+		size = 96
 	}
 
 	clergymen = {
 		culture = sevuma
 		religion = vewugi
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -904,62 +904,62 @@
 	aristocrats = {
 		culture = sevuma
 		religion = vewugi
-		size = 21
+		size = 31
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 533
+		 size =799
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 314
+		 size =471
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1570
+		 size =2355
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 879
+		 size =1318
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 19248
+		 size =28872
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 8792
+		 size =13188
 	}
 
 }
@@ -971,19 +971,19 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 215
+		size = 322
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	serfs = {
 		culture = sevuma
 		religion = vewugi
-		size = 362
+		size = 543
 	}
 
 	officers = {
@@ -995,25 +995,25 @@
 	farmers = {
 		culture = sevuma
 		religion = vewugi
-		size = 782
+		size = 1173
 	}
 
 	soldiers = {
 		culture = sevuma
 		religion = vewugi
-		size = 36
+		size = 54
 	}
 
 	artisans = {
 		culture = sevuma
 		religion = vewugi
-		size = 64
+		size = 96
 	}
 
 	clergymen = {
 		culture = sevuma
 		religion = vewugi
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -1025,62 +1025,62 @@
 	aristocrats = {
 		culture = sevuma
 		religion = vewugi
-		size = 32
+		size = 48
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 785
+		 size =1177
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 314
+		 size =471
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1570
+		 size =2355
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 879
+		 size =1318
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 18997
+		 size =28495
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 8792
+		 size =13188
 	}
 
 }
@@ -1092,25 +1092,25 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 434
+		size = 651
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 54
+		size = 81
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 54
+		size = 81
 	}
 
 	serfs = {
 		culture = sevuma
 		religion = vewugi
-		size = 261
+		size = 391
 	}
 
 	officers = {
@@ -1122,25 +1122,25 @@
 	farmers = {
 		culture = sevuma
 		religion = vewugi
-		size = 565
+		size = 847
 	}
 
 	soldiers = {
 		culture = sevuma
 		religion = vewugi
-		size = 26
+		size = 39
 	}
 
 	artisans = {
 		culture = sevuma
 		religion = vewugi
-		size = 46
+		size = 69
 	}
 
 	clergymen = {
 		culture = sevuma
 		religion = vewugi
-		size = 9
+		size = 13
 	}
 
 	bureaucrats = {
@@ -1152,62 +1152,62 @@
 	aristocrats = {
 		culture = sevuma
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 375
+		 size =562
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 15
+		 size =66
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 150
+		 size =225
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 751
+		 size =1126
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 420
+		 size =630
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9095
+		 size =13642
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 15
+		 size =66
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 4209
+		 size =6313
 	}
 
 }
@@ -1219,25 +1219,25 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1538
+		size = 2307
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 192
+		size = 288
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 192
+		size = 288
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 286
+		size = 429
 	}
 
 	officers = {
@@ -1249,25 +1249,25 @@
 	farmers = {
 		culture = thisuchi
 		religion = vewugi
-		size = 620
+		size = 930
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 28
+		size = 42
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 51
+		size = 76
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 10
+		size = 15
 	}
 
 	bureaucrats = {
@@ -1279,62 +1279,62 @@
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 975
+		 size =1462
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 42
+		 size =189
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 423
+		 size =634
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2119
+		 size =3178
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1187
+		 size =1780
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 25733
+		 size =38599
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 42
+		 size =189
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 11870
+		 size =17805
 	}
 
 }
@@ -1346,122 +1346,122 @@
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 653
+		size = 979
 	}
 
 	officers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 1416
+		size = 2124
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 65
+		size = 97
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 116
+		size = 174
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 53
+		size = 79
 	}
 
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1458
+		size = 2187
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 182
+		size = 273
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 182
+		size = 273
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 608
+		 size =912
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 26
+		 size =117
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 264
+		 size =396
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1323
+		 size =1984
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 741
+		 size =1111
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 16065
+		 size =24097
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 26
+		 size =117
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 7410
+		 size =11115
 	}
 
 }
@@ -1473,122 +1473,122 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1601
+		size = 2401
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 200
+		size = 300
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 200
+		size = 300
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 653
+		size = 979
 	}
 
 	officers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 1416
+		size = 2124
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 65
+		size = 97
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 116
+		size = 174
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 23
+		size = 34
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 2
+		size = 3
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 53
+		size = 79
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1042
+		 size =1563
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 45
+		 size =201
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 453
+		 size =679
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 2267
+		 size =3400
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1269
+		 size =1903
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 27521
+		 size =41281
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 45
+		 size =201
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12695
+		 size =19042
 	}
 
 }
@@ -1600,122 +1600,122 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 1075
+		size = 1612
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 134
+		size = 201
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 134
+		size = 201
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 896
+		size = 1344
 	}
 
 	officers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 1943
+		size = 2914
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 89
+		size = 133
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 160
+		size = 240
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 32
+		size = 48
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3
+		size = 4
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 73
+		size = 109
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 734
+		 size =1101
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 319
+		 size =478
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 1596
+		 size =2394
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 893
+		 size =1339
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 19377
+		 size =29065
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 31
+		 size =138
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 8938
+		 size =13407
 	}
 
 }
@@ -1727,25 +1727,25 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 854
+		size = 1281
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 106
+		size = 159
 	}
 
 	labourers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 106
+		size = 159
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 336
+		size = 504
 	}
 
 	officers = {
@@ -1757,25 +1757,25 @@
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 730
+		size = 1095
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 33
+		size = 49
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 60
+		size = 90
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 12
+		size = 18
 	}
 
 	bureaucrats = {
@@ -1787,62 +1787,62 @@
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 27
+		size = 40
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 356
+		 size =534
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 15
+		 size =66
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 154
+		 size =231
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 774
+		 size =1161
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 433
+		 size =649
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 9404
+		 size =14106
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 15
+		 size =66
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 4338
+		 size =6507
 	}
 
 }
@@ -1854,31 +1854,31 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 767
+		size = 1150
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 306
+		size = 459
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 2147
+		size = 3220
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 153
+		size = 229
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 250
+		size = 375
 	}
 
 	officers = {
@@ -1890,25 +1890,25 @@
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 542
+		size = 813
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 25
+		size = 37
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 44
+		size = 66
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 8
+		size = 12
 	}
 
 	bureaucrats = {
@@ -1920,62 +1920,62 @@
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 20
+		size = 30
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 277
+		 size =415
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12
+		 size =54
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 120
+		 size =180
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 604
+		 size =906
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 338
+		 size =507
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 7336
+		 size =11004
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12
+		 size =54
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 3384
+		 size =5076
 	}
 
 }
@@ -1987,128 +1987,128 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 358
+		size = 537
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 143
+		size = 214
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 989
+		size = 1483
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 71
+		size = 106
 	}
 
 	serfs = {
 		culture = sithuchi
 		religion = vewugi
-		size = 3904
+		size = 5856
 	}
 
 	officers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 13
+		size = 19
 	}
 
 	farmers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 8464
+		size = 12696
 	}
 
 	soldiers = {
 		culture = sithuchi
 		religion = vewugi
-		size = 390
+		size = 585
 	}
 
 	artisans = {
 		culture = sithuchi
 		religion = vewugi
-		size = 697
+		size = 1045
 	}
 
 	clergymen = {
 		culture = sithuchi
 		religion = vewugi
-		size = 139
+		size = 208
 	}
 
 	bureaucrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 13
+		size = 19
 	}
 
 	aristocrats = {
 		culture = sithuchi
 		religion = vewugi
-		size = 320
+		size = 480
 	}
 
 	aristocrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 277
+		 size =415
 	}
 
 
 	bureaucrats = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12
+		 size =54
 	}
 
 
 	clergymen = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 120
+		 size =180
 	}
 
 
 	artisans = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 602
+		 size =903
 	}
 
 
 	soldiers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 337
+		 size =505
 	}
 
 
 	farmers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 7311
+		 size =10966
 	}
 
 
 	officers = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 12
+		 size =54
 	}
 
 
 	serfs = {
 		 culture = thesathi
 		 religion = vewugi
-		 size = 3372
+		 size =5058
 	}
 
 }
@@ -2120,80 +2120,80 @@
 	thralls = {
 		culture = ihntithot
 		religion = vewugi
-		size = 225
+		size = 337
 	}
 
 	serfs = {
 		culture = ihntithot
 		religion = vewugi
-		size = 90
+		size = 135
 	}
 
 	slaves = {
 		culture = ihntithot
 		religion = vewugi
-		size = 541
+		size = 811
 	}
 
 	farmers = {
 		culture = ihntithot
 		religion = vewugi
-		size = 45
+		size = 67
 	}
 
 	aristocrats = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 216
+		 size =324
 	}
 
 
 	bureaucrats = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	clergymen = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 94
+		 size =141
 	}
 
 
 	artisans = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 470
+		 size =705
 	}
 
 
 	soldiers = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 263
+		 size =394
 	}
 
 
 	farmers = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 5708
+		 size =8562
 	}
 
 
 	officers = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 9
+		 size =39
 	}
 
 
 	serfs = {
 		 culture = sithuchi
 		 religion = vewugi
-		 size = 2633
+		 size =3949
 	}
 
 }
