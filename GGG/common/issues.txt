@@ -358,7 +358,7 @@ political_reforms = {
 	thralldom = {
 	
         thralldom_allowed = {
-            poor_life_needs = -0.02
+            poor_life_needs = -0.01
 
         }
 		
