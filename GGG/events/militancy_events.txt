@@ -232,7 +232,7 @@ country_event = {
 				any_owned = {
 					add_province_modifier = {
 						name = regional_revolt
-						duration = 24
+						duration = 730
 					}
 					any_pop = {
 						militancy = 2
@@ -250,7 +250,7 @@ country_event = {
 				any_owned = {
 					add_province_modifier = {
 						name = regional_revolt
-						duration = 12
+						duration = 365
 					}
 					any_pop = {
 						militancy = 5
