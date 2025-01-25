@@ -1,265 +1,266 @@
 
-country_event = {
-	id = 50059
-	title = "EVTNAME50059" #Free-Yoker rebellion
-	desc = "EVTDESC50059"
-	
-    trigger = {
-		NOT = { government = paternalistic_council }
-        NOT = { has_country_flag = free_yoker_revolution }
-        NOT = { has_global_flag = disabled_militancy_events }
-    }
-
-	mean_time_to_happen = {
-        months = 960 #~80 years
-		modifier = {
-           factor = 0.9
-		   average_militancy = 5
-		   NOT = { average_consciousness = 9 }
-		}
-		modifier = {
-           factor = 0.8
-		   average_militancy = 9
-		}
-		modifier = {
-           factor = 0.8
-		   average_consciousness = 5
-		   NOT = { average_consciousness = 9 }
-		}
-		modifier = {
-           factor = 0.7
-		   average_consciousness = 9
-		}
-		
-		modifier = {
-           factor = 0.9
-		   unemployment = 0.05
-		   NOT = { unemployment = 0.1 }
-		}
-		modifier = {
-           factor = 0.8
-		   unemployment = 0.1
-		}
-		
-		modifier = { #Neglecting the welfare of the people
-           factor = 0.8
-		   NOT = { social_spending = 0.1 }
-		}
-		modifier = { #Taxing the poor over the rich
-           factor = 0.9
-		   rich_tax_above_poor = no
-		}
-		modifier = {
-           factor = 0.9
-		   election = yes
-		}
-		modifier = {
-           factor = 0.9
-		   has_recently_lost_war = yes
-		}
-		modifier = {
-           factor = 0.9
-		   has_unclaimed_cores = yes
-		}
-		modifier = { #if over infamy limit
-           factor = 0.9
-		   badboy = 1 
-		}
-		modifier = { #neglected crime fighting force
-           factor = 0.9
-		   NOT = { crime_fighting = 0.1 }
-		}
-		
-		modifier = { 
-           factor = 0.9
-		   NOT = { poor_strata_life_needs = 0.5 } 
-		}
-		modifier = { 
-           factor = 0.9
-		   NOT = { middle_strata_life_needs = 0.5 }
-		}
-		modifier = { 
-           factor = 0.8
-		   NOT = { rich_strata_life_needs = 0.5 } 
-		}
-
-		modifier = {
-           factor = 0.9
-		   war_exhaustion = 60
-		   NOT = { war_exhaustion = 95 }
-		}
-		modifier = {
-           factor = 0.7
-		   war_exhaustion = 95
-		}
-		
-		modifier = {
-           factor = 0.9
-		   has_country_modifier = in_bankrupcy
-		}
-		
-		modifier = {
-			factor = 0.8
-			has_country_modifier = international_sanctions
-		}
-		
-		#Reforms
-		
-		modifier = {
-			factor = 1.1
-			OR = {
-				worker_protections = acceptable_protections
-				worker_protections = good_protections
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-			clerical_law = anti_clericalism
-		}
-		
-		modifier = {
-			factor = 1.2
-			OR = {
-				scriptural_law = permitted_heterodoxy
-				scriptural_law = local_congregationalism
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-			OR = {
-				welfare_laws = universal_grain_dole
-				welfare_laws = mule_n_seed_law
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-				debt_law = bankruptcy
-		}
-		
-		modifier = {
-			factor = 1.1
-			OR = {
-				slavery = gradual_abolition
-				slavery = no_slavery
-			}
-		}
-		
-		modifier = {
-			factor = 1.1
-			OR = {
-				wage_reform = acceptable_minimum_wage
-				wage_reform = good_minimum_wage
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-				social_privileges = equality_before_the_law
-		}
-		
-    }
-	
-	option = {
-		name = "EVT50059OPTA"
-        set_country_flag = free_yoker_revolution
-		add_country_modifier = {
-            name = open_rebellion
-            duration = 36525
-        }
-	}
-	
-}
-
-country_event = {
-	id = 50060
-	title = "EVTNAME50060" #Free-Yoker rebellion ENDS
-	desc = "EVTDESC50060"
-	
-    trigger = {
-		has_country_flag = free_yoker_revolution
-    }
-	
-	mean_time_to_happen = {
-        months = 60 #~5 years
-		modifier = {
-           factor = 0.7
-		   has_country_flag = tepid_suppression
-		}
-		modifier = {
-           factor = 0.01
-			government = paternalistic_council
-		}
-	}
-	
-	option = {
-		name = "EVT50060OPTA"
-        clr_country_flag = free_yoker_revolution
-        remove_country_modifier = open_rebellion
-        clr_country_flag = violent_supression
-        clr_country_flag = tepid_suppression
-	}
-	
-}
-
-country_event = {
-	id = 50061
-	title = "EVTNAME50061" #Regional flair up
-	desc = "EVTDESC50061"
-	
-    trigger = {
-		has_country_flag = free_yoker_revolution
-    }
-	
-	mean_time_to_happen = {
-        months = 15
-		modifier = {
-           factor = 1.2
-		   has_country_flag = violent_supression
-		}
-		modifier = {
-           factor = 0.8
-		   has_country_flag = tepid_supression
-		}
-	}
-	
-	option = {
-		name = "EVT50061OPTA"
-		
-			random_state = {
-				any_owned_province = {
-					add_country_modifier = {
-						name = regional_revolt
-						duration = 24
-					}
-					any_pop = {
-						militancy = 2
-						consciousness = 4
-					}
-				}
-			}
-		set_country_flag = tepid_supression
-	}
-	
-	option = {
-		name = "EVT50061OPTB"
-		
-			random_state = {
-				any_owned_province = {
-					add_country_modifier = {
-						name = regional_revolt
-						duration = 12
-					}
-					any_pop = {
-						militancy = 5
-						consciousness = 3
-					}
-				}
-			}
-		set_country_flag = violent_supression
-	}
-	
-}
-
+#country_event = {
+#	id = 50059
+#	title = "EVTNAME50059" #Free-Yoker rebellion
+#	desc = "EVTDESC50059"
+#	
+#    trigger = {
+#		NOT = { government = paternalistic_council }
+#        NOT = { has_country_flag = free_yoker_revolution }
+#        NOT = { has_global_flag = disabled_militancy_events }
+#    }
+#
+#	mean_time_to_happen = {
+#        months = 960 #~80 years
+#		modifier = {
+#           factor = 0.9
+#		   average_militancy = 5
+#		   NOT = { average_consciousness = 9 }
+#		}
+#		modifier = {
+#           factor = 0.8
+#		   average_militancy = 9
+#		}
+#		modifier = {
+#           factor = 0.8
+#		   average_consciousness = 5
+#		   NOT = { average_consciousness = 9 }
+#		}
+#		modifier = {
+#           factor = 0.7
+#		   average_consciousness = 9
+#		}
+#		
+#		modifier = {
+#           factor = 0.9
+#		   unemployment = 0.05
+#		   NOT = { unemployment = 0.1 }
+#		}
+#		modifier = {
+#           factor = 0.8
+#		   unemployment = 0.1
+#		}
+#		
+#		modifier = { #Neglecting the welfare of the people
+#           factor = 0.8
+#		   NOT = { social_spending = 0.1 }
+#		}
+#		modifier = { #Taxing the poor over the rich
+#           factor = 0.9
+#		   rich_tax_above_poor = no
+#		}
+#		modifier = {
+#           factor = 0.9
+#		   election = yes
+#		}
+#		modifier = {
+#           factor = 0.9
+#		   has_recently_lost_war = yes
+#		}
+#		modifier = {
+#           factor = 0.9
+#		   has_unclaimed_cores = yes
+#		}
+#		modifier = { #if over infamy limit
+#           factor = 0.9
+#		   badboy = 1 
+#		}
+#		modifier = { #neglected crime fighting force
+#           factor = 0.9
+#		   NOT = { crime_fighting = 0.1 }
+#		}
+#		
+#		modifier = { 
+#           factor = 0.9
+#		   NOT = { poor_strata_life_needs = 0.5 } 
+#		}
+#		modifier = { 
+#           factor = 0.9
+#		   NOT = { middle_strata_life_needs = 0.5 }
+#		}
+#		modifier = { 
+#           factor = 0.8
+#		   NOT = { rich_strata_life_needs = 0.5 } 
+#		}
+#
+#		modifier = {
+#           factor = 0.9
+#		   war_exhaustion = 60
+#		   NOT = { war_exhaustion = 95 }
+#		}
+#		modifier = {
+#           factor = 0.7
+#		   war_exhaustion = 95
+#		}
+#		
+#		modifier = {
+#           factor = 0.9
+#		   has_country_modifier = in_bankrupcy
+#		}
+#		
+#		modifier = {
+#			factor = 0.8
+#			has_country_modifier = international_sanctions
+#		}
+#		
+#		#Reforms
+#		
+#		modifier = {
+#			factor = 1.1
+#			OR = {
+#				worker_protections = acceptable_protections
+#				worker_protections = good_protections
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.2
+#			clerical_law = anti_clericalism
+#		}
+#		
+#		modifier = {
+#			factor = 1.2
+#			OR = {
+#				scriptural_law = permitted_heterodoxy
+#				scriptural_law = local_congregationalism
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.2
+#			OR = {
+#				welfare_laws = universal_grain_dole
+#				welfare_laws = mule_n_seed_law
+#			}
+#		}
+#
+#		modifier = {
+#			factor = 1.1
+#				debt_law = bankruptcy
+#		}
+#		
+#		modifier = {
+#			factor = 1.1
+#			OR = {
+#				slavery = gradual_abolition
+#				slavery = no_slavery
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.1
+#			OR = {
+#				wage_reform = acceptable_minimum_wage
+#				wage_reform = good_minimum_wage
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.2
+#				social_privileges = equality_before_the_law
+#		}
+#		
+#    }
+#	
+#	option = {
+#		name = "EVT50059OPTA"
+#        set_country_flag = free_yoker_revolution
+#		add_country_modifier = {
+#            name = open_rebellion
+#            duration = 36525
+#        }
+#	}
+#	
+#}
+#
+#country_event = {
+#	id = 50060
+#	title = "EVTNAME50060" #Free-Yoker rebellion ENDS
+#	desc = "EVTDESC50060"
+#	
+#    trigger = {
+#		has_country_flag = free_yoker_revolution
+#    }
+#	
+#	mean_time_to_happen = {
+#        months = 60 #~5 years
+#		modifier = {
+#           factor = 0.7
+#		   has_country_flag = tepid_suppression
+#		}
+#		modifier = {
+#           factor = 0.01
+#			government = paternalistic_council
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVT50060OPTA"
+#        clr_country_flag = free_yoker_revolution
+#        remove_country_modifier = open_rebellion
+#        clr_country_flag = violent_supression
+#        clr_country_flag = tepid_suppression
+#	}
+#	
+#}
+#
+#country_event = {
+#	id = 50061
+#	title = "EVTNAME50061" #Regional flair up
+#	desc = "EVTDESC50061"
+#	
+#    trigger = {
+#		has_country_flag = free_yoker_revolution
+#    }
+#	
+#	mean_time_to_happen = {
+#        months = 15
+#		modifier = {
+#           factor = 1.2
+#		   has_country_flag = violent_supression
+#		}
+#		modifier = {
+#           factor = 0.8
+#		   has_country_flag = tepid_supression
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVT50061OPTA"
+#		
+#			random_state = {
+#				any_owned_province = {
+#					add_country_modifier = {
+#						name = regional_revolt
+#						duration = 24
+#					}
+#					any_pop = {
+#						militancy = 2
+#						consciousness = 4
+#					}
+#				}
+#			}
+#		set_country_flag = tepid_supression
+#	}
+#	
+#	option = {
+#		name = "EVT50061OPTB"
+#		
+#			random_state = {
+#				any_owned_province = {
+#					add_country_modifier = {
+#						name = regional_revolt
+#						duration = 12
+#					}
+#					any_pop = {
+#						militancy = 5
+#						consciousness = 3
+#					}
+#				}
+#			}
+#		set_country_flag = violent_supression
+#	}
+#	
+#}
+#
+#
