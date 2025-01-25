@@ -232,7 +232,7 @@ country_event = {
 				any_owned = {
 					add_province_modifier = {
 						name = regional_revolt
-						duration = 730
+						duration = 24
 					}
 					any_pop = {
 						militancy = 2
@@ -250,7 +250,7 @@ country_event = {
 				any_owned = {
 					add_province_modifier = {
 						name = regional_revolt
-						duration = 365
+						duration = 12
 					}
 					any_pop = {
 						militancy = 5
@@ -263,3 +263,154 @@ country_event = {
 	
 }
 
+country_event = {
+	id = 50063
+	title = "EVTNAME50063" #Miscellaneous conflict
+	desc = "EVTDESC50063"
+	
+    trigger = {
+		has_country_flag = free_yoker_revolution
+    }
+	
+	mean_time_to_happen = {
+        months = 24
+		modifier = {
+           factor = 0.8
+		   has_country_flag = tepid_supression
+		}
+	}
+	
+	option = {
+		name = "EVT50063OPTA"
+		
+			random_state = {
+				any_owned = {
+					any_pop = {
+						militancy = 3
+						consciousness = 6
+					}
+				}
+			}
+		set_country_flag = tepid_supression
+	}
+	
+	option = {
+		name = "EVT50063OPTB"
+		
+			random_state = {
+				any_owned = {
+					any_pop = {
+						militancy = 6
+						consciousness = 3
+					}
+				}
+			}
+	}
+		
+}
+
+country_event = {
+	id = 50064
+	title = "EVTNAME50064" #Some sort of relieving of tensions
+	desc = "EVTDESC50064"
+	
+    trigger = {
+		has_country_flag = free_yoker_revolution
+    }
+	
+	mean_time_to_happen = {
+        months = 36
+		modifier = {
+           factor = 1.1
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 1.2
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 1.1
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 1.2
+		   average_consciousness = 9
+		}
+	}
+	
+	option = {
+		name = "EVT50064OPTA"
+		
+			random_state = {
+				any_owned = {
+					any_pop = {
+						militancy = -1
+						consciousness = -1
+					}
+				}
+			}
+		set_country_flag = tepid_supression
+	}
+	
+	option = {
+		name = "EVT50063OPTB"
+		
+			random_state = {
+				any_owned = {
+					any_pop = {
+						militancy = -3
+						consciousness = 1
+					}
+				}
+			}
+	}
+		
+}
+
+country_event = {
+	id = 50065
+	title = "EVTNAME50065" #heinous act of rebellion
+	desc = "EVTDESC50065"
+	
+    trigger = {
+		has_country_flag = free_yoker_revolution
+    }
+	
+	mean_time_to_happen = {
+        months = 30
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.9
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 9
+		}
+	}
+	
+	option = {
+		name = "EVT50064OPTA"
+		
+			prestige = -1
+			random_state = {
+				any_owned = {
+					any_pop = {
+						militancy = 5
+					}
+				}
+			}
+	}
+		
+}
