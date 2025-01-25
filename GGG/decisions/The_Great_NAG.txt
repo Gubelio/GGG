@@ -25,3 +25,212 @@ political_decisions = {
     }
 	
 }	
+
+
+fight_paknag_banditry = {
+        potential = {
+            AND = { 
+				owns = 388
+				owns = 389
+				owns = 390
+				owns = 391
+				owns = 392
+				owns = 393
+				owns = 394
+			
+        }
+		}
+
+        allow = {
+			money = 50000
+        }
+
+        effect = {
+			treasury = -50000
+			388 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			389 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			390 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			391 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			392 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			393 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+			394 = {
+				remove_province_modifier = paknag_bandits
+					any_pop = {
+						militancy = -1
+						consciousness = 1
+						reduce_pop = 0.998
+					}
+
+			}
+		
+		
+    }
+	}
+
+
+end_paknag_banditry = {
+        potential = {
+            AND = { 
+				owns = 388
+				owns = 389
+				owns = 390
+				owns = 391
+				owns = 392
+				owns = 393
+				owns = 394
+			
+        }
+		}
+
+        allow = {
+			money = 250000
+			revolution_n_counterrevolution = 1
+        }
+
+        effect = {
+			set_global_flag = ended_paknag_banditry
+			treasury = -250000
+			388 = {
+				remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			389 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			390 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			391 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			392 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			393 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+			394 = {
+			remove_province_modifier = paknag_bandits
+				add_province_modifier = {
+						name = ended_bandits
+						duration = 365
+					}
+					any_pop = {
+						militancy = -2
+						consciousness = 5
+						reduce_pop = 0.99
+					}
+
+			}
+		
+		
+    }
+	
+}	

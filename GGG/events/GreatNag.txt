@@ -1,0 +1,131 @@
+country_event = {
+    id = 50062
+    title = "EVT50062NAME"
+    desc = "EVT50062DESC"
+    #picture = "Bandits"
+  
+	trigger = {
+		NOT = { has_global_flag = ended_paknag_banditry }
+			AND = { 
+				388 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				389 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				390 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				391 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				392 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				393 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				394 = {
+					AND = {
+						controlled_by = THIS
+						NOT = { has_province_modifier = paknag_bandits }
+						}
+				}
+				
+			
+        }
+    }
+	
+	mean_time_to_happen = {
+        months = 80
+	}
+
+    option = {
+        name = "EVT50062OPTA" 
+		388 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 730
+					}
+
+			}
+			389 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 730
+					}
+
+
+			}
+			390 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 730
+					}
+	
+
+			}
+			391 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 365
+					}
+
+
+			}
+			392 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 365
+					}
+
+
+			}
+			393 = {
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 365
+					}
+
+
+			}
+			394 = {
+
+				add_province_modifier = {
+						name = paknag_bandits
+						duration = 365
+					}
+
+
+			}
+		}
+    }
+
+
+   
+	
+ 
+

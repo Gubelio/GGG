@@ -109,3 +109,21 @@ regional_revolt = {
 	icon = 18
 }
 
+
+ended_bandits = {
+	local_RGO_output = -0.1
+    immigrant_push = 0.5
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.01
+	icon = 17
+}
+
+paknag_bandits = {
+	local_ruling_party_support = -0.5
+    local_factory_output = -0.03
+    local_rgo_output = -0.03
+    immigrant_attract = -0.10
+    immigrant_push = 0.05
+    population_growth = -0.0005
+	icon = 20
+}
