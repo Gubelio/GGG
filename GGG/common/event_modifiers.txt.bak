@@ -80,5 +80,24 @@ international_sanctions = {
     prestige = -0.3
     war_exhaustion = 2.0
     core_pop_militancy_modifier = 0.1
-    icon = 4
+    icon = 6
+}
+
+plantations = {
+    farm_rgo_size = 2
+	farm_rgo_eff = 1
+	life_rating = 0.2
+	assimilation_rate = -0.05
+	icon = 11
+}
+
+open_rebellion = {
+	RGO_output = -0.05
+	administrative_efficiency_modifier = -0.1
+	global_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.01
+	social_reform_desire = 0.05
+    immigrant_push = 0.5
+    population_growth = -0.001
+	icon = 16
 }
