@@ -127,3 +127,17 @@ paknag_bandits = {
     population_growth = -0.0005
 	icon = 20
 }
+
+treaty_port = {
+    mine_rgo_size = 8
+    farm_rgo_size = 8
+    icon = 11
+}
+
+factory_port = {
+    mine_rgo_size = 4
+    farm_rgo_size = 4
+    icon = 11
+}
+
+

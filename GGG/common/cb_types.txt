@@ -2757,7 +2757,7 @@ demand_concession_casus_belli_EM = {
 	}
 }
 
-#take_colonial_concession_capital_KF = {
+take_colonial_concession_capital_KF = {
     sprite_index = 7
     is_triggered_only = yes
     months = 12

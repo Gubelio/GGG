@@ -1,0 +1,143 @@
+
+
+country_event = { 
+    id = 50066 
+    title = "EVT50066" #Treaty port of Niiz Moji
+    desc = "EVTDESC50066"
+	picture = "NiizMoji"
+
+    trigger = {
+		owns = 3055
+		civilized = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+		}
+		NOT = {
+			3055 = {
+				has_province_modifier = treaty_port
+			}
+		}
+    }
+
+
+    option = {
+        name = "EVT50066OPTA"
+		3055 = {
+			add_province_modifier = { name = treaty_port duration = 36525 }
+		}
+	}
+}
+country_event = { 
+    id = 50067 
+    title = "EVT50067" #Treaty port of Mra-Ouswun
+    desc = "EVTDESC50067"
+	picture = "MraOuswun"
+
+    trigger = {
+		owns = 3056
+		civilized = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+		}
+		NOT = {
+			3056 = {
+				has_province_modifier = factory_port
+			}
+		}
+    }
+
+
+    option = {
+        name = "EVT50066OPTA"
+		3056 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+	}
+}
+
+country_event = { 
+    id = 50068 
+    title = "EVT50068" #Treaty port of Niiz Jadhov
+    desc = "EVTDESC50068"
+	picture = "Jadhov"
+
+    trigger = {
+		owns = 3057
+		civilized = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+		}
+		NOT = {
+			3057 = {
+				has_province_modifier = factory_port
+			}
+		}
+    }
+
+
+    option = {
+        name = "EVT50066OPTA"
+		3057 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+	}
+}
+
+country_event = { 
+    id = 50069 
+    title = "EVT50069" #Treaty port of Niiz Jadhov
+    desc = "EVTDESC50069"
+	picture = "niizkan"
+
+    trigger = {
+		owns = 3058
+		civilized = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+		}
+		NOT = {
+			3058 = {
+				has_province_modifier = factory_port
+			}
+		}
+    }
+
+
+    option = {
+        name = "EVT50066OPTA"
+		3058 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+	}
+}
+
+#country_event = { 
+#    id = 50070 
+#    title = "EVT50070" #End of Niiz Moji
+#    desc = "EVTDESC50070"
+#	picture = "NiizMoji"
+#
+#    trigger = {
+#		owns = 3055
+#		AND = {
+#			capital_scope = { continent = south_america }
+#			NOT = { tag = AYU }
+#		}
+#		3055 = {
+#			has_province_modifier = treaty_port
+#		}
+#		}
+#    }
+#
+#
+#    option = {
+#        name = "EVT50070OPTA"
+#		3055 = {
+#			remove_province_modifier = treaty_port
+#		}
+#	}
+#}

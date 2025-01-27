@@ -1,0 +1,650 @@
+
+3055 = {
+    aristocrats = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 343
+    }
+
+    officers = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 34
+    }
+
+    clergymen = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 100
+    }
+
+    artisans = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 3882
+    }
+
+    soldiers = {
+        culture = south_gashdzii
+        religion = motkohnic
+        size = 1993
+    }
+
+    clergymen = {
+        culture = humabi
+        religion = motkohnic
+        size = 299
+    }
+
+    artisans = {
+        culture = humabi
+        religion = motkohnic
+        size = 4332
+    }
+
+    soldiers = {
+        culture = humabi
+        religion = motkohnic
+        size = 4033
+    }
+
+    farmers = {
+        culture = humabi
+        religion = motkohnic
+        size = 3327
+    }
+
+    clergymen = {
+        culture = humabi
+        religion = momurist
+        size = 188
+    }
+
+    artisans = {
+        culture = humabi
+        religion = momurist
+        size = 2773
+    }
+
+    soldiers = {
+        culture = humabi
+        religion = momurist
+        size = 349
+    }
+
+    farmers = {
+        culture = humabi
+        religion = momurist
+        size = 43779
+    }
+}
+
+3056 = {
+
+	clergymen = {
+		 culture = humabi
+		 religion = momurist
+		 size = 101
+	}
+
+
+	artisans = {
+		 culture = humabi
+		 religion = momurist
+		 size = 1013
+	}
+
+
+	soldiers = {
+		 culture = humabi
+		 religion = momurist
+		 size = 506
+	}
+
+
+	farmers = {
+		 culture = humabi
+		 religion = momurist
+		 size = 6488
+	}
+
+
+	labourers = {
+		 culture = humabi
+		 religion = momurist
+		 size = 1013
+	}
+
+
+	serfs = {
+		 culture = humabi
+		 religion = momurist
+		 size = 1013
+	}
+artisans = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 8
+	}
+
+
+	
+
+	artisans = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 44
+	}
+
+
+	farmers = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 565
+	}
+
+
+	labourers = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 88
+	}
+
+
+	serfs = {
+		 culture = humabi
+		 religion = wompowushan
+		 size = 88
+	}
+
+	aristocrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 15
+	}
+
+
+
+
+	bureaucrats = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 90
+	}
+
+
+	clergymen = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 30
+	}
+
+
+	artisans = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 2418
+	}
+
+
+	soldiers = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 302
+	}
+
+
+	serfs = {
+		 culture = poumnian
+		 religion = wompowushan
+		 size = 151
+	}
+
+}
+
+3057 = {
+
+	clergymen = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 201
+	}
+
+
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 2013
+	}
+
+
+	soldiers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 1006
+	}
+
+
+	farmers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 12888
+	}
+
+
+	labourers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 2013
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 2013
+	}
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 8
+	}
+
+
+
+
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 88
+	}
+
+
+	soldiers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 44
+	}
+
+
+	farmers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 565
+	}
+
+
+	labourers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 88
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 88
+	}
+
+	aristocrats = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 14
+	}
+
+
+
+
+	bureaucrats = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 88
+	}
+
+
+	clergymen = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 29
+	}
+
+
+	artisans = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 2649
+	}
+
+
+	soldiers = {
+		 culture = north_gashdzii
+		 religion = kadkohi
+		 size = 294
+	}
+
+}
+
+3058 = {
+
+	clergymen = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 173
+	}
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	soldiers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 866
+	}
+
+
+	farmers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 11092
+	}
+
+
+	labourers = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	serfs = {
+		 culture = chobajhi
+		 religion = vewugi
+		 size = 1733
+	}
+	artisans = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 2
+	}
+
+
+
+
+	artisans = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 22
+	}
+
+
+	soldiers = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 11
+	}
+
+
+	farmers = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 145
+	}
+
+
+	labourers = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 22
+	}
+
+
+	serfs = {
+		 culture = chobajhi
+		 religion = motkohnic
+		 size = 22
+	}
+
+	aristocrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 17
+	}
+
+
+
+
+	bureaucrats = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 105
+	}
+
+
+	clergymen = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 35
+	}
+
+
+	artisans = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 3150
+	}
+
+
+	soldiers = {
+		 culture = south_gashdzii
+		 religion = motkohnic
+		 size = 350
+	}
+
+}
+
+3059 = {
+
+
+	clergymen = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 173
+	}
+
+
+	artisans = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	soldiers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 866
+	}
+
+
+	farmers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 11092
+	}
+
+
+	labourers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	serfs = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+}
+
+3059 = {
+
+
+	clergymen = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 173
+	}
+
+
+	artisans = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	soldiers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 866
+	}
+
+
+	farmers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 11092
+	}
+
+
+	labourers = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+
+	serfs = {
+		 culture = bofungi
+		 religion = vewugi
+		 size = 1733
+	}
+
+}
+
+3060 = {
+
+
+	clergymen = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 343
+	}
+
+
+	artisans = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 3433
+	}
+
+
+	soldiers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 1716
+	}
+
+
+	farmers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 21973
+	}
+
+
+	labourers = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 3433
+	}
+
+
+	serfs = {
+		 culture = aucubhur
+		 religion = momurist
+		 size = 3433
+	}
+
+}
+
+3061 = {
+
+
+	clergymen = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 274
+	}
+
+
+	artisans = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 2744
+	}
+
+
+	soldiers = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 1372
+	}
+
+
+	farmers = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 17564
+	}
+
+
+	labourers = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 2744
+	}
+
+
+	serfs = {
+		 culture = ftemioq
+		 religion = vewugi
+		 size = 2744
+	}
+
+}
+
+
+
+
