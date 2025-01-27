@@ -50,7 +50,7 @@ country_event = {
 
 
     option = {
-        name = "EVT50066OPTA"
+        name = "EVT50067OPTA"
 		3056 = {
 			add_province_modifier = { name = factory_port duration = 36525 }
 		}
@@ -79,7 +79,7 @@ country_event = {
 
 
     option = {
-        name = "EVT50066OPTA"
+        name = "EVT50068OPTA"
 		3057 = {
 			add_province_modifier = { name = factory_port duration = 36525 }
 		}
@@ -108,7 +108,7 @@ country_event = {
 
 
     option = {
-        name = "EVT50066OPTA"
+        name = "EVT50069OPTA"
 		3058 = {
 			add_province_modifier = { name = factory_port duration = 36525 }
 		}
