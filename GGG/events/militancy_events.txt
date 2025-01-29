@@ -166,9 +166,13 @@ country_event = {
 		name = "EVT50059OPTA"
         set_country_flag = free_yoker_revolution
 		add_country_modifier = {
-            name = open_rebellion
+            name = yoker_agitation
             duration = 36525
         }
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
 	}
 	
 }
@@ -197,7 +201,7 @@ country_event = {
 	option = {
 		name = "EVT50060OPTA"
         clr_country_flag = free_yoker_revolution
-        remove_country_modifier = open_rebellion
+        remove_country_modifier = yoker_agitation
         clr_country_flag = violent_supression
         clr_country_flag = tepid_suppression
 	}
@@ -214,7 +218,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 15
+        months = 6
 		modifier = {
            factor = 1.2
 		   has_country_flag = violent_supression
@@ -229,17 +233,34 @@ country_event = {
 		name = "EVT50061OPTA"
 		
 			random_state = {
-				any_owned = {
-					add_province_modifier = {
-						name = regional_revolt
-						duration = 730
-					}
+				limit = {
+					is_colonial = no
+				}
+					any_owned = {
+						add_province_modifier = {
+							name = regional_revolt
+							duration = 730
+						}
 					any_pop = {
-						militancy = 2
-						consciousness = 4
+						militancy = 4
+						consciousness = 6
+						ideology = {
+							factor = 0.03
+							value = liberationist
+						}
+						ideology = {
+							factor = 0.04
+							value = free_yoker
+						}
+						ideology = {
+							factor = 0.03
+							value = reactionary
+						}
 					}
 				}
 			}
+		clr_country_flag = tepid_supression
+		clr_country_flag = violent_supression
 		set_country_flag = tepid_supression
 	}
 	
@@ -247,17 +268,34 @@ country_event = {
 		name = "EVT50061OPTB"
 		
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					add_province_modifier = {
 						name = regional_revolt
 						duration = 365
 					}
 					any_pop = {
-						militancy = 5
-						consciousness = 3
+						militancy = 10
+						consciousness = 4
+						ideology = {
+							factor = 0.01
+							value = liberationist
+						}
+						ideology = {
+							factor = 0.02
+							value = free_yoker
+						}
+						ideology = {
+							factor = 0.01
+							value = reactionary
+						}
 					}
 				}
 			}
+		clr_country_flag = tepid_supression
+		clr_country_flag = violent_supression
 		set_country_flag = violent_supression
 	}
 	
@@ -273,7 +311,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 24
+        months = 10
 		modifier = {
            factor = 0.8
 		   has_country_flag = tepid_supression
@@ -284,24 +322,53 @@ country_event = {
 		name = "EVT50063OPTA"
 		
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					any_pop = {
-						militancy = 3
-						consciousness = 6
+						militancy = 5
+						consciousness = 7
+						ideology = {
+							factor = 0.03
+							value = liberationist
+						}
+						ideology = {
+							factor = 0.04
+							value = free_yoker
+						}
+						ideology = {
+							factor = 0.03
+							value = reactionary
+						}
 					}
 				}
 			}
-		set_country_flag = tepid_supression
 	}
 	
 	option = {
 		name = "EVT50063OPTB"
 		
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					any_pop = {
-						militancy = 6
-						consciousness = 3
+						militancy = 7
+						consciousness = 5
+						ideology = {
+							factor = 0.03
+							value = liberationist
+						}
+						ideology = {
+							factor = 0.04
+							value = free_yoker
+						}
+						ideology = {
+							factor = 0.03
+							value = reactionary
+						}
 					}
 				}
 			}
@@ -344,24 +411,29 @@ country_event = {
 		name = "EVT50064OPTA"
 		
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					any_pop = {
 						militancy = -1
-						consciousness = -1
+						consciousness = -3
 					}
 				}
 			}
-		set_country_flag = tepid_supression
 	}
 	
 	option = {
 		name = "EVT50063OPTB"
 		
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					any_pop = {
 						militancy = -3
-						consciousness = 1
+						consciousness = -1
 					}
 				}
 			}
@@ -379,7 +451,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 30
+        months = 20
 		modifier = {
            factor = 0.9
 		   average_militancy = 5
@@ -405,10 +477,98 @@ country_event = {
 		
 			prestige = -1
 			random_state = {
+				limit = {
+					is_colonial = no
+				}
 				any_owned = {
 					any_pop = {
-						militancy = 5
+						militancy = 9
+						ideology = {
+							factor = 0.01
+							value = liberationist
+						}
+						ideology = {
+							factor = 0.02
+							value = free_yoker
+						}
+						ideology = {
+							factor = 0.03
+							value = reactionary
+						}
 					}
+				}
+			}
+	}
+		
+}
+
+country_event = {
+	id = 50074
+	title = "EVTNAME50074" #whole nation mad
+	desc = "EVTDESC50074"
+	
+    trigger = {
+		has_country_flag = free_yoker_revolution
+    }
+	
+	mean_time_to_happen = {
+        months = 24
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.9
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 9
+		}
+	}
+	
+	option = {
+		name = "EVT50074OPTA"
+			any_pop = {
+				militancy = 2
+				consciousness = 1
+				ideology = {
+					factor = 0.01
+					value = liberationist
+				}
+				ideology = {
+					factor = 0.01
+					value = free_yoker
+				}
+				ideology = {
+					factor = 0.01
+					value = reactionary
+				}
+			}
+	}
+	
+	option = {
+		name = "EVT50074OPTA"
+			any_pop = {
+				consciousness = 2
+				militancy = 1
+				ideology = {
+					factor = 0.01
+					value = liberationist
+				}
+				ideology = {
+					factor = 0.01
+					value = free_yoker
+				}
+				ideology = {
+					factor = 0.01
+					value = reactionary
 				}
 			}
 	}

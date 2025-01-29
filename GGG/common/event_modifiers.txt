@@ -91,11 +91,11 @@ plantations = {
 	icon = 11
 }
 
-open_rebellion = {
+yoker_agitation = { 
 	RGO_output = -0.05
 	administrative_efficiency_modifier = -0.1
-	global_pop_militancy_modifier = 0.02
-	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
 	social_reform_desire = 0.05
     population_growth = -0.001
 	icon = 16
@@ -112,7 +112,7 @@ regional_revolt = {
 
 ended_bandits = {
 	local_RGO_output = -0.1
-    immigrant_push = 0.5
+    	immigrant_push = 0.5
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = 0.01
 	icon = 17

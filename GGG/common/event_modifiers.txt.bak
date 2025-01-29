@@ -80,5 +80,77 @@ international_sanctions = {
     prestige = -0.3
     war_exhaustion = 2.0
     core_pop_militancy_modifier = 0.1
-    icon = 4
+    icon = 6
+}
+
+plantations = {
+    farm_rgo_size = 2
+	farm_rgo_eff = 1
+	life_rating = 0.2
+	assimilation_rate = -0.05
+	icon = 11
+}
+
+open_rebellion = { #agitation
+	RGO_output = -0.05
+	administrative_efficiency_modifier = -0.1
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	social_reform_desire = 0.05
+    population_growth = -0.001
+	icon = 16
+}
+
+regional_revolt = {
+	local_RGO_output = -0.2
+    immigrant_push = 0.5
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.01
+	icon = 18
+}
+
+
+ended_bandits = {
+	local_RGO_output = -0.1
+    	immigrant_push = 0.5
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.01
+	icon = 17
+}
+
+paknag_bandits = {
+	local_ruling_party_support = -0.5
+    local_factory_output = -0.03
+    local_rgo_output = -0.03
+    immigrant_attract = -0.10
+    immigrant_push = 0.05
+    population_growth = -0.0005
+	icon = 20
+}
+
+treaty_port = {
+    mine_rgo_size = 8
+    farm_rgo_size = 8
+    icon = 11
+}
+
+factory_port = {
+    mine_rgo_size = 4
+    farm_rgo_size = 4
+    icon = 11
+}
+
+negotiating_unequal_treaty = {
+	icon = 5
+	}
+
+negotiating_treaty = {
+	icon = 5
+	}
+	
+thriving_trade = {
+    immigrant_attract = 0.15
+	population_growth = 0.001
+	local_RGO_throughput = 0.05
+    icon = 11
 }
