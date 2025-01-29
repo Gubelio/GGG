@@ -20,7 +20,7 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 	3056_treaty_port = {
-        #picture = laghouat_algiers
+        picture = mra
         potential = {
             has_country_modifier = negotiating_treaty
             3056 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
@@ -60,7 +60,7 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 	3058_treaty_port = {
-        #picture = laghouat_algiers
+        picture = kan
         potential = {
             has_country_modifier = negotiating_treaty
             3058 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
