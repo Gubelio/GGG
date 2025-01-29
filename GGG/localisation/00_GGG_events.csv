@@ -226,7 +226,9 @@ EVTNAME50059;Free-Yoker Agitation;;;;;;;;;;;;;x
 EVTDESC50059;It began quietly but now it has become a major problem. Over the previous decades, our society has seen the steady formation of a broad, underground, free-yoker movement. From secret societies in the cities, taking the usual cryptic names that international liberationism does, like ‘Dancers’ and ‘Boar-Merchants’, to clandestine rural meetings on moonlit fields by stolid rustics, there has become established a dangerous network of free-yoker agitators. And now, in recent months, the problem seems to be coming to a head. It’s not clear exactly why it began, but early protests quashed by the gendarme have now broken out into large-scale civilian resistance. Everywhere they drag their feet: the fields go unharvested, the yarn unspun, the stones uncut - everywhere they scorn authority: they assault policemen, they loot manors, they riot in the square and they even raid prisons - and worse still, everywhere they call for change: they are organising region councils, they are calling for the estates to assemble, and they are calling for the old order to be abolished.;;;;;;;;;;;;;x
 EVT50059OPTA;Damn these rabble-rousers!;;;;;;;;;;;;;x
 EVTNAME50060;Free-Yoker Agitation Ends;;;;;;;;;;;;;x
-EVTNAME50061; ;;;;;;;;;;;;;x
+EVTDESC50060;Finally, the period of Free-Yoker agitation seems to have ended in our country, and we seem to be passing back into an era of relative political disinterest, and domestic harmony. It’s not clear what exactly has brought this about either - perhaps it has been rising economic tides, new interests overseas, successful concessions, or the successful repression and deportation of the worst troublemakers by our security forces. In any case, our society has weathered this period of unrest and we can expect, hopefully, greater calm and unity in the future.;;;;;;;;;;;;;x
+EVT50060OPTA;Thank Goodness!;;;;;;;;;;;;;x
+EVTNAME50061;Chaos in local provinces!;;;;;;;;;;;;;x
 EVT50062NAME;Banditry in Paknag!;;;;;;;;;;;;;x
 EVT50062DESC;x;;;;;;;;;;;;;x
 EVT50062OPTA;What a terrible problem...;;;;;;;;;;;;;x
@@ -244,14 +246,19 @@ EVTDESC50067;Mra-Ouswun, or ‘Fort Mra’ is the oldest Ishahfazhi possession on th
 EVT50068;The Factory of Niiz Jadhov;;;;;;;;;;;;;x
 EVTDESC50068;Old Niiz Jadhov, ‘Kingsport’, is a commanding Vokonazhi factory in the land of the Ourrhond, the great monarchy of central Kovash. This aristocratic confederacy, fraught by regular internal conflict, nonetheless yields great trade goods, with carved furniture made from the lumber of the rich woodlands that dot the plains, ivories from the great beasts of Kovazh, and precious objects made by the locals. Niiz Jadhov was established in 1167 by a number of intrepid Vokonazhi traders who took advantage of a civil conflict between local tribesmen in the local region and its lord, Hana Birhim. Delicately balancing various loyalties between the distracted locals, the fort was satisfactorily risen, and became a great holdfast for Vokonazhi trading in the area. Eventually a smaller inland fort was raised, which attracted the local manufacturing community. Niiz Jadhov boasts of the headquarters of the Imperial Kovan Trading Company, nominally granted by the Emperor in Pashdzii.;;;;;;;;;;;;;x
 EVT50069;The City of Niiz Kan;;;;;;;;;;;;;x
-EVTDESC50069;Niiz Kan is the premier Gashdzii trading port in the east of Kovazh. Established by Ishapt Tea Company charter in 1160, its key figure is intrepid Bida Kazak, a trader originally based in the island of Rouxaem. Kazak settled a fertile stretch of coast with a hope to plant his own tea crops - he married a local Chobaji heiress and added to his fortune a number of large estates nearby. Shockingly, he and his wife both were buried after the fashion of the Vewugist. A community began to grow around this settlement, attracting goods brought down the coastal road. Until 1221, however, the main Gashdzii trading settlement in the area, Anzhapt, was on the southern delta,, but in 1221 the new Emperor declared the expulsion of all foreigners from the delta, and riotous violence drove many Gashdzii north, eventually to hybrid Niiz Kan. The city survived the failure of the Ishapt Tea Company in 1241, and was given a responsible government by the Parliament in Nozho.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTDESC50069;Niiz Kan is the premier Gashdzii trading port in the east of Kovazh. Established by Ishnapt Tea Company charter in 1160, its key figure is intrepid Bida Kazak, a trader originally based in the island of Rouxaem. Kazak settled a fertile stretch of coast with a hope to plant his own tea crops - he married a local Chobaji heiress and added to his fortune a number of large estates nearby. Shockingly, he and his wife both were buried after the fashion of the Vewugist. A community began to grow around this settlement, attracting goods brought down the coastal road. Until 1221, however, the main Gashdzii trading settlement in the area, Anzhapt, was on the southern delta,, but in 1221 the new Emperor declared the expulsion of all foreigners from the delta, and riotous violence drove many Gashdzii north, eventually to hybrid Niiz Kan. The city survived the failure of the Ishapt Tea Company in 1241, and was given a responsible government by the Parliament in Nozho.;;;;;;;;;;;;;x
+EVT50070;Decline of Former Treaty Port;;;;;;;;;;;;;x
+EVTDESC50070;Our recent acquisition of a city once owned by overseas powers with exclusive trade charters has caused a regrettable, but not unexpected decline in the trading power of that city. Our proximity to this land, and the revocation of exclusivity charters has effectively removed whatever value was generated by these special privileges. The region has now shifted its production and exports to only local goods.;;;;;;;;;;;;;x
+EVTOPTA50070;Well, it was to be expected...;;;;;;;;;;;;;x
+EVT50071;Booming Treaty Port;;;;;;;;;;;;;x
+EVTDESC50071;Since we have acquired a certain treaty port on foreign shores, it has now become a booming trading metropolis! It houses vast amounts of merchants, longshoremen, keelmen, factors, agents, secretaries, and other attendants of the shipping trade who work to pull value and goods out of the continental interior. Its proud warehouses owned companies around the world gleam bright in the sun, its great docks boast of ships from all around the world, and, above all, it generates lucrative revenue.;;;;;;;;;;;;;x
+EVTOPTA50070;Excellent!;;;;;;;;;;;;;x
+EVT50072;The Kovazh Carrying Trade;;;;;;;;;;;;;x
+EVTDESC50072;x;;;;;;;;;;;;;x
+EVTOPTA50072;Haul, boys, haul!;;;;;;;;;;;;;x
+EVT50073;The Good Old Ishnapt Tea Trade;;;;;;;;;;;;;x
+EVTDESC50073;The Great Ishnapt Ocean, the largest on our planet, brings temperate rainstorms to the coasts of the southern continent, Kovazh. Drenched in warm mist, the rolling plains grow the finest tea known to the world. For centuries Ishahfazi merchants have been crossing the Zhibom, the calm shallow sea ringed by the great continents, to the lands of the Chobajhi and the Ftemioq for tea. Our outposts on the western coasts, recently, have been thriving: the tea trade seems to be booming, and our agents and factors can’t find enough tea in the mainland to meet the consumer demand for this fine tea at home and abroad!;;;;;;;;;;;;;x
+EVT50073OPTA;The song goes: Sirrah, we brough ten tonnes of tea to Nozho from Nhanavu...;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

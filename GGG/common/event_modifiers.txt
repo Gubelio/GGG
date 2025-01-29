@@ -140,4 +140,17 @@ factory_port = {
     icon = 11
 }
 
+negotiating_unequal_treaty = {
+	icon = 5
+	}
 
+negotiating_treaty = {
+	icon = 5
+	}
+	
+thriving_trade = {
+    immigrant_attract = 0.15
+	population_growth = 0.001
+	local_RGO_throughput = 0.05
+    icon = 11
+}

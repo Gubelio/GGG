@@ -115,29 +115,229 @@ country_event = {
 	}
 }
 
-#country_event = { 
-#    id = 50070 
-#    title = "EVT50070" #End of Niiz Moji
-#    desc = "EVTDESC50070"
-#	picture = "NiizMoji"
-#
-#    trigger = {
-#		owns = 3055
-#		AND = {
-#			capital_scope = { continent = south_america }
-#			NOT = { tag = AYU }
-#		}
-#		3055 = {
-#			has_province_modifier = treaty_port
-#		}
-#		}
-#    }
-#
-#
-#    option = {
-#        name = "EVT50070OPTA"
-#		3055 = {
-#			remove_province_modifier = treaty_port
-#		}
-#	}
-#}
+
+province_event = { 
+    id = 50070 
+    title = "EVT50070" #End of Treaty Port
+    desc = "EVTDESC50070"
+	picture = "decline"
+
+
+	trigger = {
+        owner = { 	
+			AND = {
+				capital_scope = { continent = south_america }
+				NOT = { tag = AYU }
+			}
+		}
+		OR = {
+			trade_goods = precious_goods
+			has_province_modifier = treaty_port
+			has_province_modifier = factory_port
+		}
+        OR = {
+				province_id = 3055
+				province_id = 3056
+				province_id = 3057
+				province_id = 3058
+				province_id = 3059
+				province_id = 3060
+				province_id = 3061
+        }
+    }
+
+    mean_time_to_happen = { months = 1 }
+
+    option = {
+        name = "EVTOPTA50070"
+		remove_province_modifier = treaty_port
+		remove_province_modifier = factory_port
+        random_list = {
+            25 = { trade_goods = fish }
+            25 = { trade_goods = silk }
+            25 = { trade_goods = tea }
+        }
+    }
+
+}
+
+
+province_event = { 
+    id = 50071 
+    title = "EVT50071" #Booming Port
+    desc = "EVTDESC50071"
+	#picture = "decline"
+
+
+	trigger = {
+		total_pops = 100000
+        owner = { 	
+			OR = {
+				capital_scope = { continent = north_america }
+				tag = AYU
+			}
+		}
+		OR = {
+			has_province_modifier = treaty_port
+			has_province_modifier = factory_port
+		}
+        OR = {
+				province_id = 3055
+				province_id = 3059
+				province_id = 3060
+				province_id = 3061
+        }
+		NOT = { trade_goods = precious_goods }
+    }
+
+    mean_time_to_happen = { months = 1 }
+
+    option = {
+        name = "EVTOPTA50071"
+		trade_goods = precious_goods
+    }
+
+}
+
+
+country_event = { 
+    id = 50072 
+    title = "EVT50072" #Carrying Trade
+    desc = "EVTDESC50072"
+	picture = "carryingtrade"
+
+
+	trigger = {
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+			}
+		OR = {
+		3055 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		3056 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		3057 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		3060 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		}
+    }
+	
+
+    mean_time_to_happen = { months = 200 }
+
+    option = {
+		name = "EVTOPTA50072"
+		prestige = 2
+		any_owned = {
+			limit = {
+				OR ={	province_id = 3055
+					province_id = 3056
+					province_id = 3057
+					province_id = 3060
+					}
+			}
+		add_province_modifier = {
+			name = thriving_trade duration = 365
+			}
+		}
+    }
+
+}
+
+country_event = { 
+    id = 50073 
+    title = "EVT50073" #Tea Trade
+    desc = "EVTDESC50073"
+	picture = "teatrade"
+
+
+	trigger = {
+		OR = {
+			capital_scope = { continent = north_america }
+			tag = AYU
+			}
+		OR = {
+		3058 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		3059 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		3061 = {
+			AND = {
+				controlled_by = THIS
+				OR = {
+					has_province_modifier = treaty_port
+					has_province_modifier = factory_port
+				}
+			}
+		}
+		
+		}
+    }
+	
+
+    mean_time_to_happen = { months = 200 }
+
+    option = {
+		name = "EVT50073OPTA"
+		prestige = 3
+		any_owned = {
+			limit = {
+				OR ={	
+					province_id = 3058
+					province_id = 3059
+					province_id = 3061
+					}
+			}
+		add_province_modifier = {
+			name = thriving_trade duration = 365
+			}
+		}
+    }
+
+}
+
+

@@ -1,0 +1,143 @@
+political_decisions = {
+	3055_treaty_port = {
+        picture = mojid
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3055 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3055 = { secede_province = THIS change_controller = THIS }
+			3055 = {
+			add_province_modifier = { name = treaty_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	3056_treaty_port = {
+        #picture = laghouat_algiers
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3056 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3056 = { secede_province = THIS change_controller = THIS }
+			3056 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	3057_treaty_port = {
+        picture = jadhov
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3057 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3057 = { secede_province = THIS change_controller = THIS }
+			3057 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	3058_treaty_port = {
+        #picture = laghouat_algiers
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3058 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3058 = { secede_province = THIS change_controller = THIS }
+			3058 = {
+			add_province_modifier = { name = factory_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+    3059_treaty_port = {
+        #picture = laghouat_algiers
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3059 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3059 = { secede_province = THIS change_controller = THIS }
+			3059 = {
+			add_province_modifier = { name = treaty_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	3060_treaty_port = {
+        picture = bir
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3060 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3060 = { secede_province = THIS change_controller = THIS }
+			3060 = {
+			add_province_modifier = { name = treaty_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	3061_treaty_port = {
+        #picture = laghouat_algiers
+        potential = {
+            has_country_modifier = negotiating_treaty
+            3061 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            remove_country_modifier = negotiating_treaty
+            3061 = { secede_province = THIS change_controller = THIS }
+			3061 = {
+			add_province_modifier = { name = treaty_port duration = 36525 }
+		}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+}
+	
