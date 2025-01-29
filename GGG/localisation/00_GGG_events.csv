@@ -229,7 +229,7 @@ EVTNAME50060;Free-Yoker Agitation Ends;;;;;;;;;;;;;x
 EVTDESC50060;Finally, the period of Free-Yoker agitation seems to have ended in our country, and we seem to be passing back into an era of relative political disinterest, and domestic harmony. It’s not clear what exactly has brought this about either - perhaps it has been rising economic tides, new interests overseas, successful concessions, or the successful repression and deportation of the worst troublemakers by our security forces. In any case, our society has weathered this period of unrest and we can expect, hopefully, greater calm and unity in the future.;;;;;;;;;;;;;x
 EVT50060OPTA;Thank Goodness!;;;;;;;;;;;;;x
 EVTNAME50061;Chaos in local provinces!;;;;;;;;;;;;;x
-EVT50062NAME;Banditry in Paknag!;;;;;;;;;;;;;x
+EVT50062NAME;Banditry in Paknâg!;;;;;;;;;;;;;x
 EVT50062DESC;x;;;;;;;;;;;;;x
 EVT50062OPTA;What a terrible problem...;;;;;;;;;;;;;x
 EVTNAME50063;x;;;;;;;;;;;;;x
@@ -254,14 +254,15 @@ EVT50071;Booming Treaty Port;;;;;;;;;;;;;x
 EVTDESC50071;Since we have acquired a certain treaty port on foreign shores, it has now become a booming trading metropolis! It houses vast amounts of merchants, longshoremen, keelmen, factors, agents, secretaries, and other attendants of the shipping trade who work to pull value and goods out of the continental interior. Its proud warehouses owned companies around the world gleam bright in the sun, its great docks boast of ships from all around the world, and, above all, it generates lucrative revenue.;;;;;;;;;;;;;x
 EVTOPTA50070;Excellent!;;;;;;;;;;;;;x
 EVT50072;The Kovazh Carrying Trade;;;;;;;;;;;;;x
-EVTDESC50072;x;;;;;;;;;;;;;x
-EVTOPTA50072;Haul, boys, haul!;;;;;;;;;;;;;x
+EVTDESC50072;The lands of west Kofazh are dominated by the two great Momurist empires: Imperial Qooxib and aristocratic Ourrhond. These two lands are some of the most populous states in the world, and the great rivers they lie upon, most primarily the Caigur in Ourrhond and Vetchk in Qooxib, are home to huge markets of diverse goods. While not yielding the prime silks and teas of the monsoon ridden west, the torrid lands of the east yield strange fruits, fine pelts, mountains of spindleweed, well-spun cloths, sturdy and elegant furniture and pottery, and many ornate luxuries. These lovely goods are much coveted by the people of Ishahfazh, and our ports in the south east are great trading hubs for this wonderfully profitably carrying trade. Recently, in fact, it seems this trade is booming!;;;;;;;;;;;;;x
+EVTOPTA50072;Oh - Haul, boys, haul!;;;;;;;;;;;;;x
 EVT50073;The Good Old Ishnapt Tea Trade;;;;;;;;;;;;;x
 EVTDESC50073;The Great Ishnapt Ocean, the largest on our planet, brings temperate rainstorms to the coasts of the southern continent, Kovazh. Drenched in warm mist, the rolling plains grow the finest tea known to the world. For centuries Ishahfazi merchants have been crossing the Zhibom, the calm shallow sea ringed by the great continents, to the lands of the Chobajhi and the Ftemioq for tea. Our outposts on the western coasts, recently, have been thriving: the tea trade seems to be booming, and our agents and factors can’t find enough tea in the mainland to meet the consumer demand for this fine tea at home and abroad!;;;;;;;;;;;;;x
-EVT50073OPTA;The song goes: Sirrah, we brough ten tonnes of tea to Nozho from Nhanavu...;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVT50073OPTA;The song goes: Sirrah, we brough' ten tonnes of tea to Nozho from Nhanavu...;;;;;;;;;;;;;x
+EVTNAME50074;x;;;;;;;;;;;;;x
+EVTNAME50075;Land of Gold No More;;;;;;;;;;;;;x
+EVTDESC50075;For centuries, the land of Mojifa, the ‘Gold Country’, has mined gold for its daily bread. The great mine of Dhâfkmahk ‘Mahk’s Kettle’ (it is believed ‘Mahk’ was a indigenous pagan word for the devil from long ago) yielded for nearly six centuries a steady flow of gold. It was this gold that garnished the royal jewels of the emperor in Pashdzii, the thrones of the great castellans of Vokonazh, and gave the goldsmiths of Mojifa a superb reputation. Indeed, the coins minted in the Dhâfkmahk area gave their name to the Gashdzii language’s standard word for coin through their prolific usage: Dhâmahk. But in recent years, things have looked grim. The small lodes have grown smaller, and new shafts opened up seem to be dry of gold. Indeed, there has been a recent saying in the area: ‘the kettle no longer sings’. And now the worst has happened: House Dhâfk has closed their shops, told all the workers to seek other work, and are seeking a buyer for this empty land.;;;;;;;;;;;;;x
+EVT50075OPTA;O, Buzzamnan, Divine Lady of Fortune, thou turnst thy wheel blindly!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

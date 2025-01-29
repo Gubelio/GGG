@@ -253,7 +253,7 @@ country_event = {
     }
 	
 
-    mean_time_to_happen = { months = 200 }
+    mean_time_to_happen = { months = 800 }
 
     option = {
 		name = "EVTOPTA50072"
@@ -319,7 +319,7 @@ country_event = {
     }
 	
 
-    mean_time_to_happen = { months = 200 }
+    mean_time_to_happen = { months = 800 }
 
     option = {
 		name = "EVT50073OPTA"

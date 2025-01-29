@@ -327,7 +327,7 @@ PUNITIVE_EXPEDITION_WAR_NAME;Punitive Expedition;;;;;;;;;;;;;x
 3059_treaty_port_title;The Port Ragor Treaty;;;;;;;;;;;;;x
 3059_treaty_port_desc;The Port Ragor Treaty;;;;;;;;;;;;;x
 3060_treaty_port_title;The Bir Territory Treaty;;;;;;;;;;;;;x
-3060_treaty_port_desc;The Bir Territory is a stretch of relatively uncultivated land near the capital of the Ourrhond. It is mostly occupied by small settlements of impoverished fishing communities that serve the capital. Nonetheless, its proximity to the capital and the Nhaigur river mean it could be, with development, a prime location for trade. With our recent victory over the local Aucbhur, we have demanded this territory to be conceded to us and our subjects for the development of a commercial city, unburdend by duties, for the sake of trading in the local region, and already trading companies are eager to build makeshift wharves and warehouses.;;;;;;;;;;;;;x
+3060_treaty_port_desc;The Bir Territory is a stretch of relatively uncultivated land near the capital of the Ourrhond. It is mostly occupied by small settlements of impoverished fishing communities that serve the capital. Nonetheless, its proximity to the capital and the Caigur river mean it could be, with development, a prime location for trade. With our recent victory over the local Aucbhur, we have demanded this territory to be conceded to us and our subjects for the development of a commercial city, unburdend by duties, for the sake of trading in the local region, and already trading companies are eager to build makeshift wharves and warehouses.;;;;;;;;;;;;;x
 3061_treaty_port_title;The Mójib Treaty;;;;;;;;;;;;;x
 3061_treaty_port_desc;The Mójib Treaty;;;;;;;;;;;;;x
 negotiating_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
@@ -335,15 +335,15 @@ negotiating_unequal_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
 thriving_trade;Thriving Trade;;;;;;;;;;;;;x
 yoker_agitation;Free-Yoker Agitation;;;;;;;;;;;;;x
 regional_revolt;Regional Revolt;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Partially Modernized Nation;;;;;;;;;;;;;x
+UNCIV_CANT_RESEARCH;Modernize to be able to research;;;;;;;;;;;;;x
+MILITARY_REFORM_COST_DESC;Cost modifier for political reforms:;;;;;;;;;;;;;x
+SET_MILITARY_REFORM_EFFECT;Political reform selected: §Y$NAME$§W.\n;;;;;;;;;;;;;x
+NO_CIV_PROGRESS;We have made no progress towards modernization. We need to enact political or economic reforms;;;;;;;;;;;;;x
+MODIFIER_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
+MODIFIER_SELF_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
+CIVILIZE_NO_MASTER_DESC;Fully embrace modern ideas. This will gives us access to the technological advances from around the world;;;;;;;;;;;;;x
+CIVILIZE_DESC;Fully embrace modern ideas. This will give us access to the technological advances of our sphere leader;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

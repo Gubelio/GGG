@@ -1578,6 +1578,7 @@ country_event = {
 	id = 50075
 	title = "EVTNAME50075"
 	desc = "EVTDESC50075"
+	picture = "mojifa"
 	
     trigger = {
         owns = 563
