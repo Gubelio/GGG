@@ -1593,7 +1593,7 @@ country_event = {
         563 = { trade_goods = wool }
 		563 = { 
 			any_pop = {
-				militancy = 1
+				consciousnes = 1
 			}
 		}
 	}
