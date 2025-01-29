@@ -83,7 +83,7 @@ objectTypes = {
 	billboardType = {
 		name = "crimes"
 		texturefile = "gfx\\interface\\crime_strip.dds"
-		noOfFrames = 12
+		noOfFrames = 9
 		scale = 2.5
 	}
 	
