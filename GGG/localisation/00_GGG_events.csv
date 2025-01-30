@@ -228,13 +228,25 @@ EVT50059OPTA;Damn these rabble-rousers!;;;;;;;;;;;;;x
 EVTNAME50060;Free-Yoker Agitation Ends;;;;;;;;;;;;;x
 EVTDESC50060;Finally, the period of Free-Yoker agitation seems to have ended in our country, and we seem to be passing back into an era of relative political disinterest, and domestic harmony. It’s not clear what exactly has brought this about either - perhaps it has been rising economic tides, new interests overseas, successful concessions, or the successful repression and deportation of the worst troublemakers by our security forces. In any case, our society has weathered this period of unrest and we can expect, hopefully, greater calm and unity in the future.;;;;;;;;;;;;;x
 EVT50060OPTA;Thank Goodness!;;;;;;;;;;;;;x
-EVTNAME50061;Chaos in local provinces!;;;;;;;;;;;;;x
+EVTNAME50061;Yokers take control of province!;;;;;;;;;;;;;x
+EVTDESC50061;It seems that the broader free-yoker agitation has become particularly extreme in one of our provinces. A group of fanatical free-yoker agitators seem to have established dominance over the local government, and are even maintaining a local ‘citizen guard’ to keep control of the province. The area is, essentially, in open rebellion and refuses to cooperate with our government. This province is a hair's-breadth away from descending into civil conflict with the state. They are seemingly doing everything to propagate their delusional ideology: organising regional land associations, regional grain doles, breaking up great manorial estates, and even emancipating serfs. This has done nothing but stir up the populace to even greater extremism. We must quickly decide how to deal with these troublemakers in local government.;;;;;;;;;;;;;x
+EVT50061OPTA;Hang the ringleaders, but allow the peasantry to keep their gains.;;;;;;;;;;;;;x
+EVT50061OPTB;Hang these scum and restore order by any means necessary!;;;;;;;;;;;;;x
 EVT50062NAME;Banditry in Paknâg!;;;;;;;;;;;;;x
-EVT50062DESC;x;;;;;;;;;;;;;x
+EVT50062DESC;Paknâg is a land that has long been plagued by a tradition of social banditry. Since the disentanglement of the empire and the attendant periods of violence as borders were readjusted, Paknâg’s central position has left it a regular victim to the transit of pillaging armies. The perennial devestion, and the cruelty of the castellan lords who barely kept order in the region usually, allowed for the development of a tradition of social bandits living on the margins of society. These freebooters and warriors in previous times often lent their weapons to the defense of farming communities or worked as mercenaries abroad, but now, as the confederal Paknâg state is better able to keep order, they have merely become a menace to the east-west trade out of the south. There has been, sadly, a recent flare up on banditry in Paknâg.;;;;;;;;;;;;;x
 EVT50062OPTA;What a terrible problem...;;;;;;;;;;;;;x
-EVTNAME50063;x;;;;;;;;;;;;;x
+EVTNAME50063;Clerical Conflict in the Provinces;;;;;;;;;;;;;x
+EVTDESC50063;One of the fiercest demands of the Free-Yoker movement goes back to their anti-magisterial beginnings. The end of clerical courts, law, the right to heterodox beliefs, and local congregationalism. With the background of the ongoing free-yoker agitation, this has made the usual seasonal provincial religious ceremonies a point of extreme tension. In one province in particular, a number of free yokers, uncollaborative clergy, and radical preachers have demanded that local communities be allowed to engage in divergent rites from the usual practice. The local governmental officials are refusing to allow this to happen on the grounds that it violates statutes that prescribe correct observances, but a number of our advisors suggest we must tread carefully here and consider concessions.;;;;;;;;;;;;;x
+EVT50063OPTA;Grant some requests, but forbid the most extreme.;;;;;;;;;;;;;x
+EVT50063OPTB;We cannot allow any sectarian lunacy in $NATION$!;;;;;;;;;;;;;x
 EVTNAME50064;x;;;;;;;;;;;;;x
+EVTDESC50064;x;;;;;;;;;;;;;x
+EVT50064OPTA;x;;;;;;;;;;;;;x
+EVT50064OPTB;x;;;;;;;;;;;;;x
 EVTNAME50065;x;;;;;;;;;;;;;x
+EVTDESC50065;x;;;;;;;;;;;;;x
+EVT50065OPTA;x;;;;;;;;;;;;;x
+EVT50065OPTB;x;;;;;;;;;;;;;x
 EVT50066;The Treaty Port of Niiz Moji;;;;;;;;;;;;;x
 EVTDESC50066;Niiz Moji, or ‘Gold Port’ is the oldest continuously established Gashdzii possession on the great mainland of Kovazh. Acquired in 1089 by a concession of Qooxib Emperor Ohadh-Bohen Qamo III, a perpetual charter to trade free of duties was granted to the Jiishanagi South Seas Trading League. The Merchants had long kept an informal residence in cities on the great delta, but now they began building a fortress to protect against the violence of Poumnian rival trader-governors, who often employed the imperial garrisons of Mra-Ouswun in the interest of private profit. However, Niiz Moji’s proximity to the Imperial capital and its place on the river allows for supreme access to the trade of Qooxib and its interior, allowing it to eclipse the older Poumnian traders. Nowadays, Niiz Moji is a byword for lucrative profit, and has grown into a teeming metropolis boasting of over 200,000 residents, with elegant gardens on the river deltas, proud walls, and sober townhouses.;;;;;;;;;;;;;x
 EVT50066OPTA;'Tis a handsome place, indeed.;;;;;;;;;;;;;x
@@ -260,6 +272,9 @@ EVT50073;The Good Old Ishnapt Tea Trade;;;;;;;;;;;;;x
 EVTDESC50073;The Great Ishnapt Ocean, the largest on our planet, brings temperate rainstorms to the coasts of the southern continent, Kovazh. Drenched in warm mist, the rolling plains grow the finest tea known to the world. For centuries Ishahfazi merchants have been crossing the Zhibom, the calm shallow sea ringed by the great continents, to the lands of the Chobajhi and the Ftemioq for tea. Our outposts on the western coasts, recently, have been thriving: the tea trade seems to be booming, and our agents and factors can’t find enough tea in the mainland to meet the consumer demand for this fine tea at home and abroad!;;;;;;;;;;;;;x
 EVT50073OPTA;The song goes: Sirrah, we brough' ten tonnes of tea to Nozho from Nhanavu...;;;;;;;;;;;;;x
 EVTNAME50074;x;;;;;;;;;;;;;x
+EVTDESC50074;x;;;;;;;;;;;;;x
+EVT50074OPTA;x;;;;;;;;;;;;;x
+EVT50074OPTB;x;;;;;;;;;;;;;x
 EVTNAME50075;Land of Gold No More;;;;;;;;;;;;;x
 EVTDESC50075;For centuries, the land of Mojifa, the ‘Gold Country’, has mined gold for its daily bread. The great mine of Dhâfkmahk ‘Mahk’s Kettle’ (it is believed ‘Mahk’ was a indigenous pagan word for the devil from long ago) yielded for nearly six centuries a steady flow of gold. It was this gold that garnished the royal jewels of the emperor in Pashdzii, the thrones of the great castellans of Vokonazh, and gave the goldsmiths of Mojifa a superb reputation. Indeed, the coins minted in the Dhâfkmahk area gave their name to the Gashdzii language’s standard word for coin through their prolific usage: Dhâmahk. But in recent years, things have looked grim. The small lodes have grown smaller, and new shafts opened up seem to be dry of gold. Indeed, there has been a recent saying in the area: ‘the kettle no longer sings’. And now the worst has happened: House Dhâfk has closed their shops, told all the workers to seek other work, and are seeking a buyer for this empty land.;;;;;;;;;;;;;x
 EVT50075OPTA;O, Buzzamnan, Divine Lady of Fortune, thou turnst thy wheel blindly!;;;;;;;;;;;;;x

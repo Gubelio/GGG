@@ -323,6 +323,14 @@ country_event = {
            factor = 0.8
 		   has_country_flag = tepid_supression
 		}
+		modifier = {
+			factor = 10
+			scriptural_law = permitted_heterodoxy
+		}
+		modifier = {
+			factor = 100 #likely to never happen
+			scriptural_law = local_congregationalism
+		}
 	}
 	
 	option = {
