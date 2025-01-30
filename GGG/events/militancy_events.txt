@@ -220,6 +220,7 @@ country_event = {
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
+		number_of_states = 2
     }
 	
 	mean_time_to_happen = {
@@ -313,6 +314,7 @@ country_event = {
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
+		number_of_states = 2
     }
 	
 	mean_time_to_happen = {
@@ -388,6 +390,7 @@ country_event = {
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
+		number_of_states = 2
     }
 	
 	mean_time_to_happen = {
@@ -453,6 +456,7 @@ country_event = {
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
+		number_of_states = 2
     }
 	
 	mean_time_to_happen = {

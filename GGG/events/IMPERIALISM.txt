@@ -293,7 +293,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = demand_concession_casus_belli
+                type = demand_concession_casus_belli_event
                 months = 12
             }
 			

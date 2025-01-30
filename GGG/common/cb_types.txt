@@ -67,6 +67,7 @@ make_puppet
 dismantle_forts
 humiliate
 demand_concession_casus_belli
+demand_concession_casus_belli_event
 demand_concession_casus_belli_EM
 demand_concession_casus_belli_KF
 establish_protectorate_casus_belli
@@ -1561,6 +1562,59 @@ demand_concession_casus_belli = {
 				tag = QOO
 			}
 		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+demand_concession_casus_belli_event = {
+	sprite_index = 7
+	is_triggered_only = yes
+	constructing_cb = no
+	months = 0
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 1
+	prestige_factor = 0.1
+	peace_cost_factor = 0.6
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+		}
+		civilized = no
+		number_of_states = 2
 	}
 	
 	allowed_states = {
