@@ -560,10 +560,10 @@ country_event = {
 			}
 			secede_province = FROM
 		}
-		THIS = {
+		FROM = {
 			country_event = {
-			id = 50081
-			days = 60
+			id = 50082
+			days = 3
 			}
 		}
 	}
@@ -631,6 +631,13 @@ country_event = {
 		NOT = { 
 			has_global_flag = QOOenabling_2
 		}
+		OR = {
+			NHQ = { civilized = no }
+			FCH = { civilized = no }
+			PUS = { civilized = no }
+			ORH = { civilized = no }
+			QOO = { civilized = no }
+		}
 		civilized = yes
 		OR = {
 				capital_scope = { continent = north_america }
@@ -641,11 +648,11 @@ country_event = {
 	mean_time_to_happen = { 
 		months = 10
 		modifier = {
-			factor = 0.25
+			factor = 0.15
 			military_score = 50
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.15
 			industrial_score = 100
 		}
 
@@ -677,6 +684,29 @@ country_event = {
 			type = demand_concession_casus_belli_EM
 			months = 12
 		}
+		}
+	}
+	
+
+}
+
+
+country_event = {
+	 id = 50082 
+    title = "EVTNAME50082" #We got the port!!
+    desc = "EVTDESC50082"
+	#picture = "carryingtrade"
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVT50082OPTA"
+		FROM = {
+			country_event = {
+			id = 50081
+			days = 65
+			}
 		}
 	}
 	
