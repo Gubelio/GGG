@@ -1580,6 +1580,8 @@ country_event = {
 	desc = "EVTDESC50075"
 	picture = "mojifa"
 	
+	fire_only_once = yes
+	
     trigger = {
         owns = 563
 		year = 1350
@@ -1599,3 +1601,66 @@ country_event = {
 		}
 	}
 }
+
+#################
+### THE DRUPE ###
+#################
+
+country_event = {
+	id = 50083
+	title = "EVTNAME50083"
+	desc = "EVTDESC50083"
+	#picture = "mojifa"
+	
+	fire_only_once = yes
+	
+    trigger = {
+        owns = 221
+		has_country_flag = vewugi_country
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50083OPTA"
+		221 = {
+			add_province_modifier = {
+				name = open_drupe
+				duration = 36525				
+			}
+		}
+		scaled_militancy = {
+			factor = 1
+			ideology = conservative
+		}
+		scaled_militancy = {
+			factor = 2
+			ideology = reactionary
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "EVT50083OPTB"
+		221 = {
+			add_province_modifier = {
+				name = closed_drupe
+				duration = 36525				
+			}
+		}
+		scaled_militancy = {
+			factor = 1
+			ideology = liberationist
+		}
+		scaled_militancy = {
+			factor = 2
+			ideology = free_yoker
+		}
+	}
+	
+}
+

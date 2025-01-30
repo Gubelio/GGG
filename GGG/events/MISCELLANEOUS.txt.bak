@@ -1578,6 +1578,9 @@ country_event = {
 	id = 50075
 	title = "EVTNAME50075"
 	desc = "EVTDESC50075"
+	picture = "mojifa"
+	
+	fire_only_once = yes
 	
     trigger = {
         owns = 563
@@ -1593,8 +1596,71 @@ country_event = {
         563 = { trade_goods = wool }
 		563 = { 
 			any_pop = {
-				consciousnes = 1
+				militancy = 1
 			}
 		}
 	}
 }
+
+#################
+### THE DRUPE ###
+#################
+
+country_event = {
+	id = 12
+	title = "sEVTNAME50075"
+	desc = "sEVTDESC50075"
+	#picture = "mojifa"
+	
+	fire_only_once = yes
+	
+    trigger = {
+        owns = 221
+		has_country_flag = vewugi_country
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50075OPTA"
+		221 = {
+			add_province_modifier = {
+				name = open_drupe
+				duration = 36525				
+			}
+		}
+		scaled_militancy = {
+			factor = 1
+			ideology = conservative
+		}
+		scaled_militancy = {
+			factor = 2
+			ideology = reactionary
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "EVT50075OPTB"
+		221 = {
+			add_province_modifier = {
+				name = closed_drupe
+				duration = 36525				
+			}
+		}
+		scaled_militancy = {
+			factor = 1
+			ideology = liberationist
+		}
+		scaled_militancy = {
+			factor = 2
+			ideology = free_yoker
+		}
+	}
+	
+}
+

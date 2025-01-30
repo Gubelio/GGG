@@ -91,19 +91,18 @@ plantations = {
 	icon = 11
 }
 
-open_rebellion = { #agitation
+yoker_agitation = { 
 	RGO_output = -0.05
 	administrative_efficiency_modifier = -0.1
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.05
 	social_reform_desire = 0.05
-    population_growth = -0.001
 	icon = 16
 }
 
 regional_revolt = {
 	local_RGO_output = -0.2
-    immigrant_push = 0.5
+    immigrant_push = 0.1
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = 0.01
 	icon = 18
@@ -153,4 +152,16 @@ thriving_trade = {
 	population_growth = 0.001
 	local_RGO_throughput = 0.05
     icon = 11
+}
+
+open_drupe = {
+    immigrant_attract = 0.25
+	pop_consciousness_modifier = 0.001 
+    icon = 19
+}
+
+closed_drupe = {
+    immigrant_attract = -0.15
+	pop_consciousness_modifier = -0.001 
+    icon = 20
 }
