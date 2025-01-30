@@ -341,3 +341,296 @@ country_event = {
 }
 
 
+country_event = { 
+    id = 50076 
+    title = "EVTNAME50076" #Take Port Scheme
+    desc = "EVTDESC50076"
+	#picture = "carryingtrade"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { 
+			has_global_flag = QOOenabling_1
+		}
+		NOT = { 
+			has_global_flag = QOOenabling_2
+		}
+		year = 1855
+		civilized = no
+		OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+		}
+		OR = {
+			3055 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3056 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3057 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3058 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3059 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3060 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+			3061 = {
+				AND = {
+					NOT = { controlled_by = THIS }
+					OR = {
+						has_province_modifier = treaty_port
+						has_province_modifier = factory_port
+					}
+					is_core = THIS
+				}
+			}
+		
+		}
+		
+	}
+	
+	mean_time_to_happen = { 
+		months = 200
+		modifier = {
+			factor = 0.5
+			year = 1358
+		}
+		modifier = {
+			factor = 0.25
+			year = 1360
+		}
+		modifier = {
+			factor = 0.01
+			year = 1362
+		}
+	}
+	
+	option = {
+		name = "EVT50076OPTA"
+		set_global_flag = QOOenabling_1
+		prestige = 5
+		treasury = -5000
+		infamy = 0.5
+		random_country = {
+			limit = {
+				any_owned_province =
+					{
+					is_core = THIS
+					OR = { 
+						has_province_modifier = factory_port
+						has_province_modifier = treaty_port
+					}
+				}
+			}
+			country_event = {
+				id = 50077
+				days = 20
+			}
+		}
+		
+	}
+	
+	option = {
+		name = "EVT50076OPTB"
+		set_global_flag = QOOenabling_1
+		prestige = -1
+		random_country = {
+			limit = {
+				any_owned_province =
+					{
+					is_core = THIS
+					OR = { 
+						has_province_modifier = factory_port
+						has_province_modifier = treaty_port
+					}
+				}
+			}
+			country_event = {
+				id = 50078
+				days = 30
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	 id = 50077 
+    title = "EVTNAME50077" #Treaty Seizeure Response
+    desc = "EVTDESC50077"
+	#picture = "carryingtrade"
+	
+	is_triggered_only = yes
+	
+	
+	
+	option = {
+		name = "EVT50077OPTA"
+		prestige = -3
+		random_owned = {
+			limit = {
+				is_core = FROM
+				OR = { 
+					has_province_modifier = factory_port
+					has_province_modifier = treaty_port
+				}
+			}
+			change_controller = FROM
+		}
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = war_reparations }
+			defender_goal = { casus_belli = war_reparations }
+			call_ally = yes
+		}
+		FROM = {
+			country_event = {
+			id = 50079
+			days = 1
+			}
+		}
+	}
+	
+	
+}
+
+
+country_event = {
+	 id = 50078 
+    title = "EVTNAME50078" #Ministry detects plot to steal treaty port!
+    desc = "EVTDESC50078"
+	#picture = "carryingtrade"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50078OPTA"
+		set_global_flag = QOOenabling_2
+		FROM = {
+			add_casus_belli = {
+			target = THIS
+			type = demand_concession_casus_belli_EM
+			months = 12
+		}
+		}
+	}
+	
+
+}
+
+country_event = {
+	 id = 50079 
+    title = "EVTNAME50079" #They have retaliated!
+    desc = "EVTDESC50079"
+	#picture = "carryingtrade"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVT50079OPTA"
+		set_global_flag = QOOenabling_2
+	}
+	
+
+}
+
+country_event = {
+	id = 50080 
+    title = "EVTNAME50080" #Backup Qooxib enabling
+    desc = "EVTDESC50080"
+	#picture = "carryingtrade"
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1363
+		NOT = { 
+			has_global_flag = QOOenabling_1
+		}
+		NOT = { 
+			has_global_flag = QOOenabling_2
+		}
+		civilized = yes
+		OR = {
+				capital_scope = { continent = north_america }
+				tag = AYU
+			}
+	}
+	
+	mean_time_to_happen = { 
+		months = 10
+		modifier = {
+			factor = 0.25
+			military_score = 50
+		}
+		modifier = {
+			factor = 0.25
+			industrial_score = 100
+		}
+
+	}
+	
+	option = {
+		name = "EVT50080OPTA"
+		set_global_flag = QOOenabling_2
+	}
+	
+
+}
+

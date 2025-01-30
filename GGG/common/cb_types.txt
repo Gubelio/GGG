@@ -138,6 +138,10 @@ treaty_port_casus_belli = {
                 ai = no
                 war_with = THIS
             }
+			OR = {
+				capital_scope = { continent = north_america }
+				tag = AYU
+			}
         }
         civilized = no
         is_vassal = no
@@ -838,7 +842,7 @@ acquire_substate_region = {
 					tag = FCH
 					tag = QOO
 				}
-				year = 1362
+				has_global_flag = QOOenabling_2
 			}
 		}
 				
@@ -2846,7 +2850,7 @@ demand_concession_casus_belli_EM = {
 				tag = FCH
 				tag = QOO
 		}
-		year = 1362
+		has_global_flag = QOOenabling_2
 	}
 	
 	allowed_states = {
@@ -3022,7 +3026,7 @@ take_colonial_concession_capital_EM = {
 				tag = FCH
 				tag = QOO
 		}
-		year = 1362
+		has_global_flag = QOOenabling_2
     }
 
     allowed_states = {

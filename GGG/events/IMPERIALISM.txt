@@ -262,6 +262,25 @@ country_event = {
             limit = {
             is_vassal = no
 			civilized = no
+			OR = {
+				NOT = {
+					tag = NHQ
+					tag = PUS
+					tag = ORH
+					tag = FCH
+					tag = QOO
+				}
+				AND = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+					has_global_flag = QOOenabling_2
+				}
+			}
 			neighbour = THIS
 			number_of_states = 2
 				NOT = { 
@@ -277,6 +296,8 @@ country_event = {
                 type = demand_concession_casus_belli
                 months = 12
             }
+			
+
             relation = {
                 who = THIS
                 value = -150

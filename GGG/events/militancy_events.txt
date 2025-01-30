@@ -11,7 +11,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-        months = 960 #~80 years
+        months = 1920 #~160 years
 		modifier = {
            factor = 0.9
 		   average_militancy = 5
@@ -101,6 +101,11 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			has_country_modifier = international_sanctions
+		}
+		
+		modifier = { #swing to statism
+			factor = 2
+			year = 1350
 		}
 		
 		#Reforms
@@ -245,15 +250,15 @@ country_event = {
 						militancy = 4
 						consciousness = 6
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = liberationist
 						}
 						ideology = {
-							factor = 0.04
+							factor = 0.02
 							value = free_yoker
 						}
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = reactionary
 						}
 					}
@@ -280,15 +285,15 @@ country_event = {
 						militancy = 10
 						consciousness = 4
 						ideology = {
-							factor = 0.01
+							factor = 0.005
 							value = liberationist
 						}
 						ideology = {
-							factor = 0.02
+							factor = 0.01
 							value = free_yoker
 						}
 						ideology = {
-							factor = 0.01
+							factor = 0.005
 							value = reactionary
 						}
 					}
@@ -330,15 +335,15 @@ country_event = {
 						militancy = 5
 						consciousness = 7
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = liberationist
 						}
 						ideology = {
-							factor = 0.04
+							factor = 0.02
 							value = free_yoker
 						}
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = reactionary
 						}
 					}
@@ -358,15 +363,15 @@ country_event = {
 						militancy = 7
 						consciousness = 5
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = liberationist
 						}
 						ideology = {
-							factor = 0.04
+							factor = 0.02
 							value = free_yoker
 						}
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = reactionary
 						}
 					}
@@ -484,15 +489,15 @@ country_event = {
 					any_pop = {
 						militancy = 9
 						ideology = {
-							factor = 0.01
+							factor = 0.005
 							value = liberationist
 						}
 						ideology = {
-							factor = 0.02
+							factor = 0.01
 							value = free_yoker
 						}
 						ideology = {
-							factor = 0.03
+							factor = 0.015
 							value = reactionary
 						}
 					}
@@ -559,15 +564,15 @@ country_event = {
 				consciousness = 2
 				militancy = 1
 				ideology = {
-					factor = 0.01
+					factor = 0.005
 					value = liberationist
 				}
 				ideology = {
-					factor = 0.01
+					factor = 0.005
 					value = free_yoker
 				}
 				ideology = {
-					factor = 0.01
+					factor = 0.005
 					value = reactionary
 				}
 			}
