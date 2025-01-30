@@ -238,7 +238,7 @@ EVT50062OPTA;What a terrible problem...;;;;;;;;;;;;;x
 EVTNAME50063;Clerical Conflict in the Provinces;;;;;;;;;;;;;x
 EVTDESC50063;One of the fiercest demands of the Free-Yoker movement goes back to their anti-magisterial beginnings. The end of clerical courts, law, the right to heterodox beliefs, and local congregationalism. With the background of the ongoing free-yoker agitation, this has made the usual seasonal provincial religious ceremonies a point of extreme tension. In one province in particular, a number of free yokers, uncollaborative clergy, and radical preachers have demanded that local communities be allowed to engage in divergent rites from the usual practice. The local governmental officials are refusing to allow this to happen on the grounds that it violates statutes that prescribe correct observances, but a number of our advisors suggest we must tread carefully here and consider concessions.;;;;;;;;;;;;;x
 EVT50063OPTA;Grant some requests, but forbid the most extreme.;;;;;;;;;;;;;x
-EVT50063OPTB;We cannot allow any sectarian lunacy in $NATION$!;;;;;;;;;;;;;x
+EVT50063OPTB;We cannot allow any sectarian lunacy in $COUNTRY$!;;;;;;;;;;;;;x
 EVTNAME50064;x;;;;;;;;;;;;;x
 EVTDESC50064;x;;;;;;;;;;;;;x
 EVT50064OPTA;x;;;;;;;;;;;;;x
