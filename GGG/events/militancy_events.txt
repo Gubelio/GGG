@@ -8,6 +8,7 @@ country_event = {
 		NOT = { government = paternalistic_council }
         NOT = { has_country_flag = free_yoker_revolution }
         NOT = { has_global_flag = disabled_militancy_events }
+		civilized = yes
     }
 
 	mean_time_to_happen = {
