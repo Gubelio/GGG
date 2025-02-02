@@ -16,25 +16,25 @@ life_needs = {
 
 #Total cash needed: 50.75 - Vanilla value: 49.25
 everyday_needs = {
-    tea = 4
-    coal = 1
-    liquor = 2
-    regular_clothes = 1.2
-    furniture = 1.1
-    coffee = 1
-    tobacco = 1
-    fertilizer = 0.5 #0
+    tea = 4.4
+    coal = 1.1
+    liquor = 2.2
+    regular_clothes = 1.3
+    furniture = 1.2
+    coffee = 1.1
+    tobacco = 1.1
+    fertilizer = 0.7 #0
 }
 
 #Total cash needed: 136.78 - Vanilla value: 125.995
 luxury_needs = {
-    regular_clothes = 3
-    furniture = 3
-    paper = 1.0
-    telephones = 1.0
-    automobiles = 0.5
-    radio = 1.0
-    fuel = 0.1
+    regular_clothes = 3.3
+    furniture = 3.3
+    paper = 1.1
+    telephones = 1.1
+    automobiles = 0.6
+    radio = 1.1
+    fuel = 0.2
     #dye = 0.5
 }
 

@@ -63,6 +63,12 @@ size = 678
 		 religion = wompowushan
 		 size =219600
 	}
+	
+	craftsmen = {
+		culture = poumnian
+		 religion = wompowushan
+		 size = 6000
+	}
 
 }
 

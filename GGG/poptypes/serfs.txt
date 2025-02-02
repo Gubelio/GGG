@@ -3,6 +3,7 @@ color = { 63 80 62 }
 strata = poor
 unemployment = yes
 
+
 rebel = {
     cavalry = 0
     artillery = 0
@@ -24,31 +25,31 @@ life_needs = {
 }
 
 everyday_needs = {
-    coal = 1
-    tobacco = 5
-    tea = 2
-    liquor = 2
-    regular_clothes = 1.2
-    furniture = 1.1
-    opium = 10
+    coal = 1.1
+    tobacco = 5.5
+    tea = 2.2
+    liquor = 2.2
+    regular_clothes = 1.3
+    furniture = 1.2
+    opium = 12
     fertilizer = 0.5 #0
     explosives = 0.25
 }
 
 
 luxury_needs = {
-    regular_clothes = 2
-    furniture = 3
-    liquor = 1.5
-    wine = 1
-    coffee = 3
-    tobacco = 3
-    paper = 1.0
-    telephones = 1.0
-    automobiles = 0.5
-    radio = 1.0
-    fuel = 0.1
-    opium = 2
+    regular_clothes = 2.2
+    furniture = 3.3
+    liquor = 1.65
+    wine = 1.1
+    coffee = 3.3
+    tobacco = 3.3
+    paper = 1.1
+    telephones = 1.1
+    automobiles = 0.65
+    radio = 1.1
+    fuel = 0.12
+    opium = 2.2
 }
 
 country_migration_target = {

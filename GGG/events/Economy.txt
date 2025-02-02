@@ -1,0 +1,73 @@
+country_event = { 
+    id = 50084 
+    title = "EVTNAME50084" #developing economy
+    desc = "EVTDESC50084"
+	#picture = "NiizMoji"
+
+    trigger = {
+		industrial_score = 25
+		civilized = yes
+
+		NOT = {
+				has_country_modifier = developing_economy
+				has_country_modifier = industrialising_economy
+				has_country_modifier = industrial_economy
+			}
+		}
+	
+
+    option = {
+        name = "EVT50086OPTA"
+		add_country_modifier = { name = developing_economy duration = -1 }
+	}
+}
+
+country_event = { 
+    id = 50085 
+    title = "EVTNAME50084" #industrialising_economy
+    desc = "EVTDESC50084"
+	#picture = "NiizMoji"
+
+    trigger = {
+		industrial_score = 100
+		civilized = yes
+
+		NOT = {
+				has_country_modifier = industrialising_economy
+				has_country_modifier = industrial_economy
+			}
+		}
+  
+
+
+    option = {
+        name = "EVT50066OPTA"
+		add_country_modifier = { name = industrialising_economy duration = -1 }
+		clr_country_modifier = developing_economy
+	}
+}
+
+country_event = { 
+    id = 50086
+    title = "EVTNAME50086" #industrialising_economy
+    desc = "EVTDESC50086"
+	#picture = "NiizMoji"
+
+    trigger = {
+		industrial_score = 500
+		civilized = yes
+
+		NOT = {
+				has_country_modifier = developing_economy
+				has_country_modifier = industrial_economy
+			}
+		}
+   
+
+
+    option = {
+        name = "EVT50086OPTA"
+		add_country_modifier = { name = industrial_economy duration = -1 }
+		clr_country_modifier = industrialising_economy
+	}
+}

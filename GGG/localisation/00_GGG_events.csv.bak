@@ -190,128 +190,67 @@ EVTNAME65005;Leader Resigns!;;;;;;;;;;;;;x
 EVTDESC65005;In a speech before the state building in $CAPITAL$ today, our state’s leader, who has broadly been dubbed a $NATIONAL_VALUE$ by the public and the media, delivered a resignation speech. Citing difficulties with governance, the various ills of the nation, and opposition within the party, our leader believed it was time to step down from office. It remains to be seen who will come to power next, and how they will reckon with the challenges faced by our state.;;;;;;;;;;;;;x
 EVT65005OPTA;About time!;;;;;;;;;;;;;x
 EVTNAME50057;International Sanctions;;;;;;;;;;;;;x
-EVTDESC50057;Our outrageous warmongering has finally provoked a response from large powers around the world. A combine of international powers have declared a total trade embargo against us. Vessels trading in our ports may be seized or even sank with relative impunity, scaring most traders away from our lands, and our neighbors have closed their borders to us.;;;;;;;;;;;;;x
+EVTDESC50057;x;;;;;;;;;;;;;x
 EVT50057OPTA;This is worrying;;;;;;;;;;;;;x
 EVTNAME50058;International Sanctions Lifted;;;;;;;;;;;;;x
-EVTDESC50058;Time has passed, and finally the international campaign of sanctions against us has ended. Merchants now trade freely with us, and cargo trains are once again rolling across our borders.;;;;;;;;;;;;;x
+EVTDESC50058;x;;;;;;;;;;;;;x
 EVT50058OPTA;May this dark period be forgotten;;;;;;;;;;;;;x
 EVTNAME65006;Regency;;;;;;;;;;;;;x
-EVTDESC65006;With the untimely death of our monarch, and the minority of our heir, a new regent has come to power to guide the little autocrat through their minority. We will see how this affects our country's fate.;;;;;;;;;;;;;x
+EVTDESC65006;x;;;;;;;;;;;;;x
 EVT65006OPTA;These are strange times;;;;;;;;;;;;;x
 EVTNAME65007;Highly Influential Spouse;;;;;;;;;;;;;x
-EVTDESC65007;Our current monarch is known to be desperately besotted with their spouse. Whether though political adroitness, sexual mystique, or some are even saying, occult influences, it is unquestionable that the royal consort is exercising great influence over our country and is the "power behind the throne".;;;;;;;;;;;;;x
+EVTDESC65007;x;;;;;;;;;;;;;x
 EVT65007OPTA;We must watch this one with caution;;;;;;;;;;;;;x
 EVTNAME65008;New Favored Advisor;;;;;;;;;;;;;x
-EVTDESC65008;A certain courtier has gained a vast amount of control over our monarch's favours and seems to have their ear on matters of state. This 'Royal Favourite' is arousing great resentment, as they seem to be the new paramount leader of our state.;;;;;;;;;;;;;x
+EVTDESC65008;x;;;;;;;;;;;;;x
 EVT65008OPTA;We must watch this one with caution;;;;;;;;;;;;;x
-EVTNAME65009;Internal Fued in Faction;;;;;;;;;;;;;x
-EVTDESC65009;Our ruling party, which maintains pratical dominance over the state through a system of parasitism and managed elections, has recently undergone an internal party struggle. Their opaque dealings are hard to follow, but it seems a new paramount leader has arisen, monopolising a number of key appointments both inside the party and the formal state bureaucracy.;;;;;;;;;;;;;x
+EVTNAME65009;New Dominant Faction Figurehead;;;;;;;;;;;;;x
+EVTDESC65009;x;;;;;;;;;;;;;x
 EVT65009OPTA;What will their new agenda be?;;;;;;;;;;;;;x
 EVTNAME65010;Leader Killed in Private Feud!;;;;;;;;;;;;;x
-EVTDESC65010;Shockingly, our leader has been killed in what seems to the result of a private feud! It might have been a crime of passion, or a revenge killing for some old wrong, but the perpetrators seem to have nothing to do with any of the major rival political factions which were at once suspected.;;;;;;;;;;;;;x
+EVTDESC65010;x;;;;;;;;;;;;;x
 EVT65010OPTA;These are strange times;;;;;;;;;;;;;x
-EVTNAME65011;New Party Leadership!;;;;;;;;;;;;;x
-EVTDESC65011;The ruling party of our state is practically synonymous with the state itself, ruling through a delicate system of party-internal appointments, managed nominations, etc. This means that any internal party change is pratically a change within our state. The previous chairperson of the party exited their role yesterday, and today the general party congress has elected a new leader, who is quickly emerging as the new paramount leader of our society.;;;;;;;;;;;;;x
+EVTNAME65011;New Party Cadre Figurehead!;;;;;;;;;;;;;x
+EVTDESC65011;x;;;;;;;;;;;;;x
 EVT65011OPTA;What will their new agenda be?;;;;;;;;;;;;;x
 EVTNAME65012;Military Ousts Current Leader!;;;;;;;;;;;;;x
-EVTDESC65012;In a shocking turn of events in $CAPITAL$ today, the military marched on the executive centres of power and forced our leaders to resign. There are no signs of them, and who knows what is to become of them. In the meantime, the military has put forward an 'acting' leader, who seems to be, for the time being, in 'charge', but many question if it is really the top brass of the army calling the shots.;;;;;;;;;;;;;x
+EVTDESC65012;x;;;;;;;;;;;;;x
 EVT65012OPTA;These are strange times;;;;;;;;;;;;;x
 EVTNAME65013;New Dominant Faction!;;;;;;;;;;;;;x
-EVTDESC65013;Our ruling party, which maintains pratical dominance over the state through a system of parasitism and managed elections, has recently undergone an internal party struggle. Their opaque dealings are hard to follow, but it seems a new paramount leader has arisen, monopolising a number of key appointments both inside the party and the formal state bureaucracy.;;;;;;;;;;;;;x
+EVTDESC65013;x;;;;;;;;;;;;;x
 EVT65013OPTA;What will their new agenda be?;;;;;;;;;;;;;x
 EVTNAME65014;Military Ousts Current Leader!;;;;;;;;;;;;;x
-EVTDESC65014;In a shocking turn of events in $CAPITAL$ today, the military marched on the executive centres of power and forced our leaders to resign. There are no signs of them, and who knows what is to become of them. In the meantime, the military has put forward an 'acting' leader, who seems to be, for the time being, in 'charge', but many question if it is really the top brass of the army calling the shots.;;;;;;;;;;;;;x
+EVTDESC65014;x;;;;;;;;;;;;;x
 EVT65014OPTA;These are strange times;;;;;;;;;;;;;x
-EVTNAME50059;Free-Yoker Agitation;;;;;;;;;;;;;x
-EVTDESC50059;It began quietly but now it has become a major problem. Over the previous decades, our society has seen the steady formation of a broad, underground, free-yoker movement. From secret societies in the cities, taking the usual cryptic names that international liberationism does, like ‘Dancers’ and ‘Boar-Merchants’, to clandestine rural meetings on moonlit fields by stolid rustics, there has become established a dangerous network of free-yoker agitators. And now, in recent months, the problem seems to be coming to a head. It’s not clear exactly why it began, but early protests quashed by the gendarme have now broken out into large-scale civilian resistance. Everywhere they drag their feet: the fields go unharvested, the yarn unspun, the stones uncut - everywhere they scorn authority: they assault policemen, they loot manors, they riot in the square and they even raid prisons - and worse still, everywhere they call for change: they are organising region councils, they are calling for the estates to assemble, and they are calling for the old order to be abolished.;;;;;;;;;;;;;x
-EVT50059OPTA;Damn these rabble-rousers!;;;;;;;;;;;;;x
-EVTNAME50060;Free-Yoker Agitation Ends;;;;;;;;;;;;;x
-EVTDESC50060;Finally, the period of Free-Yoker agitation seems to have ended in our country, and we seem to be passing back into an era of relative political disinterest, and domestic harmony. It’s not clear what exactly has brought this about either - perhaps it has been rising economic tides, new interests overseas, successful concessions, or the successful repression and deportation of the worst troublemakers by our security forces. In any case, our society has weathered this period of unrest and we can expect, hopefully, greater calm and unity in the future.;;;;;;;;;;;;;x
-EVT50060OPTA;Thank Goodness!;;;;;;;;;;;;;x
-EVTNAME50061;Yokers take control of province!;;;;;;;;;;;;;x
-EVTDESC50061;It seems that the broader free-yoker agitation has become particularly extreme in one of our provinces. A group of fanatical free-yoker agitators seem to have established dominance over the local government, and are even maintaining a local ‘citizen guard’ to keep control of the province. The area is, essentially, in open rebellion and refuses to cooperate with our government. This province is a hair's-breadth away from descending into civil conflict with the state. They are seemingly doing everything to propagate their delusional ideology: organising regional land associations, regional grain doles, breaking up great manorial estates, and even emancipating serfs. This has done nothing but stir up the populace to even greater extremism. We must quickly decide how to deal with these troublemakers in local government.;;;;;;;;;;;;;x
-EVT50061OPTA;Hang the ringleaders, but allow the peasantry to keep their gains.;;;;;;;;;;;;;x
-EVT50061OPTB;Hang these scum and restore order by any means necessary!;;;;;;;;;;;;;x
-EVT50062NAME;Banditry in Paknâg!;;;;;;;;;;;;;x
-EVT50062DESC;Paknâg is a land that has long been plagued by a tradition of social banditry. Since the disentanglement of the empire and the attendant periods of violence as borders were readjusted, Paknâg’s central position has left it a regular victim to the transit of pillaging armies. The perennial devestion, and the cruelty of the castellan lords who barely kept order in the region usually, allowed for the development of a tradition of social bandits living on the margins of society. These freebooters and warriors in previous times often lent their weapons to the defense of farming communities or worked as mercenaries abroad, but now, as the confederal Paknâg state is better able to keep order, they have merely become a menace to the east-west trade out of the south. There has been, sadly, a recent flare up on banditry in Paknâg.;;;;;;;;;;;;;x
-EVT50062OPTA;What a terrible problem...;;;;;;;;;;;;;x
-EVTNAME50063;Clerical Conflict in the Provinces;;;;;;;;;;;;;x
-EVTDESC50063;One of the fiercest demands of the Free-Yoker movement goes back to their anti-magisterial beginnings. The end of clerical courts, law, the right to heterodox beliefs, and local congregationalism. With the background of the ongoing free-yoker agitation, this has made the usual seasonal provincial religious ceremonies a point of extreme tension. In one province in particular, a number of free yokers, uncollaborative clergy, and radical preachers have demanded that local communities be allowed to engage in divergent rites from the usual practice. The local governmental officials are refusing to allow this to happen on the grounds that it violates statutes that prescribe correct observances, but a number of our advisors suggest we must tread carefully here and consider concessions.;;;;;;;;;;;;;x
-EVT50063OPTA;Grant some requests, but forbid the most extreme.;;;;;;;;;;;;;x
-EVT50063OPTB;We cannot allow any sectarian lunacy in $COUNTRY$!;;;;;;;;;;;;;x
-EVTNAME50064;x;;;;;;;;;;;;;x
-EVTDESC50064;x;;;;;;;;;;;;;x
-EVT50064OPTA;x;;;;;;;;;;;;;x
-EVT50064OPTB;x;;;;;;;;;;;;;x
-EVTNAME50065;x;;;;;;;;;;;;;x
-EVTDESC50065;x;;;;;;;;;;;;;x
-EVT50065OPTA;x;;;;;;;;;;;;;x
-EVT50066;The Treaty Port of Niiz Moji;;;;;;;;;;;;;x
-EVTDESC50066;Niiz Moji, or ‘Gold Port’ is the oldest continuously established Gashdzii possession on the great mainland of Kovazh. Acquired in 1089 by a concession of Qooxib Emperor Ohadh-Bohen Qamo III, a perpetual charter to trade free of duties was granted to the Jiishanagi South Seas Trading League. The Merchants had long kept an informal residence in cities on the great delta, but now they began building a fortress to protect against the violence of Poumnian rival trader-governors, who often employed the imperial garrisons of Mra-Ouswun in the interest of private profit. However, Niiz Moji’s proximity to the Imperial capital and its place on the river allows for supreme access to the trade of Qooxib and its interior, allowing it to eclipse the older Poumnian traders. Nowadays, Niiz Moji is a byword for lucrative profit, and has grown into a teeming metropolis boasting of over 200,000 residents, with elegant gardens on the river deltas, proud walls, and sober townhouses.;;;;;;;;;;;;;x
-EVT50066OPTA;'Tis a handsome place, indeed.;;;;;;;;;;;;;x
-EVT50067OPTA;Hurrah for House Shoummid!;;;;;;;;;;;;;x
-EVT50068OPTA;Why, just splendid views!;;;;;;;;;;;;;x
-EVT50069OPTA;I just love to watch the sun set here, dear chap.;;;;;;;;;;;;;x
-EVT50067;The Factory of Mra-Ouswun;;;;;;;;;;;;;x
-EVTDESC50067;Mra-Ouswun, or ‘Fort Mra’ is the oldest Ishahfazhi possession on the Kovan mainland. It meaningly consists of the trading factory and settlement of Mra, begun in 1045 on the orders of the Viceroy-General Ashou Sha-Shoummid, an adventurous scion of House Shoummid, who was that time the ‘Viceroy of the Pudwou in the Southern Continent’. A fine title for a man who was not much more than a merchant in the Qooxibi capital, but he nominally held the power to dispense justice to Poumnian subjects in all of Mainlanz Kovazh. Employing private levies to aid against a Souxappi revolt, he impressed and gained the favour of Odadh-Bohen Qamo II, who granted him extraterritoriality and allowed him to build a fort, as a nominal ‘vassal’ of the Qooxib. This factory station gradually became a great trading town, was granted independence of the Qooxib, and is still a fief of House Shoummid.;;;;;;;;;;;;;x
-EVT50068;The Factory of Niiz Jadhov;;;;;;;;;;;;;x
-EVTDESC50068;Old Niiz Jadhov, ‘Kingsport’, is a commanding Vokonazhi factory in the land of the Ourrhond, the great monarchy of central Kovash. This aristocratic confederacy, fraught by regular internal conflict, nonetheless yields great trade goods, with carved furniture made from the lumber of the rich woodlands that dot the plains, ivories from the great beasts of Kovazh, and precious objects made by the locals. Niiz Jadhov was established in 1167 by a number of intrepid Vokonazhi traders who took advantage of a civil conflict between local tribesmen in the local region and its lord, Hana Birhim. Delicately balancing various loyalties between the distracted locals, the fort was satisfactorily risen, and became a great holdfast for Vokonazhi trading in the area. Eventually a smaller inland fort was raised, which attracted the local manufacturing community. Niiz Jadhov boasts of the headquarters of the Imperial Kovan Trading Company, nominally granted by the Emperor in Pashdzii.;;;;;;;;;;;;;x
-EVT50069;The City of Niiz Kan;;;;;;;;;;;;;x
-EVTDESC50069;Niiz Kan is the premier Gashdzii trading port in the west of Kovazh. Established by Ishnapt Tea Company charter in 1160, its key figure is intrepid Bida Kazak, a trader originally based in the island of Rouxaem. Kazak settled a fertile stretch of coast with a hope to plant his own tea crops - he married a local Chobaji heiress and added to his fortune a number of large estates nearby. Shockingly, he and his wife both were buried after the fashion of the Vewugist. A community began to grow around this settlement, attracting goods brought down the coastal road. Until 1221, however, the main Gashdzii trading settlement in the area, Anzhapt, was on the southern delta, but in 1221 the new Emperor declared the expulsion of all foreigners from the delta, and riotous violence drove many Gashdzii north, eventually to hybrid Niiz Kan. The city survived the failure of the Ishapt Tea Company in 1241, and was given a responsible government by the Parliament in Nozho.;;;;;;;;;;;;;x
-EVT50070;Decline of Former Treaty Port;;;;;;;;;;;;;x
-EVTDESC50070;Our recent acquisition of a city once owned by overseas powers with exclusive trade charters has caused a regrettable, but not unexpected decline in the trading power of that city. Our proximity to this land, and the revocation of exclusivity charters has effectively removed whatever value was generated by these special privileges. The region has now shifted its production and exports to only local goods.;;;;;;;;;;;;;x
-EVTOPTA50070;Well, it was to be expected...;;;;;;;;;;;;;x
-EVT50071;Booming Treaty Port;;;;;;;;;;;;;x
-EVTDESC50071;Since we have acquired a certain treaty port on foreign shores, it has now become a booming trading metropolis! It houses vast amounts of merchants, longshoremen, keelmen, factors, agents, secretaries, and other attendants of the shipping trade who work to pull value and goods out of the continental interior. Its proud warehouses owned companies around the world gleam bright in the sun, its great docks boast of ships from all around the world, and, above all, it generates lucrative revenue.;;;;;;;;;;;;;x
-EVTOPTA50070;Excellent!;;;;;;;;;;;;;x
-EVT50072;The Kovazh Carrying Trade;;;;;;;;;;;;;x
-EVTDESC50072;The lands of east Kofazh are dominated by the two great Momurist empires: Imperial Qooxib and aristocratic Ourrhond. These two lands are some of the most populous states in the world, and the great rivers they lie upon, most primarily the Caigur in Ourrhond and Vetchk in Qooxib, are home to huge markets of diverse goods. While not yielding the prime silks and teas of the monsoon ridden west, the torrid lands of the east yield strange fruits, fine pelts, mountains of spindleweed, well-spun cloths, sturdy and elegant furniture and pottery, and many ornate luxuries. These lovely goods are much coveted by the people of Ishahfazh, and our ports in the south east are great trading hubs for this wonderfully profitably carrying trade. Recently, in fact, it seems this trade is booming!;;;;;;;;;;;;;x
-EVTOPTA50072;Oh - Haul, boys, haul!;;;;;;;;;;;;;x
-EVT50073;The Good Old Ishnapt Tea Trade;;;;;;;;;;;;;x
-EVTDESC50073;The Great Ishnapt Ocean, the largest on our planet, brings temperate rainstorms to the coasts of the southern continent, Kovazh. Drenched in warm mist, the rolling plains grow the finest tea known to the world. For centuries Ishahfazi merchants have been crossing the Zhibom, the calm shallow sea ringed by the great continents, to the lands of the Chobajhi and the Ftemioq for tea. Our outposts on the western coasts, recently, have been thriving: the tea trade seems to be booming, and our agents and factors can’t find enough tea in the mainland to meet the consumer demand for this fine tea at home and abroad!;;;;;;;;;;;;;x
-EVT50073OPTA;The song goes: Sirrah, we brough' ten tonnes of tea to Nozho from Nhanavu...;;;;;;;;;;;;;x
-EVTNAME50074;x;;;;;;;;;;;;;x
-EVTDESC50074;x;;;;;;;;;;;;;x
-EVT50074OPTA;x;;;;;;;;;;;;;x
-EVT50074OPTB;x;;;;;;;;;;;;;x
-EVTNAME50075;Land of Gold No More;;;;;;;;;;;;;x
-EVTDESC50075;For centuries, the land of Mojifa, the ‘Gold Country’, has mined gold for its daily bread. The great mine of Dhâfkmahk ‘Mahk’s Kettle’ (it is believed ‘Mahk’ was a indigenous pagan word for the devil from long ago) yielded for nearly six centuries a steady flow of gold. It was this gold that garnished the royal jewels of the emperor in Pashdzii, the thrones of the great castellans of Vokonazh, and gave the goldsmiths of Mojifa a superb reputation. Indeed, the coins minted in the Dhâfkmahk area gave their name to the Gashdzii language’s standard word for coin through their prolific usage: Dhâmahk. But in recent years, things have looked grim. The small lodes have grown smaller, and new shafts opened up seem to be dry of gold. Indeed, there has been a recent saying in the area: ‘the kettle no longer sings’. And now the worst has happened: House Dhâfk has closed their shops, told all the workers to seek other work, and are seeking a buyer for this empty land.;;;;;;;;;;;;;x
-EVT50075OPTA;O, Buzzamnan, Divine Lady of Fortune, thou turnst thy wheel blindly!;;;;;;;;;;;;;x
-EVTNAME50076;A Scheme to End Foriegn Impositions;;;;;;;;;;;;;x
-EVTDESC50076;Throughout our history our great wealth has attracted many foreigners to trade in our lands, and throughout history we have been convinced or, recently, been forced to give the most powerful among them concessions to build fortresses, control ports, and dispense justice in their districts within our patrimony. This has for centuries never been much of a concern to our elite: we grant our diverse subjects many privileges, and concessions to foreign merchants has just been an accommodation to what was, in the eyes of our state, another sort of subject. However, in recent years our people have rankled at the imposition of these trading posts. As we learn more about the global economy and the states of the foreign powers, it now seems a humiliation to have granted concessions. A number of patriotic radicals have thus come to our government with a proposal: provide them with arms and smuggle them into a treaty port, and they will incite a riot and take it over for us!;;;;;;;;;;;;;x
-EVT50076OPTA;Excellent, equip them with what they need!;;;;;;;;;;;;;x
-EVT50076OPTB;Are you joking? And risk futher imperialist action?;;;;;;;;;;;;;x
-EVTNAME50077;Chaos in Kovazh!;;;;;;;;;;;;;x
-EVTDESC50077;In our concession territory in the $FROMCOUNTRY$ it seems the unbelievable has happened. What began as seemingly a protest against the treatment of local coolies, developed into a firefight at the state house, and, after some street fighting, rioting, and violence for several hours it seems a collection of agents from $FROMCOUNTRY$ have conspired to control the town and in fact are proclaiming themselves representatives of the $FROMCOUNTRY_ADJ$ government! Our informers and spies in $FROMCOUNTRY$ say that this is indeed very likely the case. The foreign office is livid - we are, they say, basically at war with $FROMCOUNTRY$ and must employ military force to recover our concession, as well as teach them a lesson for their audacity!;;;;;;;;;;;;;x
-EVT50077OPTA;This will not go unpunished!;;;;;;;;;;;;;x
-EVT50077OPTB;This sounds very expensive to deal with...;;;;;;;;;;;;;x
-EVTNAME50078;Dangerous Plots in $FROMCOUNTRY$;;;;;;;;;;;;;x
-EVTDESC50078;§RNOTE: This enables demand concession CBs against the large, settled empires of Kovazh, the Qooxib Empire, Ourrhond, the Pusenetos of the Great Khan, the Nhuiqourran Empire, and the Fazhri Chrur, for ALL civilized countries that have the techs Nationalism and Particularism, Machine Guns, and Medicine.§! There has been much consternation in the foreign office recently. Our spies in $FROMCOUNTRY$ have whispered the outline of a plot offered to the $FROMCOUNTRY_ADJ$ government to sneak into one of our treaty concessions and take it over in the name of the state! While we feel reasonably sure that the $FROMCOUNTRY_ADJ$ government declined, this speaks to a much more hostile attitude than is usually felt from the large settled empires of Kovazh. There is talk that the usual policy of ‘informal empire’ in Kovazh must be set aside and we must be willing to wage territorial war in these lands to establish military rule and tightly controlled protectorates. These murmurs seemed to have leaked to our rivals in Ishahfazh, and now there seems to be a building scramble to seize land in Kovazh lest it resist or some other Imperial power gets their hands on it!;;;;;;;;;;;;;x
-EVT50078OPTA;By Jingo, we've got devils on all sides of us!;;;;;;;;;;;;;x
-EVTNAME50079;Ishahfazhi designs on $COUNTRY$;;;;;;;;;;;;;x
-EVTDESC50079;§RNOTE: This enables demand concession CBs against the large, settled empires of Kovazh, the Qooxib Empire, Ourrhond, the Pusenetos of the Great Khan, the Nhuiqourran Empire, and the Fazhri Chrur, for ALL civilized countries that have the techs Nationalism and Particularism, Machine Guns, and Medicine.§! Since our scheme to take over a concession treaty port, things seemed to have taken an alarming turn. Rather than acquiesce to our annexation, the foreigners have declared that they will preserve this leased land as an integral part of their empire, which seems to be far different to the treaty we originally agreed upon. Furthermore, we hear alarming rumors that military and industrial circles across Ishahfazh, observing the conflict, feel that there is both an increasing capacity to wage territorial war in Kovazh, and also a protective need to establish direct control over the continent, rather than the previous policy of indirect rule and spheres of influence. We seem to be entering an existential struggle for the integrity of our state.;;;;;;;;;;;;;x
-EVT50079OPTA;The armies of the foreigners will crash upon our shores like waves upon rocks.;;;;;;;;;;;;;x
-EVTNAME50080;Military Industrial Interest in Kovazh;;;;;;;;;;;;;x
-EVTDESC50080;§RNOTE: This enables demand concession CBs against the large, settled empires of Kovazh, the Qooxib Empire, Ourrhond, the Pusenetos of the Great Khan, the Nhuiqourran Empire, and the Fazhri Chrur, for ALL civilized countries that have the techs Nationalism and Particularism, Machine Guns, and Medicine.§! As our state and society has advanced technologically, one hears increasing talk in military-industrial circles of establishing direct control over the large empires of the Kovan mainland. Typically our war office has avoided even discussing the idea of direct attacks on these powers, citing logistical issues of supplying a large scale land campaign against a powerful overseas foe, but we have now seemingly eclipsed these powers in military capacity. Societies like the $COUNTRY_ADJ$ Kovan Colonisation League, which have recently held a number of symposiums on topics like ‘Spindleweed Growth Opportunities on the Vetchk River’ and have invited a number of lieutenants and other officials to patronise their societies seem to exerting an influence on the thinking of our military establishment.;;;;;;;;;;;;;x
-EVT50080OPTA;Something to consider, certainly.;;;;;;;;;;;;;x
-EVTNAME50081;Shock and Horror in Kovazh!;;;;;;;;;;;;;x
-EVTDESC50081;§RNOTE: This enables demand concession CBs against the large, settled empires of Kovazh, the Qooxib Empire, Ourrhond, the Pusenetos of the Great Khan, the Nhuiqourran Empire, and the Fazhri Chrur, for ALL civilized countries that have the techs Nationalism and Particularism,Machine Guns, and Medicine.§! A couple months ago we decided to cede a leased port back to the Kovan empire that we had it from after an underhanded subterfuge that saw us lose it. Now, however, a few of those merchants we had living there, and indeed much of the former $COUNTRY_ADJ$ expatriate community in the port have communicated to us both the regular tyranny they suffer under this despotic primitive government: floggings, imprisonment, ghastly tortures, and worse, but also of the weakness and poverty of  $FROMCOUNTRY$. Many are saying we have got to wage a proper land military campaign against these barbarians, which has plunged much of Ishahfazh into an annexationist fervor, upon hearing these reports and our rumoured intentions.;;;;;;;;;;;;;x
-EVT50081OPTA;Good heavens, we've got to do something! Get the war minister!;;;;;;;;;;;;;x
-EVTNAME50082;Success!;;;;;;;;;;;;;x
-EVTDESC50082;Very recently we shuffled a number of agents into a previous treaty concession of ours, as part of a bid to recover control of the territory. Shockingly, things seemingly have gone off without a hitch. They staged a riot over the treatment of locals, and managed to drive the foreigners out of the state house. A few days ago they proclaimed themselves representatives of our government, and now we’ve established regular control over these territories again. The community of $FROMCOUNTRY_ADJ$ waits with bated breath about our governance, but many locals seem glad to be returned to our patrimony. ‘Tis a great day for $COUNTRY$.;;;;;;;;;;;;;x
-EVT50082OPTA;Hurrah!;;;;;;;;;;;;;x
-EVTNAME50083;The Drupe of the Vewug;;;;;;;;;;;;;x
-EVTDESC50083;x;;;;;;;;;;;;;x
-EVT50083OPTA;x;;;;;;;;;;;;;x
-EVTNAME50084;Our Developing Economy;;;;;;;;;;;;;x
-EVTDESC50084;We are beginning to see notable changes in our economy and consequently our society. The introduction of machines for industrial production has begun to change the way the rest of society organises itself. We are seeing new sets of emerging values among the people of all classes, such as greater consumption levels, emphasis placed on thrift and saving, and new attitudes to goods and marketing. We have also seen the institutionalization of markets: a proliferation of small scale retailers, larger buying and selling firms, and informational periodicals about products. Finally, our government has adapted by showing greater interest in consumer markets. This is, one could believe, the beginning of a dramatic transformation of society. ;;;;;;;;;;;;;x
-EVT50084OPTA;I see;;;;;;;;;;;;;x
-EVTNAME50085;Our Rapidly Industrialising Economy;;;;;;;;;;;;;x
-EVTDESC50085;Society is changing rapidly: in all parts of the world one sees the penetration of mechanised production, mobile capital, and soaring outputs. Every year our country lays down thousands of miles of railway - the tonnage of coal mined is rising exponentially - and every day millions of new bales of cloth are spun. And indeed, for all these things, there is someone to buy it! People clamour for new textiles, coal to warm their hopes, and handsome foreign Nuzhdap carried by steamship. New banking organisations are scrambling to provide capital for new firms which incorporate, under newly permitted limited liability banners, by the day. Society is transforming rapidly, and we are seeing our economy industrialise.;;;;;;;;;;;;;x
-EVT50085OPTA;Curious;;;;;;;;;;;;;x
-EVTNAME50086;Our Industrialised Economy;;;;;;;;;;;;;x
-EVTDESC50086;Our society has undergone a staggering transformation. From a largely agrarian society grounded in pre-modern social and governmental norms, now we are truly seeing the beginning of the modern ‘economic’ hominid. The regular order of the day is mechanised production, and people have even begun to get used to the business cycle and the strange swings of production and demand. People understand how to access local markets, they buy goods, and they aspire to the dream of modern mechanized luxury. The government concerns itself greatly with maintaining the norms of the market and organising industrial production, and ‘efficient management’ is the order of the day. The dictates of the manager, the market, and the economic regulator are casual inputs that shape the institutions and values of our society.;;;;;;;;;;;;;x
-EVT50086OPTA;Well, tally-ho boys, well done all around.;;;;;;;;;;;;;x
+EVTNAME50059;x;;;;;;;;;;;;;x
+EVTDESC50059;x;;;;;;;;;;;;;x
+EVT50059OPTA;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

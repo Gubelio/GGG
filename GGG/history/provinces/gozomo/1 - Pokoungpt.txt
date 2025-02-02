@@ -3,3 +3,9 @@ controller = POU
 add_core = POU
 trade_goods = dye
 life_rating = 33
+
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}

@@ -24,6 +24,7 @@ factory_template = {
             effect_multiplier = 1.5
             amount = 0.2
         }
+		
 
     }
     type = factory
@@ -53,6 +54,7 @@ cheap_factory_template = {
             effect_multiplier = 1.5
             amount = 0.2
         }
+		
 
     }
     type = factory
@@ -112,6 +114,7 @@ cement_template = {
             effect_multiplier = 1.5
             amount = 0.2
         }
+	
 
     }
     type = factory
