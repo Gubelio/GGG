@@ -17,15 +17,15 @@ country_event = {
 	
 
     option = {
-        name = "EVT50086OPTA"
+        name = "EVT50084OPTA"
 		add_country_modifier = { name = developing_economy duration = -1 }
 	}
 }
 
 country_event = { 
     id = 50085 
-    title = "EVTNAME50084" #industrialising_economy
-    desc = "EVTDESC50084"
+    title = "EVTNAME50085" #industrialising_economy
+    desc = "EVTDESC50085"
 	#picture = "NiizMoji"
 
     trigger = {
@@ -41,9 +41,9 @@ country_event = {
 
 
     option = {
-        name = "EVT50066OPTA"
+        name = "EVT50085OPTA"
 		add_country_modifier = { name = industrialising_economy duration = -1 }
-		clr_country_modifier = developing_economy
+		remove_country_modifier = developing_economy
 	}
 }
 
@@ -68,6 +68,6 @@ country_event = {
     option = {
         name = "EVT50086OPTA"
 		add_country_modifier = { name = industrial_economy duration = -1 }
-		clr_country_modifier = industrialising_economy
+		remove_country_modifier = industrialising_economy
 	}
 }
