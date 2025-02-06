@@ -388,7 +388,6 @@ political_decisions = {
                 }
 				country_event = 50013
             }
-			set_global_flag = chiibnazh_formed
 		}
         ai_will_do = {
             factor = 1
