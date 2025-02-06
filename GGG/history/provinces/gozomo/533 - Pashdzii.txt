@@ -2,6 +2,7 @@ owner = PAS
 controller = PAS
 add_core = PAS
 add_core = KID
+add_core = CHB
 trade_goods = sulphur
 life_rating = 35
 terrain = plateau_mountains

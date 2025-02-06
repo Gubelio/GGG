@@ -2,6 +2,7 @@ owner = JAD
 controller = JAD
 add_core = JAD
 add_core = KID
+add_core = CHB
 trade_goods = grain
 life_rating = 33
 

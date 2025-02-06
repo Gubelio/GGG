@@ -2,6 +2,7 @@ owner = POD
 controller = POD
 add_core = POD
 add_core = KID
+add_core = CHB
 trade_goods = grain
 life_rating = 33
 

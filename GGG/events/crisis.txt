@@ -1,0 +1,25 @@
+# prompts you to declare interest for a starting crisis
+country_event = {
+	id = 50087
+	title = "EVTNAME50087"
+	desc = "EVTDESC50087"
+	picture = "crisis"
+	trigger = {
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVT50087OPTA" # declare interest
+		ai_chance = {
+			factor = 100
+		}
+
+		add_crisis_interest = yes
+	}
+	option = {
+		name = "EVT50087OPTB" # decline
+
+		prestige_factor = -0.2
+	}
+}
+

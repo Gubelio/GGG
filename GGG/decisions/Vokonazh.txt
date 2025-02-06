@@ -33,4 +33,43 @@ political_decisions = {
 		}
 	}
 
+
+	integrate_north_gashdzii_princely_states = {
+		#picture = "carl_hasch_libyan_desert"
+		potential = {
+			tag = VOK
+			NOT = { has_country_flag = integrate_north_gashdzii_princely_states }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				THIS = {
+					is_greater_power = yes
+					all_core = { owned_by = THIS }
+					GIZ = { all_core = { owned_by = THIS } }
+					DZH = { all_core = { owned_by = THIS } }
+					NOB = { all_core = { owned_by = THIS } }
+					NFS = { all_core = { owned_by = THIS } }
+					CHH = { all_core = { owned_by = THIS } }
+				}
+				exists = CHB
+			}	
+		}
+	
+		effect = {
+			prestige = 15
+			REG_111 = { add_core = VOK }
+			REG_112 = { add_core = VOK }
+			REG_101 = { add_core = VOK }
+			REG_100 = { add_core = VOK }
+			611 = { add_core = VOK }
+			638 = { add_core = VOK }
+			639 = { add_core = VOK }
+			set_country_flag = integrate_north_gashdzii_princely_states			
+		}
+	}
+
+
+
 }

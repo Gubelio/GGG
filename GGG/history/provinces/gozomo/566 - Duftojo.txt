@@ -2,6 +2,7 @@ owner = VON
 controller = VON
 add_core = VON
 add_core = KID
+add_core = CHB
 trade_goods = wool
 life_rating = 33
 

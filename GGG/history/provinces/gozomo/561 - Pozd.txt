@@ -2,6 +2,7 @@ owner = ZHD
 controller = ZHD
 add_core = ZHD
 add_core = KID
+add_core = CHB
 trade_goods = grain
 life_rating = 33
 

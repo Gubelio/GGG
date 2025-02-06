@@ -9,6 +9,7 @@ nationalvalue = leadership_disabled
 literacy = 0.12
 non_state_culture_literacy = 0.01
 civilized = yes
+is_releasable_vassal = no
 
 # Political reforms
 

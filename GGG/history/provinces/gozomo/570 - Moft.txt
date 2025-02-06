@@ -2,6 +2,7 @@ owner = KIB
 controller = KIB
 add_core = KIB
 add_core = KID
+add_core = CHB
 trade_goods = coal
 life_rating = 20
 

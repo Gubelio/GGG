@@ -2,6 +2,7 @@ owner = NIZ
 controller = NIZ
 add_core = NIZ
 add_core = KID
+add_core = CHB
 trade_goods = cattle
 life_rating = 33
 

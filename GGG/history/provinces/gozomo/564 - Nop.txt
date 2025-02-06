@@ -2,6 +2,7 @@ owner = NIH
 controller = NIH
 add_core = NIH
 add_core = KID
+add_core = CHB
 trade_goods = grain
 life_rating = 33
 

@@ -1,0 +1,31 @@
+capital = 533
+primary_culture = west_gashdzii
+religion = kadkohi
+government = princely_despotate
+plurality = 5.0
+nationalvalue = leadership_disabled
+literacy = 0.16
+non_state_culture_literacy = 0.01
+civilized = yes
+is_releasable_vassal = no
+
+# Political reforms
+
+# Social Reforms
+
+ruling_party = PAS_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 65
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+# Technologies
+
+#flags
+
+set_country_flag = kadkohi_country

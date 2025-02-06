@@ -2,6 +2,7 @@ owner = SHK
 controller = SHK
 add_core = SHK
 add_core = KID
+add_core = CHB
 trade_goods = grain
 life_rating = 33
 terrain = savanna

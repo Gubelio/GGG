@@ -334,7 +334,65 @@ political_decisions = {
     }
 
 
+    form_chiibnazh = {
+        #news = yes
+        #news_desc_long = "form_italy_NEWS_LONG"
+        #news_desc_medium = "form_italy_NEWS_MEDIUM"
+        #news_desc_short = "form_italy_NEWS_SHORT"
+		#picture = "form_great_nag_image"
+		
+        potential = {
+			primary_culture = west_gashdzii
+            NOT = {
+				OR = {
+					exists = KID
+					exists = CHB
+				}
+            }
+        }
 
+        allow = {
+            #nationalism_n_imperialism = 1
+            is_greater_power = yes
+            war = no
+			is_vassal = no
+			CHB = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+			}
+        }
+
+        effect = {
+            prestige = 20
+            change_tag = CHB
+            any_country = {
+                limit = {
+					primary_culture = west_gashdzii
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+                }
+				country_event = 50013
+            }
+		}
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 
 

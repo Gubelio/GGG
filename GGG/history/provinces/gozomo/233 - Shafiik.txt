@@ -2,6 +2,7 @@ owner = VAF
 controller = VAF
 add_core = VAF
 add_core = KID
+add_core = CHB
 trade_goods = tropical_wood
 life_rating = 33
 terrain = savanna_woodland
