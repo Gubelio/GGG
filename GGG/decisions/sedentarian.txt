@@ -1,0 +1,38 @@
+political_decisions = {
+
+	end_right_to_the_familiar = {
+		#picture = "carl_hasch_libyan_desert"
+		potential = {
+			has_country_modifier = right_to_the_familiar
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				government = statist_bureaucracy
+				upper_house = {
+					ideology = statist
+					value = 0.5
+				}
+				upper_house = {
+					ideology = absolutist
+					value = 0.5
+				}
+				ideology = absolutist
+				ideology = statist
+			}
+		}
+		
+		effect = {
+			remove_country_modifier = right_to_the_familiar
+			any_pop = {
+				militancy = 5
+				consciousness = 3
+			}
+		}
+	}
+
+
+
+
+}

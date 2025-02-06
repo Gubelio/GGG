@@ -300,7 +300,7 @@ EVT50081OPTA;Good heavens, we've got to do something! Get the war minister!;;;;;
 EVTNAME50082;Success!;;;;;;;;;;;;;x
 EVTDESC50082;Very recently we shuffled a number of agents into a previous treaty concession of ours, as part of a bid to recover control of the territory. Shockingly, things seemingly have gone off without a hitch. They staged a riot over the treatment of locals, and managed to drive the foreigners out of the state house. A few days ago they proclaimed themselves representatives of our government, and now we’ve established regular control over these territories again. The community of $FROMCOUNTRY_ADJ$ waits with bated breath about our governance, but many locals seem glad to be returned to our patrimony. ‘Tis a great day for $COUNTRY$.;;;;;;;;;;;;;x
 EVT50082OPTA;Hurrah!;;;;;;;;;;;;;x
-EVTNAME50083;The Drupe of the Vewug;;;;;;;;;;;;;x
+EVTNAME50083;Drupe;;;;;;;;;;;;;x
 EVTDESC50083;x;;;;;;;;;;;;;x
 EVT50083OPTA;x;;;;;;;;;;;;;x
 EVTNAME50084;Our Developing Economy;;;;;;;;;;;;;x

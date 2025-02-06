@@ -53,7 +53,7 @@ country_event = {
 }
 
 country_event = {
-	id = 22222
+	id = 2222
 	title = "prestige lose"
 	desc = "reduce prestige"
 	
@@ -67,5 +67,10 @@ country_event = {
 	option = {
 		name = "THANKS BUDDY"			
 		prestige = -10
+	}
+	
+	option = {
+		name = "THANKS BUDDY"			
+		badboy = -50
 	}
 }

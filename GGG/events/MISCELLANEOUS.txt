@@ -205,6 +205,8 @@ country_event = {
     option = {
         name = "EVT50002OPTA"
 
+		clr_country_flag = started_right_to_familiar #if free-yokers win they reinstate right to the familiar
+
         random_country = {
             limit = {
                 is_sphere_leader_of = THIS
@@ -1665,3 +1667,34 @@ country_event = {
 	
 }
 
+#############################
+### RIGHT TO THE FAMILIAR ###
+#############################
+
+country_event = {
+	id = 50088
+	title = "EVTNAME50088"
+	desc = "EVTDESC50088"
+	#picture = "mojifa"
+	
+	#fire_only_once = yes
+	
+    trigger = {
+		has_country_flag = tehuhrite_country
+		NOT = { has_country_flag = started_right_to_familiar }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50088OPTA"
+		add_country_modifier = {
+			name = right_to_the_familiar
+			duration = 36525				
+		}
+		set_country_flag = started_right_to_familiar
+	}
+	
+}

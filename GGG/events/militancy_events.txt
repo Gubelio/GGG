@@ -491,7 +491,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50064OPTA"
+		name = "EVT50065OPTA"
 		
 			prestige = -1
 			random_state = {

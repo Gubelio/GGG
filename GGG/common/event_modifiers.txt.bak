@@ -195,6 +195,6 @@ right_to_the_familiar = {
 	factory_cost = 0.05
 	factory_output = -0.05
 	RGO_output = -0.05
-	tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.05
     icon = 6
 }
