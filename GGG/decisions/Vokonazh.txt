@@ -48,10 +48,13 @@ political_decisions = {
 					is_greater_power = yes
 					all_core = { owned_by = THIS }
 					GIZ = { all_core = { owned_by = THIS } }
-					DZH = { all_core = { owned_by = THIS } }
+					#DZH = { all_core = { owned_by = THIS } } #doesn't work with consolidated states
 					NOB = { all_core = { owned_by = THIS } }
-					NFS = { all_core = { owned_by = THIS } }
+					#NFS = { all_core = { owned_by = THIS } } #doesn't work with consolidated states
 					CHH = { all_core = { owned_by = THIS } }
+					owns = 606 #NFS
+					owns = 608 #NFS
+					owns = 610 #DZH
 				}
 				exists = CHB
 			}	
