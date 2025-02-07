@@ -572,7 +572,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50074OPTA"
+		name = "EVT50074OPTB"
 			any_pop = {
 				consciousness = 2
 				militancy = 1
