@@ -359,7 +359,7 @@ demand_concession_casus_belli_event_short;Demand $STATE$;Demande $STATE$;Fordern
 closed_drupe;Closed Drupe;;;;;;;;;;;;;x
 open_drupe;Open Drupe;;;;;;;;;;;;;x
 right_to_the_familiar;Right To The Familiar;;;;;;;;;;;;;x
-NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;x;;;;;;;;;;;;;x
+NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$ Punitive Expedition to $SECOND_COUNTRY$;;;;;;;;;;;;;x
 national_confusion_desc;This country has been thrown into national confusion!;;;;;;;;;;;;;x
 political_outrage_desc;This country is expiriencing widespread political outrage.;;;;;;;;;;;;;x
 international_sanctions_desc;There are currently international sanctions upon this country.;;;;;;;;;;;;;x
