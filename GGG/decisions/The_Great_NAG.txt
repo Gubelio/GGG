@@ -28,6 +28,7 @@ political_decisions = {
 
 
 fight_paknag_banditry = {
+	picture = "bandit"
         potential = {
             AND = { 
 				owns = 388
@@ -38,8 +39,19 @@ fight_paknag_banditry = {
 				owns = 393
 				owns = 394
 			
-        }
+			}
+			OR = {
+				388 = { has_province_modifier = paknag_bandits }
+				389 = { has_province_modifier = paknag_bandits }
+				390 = { has_province_modifier = paknag_bandits }
+				391 = { has_province_modifier = paknag_bandits }
+				392 = { has_province_modifier = paknag_bandits }
+				393 = { has_province_modifier = paknag_bandits }
+				394 = { has_province_modifier = paknag_bandits }
+				
+			}
 		}
+		
 
         allow = {
 			money = 50000
@@ -117,6 +129,7 @@ fight_paknag_banditry = {
 
 
 end_paknag_banditry = {
+	picture = "bandit"
         potential = {
             AND = { 
 				owns = 388

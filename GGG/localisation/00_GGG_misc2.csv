@@ -290,7 +290,7 @@ DHN;Dhobnâg;;;;;;;;;;;;;x
 DHN_ADJ;Dhobnâgi;;;;;;;;;;;;;x
 plantations;Plantations;;;;;;;;;;;;;x
 new_world_plantations_title;Plantations in the Great East;;;;;;;;;;;;;x
-new_world_plantations_title_desc;The vast continents to the east are largely underpopulated and undercultivated. Agriculture, if done at all, is clumsy, ad-hoc, and on very small scales. A unique oppertunity is presented to our colonial government to appartition great swathes of land to planters and settlers to encourage the development of large plantations that could hopefully produce crops more efficiently than farms and estates in the metropole.;;;;;;;;;;;;;x
+new_world_plantations_desc;The vast continents to the east are largely underpopulated and undercultivated. Agriculture, if done at all, is clumsy, ad-hoc, and on very small scales. A unique oppertunity is presented to our colonial government to appartition great swathes of land to planters and settlers to encourage the development of large plantations that could hopefully produce crops more efficiently than farms and estates in the metropole.;;;;;;;;;;;;;x
 GAU_princely_despotate;Kingdom of Gaubja;;;;;;;;;;;;;x
 GAU_statist_bureaucracy;Gaubjan State;;;;;;;;;;;;;x
 GAU_paternalistic_council;Free Gaubjan Lands;;;;;;;;;;;;;x
@@ -359,17 +359,17 @@ demand_concession_casus_belli_event_short;Demand $STATE$;Demande $STATE$;Fordern
 closed_drupe;Closed Drupe;;;;;;;;;;;;;x
 open_drupe;Open Drupe;;;;;;;;;;;;;x
 right_to_the_familiar;Right To The Familiar;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;x;;;;;;;;;;;;;x
+national_confusion_desc;This country has been thrown into national confusion!;;;;;;;;;;;;;x
+political_outrage_desc;This country is expiriencing widespread political outrage.;;;;;;;;;;;;;x
+international_sanctions_desc;There are currently international sanctions upon this country.;;;;;;;;;;;;;x
+yoker_agitation_desc;This country is undergoing free-yoker agitaiton.;;;;;;;;;;;;;x
+negotiating_unequal_treaty_desc;This country is currently negotating a treaty concession.;;;;;;;;;;;;;x
+negotiating_treaty_desc;This country is currently negotating a treaty concession.;;;;;;;;;;;;;x
+developing_economy_desc;This economy is beginning to see the features of an industrial society.;;;;;;;;;;;;;x
+industrialising_economy_desc;This economy is rapidly industrialising!;;;;;;;;;;;;;x
+industrial_economy_desc;This country meets much of Talcott Parsons' criteria for an industrial society.;;;;;;;;;;;;;x
+right_to_the_familiar_desc;This Tehurite Country respects the doctrine of the Right to the Familiar.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

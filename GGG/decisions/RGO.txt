@@ -30,7 +30,7 @@ political_decisions = {
 				NOT = { has_province_modifier = plantations
 				}
 				NOT = { 
-					or = {
+					OR = {
 					province_id = 2204 #Iemes
 					province_id = 2206 #Esoespma
 					province_id = 1901 #Prarch
@@ -83,6 +83,27 @@ political_decisions = {
 					trade_goods = coffee
 					trade_goods = opium
 				}
+				NOT = { 
+					OR = {
+					province_id = 2204 #Iemes
+					province_id = 2206 #Esoespma
+					province_id = 1901 #Prarch
+					province_id = 1900 #Mstet			
+					province_id = 692 #Pizto
+					province_id = 797 #Hoyim
+			province_id = 1911 #Hinseo
+			province_id = 2072 #Uemae
+			province_id = 2210 #Huespmit
+			province_id = 2212 #Aho	
+			province_id = 2217 #Dongu
+			province_id = 811 #Bichui
+			province_id = 816 #Tashom
+			province_id = 822 #Hueyow
+			province_id = 2091 #Fabtued
+			province_id = 2199 #Hod
+			province_id = 2200 #Gibtasfu
+		}
+					}
 				}
 				add_province_modifier = {
 				name = plantations
