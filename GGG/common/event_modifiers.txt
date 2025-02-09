@@ -159,6 +159,7 @@ developing_economy = {
 	middle_luxury_needs = 0.25
 	poor_everyday_needs = 0.1
 	poor_luxury_needs = 0.1
+	icon = 11
 }
 
 industrialising_economy = {
@@ -168,6 +169,7 @@ industrialising_economy = {
 	middle_luxury_needs = 0.5
 	poor_everyday_needs = 0.25
 	poor_luxury_needs = 0.25
+	icon = 11
 }
 
 industrial_economy = {
@@ -177,6 +179,7 @@ industrial_economy = {
 	middle_luxury_needs = 1.5
 	poor_everyday_needs = 0.75
 	poor_luxury_needs = 0.75
+	icon = 11
 }
 
 open_drupe = {
