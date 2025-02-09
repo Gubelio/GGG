@@ -1698,3 +1698,70 @@ country_event = {
 	}
 	
 }
+
+
+#################################
+### ISLAND RENAMING ########
+###########################
+
+country_event = { #gashdzii 
+	id = 50089
+	title = "EVTNAME50089"
+	desc = "EVTDESC50089"
+	picture = "Dozmazhfa"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2011
+		owns = 2012
+		is_culture_group = gashdzii
+		OR = {
+			2011 = {
+				any_pop = { 
+					OR = { 
+						has_pop_culture = west_gashdzii
+						has_pop_culture = north_gashdzii
+						has_pop_culture = south_gashdzii
+						has_pop_culture = jazhakdii
+				
+					}
+				}
+			}
+			
+			
+			2012 = {
+				any_pop = { 
+					OR = { 
+						has_pop_culture = west_gashdzii
+						has_pop_culture = north_gashdzii
+						has_pop_culture = south_gashdzii
+						has_pop_culture = jazhakdii
+				
+					}
+				}
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		 months = 10
+	}
+	option = {
+		name = "EVT50089OPTA"
+		2011 = {
+			change_province_name = "Guzmazhfa"
+		}
+		
+		2012 = {
+			change_province_name = "Dozmazhfa"
+		}
+	}
+	
+	option = {
+		name = "EVT50089OPTB"
+		prestige = -0.5
+	}
+	
+}
