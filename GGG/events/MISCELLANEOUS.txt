@@ -2140,7 +2140,7 @@ country_event = {
 			modifier = { #Big(ish) army wants to expand!
 				factor = 1.2
 				military_score = 25
-				NOT = { military_score = 50 
+				NOT = { military_score = 50 }
 			}
 			
 		}
@@ -2378,6 +2378,8 @@ country_event = {
 				factor = 1.1
 				industrial_score = 101
 			}
+			
+		}
 		
 	}
 	
@@ -2711,3 +2713,285 @@ country_event = {
 		
 	}
 }
+
+#THE FOLLOWING NINE EVENTS DO NOT NEED LOCALIZATION - NO HUMAN WILL EVER SEE THEM
+
+country_event = { #national objective reset 
+	id = 50091
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1318
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50092
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1328
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50093
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1338
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50094
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1348
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50095
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1358
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50096
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1368
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50097
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1378
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50098
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1388
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
+country_event = { #national objective reset 
+	id = 50099
+	title = "EVTNAME50091"
+	desc = "EVTDESC50091"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		year = 1398
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		 
+			modifier = {
+				factor = 0.1
+				ai = yes
+			}
+		 
+	}
+	
+	option = {
+		name = "EVT50089OPTA"
+		any_country = {
+			nationalvalue = no_national_objective
+		}
+	}
+
+}
+
