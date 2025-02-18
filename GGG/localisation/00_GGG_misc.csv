@@ -749,87 +749,24 @@ parqmun;Parqmun;;;;;;;;;;;;;x
 kusii;Kusii;;;;;;;;;;;;;x
 dkatkang;Dkatkang;;;;;;;;;;;;;x
 juewaeg;Juewaeg;;;;;;;;;;;;;x
-comfortable_optimist;Comfortable Optimist;;;;;;;;;;;;;x
-staunch_conservative;Staunch Conservative;;;;;;;;;;;;;x
-indolent_landowner;Indolent Landowner;;;;;;;;;;;;;x
-wellspoken_statesman;Wellspoken Statesman;;;;;;;;;;;;;x
-striking_cavalier;Striking Cavalier;;;;;;;;;;;;;x
-milquetoast_orator;Milquetoast Orator;;;;;;;;;;;;;x
-somber_diplomat;Somber Diplomat;;;;;;;;;;;;;x
-charming_jingoist;Charming Jingoist;;;;;;;;;;;;;x
-pragmatic_financier;Pragmatic Financier;;;;;;;;;;;;;x
-hapless_buffoon;Hapless Buffoon;;;;;;;;;;;;;x
-ruthless_schemer;Ruthless Schemer;;;;;;;;;;;;;x
-oafish_brute;Oafish Brute;;;;;;;;;;;;;x
-tepid_charmer;Tepid Charmer;;;;;;;;;;;;;x
-dashing_adventurer;Dashing Adventurer;;;;;;;;;;;;;x
-churlish_hothead;Churlish Hothead;;;;;;;;;;;;;x
-pious_servant;Pious Servant;;;;;;;;;;;;;x
-relentless_driver;Relentless Driver;;;;;;;;;;;;;x
-paranoid_tyrant;Paranoid Tyrant;;;;;;;;;;;;;x
-popular_veteran;Popular Veteran;;;;;;;;;;;;;x
-diligent_administrator;Diligent Administrator;;;;;;;;;;;;;x
-radical_firebrand;Radical Firebrand;;;;;;;;;;;;;x
-affable_gentleman;Affable Gentleman;;;;;;;;;;;;;x
-crooked_bombast;Crooked Bombast;;;;;;;;;;;;;x
-polished_orator;Polished Orator;;;;;;;;;;;;;x
-lovable_figurehead;Lovable Figurehead;;;;;;;;;;;;;x
-pigheaded_bully;Pigheaded Bully;;;;;;;;;;;;;x
-stern_ideologue;Stern Ideologue;;;;;;;;;;;;;x
-impeccable_pleb;Impeccable Pleb;;;;;;;;;;;;;x
-stoic_scholar;Stoic Scholar;;;;;;;;;;;;;x
-weathered_hermit;Weathered Hermit;;;;;;;;;;;;;x
-intricate_organizer;Intricate Organizer;;;;;;;;;;;;;x
-hateful_demagogue;Hateful Demagogue;;;;;;;;;;;;;x
-inept_braggart;Inept Braggart;;;;;;;;;;;;;x
-incapable_bore;Incapable Bore;;;;;;;;;;;;;x
-traveled_envoy;Traveled Envoy;;;;;;;;;;;;;x
-learned_moralist;Learned Moralist;;;;;;;;;;;;;x
-implacable_jingoist;Implacable Jingoist;;;;;;;;;;;;;x
-pedantic_elder;Pedantic Elder;;;;;;;;;;;;;x
-wordy_sophist;Wordy Sophist;;;;;;;;;;;;;x
-neurotic_curmudgeon;Neurotic Curmudgeon;;;;;;;;;;;;;x
-sheltered_cynic;Sheltered Cynic;;;;;;;;;;;;;x
-virtuous_exemplar;Virtuous Exemplar;;;;;;;;;;;;;x
-irritable_pedant;Irritable Pedant;;;;;;;;;;;;;x
-astute_oldguard;Astute Oldguard;;;;;;;;;;;;;x
-shrewd_toiler;Shrewd Toiler;;;;;;;;;;;;;x
-spineless_charmer;Spineless Charmer;;;;;;;;;;;;;x
-lethargic_conformist;Lethargic Conformist;;;;;;;;;;;;;x
-pugnacious_contrarian;Pugnacious Contrarian;;;;;;;;;;;;;x
-paternalistic_overlord;Paternalistic Overlord;;;;;;;;;;;;;x
-kindly_dignitary;Kindly Dignitary;;;;;;;;;;;;;x
-uncouth_halfwit;Uncouth Halfwit;;;;;;;;;;;;;x
-dogmatic_lecturer;Dogmatic Lecturer;;;;;;;;;;;;;x
-priggish_malcontent;Priggish Malcontent;;;;;;;;;;;;;x
-tepid_dissenter;Tepid Dissenter;;;;;;;;;;;;;x
-adored_fool;Adored Fool;;;;;;;;;;;;;x
-sentimental_elder;Sentimental Elder;;;;;;;;;;;;;x
-simpering_legatee;Simpering Legatee;;;;;;;;;;;;;x
-ghoulish_noble;Ghoulish Noble;;;;;;;;;;;;;x
-distracted_dilettante;Distracted Dilettante;;;;;;;;;;;;;x
-tortured_misanthrope;Tortured Misanthrope;;;;;;;;;;;;;x
-uninterested_ruler;Uninterested Ruler;;;;;;;;;;;;;x
-nv_none;No Leader;;;;;;;;;;;;;x
-leadership_disabled;Leadership Disabled;;;;;;;;;;;;;x
-LEDGER_COUNTRY_NATIONALVALUE;National Leader;;;;;;;;;;;;;x
-POLITICS_NATIONALVALUE_TOOLTIP;Our national leader is a §Y$NATIONALVALUE$§W.\n;;;;;;;;;;;;;x
+LEDGER_COUNTRY_NATIONALVALUE;National Objective;;;;;;;;;;;;;x
+POLITICS_NATIONALVALUE_TOOLTIP;Our national objective is §Y$NATIONALVALUE$§W.\n;;;;;;;;;;;;;x
 switched_production;Switched Production;;;;;;;;;;;;;x
 rashuum;Rashuum;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+assimilation;Assimilation;;;;;;;;;;;;;x
+research;National Research;;;;;;;;;;;;;x
+administration;Effective Administration;;;;;;;;;;;;;x
+stability;Stability;;;;;;;;;;;;;x
+extraction;Extraction;;;;;;;;;;;;;x
+expansion;Expansion;;;;;;;;;;;;;x
+military_command;Military Command;;;;;;;;;;;;;x
+national_defense;National Defense;;;;;;;;;;;;;x
+industrialization;Industrialization;;;;;;;;;;;;;x
+reform;Reform;;;;;;;;;;;;;x
+reaction;Reaction;;;;;;;;;;;;;x
+diplomacy;Diplomacy;;;;;;;;;;;;;x
+encourage_immigration;Encourage Immigration;;;;;;;;;;;;;x
+no_national_objective;undecided;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

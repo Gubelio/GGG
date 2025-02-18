@@ -125,14 +125,14 @@ party_issues = {
 	}
 	citizenship_policy = {
 		residency = {
-			rules = { primary_culture_voting = yes }
+			#rules = { primary_culture_voting = yes }
 		}
 		limited_citizenship = {
-			rules = { culture_voting = yes }
+			#rules = { culture_voting = yes }
 			global_assimilation_rate = 0.10
 		}
 		full_citizenship = {
-			rules = { all_voting = yes }
+			#rules = { all_voting = yes }
 			global_assimilation_rate = 0.25
 		}
 	}

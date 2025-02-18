@@ -599,6 +599,11 @@ assimilation_chance =
 		has_culture_core = yes
 	}
 	
+	modifier = {
+    	factor = 5
+		country = { nationalvalue = assimilation }
+	}
+	
 	group = {
 		modifier = {
 			factor = 0.2

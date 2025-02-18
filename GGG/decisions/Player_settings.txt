@@ -55,42 +55,82 @@ political_decisions = {
 		
     }
 	
-    disable_multiplayer = {
+    enable_multiplayer = {
         alert = no
         potential = {
 			NOT = { year = 1309 }
 			ai = no
 			has_country_flag = player_settings_opened
-			NOT = { has_country_flag = multiplayer_disabled }
+			NOT = { has_country_flag = multiplayer_enabled }
         }
 
         allow = {
         }
 
         effect = {
-			set_country_flag = multiplayer_disabled
+			set_country_flag = multiplayer_enabled
         }
 		
     }
 	
-    enable_leadership = {
+    not_interested_in_grants = {
         alert = no
         potential = {
-			NOT = { year = 1309 }
 			ai = no
-			has_country_flag = player_settings_opened
-			NOT = { has_global_flag = leadership_enabled_nv }
+			has_country_flag = multiplayer_enabled
+			NOT = { has_country_flag = not_interested_in_grants }
         }
 
         allow = {
         }
 
         effect = {
-			set_global_flag = leadership_enabled_nv
-			nationalvalue = nv_none
-			country_event = { id = 65002 }
+			set_country_flag = not_interested_in_grants
+			clr_country_flag = interested_in_grants
         }
-		
+    }
+
+    interested_in_grants = {
+        alert = no
+        potential = {
+			ai = no
+			has_country_flag = multiplayer_enabled
+			has_country_flag = not_interested_in_grants
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = interested_in_grants
+			clr_country_flag = not_interested_in_grants
+        }
+    }
+
+    request_grant = {
+        alert = no
+        potential = {
+			ai = no
+			has_country_flag = multiplayer_enabled
+			NOT = { has_country_flag = not_interested_in_grants }
+        }
+
+        allow = {
+        }
+
+        effect = {
+
+			any_country = {
+				limit = {
+					ai = no
+					OR = { 
+						NOT = { has_country_flag = multiplayer_disabled }
+						NOT = { has_country_flag = not_interested_in_grants }
+					}
+				}
+				country_event = { id = 50016 }
+			}
+        }
     }
 	
 	

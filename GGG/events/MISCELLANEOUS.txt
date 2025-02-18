@@ -1765,3 +1765,949 @@ country_event = { #gashdzii
 	}
 	
 }
+
+###############################
+#### AI NATIONAL OBJECTIVE ####
+###############################
+
+#Don't both localizing this. No human will ever see it.
+
+country_event = {
+	id = 50090
+	title = "EVTNAME50090"
+	desc = "EVTDESC50090"
+	#picture = "mojifa"
+	
+    trigger = {
+		ai = yes
+		nationalvalue = no_national_objective
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50090OPT1"
+		nationalvalue = assimilation
+		
+		ai_chance = {
+			factor = 1
+			
+			modifier = { #Can get fucky i guess
+				factor = 0
+				ai = yes
+            }				
+			
+			#modifier = {
+			#	factor = 1.1
+			#	ideology = statist
+			#}
+			#
+			#modifier = {
+			#	factor = 1.2
+			#	ideology = absolutist
+			#}
+			#
+			#modifier = {
+			#	factor = 1.3
+			#	government = statist_bureaucracy
+			#}				
+			#
+			#modifier = {
+			#	factor = 0
+			#	citizens_rights = all_voting_pops
+			#}
+			#
+			#modifier = {
+			#	factor = 1.1
+			#	citizens_rights = primary_culture_only
+			#}
+			
+		}		
+		
+	}
+	
+	option = {
+		name = "EVT50090OPT2"
+		nationalvalue = research	
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = { #No easy way out for you AI
+				factor = 0
+				civilized = no
+			}
+
+			modifier = {
+				factor = 1.3
+				NOT = { literacy = 6 }
+			}
+			
+			modifier = {
+				factor = 1.2
+				NOT = { literacy = 16 }
+			}
+			
+			modifier = {
+				factor = 0
+				literacy = 50
+			}
+			
+			#Philosophy
+			modifier = {
+				factor = 1.2
+				year = 1322
+				NOT = { idealism = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1334
+				NOT = { empiricism = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { analytic_philosophy = 1 }
+			}
+			
+			modifier = {
+				factor = 1.2
+				year = 1362
+				NOT = { phenomenology_n_hermeneutic = 1 }
+			}
+
+
+			#Political Thought
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { ideological_thought = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1326
+				NOT = { state_n_government = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { nationalism_n_imperialism = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { revolution_n_counterrevolution = 1 }
+			}
+
+
+			#Market Functionality
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { freedom_of_trade = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1326
+				NOT = { market_structure = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { business_regulations = 1 }
+			}
+
+
+			#MISC Techs
+			modifier = {
+				factor = 1.2
+				year = 1325
+				NOT = { medicine = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1326
+				NOT = { army_command_principle = 1 }
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1327
+				NOT = { stock_exchange = 1 }
+			}
+			
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT3"
+		nationalvalue = administration
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 1.1
+				crime_higher_than_education = no
+			}
+			
+			modifier = {
+				factor = 1.2
+				NOT = { administration_spending = 50 }
+			}
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT4"
+		nationalvalue = stability
+
+		ai_chance = {
+			factor = 1		
+		
+			#pop militancy/consciousness
+			modifier = {
+				factor = 0.8
+				NOT = { average_militancy = 2 }
+			}
+			modifier = {
+				factor = 1.1
+				average_militancy = 2
+				NOT = { average_militancy = 4 }
+			}
+			modifier = {
+				factor = 1.2
+				average_militancy = 4
+				NOT = { average_militancy = 6 }
+			}
+			modifier = {
+				factor = 1.4
+				average_militancy = 6
+				NOT = { average_militancy = 8 }
+			}
+			modifier = {
+				factor = 1.6
+				average_militancy = 8
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { average_consciousness = 2 }
+			}
+			modifier = {
+				factor = 1.1
+				average_consciousness = 2
+				NOT = { average_consciousness = 4 }
+			}
+			modifier = {
+				factor = 1.2
+				average_consciousness = 4
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 1.3
+				average_consciousness = 6
+				NOT = { average_consciousness = 8 }
+			}
+			modifier = {
+				factor = 1.5
+				average_consciousness = 8
+			}
+			
+			modifier = {
+				factor = 1.2
+				war_exhaustion = 50
+			}
+			
+		}
+		
+		
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT5"
+		nationalvalue = extraction
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 1.5
+				NOT = { THIS = { total_pops = 200000 } }
+			}
+			
+			modifier = {
+				factor = 0.9
+				is_secondary_power = yes
+			}
+			modifier = {
+				factor = 0.8
+				is_greater_power = yes
+			}
+			
+			modifier = {
+				factor = 2.1
+				has_country_modifier = in_bankrupcy
+			}
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT6"
+		nationalvalue = expansion
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 1.3
+				badboy = 0.5
+				NOT = { badboy = 0.6 }
+			}
+
+			modifier = {
+				factor = 1.4
+				badboy = 0.7
+				NOT = { badboy = 0.8 }
+			}
+			
+			modifier = {
+				factor = 1.5
+				badboy = 0.9
+				NOT = { badboy = 1 }
+			}
+
+			modifier = {
+				factor = 2
+				badboy = 1
+			}
+
+			modifier = {
+				factor = 1.2
+				war_policy = pro_military
+			}
+
+			modifier = {
+				factor = 1.4
+				war_policy = jingoism
+			}
+			
+			modifier = {
+				factor = 0.2
+				war_policy = anti_military
+			}
+
+			modifier = {
+				factor = 0
+				war_policy = pacifism
+			}
+
+			modifier = {
+				factor = 1.2
+				has_unclaimed_cores = yes
+			}
+
+			modifier = {
+				factor = 1.1
+				has_recently_lost_war = yes
+			}
+
+			modifier = { #Bigger army wants to expand!
+				factor = 1.4
+				military_score = 50
+			}
+
+			modifier = { #Big(ish) army wants to expand!
+				factor = 1.2
+				military_score = 25
+				NOT = { military_score = 50 
+			}
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT7"
+		nationalvalue = military_command
+		
+		ai_chance = {
+			factor = 1
+		
+			#Army Leadership
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { army_professionalism = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { army_decision_making = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { army_risk_management = 1 }
+				civilized = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				year = 1382
+				NOT = { army_nco_training = 1 }
+				civilized = yes
+			}
+			
+			#Light Armament
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { muzzle_loaded_rifles = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { breech_loaded_rifles = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { machine_guns = 1 }
+				civilized = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				year = 1382
+				NOT = { bolt_action_rifles = 1 }
+				civilized = yes
+			}
+			
+			#Heavy Armament
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { iron_muzzle_loaded_artillery = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { iron_breech_loaded_artillery = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { steel_breech_loaded_artillery = 1 }
+				civilized = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				year = 1382
+				NOT = { indirect_artillery_fire = 1 }
+				civilized = yes
+			}
+			
+			#Military Science
+			modifier = {
+				factor = 1.2
+				year = 1318
+				NOT = { military_plans = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1332
+				NOT = { military_statistics = 1 }
+				civilized = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				year = 1352
+				NOT = { military_logistics = 1 }
+				civilized = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				year = 1382
+				NOT = { military_directionism = 1 }
+				civilized = yes
+			}			
+			
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT8"
+		nationalvalue = national_defense
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 1.1
+				NOT = { num_of_allies = 3 }
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { total_amount_of_divisions = 2 }
+			}
+			modifier = {
+				factor = 1.2
+				total_amount_of_divisions = 2
+				NOT = { total_amount_of_divisions = 4 }
+			}
+			
+			modifier = {
+				factor = 1.2
+				war_exhaustion = 75
+			}
+			modifier = {
+				factor = 1.2
+				any_neighbor_country = {
+					stronger_army_than = THIS
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { military_score = 10 }
+			}
+			modifier = {
+				factor = 1.3
+				military_score = 10
+				NOT = { military_score = 25 }
+			}
+			modifier = {
+				factor = 1.3
+				great_wars_enabled = yes
+			}
+			modifier = {
+				factor = 1.5
+				has_recently_lost_war  = yes
+			}	
+			modifier = {
+				factor = 1.5
+				war_policy  = jingoism
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					war_policy  = jingoism
+					war_policy = pro_military
+				}
+			}				
+			modifier = {
+				factor = 0.6
+				OR = {
+					war_policy  = anti_military
+					war_policy = pacifism
+				}
+			}
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT9"
+		nationalvalue = industrialization
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = { #no industry at all
+				factor = 0
+				NOT = { industrial_score = 1 }
+			}
+			modifier = { #baby industry
+				factor = 1.5
+				industrial_score = 1
+				NOT = { industrial_score = 11 }
+			}
+			modifier = { #baby industry
+				factor = 1.4
+				industrial_score = 11
+				NOT = { industrial_score = 26 }
+			}
+			modifier = { #moderate industry
+				factor = 1.2
+				industrial_score = 26
+				NOT = { industrial_score = 100 }
+			}
+			modifier = { #large industry
+				factor = 1.1
+				industrial_score = 101
+			}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT10"
+		nationalvalue = reform
+
+		ai_chance = {
+			factor = 1
+			#Ruling party
+			modifier = {
+				factor = 1.5
+				ideology = liberationist
+			}		
+			modifier = {
+				factor = 2
+				ideology = free_yoker
+			}
+			modifier = {
+				factor = 1.5
+				ideology = statist
+			}		
+			modifier = {
+				factor = 2
+				ideology = absolutist
+			}
+			modifier = {
+				factor = 0.2
+				ideology = conservative
+			}
+			modifier = {
+				factor = 0
+				ideology = reactionary
+			}
+			modifier = {
+				factor = 0.2
+				ideology = theocratist
+			}
+			#radical governments don't need to reform
+			modifier = {
+				factor = 0.2
+				government = paternalistic_council
+			}
+			modifier = {
+				factor = 0.2
+				government = statist_bureaucracy
+			}
+			#If already reformed no need
+			modifier = {
+				factor = 0.8
+				scriptural_law = local_congregationalism
+			}
+			modifier = {
+				factor = 0.8
+				welfare_laws = mule_n_seed_law
+			}
+			modifier = {
+				factor = 0.8
+				debt_law = bankruptcy
+			}
+			modifier = {
+				factor = 0.8
+				slavery = no_slavery
+			}
+			modifier = {
+				factor = 0.8
+				wage_reform = good_minimum_wage
+			}
+			modifier = {
+				factor = 0.8
+				health_care = good_health_care
+			}
+			modifier = {
+				factor = 0.8
+				infrastructure = public_works_division
+			}
+			modifier = {
+				factor = 0.8
+				administrative_reform = professional_bureaucracy
+			}
+			modifier = {
+				factor = 0.8
+				public_order = unified_legal_code
+			}
+			modifier = {
+				factor = 0.8
+				banking_system = regulatory_institutions
+			}
+			modifier = {
+				factor = 0.8
+				land_reform_civ = collectivized_farming
+			}
+			modifier = {
+				factor = 0.8
+				legislative_system = appointed_legislatures
+			}
+			#pop militancy/consciousness
+			modifier = {
+				factor = 0.8
+				NOT = { average_militancy = 2 }
+			}
+			modifier = {
+				factor = 1.1
+				average_militancy = 2
+				NOT = { average_militancy = 4 }
+			}
+			modifier = {
+				factor = 1.2
+				average_militancy = 4
+				NOT = { average_militancy = 6 }
+			}
+			modifier = {
+				factor = 1.4
+				average_militancy = 6
+				NOT = { average_militancy = 8 }
+			}
+			modifier = {
+				factor = 1.5
+				average_militancy = 8
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { average_consciousness = 2 }
+			}
+			modifier = {
+				factor = 1.1
+				average_consciousness = 2
+				NOT = { average_consciousness = 4 }
+			}
+			modifier = {
+				factor = 1.2
+				average_consciousness = 4
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 1.3
+				average_consciousness = 6
+				NOT = { average_consciousness = 8 }
+			}
+			modifier = {
+				factor = 1.4
+				average_consciousness = 8
+			}
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT11"
+		nationalvalue = reaction
+		
+		ai_chance = {
+			factor = 1
+			#Ruling party
+			modifier = {
+				factor = 0.2
+				ideology = liberationist
+			}		
+			modifier = {
+				factor = 0
+				ideology = free_yoker
+			}
+			modifier = {
+				factor = 0.2
+				ideology = statist
+			}		
+			modifier = {
+				factor = 0
+				ideology = absolutist
+			}
+			modifier = {
+				factor = 1.2
+				ideology = conservative
+			}
+			modifier = {
+				factor = 1.5
+				ideology = reactionary
+			}
+			#If already reformed need grows
+			modifier = {
+				factor = 1.1
+				scriptural_law = local_congregationalism
+			}
+			modifier = {
+				factor = 1.1
+				welfare_laws = mule_n_seed_law
+			}
+			modifier = {
+				factor = 1.1
+				debt_law = bankruptcy
+			}
+			modifier = {
+				factor = 1.1
+				slavery = no_slavery
+			}
+			modifier = {
+				factor = 1.1
+				wage_reform = good_minimum_wage
+			}
+			modifier = {
+				factor = 1.1
+				health_care = good_health_care
+			}
+			modifier = {
+				factor = 1.1
+				infrastructure = public_works_division
+			}
+			modifier = {
+				factor = 1.1
+				administrative_reform = professional_bureaucracy
+			}
+			modifier = {
+				factor = 1.1
+				public_order = unified_legal_code
+			}
+			modifier = {
+				factor = 1.1
+				banking_system = regulatory_institutions
+			}
+			modifier = {
+				factor = 1.1
+				land_reform_civ = collectivized_farming
+			}
+			modifier = {
+				factor = 1.1
+				legislative_system = appointed_legislatures
+			}
+			#pop militancy/consciousness
+			modifier = {
+				factor = 0.8
+				average_militancy = 3
+			}
+			modifier = {
+				factor = 0.9
+				average_consciousness = 3
+			}
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT12"
+		nationalvalue = diplomacy
+
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 0.2
+				is_greater_power = no
+			}
+			modifier = {
+				factor = 1.2
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 1.5
+				culture_has_union_tag = yes
+			}
+			modifier = { #have a strong army
+				factor = 1.2
+				military_score = 50
+			}
+			modifier = { #already unified country
+				factor = 0
+				OR = {
+					tag = KII
+					tag = PRT
+					tag = TGN
+					#tag = CHB
+					tag = ATH
+					tag = JTN
+				}
+			}
+
+			
+		}
+		
+	}
+	
+	
+	option = {
+		name = "EVT50090OPT13"
+		nationalvalue = encourage_immigration
+		
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				civilized = no
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { capital_scope = { continent = europe } }
+			}
+			modifier = {
+				factor = 0
+				border_policy = closed_borders
+			}
+			modifier = {
+				factor = 0.8
+				border_policy = quota_immigration
+			}
+			modifier = {
+				factor = 1.4
+				border_policy = open_borders
+			}
+
+			modifier = {
+				factor = 0
+				citizens_rights = primary_culture_only
+			}
+			modifier = {
+				factor = 0.8
+				citizens_rights = culture_voting_only
+			}
+			modifier = {
+				factor = 1.2
+				citizens_rights = all_voting_pops
+			}
+			modifier = {
+				factor = 1.1
+				government = statist_bureaucracy
+			}
+			
+		}
+		
+	}
+}
