@@ -5,6 +5,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			nationalvalue = no_national_objective
+			NOT = { has_country_flag = player_deciding_national_objective }
 		}
 		
 		allow = {

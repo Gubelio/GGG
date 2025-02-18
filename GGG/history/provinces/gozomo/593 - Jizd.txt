@@ -5,6 +5,7 @@ add_core = KID
 add_core = CHB
 trade_goods = iron
 life_rating = 33
+terrain = dryhills
 
 1308.1.2 = {
     owner = FOB

@@ -260,6 +260,32 @@ categories =  {
         combat_width = -0.20
     }
 
+    desert_floodplains = {
+        movement_cost = 1.0
+        color = { 41 21 84 }
+        farm_rgo_size = 0.0
+        farm_rgo_eff = 0.0
+        mine_rgo_size = 0.0
+        mine_rgo_eff = 0.0
+        supply_limit = 8
+
+    }
+
+    dry_mountains = {
+        movement_cost = 1.4
+        defence = 3
+        color = { 23 187 200 }
+        farm_rgo_size = -0.2
+        farm_rgo_eff = 0.0
+        mine_rgo_size = 0.1
+        mine_rgo_eff = 0.0
+        supply_limit = 2
+
+        combat_width = -0.6
+
+        min_build_railroad = 3
+    }
+
 
 }
 
