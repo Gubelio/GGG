@@ -3286,9 +3286,9 @@ swallow_me_whole = { #event protectorate
 	
 	can_use = {
 	#	NOT = { is_our_vassal = THIS }
-		THIS = {
-			civilized = yes
-		}
+	#	THIS = {
+	#		civilized = yes
+	#	}
 	#	OR = {
 	#		NOT = {
 	#			number_of_states = 2 
@@ -3303,7 +3303,7 @@ swallow_me_whole = { #event protectorate
 	#			NOT = { number_of_states = 5 }
 	#		}
 	#	}
-	#	civilized = no
+		civilized = no
 		
 	}
 	

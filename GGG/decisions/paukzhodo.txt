@@ -1,0 +1,64 @@
+political_decisions = {
+
+	conquer_hupennohu = {
+		picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			OR = {
+				owns = 1356
+				owns = 1365
+				owns = 1371
+				owns = 1302
+			}
+			neighbour = HUP
+			NOT = { has_country_flag = intends_to_conquer_hupennohu }
+			HUP = { civilized = no }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = intends_to_conquer_hupennohu
+			badboy = 5
+			casus_belli = {
+				target = HUP
+				type = swallow_me_whole
+				months = 24
+			}
+		}
+	}
+
+	conquer_ngjutto = {
+		picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			OR = {
+				owns = 1342
+				owns = 1333
+				owns = 1321
+				owns = 1317
+			}
+			neighbour = NGJ
+			NOT = { has_country_flag = intends_to_conquer_ngjutto }
+			NGJ = { civilized = no }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = intends_to_conquer_ngjutto
+			badboy = 5
+			casus_belli = {
+				target = NGJ
+				type = swallow_me_whole
+				months = 24
+			}
+		}
+	}
+
+
+}
