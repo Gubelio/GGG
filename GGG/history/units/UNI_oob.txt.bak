@@ -1,0 +1,64 @@
+#Relations
+
+#Sphere of Influence
+
+# Leaders
+
+leader = {
+    name = "Uni Taujat" 
+    type = land
+    date = 1305.1.1
+    personality = cautious  
+    background = hated  
+}
+
+
+#Armies
+
+army = {
+    name = "The Men of the Altar"
+    location = 872
+    regiment = {
+        name= "Commoner Levies"
+        type = infantry
+        home = 817
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = infantry
+        home = 915
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = infantry
+        home = 436
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = infantry
+        home = 476
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = infantry
+        home = 473
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 478
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 467
+    }
+
+}
+

@@ -1,0 +1,64 @@
+#Relations
+
+#Sphere of Influence
+
+# Leaders
+
+leader = {
+    name = "Uni Taujat" 
+    type = land
+    date = 1305.1.1
+    personality = cautious  
+    background = hated  
+}
+
+
+#Armies
+
+army = {
+    name = "The Men of the Altar"
+    location = 872
+    regiment = {
+        name= "Men of the Cup"
+        type = infantry
+        home = 872
+    }
+	
+    regiment = {
+        name= "Men of the Wall"
+        type = infantry
+        home = 872
+    }
+
+    regiment = {
+        name= "Men of the Trees"
+        type = infantry
+        home = 872
+    }
+
+    regiment = {
+        name= "Men of the Sea"
+        type = infantry
+        home = 872
+    }
+
+    regiment = {
+        name= "Men of the Metals"
+        type = infantry
+        home = 872
+    }
+
+    regiment = {
+        name= "Men of the Chain"
+        type = infantry
+        home = 872
+    }
+	
+    regiment = {
+        name= "Swineriders"
+        type = hussar
+        home = 872
+    }
+
+}
+
