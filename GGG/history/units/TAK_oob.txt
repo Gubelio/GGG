@@ -40,6 +40,14 @@ leader = {
     background = bureaucrat_speed   
 }
 
+leader = {
+    name = "Sem Tokar ApMaswos"
+    type = sea
+    date = 1304.1.1
+    personality = unruly   
+    background = hated   
+}
+
 #Armies
 
 army = {
@@ -103,6 +111,71 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 358
+    }
+
+}
+
+army = {
+    name = "Army of the North"
+    location = 347
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 367
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 366
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 365
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 352
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 340
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 333
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 334
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 332
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 353
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 356
     }
 
 }

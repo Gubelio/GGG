@@ -40,6 +40,22 @@ leader = {
     background = old_school 
 }
 
+leader = {
+    name = "Moumem tausz-au-Aswom"
+    type = land
+    date = 1302.1.1
+    personality = ballsy 
+    background = womanizer 
+}
+
+leader = {
+    name = "Sajaupz tausz-au-Oswag"
+    type = land
+    date = 1275.1.1
+    personality = resolute 
+    background = elderly 
+}
+
 #Armies
 
 army = {
@@ -155,6 +171,12 @@ army = {
     regiment = {
         name= "Artillery Brigade"
         type = artillery
+        home = 434
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
         home = 440
     }
 	
@@ -184,6 +206,24 @@ army = {
     regiment = {
         name= "Commoner Levies"
         type = irregular
+        home = 446
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 444
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 460
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
         home = 461
     }
 
@@ -203,6 +243,107 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 462
+    }
+
+}
+
+army = {
+    name = "Warkeepers"
+    location = 418
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 439
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 439
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 438
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 429
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 430
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 430
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 427
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 428
+    }
+
+}
+
+army = {
+    name = "Army of the Interior"
+    location = 426
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 417
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 421
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 422
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 424
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 423
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 426
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 475
     }
 
 }

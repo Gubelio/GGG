@@ -68,6 +68,14 @@ leader = {
     background = old_school 
 }
 
+leader = {
+    name = "Boazzadopau Jaudazh"
+    type = sea
+    date = 1302.1.1
+    personality = gallant
+    background = adventurer 
+}
+
 army = {
     name = "Royal Army"
     location = 621
@@ -273,6 +281,90 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 785
+    }
+
+}
+
+army = {
+    name = "Army of the Interior"
+    location = 628
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 612
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 612
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 613
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 617
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 653
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 624
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 623
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 622
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 622
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 647
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 650
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 654
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 652
     }
 
 }

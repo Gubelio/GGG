@@ -60,6 +60,38 @@ leader = {
     background = elderly
 }
 
+leader = {
+    name = "Drid Sha-Shoummid"
+    type = land
+    date = 1306.1.1
+    personality = stalwart
+    background = old_school
+}
+
+leader = {
+    name = "Oro Sha-Toubomput"
+    type = land
+    date = 1307.1.1
+    personality = careless
+    background = adventurer
+}
+
+leader = {
+    name = "Domongoun Sha-Ashouw"
+    type = land
+    date = 1300.1.1
+    personality = craven
+    background = aristocrat
+}
+
+leader = {
+    name = "Prakuunt Sha-Tob"
+    type = sea
+    date = 1295.1.1
+    personality = resolute
+    background = butcher
+}
+
 army = {
     name = "Army of the Center"
     location = 7
@@ -231,6 +263,122 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 33
+    }
+}
+
+army = {
+    name = "Army of the Pudwou"
+    location = 67
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 1
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 1
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 1
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 2
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 2
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 2
+    }
+}
+
+army = {
+    name = "Eastern Garrison"
+    location = 74
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 2
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 7
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 20
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 19
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 10
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 10
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 11
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 13
     }
 }
 

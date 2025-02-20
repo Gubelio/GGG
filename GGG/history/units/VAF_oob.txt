@@ -109,6 +109,12 @@ army = {
         type = irregular
         home = 215
     }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 202
+    }
 
     regiment = {
         name= "Infantry Brigade"
@@ -123,9 +129,21 @@ army = {
     }
 	
     regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 210
+    }
+	
+    regiment = {
         name= "Artillery Brigade"
         type = artillery
         home = 231
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 201
     }
 	
     regiment = {
@@ -151,26 +169,48 @@ army = {
         type = irregular
         home = 226
     }
-
-    regiment = {
-        name= "Infantry Brigade"
-        type = infantry
-        home = 228
-    }
-
-    regiment = {
-        name= "Infantry Brigade"
-        type = infantry
-        home = 228
-    }
 	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 232
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 228
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 228
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 228
+    }
 	
     regiment = {
         name= "Artillery Brigade"
         type = artillery
         home = 228
     }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 213
+    }
 
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 223
+    }
 
 }
 

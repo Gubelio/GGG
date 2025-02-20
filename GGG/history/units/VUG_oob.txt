@@ -31,6 +31,14 @@ leader = {
     type = land
     date = 1301.1.1
     personality = cautious
+    background = politician
+}
+
+leader = {
+    name = "Biso Tum-So"
+    type = land
+    date = 1305.1.1
+    personality = persistant
     background = pawn
 }
 
@@ -48,7 +56,13 @@ army = {
         type = irregular
         home = 186
     }
-
+	
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 161
+    }
+	
     regiment = {
         name= "Infantry Brigade"
         type = infantry
@@ -59,6 +73,12 @@ army = {
         name= "Infantry Brigade"
         type = infantry
         home = 168
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 163
     }
 
     regiment = {
@@ -81,4 +101,67 @@ army = {
 
 }
 
+army = {
+    name = "Yoke Splitters"
+    location = 157
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 154
+    }
 
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 160
+    }
+	
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 165
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 164
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 168
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 170
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 172
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 188
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 180
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 221
+    }
+
+}

@@ -26,6 +26,14 @@ leader = {
     background = rising_star 
 }
 
+leader = {
+    name = "Ganuk Nagjoni"
+    type = land
+    date = 1285.1.1
+    personality = ballsy
+    background = elderly 
+}
+
 army = {
     name = "Army of the Common Good"
     location = 239
@@ -86,6 +94,41 @@ army = {
 
 }
 
+army = {
+    name = "Expeditionary Force"
+    location = 248
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 252
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 254
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 490
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 247
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 251
+    }
+
+}
 
 navy = {
 	name = "The Blue Fleet"

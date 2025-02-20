@@ -26,6 +26,14 @@ leader = {
     background = brownnoser
 }
 
+leader = {
+    name = "Chogzhimo Godti"
+    type = land
+    date = 1307.1.1
+    personality = brilliant
+    background = cartographer
+}
+
 army = {
     name = "Army of the King"
     location = 503
@@ -94,6 +102,72 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 323
+    }
+
+}
+
+army = {
+    name = "Army of the North"
+    location = 496
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 508
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 505
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 506
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 513
+    }	
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 515
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 497
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 329
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 327
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 326
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 324
     }
 
 }

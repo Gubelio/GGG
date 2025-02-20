@@ -208,6 +208,12 @@ army = {
     }
 	
     regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 894
+    }
+	
+    regiment = {
         name= "Swinery Brigade"
         type = hussar
         home = 874
@@ -273,6 +279,18 @@ army = {
     }
 	
     regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 895
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 887
+    }
+	
+    regiment = {
         name= "Swinery Brigade"
         type = hussar
         home = 855
@@ -321,6 +339,18 @@ army = {
     }
 	
     regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 896
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 886
+    }
+	
+    regiment = {
         name= "Infantry Brigade"
         type = infantry
         home = 829
@@ -336,6 +366,78 @@ army = {
         name= "Swinery Brigade"
         type = hussar
         home = 809
+    }
+
+}
+
+army = {
+    name = "The Forayers"
+    location = 887
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 899
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 884
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 898
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 879
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 871
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 870
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 869
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 868
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 867
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 864
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 862
     }
 
 }

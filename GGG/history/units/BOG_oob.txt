@@ -28,6 +28,14 @@ leader = {
     background = diplomat  
 }
 
+leader = {
+    name = "Bibshua bui'Kuiyo" 
+    type = land
+    date = 1302.1.1
+    personality = bigoted  
+    background = powerful_friends  
+}
+
 #Armies
 
 army = {
@@ -178,3 +186,73 @@ army = {
 
 }
 
+army = {
+    name = "Army of the Vewug"
+    location = 912
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 425
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 435
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 471
+    }
+
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 466
+    }
+	
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 478
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 483
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 486
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 912
+    }
+	
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 905
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 917
+    }
+	
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 915
+    }
+
+}
