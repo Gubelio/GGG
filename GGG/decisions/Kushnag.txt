@@ -13,10 +13,10 @@ political_decisions = {
 			war = no
 			state_n_government = 1
 			KUS = { all_core = { owned_by = KUS } }
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
+			#OR = {
+			#	is_greater_power = yes
+			#	is_secondary_power = yes
+			#}
 		}
 		
 		effect = {
