@@ -5,14 +5,17 @@ political_decisions = {
 		potential = {
 			1856 = { empty = yes }
 			1872 = { empty = yes }
-			tag = KUS
+			OR = {
+				tag = KUS
+				tag = DZN
+			}	
 			NOT = { has_country_flag = conquest_of_the_bushlands }
 		}
 		
 		allow = {
 			war = no
 			state_n_government = 1
-			KUS = { all_core = { owned_by = KUS } }
+			all_core = { owned_by = THIS }
 			#OR = {
 			#	is_greater_power = yes
 			#	is_secondary_power = yes
@@ -20,7 +23,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			badboy = 5
+			badboy = 4
 			prestige = 10
 			1856 = { secede_province = THIS add_core = THIS }
 			1855 = { secede_province = THIS add_core = THIS }

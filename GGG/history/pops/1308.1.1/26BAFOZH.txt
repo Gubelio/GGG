@@ -404,13 +404,13 @@ size = 1281
 	farmers = {
 		 culture = cherasass
 		 religion = jur
-		size = 23773
+		size = 15849
 	}
 
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 8773
+		size = 5849
 	}
 
 
@@ -626,7 +626,7 @@ size = 22012
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 23773
+		size = 15849
 	}
 
 	farmers = {
@@ -814,7 +814,7 @@ size = 35
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 14773
+		size = 9849
 	}
 
 
@@ -1214,7 +1214,7 @@ size = 33
 	farmers = {
 		 culture = jazhakdii
 		 religion = kadkohii
-		size = 11773
+		size = 7849
 	}
 
 	clergymen = {
@@ -8680,7 +8680,7 @@ size = 427
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 4944
+		size = 3296
 	}
 
 	thralls = {
@@ -35008,48 +35008,53 @@ size = 2349
 
 
 	aristocrats = {
-		 culture = hrusaan
-		 religion = gyahki
-size = 140
+		 culture = jazhakdii
+		 religion = kadkohi
+		 size = 140
 	}
 
 
 	bureaucrats = {
-		 culture = hrusaan
-		 religion = gyahki
+		 culture = jazhakdii
+		 religion = kadkohi
 size = 4
 	}
 
 
 	clergymen = {
-		 culture = hrusaan
-		 religion = gyahki
+		 culture = jazhakdii
+		 religion = kadkohi
 size = 46
 	}
 
 
 	artisans = {
-		 culture = hrusaan
-		 religion = gyahki
+		 culture = jazhakdii
+		 religion = kadkohi
 size = 187
 	}
 
 
 	soldiers = {
+		 culture = jazhakdii
+		 religion = kadkohi
+		size = 177
+	}
+
+	slaves = {
+		 culture = jazhakdii
+		 religion = kadkohi
+		size = 5247
+	}
+
+	slaves = {
 		 culture = hrusaan
-		 religion = gyahki
-size = 177
+		 religion = kadkohi
+		size = 2247
 	}
 
 
 	farmers = {
-		 culture = hrusaan
-		 religion = gyahki
-size = 2247
-	}
-
-
-	slaves = {
 		 culture = hrusaan
 		 religion = gyahki
 size = 468
@@ -35063,7 +35068,7 @@ size = 4
 	}
 
 
-	serfs = {
+	slaves = {
 		 culture = hrusaan
 		 religion = gyahki
 size = 1404
@@ -40068,48 +40073,53 @@ size = 31
 
 
 	aristocrats = {
-		 culture = hrusaan
-		 religion = pagan
-size = 123
+		 culture = jazhakdii
+		 religion = kadkohi
+		size = 223
 	}
 
 
 	bureaucrats = {
-		 culture = hrusaan
-		 religion = pagan
-size = 4
+		 culture = jazhakdii
+		 religion = kadkohi
+		size = 14
 	}
 
 
 	clergymen = {
-		 culture = hrusaan
-		 religion = pagan
-size = 41
+		 culture = jazhakdii
+		 religion = kadkohi
+		size = 141
 	}
 
 
 	artisans = {
-		 culture = hrusaan
-		 religion = pagan
-size = 164
+		culture = jazhakdii
+		religion = kadkohi
+		size = 564
 	}
 
 
 	soldiers = {
-		 culture = hrusaan
-		 religion = pagan
-size = 156
+		culture = jazhakdii
+		religion = kadkohi
+		size = 3156
+	}
+
+	farmers = {
+		culture = jazhakdii
+		religion = kadkohi
+		size = 10010
+	}
+
+	slaves = {
+		culture = hrusaan
+		religion = pagan
+		size = 1970
 	}
 
 
 	farmers = {
-		 culture = hrusaan
-		 religion = pagan
-size = 1970
-	}
-
-
-	slaves = {
 		 culture = hrusaan
 		 religion = pagan
 size = 410
@@ -40123,7 +40133,7 @@ size = 4
 	}
 
 
-	serfs = {
+	slaves = {
 		 culture = hrusaan
 		 religion = pagan
 size = 1231
@@ -40136,48 +40146,53 @@ size = 1231
 
 
 	aristocrats = {
-		 culture = hrusaan
-		 religion = pagan
-size = 162
+		culture = jazhakdii
+		religion = kadkohi
+		size = 162
 	}
 
 
 	bureaucrats = {
-		 culture = hrusaan
-		 religion = pagan
+		culture = jazhakdii
+		religion = kadkohi
 size = 5
 	}
 
 
 	clergymen = {
-		 culture = hrusaan
-		 religion = pagan
+		culture = jazhakdii
+		religion = kadkohi
 size = 54
 	}
 
 
 	artisans = {
-		 culture = hrusaan
-		 religion = pagan
-size = 216
+		culture = jazhakdii
+		religion = kadkohi
+		size = 216
 	}
 
 
 	soldiers = {
+		culture = jazhakdii
+		religion = kadkohi
+		size = 1205
+	}
+
+	farmers = {
+		culture = jazhakdii
+		religion = kadkohi
+		size = 6400
+	}
+
+	slaves = {
 		 culture = hrusaan
-		 religion = pagan
-size = 205
+		 religion = kadkohi
+		size = 2594
 	}
 
 
 	farmers = {
-		 culture = hrusaan
-		 religion = pagan
-size = 2594
-	}
-
-
-	slaves = {
 		 culture = hrusaan
 		 religion = pagan
 size = 540
@@ -40191,7 +40206,7 @@ size = 5
 	}
 
 
-	serfs = {
+	slaves = {
 		 culture = hrusaan
 		 religion = pagan
 size = 1621
@@ -40952,7 +40967,7 @@ size = 1420
 	soldiers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-size = 511
+size = 6511
 	}
 
 
@@ -47726,7 +47741,7 @@ size = 16
 	farmers = {
 		 culture = rashuum
 		 religion = wompowushan
-		 size =35847
+		 size = 23898
 	}
 
 	soldiers = {
@@ -61675,7 +61690,7 @@ size = 662
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 22944
+		size = 15296
 	}
 
 	soldiers = {
@@ -61759,7 +61774,7 @@ size = 1069
 	thralls = {
 		culture = fauhwozi
 		religion = vewugi
-		size = 123
+		size = 82
 	}
 
 	serfs = {
@@ -61813,7 +61828,7 @@ size = 1162
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 4944
+		size = 3296
 	}
 
 	farmers = {
@@ -61903,7 +61918,7 @@ size = 1669
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 15444
+		size = 10296
 	}
 
 	thralls = {
@@ -62187,7 +62202,7 @@ size = 1969
 	farmers = {
 		 culture = jazhakdii
 		 religion = motkohnic
-		size = 7944
+		size = 5296
 	}
 
 	thralls = {
