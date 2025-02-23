@@ -1173,3 +1173,210 @@ country_event = {
 }
 
 ####
+KOVAZH NORTH
+#####
+
+country_event = { 
+    id = 50101
+    title = "EVTNAME50101" # First ATTACK !
+    desc = "EVTDESC50101"     
+	picture = "kovancoast"
+	
+	fire_only_once = yes
+	
+    trigger = {
+        year = 1315
+        civilized = yes
+        war = no
+        is_vassal = no
+		OR = {
+			owns = 277
+			owns = 260
+			owns = 269
+			owns = 251
+			owns = 240
+			owns = 236
+			owns = 194
+			owns = 74
+			owns = 2
+			owns = 15
+			owns = 81
+			owns = 106
+			owns = 111
+			owns = 128
+			owns = 131
+			owns = 334
+			owns = 926
+			owns = 921
+		}
+		NOT = { has_global_flag = KVcolonial }
+        OR = {
+            is_greater_power = yes
+            is_secondary_power = yes
+        }
+        OR = {
+			VUN = { is_independant = yes }
+			GHU = { is_independant = yes }
+			NEX = { is_independant = yes }
+		}
+    }
+
+    mean_time_to_happen = {
+        months = 200 #180
+		modifier = {
+            factor = 0.8
+            year = 1325
+        }
+        modifier = {
+            factor = 0.9
+            owns = 926
+        }
+        modifier = {
+            factor = 0.9
+            owns = 921
+        }
+		modifier = {
+			factor = 0.9
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 0.8
+			total_amount_of_ships = 50
+		}
+    }
+
+    option = {
+        name = "EVT50101OPTA"
+		random_country = {
+            limit = {
+                is_vassal = no
+				civilized = no
+				OR = {
+					tag = VUN
+					tag = GHU
+					tag = NEX
+				}	
+				NOT = { 
+					number_of_states = 2 
+					OR = {
+					alliance_with = THIS 
+					truce_with = THIS
+					}
+				}
+				
+            }
+            add_casus_belli = {
+                target = THIS
+                type = swallow_me_whole
+                months = 12
+            }
+            relation = {
+                who = THIS
+                value = -150
+            }
+        }
+		ai_chance = { 
+		factor = 90
+		}
+		set_global_flag = KVcolonial
+    }
+
+    option = {
+        name = "EVT50101OPTB"
+		prestige = -5
+		ai_chance = { 
+		factor = 10
+		}
+		set_global_flag = KVcolonial
+    }
+}
+
+
+country_event = { 
+    id = 50102
+    title = "EVTNAME50102" # SECOND
+    desc = "EVTDESC50102"     
+	picture = "kovanwars"
+	
+	fire_only_once = yes
+	
+    trigger = {
+        year = 1320
+        civilized = yes
+        war = no
+        is_vassal = no
+		NOT = { has_global_flag = KVcolonialTWO }
+		has_global_flag = KVcolonial
+        OR = {
+            is_greater_power = yes
+            is_secondary_power = yes
+        }
+        OR = {
+			VUN = { is_independant = yes }
+			GHU = { is_independant = yes }
+			NEX = { is_independant = yes }
+		}
+		any_neighbor_country = {
+			OR = {
+				tag = VUN
+				tag = NEX
+				tag = GHU
+			}
+		}
+			
+    }
+
+    mean_time_to_happen = {
+        months = 200 #180
+		modifier = {
+            factor = 0.8
+            year = 1330
+        }
+ 
+    }
+
+    option = {
+        name = "EVT50102OPTA"
+		random_country = {
+            limit = {
+                is_vassal = no
+				civilized = no
+				OR = {
+					tag = VUN
+					tag = GHU
+					tag = NEX
+				}	
+				NOT = { 
+					number_of_states = 2 
+					OR = {
+					alliance_with = THIS 
+					truce_with = THIS
+					}
+				}
+				
+            }
+            add_casus_belli = {
+                target = THIS
+                type = swallow_me_whole
+                months = 12
+            }
+            relation = {
+                who = THIS
+                value = -150
+            }
+        }
+		ai_chance = { 
+		factor = 90
+		}
+		set_global_flag = KVcolonialTWO
+    }
+
+    option = {
+        name = "EVT50102OPTB"
+		prestige = -5
+		ai_chance = { 
+		factor = 10
+		}
+		set_global_flag = KVcolonialTWO
+    }
+}
