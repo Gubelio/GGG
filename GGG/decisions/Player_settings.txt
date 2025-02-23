@@ -61,14 +61,14 @@ political_decisions = {
 			NOT = { year = 1309 }
 			ai = no
 			has_country_flag = player_settings_opened
-			NOT = { has_country_flag = multiplayer_enabled }
+			NOT = { has_global_flag = multiplayer_enabled }
         }
 
         allow = {
         }
 
         effect = {
-			set_country_flag = multiplayer_enabled
+			set_global_flag = multiplayer_enabled
         }
 		
     }
@@ -77,7 +77,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
-			has_country_flag = multiplayer_enabled
+			has_global_flag = multiplayer_enabled
 			NOT = { has_country_flag = not_interested_in_grants }
         }
 
@@ -94,7 +94,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
-			has_country_flag = multiplayer_enabled
+			has_global_flag = multiplayer_enabled
 			has_country_flag = not_interested_in_grants
         }
 
@@ -111,7 +111,7 @@ political_decisions = {
         alert = no
         potential = {
 			ai = no
-			has_country_flag = multiplayer_enabled
+			has_global_flag = multiplayer_enabled
 			NOT = { has_country_flag = not_interested_in_grants }
         }
 
@@ -123,10 +123,8 @@ political_decisions = {
 			any_country = {
 				limit = {
 					ai = no
-					OR = { 
-						NOT = { has_country_flag = multiplayer_disabled }
-						NOT = { has_country_flag = not_interested_in_grants }
-					}
+					has_global_flag = multiplayer_enabled
+					NOT = { has_country_flag = not_interested_in_grants }
 				}
 				country_event = { id = 50016 }
 			}
