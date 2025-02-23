@@ -73,6 +73,7 @@ demand_concession_casus_belli_event
 demand_concession_casus_belli_EM
 demand_concession_casus_belli_KF
 establish_protectorate_casus_belli
+establish_protectorate_casus_belli_1342
 colonial_conquest_low
 colonial_conquest_low_KF
 colonial_conquest_tiny
@@ -1031,7 +1032,7 @@ place_in_the_sun = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 2
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.9
 	penalty_factor = 1
@@ -1663,7 +1664,7 @@ demand_concession_casus_belli = {
 
 
 demand_concession_casus_belli_1342 = {
-	sprite_index = 7
+	sprite_index = 22
 	is_triggered_only = yes
 	months = 0
 	construction_speed = 1.2
@@ -1712,7 +1713,6 @@ demand_concession_casus_belli_1342 = {
 		any_owned_province = {
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -1826,20 +1826,19 @@ establish_protectorate_casus_belli = {
 			}
 		}
 		civilized = no
+		NOT = {
+			THIS = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+		}
 		OR = {
 			capital_scope = { continent = asia }
 			capital_scope = { continent = north_america }
 			capital_scope = { continent = africa }
 			capital_scope = { continent = oceania }
 			capital_scope = { continent = europe }
-			AND = {
-				capital_scope = { continent = south_america }
-				THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
-				}
-			}
 		}
 		NOT = {
 			OR = {
@@ -1864,6 +1863,80 @@ establish_protectorate_casus_belli = {
 		}
 	}
 }
+
+establish_protectorate_casus_belli_1342 = {
+	sprite_index = 22
+	is_triggered_only = yes
+	months = 0
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 0.3 #1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		total_pops = 50000
+		THIS = {
+			civilized = yes
+		}
+		OR = {
+			NOT = {
+				number_of_states = 2 
+			}
+			AND = {
+				THIS = {
+					AND = {
+						is_greater_power = yes
+						nationalism_n_imperialism = 1
+					}
+				}
+				NOT = { number_of_states = 5 }
+			}
+		}
+		civilized = no
+		THIS = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_PROTECTORATE_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
 
 # Unification Humiliate
 unification_humiliate_cb = {
@@ -2655,8 +2728,8 @@ colonial_conquest_low = {
     crisis = no
 
     can_use = {
-        total_pops = 100000
-        NOT = { total_pops = 400000 }
+        total_pops = 200000 #100000
+        NOT = { total_pops = 500000 } #400000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		THIS = { civilized = yes }
@@ -2667,14 +2740,7 @@ colonial_conquest_low = {
 			capital_scope = { continent = africa }
 			capital_scope = { continent = oceania }
 			capital_scope = { continent = europe }
-			AND = {
-				capital_scope = { continent = south_america }
-				THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
-				}
-			}
+
 		}
 		NOT = {
 			OR = {
@@ -2687,7 +2753,7 @@ colonial_conquest_low = {
 		}
     }
 
-    badboy_factor = 0.8 #1.0
+    badboy_factor = 1.2 #1.0
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -2723,8 +2789,8 @@ colonial_conquest_tiny = {
     crisis = no
 
     can_use = {
-        total_pops = 20000
-        NOT = { total_pops = 100000 }
+        total_pops = 50000 #20000
+        NOT = { total_pops = 200000 } #100000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		THIS = { civilized = yes }
@@ -2735,14 +2801,6 @@ colonial_conquest_tiny = {
 			capital_scope = { continent = africa }
 			capital_scope = { continent = oceania }
 			capital_scope = { continent = europe }
-			AND = {
-				capital_scope = { continent = south_america }
-				THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
-				}
-			}
 		}
 		NOT = {
 			OR = {
@@ -2755,7 +2813,7 @@ colonial_conquest_tiny = {
 		}
     }
 
-    badboy_factor = 0.5 #0.7
+    badboy_factor = 0.7 #0.7
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -2793,7 +2851,7 @@ colonial_conquest_minuscule = {
     can_use = {
 	is_vassal = no
 	is_substate = no
-        NOT = { total_pops = 20000 }
+        NOT = { total_pops = 50000 } #20000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		THIS = { civilized = yes }
@@ -2898,7 +2956,7 @@ colonial_conquest_low_KF = {
 		}
     }
 
-    badboy_factor = 2
+    badboy_factor = 1.6
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -2934,7 +2992,7 @@ demand_concession_casus_belli_KF = {
 	construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 1.8
+	badboy_factor = 2
 	prestige_factor = 0.1
 	peace_cost_factor = 0.6
 	penalty_factor = 1
@@ -3077,7 +3135,7 @@ take_colonial_concession_capital_KF = {
     months = 12
     construction_speed = 0.5
 
-    badboy_factor = 2.2
+    badboy_factor = 2
     prestige_factor = 0.5
     peace_cost_factor = 1.4
     penalty_factor = 1
