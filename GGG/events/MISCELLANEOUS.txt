@@ -1766,6 +1766,65 @@ country_event = { #gashdzii
 	
 }
 
+
+country_event = { #poumnian
+	id = 50100
+	title = "EVTNAME50089"
+	desc = "EVTDESC50100"
+	picture = "Dozmazhfa"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2011
+		owns = 2012
+		primary_culture = poumnian
+		OR = {
+			2011 = {
+				any_pop = { 
+					OR = { 
+						has_pop_culture = poumnian
+						has_pop_culture = anuvo
+				
+					}
+				}
+			}
+			
+			
+			2012 = {
+				any_pop = { 
+					OR = { 
+						has_pop_culture = poumnian
+						has_pop_culture = anuvo
+				
+					}
+				}
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		 months = 10
+	}
+	option = {
+		name = "EVT50100OPTA"
+		2011 = {
+			change_province_name = "Fundrouukiru"
+		}
+		
+		2012 = {
+			change_province_name = "Druboukiru"
+		}
+	}
+	
+	option = {
+		name = "EVT50100OPTB"
+		prestige = -0.5
+	}
+	
+}
+
 ###############################
 #### AI NATIONAL OBJECTIVE ####
 ###############################
