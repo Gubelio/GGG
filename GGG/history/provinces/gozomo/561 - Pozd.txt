@@ -6,10 +6,5 @@ add_core = CHB
 trade_goods = grain
 life_rating = 33
 
-1308.1.2 = {
-    owner = JAD
-    controller = JAD
-    add_core = JAD
-    remove_core = ZHD
-}
+
 

@@ -7,10 +7,5 @@ trade_goods = wool
 life_rating = 20
 terrain = dry_mountains
 
-1308.1.2 = {
-    owner = GOM
-    controller = GOM
-    add_core = GOM
-    remove_core = KIB
-}
+
 
