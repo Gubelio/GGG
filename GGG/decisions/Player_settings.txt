@@ -55,6 +55,24 @@ political_decisions = {
 		
     }
 	
+    disable_sanctions = {
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = sanctions_disabled }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = sanctions_disabled
+        }
+		
+    }
+	
     enable_multiplayer = {
         alert = no
         potential = {

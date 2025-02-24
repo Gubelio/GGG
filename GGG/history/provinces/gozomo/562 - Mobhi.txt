@@ -7,10 +7,4 @@ trade_goods = tropical_wood
 life_rating = 33
 terrain = savanna_woodland
 
-1308.1.2 = {
-    owner = JAD
-    controller = JAD
-    add_core = JAD
-    remove_core = MAB
-}
 
