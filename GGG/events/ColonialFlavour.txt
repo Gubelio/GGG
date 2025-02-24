@@ -1,0 +1,442 @@
+country_event = { #COLONIALEXPLOREING
+	id = 50103
+	title = "EVTNAME50103"
+	desc = "EVTDESC50103"
+	picture = "bafozh"
+	
+	trigger = {
+		year = 1330
+		OR = {
+            is_greater_power = yes
+            is_secondary_power = yes
+        }
+		medicine = 1
+		NOT = {
+			check_variable = {
+			which = "expl_bafozh"
+			value = 2
+			}
+		}
+		NOT = { has_country_flag = exploring_bafozh }
+		capital_scope = { continent = north_america }
+		has_global_flag = bafexpenabled
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		 
+		modifier = {
+            factor = 0.95
+            owns = 1391
+        }
+        modifier = {
+            factor = 0.95
+            owns = 1927
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1751
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1443
+			
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1750
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1874
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1943
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1908
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1905
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1426
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1712
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1434
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1823
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1647
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1662
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1696
+        }
+		modifier = {
+			factor = 0.9
+			breech_loaded_rifles = 1
+		}
+		modifier = {
+			factor = 0.9
+			romanticism = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			military_logistics = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			social_science = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 0.8
+			total_amount_of_ships = 60
+		}
+	}
+	
+	option = {
+		name = "EVT50103OPTA"
+		set_country_flag = exploring_bafozh
+		treasury = -75000
+		prestige = 1
+	}
+	
+	option = {
+		name = "EVT50103OPTB"
+		prestige = -1
+	}
+
+}
+
+
+country_event = { #exploration_enabling
+	id = 50105
+	title = "EVTNAME50105"
+	desc = "EVTDESC50105"
+	picture = "bafozh"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		medicine = 1
+		NOT = { has_global_flag = bafexpenabled }
+		year = 1330
+		OR = {
+            is_greater_power = yes
+            is_secondary_power = yes
+        }
+		NOT = {
+			check_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+		}
+		NOT = { has_country_flag = exploring_bafozh }
+		capital_scope = { continent = north_america }
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+		 
+		modifier = {
+            factor = 0.95
+            owns = 1391
+        }
+        modifier = {
+            factor = 0.95
+            owns = 1927
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1751
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1443
+			
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1750
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1874
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1943
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1908
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1905
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1426
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1712
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1434
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1823
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1647
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1662
+        }
+		modifier = {
+            factor = 0.95
+            owns = 1696
+        }
+		
+		modifier = {
+			factor = 0.9
+			breech_loaded_rifles = 1
+		}
+		modifier = {
+			factor = 0.9
+			romanticism = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			military_logistics = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			social_science = 1
+		}
+		
+		modifier = {
+			factor = 0.9
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 0.8
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 0.9
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 0.8
+			total_amount_of_ships = 50
+		}
+	}
+	
+	option = {
+		name = "EVT50105OPTA"
+		set_country_flag = exploring_bafozh
+		treasury = -75000
+		prestige = 1
+		set_variable = { 
+			which = expl_bafozh
+			value = 0
+		}
+		set_global_flag = bafexpenabled
+	}
+	
+	option = {
+		name = "EVT50105OPTB"
+		prestige = -1
+		set_variable = { 
+			which = expl_bafozh
+			value = 1
+		}
+		set_global_flag = bafexpenabled
+	}
+
+}
+
+
+country_event = { #HAMOGDISCOVERED
+	id = 50104
+	title = "EVTNAME50104"
+	desc = "EVTDESC50104"
+	picture = "hamog"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = hamog_discovered }
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+		 
+	}
+	
+	option = {
+		name = "EVT50104OPTA"
+		diplomatic_influence = {
+			who = HMO
+			value = 100
+		}
+		relation = {
+			who = HMO
+			value = 100
+		}
+		prestige = -5
+		any_pop = {
+			consciousness = 0.2
+		}
+		clr_country_flag = exploring_bafozh
+		set_global_flag = hamog_discovered
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50104OPTB"
+		diplomatic_influence = {
+			who = HMO
+			value = 50
+		}
+		relation = {
+			who = HMO
+			value = 50
+		}
+		treasury = -20
+		clr_country_flag = exploring_bafozh
+		set_global_flag = hamog_discovered
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50104OPTC"
+		relation = {
+			who = HMO
+			value = -200
+		}
+		prestige = 2
+		clr_country_flag = exploring_bafozh
+		set_global_flag = hamog_discovered
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+
+}
+
+country_event = { #LOST CIVILIZATION IN BOBIT?
+	id = 50106
+	title = "EVTNAME50106"
+	desc = "EVTDESC50106"
+	picture = "bobit"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = bobit_civ }
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+		 
+	
+	}
+	
+	option = {
+		name = "EVT50106OPTA"
+		prestige = 50
+		clr_country_flag = exploring_bafozh
+		set_global_flag = bobit_civ
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+
+}
+
+country_event = { #EXPLORERSLOST
+	id = 50107
+	title = "EVTNAME50107"
+	desc = "EVTDESC50107"
+	picture = "deadboys"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		 
+		#modifier = {
+        #    factor = 0.9
+        #    owns = 1
+        #}
+        #modifier = {
+        #    factor = 0.9
+        #    owns = 2
+        #}
+		#modifier = {
+		#	factor = 0.9
+		#	total_amount_of_ships = 30
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	total_amount_of_ships = 50
+		#}
+	}
+	
+	option = {
+		name = "EVT50107OPTA"
+		clr_country_flag = exploring_bafozh
+		
+	}
+
+}

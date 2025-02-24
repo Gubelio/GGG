@@ -147,7 +147,7 @@ country_event = {
     id = 50026 #Filibuster Fails
     title = "EVTNAME50026"
     desc = "EVTDESC50026"
-    #picture = "Socialism"
+    picture = "deadboys"
     
 	is_triggered_only = yes
 
