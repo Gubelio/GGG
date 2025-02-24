@@ -122,4 +122,117 @@ political_decisions = {
 
 }
 
+	cultivate_proob = {
+		picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+		potential = {
+			civilized = yes
+			OR = {
+				#Ishhfazh
+				AND = {
+					owns = 295
+					NOT = { 295 = { trade_goods = { opium } } }
+				}
+				AND = {
+					owns = 289
+					NOT = { 289 = { trade_goods = { opium } } }
+				}
+				AND = {
+					owns = 291
+					NOT = { 291 = { trade_goods = { opium } } }
+				}
+				AND = {
+					owns = 283
+					NOT = { 283 = { trade_goods = { opium } } }
+				}
+				#Bafozh
+				AND = {
+					owns = 1720
+					NOT = { 1720 = { trade_goods = { opium } } }
+				}			
+				AND = {
+					owns = 1721
+					NOT = { 1721 = { trade_goods = { opium } } }
+				}	
+				AND = {
+					owns = 1722
+					NOT = { 1722 = { trade_goods = { opium } } }
+				}	
+				AND = {
+					owns = 1726
+					NOT = { 1726 = { trade_goods = { opium } } }
+				}	
+				AND = {
+					owns = 1727
+					NOT = { 1727 = { trade_goods = { opium } } }
+				}	
+				AND = {
+					owns = 1725
+					NOT = { 1725 = { trade_goods = { opium } } }
+				}					
+			}
+		}
+		
+		allow = {
+			#OR = {
+			#	year = 1372
+			#	steam_turbine = 1
+			#}
+		}
+		
+		effect = {
+			any_owned_province = {
+				limit = {
+					OR = {
+						#Ishahfazh
+						AND = {
+							controlled_by = THIS
+							province_id = 295
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 289
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 291
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 283
+						}
+						#Bafozh
+						AND = {
+							controlled_by = THIS
+							province_id = 1720
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 1721
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 1722
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 1726
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 1727
+						}
+						AND = {
+							controlled_by = THIS
+							province_id = 1725
+						}
+						
+					}
+				}
+				trade_goods = opium	
+			}				
+		}
+	}
+
+
+
 }
