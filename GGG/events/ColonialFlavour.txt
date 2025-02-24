@@ -23,7 +23,7 @@ country_event = { #COLONIALEXPLOREING
 	}
 	
 	mean_time_to_happen = {
-		months = 120
+		months = 100
 		 
 		modifier = {
             factor = 0.95
@@ -305,7 +305,7 @@ country_event = { #HAMOGDISCOVERED
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 40
 		 
 	}
 	
@@ -381,7 +381,7 @@ country_event = { #LOST CIVILIZATION IN BOBIT?
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 35
 		 
 	
 	}
@@ -413,7 +413,7 @@ country_event = { #EXPLORERSLOST
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 70
 		 
 		#modifier = {
         #    factor = 0.9

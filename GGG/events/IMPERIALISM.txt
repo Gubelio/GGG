@@ -1222,7 +1222,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 200 #180
+        months = 70 #180
 		modifier = {
             factor = 0.8
             year = 1325
@@ -1327,7 +1327,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 200 #180
+        months = 70 #180
 		modifier = {
             factor = 0.8
             year = 1330
