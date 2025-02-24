@@ -1,7 +1,7 @@
 political_decisions = {
 
 organize_juruntine = {
-        #picture = juruntflag
+        picture = colonialorg
         potential = {
             civilized = yes
 			capital_scope = { continent = north_america }
@@ -64,5 +64,41 @@ organize_juruntine = {
 		
 }
 
+
+organize_wushaw = {
+        picture = colonialorg
+        potential = {
+            civilized = yes
+			capital_scope = { continent = north_america }
+            NOT = {
+                has_global_flag = wushaw_organized
+            }
+            OR = {
+				REG_301 = { owned_by = THIS }
+				REG_300 = { owned_by = THIS }
+				REG_307 = { owned_by = THIS }		
+            }
+        }
+		
+		allow = {
+            war = no
+            machine_guns = 1
+            REG_301 = { owned_by = THIS }
+            REG_300 = { owned_by = THIS }
+			REG_307 = { owned_by = THIS }
+        }
+		
+		effect = {
+            set_global_flag = wushaw_organized
+            prestige = 5
+			
+			REG_300 = { add_core = WSW }
+			REG_301 = { add_core = WSW }
+			REG_307 = { add_core = WSW }
+				
+			
+		}
+		
+}
 
 } #
