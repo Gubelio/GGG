@@ -3091,19 +3091,19 @@ province_event = {
 		}
 
 	option = {
-		name = "EVT500108OPTA"
+		name = "EVT50035OPTA"
 		trade_goods = opium
 		treasury = -50000
 	}
 	
 	option = {
-		name = "EVT500108OPTB"
+		name = "EVT50035OPTB"
 		trade_goods = opium
         add_province_modifier = { name = switched_production duration = 1825 }
 	}
 	
 	option = {
-		name = "EVT500108OPTC"
+		name = "EVT50035OPTC"
 		
 	}
 }
