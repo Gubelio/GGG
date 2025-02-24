@@ -1,0 +1,68 @@
+political_decisions = {
+
+organize_juruntine = {
+        #picture = juruntflag
+        potential = {
+            civilized = yes
+			capital_scope = { continent = north_america }
+            NOT = {
+                has_global_flag = juruntine_organized
+            }
+            OR = {
+                owns = 1908
+				owns = 1905
+				owns = 1880
+				owns = 1877
+				owns = 1922
+				owns = 1923
+            }
+        }
+		
+		allow = {
+            war = no
+            machine_guns = 1
+            market_regulations = 1
+            OR = {
+                REG_345 = { owned_by = THIS }
+                REG_343 = { owned_by = THIS }
+            }
+            OR = {
+                REG_348 = { owned_by = THIS }
+                REG_347 = { owned_by = THIS }
+            }
+            OR = {
+                REG_352 = { owned_by = THIS }
+                REG_353 = { owned_by = THIS }
+            }
+			
+			OR = {
+                REG_350 = { owned_by = THIS }
+                REG_346 = { owned_by = THIS }
+            }
+			
+        }
+		
+		effect = {
+            set_global_flag = juruntine_organized
+            prestige = 5
+			
+			REG_345 = { add_core = JTN }
+			REG_343 = { add_core = JTN }
+			REG_347 = { add_core = JTN }
+			REG_348 = { add_core = JTN }
+			REG_349 = { add_core = JTN }
+			REG_351 = { add_core = JTN }
+			REG_352 = { add_core = JTN }
+			REG_353 = { add_core = JTN }
+			REG_350 = { add_core = JTN }
+			REG_346 = { add_core = JTN }
+			1885 = { add_core = JTN }
+			1925 = { add_core = JTN }
+			1923 = { add_core = JTN }
+			1924 = { add_core = JTN }
+		}
+		
+}
+
+
+} #
