@@ -3,6 +3,7 @@ country_event = {
     id = 50023 
     title = "EVTNAME50023" #Poumnian Ancestral Swamp Farms
     desc = "EVTDESC50023"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
 
 	fire_only_once = yes
 
@@ -135,3 +136,38 @@ country_event = {
 	
 }
 
+#########################
+#### POUMNIA FLAVOUR ####
+#########################
+
+#country_event = {
+#    id = 50108 
+#    title = "EVTNAME50108" #GapToothing
+#    desc = "EVTDESC50108"
+#    #picture = "Socialism"
+#
+#	fire_only_once = yes
+#  
+#	trigger = {
+#		tag = POU
+#		NOT = { has_country_flag = gap_toothing_resolved }
+#    }
+#
+#	mean_time_to_happen = { 
+#		months = 200
+#      
+#	}
+#
+#    option = {
+#        name = "EVT50108OPTA" 
+#
+#
+#		
+#    }
+#	
+#    option = {
+#        name = "EVT50108OPTB" 
+#	
+#    }
+#	
+#}
