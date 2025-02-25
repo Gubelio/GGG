@@ -50,7 +50,7 @@ province_event = {
 
 province_event = {
     id = 50036 ## OIL ENABLING SECOND WAVE
-    title = "EVTNAME5035" 
+    title = "EVTNAME50035" 
     desc = "EVTDESC50035"
 
 	mean_time_to_happen = {
@@ -97,7 +97,7 @@ province_event = {
 
 province_event = {
     id = 50037 ## OIL ENABLING THIRD WAVE
-    title = "EVTNAME5035" 
+    title = "EVTNAME50035" 
     desc = "EVTDESC50035"
 
 	mean_time_to_happen = {
