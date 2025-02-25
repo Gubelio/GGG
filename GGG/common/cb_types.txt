@@ -1816,9 +1816,7 @@ establish_protectorate_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		total_pops = 400001
-		THIS = {
-			civilized = yes
-		}
+		#THIS = { civilized = yes }
 		OR = {
 			NOT = {
 				number_of_states = 2 
@@ -2755,7 +2753,7 @@ colonial_conquest_low = {
         NOT = { total_pops = 500000 } #400000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
-		THIS = { civilized = yes }
+		#THIS = { civilized = yes }
 		civilized = no
 		OR = {
 			capital_scope = { continent = asia }
@@ -2830,7 +2828,7 @@ colonial_conquest_tiny = {
         NOT = { total_pops = 200000 } #100000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
-		THIS = { civilized = yes }
+		#THIS = { civilized = yes }
 		civilized = no
 		OR = {
 			capital_scope = { continent = asia }
@@ -2906,7 +2904,7 @@ colonial_conquest_minuscule = {
         NOT = { total_pops = 50000 } #20000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
-		THIS = { civilized = yes }
+		#THIS = { civilized = yes }
 		civilized = no
 		OR = {
 			capital_scope = { continent = asia }
@@ -2984,7 +2982,7 @@ colonial_conquest_low_KF = {
         NOT = { total_pops = 400000 }
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
-		THIS = { civilized = yes }
+		#THIS = { civilized = yes }
 		civilized = no
 		NOT = {
 			capital_scope = { continent = asia }
