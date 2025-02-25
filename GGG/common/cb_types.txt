@@ -1630,11 +1630,13 @@ demand_concession_casus_belli = {
 				tag = NEX
 			}
 		}
-		NOT = {
-			THIS = {
-				nationalism_n_imperialism = 1
-				machine_guns = 1
-				medicine = 1
+		THIS = {
+			NOT = {
+				AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 			}
 		}
 		NOT = {
@@ -1832,11 +1834,13 @@ establish_protectorate_casus_belli = {
 			}
 		}
 		civilized = no
-		NOT = {
-			THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
+		THIS = {
+			NOT = {
+					AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 				}
 		}
 		OR = {
@@ -2672,11 +2676,13 @@ take_colonial_concession_capital = {
             }
         }
         is_independant = yes
-		NOT = {
-			THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
+		THIS = {
+			NOT = {
+					AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 				}
 		}
 		OR = {
@@ -2764,6 +2770,15 @@ colonial_conquest_low = {
 				tag = NEX
 			}
 		}
+		THIS = {
+			NOT = {
+				AND = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+			}
+		}
 		NOT = {
 			OR = {
 				tag = NHQ
@@ -2828,6 +2843,15 @@ colonial_conquest_tiny = {
 				tag = VUN
 				tag = GHU
 				tag = NEX
+			}
+		}
+		THIS = {
+			NOT = {
+				AND = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
 			}
 		}
 		NOT = {
@@ -2974,9 +2998,11 @@ colonial_conquest_low_KF = {
 		capital_scope = { is_coastal = yes }
 		NOT = {
 			THIS = {
-				nationalism_n_imperialism = 1
-				machine_guns = 1
-				medicine = 1
+				AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 			}
 		}
 		NOT = {
@@ -3068,9 +3094,11 @@ demand_concession_casus_belli_KF = {
 		capital_scope = { continent = south_america }
 		NOT = {
 			THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
+					AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 			}
 		}
 		NOT = {
@@ -3233,9 +3261,11 @@ take_colonial_concession_capital_KF = {
 		capital_scope = { is_coastal = yes }
 		NOT = {
 			THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
+					AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
 			}
 		}
 		NOT = {

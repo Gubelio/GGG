@@ -390,9 +390,9 @@ demand_concession_casus_belli_1342_desc;Force an §Yuncivilized country§W to sece
 demand_concession_casus_belli_1342_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
 demand_concession_casus_belli_1342_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
 establish_protectorate_casus_belli_1342;Establish Protectorate;;;;;;;;;;;;;x
-establish_protectorate_casus_belli_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
-establish_protectorate_casus_belli_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
-establish_protectorate_casus_belli_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
