@@ -3082,12 +3082,12 @@ province_event = {
 			province_id = 1725 
 		}
 		NOT = { trade_goods = opium }
-			#OR = {
-			#	owner = {
-			#		steam_turbine = 1
-			#	}
-			#	year = 1372
-			#}
+			OR = {
+				owner = {
+					steam_turbine = 1
+				}
+				year = 1372
+			}
 		}
 
 	option = {
