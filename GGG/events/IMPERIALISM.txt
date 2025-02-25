@@ -1276,7 +1276,7 @@ country_event = {
             }
         }
 		ai_chance = { 
-		factor = 90
+		factor = 99
 		}
 		set_global_flag = KVcolonial
     }
@@ -1285,7 +1285,7 @@ country_event = {
         name = "EVT50101OPTB"
 		prestige = -5
 		ai_chance = { 
-		factor = 10
+		factor = 1
 		}
 		set_global_flag = KVcolonial
     }
@@ -1316,12 +1316,13 @@ country_event = {
 			GHU = { is_independant = yes }
 			NEX = { is_independant = yes }
 		}
-		any_neighbor_country = {
-			OR = {
-				tag = VUN
-				tag = NEX
-				tag = GHU
-			}
+		OR = {
+			REG_190 = { owned_by = THIS }
+			REG_185 = { owned_by = THIS }
+			933 = { owned_by = THIS }
+			934 = { owned_by = THIS }
+			935 = { owned_by = THIS }
+			956 = { owned_by = THIS }
 		}
 			
     }
@@ -1366,7 +1367,7 @@ country_event = {
             }
         }
 		ai_chance = { 
-		factor = 90
+		factor = 99
 		}
 		set_global_flag = KVcolonialTWO
     }
@@ -1375,7 +1376,7 @@ country_event = {
         name = "EVT50102OPTB"
 		prestige = -5
 		ai_chance = { 
-		factor = 10
+		factor = 1
 		}
 		set_global_flag = KVcolonialTWO
     }
