@@ -1342,7 +1342,7 @@ province_event = {
     }
 }
 
-#Disrepair - Railways
+#Disrepair - Forts
 province_event = {
     id = 50022 #22592
     title = "EVTNAME50022"

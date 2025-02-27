@@ -369,10 +369,14 @@ EVT500110OPTB;We cannot afford to provide these people with any more aid.;;;;;;;
 EVTNAME50111;Locust Plague Comes to an End;;;;;;;;;;;;;x
 EVTDESC50111;The terrible locust plague that has struck one of our regions has seemingly ended. Having devastated most viable parts of this area, it seems that the swarm has burnt itself out. With no food remaining, and their brief lives coming to an end, they now die in their millions. Their hideous corpses litter the fields, and carrion birds pick at their fattened bodies. Even desperate farmers come to harvest the bodies to eat in desperation. The region itself remains devastated, and the abatement of this plague, while a relief, comes to a land that has lost everything already.;;;;;;;;;;;;;x
 EVT50111OPTA;And may they never return!;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50112;The Terrible Machine!;;;;;;;;;;;;;x
+EVTDESC50112;All the time in $PROVINCENAME$, now, you have hear the thunder of metal on metal and the bellowing of the locomotive, as newly laid railway track carries these new machines into the heart of our country. But the people are in uproar! They say these tracks had been built through the lands of ancient farms, and that this machine disturbs the traditional bounds of villages, cattle-driving paths, scaries the birds, and frightens the whole town as it thunders through. They've appealed to their local 'Roots-Man', the Tehurite Holyman who lives in the roots of an ancient tree on the bounds of a large provincial town. He has consdiered their pleas, and has ruled that the railway causes too much disturbance! Given the Tehurite faith of our country, we are under great pressure to oblige with his religious-judicial perpective. ;;;;;;;;;;;;;x
+EVT50112OPTA;If the holy man says so...;;;;;;;;;;;;;x
+EVT50112OPTB;What nonsense! That was a massive investment!;;;;;;;;;;;;;x
+EVTNAME50113;The Blighted Coast!;;;;;;;;;;;;;x
+EVTDESC50113;In $PROVINCENAME$ we have a large naval instillation. This harbour and drydock protects military ships, supplies them, and host a number of support vessels, as well as employs locals to build massive new vessels for our grand fleet. However, it causes great distress for the local fishermen. They say the huge vessels going out to see disturb the shoals, the waves capsize their little vessels, and even the tugs tear up their nets. They have appealed to a local 'roots man', a Tehurite holyman who has lived much of his life stationary in the roots of a tree, fed and watered by locals. He has pronounced that this community has fished here for centuries, and that their rights of use take priority over those of the navy! We must decide what to do.;;;;;;;;;;;;;x
+EVT50113OPTA;His holiness and his verdict must be honoured!;;;;;;;;;;;;;x
+EVT50113OPTB;The Admiralty would be furious. Not a chance.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

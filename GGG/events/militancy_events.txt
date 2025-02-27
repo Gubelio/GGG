@@ -608,6 +608,7 @@ country_event = {
 			OR = {
 				terrain = plains
 				terrain = savanna
+				terrain = farmlands
 			}
 		}
     }
@@ -650,6 +651,7 @@ country_event = {
 					OR = {
 						terrain = savanna
 						terrain = plains
+						terrain = farmlands
 					}
 				}
 			}
@@ -658,6 +660,7 @@ country_event = {
 					OR = {
 						terrain = savanna
 						terrain = plains
+						terrain = farmlands
 					}
 				}
 				add_province_modifier = { name = locust_threat duration = 365 }
@@ -694,6 +697,7 @@ province_event = {
 		OR = {
 			terrain = savanna
 			terrain = plains
+			terrain = farmlands
 		}
 		NOT = {
 			has_province_modifier = locust_plague
@@ -750,4 +754,126 @@ country_event = {
 		name = "EVT50111OPTA"
 		clr_country_flag = locust_plague_incoming
 	}
+}
+
+###############################
+#### RIGHT TO THE FAMILIAR ####
+###############################
+
+#Railways
+province_event = {
+    id = 50112 
+    title = "EVTNAME50112"
+    desc = "EVTDESC50112"
+
+    trigger = {
+        has_building = railroad
+        owner = {
+			has_country_modifier = right_to_the_familiar
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 600
+
+    }
+
+    option = {
+        name = "EVT50112OPTA"
+        infrastructure = -1
+		treasury = -50000
+    }
+	
+    option = {
+        name = "EVT50112OPTB"
+        any_pop = {
+			limit = {
+				OR = {
+					ideology = liberationist
+					ideology = free_yoker
+				}
+			}
+			militancy = 9
+			consciousness = 6
+		}
+        any_pop = {
+			limit = {
+				ideology = conservative
+				ideology = conservative
+			}
+			militancy = 5
+			consciousness = 3
+		}
+		any_pop = {
+			ideology = {
+				factor = 0.005
+				value = liberationist
+			}
+			ideology = {
+				factor = 0.01
+				value = free_yoker
+			}
+		}
+    }
+}
+
+#Naval Bases
+province_event = {
+    id = 50113 #22590
+    title = "EVTNAME50113"
+    desc = "EVTDESC50113"
+
+    trigger = {
+        has_building = naval_base
+        owner = {
+			has_country_modifier = right_to_the_familiar
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 600
+
+    }
+
+    option = {
+        name = "EVT50113OPTA"
+        naval_base = -1
+		treasury = -50000
+    }
+	
+    option = {
+        name = "EVT50113OPTB"
+        any_pop = {
+			limit = {
+				OR = {
+					ideology = liberationist
+					ideology = free_yoker
+				}
+			}
+			militancy = 9
+			consciousness = 6
+		}
+        any_pop = {
+			limit = {
+				ideology = conservative
+				ideology = conservative
+			}
+			militancy = 5
+			consciousness = 3
+		}
+		any_pop = {
+			ideology = {
+				factor = 0.005
+				value = liberationist
+			}
+			ideology = {
+				factor = 0.01
+				value = free_yoker
+			}
+		}
+    }
 }
