@@ -733,11 +733,16 @@ country_event = {
 	picture = "locust"
 	
     trigger = {
-		
+		has_country_flag = locust_plague_incoming
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = locust_threat
+			}
+		}
     }
 	
 	mean_time_to_happen = {
-        months = 5
+        months = 1
 
 	}
 	
