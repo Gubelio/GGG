@@ -592,3 +592,154 @@ country_event = {
 	}
 		
 }
+
+#####################
+### LOCUST PLAGUE ###
+#####################
+
+country_event = {
+	id = 50109
+	title = "EVTNAME50109" #locust plague incoming
+	desc = "EVTDESC50109"
+	picture = "locust"
+	
+    trigger = {
+		any_owned_province = {
+			OR = {
+				terrain = plains
+				terrain = savanna
+			}
+		}
+    }
+	
+	mean_time_to_happen = {
+        months = 150
+        modifier = {
+            factor = 1.5
+			NOT = {
+				OR = {
+					month = july #First Rain
+					month = august #High Monsoon
+					month = september #Late Monsoon
+					month = october #Harvesttime
+				}
+			}
+        }
+        modifier = {
+            factor = 0.8
+			month = july #First Rain
+        }
+        modifier = {
+            factor = 0.9
+			month = august #High Monsoon
+        }
+        modifier = {
+            factor = 0.4
+			any_owned_province = {
+				has_province_modifier = locust_plague
+			}
+        }
+
+	}
+	
+	option = {
+		name = "EVT50109OPTA"
+		random_state = {
+			limit = {
+				any_owned_province = {
+					OR = {
+						terrain = savanna
+						terrain = plains
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = savanna
+						terrain = plains
+					}
+				}
+				add_province_modifier = { name = locust_threat duration = 365 }
+			}
+		}
+		set_country_flag = locust_plague_incoming
+	}
+}
+
+province_event = {
+    id = 50110
+    title = "EVTNAME50110" #plague afflicts province
+    desc = "EVTDESC50110"
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	trigger = {
+		owner = {
+			has_country_flag = locust_plague_incoming
+		}
+		OR = {
+			trade_goods = cattle
+			trade_goods = tea
+			trade_goods = fruit
+			trade_goods = opium
+			trade_goods = grain
+			trade_goods = cotton
+			trade_goods = tobacco
+			trade_goods = wool
+			trade_goods = silk
+		}
+		OR = {
+			terrain = savanna
+			terrain = plains
+		}
+		NOT = {
+			has_province_modifier = locust_plague
+		}
+		has_province_modifier = locust_threat
+	}
+
+	option = {
+		name = "EVT500110OPTA"
+		add_province_modifier = { name = locust_plague duration = 185 }
+		remove_province_modifier = locust_threat
+		any_pop = {
+			militancy = 6
+			consciousness = 3
+		}
+	}
+	
+	option = {
+		name = "EVT500110OPTB"
+		add_province_modifier = { name = locust_plague duration = 185 }
+		remove_province_modifier = locust_threat
+		any_pop = {
+			militancy = 3
+			consciousness = 6
+		}
+	}
+		
+}
+
+country_event = {
+	id = 50111 
+	title = "EVTNAME50111" #locust plague ends
+	desc = "EVTDESC50111"
+	picture = "locust"
+	
+    trigger = {
+		
+    }
+	
+	mean_time_to_happen = {
+        months = 5
+
+	}
+	
+	option = {
+		name = "EVT50111OPTA"
+		clr_country_flag = locust_plague_incoming
+	}
+}

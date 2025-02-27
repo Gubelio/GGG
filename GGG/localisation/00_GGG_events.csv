@@ -359,15 +359,16 @@ EVTDESC50108;Pruub, the sweet, soporific, euphoric oils of the Magoupt plant is 
 EVT500108OPTA;Grant these fellows their monopoly, and get planting!;;;;;;;;;;;;;x
 EVT500108OPTB;What an industrious bunch!;;;;;;;;;;;;;x
 EVT500108OPTC;No, what we produce in $PROVINCENAME$ is too valuable.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50109;Locusts on the Horizon;;;;;;;;;;;;;x
+EVTDESC50109;x;;;;;;;;;;;;;x
+EVT50109OPTA;There's no telling where those damned things will strike!;;;;;;;;;;;;;x
+EVTNAME50110;Locusts Strike $PROVINCENAME$!;;;;;;;;;;;;;x
+EVTDESC50110;x;;;;;;;;;;;;;x
+EVT500110OPTA;Evacuate the Reserves!;;;;;;;;;;;;;x
+EVT500110OPTB;Evacuate the Farmers!;;;;;;;;;;;;;x
+EVTNAME50111;Locust Plague Comes to an End;;;;;;;;;;;;;x
+EVTDESC50111;x;;;;;;;;;;;;;x
+EVT50111OPTA;And may they never return!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

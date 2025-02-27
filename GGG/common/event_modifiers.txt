@@ -201,3 +201,16 @@ right_to_the_familiar = {
 	tax_efficiency = -0.05
     icon = 6
 }
+
+locust_plague = {
+	local_RGO_output = -0.95
+    immigrant_push = 1
+	farm_rgo_size = -0.5
+	tax_efficiency = -0.1
+	administrative_efficiency_modifier = -0.1
+    icon = 20
+}
+
+locust_threat = {
+    icon = 19
+}
