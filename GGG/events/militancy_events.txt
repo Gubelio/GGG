@@ -705,10 +705,12 @@ province_event = {
 		name = "EVT500110OPTA"
 		add_province_modifier = { name = locust_plague duration = 185 }
 		remove_province_modifier = locust_threat
+		owner = {
+			treasury = -50000
+		}
 		any_pop = {
 			militancy = 3
 			consciousness = 4
-			treasury = -50000
 		}
 	}
 	
