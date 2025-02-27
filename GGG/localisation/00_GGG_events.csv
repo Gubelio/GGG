@@ -360,14 +360,14 @@ EVT500108OPTA;Grant these fellows their monopoly, and get planting!;;;;;;;;;;;;;
 EVT500108OPTB;What an industrious bunch!;;;;;;;;;;;;;x
 EVT500108OPTC;No, what we produce in $PROVINCENAME$ is too valuable.;;;;;;;;;;;;;x
 EVTNAME50109;Locusts on the Horizon;;;;;;;;;;;;;x
-EVTDESC50109;x;;;;;;;;;;;;;x
+EVTDESC50109;'I left my son out in the sun, with the ruminants... and I saw a black cloud gathering far distant on the horizon... before I knew it, it was too late. All that remained of the fields, the cattle, and my son, was bones and chaff.' Such were the scenes of devastation where the locusts were first spawning. A local region is now facing a deadly threat of a plague of ravenous, omnivorous, monstrously large locusts! Their evil red eyes glare out of their shiny carapaces, glistening in the humid, thick air, their eager mandibles ready to devour anything in their path. The wet, warm weather drives them into a spawning frenzy, and their terrible number grows hourly in exponential orders. Their ominous drone resonates across the fields, and the people, with little left for them to do, cower and pray that these creatures only eat their fields, and not the very flesh off their bones. ;;;;;;;;;;;;;x
 EVT50109OPTA;There's no telling where those damned things will strike!;;;;;;;;;;;;;x
 EVTNAME50110;Locusts Strike $PROVINCENAME$!;;;;;;;;;;;;;x
-EVTDESC50110;x;;;;;;;;;;;;;x
-EVT500110OPTA;Evacuate the Reserves!;;;;;;;;;;;;;x
-EVT500110OPTB;Evacuate the Farmers!;;;;;;;;;;;;;x
+EVTDESC50110;The locusts have come to $PROVINCENAME$! They have visted theses lands with their terrible appetites and left terrible devestation in their wake! Everywhere fields have been entirely destroyed, cattle and livestock devoured in the very pastures, houses and homes themselves have been gnawed upon, seed reserves have been torn to bits: little remains of the once prosperous agricultural region. People are leaving these lands in great numbers, as it seems it will be a long time until these regions recover their former prosperity, and those that stay eke out a miserable, desperate existence, trying to hastily cultivate their plots, but is expected that many will suffer famine and malnutrition. People are petitioning the government for relief of their burdens and suffering, more than whatever reserves local authorites can provide. Should the national government step in?;;;;;;;;;;;;;x
+EVT500110OPTA;We must try to relieve this region.;;;;;;;;;;;;;x
+EVT500110OPTB;We cannot afford to provide these people with any more aid.;;;;;;;;;;;;;x
 EVTNAME50111;Locust Plague Comes to an End;;;;;;;;;;;;;x
-EVTDESC50111;x;;;;;;;;;;;;;x
+EVTDESC50111;The terrible locust plague that has struck one of our regions has seemingly ended. Having devastated most viable parts of this area, it seems that the swarm has burnt itself out. With no food remaining, and their brief lives coming to an end, they now die in their millions. Their hideous corpses litter the fields, and carrion birds pick at their fattened bodies. Even desperate farmers come to harvest the bodies to eat in desperation. The region itself remains devastated, and the abatement of this plague, while a relief, comes to a land that has lost everything already.;;;;;;;;;;;;;x
 EVT50111OPTA;And may they never return!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

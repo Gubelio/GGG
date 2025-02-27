@@ -706,8 +706,9 @@ province_event = {
 		add_province_modifier = { name = locust_plague duration = 185 }
 		remove_province_modifier = locust_threat
 		any_pop = {
-			militancy = 6
-			consciousness = 3
+			militancy = 3
+			consciousness = 4
+			treasury = -50000
 		}
 	}
 	
@@ -716,8 +717,8 @@ province_event = {
 		add_province_modifier = { name = locust_plague duration = 185 }
 		remove_province_modifier = locust_threat
 		any_pop = {
-			militancy = 3
-			consciousness = 6
+			militancy = 5
+			consciousness = 3
 		}
 	}
 		
