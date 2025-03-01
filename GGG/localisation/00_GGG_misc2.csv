@@ -416,7 +416,8 @@ establish_protectorate_casus_belli_1342_desc;Annex a single-state §Yuncivilized 
 locust_plague;Locust Devastation;;;;;;;;;;;;;x
 locust_threat;Locust Threat;;;;;;;;;;;;;x
 if;If the following is true;;;;;;;;;;;;;x
-TRIGMOD_HEADER;$ruler$ reports that;;;;;;;;;;;;;x
+TRIGMOD_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;x
+TRIGMODLOST_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;x
 brownnoser;Lackey;L?he-cul;Stiefellecker;;Obsequioso;;;;;;;;;x;;;;
 for2;For any;;;;;;;;;;;;;x
 for15;For any;;;;;;;;;;;;;x
