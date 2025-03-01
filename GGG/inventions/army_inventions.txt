@@ -31,6 +31,9 @@ post_napoleonic_army_doctrine = {
 		}
 	}
 }
+
+
+
 #strategic_mobility
 field_fortifications = {
 	limit = { strategic_mobility = 1 }
@@ -1215,6 +1218,21 @@ telegraph_coordination = {
 		} 
 	}
 }
+#war_slaves = {
+#	limit = { military_plans = 1 }
+#	chance = {
+#		base = 0
+#		modifier = {
+#			factor = 100
+#			tag = REB
+#		}
+#	
+#	}
+#	effect = {
+#	activate_unit = war_slave
+#	}
+#
+#}
 
 mobilization_time_tables = {
 	limit = { military_plans = 1 }

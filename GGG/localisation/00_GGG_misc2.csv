@@ -137,26 +137,46 @@ D38;$REGION$ Land;;;;;;;;;;;;;x
 D38_ADJ;$REGION$lander;;;;;;;;;;;;;x
 D39;$REGION$ Territories;;;;;;;;;;;;;x
 D39_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D40;$REGION$ Protectorate;;;;;;;;;;;;;x
-D40_ADJ;$REGION$itet;;;;;;;;;;;;;x
-D41;The $REGION$ Protectorate;;;;;;;;;;;;;x
-D41_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D42;$REGION$ Protectorate;;;;;;;;;;;;;x
-D42_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D43;$REGION$ Colony;;;;;;;;;;;;;x
-D43_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D44;Trucical $REGION$;;;;;;;;;;;;;x
-D44_ADJ;Trucical;;;;;;;;;;;;;x
-D45;Colony and Protectorate of $REGION$;;;;;;;;;;;;;x
-D45_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D46;$REGION$land;;;;;;;;;;;;;x
-D46_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D47;The $REGION$ Dominion;;;;;;;;;;;;;x
-D47_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D48;The $REGION$ Protectorate;;;;;;;;;;;;;x
-D48_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D49;$REGION$land Colony;;;;;;;;;;;;;x
-D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D45;Free Commonwealth;;;;;;;;;;;;;x
+D45_ADJ;Commonwealther;;;;;;;;;;;;;x
+D41;Freemans' Republic;;;;;;;;;;;;;x
+D41_ADJ;Republican;;;;;;;;;;;;;;x
+D42;Freemans' State;;;;;;;;;;;;;x
+D42_ADJ;Freedman;;;;;;;;;;;;;x
+D43;Freestate;;;;;;;;;;;;;x
+D43_ADJ;Freestater;;;;;;;;;;;;;x
+D40;Republic of Goodhope;;;;;;;;;;;;;x
+D40_ADJ;Goodhoper;;;;;;;;;;;;;x
+D44;The Free Cities;;;;;;;;;;;;;x
+D44_ADJ;Freistadter;;;;;;;;;;;;;x
+D46;Commonwealth of Man;;;;;;;;;;;;;x
+D46_ADJ;Commonwealther;;;;;;;;;;;;;x
+D47;The Liberated Territories;;;;;;;;;;;;;x
+D47_ADJ;Territorial;;;;;;;;;;;;;x
+D48;The Sublime Republic;;;;;;;;;;;;;x
+D48_ADJ;Republican;;;;;;;;;;;;;x
+D49;The Freedman's Bund;;;;;;;;;;;;;x
+D49_ADJ;Bunder;;;;;;;;;;;;;x
+#D40;$REGION$ Protectorate;;;;;;;;;;;;;x
+#D40_ADJ;$REGION$itet;;;;;;;;;;;;;x
+#D41;The $REGION$ Protectorate;;;;;;;;;;;;;x
+#D41_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D42;$REGION$ Protectorate;;;;;;;;;;;;;x
+#D42_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D43;$REGION$ Colony;;;;;;;;;;;;;x
+#D43_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D44;Trucical $REGION$;;;;;;;;;;;;;x
+#D44_ADJ;Trucical;;;;;;;;;;;;;x
+#D45;Colony and Protectorate of $REGION$;;;;;;;;;;;;;x
+#D45_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D46;$REGION$land;;;;;;;;;;;;;x
+#D46_ADJ;$REGION$lander;;;;;;;;;;;;;x
+#D47;The $REGION$ Dominion;;;;;;;;;;;;;x
+#D47_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D48;The $REGION$ Protectorate;;;;;;;;;;;;;x
+#D48_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D49;$REGION$land Colony;;;;;;;;;;;;;x
+#D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
 D50;$REGION$land;;;;;;;;;;;;;x
 D50_ADJ;$REGION$lander;;;;;;;;;;;;;x
 POU_liberationist;The Dridniks;;;;;;;;;;;;;x
@@ -395,11 +415,15 @@ establish_protectorate_casus_belli_1342_setup;Annex $RECIPIENT$ by establishing 
 establish_protectorate_casus_belli_1342_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 locust_plague;Locust Devastation;;;;;;;;;;;;;x
 locust_threat;Locust Threat;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+if;If the following is true;;;;;;;;;;;;;x
+TRIGMOD_HEADER;$ruler$ reports that;;;;;;;;;;;;;x
+brownnoser;Lackey;L?he-cul;Stiefellecker;;Obsequioso;;;;;;;;;x;;;;
+for2;For any;;;;;;;;;;;;;x
+for15;For any;;;;;;;;;;;;;x
+bondsmen_rebels_name;Bondsmen Rebels;;;;;;;;;;;;;x
+bondsmen_rebels_desc;Bondsmen rebels are a rag-tag collection of the various wretched bonded folk - the slaves, thralls, serfs, prisoners, hereditary servants, who have come together to seek their collective liberty, and establish a free state.;;;;;;;;;;;;;x
+bondsmen_rebels_title;Bondsmen;;;;;;;;;;;;;x
+bondsmen_rebels_army;Liberated Brigade;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

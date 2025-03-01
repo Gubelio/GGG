@@ -15,6 +15,29 @@ country_event = {
 }
 
 country_event = {
+	id = 12346 
+	title = "militancy and consciousness debug"
+	desc = "10 militancy and 10 consciousness"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "THANKS BUDDY"
+		any_pop = {
+			limit = {
+				OR = {
+					type = slaves
+					type = thralls
+					type = serfs
+				}
+			}
+			militancy = 10
+			consciousness = 10
+		}
+	}
+}
+
+country_event = {
 	id = 2468 
 	title = "rebel debug"
 	desc = "rebels control everything"
@@ -69,3 +92,121 @@ country_event = {
 		prestige = -10
 	}
 }
+
+###### ACTIVATE WARSLAVES FOR REBS ###########
+
+#country_event = {
+#	id = 33333
+#	title = "prestige lose"
+#	desc = "reduce prestige"
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		ai = yes
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	option = {
+#		name = "THANKS BUDDY"			
+#		REB = { activate_technology = military_plans }
+#	}
+#	
+#
+#}
+#
+#
+##country_event = { #money for rebel slaves
+#	id = 33334
+#	title = "prestige lose"
+#	desc = "reduce prestige"
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "THANKS BUDDY"			
+#			THIS = {
+#				any_owned = {
+#                    limit = {
+#                        has_pop_type = thralls
+#						has_pop_type = slaves
+#                    }
+#                    any_pop = { 
+#						limit = { 
+#						OR = {
+#							type = thralls
+#							type = slaves						
+#						}
+#						militancy = 5
+#						} 
+#						money = 2	 
+#					}
+#                }
+#				
+#		}
+#	}
+#	
+#
+#}
+#
+#
+#country_event = { #money for rebel slaves
+#	id = 33335
+#	title = "prestige lose"
+#	desc = "reduce prestige"
+#	
+#	trigger = {
+#		ai = yes
+#		any_neighbor_country = {
+#			any_owned = {
+#                    limit = {
+#                        has_pop_type = thralls
+#						has_pop_type = slaves
+#                    }
+#                    any_pop = { 
+#				limit = { 
+#					OR = {
+#						type = slaves
+#						type = thralls
+#					}
+#				}
+#				militancy = 5
+#			}
+#		}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 10
+#	}
+#
+#	option = {
+#		name = "THANKS BUDDY"			
+#		any_neighbor_country = {
+#				any_owned = {
+#                    limit = {
+#                        has_pop_type = thralls
+#						has_pop_type = slaves
+#                    }
+#                    any_pop = { 
+#						limit = { 
+#						OR = {
+#							type = thralls
+#							type = slaves						
+#						}
+#						militancy = 5
+#						} 
+#						money = 2	 
+#					}
+#                }
+#				
+#		}
+#	}
+#	
+#
+#}
+
+

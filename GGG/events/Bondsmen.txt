@@ -1,0 +1,681 @@
+country_event = {
+	id = 50114 
+	title = "EVTNAME50114" 
+	desc = "EVTDESC50114"
+	#picture = "locust"
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVT50114OPTA"
+		THIS = {
+			capital_scope = {
+				state_scope = {
+					any_owned = {
+						remove_province_modifier = bondsman_control
+					}
+				}
+			}
+		}
+		for2 = {  																		#### THIS FOR2 loop checks everything in the limit, and if they are met, runs the event past the limit 
+			limit = {
+				THIS = {
+					any_owned_province = {
+						AND {
+							has_province_modifier = bondsman_control 					## checking to see if all bondsmen lands have been given a territory
+							owned_by = THIS
+						}
+					}
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D49 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							has_global_flag = 5thbondsmen
+							has_global_flag = 6thbondsmen
+							has_global_flag = 7thbondsmen
+							has_global_flag = 8thbondsmen
+							has_global_flag = 9thbondsmen
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D49
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D49 }
+									any_neighbor_province = { is_core = D49 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D49 }
+							}
+							add_core = D49
+						}
+					}
+				
+				}
+				THIS = {
+					release = D49
+					set_global_flag = 10thbondsmen
+					D49 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D48 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							has_global_flag = 5thbondsmen
+							has_global_flag = 6thbondsmen
+							has_global_flag = 7thbondsmen
+							has_global_flag = 8thbondsmen
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D48
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D48 }
+									any_neighbor_province = { is_core = D48 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D48 }
+							}
+							add_core = D48
+						}
+					}
+				
+				}
+				THIS = {
+					release = D48
+					set_global_flag = 9thbondsmen
+					D48 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D47 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							has_global_flag = 5thbondsmen
+							has_global_flag = 6thbondsmen
+							has_global_flag = 7thbondsmen
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D47
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D47 }
+									any_neighbor_province = { is_core = D47 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D47 }
+							}
+							add_core = D47
+						}
+					}
+				
+				}
+				THIS = {
+					release = D47
+					set_global_flag = 8thbondsmen
+					D47 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D46 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							has_global_flag = 5thbondsmen
+							has_global_flag = 6thbondsmen
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D46
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D46 }
+									any_neighbor_province = { is_core = D46 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D46 }
+							}
+							add_core = D46
+						}
+					}
+				
+				}
+				THIS = {
+					release = D46
+					set_global_flag = 7thbondsmen
+					D46 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D45 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							has_global_flag = 5thbondsmen
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D45
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D45 }
+									any_neighbor_province = { is_core = D45 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D45 }
+							}
+							add_core = D45
+						}
+					}
+				
+				}
+				THIS = {
+					release = D45
+					set_global_flag = 6thbondsmen
+					D45 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D44 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							has_global_flag = 4thbondsmen
+							NOT = { has_global_flag = 5thbondsmen }
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D44
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D44 }
+									any_neighbor_province = { is_core = D44 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D44 }
+							}
+							add_core = D44
+						}
+					}
+				
+				}
+				THIS = {
+					release = D44
+					set_global_flag = 5thbondsmen
+					D44 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D43 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							has_global_flag = 3rdbondsmen 
+							NOT = { has_global_flag = 4thbondsmen }
+							NOT = { has_global_flag = 5thbondsmen }
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D43
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D43 }
+									any_neighbor_province = { is_core = D43 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D43 }
+							}
+							add_core = D43
+						}
+					}
+				
+				}
+				THIS = {
+					release = D43
+					set_global_flag = 4thbondsmen
+					D43 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = { 																		
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D42 }
+							has_global_flag = 1stbondsmen 
+							has_global_flag = 2ndbondsmen 
+							NOT = { has_global_flag = 3rdbondsmen }
+							NOT = { has_global_flag = 4thbondsmen }
+							NOT = { has_global_flag = 5thbondsmen }
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D42
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D42 }
+									any_neighbor_province = { is_core = D42 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D42 }
+							}
+							add_core = D42
+						}
+					}
+				
+				}
+				THIS = {
+					release = D42
+					set_global_flag = 3rdbondsmen
+					D42 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}	
+			if = {
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D41 }
+							has_global_flag = 1stbondsmen }
+							NOT = { has_global_flag = 2ndbondsmen }
+							NOT = { has_global_flag = 3rdbondsmen }
+							NOT = { has_global_flag = 4thbondsmen }
+							NOT = { has_global_flag = 5thbondsmen }
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D41
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D41 }
+									any_neighbor_province = { is_core = D41 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D41 }
+							}
+							add_core = D41
+						}
+					}
+				
+				}
+				THIS = {
+					release = D41
+					set_global_flag = 2ndbondsmen
+					D41 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+			if = {
+				limit = {
+					THIS = {
+						AND = {
+							NOT = { exists = D40 }
+							NOT = { has_global_flag = 1stbondsmen }
+							NOT = { has_global_flag = 2ndbondsmen }
+							NOT = { has_global_flag = 3rdbondsmen }
+							NOT = { has_global_flag = 4thbondsmen }
+							NOT = { has_global_flag = 5thbondsmen }
+							NOT = { has_global_flag = 6thbondsmen }
+							NOT = { has_global_flag = 7thbondsmen }
+							NOT = { has_global_flag = 8thbondsmen }
+							NOT = { has_global_flag = 9thbondsmen }
+							NOT = { has_global_flag = 10thbondsmen }
+						}
+					}
+				}
+				THIS = { 
+					random_owned = {
+						limit = { has_province_modifier = bondsman_control }
+						add_core = D40
+					}
+				}
+				for15 = {
+					limit = {
+						THIS = {
+							any_owned_province = {
+								AND = {
+									has_province_modifier = bondsman_control
+									NOT = { is_core = D40 }
+									any_neighbor_province = { is_core = D40 }
+								}
+							}
+						}
+					}
+					THIS = {
+						any_owned = {
+							limit = { 
+								has_province_modifier = bondsman_control
+								any_neighbor_province = { is_core = D40 }
+							}
+							add_core = D40
+						}
+					}
+				
+				}
+				THIS = {
+					release = D40
+					set_global_flag = 1stbondsmen
+					D40 = { 
+						add_country_flag = bonded_release
+						primary_culture = THIS	
+						government = paternalistic_council
+						civilized = yes
+						ruling_party_ideology = free_yoker
+					} 
+				}
+			}
+		}
+	}
+}
+
+
+
+#country_event = { ##### BACKUP
+#	id = 50114 
+#	title = "EVTNAME50114" 
+#	desc = "EVTDESC50114"
+#	#picture = "locust"
+#	
+#	is_triggered_only = yes
+#	
+#	
+#	option = {
+#		name = "EVT50114OPTA"
+#		if = {
+#			limit = {
+#				THIS = {
+#					AND = {
+#						NOT = { exists = D40 }
+#						NOT = { has_global_flag = 1stbondsmen }
+#						NOT = { has_global_flag = 2ndbondsmen }
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = { 
+#						has_province_modifier = bondsman_control
+#					}
+#					add_core = D40
+#				}
+#				release = D40
+#				set_global_flag = 1stbondsmen
+#			}
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					AND = {
+#						NOT = { exists = D41 }
+#						NOT = { has_global_flag = 2ndbondsmen }
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = { 
+#						has_province_modifier = bondsman_control
+#					}
+#					add_core = D41
+#				}
+#				release = D41
+#				set_global_flag = 2ndbondsmen
+#			}
+#		}
+#	}
+#}
