@@ -810,39 +810,39 @@ country_event = {
 ### THRALLDOM & SERFDOM DEBUG ###
 #################################
 
-country_event = {
-    id = 50011 #end of serfdom
-    title = "EVTNAME50011"
-    desc = "EVTDESC50011"
-    #picture = "Socialism"
-    
-	#fire_only_once = yes
-	
-    trigger = {
-        civilized = yes
-        any_owned_province = {
-            has_pop_type = serfs
-        }
-        NOT = {
-            debt_law = serfdom
-        }
-		NOT = { has_country_flag = end_serfdom }	
-    }
-
-    option = {
-        name = "EVT50011OPTA"
-            any_owned = {
-                has_pop_type = serfs
-                OR = {
-                    has_pop_type = farmers
-                    has_pop_type = labourers
-                }
-                serfs = { pop_type = farmers }
-            }
-			set_country_flag = end_serfdom	
-			
-    }
-}
+#country_event = {
+#    id = 50011 #end of serfdom
+#    title = "EVTNAME50011"
+#    desc = "EVTDESC50011"
+#    #picture = "Socialism"
+#    
+#	#fire_only_once = yes
+#	
+#    trigger = {
+#        civilized = yes
+#        any_owned_province = {
+#            has_pop_type = serfs
+#        }
+#        NOT = {
+#            debt_law = serfdom
+#        }
+#		NOT = { has_country_flag = end_serfdom }	
+#    }
+#
+#    option = {
+#        name = "EVT50011OPTA"
+#            any_owned = {
+#                has_pop_type = serfs
+#                OR = {
+#                    has_pop_type = farmers
+#                    has_pop_type = labourers
+#                }
+#                serfs = { pop_type = farmers }
+#            }
+#			set_country_flag = end_serfdom	
+#			
+#    }
+#}
 
 
 #country_event = { #Seems to effect performance by >20% - figure out a way to make it trigger for only one country? 
@@ -884,40 +884,40 @@ country_event = {
 #    }
 #}
 
-country_event = {
-	id = 50012 #end of thralldom
-	title = "EVTNAME50012"
-	desc = "EVTDESC50012"
-	#picture = "Socialism"
-	
-	#fire_only_once = yes
-	
-	trigger = {
-		civilized = yes
-		any_owned_province = {
-			has_pop_type = thralls
-		}
-		NOT = {
-		    thralldom = thralldom_allowed
-		}
-		NOT = { has_country_flag = end_thralldom }	
-	}
-
-
-
-	option = {
-		name = "EVT50012OPTA"
-			any_owned = {
-				has_pop_type = thralls
-				OR = {
-					has_pop_type = farmers
-					has_pop_type = labourers
-				}
-				thralls = { pop_type = farmers }
-			}
-			set_country_flag = end_thralldom
-	}
-}
+#country_event = {
+#	id = 50012 #end of thralldom
+#	title = "EVTNAME50012"
+#	desc = "EVTDESC50012"
+#	#picture = "Socialism"
+#	
+#	#fire_only_once = yes
+#	
+#	trigger = {
+#		civilized = yes
+#		any_owned_province = {
+#			has_pop_type = thralls
+#		}
+#		NOT = {
+#		    thralldom = thralldom_allowed
+#		}
+#		NOT = { has_country_flag = end_thralldom }	
+#	}
+#
+#
+#
+#	option = {
+#		name = "EVT50012OPTA"
+#			any_owned = {
+#				has_pop_type = thralls
+#				OR = {
+#					has_pop_type = farmers
+#					has_pop_type = labourers
+#				}
+#				thralls = { pop_type = farmers }
+#			}
+#			set_country_flag = end_thralldom
+#	}
+#}
 
 ##################
 ## UNIFICATION ###

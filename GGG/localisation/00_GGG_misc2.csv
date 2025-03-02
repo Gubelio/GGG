@@ -416,8 +416,8 @@ establish_protectorate_casus_belli_1342_desc;Annex a single-state §Yuncivilized 
 locust_plague;Locust Devastation;;;;;;;;;;;;;x
 locust_threat;Locust Threat;;;;;;;;;;;;;x
 if;If the following is true;;;;;;;;;;;;;x
-TRIGMOD_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;x
-TRIGMODLOST_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;x
+TRIGMOD_HEADER;The cabinet reports that;;;;;;;;;;;;;x
+TRIGMODLOST_HEADER;The cabinet reports that;;;;;;;;;;;;;x
 brownnoser;Lackey;L?he-cul;Stiefellecker;;Obsequioso;;;;;;;;;x;;;;
 for2;For any;;;;;;;;;;;;;x
 for15;For any;;;;;;;;;;;;;x
@@ -425,6 +425,20 @@ bondsman_rebels_name;Bondsman Rebels;;;;;;;;;;;;;x
 bondsman_rebels_desc;Bondsman rebels are a rag-tag collection of the various wretched bonded folk - the slaves, thralls, serfs, prisoners, hereditary servants, who have come together to seek their collective liberty, and establish a free state.;;;;;;;;;;;;;x
 bondsman_rebels_title;Bondsman;;;;;;;;;;;;;x
 bondsman_rebels_army;Liberated Brigade;;;;;;;;;;;;;x
+GHE_liberationist;Neer Om-Drit;;;;;;;;;;;;;x
+GHE_free_yoker;Ghechyamy Liberation League;;;;;;;;;;;;;x
+GHE_statist;Ghechan Peoples' Statist Party;;;;;;;;;;;;;x
+GHE_absolutist;Grey-Front Fighters;;;;;;;;;;;;;x
+GHE_theocratist;Neer Ghan Gheecha;;;;;;;;;;;;;x
+GHE_conservative;Neer Baym-Ghech;;;;;;;;;;;;;x
+GHE_reactionary;The Qeygs;;;;;;;;;;;;;x
+JAD_liberationist;x;;;;;;;;;;;;;x
+JAD_free_yoker;x;;;;;;;;;;;;;x
+JAD_statist;x;;;;;;;;;;;;;x
+JAD_absolutist;x;;;;;;;;;;;;;x
+JAD_theocratist;x;;;;;;;;;;;;;x
+JAD_conservative;x;;;;;;;;;;;;;x
+JAD_reactionary;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

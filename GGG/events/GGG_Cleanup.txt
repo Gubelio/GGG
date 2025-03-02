@@ -1,0 +1,170 @@
+country_event = {
+    id = 33337
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+            AND = {
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+            any_neighbor_country = {
+                ai = no
+                exists = yes
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+            any_greater_power = {
+                ai = no
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        any_owned_province = { has_pop_type = serfs }
+                        NOT = { debt_law = serfdom }
+                    }
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            has_pop_type = serfs
+                            has_pop_type = labourers
+                        }
+                        any_pop = { limit = { type = serfs } pop_type = labourers }
+                    }
+                    any_owned = {
+                        limit = {
+                            has_pop_type = serfs
+                            has_pop_type = farmers
+                        }
+                        any_pop = { limit = { type = serfs } pop_type = farmers }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    any_owned_province = { has_pop_type = serfs }
+                    NOT = { debt_law = serfdom }
+                }
+                any_owned = {
+                    limit = {
+                        has_pop_type = serfs
+                        has_pop_type = labourers
+                    }
+                    any_pop = { limit = { type = serfs } pop_type = labourers }
+                }
+                any_owned = {
+                    limit = {
+                        has_pop_type = serfs
+                        has_pop_type = farmers
+                    }
+                    any_pop = { limit = { type = serfs } pop_type = farmers }
+                }
+            }
+    }
+}
+
+
+country_event = {
+    id = 33338
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+            AND = {
+                NOT = { thralldom = thralldom_allowed }
+                any_owned_province = { has_pop_type = thralls }
+            }
+            any_neighbor_country = {
+                ai = no
+                exists = yes
+                NOT = { thralldom = thralldom_allowed }
+                any_owned_province = { has_pop_type = thralls }
+            }
+            any_greater_power = {
+                ai = no
+                NOT = { thralldom = thralldom_allowed }
+                any_owned_province = { has_pop_type = thralls }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33338OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        any_owned_province = { has_pop_type = thralls }
+                        NOT = { thralldom = thralldom_allowed }
+                    }
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            has_pop_type = thralls
+                            has_pop_type = labourers
+                        }
+                        any_pop = { limit = { type = thralls } pop_type = labourers }
+                    }
+                    any_owned = {
+                        limit = {
+                            has_pop_type = thralls
+                            has_pop_type = farmers
+                        }
+                        any_pop = { limit = { type = thralls } pop_type = farmers }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    any_owned_province = { has_pop_type = thralls }
+                    NOT = { thralldom = thralldom_allowed }
+                }
+                any_owned = {
+                    limit = {
+                        has_pop_type = thralls
+                        has_pop_type = labourers
+                    }
+                    any_pop = { limit = { type = thralls } pop_type = labourers }
+                }
+                any_owned = {
+                    limit = {
+                        has_pop_type = thralls
+                        has_pop_type = farmers
+                    }
+                    any_pop = { limit = { type = thralls } pop_type = farmers }
+                }
+            }
+    }
+}

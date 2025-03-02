@@ -1,62 +1,62 @@
 political_decisions = {
 
-    remove_serfs = {
-        alert = no
-        potential = {
-			ai = no
-			civilized = yes
-			any_owned_province = {
-				has_pop_type = serfs
-			}
-			NOT = {
-					debt_law = serfdom
-			}
-        }
-
-        allow = {
-
-        }
-
-        effect = {
-			any_owned = {
-				has_pop_type = serfs
-				OR = {
-					has_pop_type = farmers
-					has_pop_type = labourers
-				}
-				serfs = { pop_type = farmers }
-			}
-        }
-    }
-	
-    remove_thralls = {
-        alert = no
-        potential = {
-			ai = no
-			civilized = yes
-			any_owned_province = {
-				has_pop_type = thralls
-			}
-			NOT = {
-				thralldom = thralldom_allowed
-			}
-        }
-
-        allow = {
-
-        }
-
-        effect = {
-			any_owned = {
-				has_pop_type = thralls
-				OR = {
-					has_pop_type = farmers
-					has_pop_type = labourers
-				}
-				thralls = { pop_type = farmers }
-			}
-        }
-    }
+    #remove_serfs = {
+    #    alert = no
+    #    potential = {
+	#		ai = no
+	#		civilized = yes
+	#		any_owned_province = {
+	#			has_pop_type = serfs
+	#		}
+	#		NOT = {
+	#				debt_law = serfdom
+	#		}
+    #    }
+	#
+    #    allow = {
+	#
+    #    }
+	#
+    #    effect = {
+	#		any_owned = {
+	#			has_pop_type = serfs
+	#			OR = {
+	#				has_pop_type = farmers
+	#				has_pop_type = labourers
+	#			}
+	#			serfs = { pop_type = farmers }
+	#		}
+    #    }
+    #}
+	#
+    #remove_thralls = {
+    #    alert = no
+    #    potential = {
+	#		ai = no
+	#		civilized = yes
+	#		any_owned_province = {
+	#			has_pop_type = thralls
+	#		}
+	#		NOT = {
+	#			thralldom = thralldom_allowed
+	#		}
+    #    }
+	#
+    #    allow = {
+	#
+    #    }
+	#
+    #    effect = {
+	#		any_owned = {
+	#			has_pop_type = thralls
+	#			OR = {
+	#				has_pop_type = farmers
+	#				has_pop_type = labourers
+	#			}
+	#			thralls = { pop_type = farmers }
+	#		}
+    #    }
+    #}
 
 	enslave_the_thralls = {
         alert = no
