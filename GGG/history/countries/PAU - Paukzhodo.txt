@@ -1,6 +1,6 @@
 capital = 1380
 primary_culture = pugure
-religion = tehurite
+religion = tehuhrite
 government = theocracy
 plurality = 5.0
 nationalvalue = no_national_objective
@@ -59,4 +59,4 @@ water_wheel_power = 1
 
 #flags
 
-set_country_flag = tehurite_country
+set_country_flag = tehuhrite_country
