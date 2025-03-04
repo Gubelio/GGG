@@ -101,4 +101,67 @@ organize_wushaw = {
 		
 }
 
+organize_paukzhodo = {
+        picture = colonialorg
+        potential = {
+            civilized = yes
+			capital_scope = { continent = north_america }
+            NOT = {
+                has_global_flag = paukzhodo_organized
+            }
+            OR = {
+				REG_270 = { owned_by = THIS }
+				REG_277 = { owned_by = THIS }
+				REG_282 = { owned_by = THIS }		
+            }
+        }
+		
+		allow = {
+            war = no
+			state_n_government = 1
+            REG_270 = { owned_by = THIS }
+            REG_268 = { owned_by = THIS }
+			REG_273 = { owned_by = THIS }
+			
+			REG_277 = { owned_by = THIS }
+            REG_279 = { owned_by = THIS }
+			REG_280 = { owned_by = THIS }
+			
+			
+			REG_282 = { owned_by = THIS }
+            REG_285 = { owned_by = THIS }
+			REG_287 = { owned_by = THIS }
+        }
+		
+		effect = {
+            set_global_flag = paukzhodo_organized
+            prestige = 5
+			
+			REG_268 = { add_core = PAU }
+			REG_269 = { add_core = PAU }
+			REG_270 = { add_core = PAU }
+			REG_271 = { add_core = PAU }
+			REG_272 = { add_core = PAU }
+			REG_273 = { add_core = PAU }
+			REG_274 = { add_core = PAU }
+			REG_275 = { add_core = PAU }
+			REG_276 = { add_core = PAU }
+			REG_277 = { add_core = PAU }
+			REG_278 = { add_core = PAU }
+			REG_279 = { add_core = PAU }
+			REG_280 = { add_core = PAU }
+			REG_281 = { add_core = PAU }
+			REG_282 = { add_core = PAU }
+			REG_283 = { add_core = PAU }
+			REG_284 = { add_core = PAU }
+			REG_285 = { add_core = PAU }
+			REG_286 = { add_core = PAU }
+			REG_287 = { add_core = PAU }
+			REG_288 = { add_core = PAU }
+			
+		}
+		
+}
+
+
 } #

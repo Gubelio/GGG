@@ -225,7 +225,6 @@ PER		= "countries/Perzob.txt"
 KAN		= "countries/Kaneun.txt"
 NTS		= "countries/Nan Tsetk.txt"
 HID		= "countries/Hiduherath.txt"
-WSW		= "countries/Wushauw Free State.txt"
 THN     = "countries/Theanag.txt"
 WAP     = "countries/Wapkam.txt"
 PPN     = "countries/Poponazh.txt"
@@ -243,8 +242,13 @@ KID		= "countries/Kiidnazh.txt"
 TGN		= "countries/The Great Nag.txt" #The Great Nâg
 ATH		= "countries/Athisoroo.txt"
 PRT		= "countries/Pruuntawrish.txt"
-JTN     = "countries/Juruntine.txt"
 CHB		= "countries/Chiibnazh.txt"
+
+#RELEASABLES
+
+WSW		= "countries/Wushauw Free State.txt"
+JTN     = "countries/Juruntine.txt"
+PAU     = "countries/Paukzhodo.txt"
 
 #UTILITY TAG
 UTY		= "countries/Utility Tag.txt"
