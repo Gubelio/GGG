@@ -158,28 +158,28 @@ size = 2
 
 	aristocrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 395
 	}
 
 
 	bureaucrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 13
 	}
 
 
 	clergymen = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 131
 	}
 
 
 	artisans = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 658
 	}
 
@@ -193,7 +193,7 @@ size = 500
 
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 6189
 	}
 
@@ -226,35 +226,35 @@ size = 3950
 
 	aristocrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 616
 	}
 
 
 	bureaucrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 20
 	}
 
 
 	clergymen = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 205
 	}
 
 
 	artisans = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 1026
 	}
 
 
 	soldiers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 780
 	}
 
@@ -267,7 +267,7 @@ size = 4552
 
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 3652
 	}
 
@@ -300,28 +300,28 @@ size = 6160
 
 	aristocrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 636
 	}
 
 
 	bureaucrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 21
 	}
 
 
 	clergymen = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 212
 	}
 
 
 	artisans = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 1061
 	}
 
@@ -368,35 +368,35 @@ size = 6366
 
 	aristocrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 1011
 	}
 
 
 	bureaucrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 33
 	}
 
 
 	clergymen = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 337
 	}
 
 
 	artisans = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 1686
 	}
 
 
 	soldiers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 size = 1281
 	}
 
@@ -409,7 +409,7 @@ size = 1281
 
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 		size = 8773
 	}
 
@@ -584,76 +584,76 @@ size = 6762
 
 	aristocrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 1085
+		 religion = kadkohi
+		size = 1085
 	}
 
 
 	bureaucrats = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 36
+		 religion = kadkohi
+		size = 36
 	}
 
 
 	clergymen = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 361
+		 religion = kadkohi
+		size = 361
 	}
 
 
 	artisans = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 1809
+		 religion = kadkohi
+		size = 1809
 	}
 
 
 	soldiers = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 1375
+		 religion = kadkohi
+		size = 1375
 	}
 
 
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 22012
+		 religion = kadkohi
+		size = 22012
 	}
 	
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 		size = 23773
 	}
 
 	farmers = {
 		 culture = cherasass
 		 religion = jur
-size = 5012
+		size = 5012
 	}
 
 
 	slaves = {
 		 culture = cherasass
 		 religion = jur
-size = 3619
+		size = 3619
 	}
 
 
 	officers = {
 		 culture = jazhakdii
-		 religion = kadkohii
-size = 36
+		 religion = kadkohi
+		size = 36
 	}
 
 
 	serfs = {
 		 culture = cherasass
 		 religion = jur
-size = 10859
+		size = 10859
 	}
 
 }
@@ -813,7 +813,7 @@ size = 35
 	
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 		size = 14773
 	}
 
@@ -1213,7 +1213,7 @@ size = 33
 
 	farmers = {
 		 culture = jazhakdii
-		 religion = kadkohii
+		 religion = kadkohi
 		size = 11773
 	}
 

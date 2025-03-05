@@ -1,6 +1,6 @@
 capital = 1398
 primary_culture = jazhakdii
-religion = kadkohii
+religion = kadkohi
 government = princely_despotate
 plurality = 5.0
 nationalvalue = no_national_objective
@@ -75,4 +75,4 @@ basic_chemistry = 1
 
 #flags
 
-set_country_flag = kadkohii_country
+set_country_flag = kadkohi_country
