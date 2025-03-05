@@ -1,0 +1,302 @@
+country_event = {
+    id = 50115
+    title = "EVT50115NAME"
+    desc = "EVT50115DESC"
+    #picture = "Bandits"
+  
+	trigger = {
+		civilized = yes
+		NOT = { colonial_policy = no_colonial_policy }
+		any_owned_province = {
+			OR = {
+				AND = {
+					NOT = { has_province_modifier = exploitation }
+					is_colonial = yes
+				}
+				AND = {
+					NOT = { has_province_modifier = settler_colonization }
+					is_colonial = yes
+				}
+				AND = {
+					NOT = { has_province_modifier = self_rule }
+					is_colonial = yes
+				}
+			}
+		}
+	}
+				
+	mean_time_to_happen = {
+        months = 1
+	}
+
+    option = {
+        name = "EVT500115PTA" 
+		if = {
+			limit = {
+				THIS = {
+					colonial_policy = exploitation
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						is_colonial = yes
+						NOT = { has_province_modifier = exploitation }
+					}
+					add_province_modifier = {
+						name = exploitation
+						duration = 36525
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					colonial_policy = settlement
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						is_colonial = yes
+						NOT = { has_province_modifier = settler_colonization }
+					}
+					add_province_modifier = {
+						name = settler_colonization
+						duration = 36525
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					colonial_policy = self_rule
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						is_colonial = yes
+						NOT = { has_province_modifier = self_rule }
+					}
+					add_province_modifier = {
+						name = self_rule
+						duration = 36525
+					}
+				}
+			}
+		}
+    }
+}
+
+country_event = {
+    id = 50116
+    title = "EVT50116NAME"
+    desc = "EVT50116DESC"
+    #picture = "Bandits"
+  
+	trigger = {
+		civilized = yes
+		any_owned_province = {
+			OR = {
+				AND = {
+					colonial_policy = settlement
+					OR = {
+						has_province_modifier = exploitation
+						has_province_modifier = self_rule
+					}
+					is_colonial = yes
+				}
+				AND = {
+					colonial_policy = exploitation
+					OR = {
+						has_province_modifier = settlement
+						has_province_modifier = self_rule
+					}
+					is_colonial = yes
+				}
+				AND = {
+					colonial_policy = self_rule
+					OR = {
+						has_province_modifier = exploitation
+						has_province_modifier = settlement
+					}
+					is_colonial = yes
+				}
+				AND = {
+					colonial_policy = no_colonial_policy
+					OR = {
+						has_province_modifier = exploitation
+						has_province_modifier = settlement
+						has_province_modifier = self_rule
+					}
+					is_colonial = yes
+				}
+			}
+		}
+	}
+				
+	mean_time_to_happen = {
+        months = 1
+	}
+
+    option = {
+        name = "EVT500116PTA" 
+		
+		if = {
+			limit = {
+				THIS = {
+					colonial_policy = no_colonial_policy
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						is_colonial = yes
+						#NOT = { has_province_modifier = self_rule }
+					}
+					remove_province_modifier = exploitation
+					remove_province_modifier = self_rule
+					remove_province_modifier = settlement
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					colonial_policy = settlement
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						is_colonial = yes
+						#NOT = { has_province_modifier = self_rule }
+					}
+					remove_province_modifier = exploitation
+					remove_province_modifier = self_rule
+					#add_province_modifier = {
+					#	name = settlement
+					#	duration = 36525
+					#}
+				}
+			}
+		}
+		
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = settlement
+#					any_owned_province = {
+#						OR = {
+#							has_province_modifier = exploitation
+#							has_province_modifier = self_rule
+#						}
+#						is_colonial = yes
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = settlement }
+#					}
+#					remove_province_modifier = exploitation
+#					remove_province_modifier = self_rule
+#					add_province_modifier = {
+#						name = settlement
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}	
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = exploitation
+#					any_owned_province = {
+#						OR = {
+#							has_province_modifier = settlement
+#							has_province_modifier = self_rule
+#						}
+#						is_colonial = yes
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = exploitation }
+#					}
+#					remove_province_modifier = settlement
+#					remove_province_modifier = self_rule
+#					add_province_modifier = {
+#						name = exploitation
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}
+#
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = self_rule
+#					any_owned_province = {
+#						OR = {
+#							has_province_modifier = settlement
+#							has_province_modifier = exploitation
+#						}
+#						is_colonial = yes
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = self_rule }
+#					}
+#					remove_province_modifier = exploitation
+#					remove_province_modifier = settlement
+#					add_province_modifier = {
+#						name = self_rule
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = no_colonial_policy
+#					any_owned_province = {
+#						OR = {
+#							has_province_modifier = exploitation
+#							has_province_modifier = self_rule
+#							has_province_modifier = settlement
+#						}
+#						is_colonial = yes
+#					}
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#					}
+#					remove_province_modifier = exploitation
+#					remove_province_modifier = self_rule
+#					remove_province_modifier = settlement
+#				}
+#			}
+#		}
+    }
+}

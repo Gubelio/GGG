@@ -218,3 +218,15 @@ locust_threat = {
 bondsman_control = {
     icon = 19
 }
+
+exploitation = {
+    icon = 17
+}
+
+settler_colonization = {
+    icon = 19
+}
+
+self_rule = {
+    icon = 17
+}
