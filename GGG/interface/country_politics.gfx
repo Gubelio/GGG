@@ -186,6 +186,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_politics_conscription"
+		texturefile = "gfx\\interface\\politics_conscription.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_colonial_policy"
+		texturefile = "gfx\\interface\\politics_colonial_policy.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_politics_decision_bg"
 		texturefile = "gfx\\interface\\politics_decision_bg.dds"
 	}
