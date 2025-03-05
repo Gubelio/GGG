@@ -1752,3 +1752,189 @@ bondsman_rebels = {
     }
 	
 }
+
+###################################
+# Native Rebels
+###################################
+native_rebels = {
+    icon = 7
+
+    area = nation                     # Stays within the nation
+
+    # <this is the government in the country> = <this is what the rebels want>
+    government = {
+        paternalistic_council = paternalistic_council
+        sublime_synod = sublime_synod
+        theocracy = theocracy
+        statist_bureaucracy = statist_bureaucracy
+        aristocratic_commonwealth = aristocratic_commonwealth
+        princely_despotate = princely_despotate
+    }
+
+    defection = none                    # Will defect to the "best" alternative.
+    independence = none                # Does not strive for independence
+    defect_delay = 18
+
+    ideology = free_yoker
+
+    allow_all_cultures = yes
+    allow_all_religions = yes
+    allow_all_ideologies = yes
+
+    resilient = yes                    # Does not disbands on retreat
+    reinforcing = yes                # Receives reinforcements
+    general = yes                    # Uses generals
+    smart = yes                        # Assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do not remain after enforcing demands.
+
+    occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
+
+    # triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
+    will_rise =
+    {
+        factor = 0.5
+        modifier = {
+            war = yes
+            factor = 0.8
+        }
+        modifier = {
+            factor = 0.85
+            average_militancy = 4
+        }
+        modifier = {
+            factor = 0.75
+            average_militancy = 6
+        }
+        modifier = {
+            factor = 0.5
+            average_militancy = 8
+        }
+    }
+
+    # The rebel type with the highest modifier for this pop gets picked
+    spawn_chance = {
+        factor = 3
+
+        modifier = {
+            factor = 0
+           type = slaves	
+        }
+
+		modifier = {
+            factor = 0
+			type = thralls	
+        }
+
+        modifier = {
+            factor = 0
+            country = {
+                NOT = { has_country_flag = post_colonial_country }
+            }
+        }
+        modifier = {
+            factor = 0
+            NOT = {
+                OR = {
+                    is_culture_group = yat-pugurian
+                    culture = wushauw
+					culture = asyum
+                }
+            }
+        }
+        modifier = {
+            factor = 1.05
+            pop_majority_ideology = conservative
+        }
+        modifier = {
+            factor = 1.1
+            pop_majority_ideology = liberationist
+        }
+        modifier = {
+            factor = 1.2
+            pop_majority_ideology = theocratist
+        }
+    }
+
+     #This is checked for EACH province in the Area of Operations
+    movement_evaluation = {
+        factor = 1
+        modifier = {
+            factor = 0.1
+            units_in_province = 1
+            NOT = { is_capital = yes }
+        }
+        modifier = {
+            factor = 0.001
+            controlled_by = REB
+            NOT = { is_capital = yes }
+        }
+        modifier = {
+            factor = 1.5
+            average_militancy = 4
+        }
+        modifier = {
+            factor = 1.5
+            average_militancy = 6
+        }
+        modifier = {
+            factor = 1.5
+            average_militancy = 8
+        }
+        modifier = {
+            factor = 5.0
+            is_capital = yes
+        }
+    }
+
+     # Province Scope
+     siege_won_trigger = {
+        NOT = { has_province_modifier = war_torn }
+     }
+
+    siege_won_effect = {
+        add_province_modifier = {
+            name = war_torn
+            duration = 365
+        }
+    }
+
+
+    # Country scope
+    demands_enforced_trigger = {
+        OR = {
+            capital_scope = {
+                controlled_by = REB
+                province_control_days = 90
+            }
+            NOT = {
+                any_owned_province = {
+                    is_colonial = no
+                    controlled_by = THIS
+                }
+            }
+        }
+    }
+    demands_enforced_effect = {
+        clr_country_flag = theocratic_government
+        clr_country_flag = communist_gov
+        clr_country_flag = absolute_monarchy_gov
+        clr_country_flag = semi_constitutional_monarchy_gov
+        clr_country_flag = constitutional_monarchy_gov
+        clr_country_flag = democracy_gov
+        clr_country_flag = presidential_dictatorship_gov
+        clr_country_flag = fascist_gov
+        clr_country_flag = anarcho_liberal_gov
+        any_country = {
+            limit = { is_culture_group = THIS }
+            leave_alliance = THIS
+            relation = { who = THIS value = -50 }
+            diplomatic_influence = { who = THIS value = -50 }
+        }
+        add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+        prestige_factor = -0.2
+        country_event = 33339
+    }
+}

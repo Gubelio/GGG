@@ -1381,3 +1381,88 @@ country_event = {
 		set_global_flag = KVcolonialTWO
     }
 }
+
+#The Colonial Regime Overthrown! - REDO
+country_event = {
+    id = 33339
+
+    is_triggered_only = yes
+
+    title = "EVTNAME33339"
+    desc = "EVTDESC33339"
+    #picture = "unite"
+
+    option = {
+        name = "EVT33339OPTA"
+        clr_country_flag = post_colonial_country
+		if = {
+			limit = {
+				tag = JTN
+			}
+			primary_culture = asyum
+		}
+		if = {
+			limit = {
+				tag = WSW
+			}
+			primary_culture = wushauw
+		}
+		if = {
+			limit = {
+				tag = PAU
+			}
+			primary_culture = pugure
+		}
+        any_pop = {
+            militancy = -6
+        }
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+            }
+            consciousness = 10
+            militancy = 3
+        }
+        random_country = {
+            limit = {
+                is_sphere_leader_of = THIS
+                NOT = { is_our_vassal = THIS }
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+            leave_alliance = THIS
+        }
+        random_country = {
+            limit = { is_our_vassal = THIS }
+            release_vassal = THIS
+            leave_alliance = THIS
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+            relation = {
+                who = THIS
+                value = -50
+            }
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = {
+                    vassal_of = THIS
+                    substate_of = THIS
+                    in_sphere = THIS
+                }
+            }
+            relation = { who = THIS value = -100 }
+            leave_alliance = THIS
+        }
+    }
+}

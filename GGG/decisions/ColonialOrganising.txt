@@ -60,6 +60,13 @@ organize_juruntine = {
 			1925 = { add_core = JTN }
 			1923 = { add_core = JTN }
 			1924 = { add_core = JTN }
+			
+			JTN = {
+				civilized = yes
+				set_country_flag = post_colonial_country
+				primary_culture = THIS
+				add_accepted_culture = asyum
+			}
 		}
 		
 }
@@ -96,7 +103,12 @@ organize_wushaw = {
 			REG_301 = { add_core = WSW }
 			REG_307 = { add_core = WSW }
 				
-			
+			WSW = {
+				civilized = yes
+				set_country_flag = post_colonial_country
+				primary_culture = THIS
+				add_accepted_culture = wushauw
+			}
 		}
 		
 }
@@ -158,6 +170,14 @@ organize_paukzhodo = {
 			REG_286 = { add_core = PAU }
 			REG_287 = { add_core = PAU }
 			REG_288 = { add_core = PAU }
+			
+			PAU = {
+				civilized = yes
+				set_country_flag = post_colonial_country
+				primary_culture = THIS
+				add_accepted_culture = pugure
+				add_accepted_culture = yattae
+			}
 			
 		}
 		
