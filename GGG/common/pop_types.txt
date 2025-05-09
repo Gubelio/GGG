@@ -289,8 +289,7 @@ demotion_chance =
 }
 
 #general migration chance mtth, same for all pops
-migration_chance = 
-{
+migration_chance = {
 	factor = 1
 	
 	group = {
@@ -422,6 +421,10 @@ colonialmigration_chance =
 		}
 	}
 
+	modifier = {
+		factor = 0.5
+		has_province_modifier = settler_colonialism
+	}
 
 	modifier = {
 		factor = -0.3

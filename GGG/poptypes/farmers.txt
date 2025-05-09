@@ -383,6 +383,21 @@ promote_to = {
                 serfs = 0.4
             }
         }
+		
+        modifier = {
+		    factor = 2
+            is_accepted_culture = no
+			state_scope = { is_colonial = yes }
+			country = {
+				colonial_policy = exploitation
+				OR = {
+					slavery = gradual_abolition
+					slavery = no_slavery
+				}
+				NOT = { debt_law = serfdom }
+			}
+		}
+		
     }
 
     artisans = {
@@ -1139,9 +1154,8 @@ promote_to = {
         }
     }
 
-	# experimental slavery idea
     slaves = {
-        factor = 0.002 #Negligable but will be made relevant by a national focus - hopefully
+        factor = 0.002 #Negligable but will be made relevant by a national focus
 
         modifier = {
             is_accepted_culture = no
@@ -1154,6 +1168,22 @@ promote_to = {
 				}
 			}
         }
+		
+        modifier = {
+		    factor = 10
+            is_accepted_culture = no
+			state_scope = { is_colonial = yes }
+			country = {
+				colonial_policy = exploitation
+				NOT = {
+					OR = {
+						slavery = gradual_abolition
+						slavery = no_slavery
+					}
+				}
+			}
+        }
+		
     }
 	#
 }

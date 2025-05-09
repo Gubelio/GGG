@@ -221,12 +221,19 @@ bondsman_control = {
 
 exploitation = {
     icon = 17
+    local_RGO_throughput = 0.05
+    local_RGO_output = 0.05
+	assimilation_rate = -0.1
 }
 
 settler_colonization = {
+    immigrant_attract = 0.10
+	assimilation_rate = 0.05
+	administrative_efficiency_modifier = 0.05
     icon = 19
 }
 
 self_rule = {
-    icon = 17
+	assimilation_rate = -0.15
+    icon = 7
 }
