@@ -877,3 +877,38 @@ province_event = {
 		}
     }
 }
+
+#country_event = {
+#	id = 50114
+#	title = "EVTNAME50114" #Free-Yoker rebellion ENDS
+#	desc = "EVTDESC50114"
+#	
+#    trigger = {
+#		has_country_flag = free_yoker_revolution
+#    }
+#	
+#	mean_time_to_happen = {
+#        months = 60 #~5 years
+#		modifier = {
+#           factor = 0.7
+#		   has_country_flag = tepid_suppression
+#		}
+#		modifier = {
+#           factor = 0.01
+#			government = paternalistic_council
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVT50114OPTA"
+#        clr_country_flag = free_yoker_revolution
+#        remove_country_modifier = yoker_agitation
+#        clr_country_flag = violent_supression
+#        clr_country_flag = tepid_suppression
+#	}
+#	
+#}
+
+###############
+### POUMNIA ###
+###############
