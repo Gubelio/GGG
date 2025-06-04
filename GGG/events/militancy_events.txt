@@ -614,7 +614,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 150
+        months = 320 #150
         modifier = {
             factor = 1.5
 			NOT = {

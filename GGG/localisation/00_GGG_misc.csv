@@ -203,17 +203,17 @@ sevuma;Sevuma;;;;;;;;;;;;;x
 vupuyti;Vupuyti;;;;;;;;;;;;;x
 paguyti;Paguyti;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_NORTH_AMERICA;Ishahfazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List 即Ishahfazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List  YIshahfazhi W countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_OCEANIA;Paukzhodo;;;;;;;;;;;;;
-DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List 即Paukzhodi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_OCEANIA_TOOLTIP;List  YPaukzhodi W countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_EUROPE;Bafozh;;;;;;;;;;;;;x
-DIPLOMACY_FILTER_EUROPE_TOOLTIP;List 即Bafozhi劬 countries;;;;;;;;;;;;;x
+DIPLOMACY_FILTER_EUROPE_TOOLTIP;List  YBafozhi W countries;;;;;;;;;;;;;x
 DIPLOMACY_FILTER_SOUTH_AMERICA;Kovazh;;;;;;;;;;;;;
-DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List 即Kovazhi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List  YKovazhi W countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_ASIA;Gofakidzia;;;;;;;;;;;;;
-DIPLOMACY_FILTER_ASIA_TOOLTIP;List 即Gofakidzi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_ASIA_TOOLTIP;List  YGofakidzi W countries;;;;;;;;;;;;;
 DIPLOMACY_FILTER_AFRICA;Shobgizob;;;;;;;;;;;;;
-DIPLOMACY_FILTER_AFRICA_TOOLTIP;List 即Shobgizobi劬 countries;;;;;;;;;;;;;
+DIPLOMACY_FILTER_AFRICA_TOOLTIP;List  YShobgizobi W countries;;;;;;;;;;;;;
 south_america;Kovazh;;;;;;;;;;;;;x
 north_america;Ishahfazh;;;;;;;;;;;;;x
 asia;Gofakidzia;;;;;;;;;;;;;x
@@ -622,27 +622,27 @@ loss_of_control;Loss of Control;;;;;;;;;;;;;x
 take_capital;Take Capital;;;;;;;;;;;;;x
 take_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
 take_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
-take_capital_desc;Aquire an enemy's 即capital state劬;;;;;;;;;;;;;x
+take_capital_desc;Aquire an enemy's  Ycapital state W;;;;;;;;;;;;;x
 negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_NAME;Negotiated Transfer of $SECOND$ Land;;;;;;;;;;;;;x
 negotiated_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$;;;;;;;;;;;;;x
-negotiated_transfer_desc;Transfer another player's 即state劬 to your domain;;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer another player's  Ystate W to your domain;;;;;;;;;;;;;x
 conquest_minuscule;Minuscule Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_MINUSCULE_NAME;$ORDER$Minuscule Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_minuscule_desc;Annex a single-state 即country劬 with less than 50,000 pops;;;;;;;;;;;;;x
+conquest_minuscule_desc;Annex a single-state  Ycountry W with less than 50,000 pops;;;;;;;;;;;;;x
 conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_tiny_desc;Annex a single-state 即country劬 with less than 200,000 pops;;;;;;;;;;;;;x
+conquest_tiny_desc;Annex a single-state  Ycountry W with less than 200,000 pops;;;;;;;;;;;;;x
 conquest_low;Lowly Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_LOW_NAME;$ORDER$Lowly Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_low_desc;Annex a single-state 即country劬 with less than 500,000 pops;;;;;;;;;;;;;x
+conquest_low_desc;Annex a single-state  Ycountry W with less than 500,000 pops;;;;;;;;;;;;;x
 in_bankrupcy;In Bankruptcy;;;;;;;;;;;;;x
 in_disrepair;In Disrepair;;;;;;;;;;;;;x
 ancestral_swamp_farms;Ancestral Swamp Farming;;;;;;;;;;;;;x
@@ -654,8 +654,8 @@ hohraeth;Hohraeth;;;;;;;;;;;;;x
 ighoureth;Ighoureth;;;;;;;;;;;;;x
 hrusaan;Hrusaan;;;;;;;;;;;;;x
 nubiju;Nubiju;;;;;;;;;;;;;x
-roshudbi;R飉hudbi;;;;;;;;;;;;;x
-goshaja;G飉haja;;;;;;;;;;;;;x
+roshudbi;R shudbi;;;;;;;;;;;;;x
+goshaja;G shaja;;;;;;;;;;;;;x
 umodi;Umodi;;;;;;;;;;;;;x
 padud;Padud;;;;;;;;;;;;;x
 mnashi;Mnashi;;;;;;;;;;;;;x
@@ -684,26 +684,26 @@ pruuntish_submission_setup;Poumnia is attempting to puppet, sphere and restore W
 pruuntish_submission_desc;Poumnia is attempting to puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
 NORMAL_WAR_NAME_REPARATIONS;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;
 AGRESSION_WAR_NAME_REPARATIONS;$ORDER$War of $FIRST$ Aggression;;;;;;;;;;;;;
-war_reparations;Reparations;;;;;;;;;;;;;
-war_reparations_desc;Demand 即reparations劬 from another country.;;;;;;;;;;;;;
-war_reparations_short;Demand Reparations;;;;;;;;;;;;;
-war_reparations_setup;Demand 即reparations劬 from another country.;;;;;;;;;;;;;
+war_reparations;Extract Tribute;;;;;;;;;;;;;
+war_reparations_desc;Extract Ytribute W from another country.;;;;;;;;;;;;;
+war_reparations_short;Extract Tribute;;;;;;;;;;;;;
+war_reparations_setup;Extract Ytribute W from another country.;;;;;;;;;;;;;
 take_colonial_concession_capital;Demand Capital;;;;;;;;;;;;;x
 take_colonial_concession_capital_short;Acquire $STATE$;;;;;;;;;;;;;x
 take_colonial_concession_capital_setup;Acquire $STATE$;;;;;;;;;;;;;x
-take_colonial_concession_capital_desc;Aquire a primitive enemy's 即capital state劬;;;;;;;;;;;;;x
+take_colonial_concession_capital_desc;Aquire a primitive enemy's  Ycapital state W;;;;;;;;;;;;;x
 colonial_conquest_minuscule;Establish Minuscule Protectorate;;;;;;;;;;;;;x
 colonial_conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_minuscule_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
-colonial_conquest_minuscule_desc;Annex a single-state 即uncivilized country劬 with less than 50,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_minuscule_desc;Annex a single-state  Yuncivilized country W with less than 50,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 colonial_conquest_tiny;Establish Tiny Protectorate;;;;;;;;;;;;;x
 colonial_conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_tiny_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
-colonial_conquest_tiny_desc;Annex a single-state 即uncivilized country劬 with less than 200,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_tiny_desc;Annex a single-state  Yuncivilized country W with less than 200,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 colonial_conquest_low;Establish Lowly Protectorate;;;;;;;;;;;;;x
 colonial_conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_low_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
-colonial_conquest_low_desc;Annex a single-state 即uncivilized country劬 with less than 500,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_low_desc;Annex a single-state  Yuncivilized country W with less than 500,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 manowar;Sea-Castle;;;;;;;;;;;;;x
 ironclad;Pitpot;;;;;;;;;;;;;x
 commerce_raider;Brigand;;;;;;;;;;;;;x
@@ -730,16 +730,16 @@ landlocked_nation;Landlocked Nation;;;;;;;;;;;;;x
 rail_focus;Undesirable Populations;;;;;;;;;;;;;x
 encourage_enslavement_focus;Facilitate Enslavement of Unnacepted Populations;;;;;;;;;;;;;x
 forced_assimilation_focus;Forced Assimilation;;;;;;;;;;;;;x
-liberationist_focus;Party loyalty towards 即liberationist劬;;;;;;;;;;;;;x
-liberationist_focus_short;即Liberationist劬 loyalty;;;;;;;;;;;;;x
-free_yoker_focus;Party loyalty towards 即free-yoker劬;;;;;;;;;;;;;x
-free_yoker_focus_short;即Free-Yoker劬 loyalty;;;;;;;;;;;;;x
-statist_focus;Party loyalty towards 即statist劬;;;;;;;;;;;;;x
-statist_focus_short;即Statist 劬loyalty;;;;;;;;;;;;;x
-absolutist_focus;Party loyalty towards 即absolutist劬;;;;;;;;;;;;;x
-absolutist_focus_short;即Absolutist劬 loyalty;;;;;;;;;;;;;x
-theocratist_focus;Party loyalty towards 即theocratist劬;;;;;;;;;;;;;x
-theocractist_focus_short;即Theocratist劬 loyalty;;;;;;;;;;;;;x
+liberationist_focus;Party loyalty towards  Yliberationist W;;;;;;;;;;;;;x
+liberationist_focus_short; YLiberationist W loyalty;;;;;;;;;;;;;x
+free_yoker_focus;Party loyalty towards  Yfree-yoker W;;;;;;;;;;;;;x
+free_yoker_focus_short; YFree-Yoker W loyalty;;;;;;;;;;;;;x
+statist_focus;Party loyalty towards  Ystatist W;;;;;;;;;;;;;x
+statist_focus_short; YStatist  Wloyalty;;;;;;;;;;;;;x
+absolutist_focus;Party loyalty towards  Yabsolutist W;;;;;;;;;;;;;x
+absolutist_focus_short; YAbsolutist W loyalty;;;;;;;;;;;;;x
+theocratist_focus;Party loyalty towards  Ytheocratist W;;;;;;;;;;;;;x
+theocractist_focus_short; YTheocratist W loyalty;;;;;;;;;;;;;x
 PLURALITY_EXPLANATION;Plurality is the shared level of consciousness in our country. The memories of the past victories and defeats in the name of liberation remind our people of what could be.;;;;;;;;;;;;;x
 REVANCHISM_EXPLANATION;Revanchism is the yearning for the return for our rightful land. Our people are ready to make greater sacrifices for their return.;;;;;;;;;;;;;x
 small_but_efficient;Small But Efficient;;;;;;;;;;;;;x
@@ -750,7 +750,7 @@ kusii;Kusii;;;;;;;;;;;;;x
 dkatkang;Dkatkang;;;;;;;;;;;;;x
 juewaeg;Juewaeg;;;;;;;;;;;;;x
 LEDGER_COUNTRY_NATIONALVALUE;National Objective;;;;;;;;;;;;;x
-POLITICS_NATIONALVALUE_TOOLTIP;Our national objective is 即$NATIONALVALUE$劬.\n;;;;;;;;;;;;;x
+POLITICS_NATIONALVALUE_TOOLTIP;Our national objective is  Y$NATIONALVALUE$ W.\n;;;;;;;;;;;;;x
 switched_production;Switched Production;;;;;;;;;;;;;x
 rashuum;Rashuum;;;;;;;;;;;;;x
 assimilation;Assimilation;;;;;;;;;;;;;x
