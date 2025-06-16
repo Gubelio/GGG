@@ -634,6 +634,124 @@ country_event = { #### BONDSMANSETUP #####
 	option = {
 		name = "EVT50116OPTA"
 		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = anuvo
+					}
+				}
+			}
+			THIS = {
+				primary_culture = anuvo
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = shagmodt
+					}
+				}
+			}
+			THIS = {
+				primary_culture = shagmodt
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = miegpaup
+					}
+				}
+			}
+			THIS = {
+				primary_culture = miegpaup
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = ghechi
+					}
+				}
+			}
+			THIS = {
+				primary_culture = ghechi
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = paguyti
+					}
+				}
+			}
+			THIS = {
+				primary_culture = paguyti
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = vupuyti
+					}
+				}
+			}
+			THIS = {
+				primary_culture = vupuyti
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = dehuogi
+					}
+				}
+			}
+			THIS = {
+				primary_culture = dehuogi
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					THIS = exists
+					slaves = {
+						pop_majority_culture  = eshemi
+					}
+				}
+			}
+			THIS = {
+				primary_culture = eshemi
+			}
+		}
+		
+		
 		social_reform = no_slavery
 		social_reform = bankruptcy
 		social_reform = incarceration

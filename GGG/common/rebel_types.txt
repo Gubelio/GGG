@@ -1633,6 +1633,7 @@ bondsman_rebels = {
             AND = {
 				is_primary_culture = yes
 				type = serfs
+				money = 2
 			}
         }
 		
@@ -1641,6 +1642,25 @@ bondsman_rebels = {
             AND = {
 				is_culture_group = THIS
 				type = serfs
+				money = 2
+			}
+        }
+		
+		modifier = {
+            factor = 0.3
+            AND = {
+				is_primary_culture = yes
+				type = serfs
+				NOT = { money = 2 }
+			}
+        }
+		
+		modifier = {
+            factor = 0.3
+            AND = {
+				is_culture_group = THIS
+				type = serfs
+				NOT = { money = 2 }
 			}
         }
 		
@@ -1693,6 +1713,14 @@ bondsman_rebels = {
             factor = 0.01
             is_capital = yes
         }
+		modifier = {
+			factor = 1.2
+			OR = {
+				has_pop_type = slaves
+				has_pop_type = thralls
+			}
+		
+		}
     }
 
      # Province Scope
