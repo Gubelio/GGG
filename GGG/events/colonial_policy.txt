@@ -161,11 +161,31 @@ country_event = {
 					limit = {
 						is_colonial = yes
 						NOT = { has_province_modifier = exploitation }
+                        has_pop_type = farmers
+                        has_pop_type = labourers
 					}
 					add_province_modifier = {
 						name = exploitation
 						duration = 36525
 					}
+					#if = {
+					#	limit = {
+					#		THIS = {
+					#			slavery = yes
+					#		}
+					#	}
+					#	any_pop = { 
+					#		limit = {
+					#			is_accepted_culture = no
+					#			OR = {
+					#				type = farmers
+					#				type = labourers
+					#			}
+					#		}
+					#		pop_type = slaves
+					#	}
+					#}
+					
 				}
 			}
 		}
