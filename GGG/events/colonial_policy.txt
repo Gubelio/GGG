@@ -208,50 +208,6 @@ country_event = {
 						name = exploitation
 						duration = 36525
 					}
-					if = {
-						limit = {
-							THIS = {
-								slavery = yes
-							}
-						}
-						THIS = {
-							any_owned = {
-								limit = { 
-									has_pop_type = farmers
-									is_colonial = yes
-									NOT = { continent = north_america }
-									NOT = {
-										OR = { 
-											province_id = 122 
-											province_id = 123
-											province_id = 919
-											province_id = 921 
-											province_id = 920 
-											province_id = 922 
-											province_id = 923
-											province_id = 924 
-											province_id = 925 
-											province_id = 926 
-											province_id = 1391 
-											province_id = 1495 
-											province_id = 1927 
-											province_id = 1312 
-											province_id = 1313 
-											province_id = 1314 
-										}
-									}
-								}
-								any_pop = { 
-									limit = {
-										is_accepted_culture = no
-										type = farmers
-									}
-									pop_type = slaves
-						
-								}
-							}
-						}
-					}
 					
 				}
 			}
@@ -290,6 +246,73 @@ country_event = {
 					add_province_modifier = {
 						name = self_rule
 						duration = 36525
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					OR = {
+						slavery = yes_slavery
+						slavery = code_of_rights
+						slavery = public_ownership
+					}
+					colonial_policy = exploitation
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = { 
+						OR = {
+							has_pop_type = farmers
+							has_pop_type = labourers
+						}
+						has_pop_type = slaves
+						is_colonial = yes
+						NOT = { continent = north_america }
+						NOT = {
+							OR = { 
+								province_id = 122 
+								province_id = 123
+								province_id = 919
+								province_id = 921 
+								province_id = 920 
+								province_id = 922 
+								province_id = 923
+								province_id = 924 
+								province_id = 925 
+								province_id = 926 
+								province_id = 1391 
+								province_id = 1495 
+								province_id = 1927 
+								province_id = 1312 
+								province_id = 1313 
+								province_id = 1314 
+							}
+						}
+						NOT = {
+							OR = {
+								is_core = NHQ
+								is_core = PUS
+								is_core = ORH
+								is_core = FCH
+								is_core = QOO
+							}
+						}
+					}
+					any_pop = { 
+						limit = {
+							OR = {
+								type = farmers
+								type = labourers
+							}
+							is_accepted_culture = THIS
+							#NOT = { money = 1 }
+						}
+						pop_type = slaves
+						militancy  = 10
+			
 					}
 				}
 			}
