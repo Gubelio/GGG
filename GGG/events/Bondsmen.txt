@@ -624,156 +624,28 @@ country_event = {
 }
 
 
-#country_event = { #### BONDSMANSETUP #####
-#	id = 50116
-#	title = "EVTNAME50116" 
-#	desc = "EVTDESC50116"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "EVT50116OPTA"
-#		if = {
-#			limit = {
-#				THIS = {
-#					slaves = {
-#						pop_majority_culture = miegpaup
-#					}
-#				}
-#			}
-#			THIS = {
-#				primary_culture = miegpaup
-#			}
-#			
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					slaves = {
-#						pop_majority_culture = shagmodt
-#					}
-#				}
-#			}
-#			THIS = {
-#				primary_culture = shagmodt
-#			}
-#			
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					slaves = {
-#						pop_majority_culture = anuvo
-#					}
-#				}
-#			}
-#			THIS = {
-#				primary_culture = anuvo
-#			}
-#			
-#		}
-#		
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					slaves = {
-#						pop_majority_culture = dehuogi
-#					}
-#				}
-#			}
-#			THIS = {
-#				primary_culture = dehuogi
-#			}
-#			
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					slaves = {
-#						pop_majority_culture = eshemi
-#					}
-#				}
-#			}
-#			THIS = {
-#				primary_culture = eshemi
-#			}
-#			
-#		}
-#		
-#		social_reform = no_slavery
-#		social_reform = bankruptcy
-#		social_reform = incarceration
-#		social_reform = emigration_permitted
-#		
-#		political_reform = thralldom_outlawed
-#		political_reform = appointed_bureaucrats
-#		political_reform = appointed_justices
-#		political_reform = private_landownership
-#		political_reform = tribal_assembly
-#		political_reform = all_voting_pops
-#		
-#	}
-#
-#}
+country_event = { #### BONDSMANSETUP #####
+	id = 50116
+	title = "EVTNAME50116" 
+	desc = "EVTDESC50116"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50116OPTA"
+		
+		social_reform = no_slavery
+		social_reform = bankruptcy
+		social_reform = incarceration
+		social_reform = emigration_permitted
+		
+		political_reform = thralldom_outlawed
+		political_reform = appointed_bureaucrats
+		political_reform = appointed_justices
+		political_reform = private_landownership
+		political_reform = tribal_assembly
+		political_reform = all_voting_pops
+		
+	}
 
-
-
-#country_event = { ##### BACKUP
-#	id = 50114 
-#	title = "EVTNAME50114" 
-#	desc = "EVTDESC50114"
-#	#picture = "locust"
-#	
-#	is_triggered_only = yes
-#	
-#	
-#	option = {
-#		name = "EVT50114OPTA"
-#		if = {
-#			limit = {
-#				THIS = {
-#					AND = {
-#						NOT = { exists = D40 }
-#						NOT = { has_global_flag = 1stbondsmen }
-#						NOT = { has_global_flag = 2ndbondsmen }
-#					}
-#				}
-#			}
-#			THIS = {
-#				any_owned = {
-#					limit = { 
-#						has_province_modifier = bondsman_control
-#					}
-#					add_core = D40
-#				}
-#				release = D40
-#				set_global_flag = 1stbondsmen
-#			}
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					AND = {
-#						NOT = { exists = D41 }
-#						NOT = { has_global_flag = 2ndbondsmen }
-#					}
-#				}
-#			}
-#			THIS = {
-#				any_owned = {
-#					limit = { 
-#						has_province_modifier = bondsman_control
-#					}
-#					add_core = D41
-#				}
-#				release = D41
-#				set_global_flag = 2ndbondsmen
-#			}
-#		}
-#	}
-#}
+}
