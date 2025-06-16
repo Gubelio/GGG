@@ -20,9 +20,7 @@ party_issues = {
 	}
 	economic_policy = { #industrial policy
 		laissez_faire = { #agrarianism
-			max_tax = 0.5
-			factory_owner_cost = 0.3
-			factory_output = 0.05
+			factory_owner_cost = -1	#negative costs, can't build.
 			
 			rules = {
 				build_factory = no
@@ -39,7 +37,7 @@ party_issues = {
 				pop_build_factory_invest = no
 				pop_expand_factory_invest = no
 				open_factory_invest = no
-				build_railway_invest = yes
+				build_railway_invest = no
 				can_invest_in_pop_projects = no
 			}
 		}
