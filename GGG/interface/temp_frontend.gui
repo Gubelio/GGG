@@ -686,7 +686,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_POUMNIA"
 					format = left
-					maxWidth = 150
+					maxWidth = 210
 					maxHeight = 150
 				}
 				
@@ -716,7 +716,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_VOKONAZH"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -746,7 +746,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_JIISHANAG"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -776,7 +776,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_GAUBJA"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -806,7 +806,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_VEYETHU"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -836,7 +836,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_VAFAUT"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -866,7 +866,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_BOGORUG"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 			
@@ -896,7 +896,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_MAMATOUKAT"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 				
@@ -926,7 +926,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_RANNU"
 					format = left
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 150
 				}
 

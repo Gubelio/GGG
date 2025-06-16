@@ -445,7 +445,7 @@ PAU_adj;Paukzhodan;;;;;;;;;;;;;x
 FE_BASIC;The Setting;x
 FE_MEDIUM;Major Nations;x
 FE_ADVANCED;Possible Futures;x
-FE_SETTING_BODY_1;Gozomedes Great Game (GGG) is a Victoria II mod set in a fictional world populated by alternate hominids, largely based on the Australopithecus. It features a variety of different species and cultures of hominidae across a number of major continents. The world of GGG consequently and concurrently features a great number of differences from our world. An absence of universalism and commonality has left this world disinclined to the emergence of conceptions such as natural laws, the rights of nations, universal diplomatic practices, detente, constructivist diplomatic interaction, the public sphere remains underdeveloped, practices such as ‘thralldom’, the eating of the flesh of other cattle-hominids, remain common, and international encounters persist with trans-cultural hostility and suspicion. Despite this, the mental adroitness of various species has seen the gradual development of industrial technology broadly on par with our world, and, slowly but surely, against the odds, the industrial state emerges in a context greatly different from that of our world.\nRather than Roussouvian jacobinism, or enlightenment universalism, the reactionary state, which in this world is much closer to an unrechtsstaat or nichtreschtsstaat, is confronted by an agrarian communitarian patriarchal yeoman's movement that challenges not the arbitrary use of power in the name of natural rights, but special aristocratic privileges and social inequality in the name of the biological strength of farming communities. Onward, as industrial changes wrack society, society responds not in a socialistic outgrowth of humanitarianism and an aspiration of a teleological historical destiny of material forces, but champions the dynamic capacity of organizational systems such as the state to respond to a brutal and inefficient world of private power and private interests.;x
+FE_SETTING_BODY_1;Gozomedes' Great Game (GGG) is a Victoria II mod set in a fictional world populated by alternate hominids, largely based on the Australopithecus.;x
 FE_SETTING_BODY_2;x;;;;;;;;;;;;;x
 FE_TUTORIAL;GGG Lore;x
 FE_JII;Jiishanâg;x
@@ -462,7 +462,16 @@ protectionism;Discouraged;;;;;;;;;;;;;x
 free_trade;Tolerated;;;;;;;;;;;;;x
 economic_policy;Industrial Policy;;;;;;;;;;;;;x
 laissez_faire;Agrarianism;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+FE_JIISHANAG;Jiishanâg is a large aristocratic commonwealth on the southern coast of Ishahfazh. They are motkohnic in faith, and one of the foremost industrial powers. They have a number of outlying colonial possessions and may form a large confederation.;x
+FE_POUMNIA;Poumnia is the great dynastic theocratic empire that lies on the southern deltas of Ishahfazh. They are a highly unequal society, with massive numbers of bonded people, and while backwards, they excell in arms. They have a number of focused expansion routes.;x
+FE_VOKONAZH;Vokonazh, a large nation lying in the east of Ishahfazh, is the seat of Great Lord Gozomedes. It has a strong army and is in a position to unite the now shattered Kiidnazh, the old Gashdzii Empire.;x
+FE_VEYETHU;Sublime Veyethu is the liberationist rump state that lies on the west of Ishahfazh, lying in the center of the old Athisard lands. These revolutionaries seek to export the liberationist rebellion to their hostile neighbours.;x
+FE_VAFAUT;Vâfaut is a large planation society on the mountain range diving the Poumnian lands from the old Gashdzii empire. They are in a position to form a defensive compact of the west Gashdzii people.;x
+FE_GAUBJA;Gaubja is an industrialised kingdom lying on the temperate eastern shores of Ishahfazh. They have a number of colonial territories, a noble army, and are in a position to form the southern confederacy.;x
+FE_RANNU;Rannu Empire is the rambling, lethargic Unnahu empire of the north. With many subject peoples, they face a decisive moment in consolidating their empire, or succumbing to rebellion and partition.;x
+FE_BOGORUG;Bogorug is an aristocratic commonwealth in the north of Ishahfazh. The embattled ruling minority of Bogoran nomad-descended conquerers rules with tenuous grasp over the Oujoy peasantry, leaning on Rannu support.;x
+FE_MAMATOUKAT;Mamatoukat is a powerful Oujoy kingdom in the northwest of Ishahfazh. They are seen as the natural protectors of the sedentarian faith, and have a number of expension routes to establish regional influence.;x
+jingoism;Expansionism;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
