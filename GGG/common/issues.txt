@@ -437,12 +437,20 @@ political_reforms = {
 
         }
 
-        urban_planning = {
-            factory_cost = -0.02
+		monopoly_corporations = {
+			factory_cost = -0.02
             factory_owner_cost = -0.01
             factory_input = 0.02
+		}
+
+        urban_planning = {
+            factory_cost = -0.03
+            factory_owner_cost = -0.01
+            factory_input = 0.03
 
         }
+		
+		
 
         public_works_division = {
             factory_cost = -0.05

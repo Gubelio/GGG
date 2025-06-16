@@ -22,7 +22,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "ruling_party_pos"
-		position = { x=37 y =236 }
+		position = { x=37 y =231 }
 	}
 	
 	########################
@@ -180,8 +180,8 @@ guiTypes = {
 		### COUNTRY MODIFIERS
 		OverlappingElementsBoxType = {
 			name = "country_modifier_overlappingbox"
-			position = { x = 630 y = -35 }
-			size = { x=200 y= 32 }
+			position = { x = 600 y = -35 }
+			size = { x=250 y= 32 }
 			Orientation = "UPPER_LEFT"
 			format = right
 			spacing = 1.0
@@ -295,7 +295,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "hold_election"
-			position = { x=37 y =263 }
+			position = { x=37 y =259 }
 			quadTextureSprite ="GFX_politics_election_button"
 			buttonText = "HOLD_ELECTION_BUTTON"
 			buttonFont = "vic_18_black"
@@ -384,7 +384,7 @@ guiTypes = {
 		
 		listboxType = {
 			name ="issue_listbox"
-			position = { x = 34 y = 524 }
+			position = { x = 34 y = 526 }
 			backGround=""
 			size = { x=306 y = 80 }
 			Orientation = "UPPER_LEFT"
@@ -405,12 +405,12 @@ guiTypes = {
 		###############
 		windowType = {
 			name = "decision_window"
-			position = { x = 382 y = 18 }
-			size = { x=310 y=140 }
+			position = { x = 382 y = 14 }
+			size = { x=310 y=250 }
 			
 			iconType = {
 				name ="bg"
-				spriteType = "GFX_politics_decision_bg"
+				spriteType = "GFX_politics_decision_bg2"
 				position = { x= 2 y = 34 }
 				Orientation = "UPPER_LEFT"
 			}
@@ -441,7 +441,7 @@ guiTypes = {
 		###############
 		windowType = {
 			name = "movements_window"
-			position = { x = 382 y = 18 }
+			position = { x = 382 y = 13 }
 			size = { x=1024 y=768 }
 			
 			iconType = {
@@ -656,7 +656,7 @@ guiTypes = {
 				iconType = {
 				name = "politics_colonial_policy"
 				spriteType = "GFX_politics_colonial_policy"
-				position = { x= 6 y = 14 }
+				position = { x= 4 y = 13 }
 				Orientation = "UPPER_LEFT"
 					}
 				instantTextBoxType = { 
@@ -712,13 +712,13 @@ guiTypes = {
 				iconType = {
 				 name = "politics_border_policy"
 				 spriteType = "GFX_politics_border_policy"
-				 position = { x= 6 y = 13 }
+				 position = { x= 6 y = 11 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 39 y = 20 }
+					position = { x = 37 y = 20 }
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -740,14 +740,14 @@ guiTypes = {
 				iconType = {
 				 name = "politics_banking_system"
 				 spriteType = "GFX_politics_banking_system"
-				 position = { x= 6 y = 12 }
+				 position = { x= 6 y = 16 }
 				 Orientation = "UPPER_LEFT"
 			 }
 			 
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 39 y = 20 }
+					position = { x = 37 y = 20 }
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 100
@@ -799,7 +799,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_school"
 				 spriteType = "GFX_politics_school"
-				 position = { x= 6 y = 14 }
+				 position = { x= 5 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -827,7 +827,7 @@ guiTypes = {
 				iconType = {
 					name = "politics_thralldom"
 					spriteType = "GFX_politics_thralldom"
-					position = { x= 7 y = 13 }
+					position = { x= 7 y = 11 }
 					Orientation = "UPPER_LEFT"
 				}
 				
@@ -1121,7 +1121,7 @@ guiTypes = {
 				
 				instantTextBoxType = { 
 					name = "reform_name"
-					position = { x = 39 y = 20 }
+					position = { x = 35 y = 20 }
 					font = "vic_18"
 					text = "REFORM_NAME"	
 					maxWidth = 120
@@ -1143,7 +1143,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_scriptural_law"
 				 spriteType = "GFX_politics_scriptural_law"
-				 position = { x = 4 y = 12 }
+				 position = { x = 4 y = 14 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -1171,7 +1171,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_social_privileges"
 				 spriteType = "GFX_politics_social_privileges"
-				 position = { x = 6 y = 15 }
+				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -1199,7 +1199,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_welfare_laws"
 				 spriteType = "GFX_politics_welfare_laws"
-				 position = { x = 6 y = 16 }
+				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
@@ -1284,7 +1284,7 @@ guiTypes = {
 			iconType = {
 				name = "politics_penal_system"
 				spriteType = "GFX_politics_penal_system"
-				position = { x = 6 y = 14 }
+				position = { x = 6 y = 13 }
 				Orientation = "UPPER_LEFT"
 			 }
 			
@@ -1312,7 +1312,7 @@ guiTypes = {
 			iconType = {
 			 name = "politics_emigration_law"
 			 spriteType = "GFX_politics_emigration_law"
-			 position = { x= 7 y = 13 }
+			 position = { x= 7 y = 11 }
 			 Orientation = "UPPER_LEFT"
 		 }
 			
@@ -2078,7 +2078,7 @@ guiTypes = {
 	}
 	
 	########################
-	# IDEOLOGY OPTION      #
+	# IDEOLOGY OPTION - UH Ideology Division    #
 	########################
 	
 	windowType = {
@@ -2204,13 +2204,13 @@ guiTypes = {
 		
 	}
 	
-	
 	##########################
 	# DECISION ENTRY 
 	##########################
 	
 	windowType = {
 		name = "decision_entry"
+		position = { x = 382 y = 20 }
 		size = { x=175 y=126 }
 		moveable = 0
 		
@@ -2502,7 +2502,7 @@ guiTypes = {
 	windowType = {
 		name = "party_issue_option_window"
 		backGround =""
-		size = { x=200 y=16 }
+		size = { x=200 y=15 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -2523,7 +2523,7 @@ guiTypes = {
 			position = { x = 140 y = 0 }
 			font = "vic_18_black"
 			text = " "	
-			maxWidth = 150
+			maxWidth = 200
 			maxHeight = 20	
 		}
 	}

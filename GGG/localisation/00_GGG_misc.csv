@@ -65,8 +65,10 @@ ad_hoc_development;Ad-Hoc Development;;;;;;;;;;;;;x
 ad_hoc_development_desc;There are no laws or instituions regulating or promoting infrastructure development.;;;;;;;;;;;;;x
 turnpikes_n_municipal_funding;Turnpikes & Municipal Funding;;;;;;;;;;;;;x
 turnpikes_n_municipal_funding_desc;Infrastructure is largely funded by regional levies and directed by local authorites.;;;;;;;;;;;;;x
+monopoly_corporations;Transport Monopolies;;;;;;;;;;;;;x
+monopoly_corporations_desc;Most large transport and infrastructure throughfairs are developed and operated by large public-private monopoly companies for the sake of efficiency and national interest.;;;;;;;;;;;;;x
 urban_planning;Urban Planning;;;;;;;;;;;;;x
-urban_planning_desc;Most large cities have regional planning authorities.;;;;;;;;;;;;;x
+urban_planning_desc;Most large cities have regional planning authorities for rational development;;;;;;;;;;;;;x
 public_works_division;Public Works Division;;;;;;;;;;;;;x
 public_works_division_desc;There is a government public works division to direct and support infrastructure expansion.;;;;;;;;;;;;;x
 worker_protections;Worker Protections;;;;;;;;;;;;;x
@@ -484,6 +486,7 @@ professional_bureaucracy_l;Professional Bureaucracy;;;;;;;;;;;;;x
 ad_hoc_development_l;Ad-Hoc Development;;;;;;;;;;;;;x
 turnpikes_n_municipal_funding_l;Turnpikes & Municipal Funding;;;;;;;;;;;;;x
 urban_planning_l;Urban Planning;;;;;;;;;;;;;x
+monopoly_corporations_l;Transport Monopolies;;;;;;;;;;;;;x
 public_works_division_l;Public Works Division;;;;;;;;;;;;;x
 no_health_care_l;No Health Care;;;;;;;;;;;;;x
 trinket_health_care_l;Trinket Health Care;;;;;;;;;;;;;x
@@ -565,6 +568,7 @@ movement_professional_bureaucracy;Professional Bureaucracy Movement;;;;;;;;;;;;;
 movement_ad_hoc_development;Ad-Hoc Development Movement;;;;;;;;;;;;;x
 movement_turnpikes_n_municipal_funding;Turnpikes & Municipal Funding Movement;;;;;;;;;;;;;x
 movement_urban_planning;Urban Planning Movement;;;;;;;;;;;;;x
+movement_monopoly_corporations;Transport Monopolies Movement;;;;;;;;;;;;;x
 movement_public_works_division;Public Works Division Movement;;;;;;;;;;;;;x
 movement_no_health_care;No Health Care Movement;;;;;;;;;;;;;x
 movement_trinket_health_care;Trinket Health Care Movement;;;;;;;;;;;;;x
@@ -770,16 +774,24 @@ no_national_objective;undecided;;;;;;;;;;;;;x
 dry_mountains;Arid Mountains;;;;;;;;;;;;;x
 desert_floodplains;Floodplains;;;;;;;;;;;;;x
 dryhills;Arid Hills;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+conscription;Conscription;;;;;;;;;;;;;x
+colonial_policy;Colonial Policy;;;;;;;;;;;;;x
+mandatory_service;Mandatory Service;;;;;;;;;;;;;x
+mandatory_service_desc;Service in the armed forces is done by requirement.;;;;;;;;;;;;;x
+four_year_draft;Four Year Draft;;;;;;;;;;;;;x
+four_year_draft_desc;A draft systems recruits most young men for the armed forces for four years.;;;;;;;;;;;;;x
+two_year_draft;Two Year Draft;;;;;;;;;;;;;x
+two_year_draft_desc;A draft systems recruits most young men for the armed forces for two years.;;;;;;;;;;;;;x
+one_year_draft;One Year Draft;;;;;;;;;;;;;x
+one_year_draft_desc;A draft systems recruits most young men for the armed forces for only one year.;;;;;;;;;;;;;x
+no_colonial_policy;No Colonial Policy;;;;;;;;;;;;;x
+no_colonial_policy_desc;The state has no specific colonial policy enshrined in law.;;;;;;;;;;;;;x
+exploitation;Exploitation;;;;;;;;;;;;;x
+exploitation_desc;Laws guarantee that colonial land is parcelled off to powerful metropolian capital sources to be exploited. Natives are largely excluded from capital ownership.;;;;;;;;;;;;;x
+self_rule;Self Rule;;;;;;;;;;;;;x
+self_rule_desc;Laws guarantee that primitive native polities be respected and their land usage tollerated, and colonial governors are recommended to rely on local intermediaries.;;;;;;;;;;;;;x
+settlement;Settlement;;;;;;;;;;;;;x
+settlement_desc;Generous settlement laws encourage the large scale transplanation of metropolitian settlers and settlement patterns to the exclusion or eradication of natives.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
