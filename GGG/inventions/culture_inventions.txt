@@ -10,7 +10,7 @@ romanticist_literature = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 		modifier = {
 			factor = -2
@@ -1257,7 +1257,7 @@ manifest_destiny = {
 		base = 2
 		modifier = {
 			factor = 3
-			nationalvalue = nv_liberty
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = -1
@@ -1355,24 +1355,24 @@ separatism = {
 }
 
 #revolution_n_counterrevolution
-dogma_of_violence = {
-	limit = { revolution_n_counterrevolution = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			average_consciousness = 3
-		}
-		modifier = {
-			factor = 2
-			government = princely_despotate
-		}
-	}
-	effect = {
-		enable_crime = anarchic_bomb_throwers
-	}
-}
+#dogma_of_violence = {
+#	limit = { revolution_n_counterrevolution = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 3
+#			average_consciousness = 3
+#		}
+#		modifier = {
+#			factor = 2
+#			government = princely_despotate
+#		}
+#	}
+#	effect = {
+#		enable_crime = anarchic_bomb_throwers
+#	}
+#}
 dogma_of_mass_action = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
@@ -1389,36 +1389,36 @@ dogma_of_mass_action = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = absolutist_rebels
+			faction = theocratist_rebels
 			value = 0.25
 		}
 	}
 }
-terrorism = {
-	limit = { revolution_n_counterrevolution = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			ruling_party_ideology = liberationist
-		}
-		modifier = {
-			factor = 3
-			OR = {
-				ruling_party_ideology = theocratist
-				ruling_party_ideology = free_yoker
-			}
-		}
-		modifier = {
-			factor = -1
-			nationalvalue = nv_liberty
-		}
-	}
-	effect = {
-		enable_crime = terrorist_cells 
-	}
-}
+#terrorism = {
+#	limit = { revolution_n_counterrevolution = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			ruling_party_ideology = liberationist
+#		}
+#		modifier = {
+#			factor = 3
+#			OR = {
+#				ruling_party_ideology = theocratist
+#				ruling_party_ideology = free_yoker
+#			}
+#		}
+#		modifier = {
+#			factor = -1
+#			government = paternalistic_council
+#		}
+#	}
+#	effect = {
+#		enable_crime = terrorist_cells 
+#	}
+#}
 #general_strikes = {
 #	limit = { revolution_n_counterrevolution = 1 }
 #	news = no
@@ -1442,7 +1442,7 @@ secret_police = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 	}
 	effect = {
@@ -1462,8 +1462,8 @@ womens_suffrage_movement = {
 		modifier = {
 			factor = 2
 			OR = {
-				nationalvalue = nv_liberty
-				nationalvalue = nv_equality
+				government = paternalistic_council
+				government = absolute_autocracy
 			}
 		}
 		modifier = {
@@ -1493,7 +1493,7 @@ rhetoric_of_hate = {
 		}
 		modifier = {
 			factor = -1
-			nationalvalue = nv_liberty
+			government = paternalistic_council
 		}
 	}
 	effect = {
@@ -1530,7 +1530,7 @@ anti_egalitarianism = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 3
@@ -1553,12 +1553,12 @@ vangaurd_party = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = absolutist
+			ruling_party_ideology = theocratist
 		}
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = absolutist_rebels
+			faction = theocratist_rebels
 			value = 0.75
 		}
 	}
@@ -1571,11 +1571,11 @@ the_doctrine_of_fascism = {
 		base = 2
 		modifier = {
 			factor = 2
-			ruling_party_ideology = theocratist
+			ruling_party_ideology = absolutist
 		}
 		modifier = {
 			factor = 1
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 		modifier = {
 			factor = 3
@@ -1584,7 +1584,7 @@ the_doctrine_of_fascism = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = theocratist_rebels
+			faction = absolutist_rebels
 			value = 0.75
 		}
 	}
@@ -1605,7 +1605,7 @@ paramilitary_groups = {
 	}
 	effect = {
 		rebel_org_gain = {
-			faction = theocratist_rebels
+			faction = absolutist_rebels
 			value = 0.25
 		} 
 	}
@@ -1624,7 +1624,7 @@ the_police_state = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_order
+			government = princely_despotate
 		}
 	}
 	effect = {
@@ -1644,7 +1644,7 @@ mass_advertising = {
 		base = 2
 		modifier = {
 			factor = 7
-			nationalvalue = nv_liberty
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 2
@@ -1694,7 +1694,7 @@ the_talkies = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = 2

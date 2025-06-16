@@ -5,42 +5,20 @@ theocratist_group = {
     theocratist = {
         uncivilized = no
         color = { 184 188 135 }
-        date = 1370.1.1
+        date = 1330.1.1
 
 
         add_political_reform = {
-            base = 1
-            modifier = {
-                factor = -1
-                NOT = { ruling_party_ideology = theocratist }
-            }
+            base = 0
         }
-
-
         remove_political_reform = {
-            base = 1
-            modifier = {
-                factor = -1
-                NOT = { ruling_party_ideology = theocratist }
-            }
+            base = 0
         }
-
-
         add_social_reform = {
-            base = 1
-            modifier = {
-                factor = -1
-                NOT = { ruling_party_ideology = theocratist }
-            }
+            base = 0
         }
-
-
         remove_social_reform = {
             base = 1
-            modifier = {
-                factor = -1
-                NOT = { ruling_party_ideology = theocratist }
-            }
         }
 
 
@@ -440,28 +418,50 @@ statist_group = {
 
     absolutist = {
         color = { 74 89 124 }
-        date = 1330.1.1
+        date = 1370.1.1
         uncivilized = no
+		
+		 add_political_reform = {
+            base = 1
+            modifier = {
+                factor = -1
+                NOT = { ruling_party_ideology = absolutist }
+            }
+        }
 
-        add_political_reform = {
-            base = 0
-        }
+
         remove_political_reform = {
-            base = 0
+            base = 1
+            modifier = {
+                factor = -1
+                NOT = { ruling_party_ideology = absolutist }
+            }
         }
+
+
         add_social_reform = {
-            base = 0
+            base = 1
+            modifier = {
+                factor = -1
+                NOT = { ruling_party_ideology = absolutist }
+            }
         }
+
+
         remove_social_reform = {
             base = 1
+            modifier = {
+                factor = -1
+                NOT = { ruling_party_ideology = absolutist }
+            }
         }
 
         add_military_reform = {
-            base = -1
+            base = 1
         }
 
         add_economic_reform = {
-            base = -1
+            base = 1
         }
     }
 }

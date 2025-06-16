@@ -458,7 +458,7 @@ country_event = {
 		NOT = {
 			is_ideology_enabled = absolutist
 		}
-		year = 1330
+		year = 1370
 		civilized = yes
 		literacy = 0.3
 		OR = {
@@ -504,7 +504,7 @@ country_event = {
 			is_ideology_enabled = theocratist
 		}
 		
-		year = 1370 
+		year = 1330 
 		literacy = 0.65
 		civilized = yes
 		OR = {
