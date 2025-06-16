@@ -142,9 +142,9 @@ open_borders;Open Borders;;;;;;;;;;;;;x
 open_borders_desc;All immigrants are free to come to our country.;;;;;;;;;;;;;x
 emigration_law;Emigration Law;;;;;;;;;;;;;x
 emigration_forbidden;Emigration Forbidden;;;;;;;;;;;;;x
-emigration_forbidden_desc;Emigration is strictly forbidden.;;;;;;;;;;;;;x
+emigration_forbidden_desc;Emigration is strictly forbidden.\nEmigration Factor: §R-800%§!;;;;;;;;;;;;;x
 emigration_restricted;Restricted Migration;;;;;;;;;;;;;x
-emigration_restricted_desc;Certain permits allow for legal emigration.;;;;;;;;;;;;;x
+emigration_restricted_desc;Certain permits allow for legal emigration.\nEmigration Factor: §R-20%§!;;;;;;;;;;;;;x
 emigration_permitted;Emigration Permitted;;;;;;;;;;;;;x
 emigration_permitted_desc;Emigration is unrestricted and legal.;;;;;;;;;;;;;x
 clerical_law;Clerical Law;;;;;;;;;;;;;x
@@ -787,12 +787,16 @@ one_year_draft_desc;A draft systems recruits most young men for the armed forces
 no_colonial_policy;No Colonial Policy;;;;;;;;;;;;;x
 no_colonial_policy_desc;The state has no specific colonial policy enshrined in law.;;;;;;;;;;;;;x
 exploitation;Exploitation;;;;;;;;;;;;;x
-exploitation_desc;Laws guarantee that colonial land is parcelled off to powerful metropolian capital sources to be exploited. Natives are largely excluded from capital ownership.;;;;;;;;;;;;;x
+exploitation_desc;Laws guarantee that colonial land is parcelled off to powerful metropolian capital sources to be exploited. Natives are largely excluded from capital ownership.\nFor any §Ycolonial province:§! \n  Local RGO Throughput = §G+0.05%§! \n  Local RGO Output = §G+0.05%§! \n  Assimilation Rate = §R-0.1%§! ;;;;;;;;;;;;;x
 self_rule;Self Rule;;;;;;;;;;;;;x
-self_rule_desc;Laws guarantee that primitive native polities be respected and their land usage tollerated, and colonial governors are recommended to rely on local intermediaries.;;;;;;;;;;;;;x
+self_rule_desc;Laws guarantee that primitive native polities be respected and their land usage tollerated, and colonial governors are recommended to rely on local intermediaries.\nFor any §Ycolonial province:§! \n  Assimilation Rate = §R-0.15%§! ;;;;;;;;;;;;;x
 settlement;Settlement;;;;;;;;;;;;;x
-settlement_desc;Generous settlement laws encourage the large scale transplanation of metropolitian settlers and settlement patterns to the exclusion or eradication of natives.;;;;;;;;;;;;;x
+settlement_desc;Generous settlement laws encourage the large scale transplanation of metropolitian settlers and settlement patterns to the exclusion or eradication of natives.\nFor any §Ycolonial province:§! \n  Local Admin Efficiency = §G+0.05%§! \n  Immigrant Attraction = §G+0.1%§! \n  Assimilation Rate = §G+0.05%§! ;;;;;;;;;;;;;x
 settler_colonization;Settler Colonization;;;;;;;;;;;;;x
+native_rebels_name;Independence Rebels;;;;;;;;;;;;;x
+native_rebels_desc;Independence rebels are fighting for the expulsion of their colonial overlords, and the independence and autonomy of their lands.;;;;;;;;;;;;;x
+native_rebels_title;Independence;;;;;;;;;;;;;x
+native_rebels_army;National Guards;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
