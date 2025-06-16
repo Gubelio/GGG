@@ -1384,7 +1384,7 @@ dogma_of_mass_action = {
 		}
 		modifier = {
 			factor = 3
-			ruling_party_ideology = statist
+			ruling_party_ideology = conservative
 		}
 	}
 	effect = {
@@ -1549,7 +1549,7 @@ vangaurd_party = {
 		base = 2
 		modifier = {
 			factor = 1
-			ruling_party_ideology = statist
+			ruling_party_ideology = conservative
 		}
 		modifier = {
 			factor = 2
@@ -1574,8 +1574,8 @@ the_doctrine_of_fascism = {
 			ruling_party_ideology = absolutist
 		}
 		modifier = {
-			factor = 1
-			government = princely_despotate
+			factor = 2
+			ruling_party_ideology = statist
 		}
 		modifier = {
 			factor = 3
@@ -1624,7 +1624,7 @@ the_police_state = {
 		}
 		modifier = {
 			factor = 2
-			government = princely_despotate
+			government = absolute_autocracy
 		}
 	}
 	effect = {
