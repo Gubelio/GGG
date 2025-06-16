@@ -478,49 +478,49 @@ guiTypes = {
 				quadTextureSprite ="GFX_frontend_tutorial_tab"	
 			}
 			
-			iconType =
-			{
-				name ="clergy_icon1"
-				spriteType = "GFX_frontend_clergy_icon"
-				position = { x= -189 y =-109 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType =
-			{
-				name ="clergy_icon2"
-				spriteType = "GFX_frontend_clergy_icon"
-				position = { x= 126 y =-109 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType =
-			{
-				name ="clergy_icon3"
-				spriteType = "GFX_frontend_clergy_icon"
-				position = { x= 441 y =-109 }
-				Orientation = "UPPER_LEFT"
-			}
+			#iconType =
+			#{
+			#	name ="clergy_icon1"
+			#	spriteType = "GFX_frontend_clergy_icon"
+			#	position = { x= -189 y =-109 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			#iconType =
+			#{
+			#	name ="clergy_icon2"
+			#	spriteType = "GFX_frontend_clergy_icon"
+			#	position = { x= 126 y =-109 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			#iconType =
+			#{
+			#	name ="clergy_icon3"
+			#	spriteType = "GFX_frontend_clergy_icon"
+			#	position = { x= 441 y =-109 }
+			#	Orientation = "UPPER_LEFT"
+			#}
 			
-			iconType =
-			{
-				name ="basic_icon"
-				spriteType = "GFX_frontend_tutorial_basic_icon"
-				position = { x= -167 y =-91 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType =
-			{
-				name ="medium_icon"
-				spriteType = "GFX_frontend_tutorial_medium_icon"
-				position = { x= 148 y =-91 }
-				Orientation = "UPPER_LEFT"
-			}
-			iconType =
-			{
-				name ="advanced_icon"
-				spriteType = "GFX_frontend_tutorial_advanced_icon"
-				position = { x= 463 y =-91 }
-				Orientation = "UPPER_LEFT"
-			}
+			#iconType =
+			#{
+			#	name ="basic_icon"
+			#	spriteType = "GFX_frontend_tutorial_basic_icon"
+			#	position = { x= -167 y =-91 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			#iconType =
+			#{
+			#	name ="medium_icon"
+			#	spriteType = "GFX_frontend_tutorial_medium_icon"
+			#	position = { x= 148 y =-91 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			#iconType =
+			#{
+			#	name ="advanced_icon"
+			#	spriteType = "GFX_frontend_tutorial_advanced_icon"
+			#	position = { x= 463 y =-91 }
+			#	Orientation = "UPPER_LEFT"
+			#}
 			
 			instantTextBoxType = {
 				name ="basic_text"
@@ -578,18 +578,18 @@ guiTypes = {
 					borderSize = {x = 0 y = 0 }
 					text = "FE_SETTING_BODY_1"
 					format = left
-					maxWidth = 870
+					maxWidth = 920
 					maxHeight = 2000
 				}
 				
 			instantTextBoxType = {
 					name ="medium_description_3"
-					position = { x = -182 y = 255 }
+					position = { x = -182 y = 245 }
 					font = "vic_18_black"
 					borderSize = {x = 0 y = 0 }
 					text = "FE_SETTING_BODY_2"
 					format = left
-					maxWidth = 870
+					maxWidth = 920
 					maxHeight = 2000
 				}
 			
