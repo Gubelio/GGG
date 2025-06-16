@@ -860,6 +860,17 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
+					name ="medium_description_12"
+					position = { x = 430 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_BOGORUG"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+			
+			instantTextBoxType = {
 					name ="medium_text_9"
 					position = { x = 430 y = 130 }
 					font = "vic_22_black"
@@ -877,6 +888,17 @@ guiTypes = {
 				position = { x= 630 y = 130 }
 				Orientation = "UPPER_LEFT"
 			}
+			
+			instantTextBoxType = {
+					name ="medium_description_13"
+					position = { x = 430 y = 150 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_MAMATOUKAT"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
 				
 			instantTextBoxType = {
 					name ="medium_text_10"
@@ -896,6 +918,17 @@ guiTypes = {
 				position = { x= 630 y = 280 }
 				Orientation = "UPPER_LEFT"
 			}
+			
+			instantTextBoxType = {
+					name ="medium_description_14"
+					position = { x = 430 y = 300 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_RANNU"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
 
 			###
 			guiButtonType = {
