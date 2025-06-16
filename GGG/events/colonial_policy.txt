@@ -98,6 +98,27 @@ country_event = {
 		civilized = yes
 		any_owned_province = {
 			is_colonial = yes
+			NOT = { continent = north_america }
+			NOT = {
+				OR = { 
+					province_id = 122 
+					province_id = 123
+					province_id = 919
+					province_id = 921 
+					province_id = 920 
+					province_id = 922 
+					province_id = 923
+					province_id = 924 
+					province_id = 925 
+					province_id = 926 
+					province_id = 1391 
+					province_id = 1495 
+					province_id = 1927 
+					province_id = 1312 
+					province_id = 1313 
+					province_id = 1314 
+				}
+			}
 			OR = {
 				AND = {
 					colonial_policy = settlement
@@ -145,6 +166,27 @@ country_event = {
 			limit = {
 				is_colonial = yes
 				#NOT = { has_province_modifier = self_rule }
+				NOT = { continent = north_america }
+				NOT = {
+					OR = { 
+						province_id = 122 
+						province_id = 123
+						province_id = 919
+						province_id = 921 
+						province_id = 920 
+						province_id = 922 
+						province_id = 923
+						province_id = 924 
+						province_id = 925 
+						province_id = 926 
+						province_id = 1391 
+						province_id = 1495 
+						province_id = 1927 
+						province_id = 1312 
+						province_id = 1313 
+						province_id = 1314 
+				}
+			}
 			}
 			remove_province_modifier = exploitation
 			remove_province_modifier = self_rule
@@ -161,30 +203,55 @@ country_event = {
 					limit = {
 						is_colonial = yes
 						NOT = { has_province_modifier = exploitation }
-                        has_pop_type = farmers
-                        has_pop_type = labourers
 					}
 					add_province_modifier = {
 						name = exploitation
 						duration = 36525
 					}
-					#if = {
-					#	limit = {
-					#		THIS = {
-					#			slavery = yes
-					#		}
-					#	}
-					#	any_pop = { 
-					#		limit = {
-					#			is_accepted_culture = no
-					#			OR = {
-					#				type = farmers
-					#				type = labourers
-					#			}
-					#		}
-					#		pop_type = slaves
-					#	}
-					#}
+					if = {
+						limit = {
+							THIS = {
+								slavery = yes
+							}
+						}
+						THIS = {
+							any_owned = {
+								limit = { 
+									has_pop_type = farmers
+									is_colonial = yes
+									NOT = { continent = north_america }
+									NOT = {
+										OR = { 
+											province_id = 122 
+											province_id = 123
+											province_id = 919
+											province_id = 921 
+											province_id = 920 
+											province_id = 922 
+											province_id = 923
+											province_id = 924 
+											province_id = 925 
+											province_id = 926 
+											province_id = 1391 
+											province_id = 1495 
+											province_id = 1927 
+											province_id = 1312 
+											province_id = 1313 
+											province_id = 1314 
+										}
+									}
+								}
+								any_pop = { 
+									limit = {
+										is_accepted_culture = no
+										type = farmers
+									}
+									pop_type = slaves
+						
+								}
+							}
+						}
+					}
 					
 				}
 			}
