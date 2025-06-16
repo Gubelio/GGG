@@ -660,6 +660,243 @@ guiTypes = {
 			fullscreen=no
 			Orientation = "CENTER"
 
+			instantTextBoxType = {
+					name ="medium_text_2"
+					position = { x = -200 y = -40 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_POU"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="poumnia_icon"
+				spriteType = "GFX_frontend_poumnia"
+				position = { x= 0 y =-40 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_6"
+					position = { x = -200 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_POUMNIA"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_3"
+					position = { x = -200 y = 130 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VOK"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+			
+			iconType =			
+			{
+				name ="vokonazh_icon"
+				spriteType = "GFX_frontend_vokonazh"
+				position = { x= 0 y = 130 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_7"
+					position = { x = -200 y = 150 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VOKONAZH"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_4"
+					position = { x = -200 y = 280 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_JII"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =			
+			{
+				name ="jiishanag_icon"
+				spriteType = "GFX_frontend_jiishanag"
+				position = { x= 0 y = 280 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_8"
+					position = { x = -200 y = 300 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_JIISHANAG"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_5"
+					position = { x = 125 y = -40 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_GAU"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+			
+			iconType =
+			{
+				name ="gaubja_icon"
+				spriteType = "GFX_frontend_gaubja"
+				position = { x= 325 y = -40 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_9"
+					position = { x = 125 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_GAUBJA"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_6"
+					position = { x = 125 y = 130 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VUG"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="veyethu_icon"
+				spriteType = "GFX_frontend_veyethu"
+				position = { x= 325 y = 130 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_10"
+					position = { x = 125 y = 150 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VEYETHU"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_7"
+					position = { x = 125 y = 280 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VAF"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="vafaut_icon"
+				spriteType = "GFX_frontend_vafaut"
+				position = { x= 325 y = 280 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_description_11"
+					position = { x = 125 y = 300 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_VAFAUT"
+					format = left
+					maxWidth = 150
+					maxHeight = 150
+				}
+				
+			instantTextBoxType = {
+					name ="medium_text_8"
+					position = { x = 430 y = -40 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_BOG"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="bogorug_icon"
+				spriteType = "GFX_frontend_bogorug"
+				position = { x= 630 y = -40 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+					name ="medium_text_9"
+					position = { x = 430 y = 130 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_MAM"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="mamatoukat_icon"
+				spriteType = "GFX_frontend_mamatoukat"
+				position = { x= 630 y = 130 }
+				Orientation = "UPPER_LEFT"
+			}
+				
+			instantTextBoxType = {
+					name ="medium_text_10"
+					position = { x = 430 y = 280 }
+					font = "vic_22_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_RAN"
+					format = left
+					maxWidth = 173
+					maxHeight = 79
+				}
+				
+			iconType =
+			{
+				name ="rannu_icon"
+				spriteType = "GFX_frontend_rannu"
+				position = { x= 630 y = 280 }
+				Orientation = "UPPER_LEFT"
+			}
+
 			###
 			guiButtonType = {
 					name = "tutorial_button_1"
@@ -719,6 +956,29 @@ guiTypes = {
 			downsound = ""
 			fullscreen=no
 			Orientation = "CENTER"
+
+
+			instantTextBoxType = {
+					name ="medium_description_3"
+					position = { x = -182 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_3"
+					format = left
+					maxWidth = 920
+					maxHeight = 2000
+				}
+				
+			instantTextBoxType = {
+					name ="medium_description_4"
+					position = { x = -182 y = 245 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_4"
+					format = left
+					maxWidth = 920
+					maxHeight = 2000
+				}
 
 			###
 			guiButtonType = {

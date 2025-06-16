@@ -7,6 +7,60 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\one_by_one.dds"
 		loadType = "FRONTEND"
 	}
+	
+	spriteType = {
+		name = "GFX_frontend_poumnia"
+		texturefile = "gfx\\interface\\poumnia.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_vokonazh"
+		texturefile = "gfx\\interface\\vokonazh.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_gaubja"
+		texturefile = "gfx\\interface\\gaubja.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_jiishanag"
+		texturefile = "gfx\\interface\\jiishanag.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_bogorug"
+		texturefile = "gfx\\interface\\bogorug.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_rannu"
+		texturefile = "gfx\\interface\\rannu.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_veyethu"
+		texturefile = "gfx\\interface\\veyethu.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_mamatoukat"
+		texturefile = "gfx\\interface\\mamatoukat.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_vafaut"
+		texturefile = "gfx\\interface\\vafaut.dds"
+		loadType = "FRONTEND"
+	}
 
 
 ##### NEW 
