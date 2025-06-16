@@ -2,18 +2,24 @@
 # Issues that parties have.
 ##########################################
 party_issues = {
-	trade_policy = {
-		protectionism = {
+	trade_policy = { #foreign trade
+		protectionism = { #discouraged
 			max_tariff = 1
 			min_tariff = -0.25
+			rules = {
+				allow_foreign_investment = no
+			}
 		}
-		free_trade = {
-			max_tariff = 0.25
+		free_trade = { #tolerated
+			max_tariff = 0.75
 			min_tariff = -1
+			rules = {
+				allow_foreign_investment = yes
+			}
 		}
 	}
-	economic_policy = {
-		laissez_faire = {
+	economic_policy = { #industrial policy
+		laissez_faire = { #agrarianism
 			max_tax = 0.5
 			factory_owner_cost = 0.3
 			factory_output = 0.05
@@ -23,22 +29,21 @@ party_issues = {
 				expand_factory = no
 				open_factory = no
 				destroy_factory = no
-				build_railway = no
+				build_railway = yes
 				factory_priority = no
 				can_subsidise = no
-				pop_build_factory = yes
-				pop_expand_factory = yes
-				pop_open_factory = yes
-				delete_factory_if_no_input = yes
-				pop_build_factory_invest = yes
-				pop_expand_factory_invest = yes
-				open_factory_invest = yes
-				allow_foreign_investment = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = no
+				pop_expand_factory_invest = no
+				open_factory_invest = no
 				build_railway_invest = yes
 				can_invest_in_pop_projects = no
 			}
 		}
-		interventionism = {
+		interventionism = { #
 			factory_owner_cost = 0.5
 			
 			rules = {
@@ -59,11 +64,10 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
-		state_capitalism = {
+		state_capitalism = { #
 			min_tax = 0.25
 			factory_owner_cost = 0.6
 			rules = {
