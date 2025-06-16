@@ -93,23 +93,7 @@ country_event = {
   
 	trigger = {
 	
-		 OR = {
-            AND = {
-                NOT = { debt_law = serfdom }
-                any_owned_province = { has_pop_type = serfs }
-            }
-            any_neighbor_country = {
-                ai = no
-                exists = yes
-                NOT = { debt_law = serfdom }
-                any_owned_province = { has_pop_type = serfs }
-            }
-            any_greater_power = {
-                ai = no
-                NOT = { debt_law = serfdom }
-                any_owned_province = { has_pop_type = serfs }
-            }
-        }
+		
 	
 		civilized = yes
 		any_owned_province = {
