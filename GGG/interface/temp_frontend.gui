@@ -571,6 +571,29 @@ guiTypes = {
 			fullscreen=no
 			Orientation = "CENTER"
 
+			instantTextBoxType = {
+					name ="medium_description_2"
+					position = { x = -182 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_1"
+					format = left
+					maxWidth = 870
+					maxHeight = 2000
+				}
+				
+			instantTextBoxType = {
+					name ="medium_description_3"
+					position = { x = -182 y = 255 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_2"
+					format = left
+					maxWidth = 870
+					maxHeight = 2000
+				}
+			
+
 			###
 			guiButtonType = {
 					name = "tutorial_button_9"
@@ -744,7 +767,7 @@ guiTypes = {
 			###
 			guiButtonType = {
 				name = "back_button"
-				position = { x = -74 y = 476 }
+				position = { x = 150 y = 476 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				buttonText = "FE_BACK"
 				buttonFont = "vic_22_black"
@@ -752,8 +775,8 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "start_button"
-				position = { x = 390 y = 476 }
-				quadTextureSprite ="GFX_frontend_button_236"	
+				position = { x = 700 y = 476 }
+				quadTextureSprite ="GFX_frontend_ONEBYONE"	
 				buttonText = "FE_START_ALL_CHAPTERS"
 				buttonFont = "vic_22_black"
 			}
