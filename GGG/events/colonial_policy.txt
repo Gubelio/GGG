@@ -1,3 +1,90 @@
+#country_event = {
+#    id = 50115
+#    title = "EVT50115NAME"
+#    desc = "EVT50115DESC"
+#    #picture = "Bandits"
+#  
+#	trigger = {
+#		civilized = yes
+#		NOT = { colonial_policy = no_colonial_policy }
+#		any_owned_province = {
+#			NOT = {
+#				OR = {
+#					has_province_modifier = exploitation
+#					has_province_modifier = settler_colonization
+#					has_province_modifier = self_rule
+#				}
+#			}
+#			is_colonial = yes
+#		}
+#	}
+#				
+#	mean_time_to_happen = {
+#        months = 1
+#	}
+#
+#    option = {
+#        name = "EVT500115PTA" 
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = exploitation
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = exploitation }
+#					}
+#					add_province_modifier = {
+#						name = exploitation
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = settlement
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = settler_colonization }
+#					}
+#					add_province_modifier = {
+#						name = settler_colonization
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				THIS = {
+#					colonial_policy = self_rule
+#				}
+#			}
+#			THIS = {
+#				any_owned = {
+#					limit = {
+#						is_colonial = yes
+#						NOT = { has_province_modifier = self_rule }
+#					}
+#					add_province_modifier = {
+#						name = self_rule
+#						duration = 36525
+#					}
+#				}
+#			}
+#		}
+#    }
+#}
+
 country_event = {
     id = 50115
     title = "EVT50115NAME"
@@ -5,119 +92,52 @@ country_event = {
     #picture = "Bandits"
   
 	trigger = {
+	
+		 OR = {
+            AND = {
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+            any_neighbor_country = {
+                ai = no
+                exists = yes
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+            any_greater_power = {
+                ai = no
+                NOT = { debt_law = serfdom }
+                any_owned_province = { has_pop_type = serfs }
+            }
+        }
+	
 		civilized = yes
-		NOT = { colonial_policy = no_colonial_policy }
 		any_owned_province = {
-			NOT = {
-				OR = {
-					has_province_modifier = exploitation
-					has_province_modifier = settler_colonization
-					has_province_modifier = self_rule
-				}
-			}
 			is_colonial = yes
-		}
-	}
-				
-	mean_time_to_happen = {
-        months = 1
-	}
-
-    option = {
-        name = "EVT500115PTA" 
-		if = {
-			limit = {
-				THIS = {
-					colonial_policy = exploitation
-				}
-			}
-			THIS = {
-				any_owned = {
-					limit = {
-						is_colonial = yes
-						NOT = { has_province_modifier = exploitation }
-					}
-					add_province_modifier = {
-						name = exploitation
-						duration = 36525
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				THIS = {
-					colonial_policy = settlement
-				}
-			}
-			THIS = {
-				any_owned = {
-					limit = {
-						is_colonial = yes
-						NOT = { has_province_modifier = settler_colonization }
-					}
-					add_province_modifier = {
-						name = settler_colonization
-						duration = 36525
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				THIS = {
-					colonial_policy = self_rule
-				}
-			}
-			THIS = {
-				any_owned = {
-					limit = {
-						is_colonial = yes
-						NOT = { has_province_modifier = self_rule }
-					}
-					add_province_modifier = {
-						name = self_rule
-						duration = 36525
-					}
-				}
-			}
-		}
-    }
-}
-
-country_event = {
-    id = 50116
-    title = "EVT50116NAME"
-    desc = "EVT50116DESC"
-    #picture = "Bandits"
-  
-	trigger = {
-		civilized = yes
-		any_owned_province = {
 			OR = {
 				AND = {
 					colonial_policy = settlement
 					OR = {
 						has_province_modifier = exploitation
 						has_province_modifier = self_rule
+						NOT = { has_province_modifier = settler_colonization }
 					}
-					is_colonial = yes
 				}
 				AND = {
 					colonial_policy = exploitation
 					OR = {
 						has_province_modifier = settlement
 						has_province_modifier = self_rule
+						NOT = { has_province_modifier = exploitation }
 					}
-					is_colonial = yes
 				}
 				AND = {
 					colonial_policy = self_rule
 					OR = {
 						has_province_modifier = exploitation
 						has_province_modifier = settlement
+						NOT = { has_province_modifier = self_rule }
 					}
-					is_colonial = yes
 				}
 				AND = {
 					colonial_policy = no_colonial_policy
@@ -126,7 +146,6 @@ country_event = {
 						has_province_modifier = settlement
 						has_province_modifier = self_rule
 					}
-					is_colonial = yes
 				}
 			}
 		}
