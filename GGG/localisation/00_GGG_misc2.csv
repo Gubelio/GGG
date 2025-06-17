@@ -459,15 +459,18 @@ FE_BOG;Bogorug;x
 FE_MAM;Mamatoukat;x
 trade_policy;Foreign Trade;;;;;;;;;;;;;x
 protectionism;Discouraged;;;;;;;;;;;;;x
+protectionism_desc;The government has erected a number of barriers and notable exclusions to foreign commerce.;;;;;;;;;;;;;x
 free_trade;Tolerated;;;;;;;;;;;;;x
+free_trade_desc;Foreign traders and capitalist are largely suffered here in their projects and trades.;;;;;;;;;;;;;x
 economic_policy;Industrial Policy;;;;;;;;;;;;;x
 laissez_faire;Agrarianism;;;;;;;;;;;;;x
-FE_JIISHANAG;Jiishanâg is a large aristocratic commonwealth on the southern coast of Ishahfazh. They are motkohnic in faith, and one of the foremost industrial powers. They have a number of outlying colonial possessions and may form a large confederation.;x
-FE_POUMNIA;Poumnia is the great dynastic theocratic empire that lies on the southern deltas of Ishahfazh. They are a highly unequal society, with massive numbers of bonded people, and while backwards, they excell in arms. They have a number of focused expansion routes.;x
+laissez_faire_desc;The government attempts to forbid the development or expansion of industrial enterprise;;;;;;;;;;;;;x
+FE_JIISHANAG;Jiishanâg is a large aristocratic commonwealth on the southern coast of Ishahfazh. They are motkohnic in faith, and one of the foremost industrial powers. They have a number of outlying colonial possessions and may form The Great Nag.;x
+FE_POUMNIA;Poumnia is the great dynastic theocratic empire that lies on the southern deltas of Ishahfazh. They are a highly unequal society, with massive numbers of bonded people, and while backwards, they excel in arms. They have a number of focused expansion routes.;x
 FE_VOKONAZH;Vokonazh, a large nation lying in the east of Ishahfazh, is the seat of Great Lord Gozomedes. It has a strong army and is in a position to unite the now shattered Kiidnazh, the old Gashdzii Empire.;x
 FE_VEYETHU;Sublime Veyethu is the liberationist rump state that lies on the west of Ishahfazh, lying in the center of the old Athisard lands. These revolutionaries seek to export the liberationist rebellion to their hostile neighbours.;x
-FE_VAFAUT;Vâfaut is a large planation society on the mountain range diving the Poumnian lands from the old Gashdzii empire. They are in a position to form a defensive compact of the west Gashdzii people.;x
-FE_GAUBJA;Gaubja is an industrialised kingdom lying on the temperate eastern shores of Ishahfazh. They have a number of colonial territories, a noble army, and are in a position to form the southern confederacy.;x
+FE_VAFAUT;Vâfaut is a large plantation society on the mountain range diving the Poumnian lands from the old Gashdzii empire. They are in a position to form a defensive compact of the west Gashdzii people.;x
+FE_GAUBJA;Gaubja is an industrialised kingdom lying on the temperate eastern shores of Ishahfazh. They have a number of colonial territories, a noble army, and are in a position to form The Great Nag.;x
 FE_RANNU;Rannu Empire is the rambling, lethargic Unnahu empire of the north. With many subject peoples, they face a decisive moment in consolidating their empire, or succumbing to rebellion and partition.;x
 FE_BOGORUG;Bogorug is an aristocratic commonwealth in the north of Ishahfazh. The embattled ruling minority of Bogoran nomad-descended conquerers rules with tenuous grasp over the Oujoy peasantry, leaning on Rannu support.;x
 FE_MAMATOUKAT;Mamatoukat is a powerful Oujoy kingdom in the northwest of Ishahfazh. They are seen as the natural protectors of the sedentarian faith, and have a number of expension routes to establish regional influence.;x
