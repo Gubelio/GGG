@@ -584,7 +584,7 @@ guiTypes = {
 				
 			instantTextBoxType = {
 					name ="medium_description_3"
-					position = { x = -182 y = 245 }
+					position = { x = -182 y = 220 }
 					font = "vic_18_black"
 					borderSize = {x = 0 y = 0 }
 					text = "FE_SETTING_BODY_2"
@@ -648,6 +648,88 @@ guiTypes = {
 		### CHAPTERS window.  MEDIUM
 		windowType = {
 			name ="tutorial_chapters_medium"
+			backGround=""
+			position = { x=-210 y =-250}	
+			size = { x=420 y =500}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+			Orientation = "CENTER"
+
+instantTextBoxType = {
+					name ="medium_description_3"
+					position = { x = -182 y = -20 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_3"
+					format = left
+					maxWidth = 920
+					maxHeight = 2000
+				}
+				
+			instantTextBoxType = {
+					name ="medium_description_4"
+					position = { x = -182 y = 220 }
+					font = "vic_18_black"
+					borderSize = {x = 0 y = 0 }
+					text = "FE_SETTING_BODY_4"
+					format = left
+					maxWidth = 920
+					maxHeight = 2000
+				}
+
+			###
+			guiButtonType = {
+					name = "tutorial_button_1"
+					position = { x = -204 y = -20 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_2"
+					position = { x = 118 y = -20 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_3"
+					position = { x = 440 y = -20 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_4"
+					position = { x = -204 y = 134 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_5"
+					position = { x = 118 y = 134 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_6"
+					position = { x = 440 y = 134 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_7"
+					position = { x = -204 y = 288 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+				guiButtonType = {
+					name = "tutorial_button_8"
+					position = { x = 118 y = 288 }
+					quadTextureSprite ="GFX_frontend_ONEBYONE"
+				}
+
+			
+		}
+		
+		### CHAPTERS window.   ADVANCED
+		windowType = {
+			name ="tutorial_chapters_advanced"
 			backGround=""
 			position = { x=-210 y =-250}	
 			size = { x=420 y =500}
@@ -930,88 +1012,7 @@ guiTypes = {
 					maxHeight = 150
 				}
 
-			###
-			guiButtonType = {
-					name = "tutorial_button_1"
-					position = { x = -204 y = -20 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_2"
-					position = { x = 118 y = -20 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_3"
-					position = { x = 440 y = -20 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_4"
-					position = { x = -204 y = 134 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_5"
-					position = { x = 118 y = 134 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_6"
-					position = { x = 440 y = 134 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_7"
-					position = { x = -204 y = 288 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-				guiButtonType = {
-					name = "tutorial_button_8"
-					position = { x = 118 y = 288 }
-					quadTextureSprite ="GFX_frontend_ONEBYONE"
-				}
-
 			
-		}
-		
-		### CHAPTERS window.   ADVANCED
-		windowType = {
-			name ="tutorial_chapters_advanced"
-			backGround=""
-			position = { x=-210 y =-250}	
-			size = { x=420 y =500}
-			moveable = 0
-			dontRender = ""
-			horizontalBorder= ""
-			verticalBorder= ""
-			upsound = ""
-			downsound = ""
-			fullscreen=no
-			Orientation = "CENTER"
-
-
-			instantTextBoxType = {
-					name ="medium_description_3"
-					position = { x = -182 y = -20 }
-					font = "vic_18_black"
-					borderSize = {x = 0 y = 0 }
-					text = "FE_SETTING_BODY_3"
-					format = left
-					maxWidth = 920
-					maxHeight = 2000
-				}
-				
-			instantTextBoxType = {
-					name ="medium_description_4"
-					position = { x = -182 y = 245 }
-					font = "vic_18_black"
-					borderSize = {x = 0 y = 0 }
-					text = "FE_SETTING_BODY_4"
-					format = left
-					maxWidth = 920
-					maxHeight = 2000
-				}
 
 			###
 			guiButtonType = {
