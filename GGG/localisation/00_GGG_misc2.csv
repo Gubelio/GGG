@@ -475,6 +475,14 @@ FE_RANNU;Rannu Empire is the rambling, lethargic Unnahu empire of the north. Wit
 FE_BOGORUG;Bogorug is an aristocratic commonwealth in the north of Ishahfazh. The embattled ruling minority of Bogoran nomad-descended conquerers rules with tenuous grasp over the Oujoy peasantry, leaning on Rannu support.;x
 FE_MAMATOUKAT;Mamatoukat is a powerful Oujoy kingdom in the northwest of Ishahfazh. They are seen as the natural protectors of the sedentarian faith, and have a number of expension routes to establish regional influence.;x
 jingoism;Expansionism;;;;;;;;;;;;;x
+WORLD_YEAR;Miiv: $YEAR$ I.R.;x
+Friday;Festday;x
+Monday;Week's Dawn;x
+Saturday;Prayerday;x
+Sunday;Week's Dusk;x
+Thursday;Feasting Day;x
+Tuesday;Fasting Day;x
+Wednesday;Midweek;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
