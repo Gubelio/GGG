@@ -14172,7 +14172,16 @@ size = 105
 
 533 = {
 
-
+	aristocrats = {
+		culture = poumnian #pruub merchants
+		religion = wompowushan
+		size = 400
+	}	
+	artisans = {
+		culture = poumnian #body oil / jewelry artisans
+		religion = wompowushan
+		size = 9000
+	}
 
 	labourers = {
 		culture = sithuchi
