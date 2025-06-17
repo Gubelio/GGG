@@ -673,7 +673,7 @@ instantTextBoxType = {
 				
 			instantTextBoxType = {
 					name ="medium_description_4"
-					position = { x = -182 y = 220 }
+					position = { x = -182 y = 180 }
 					font = "vic_18_black"
 					borderSize = {x = 0 y = 0 }
 					text = "FE_SETTING_BODY_4"
