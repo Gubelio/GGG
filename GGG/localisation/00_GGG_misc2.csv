@@ -9,29 +9,8 @@ absolutist_rebels_title;Absolutist;;;;;;;;;;;;;x
 theocratist;Theocratist;;;;;;;;;;;;;x
 barrel_factory;Two-Legger Factory;;;;;;;;;;;;;x
 barrel_factory_desc;This factory produces "Two-Leggers", the moveable artillery landship of the late fourteenth century. It depends upon automobiles, steel, machine parts, and artilery for the production of these war machines. From artillery pieces installed upon automobile chasis, sheet metal is sculpted around this, to protect the engine and cabintower, as well as gunnery hold.;;;;;;;;;;;;;x
-JII_liberationist;The Social Radicals;;;;;;;;;;;;;x
-JII_free_yoker;Freeman's Union;;;;;;;;;;;;;x
-JII_statist;Social-Authoritarian Party;;;;;;;;;;;;;x
-JII_absolutist;All-Syndicates Absolutist Party;;;;;;;;;;;;;x
-JII_theocratist;Party of the Fist;;;;;;;;;;;;;x
-JII_conservative;The Conservatives;;;;;;;;;;;;;x
-JII_reactionary;The Country Party;;;;;;;;;;;;;x
 fabric_factory_desc;This factory turns the versatile spindleweed, a flaxen fiberous yeild of the seedpod of a certain plant, and various dyes, synthetic or natural pigments, into beautiful and pratical textiles. Automated looms, spindles, jennies, mules, press-vats, and other machines, powered by steam or combustion, and operated by wretched factory attendants, litter the shop floor. These textiles will be used for a number of things in the consumer and public sector.;;;;;;;;;;;;;x
 barrels;Two Leggers;;;;;;;;;;;;;x
-GOZ_liberationist;The Radicals;;;;;;;;;;;;;x
-GOZ_free_yoker;Landsman and Yeoman's Confederation;;;;;;;;;;;;;x
-GOZ_statist;The Unionists;;;;;;;;;;;;;x
-GOZ_absolutist;Solidarty Party;;;;;;;;;;;;;x
-GOZ_theocratist;Deacon Mogga's Clique;;;;;;;;;;;;;x
-GOZ_conservative;The Federalists;;;;;;;;;;;;;x
-GOZ_reactionary;The Royalists;;;;;;;;;;;;;x
-TGN_liberationist;The Social-Radical Bloc;;;;;;;;;;;;;x
-TGN_free_yoker;Pan-Nâgi Landsman's Bund;;;;;;;;;;;;;x
-TGN_statist;The Ministerial Party;;;;;;;;;;;;;x
-TGN_absolutist;The Land Reform Trust;;;;;;;;;;;;;x
-TGN_theocratist;The Theocratist Party;;;;;;;;;;;;;x
-TGN_conservative;The Particularists;;;;;;;;;;;;;x
-TGN_reactionary;The Ultra-Regionalists;;;;;;;;;;;;;x
 steel_factory;Steel Mill;;;;;;;;;;;;;x
 fabric_factory;Textile Mill;;;;;;;;;;;;;x
 steel_factory_desc;This factory complex is a steel mill, producing steel and iron products for private and public entities. It consists of large furnaces or crucibles for smelting pig iron, mills for rolling, casting pits as part of a foundry, as well as likely some specialised operations. Its workers work long hours in sweltering conditions, making the essential metalworks for consumer and military use.;;;;;;;;;;;;;x
@@ -179,64 +158,8 @@ D49_ADJ;Bunder;;;;;;;;;;;;;x
 #D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
 D50;$REGION$land;;;;;;;;;;;;;x
 D50_ADJ;$REGION$lander;;;;;;;;;;;;;x
-POU_liberationist;The Dridniks;;;;;;;;;;;;;x
-POU_free_yoker;Mudmen's Bund;;;;;;;;;;;;;x
-POU_statist;Imperial Reform Party;;;;;;;;;;;;;x
-POU_absolutist;Lord Shum's Faction;;;;;;;;;;;;;x
-POU_theocratist;Imperial Temple League;;;;;;;;;;;;;x
-POU_conservative;The Royalists;;;;;;;;;;;;;x
-POU_reactionary;The Ultraroyalists;;;;;;;;;;;;;x
 THN;Theanâg;;;;;;;;;;;;;x
 THN_ADJ;Theanâgi;;;;;;;;;;;;;x
-PAK_liberationist;Free-Communitarian Party;;;;;;;;;;;;;x
-PAK_free_yoker;The Bandit's League;;;;;;;;;;;;;x
-PAK_statist;Developmentalist Party;;;;;;;;;;;;;x
-PAK_absolutist;The Reform Party;;;;;;;;;;;;;x
-PAK_theocratist;Justicial Party;;;;;;;;;;;;;x
-PAK_conservative;The Confederalists;;;;;;;;;;;;;x
-PAK_reactionary;The Magnates' Faction;;;;;;;;;;;;;x
-PAS_liberationist;The Municipal Reform Party;;;;;;;;;;;;;x
-PAS_free_yoker;West-Pozzak Dining Club;;;;;;;;;;;;;x
-PAS_statist;Road-Reform League;;;;;;;;;;;;;x
-PAS_absolutist;The PSGA;;;;;;;;;;;;;x
-PAS_theocratist;The Poets' Party;;;;;;;;;;;;;x
-PAS_conservative;The Burghers' Syndicate;;;;;;;;;;;;;x
-PAS_reactionary;The Courtiers' Party;;;;;;;;;;;;;x
-VOK_liberationist;The Radical Party;;;;;;;;;;;;;x
-VOK_free_yoker;The Metayer's League;;;;;;;;;;;;;x
-VOK_statist;Orthodox Mudtian Statist Party;;;;;;;;;;;;;x
-VOK_absolutist;The VSGA;;;;;;;;;;;;;x
-VOK_theocratist;Doshkine Honour League;;;;;;;;;;;;;x
-VOK_conservative;The Constabular Party;;;;;;;;;;;;;x
-VOK_reactionary;The High Constabulary;;;;;;;;;;;;;x
-GAU_liberationist;The Social Radicals;;;;;;;;;;;;;x
-GAU_free_yoker;Soldiers of the False Nimiz;;;;;;;;;;;;;x
-GAU_statist;The Statists;;;;;;;;;;;;;x
-GAU_absolutist;All-Gaubja Absolutist Syndicate;;;;;;;;;;;;;x
-GAU_theocratist;The Churchman's Party;;;;;;;;;;;;;x
-GAU_conservative;The Conservatives;;;;;;;;;;;;;x
-GAU_reactionary;The King's Party;;;;;;;;;;;;;x
-VAF_liberationist;The Independent Radicals;;;;;;;;;;;;;x
-VAF_free_yoker;The Whiteback Party;;;;;;;;;;;;;x
-VAF_statist;Union and Defence Party;;;;;;;;;;;;;x
-VAF_absolutist;Vafauti Absolutist Board;;;;;;;;;;;;;x
-VAF_theocratist;The Clericalists;;;;;;;;;;;;;x
-VAF_conservative;The Planter's Party;;;;;;;;;;;;;x
-VAF_reactionary;The Militarists;;;;;;;;;;;;;x
-VUG_liberationist;The Oortothi Party;;;;;;;;;;;;;x
-VUG_free_yoker;Blessed Landsman's League;;;;;;;;;;;;;x
-VUG_statist;The Developmentalist Party;;;;;;;;;;;;;x
-VUG_absolutist;Order and Solidarity Party;;;;;;;;;;;;;x
-VUG_theocratist;Party of the Drupe;;;;;;;;;;;;;x
-VUG_conservative;The Goothins;;;;;;;;;;;;;x
-VUG_reactionary;The Old Athisards;;;;;;;;;;;;;x
-KID_liberationist;The Social Extremists;;;;;;;;;;;;;x
-KID_free_yoker;The Free-Soil Party;;;;;;;;;;;;;x
-KID_statist;Imperial Reform Party;;;;;;;;;;;;;x
-KID_absolutist;Imperial Unity Party;;;;;;;;;;;;;x
-KID_theocratist;Pan-Gashdziik Theocratist Synod;;;;;;;;;;;;;x
-KID_conservative;The Particularists;;;;;;;;;;;;;x
-KID_reactionary;The Party of the Dhovs;;;;;;;;;;;;;x
 colonial_conquest_low_KF;Establish Lowly Protectorate;;;;;;;;;;;;;x
 colonial_conquest_low_KF_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_low_KF_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
@@ -278,34 +201,6 @@ populism_vs._establishment_desc;Born out of dint of necessity in managing a mode
 clericalism_vs._anticlericalism;Toleration and Suppression;;;;;;;;;;;;;x
 clericalism_vs._anticlericalism_desc;The staggering pluralism of the modern world emerged as a challenge for the modern government. Atheists, secularists, sectarian zealots, mystics, practitioners of foreign cults, and the great masses of heathen believers in the imperialised periphery presented a great babble of disagreement, and were easily stirred to conflict and hatred of one government or the other. A rationalized system of approved cults and faiths, and the vigorous suppression of those deemed socially unhygienic, based explicitly on expectation of social coherency and public order, broadly emerged as the states of Ishahfazh grappled both with unorthodox at home and heathen subjects in the colonies. In the early stations and factories established by the Gaubjan government in the Juuruntine territories, we learn directly of the various permits and writs needed for traditional J’ur meeting places to be maintained, and there a few interesting records of the various considerations Gaubjan bureaucrats enquired and worried about during these hearings.;;;;;;;;;;;;;x
 jazhakdii;Jazhakdii;;;;;;;;;;;;;x
-RAN_liberationist;The Gagav Dovâ;;;;;;;;;;;;;x
-RAN_free_yoker;The Roots and Soil League;;;;;;;;;;;;;x
-RAN_statist;The Social Tribunate;;;;;;;;;;;;;x
-RAN_absolutist;Rannutan Social-Absolutist Bloc;;;;;;;;;;;;;x
-RAN_theocratist;The Young Unnahu;;;;;;;;;;;;;x
-RAN_conservative;The Dâveb Party;;;;;;;;;;;;;x
-RAN_reactionary;The Court Faction;;;;;;;;;;;;;x
-MAM_liberationist;The Pavillion of Moths;;;;;;;;;;;;;x
-MAM_free_yoker;The Weavers' Syndicate;;;;;;;;;;;;;x
-MAM_statist;The Social-Statist Party;;;;;;;;;;;;;x
-MAM_absolutist;Social Revolutionary Absolutist Party;;;;;;;;;;;;;x
-MAM_theocratist;The Maou of the Nation;;;;;;;;;;;;;x
-MAM_conservative;The Black Tower Party;;;;;;;;;;;;;x
-MAM_reactionary;The White Tower Party;;;;;;;;;;;;;x
-TAK_liberationist;Sako-Soum Alliance;;;;;;;;;;;;;x
-TAK_free_yoker;The Lubber's Bund;;;;;;;;;;;;;x
-TAK_statist;The Deikauks;;;;;;;;;;;;;x
-TAK_absolutist;The Yaukauks;;;;;;;;;;;;;x
-TAK_theocratist;The Iron Guard;;;;;;;;;;;;;x
-TAK_conservative;The Free Conservatives;;;;;;;;;;;;;x
-TAK_reactionary;The Old Conservatives;;;;;;;;;;;;;x
-BOG_liberationist;The Bukobs;;;;;;;;;;;;;x
-BOG_free_yoker;The Haijduk's League;;;;;;;;;;;;;x
-BOG_statist;Social Modernization Federation;;;;;;;;;;;;;x
-BOG_absolutist;Union and Justice Party;;;;;;;;;;;;;x
-BOG_theocratist;The Fatherland Party;;;;;;;;;;;;;x
-BOG_conservative;The Yellow Party;;;;;;;;;;;;;x
-BOG_reactionary;The Party of the Old Bog;;;;;;;;;;;;;x
 DHN;Dhobnâg;;;;;;;;;;;;;x
 DHN_ADJ;Dhobnâgi;;;;;;;;;;;;;x
 plantations;Plantations;;;;;;;;;;;;;x
@@ -425,20 +320,6 @@ bondsman_rebels_name;Bondsman Rebels;;;;;;;;;;;;;x
 bondsman_rebels_desc;Bondsman rebels are a rag-tag collection of the various wretched bonded folk - the slaves, thralls, serfs, prisoners, hereditary servants, who have come together to seek their collective liberty, and establish a free state.;;;;;;;;;;;;;x
 bondsman_rebels_title;Bondsman;;;;;;;;;;;;;x
 bondsman_rebels_army;Liberated Brigade;;;;;;;;;;;;;x
-GHE_liberationist;Neer Om-Drit;;;;;;;;;;;;;x
-GHE_free_yoker;Ghechyamy Liberation League;;;;;;;;;;;;;x
-GHE_statist;Ghechan Peoples' Statist Party;;;;;;;;;;;;;x
-GHE_absolutist;Grey-Front Fighters;;;;;;;;;;;;;x
-GHE_theocratist;Neer Ghan Gheecha;;;;;;;;;;;;;x
-GHE_conservative;Neer Baym-Ghech;;;;;;;;;;;;;x
-GHE_reactionary;The Qeygs;;;;;;;;;;;;;x
-JAD_liberationist;x;;;;;;;;;;;;;x
-JAD_free_yoker;x;;;;;;;;;;;;;x
-JAD_statist;x;;;;;;;;;;;;;x
-JAD_absolutist;x;;;;;;;;;;;;;x
-JAD_theocratist;x;;;;;;;;;;;;;x
-JAD_conservative;x;;;;;;;;;;;;;x
-JAD_reactionary;x;;;;;;;;;;;;;x
 HAS_GOODS;has goods;;;;;;;;;;;;;x
 PAU;Paukzhodo;;;;;;;;;;;;;x
 PAU_adj;Paukzhodan;;;;;;;;;;;;;x
