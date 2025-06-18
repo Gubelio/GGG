@@ -63,9 +63,7 @@ country_event = { ### FAITHS INDEX ####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						religion = jur
-					}
+					capital_scope = { continent = europe }
 				}
 			}
 		THIS = { country_event = { id = 50125 } }
@@ -74,9 +72,7 @@ country_event = { ### FAITHS INDEX ####
 			limit = {
 				NOT = {
 				THIS = {
-					any_pop = {
-						religion = jur
-					}
+					capital_scope = { continent = europe }
 				}
 				}
 			}
