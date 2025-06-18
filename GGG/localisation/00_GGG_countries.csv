@@ -23,6 +23,7 @@ PAK;Paknâg;;;;;;;;;;;;;
 PAK_ADJ;Paknâgi;;;;;;;;;;;;;
 GOZ;Gozonazh;;;;;;;;;;;;;
 GOZ_ADJ;Gozonazhi;;;;;;;;;;;;;
+GOZ_paternalistic_council;Gozonâg;;;;;;;;;;;;;x
 TWD;Towuorud;;;;;;;;;;;;;
 TWD_ADJ;Towuorudhi;;;;;;;;;;;;;
 FAH;Fahseuhn;;;;;;;;;;;;;
@@ -73,6 +74,9 @@ CHS;Chiishozd;;;;;;;;;;;;;
 CHS_ADJ;Chiishozdi;;;;;;;;;;;;;
 GAU;Gaubja;;;;;;;;;;;;;
 GAU_ADJ;Gaubjian;;;;;;;;;;;;;
+GAU_princely_despotate;Kingdom of Gaubja;;;;;;;;;;;;;x
+GAU_statist_bureaucracy;Gaubjan State;;;;;;;;;;;;;x
+GAU_paternalistic_council;Free Gaubjan Lands;;;;;;;;;;;;;x
 PAS;Pashdzii;;;;;;;;;;;;;
 PAS_ADJ;Pashdzo;;;;;;;;;;;;;
 POZ;Pozha;;;;;;;;;;;;;
@@ -231,6 +235,9 @@ BHI;Bhibaunghir;;;;;;;;;;;;;
 BHI_ADJ;Bhibaunghiri;;;;;;;;;;;;;
 AYU;Anyumb;;;;;;;;;;;;;
 AYU_ADJ;Anyumbo;;;;;;;;;;;;;
+AYU_princely_despotate;Serene Kingdom of Anyumb;;;;;;;;;;;;;x
+AYU_statist_bureaucracy;Anyumb State;;;;;;;;;;;;;x
+AYU_paternalistic_council;Anyumb Commonwealth;;;;;;;;;;;;;x
 BBO;Bu-Boum;;;;;;;;;;;;;
 BBO_ADJ;Buboumdi;;;;;;;;;;;;;
 BIW;Biwautk;;;;;;;;;;;;;
@@ -251,10 +258,16 @@ RIB;Ribhitk;;;;;;;;;;;;;
 RIB_ADJ;Ribhitki;;;;;;;;;;;;;
 NHQ;Nhuiqourr;;;;;;;;;;;;;
 NHQ_ADJ;Nhuiqourran;;;;;;;;;;;;;
+NHQ_princely_despotate;Nhuiqourran Empire;;;;;;;;;;;;;x
+NHQ_statist_bureaucracy;Nhuiqourran Empire;;;;;;;;;;;;;x
+NHQ_paternalistic_council;Nhuiqourran Commonwealth;;;;;;;;;;;;;x
 RSS;Risso;;;;;;;;;;;;;
 RSS_ADJ;Risson;;;;;;;;;;;;;
 PUS;Pusunetos;;;;;;;;;;;;;
 PUS_ADJ;Pusunetone;;;;;;;;;;;;;
+PUS_princely_despotate;Pusunetos of the Great Khan;;;;;;;;;;;;;x
+PUS_statist_bureaucracy;Pusunetos of the State;;;;;;;;;;;;;x
+PUS_paternalistic_council;Pusunetos of the People;;;;;;;;;;;;;x
 SUG;Sugteq;;;;;;;;;;;;;
 SUG_ADJ;Sugteqi;;;;;;;;;;;;;
 GUS;Gussana;;;;;;;;;;;;;
@@ -447,106 +460,126 @@ RST;Roshuut;;;;;;;;;;;;;
 RST_ADJ;Roshuutan;;;;;;;;;;;;;
 HAK;Hakduha;;;;;;;;;;;;;
 HAK_ADJ;Hakduhan;;;;;;;;;;;;;
-#D01;$REGION$;;;;;;;;;;;;;
-#D01_ADJ;$REGION$;;;;;;;;;;;;;
-#D02;$REGION$;;;;;;;;;;;;;
-#D02_ADJ;$REGION$;;;;;;;;;;;;;
-#D03;$REGION$;;;;;;;;;;;;;
-#D03_ADJ;$REGION$;;;;;;;;;;;;;
-#D04;$REGION$;;;;;;;;;;;;;
-#D04_ADJ;$REGION$;;;;;;;;;;;;;
-#D05;$REGION$;;;;;;;;;;;;;
-#D05_ADJ;$REGION$;;;;;;;;;;;;;
-#D06;$REGION$;;;;;;;;;;;;;
-#D06_ADJ;$REGION$;;;;;;;;;;;;;
-#D07;$REGION$;;;;;;;;;;;;;
-#D07_ADJ;$REGION$;;;;;;;;;;;;;
-#D08;$REGION$;;;;;;;;;;;;;
-#D08_ADJ;$REGION$;;;;;;;;;;;;;
-#D09;$REGION$;;;;;;;;;;;;;
-#D09_ADJ;$REGION$;;;;;;;;;;;;;
-#D10;$REGION$;;;;;;;;;;;;;
-#D10_ADJ;$REGION$;;;;;;;;;;;;;
-#D11;$REGION$;;;;;;;;;;;;;
-#D11_ADJ;$REGION$;;;;;;;;;;;;;
-#D12;$REGION$;;;;;;;;;;;;;
-#D12_ADJ;$REGION$;;;;;;;;;;;;;
-#D13;$REGION$;;;;;;;;;;;;;
-#D13_ADJ;$REGION$;;;;;;;;;;;;;
-#D14;$REGION$;;;;;;;;;;;;;
-#D14_ADJ;$REGION$;;;;;;;;;;;;;
-#D15;$REGION$;;;;;;;;;;;;;
-#D15_ADJ;$REGION$;;;;;;;;;;;;;
-#D16;$REGION$;;;;;;;;;;;;;
-#D16_ADJ;$REGION$;;;;;;;;;;;;;
-#D17;$REGION$;;;;;;;;;;;;;
-#D17_ADJ;$REGION$;;;;;;;;;;;;;
-#D18;$REGION$;;;;;;;;;;;;;
-#D18_ADJ;$REGION$;;;;;;;;;;;;;
-#D19;$REGION$;;;;;;;;;;;;;
-#D19_ADJ;$REGION$;;;;;;;;;;;;;
-#D20;$REGION$;;;;;;;;;;;;;
-#D20_ADJ;$REGION$;;;;;;;;;;;;;
-#D21;$REGION$;;;;;;;;;;;;;
-#D21_ADJ;$REGION$;;;;;;;;;;;;;
-#D22;$REGION$;;;;;;;;;;;;;
-#D22_ADJ;$REGION$;;;;;;;;;;;;;
-#D23;$REGION$;;;;;;;;;;;;;
-#D23_ADJ;$REGION$;;;;;;;;;;;;;
-#D24;$REGION$;;;;;;;;;;;;;
-#D24_ADJ;$REGION$;;;;;;;;;;;;;
-#D25;$REGION$;;;;;;;;;;;;;
-#D25_ADJ;$REGION$;;;;;;;;;;;;;
-#D26;$REGION$;;;;;;;;;;;;;
-#D26_ADJ;$REGION$;;;;;;;;;;;;;
-#D27;$REGION$;;;;;;;;;;;;;
-#D27_ADJ;$REGION$;;;;;;;;;;;;;
-#D28;$REGION$;;;;;;;;;;;;;
-#D28_ADJ;$REGION$;;;;;;;;;;;;;
-#D29;$REGION$;;;;;;;;;;;;;
-#D29_ADJ;$REGION$;;;;;;;;;;;;;
-#D30;$REGION$;;;;;;;;;;;;;
-#D30_ADJ;$REGION$;;;;;;;;;;;;;
-#D31;$REGION$;;;;;;;;;;;;;
-#D31_ADJ;$REGION$;;;;;;;;;;;;;
-#D32;$REGION$;;;;;;;;;;;;;
-#D32_ADJ;$REGION$;;;;;;;;;;;;;
-#D33;$REGION$;;;;;;;;;;;;;
-#D33_ADJ;$REGION$;;;;;;;;;;;;;
-#D34;$REGION$;;;;;;;;;;;;;
-#D34_ADJ;$REGION$;;;;;;;;;;;;;
-#D35;$REGION$;;;;;;;;;;;;;
-#D35_ADJ;$REGION$;;;;;;;;;;;;;
-#D36;$REGION$;;;;;;;;;;;;;
-#D36_ADJ;$REGION$;;;;;;;;;;;;;
-#D37;$REGION$;;;;;;;;;;;;;
-#D37_ADJ;$REGION$;;;;;;;;;;;;;
-#D38;$REGION$;;;;;;;;;;;;;
-#D38_ADJ;$REGION$;;;;;;;;;;;;;
-#D39;$REGION$;;;;;;;;;;;;;
-#D39_ADJ;$REGION$;;;;;;;;;;;;;
-#D40;$REGION$;;;;;;;;;;;;;
-#D40_ADJ;$REGION$;;;;;;;;;;;;;
-#D41;$REGION$;;;;;;;;;;;;;
-#D41_ADJ;$REGION$;;;;;;;;;;;;;
-#D42;$REGION$;;;;;;;;;;;;;
-#D42_ADJ;$REGION$;;;;;;;;;;;;;
-#D43;$REGION$;;;;;;;;;;;;;
-#D43_ADJ;$REGION$;;;;;;;;;;;;;
-#D44;$REGION$;;;;;;;;;;;;;
-#D44_ADJ;$REGION$;;;;;;;;;;;;;
-#D45;$REGION$;;;;;;;;;;;;;
-#D45_ADJ;$REGION$;;;;;;;;;;;;;
-#D46;$REGION$;;;;;;;;;;;;;
-#D46_ADJ;$REGION$;;;;;;;;;;;;;
-#D47;$REGION$;;;;;;;;;;;;;
-#D47_ADJ;$REGION$;;;;;;;;;;;;;
-#D48;$REGION$;;;;;;;;;;;;;
-#D48_ADJ;$REGION$;;;;;;;;;;;;;
-#D49;$REGION$;;;;;;;;;;;;;
-#D49_ADJ;$REGION$;;;;;;;;;;;;;
-#D50;$REGION$;;;;;;;;;;;;;
-#D50_ADJ;$REGION$;;;;;;;;;;;;;
+D01;$REGION$;;;;;;;;;;;;;x
+D01_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D02;Organised $REGION$ Colonies;;;;;;;;;;;;;x
+D02_ADJ;$REGION$ite;;;;;;;;;;;;;;x
+D03;$REGION$ Territories;;;;;;;;;;;;;x
+D03_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D04;$REGION$land;;;;;;;;;;;;;x
+D04_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D05;The Dominion of $REGION$;;;;;;;;;;;;;x
+D05_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D06;Governate of $REGION$;;;;;;;;;;;;;x
+D06_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D07;$REGION$ Free State;;;;;;;;;;;;;x
+D07_ADJ;Freestater;;;;;;;;;;;;;x
+D08;$REGION$ Colony;;;;;;;;;;;;;x
+D08_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D09;$REGION$ Protectorate;;;;;;;;;;;;;x
+D09_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D10;The $REGION$ Protectorate;;;;;;;;;;;;;x
+D10_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D11;The $REGION$ Concession;;;;;;;;;;;;;x
+D11_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D12;$REGION$ Districts Protectorate;;;;;;;;;;;;;x
+D12_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D13;The $REGION$ Company;;;;;;;;;;;;;x
+D13_ADJ;Company;;;;;;;;;;;;;x
+D14;The Dominion of $REGION$;;;;;;;;;;;;;x
+D14_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D15;$REGION$ Protectorate;;;;;;;;;;;;;x
+D15_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D16;The $REGION$ Colonies;;;;;;;;;;;;;x
+D16_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D17;The $REGION$ Colony;;;;;;;;;;;;;x
+D17_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D18;Captiancy of $REGION$;;;;;;;;;;;;;x
+D18_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D19;Colonial $REGION$;;;;;;;;;;;;;x
+D19_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D20;$REGION$ Territory;;;;;;;;;;;;;x
+D20_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D21;Concession Territory of $REGION$;;;;;;;;;;;;;x
+D21_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D22;$REGION$land;;;;;;;;;;;;;x
+D22_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D23;$REGION$land;;;;;;;;;;;;;x
+D23_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D24;$REGION$ Dependencies;;;;;;;;;;;;;x
+D24_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D25;$REGION$ District;;;;;;;;;;;;;x
+D25_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D26;The $REGION$ Free State;;;;;;;;;;;;;x
+D26_ADJ;Freestater;;;;;;;;;;;;;x
+D27;The $REGION$ Settlements;;;;;;;;;;;;;x
+D27_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D28;$REGION$ Protectorate;;;;;;;;;;;;;x
+D28_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D29;The $REGION$ Colony;;;;;;;;;;;;;x
+D29_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D30;$REGION$land;;;;;;;;;;;;;x
+D30_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D31;$REGION$land;;;;;;;;;;;;;x
+D31_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D32;The $REGION$ Colony;;;;;;;;;;;;;x
+D32_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D33;The $REGION$ Department;;;;;;;;;;;;;x
+D33_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D34;United Colonies of $REGION$;;;;;;;;;;;;;x
+D34_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D35;The $REGION$ Governate;;;;;;;;;;;;;x
+D35_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D36;The $REGION$ Concession;;;;;;;;;;;;;x
+D36_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D37;$REGION$ Colonial Governate;;;;;;;;;;;;;x
+D37_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D38;$REGION$ Land;;;;;;;;;;;;;x
+D38_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D39;$REGION$ Territories;;;;;;;;;;;;;x
+D39_ADJ;$REGION$ite;;;;;;;;;;;;;x
+D45;Free Commonwealth;;;;;;;;;;;;;x
+D45_ADJ;Commonwealther;;;;;;;;;;;;;x
+D41;Freemans' Republic;;;;;;;;;;;;;x
+D41_ADJ;Republican;;;;;;;;;;;;;;x
+D42;Freemans' State;;;;;;;;;;;;;x
+D42_ADJ;Freedman;;;;;;;;;;;;;x
+D43;Freestate;;;;;;;;;;;;;x
+D43_ADJ;Freestater;;;;;;;;;;;;;x
+D40;Republic of Goodhope;;;;;;;;;;;;;x
+D40_ADJ;Goodhoper;;;;;;;;;;;;;x
+D44;The Free Cities;;;;;;;;;;;;;x
+D44_ADJ;Freistadter;;;;;;;;;;;;;x
+D46;Commonwealth of Man;;;;;;;;;;;;;x
+D46_ADJ;Commonwealther;;;;;;;;;;;;;x
+D47;The Liberated Territories;;;;;;;;;;;;;x
+D47_ADJ;Territorial;;;;;;;;;;;;;x
+D48;The Sublime Republic;;;;;;;;;;;;;x
+D48_ADJ;Republican;;;;;;;;;;;;;x
+D49;The Freedman's Bund;;;;;;;;;;;;;x
+D49_ADJ;Bunder;;;;;;;;;;;;;x
+#D40;$REGION$ Protectorate;;;;;;;;;;;;;x
+#D40_ADJ;$REGION$itet;;;;;;;;;;;;;x
+#D41;The $REGION$ Protectorate;;;;;;;;;;;;;x
+#D41_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D42;$REGION$ Protectorate;;;;;;;;;;;;;x
+#D42_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D43;$REGION$ Colony;;;;;;;;;;;;;x
+#D43_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D44;Trucical $REGION$;;;;;;;;;;;;;x
+#D44_ADJ;Trucical;;;;;;;;;;;;;x
+#D45;Colony and Protectorate of $REGION$;;;;;;;;;;;;;x
+#D45_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D46;$REGION$land;;;;;;;;;;;;;x
+#D46_ADJ;$REGION$lander;;;;;;;;;;;;;x
+#D47;The $REGION$ Dominion;;;;;;;;;;;;;x
+#D47_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D48;The $REGION$ Protectorate;;;;;;;;;;;;;x
+#D48_ADJ;$REGION$ite;;;;;;;;;;;;;x
+#D49;$REGION$land Colony;;;;;;;;;;;;;x
+#D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
+D50;$REGION$land;;;;;;;;;;;;;x
+D50_ADJ;$REGION$lander;;;;;;;;;;;;;x
 DEX;Dexunu;;;;;;;;;;;;;
 DEX_ADJ;Dexun;;;;;;;;;;;;;
 GGN;Gimeng Gon;;;;;;;;;;;;;
@@ -561,3 +594,31 @@ DZN;Dozhnâg;;;;;;;;;;;;;
 DZN_ADJ;Dozhnâgi;;;;;;;;;;;;;
 CHB;Chiibnazh;;;;;;;;;;;;;
 CHB_ADJ;Chiibnazhi;;;;;;;;;;;;;
+THN;Theanâg;;;;;;;;;;;;;x
+THN_ADJ;Theanâgi;;;;;;;;;;;;;x
+PAU;Paukzhodo;;;;;;;;;;;;;x
+PAU_adj;Paukzhodan;;;;;;;;;;;;;x
+WSW;Wushauwland;;;;;;;;;;;;;x
+WSW_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_paternalistic_council;Wushauw Free State;;;;;;;;;;;;;x
+WSW_aristocratic_commonwealth;Wushauw Free State;;;;;;;;;;;;;x
+WSW_princely_despotate;Wushauw Free State;;;;;;;;;;;;;x
+WSW_theocracy;Wushauwland;;;;;;;;;;;;;x
+WSW_theocratist_dictatorship;Wushauw Free State;;;;;;;;;;;;;x
+WSW_paternalistic_council_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_aristocratic_commonwealth_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_princely_despotate_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_theocracy_ADJ;Wushavian;;;;;;;;;;;;;x
+WSW_theocratist_dictatorship_ADJ;Wushavian;;;;;;;;;;;;;x
+JTN;Juruntine Territories;;;;;;;;;;;;;x
+JTN_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_paternalistic_council;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_aristocratic_commonwealth;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_princely_despotate;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_theocracy;Juruntine Territories;;;;;;;;;;;;;x
+JTN_theocratist_dictatorship;United Juruntine Provinces;;;;;;;;;;;;;x
+JTN_paternalistic_council_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_aristocratic_commonwealth_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_princely_despotate_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_theocracy_ADJ;Juruntine;;;;;;;;;;;;;x
+JTN_theocratist_dictatorship_ADJ;Juruntine;;;;;;;;;;;;;x

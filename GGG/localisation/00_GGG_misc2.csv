@@ -14,152 +14,6 @@ barrels;Two Leggers;;;;;;;;;;;;;x
 steel_factory;Steel Mill;;;;;;;;;;;;;x
 fabric_factory;Textile Mill;;;;;;;;;;;;;x
 steel_factory_desc;This factory complex is a steel mill, producing steel and iron products for private and public entities. It consists of large furnaces or crucibles for smelting pig iron, mills for rolling, casting pits as part of a foundry, as well as likely some specialised operations. Its workers work long hours in sweltering conditions, making the essential metalworks for consumer and military use.;;;;;;;;;;;;;x
-WSW;Wushauwland;;;;;;;;;;;;;x
-WSW_ADJ;Wushavian;;;;;;;;;;;;;x
-WSW_paternalistic_council;Wushauw Free State;;;;;;;;;;;;;x
-WSW_aristocratic_commonwealth;Wushauw Free State;;;;;;;;;;;;;x
-WSW_princely_despotate;Wushauw Free State;;;;;;;;;;;;;x
-WSW_theocracy;Wushauwland;;;;;;;;;;;;;x
-WSW_theocratist_dictatorship;Wushauw Free State;;;;;;;;;;;;;x
-WSW_paternalistic_council_ADJ;Wushavian;;;;;;;;;;;;;x
-WSW_aristocratic_commonwealth_ADJ;Wushavian;;;;;;;;;;;;;x
-WSW_princely_despotate_ADJ;Wushavian;;;;;;;;;;;;;x
-WSW_theocracy_ADJ;Wushavian;;;;;;;;;;;;;x
-WSW_theocratist_dictatorship_ADJ;Wushavian;;;;;;;;;;;;;x
-JTN;Juruntine Territories;;;;;;;;;;;;;x
-JTN_ADJ;Juruntine;;;;;;;;;;;;;x
-JTN_paternalistic_council;United Juruntine Provinces;;;;;;;;;;;;;x
-JTN_aristocratic_commonwealth;United Juruntine Provinces;;;;;;;;;;;;;x
-JTN_princely_despotate;United Juruntine Provinces;;;;;;;;;;;;;x
-JTN_theocracy;Juruntine Territories;;;;;;;;;;;;;x
-JTN_theocratist_dictatorship;United Juruntine Provinces;;;;;;;;;;;;;x
-JTN_paternalistic_council_ADJ;Juruntine;;;;;;;;;;;;;x
-JTN_aristocratic_commonwealth_ADJ;Juruntine;;;;;;;;;;;;;x
-JTN_princely_despotate_ADJ;Juruntine;;;;;;;;;;;;;x
-JTN_theocracy_ADJ;Juruntine;;;;;;;;;;;;;x
-JTN_theocratist_dictatorship_ADJ;Juruntine;;;;;;;;;;;;;x
-D01;$REGION$;;;;;;;;;;;;;x
-D01_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D02;Organised $REGION$ Colonies;;;;;;;;;;;;;x
-D02_ADJ;$REGION$ite;;;;;;;;;;;;;;x
-D03;$REGION$ Territories;;;;;;;;;;;;;x
-D03_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D04;$REGION$land;;;;;;;;;;;;;x
-D04_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D05;The Dominion of $REGION$;;;;;;;;;;;;;x
-D05_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D06;Governate of $REGION$;;;;;;;;;;;;;x
-D06_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D07;$REGION$ Free State;;;;;;;;;;;;;x
-D07_ADJ;Freestater;;;;;;;;;;;;;x
-D08;$REGION$ Colony;;;;;;;;;;;;;x
-D08_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D09;$REGION$ Protectorate;;;;;;;;;;;;;x
-D09_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D10;The $REGION$ Protectorate;;;;;;;;;;;;;x
-D10_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D11;The $REGION$ Concession;;;;;;;;;;;;;x
-D11_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D12;$REGION$ Districts Protectorate;;;;;;;;;;;;;x
-D12_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D13;The $REGION$ Company;;;;;;;;;;;;;x
-D13_ADJ;Company;;;;;;;;;;;;;x
-D14;The Dominion of $REGION$;;;;;;;;;;;;;x
-D14_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D15;$REGION$ Protectorate;;;;;;;;;;;;;x
-D15_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D16;The $REGION$ Colonies;;;;;;;;;;;;;x
-D16_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D17;The $REGION$ Colony;;;;;;;;;;;;;x
-D17_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D18;Captiancy of $REGION$;;;;;;;;;;;;;x
-D18_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D19;Colonial $REGION$;;;;;;;;;;;;;x
-D19_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D20;$REGION$ Territory;;;;;;;;;;;;;x
-D20_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D21;Concession Territory of $REGION$;;;;;;;;;;;;;x
-D21_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D22;$REGION$land;;;;;;;;;;;;;x
-D22_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D23;$REGION$land;;;;;;;;;;;;;x
-D23_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D24;$REGION$ Dependencies;;;;;;;;;;;;;x
-D24_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D25;$REGION$ District;;;;;;;;;;;;;x
-D25_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D26;The $REGION$ Free State;;;;;;;;;;;;;x
-D26_ADJ;Freestater;;;;;;;;;;;;;x
-D27;The $REGION$ Settlements;;;;;;;;;;;;;x
-D27_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D28;$REGION$ Protectorate;;;;;;;;;;;;;x
-D28_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D29;The $REGION$ Colony;;;;;;;;;;;;;x
-D29_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D30;$REGION$land;;;;;;;;;;;;;x
-D30_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D31;$REGION$land;;;;;;;;;;;;;x
-D31_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D32;The $REGION$ Colony;;;;;;;;;;;;;x
-D32_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D33;The $REGION$ Department;;;;;;;;;;;;;x
-D33_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D34;United Colonies of $REGION$;;;;;;;;;;;;;x
-D34_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D35;The $REGION$ Governate;;;;;;;;;;;;;x
-D35_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D36;The $REGION$ Concession;;;;;;;;;;;;;x
-D36_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D37;$REGION$ Colonial Governate;;;;;;;;;;;;;x
-D37_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D38;$REGION$ Land;;;;;;;;;;;;;x
-D38_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D39;$REGION$ Territories;;;;;;;;;;;;;x
-D39_ADJ;$REGION$ite;;;;;;;;;;;;;x
-D45;Free Commonwealth;;;;;;;;;;;;;x
-D45_ADJ;Commonwealther;;;;;;;;;;;;;x
-D41;Freemans' Republic;;;;;;;;;;;;;x
-D41_ADJ;Republican;;;;;;;;;;;;;;x
-D42;Freemans' State;;;;;;;;;;;;;x
-D42_ADJ;Freedman;;;;;;;;;;;;;x
-D43;Freestate;;;;;;;;;;;;;x
-D43_ADJ;Freestater;;;;;;;;;;;;;x
-D40;Republic of Goodhope;;;;;;;;;;;;;x
-D40_ADJ;Goodhoper;;;;;;;;;;;;;x
-D44;The Free Cities;;;;;;;;;;;;;x
-D44_ADJ;Freistadter;;;;;;;;;;;;;x
-D46;Commonwealth of Man;;;;;;;;;;;;;x
-D46_ADJ;Commonwealther;;;;;;;;;;;;;x
-D47;The Liberated Territories;;;;;;;;;;;;;x
-D47_ADJ;Territorial;;;;;;;;;;;;;x
-D48;The Sublime Republic;;;;;;;;;;;;;x
-D48_ADJ;Republican;;;;;;;;;;;;;x
-D49;The Freedman's Bund;;;;;;;;;;;;;x
-D49_ADJ;Bunder;;;;;;;;;;;;;x
-#D40;$REGION$ Protectorate;;;;;;;;;;;;;x
-#D40_ADJ;$REGION$itet;;;;;;;;;;;;;x
-#D41;The $REGION$ Protectorate;;;;;;;;;;;;;x
-#D41_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D42;$REGION$ Protectorate;;;;;;;;;;;;;x
-#D42_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D43;$REGION$ Colony;;;;;;;;;;;;;x
-#D43_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D44;Trucical $REGION$;;;;;;;;;;;;;x
-#D44_ADJ;Trucical;;;;;;;;;;;;;x
-#D45;Colony and Protectorate of $REGION$;;;;;;;;;;;;;x
-#D45_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D46;$REGION$land;;;;;;;;;;;;;x
-#D46_ADJ;$REGION$lander;;;;;;;;;;;;;x
-#D47;The $REGION$ Dominion;;;;;;;;;;;;;x
-#D47_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D48;The $REGION$ Protectorate;;;;;;;;;;;;;x
-#D48_ADJ;$REGION$ite;;;;;;;;;;;;;x
-#D49;$REGION$land Colony;;;;;;;;;;;;;x
-#D49_ADJ;$REGION$lander;;;;;;;;;;;;;x
-D50;$REGION$land;;;;;;;;;;;;;x
-D50_ADJ;$REGION$lander;;;;;;;;;;;;;x
-THN;Theanâg;;;;;;;;;;;;;x
-THN_ADJ;Theanâgi;;;;;;;;;;;;;x
 colonial_conquest_low_KF;Establish Lowly Protectorate;;;;;;;;;;;;;x
 colonial_conquest_low_KF_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 colonial_conquest_low_KF_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
@@ -201,34 +55,9 @@ populism_vs._establishment_desc;Born out of dint of necessity in managing a mode
 clericalism_vs._anticlericalism;Toleration and Suppression;;;;;;;;;;;;;x
 clericalism_vs._anticlericalism_desc;The staggering pluralism of the modern world emerged as a challenge for the modern government. Atheists, secularists, sectarian zealots, mystics, practitioners of foreign cults, and the great masses of heathen believers in the imperialised periphery presented a great babble of disagreement, and were easily stirred to conflict and hatred of one government or the other. A rationalized system of approved cults and faiths, and the vigorous suppression of those deemed socially unhygienic, based explicitly on expectation of social coherency and public order, broadly emerged as the states of Ishahfazh grappled both with unorthodox at home and heathen subjects in the colonies. In the early stations and factories established by the Gaubjan government in the Juuruntine territories, we learn directly of the various permits and writs needed for traditional J’ur meeting places to be maintained, and there a few interesting records of the various considerations Gaubjan bureaucrats enquired and worried about during these hearings.;;;;;;;;;;;;;x
 jazhakdii;Jazhakdii;;;;;;;;;;;;;x
-DHN;Dhobnâg;;;;;;;;;;;;;x
-DHN_ADJ;Dhobnâgi;;;;;;;;;;;;;x
 plantations;Plantations;;;;;;;;;;;;;x
 new_world_plantations_title;Plantations in the Great East;;;;;;;;;;;;;x
 new_world_plantations_desc;The vast continents to the east are largely underpopulated and undercultivated. Agriculture, if done at all, is clumsy, ad-hoc, and on very small scales. A unique oppertunity is presented to our colonial government to appartition great swathes of land to planters and settlers to encourage the development of large plantations that could hopefully produce crops more efficiently than farms and estates in the metropole.;;;;;;;;;;;;;x
-GAU_princely_despotate;Kingdom of Gaubja;;;;;;;;;;;;;x
-GAU_statist_bureaucracy;Gaubjan State;;;;;;;;;;;;;x
-GAU_paternalistic_council;Free Gaubjan Lands;;;;;;;;;;;;;x
-GOZ_paternalistic_council;Gozonâg;;;;;;;;;;;;;x
-TAK_aristocratic_commonwealth;Takemogine Union;;;;;;;;;;;;;x
-TAK_statist_bureaucracy;Takemogine Union;;;;;;;;;;;;;x
-TAK_paternalistic_council;Takemogine Commonwealth;;;;;;;;;;;;;x
-AYU_princely_despotate;Serene Kingdom of Anyumb;;;;;;;;;;;;;x
-AYU_statist_bureaucracy;Anyumb State;;;;;;;;;;;;;x
-AYU_paternalistic_council;Anyumb Commonwealth;;;;;;;;;;;;;x
-AYU_liberationist;Peace and Tolerance League;;;;;;;;;;;;;x
-AYU_free_yoker;The Pastoralists' Bund;;;;;;;;;;;;;x
-AYU_statist;Unity and Progress Party;;;;;;;;;;;;;x
-AYU_absolutist;The New Royalists;;;;;;;;;;;;;x
-AYU_theocratist;Parosou-Yak Party;;;;;;;;;;;;;x
-AYU_conservative;The Old Royalists;;;;;;;;;;;;;x
-AYU_reactionary;The Isolationists;;;;;;;;;;;;;x
-PUS_princely_despotate;Pusunetos of the Great Khan;;;;;;;;;;;;;x
-PUS_statist_bureaucracy;Pusunetos of the State;;;;;;;;;;;;;x
-PUS_paternalistic_council;Pusunetos of the People;;;;;;;;;;;;;x
-NHQ_princely_despotate;Nhuiqourran Empire;;;;;;;;;;;;;x
-NHQ_statist_bureaucracy;Nhuiqourran Empire;;;;;;;;;;;;;x
-NHQ_paternalistic_council;Nhuiqourran Commonwealth;;;;;;;;;;;;;x
 paknag_bandits;Banditry;;;;;;;;;;;;;x
 ended_bandits;Banditry Suppressed;;;;;;;;;;;;;x
 precious_goods;Trade Goods;;;;;;;;;;;;;x
@@ -239,12 +68,6 @@ treaty_port_casus_belli_short;Compensiation from $RECIPIENT$;;;;;;;;;;;;;x
 treaty_port_casus_belli_setup;Demand reparations and port concessions from $RECIPIENT$.;;;;;;;;;;;;;x
 treaty_port_casus_belli_desc;Seize a treaty port from a large and prosperous §Yuncivilized country§W, as well as extract reparations from them.;;;;;;;;;;;;;x
 PUNITIVE_EXPEDITION_WAR_NAME;Punitive Expedition;;;;;;;;;;;;;x
-3059_treaty_port_title;The Port Ragor Treaty;;;;;;;;;;;;;x
-3059_treaty_port_desc;Port Ragor is one of the most handsome ports of the gulf of the empire of Nhuiqour. Once called Anzapht by the Jiishanagi merchants who controlled it from 1171-1222, this disconnected exclave now plays a sleepy part in the Nhuiquourran economy, where the markets are thin and overseas trade is mostly carried by Niiz Kan, the new Gashdzii trading capital in the west of Kovazh. Now, however, since we have defeated the Nhuiquourrans and wrung from them many concessions, we can take over this once bustling city. With renewed charters of extraterritoriality, a 103 year lease, our merchants are sure to prosper, and this port could once again come to overshadow Niiz Kan.;;;;;;;;;;;;;x
-3060_treaty_port_title;The Bir Territory Treaty;;;;;;;;;;;;;x
-3060_treaty_port_desc;The Bir Territory is a stretch of relatively uncultivated land near the capital of the Ourrhond. It is mostly occupied by small settlements of impoverished fishing communities that serve the capital. Nonetheless, its proximity to the capital and the Caigur river mean it could be, with development, a prime location for trade. With our recent victory over the local Aucbhur, we have demanded this territory to be conceded to us and our subjects for the development of a commercial city, unburdend by duties, for the sake of trading in the local region, and already trading companies are eager to build makeshift wharves and warehouses.;;;;;;;;;;;;;x
-3061_treaty_port_title;The Mójib Treaty;;;;;;;;;;;;;x
-3061_treaty_port_desc;The Pusunetos of the Great Khan is a strange state, and merchants tread there with caution. None can know when suddenly alliances will shift and those lords once in favour, and their foreign merchant friends, will suddenly be enemies. One hears enough blood curdling tales from the Court of the Great Khan. Now, however, we should be free of this trouble, and in fact gain great advantage over many other foreign traders in the Pusunetos. For since we have defeated the Armies of the Khan, we have won handsome Mójib, a little fishing town, for lease by our government. This will provide a haven for traders in the lands of the Khan, and he has kindly agreed also that disputes between his subjects and our merchants will be heard in whatever court we choose to establish in Mójib.;;;;;;;;;;;;;x
 negotiating_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
 negotiating_unequal_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
 thriving_trade;Thriving Trade;;;;;;;;;;;;;x
@@ -259,14 +82,6 @@ MODIFIER_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
 MODIFIER_SELF_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
 CIVILIZE_NO_MASTER_DESC;Fully embrace modern ideas. This will gives us access to the technological advances from around the world;;;;;;;;;;;;;x
 CIVILIZE_DESC;Fully embrace modern ideas. This will give us access to the technological advances of our sphere leader;;;;;;;;;;;;;x
-3055_treaty_port_title;The Niiz Moji Treaty;;;;;;;;;;;;;x
-3055_treaty_port_desc;Niiz Moji, or ‘Gold Port’ was the oldest continuously established Gashdzii possession on the great mainland of Kovazh. Acquired in 1089 by a concession of Qooxib Emperor Ohadh-Bohen Qamo III, a perpetual charter to trade free of duties was granted to the Jiishanagi South Seas Trading League. The Merchants had long kept an informal residence in cities on the great delta, but now they began building a fortress to protect against the violence of Poumnian rival trader-governors, who often employed the imperial garrisons of Mra-Ouswun in the interest of private profit. However, Niiz Moji’s proximity to the Imperial capital and its place on the river allows for supreme access to the trade of Qooxib and its interior, allowing it to eclipse the older Poumnian traders. Nowadays, Niiz Moji is a byword for lucrative profit, and has grown into a teeming metropolis boasting of over 200,000 residents, with elegant gardens on the river deltas, proud and bright walls, and sober townhouses.;;;;;;;;;;;;;x
-3056_treaty_port_title;The Mra-Ouswun Treaty;;;;;;;;;;;;;x
-3056_treaty_port_desc;Mra-Ouswun, or ‘Fort Mra’ was the oldest Ishahfazhi possession on the Kovan mainland. It meaningly consists of the trading factory and settlement of Mra, begun in 1035 oy the orders of the Viceroy-General Ashou Sha-Shoummid, an adventurous scion of House Ibu, who was that time the ‘Viceroy of the Pudwou in the Southern Continent’. A fine title for a man who was not much more than a merchant in the Qooxibi capital, but he nominally held the power to dispense justice to Poumnian subjects in all of Mainlanz Kovazh. Employing private levies to aid against a Souxappi revolt, he impressed and gained the favour of Odadh-Bohen Qamo II, who granted him extraterritoriality and allowed him to build a fort, as a nominal ‘vassal’ of the Qooxib. This factory station gradually became a great trading town, was granted independence of the Qooxib, and was still a fief of House Shoummid until very recently.;;;;;;;;;;;;;x
-3057_treaty_port_title;The Niiz Jadhov Treaty;;;;;;;;;;;;;x
-3057_treaty_port_desc;Old Niiz Jadhov, ‘Kingsport’, was a commanding Vokonazhi factory in the land of the Ourrhond, the great monarchy of central Kovash. This aristocratic confederacy, fraught by regular internal conflict, nonetheless yields great trade goods, with carved furniture made from the lumber of the rich woodlands that dot the plains, ivories from the great beasts of Kovazh, and precious objects made by the locals. Niiz Jadhov was established in 1167 by a number of intrepid Vokonazhi traders who took advantage of a civil conflict between local tribesmen in the local region and its lord, Hana Birhim. Delicately balancing various loyalties between the distracted locals, the fort was satisfactorily risen, and became a great holdfast for Vokonazhi trading in the area. Eventually a smaller inland fort was raised, which attracted the local manufacturing community. Niiz Jadhov boasted of the headquarters of the Imperial Kovan Trading Company, nominally granted by the Emperor in Pashdzii.;;;;;;;;;;;;;x
-3058_treaty_port_title;The Niiz Kan Treaty;;;;;;;;;;;;;x
-3058_treaty_port_desc;Niiz Kan was the premier Gashdzii trading port in the west of Kovazh. Established by Ishapt Tea Company charter in 1160, its key figure intrepid Bida Kazak, a trader originally based in the island of Rouxaem. Kazak settled a fertile stretch of coast with a hope to plant his own tea crops - he married a local Chobaji heiress and added to his fortune a number of large estates nearby. Shockingly, he and his wife both were buried after the fashion of the Vewugist. A community began to grow around this settlement, attracting goods brought down the coastal road. Until 1221, however, the main Gashdzii trading settlement in the area, Anzhapt, was on the southern delta, but in 1221 the new Emperor declared the expulsion of all foreigners from the delta, and riotous violence drove many Gashdzii north, eventually to hybrid Niiz Kan. The city survived the failure of the Ishapt Tea Company in 1241, and was given a responsible government by the Parliament in Nozho.;;;;;;;;;;;;;x
 demand_concession_casus_belli_event;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
 demand_concession_casus_belli_event_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
 demand_concession_casus_belli_event_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
@@ -321,8 +136,6 @@ bondsman_rebels_desc;Bondsman rebels are a rag-tag collection of the various wre
 bondsman_rebels_title;Bondsman;;;;;;;;;;;;;x
 bondsman_rebels_army;Liberated Brigade;;;;;;;;;;;;;x
 HAS_GOODS;has goods;;;;;;;;;;;;;x
-PAU;Paukzhodo;;;;;;;;;;;;;x
-PAU_adj;Paukzhodan;;;;;;;;;;;;;x
 FE_BASIC;The Setting (1);x
 FE_MEDIUM;The Setting (2);x
 FE_ADVANCED;Major Nations;x
