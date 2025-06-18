@@ -385,6 +385,23 @@ EVT50115DESC;Our various colonial administrators work tirelessly to make sure ou
 EVT500115PTA;Tally-ho, chaps, let's get a move on.;;;;;;;;;;;;;x
 EVT50116NAME;x;;;;;;;;;;;;;x ### bondsmen setup no loc needed
 EVT50116DESC;x;;;;;;;;;;;;;x
+EVT50117NAME;The Encyclopedia $COUNTRY_ADJ$ica;;;;;;;;;;;;;x 
+EVT50117DESC;Forward to the Encyclopedia: contained in this book is the sum of the knowledge of our esteemed civilisation. It will update with new entries as our explorers and scientists discover more things.;;;;;;;;;;;;;x
+EVTNAME50118;Mutineer Community Discovered!;;;;;;;;;;;;;x
+EVTDESC50118;It has been a long time since we dispatched an exploratory mission to the wilds of Bafozh, and the men that set out have long been assumed dead. Now, however, a small merchant vessel sailing the distant Ishnapt ocean has submitted a most extraordinary report to the Admiralty! They stopped by a small island to gather fruits and fresh water, and, alongside the usual locals, they found a community of our own citizens - mutineers from the lower ranks of the transport ship and the expedition - living comfortably on a small island! From what they could gather, our captain is still either imprisoned on this island or living amongst the natives in exile. The Admiralty wonders if we could somehow establish some sort of influence over this land by working out some arrangement with the more amenable mutineers, or the native connections of the exile captain…;;;;;;;;;;;;;x
+EVT50118OPTA;Establish $COUNTRY_ADJ$ law over these lands!;;;;;;;;;;;;;x
+EVT50118OPTB;And why would we trouble ourselves with such a pitiful island...?;;;;;;;;;;;;;x
+EVT50119NAME;x;;;;;;;;;;;;;x ### same
+EVT50120NAME;x;;;;;;;;;;;;;x ### same
+EVT50121NAME;x;;;;;;;;;;;;;x ### same
+EVT50122NAME;The Faiths of the World;;;;;;;;;;;;;x 
+EVT50122DESC;Chose a faith to read about;;;;;;;;;;;;;x 
+EVT50123NAME;No Entry Found!;;;;;;;;;;;;;x 
+EVT50123DESC;There is no entry here that you are able to read! You can discover more about this entry by various events in the game, by conquering certain regions, or by sphering certain countries.;;;;;;;;;;;;;x 
+EVT50124NAME;Kadkohi;;;;;;;;;;;;;x 
+EVT50124DESC;The Kadkohi faith is;;;;;;;;;;;;;x 
+EVT50125NAME;J'ur;;;;;;;;;;;;;x 
+EVT50125DESC;The J'ur religion is organised;;;;;;;;;;;;;x 
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

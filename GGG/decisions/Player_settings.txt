@@ -149,5 +149,24 @@ political_decisions = {
         }
     }
 	
+	open_encyclopedia = {
+        alert = no
+		picture = encycl
+        potential = {
+			ai = no
+			NOT = { has_country_flag = encyclopedia_open }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		
+		country_event = { id = 50117 }
+		set_country_flag = encyclopedia_open
+
+        }
+    }
+	
 	
 }	

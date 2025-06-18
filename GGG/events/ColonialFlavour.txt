@@ -11,12 +11,32 @@ country_event = { #COLONIALEXPLOREING
             is_secondary_power = yes
         }
 		medicine = 1
-		NOT = {
-			check_variable = {
-			which = "expl_bafozh"
-			value = 2
+		
+		OR = {
+			AND = {
+				NOT = {
+					check_variable = {
+					which = "expl_bafozh"
+					value = 3
+					}
+				}
+				OR = {
+					1997 = { empty = yes }
+					1998 = { empty = yes }
+					1999 = { empty = yes }
+					2000 = { empty = yes }
+				}
+				
+			}
+			NOT = {
+				check_variable = {
+				which = "expl_bafozh"
+				value = 2
+				}
 			}
 		}
+		
+
 		NOT = { has_country_flag = exploring_bafozh }
 		capital_scope = { continent = north_america }
 		has_global_flag = bafexpenabled
@@ -391,6 +411,210 @@ country_event = { #LOST CIVILIZATION IN BOBIT?
 		prestige = 50
 		clr_country_flag = exploring_bafozh
 		set_global_flag = bobit_civ
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+
+}
+
+country_event = { #shipwreck community
+	id = 50118
+	title = "EVTNAME50118"
+	desc = "EVTDESC50118"
+	picture = "island"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = event_3 }
+		1997 = { empty = yes }
+		}
+
+	
+	mean_time_to_happen = {
+		months = 40
+		 
+	
+	}
+	
+	option = {
+		name = "EVT50118OPTA"
+		prestige = 5
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		
+
+        1997 = { secede_province = THIS } 
+	
+		
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50118OPTB"
+		badboy = -1
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+
+}
+
+country_event = { #shipwreck community
+	id = 50119
+	title = "EVTNAME50118"
+	desc = "EVTDESC50118"
+	picture = "island"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = event_3 }
+		1998 = { empty = yes }
+		}
+
+	
+	mean_time_to_happen = {
+		months = 40
+		 
+	
+	}
+	
+	option = {
+		name = "EVT50118OPTA"
+		prestige = 5
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		
+
+        1998 = { secede_province = THIS } 
+	
+		
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50118OPTB"
+		badboy = -1
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+
+}
+
+country_event = { #shipwreck community
+	id = 50120
+	title = "EVTNAME50118"
+	desc = "EVTDESC50118"
+	picture = "island"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = event_3 }
+		1999 = { empty = yes }
+		}
+
+	
+	mean_time_to_happen = {
+		months = 40
+		 
+	
+	}
+	
+	option = {
+		name = "EVT50118OPTA"
+		prestige = 5
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		
+
+        1999 = { secede_province = THIS } 
+	
+		
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50118OPTB"
+		badboy = -1
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+
+}
+
+country_event = { #shipwreck community
+	id = 50121
+	title = "EVTNAME50118"
+	desc = "EVTDESC50118"
+	picture = "island"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = event_3 }
+		2000 = { empty = yes }
+		}
+
+	
+	mean_time_to_happen = {
+		months = 40
+		 
+	
+	}
+	
+	option = {
+		name = "EVT50118OPTA"
+		prestige = 5
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
+		
+
+        2000 = { secede_province = THIS } 
+	
+		
+		change_variable = {
+			which = "expl_bafozh"
+			value = 1
+			}
+	}
+	
+	option = {
+		name = "EVT50118OPTB"
+		badboy = -1
+		clr_country_flag = exploring_bafozh
+		set_global_flag = event_3
 		change_variable = {
 			which = "expl_bafozh"
 			value = 1

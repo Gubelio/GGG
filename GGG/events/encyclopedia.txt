@@ -1,0 +1,151 @@
+country_event = {
+	id = 50117 
+	title = "EVT50117NAME"
+	desc = "EVT50117DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "I wish to learn about faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = { ### FAITHS INDEX ####
+	id = 50122 
+	title = "EVT50122NAME"
+	desc = "EVT50122DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "I wish to learn about Kadkohi"
+		if = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						any_pop = {
+							religion = kadkohi
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50124 } }
+		}
+		if = {
+			limit = {
+				NOT = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						any_pop = {
+							religion = kadkohi
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "I wish to learn about J'ur"
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						religion = jur
+					}
+				}
+			}
+		THIS = { country_event = { id = 50125 } }
+		}
+		if = {
+			limit = {
+				NOT = {
+				THIS = {
+					any_pop = {
+						religion = jur
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50123 
+	title = "EVT50123NAME" ##### Empty Page
+	desc = "EVT50123DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the Index"
+		country_event = { id = 50117 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50124 
+	title = "EVT50124NAME" ##### Kadkohi
+	desc = "EVT50124DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths page"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50125 
+	title = "EVT50125NAME" ##### J'ur
+	desc = "EVT50125DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
