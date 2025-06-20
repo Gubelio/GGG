@@ -144,7 +144,7 @@ negotiating_unequal_treaty = {
 
 negotiating_treaty = {
 	icon = 5
-	}
+}
 	
 thriving_trade = {
     immigrant_attract = 0.15
@@ -236,4 +236,49 @@ settler_colonization = {
 self_rule = {
 	assimilation_rate = -0.15
     icon = 7
+}
+
+minor_outrage_national = {
+	ruling_party_support = -0.5
+	#social_reform_desire = 0.05
+	#political_reform_desire = 0.05
+	tax_efficiency = -0.05
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	icon = 18
+}
+
+major_outrage_national = {
+	ruling_party_support = -1
+	#social_reform_desire = 0.1
+	#political_reform_desire = 0.1
+	tax_efficiency = -0.1
+	global_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.02
+	war_exhaustion = 0.05
+	icon = 16
+}
+
+minor_outrage_province = {
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.01
+    immigrant_push = 0.25
+    mine_rgo_size = -0.2
+    farm_rgo_size = -0.2
+	icon = 20
+}
+
+major_outrage_province = {
+	pop_consciousness_modifier = 0.02
+	pop_militancy_modifier = 0.02
+    immigrant_push = 0.5
+    mine_rgo_size = -0.4
+    farm_rgo_size = -0.4
+	icon = 18
+}
+
+zealous_fervor = {
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.03
+	icon = 18
 }
