@@ -47,14 +47,12 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = kadkohi_country
-						OR = {
+						has_country_flag = motkohnic_country
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = kadkohi
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -72,14 +70,12 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = kadkohi_country
-						OR = {
+						has_country_flag = motkohnic_country
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = kadkohi
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -101,15 +97,13 @@ country_event = { ### FAITHS INDEX 1 ####
 			limit = {
 				THIS = {
 					OR = {
+						has_country_flag = kadkohi_country
 						has_country_flag = motkohnic_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = motkohnic
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -126,15 +120,13 @@ country_event = { ### FAITHS INDEX 1 ####
 				NOT = {
 				THIS = {
 					OR = {
+						has_country_flag = kadkohi_country
 						has_country_flag = motkohnic_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = motkohnic
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -156,20 +148,19 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = vewugi_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = vewugi
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
 								religion = vewugi
 							}
 						}
+						tag = AYU
+						capital_scope = { continent = africa }
 					}
 				}
 			}
@@ -181,20 +172,19 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = vewugi_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = vewugi
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
 								religion = vewugi
 							}
 						}
+						tag = AYU
+						capital_scope = { continent = africa }
 					}
 				}
 				}
@@ -210,18 +200,15 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = wompowushan_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = vewugi
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = vewugi
+								religion = wompowushan
 							}
 						}
 					}
@@ -235,14 +222,11 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = wompowushan_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = wompowushan
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -264,14 +248,11 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = tehuhrite_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = tehuhrite
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -289,14 +270,11 @@ country_event = { ### FAITHS INDEX 1 ####
 				THIS = {
 					OR = {
 						has_country_flag = tehuhrite_country
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = tehuhrite
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
@@ -322,18 +300,15 @@ country_event = { ### FAITHS INDEX 1 ####
 							primary_culture = pruuntish
 							tag = POU
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = tehuhrite
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = tehuhrite
+								religion = shamush
 							}
 						}
 					}
@@ -351,18 +326,15 @@ country_event = { ### FAITHS INDEX 1 ####
 							primary_culture = pruuntish
 							tag = POU
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							capital_scope = { continent = north_america }
-							any_pop = {
-								religion = tehuhrite
-							}
 						}
-						OR = {
+						AND = {
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = tehuhrite
+								religion = shamush
 							}
 						}
 					}
@@ -379,7 +351,10 @@ country_event = { ### FAITHS INDEX 1 ####
 			limit = {
 				OR = {
 					THIS = {
-						has_country_flag = momurist_country
+						OR = {
+							has_country_flag = momurist_country
+							has_country_flag = rechktist_country
+						}
 					}
 					THIS = {
 						has_country_flag = studied_momurism
@@ -401,7 +376,10 @@ country_event = { ### FAITHS INDEX 1 ####
 				NOT = {
 				OR = {
 					THIS = {
-						has_country_flag = momurist_country
+						OR = {
+							has_country_flag = momurist_country
+							has_country_flag = rechktist_country
+						}
 					}
 					THIS = {
 						has_country_flag = studied_momurism
@@ -413,6 +391,116 @@ country_event = { ### FAITHS INDEX 1 ####
 							any_neighbor_country = { has_country_flag = studied_momurism }
 							invention = social_anthropology
 						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	
+	
+	option = {
+		name = "The Rechktist Schismatics"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						OR = {
+							has_country_flag = momurist_country
+							has_country_flag = rechktist_country
+						}
+					}
+					THIS = {
+						has_country_flag = studied_rechktist
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_rechktist }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50131 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						OR = {
+							has_country_flag = momurist_country
+							has_country_flag = rechktist_country
+						}
+					}
+					THIS = {
+						has_country_flag = studied_rechktist
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_rechktist }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Paorusu Faith"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = green_country
+					}
+					THIS = {
+						has_country_flag = studied_parousou
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parousou }
+							invention = social_anthropology
+						}
+					}
+					THIS = {
+						tag = AYU
+					}
+				}
+			}
+		THIS = { country_event = { id = 50134 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = green_country
+					}
+					THIS = {
+						has_country_flag = studied_parousou
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parousou }
+							invention = social_anthropology
+						}
+					}
+					THIS = {
+						tag = AYU
 					}
 				}
 				}
@@ -459,102 +547,6 @@ country_event = { ### FAITHS INDEX 1 ####
 						THIS = {
 							civilized = yes
 							any_neighbor_country = { has_country_flag = studied_jur }
-							invention = social_anthropology
-						}
-					}
-				}
-				}
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
-	}
-	
-	option = {
-		name = "The Rechktist Schismatics"
-		if2 = {
-			limit = {
-				OR = {
-					THIS = {
-						has_country_flag = rechktist_country
-					}
-					THIS = {
-						has_country_flag = studied_rechktist
-					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							any_neighbor_country = { has_country_flag = studied_rechktist }
-							invention = social_anthropology
-						}
-					}
-				}
-			}
-		THIS = { country_event = { id = 50131 } }
-		}
-		if3 = {
-			limit = {
-				NOT = {
-				OR = {
-					THIS = {
-						has_country_flag = jur_country
-					}
-					THIS = {
-						has_country_flag = studied_rechktist
-					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							any_neighbor_country = { has_country_flag = studied_rechktist }
-							invention = social_anthropology
-						}
-					}
-				}
-				}
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
-	}
-	
-	option = {
-		name = "The Paorusu Faith"
-		if2 = {
-			limit = {
-				OR = {
-					THIS = {
-						has_country_flag = green_country
-					}
-					THIS = {
-						has_country_flag = studied_parousou
-					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							any_neighbor_country = { has_country_flag = studied_parousou }
-							invention = social_anthropology
-						}
-					}
-				}
-			}
-		THIS = { country_event = { id = 50134 } }
-		}
-		if3 = {
-			limit = {
-				NOT = {
-				OR = {
-					THIS = {
-						has_country_flag = green_country
-					}
-					THIS = {
-						has_country_flag = studied_parousou
-					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							any_neighbor_country = { has_country_flag = studied_parousou }
 							invention = social_anthropology
 						}
 					}

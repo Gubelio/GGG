@@ -1,4 +1,4 @@
-capital = 327
+JIIcapital = 327
 primary_culture = south_gashdzii
 religion = kadkohi
 government = princely_despotate
@@ -82,3 +82,5 @@ experimental_railroad = 1
 oob = "GAU_oob.txt"
 
 set_country_flag = kadkohi_country
+set_country_flag = studied_rechktist
+set_country_flag = studied_momurism
