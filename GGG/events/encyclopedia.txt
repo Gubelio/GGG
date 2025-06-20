@@ -7,10 +7,24 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "I wish to learn about faiths"
-		country_event = { id = 50122 }
+		name = "Our Country"
+		clr_country_flag = encyclopedia_open
+	}
+	
+	option = {
+		name = "The Cultures of the World"
+		clr_country_flag = encyclopedia_open
+	}
+	
+	option = {
+		name = "The States of the World"
+		clr_country_flag = encyclopedia_open
 	}
 
+	option = {
+		name = "The Faiths of the World"
+		country_event = { id = 50122 }
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -18,7 +32,7 @@ country_event = {
 	}
 }
 
-country_event = { ### FAITHS INDEX ####
+country_event = { ### FAITHS INDEX 1 ####
 	id = 50122 
 	title = "EVT50122NAME"
 	desc = "EVT50122DESC"
@@ -27,28 +41,105 @@ country_event = { ### FAITHS INDEX ####
 	is_triggered_only = yes
 
 	option = {
-		name = "I wish to learn about Kadkohi"
-		if = {
+		name = "The Kadkohi Pantheon"
+		if2 = {
 			limit = {
 				THIS = {
 					OR = {
-						capital_scope = { continent = north_america }
-						any_pop = {
-							religion = kadkohi
+						has_country_flag = kadkohi_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = kadkohi
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = kadkohi
+							}
 						}
 					}
 				}
 			}
 		THIS = { country_event = { id = 50124 } }
 		}
-		if = {
+		if3 = {
 			limit = {
 				NOT = {
 				THIS = {
 					OR = {
-						capital_scope = { continent = north_america }
-						any_pop = {
-							religion = kadkohi
+						has_country_flag = kadkohi_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = kadkohi
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = kadkohi
+							}
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	
+	option = {
+		name = "Motkohnism"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = motkohnic_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = motkohnic
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = motkohnic
+							}
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50127 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				THIS = {
+					OR = {
+						has_country_flag = motkohnic_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = motkohnic
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = motkohnic
+							}
 						}
 					}
 				}
@@ -59,32 +150,671 @@ country_event = { ### FAITHS INDEX ####
 	}
 	
 	option = {
-		name = "I wish to learn about J'ur"
-		if = {
+		name = "The Cult of the Vewug"
+		if2 = {
 			limit = {
 				THIS = {
-					capital_scope = { continent = europe }
+					OR = {
+						has_country_flag = vewugi_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = vewugi
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = vewugi
+							}
+						}
+					}
 				}
 			}
-		THIS = { country_event = { id = 50125 } }
+		THIS = { country_event = { id = 50129 } }
 		}
-		if = {
+		if3 = {
 			limit = {
 				NOT = {
 				THIS = {
-					capital_scope = { continent = europe }
+					OR = {
+						has_country_flag = vewugi_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = vewugi
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = vewugi
+							}
+						}
+					}
 				}
 				}
 			}
 		THIS = { country_event = { id = 50123 } }
 		}
 	}
+	
+	option = {
+		name = "Wompowushan"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = wompowushan_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = vewugi
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = vewugi
+							}
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50128 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				THIS = {
+					OR = {
+						has_country_flag = wompowushan_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = wompowushan
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = wompowushan
+							}
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Tehuhrites"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = tehuhrite_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50130 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				THIS = {
+					OR = {
+						has_country_flag = tehuhrite_country
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "Shamush/Shamushic Traditions"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						OR = { 
+							has_country_flag = shamush_country
+							primary_culture = pruuntish
+							tag = POU
+						}
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50133 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				THIS = {
+					OR = {
+						OR = { 
+							has_country_flag = shamush_country
+							primary_culture = pruuntish
+							tag = POU
+						}
+						OR = {
+							civilized = yes
+							capital_scope = { continent = north_america }
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+						OR = {
+							civilized = yes
+							year = 1370
+							any_pop = {
+								religion = tehuhrite
+							}
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "Momurism"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = momurist_country
+					}
+					THIS = {
+						has_country_flag = studied_momurism
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_momurism }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50132 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = momurist_country
+					}
+					THIS = {
+						has_country_flag = studied_momurism
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_momurism }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The J'ur"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = jur_country
+					}
+					THIS = {
+						has_country_flag = studied_jur
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_jur }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50125 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = jur_country
+					}
+					THIS = {
+						has_country_flag = studied_jur
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_jur }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Rechktist Schismatics"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = rechktist_country
+					}
+					THIS = {
+						has_country_flag = studied_rechktist
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_rechktist }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50131 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = jur_country
+					}
+					THIS = {
+						has_country_flag = studied_rechktist
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_rechktist }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Paorusu Faith"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = green_country
+					}
+					THIS = {
+						has_country_flag = studied_parousou
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parousou }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50134 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = green_country
+					}
+					THIS = {
+						has_country_flag = studied_parousou
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parousou }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Parqmun Faith"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = parqmun_country
+					}
+					THIS = {
+						has_country_flag = studied_parqmun
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parqmun }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50135 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = parqmun_country
+					}
+					THIS = {
+						has_country_flag = studied_parqmun
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_parqmun }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Gyahkites"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = gyahki_country
+					}
+					THIS = {
+						has_country_flag = studied_gyahki
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_gyahki }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50136 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = gyahki_country
+					}
+					THIS = {
+						has_country_flag = studied_gyahki
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_gyahki }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Juewaeg of the Southern Forests"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = juewaeg_country
+					}
+					THIS = {
+						has_country_flag = studied_juewaeg
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_juewaeg }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50137 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = juewaeg_country
+					}
+					THIS = {
+						has_country_flag = studied_juewaeg
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_juewaeg }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "50138OPT"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = dkatkang_country
+					}
+					THIS = {
+						has_country_flag = studied_dkatkang
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_dkatkang }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50138 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = dkatkang_country
+					}
+					THIS = {
+						has_country_flag = studied_dkatkang
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_dkatkang }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Kusii of Shobgizob"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						has_country_flag = kusii_country
+					}
+					THIS = {
+						has_country_flag = studied_kusii
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_kusii }
+							invention = social_anthropology
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50139 } }
+		}
+		if3 = {
+			limit = {
+				NOT = {
+				OR = {
+					THIS = {
+						has_country_flag = kusii_country
+					}
+					THIS = {
+						has_country_flag = studied_kusii
+					}
+					AND = {
+						year = 1350
+						THIS = {
+							civilized = yes
+							any_neighbor_country = { has_country_flag = studied_dkatkang }
+							invention = social_anthropology
+						}
+					}
+				}
+				}
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+
 
 	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+
+##### EMPTY PAGE ######
 
 country_event = {
 	id = 50123 
@@ -105,6 +835,8 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+####### FAITHS ########
 
 country_event = {
 	id = 50124 
@@ -145,3 +877,271 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+country_event = {
+	id = 50127
+	title = "EVT50127NAME" ##### Motkohnism
+	desc = "EVT50127DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50128
+	title = "EVT50128NAME" ##### Wompouwushan
+	desc = "EVT50128DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50129
+	title = "EVT50129NAME" ##### Vewugism
+	desc = "EVT50129DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50130
+	title = "EVT50130NAME" ##### Tehurite
+	desc = "EVT50130DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50131
+	title = "EVT50131NAME" ##### Rekhtist
+	desc = "EVT50131DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50132
+	title = "EVT50132NAME" ##### Momurism
+	desc = "EVT50132DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50133
+	title = "EVT50133NAME" ##### shamush
+	desc = "EVT50133DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50134
+	title = "EVT50134NAME" ##### paorusu
+	desc = "EVT50134DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50135
+	title = "EVT50135NAME" ##### parqmun
+	desc = "EVT50135DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50136
+	title = "EVT50136NAME" ##### gyahki
+	desc = "EVT50136DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50137
+	title = "EVT50137NAME" ##### juewaeg
+	desc = "EVT50137DESC"
+	picture = "hamog"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50138
+	title = "EVT50138NAME" ##### dhaktang
+	desc = "EVT50138DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50139
+	title = "EVT50139NAME" ##### kusii
+	desc = "EVT50139DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the faiths"
+		country_event = { id = 50122 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+
+######### NATIONS ####
+
+#### CULTURES ########
+
+##### PLACES #########

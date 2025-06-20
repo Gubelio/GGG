@@ -386,7 +386,7 @@ EVT500115PTA;Tally-ho, chaps, let's get a move on.;;;;;;;;;;;;;x
 EVT50116NAME;x;;;;;;;;;;;;;x ### bondsmen setup no loc needed
 EVT50116DESC;x;;;;;;;;;;;;;x
 EVT50117NAME;The Encyclopedia $COUNTRY_ADJ$ica;;;;;;;;;;;;;x 
-EVT50117DESC;Forward to the Encyclopedia: contained in this book is the sum of the knowledge of our esteemed civilisation. It will update with new entries as our explorers and scientists discover more things.;;;;;;;;;;;;;x
+EVT50117DESC;Forward to the Encyclopedia: Herein is contained the sum of the knowledge of our civilisation, gathered in one place, of all the wondrous and strange peoples of the world. Below is an index of important subheadings. n\§BNOTE: This is a dynamic encyclopedia. You will have open access to entries that are relevant to your own state, but entries of people further afield will have to be unlocked. This can be done by a combination of conquering certain regions, unlocking certain technologies, sphering regions, following event chains, etc. If you are civilised and neighbours have studied things, if you have the relevant techs, entries may be activated. Events will inform you if they have updated your encyclopedia. The player will not be informed of passive entry updates through ‘information spread’.;x
 EVTNAME50118;Mutineer Community Discovered!;;;;;;;;;;;;;x
 EVTDESC50118;It has been a long time since we dispatched an exploratory mission to the wilds of Bafozh, and the men that set out have long been assumed dead. Now, however, a small merchant vessel sailing the distant Ishnapt ocean has submitted a most extraordinary report to the Admiralty! They stopped by a small island to gather fruits and fresh water, and, alongside the usual locals, they found a community of our own citizens - mutineers from the lower ranks of the transport ship and the expedition - living comfortably on a small island! From what they could gather, our captain is still either imprisoned on this island or living amongst the natives in exile. The Admiralty wonders if we could somehow establish some sort of influence over this land by working out some arrangement with the more amenable mutineers, or the native connections of the exile captain…;;;;;;;;;;;;;x
 EVT50118OPTA;Establish $COUNTRY_ADJ$ law over these lands!;;;;;;;;;;;;;x
@@ -394,19 +394,46 @@ EVT50118OPTB;And why would we trouble ourselves with such a pitiful island...?;;
 EVT50119NAME;x;;;;;;;;;;;;;x ### same
 EVT50120NAME;x;;;;;;;;;;;;;x ### same
 EVT50121NAME;x;;;;;;;;;;;;;x ### same
-EVT50122NAME;The Faiths of the World;;;;;;;;;;;;;x 
-EVT50122DESC;Chose a faith to read about;;;;;;;;;;;;;x 
+EVT50122NAME;The Faiths of The World;;;;;;;;;;;;;x 
+EVT50122DESC;The faiths of the Miiv are multifarious and of all varieties. Beyond the number collected here, there are multitudes more of small ethnic and regional faiths, cults, and sects, but these are the most significant and practiced by the greatest number of the people. Below is an index of our entries. The reader is of course encouraged by the religious authorities to remember that our faith is the TRUE faith and to confine thought about foreign cults to purely speculative and academic boundaries.;;;;;;;;;;;;;x 
 EVT50123NAME;No Entry Found!;;;;;;;;;;;;;x 
 EVT50123DESC;There is no entry here that you are able to read! You can discover more about this entry by various events in the game, by conquering certain regions, or by sphering certain countries.;;;;;;;;;;;;;x 
-EVT50124NAME;Kadkohi;;;;;;;;;;;;;x 
+EVT50124NAME;The Kadkohi Faith;;;;;;;;;;;;;x 
 EVT50124DESC;The Kadkohi faith is;;;;;;;;;;;;;x 
-EVT50125NAME;J'ur;;;;;;;;;;;;;x 
+EVT50125NAME;The J'ur Faith;;;;;;;;;;;;;x 
 EVT50125DESC;The J'ur religion is organised;;;;;;;;;;;;;x 
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
+EVT50127NAME;The Motkohnic Faith;;;;;;;;;;;;;x 
+EVT50127DESC;These folk believe;;;;;;;;;;;;;x 
+EVT50128NAME;The Wompowushan Pratice;;;;;;;;;;;;;x 
+EVT50128DESC;These;;;;;;;;;;;;;x 
+EVT50129NAME;The Cult of The Vewúg;;;;;;;;;;;;;x 
+EVT50129DESC;The Cult is;;;;;;;;;;;;;x 
+EVT50130NAME;The Tehuhrite Beliefs;;;;;;;;;;;;;x 
+EVT50130DESC;x;;;;;;;;;;;;;x 
+EVT50131NAME;The Rechktist Schismatics;;;;;;;;;;;;;x 
+EVT50131DESC;x;;;;;;;;;;;;;x 
+EVT50132NAME;The Momurist Faith;;;;;;;;;;;;;x 
+EVT50132DESC;x;;;;;;;;;;;;;x 
+EVT50134NAME;The Paorusu Faith;;;;;;;;;;;;;x 
+EVT50134DESC;x;;;;;;;;;;;;;x 
+EVT50135NAME;The Parqmun Faith;;;;;;;;;;;;;x 
+EVT50135DESC;x;;;;;;;;;;;;;x 
+EVT50136NAME;The Gyahki Faith;;;;;;;;;;;;;x 
+EVT50136DESC;;;;;;;;;;;;;;x 
+EVT50133NAME;The Shamush Beliefs;;;;;;;;;;;;;x 
+EVT50133DESC;x;;;;;;;;;;;;;x 
+EVT50137NAME;The Juewaeg Cult;;;;;;;;;;;;;x 
+EVT50137DESC;x;;;;;;;;;;;;;x 
+EVT50138NAME;The Dkåtkang;;;;;;;;;;;;;x 
+EVT50138DESC;x;;;;;;;;;;;;;x 
+50138OPT;The Dkåtkang;;;;;;;;;;;;;x 
+EVT50139NAME;The Kusii Cults;;;;;;;;;;;;;x 
+EVT50139DESC;x;;;;;;;;;;;;;x 
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
