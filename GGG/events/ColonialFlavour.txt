@@ -688,8 +688,8 @@ country_event = { #EXPLORERSLOST
 
 country_event = { #renaming lakes
 	id = 50147
-	title = "EVTNAME50147"
-	desc = "EVTDESC50147"
+	title = "EVT50147NAME"
+	desc = "EVT50147DESC"
 	picture = "lake_maybe"
 	
 	fire_only_once = yes
