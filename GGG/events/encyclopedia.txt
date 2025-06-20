@@ -32,11 +32,13 @@ country_event = {
 	}
 }
 
+#### SUBHEADINGS #######
+
 country_event = { ### FAITHS INDEX 1 ####
 	id = 50122 
 	title = "EVT50122NAME"
 	desc = "EVT50122DESC"
-	picture = "encyclo"
+	picture = "faiths"
 	
 	is_triggered_only = yes
 
@@ -786,7 +788,7 @@ country_event = { ### FAITHS INDEX 1 ####
 						year = 1350
 						THIS = {
 							civilized = yes
-							any_neighbor_country = { has_country_flag = studied_dkatkang }
+							any_neighbor_country = { has_country_flag = studied_kusii }
 							invention = social_anthropology
 						}
 					}
@@ -827,8 +829,9 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
-
+#######################
 ####### FAITHS ########
+#######################
 
 country_event = {
 	id = 50124 
@@ -1131,9 +1134,40 @@ country_event = {
 }
 
 
+#### RELIGION UNLOCKS ###
 
+country_event = { #study J'ur
+	id = 50140
+	title = "EVT50140NAME" 
+	desc = "EVT50140DESC"
+	#picture = "encyclo"
+
+	trigger = {
+		civilized = yes
+		invention = social_anthropology
+		any_pop = {
+			religion = jur
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "Excellent!"
+		set_country_flag = studied_jur
+	}
+}
+
+#####################
 ######### NATIONS ####
+######################
 
+
+#####################
 #### CULTURES ########
+####################
 
+######################
 ##### PLACES #########
