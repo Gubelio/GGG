@@ -1140,13 +1140,31 @@ country_event = { #study J'ur
 	id = 50140
 	title = "EVT50140NAME" 
 	desc = "EVT50140DESC"
-	#picture = "encyclo"
+	picture = "discourse"
 
 	trigger = {
 		civilized = yes
 		invention = social_anthropology
 		any_pop = {
 			religion = jur
+		}
+		any_owned_province = {
+			continent = europe
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_jur
+				has_country_flag = jur_country
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_jur }
+						invention = social_anthropology
+					}
+				}
+			}
 		}
 	}
 	
@@ -1178,6 +1196,114 @@ country_event = { #study J'ur
 		encylopedia_updated = {}
 	}
 }
+
+country_event = { #study Momurism
+	id = 50141
+	title = "EVT50141NAME" 
+	desc = "EVT50141DESC"
+	#picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		OR = {
+			invention = social_anthropology
+			invention = manifest_destiny
+		}
+		OR = {
+			is_sphere_leader_of = QOO
+			AND = {
+				any_pop = {
+					religion = momuirst
+				}	
+				any_owned_province = {
+					continent = south_america
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				OR = {
+					has_country_flag = momurist_country
+					has_country_flag = rechktist_country
+				}
+				has_country_flag = studied_momurism
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_momurism }
+						invention = social_anthropology
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Give him what he needs, I suppose..."
+		prestige = 1
+		treasury = -100
+		set_country_flag = studied_momurism
+		encylopedia_updated = {}
+	}
+	
+	option = {
+		name = "We can't afford this..."
+		prestige = -1
+	}
+}
+
+country_event = { #study rechktist
+	id = 50142
+	title = "EVT50142NAME" 
+	desc = "EVT50142DESC"
+	#picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		invention = social_anthropology
+		any_pop = {
+			religion = rechktist
+		}
+		any_owned_province = {
+			continent = south_america
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_rechktist
+				has_country_flag = rechktist_country
+				has_country_flag = momurist_country
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_rechktist }
+						invention = social_anthropology
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Excellent!"
+		prestige = 1
+		set_country_flag = studied_rechktist
+		encylopedia_updated = {}
+	}
+}
+
 
 #####################
 ######### NATIONS ####

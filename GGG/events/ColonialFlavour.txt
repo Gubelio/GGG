@@ -322,6 +322,7 @@ country_event = { #HAMOGDISCOVERED
 	trigger = {
 		has_country_flag = exploring_bafozh
 		NOT = { has_global_flag = hamog_discovered }
+		HMO = exists
 	}
 	
 	mean_time_to_happen = {
