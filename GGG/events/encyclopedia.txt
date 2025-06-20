@@ -8,7 +8,22 @@ country_event = {
 
 	option = {
 		name = "Our Country"
-		clr_country_flag = encyclopedia_open
+		if = {
+			limit = {
+				tag = POU
+			}
+		country_event = { id = 50144 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						tag = POU
+					}
+				}
+			}
+		country_event = { id = 50145 }
+		}
 	}
 	
 	option = {
@@ -829,6 +844,26 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+country_event = {
+	id = 50145
+	title = "EVT50145NAME" ##### Empty Page
+	desc = "EVT50145DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the Index"
+		country_event = { id = 50117 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 #######################
 ####### FAITHS ########
 #######################
@@ -1297,9 +1332,50 @@ country_event = { #study rechktist
 	}
 
 	option = {
-		name = "Excellent!"
+		name = "Hm, that doesn't sound like a bad idea."
 		prestige = 1
 		set_country_flag = studied_rechktist
+		encylopedia_updated = {}
+	}
+}
+
+country_event = { #study juewaeg
+	id = 50143
+	title = "EVT50132NAME" 
+	desc = "EVT50143DESC"
+	picture = "hamog"
+
+	trigger = {
+		civilized = yes
+		any_owned_province = {
+			is_core = HMO
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = juewaeg_rechktist
+				has_country_flag = juewaeg_country
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_juewaeg }
+						invention = social_anthropology
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Curious"
+		prestige = 5
+		set_country_flag = studied_juewaeg
 		encylopedia_updated = {}
 	}
 }
@@ -1309,6 +1385,25 @@ country_event = { #study rechktist
 ######### NATIONS ####
 ######################
 
+country_event = {
+	id = 50144 
+	title = "EVT50144NAME" ##### POUMNIA
+	desc = "EVT50144DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	#option = {
+	#	name = "Return to 'Countries' Subheading"
+	#	country_event = { id = 50122 }
+	#}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 #####################
 #### CULTURES ########

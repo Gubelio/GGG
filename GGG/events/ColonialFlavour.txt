@@ -20,18 +20,32 @@ country_event = { #COLONIALEXPLOREING
 					value = 3
 					}
 				}
-				OR = {
-					1997 = { empty = yes }
-					1998 = { empty = yes }
-					1999 = { empty = yes }
-					2000 = { empty = yes }
+				AND = {
+					HMO = exists
+					OR = {
+						1997 = { empty = yes }
+						1998 = { empty = yes }
+						1999 = { empty = yes }
+						2000 = { empty = yes }
+					}
 				}
 				
 			}
-			NOT = {
-				check_variable = {
-				which = "expl_bafozh"
-				value = 2
+			AND = {
+				OR = {
+					HMO = exists
+					OR = {
+						1997 = { empty = yes }
+						1998 = { empty = yes }
+						1999 = { empty = yes }
+						2000 = { empty = yes }
+					}
+				}
+				NOT = {
+					check_variable = {
+					which = "expl_bafozh"
+					value = 2
+					}
 				}
 			}
 		}
