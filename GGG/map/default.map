@@ -432,9 +432,11 @@ sea_starts = {
 
 3043 3044 3045 3046 3047 3048 3049 3050 3051 3052 3053 3054
 
+	1541 1527 2153 2145
+
 }
 
-definitions = "../mod/GGG/map/definition.csv"
+definitions = "../mod/GGG/GGG/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
