@@ -878,37 +878,85 @@ province_event = {
     }
 }
 
-#country_event = {
-#	id = 50114
-#	title = "EVTNAME50114" #Free-Yoker rebellion ENDS
-#	desc = "EVTDESC50114"
-#	
-#    trigger = {
-#		has_country_flag = free_yoker_revolution
-#    }
-#	
-#	mean_time_to_happen = {
-#        months = 60 #~5 years
-#		modifier = {
-#           factor = 0.7
-#		   has_country_flag = tepid_suppression
-#		}
-#		modifier = {
-#           factor = 0.01
-#			government = paternalistic_council
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVT50114OPTA"
-#        clr_country_flag = free_yoker_revolution
-#        remove_country_modifier = yoker_agitation
-#        clr_country_flag = violent_supression
-#        clr_country_flag = tepid_suppression
-#	}
-#	
-#}
 
-###############
-### POUMNIA ###
-###############
+#############################
+### THEOCRATIST MILITANCY ###
+#############################
+
+country_event = {
+	id = 50126
+	title = "EVTNAME50126" #Demagogue Priest
+	desc = "EVTDESC50126"
+	
+    trigger = {
+		NOT = { government = sublime_synod }
+		is_ideology_enabled = theocratist
+		civilized = yes
+    }
+	
+	mean_time_to_happen = {
+        months = 250
+		modifier = {
+           factor = 1.5
+		   ruling_party_ideology = theocratist
+		}
+		modifier = {
+           factor = 0.01
+			government = paternalistic_council
+		}
+	}
+	
+	option = {
+		name = "EVT50126OPTA" #Take all clandestine action against him
+		random_state = {
+			limit = {
+				is_colonial = no
+			}
+			any_owned = {
+				add_province_modifier = { name = minor_outrage_province duration = 1825 }
+				any_pop = {
+					militancy = 2
+					consciousness = 4
+					ideology = {
+						factor = 0.005
+						value = theocratist
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT50126OPTB" #Violently suppress him
+		random_state = {
+			limit = {
+				is_colonial = no
+			}
+			any_owned = {
+				add_province_modifier = { name = major_outrage_province duration = 1090 }
+				any_pop = {
+					militancy = 4
+					consciousness = 2
+					ideology = {
+						factor = 0.005
+						value = theocratist
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT50126OPTC" #Let him speak freely
+        add_country_modifier = { name = zealous_fervor duration = 1461 }
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+			ideology = {
+				factor = 0.005
+				value = theocratist
+			}
+		}
+	}
+	
+}
