@@ -1152,6 +1152,23 @@ country_event = { #study J'ur
 	
 	mean_time_to_happen = {
 		months = 50 
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				owns = 1908
+				owns = 1402
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				owns = 1426
+				owns = 1434
+				owns = 1880
+			}
+		}
 	}
 
 	option = {
