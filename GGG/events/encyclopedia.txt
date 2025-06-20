@@ -1173,7 +1173,9 @@ country_event = { #study J'ur
 
 	option = {
 		name = "Excellent!"
+		prestige = 1
 		set_country_flag = studied_jur
+		encylopedia_updated = {}
 	}
 }
 
