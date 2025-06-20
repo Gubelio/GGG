@@ -48,7 +48,7 @@ party = {
 
 party = {
 	name = "JII_absolutist"
-	start_date = 1330.1.1
+	start_date = 1370.1.1
 	end_date = 2000.1.1
 
 	ideology = absolutist
@@ -93,7 +93,7 @@ party = {
 
 party = {
 	name = "JII_theocratist"
-	start_date = 1370.1.1
+	start_date = 1330.1.1
 	end_date = 2000.1.1
 
 	ideology = theocratist
