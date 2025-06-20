@@ -10,19 +10,27 @@ country_event = {
 		name = "Our Country"
 		if = {
 			limit = {
-				tag = POU
+				THIS = {
+					tag = POU
+				}
 			}
-		country_event = { id = 50144 }
+			THIS = { 
+				country_event = { id = 50144 }
+			}
 		}
 		if = {
 			limit = {
-				NOT = {
-					OR = {
-						tag = POU
+				THIS = {
+					NOT = {
+						OR = {
+							tag = POU
+						}
 					}
 				}
 			}
-		country_event = { id = 50145 }
+			THIS = {
+				country_event = { id = 50145 }
+			}
 		}
 	}
 	
@@ -33,7 +41,7 @@ country_event = {
 	
 	option = {
 		name = "The States of the World"
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50146 }
 	}
 
 	option = {
@@ -1386,6 +1394,24 @@ country_event = { #study juewaeg
 ######################
 
 country_event = {
+	id = 50146
+	title = "EVT50146NAME" ##### Nation Subheading
+	desc = "EVT50146DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+#########
+
+country_event = {
 	id = 50144 
 	title = "EVT50144NAME" ##### POUMNIA
 	desc = "EVT50144DESC"
@@ -1393,10 +1419,10 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#option = {
-	#	name = "Return to 'Countries' Subheading"
-	#	country_event = { id = 50122 }
-	#}
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
 
 
 	option = {
