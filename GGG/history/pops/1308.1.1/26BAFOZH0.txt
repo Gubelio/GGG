@@ -65106,19 +65106,19 @@ size = 120
 	serfs = {
 		culture = pomiga
 		religion = juewaeg
-size = 30
+size = 1030
 	}
 
 	slaves = {
 		culture = pomiga
 		religion = juewaeg
-size = 302
+size = 3002
 	}
 
 	farmers = {
 		culture = pomiga
 		religion = juewaeg
-size = 2416
+size = 50416
 	}
 
 	soldiers = {
@@ -65154,7 +65154,7 @@ size = 50
 	farmers = {
 		culture = pomiga
 		religion = pagan
-size = 401
+size = 4001
 	}
 
 	soldiers = {
@@ -65207,14 +65207,14 @@ size = 57
 	farmers = {
 		 culture = gji
 		 religion = juewaeg
-size = 723
+size = 7023
 	}
 
 
 	slaves = {
 		 culture = gji
 		 religion = juewaeg
-size = 150
+size = 5050
 	}
 
 
@@ -65228,7 +65228,7 @@ size = 1
 	serfs = {
 		 culture = gji
 		 religion = juewaeg
-size = 451
+size = 1451
 	}
 
 }
@@ -65240,13 +65240,13 @@ size = 451
 	thralls = {
 		culture = pomiga
 		religion = pagan
-size = 20
+size = 120
 	}
 
 	serfs = {
 		culture = pomiga
 		religion = pagan
-size = 5
+size = 1005
 	}
 
 	slaves = {
@@ -65258,7 +65258,7 @@ size = 50
 	farmers = {
 		culture = pomiga
 		religion = pagan
-size = 401
+size = 45001
 	}
 
 	soldiers = {
@@ -65311,7 +65311,7 @@ size = 133
 	farmers = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 1683
+size = 3683
 	}
 
 
@@ -65332,7 +65332,7 @@ size = 3
 	serfs = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 1051
+size = 4051
 	}
 
 }
@@ -65344,7 +65344,7 @@ size = 1051
 	thralls = {
 		culture = pomiga
 		religion = pagan
-size = 20
+size = 120
 	}
 
 	serfs = {
@@ -65362,7 +65362,7 @@ size = 50
 	farmers = {
 		culture = pomiga
 		religion = pagan
-size = 401
+size = 24001
 	}
 
 	soldiers = {
@@ -65415,7 +65415,7 @@ size = 152
 	farmers = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 1923
+size = 80923
 	}
 
 
@@ -65448,7 +65448,7 @@ size = 1201
 	thralls = {
 		culture = pomiga
 		religion = pagan
-size = 20
+size = 120
 	}
 
 	serfs = {
@@ -65466,7 +65466,7 @@ size = 50
 	farmers = {
 		culture = pomiga
 		religion = pagan
-size = 401
+size = 30001
 	}
 
 	soldiers = {
@@ -65519,14 +65519,14 @@ size = 38
 	farmers = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 483
+size = 1483
 	}
 
 
 	slaves = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 100
+size = 800
 	}
 
 
@@ -65540,7 +65540,7 @@ size = 1
 	serfs = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 301
+size = 3001
 	}
 
 }
@@ -65656,25 +65656,25 @@ size = 301
 	thralls = {
 		culture = gji
 		religion = pagan
-size = 20
+size = 120
 	}
 
 	serfs = {
 		culture = gji
 		religion = pagan
-size = 5
+size = 15
 	}
 
 	slaves = {
 		culture = gji
 		religion = pagan
-size = 52
+size = 1052
 	}
 
 	farmers = {
 		culture = gji
 		religion = pagan
-size = 416
+size = 14016
 	}
 
 	soldiers = {
@@ -65704,13 +65704,13 @@ size = 5
 	slaves = {
 		culture = pomiga
 		religion = pagan
-size = 50
+size = 3050
 	}
 
 	farmers = {
 		culture = pomiga
 		religion = pagan
-size = 401
+size = 20401
 	}
 
 	soldiers = {
@@ -65763,7 +65763,7 @@ size = 19
 	farmers = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 243
+size = 9243
 	}
 
 
@@ -65777,7 +65777,7 @@ size = 50
 	officers = {
 		 culture = pomiga
 		 religion = juewaeg
-size = 0
+size = 10
 	}
 
 
@@ -65796,25 +65796,25 @@ size = 151
 	thralls = {
 		culture = gji
 		religion = pagan
-size = 20
+size = 120
 	}
 
 	serfs = {
 		culture = gji
 		religion = pagan
-size = 5
+size = 15
 	}
 
 	slaves = {
 		culture = gji
 		religion = pagan
-size = 52
+size = 152
 	}
 
 	farmers = {
 		culture = gji
 		religion = pagan
-size = 416
+size = 24016
 	}
 
 	soldiers = {
@@ -65850,7 +65850,7 @@ size = 50
 	farmers = {
 		culture = wushauw
 		religion = pagan
-size = 401
+size = 14001
 	}
 
 	soldiers = {
@@ -65910,7 +65910,7 @@ size = 243
 	slaves = {
 		 culture = gji
 		 religion = juewaeg
-size = 50
+size = 550
 	}
 
 
@@ -65924,7 +65924,7 @@ size = 0
 	serfs = {
 		 culture = gji
 		 religion = juewaeg
-size = 151
+size = 1051
 	}
 
 }

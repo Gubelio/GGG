@@ -1,7 +1,7 @@
 owner = POU
 controller = POU
 add_core = POU
-trade_goods = iron
+trade_goods = wool #iron
 life_rating = 30
 terrain = dryhills
 
