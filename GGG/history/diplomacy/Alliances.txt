@@ -5,3 +5,49 @@ alliance = {
     start_date = 1234.1.1
     end_date = 1936.1.1
 }
+
+# Alliance of Convenience
+alliance = {
+    first = VOK
+    second = JII
+    start_date = 1306.3.3
+    end_date = 1936.1.1
+}
+
+
+#protecting little brother
+alliance = {
+    first = VOK
+    second = GOM
+    start_date = 1297.1.1
+    end_date = 1936.1.1
+}
+
+
+alliance = {
+    first = VAF
+    second = JAD
+    start_date = 1302.1.1
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = VAF
+    second = POZ
+    start_date = 1302.1.1
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = JAD
+    second = POZ
+    start_date = 1302.1.1
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = GAU
+    second = POU
+    start_date = 1307.1.1
+    end_date = 1936.1.1
+}
