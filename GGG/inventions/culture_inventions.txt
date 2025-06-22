@@ -1618,8 +1618,8 @@ the_police_state = {
 		modifier = {
 			factor = 3
 			OR = {
+				ruling_party_ideology = absolutist
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = free_yoker
 			}
 		}
 		modifier = {

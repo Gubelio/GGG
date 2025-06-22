@@ -123,27 +123,29 @@ party = {
 
 unit_names = {
 	dreadnought = {
-        "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
-		"FWV Slaughterer" "FWV Bright Lotus" "FWV Driddoun" "FWV Weeping Lady" "FWV Catfish"
+        "FWV Pudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
+		"FWV Slaughterer" "FWV Bright Lotus" "FWV Mega-Driddoun" "FWV Weeping Lady" "FWV Catfish"
 		"FWV Sha-Mann" "FWV Sha-Gosod" "FWV Bloodletter" "FWV Little Prince" "FWV Black Lily"
     }
     battleship = {
         "FWV Pudwouvas" "FWV Pokoungpt" "FWV Kuuwumn"
     }
     ironclad = {
-        "FWV Wagouman"
+        "FWV Wagouman" "FWV Sea-Carp" "FWV Golden Seed" "FWV Gunhwav" "FWV Lake-Serpent"
+		"FWV Beak" "FWV Wrudnik" "FWV Wrudsha" "FWV Wrudtapt" "FWV Gashdzoun"
     }
     manowar = {
        "FWV Serpent" "FWV Web-hand"
     }
     cruiser = {
-       
+       "FWV Shroukshou" "FWV Driddoun"
     }
     frigate = {
       "FWV Sha-Ngoun"
     }
     monitor = {
-       
+       "FWV Sha-Ashaou" "FWV Kidukuutu" "FWV Divdipto" "FWV Drungpt" "FWV Tangpt" "FWV Great Wur"
+	   "FWV The Eel" "FWV Biter" "FWV Guwouf" 
     }
     clipper_transport = {
        1.Frurwoush 2.Frurwoush 3.Frurwoush 4.Frurwoush 5.Frurwoush 6.Frurwoush 7.Frurwoush
@@ -156,7 +158,7 @@ unit_names = {
 	   15.Frurnguut 16.Frurnguut 17.Frurnguut 18.Frurnguut 19.Frurnguut 20.Frurnguut
     }
     commerce_raider = {
-		"FWV Piranha" "FWV Sha-Ibu" "FWV Selakhos" "FWV Pentapode"
+		"Piranha" "Sha-Ibu" "Selakhos" "Pentapode" "Anuvon" "Ronwut" 
     }
 	
 	
