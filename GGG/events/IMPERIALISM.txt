@@ -1466,3 +1466,75 @@ country_event = {
         }
     }
 }
+
+
+
+country_event = {
+	id = 50150
+	title = "EVT50150NAME"
+	desc = "EVT50150DESC"
+	picture = "holymountain"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			OR = {
+				primary_culture = paguyti
+				accepted_culture = paguyti
+				primary_culture = vupuyti
+				accepted_culture = vupuyti
+			}
+		}
+		civilized = yes
+		mechanized_mining = 1
+		NOT = { has_global_flag = holy_mountain }
+		THIS = {
+			owns = 303
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 35
+		
+		modifier = {
+			factor = 0.7
+			clean_coal = 1
+		}
+	
+	}
+	
+	option = {
+		name = "Why should we honour their barbarous faith?"
+		303 = { trade_goods = coal }
+		any_pop = {
+			limit = {
+				culture = paguyti
+				has_pop_religion = pagan
+			}
+		militancy = 8
+		}
+		set_global_flag = holy_mountain
+	}
+	
+	option = {
+		name = "We cannot disturb their way of life."
+		prestige = -5
+		any_pop = {
+			limit = {
+				culture = paguyti
+				has_pop_religion = pagan
+			}
+		militancy = -1
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+		militancy = 1
+		}
+		set_global_flag = holy_mountain
+	}
+
+}

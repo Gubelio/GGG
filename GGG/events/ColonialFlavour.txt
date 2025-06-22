@@ -753,6 +753,7 @@ country_event = { #negotiate colonial purchase
 }
 
 
+
 country_event = { #charming native discovered
 	id = 50149
 	title = "EVT50149NAME"
