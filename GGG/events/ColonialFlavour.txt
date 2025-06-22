@@ -17,7 +17,7 @@ country_event = { #COLONIALEXPLOREING
 				NOT = {
 					check_variable = {
 					which = "expl_bafozh"
-					value = 4
+					value = 6
 					}
 				}
 				AND = {
@@ -44,7 +44,7 @@ country_event = { #COLONIALEXPLOREING
 				NOT = {
 					check_variable = {
 					which = "expl_bafozh"
-					value = 3
+					value = 5
 					}
 				}
 			}
@@ -686,6 +686,111 @@ country_event = { #EXPLORERSLOST
 
 }
 
+
+country_event = { #negotiate colonial purchase
+	id = 50148
+	title = "EVT50148NAME"
+	desc = "EVT50148DESC"
+	#picture = "deadboys"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = colonial_purchase_potential }
+	}
+	
+	mean_time_to_happen = {
+		months = 45
+		 
+		modifier = {
+			factor = 0.9
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 0.8
+			total_amount_of_ships = 50
+		}
+	}
+	
+	option = {
+		name = "EVT50148OPTA"
+		
+		treasury = -250000
+		prestige = 5
+		
+		random_country = {
+			limit = {
+				ai = yes 
+				civilized = no
+				capital_scope = { continent = europe }
+				NOT = { 
+					number_of_states = 2
+				}
+				any_owned_province = {
+					port = yes
+				}
+			}
+			annex_to = THIS
+		
+		}
+		
+		clr_country_flag = exploring_bafozh
+		set_global_flag = colonial_purchase_potential
+		
+	}
+	
+	option = {
+		name = "EVT50148OPTB"
+		
+		prestige = -10
+		
+		clr_country_flag = exploring_bafozh
+		set_global_flag = colonial_purchase_potential
+		
+	}
+
+}
+
+
+country_event = { #charming native discovered
+	id = 50149
+	title = "EVT50149NAME"
+	desc = "EVT50149DESC"
+	#picture = "deadboys"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = exploring_bafozh
+		NOT = { has_global_flag = charmed_by_native }
+	}
+	
+	mean_time_to_happen = {
+		months = 45
+		 
+	}
+	
+	option = {
+		name = "Bless his heathen heart!"
+	
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+
+			}
+			consciousness = -0.05
+		}
+		
+		clr_country_flag = exploring_bafozh
+		set_global_flag = charmed_by_native
+		
+	}
+	
+
+}
+
+
 country_event = { #renaming lakes
 	id = 50147
 	title = "EVT50147NAME"
@@ -731,8 +836,20 @@ country_event = { #renaming lakes
 					tag = JII
 				}
 			}
-			1541 = { change_province_name = "Lake Nag" }
+			1541 = { change_province_name = "Lake Kauzat" }
 		}
+		if = {
+			limit = {
+				THIS = {
+					tag = GAU
+				}
+			}
+			1541 = { change_province_name = "Lake Jadhov" }
+		}
+		
+		
+		
+		
 		set_country_flag = discovered_lakes
 		
 		clr_country_flag = exploring_bafozh
@@ -763,6 +880,15 @@ country_event = { #renaming lakes
 			}
 			1541 = { change_province_name = "Lake Mozzonazhk" }
 		}
+		if = {
+			limit = {
+				THIS = {
+					tag = JII
+				}
+			}
+			1541 = { change_province_name = "Lake Anazptazh" }
+		}
+		
 		set_country_flag = discovered_lakes
 		clr_country_flag = exploring_bafozh
 		set_global_flag = event_3
