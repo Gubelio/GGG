@@ -3108,3 +3108,177 @@ province_event = {
 	}
 }
 
+############################
+### FREE SLAVE BROTHERS #####
+#############################
+
+country_event = {
+	id = 50151
+	title = "EVT50151NAME"
+	desc = "EVT50151DESC"
+	#picture = "something"
+	
+	trigger = {
+		OR = {	
+			has_country_flag = liberates_brothers
+			is_culture_group = gashdzii
+			is_culture_group = colonial_gashdzii
+			primary_culture = poumnain
+			#is_culture_group = peninsular_diwvo
+			is_culture_group = byotrish
+			is_culture_group = vuyti
+		}
+		any_owned_province = {
+			any_pop = {
+				type = slaves
+				is_culture_group = THIS
+				}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Issue them their papers as free-men!"
+		if = {
+			limit = {
+				OR = {
+					THIS = {
+						is_culture_group = gashdzii
+					}
+					THIS = {
+						is_culture_group = byotrish
+					}
+					THIS = {
+						is_culture_group = vuyti
+					}
+				}
+				
+			}
+			THIS = {
+			
+			any_owned = {
+			limit = {
+				has_pop_type = slaves
+				has_pop_type = farmers
+                    }
+            any_pop = { 
+				limit = { 
+					type = slaves 
+					is_culture_group = THIS
+				}
+				pop_type = farmers 
+			}
+        }
+		any_owned = {
+			limit = {
+				has_pop_type = slaves
+				has_pop_type = labourers
+                    }
+            any_pop = { 
+				limit = { 
+					type = slaves 
+					is_culture_group = THIS
+				}
+				pop_type = labourers
+			}
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = thralls
+				has_pop_type = labourers
+                    }
+            any_pop = { 
+				limit = { 
+					type = thralls
+					is_culture_group = THIS
+				}
+				pop_type = labourers
+			}
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = thralls
+				has_pop_type = farmers
+                    }
+            any_pop = { 
+				limit = { 
+					type = thralls
+					is_culture_group = THIS
+				}
+				pop_type = farmers
+			}
+		}
+			
+			
+			}
+		}
+		
+		any_owned = {
+			limit = {
+				has_pop_type = slaves
+				has_pop_type = farmers
+                    }
+            any_pop = { 
+				limit = { 
+					type = slaves 
+					OR = {
+						is_primary_culture = yes
+					}
+				}
+				pop_type = farmers 
+			}
+        }
+		any_owned = {
+			limit = {
+				has_pop_type = slaves
+				has_pop_type = labourers
+                    }
+            any_pop = { 
+				limit = { 
+					type = slaves 
+					OR = {
+						is_primary_culture = yes
+					}
+				}
+				pop_type = labourers
+			}
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = thralls
+				has_pop_type = labourers
+                    }
+            any_pop = { 
+				limit = { 
+					type = thralls
+					OR = {
+						is_primary_culture = yes
+					} 
+				}
+				pop_type = labourers
+			}
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = thralls
+				has_pop_type = farmers
+                    }
+            any_pop = { 
+				limit = { 
+					type = thralls
+					OR = {
+						is_primary_culture = yes
+					}
+				}
+				pop_type = farmers
+			}
+		}
+	
+	}
+	
+
+}
+
