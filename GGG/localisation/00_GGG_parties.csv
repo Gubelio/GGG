@@ -13,6 +13,7 @@ JII_absolutist;All-Syndicates Absolutist Party;;;;;;;;;;;;;x
 JII_theocratist;Party of the Fist;;;;;;;;;;;;;x
 JII_conservative;The Conservatives;;;;;;;;;;;;;x
 JII_reactionary;The Country Party;;;;;;;;;;;;;x
+JII_conservative_old;The Particularists;;;;;;;;;;;;;x
 GOZ_liberationist;The Radicals;;;;;;;;;;;;;x
 GOZ_free_yoker;Landsman and Yeoman's Confederation;;;;;;;;;;;;;x
 GOZ_statist;The Unionists;;;;;;;;;;;;;x
@@ -20,13 +21,15 @@ GOZ_absolutist;Solidarty Party;;;;;;;;;;;;;x
 GOZ_theocratist;Deacon Mogga's Clique;;;;;;;;;;;;;x
 GOZ_conservative;The Federalists;;;;;;;;;;;;;x
 GOZ_reactionary;The Royalists;;;;;;;;;;;;;x
+GOZ_conservative_old;The Particularists;;;;;;;;;;;;;x
 TGN_liberationist;The Social-Radical Bloc;;;;;;;;;;;;;x
-TGN_free_yoker;Pan-NÃ¢gi Landsman's Bund;;;;;;;;;;;;;x
+TGN_free_yoker;Pan-Nâgi Landsman's Bund;;;;;;;;;;;;;x
 TGN_statist;The Ministerial Party;;;;;;;;;;;;;x
 TGN_absolutist;The Land Reform Trust;;;;;;;;;;;;;x
 TGN_theocratist;The Theocratist Party;;;;;;;;;;;;;x
-TGN_conservative;The Particularists;;;;;;;;;;;;;x
+TGN_conservative;The Backbenchers;;;;;;;;;;;;;x
 TGN_reactionary;The Ultra-Regionalists;;;;;;;;;;;;;x
+TGN_conservative_old;The Particularists;;;;;;;;;;;;;x
 POU_liberationist;The Dridniks;;;;;;;;;;;;;x
 POU_free_yoker;Mudmen's Bund;;;;;;;;;;;;;x
 POU_statist;Imperial Reform Party;;;;;;;;;;;;;x
@@ -34,20 +37,23 @@ POU_absolutist;Lord Shum's Faction;;;;;;;;;;;;;x
 POU_theocratist;Imperial Temple League;;;;;;;;;;;;;x
 POU_conservative;The Royalists;;;;;;;;;;;;;x
 POU_reactionary;The Ultraroyalists;;;;;;;;;;;;;x
+POU_old_conservative;The Provincialists;;;;;;;;;;;;;;x
 PAK_liberationist;Free-Communitarian Party;;;;;;;;;;;;;x
 PAK_free_yoker;The Bandit's League;;;;;;;;;;;;;x
 PAK_statist;Developmentalist Party;;;;;;;;;;;;;x
 PAK_absolutist;The Reform Party;;;;;;;;;;;;;x
 PAK_theocratist;Justicial Party;;;;;;;;;;;;;x
-PAK_conservative;The Confederalists;;;;;;;;;;;;;x
+PAK_conservative;The Federalists;;;;;;;;;;;;;x
 PAK_reactionary;The Magnates' Faction;;;;;;;;;;;;;x
+PAK_conservative_old;The Conederalists;;;;;;;;;;;;;x
 PAS_liberationist;The Municipal Reform Party;;;;;;;;;;;;;x
 PAS_free_yoker;West-Pozzak Dining Club;;;;;;;;;;;;;x
 PAS_statist;Road-Reform League;;;;;;;;;;;;;x
 PAS_absolutist;The PSGA;;;;;;;;;;;;;x
 PAS_theocratist;The Poets' Party;;;;;;;;;;;;;x
-PAS_conservative;The Burghers' Syndicate;;;;;;;;;;;;;x
+PAS_conservative;The Jokzo Club;;;;;;;;;;;;;x
 PAS_reactionary;The Courtiers' Party;;;;;;;;;;;;;x
+PAS_conservative_old;The Burghers' Syndicate;;;;;;;;;;;;;x
 VOK_liberationist;The Radical Party;;;;;;;;;;;;;x
 VOK_free_yoker;The Metayer's League;;;;;;;;;;;;;x
 VOK_statist;Orthodox Mudtian Statist Party;;;;;;;;;;;;;x
@@ -55,6 +61,7 @@ VOK_absolutist;The VSGA;;;;;;;;;;;;;x
 VOK_theocratist;Doshkine Honour League;;;;;;;;;;;;;x
 VOK_conservative;The Constabular Party;;;;;;;;;;;;;x
 VOK_reactionary;The High Constabulary;;;;;;;;;;;;;x
+VOK_conservative_old;The Agrarian League;;;;;;;;;;;;;x
 GAU_liberationist;The Social Radicals;;;;;;;;;;;;;x
 GAU_free_yoker;Soldiers of the False Nimiz;;;;;;;;;;;;;x
 GAU_statist;The Statists;;;;;;;;;;;;;x
@@ -62,27 +69,31 @@ GAU_absolutist;All-Gaubja Absolutist Syndicate;;;;;;;;;;;;;x
 GAU_theocratist;The Churchman's Party;;;;;;;;;;;;;x
 GAU_conservative;The Conservatives;;;;;;;;;;;;;x
 GAU_reactionary;The King's Party;;;;;;;;;;;;;x
+GAU_conservative_old;The Madhmo Party;;;;;;;;;;;;;x
 VAF_liberationist;The Independent Radicals;;;;;;;;;;;;;x
 VAF_free_yoker;The Whiteback Party;;;;;;;;;;;;;x
 VAF_statist;Union and Defence Party;;;;;;;;;;;;;x
 VAF_absolutist;Vafauti Absolutist Board;;;;;;;;;;;;;x
 VAF_theocratist;The Clericalists;;;;;;;;;;;;;x
-VAF_conservative;The Planter's Party;;;;;;;;;;;;;x
+VAF_conservative;The Prince's Party;;;;;;;;;;;;;x
 VAF_reactionary;The Militarists;;;;;;;;;;;;;x
+VAF_conservative_old;The Planters' Party;;;;;;;;;;;;;x
 VUG_liberationist;The Oortothi Party;;;;;;;;;;;;;x
 VUG_free_yoker;Blessed Landsman's League;;;;;;;;;;;;;x
 VUG_statist;The Developmentalist Party;;;;;;;;;;;;;x
 VUG_absolutist;Order and Solidarity Party;;;;;;;;;;;;;x
 VUG_theocratist;Party of the Drupe;;;;;;;;;;;;;x
 VUG_conservative;The Goothins;;;;;;;;;;;;;x
+VUG_conservative_old;The Masogins;;;;;;;;;;;;;x
 VUG_reactionary;The Old Athisards;;;;;;;;;;;;;x
 KID_liberationist;The Social Extremists;;;;;;;;;;;;;x
 KID_free_yoker;The Free-Soil Party;;;;;;;;;;;;;x
 KID_statist;Imperial Reform Party;;;;;;;;;;;;;x
 KID_absolutist;Imperial Unity Party;;;;;;;;;;;;;x
 KID_theocratist;Pan-Gashdziik Theocratist Synod;;;;;;;;;;;;;x
-KID_conservative;The Particularists;;;;;;;;;;;;;x
+KID_conservative;The Imperialists;;;;;;;;;;;;;x
 KID_reactionary;The Party of the Dhovs;;;;;;;;;;;;;x
+KID_conservative_old;The Particularists;;;;;;;;;;;;;x
 RAN_liberationist;The Gagav Dovâ;;;;;;;;;;;;;x
 RAN_free_yoker;The Roots and Soil League;;;;;;;;;;;;;x
 RAN_statist;The Social Tribunate;;;;;;;;;;;;;x
@@ -90,6 +101,7 @@ RAN_absolutist;Rannutan Social-Absolutist Bloc;;;;;;;;;;;;;x
 RAN_theocratist;The Young Unnahu;;;;;;;;;;;;;x
 RAN_conservative;The Dâveb Party;;;;;;;;;;;;;x
 RAN_reactionary;The Court Faction;;;;;;;;;;;;;x
+RAN_conservative_old;The Country Faction;;;;;;;;;;;;;x
 MAM_liberationist;The Pavillion of Moths;;;;;;;;;;;;;x
 MAM_free_yoker;The Weavers' Syndicate;;;;;;;;;;;;;x
 MAM_statist;The Social-Statist Party;;;;;;;;;;;;;x
@@ -97,13 +109,15 @@ MAM_absolutist;Social Revolutionary Absolutist Party;;;;;;;;;;;;;x
 MAM_theocratist;The Maou of the Nation;;;;;;;;;;;;;x
 MAM_conservative;The Black Tower Party;;;;;;;;;;;;;x
 MAM_reactionary;The White Tower Party;;;;;;;;;;;;;x
+MAM_conservative_old;The Little Tower;;;;;;;;;;;;;x
 TAK_liberationist;Sako-Soum Alliance;;;;;;;;;;;;;x
 TAK_free_yoker;The Lubber's Bund;;;;;;;;;;;;;x
 TAK_statist;The Deikauks;;;;;;;;;;;;;x
 TAK_absolutist;The Yaukauks;;;;;;;;;;;;;x
 TAK_theocratist;The Iron Guard;;;;;;;;;;;;;x
-TAK_conservative;The Free Conservatives;;;;;;;;;;;;;x
+TAK_conservative;The New Conservatives;;;;;;;;;;;;;x
 TAK_reactionary;The Old Conservatives;;;;;;;;;;;;;x
+TAK_conservative_old;The Free Conservatives;;;;;;;;;;;;;x
 BOG_liberationist;The Bukobs;;;;;;;;;;;;;x
 BOG_free_yoker;The Haijduk's League;;;;;;;;;;;;;x
 BOG_statist;Social Modernization Federation;;;;;;;;;;;;;x
@@ -111,6 +125,7 @@ BOG_absolutist;Union and Justice Party;;;;;;;;;;;;;x
 BOG_theocratist;The Fatherland Party;;;;;;;;;;;;;x
 BOG_conservative;The Yellow Party;;;;;;;;;;;;;x
 BOG_reactionary;The Party of the Old Bog;;;;;;;;;;;;;x
+BOG_conservative_old;The White Party;;;;;;;;;;;;;x
 GHE_liberationist;Neer Om-Drit;;;;;;;;;;;;;x
 GHE_free_yoker;Ghechyamy Liberation League;;;;;;;;;;;;;x
 GHE_statist;Ghechan Peoples' Statist Party;;;;;;;;;;;;;x
@@ -118,13 +133,15 @@ GHE_absolutist;Grey-Front Fighters;;;;;;;;;;;;;x
 GHE_theocratist;Neer Ghan Gheecha;;;;;;;;;;;;;x
 GHE_conservative;Neer Baym-Ghech;;;;;;;;;;;;;x
 GHE_reactionary;The Qeygs;;;;;;;;;;;;;x
-JAD_liberationist;x;;;;;;;;;;;;;x
-JAD_free_yoker;x;;;;;;;;;;;;;x
-JAD_statist;x;;;;;;;;;;;;;x
-JAD_absolutist;x;;;;;;;;;;;;;x
-JAD_theocratist;x;;;;;;;;;;;;;x
-JAD_conservative;x;;;;;;;;;;;;;x
-JAD_reactionary;x;;;;;;;;;;;;;x
+GHE_conservative_old;Neer Dep;;;;;;;;;;;;;x
+JAD_liberationist;The Radicals;;;;;;;;;;;;;x
+JAD_free_yoker;The Mule-and-Seed League;;;;;;;;;;;;;x
+JAD_statist;Jadiimi Mudtian Statist Party;;;;;;;;;;;;;x
+JAD_absolutist;Jadiimi Gamatist Party;;;;;;;;;;;;;x
+JAD_theocratist;Temple Protection League;;;;;;;;;;;;;x
+JAD_conservative;The Millers;;;;;;;;;;;;;x
+JAD_reactionary;The Dhovaks;;;;;;;;;;;;;x
+JAD_conservative_old;The Planters;;;;;;;;;;;;;x
 AYU_liberationist;Peace and Tolerance League;;;;;;;;;;;;;x
 AYU_free_yoker;The Pastoralists' Bund;;;;;;;;;;;;;x
 AYU_statist;Unity and Progress Party;;;;;;;;;;;;;x
@@ -132,8 +149,7 @@ AYU_absolutist;The New Royalists;;;;;;;;;;;;;x
 AYU_theocratist;Parosou-Yak Party;;;;;;;;;;;;;x
 AYU_conservative;The Old Royalists;;;;;;;;;;;;;x
 AYU_reactionary;The Isolationists;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+AYU_conservative_old;The Confederation Party;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

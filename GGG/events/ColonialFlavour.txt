@@ -889,6 +889,14 @@ country_event = { #renaming lakes
 			}
 			1541 = { change_province_name = "Lake Anazptazh" }
 		}
+		if = {
+			limit = {
+				THIS = {
+					tag = GAU
+				}
+			}
+			1541 = { change_province_name = "Lake Nimiz" }
+		}
 		
 		set_country_flag = discovered_lakes
 		clr_country_flag = exploring_bafozh

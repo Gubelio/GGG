@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "dominion_conservative_old"
+	name = "POU_old_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -124,18 +124,22 @@ party = {
 unit_names = {
 	dreadnought = {
         "FWV Pudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
-		"FWV Slaughterer" "FWV Bright Lotus" "FWV Mega-Driddoun" "FWV Weeping Lady" "FWV Catfish"
+		"FWV Slaughterer" "FWV Bright Lotus" "FWV Uum-Driddoun" "FWV Weeping Lady" "FWV Catfish"
 		"FWV Sha-Mann" "FWV Sha-Gosod" "FWV Bloodletter" "FWV Little Prince" "FWV Black Lily"
     }
     battleship = {
-        "FWV Pudwouvas" "FWV Pokoungpt" "FWV Kuuwumn"
+        "FWV Pudwouvas" "FWV Pokoungpt" "FWV Kuuwumn" "FWV Umm-Pudwou" "FWV Uukiru" "FWV Sea-Serpent"
+		"FWV Umtangpt" "FWV Tor Dromon" "FWV Ufomn" "FWV Coffin" "FWV Wrovvo" "FWV Anu" "FWV Varu"
+		"FWV Sha-Povon" "FWV Prousorum" "FWV Mruub Sha-Ibu" "FWV Vuumivou" "FWV Fearless"
     }
     ironclad = {
         "FWV Wagouman" "FWV Sea-Carp" "FWV Golden Seed" "FWV Gunhwav" "FWV Lake-Serpent"
-		"FWV Beak" "FWV Wrudnik" "FWV Wrudsha" "FWV Wrudtapt" "FWV Gashdzoun"
+		"FWV Beak" "FWV Wrudnik" "FWV Wrudsha" "FWV Wrudtapt" "FWV Gashdzoun" "FWV Kovurumn"
+		"FWV Shroudsha" "FWV Shupto-Tufuu" "FWV Pride of Pruuntia" "FWV Mra-Ouswun" "FWV Mra-Shoumid"
     }
     manowar = {
-       "FWV Serpent" "FWV Web-hand"
+       "FWV Serpent" "FWV Web-hand" "FWV Ishu" "FWV Wrud Ishu" "FWV World-Maker" "FWV Sun-Rise"
+	   "FWV Wurwuut" "FWV Wruuvou"
     }
     cruiser = {
        "FWV Shroukshou" "FWV Driddoun"
@@ -158,7 +162,8 @@ unit_names = {
 	   15.Frurnguut 16.Frurnguut 17.Frurnguut 18.Frurnguut 19.Frurnguut 20.Frurnguut
     }
     commerce_raider = {
-		"Piranha" "Sha-Ibu" "Selakhos" "Pentapode" "Anuvon" "Ronwut" 
+		"Piranha" "Selakhos" "Pentapode" "Anuvon" "Ronwut" "Thrasher" "Anthrophage"
+		"Pistris"
     }
 	
 	
