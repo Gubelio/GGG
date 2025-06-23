@@ -126,10 +126,13 @@ unit_names = {
  
     }
     battleship = {
-		"Oknapt"
+		"Oknapt" "Niiz Moji" "Niiz Kan" "Lord Qooxib" "King Chombed" "Tyrant" "False Nimiz"
+		"Pashdzii" "Kiidnazh" "The Nag" "Gashdziik" "Bafozh" "Kovazh" "Shobgizob" "Terror" "Shan"
     }
     ironclad = {
-		"Pride of Nozho" "Motzk" "Shining Star"
+		"Pride of Nozho" "Motzk" "Shining Star" "Caigur" "Vodmhu" "Vazzunak" "Ishnapt" "Panzapt"
+		"Vepht" "Nozbau" "Vetchk" "Izhow" "Rikou" "Old Fucho" "Do Dhruzd" "Zhof" "Vazhkt" 
+		"General Ganuk Nagjoni" "Marshal Bazadamaz" "Zhozodzhu" "Rouxaem" "Sekum Island"
     }
     manowar = {
 
@@ -154,7 +157,7 @@ unit_names = {
 	   15.Gumdii 16.Gumdii 17.Gumdii 18.Gumdii 19.Gumdii 20.Gumdii
     }
     commerce_raider = {
-
+		"Paumnak" 
     }
 	
 	
