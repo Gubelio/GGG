@@ -669,21 +669,88 @@ conversion_chance =
 {
 	factor = 1
 
-	group = {
-		modifier = {
-			factor = 0.05
-			literacy = 0.4
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 0.5
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 0.6
-		}
-	}
+	#group = { #vanilla, HPM removes
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.4
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.5
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.6
+	#	}
+	#}
+	
+	modifier = {
+        factor = 0.1
+        country = { government = theocracy }
+    }
 
+    modifier = {
+        factor = 0.1
+        country = { religious_policy = moralism }
+    }
+    modifier = {
+        factor = 0.05
+        country = { religious_policy = pluralism }
+    }
+    modifier = {
+        factor = -0.05
+        country = { religious_policy = secularized }
+    }
+    modifier = {
+        factor = -0.3
+        country = { religious_policy = pro_atheism }
+    }
+
+	modifier = {
+        factor = -0.1 #HPM -0.02
+        country = { civilized = no }
+    }
+
+
+	modifier = {
+        factor = 0.8
+        has_pop_religion = pagan
+		NOT = { location = { terrain = desert } }
+        country = { civilized = yes }
+    }
+	
+	modifier = { #resistant faiths
+        factor = -0.95
+        OR = {
+            has_pop_religion = vewugi
+            has_pop_religion = wompowushan
+            has_pop_religion = rechktist
+        }
+    }
+	
+	modifier = { #mildly resistant faiths
+		factor = -0.4
+		OR = {
+            has_pop_religion = motkohnic
+            has_pop_religion = shamush
+            has_pop_religion = momurist
+			has_pop_religion = jur
+        }
+	}
+	
+	modifier = {
+		factor -100
+		AND = {
+			has_pop_religion = vewugi
+			location = { province_id = 221 }
+		}
+	
+	}
+	
+	modifier = {
+		factor = -0.1
+		type = clergymen
+	}
 
 	group = {
 		modifier = {
@@ -720,18 +787,18 @@ conversion_chance =
 		not = { culture = this }
 	}
 
-	group = {
-		modifier = {
-			factor = 0.05
-			unemployment = 0.1
-		}
-		modifier = {
-			factor = 0.05
-			unemployment = 0.2
-		}
-		modifier = {
-			factor = 0.05
-			unemployment = 0.3
-		}
-	}
+	#group = { vanilla, HPM removes
+	#	modifier = {
+	#		factor = 0.05
+	#		unemployment = 0.1
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		unemployment = 0.2
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		unemployment = 0.3
+	#	}
+	#}
 }
