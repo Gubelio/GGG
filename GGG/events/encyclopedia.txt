@@ -1187,7 +1187,7 @@ country_event = { #study J'ur
 
 	trigger = {
 		civilized = yes
-		invention = social_anthropology
+		functionalism = 1
 		any_pop = {
 			religion = jur
 		}
@@ -1249,7 +1249,7 @@ country_event = { #study Momurism
 	trigger = {
 		civilized = yes
 		OR = {
-			invention = social_anthropology
+			functionalism = 1
 			invention = manifest_destiny
 		}
 		OR = {
@@ -1309,7 +1309,7 @@ country_event = { #study rechktist
 
 	trigger = {
 		civilized = yes
-		invention = social_anthropology
+		functionalism = 1
 		any_pop = {
 			religion = rechktist
 		}
