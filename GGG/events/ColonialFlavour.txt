@@ -359,7 +359,7 @@ country_event = { #HAMOGDISCOVERED
 			consciousness = 0.2
 		}
 		clr_country_flag = exploring_bafozh
-		add_country_flag = studied_juewaeg
+		set_country_flag = studied_juewaeg
 		set_global_flag = hamog_discovered
 		encylopedia_updated = {}
 		change_variable = {
@@ -380,7 +380,7 @@ country_event = { #HAMOGDISCOVERED
 		}
 		treasury = -20
 		clr_country_flag = exploring_bafozh
-		add_country_flag = studied_juewaeg
+		set_country_flag = studied_juewaeg
 		set_global_flag = hamog_discovered
 		encylopedia_updated = {}
 		change_variable = {
@@ -397,7 +397,7 @@ country_event = { #HAMOGDISCOVERED
 		}
 		prestige = 2
 		clr_country_flag = exploring_bafozh
-		add_country_flag = studied_juewaeg
+		set_country_flag = studied_juewaeg
 		set_global_flag = hamog_discovered
 		encylopedia_updated = {}
 		change_variable = {
