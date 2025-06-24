@@ -722,7 +722,6 @@ conversion_chance =
 			}
 		}
         has_pop_religion = pagan
-		NOT = { location = { terrain = desert } }
         country = { civilized = yes }
     }
 	
