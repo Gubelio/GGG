@@ -230,6 +230,25 @@ country_event = {
 			number_of_states = 2 
 			war = no 
 			is_vassal = no 
+			OR = {
+				NOT = {
+					tag = NHQ
+					tag = PUS
+					tag = ORH
+					tag = FCH
+					tag = QOO
+				}
+				AND = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+					has_global_flag = QOOenabling_2
+				}
+			}
 			NOT = { 
 				OR = {
 				alliance_with = THIS 
@@ -337,6 +356,25 @@ country_event = {
             civilized = no 
             war = no 
             is_vassal = no 
+			OR = {
+				NOT = {
+					tag = NHQ
+					tag = PUS
+					tag = ORH
+					tag = FCH
+					tag = QOO
+				}
+				AND = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+					has_global_flag = QOOenabling_2
+				}
+			}
             NOT = { 
                 OR = {
 					number_of_states = 2 
