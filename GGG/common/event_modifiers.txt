@@ -84,7 +84,7 @@ international_sanctions = {
 }
 
 plantations = {
-    farm_rgo_size = 2
+    immigrant_attract = 0.15
 	life_rating = 0.2
 	assimilation_rate = -0.05
 	icon = 11
