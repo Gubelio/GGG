@@ -790,7 +790,7 @@ RGO_template_mines = {
 cattle_ranch = {
     template = RGO_template_farmers
     output_goods = cattle
-    value = 1.7 #1.8
+    value = 1.2 #1.8
     farm = yes
 }
 
@@ -811,7 +811,7 @@ coffee_plantation = {
 cotton_plantation = {
     template = RGO_template_farmers
     output_goods = cotton
-    value = 1.8 #3
+    value = 1.1 #3
     farm = yes
 }
 
@@ -832,35 +832,35 @@ fishing_wharf = {
 grain_farm = {
     template = RGO_template_farmers
     output_goods = grain
-    value = 1.7 #1.8
+    value = 1.3 #1.8
     farm = yes
 }
 
 iron_mine = {
     template = RGO_template_labourers
     output_goods = iron
-    value = 1.8
+    value = 1.5
     mine = yes
 }
 
 oil_rig = {
     template = RGO_template_labourers
     output_goods = oil
-    value = 1
+    value = 1.2
     mine = yes
 }
 
 opium_plantation = {
     template = RGO_template_farmers
     output_goods = opium
-    value = 0.7
+    value = 0.8 # .7
     farm = yes
 }
 
 orchard = {
     template = RGO_template_farmers
     output_goods = fruit
-    value = 2.7 #2.8
+    value = 2.3 #2.8
     farm = yes
 }
 
@@ -888,7 +888,7 @@ rubber_lodge = {
 sheep_ranch = {
     template = RGO_template_farmers
     output_goods = wool
-    value = 4.8 #5
+    value = 4.3 #5
     farm = yes
 }
 
@@ -902,21 +902,21 @@ silkworm_ranch = {
 sulphur_mine = {
     template = RGO_template_mines
     output_goods = sulphur
-    value = 2
+    value = 1.5 # 2.0
     mine = yes
 }
 
 tea_plantation = {
     template = RGO_template_farmers
     output_goods = tea
-    value = 1.75    #1.75
+    value = 1.5    #1.75
     farm = yes
 }
 
 timber_lodge = {
     template = RGO_template_labourers
     output_goods = timber
-    value = 8 #8
+    value = 4 #8
     farm = yes
 }
 
