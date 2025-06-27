@@ -48,6 +48,40 @@ country_event = {
 		name = "The Faiths of the World"
 		country_event = { id = 50122 }
 	}
+	
+	option = {
+		name = "Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+	
+	option = {
+		name = "Miscellany"
+		country_event = { id = 50152 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+	
+
+}
+
+##### EMPTY PAGE ######
+
+country_event = {
+	id = 50123 
+	title = "EVT50123NAME" ##### Empty Page
+	desc = "EVT50123DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Back to the Index"
+		country_event = { id = 50117 }
+	}
+
 
 	option = {
 		name = "Close Encylopedia"
@@ -55,9 +89,31 @@ country_event = {
 	}
 }
 
-#### SUBHEADINGS #######
+country_event = {
+	id = 50145
+	title = "EVT50145NAME" ##### Empty Page
+	desc = "EVT50145DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
 
-country_event = { ### FAITHS INDEX 1 ####
+	option = {
+		name = "Back to the Index"
+		country_event = { id = 50117 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+#######################
+#### FAITHS #######
+##################
+
+country_event = { ####### INDEX
 	id = 50122 
 	title = "EVT50122NAME"
 	desc = "EVT50122DESC"
@@ -831,49 +887,9 @@ country_event = { ### FAITHS INDEX 1 ####
 }
 
 
-##### EMPTY PAGE ######
 
-country_event = {
-	id = 50123 
-	title = "EVT50123NAME" ##### Empty Page
-	desc = "EVT50123DESC"
-	picture = "encyclo"
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "Back to the Index"
-		country_event = { id = 50117 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
-
-country_event = {
-	id = 50145
-	title = "EVT50145NAME" ##### Empty Page
-	desc = "EVT50145DESC"
-	picture = "encyclo"
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "Back to the Index"
-		country_event = { id = 50117 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
 #######################
-####### FAITHS ########
+####### Entries ########
 #######################
 
 country_event = {
@@ -1437,3 +1453,86 @@ country_event = {
 
 ######################
 ##### PLACES #########
+######################
+
+
+#### MISC ########
+
+country_event = {
+	id = 50152
+	title = "EVT50152NAME" ##### Miscellany Subheading
+	desc = "EVT50152DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+###############################
+### PHILOSOPHY AND IDEOLOGY ###
+###############################
+
+country_event = {
+	id = 50153
+	title = "EVT50153NAME" ##### Philosophy Subheading
+	desc = "EVT50153DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Absolutist Thought"
+		if = {
+			limit = {
+				is_ideology_enabled = absolutist
+			}
+			THIS = {
+				country_event = { id = 50154 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = absolutist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+############# Entries
+
+country_event = {
+	id = 50154
+	title = "EVT50154NAME" ##### Absolutism
+	desc = "EVT50154DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50154 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
