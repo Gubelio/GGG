@@ -21,6 +21,16 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = JII
+				}
+			}
+			THIS = { 
+				country_event = { id = 50156 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -1431,6 +1441,26 @@ country_event = {
 	id = 50144 
 	title = "EVT50144NAME" ##### POUMNIA
 	desc = "EVT50144DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50156 
+	title = "EVT50156NAME" ##### JII
+	desc = "EVT50156DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
