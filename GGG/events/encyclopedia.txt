@@ -1507,6 +1507,28 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = "Absolutist Governance"
+		if = {
+			limit = {
+				is_ideology_enabled = absolutist
+			}
+			THIS = {
+				country_event = { id = 50155 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = absolutist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
 
 
 	option = {
@@ -1529,6 +1551,25 @@ country_event = {
 	option = {
 		name = "Return to Philosophy and Politics"
 		country_event = { id = 50154 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50155
+	title = "EVT50155NAME" ##### Absolutism
+	desc = "EVT50155DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
 	}
 
 	option = {
