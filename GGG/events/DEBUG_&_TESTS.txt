@@ -119,38 +119,7 @@ country_event = {
 #}
 #
 #
-##country_event = { #money for rebel slaves
-#	id = 33334
-#	title = "prestige lose"
-#	desc = "reduce prestige"
-#	
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = "THANKS BUDDY"			
-#			THIS = {
-#				any_owned = {
-#                    limit = {
-#                        has_pop_type = thralls
-#						has_pop_type = slaves
-#                    }
-#                    any_pop = { 
-#						limit = { 
-#						OR = {
-#							type = thralls
-#							type = slaves						
-#						}
-#						militancy = 5
-#						} 
-#						money = 2	 
-#					}
-#                }
-#				
-#		}
-#	}
-#	
-#
-#}
+
 #
 #
 #country_event = { #money for rebel slaves

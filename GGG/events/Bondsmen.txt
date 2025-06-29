@@ -767,3 +767,45 @@ country_event = { #### BONDSMANSETUP #####
 	}
 
 }
+
+#country_event = {
+#	id = 50157
+#	title = "EVTNAME50157" 
+#	desc = "EVTDESC50157"
+#
+#	trigger = {
+#		any_pop = {
+#			type = slaves
+#			militancy = 5
+#		}
+#	
+#	}
+#	
+#	mean_time_to_happen {
+#		months = 120
+#	}
+#	
+#	option = {
+#		name = "Deal with the Leaders"			
+#			THIS = {
+#				random_owned = {
+#                    limit = {
+#                        has_pop_type = thralls
+#						has_pop_type = slaves
+#                    }
+#                    any_pop = { 
+#						limit = { 
+#						OR = {
+#							type = thralls
+#							type = slaves						
+#						}
+#						} 
+#						money = 20
+#					}
+#                }
+#				
+#		}
+#	}
+#	
+#
+#}
