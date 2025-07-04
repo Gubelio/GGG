@@ -603,8 +603,13 @@ assimilation_chance =
 	}
 	
 	modifier = {
-    	factor = 5
+    	factor = 0.05
 		country = { nationalvalue = assimilation }
+	}
+	
+	modifier = {
+		factor = 0.02
+		country = { religious_policy = pro_atheism }
 	}
 	
 	group = {
