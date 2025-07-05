@@ -31,9 +31,32 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = WAP
+				}
+			}
+			THIS = { 
+				country_event = { id = 50157 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = TWD
+				}
+			}
+			THIS = { 
+				country_event = { id = 50158 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
+							tag = JII
+							tag = WAP
+							tag = TWD
 						}
 					}
 				}
@@ -46,7 +69,7 @@ country_event = {
 	
 	option = {
 		name = "The Cultures of the World"
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50160 }
 	}
 	
 	option = {
@@ -1427,6 +1450,42 @@ country_event = {
 	
 	is_triggered_only = yes
 
+	option = {
+		name = "Poumnia and her tributaries"
+		country_event = { id = 50159 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50159
+	title = "EVT50146NAME" ##### Poumnian area subheading
+	desc = "EVT50146DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Poumnia, the Vopudshawrish"
+		country_event = { id = 50144 }
+	}
+	
+	option = {
+		name = "The Doshawrish of Towourud"
+		country_event = { id = 50158 }
+	}
+	
+	option = {
+		name = "The Wapkam Company"
+		country_event = { id = 50157 }
+	}
+
+
 
 	option = {
 		name = "Close Encylopedia"
@@ -1477,9 +1536,212 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50157 
+	title = "EVT50157NAME" ##### WAP
+	desc = "EVT50157DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50158 
+	title = "EVT50158NAME" ##### WAP
+	desc = "EVT50158DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #####################
 #### CULTURES ########
 ####################
+
+country_event = {
+	id = 50160
+	title = "EVT50160NAME" ##### Culture Subheading
+	desc = "EVT50160DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Poumnia and Her Peoples"
+		country_event = { id = 50166 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50166
+	title = "EVT50166NAME" ##### Poumnia Subheading
+	desc = "EVT50166DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Noble Poumnians"
+		country_event = { id = 50161 }
+	}
+	
+	option = {
+		name = "The Anuvo Underclass"
+		country_event = { id = 50165 }
+	}
+	
+	option = {
+		name = "The Roshutan of the Jungle"
+		country_event = { id = 50162 }
+	}
+
+	option = {
+		name = "The Towuzhans of the West"
+		country_event = { id = 50164 }
+	}
+	
+	option = {
+		name = "The Rashuum Colonists"
+		country_event = { id = 50163 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+#################
+Culture Entries ###
+
+country_event = {
+	id = 50161
+	title = "EVT50161NAME" ##### Poumnian
+	desc = "EVT50161DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50162
+	title = "EVT50162NAME" ##### Roshuut
+	desc = "EVT50162DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50163
+	title = "EVT50163NAME" ##### Rashuum
+	desc = "EVT50163DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50164
+	title = "EVT50164NAME" ##### Towuzhan
+	desc = "EVT50164DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50165
+	title = "EVT50165NAME" ##### The Anuvo
+	desc = "EVT50165DESC"
+	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 
 ######################
 ##### PLACES #########

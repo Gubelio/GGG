@@ -123,7 +123,7 @@ party = {
 
 unit_names = {
 	dreadnought = {
-        "FWV Pudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
+        "FWV Vopudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
 		"FWV Slaughterer" "FWV Bright Lotus" "FWV Uum-Driddoun" "FWV Weeping Lady" "FWV Catfish"
 		"FWV Sha-Mann" "FWV Sha-Gosod" "FWV Bloodletter" "FWV Little Prince" "FWV Black Lily"
     }
@@ -139,17 +139,23 @@ unit_names = {
     }
     manowar = {
        "FWV Serpent" "FWV Web-hand" "FWV Ishu" "FWV Wrud Ishu" "FWV World-Maker" "FWV Sun-Rise"
-	   "FWV Wurwuut" "FWV Wruuvou"
+	   "FWV Wurwuut" "FWV Wruuvou" "FWV Witch-of-the-Isles" "FWV Mihwa" "FWV Bloat-Prong" "FWV Tormentor"
+	   "FWV Int-Vou" "FWV "Pentapode" "FWV Butcher" "FWV Roshuton" "FWV Great-Carp" "FWV Bloodeater"
     }
     cruiser = {
-       "FWV Shroukshou" "FWV Driddoun"
+       "FWV Shroukshou" "FWV Driddoun" "FWV Slave-Driver" "FWV Great Prousorum" "FWV Light-Foot"
+	   "FWV Ongpt" "FWV Swift-Wing" "FWV Pag-ov" "FWV Vopudsawrish" "FWV Doshawrish of Qooxib"
+	   "FWV Blue-Face" "FWV Short-One" "FWV Sunset" "FWV Scourge of Gashdzoun" "FWV Scourge of the Nagine"
     }
     frigate = {
-      "FWV Sha-Ngoun"
+      "FWV Sha-Ngoun" "The Old Ashaou Prison Ship" "FWV Doubtles" "FWV Sea-Dunga" "FWV Militarist"
+	  "FWV Deep-Lurker" "FWV Int-Kongu" "FWV Xouvan Carrier" "FWV Thimble" "FWV Cutter" "FWV Silver-Blade"
+	  "FWV Hero of the Joms" "FWV Odah-Bahmo" "FWV Bright-Eyes" "FWV Stranger" "FWV Momn-Ash"
     }
     monitor = {
        "FWV Sha-Ashaou" "FWV Kidukuutu" "FWV Divdipto" "FWV Drungpt" "FWV Tangpt" "FWV Great Wur"
-	   "FWV The Eel" "FWV Biter" "FWV Guwouf" 
+	   "FWV The Eel" "FWV Biter" "FWV Guwouf" "FWV Shdoton" "FWV Lurker" "FWV Pride of Xouva"
+	   "FWV Ajit" "FWV Unsinkable" "FWV Diver" "FWV Zhibom" "FWV Fazhgid" "FWV Diwish" "FWV Furthest"
     }
     clipper_transport = {
        1.Frurwoush 2.Frurwoush 3.Frurwoush 4.Frurwoush 5.Frurwoush 6.Frurwoush 7.Frurwoush
@@ -163,7 +169,8 @@ unit_names = {
     }
     commerce_raider = {
 		"Piranha" "Selakhos" "Pentapode" "Anuvon" "Ronwut" "Thrasher" "Anthrophage"
-		"Pistris"
+		"Pistris" "Sea-Witch" "Beast of Bafozh" "Man-Eater" "Old Praankunt" "The Gull"
+		"Flounder" "Great King" "Praw" "Pruub-Tanker" "Pkuru" "Drosh-Goer" "Sea-Mrasho"
     }
 	
 	
