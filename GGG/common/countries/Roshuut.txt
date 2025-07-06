@@ -2,7 +2,7 @@ color = { 139 181 148 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "dominion_conservative"
+	name = "RST_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "dominion_conservative_old"
+	name = "RST_conservative_old"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "dominion_reactionary"
+	name = "RST_reactionary"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "dominion_statist"
+	name = "RST_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "dominion_absolutist"
+	name = "RST_absolutist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "dominion_liberationist"
+	name = "RST_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "dominion_free_yoker"
+	name = "RST_free_yoker"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -107,7 +107,7 @@ party = {
 }
 
 party = {
-	name = "dominion_theocratist"
+	name = "RST_theocratist"
 	start_date = 1330.1.1
 	end_date = 2000.1.1
 
@@ -122,5 +122,14 @@ party = {
 }
 
 unit_names = {
-	#inherit
+	 clipper_transport = {
+       1.Frurwoush 2.Frurwoush 3.Frurwoush 4.Frurwoush 5.Frurwoush 6.Frurwoush 7.Frurwoush
+	   8.Frurwoush 9.Frurwoush 10.Frurwoush 11.Frurwoush 12.Frurwoush 13.Frurwoush 14.Frurwoush
+	   15.Frurwoush 16.Frurwoush 17.Frurwoush 18.Frurwoush 19.Frurwoush 20.Frurwoush
+    }
+    steam_transport = {
+	1.Frurnguut 2.Frurnguut 3.Frurnguut 4.Frurnguut 5.Frurnguut 6.Frurnguut 7.Frurnguut
+	   8.Frurnguut 9.Frurnguut 10.Frurnguut 11.Frurnguut 12.Frurnguut 13.Frurnguut 14.Frurnguut
+	   15.Frurnguut 16.Frurnguut 17.Frurnguut 18.Frurnguut 19.Frurnguut 20.Frurnguut
+    }
 }
