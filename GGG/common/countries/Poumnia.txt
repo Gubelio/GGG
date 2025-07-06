@@ -144,11 +144,11 @@ unit_names = {
     }
     cruiser = {
        "FWV Shroukshou" "FWV Driddoun" "FWV Slave-Driver" "FWV Great Prousorum" "FWV Light-Foot"
-	   "FWV Ongpt" "FWV Swift-Wing" "FWV Pag-ov" "FWV Vopudsawrish" "FWV Doshawrish of Qooxib"
-	   "FWV Blue-Face" "FWV Short-One" "FWV Sunset" "FWV Scourge of Gashdzoun" "FWV Scourge of the Nagine"
+	   "FWV Ongpt" "FWV Swift-Wing" "FWV Pag-ov" "FWV Vopudsawrish" 
+	   "FWV Blue-Face" "FWV Short-One" "FWV Sunset" 
     }
     frigate = {
-      "FWV Sha-Ngoun" "The Old Ashaou Prison Ship" "FWV Doubtles" "FWV Sea-Dunga" "FWV Militarist"
+      "FWV Sha-Ngoun" "FWV Doubtles" "FWV Sea-Dunga" "FWV Militarist"
 	  "FWV Deep-Lurker" "FWV Int-Kongu" "FWV Xouvan Carrier" "FWV Thimble" "FWV Cutter" "FWV Silver-Blade"
 	  "FWV Hero of the Joms" "FWV Odah-Bahmo" "FWV Bright-Eyes" "FWV Stranger" "FWV Momn-Ash"
     }
