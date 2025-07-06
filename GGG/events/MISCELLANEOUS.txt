@@ -3343,7 +3343,7 @@ country_event = {
 		name = "Someone should put those upstarts in their place!"
 		casus_belli = {
 			target = FROM
-			type = free_peoples
+			type = free_brothers
 			country = PAS
 			months = 12
 		}
