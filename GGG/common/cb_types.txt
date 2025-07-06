@@ -60,7 +60,7 @@ place_in_the_sun
 colonial_competition
 cut_down_to_size_boxer
 cut_down_to_size 
-free_brothers
+imperial_restit
 free_peoples
 liberate_country
 release_puppet
@@ -1199,12 +1199,11 @@ cut_down_to_size_boxer = {
 
 # Free Peoples
 
-free_brothers = {
+imperial_restit = {
 	is_triggered_only = yes
 	constructing_cb = no
 
 	sprite_index = 9
-	is_triggered_only = yes
 	months = 12
 
 	badboy_factor = 1.5
@@ -1230,24 +1229,8 @@ free_brothers = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		NOT = {
-			tag = FROM
-		}
-		from = {
-			OR = {
-			#	exists = yes
-				
-				}
-			}
-		
-		any_owned_province = {
-			is_core = FROM
-			NOT =
-			{
-				is_core = THIS
-			}
-		}
-		is_releasable_vassal = FROM
+		owns = 533
+		NOT = {tag = PAS }
 	}
 
 	# THIS - us
@@ -1255,7 +1238,7 @@ free_brothers = {
 	# war target country of goal's state
 	allowed_states = {
 		any_owned_province = {
-			is_core = FROM
+			is_core = PAS
 		}
 	}
 
