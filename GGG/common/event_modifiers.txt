@@ -282,3 +282,19 @@ zealous_fervor = {
 	global_pop_consciousness_modifier = 0.03
 	icon = 18
 }
+
+imperial_malcontents = {
+	local_RGO_output = -0.05
+    immigrant_push = 0.01
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.01
+	icon = 18
+}
+
+gashdzii_resistance = {
+	local_RGO_output = -0.2
+    immigrant_push = 0.05
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = 0.02
+	icon = 18
+}

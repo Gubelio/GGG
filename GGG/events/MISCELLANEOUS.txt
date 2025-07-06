@@ -3290,7 +3290,7 @@ country_event = { #### Pashdzii occupation GASHDZII
 	major = yes
 	
 	trigger = {
-		NOT = { has_global_flag = pashdzii_occupied }
+		NOT = { has_global_flag = pashdzii_occupied_gashdzii }
 		owns = 533
 		NOT = { tag = PAS }
 		is_culture_group = gashdzii
@@ -3304,22 +3304,38 @@ country_event = { #### Pashdzii occupation GASHDZII
 	
 	option = {
 		name = "The imperial capital is rightly and legitimately ours."
-		set_global_flag = pashdzii_occupied
-		prestige = 4
+		set_global_flag = pashdzii_occupied_gashdzii
+		prestige = 15
+		badboy = 1
 		any_country = {
 			limit = {
 				OR = {
 					AND = {
 						is_greater_power = yes
-						is_culture_group = gashdzii
+						OR = {
+							primary_culture = west_gashdzii
+							primary_culture = south_gashdzii
+							primary_culture = north_gashdzii
+						}
 					}
 					AND = {
-						is_culture_group = gashdzii
+						OR = {
+							primary_culture = west_gashdzii
+							primary_culture = south_gashdzii
+							primary_culture = north_gashdzii
+						}
 						neighbour = THIS
 					}
 				}
 			}
 			country_event = { id = 50168 days = 30	}
+		}
+		533 = {
+			add_province_modifier = {
+				name = imperial_malcontents
+				duration = 90
+			}
+		
 		}
 	}
 	
@@ -3342,6 +3358,82 @@ country_event = {
 	
 	option = {
 		name = "Someone should put those upstarts in their place!"
+		casus_belli = {
+			target = FROM
+			type = imperial_restit
+			country = PAS
+			months = 12
+		}
+	}
+	
+
+}
+
+
+country_event = { #### Pashdzii occupation FOREIGNER
+	id = 50169
+	title = "EVT50169NAME"
+	desc = "EVT50169DESC"
+	picture = "pashdzii"
+	major = yes
+	
+	trigger = {
+		NOT = { has_global_flag = pashdzii_occupied_foreign }
+		owns = 533
+		NOT = { tag = PAS }
+		NOT = { is_culture_group = gashdzii }
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "We hold the city by right of conquest!"
+		set_global_flag = pashdzii_occupied_foreign
+		prestige = 30
+		badboy = 2
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = west_gashdzii
+					primary_culture = south_gashdzii
+					primary_culture = north_gashdzii
+				}
+			}
+		
+			country_event = { id = 50170 days = 30	}
+		}
+		533 = {
+			add_province_modifier = {
+				name = gashdzii_resistance
+				duration = 360
+			}
+		
+		}
+	}
+	
+	option = {
+		name = "This great slum is too much trouble to deal with."
+		prestige = -10
+		badboy = -1
+		release = PAS
+	}
+
+}
+
+country_event = {
+	id = 50170
+	title = "EVT50170NAME"
+	desc = "EVT50170DESC"
+	picture = "pashdzii"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We must drive the foriegn scum from the great city!"
 		casus_belli = {
 			target = FROM
 			type = imperial_restit
