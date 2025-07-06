@@ -1225,10 +1225,10 @@ free_peoples = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		number_of_states = 2
+		number_of_states = 1
 		NOT = {
 			tag = FROM
-			this_culture_union = FROM	
+			#this_culture_union = FROM	
 		}
 		from = {
 			OR = {

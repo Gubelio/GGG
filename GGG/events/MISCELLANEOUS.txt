@@ -3282,3 +3282,72 @@ country_event = {
 
 }
 
+country_event = { #### Pashdzii occupation GASHDZII
+	id = 50167
+	title = "EVT50167NAME"
+	desc = "EVT50167DESC"
+	picture = "pashdzii"
+	
+	trigger = {
+		NOT = { has_global_flag = pashdzii_occupied }
+		owns = 533
+		NOT = { tag = PAS }
+		is_culture_group = gashdzii
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "The imperial capital is rightly and legitimately ours."
+		set_global_flag = pashdzii_occupied
+		prestige = 4
+		any_country = {
+			limit = {
+				OR = {
+					AND = {
+						is_greater_power = yes
+						is_culture_group = gashdzii
+					}
+					AND = {
+						is_culture_group = gashdzii
+						neighbour = THIS
+					}
+				}
+			}
+			country_event = { id = 50168 days = 30	}
+		}
+	}
+	
+	option = {
+		name = "We cannot risk arousing the ire of our neighbours."
+		prestige = -10
+		badboy = -1
+		release = PAS
+	}
+
+}
+
+country_event = {
+	id = 50168
+	title = "EVT50168NAME"
+	desc = "EVT50168DESC"
+	picture = "pashdzii"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Someone should put those upstarts in their place!"
+		casus_belli = {
+			target = FROM
+			type = free_peoples
+			country = PAS
+			months = 12
+		}
+	}
+	
+
+}

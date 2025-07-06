@@ -47411,18 +47411,10 @@ size = 1385
 
 1915 = {
 
-
-
 	serfs = {
 		 culture = rashuum
 		 religion = wompowushan
 size = 26
-	}
-
-	slaves = {
-		 culture = rashuum
-		 religion = wompowushan
-size = 266
 	}
 
 	farmers = {
@@ -47522,12 +47514,6 @@ size = 6
 size = 1
 	}
 
-	slaves = {
-		 culture = rashuum
-		 religion = wompowushan
-size = 16
-	}
-
 	farmers = {
 		 culture = rashuum
 		 religion = wompowushan
@@ -47619,12 +47605,6 @@ size = 4385
 		 culture = rashuum
 		 religion = wompowushan
 size = 16
-	}
-
-	slaves = {
-		 culture = rashuum
-		 religion = wompowushan
-size = 166
 	}
 
 	farmers = {
@@ -47725,16 +47705,10 @@ size = 26
 size = 6
 	}
 
-	slaves = {
-		 culture = rashuum
-		 religion = wompowushan
-size = 66
-	}
-
 	farmers = {
 		 culture = rashuum
 		 religion = wompowushan
-size = 528
+		size = 528
 	}
 
 	soldiers = {
