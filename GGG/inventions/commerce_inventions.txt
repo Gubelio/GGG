@@ -448,7 +448,7 @@ james_mill = {
 		base = 2
 		modifier = {
 			factor = 2
-			government = statist_bureaucracy
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1
