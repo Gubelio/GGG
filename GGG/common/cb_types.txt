@@ -1221,16 +1221,18 @@ imperial_restit = {
 	good_relation_militancy_factor = 1
 	
 	
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-	}
-
-	# THIS - us
-	# FROM - country scope is possible match?
-	# war target country of goal is scope
 	allowed_countries = {
-		owns = 533
-		NOT = {tag = PAS }
+		NOT = {
+			tag = FROM
+		}
+		FROM = {
+			tag = PAS
+			}
+		
+		any_owned_province = {
+			is_core = FROM
+		}
+		is_releasable_vassal = FROM
 	}
 
 	# THIS - us
@@ -1238,11 +1240,12 @@ imperial_restit = {
 	# war target country of goal's state
 	allowed_states = {
 		any_owned_province = {
-			is_core = PAS
+			is_core = FROM
 		}
 	}
 
 	po_transfer_provinces = yes
+	po_disarmament = yes
 
 	war_name = WAR_FREE_NAME
 	
@@ -1290,7 +1293,7 @@ free_peoples = {
 		}
 		from = {
 			OR = {
-				#exists = yes
+				exists = yes
 				
 				}
 			}

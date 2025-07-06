@@ -123,55 +123,55 @@ party = {
 
 unit_names = {
 	dreadnought = {
-        "FWV Vopudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
+       "FWV Vopudwou" "FWV Pride of Prousorum" "FWV Pruuntia" "FWV Sha-Angoun" "FWV Golden Blossom" "FWV Honor"
 		"FWV Slaughterer" "FWV Bright Lotus" "FWV Uum-Driddoun" "FWV Weeping Lady" "FWV Catfish"
 		"FWV Sha-Mann" "FWV Sha-Gosod" "FWV Bloodletter" "FWV Little Prince" "FWV Black Lily"
-    }
-    battleship = {
-        "FWV Pudwouvas" "FWV Pokoungpt" "FWV Kuuwumn" "FWV Umm-Pudwou" "FWV Uukiru" "FWV Sea-Serpent"
+   }
+   battleship = {
+       "FWV Pudwouvas" "FWV Pokoungpt" "FWV Kuuwumn" "FWV Umm-Pudwou" "FWV Uukiru" "FWV Sea-Serpent"
 		"FWV Umtangpt" "FWV Tor Dromon" "FWV Ufomn" "FWV Coffin" "FWV Wrovvo" "FWV Anu" "FWV Varu"
 		"FWV Sha-Povon" "FWV Prousorum" "FWV Mruub Sha-Ibu" "FWV Vuumivou" "FWV Fearless"
-    }
-    ironclad = {
-        "FWV Wagouman" "FWV Sea-Carp" "FWV Golden Seed" "FWV Gunhwav" "FWV Lake-Serpent"
+   }
+   ironclad = {
+       "FWV Wagouman" "FWV Sea-Carp" "FWV Golden Seed" "FWV Gunhwav" "FWV Lake-Serpent"
 		"FWV Beak" "FWV Wrudnik" "FWV Wrudsha" "FWV Wrudtapt" "FWV Gashdzoun" "FWV Kovurumn"
 		"FWV Shroudsha" "FWV Shupto-Tufuu" "FWV Pride of Pruuntia" "FWV Mra-Ouswun" "FWV Mra-Shoumid"
-    }
-    manowar = {
-       "FWV Serpent" "FWV Web-hand" "FWV Ishu" "FWV Wrud Ishu" "FWV World-Maker" "FWV Sun-Rise"
-	   "FWV Wurwuut" "FWV Wruuvou" "FWV Witch-of-the-Isles" "FWV Mihwa" "FWV Bloat-Prong" "FWV Tormentor"
-	   "FWV Int-Vou" "FWV "Pentapode" "FWV Butcher" "FWV Roshuton" "FWV Great-Carp" "FWV Bloodeater"
-    }
-    cruiser = {
-       "FWV Shroukshou" "FWV Driddoun" "FWV Slave-Driver" "FWV Great Prousorum" "FWV Light-Foot"
-	   "FWV Ongpt" "FWV Swift-Wing" "FWV Pag-ov" "FWV Vopudsawrish" "FWV Doshawrish of Qooxib"
-	   "FWV Blue-Face" "FWV Short-One" "FWV Sunset" "FWV Scourge of Gashdzoun" "FWV Scourge of the Nagine"
-    }
-    frigate = {
-      "FWV Sha-Ngoun" "The Old Ashaou Prison Ship" "FWV Doubtles" "FWV Sea-Dunga" "FWV Militarist"
+   }
+   manowar = {
+      "FWV Serpent" "FWV Web-hand" "FWV Ishu" "FWV Wrud Ishu" "FWV World-Maker" "FWV Sun-Rise"
+	   "FWV Wurwuut" "FWV Wruuvou" "FWV Mihwa" "FWV Bloat-Prong" "FWV Tormentor"
+	   "FWV Int-Vou" "FWV Pentapode" "FWV Butcher" "FWV Roshuton" "FWV Great-Carp" "FWV Bloodeater"
+   }
+   cruiser = {
+      "FWV Shroukshou" "FWV Driddoun" "FWV Slave-Driver" "FWV Great Prousorum" "FWV Light-Foot"
+	   "FWV Ongpt" "FWV Swift-Wing" "FWV Pag-ov" "FWV Vopudsawrish" 
+	   "FWV Blue-Face" "FWV Short-One" "FWV Sunset" "FWV Witch-of-the-Isles"
+   }
+   frigate = {
+     "FWV Sha-Ngoun" "FWV Doubtles" "FWV Sea-Dunga" "FWV Militarist"
 	  "FWV Deep-Lurker" "FWV Int-Kongu" "FWV Xouvan Carrier" "FWV Thimble" "FWV Cutter" "FWV Silver-Blade"
-	  "FWV Hero of the Joms" "FWV Odah-Bahmo" "FWV Bright-Eyes" "FWV Stranger" "FWV Momn-Ash"
-    }
-    monitor = {
-       "FWV Sha-Ashaou" "FWV Kidukuutu" "FWV Divdipto" "FWV Drungpt" "FWV Tangpt" "FWV Great Wur"
+	  "FWV Odah-Bahmo" "FWV Bright-Eyes" "FWV Stranger" "FWV Momn-Ash"
+   }
+   monitor = {
+      "FWV Sha-Ashaou" "FWV Kidukuutu" "FWV Divdipto" "FWV Drungpt" "FWV Tangpt" "FWV Great Wur"
 	   "FWV The Eel" "FWV Biter" "FWV Guwouf" "FWV Shdoton" "FWV Lurker" "FWV Pride of Xouva"
 	   "FWV Ajit" "FWV Unsinkable" "FWV Diver" "FWV Zhibom" "FWV Fazhgid" "FWV Diwish" "FWV Furthest"
-    }
-    clipper_transport = {
-       1.Frurwoush 2.Frurwoush 3.Frurwoush 4.Frurwoush 5.Frurwoush 6.Frurwoush 7.Frurwoush
+   }
+   clipper_transport = {
+      1.Frurwoush 2.Frurwoush 3.Frurwoush 4.Frurwoush 5.Frurwoush 6.Frurwoush 7.Frurwoush
 	   8.Frurwoush 9.Frurwoush 10.Frurwoush 11.Frurwoush 12.Frurwoush 13.Frurwoush 14.Frurwoush
 	   15.Frurwoush 16.Frurwoush 17.Frurwoush 18.Frurwoush 19.Frurwoush 20.Frurwoush
-    }
-    steam_transport = {
+   }
+   steam_transport = {
 	1.Frurnguut 2.Frurnguut 3.Frurnguut 4.Frurnguut 5.Frurnguut 6.Frurnguut 7.Frurnguut
 	   8.Frurnguut 9.Frurnguut 10.Frurnguut 11.Frurnguut 12.Frurnguut 13.Frurnguut 14.Frurnguut
 	   15.Frurnguut 16.Frurnguut 17.Frurnguut 18.Frurnguut 19.Frurnguut 20.Frurnguut
-    }
-    commerce_raider = {
+   }
+   commerce_raider = {
 		"Piranha" "Selakhos" "Pentapode" "Anuvon" "Ronwut" "Thrasher" "Anthrophage"
 		"Pistris" "Sea-Witch" "Beast of Bafozh" "Man-Eater" "Old Praankunt" "The Gull"
 		"Flounder" "Great King" "Praw" "Pruub-Tanker" "Pkuru" "Drosh-Goer" "Sea-Mrasho"
-    }
+   }
 	
 	
 }

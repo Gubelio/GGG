@@ -3287,6 +3287,7 @@ country_event = { #### Pashdzii occupation GASHDZII
 	title = "EVT50167NAME"
 	desc = "EVT50167DESC"
 	picture = "pashdzii"
+	major = yes
 	
 	trigger = {
 		NOT = { has_global_flag = pashdzii_occupied }
@@ -3344,6 +3345,7 @@ country_event = {
 		casus_belli = {
 			target = FROM
 			type = imperial_restit
+			country = PAS
 			months = 12
 		}
 	}
