@@ -3303,7 +3303,7 @@ country_event = { #### Pashdzii occupation GASHDZII
 	}
 	
 	option = {
-		name = "The imperial capital is rightly and legitimately ours."
+		name = "Perhaps the emperor will consent to make us his... 'protector'."
 		set_global_flag = pashdzii_occupied_gashdzii
 		prestige = 15
 		badboy = 1
@@ -3311,7 +3311,10 @@ country_event = { #### Pashdzii occupation GASHDZII
 			limit = {
 				OR = {
 					AND = {
-						is_greater_power = yes
+						OR = { 
+							is_greater_power = yes
+							is_secondary_power = yes
+						}
 						OR = {
 							primary_culture = west_gashdzii
 							primary_culture = south_gashdzii
