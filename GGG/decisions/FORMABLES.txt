@@ -24,6 +24,7 @@ political_decisions = {
             is_greater_power = yes
             war = no
 			is_vassal = no
+			owns = 533
             KID = {
                 all_core = {
                     OR = {

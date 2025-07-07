@@ -765,30 +765,30 @@ conversion_chance =
 
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.02
 			not = { luxury_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.02
 			not = { luxury_needs = 0.7 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.02
 			not = { luxury_needs = 0.5 }
 		}
 	}
 
 	group = {
 		modifier = {
-			factor = 0.04
+			factor = 0.06
 			not = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.06
 			not = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.06
 			not = { life_needs = 0.7 }
 		}
 	}
