@@ -174,14 +174,14 @@ hussey_n_mccormicks_reaping_machine;Gozomak's Reaper;;;;;;;;;;;;;;x
 hussey_n_mccormicks_reaping_machine_desc;Ashnuz Gozomak's wheel powered motor-reaper vastly increased agriculutral yeilds.;;;;;;;;;;;;;;x
 pitts_threshing_machine;Nuzhamedes' Pounder;;;;;;;;;;;;;;;x
 pitts_threshing_machine;Nuzhamedes of Oazud, by an ingenious system of grinding pegs, invented a machine for fast and efficient threshing.;;;;;;;;;;;;;x
-whitney_n_colts_standardized_small_arms;Sha-Ashaow Gauges;;;;;;;;;;;;;;x
-whitney_n_colts_standardized_small_arms_desc;The Nascent Sha-Ashaow firm pioneered standard gauges of small weaponry due to their contracts with the Poumnian government. The machines for producing these parts were widely copied.;;;;;;;;;;;;;x
+whitney_n_colts_standardized_small_arms;Sha-Ashouw Gauges;;;;;;;;;;;;;;x
+whitney_n_colts_standardized_small_arms_desc;The Nascent Sha-Ashouw firm pioneered standard gauges of small weaponry due to their contracts with the Poumnian government. The machines for producing these parts were widely copied.;;;;;;;;;;;;;x
 fordism;Line-Work;;;;;;;;;;;;;;x
 fordism_desc;Research into industrial efficient by the economists of the Great Nag's absolutist secrateriate produced a remarkable ammount of innovations, most notably line-work style organisation.;;;;;;;;;;;;;x
 bessemer_steel;Lung Steel;;;;;;;;;;;;;;x
 bessemer_steel_desc;Dhuchâ Kazh was the first to invent his 'steel lungs' for bubbling oxygen through molten iron to process it into steel and funneling out slag.;;;;;;;;;;;;;x
 martin_steel;Great Oven Steel;;;;;;;;;;;;;x
-martin_steel_desc;Lung style steel was limited to steel with much too much phosphorous. The 'Great Oven Style', pioneered by the engineers of the state-backed Sha-Ashaow firm, pioneered the Great-Oven style superheat iron and create steel.;;x;;;;;;;;;;;;;x
+martin_steel_desc;Lung style steel was limited to steel with much too much phosphorous. The 'Great Oven Style', pioneered by the engineers of the state-backed Sha-Ashouw firm, pioneered the Great-Oven style superheat iron and create steel.;;x;;;;;;;;;;;;;x
 thomas_steel;Basic Lung Steel;;;;;;;;;;;;;;x
 thomas_steel_desc;The invention of coatings to protect against reactions with Phosophous were pioneered in the mid 1320s and allowed for those dependent on Kazh or Lung steel to catch up with those casting Great-Oven style steel.;;;;;;;;;;;;;x
 vaccination_desc;The first vaccination was pioneered by Shumid Sha-Munpt, the Poumnian commander of Mra-Ouswun. Observing Qooxibi habits in exposing their children to the flies at night, he realised that moderate illnesses could be prevented by stimulating the immune system. In 1298 he suggested using Swine-Flu, a relative of the ghastly nocceus torpicus bacterium that devestated populations, in safe innoculations. This method meant that one could immunize animals and hominids from illnesses that flourished. This made life easier for man, cattle and thrall tending more profitable.;;;;;;;;;;;;;;x
@@ -217,28 +217,36 @@ interwar_cavalry_desc;With the mass casulaties suffered in the Poumnian-Nagine w
 light_artillery_desc;As experience from the Poumnian-Nagine demonstrated, infantry units, especially those operating in rough terrain, needed a viable option for increased fire power. Traditional guns were too heavy, and too bulky to be used effectively or moved rapidly in adverse conditions. Shorter range guns of smaller calibers, which were easily moved by horse, vehicle, or manpower, were developed to fill this need. ;;;;;;;;;;;;;x
 medium_artillery_desc;Coming out of the mold of traditional artillery, combined with the experiences of the Poumnian-Nagine War and the rapid increase in motorisation, the medium artillery gun was developed. Of modest calibers, these guns were the standard for regular infantry units, providing them with a greater fire power capability and mobility that they had previously lacked.;;;;;;;;;;;;;;x
 early_interwar_bombers;Modern Bombers;;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+late_interwar_bombers;Advanced Bombers;;;;;;;;;;;;;;x
+early_interwar_fighters;Modern Fighters;;;;;;;;;;;;;;x
+late_interwar_fighters;Advanced Fighters;;;;;;;;;;;;;;x
+great_war_experience;Poumnian-Nagine War Experience;;;;;;;;;;;;;;x
+great_war_experience_desc;Poumnian-Nagine War Experience;;;;;;;;;;;;;;x
+flintlock_rifle_armament_desc;Introduced at the beginning of the 11th century, the flintlock rapidly replaced earlier firearm-ignition technologies, such as the doglock, matchlock, and wheellock mechanisms. It continued to be in common use for over two centuries, replaced by percussion cap and, later, cartridge-based systems in the late thirteenth and early foruteenth century. Although long superseded by modern firearms, flintlock weapons enjoy continuing popularity with black-powder shooting enthusiasts.;;;;;;;;;;;;;;x
+muzzle_loaded_rifle_armament_desc;A muzzle-loading rifle is a gun in which the projectile and propelling charge is loaded through the front-end of the gun, in contrast to a breech loading rifle.;;;;;;;;;;;;;x
+breech_loaded_rifle_armament_desc;A breech-loading weapon is a firearm in which the cartridge or shell is inserted or loaded into a chamber integral to the rear portion of a barrel. Although breech-loading weapons were developed as far back as the late 9th century, breech-loading became more successful with improvements in precision engineering and machining in the fourteenth century.;;;;;;;;;;;;;;x
+bolt_action_rifle_armament_desc;Bolt action is a type of firearm action in which the weapon's bolt is operated manually by the opening and closing of the breech (barrel) with a small handle. The first bolt-action rifle was produced in 1295 by Chyoosh Gooth-so, brother of the famous Veyethun revolutionary, following work on breechloading rifles. Ishahfazhi armies continued to develop bolt-action rifles through the latter half of the fourteenth century, and the Poumnian-Nagine War marked the height of the bolt-action rifle's use, with all of the nations in that war fielding troops armed with various bolt-action designs.;;;;;;;;;;;;;;x
+machine_gun_armament_desc;The first machine gun was pioneered by Vodid Protum, a 'monk' in the Poumnian imperial clergy and civil service. Trained as an engineer by the Sha-Shoummid firm, he later became a minor apendage to a colonial military garrison to interface between the local community and the military fortress, where he enjoyed much leasiure to tinker. In 1337 he returned to the Shoummid plants and later came to design a 'spinning', rapid fire gun. The Sha-Shoumid firm later became premier manufacturer of self-turning machine guns, invaluable to Poumnian colonial interests.;;;;;;;;;;;;;x
+romanticism;Pastoralism;;;;;;;;;;;;;x
+romanticism_desc;Pastoralism;;;;;;;;;;;;;x
+introspectionism;Automatonism;;;;;;;;;;;;;;x
+introspectionism_desc;Automatonism;;;;;;;;;;;;;;x
+associationism;Logicism;;;;;;;;;;;;;;x
+associationism_desc;Logicism;;;;;;;;;;;;;;x
+phenomenalism;Conditionalism;;;;;;;;;;;;;;x
+phenomenalism_desc;Conditionalism;;;;;;;;;;;;;;x
+experimental_psychology;Absolute Psychology;;;;;;;;;;;;;;x
+experimental_psychology_desc;Absolute Psychology;;;;;;;;;;;;;;x
+psychoanalysis;Mirror-Theory;;;;;;;;;;;;;x
+psychoanalysis_desc;Mirror-Theory;;;;;;;;;;;;;x
+behaviorism;Intuionism;;;;;;;;;;;;;;x
+behaviorism_desc;Intuionism;;;;;;;;;;;;;;x
+mass_advertising;Pulp Literature;;;;;;;;;;;;;;x
+mass_advertising_desc;Pulp Literature;;;;;;;;;;;;;;x
+national_radio_networks;National Radio Networks;;;;;;;;;;;;x
+national_radio_networks_desc;x;;;;;;;;;;;;;;x
+the_talkies;Audiocinematics;;;;;;;;;;;;;x
+the_talkies_desc;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
