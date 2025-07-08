@@ -1451,7 +1451,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Poumnia and her tributaries"
+		name = "Poumnia and Her Tributaries"
 		country_event = { id = 50159 }
 	}
 
@@ -1477,12 +1477,67 @@ country_event = {
 	
 	option = {
 		name = "The Doshawrish of Towourud"
-		country_event = { id = 50158 }
+		if2 = {
+			limit = {
+				THIS = {
+					civilized = yes
+				
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50158 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					civilized = yes
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	}
 	
 	option = {
 		name = "The Wapkam Company"
-		country_event = { id = 50157 }
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50157 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	}
 
 
@@ -1558,7 +1613,7 @@ country_event = {
 
 country_event = {
 	id = 50158 
-	title = "EVT50158NAME" ##### WAP
+	title = "EVT50158NAME" ##### TOW
 	desc = "EVT50158DESC"
 	picture = "encyclo"
 	
@@ -1615,22 +1670,127 @@ country_event = {
 	
 	option = {
 		name = "The Anuvo Underclass"
-		country_event = { id = 50165 }
+		if2 = {
+			limit = {
+				THIS = {
+					civilized = yes
+				
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50165 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					civilized = yes
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	}
 	
 	option = {
 		name = "The Roshutan of the Jungle"
-		country_event = { id = 50162 }
+		if2 = {
+			limit = {
+				THIS = {
+					civilized = yes
+				
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50162 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					civilized = yes
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
 	}
 
 	option = {
 		name = "The Towuzhans of the West"
-		country_event = { id = 50164 }
+		if2 = {
+			limit = {
+				THIS = {
+					civilized = yes
+				
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50164 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					civilized = yes
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	}
 	
 	option = {
 		name = "The Rashuum Colonists"
-		country_event = { id = 50163 }
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50163 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	}
 
 	option = {
