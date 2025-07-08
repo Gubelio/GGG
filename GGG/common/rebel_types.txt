@@ -825,6 +825,23 @@ free_yoker_rebels = {
         prestige_factor = -0.25
         plurality = -25
         country_event = 50002
+		if = {
+			limit = {
+				THIS = {
+					OR = {
+						tag = THS
+						tag = HAH
+						tag = SOG
+						tag = MUB
+						tag = MAC
+						tag = VAS
+					}
+				}
+			}
+			THIS = {
+				country_event = 50171
+			}
+		}
     
 		clr_country_flag = we_embraced_shamush
 	}

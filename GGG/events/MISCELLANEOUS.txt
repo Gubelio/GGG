@@ -3447,3 +3447,89 @@ country_event = {
 	
 
 }
+
+country_event = { #free yoker athisoroo
+	id = 50171
+	title = "EVT50171NAME"
+	desc = "EVT50171DESC"
+	#picture = "pashdzii"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "It is only natural that we would join their state."
+		if = {
+			limit = {
+				THIS = {
+					ai = yes
+					VUG = {
+						exists = yes
+					}
+				}
+			}
+			VUG = {
+				country_event = {
+					id = 50172
+					days = 16
+				}
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					ai = no
+					VUG = {
+						ai = yes
+					}
+				}
+			}
+			THIS = { 
+				inherit = VUG
+				change_tag = VUG
+				primary_culture = hahuibi
+				add_accepted_culture = sevuma
+			}
+		}
+		null_warning = { }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "We will build a liberated state after our own manner."
+		prestige = 3
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+
+}
+
+country_event = {
+	id = 50172
+	title = "EVT50172NAME"
+	desc = "EVT50172DESC"
+	#picture = "pashdzii"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hurrah for the Revolution! Hurrah for the Common-Man!"
+		inherit = FROM
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "We don't care for them in our state...."
+		prestige = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+
+}
