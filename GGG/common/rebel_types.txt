@@ -836,6 +836,12 @@ free_yoker_rebels = {
 						tag = MAC
 						tag = VAS
 					}
+					AND = {
+						VUG = {
+							exists = yes
+							government = paternalistic_council
+						}
+					}
 				}
 			}
 			THIS = {
