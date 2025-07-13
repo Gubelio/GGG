@@ -750,7 +750,7 @@ conversion_chance =
 	}
 	
 	modifier = {
-		factor -0.95
+		factor -0.8
 		AND = {
 			has_pop_religion = vewugi
 			location = { province_id = 221 }
