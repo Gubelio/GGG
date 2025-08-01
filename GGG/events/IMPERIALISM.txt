@@ -1526,7 +1526,11 @@ country_event = {
 		}
 		civilized = yes
 		mechanized_mining = 1
-		NOT = { has_global_flag = holy_mountain }
+		NOT = { has_country_flag = holy_mountain }
+		303 = {
+			NOT = { trade_goods = coal }
+		}
+
 		THIS = {
 			owns = 303
 		}
@@ -1553,7 +1557,7 @@ country_event = {
 			}
 		militancy = 8
 		}
-		set_global_flag = holy_mountain
+		set_country_flag = holy_mountain
 	}
 	
 	option = {
@@ -1572,7 +1576,7 @@ country_event = {
 			}
 		militancy = 1
 		}
-		set_global_flag = holy_mountain
+		set_country_flag = holy_mountain
 	}
 
 }
