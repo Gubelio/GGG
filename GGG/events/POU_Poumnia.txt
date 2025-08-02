@@ -264,7 +264,7 @@ country_event = {
 
 
     option = {
-        name = "The Anuvo should be deported to their ancestral homeland"
+        name = "Where there is unrest, The Anuvo should be deported to their ancient lands."
 		set_global_flag = dealt_with_anuvo
 		prestige = 5
 		treasury = -50000
