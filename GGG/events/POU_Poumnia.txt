@@ -673,6 +673,8 @@ country_event = {
     desc = "EVTDESC50175"
 	#picture = "POU_rev"
 	
+	fire_only_once = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -685,3 +687,59 @@ country_event = {
 ############################
 ##### GAP TOOTHING #########
 ############################
+
+country_event = {
+	id = 50176
+	title = "EVT50176NAME"
+	desc = "EVT50176DESC"
+	picture = "POU_generic"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = POU
+		NOT = { has_country_flag = resolved_gapping }
+		year = 1324
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	
+	}
+	
+	
+	
+	option = {
+		name = "The customs system must be reformed."
+		set_country_flag = resolved_gapping
+		add_country_modifier = {
+			name = gap_toothing_resolved
+			duration = 36500
+			}	
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = 2
+			consciousness = 2
+		}
+	}
+	
+	option = {
+		name = "We cannot risk angering the nobility."
+		set_country_flag = resolved_gapping
+		add_country_modifier = {
+			name = backwards_customs
+			duration = 36500
+			}
+		any_pop = {
+			limit = {
+				strata = poor
+			}
+			militancy = 1
+			consciousness = 1
+		}
+	}
+
+
+}

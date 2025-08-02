@@ -272,6 +272,7 @@ reactionary_rebels = {
         country_event = 50000
 		
 		clr_country_flag = we_embraced_shamush
+		remove_country_modifier = backwards_customs
     }
 }
 
@@ -557,6 +558,7 @@ theocratist_rebels = {
         country_event = 50001
 		
 		clr_country_flag = we_embraced_shamush
+		remove_country_modifier = backwards_customs
     }
 }
 
@@ -850,6 +852,7 @@ free_yoker_rebels = {
 		}
     
 		clr_country_flag = we_embraced_shamush
+		remove_country_modifier = backwards_customs
 	}
 }
 
@@ -1132,6 +1135,7 @@ absolutist_rebels = {
         country_event = 50003
     
 		clr_country_flag = we_embraced_shamush	
+		remove_country_modifier = backwards_customs
 	}
 }
 
@@ -1966,15 +1970,7 @@ native_rebels = {
         }
     }
     demands_enforced_effect = {
-        clr_country_flag = theocratic_government
-        clr_country_flag = communist_gov
-        clr_country_flag = absolute_monarchy_gov
-        clr_country_flag = semi_constitutional_monarchy_gov
-        clr_country_flag = constitutional_monarchy_gov
-        clr_country_flag = democracy_gov
-        clr_country_flag = presidential_dictatorship_gov
-        clr_country_flag = fascist_gov
-        clr_country_flag = anarcho_liberal_gov
+ 
         any_country = {
             limit = { is_culture_group = THIS }
             leave_alliance = THIS

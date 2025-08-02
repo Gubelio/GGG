@@ -322,4 +322,13 @@ an_refugee = {
     icon = 4
 }
 
+gap_toothing_resolved = {
+	administrative_efficiency_modifier = 0.02
+    icon = 9
+}
 
+backwards_customs = {
+	import_cost = 0.02
+	tax_efficiency = 0.01
+    icon = 10
+}
