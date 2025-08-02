@@ -328,6 +328,8 @@ gap_toothing_resolved = {
 }
 
 backwards_customs = {
+	poor_income_modifier = -0.01
+	rich_income_modifier = 0.01
 	import_cost = 0.02
 	tax_efficiency = 0.01
     icon = 10
