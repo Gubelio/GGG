@@ -342,6 +342,23 @@ country_event = {
 			change_province_name = "Anuvonshrish"
 		}
 		
+		if = {
+			limit = {
+				183 = {
+					owner = { NOT = { tag = POU } }
+				}
+			}
+			183 = {
+					owner = { 
+						country_event = { id = 50175 days = 12 } 
+						relation = {
+							who = POU
+							value = -200
+						}
+					}
+				}
+		}
+		
 	}
 	
 	option = {
@@ -648,6 +665,20 @@ country_event = {
 		
 		
 	}
+}
+
+country_event = {
+	id = 50175 
+    title = "EVTNAME50175" 
+    desc = "EVTDESC50175"
+	#picture = "POU_rev"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This will be a burden on our state"
+	}
+
 }
 
 
