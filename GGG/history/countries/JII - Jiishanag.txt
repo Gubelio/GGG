@@ -19,7 +19,7 @@ banking_system = banking_licenses
 thralldom = thralldom_allowed
 public_order = appointed_justices 
 administrative_reform = aristocratic_bureaucracy
-infrastructure = ad_hoc_development
+infrastructure = turnpikes_n_municipal_funding
 health_care = no_health_care
 school_reforms = parish_school_system
 
@@ -33,7 +33,7 @@ debt_law = peonage
 penal_system = incarceration
 slavery = code_of_rights
 wage_reform = no_minimum_wage
-social_privileges = legal_disabilities
+social_privileges = equality_before_the_law
 
 ruling_party = JII_conservative
 upper_house = { # inherit
