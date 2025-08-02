@@ -989,7 +989,7 @@ country_event = {
 	id = 50128
 	title = "EVT50128NAME" ##### Wompouwushan
 	desc = "EVT50128DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_imperial"
 	
 	is_triggered_only = yes
 
@@ -1466,7 +1466,7 @@ country_event = {
 	id = 50159
 	title = "EVT50146NAME" ##### Poumnian area subheading
 	desc = "EVT50146DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_generic"
 	
 	is_triggered_only = yes
 
@@ -1555,7 +1555,7 @@ country_event = {
 	id = 50144 
 	title = "EVT50144NAME" ##### POUMNIA
 	desc = "EVT50144DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_generic"
 	
 	is_triggered_only = yes
 
@@ -1659,7 +1659,7 @@ country_event = {
 	id = 50166
 	title = "EVT50166NAME" ##### Poumnia Subheading
 	desc = "EVT50166DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_generic"
 	
 	is_triggered_only = yes
 
@@ -1806,7 +1806,7 @@ country_event = {
 	id = 50161
 	title = "EVT50161NAME" ##### Poumnian
 	desc = "EVT50161DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_generic"
 	
 	is_triggered_only = yes
 
@@ -1886,7 +1886,7 @@ country_event = {
 	id = 50165
 	title = "EVT50165NAME" ##### The Anuvo
 	desc = "EVT50165DESC"
-	picture = "henry_chapman_ford_water_lilies_and_spanish_moss"
+	picture = "POU_generic"
 	
 	is_triggered_only = yes
 

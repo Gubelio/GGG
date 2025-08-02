@@ -136,3 +136,521 @@ country_event = {
 	
 }
 
+############################
+#### PUDWOU DEPOSED ########
+############################
+
+country_event = { 
+    id = 50173 
+    title = "EVTNAME50173" 
+    desc = "EVTDESC50173"
+	picture = "POU_rev"
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	    months = 1
+	}
+
+    trigger = {
+		tag = POU
+		NOT = {
+			government = theocracy
+		}
+		NOT = {
+			has_global_flag = pudwou_overthrown
+		}
+    }
+
+
+    option = {
+        name = "It remains to be seen how this affects our state."
+		set_global_flag = pudwou_overthrown
+		prestige = -10
+		any_pop = {
+			limit = {
+				has_pop_religion = wompowushan
+			}
+			militancy = 6
+			consciousness = 3
+			if = {
+				limit = {
+					THIS = {
+						is_ideology_enabled = statist
+					}
+				}
+				THIS = {
+					ideology = {
+						factor = 0.07
+						value = statist
+					}
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						is_ideology_enabled = absolutist
+					}
+				}
+				THIS = {
+					ideology = {
+						factor = 0.03
+						value = statist
+					}
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						is_ideology_enabled = theocratist
+					}
+				}
+				THIS = {
+					ideology = {
+						factor = 0.02
+						value = theocratist
+					}
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						is_ideology_enabled = reactionary
+					}
+				}
+				THIS = {
+					ideology = {
+						factor = 0.02
+						value = reactionary
+					}
+				
+				}
+			}
+			
+			
+		}
+		
+	}
+}
+
+############################
+#### FATE OF THE ANUVO #####
+############################
+
+
+country_event = { 
+    id = 50174 
+    title = "EVTNAME50174" 
+    desc = "EVTDESC50174"
+	picture = "POU_rev"
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { 
+	    months = 1
+	}
+
+    trigger = {
+		tag = POU
+		government = paternalistic_council
+		NOT = { has_country_flag = dealt_with_anuvo }
+    }
+
+
+    option = {
+        name = "The Anuvo should be deported to their ancestral homeland"
+		set_global_flag = dealt_with_anuvo
+		prestige = 5
+		treasury = -50000
+		
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_deported }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_deported duration = 365 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.97
+					move_pop = 183
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_deported }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_deported duration = 365 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.97
+					move_pop = 183
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_deported }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_deported duration = 365 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.97
+					move_pop = 183
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_deported }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_deported duration = 365 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.97
+					move_pop = 183
+					}
+				}
+		183 = {
+			add_province_modifier = { name = an_refugee duration = 1200 }
+			change_province_name = "Anuvonshrish"
+		}
+		
+	}
+	
+	option = {
+        name = "The Anuvo are an asset to our state. Intervene."
+		set_global_flag = dealt_with_anuvo
+		any_pop = {
+			limit = {
+				has_pop_culture = poumnian
+			}
+			militancy = 1
+			consciousness = 4
+		}
+	
+		any_pop = {
+			limit = {
+				has_pop_culture = anuvo
+			}
+			consciousness = 3
+		}
+		
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+		
+		
+		
+	}
+	
+	option = {
+        name = "Let the people do as they will. It is not our concern."
+		set_global_flag = dealt_with_anuvo
+		
+		any_pop = {
+			limit = {
+				has_pop_culture = poumnian
+			}
+			militancy = -1
+			consciousness = -2
+		}
+	
+		any_pop = {
+			limit = {
+				has_pop_culture = anuvo
+			}
+			militancy = 6
+			consciousness = 3
+		}
+		
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+		random_owned = {
+					limit = {
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+		
+		
+	}
+}
+
+
+############################
+##### GAP TOOTHING #########
+############################

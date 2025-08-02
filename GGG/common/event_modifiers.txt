@@ -298,3 +298,28 @@ gashdzii_resistance = {
 	pop_militancy_modifier = 0.02
 	icon = 18
 }
+
+an_violence = {
+	pop_consciousness_modifier = -0.01
+	pop_militancy_modifier = -0.01
+	icon = 18
+}
+
+an_deported = {
+	pop_consciousness_modifier = -0.03
+	pop_militancy_modifier = -0.03
+	icon = 18
+}
+
+an_refugee = {
+	local_ruling_party_support = -0.5
+    #pop_militancy_modifier = -0.1
+    local_factory_output = -0.25
+    local_rgo_output = -0.25
+    immigrant_attract = -0.25
+    immigrant_push = 0.5
+    population_growth = -0.001
+    icon = 4
+}
+
+

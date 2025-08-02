@@ -734,7 +734,10 @@ conversion_chance =
         factor = -0.95
         OR = {
             has_pop_religion = vewugi
-            has_pop_religion = wompowushan
+			AND = {
+				has_pop_religion = wompowushan
+				NOT = { THIS = { has_global_flag = pudwou_overthrown } }
+			}
             has_pop_religion = rechktist
         }
     }
@@ -746,6 +749,10 @@ conversion_chance =
             has_pop_religion = shamush
             has_pop_religion = momurist
 			has_pop_religion = jur
+			AND = {
+				has_pop_religion = wompowushan
+				THIS = { has_global_flag = pudwou_overthrown }
+			}
         }
 	}
 	
