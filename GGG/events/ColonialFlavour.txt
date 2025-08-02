@@ -340,7 +340,7 @@ country_event = { #HAMOGDISCOVERED
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 70
 		 
 	}
 	
@@ -422,7 +422,7 @@ country_event = { #LOST CIVILIZATION IN BOBIT?
 	}
 	
 	mean_time_to_happen = {
-		months = 37
+		months = 65
 		 
 	
 	}
@@ -457,7 +457,7 @@ country_event = { #shipwreck community
 
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 80
 		 
 	
 	}
@@ -508,7 +508,7 @@ country_event = { #shipwreck community
 
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 80
 		 
 	
 	}
@@ -559,7 +559,7 @@ country_event = { #shipwreck community
 
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 80
 		 
 	
 	}
@@ -610,7 +610,7 @@ country_event = { #shipwreck community
 
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 80
 		 
 	
 	}
@@ -658,7 +658,7 @@ country_event = { #EXPLORERSLOST
 	}
 	
 	mean_time_to_happen = {
-		months = 45
+		months = 85
 		 
 		#modifier = {
         #    factor = 0.9
@@ -701,7 +701,7 @@ country_event = { #negotiate colonial purchase
 	}
 	
 	mean_time_to_happen = {
-		months = 45
+		months = 85
 		 
 		modifier = {
 			factor = 0.9
@@ -768,7 +768,7 @@ country_event = { #charming native discovered
 	}
 	
 	mean_time_to_happen = {
-		months = 45
+		months = 90
 		 
 	}
 	
@@ -807,7 +807,7 @@ country_event = { #renaming lakes
 
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 68
 		 
 	
 	}
