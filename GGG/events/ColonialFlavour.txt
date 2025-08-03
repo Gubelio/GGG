@@ -1,3 +1,9 @@
+###########################################################################################################################
+#### IF YOU ADD AN EVENT, MAKE SURE TO ADD 1 to the MARKED (#update) variables ############################################
+#### EVERYTHING ELSE IS MERELY DEPENDANT ON HAVING THE 'exploring_bafozh' flag and just make sure to close that afterward #
+###########################################################################################################################
+
+
 country_event = { #COLONIALEXPLOREING
 	id = 50103
 	title = "EVTNAME50103"
@@ -17,7 +23,7 @@ country_event = { #COLONIALEXPLOREING
 				NOT = {
 					check_variable = {
 					which = "expl_bafozh"
-					value = 7
+					value = 7  #update
 					}
 				}
 				AND = {
@@ -44,7 +50,7 @@ country_event = { #COLONIALEXPLOREING
 				NOT = {
 					check_variable = {
 					which = "expl_bafozh"
-					value = 6
+					value = 6 #update
 					}
 				}
 			}
