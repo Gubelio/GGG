@@ -764,7 +764,7 @@ country_event = { #charming native discovered
 	id = 50149
 	title = "EVT50149NAME"
 	desc = "EVT50149DESC"
-	#picture = "deadboys"
+	picture = "charming_native"
 	
 	fire_only_once = yes
 	
