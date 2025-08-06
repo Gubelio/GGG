@@ -47599,7 +47599,11 @@ size = 4385
 1917 = {
 
 
-
+	artisans = { #the old factory
+		culture = jazhakdii
+		religion = kadkohi
+		size = 103
+	}
 
 	serfs = {
 		 culture = rashuum

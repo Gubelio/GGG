@@ -2,7 +2,7 @@ color = { 149 124 224 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "JII_conservative"
+	name = "THN_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "dominion_conservative_old"
+	name = "THN_conservative_old"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "JII_reactionary"
+	name = "THN_reactionary"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "JII_statist"
+	name = "THN_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "JII_absolutist"
+	name = "THN_absolutist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 

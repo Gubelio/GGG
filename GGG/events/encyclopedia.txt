@@ -51,12 +51,45 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = KUS
+				}
+			}
+			THIS = { 
+				country_event = { id = 50180 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = PPN
+				}
+			}
+			THIS = { 
+				country_event = { id = 50181 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = BOZ
+				}
+			}
+			THIS = { 
+				country_event = { id = 50182 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
 							tag = JII
 							tag = WAP
 							tag = TWD
+							tag = PPN
+							tag = BOZ
+							tag = KUS
 						}
 					}
 				}
@@ -124,7 +157,7 @@ country_event = {
 
 country_event = {
 	id = 50145
-	title = "EVT50145NAME" ##### Empty Page
+	title = "EVT50145NAME" ##### Empty Page No Country
 	desc = "EVT50145DESC"
 	picture = "encyclo"
 	
@@ -1455,6 +1488,10 @@ country_event = {
 		country_event = { id = 50159 }
 	}
 
+	option = {
+		name = "The Colonial Gashdzii States"
+		country_event = { id = 50179 }
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -1549,6 +1586,127 @@ country_event = {
 }
 
 
+country_event = {
+	id = 50179
+	title = "EVT50179NAME" ##### Colonial Gashdzii Subheading
+	desc = "EVT50179DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Kushnag"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50180 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	
+	option = {
+		name = "Poponazh"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50181 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+
+	option = {
+		name = "Bozzanazh"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50182 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #########
 
 country_event = {
@@ -1631,6 +1789,68 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50180 
+	title = "EVT50180NAME" ##### KUS
+	desc = "EVT50180DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50181 
+	title = "EVT50181NAME" ##### PPN
+	desc = "EVT50181DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50182 
+	title = "EVT50182NAME" ##### BOZ
+	desc = "EVT50182DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #####################
 #### CULTURES ########
 ####################
@@ -1648,6 +1868,10 @@ country_event = {
 		country_event = { id = 50166 }
 	}
 
+	option = {
+		name = "The Gashdzii"
+		country_event = { id = 50178 }
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -1799,6 +2023,72 @@ country_event = {
 	}
 }
 
+
+
+country_event = {
+	id = 50178
+	title = "EVT50178NAME" ##### GASHDZII SUBHEADING
+	desc = "EVT50178DESC"
+	picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The North Gashdzii"
+		clr_country_flag = encyclopedia_open
+	}
+	
+	option = {
+		name = "The South Gashdzii"
+		clr_country_flag = encyclopedia_open
+	}
+	
+	option = {
+		name = "The West Gashdzii"
+		clr_country_flag = encyclopedia_open
+		
+	}
+
+	option = {
+		name = "The Jazhakdi Colonists"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50183 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50183 } }
+		
+		}
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #################
 Culture Entries ###
 
@@ -1902,6 +2192,25 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50183
+	title = "EVT50183NAME" ##### The Jazhakdi
+	desc = "EVT50183DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 ######################
 ##### PLACES #########
