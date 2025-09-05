@@ -1580,3 +1580,159 @@ country_event = {
 	}
 
 }
+
+country_event = { # unciv railway trigger
+	id = 50184
+	title = "EVTNAME50184" 
+    desc = "EVTDESC50184"     
+	picture = "colonial_railway"
+	
+	trigger = {
+        civilized = no
+        war = no
+        is_vassal = no
+		any_owned_province = {
+			is_capital = no
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = { 
+					controller = {
+						civilized = yes
+						is_greater_power = yes
+					}
+				}
+			}
+			has_building = railroad
+		}
+		OR = {
+			NOT = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+			AND = {
+				OR = {
+					tag = NHQ
+					tag = PUS
+					tag = ORH
+					tag = FCH
+					tag = QOO
+				}
+				has_global_flag = QOOenabling_2
+			}
+		}
+		number_of_states = 2
+    }
+	
+	mean_time_to_happen = {
+        months = 180 
+    }
+	
+	option = { 
+		name = "Let us drive these brutes out!"
+		prestige = 10
+		research_points = 500
+		random_province = {
+			limit = {
+			is_capital = no
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = { 
+					controller = {
+						civilized = yes
+						is_greater_power = yes
+					}
+				}
+			}
+			has_building = railroad
+			}
+			infrastructure  = -1
+		}
+		any_greater_power = {
+			limit = {
+			diplomatic_influence = {
+					who = THIS
+					value = 2.5
+				}
+			}
+			country_event = {
+				id = 50185
+				days = 15
+			}
+		}
+	}
+	
+	option = {
+		name = "We cannot risk angering such a great power."
+		prestige = -3
+		any_pop = {
+			militancy = 1
+		}
+	}
+
+}
+
+
+country_event = { 
+    id = 50185
+    title = "EVTNAME50185" # establish protectorate
+    desc = "EVTDESC50185"     
+	picture = "colonial_railway"
+	
+   is_triggered_only = yes
+
+    option = {
+        name = "We will teach these savages to honour property!"
+		FROM = {
+            add_casus_belli = {
+                target = THIS
+                type = demand_concession_casus_belli_event
+                months = 12
+            }
+			add_casus_belli = {
+                target = THIS
+                type = war_reparations
+                months = 12
+            }
+			if = {
+				limit = {
+					FROM = {
+						NOT = { number_of_states = 3 }
+					}
+				}
+				FROM = {
+					add_casus_belli = {
+						target = THIS
+						type = make_puppet
+						months = 12
+					}
+				}
+			}
+            relation = {
+                who = THIS
+                value = -150
+            }
+ 
+		}
+		ai_chance = { 
+		factor = 90
+		}
+	}
+ 
+
+    option = {
+        name = "Just give the guards some more vigilance training."
+		prestige = -5
+		ai_chance = { 
+		factor = 10
+		}
+		any_pop = {
+			limit = {
+				type = capitalist
+			}
+			militancy = 2
+		}
+    }
+}
