@@ -1443,7 +1443,7 @@ country_event = { #study juewaeg
 		
 		NOT = {
 			OR = {
-				has_country_flag = juewaeg_rechktist
+				has_country_flag = studied_juewaeg
 				has_country_flag = juewaeg_country
 				AND = {
 					year = 1350
@@ -1466,6 +1466,51 @@ country_event = { #study juewaeg
 		name = "Curious"
 		prestige = 5
 		set_country_flag = studied_juewaeg
+		encylopedia_updated = {}
+	}
+}
+
+country_event = { #study paorusu
+	id = 50186
+	title = "EVT50186NAME" 
+	desc = "EVT50186DESC"
+	#picture = "hamog"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		any_pop = {
+			religion = paorusu
+		}
+		any_owned_province = {
+			continent = south_america
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_parousou
+				has_country_flag = paorusu_country
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_paorusu }
+						invention = social_anthropology
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Simply fascinating!"
+		prestige = 5
+		set_country_flag = studied_paorusu
 		encylopedia_updated = {}
 	}
 }
