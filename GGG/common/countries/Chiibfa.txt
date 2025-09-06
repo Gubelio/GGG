@@ -2,7 +2,7 @@ color = { 217 212 101 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "WGG_conservative"
+	name = "WGC_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "WGG_conservative_old"
+	name = "WGC_conservative_old"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "WGG_reactionary"
+	name = "WGC_reactionary"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "WGG_statist"
+	name = "WGC_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "WGG_absolutist"
+	name = "WGC_absolutist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "WGG_liberationist"
+	name = "WGC_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "WGG_free_yoker"
+	name = "WGC_free_yoker"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -107,7 +107,7 @@ party = {
 }
 
 party = {
-	name = "WGG_theocratist"
+	name = "WGC_theocratist"
 	start_date = 1330.1.1
 	end_date = 2000.1.1
 
