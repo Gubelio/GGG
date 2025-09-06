@@ -1,11 +1,11 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-dominion_liberationist;Liberationist Party;;;;;;;;;;;;;x
-dominion_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
-dominion_statist;Statist Party;;;;;;;;;;;;;x
-dominion_absolutist;Absolutist Party;;;;;;;;;;;;;x
-dominion_theocratist;Theocratist Party;;;;;;;;;;;;;x
-dominion_conservative;The New Conservatives;;;;;;;;;;;;;x
-dominion_conservative_old;The Old Conservatives;;;;;;;;;;;;;x
+WGG_liberationist;Liberationist Party;;;;;;;;;;;;;x
+WGG_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
+WGG_statist;Statist Party;;;;;;;;;;;;;x
+WGG_absolutist;Absolutist Party;;;;;;;;;;;;;x
+WGG_theocratist;Theocratist Party;;;;;;;;;;;;;x
+WGG_conservative;The New Conservatives;;;;;;;;;;;;;x
+WGG_conservative_old;The Old Conservatives;;;;;;;;;;;;;x
 JII_liberationist;The Social Radicals;;;;;;;;;;;;;x
 JII_free_yoker;Freemans' Union;;;;;;;;;;;;;x
 JII_statist;Social-Authoritarian Party;;;;;;;;;;;;;x
@@ -390,6 +390,102 @@ PPN_theocratist;The Iconoclastic Party;;;;;;;;;;;;;x
 PPN_conservative;The Nazhine Party;;;;;;;;;;;;;x
 PPN_reactionary;The Monarchists;;;;;;;;;;;;;x
 PPN_conservative_old;The Nagine Party;;;;;;;;;;;;;x
+CHY_liberationist;The Reform Party;;;;;;;;;;;;;x
+CHY_free_yoker;The Tower-Smashers;;;;;;;;;;;;;x
+CHY_statist;Chyvitian Statist Party;;;;;;;;;;;;;x
+CHY_absolutist;Gamatist-Hydomite Absolutist Party;;;;;;;;;;;;;x
+CHY_theocratist;Hif-Wethu Party;;;;;;;;;;;;;x
+CHY_conservative;Hif Wathom;;;;;;;;;;;;;x
+CHY_reactionary;The Revanchists;;;;;;;;;;;;;x
+CHY_conservative_old;Washo Vatug;;;;;;;;;;;;;x
+MUB_liberationist;The Radicals;;;;;;;;;;;;;x
+MUB_free_yoker;Free-Land Party;;;;;;;;;;;;;x
+MUB_statist;Muboron Statist Party;;;;;;;;;;;;;x
+MUB_absolutist;The Irrigationists;;;;;;;;;;;;;x
+MUB_theocratist;The Sesine;;;;;;;;;;;;;x
+MUB_conservative;Hit Vatug;;;;;;;;;;;;;x
+MUB_reactionary;The Ghechyamy Thralldom League;;;;;;;;;;;;;x
+MUB_conservative_old;Yatho Vatug;;;;;;;;;;;;;x
+STH_liberationist;The Burghers;;;;;;;;;;;;;x
+STH_free_yoker;The Troublemakers;;;;;;;;;;;;;x
+STH_statist;The Turnpike;;;;;;;;;;;;;x
+STH_absolutist;The Mountain;;;;;;;;;;;;;x
+STH_theocratist;The Clerks;;;;;;;;;;;;;x
+STH_conservative;Hit Vatug;;;;;;;;;;;;;x
+STH_reactionary;The Thrall-Takers;;;;;;;;;;;;;x
+STH_conservative_old;Yatho Vatug;;;;;;;;;;;;;x
+VAS_liberationist;The Burghers;;;;;;;;;;;;;x
+VAS_free_yoker;The Pit-Men;;;;;;;;;;;;;x
+VAS_statist;The Barge-Men;;;;;;;;;;;;;x
+VAS_absolutist;Tim Vatug;;;;;;;;;;;;;x
+VAS_theocratist;Sesi Vatug;;;;;;;;;;;;;x
+VAS_conservative;The Conservatives;;;;;;;;;;;;;x
+VAS_reactionary;The Thrall-Takers;;;;;;;;;;;;;x
+VAS_conservative_old;Yatho Vatug;;;;;;;;;;;;;x
+MAC_liberationist;The Regional Oortothi;;;;;;;;;;;;;x
+MAC_free_yoker;The Blessed Landsmans' League;;;;;;;;;;;;;x
+MAC_statist;The Irrigationists;;;;;;;;;;;;;x
+MAC_absolutist;M.O.G.A.P.;;;;;;;;;;;;;x
+MAC_theocratist;The Radicals;;;;;;;;;;;;;x
+MAC_conservative;Yatho Vatug;;;;;;;;;;;;;x
+MAC_reactionary;The Lordly Party;;;;;;;;;;;;;x
+MAC_conservative_old;The Swinemen's Party;;;;;;;;;;;;;x
+DHA_liberationist;The Reformists;;;;;;;;;;;;;x
+DHA_free_yoker;The Pit-Men's Bund;;;;;;;;;;;;;x
+DHA_statist;The Statist Party;;;;;;;;;;;;;x
+DHA_absolutist;Pahan Orthodox Hydomite Party;;;;;;;;;;;;;x
+DHA_theocratist;Doshkine Faithful;;;;;;;;;;;;;x
+DHA_conservative;The Squires;;;;;;;;;;;;;x
+DHA_reactionary;The Dhovaks;;;;;;;;;;;;;x
+DHA_conservative_old;The Cavaliers;;;;;;;;;;;;;x
+SHZ_liberationist;The Non-Juring Party;;;;;;;;;;;;;x
+SHZ_free_yoker;The Levellers;;;;;;;;;;;;;x
+SHZ_statist;The Statist Party;;;;;;;;;;;;;x
+SHZ_absolutist;Shukan Orthodox Gamatist Party;;;;;;;;;;;;;x
+SHZ_theocratist;The Sepulchrine Party;;;;;;;;;;;;;x
+SHZ_conservative;The Princely Party;;;;;;;;;;;;;x
+SHZ_reactionary;The Militarists;;;;;;;;;;;;;x
+SHZ_conservative_old;The Planters;;;;;;;;;;;;;x
+CHS_liberationist;The Anti-Tarrif Party;;;;;;;;;;;;;x
+CHS_free_yoker;The Free-Soil Bund;;;;;;;;;;;;;x
+CHS_statist;The Mazakine;;;;;;;;;;;;;x
+CHS_absolutist;C.O.G.P.;;;;;;;;;;;;;x
+CHS_theocratist;The Southern Church;;;;;;;;;;;;;x
+CHS_conservative;Pro-Confederation Party;;;;;;;;;;;;;x
+CHS_reactionary;The Popular Party;;;;;;;;;;;;;x
+CHS_conservative_old;Anti-Confederation Party;;;;;;;;;;;;;x
+CHZ_liberationist;The Free-Men of Chazd;;;;;;;;;;;;;x
+CHZ_free_yoker;The Non-Juring Men;;;;;;;;;;;;;x
+CHZ_statist;The Reform Party;;;;;;;;;;;;;x
+CHZ_absolutist;The Statist Extremists;;;;;;;;;;;;;x
+CHZ_theocratist;The Synod Party;;;;;;;;;;;;;x
+CHZ_conservative;The White-Conservatives;;;;;;;;;;;;;x
+CHZ_reactionary;Lord Dona's Loyalists;;;;;;;;;;;;;x
+CHZ_conservative_old;The Pink-Conservatives;;;;;;;;;;;;;x
+PHI_liberationist;Pid Doghd;;;;;;;;;;;;;x
+PHI_free_yoker;Pid Podhf;;;;;;;;;;;;;x
+PHI_statist;Byapwag Pugh;;;;;;;;;;;;;x
+PHI_absolutist;Riv Gupag Pugh;;;;;;;;;;;;;x
+PHI_theocratist;The Men of the Head;;;;;;;;;;;;;x
+PHI_conservative;Tita Pugh;;;;;;;;;;;;;x
+PHI_reactionary;Elder's Pugh;;;;;;;;;;;;;x
+PHI_conservative_old;Mountain Pugh;;;;;;;;;;;;;x
+DAZ_liberationist;Pid Doghd;;;;;;;;;;;;;x
+DAZ_free_yoker;Pid Podhf;;;;;;;;;;;;;x
+DAZ_statist;Byapwag Pugh;;;;;;;;;;;;;x
+DAZ_absolutist;Riv Gupag Pugh;;;;;;;;;;;;;x
+DAZ_theocratist;The Men of the Head;;;;;;;;;;;;;x
+DAZ_conservative;Dazhuntar Pugh;;;;;;;;;;;;;x
+DAZ_reactionary;Elder's Pugh;;;;;;;;;;;;;x
+DAZ_conservative_old;Pagyu Pugh;;;;;;;;;;;;;x
+JJG_liberationist;Pid Doghd;;;;;;;;;;;;;x
+JJG_free_yoker;Pid Podhf;;;;;;;;;;;;;x
+JJG_statist;Byapwag Pugh;;;;;;;;;;;;;x
+JJG_absolutist;Riv Gupag Pugh;;;;;;;;;;;;;x
+JJG_theocratist;Fertility and Virility Party;;;;;;;;;;;;;x
+JJG_conservative;Council of the Seed;;;;;;;;;;;;;x
+JJG_reactionary;Elder's Pugh;;;;;;;;;;;;;x
+JJG_conservative_old;Vuytu Pugh;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
