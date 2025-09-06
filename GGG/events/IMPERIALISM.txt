@@ -1730,7 +1730,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				type = capitalist
+				type = capitalists
 			}
 			militancy = 2
 		}

@@ -271,15 +271,24 @@ country_event = {
 		
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_deported }
 						any_pop = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					}
 					add_province_modifier = { name = an_deported duration = 365 }
 					any_pop = {
 						limit = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					reduce_pop = 0.97
 					move_pop = 183
@@ -288,15 +297,24 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_deported }
 						any_pop = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					}
 					add_province_modifier = { name = an_deported duration = 365 }
 					any_pop = {
 						limit = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					reduce_pop = 0.97
 					move_pop = 183
@@ -305,15 +323,24 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_deported }
 						any_pop = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					}
 					add_province_modifier = { name = an_deported duration = 365 }
 					any_pop = {
 						limit = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					reduce_pop = 0.97
 					move_pop = 183
@@ -323,15 +350,24 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_deported }
 						any_pop = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					}
 					add_province_modifier = { name = an_deported duration = 365 }
 					any_pop = {
 						limit = {
 							has_pop_culture = anuvo
+							OR = {
+								type = farmers
+								type = labourers
+							}
 						}
 					reduce_pop = 0.97
 					move_pop = 183
@@ -381,6 +417,7 @@ country_event = {
 		
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -397,6 +434,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -413,23 +451,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
-						NOT = { has_province_modifier = an_violence }
-						any_pop = {
-							has_pop_culture = anuvo
-						}
-					}
-					add_province_modifier = { name = an_violence duration = 30 }
-					any_pop = {
-						limit = {
-							has_pop_culture = anuvo
-						}
-					reduce_pop = 0.98
-					}
-				}
-				
-				
-		random_owned = {
-					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -447,6 +469,25 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.98
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -463,6 +504,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -479,6 +521,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -495,6 +538,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -535,6 +579,7 @@ country_event = {
 		
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -551,6 +596,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -567,23 +613,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
-						NOT = { has_province_modifier = an_violence }
-						any_pop = {
-							has_pop_culture = anuvo
-						}
-					}
-					add_province_modifier = { name = an_violence duration = 30 }
-					any_pop = {
-						limit = {
-							has_pop_culture = anuvo
-						}
-					reduce_pop = 0.87
-					}
-				}
-				
-				
-		random_owned = {
-					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -601,6 +631,25 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
+						NOT = { has_province_modifier = an_violence }
+						any_pop = {
+							has_pop_culture = anuvo
+						}
+					}
+					add_province_modifier = { name = an_violence duration = 30 }
+					any_pop = {
+						limit = {
+							has_pop_culture = anuvo
+						}
+					reduce_pop = 0.87
+					}
+				}
+				
+				
+		random_owned = {
+					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -617,6 +666,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -633,6 +683,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
@@ -649,6 +700,7 @@ country_event = {
 				
 		random_owned = {
 					limit = {
+						is_colonial = no
 						NOT = { has_province_modifier = an_violence }
 						any_pop = {
 							has_pop_culture = anuvo
