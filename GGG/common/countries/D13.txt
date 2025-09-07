@@ -2,7 +2,7 @@ color = { 219 124 139  }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "dominion_conservative"
+	name = "dominion_real_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "dominion_conservative_old"
+	name = "dominion_real_conservative_old"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "dominion_reactionary"
+	name = "dominion_real_reactionary"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "dominion_statist"
+	name = "dominion_real_statist"
 	start_date = 1320.1.1
 	end_date = 1937.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "dominion_absolutist"
+	name = "dominion_real_absolutist"
 	start_date = 1370.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "dominion_liberationist"
+	name = "dominion_real_liberationist"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "dominion_free_yoker"
+	name = "dominion_real_free_yoker"
 	start_date = 1307.1.1
 	end_date = 2000.1.1
 
@@ -107,7 +107,7 @@ party = {
 }
 
 party = {
-	name = "dominion_theocratist"
+	name = "dominion_real_theocratist"
 	start_date = 1330.1.1
 	end_date = 2000.1.1
 

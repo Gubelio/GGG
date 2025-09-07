@@ -7,7 +7,7 @@ nationalvalue = no_national_objective
 literacy = 0.17
 civilized = yes
 civilized = yes
-#dominion=yes
+#bonded_state=yes
 
 
 
@@ -28,7 +28,7 @@ civilized = yes
 
 
 
-ruling_party = dominion_conservative
+ruling_party = bonded_state_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0

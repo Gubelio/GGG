@@ -1,12 +1,28 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-dominion_liberationist;Liberationist Party;;;;;;;;;;;;;x
-dominion_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
-dominion_statist;Statist Party;;;;;;;;;;;;;x
-dominion_absolutist;Absolutist Party;;;;;;;;;;;;;x
-dominion_theocratist;Theocratist Party;;;;;;;;;;;;;x
-dominion_conservative;The New Conservatives;;;;;;;;;;;;;x
-dominion_reactionary;The Old Guard;;;;;;;;;;;;;x
-dominion_conservative_old;The Old Conservatives;;;;;;;;;;;;;x
+#dominion_real_liberationist;Liberationist Party;;;;;;;;;;;;;x
+#dominion_real_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
+#dominion_real_statist;Statist Party;;;;;;;;;;;;;x
+#dominion_real_absolutist;Absolutist Party;;;;;;;;;;;;;x
+#dominion_real_theocratist;Theocratist Party;;;;;;;;;;;;;x
+#dominion_real_conservative;The New Conservatives;;;;;;;;;;;;;x
+#dominion_real_reactionary;The Old Guard;;;;;;;;;;;;;x
+#dominion_real_conservative_old;The Old Conservatives;;;;;;;;;;;;;x
+dominion_real_liberationist;Liberationist Party;;;;;;;;;;;;;x
+dominion_real_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
+dominion_real_statist;Statist Party;;;;;;;;;;;;;x
+dominion_real_absolutist;Absolutist Party;;;;;;;;;;;;;x
+dominion_real_theocratist;Theocratist Party;;;;;;;;;;;;;x
+dominion_real_conservative;The Conservatives;;;;;;;;;;;;;x
+dominion_real_reactionary;The Exclusionists;;;;;;;;;;;;;x
+dominion_real_conservative_old;The Particularists;;;;;;;;;;;;;x
+bonded_state_liberationist;The Liberation Party;;;;;;;;;;;;;x
+bonded_state_free_yoker;The Radicals;;;;;;;;;;;;;x
+bonded_state_statist;The Development Party;;;;;;;;;;;;;x
+bonded_state_absolutist;The Absolutist Party;;;;;;;;;;;;;x
+bonded_state_theocratist;The Theocratist Party;;;;;;;;;;;;;x
+bonded_state_conservative;The Moderates;;;;;;;;;;;;;x
+bonded_state_reactionary;The Reformers;;;;;;;;;;;;;x
+bonded_state_conservative_old;The Particularists;;;;;;;;;;;;;x
 JII_liberationist;The Social Radicals;;;;;;;;;;;;;x
 JII_free_yoker;Freemans' Union;;;;;;;;;;;;;x
 JII_statist;Social-Authoritarian Party;;;;;;;;;;;;;x
@@ -191,14 +207,14 @@ TWD_theocratist;Vopudwou Shrish;;;;;;;;;;;;;x
 TWD_conservative;Toshawriz Party;;;;;;;;;;;;;x
 TWD_reactionary;The Traditionalists;;;;;;;;;;;;;x
 TWD_conservative_old;Shrud Party;;;;;;;;;;;;;x
-UCG_liberationist;The Radicals;;;;;;;;;;;;;x
-UCG_free_yoker;The Tribunate;;;;;;;;;;;;;x
-UCG_statist;The Modernizers;;;;;;;;;;;;;x
-UCG_absolutist;The Absolutist Party;;;;;;;;;;;;;x
-UCG_theocratist;The Neo-Traditionalists;;;;;;;;;;;;;x
-UCG_conservative;The Monarchists;;;;;;;;;;;;;x
-UCG_reactionary;The Traditionalists;;;;;;;;;;;;;x
-UCG_conservative_old;The Agrarians;;;;;;;;;;;;;x
+dominion_liberationist;The Radicals;;;;;;;;;;;;;x
+dominion_free_yoker;The Tribunate;;;;;;;;;;;;;x
+dominion_statist;The Modernizers;;;;;;;;;;;;;x
+dominion_absolutist;The Absolutist Party;;;;;;;;;;;;;x
+dominion_theocratist;The Neo-Traditionalists;;;;;;;;;;;;;x
+dominion_conservative;The Traditional Centre;;;;;;;;;;;;;x
+dominion_reactionary;The Anti-Modernists;;;;;;;;;;;;;x
+dominion_conservative_old;The Agrarians;;;;;;;;;;;;;x
 FAH_liberationist;The Sunset Party;;;;;;;;;;;;;x
 FAH_free_yoker;The Tangyak Group;;;;;;;;;;;;;x
 FAH_statist;Fahseuhn Statist Chapter;;;;;;;;;;;;;x
@@ -495,6 +511,22 @@ JJG_theocratist;Fertility and Virility Party;;;;;;;;;;;;;x
 JJG_conservative;Council of the Seed;;;;;;;;;;;;;x
 JJG_reactionary;Elder's Pugh;;;;;;;;;;;;;x
 JJG_conservative_old;Vuytu Pugh;;;;;;;;;;;;;x
+UNI_liberationist;Momon Majok;;;;;;;;;;;;;x
+UNI_free_yoker;Ohwei Oupk;;;;;;;;;;;;;x
+UNI_statist;Matoume Majok;;;;;;;;;;;;;x
+UNI_absolutist;The Secularists;;;;;;;;;;;;;x
+UNI_theocratist;The Renewalists;;;;;;;;;;;;;x
+UNI_conservative;The Centre;;;;;;;;;;;;;x
+UNI_reactionary;The High Priesthood;;;;;;;;;;;;;x
+UNI_conservative_old;The Periokei Party;;;;;;;;;;;;;x
+BUD_liberationist;The Hukebites;;;;;;;;;;;;;x
+BUD_free_yoker;The Proscribed Members;;;;;;;;;;;;;x
+BUD_statist;Civil Renewal Society;;;;;;;;;;;;;x
+BUD_absolutist;D.O.H.G.C.P.;;;;;;;;;;;;;x
+BUD_theocratist;The Togab Kokan;;;;;;;;;;;;;x
+BUD_conservative;The Royal Chamberlain;;;;;;;;;;;;;x
+BUD_reactionary;The Philgazhdine;;;;;;;;;;;;;x
+BUD_conservative_old;The Huigniks;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
