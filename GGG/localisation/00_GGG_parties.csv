@@ -8,7 +8,7 @@ Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;P
 #dominion_real_reactionary;The Old Guard;;;;;;;;;;;;;x
 #dominion_real_conservative_old;The Old Conservatives;;;;;;;;;;;;;x
 dominion_real_liberationist;Liberationist Party;;;;;;;;;;;;;x
-dominion_real_free_yoker;Free-Yoker Faction;;;;;;;;;;;;;x
+dominion_real_free_yoker;The Boer Party;;;;;;;;;;;;;x
 dominion_real_statist;Statist Party;;;;;;;;;;;;;x
 dominion_real_absolutist;Absolutist Party;;;;;;;;;;;;;x
 dominion_real_theocratist;Theocratist Party;;;;;;;;;;;;;x
@@ -119,6 +119,14 @@ RAN_theocratist;The Young Unnahu;;;;;;;;;;;;;x
 RAN_conservative;The Dâveb Party;;;;;;;;;;;;;x
 RAN_reactionary;The Court Faction;;;;;;;;;;;;;x
 RAN_conservative_old;The Country Faction;;;;;;;;;;;;;x
+VAD_liberationist;The Gagav Dovâ;;;;;;;;;;;;;x
+VAD_free_yoker;The Roots and Soil League;;;;;;;;;;;;;x
+VAD_statist;The Reformists;;;;;;;;;;;;;x
+VAD_absolutist;Vadobethine Social-Absolutist Bloc;;;;;;;;;;;;;x
+VAD_theocratist;The Theocratist Clique;;;;;;;;;;;;;x
+VAD_conservative;The Dâveb Party;;;;;;;;;;;;;x
+VAD_reactionary;The Revanchist Faction;;;;;;;;;;;;;x
+VAD_conservative_old;The Estates Faction;;;;;;;;;;;;;x
 MAM_liberationist;The Pavillion of Moths;;;;;;;;;;;;;x
 MAM_free_yoker;The Weavers' Syndicate;;;;;;;;;;;;;x
 MAM_statist;The Social-Statist Party;;;;;;;;;;;;;x
@@ -127,6 +135,14 @@ MAM_theocratist;The Maou of the Nation;;;;;;;;;;;;;x
 MAM_conservative;The Black Tower Party;;;;;;;;;;;;;x
 MAM_reactionary;The White Tower Party;;;;;;;;;;;;;x
 MAM_conservative_old;The Little Tower;;;;;;;;;;;;;x
+YAM_liberationist;The Maou of the Folk;;;;;;;;;;;;;x
+YAM_free_yoker;The Hajduks;;;;;;;;;;;;;x
+YAM_statist;The North Social-Statist Party;;;;;;;;;;;;;x
+YAM_absolutist;Social Revolutionary Absolutist Party;;;;;;;;;;;;;x
+YAM_theocratist;The Maou of the Yama;;;;;;;;;;;;;x
+YAM_conservative;The Conservatives;;;;;;;;;;;;;x
+YAM_reactionary;The Seed-Planters;;;;;;;;;;;;;x
+YAM_conservative_old;The Giegites;;;;;;;;;;;;;x
 TAK_liberationist;Sako-Soum Alliance;;;;;;;;;;;;;x
 TAK_free_yoker;The Lubber's Bund;;;;;;;;;;;;;x
 TAK_statist;The Deikauks;;;;;;;;;;;;;x
@@ -527,6 +543,57 @@ BUD_theocratist;The Togab Kokan;;;;;;;;;;;;;x
 BUD_conservative;The Royal Chamberlain;;;;;;;;;;;;;x
 BUD_reactionary;The Philgazhdine;;;;;;;;;;;;;x
 BUD_conservative_old;The Huigniks;;;;;;;;;;;;;x
+HAK_liberationist;The Hukebites;;;;;;;;;;;;;x
+HAK_free_yoker;The Free-Bands;;;;;;;;;;;;;x
+HAK_statist;The Statist Party;;;;;;;;;;;;;x
+HAK_absolutist;The Social-Progressive Party;;;;;;;;;;;;;x
+HAK_theocratist;The Togab Kokan;;;;;;;;;;;;;x
+HAK_conservative;The Conservatives;;;;;;;;;;;;;x
+HAK_reactionary;The Tradionalists;;;;;;;;;;;;;x
+HAK_conservative_old;The Philgazhdine;;;;;;;;;;;;;x
+QOO_liberationist;The Liberationists;;;;;;;;;;;;;x
+QOO_free_yoker;The Social-Bandits;;;;;;;;;;;;;x
+QOO_statist;The Blue Humab;;;;;;;;;;;;;x
+QOO_absolutist;Q.P.A.H.P.;;;;;;;;;;;;;x
+QOO_theocratist;Momurib;;;;;;;;;;;;;x
+QOO_conservative;The Great Qooxib;;;;;;;;;;;;;x
+QOO_reactionary;The Silent Men;;;;;;;;;;;;;x
+QOO_conservative_old;The Lordly Party;;;;;;;;;;;;;x
+FCH_liberationist;Green Kwargoi;;;;;;;;;;;;;x
+FCH_free_yoker;The Social-Bandits;;;;;;;;;;;;;x
+FCH_statist;The Reform Caucus;;;;;;;;;;;;;x
+FCH_absolutist;F.C.A.G.P.;;;;;;;;;;;;;x
+FCH_theocratist;Momurib;;;;;;;;;;;;;x
+FCH_conservative;The Compactuals;;;;;;;;;;;;;x
+FCH_reactionary;The Refuseniks;;;;;;;;;;;;;x
+FCH_conservative_old;The Coastal Estates;;;;;;;;;;;;;x
+ORH_liberationist;The Social Iba;;;;;;;;;;;;;x
+ORH_free_yoker;The Free-Men Bands;;;;;;;;;;;;;x
+ORH_statist;The Open Party;;;;;;;;;;;;;x
+ORH_absolutist;Chauh Gha;;;;;;;;;;;;;x
+ORH_theocratist;Momur Haugau;;;;;;;;;;;;;x
+ORH_conservative;The Crown Party;;;;;;;;;;;;;x
+ORH_reactionary;The Traditionalists;;;;;;;;;;;;;x
+ORH_conservative_old;Rau Bher;;;;;;;;;;;;;x
+PUS_liberationist;Social-Reform League;;;;;;;;;;;;;x
+PUS_free_yoker;The Radicals;;;;;;;;;;;;;x
+PUS_statist;The Party of the Merchants;;;;;;;;;;;;;x
+PUS_absolutist;The Pusuneton Party;;;;;;;;;;;;;x
+PUS_theocratist;The Missionary Party;;;;;;;;;;;;;x
+PUS_conservative;Party of the Great Khan;;;;;;;;;;;;;x
+PUS_reactionary;Party of the Mullahs;;;;;;;;;;;;;x
+PUS_conservative_old;Party of the Lesser Khans;;;;;;;;;;;;;x
+NHQ_liberationist;The Sug Party;;;;;;;;;;;;;x
+NHQ_free_yoker;The Radicals;;;;;;;;;;;;;x
+NHQ_statist;Trorsu Puk;;;;;;;;;;;;;x
+NHQ_absolutist;R.O.G.A.P.;;;;;;;;;;;;;x
+NHQ_theocratist;The Missionary Party;;;;;;;;;;;;;x
+NHQ_conservative;Prestore Puk;;;;;;;;;;;;;x
+NHQ_reactionary;The Imperial Party;;;;;;;;;;;;;x
+NHQ_conservative_old;The Country Party;;;;;;;;;;;;;x
+HMO_conservative;The Caliphate;;;;;;;;;;;;;x
+HMO_conservative_old;The City Party;;;;;;;;;;;;;x
+CHM_conservative;The Khanate of Chömebed;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

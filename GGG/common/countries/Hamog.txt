@@ -2,7 +2,7 @@ color = { 47 163 122 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
-	name = "dominion_conservative"
+	name = "HMO_conservative"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "dominion_conservative_old"
+	name = "HMO_conservative_old"
 	start_date = 1307.1.1
 	end_date = 1937.1.1
 
