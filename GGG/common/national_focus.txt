@@ -169,7 +169,7 @@ production_focus =
 		barrels = 18.3
 		automobiles = 18.3
 		icon = 16
-		limit = { year = 1880 }
+		limit = { year = 1352 }
 	}
 
 	electrical_focus =
@@ -178,7 +178,7 @@ production_focus =
 		telephones = 18.3
 		electric_gear = 18.3
 		icon = 17
-		limit = { year = 1880 }
+		limit = { year = 1352 }
 	}
 
 	chemical_focus =
@@ -186,7 +186,7 @@ production_focus =
 		fuel = 18.3
 		oil = 18.3
 		icon = 18
-		limit = { year = 1880 }
+		limit = { year = 1352 }
 	}
 
 	shipping_focus =
