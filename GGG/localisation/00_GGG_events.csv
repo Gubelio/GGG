@@ -527,22 +527,22 @@ EVT50182NAME;Bozzanazh;;;;;;;;;;;;;x
 EVT50182DESC;Bozzanazh is the youngest of all the colonial states, settled as late as 1241, the state was organised by Bozza Shazavzhk, a Vokonazhi aristocrat, planter, investor, soldier of fortune, and disgraced naval officer. Bozza privately financed a small military expedition to seize the Gokami fortress on the Island of Dhamit, formerly Vohwan, after Gokami pirates, whom had been entangled with, began infringing upon his privateering and smuggling across the Zhibomgid. He converted the fortress into a private residence, refused to surrender the fortress to the crown of Vokonazh, and rapidly began attempting to organise his newfound lands into a productive agricultural plantation. Small campaigns against the coastal Gokami cleared new lands for the production of tuberous roots. At this point, Bozzonazh is recognised by all major powers except for Vokonazh, and the Island of Dhamit is a shockingly modern city in the east. The government is, essentially, the private property of Bozza, now a decrepit old man.;;;;;;;;;;;;;x 
 EVT50183NAME;The Jazhakdi;;;;;;;;;;;;;x 
 EVT50183DESC;The Jazhakdi are the colonial Gasdhzii. Ja-zhakd, meaning settler-person, was the Gashdzii term for those who dwelled in the large fortified settlements established in the long, slow march of Gasdhzii culture across Ishahfazh and still ongoing displacement of the peoples, beginning with the great savannah and pushing into the east and west, and. Those dwelling in the new world, with the first Gashdzii factory established in 789, in what is now Nyut in Wapkam on the straits of Midod, adopted such an identity as fortified settlers, and the name gradually transferred itself to Gasdhzii living in Bafozh. Unlike their metropolitan brothers, the Jazhakdi are known for their scorn of aristocracy, their egalitarian values, and fierce piety. The Jazhakdi speak a mix of the dialects, with a number of quite antiquated terms.;;;;;;;;;;;;;x 
-EVTNAME50184;Foriegn Railways;;;;;;;;;;;;;x
+EVTNAME50184;Foreign Railways;;;;;;;;;;;;;x
 EVTDESC50184;It started slowly at first. A few explorers, surveyors, adventurers, who learned our language and talked to our people. Then, soldiers, labourers, and financiers, and then there was a large, foreign owned and controlled railway in our land! This line has shaped the regional economy, first attracting wage-labourers, those with beasts to rent, and stimulated logging and mining. Now, it carries passengers, freight, and other goods to ports and merchant ships. But this track has also been accused of destroying traditional life: villagers were uprooted, their children flock to the cities, learn the language of the overseas factors, the price to use the rail is extortionate, and allows the foreigners to flood our country and strip it of its wealth. A number of militant anti-foreign societies have formed, and some, it is known, are clearly planning to wreck a line of track, with the aid of those in local governance. We could stop this, or tacitly accede.;;;;;;;;;;;;;x
 EVTNAME50185;Savages Attack Railway!;;;;;;;;;;;;;x
 EVTDESC50185;A number of savage states have granted our great firms, as well as our government, concessions to build passenger and freight rail in their lands, and indeed some primitive states are so poorly administered that we have only needed to maintain a few guard posts in the tractless wastes and dispensed entirely with the trinket ‘purchases’ of land. These railways have hauled freight and labour out of the interior of the foreign lands into the hands of our merchants, captains, and planters. They are, for all intents and purposes, part of our imperial and fiscal network. Recently, however, the impudent beasts in $FROMCOUNTRY$ have attacked and wrecked a station on the $COUNTRY_ADJ$-$FROMCOUNTRY$ Railway Charter’s main line! Natives, wielding rifles and swords, slaughtered a small guard post in the night, and used some horrid creatures of burden to pull up the sleepers, and scatter the ballast, leading to a spectacular derailment! The government and the investors are crying out for order and justice!;;;;;;;;;;;;;x
 EVT50186NAME;The Study of Paorusu;;;;;;;;;;;;;x
 EVT50186DESC;The witch cults of the Southern lands of Kovazh, have been, for a long time, in our societies’ collective knowledge. Travellers and traders to the ‘tea coast’ have long had native friends and contacts who venerate one of the particular deities. But myths abound, and there has not yet been a comprehensive study on this faith, its origins, and its cosmology. One of our citizens, a private trader working in the provinces, has, upon making his fortune, returned home to $CAPITAL$ and has written a large, multivolume assessment of the Parosus faith, connecting the venerated witch-women avatars to what he terms a large, ancient pan-kovan pantheon, of which he also suggests the silent god of the Momurists was once a member. He suggests that the witch-cult developed after literate priestesses were able to write in the hieroglyphics of ancient Kova, in the many years after the first Kovan collapse, during which the temples were centres of life and culture.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50187;A dismal day in $PROVINCENAME$;;;;;;;;;;;;;x
+EVTDESC50187;x;;;;;;;;;;;;;x
+EVT50187OPTA;Would they prefer to live out their days in a dank dark cell far beneath the dirt?;;;;;;;;;;;;;x
+EVT50187OPTB;The Statist element brings up a few interesting points on urban planning...;;;;;;;;;;;;;x
+EVT50187OPTC;The Liberationist critique of urbanism itself is quite stirring...;;;;;;;;;;;;;x
+EVTNAME50188;Threat of a Statist Strike;;;;;;;;;;;;;x
+EVTDESC50188;x;;;;;;;;;;;;;x
+EVT50188OPTA;We'll wait these rabblerousers out;;;;;;;;;;;;;x
+EVT50188OPTB;Stall, make hollow promises, and enact piecemeal reform;;;;;;;;;;;;;x
+EVT50188OPTC;Send in the army! Kill them all!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

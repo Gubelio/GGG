@@ -17,7 +17,7 @@ country_event = {
 country_event = {
 	id = 12346 
 	title = "militancy and consciousness debug"
-	desc = "10 militancy and 10 consciousness"
+	desc = "10 militancy and 10 consciousness for slaves, thralls, and serfs"
 	
 	is_triggered_only = yes
 

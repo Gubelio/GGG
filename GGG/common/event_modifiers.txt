@@ -336,3 +336,10 @@ backwards_customs = {
 	tax_efficiency = 0.01
     icon = 10
 }
+
+statist_strike = {
+	local_RGO_output = -0.5
+	tax_efficiency = -0.025
+	pop_consciousness_modifier = 0.01
+    icon = 14
+}
