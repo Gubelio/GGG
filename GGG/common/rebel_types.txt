@@ -850,6 +850,10 @@ free_yoker_rebels = {
 				country_event = 50171
 			}
 		}
+		
+		THIS = {
+			country_event = 50189
+		}
     
 		clr_country_flag = we_embraced_shamush
 		remove_country_modifier = backwards_customs

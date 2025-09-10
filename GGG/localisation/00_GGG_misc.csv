@@ -7,8 +7,8 @@ appointed_justices_desc;Judges are appointed by the central government to region
 unified_legal_code;Unified Legal Code;;;;;;;;;;;;;x
 unified_legal_code_desc;There is a unified legal code for the entire polity.;;;;;;;;;;;;;x
 land_reform_civ;Land Reform;;;;;;;;;;;;;x
-feudal_tenure;Feudal Tenure;;;;;;;;;;;;;x
-feudal_tenure_desc;Land is held in feudal terms, with commons and noble estates.;;;;;;;;;;;;;x
+feudal_tenure;Commons System;;;;;;;;;;;;;x
+feudal_tenure_desc;Land is held in quasi-feudal terms, with rights for commons, and sometimes noble privileges.;;;;;;;;;;;;;x
 enclosure_of_commons;Enclosure of Commons;;;;;;;;;;;;;x
 enclosure_of_commons_desc;The government has passed private acts enclosing upon commons.;;;;;;;;;;;;;x
 private_landownership;Private Landownership;;;;;;;;;;;;;x
@@ -464,7 +464,7 @@ noble_parliament_l;Noble Parliament;;;;;;;;;;;;;x
 regulated_elections_l;Regulated Elections;;;;;;;;;;;;;x
 approved_candidacy_l;Approved Candidacy;;;;;;;;;;;;;x
 appointed_legislatures_l;Appointed Legislatures;;;;;;;;;;;;;x
-feudal_tenure_l;Feudal Tenure;;;;;;;;;;;;;x
+feudal_tenure_l;Commons System;;;;;;;;;;;;;x
 enclosure_of_commons_l;Enclosure of Commons;;;;;;;;;;;;;x
 private_landownership_l;Private Landownership;;;;;;;;;;;;;x
 land_banking_l;Land Banking;;;;;;;;;;;;;x
@@ -546,7 +546,7 @@ movement_noble_parliament;Noble Parliament Movement;;;;;;;;;;;;;x
 movement_regulated_elections;Regulated Elections Movement;;;;;;;;;;;;;x
 movement_approved_candidacy;Approved Candidacy Movement;;;;;;;;;;;;;x
 movement_appointed_legislatures;Appointed Legislatures Movement;;;;;;;;;;;;;x
-movement_feudal_tenure;Feudal Tenure Movement;;;;;;;;;;;;;x
+movement_feudal_tenure;Common Land Movement;;;;;;;;;;;;;x
 movement_enclosure_of_commons;Enclosure of Commons Movement;;;;;;;;;;;;;x
 movement_private_landownership;Private Landownership Movement;;;;;;;;;;;;;x
 movement_land_banking;Land Banking Movement;;;;;;;;;;;;;x

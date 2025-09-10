@@ -534,15 +534,21 @@ EVTDESC50185;A number of savage states have granted our great firms, as well as 
 EVT50186NAME;The Study of Paorusu;;;;;;;;;;;;;x
 EVT50186DESC;The witch cults of the Southern lands of Kovazh, have been, for a long time, in our societies’ collective knowledge. Travellers and traders to the ‘tea coast’ have long had native friends and contacts who venerate one of the particular deities. But myths abound, and there has not yet been a comprehensive study on this faith, its origins, and its cosmology. One of our citizens, a private trader working in the provinces, has, upon making his fortune, returned home to $CAPITAL$ and has written a large, multivolume assessment of the Parosus faith, connecting the venerated witch-women avatars to what he terms a large, ancient pan-kovan pantheon, of which he also suggests the silent god of the Momurists was once a member. He suggests that the witch-cult developed after literate priestesses were able to write in the hieroglyphics of ancient Kova, in the many years after the first Kovan collapse, during which the temples were centres of life and culture.;;;;;;;;;;;;;x
 EVTNAME50187;A dismal day in $PROVINCENAME$;;;;;;;;;;;;;x
-EVTDESC50187;x;;;;;;;;;;;;;x
+EVTDESC50187;The modern world has arrived to $PROVINCENAME$, with, regrettably, all its attendant evils in tow. When the first factories went up, their new brick smokestacks proud in the sun, the town began flourishing, attracting migrants from the countryside, commerce to provide for the burgeoning industrial population, and making the fortunes of many capitalists and merchants. Now, however, a swarthy gloom sits over the town and its since-wretched new denizens: billows of black smoke settle upon the dismal giant slums and tenements that have risen to house an ever-growing workforce of the most wretched of society. These districts are rife with the abuse, violence, infidelity, vice and neglect associated with the lowest depths of poverty and squalor, and millions of souls languish here. A large, dissent, urban reform league has formed to protest conditions, and the legislature is debating how to address the unrest.;;;;;;;;;;;;;x
 EVT50187OPTA;Would they prefer to live out their days in a dank dark cell far beneath the dirt?;;;;;;;;;;;;;x
 EVT50187OPTB;The Statist element brings up a few interesting points on urban planning...;;;;;;;;;;;;;x
 EVT50187OPTC;The Liberationist critique of urbanism itself is quite stirring...;;;;;;;;;;;;;x
-EVTNAME50188;Threat of a Statist Strike;;;;;;;;;;;;;x
-EVTDESC50188;x;;;;;;;;;;;;;x
-EVT50188OPTA;We'll wait these rabblerousers out;;;;;;;;;;;;;x
-EVT50188OPTB;Stall, make hollow promises, and enact piecemeal reform;;;;;;;;;;;;;x
+EVTNAME50188;Threat of a Statist Takeover;;;;;;;;;;;;;x
+EVTDESC50188;The Statist element in our society, regrettably, often functions as a society within a society. Denouncing traditional government and commerce as typically ineffectual, statist industrial cooperatives, usually with aid from their wealthy financiers and organisers, are notorious for evading customs, taxes, and developing closed, integrated networks. In a certain province, things have gotten particularly out of hand. A large network of producers and consumers have declared a tax-boycott against the provincial authorities, and have begun establishing their own ‘volunteer’ municipal and provincial comptrollers to build and maintain “private infrastructure”. The regional authorities began negotiations when efforts to stop what is effectively smuggling by force faltered. The major cooperatives say they will comply again if both a number of ‘onerous dues’ are abolished, certain commercial and legal codes rationalised, and ‘corruption and sinecurism’ is reduced in local government.;;;;;;;;;;;;;x
+EVT50188OPTA;Just wait until their utopian enterprise fails... then we'll prosecute!;;;;;;;;;;;;;x
+EVT50188OPTB;Stall, make hollow promises, and enact piecemeal reform.;;;;;;;;;;;;;x
 EVT50188OPTC;Send in the army! Kill them all!;;;;;;;;;;;;;x
+EVTNAME50189;Chaos in the provinces!;;;;;;;;;;;;;x 
+EVTDESC50189;x;;;;;;;;;;;;;x 
+EVTNAME50190;Smallholders and the Economy;;;;;;;;;;;;;x 
+EVTDESC50190;x;;;;;;;;;;;;;x 
+EVTNAME50191;Smallholders and the Economy;;;;;;;;;;;;;x 
+EVTDESC50191;x;;;;;;;;;;;;;x 
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

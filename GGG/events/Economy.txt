@@ -71,3 +71,141 @@ country_event = {
 		remove_country_modifier = industrialising_economy
 	}
 }
+
+country_event = {
+	id = 50189
+	title = "EVTNAME50189" #lib_land
+    desc = "EVTDESC50189"
+	#picture = "POU_rev"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Don't intervene - it is there right to assert their mastery"
+		set_country_flag = smallholder_society
+		add_country_modifier = { 
+			name = smallholder_society
+			duration = -1
+		}
+		prestige = 2
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = -3
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = -3
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 1
+			}
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 1
+			}
+			
+		}
+		
+		political_reform = feudal_tenure
+	}
+	
+	option = {
+		name = "B-but surely we've got to preseve SOME order?"
+		prestige = -2
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 3
+			}
+		}
+	}
+
+}
+
+country_event = {
+	id = 50190
+	title = "EVTNAME50190" #reform land
+    desc = "EVTDESC50190"
+	
+	trigger = {
+		has_country_modifier = developing_economy
+		has_country_flag = smallholder_society
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "I see."
+		add_country_modifier = {
+			name = smallholder_society_1
+			duration = -1
+		}
+		remove_country_modifier = smallholder_society
+	
+	}
+	
+}
+
+country_event = {
+	id = 50191
+	title = "EVTNAME50191" #reform land
+    desc = "EVTDESC50191"
+	
+	trigger = {
+		has_country_modifier = industrialising_economy
+		has_country_flag = smallholder_society
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "I see."
+		add_country_modifier = {
+			name = smallholder_society_2
+			duration = -1
+		}
+		remove_country_modifier = smallholder_society_1
+	
+	}
+	
+}
+	
+	
+
