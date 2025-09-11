@@ -851,9 +851,21 @@ free_yoker_rebels = {
 			}
 		}
 		
-		THIS = {
-			country_event = 50189
+		if = {
+			limit = {
+				THIS = {
+					NOT = { has_country_flag = smallholder_society }
+				}
+			}
+			THIS = {
+				country_event = {
+					id = 50189
+					days = 30
+				}
+			}
+		
 		}
+		
     
 		clr_country_flag = we_embraced_shamush
 		remove_country_modifier = backwards_customs

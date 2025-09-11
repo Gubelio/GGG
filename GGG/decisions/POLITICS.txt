@@ -309,6 +309,7 @@ political_decisions = {
 		potential = {
 			government = statist_bureacracy 
 			OR = {
+				NOT = { political_reform = land_banking }
 				NOT = { political_reform = collectivized_farming }
 				NOT = { political_reform = farm_cooperatives }
 			}
@@ -326,11 +327,11 @@ political_decisions = {
 		
 			scaled_militancy = {
 				ideology = liberationist
-				factor = 2
+				factor = 4
 			}
 			scaled_militancy = {
 				ideology = free_yoker
-				factor = 2
+				factor = 4
 			}
 			scaled_consciousness = {
 				ideology = liberationist
@@ -343,11 +344,11 @@ political_decisions = {
 			
 			scaled_militancy = {
 				ideology = conservative
-				factor = 2
+				factor = 4
 			}
 			scaled_militancy = {
 				ideology = reactionary
-				factor = 2
+				factor = 4
 			}
 			scaled_consciousness = {
 				ideology = conservative

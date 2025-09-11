@@ -81,7 +81,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Don't intervene - it is there right to assert their mastery"
+		name = "Confirm the status quo as it is."
 		set_country_flag = smallholder_society
 		add_country_modifier = { 
 			name = smallholder_society
@@ -131,7 +131,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "B-but surely we've got to preseve SOME order?"
+		name = "Try to salavage some registers, we've got to keep some order!"
 		prestige = -2
 		any_pop = {
 			scaled_militancy = {
@@ -202,6 +202,75 @@ country_event = {
 			duration = -1
 		}
 		remove_country_modifier = smallholder_society_1
+	
+	}
+	
+}
+
+country_event = {
+	id = 50192
+	title = "EVTNAME50192" #end of smallholding
+    desc = "EVTDESC50192"
+	
+	trigger = {
+		political_reform = collectivized_farming
+		OR = {
+			has_country_flag = smallholder_society
+			has_country_modifier = smallholder_society
+			has_country_modifier = smallholder_society_1
+			has_country_modifier = smallholder_society_2
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "We are now a modern country."
+		remove_country_modifier = smallholder_society
+		remove_country_modifier = smallholder_society_1
+		remove_country_modifier = smallholder_society_2
+		clr_country_flag = smallholder_society
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 1
+			}
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 1
+			}
+			
+		}
 	
 	}
 	
