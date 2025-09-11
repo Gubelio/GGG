@@ -363,3 +363,9 @@ smallholder_society_2 = {
 	pop_militancy_modifier = -0.01
     icon = 17
 }
+
+guild_regulations_strengthend = {
+	factory_cost = 0.2
+	min_tariff = 0.80
+    icon = 5
+}
