@@ -163,6 +163,9 @@ country_event = {
 	trigger = {
 		has_country_modifier = developing_economy
 		has_country_flag = smallholder_society
+		NOT = {
+			has_country_modifier = smallholder_society_1
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -189,6 +192,9 @@ country_event = {
 	trigger = {
 		has_country_modifier = industrialising_economy
 		has_country_flag = smallholder_society
+		NOT = {
+			has_country_modifier = smallholder_society_2
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -213,12 +219,14 @@ country_event = {
     desc = "EVTDESC50192"
 	
 	trigger = {
-		political_reform = collectivized_farming
-		OR = {
-			has_country_flag = smallholder_society
-			has_country_modifier = smallholder_society
-			has_country_modifier = smallholder_society_1
-			has_country_modifier = smallholder_society_2
+		AND = {
+			land_reform_civ = collectivized_farming
+			OR = {
+				has_country_flag = smallholder_society
+				has_country_modifier = smallholder_society
+				has_country_modifier = smallholder_society_1
+				has_country_modifier = smallholder_society_2
+			}
 		}
 	}
 	

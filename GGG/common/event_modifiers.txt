@@ -159,7 +159,7 @@ developing_economy = {
 	middle_luxury_needs = 0.25
 	poor_everyday_needs = 0.1
 	poor_luxury_needs = 0.1
-	global_population_growth = 0.002
+	global_population_growth = 0.001
 	icon = 11
 }
 
@@ -170,7 +170,7 @@ industrialising_economy = {
 	middle_luxury_needs = 0.5
 	poor_everyday_needs = 0.25
 	poor_luxury_needs = 0.25
-	global_population_growth = 0.004
+	global_population_growth = 0.002
 	icon = 11
 }
 
@@ -181,6 +181,7 @@ industrial_economy = {
 	middle_luxury_needs = 1.5
 	poor_everyday_needs = 0.75
 	poor_luxury_needs = 0.75
+	population_growth = -0.001
 	icon = 11
 }
 
@@ -358,7 +359,7 @@ smallholder_society_1 = {
 }
 
 smallholder_society_2 = {
-	RGO_throughput = -0.03
+	RGO_throughput = -0.02
 	population_growth = -0.002
 	pop_militancy_modifier = -0.01
     icon = 17
@@ -367,5 +368,18 @@ smallholder_society_2 = {
 guild_regulations_strengthend = {
 	factory_cost = 0.2
 	min_tariff = 0.80
+    icon = 5
+}
+
+retributivist_settlement = {
+	suppression_points_modifier = 0.2
+	ruling_party_support = 0.03
+	min_social_spending = 0.05
+    icon = 5
+}
+
+individualist_settlement = {
+	suppression_points_modifier = -0.2
+	political_reform_desire = 0.05
     icon = 5
 }

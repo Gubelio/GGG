@@ -309,9 +309,9 @@ political_decisions = {
 		potential = {
 			government = statist_bureacracy 
 			OR = {
-				NOT = { political_reform = land_banking }
-				NOT = { political_reform = collectivized_farming }
-				NOT = { political_reform = farm_cooperatives }
+				NOT = { land_reform_civ = land_banking }
+				NOT = { land_reform_civ = collectivized_farming }
+				NOT = { land_reform_civ = farm_cooperatives }
 			}
 		}
 		
