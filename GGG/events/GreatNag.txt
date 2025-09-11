@@ -128,10 +128,10 @@ country_event = { #host_motkohnic_synod
 	id = 50199
     title = "EVT50199NAME"
     desc = "EVT50199DESC"
+	major = yes
 
 	trigger = {
 		NOT = { has_global_flag = motkohnic_settlement }
-		NOT = { has_global_flag = mot_confrence_ongoing }
 		has_country_flag = motkohnic_country
 	
 		year = 1317
@@ -140,7 +140,7 @@ country_event = { #host_motkohnic_synod
 	}
 	
 	mean_time_to_happen = {
-		months = 80
+		months = 50
 		
 		modifier = {
            factor = 0.9
@@ -160,7 +160,7 @@ country_event = { #host_motkohnic_synod
 		modifier = {
            factor = 0.9
 		   OR = {
-				tag = GAU
+				tag = PAK
 				tag = JII
 		   
 		   }
@@ -195,12 +195,15 @@ country_event = { #host_motkohnic_synod
 				days = 20
 				
 			}
+			
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
 		}
 		
-		random_country = {
-			limit = {
-				ai = yes
-			}
+		THIS = {
 			
 			country_event = {
 				id = 50203
@@ -222,43 +225,43 @@ country_event = { #host_motkohnic_synod
 		any_pop = {
 			scaled_militancy = {
 				issue = secularized
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = pluralism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = anti_clericalism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = permitted_heterodoxy
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = local_congregationalism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = pluralism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = anti_clericalism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = secularized
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = permitted_heterodoxy
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = local_congregationalism
-				factor = 0.5
+				factor = 1.5
 			}
 		}
 	
@@ -286,12 +289,15 @@ country_event = { #host_motkohnic_synod
 				days = 20
 				
 			}
+			
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
 		}
 		
-		random_country = {
-			limit = {
-				ai = yes
-			}
+		THIS = {
 			
 			country_event = {
 				id = 50203
@@ -304,7 +310,7 @@ country_event = { #host_motkohnic_synod
 		THIS = {
 			country_event = {
 				id = 50201
-				days = 50
+				days = 80
 			
 			}
 		
@@ -313,43 +319,43 @@ country_event = { #host_motkohnic_synod
 		any_pop = {
 			scaled_militancy = {
 				issue = morality_police
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = courts_of_canon
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = empowered_clergy 
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = magisterialism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_militancy = {
 				issue = moralism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = courts_of_canon
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = empowered_clergy 
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = morality_police
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = magisterialism
-				factor = 0.5
+				factor = 1.5
 			}
 			scaled_consciousness = {
 				issue = moralism
-				factor = 0.5
+				factor = 1.5
 			}
 		}
 	}
@@ -366,9 +372,57 @@ country_event = {
 	option = {
 		name = "EVT50199OPTA"
 	
-		change_variable = {
-			which = mot_settlement
-			value = 1
+		ai_chance = {
+            factor = 50
+		}
+		FROM = {
+			change_variable = {
+				which = mot_settlement
+				value = 1
+			}
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				issue = secularized
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = pluralism
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = anti_clericalism
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = permitted_heterodoxy
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = local_congregationalism
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = pluralism
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = anti_clericalism
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = secularized
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = permitted_heterodoxy
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = local_congregationalism
+				factor = 1.5
+			}
 		}
 	
 	}
@@ -376,9 +430,58 @@ country_event = {
 	option = {
 		name = "EVT50199OPTB"
 	
-		change_variable = {
-			which = mot_settlement
-			value = -1
+		FROM = {
+			change_variable = {
+				which = mot_settlement
+				value = -1
+			}
+		}
+		
+		ai_chance = {
+            factor = 50
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				issue = morality_police
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = courts_of_canon
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = empowered_clergy 
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = magisterialism
+				factor = 1.5
+			}
+			scaled_militancy = {
+				issue = moralism
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = courts_of_canon
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = empowered_clergy 
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = morality_police
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = magisterialism
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = moralism
+				factor = 1.5
+			}
 		}
 	
 	}
@@ -394,7 +497,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "doesn't matter"
+		name = "We await their resolution."
 		if = {
 			limit = { 
 				THIS = {
@@ -407,6 +510,65 @@ country_event = {
 			THIS = {
 				set_global_flag = motkohnic_settlement
 				set_global_flag = ret_mot
+			}
+			
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						OR = {
+							has_global_flag = motkohnic_settlement
+							has_global_flag = ret_mot
+							check_variable = {
+								which = mot_settlement
+								value = 10
+							}
+						}
+					}
+				
+				}
+			
+			}
+			THIS = {
+				set_global_flag = motkohnic_settlement
+				set_global_flag = in_mot
+			
+			}
+		
+		}
+		random_country = {
+			limit = {
+				ai = yes
+			}
+			
+			country_event = {
+				id = 50204
+				days = 2
+			}
+		}
+	}
+
+}
+ 
+country_event = {
+	id = 50204
+	title = "EVT50203NAME"
+    desc = "EVT50203DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "doesn't matter"
+		
+		if = {
+			limit = { 
+				THIS = {
+					has_global_flag = ret_mot
+				}
+			}
+			THIS = {
 				2406 = {
 					secede_province = THIS 
 				}
@@ -425,20 +587,11 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
-					NOT = {
-						has_global_flag = ret_mot
-						check_variable = {
-							which = mot_settlement
-							value = 10
-						}
-					}
-				
+					has_global_flag = in_mot
 				}
 			
 			}
 			THIS = {
-				set_global_flag = motkohnic_settlement
-				set_global_flag = in_mot
 				2406 = {
 					 secede_province = THIS 
 				}
@@ -454,6 +607,7 @@ country_event = {
 			}
 		
 		}
+	
 	}
 
 }
@@ -465,10 +619,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {  
-	
-	}
-	
 	option = {
 		name = "EVT50201OPTA"
 	
@@ -476,7 +626,7 @@ country_event = {
 		mot_result = {}
 		loc_reset = {}
 	
-		if = {
+		mot_if = {
 			limit = {
 				THIS = {
 					has_global_flag = ret_mot
@@ -491,7 +641,7 @@ country_event = {
 			
 		}
 		
-		if = {
+		mot_if_no = {
 			limit = {
 				THIS = {
 					has_global_flag = in_mot
@@ -524,7 +674,7 @@ country_event = {
 		
 		
 		
-		if = {
+		mot_if = {
 			limit = {
 				THIS = {
 					has_global_flag = ret_mot
@@ -539,7 +689,7 @@ country_event = {
 			
 		}
 		
-		if = {
+		mot_if_no = {
 			limit = {
 				THIS = {
 					has_global_flag = in_mot
@@ -554,7 +704,7 @@ country_event = {
 		
 		}
 		
-		if = {
+		mot_if = {
 			limit = {
 				THIS = {
 					has_global_flag = ret_mot
@@ -566,43 +716,43 @@ country_event = {
 				any_pop = {
 					scaled_militancy = {
 						issue = morality_police
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = courts_of_canon
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = empowered_clergy 
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = magisterialism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = moralism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = courts_of_canon
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = empowered_clergy 
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = morality_police
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = magisterialism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = moralism
-						factor = 0.5
+						factor = 1.5
 					}
 				}	
 			
@@ -610,7 +760,7 @@ country_event = {
 		
 		}
 		
-		if = {
+		mot_if_no = {
 			limit = {
 				THIS = {
 					has_global_flag = in_mot
@@ -622,43 +772,43 @@ country_event = {
 				any_pop = {
 					scaled_militancy = {
 						issue = secularized
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = pluralism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = anti_clericalism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = permitted_heterodoxy
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_militancy = {
 						issue = local_congregationalism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = pluralism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = anti_clericalism
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = secularized
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = permitted_heterodoxy
-						factor = 0.5
+						factor = 1.5
 					}
 					scaled_consciousness = {
 						issue = local_congregationalism
-						factor = 0.5
+						factor = 1.5
 					}
 				}	
 				
@@ -674,180 +824,5 @@ country_event = {
 	
 	}
 	
-
-}
-
-country_event = {
-	id = 50202
-    title = "EVT50202NAME"
-    desc = "EVT50202DESC"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVT50201OPTA"
-		
-		mot_accessory = {}
-		mot_result = {}
-		loc_reset = {}
-		
-		if = {
-			limit = {
-				THIS = {
-					has_global_flag = ret_mot
-				}
-			}
-			THIS = {
-				add_country_modifier = {
-					name = retributivist_settlement
-					duration = -1
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					has_global_flag = in_mot
-				}
-			}
-			THIS = {
-				add_country_modifier = {
-					name = individualist_settlement
-					duration = -1
-				}
-			}
-		
-		}
-	
-		
-	}
-	
-	option = {
-		name = "EVT50201OPTB"
-	
-		mot_accessory = {}
-		mot_result = {}
-		loc_reset = {}
-	
-		if = {
-			limit = {
-				THIS = {
-					has_global_flag = ret_mot
-				}
-			}
-			THIS = {
-				add_country_modifier = {
-					name = individualist_settlement
-					duration = -1
-				}
-				
-				any_pop = {
-					scaled_militancy = {
-						issue = morality_police
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = courts_of_canon
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = empowered_clergy 
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = magisterialism
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = moralism
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = courts_of_canon
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = empowered_clergy 
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = morality_police
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = magisterialism
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = moralism
-						factor = 0.5
-					}
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					has_global_flag = in_mot
-				}
-			}
-			THIS = {
-				add_country_modifier = {
-					name = retributivist_settlement
-					duration = -1
-				}
-				
-				any_pop = {
-					scaled_militancy = {
-						issue = secularized
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = pluralism
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = anti_clericalism
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = permitted_heterodoxy
-						factor = 0.5
-					}
-					scaled_militancy = {
-						issue = local_congregationalism
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = pluralism
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = anti_clericalism
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = secularized
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = permitted_heterodoxy
-						factor = 0.5
-					}
-					scaled_consciousness = {
-						issue = local_congregationalism
-						factor = 0.5
-					}
-				}
-			}
-		
-		}
-		
-	
-	}
 
 }
