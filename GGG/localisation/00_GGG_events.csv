@@ -551,6 +551,10 @@ EVTNAME50191;Smallholders and the Economy;;;;;;;;;;;;;x
 EVTDESC50191;As industrial changes continue to proliferate throughout our society, we once again are reminded that our relatively unique land tenure pattern somewhat insulates against us from some of the major demographic changes affecting other societies, by reducing the possibility of the consolidation of large agricultural estates and firms. ;;;;;;;;;;;;;x 
 EVTNAME50192;The end of smallholding;;;;;;;;;;;;;x
 EVTDESC50192;The recent government reforms effective the collectivisation of agriculture has signified the successful, and largely incident free transition from a society of smallholders and small farms to a modern, collectivised economy. The new law is sure to anger a few holdouts, but the gradual reforms have carried most of the population with them in opinion.  ;;;;;;;;;;;;;x
+EVT50193NAME;Explorers Return!;;;;;;;;;;;;;x
+EVT50193DESC;x;;;;;;;;;;;;;x
+EVT50194NAME;$FROMCOUNTRY_ADJ$ Influence Grows;;;;;;;;;;;;;x
+EVT50194DESC;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
@@ -560,12 +564,8 @@ X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVT50198NAME;Explorers Return!;;;;;;;;;;;;;x
+EVT50198DESC;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
