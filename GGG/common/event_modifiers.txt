@@ -346,8 +346,6 @@ statist_strike = {
 
 smallholder_society = {
 	RGO_throughput = -0.03
-	#population_growth = -0.001
-	pop_consciousness_modifier = -0.01
 	pop_militancy_modifier = -0.01
     icon = 17
 }
@@ -355,7 +353,6 @@ smallholder_society = {
 smallholder_society_1 = {
 	RGO_throughput = -0.03
 	population_growth = -0.001
-	pop_consciousness_modifier = -0.01
 	pop_militancy_modifier = -0.01
     icon = 17
 }
@@ -363,7 +360,6 @@ smallholder_society_1 = {
 smallholder_society_2 = {
 	RGO_throughput = -0.03
 	population_growth = -0.002
-	pop_consciousness_modifier = -0.01
 	pop_militancy_modifier = -0.01
     icon = 17
 }
