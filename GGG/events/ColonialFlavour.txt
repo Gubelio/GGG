@@ -12,12 +12,30 @@ country_event = { #COLONIALEXPLOREING
         }
 		medicine = 1
 		
-		
 		OR = {
 		
 			AND = {
+<<<<<<< Updated upstream
 				exists = HMO
 				NOT = { has_global_flag = hamog_discovered }
+=======
+				NOT = {
+					check_variable = {
+					which = "expl_bafozh"
+					value = 7  #update
+					}
+				}
+				AND = {
+					HMO = exists
+					OR = {
+						1997 = { empty = yes }
+						1998 = { empty = yes }
+						1999 = { empty = yes }
+						2000 = { empty = yes }
+					}
+				}
+				
+>>>>>>> Stashed changes
 			}
 			
 			NOT = { has_global_flag = bobit_civ }
@@ -25,10 +43,26 @@ country_event = { #COLONIALEXPLOREING
 			AND = {
 				NOT = { has_global_flag = event_3 }
 				OR = {
+<<<<<<< Updated upstream
 					1997 = { empty = yes }
 					1998 = { empty = yes }
 					1999 = { empty = yes }
 					2000 = { empty = yes }
+=======
+					HMO = exists
+					OR = {
+						1997 = { empty = yes }
+						1998 = { empty = yes }
+						1999 = { empty = yes }
+						2000 = { empty = yes }
+					}
+				}
+				NOT = {
+					check_variable = {
+					which = "expl_bafozh"
+					value = 6 #update
+					}
+>>>>>>> Stashed changes
 				}
 			}
 			
@@ -330,7 +364,7 @@ country_event = { #HAMOGDISCOVERED
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 70
 		 
 	}
 	
@@ -419,7 +453,7 @@ country_event = { #LOST CIVILIZATION IN BOBIT?
 	
 	option = {
 		name = "EVT50106OPTA"
-		prestige = 30
+		prestige = 50
 		clr_country_flag = exploring_bafozh
 		set_global_flag = bobit_civ
 		change_variable = {
@@ -943,183 +977,6 @@ country_event = { #the bafozhi pig!
 		
 		clr_country_flag = exploring_bafozh
 		set_global_flag = discovered_pig
-		
-	}
-	
-
-}
-
-country_event = { #maps
-	id = 50193
-	title = "EVT50193NAME"
-	desc = "EVT50193DESC"
-	#picture = "bafozhi_swine"
-	
-	fire_only_once = yes
-	
-	trigger = {
-		has_country_flag = exploring_bafozh
-		NOT = { has_global_flag = bafozh_maps_done }
-	}
-	
-	mean_time_to_happen = {
-		months = 92
-		
-		 
-	}
-	
-	option = {
-		name = "Distribute these maps among our commericial and industrial elite."
-		prestige = 3
-		
-		random_country = {
-			limit = {
-				civilized = no
-				capital_scope = { continent = europe }
-				number_of_states = 3
-			}
-			
-			country_event = {
-				id = 50194
-				days = 40
-			}
-		
-		}
-		
-		random_country = {
-			limit = {
-				civilized = no
-				capital_scope = { continent = europe }
-				NOT = { number_of_states = 3 }
-				number_of_states = 2
-			}
-			
-			country_event = {
-				id = 50194
-				days = 40
-			}
-		
-		}
-		
-		random_country = {
-			limit = {
-				civilized = no
-				capital_scope = { continent = europe }
-				NOT = { number_of_states = 2 }
-				number_of_states = 1
-			}
-			
-			country_event = {
-				id = 50194
-				days = 40
-			}
-		
-		}
-	
-		
-		if = {
-			limit = {
-				THIS = {
-					NOT = { has_global_flag = bafozh_maps_1 }
-				}
-			}
-			THIS = {
-				set_global_flag = bafozh_maps_1
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					NOT = { has_global_flag = bafozh_maps_2 }
-					has_global_flag = bafozh_maps_1
-				}
-			}
-			THIS = {
-				set_global_flag = bafozh_maps_2
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					NOT = { has_global_flag = bafozh_maps_done }
-					has_global_flag = bafozh_maps_2
-				}
-			}
-			THIS = {
-				set_global_flag = bafozh_maps_done
-			}
-		
-		}
-		
-	}
-	
-
-}
-
-country_event = { #unciv is mapped
-	id = 50194
-	title = "EVT50194NAME"
-	desc = "EVT50194DESC"
-	#picture = "bafozhi_swine"
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		FROM = {
-			diplomatic_influence = {
-				who = THIS
-				value = 85
-			}
-		}
-		
-	}
-	
-
-}
-
-
-country_event = { #barely_survived
-	id = 50198
-	title = "EVT50198NAME"
-	desc = "EVT50198DESC"
-	picture = "deadboys"
-	
-	fire_only_once = yes
-	
-	trigger = {
-		has_country_flag = exploring_bafozh
-		NOT = { has_global_flag = barely_survived }
-	}
-	
-	mean_time_to_happen = {
-		months = 100
-
-		 
-	}
-	
-	option = {
-		name = "Good heavens! It is as they say: the Bafozhi are beasts!"
-		prestige = 5
-		
-		random_country = {
-			limit = {
-				capital_scope = { continent = europe }
-			}
-			
-			relation = {
-				who = THIS
-				value = -200
-			}
-		}
-		
-		clr_country_flag = exploring_bafozh
-		set_global_flag = barely_survived
 		
 	}
 	

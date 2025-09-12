@@ -533,7 +533,7 @@ EVTNAME50185;Savages Attack Railway!;;;;;;;;;;;;;x
 EVTDESC50185;A number of savage states have granted our great firms, as well as our government, concessions to build passenger and freight rail in their lands, and indeed some primitive states are so poorly administered that we have only needed to maintain a few guard posts in the tractless wastes and dispensed entirely with the trinket ‘purchases’ of land. These railways have hauled freight and labour out of the interior of the foreign lands into the hands of our merchants, captains, and planters. They are, for all intents and purposes, part of our imperial and fiscal network. Recently, however, the impudent beasts in $FROMCOUNTRY$ have attacked and wrecked a station on the $COUNTRY_ADJ$-$FROMCOUNTRY$ Railway Charter’s main line! Natives, wielding rifles and swords, slaughtered a small guard post in the night, and used some horrid creatures of burden to pull up the sleepers, and scatter the ballast, leading to a spectacular derailment! The government and the investors are crying out for order and justice!;;;;;;;;;;;;;x
 EVT50186NAME;The Study of Paorusu;;;;;;;;;;;;;x
 EVT50186DESC;The witch cults of the Southern lands of Kovazh, have been, for a long time, in our societies’ collective knowledge. Travellers and traders to the ‘tea coast’ have long had native friends and contacts who venerate one of the particular deities. But myths abound, and there has not yet been a comprehensive study on this faith, its origins, and its cosmology. One of our citizens, a private trader working in the provinces, has, upon making his fortune, returned home to $CAPITAL$ and has written a large, multivolume assessment of the Parosus faith, connecting the venerated witch-women avatars to what he terms a large, ancient pan-kovan pantheon, of which he also suggests the silent god of the Momurists was once a member. He suggests that the witch-cult developed after literate priestesses were able to write in the hieroglyphics of ancient Kova, in the many years after the first Kovan collapse, during which the temples were centres of life and culture.;;;;;;;;;;;;;x
-EVTNAME50187;A dismal day in $PROVINCENAME$;;;;;;;;;;;;;x
+EVTNAME50187;A Dismal Day in $PROVINCENAME$;;;;;;;;;;;;;x
 EVTDESC50187;The modern world has arrived to $PROVINCENAME$, with, regrettably, all its attendant evils in tow. When the first factories went up, their new brick smokestacks proud in the sun, the town began flourishing, attracting migrants from the countryside, commerce to provide for the burgeoning industrial population, and making the fortunes of many capitalists and merchants. Now, however, a swarthy gloom sits over the town and its since-wretched new denizens: billows of black smoke settle upon the dismal giant slums and tenements that have risen to house an ever-growing workforce of the most wretched of society. These districts are rife with the abuse, violence, infidelity, vice and neglect associated with the lowest depths of poverty and squalor, and millions of souls languish here. A large, dissent, urban reform league has formed to protest conditions, and the legislature is debating how to address the unrest.;;;;;;;;;;;;;x
 EVT50187OPTA;Would they prefer to live out their days in a dank dark cell far beneath the dirt?;;;;;;;;;;;;;x
 EVT50187OPTB;The Statist element brings up a few interesting points on urban planning...;;;;;;;;;;;;;x
@@ -551,10 +551,13 @@ EVTNAME50191;Smallholders and the Economy;;;;;;;;;;;;;x
 EVTDESC50191;As industrial changes continue to proliferate throughout our society, we once again are reminded that our relatively unique land tenure pattern somewhat insulates against us from some of the major demographic changes affecting other societies, by reducing the possibility of the consolidation of large agricultural estates and firms. ;;;;;;;;;;;;;x 
 EVTNAME50192;The end of smallholding;;;;;;;;;;;;;x
 EVTDESC50192;The recent government reforms effective the collectivisation of agriculture has signified the successful, and largely incident free transition from a society of smallholders and small farms to a modern, collectivised economy. The new law is sure to anger a few holdouts, but the gradual reforms have carried most of the population with them in opinion.  ;;;;;;;;;;;;;x
+<<<<<<< Updated upstream
 EVT50193NAME;Explorers Return!;;;;;;;;;;;;;x
 EVT50193DESC;Our recent expedition to Bafozh has returned. They report few incidents, beyond the usual hardships and joys of trekking through the rugged landscape of Bafozhi - fires, insects, floods, freezing cold, sweltering heat, sublime vistas, breathtaking landscapes, unspoilt nature. They made a number of comprehensive survey maps of a number of regions of Bafozh, detailing major rivers, salient topography, soil types, and information on native polities and peoples in this region. Commercial and military circles have already taken interest in these surveys, and propose sending out prospectors or factors to lands earmarked as possibly mineral rich or fertile, or to notably wealthy native communities to capture the local trade in luxuries or staples.;;;;;;;;;;;;;x
 EVT50194NAME;$FROMCOUNTRY_ADJ$ Influence Grows;;;;;;;;;;;;;x
 EVT50194DESC;A few months ago we observed the progress of a number of $FROMCOUNTRY_ADJ$ explorers making their way through our land - they stopped at villagers, talked to trappers, farmers, nomads, and made a comprehensive survey of our land. Locals report that they made a rendezvous with their transports at a tranquil cove on our coast a few months ago. Now, however, we have seen a deluge of people from $FROMCOUNTRY$ in our land. Merchants, prospectors, and even occasional settlers seemingly have made use of the survey maps made by the $FROMCOUNTRY_ADJ$ government based on the exploratory expedition. We are right to say our nation is increasingly falling under the influence of $FROMCOUNTRY$.;;;;;;;;;;;;;x
+=======
+>>>>>>> Stashed changes
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
@@ -564,6 +567,7 @@ X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
+<<<<<<< Updated upstream
 EVT50198NAME;Explorers Return!;;;;;;;;;;;;;x
 EVT50198DESC;The expedition we sent to Bafozh has returned with a tale of horror! While their expedition began successfully, and they made progress on charting large sections of the continent, in the lands of a particular savage state, they ran afoul of a native prince who seemed to attempt to rob and then slaughter the expedition! After a week of beleaguered retreat away from the prince, his swineriders, and his savage troops, who apparently harassed the expedition day and night, despite persistent attempts by the expedition to drive him away by firepower, they finally made it out of his lands and to the coastal rendezvous with the military ships. However, not without costs: a number of soldiers were wounded in the skirmishing, and the hardships of harassed retreat left them untreated. Multiple soldiers perished, and others have suffered grievous bodily harms and disability. Whatever happened - errors in translation, transgression of holy precincts, nothing seems to justify the suffering of our expedition.;;;;;;;;;;;;;x
 EVT50199NAME;A Great Oecumenical Synod;;;;;;;;;;;;;x 
@@ -586,6 +590,14 @@ EVT50203NAME;The Synod Convenes;;;;;;;;;;;;;x
 EVT50203DESC;The day has arrived. The great Oecumenical synod has convened in $CAPITAL$. Hundreds of eminent clerics, writers, and intellectuals have encamped in the great meeting house of the capital, from all around the world. The sober clerics from Kush, dressed in dour, rough cloth - the slight, nervous, urbane writers from Jiisha - the sturdy, jolly Dhukk preachers, from the borderlands - the weathered hermits from the Gizhpt mountains. It has been over 70 years since the last the Synod convened, at the urging of the Jiishanagi Lord Minister, over the question of the infinity or creation. This synod proceeds less under the oversight of temporal might, but the proceedings are much the same: our leader, nominal head of our state church, deputises a president and a secretary, and the resolutions are considered binding for all those who consider themselves in communion with the mainline Motkohnic legal corpus, which includes a large number of states and sub-state communities. ;;;;;;;;;;;;;x 
 EVT50204NAME;x;;;;;;;;;;;;;x  #ai event player will never see
 EVT50204DESC;x;;;;;;;;;;;;;x 
+=======
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+X;x;;;;;;;;;;;;;x
+>>>>>>> Stashed changes
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

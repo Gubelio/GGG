@@ -250,12 +250,12 @@ WSW		= "countries/Wushauw Free State.txt"
 JTN     = "countries/Juruntine.txt"
 PAU     = "countries/Paukzhodo.txt"
 
-#UTILITY TAG
-UTY		= "countries/Utility Tag.txt"
+#UTILITY TAGS
+DDD		= "countries/Disease.txt"
 
 
 ##HoD Dominions
-dynamic_tags  = yes # any tags after this is considered dynamic dominions
+dynamic_tags  = yes # any tags after this are considered dynamic dominions
 D01		= "countries/D01.txt"
 D02		= "countries/D02.txt"
 D03		= "countries/D03.txt"

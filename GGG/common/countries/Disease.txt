@@ -1,4 +1,8 @@
 color = { 255 255 255 }
+princely_despotate = { 223 232 235 } #White Flux
+paternalistic_council = { 209 119 149 } #Blinding Cough
+theocracy = { 146 46 166 } #Rotpox
+
 graphical_culture = EuropeanGC # inherit
 
 party = {

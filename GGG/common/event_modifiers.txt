@@ -371,6 +371,7 @@ guild_regulations_strengthend = {
     icon = 5
 }
 
+<<<<<<< Updated upstream
 retributivist_settlement = {
 	suppression_points_modifier = 0.2
 	ruling_party_support = 0.03
@@ -382,5 +383,22 @@ individualist_settlement = {
 	suppression_points_modifier = -0.2
 	political_reform_desire = 0.02
 	social_reform_desire = 0.05
+=======
+white_flux = {
+	population_growth = n
+	min_tariff = 0.80
+    icon = 5
+}
+
+blinding_cough = {
+	factory_cost = 0.2
+	min_tariff = 0.80
+    icon = 5
+}
+
+rotpox = {
+	factory_cost = 0.2
+	min_tariff = 0.80
+>>>>>>> Stashed changes
     icon = 5
 }

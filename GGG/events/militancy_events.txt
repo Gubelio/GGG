@@ -1191,9 +1191,7 @@ province_event = {
     id = 50187
     title = "EVTNAME50187" #Industrial slum
     desc = "EVTDESC50187"
-
-	is_triggered_only = yes
-
+	
 	trigger = {
 		has_factories = yes
 		owner = {
