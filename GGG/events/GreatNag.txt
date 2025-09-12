@@ -798,7 +798,7 @@ country_event = {
 		
 		
 		ai_chance = {
-            factor = 95
+            factor = 90
 		}
 	
 	}
@@ -959,7 +959,7 @@ country_event = {
 		
 		
 		ai_chance = {
-            factor = 5
+            factor = 10
 		}
 	
 	}
