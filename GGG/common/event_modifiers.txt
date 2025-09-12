@@ -380,6 +380,7 @@ retributivist_settlement = {
 
 individualist_settlement = {
 	suppression_points_modifier = -0.2
-	political_reform_desire = 0.05
+	political_reform_desire = 0.02
+	social_reform_desire = 0.05
     icon = 5
 }
