@@ -220,6 +220,8 @@ mot_result;Unsettled;;;;;;;;;;;;;x
 loc_reset;\n §!;;;;;;;;;;;;;x
 mot_if;If the resolution was §YRetributivist§!;;;;;;;;;;;;;x
 mot_if_no;If the resolution was §YIndividualist§!;;;;;;;;;;;;;x
+mot_info_ret;We will support the §YRetributivists§!;;;;;;;;;;;;;x
+mot_info_in;We will support the §YIndividualists§!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

@@ -914,18 +914,22 @@ if2 = { 2402 }
 
 if3 = { 2403 }
 
-encylopedia_updated = { 2404 }
+encylopedia_updated = { }
 
-null_warning = { 2405 }
+null_warning = { }
 
 mot_result = { 2406 }
 
-mot_accessory = { 2407 }
+mot_accessory = { }
 
 mot_if = { 2409 }
 
 mot_if_no = { 2410 }
 
-loc_reset = { 2408 }
+loc_reset = {  }
+
+mot_info_ret = {  }
+
+mot_info_in = { }
 
 for15 = { 2301 2302 2303 2304 2305 2306 2307 2308 2309 2310 2311 2312 2313 2314 2315 }

@@ -174,6 +174,8 @@ country_event = { #host_motkohnic_synod
 		name = "EVT50199OPTA"
 		prestige = 20
 		
+		mot_info_ret = { }
+		
 		set_country_flag = voted_mot
 		
 		
@@ -216,7 +218,7 @@ country_event = { #host_motkohnic_synod
 		THIS = {
 			country_event = {
 				id = 50201
-				days = 50
+				days = 80
 			
 			}
 		
@@ -272,6 +274,8 @@ country_event = { #host_motkohnic_synod
 		prestige = 20
 		
 		set_country_flag = voted_mot
+	
+		mot_info_in = { }
 	
 		set_variable = {
 			which = mot_settlement
@@ -359,6 +363,108 @@ country_event = { #host_motkohnic_synod
 			}
 		}
 	}
+	
+	option = {
+		name = "EVT50199OPTC"
+		
+		prestige = 30
+		
+		random_list = {
+			50 = {  
+				mot_info_ret = { }
+				set_variable = {
+					which = mot_settlement
+					value = 10
+				}
+				
+				any_country = {
+			limit = {
+				has_country_flag = motkohnic_country
+				NOT = { has_country_flag = voted_mot }
+			}
+			
+			country_event = {
+				id = 50200
+				days = 20
+				
+			}
+			
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
+		}
+		
+		THIS = {
+			
+			country_event = {
+				id = 50203
+				days = 40
+			
+			}
+		
+		}
+		
+		THIS = {
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
+		
+		}
+				
+			}
+			50 = {  
+				mot_info_in = { }
+				set_variable = {
+					which = mot_settlement
+					value = 9
+				}
+			
+				any_country = {
+			limit = {
+				has_country_flag = motkohnic_country
+				NOT = { has_country_flag = voted_mot }
+			}
+			
+			country_event = {
+				id = 50200
+				days = 20
+				
+			}
+			
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
+		}
+		
+		THIS = {
+			
+			country_event = {
+				id = 50203
+				days = 40
+			
+			}
+		
+		}
+		
+		THIS = {
+			country_event = {
+				id = 50201
+				days = 80
+			
+			}
+		
+		}
+			
+			}
+		}
+	
+	}
 
 }
 
@@ -370,7 +476,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVT50199OPTA"
+		name = "EVT50200OPTA"
+	
+		mot_info_ret = { }
 	
 		ai_chance = {
             factor = 50
@@ -428,7 +536,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50199OPTB"
+		name = "EVT50200OPTB"
+		
+		mot_info_in = { }
 	
 		FROM = {
 			change_variable = {
@@ -481,6 +591,36 @@ country_event = {
 			scaled_consciousness = {
 				issue = moralism
 				factor = 1.5
+			}
+		}
+	
+	}
+	
+	option = {
+		name = "EVT50200OPTC"
+		
+		prestige = 10
+		
+		random_list = {
+			50 = {  
+				mot_info_ret = { }
+				FROM = {
+					change_variable = {
+						which = mot_settlement
+						value = 1
+					}
+				}
+			}
+			50 = {  
+				mot_info_in = { }
+				FROM = {
+					change_variable = {
+						which = mot_settlement
+						value = -1
+					}
+				}
+			
+			
 			}
 		}
 	

@@ -1,9 +1,3 @@
-###########################################################################################################################
-#### IF YOU ADD AN EVENT, MAKE SURE TO ADD 1 to the MARKED (#update) variables ############################################
-#### EVERYTHING ELSE IS MERELY DEPENDANT ON HAVING THE 'exploring_bafozh' flag and just make sure to close that afterward #
-###########################################################################################################################
-
-
 country_event = { #COLONIALEXPLOREING
 	id = 50103
 	title = "EVTNAME50103"
@@ -20,41 +14,36 @@ country_event = { #COLONIALEXPLOREING
 		
 		
 		OR = {
+		
 			AND = {
-				NOT = {
-					check_variable = {
-					which = "expl_bafozh"
-					value = 11  #update
-					}
-				}
-				AND = {
-					exists = HMO
-					OR = {
-						1997 = { empty = yes }
-						1998 = { empty = yes }
-						1999 = { empty = yes }
-						2000 = { empty = yes }
-					}
-				}
-				
+				exists = HMO
+				NOT = { has_global_flag = hamog_discovered }
 			}
+			
+			NOT = { has_global_flag = bobit_civ }
+		
 			AND = {
+				NOT = { has_global_flag = event_3 }
 				OR = {
-					exists = HMO
-					OR = {
-						1997 = { empty = yes }
-						1998 = { empty = yes }
-						1999 = { empty = yes }
-						2000 = { empty = yes }
-					}
-				}
-				NOT = {
-					check_variable = {
-					which = "expl_bafozh"
-					value = 10 #update
-					}
+					1997 = { empty = yes }
+					1998 = { empty = yes }
+					1999 = { empty = yes }
+					2000 = { empty = yes }
 				}
 			}
+			
+			NOT = { has_global_flag = colonial_purchase_potential }
+			
+			NOT = { has_global_flag = charmed_by_native }
+			
+			NOT = { has_global_flag = lakes_renamed }
+		
+			NOT = { has_global_flag = discovered_pig }
+			
+			NOT = { has_global_flag = bafozh_maps_done }
+			
+			NOT = { has_global_flag = barely_survived }
+			
 		}
 		
 
@@ -191,12 +180,6 @@ country_event = { #exploration_enabling
             is_greater_power = yes
             is_secondary_power = yes
         }
-		NOT = {
-			check_variable = {
-			which = "expl_bafozh"
-			value = 1
-			}
-		}
 		NOT = { has_country_flag = exploring_bafozh }
 		capital_scope = { continent = north_america }
 	}
@@ -665,7 +648,7 @@ country_event = { #EXPLORERSLOST
 	}
 	
 	mean_time_to_happen = {
-		months = 85
+		months = 50
 		 
 		#modifier = {
         #    factor = 0.9
