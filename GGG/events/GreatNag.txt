@@ -132,6 +132,7 @@ country_event = { #host_motkohnic_synod
 
 	trigger = {
 		NOT = { has_global_flag = motkohnic_settlement }
+		NOT = { has_global_flag = motkohnic_confrence_began }
 		has_country_flag = motkohnic_country
 	
 		year = 1317
@@ -177,6 +178,7 @@ country_event = { #host_motkohnic_synod
 		mot_info_ret = { }
 		
 		set_country_flag = voted_mot
+		set_global_flag = motkohnic_confrence_began
 		
 		
 		set_variable = {
@@ -225,25 +227,29 @@ country_event = { #host_motkohnic_synod
 		}
 		
 		any_pop = {
+			limit = {
+				has_pop_religion = motkohnic
+			}
+		
 			scaled_militancy = {
 				issue = secularized
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = pluralism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = anti_clericalism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = permitted_heterodoxy
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = local_congregationalism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_consciousness = {
 				issue = pluralism
@@ -274,6 +280,7 @@ country_event = { #host_motkohnic_synod
 		prestige = 20
 		
 		set_country_flag = voted_mot
+		set_global_flag = motkohnic_confrence_began
 	
 		mot_info_in = { }
 	
@@ -321,25 +328,30 @@ country_event = { #host_motkohnic_synod
 		}
 		
 		any_pop = {
+		
+			limit = {
+				has_pop_religion = motkohnic
+			}
+		
 			scaled_militancy = {
 				issue = morality_police
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = courts_of_canon
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = empowered_clergy 
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = magisterialism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = moralism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_consciousness = {
 				issue = courts_of_canon
@@ -366,6 +378,9 @@ country_event = { #host_motkohnic_synod
 	
 	option = {
 		name = "EVT50199OPTC"
+		
+		set_country_flag = voted_mot
+		set_global_flag = motkohnic_confrence_began
 		
 		prestige = 30
 		
@@ -491,25 +506,30 @@ country_event = {
 		}
 		
 		any_pop = {
+		
+			limit = {
+				has_pop_religion = motkohnic
+			}
+		
 			scaled_militancy = {
 				issue = secularized
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = pluralism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = anti_clericalism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = permitted_heterodoxy
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = local_congregationalism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_consciousness = {
 				issue = pluralism
@@ -552,25 +572,30 @@ country_event = {
 		}
 		
 		any_pop = {
+			
+			limit = {
+				has_pop_religion = motkohnic
+			}
+			
 			scaled_militancy = {
 				issue = morality_police
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = courts_of_canon
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = empowered_clergy 
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = magisterialism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_militancy = {
 				issue = moralism
-				factor = 1.5
+				factor = 3
 			}
 			scaled_consciousness = {
 				issue = courts_of_canon
@@ -853,26 +878,30 @@ country_event = {
 			
 			THIS = {
 			
+				limit = {
+					has_pop_religion = motkohnic
+				}
+			
 				any_pop = {
 					scaled_militancy = {
 						issue = morality_police
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = courts_of_canon
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = empowered_clergy 
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = magisterialism
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = moralism
-						factor = 1.5
+						factor = 3
 					}
 					scaled_consciousness = {
 						issue = courts_of_canon
@@ -910,25 +939,31 @@ country_event = {
 			THIS = {
 			
 				any_pop = {
+				
+				
+					limit = {
+						has_pop_religion = motkohnic
+					}
+				
 					scaled_militancy = {
 						issue = secularized
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = pluralism
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = anti_clericalism
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = permitted_heterodoxy
-						factor = 1.5
+						factor = 3
 					}
 					scaled_militancy = {
 						issue = local_congregationalism
-						factor = 1.5
+						factor = 3
 					}
 					scaled_consciousness = {
 						issue = pluralism
