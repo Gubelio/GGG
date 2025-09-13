@@ -1,0 +1,608 @@
+################################
+### PANDEMIC START UP EVENTS ###
+################################
+
+country_event = {
+	id = 50202
+	title = "EVTNAME50195" #White Flux Pandemic
+	desc = "EVTDESC50195"
+	
+    trigger = {
+		year = 2000
+		
+		NOT = { has_global_flag = pandemics_disabled }
+		NOT = { has_global_flag = white_flux_pandemic_happened }
+		NOT = { has_global_flag = blinding_cough_pandemic_happened }
+		NOT = { has_global_flag = rotpox_pandemic_happened }
+    }
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+        months = 3600 #~300 Years
+		modifier = {
+           factor = 0.9
+		   year = 1328
+		   NOT = { year = 1348 }
+		}
+		modifier = {
+           factor = 0.8
+		   year = 1348
+		   NOT = { year = 1368 }
+		}
+		modifier = {
+           factor = 0.7
+		   year = 1368
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.6
+		   year = 1388
+		}
+		#modifier = {
+        #   factor = 0.6
+		#   year = 1388
+		#}
+	}
+	
+	option = {
+		name = "EVT50195OPTA" 
+		set_global_flag = white_flux_pandemic
+		set_global_flag = white_flux_pandemic_happened
+
+		random_province = {
+			limit = {
+				is_colonial = no
+			}
+			add_province_modifier = { name = white_flux duration = 36525 }
+			#change_controller = DDD
+		}
+		
+		#DDD = { government = princely_despotate }
+	}
+}	
+
+
+				
+#############################
+### PANDEMIC SPREAD EVENT ###
+#############################
+
+
+country_event = { #disease ticker
+
+	id = 50205
+	title = "EVTNAME50195" #White Flux Pandemic
+	desc = "EVTDESC50195"
+	
+	
+	trigger = {
+		ai = yes
+		war = no
+		
+		OR = {
+			any_owned_province = {
+						has_province_modifier = white_flux
+						any_neighbor_province = { 
+							empty = no
+							NOT = {
+								has_province_modifier = white_flux
+							}
+						}
+					}
+			
+			any_greater_power = {
+			
+				any_owned_province = {
+						has_province_modifier = white_flux
+						any_neighbor_province = { 
+							empty = no
+							NOT = {
+								has_province_modifier = white_flux
+							}
+						}
+					}
+			
+			
+			}
+			
+			any_neighbor_country = {
+			
+				any_owned_province = {
+						has_province_modifier = white_flux
+						any_neighbor_province = { 
+							empty = no
+							NOT = {
+								has_province_modifier = white_flux
+							}
+						}
+					}
+			
+			
+			}
+		}
+	
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 3
+	
+	}
+	
+	option = {
+		name = "disease spreader"
+		
+		
+		any_owned = {
+				limit = {
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+				}
+				
+		#####################                      # ATTENTION: To add conditions, you must add the specified conditions in the 'limit' section, 
+		### CHANCES BEGIN ###									then pick a 'chance' it will spread to the new province. 
+		#####################									The Chances Block must be copied into every of the three chances begin-end passages.
+	
+				any_neighbor_province = {
+					limit = {
+						terrain = marsh  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 80  #modifier " chance "
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = desert  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  #modifier " chance "
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = plains  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = savanna
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = hills
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = jungle
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = farmlands
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+	##################
+	### CHANCES END ##
+	##################
+				
+			
+			
+			}
+	
+		any_greater_power = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+				}
+			
+			}
+		
+		
+		#####################
+		### CHANCES BEGIN ###
+		#####################
+			
+			any_owned = {
+				limit = {
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+				}
+				
+	
+				any_neighbor_province = {
+					limit = {
+						terrain = marsh  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 80  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = desert  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = plains  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = savanna
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = hills
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = jungle
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = farmlands
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+	##################
+	### CHANCES END ##
+	##################
+				
+			
+			
+			}
+			
+		}
+		
+		any_neighbor_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+				}
+			
+			}
+		
+		#####################
+		### CHANCES BEGIN ###
+		#####################
+		
+		
+			
+			any_owned = {
+				limit = {
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+				}
+				
+	
+				any_neighbor_province = {
+					limit = {
+						terrain = marsh  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 80  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = desert  
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = plains  # mondifier "conditions"
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90 
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+					
+				}
+				
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = savanna
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = hills
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = jungle
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = farmlands
+						NOT = {
+							has_province_modifier = white_flux
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = white_flux duration = -1 }
+					
+					}
+	
+				
+				}
+	
+	##################
+	### CHANCES END ##
+	##################
+				
+				
+			
+			
+			}
+			
+		}
+		
+	
+	}
+	
+	
+}
+
