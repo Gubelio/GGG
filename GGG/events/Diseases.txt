@@ -55,7 +55,7 @@ country_event = {
 			limit = {
 				is_colonial = no
 			}
-			add_province_modifier = { name = white_flux duration = 36525 }
+			add_province_modifier = { name = white_flux duration = -1 }
 			#change_controller = DDD
 		}
 		
@@ -73,8 +73,8 @@ country_event = {
 country_event = { #disease ticker
 
 	id = 50205
-	title = "EVTNAME50195" #White Flux Pandemic
-	desc = "EVTDESC50195"
+	title = "EVTNAME50205" #White spreads
+	desc = "EVTDESC50205"
 	
 	
 	trigger = {
