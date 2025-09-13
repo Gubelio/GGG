@@ -384,3 +384,12 @@ individualist_settlement = {
 	social_reform_desire = 0.05
     icon = 5
 }
+
+obstructive_landowners = {
+	local_RGO_output = -0.15
+	local_ruling_party_support = -0.5
+	pop_consciousness_modifier = 0.01
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+    icon = 12
+}

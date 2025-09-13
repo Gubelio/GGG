@@ -165,30 +165,12 @@ EVTDESC50054;It is no secret that the Yamoujoy and Maumoujoy peoples are one and
 EVT50054OPTA;Brothers we shall be!;;;;;;;;;;;;;
 EVT50054OPTB;You're no brother of mine, $FROMCOUNTRY_ADJ$ swine!;;;;;;;;;;;;;
 EVTNAME50055;$PROVINCENAME$ Cored!;;;;;;;;;;;;; #$PROVINCENAME$ recognized as an integral part of $COUNTRY$!
-EVTDESC50055;It has been long since $PROVINCENAME$ was added to our mighty domain. Many of our people now reside here and call $PROVINCENAME$ home. Both domestically and internationally $PROVINCENAME$ is referred to as an integral part of $PROVINCENAME$, without scrutiny or debate.;;;;;;;;;;;;;
+EVTDESC50055;It has been long since $PROVINCENAME$ was added to our mighty domain. Many of our people now reside here and call $PROVINCENAME$ home. Both domestically and internationally $PROVINCENAME$ is referred to as an integral part of $COUNTRY$, without scrutiny or debate.;;;;;;;;;;;;;
 EVT50055OPTA;Excellent;;;;;;;;;;;;;
 EVTNAME50056;The Poumnian Demand!;;;;;;;;;;;;;
 EVTDESC50056;The time that many $COUNTRY_ADJ$s have feared would come has now finally come. The Poumnians, who for long have meddled in our affairs, seized our treasures, and yoked our people to their plows, have now officially demanded we become their protectorate. If we refuse, it will surely result in a swift invasion, the deaths of thousands, and the complete destruction of Aaykeum.;;;;;;;;;;;;;
 EVT50056OPTA;We will submit;;;;;;;;;;;;;
 EVT50056OPTB;Let them come!;;;;;;;;;;;;;
-EVTNAME65000;Initial Leadership Selection;;;;;;;;;;;;;x
-EVTDESC65000;GGG has a ‘leader’ system, by which national civilian political leaders are represented in the former functional role for ‘national values’. Leaders change with elections, deaths, resignations, and more. The ‘leadership’ system can be turned off in the settings decision within the first year of play. In multiplayer, this will disable the mechanic for everyone. This event exists to inform you of this system and randomly select a first leader for your state.;;;;;;;;;;;;;x
-EVT65000OPTA;Hopefully he's no fool;;;;;;;;;;;;;x
-EVTNAME65001;Initial Leadership Selection;;;;;;;;;;;;;x
-EVTDESC65001;GGG has a ‘leader’ system, by which national civilian political leaders are represented in the former functional role for ‘national values’. Leaders change with elections, deaths, resignations, and more. The ‘leadership’ system can be turned off in the settings decision within the first year of play. In multiplayer, this will disable the mechanic for everyone. This event exists to inform you of this system and randomly select a first leader for your state.;;;;;;;;;;;;;x
-EVT65001OPTA;Hopefully he's no fool;;;;;;;;;;;;;x
-EVTNAME65002;Leadership Enabled;;;;;;;;;;;;;x
-EVTDESC65002;GGG's 'leadership' mechanic has been enabled for the duration of this game. This cannot be undone and is still a work in progress feature.;;;;;;;;;;;;;x
-EVT65002OPTA;Excellent;;;;;;;;;;;;;x
-EVTNAME65003;Leader Assassinated!;;;;;;;;;;;;;x
-EVTDESC65003;Shock and horror in $CAPITAL$! We have just received harrowing reports that our leader, that old $NATIONAL_VALUE$, has just been slain on the streets of $CAPITAL$ by some lunatic or fanatic. It’s not exactly clear whether this was driven by some personal disturbance or part of a broader political or revolutionary conspiracy. Nonetheless, the government is scrambling to organize a replacement and crack down on civil disturbances like this.;;;;;;;;;;;;;x
-EVT65003OPTA;It was only a matter of time;;;;;;;;;;;;;x
-EVTNAME65004;Leader Passes Away!;;;;;;;;;;;;;x
-EVTDESC65004;We have just received a report from the executive office to inform us that our leader has passed away of natural causes during the course of office. The secretariat has released the news to the public, and the nation is broadly aware that a new leader will come to office. A notable $CAPITAL$ broadsheet remembers our leader as a “$NATIONAL_VALUE$”, and recounted their various deeds and doings in office. Succession will procede as dictated by the laws of our state.;;;;;;;;;;;;;x
-EVT65004OPTA;The streets of $CAPITAL$ will fill with mourners and celebrators alike;;;;;;;;;;;;;x
-EVTNAME65005;Leader Resigns!;;;;;;;;;;;;;x
-EVTDESC65005;In a speech before the state building in $CAPITAL$ today, our state’s leader, who has broadly been dubbed a $NATIONAL_VALUE$ by the public and the media, delivered a resignation speech. Citing difficulties with governance, the various ills of the nation, and opposition within the party, our leader believed it was time to step down from office. It remains to be seen who will come to power next, and how they will reckon with the challenges faced by our state.;;;;;;;;;;;;;x
-EVT65005OPTA;About time!;;;;;;;;;;;;;x
 EVTNAME50057;International Sanctions;;;;;;;;;;;;;x
 EVTDESC50057;Our outrageous warmongering has finally provoked a response from large powers around the world. A combine of international powers have declared a total trade embargo against us. Vessels trading in our ports may be seized or even sank with relative impunity, scaring most traders away from our lands, and our neighbors have closed their borders to us.;;;;;;;;;;;;;x
 EVT50057OPTA;This is worrying;;;;;;;;;;;;;x
@@ -555,15 +537,18 @@ EVT50193NAME;Explorers Return!;;;;;;;;;;;;;x
 EVT50193DESC;Our recent expedition to Bafozh has returned. They report few incidents, beyond the usual hardships and joys of trekking through the rugged landscape of Bafozhi - fires, insects, floods, freezing cold, sweltering heat, sublime vistas, breathtaking landscapes, unspoilt nature. They made a number of comprehensive survey maps of a number of regions of Bafozh, detailing major rivers, salient topography, soil types, and information on native polities and peoples in this region. Commercial and military circles have already taken interest in these surveys, and propose sending out prospectors or factors to lands earmarked as possibly mineral rich or fertile, or to notably wealthy native communities to capture the local trade in luxuries or staples.;;;;;;;;;;;;;x
 EVT50194NAME;$FROMCOUNTRY_ADJ$ Influence Grows;;;;;;;;;;;;;x
 EVT50194DESC;A few months ago we observed the progress of a number of $FROMCOUNTRY_ADJ$ explorers making their way through our land - they stopped at villagers, talked to trappers, farmers, nomads, and made a comprehensive survey of our land. Locals report that they made a rendezvous with their transports at a tranquil cove on our coast a few months ago. Now, however, we have seen a deluge of people from $FROMCOUNTRY$ in our land. Merchants, prospectors, and even occasional settlers seemingly have made use of the survey maps made by the $FROMCOUNTRY_ADJ$ government based on the exploratory expedition. We are right to say our nation is increasingly falling under the influence of $FROMCOUNTRY$.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50195;Something in the Air...;;;;;;;;;;;;;x
+EVTDESC50195;x;;;;;;;;;;;;;x
+EVT50195OPTA;... it is time to throw off the spiritual yoke of the wicked Magi and their pawns!;;;;;;;;;;;;;x
+EVT50195OPTB;... a benevolent but authoritative Church-State will restore virtue and righteousness!;;;;;;;;;;;;;x
+EVTNAME50196;Heretical Congregation;;;;;;;;;;;;;x
+EVTDESC50196;x;;;;;;;;;;;;;x
+EVT50196OPTA;Arrest the leaders and occupy the surrounding countryside!;;;;;;;;;;;;;x
+EVT50196OPTB;Let the people of $PROVINCENAME$ be, they are harmless;;;;;;;;;;;;;x
+EVTNAME50197;A Reactionary Cabal;;;;;;;;;;;;;x
+EVTDESC50197;x;;;;;;;;;;;;;x
+EVT50197OPTA;Look the other way;;;;;;;;;;;;;x
+EVT50197OPTB;The law must be properly enforced!;;;;;;;;;;;;;x
 EVT50198NAME;Explorers Return!;;;;;;;;;;;;;x
 EVT50198DESC;The expedition we sent to Bafozh has returned with a tale of horror! While their expedition began successfully, and they made progress on charting large sections of the continent, in the lands of a particular savage state, they ran afoul of a native prince who seemed to attempt to rob and then slaughter the expedition! After a week of beleaguered retreat away from the prince, his swineriders, and his savage troops, who apparently harassed the expedition day and night, despite persistent attempts by the expedition to drive him away by firepower, they finally made it out of his lands and to the coastal rendezvous with the military ships. However, not without costs: a number of soldiers were wounded in the skirmishing, and the hardships of harassed retreat left them untreated. Multiple soldiers perished, and others have suffered grievous bodily harms and disability. Whatever happened - errors in translation, transgression of holy precincts, nothing seems to justify the suffering of our expedition.;;;;;;;;;;;;;x
 EVT50199NAME;A Great Oecumenical Synod;;;;;;;;;;;;;x 
