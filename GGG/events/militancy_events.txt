@@ -1906,7 +1906,7 @@ province_event = {
 
 country_event = {
 	id = 50197
-	title = "EVTNAME50197" #Troublesome Statist Unions
+	title = "EVTNAME50197" 
 	desc = "EVTDESC50197"
 	
     trigger = {
