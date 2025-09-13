@@ -396,7 +396,20 @@ obstructive_landowners = {
 
 white_flux = {
 	local_RGO_output = -0.5
-	tax_efficiency = -0.002
 	pop_consciousness_modifier = 0.01
-    icon = 14
+    icon = 21
+}
+
+blinding_cough = {
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.01
+    icon = 22
+}
+
+
+rot_pox = {
+	local_RGO_output = -0.5
+
+	pop_consciousness_modifier = 0.01
+    icon = 23
 }

@@ -127,9 +127,11 @@ country_event = { #disease ticker
 	
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 50
 	
 	}
+	
+	allow_multiple_instances = no
 	
 	option = {
 		name = "disease spreader"
