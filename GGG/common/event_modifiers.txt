@@ -340,7 +340,7 @@ backwards_customs = {
 
 statist_strike = {
 	local_RGO_output = -0.5
-	tax_efficiency = -0.002
+	#tax_efficiency = -0.002
 	pop_consciousness_modifier = 0.01
     icon = 14
 }
@@ -395,21 +395,25 @@ obstructive_landowners = {
 }
 
 white_flux = {
+	life_rating = -0.25
+	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
     icon = 21
 }
 
 blinding_cough = {
+	life_rating = -0.25
+	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
     icon = 22
 }
 
-
 rot_pox = {
+	life_rating = -0.25
+	immigrant_push = 0.75
 	local_RGO_output = -0.5
-
 	pop_consciousness_modifier = 0.01
     icon = 23
 }

@@ -1906,12 +1906,10 @@ province_event = {
 
 country_event = {
 	id = 50197
-	title = "EVTNAME50197" 
+	title = "EVTNAME50197" #Reactionary Landowning Cabal
 	desc = "EVTDESC50197"
 	
     trigger = {
-		NOT = { government = statist_bureaucracy }
-		is_ideology_enabled = statist
 		civilized = yes
     }
 	
@@ -2088,3 +2086,4 @@ country_event = {
 		}
 	}
 }
+
