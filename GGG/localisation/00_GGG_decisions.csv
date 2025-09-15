@@ -145,8 +145,8 @@ open_encyclopedia_desc;This will open an event chain where you can learn things 
 3061_treaty_port_desc;The Pusunetos of the Great Khan is a strange state, and merchants tread there with caution. None can know when suddenly alliances will shift and those lords once in favour, and their foreign merchant friends, will suddenly be enemies. One hears enough blood curdling tales from the Court of the Great Khan. Now, however, we should be free of this trouble, and in fact gain great advantage over many other foreign traders in the Pusunetos. For since we have defeated the Armies of the Khan, we have won handsome Mójib, a little fishing town, for lease by our government. This will provide a haven for traders in the lands of the Khan, and he has kindly agreed also that disputes between his subjects and our merchants will be heard in whatever court we choose to establish in Mójib.;;;;;;;;;;;;;x
 collectivise_agriculture_title;Collectivize Agriculture;;;;;;;;;;;;;x
 collectivise_agriculture_desc;The ‘peasant problem’ is a much discussed issue in statist thought. The inefficient organisation of land tenure in the countryside - commons, patchwork private ownership - depresses the production possibilities frontier of our society. Excess labour is invested in inefficient and clumsily small projects. The economy falters and other industries grow slower because food prices are higher than they could be. As a modern state, we have no reason to tolerate this. The agricultural ministry, with the aid of a number absolutist commissars, have prepared an ambitious plan to effect the large scale collectivisation of agriculture in the countryside. ;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+disable_pandemics_title;Disable Pandemics;;;;;;;;;;;;;x
+disable_pandemics_desc;§RAllowing pandemics can negatively effect the game's performance!§! GGG has a system for simulating the spread of one major pandemic per game. Enabling this decision will disable pandemics for everyone. This cannot be undone.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

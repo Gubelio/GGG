@@ -12,8 +12,8 @@ country_event = {
 		
 		NOT = { has_global_flag = pandemics_disabled }
 		NOT = { has_global_flag = white_flux_pandemic_happened }
-		NOT = { has_global_flag = blinding_cough_pandemic_happened }
-		NOT = { has_global_flag = rotpox_pandemic_happened }
+		NOT = { has_global_flag = red_flux_pandemic_happened }
+		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
     }
 	
 	major = yes
@@ -83,24 +83,19 @@ country_event = { #disease ticker
 		war = no
 		
 		OR = {
-			
 			any_neighbor_country = {
-			
 				any_owned_province = {
-						has_province_modifier = white_flux
-						any_neighbor_province = { 
-							empty = no
-							NOT = {
-								has_province_modifier = white_flux
-								has_province_flag = had_pandemic
-							}
+					has_province_modifier = white_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = white_flux
+							has_province_flag = had_pandemic
 						}
 					}
-			
-			
+				}
 			}
 		}
-	
 	}
 	
 	
@@ -129,7 +124,6 @@ country_event = { #disease ticker
 						}
 					}
 				}
-			
 			}
 		
 		

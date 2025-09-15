@@ -571,11 +571,11 @@ EVT50203NAME;The Synod Convenes;;;;;;;;;;;;;x
 EVT50203DESC;The day has arrived. The great Oecumenical synod has convened in $CAPITAL$. Hundreds of eminent clerics, writers, and intellectuals have encamped in the great meeting house of the capital, from all around the world. The sober clerics from Kush, dressed in dour, rough cloth - the slight, nervous, urbane writers from Jiisha - the sturdy, jolly Dhukk preachers, from the borderlands - the weathered hermits from the Gizhpt mountains. It has been over 70 years since the last the Synod convened, at the urging of the Jiishanagi Lord Minister, over the question of the infinity or creation. This synod proceeds less under the oversight of temporal might, but the proceedings are much the same: our leader, nominal head of our state church, deputises a president and a secretary, and the resolutions are considered binding for all those who consider themselves in communion with the mainline Motkohnic legal corpus, which includes a large number of states and sub-state communities. ;;;;;;;;;;;;;x 
 EVT50204NAME;x;;;;;;;;;;;;;x  #ai event player will never see
 EVT50204DESC;x;;;;;;;;;;;;;x 
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50126;The Artisan's Demand;;;;;;;;;;;;;x
+EVTDESC50126;x;;;;;;;;;;;;;x
+EVT50206OPTA;He makes a fair point!;;;;;;;;;;;;;x
+EVT50206OPTB;Bah, I don't have time for this reactionary drivel;;;;;;;;;;;;;x
+EVT50206OPTC;This dangerous seditionist and his followers must be put to death!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

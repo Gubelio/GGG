@@ -1915,6 +1915,103 @@ country_event = {
 	
 	mean_time_to_happen = {
         months = 350
+		
+		modifier = {
+           factor = 1.5
+		   ruling_party_ideology = reactionary
+		}
+		
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.7
+		   average_consciousness = 9
+		}
+		
+		modifier = {
+           factor = 0.9
+		   unemployment = 0.05
+		   NOT = { unemployment = 0.1 }
+		}
+		modifier = {
+           factor = 0.8
+		   unemployment = 0.1
+		}
+		
+		modifier = { #Neglecting the welfare of the people
+           factor = 0.8
+		   NOT = { social_spending = 0.1 }
+		}
+		modifier = { #Taxing the poor over the rich
+           factor = 0.9
+		   rich_tax_above_poor = no
+		}
+		modifier = {
+           factor = 0.9
+		   election = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_recently_lost_war = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_unclaimed_cores = yes
+		}
+		modifier = { #if over infamy limit
+           factor = 0.9
+		   badboy = 1 
+		}
+		modifier = { #neglected crime fighting force
+           factor = 0.9
+		   NOT = { crime_fighting = 0.1 }
+		}
+		
+		modifier = { 
+           factor = 0.9
+		   NOT = { poor_strata_life_needs = 0.5 } 
+		}
+		modifier = { 
+           factor = 0.9
+		   NOT = { middle_strata_life_needs = 0.5 }
+		}
+		modifier = { 
+           factor = 0.8
+		   NOT = { rich_strata_life_needs = 0.5 } 
+		}
+
+		modifier = {
+           factor = 0.9
+		   war_exhaustion = 60
+		   NOT = { war_exhaustion = 95 }
+		}
+		modifier = {
+           factor = 0.7
+		   war_exhaustion = 95
+		}
+		
+		modifier = {
+           factor = 0.9
+		   has_country_modifier = in_bankrupcy
+		}
+		
+		modifier = {
+			factor = 0.8
+			has_country_modifier = international_sanctions
+		}
+		
 		modifier = {
            factor = 1.1
 		   NOT = { industrial_score = 10 }
@@ -2048,7 +2145,6 @@ country_event = {
 						ideology = conservative
 						factor = 2
 					}
-					
 				}
 			}
 		}
@@ -2087,3 +2183,333 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50206
+	title = "EVTNAME50126" #Arch-Reactionary Seditionist demands curtailing of local industries
+	desc = "EVTDESC50126"
+	
+    trigger = {
+		civilized = yes
+    }
+	
+	mean_time_to_happen = {
+        months = 350
+		modifier = {
+           factor = 1.5
+		   ruling_party_ideology = reactionary
+		}
+		
+		modifier = {
+           factor = 0.9
+		   average_militancy = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.8
+		   average_militancy = 9
+		}
+		modifier = {
+           factor = 0.8
+		   average_consciousness = 5
+		   NOT = { average_consciousness = 9 }
+		}
+		modifier = {
+           factor = 0.7
+		   average_consciousness = 9
+		}
+		
+		modifier = {
+           factor = 0.9
+		   unemployment = 0.05
+		   NOT = { unemployment = 0.1 }
+		}
+		modifier = {
+           factor = 0.8
+		   unemployment = 0.1
+		}
+		
+		modifier = { #Neglecting the welfare of the people
+           factor = 0.8
+		   NOT = { social_spending = 0.1 }
+		}
+		modifier = { #Taxing the poor over the rich
+           factor = 0.9
+		   rich_tax_above_poor = no
+		}
+		modifier = {
+           factor = 0.9
+		   election = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_recently_lost_war = yes
+		}
+		modifier = {
+           factor = 0.9
+		   has_unclaimed_cores = yes
+		}
+		modifier = { #if over infamy limit
+           factor = 0.9
+		   badboy = 1 
+		}
+		modifier = { #neglected crime fighting force
+           factor = 0.9
+		   NOT = { crime_fighting = 0.1 }
+		}
+		
+		modifier = { 
+           factor = 0.9
+		   NOT = { poor_strata_life_needs = 0.5 } 
+		}
+		modifier = { 
+           factor = 0.9
+		   NOT = { middle_strata_life_needs = 0.5 }
+		}
+		modifier = { 
+           factor = 0.8
+		   NOT = { rich_strata_life_needs = 0.5 } 
+		}
+
+		modifier = {
+           factor = 0.9
+		   war_exhaustion = 60
+		   NOT = { war_exhaustion = 95 }
+		}
+		modifier = {
+           factor = 0.7
+		   war_exhaustion = 95
+		}
+		
+		modifier = {
+           factor = 0.9
+		   has_country_modifier = in_bankrupcy
+		}
+		
+		modifier = {
+			factor = 0.8
+			has_country_modifier = international_sanctions
+		}
+		
+		modifier = {
+           factor = 1.1
+		   NOT = { industrial_score = 10 }
+		}
+		
+		modifier = {
+			factor = 0.8
+			OR = {
+				government = statist_bureaucracy
+				government = paternalistic_council
+			}
+		}
+
+		#Social Reforms
+		
+		modifier = {
+			factor = 1.1
+			NOT = {
+				OR = {
+					worker_protections = acceptable_protections
+					worker_protections = good_protections
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = { clerical_law = anti_clericalism }
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = {
+				OR = {
+					scriptural_law = permitted_heterodoxy
+					scriptural_law = local_congregationalism
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = {
+				OR = {
+					welfare_laws = universal_grain_dole
+					welfare_laws = mule_n_seed_law
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+				debt_law = bankruptcy
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = {
+				OR = {
+					slavery = gradual_abolition
+					slavery = no_slavery
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = { social_privileges = equality_before_the_law }
+		}
+		
+		#Political Reforms
+		
+		modifier = {
+			factor = 0.9
+			NOT = { land_reform_civ = feudal_tenure }
+		}
+
+		modifier = {
+			factor = 0.9
+			NOT = { public_order = feudal_courts }
+		}
+		
+		modifier = {
+			factor = 1.1
+			NOT = {
+				OR = {
+					administrative_reform = appointed_bureaucrats
+					administrative_reform = professional_bureaucracy
+				}
+			}
+		}
+	
+	}
+	
+	option = {
+		name = "EVT50206OPTA" #Give in to his demands
+		random_state = {
+			limit = {
+				is_colonial = no
+				has_factories = yes
+			}
+			any_owned = {
+				add_province_modifier = { name = industry_curtailed duration = 3652 } #~10 years
+				any_pop = {
+					#militancy = 1
+					consciousness = 1
+					ideology = {
+						factor = 0.008
+						value = reactionary
+					}
+					ideology = {
+						factor = 0.002
+						value = liberationist
+					}
+					ideology = {
+						factor = 0.002
+						value = free_yoker
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = -1
+					}
+					scaled_consciousness = {
+						ideology = reactionary
+						factor = 4
+					}
+					scaled_consciousness = {
+						ideology = liberationist
+						factor = 2
+					}
+					scaled_consciousness = {
+						ideology = free_yoker
+						factor = 2
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT50206OPTB" #Ignore Him
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+			ideology = {
+				factor = 0.005
+				value = reactionary
+			}
+		}
+		random_state = {
+			limit = {
+				is_colonial = no
+				has_factories = yes
+			}
+			any_owned = {
+				any_pop = {
+					militancy = 1
+					consciousness = 1
+					ideology = {
+						factor = 0.005
+						value = reactionary
+					}
+					ideology = {
+						factor = 0.001
+						value = liberationist
+					}
+					ideology = {
+						factor = 0.001
+						value = free_yoker
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = 5
+					}
+					scaled_consciousness = {
+						ideology = reactionary
+						factor = 3
+					}
+					scaled_consciousness = {
+						ideology = liberationist
+						factor = 1
+					}
+					scaled_consciousness = {
+						ideology = free_yoker
+						factor = 1
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT50206OPTC" #Violently supress him and his goons
+		any_pop = {
+			militancy = 1
+		}
+		random_state = {
+			limit = {
+				is_colonial = no
+				has_factories = yes
+			}
+			any_owned = {
+				any_pop = {
+					militancy = 1
+					consciousness = 1
+					ideology = {
+						factor = 0.002
+						value = reactionary
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = 9
+					}
+					scaled_consciousness = {
+						ideology = reactionary
+						factor = 1
+					}
+				}
+			}
+		}
+	}
+	
+}

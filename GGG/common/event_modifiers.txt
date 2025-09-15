@@ -402,7 +402,7 @@ white_flux = {
     icon = 21
 }
 
-blinding_cough = {
+red_flux = {
 	life_rating = -0.25
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
@@ -410,10 +410,18 @@ blinding_cough = {
     icon = 22
 }
 
-rot_pox = {
+wasting_sickness = {
 	life_rating = -0.25
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
     icon = 23
+}
+
+industry_curtailed = {
+	local_artisan_output = 0.05
+	local_factory_input = 0.05
+	local_factory_output = -0.05
+	local_factory_throughput = -0.1
+    icon = 2
 }
