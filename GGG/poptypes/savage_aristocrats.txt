@@ -338,7 +338,7 @@ migration_target = {
 promote_to =
 {
 
-    #anuvo_capitalists =
+    #savage_capitalists =
     #{
     #    factor = 0.01
     #    modifier = {
@@ -381,22 +381,22 @@ promote_to =
     #    group = {
     #        modifier = {
     #            factor = -1
-    #            state_scope = { anuvo_capitalists = 0.001 }
+    #            state_scope = { savage_capitalists = 0.001 }
     #            country = { ai = no }
     #        }
     #        modifier = {
     #            factor = -2
-    #            state_scope = { anuvo_capitalists = 0.003 }
+    #            state_scope = { savage_capitalists = 0.003 }
     #            country = { ai = no }
     #        }
     #        modifier = {
     #            factor = -2
-    #            state_scope = { anuvo_capitalists = 0.005 }
+    #            state_scope = { savage_capitalists = 0.005 }
     #            country = { ai = no }
     #        }
     #        modifier = {
     #            factor = -100
-    #            state_scope = { anuvo_capitalists = 0.007 }
+    #            state_scope = { savage_capitalists = 0.007 }
     #        }
     #    }
 	#
@@ -458,12 +458,12 @@ promote_to =
     #        }
     #    }
     #}
-    anuvo_officers = {
+    savage_officers = {
         factor = 0.01
 
         modifier = {
             factor = -5
-            state_scope = { anuvo_officers = 0.002 }
+            state_scope = { savage_officers = 0.002 }
         }
 
         modifier = {
@@ -484,7 +484,7 @@ promote_to =
             }
         }
     }
-    anuvo_clergymen =
+    savage_clergymen =
     {
         factor = 0.01
         group = {
@@ -577,43 +577,43 @@ promote_to =
         group = {
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.004
+                savage_clergymen = 0.004
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.008
+                savage_clergymen = 0.008
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.012
+                savage_clergymen = 0.012
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.016
+                savage_clergymen = 0.016
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.02
+                savage_clergymen = 0.02
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.024
+                savage_clergymen = 0.024
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.028
+                savage_clergymen = 0.028
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.032
+                savage_clergymen = 0.032
             }
             modifier = {
                 factor = -2
-                anuvo_clergymen = 0.036
+                savage_clergymen = 0.036
             }
             modifier = {
                 factor = -100
-                anuvo_clergymen = 0.04
+                savage_clergymen = 0.04
             }
         }
         group = {
@@ -643,7 +643,7 @@ promote_to =
             }
         }
     }
-    anuvo_bureaucrats = {
+    savage_bureaucrats = {
         factor = 0.01
         modifier = {
             factor = -100
@@ -683,83 +683,83 @@ promote_to =
         group = {
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.002 }
+                state_scope = { savage_bureaucrats = 0.002 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.004 }
+                state_scope = { savage_bureaucrats = 0.004 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.006 }
+                state_scope = { savage_bureaucrats = 0.006 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.008 }
+                state_scope = { savage_bureaucrats = 0.008 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.010 }
+                state_scope = { savage_bureaucrats = 0.010 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.012 }
+                state_scope = { savage_bureaucrats = 0.012 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.014 }
+                state_scope = { savage_bureaucrats = 0.014 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.016 }
+                state_scope = { savage_bureaucrats = 0.016 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.018 }
+                state_scope = { savage_bureaucrats = 0.018 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.020 }
+                state_scope = { savage_bureaucrats = 0.020 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.022 }
+                state_scope = { savage_bureaucrats = 0.022 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.024 }
+                state_scope = { savage_bureaucrats = 0.024 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.026 }
+                state_scope = { savage_bureaucrats = 0.026 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.028 }
+                state_scope = { savage_bureaucrats = 0.028 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.030 }
+                state_scope = { savage_bureaucrats = 0.030 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.032 }
+                state_scope = { savage_bureaucrats = 0.032 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.034 }
+                state_scope = { savage_bureaucrats = 0.034 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.036 }
+                state_scope = { savage_bureaucrats = 0.036 }
             }
             modifier = {
                 factor = -2
-                state_scope = { anuvo_bureaucrats = 0.038 }
+                state_scope = { savage_bureaucrats = 0.038 }
             }
             modifier = {
                 factor = -100
-                state_scope = { anuvo_bureaucrats = 0.040 }
+                state_scope = { savage_bureaucrats = 0.040 }
             }
         }
 
@@ -890,11 +890,11 @@ promote_to =
         }
 
     }
-    anuvo_farmers = { #and anuvo_labourers
+    savage_farmers = { #and savage_labourers
         factor = 0.01
         modifier = {
             factor = 5.0
-            anuvo_soldiers = 0.03
+            savage_soldiers = 0.03
         }
         modifier = {
             factor = 5.0
@@ -902,10 +902,10 @@ promote_to =
         }
         modifier = {
             factor = 5.0
-            NOT = { location = { work_available = { worker = anuvo_craftsmen } } }
+            NOT = { location = { work_available = { worker = savage_craftsmen } } }
         }
     }
-#    anuvo_labourers =
+#    savage_labourers =
 #    {
 #        factor = 0.01
 #        modifier = {
@@ -7208,14 +7208,14 @@ rehabilitation = {
             consciousness = 9
         }
     }
-    appointed_anuvo_bureaucrats = {
+    appointed_savage_bureaucrats = {
         factor = 1
         modifier = {
             factor = 0
             OR = {
    			    NOT = { is_ideology_enabled = statist }
                 NOT = { consciousness = 6 }
-                NOT = { is_next_reform = appointed_anuvo_bureaucrats }
+                NOT = { is_next_reform = appointed_savage_bureaucrats }
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }
