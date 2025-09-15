@@ -18,6 +18,13 @@ factory_template = {
             effect = throughput
             amount = 0.8
         }
+		
+		{
+            poptype = anuvo_craftsmen
+            effect = throughput
+            amount = 0.9
+        }
+		
         {
             poptype = clerks
             effect = output
@@ -48,6 +55,13 @@ cheap_factory_template = {
             effect = throughput
             amount = 0.8
         }
+		
+		{
+            poptype = anuvo_craftsmen
+            effect = throughput
+            amount = 0.9
+        }
+		
         {
             poptype = clerks
             effect = output
@@ -78,6 +92,13 @@ machine_part_user_template = {
             effect = throughput
             amount = 0.8
         }
+		
+		{
+            poptype = anuvo_craftsmen
+            effect = throughput
+            amount = 0.9
+        }
+		
         {
             poptype = clerks
             effect = output
@@ -108,6 +129,13 @@ cement_template = {
             effect = throughput
             amount = 0.8
         }
+		
+		{
+            poptype = anuvo_craftsmen
+            effect = throughput
+            amount = 0.9
+        }
+		
         {
             poptype = clerks
             effect = output
@@ -699,6 +727,8 @@ RGO_template_farmers = {
         poptype = aristocrats
         effect = output
     }
+	
+
 
     employees = {
         {
@@ -706,17 +736,36 @@ RGO_template_farmers = {
             effect = throughput
             amount = 1
         }
+		
+		{
+            poptype = anuvo_farmers
+            effect = throughput
+            amount = 1.1
+        }
 
         {
             poptype = serfs
             effect = throughput
             amount = 1
         }
+		
+		{
+            poptype = anuvo_serfs
+            effect = throughput
+            amount = 1.1
+        }
 
         {
             poptype = slaves
             effect = throughput
             amount = 1
+            effect_multiplier = 1.4
+        }
+		
+		{
+            poptype = anuvo_slaves
+            effect = throughput
+            amount = 1.1
             effect_multiplier = 1.4
         }
     }
@@ -733,9 +782,15 @@ RGO_template_labourers = {
 
     employees = {
         {
-            poptype = labourers
+            poptype = farmers
             effect = throughput
             amount = 1
+        }
+		
+		{
+            poptype = anuvo_farmers
+            effect = throughput
+            amount = 1.1
         }
 
         {
@@ -743,11 +798,24 @@ RGO_template_labourers = {
             effect = throughput
             amount = 1
         }
+		
+		{
+            poptype = anuvo_serfs
+            effect = throughput
+            amount = 1.1
+        }
 
         {
             poptype = slaves
             effect = throughput
             amount = 1
+            effect_multiplier = 1.4
+        }
+		
+		{
+            poptype = anuvo_slaves
+            effect = throughput
+            amount = 1.1
             effect_multiplier = 1.4
         }
     }
@@ -763,9 +831,15 @@ RGO_template_mines = {
     }
     employees = {
         {
-            poptype = labourers
+            poptype = farmers
             effect = throughput
             amount = 1
+        }
+		
+		{
+            poptype = anuvo_farmers
+            effect = throughput
+            amount = 1.1
         }
 
         {
@@ -773,11 +847,24 @@ RGO_template_mines = {
             effect = throughput
             amount = 1
         }
+		
+		{
+            poptype = anuvo_serfs
+            effect = throughput
+            amount = 1.1
+        }
 
         {
             poptype = slaves
             effect = throughput
             amount = 1
+            effect_multiplier = 1.4
+        }
+		
+		{
+            poptype = anuvo_slaves
+            effect = throughput
+            amount = 1.1
             effect_multiplier = 1.4
         }
     }

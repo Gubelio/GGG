@@ -12,6 +12,7 @@ rail_focus = #Undesirable Populations
 	}
 	encourage_enslavement_focus = {
 		slaves = 3 #100 #this is obscenely large, to counterweight the minuscule base chance of demoting to slave
+		anuvo_slaves = 3
 		pop_militancy_modifier = 0.01 
 		limit = {
 			owner = { 
@@ -67,6 +68,7 @@ promotion_focus =
 	promote_aristocrats =
 	{
 		aristocrats = 0.20 #20% more likeley to become artisans
+		anuvo_aristocrats = 0.20 #20% more likeley to become artisans
 		icon = 5
 		outliner_show_as_percent = yes
 	}
@@ -74,6 +76,7 @@ promotion_focus =
 	promote_artisans =
 	{
 		artisans = 0.20 #20% more likeley to become this type
+		anuvo_artisans = 0.20 #20% more likeley to become this type
 		icon = 6
 		outliner_show_as_percent = yes
 	}
@@ -81,6 +84,7 @@ promotion_focus =
 	promote_bureaucrats =
 	{
 		bureaucrats = 0.20 #20% more likeley to become this type
+		anuvo_bureaucrats = 0.20 #20% more likeley to become this type
 		icon = 7
 		outliner_show_as_percent = yes
 	}
@@ -99,6 +103,7 @@ promotion_focus =
 	promote_clergymen =
 	{
 		clergymen = 0.20 #20% more likeley to become this type
+		anuvo_clergymen = 0.20 #20% more likeley to become this type
 		icon = 9
 		outliner_show_as_percent = yes
 	}
@@ -116,6 +121,7 @@ promotion_focus =
 	promote_craftsmen =
 	{
 		craftsmen = 0.20 #20% more likeley to become this type
+		anuvo_craftsmen = 0.20 #20% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
 		limit = { 
@@ -126,6 +132,7 @@ promotion_focus =
 	promote_farmers =
 	{
 		farmers = 0.20 #20% more likeley to become this type
+		anuvo_farmers = 0.20 #20% more likeley to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 	}
@@ -133,6 +140,7 @@ promotion_focus =
 	promote_labourers =
 	{
 		labourers = 0.20 #20% more likeley to become this type
+		anuvo_labourers = 0.20 #20% more likeley to become this type
 		icon = 13
 		outliner_show_as_percent = yes
 	}
@@ -140,6 +148,7 @@ promotion_focus =
 	promote_officers =
 	{
 		officers = 0.20 #20% more likeley to become this type
+		anuvo_officers = 0.20 #20% more likeley to become this type
 		icon = 14
 		outliner_show_as_percent = yes
 	}
@@ -147,6 +156,7 @@ promotion_focus =
 	promote_soldiers =
 	{
 		soldiers = 0.20 #20% more likeley to become this type
+		anuvo_soldiers = 0.20 #20% more likeley to become this type
 		icon = 15
 		outliner_show_as_percent = yes
         limit = {

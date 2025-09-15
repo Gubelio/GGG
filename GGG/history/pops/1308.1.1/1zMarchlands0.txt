@@ -45,28 +45,28 @@
 		size = 876
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =6501
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3639
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =100380
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =19503
@@ -120,28 +120,28 @@
 		size = 927
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =811
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =454
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =12561
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2439
@@ -237,28 +237,28 @@
 		size = 1387
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1948
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1090
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =30087
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =5845
@@ -312,28 +312,28 @@
 		size = 123
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =4848
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2715
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =74880
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =14547
@@ -429,28 +429,28 @@
 		size = 961
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1158
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =612
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =16117
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3174
@@ -462,145 +462,145 @@
 
 
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 114
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 325
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 27
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 25
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 4
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 12
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 63
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 181
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 15
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = wompowushan
 		size = 13
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 6
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = vewugi
 		size = 211
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = vewugi
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = vewugi
 		size = 603
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = vewugi
 		size = 51
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = vewugi
 		size = 46
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = vewugi
 		size = 9
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 22
@@ -630,56 +630,56 @@
 		size = 51
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1329
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =52
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =531
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2658
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2923
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =33759
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =52
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =11854
@@ -715,229 +715,229 @@
 		size = 1
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 78
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 3
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 177
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 4
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 9
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 4495
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 19
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 12802
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1108
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1008
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 201
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 19
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 504
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 114
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 327
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 27
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = wompowushan
 		size = 25
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = wompowushan
 		size = 4
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 12
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = vewugi
 		size = 642
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = vewugi
 		size = 1
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = vewugi
 		size = 1831
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = vewugi
 		size = 157
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = vewugi
 		size = 144
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = vewugi
 		size = 28
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 1
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 72
@@ -967,56 +967,56 @@
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =88
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =34
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =178
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =196
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2269
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =796
@@ -1052,296 +1052,296 @@
 		size = 10
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 144
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 411
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 34
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 31
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 6
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 15
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 411
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1173
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 100
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 91
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 18
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 45
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 19213
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 85
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 54714
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 4738
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 4308
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 861
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 85
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 2154
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 33
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 97
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 7
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = wompowushan
 		size = 7
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 3
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = vewugi
 		size = 5833
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = vewugi
 		size = 25
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = vewugi
 		size = 16614
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = vewugi
 		size = 1438
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = vewugi
 		size = 1308
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = vewugi
 		size = 261
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 25
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 654
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =462
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =18
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =184
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =924
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1017
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =11749
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =18
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =4125
@@ -1406,296 +1406,296 @@
 		size = 880
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 151
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 432
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 36
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 33
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 6
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 16
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 780
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2221
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 192
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 174
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 34
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 87
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1819
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 7
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 5184
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 448
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 408
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 81
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 7
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 204
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 108
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 307
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 25
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = wompowushan
 		size = 24
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = wompowushan
 		size = 4
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = wompowushan
 		size = 12
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = vewugi
 		size = 11521
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = anuvo
 		religion = vewugi
 		size = 51
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = vewugi
 		size = 32806
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = vewugi
 		size = 2841
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = anuvo
 		religion = vewugi
 		size = 2583
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = anuvo
 		religion = vewugi
 		size = 516
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 51
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = anuvo
 		religion = vewugi
 		size = 1291
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =87
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =34
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =174
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =192
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2223
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =3
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =780
@@ -2640,7 +2640,7 @@
 		size = 516
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 5184
@@ -2755,7 +2755,7 @@
 		size = 234
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 4401
@@ -3064,91 +3064,91 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 15
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 9
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 465
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 22
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 10
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 6
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 328
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 15
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 109
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 72
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 3285
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 163
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 18
@@ -3395,61 +3395,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 24
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 15
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 732
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 36
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 64
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 42
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1947
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 96
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 10
@@ -3672,7 +3672,7 @@
 		size = 153
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 8914
@@ -3739,91 +3739,91 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 19
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 12
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 597
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 28
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 3
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 103
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 69
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 3147
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 156
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 16
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1948
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1299
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 58498
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 2923
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 324
@@ -3938,151 +3938,151 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 31
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 21
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 988
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 48
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 4
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 4
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 3
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 136
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 6
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 0
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 130
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 87
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 3958
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 196
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 21
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 12
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 7
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 394
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 19
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 598
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 132
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 5985
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 258
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 33
@@ -4149,61 +4149,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 15
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 9
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 450
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 22
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 105
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 69
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 3150
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 157
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 16
@@ -4427,61 +4427,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 39
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 25
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1198
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 58
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 6
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 39
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 25
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1183
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 58
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 6
@@ -4741,61 +4741,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 774
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 5686
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 18094
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1162
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 129
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 690
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 5059
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 16099
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1035
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 114
@@ -4970,61 +4970,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 54
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 403
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1284
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 82
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 9
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 58
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 439
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1398
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 88
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 9
@@ -5115,7 +5115,7 @@
 		size = 49
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 10998
@@ -5186,91 +5186,91 @@
 		size = 1116
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 982
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 7207
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 22935
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1473
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 163
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 154
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1135
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 3616
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 232
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 25
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 103
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 768
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 2446
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 156
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 16
@@ -5342,91 +5342,91 @@
 		size = 2299
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 54
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 406
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1294
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 82
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 9
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 204
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1501
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 4780
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 306
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 33
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 105
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 772
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 2460
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 157
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 16
@@ -5567,91 +5567,91 @@
 		size = 234
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 85
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 633
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 2017
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 129
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 13
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 13
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 109
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 348
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 21
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 54
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 406
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 1293
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 82
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 9
@@ -5718,151 +5718,151 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 144
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1062
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3381
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 216
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 24
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 73
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 541
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1725
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 109
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 12
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 4
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 43
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 138
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 7
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 0
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 13
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 105
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 337
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 21
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 4
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 39
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 127
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 7
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 0
@@ -6025,28 +6025,28 @@
 		size = 1453
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =94
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =379
 	}
 
 
-	slaves = {
+	anuvo_slaves = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =6651
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2374
@@ -6058,49 +6058,49 @@
 
 
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 780
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 3
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 2223
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 192
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 174
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 34
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 3
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 87
@@ -6112,56 +6112,56 @@
 		size = 1098
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =586
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =22
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =234
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1174
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1291
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =14916
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =22
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =5238
@@ -6173,49 +6173,49 @@
 
 
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = vewugi
 		size = 511
 	}
 
-	officers = {
+	anuvo_officers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1459
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = vewugi
 		size = 126
 	}
 
-	artisans = {
+	anuvo_artisans = {
 		culture = shagmodt
 		religion = vewugi
 		size = 114
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		culture = shagmodt
 		religion = vewugi
 		size = 22
 	}
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 1
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		culture = shagmodt
 		religion = vewugi
 		size = 57
@@ -6245,56 +6245,56 @@
 		size = 18
 	}
 
-	aristocrats = {
+	anuvo_aristocrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =504
 	}
 
 
-	bureaucrats = {
+	anuvo_bureaucrats = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =19
 	}
 
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =201
 	}
 
 
-	artisans = {
+	anuvo_artisans = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1008
 	}
 
 
-	soldiers = {
+	anuvo_soldiers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =1108
 	}
 
 
-	farmers = {
+	anuvo_farmers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =12804
 	}
 
 
-	officers = {
+	anuvo_officers = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =19
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =4495
@@ -6402,14 +6402,14 @@
 		size = 1582
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =6648
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =2848
@@ -6517,14 +6517,14 @@
 		size = 124
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =15165
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =6498
@@ -6848,28 +6848,28 @@
 		size = 180
 	}
 
-	clergymen = {
+	anuvo_clergymen = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =315
 	}
 
 
-	slaves = {
+	anuvo_slaves = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =4996
 	}
 
 
-	serfs = {
+	anuvo_serfs = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =5661
 	}
 
 
-	thralls = {
+	anuvo_thralls = {
 		 culture = ghechi
 		 religion = vewugi
 		 size =4863
@@ -6881,241 +6881,241 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1684
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 12355
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 39315
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2526
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 280
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1549
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 11368
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 36175
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 2325
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 258
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 54
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 406
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 1293
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 82
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 9
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 154
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1138
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 3625
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 232
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 25
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 24
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 181
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 580
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 36
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 3
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = vewugi
 		size = 204
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = vewugi
 		size = 1501
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = vewugi
 		size = 4780
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = vewugi
 		size = 306
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = vewugi
 		size = 33
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = kadkohi
 		size = 105
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = kadkohi
 		size = 772
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = kadkohi
 		size = 2460
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 157
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 16
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = motkohnic
 		size = 19
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = motkohnic
 		size = 145
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = motkohnic
 		size = 466
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 30
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 3
@@ -7231,61 +7231,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1099
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 8062
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 25654
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1648
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 183
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 778
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 5719
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 18198
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1168
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 129
@@ -7400,121 +7400,121 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 144
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1063
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3384
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 217
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 24
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 553
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 4066
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 12939
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 831
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 91
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = kadkohi
 		size = 238
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = kadkohi
 		size = 1759
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = kadkohi
 		size = 5598
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 358
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 39
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = motkohnic
 		size = 15
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = motkohnic
 		size = 109
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = motkohnic
 		size = 349
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 22
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 1
@@ -7580,151 +7580,151 @@
 225 = {
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = vewugi
 		size = 373
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = vewugi
 		size = 2749
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = vewugi
 		size = 8749
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = vewugi
 		size = 561
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = vewugi
 		size = 61
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1138
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 8355
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 26587
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1708
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 189
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 105
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 769
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 2449
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 157
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 16
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = kadkohi
 		size = 15
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = kadkohi
 		size = 109
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = kadkohi
 		size = 349
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 22
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = motkohnic
 		size = 100
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = motkohnic
 		size = 736
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = motkohnic
 		size = 2344
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 150
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 16
@@ -7791,151 +7791,151 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 150
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1099
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3499
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 225
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 24
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 244
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1795
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 5715
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 366
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 40
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = vewugi
 		size = 108
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = vewugi
 		size = 801
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = vewugi
 		size = 2551
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = vewugi
 		size = 163
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = vewugi
 		size = 18
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = kadkohi
 		size = 9
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = kadkohi
 		size = 76
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = kadkohi
 		size = 244
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 15
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = kadkohi
 		size = 1
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = ghechi
 		religion = motkohnic
 		size = 57
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = ghechi
 		religion = motkohnic
 		size = 426
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = ghechi
 		religion = motkohnic
 		size = 1359
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 87
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = ghechi
 		religion = motkohnic
 		size = 9
@@ -8002,61 +8002,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 339
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2493
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 7932
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 508
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 55
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1509
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 11071
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 35230
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 2263
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 250
@@ -8123,61 +8123,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 244
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1795
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 5715
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 366
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 40
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1099
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 8062
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 25654
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1648
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 183
@@ -8244,61 +8244,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 298
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2194
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 6985
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 448
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 49
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1230
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 9019
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 28702
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1845
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 204
@@ -8365,61 +8365,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 144
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 1063
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3387
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 217
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 24
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 45
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 340
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1084
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 69
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 7
@@ -8486,61 +8486,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 130
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 967
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 3078
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 196
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 21
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 420
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 3079
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 9799
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 630
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 69
@@ -8607,151 +8607,151 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 109
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 805
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2565
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 163
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 18
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 198
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 1462
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 4654
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 298
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 33
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = wompowushan
 		size = 568
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = wompowushan
 		size = 4174
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = wompowushan
 		size = 13285
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 853
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = wompowushan
 		size = 94
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = kadkohi
 		size = 144
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = kadkohi
 		size = 1066
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = kadkohi
 		size = 3394
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 217
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = kadkohi
 		size = 24
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = anuvo
 		religion = motkohnic
 		size = 39
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = anuvo
 		religion = motkohnic
 		size = 291
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = anuvo
 		religion = motkohnic
 		size = 927
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 58
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = anuvo
 		religion = motkohnic
 		size = 6
@@ -8866,61 +8866,61 @@
 
 
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 111
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 814
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 2593
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 166
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = kadkohi
 		size = 18
 	}
 
-	thralls = {
+	anuvo_thralls = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 105
 	}
 
-	serfs = {
+	anuvo_serfs = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 778
 	}
 
-	slaves = {
+	anuvo_slaves = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 2478
 	}
 
-	farmers = {
+	anuvo_farmers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 159
 	}
 
-	soldiers = {
+	anuvo_soldiers = {
 		culture = shagmodt
 		religion = motkohnic
 		size = 16
