@@ -768,6 +768,12 @@ RGO_template_farmers = {
             amount = 1.1
             effect_multiplier = 1.4
         }
+		
+		{
+            poptype = anuvo_aristocrats
+            effect = output
+            amount = 1
+        }
     }
 
     type = rgo
@@ -818,6 +824,12 @@ RGO_template_labourers = {
             amount = 1.1
             effect_multiplier = 1.4
         }
+		
+		{
+            poptype = anuvo_aristocrats
+            effect = output
+            amount = 1
+        }
     }
 
     type = rgo
@@ -866,6 +878,12 @@ RGO_template_mines = {
             effect = throughput
             amount = 1.1
             effect_multiplier = 1.4
+        }
+		
+		{
+            poptype = anuvo_aristocrats
+            effect = output
+            amount = 1
         }
     }
 
