@@ -688,7 +688,7 @@ guiTypes = {
 	# placement of pop filter buttons
 	positionType = {
 		name = "popfilter_start"
-		position = { x = -300 y = -100 }
+		position = { x = -400 y = -100 }
 	}
 	
 	positionType = {
