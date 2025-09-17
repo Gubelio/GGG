@@ -596,6 +596,32 @@ assimilation_chance =
 			literacy = 0.8
 		}
 	}
+	
+	modifier = { #no cross species assimilation
+		factor = -100
+		
+		is_culture_group = byotrish
+		
+		country = {
+			NOT = {
+				is_culture_group = byotrish
+			}
+		}
+		
+	}
+	
+	modifier = { #no cross species assimilation
+		factor = -100
+		
+		is_culture_group = vuyti
+		
+		country = {
+			NOT = {
+				is_culture_group = vuyti
+			}
+		}
+		
+	}
 
 	modifier = {
     	factor = -20
