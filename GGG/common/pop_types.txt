@@ -852,7 +852,7 @@ assimilation_chance =
 		
 	}
 	
-	modifier = { 												#western insuloids - insular type, seemingly related to sapinoids
+	modifier = { 												#occidental insuloids - insular type, seemingly related to sapinoids
 		factor = -100
 		
 		is_culture_group = ruadian
@@ -899,6 +899,69 @@ assimilation_chance =
 		country = {
 			NOT = {
 				is_culture_group = mhorish_group
+			}
+		}
+		
+	}
+	
+	modifier = { 												#oriental insuloids - classic case of insular dwarfism, one of the smallest hominids
+		factor = -100
+		
+		OR = {
+			is_culture_group = tuqqikian_group 
+			is_culture_group = zagkhan_group
+			is_culture_group = mjhman_group
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = tuqqikian_group 
+					is_culture_group = zagkhan_group
+					is_culture_group = mjhman_group
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#bafinoid - vastly distributed stock of moderately sized, adroit hominid across the great plains of bafozh
+		factor = -100
+		
+		OR = {
+			is_culture_group = asyum_group 
+			is_culture_group = sharna_group
+			is_culture_group = dhrahdian_group
+			is_culture_group = ratskian_group  
+			is_culture_group = tgoen_group
+			is_culture_group = gji_group
+			is_culture_group = khrayian_group
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = asyum_group 
+					is_culture_group = sharna_group
+					is_culture_group = dhrahdian_group
+					is_culture_group = ratskian_group  
+					is_culture_group = tgoen_group
+					is_culture_group = gji_group
+					is_culture_group = khrayian_group
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#bafinoid minus - smaller group of bafinoids, perhaps belonging to an earlier substrate of migration
+		factor = -100
+		
+		is_culture_group = mromen_group
+		
+		country = {
+			NOT = {
+				is_culture_group = mromen_group
 			}
 		}
 		
