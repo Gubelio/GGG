@@ -597,10 +597,10 @@ assimilation_chance =
 		}
 	}
 	
-	modifier = { #no cross species assimilation
+	modifier = { #no cross species assimilation 
 		factor = -100
 		
-		is_culture_group = byotrish
+		is_culture_group = byotrish 								#occidental gigantoids - largely hairless, tall (5-7 ft), pale giants from the Ishahfazhi moutains
 		
 		country = {
 			NOT = {
@@ -610,14 +610,218 @@ assimilation_chance =
 		
 	}
 	
-	modifier = { #no cross species assimilation
+	modifier = { 
 		factor = -100
 		
-		is_culture_group = vuyti
+		OR = {
+			is_culture_group = vuyti 									#ruminoids - largely docile, mainly vegetarian, short, dwellers in peripheral enviornments (plains, scrubland, swampy jungle).
+			is_culture_group = thihudian
+		}
 		
 		country = {
 			NOT = {
-				is_culture_group = vuyti
+				OR = {
+					is_culture_group = vuyti 									
+					is_culture_group = thihudian
+				}
+			}
+		}
+		
+	}
+	
+	
+	modifier = { 
+		factor = -100
+		
+		OR = {
+			is_culture_group = gashdzii 							#sapinoids - hairy, agile, stout and intelligent species from southern ishahfazh
+			is_culture_group = colonial_gashdzii
+			is_culture_group = diwvo
+			is_culture_group = peninsular_diwvo
+			is_culture_group = sitheve
+			is_culture_group = sitheve_not_formable
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = gashdzii
+					is_culture_group = colonial_gashdzii
+					is_culture_group = diwvo
+					is_culture_group = peninsular_diwvo
+					is_culture_group = sitheve
+					is_culture_group = sitheve_not_formable
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 
+		factor = -100
+		
+		OR = {
+			is_culture_group = bogoroid_huighian 						#strange, simian folk with narrow faces and large teeth from northern ishahfazh.
+			is_culture_group = huighian
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = bogoroid_huighian 
+					is_culture_group = huighian
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 													#occuloids - fairly intelligent, hairy species from north ishahfazhi with bulging eyes and large ears on a hairless face.
+		factor = -100
+		
+		OR = {
+			is_culture_group = duttuphti 
+			is_culture_group = surgoian
+			is_culture_group = surgoian_islander
+			is_culture_group = yat-pugurian
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = duttuphti
+					is_culture_group = surgoian
+					is_culture_group = surgoian_islander
+					is_culture_group = yat-pugurian
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#trogolodytoids - the apish ogrehi from paukzhodo, living in caves.
+		factor = -100
+		
+		is_culture_group = ogrehi_culture 
+		
+		country = {
+			NOT = {
+				is_culture_group = ogrehi_culture
+			}
+		}
+		
+	}
+	
+	modifier = { 												#cobaloid - small and furry men of the south, long fingers and slender bodies with thick skin.
+		factor = -100
+		
+		OR = {
+			is_culture_group = buksedian 
+			is_culture_group = nhendian
+			is_culture_group = preirish
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = buksedian 
+					is_culture_group = nhendian
+					is_culture_group = preirish
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#ferroxaloid - the beastly narrow skulled carnivores of kovazh, historically notably anthrophagial.
+		factor = -100
+		
+		OR = {
+			is_culture_group = stouian
+			is_culture_group = bzaifmodian
+			
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = stouian
+					is_culture_group = bzaifmodian
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#corpuloid - the corpulent, lightly haired, desert dwellers. 
+		factor = -100
+		
+		OR = {
+			is_culture_group = chrawyayian
+			is_culture_group = bemuven
+			is_culture_group = tikongian
+			
+		}
+		
+		country = {
+			NOT = {
+				OR = {
+					is_culture_group = stouian
+					is_culture_group = bemuven
+					is_culture_group = tikongian
+				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#western insuloids - insular type, seemingly related to sapinoids
+		factor = -100
+		
+		is_culture_group = ruadian
+		
+		country = {
+			NOT = {
+				is_culture_group = ruadian
+			}
+		}
+		
+	}
+	
+	modifier = { 												#dentaloids - the sturdy steppe folk of northern bafozh, with large lower jaws
+		factor = -100
+		
+		is_culture_group = hrusaan_group
+		
+		country = {
+			NOT = {
+				is_culture_group = hrusaan_group
+			}
+		}
+		
+	}
+	
+	modifier = { 												#azuroids - the blue faced beasts of the bafozhi bushlands
+		factor = -100
+		
+		is_culture_group = jeznpoian_group
+		
+		country = {
+			NOT = {
+				is_culture_group = jeznpoian_group
+			}
+		}
+		
+	}
+	
+	modifier = { 												#oriental gigantoids - the tall, coneheaded folk of noterh bafozh
+		factor = -100
+		
+		is_culture_group = mhorish_group
+		
+		country = {
+			NOT = {
+				is_culture_group = mhorish_group
 			}
 		}
 		
