@@ -600,7 +600,7 @@ assimilation_chance =
 	modifier = { #no cross species assimilation 
 		factor = -100
 		
-		is_culture_group = byotrish 								#gigantoids - largely hairless, tall (5-7 ft), pale giants from the Ishahfazhi moutains
+		is_culture_group = byotrish 								#occidental gigantoids - largely hairless, tall (5-7 ft), pale giants from the Ishahfazhi moutains
 		
 		country = {
 			NOT = {
@@ -770,6 +770,58 @@ assimilation_chance =
 					is_culture_group = bemuven
 					is_culture_group = tikongian
 				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#western insuloids - insular type, seemingly related to sapinoids
+		factor = -100
+		
+		is_culture_group = ruadian
+		
+		country = {
+			NOT = {
+				is_culture_group = ruadian
+			}
+		}
+		
+	}
+	
+	modifier = { 												#dentaloids - the sturdy steppe folk of northern bafozh, with large lower jaws
+		factor = -100
+		
+		is_culture_group = hrusaan_group
+		
+		country = {
+			NOT = {
+				is_culture_group = hrusaan_group
+			}
+		}
+		
+	}
+	
+	modifier = { 												#azuroids - the blue faced beasts of the bafozhi bushlands
+		factor = -100
+		
+		is_culture_group = jeznpoian_group
+		
+		country = {
+			NOT = {
+				is_culture_group = jeznpoian_group
+			}
+		}
+		
+	}
+	
+	modifier = { 												#oriental gigantoids - the tall, coneheaded folk of noterh bafozh
+		factor = -100
+		
+		is_culture_group = mhorish_group
+		
+		country = {
+			NOT = {
+				is_culture_group = mhorish_group
 			}
 		}
 		
