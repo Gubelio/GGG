@@ -418,6 +418,31 @@ wasting_sickness = {
     icon = 23
 }
 
+blinding_cough = {
+	life_rating = -0.25
+	immigrant_push = 0.75
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.01
+    icon = 24
+}
+
+pot_belly_pox = {
+	life_rating = -0.25
+	immigrant_push = 0.75
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.01
+    icon = 25
+}
+
+cudfeeder_flu = {
+	life_rating = -0.25
+	immigrant_push = 0.75
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.01
+    icon = 26
+}
+
+
 industry_curtailed = {
 	local_artisan_output = 0.05
 	local_factory_input = 0.05
