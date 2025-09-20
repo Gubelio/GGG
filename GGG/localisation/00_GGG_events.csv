@@ -546,7 +546,7 @@ EVTDESC50196;x;;;;;;;;;;;;;x
 EVT50196OPTA;Arrest the leaders and occupy the surrounding countryside!;;;;;;;;;;;;;x
 EVT50196OPTB;Let the people of $PROVINCENAME$ be, they are harmless;;;;;;;;;;;;;x
 EVTNAME50197;A Reactionary Cabal;;;;;;;;;;;;;x
-EVTDESC50197;x;;;;;;;;;;;;;x
+EVTDESC50197;In one of our provinces, we are seemingly having a lot of administrative problems. Our state is, in many ways, still a pre-modern one. The regional government remains, beyond deputies sent from the central government, who have a degree of influence over these matters, remarkably susceptible to obstruction by aristocrats on local juries and boards. These men of leisure and prominence are typically appointed out of habit and convenience, and usually they are fairly quiescent, but in one province, they have taken it upon themselves to organise the administration themselves. They have established a system of patronage for lesser appointments in the province, seem to be coincidentally underreporting taxes and yields, while all the while taxing their serfs and own subjects oppressively, seemingly lining their pockets and driving local industry into a recession. The local governor has appealed to the central government for the military force to break this ‘cabal’ of corrupt landowners.;;;;;;;;;;;;;x
 EVT50197OPTA;Look the other way;;;;;;;;;;;;;x
 EVT50197OPTB;The law must be properly enforced!;;;;;;;;;;;;;x
 EVT50198NAME;Explorers Return!;;;;;;;;;;;;;x
@@ -572,18 +572,12 @@ EVT50203DESC;The day has arrived. The great Oecumenical synod has convened in $C
 EVT50204NAME;x;;;;;;;;;;;;;x  #ai event player will never see
 EVT50204DESC;x;;;;;;;;;;;;;x 
 EVTNAME50206;The Artisan's Demand;;;;;;;;;;;;;x
-EVTDESC50206;x;;;;;;;;;;;;;x
+EVTDESC50206;In one of our provinces there is a new political movement that has organised itself. Under the organisation of one particularly active man, apparently an artisan who has been driven out of business by the new machines, there is a league agitating for the curtailment of capital and technological industry. They have formed into small gangs, smashing machines, singing songs denouncing capital, and have appealed to local aristocrats to maintain a ‘customs’ barrier, demanding the curtailment of local industry and the protection of the guilds via regulations. They have even, on occasion, made trouble for members of the constabulary and the gendarme who have been posted by regional authorities to protect factors, machinery, and other implements of industry. The issue has seemingly festered, and the league has become practically a militant reactionary group, attracting all sorts of troublemakers: aristocratic pretenders, conservative rabble, and mere opportunists.;;;;;;;;;;;;;x
 EVT50206OPTA;He makes a fair point!;;;;;;;;;;;;;x
 EVT50206OPTB;Bah, I don't have time for this reactionary drivel;;;;;;;;;;;;;x
 EVT50206OPTC;This dangerous seditionist and his followers must be put to death!;;;;;;;;;;;;;x
 EVTNAME50207;Foreigners Demand Open Country!;;;;;;;;;;;;;x
 EVTDESC50207;Our recent defeat by a great modern power has compelled us, as well as paying them extortionate sums of money, to establish a government that tolerates the various extraterritorial concessions we have made. Along with signing away a number of ports, they’ve wrung from us a great many railway concessions, and stipulated that the only political authority they will tolerate is that of the modernisers who respect these treaties. These wretched men have formed a government in $CAPITAL$, with the begrudging presence of our head of state, and the company of a number of smarmy representatives of the modern power, who were insufferably smug throughout the event.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
