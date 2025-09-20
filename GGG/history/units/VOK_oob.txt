@@ -13,7 +13,7 @@ GAU = {
 }
 
 JII = {
-    value = -15
+    value = 30
 }
 
 #Sphere of Influence
@@ -27,7 +27,7 @@ BUD = {
 #Armies
 
 leader = {
-    name = "Gozomedes Midodazh" #King Gozomedes Himself
+    name = "Gozomedes II Midodazh" #King Gozomedes Himself
     picture = gozomedes_midodazh
     type = land
     date = 1305.1.1
@@ -41,7 +41,7 @@ leader = {
     type = land
     date = 1306.1.1
     personality = coward
-    background = sycophant
+    background = prince
 }
 
 leader = {

@@ -413,6 +413,10 @@ background = {
 		speed = -0.10
 		experience = -0.5
 	}
+	prince = {
+		morale = 0.15
+		reliability = 0.1
+	}
 	war_college = {
 		attack = 1
 	}

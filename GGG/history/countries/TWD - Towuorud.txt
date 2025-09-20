@@ -65,6 +65,8 @@ water_wheel_power = 1
 publishing_industry = 1
 
 
+oob = "TWD_oob.txt"
+
 #flags
 
 set_country_flag = wompowushan_country

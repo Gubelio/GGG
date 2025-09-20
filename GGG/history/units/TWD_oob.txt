@@ -1,0 +1,70 @@
+#Relations
+
+POU = {
+    value = -200
+}
+
+
+
+
+
+#Armies
+
+leader = {
+    name = "Thrakuunt Zaum-Thomon III"
+    type = land
+    date = 1306.1.1
+    personality = cautious
+    background = prince
+}
+
+
+
+army = {
+    name = "Royal Retainers"
+    location = 147
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 151
+    }
+
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 90
+    }
+
+
+    regiment = {
+        name= "Noble Chargers"
+        type = hussar
+        home = 80
+    }
+}
+
+
+
+navy = {
+	name = "Royal Fleet"
+	location = 153
+	
+	ship = {
+		name= "The Snake"
+		type = frigate
+	}
+	
+
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Sail-Transport"
+		type = clipper_transport
+	}
+
+	
+}
