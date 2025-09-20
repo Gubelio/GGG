@@ -43,6 +43,37 @@ political_decisions = {
 				country_event = { id = 50053 }
 			}
 			set_global_flag = drupe_torched
+			if = {
+				limit = {
+					221 = {
+						has_province_modifier = open_drupe
+					}
+				}
+				221 = {
+					remove_province_modifier = open_drupe
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					221 = {
+						has_province_modifier = closed_drupe
+					}
+				}
+				221 = {
+					remove_province_modifier = closed_drupe
+				}
+			
+			}
+			
+			221 = {
+				add_province_modifier = {
+					name = ruins_drupe
+					duration = -1
+				}
+			
+			}
 		}
 		
 		ai_will_do = {

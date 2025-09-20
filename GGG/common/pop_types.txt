@@ -1045,7 +1045,10 @@ conversion_chance =
 	modifier = { #resistant faiths
         factor = -0.95
         OR = {
-            has_pop_religion = vewugi
+			AND = {
+				has_pop_religion = vewugi
+				NOT = { THIS = { has_global_flag = drupe_torched } }
+			}
 			AND = {
 				has_pop_religion = wompowushan
 				NOT = { THIS = { has_global_flag = pudwou_overthrown } }
@@ -1066,6 +1069,12 @@ conversion_chance =
 				THIS = { has_global_flag = pudwou_overthrown }
 			}
         }
+	}
+	
+	modifier = { #vewugism shattered
+		factor = 0.1
+		has_pop_religion = vewugi
+		THIS = { has_global_flag = drupe_torched }
 	}
 	
 	modifier = {
