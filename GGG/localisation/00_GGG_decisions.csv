@@ -100,7 +100,7 @@ national_objective_expansion_desc;Infamy: §G-0.02§!\nCasus Belli acquisition spe
 national_objective_military_command_title;Military Command;;;;;;;;;;;;;x
 national_objective_military_command_desc;Leadership Modifier: §G+15.0%§!\nLand Organisation: §G+5.0%§!\nLand Starting Experience: §G+5.00§!;;;;;;;;;;;;;x
 national_objective_national_defense_title;National Defense;;;;;;;;;;;;;x
-national_objective_national_defense_desc;Leadership Modifier: §G+5.0%§!\nMobilisation Size: §G+2.0%§!;;;;;;;;;;;;;x
+national_objective_national_defense_desc;Leadership Modifier: §G+10.0%§!\nMobilisation Size: §G+1.0%§!;;;;;;;;;;;;;x
 national_objective_industrialization_title;Industrialization;;;;;;;;;;;;;x
 national_objective_industrialization_desc;Factory Owner Cost: §G-10.0%§!\nFactory Input: §G-5.0%§!\nFactory Cost: §G-5.0%§!;;;;;;;;;;;;;x
 national_objective_reform_title;Reform;;;;;;;;;;;;;x
@@ -146,7 +146,7 @@ open_encyclopedia_desc;This will open an event chain where you can learn things 
 collectivise_agriculture_title;Collectivize Agriculture;;;;;;;;;;;;;x
 collectivise_agriculture_desc;The ‘peasant problem’ is a much discussed issue in statist thought. The inefficient organisation of land tenure in the countryside - commons, patchwork private ownership - depresses the production possibilities frontier of our society. Excess labour is invested in inefficient and clumsily small projects. The economy falters and other industries grow slower because food prices are higher than they could be. As a modern state, we have no reason to tolerate this. The agricultural ministry, with the aid of a number absolutist commissars, have prepared an ambitious plan to effect the large scale collectivisation of agriculture in the countryside. ;;;;;;;;;;;;;x
 disable_pandemics_title;Disable Pandemics;;;;;;;;;;;;;x
-disable_pandemics_desc;§RAllowing pandemics can negatively effect the game's performance!§! GGG has a system for simulating the spread of one major pandemic per game. Enabling this decision will disable pandemics for everyone. This cannot be undone.;;;;;;;;;;;;;x
+disable_pandemics_desc;§RNOTE: Allowing pandemics can negatively effect the game's performance!§! GGG has a system for simulating the spread of one major pandemic per game. Enabling this decision will disable pandemics for everyone. This cannot be undone.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

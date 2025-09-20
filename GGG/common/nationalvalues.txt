@@ -41,8 +41,8 @@ military_command = {
 }
 
 national_defense = {
-    mobilisation_size = 0.02
-    leadership_modifier = 0.05
+    mobilisation_size = 0.01 #0.02
+    leadership_modifier = 0.1 #0.05
 }
 
 industrialization = {
