@@ -611,12 +611,13 @@ province_event = {
 			NOT = { government = paternalistic_council }
 			NOT = { scriptural_law = local_congregationalism }
 		}
+		civilized = yes
 	}
 	
 	allow_multiple_instances = no
 	
     mean_time_to_happen = {
-        months = 2400 #400 = #~33 years
+        months = 3000 #400 = #~33 years
 		
 		modifier = {
            factor = 0.9
@@ -1642,6 +1643,7 @@ province_event = {
 
 	trigger = {
 		has_factories = yes
+		civilized = yes
 		owner = {
 			industrial_score = 10
 			is_ideology_enabled = statist

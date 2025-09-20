@@ -208,6 +208,25 @@ treaty_port_casus_belli = {
             owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 60 } }
             THIS = { add_country_modifier = { name = negotiating_treaty duration = 60 } }
         }
+		
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					is_ideology_enabled = statist
+					year = 1320
+					NOT = { ruling_party_ideology = statist }
+				}
+			}
+			owner = {   
+				country_event = {
+					id = 50207
+					days = 30
+				
+				}
+			}
+		}
+		
   
     }
 }
@@ -2681,6 +2700,27 @@ war_reparations = {
     }
 
     po_reparations = yes
+
+	on_po_accepted = {
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					is_ideology_enabled = statist
+					year = 1320
+					NOT = { ruling_party_ideology = statist }
+				}
+			}
+			owner = {   
+				country_event = {
+					id = 50207
+					days = 30
+				
+				}
+			}
+		}
+	
+	}
 
     war_name = WAR_NAME_REPARATIONS
 

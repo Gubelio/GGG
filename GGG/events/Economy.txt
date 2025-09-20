@@ -2,7 +2,7 @@ country_event = {
     id = 50084 
     title = "EVTNAME50084" #developing economy
     desc = "EVTDESC50084"
-	#picture = "NiizMoji"
+	picture = "industrial"
 
     trigger = {
 		industrial_score = 25
@@ -26,7 +26,7 @@ country_event = {
     id = 50085 
     title = "EVTNAME50085" #industrialising_economy
     desc = "EVTDESC50085"
-	#picture = "NiizMoji"
+	picture = "industrial"
 
     trigger = {
 		industrial_score = 100
@@ -49,9 +49,9 @@ country_event = {
 
 country_event = { 
     id = 50086
-    title = "EVTNAME50086" #industrialising_economy
+    title = "EVTNAME50086" #industrialised_economy
     desc = "EVTDESC50086"
-	#picture = "NiizMoji"
+	picture = "industrial"
 
     trigger = {
 		industrial_score = 500
