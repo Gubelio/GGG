@@ -161,7 +161,7 @@ country_event = {
 	}
 
     option = {
-        name = "EVT500116PTA" 
+        name = "Excellent." 
 		any_owned = {
 			limit = {
 				is_colonial = yes

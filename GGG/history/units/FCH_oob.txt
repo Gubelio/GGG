@@ -1,0 +1,96 @@
+
+
+# armies
+
+leader = {
+    name = "Vyounirk Zhro Zhiwyou"
+    type = land
+    date = 1306.1.1
+    personality = soldierly
+    background = politician
+}
+
+leader = {
+    name = "Roinyu Zhro Guny"
+    type = land
+    date = 1306.1.1
+    personality = mediocre
+    background = politician
+}
+
+army = {
+    name = "Chourg State Levy"
+    location = 1102
+    regiment = {
+        name= "Payed Levies"
+        type = irregular
+        home = 1090
+    }
+	
+	regiment = {
+        name= "Payed Levies"
+        type = irregular
+        home = 1089
+    }
+	
+	regiment = {
+        name= "Payed Levies"
+        type = irregular
+        home = 1088
+    }
+	
+	regiment = {
+        name= "Payed Levies"
+        type = irregular
+        home = 1087
+    }
+	
+	regiment = {
+        name= "Noble Swinery"
+        type = cavalry
+        home = 1084
+    }
+
+
+   
+}
+
+army = {
+    name = "Watch in the East"
+    location = 1085
+    regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1098
+    }
+	
+	regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1094
+    }
+	
+	
+	regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1082
+    }
+
+
+	regiment = {
+        name= "Commoner Levies"
+        type = irregular
+        home = 1092
+    }
+	
+	
+	regiment = {
+        name= "Noble Swinery"
+        type = cavalry
+        home = 1091
+    }
+
+   
+
+}
