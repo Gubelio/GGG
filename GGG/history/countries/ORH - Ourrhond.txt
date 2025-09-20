@@ -9,6 +9,9 @@ non_state_culture_literacy = 0.01
 civilized = no
 
 slavery = yes_slavery
+
+prestige = 40
+
 # Social Reforms
 
 ruling_party = ORH_conservative_old
