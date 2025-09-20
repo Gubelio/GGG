@@ -71,6 +71,41 @@ political_decisions = {
 				}
 			}
 		}
+		
+	annex_sog = {
+		potential = {
+			tag = POU
+			SOG = { 
+				exists = yes
+				vassal_of = POU
+			}
+			NOT = { has_global_flag = annex_sog }
+			
+		}
+		
+		allow = {
+			SOG = {
+				vassal_of = POU
+			}
+			all_core = { owned_by = POU }
+			war = no
+			state_n_government = 1
+			OR = { 	
+				owns = 178
+				owns = 164
+			}
+		}
+		
+		effect = {
+			badboy = 2
+			SOG = { all_core = { add_core = POU } }
+			SOG = {
+				annex_to = THIS
+			}
+			set_global_flag = annex_sog			
+		}
 	}
-
+	
 }
+
+} # idk why this is here but im scared to move it
