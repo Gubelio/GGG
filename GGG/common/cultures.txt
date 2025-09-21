@@ -737,7 +737,7 @@ bemuven = {
 
 }
 
-buksedian = {
+buksedian = { #momurist cobaloids
     leader = qooxib
     unit = MiddleEasternGC
 
@@ -795,24 +795,12 @@ buksedian = {
 
 }
 
-nhendian = {
-    leader = genericgeneral
+nhendian_momurist = {
+	leader = qooxib
     unit = MiddleEasternGC
 
 	aucbocharr = { 
 	  color = { 163 84 33 }
-			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
-							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
-							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
-							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
-							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
-
-			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
-						   Ghin Naig Hana Ikh Mho Nich }
-    }
-
-	aucubhur = { 
-	  color = { 222 129 22 }
 			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
 							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
 							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
@@ -834,6 +822,38 @@ nhendian = {
 			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
 						   Ghin Naig Hana Ikh Mho Nich }
     }
+	
+	babi = { 
+	  color = { 84 112 161 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
+
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
+
+}
+
+nhendian = {
+    leader = genericgeneral
+    unit = MiddleEasternGC
+
+	aucubhur = { 
+	  color = { 222 129 22 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
+
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
+	
+	
 
 	chobajhi = { 
 	  color = { 250 105 243 }
@@ -847,17 +867,7 @@ nhendian = {
 						   Ghin Naig Hana Ikh Mho Nich }
     }
 	
-	babi = { 
-	  color = { 84 112 161 }
-			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
-							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
-							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
-							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
-							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
-
-			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
-						   Ghin Naig Hana Ikh Mho Nich }
-    }
+	
 
 }
 
@@ -984,7 +994,7 @@ chrawyayian= {
 }
 
 preirish = {
-    leader = genericgeneral
+    leader = bofungoid
     unit = MiddleEasternGC
 
     bofungi = {

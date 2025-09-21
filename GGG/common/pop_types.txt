@@ -795,7 +795,8 @@ assimilation_chance =
 		OR = {
 			is_culture_group = buksedian 
 			is_culture_group = nhendian
-			is_culture_group = preirish
+			is_culture_group = nhendian_momurist
+
 		}
 		
 		country = {
@@ -803,8 +804,21 @@ assimilation_chance =
 				OR = {
 					is_culture_group = buksedian 
 					is_culture_group = nhendian
-					is_culture_group = preirish
+					is_culture_group = nhendian_momurist
 				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#bofungoids - the 'cattle hominids' of the south. notoriously preyed upon by the feroxaloids
+		factor = -100
+		
+		is_culture_group = preirish
+		
+		country = {
+			NOT = {
+				is_culture_group = preirish
 			}
 		}
 		

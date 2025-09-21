@@ -1,0 +1,223 @@
+
+leader = {
+    name = "Starotsa Chaubhauh Ghakhhe"
+    type = land
+    date = 1306.1.1
+    personality = daring
+    background = warmonger 
+}
+
+
+leader = {
+    name = "Lord Oiuvher Mheq"
+    type = land
+    date = 1306.1.1
+    personality = skilled
+    background = aristocrat
+}
+
+
+
+leader = {
+    name = "Lord Chaundhoiuji Mabh"
+    type = land
+    date = 1306.1.1
+    personality = undisciplined
+    background = aristocrat
+}
+
+
+army = {
+    name = "Army of the Starotsa"
+    location = 1109
+    regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1109
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1111
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1110
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1108
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1113
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1112
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1114
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1116
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1115
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1117
+    }
+	
+}
+
+army = {
+    name = "Army of the Mheq"
+    location = 1127
+    regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1127
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1121
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1118
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1128
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1131
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1129
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1130
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1132
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1133
+    }
+	
+}
+
+army = {
+    name = "Army of the Mabh"
+    location = 1147
+    regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1147
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1145
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1146
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1150
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1149
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1143
+    }
+	
+	regiment = {
+        name= "Retainers"
+        type = irregular
+        home = 1141
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1140
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1139
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 955
+    }
+	
+	regiment = {
+        name= "Knights"
+        type = cavalry
+        home = 1137
+    }
+	
+}
