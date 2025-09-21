@@ -123,15 +123,18 @@ party = {
 
 unit_names = {
 	dreadnought = {
- 
+		"Arquebus" "Arm of Kauzhut" "Arm of the Stars" "Justiciar" "Deliverance" "Kohiimot" "Oknapt"
+		"Paukzhodo" "Paumnak-Eater" "Loveless" "Cutter" "Scimitar" "Lancer" "Pozhpo" "Leviathan of Nozho"
+		"Stellar" "Rememberance" "The Steel Pig" "Mozptmot" "Theanag" "Wushauwland" "Juruntine" "Spearman"
     }
     battleship = {
-		"Oknapt" "Niiz Moji" "Niiz Kan" "Lord Qooxib" "King Chombed" "Tyrant" "False Nimiz"
+		"Oknapt" "Mojinapt" "Niiz Moji" "Niiz Kan" "Lord Qooxib" "King Chombed" "Tyrant" "False Nimiz"
 		"Pashdzii" "Kiidnazh" "The Nag" "Gashdziik" "Bafozh" "Kovazh" "Shobgizob" "Terror" "Shan"
+		"The Khan of Pusunteos" "Anthrophage" "Dauntless" "Terrible" "Dhob" "Azgizob" "Zatgizob"
 		
     }
     ironclad = {
-		"Pride of Nozho" "Motzk" "Shining Star" "Caigur" "Vodmhu" "Vazzunak" "Ishnapt" "Panzapt"
+		"Pride of Nozho" "Motzk" "Shining Star" "Caigur" "Nihi" "Vodmhu" "Vazzunak" "Ishnapt" "Panzapt"
 		"Vepht" "Nozbau" "Vetchk" "Izhow" "Rikou" "Old Fucho" "Do Dhruzd" "Zhof" "Vazhkt" 
 		"General Ganuk Nagjoni" "Marshal Bazadamaz" "Zhozodzhu" "Rouxaem" "Sekum Island"
     }
@@ -139,13 +142,17 @@ unit_names = {
 
     }
     cruiser = {
-
+		"Ranger" "Paznap" "Ishnapt" "Detector" "Constrictor" "Swordfish" "Dhob-fish" "Great Mollusc" "Dhozt of the Wicked"
+		"Wushauw" "Parliament" "Confederacy" "Union" "Lord Shamaz" "Admiral Bidazh" "Knife" "Great Blue" "Peace and Tolleration"
+		"Blemishless" "Unsinfull" "Righteous" "Punisher" 
     }
     frigate = {
 
     }
     monitor = {
-
+		"Motmodt" "Mojimodt" "Jiishamodt" "The Pride of the Nag" "Unsinkable" "Rehurizhk" "Pruunt-Killer"
+		"Unkind" "Giifugizob" "Piercer" "Quick" "Carapace" "Quadrapoint" "Star" "Blue Star" "Brother" "Sister"
+		"Deserved" "Constellation" "Kan Vodt" "Three Cheers" "Synod" "Dhuknag" "Jobiinag" "Paknag" "Sepulchre"
     }
     clipper_transport = {
        1.Kishdziaa 2.Kishdziaa 3.Kishdziaa 4.Kishdziaa 5.Kishdziaa 6.Kishdziaa 7.Kishdziaa
@@ -158,7 +165,9 @@ unit_names = {
 	   15.Gumdii 16.Gumdii 17.Gumdii 18.Gumdii 19.Gumdii 20.Gumdii
     }
     commerce_raider = {
-		"Paumnak" 
+		"Paumnak" "Pruundzi" "Mye Love" "The Jolly Thrall" "Nanuvut Hauler" "Sea-Legs" "Landsman"
+		"Biter" "Cruelle One" "The Fat Vuyti" "Conscript" "Gofa-Cutter" "Trawler" "Marque" "Python"
+		"Bafinoid" "Bofungi" "Kovan Hauler" "Dancer" "The Beauty" "Storm-Rider" "Mye Lady" "The Modt"
     }
 	
 	
