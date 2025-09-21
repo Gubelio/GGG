@@ -1030,11 +1030,14 @@ conversion_chance =
     }
 
 
-	modifier = {
+	modifier = { #evangelizing
         factor = 0.8
 		country = { 
 			OR = {
-				has_country_flag = vewugi_country #evangelizing
+				AND = { 
+					has_country_flag = vewugi_country
+					NOT = { THIS = { has_global_flag = drupe_torched } }
+				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
 			}
@@ -1043,11 +1046,14 @@ conversion_chance =
         country = { civilized = yes }
     }
 	
-	modifier = {
+	modifier = { #evangelizing
         factor = 0.1
 		country = { 
 			OR = {
-				has_country_flag = vewugi_country #evangelizing
+				AND = { 
+					has_country_flag = vewugi_country
+					NOT = { THIS = { has_global_flag = drupe_torched } }
+				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
 			}
