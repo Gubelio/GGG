@@ -610,14 +610,16 @@ province_event = {
 		owner = {
 			NOT = { government = paternalistic_council }
 			NOT = { scriptural_law = local_congregationalism }
+			civilized = yes
 		}
-		civilized = yes
+		
+		is_colonial = no
 	}
 	
 	allow_multiple_instances = no
 	
     mean_time_to_happen = {
-        months = 4000 #400 = #~33 years
+        months = 6000 #400 = #~33 years
 		
 		modifier = {
            factor = 0.9
