@@ -442,7 +442,6 @@ cudfeeder_flu = {
     icon = 26
 }
 
-
 industry_curtailed = {
 	local_artisan_output = 0.05
 	local_factory_input = 0.05
@@ -457,3 +456,10 @@ ruins_drupe = {
 	immigrant_push = 0.1 
     icon = 20
 }
+
+vewugist_conversion = {
+    research_points_modifier = 0.05
+	global_pop_consciousness_modifier = 0.01 
+    icon = 7
+}
+

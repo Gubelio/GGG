@@ -108,6 +108,43 @@ political_decisions = {
 			}
 		}
 	}
+	
+    embrace_vewugism = {
+        alert = no
+        potential = {
+			civilized = no
+			NOT = { has_country_flag = vewugi_country }
+			has_country_flag = pagan_country
+			ai = no #REMOVE WHEN FIGURE OUT CONDITIONS FOR AI TO DO THIS EVENT
+        }
+
+        allow = {
+			
+        }
+
+        effect = {
+			religion = vewugi
+			set_country_flag = vewugi_country
+			clr_country_flag = pagan_country
+			add_country_modifier = { name = vewugist_conversion duration = 3652 } #~10 years
+			any_pop = {
+				militancy = 1
+				consciousness = 1
+				ideology = {
+					factor = 0.005
+					value = reactionary
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+				scaled_consciousness = {
+					ideology = reactionary
+					factor = 3
+				}
+			}
+        }
+    }
 
 
 }
