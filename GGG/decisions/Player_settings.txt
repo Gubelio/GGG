@@ -168,20 +168,20 @@ political_decisions = {
         }
     }
 	
-    disable_pandemics = {
+    enable_pandemics = {
         alert = no
         potential = {
 			NOT = { year = 1309 }
 			ai = no
 			has_country_flag = player_settings_opened
-			NOT = { has_country_flag = pandemics_disabled }
+			NOT = { has_country_flag = pandemics_enabled }
         }
 
         allow = {
         }
 
         effect = {
-			set_country_flag = pandemics_disabled
+			set_country_flag = pandemics_enabled
         }
 		
     }

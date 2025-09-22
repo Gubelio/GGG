@@ -10,7 +10,7 @@ country_event = {
     trigger = {
 		year = 2000
 		
-		NOT = { has_global_flag = pandemics_disabled }
+		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
@@ -81,6 +81,7 @@ country_event = { #disease ticker
 	trigger = {
 		ai = yes
 		war = no
+		has_global_flag = white_flux_pandemic
 		
 		OR = {
 			any_neighbor_country = {
