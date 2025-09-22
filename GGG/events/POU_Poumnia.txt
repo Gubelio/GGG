@@ -136,6 +136,80 @@ country_event = {
 	
 }
 
+country_event = {
+	id = 50208
+	title = "EVTNAME50208" #Vassalise Sog
+    desc = "EVTDESC50208"
+
+	trigger = {
+		tag = POU
+		exists = SOG
+		is_sphere_leader_of = SOG
+		OR = {
+			war_with = VUG
+			war_with = ATH
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "Dispatch a message to the Sogine, and prepare for occupation."
+		SOG = {
+			country_event = {
+				id = 50209
+				days = 6
+			}
+		
+		}
+	
+	}
+	
+	option = {
+		name = "Ahem, general. Sog is... a sovereign state.."
+		prestige = -2
+		diplomatic_influence = {
+			who = SOG
+			value = 100
+		}
+	}
+
+}
+
+country_event = {
+	id = 50209
+	title = "EVTNAME50209" #Vassalise Sog
+    desc = "EVTDESC50209"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "What choice do we have...?"
+		FROM = {
+			create_vassal = THIS
+		}
+	
+	}
+	
+	option = {
+		name = "Sogans will always be free! Hurrah for Sog!"
+		prestige = 5
+		
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 12
+		}
+	}
+	
+	
+
+}
+
 ############################
 #### PUDWOU DEPOSED ########
 ############################

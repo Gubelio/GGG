@@ -27,6 +27,7 @@ upper_house = { # inherit
 
 #technologies
 
+oob = "PUS_oob.txt"
 
 #flags
 

@@ -1,0 +1,73 @@
+leader = {
+    name = "Emperor Oiuvher Nauq"
+    type = land
+    date = 1306.1.1
+    personality = arrogant
+    background = hated
+}
+
+
+
+army = {
+    name = "Imperial Army"
+    location = 1179
+    regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1179
+    }
+	
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1179
+    }
+	
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1180
+    }
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1180
+    }
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1178
+    }
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1178
+    }
+	regiment = {
+        name= "Conscript Army"
+        type = irregular
+        home = 1171
+    }
+	regiment = {
+        name= "Imperial Knights"
+        type = cavalry
+        home = 1171
+    }
+	
+	regiment = {
+        name= "Imperial Knights"
+        type = cavalry
+        home = 1170
+    }
+	regiment = {
+        name= "Imperial Knights"
+        type = cavalry
+        home = 1170
+    }
+	
+	regiment = {
+        name= "Imperial Knights"
+        type = cavalry
+        home = 1169
+    }
+}

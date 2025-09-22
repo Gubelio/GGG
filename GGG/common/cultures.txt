@@ -586,7 +586,7 @@ thihudian = {
 ###############
 
 ogrehi_culture = {
-    leader = genericgeneral
+    leader = ogrehi1
     unit = MiddleEasternGC
 
 
@@ -602,7 +602,7 @@ ogrehi_culture = {
 }
 
 yat-pugurian = { #a relative to duttuphti linguistic group
-    leader = genericgeneral
+    leader = yat_pugrian
     unit = EuropeanGC
 
 
@@ -634,7 +634,7 @@ yat-pugurian = { #a relative to duttuphti linguistic group
 
 
 tikongian = {
-    leader = genericgeneral
+    leader = corpuloid
     unit = MiddleEasternGC
 
 	tingi = { 
@@ -690,7 +690,7 @@ tikongian = {
 }
 
 bemuven = {
-    leader = genericgeneral
+    leader = corpuloid
     unit = MiddleEasternGC
 
 
@@ -737,7 +737,7 @@ bemuven = {
 
 }
 
-buksedian = {
+buksedian = { #momurist cobaloids
     leader = qooxib
     unit = MiddleEasternGC
 
@@ -795,8 +795,8 @@ buksedian = {
 
 }
 
-nhendian = {
-    leader = genericgeneral
+nhendian_momurist = {
+	leader = qooxib
     unit = MiddleEasternGC
 
 	aucbocharr = { 
@@ -810,33 +810,9 @@ nhendian = {
 			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
 						   Ghin Naig Hana Ikh Mho Nich }
     }
-
-	aucubhur = { 
-	  color = { 222 129 22 }
-			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
-							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
-							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
-							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
-							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
-
-			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
-						   Ghin Naig Hana Ikh Mho Nich }
-    }
 	
 	bhukhegi = { 
 	  color = { 110 69 42 }
-			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
-							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
-							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
-							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
-							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
-
-			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
-						   Ghin Naig Hana Ikh Mho Nich }
-    }
-
-	chobajhi = { 
-	  color = { 250 105 243 }
 			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
 							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
 							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
@@ -861,8 +837,42 @@ nhendian = {
 
 }
 
-bzaifmodian = {
+nhendian = {
     leader = genericgeneral
+    unit = MiddleEasternGC
+
+	aucubhur = { 
+	  color = { 222 129 22 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
+
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
+	
+	
+
+	chobajhi = { 
+	  color = { 250 105 243 }
+			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
+							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
+							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
+							Chaunau Bhuchau Bhemharr Bhoiuvibhur Boiuspkh Ghaukh Oiukhur Nhenghi Chaundhoiuji Boiujau 
+							Haubhoq Nhuirr Aujoiu Hauvoiu Nhanghoiund  }
+
+			last_names = { Ghau Bao Bhuk Mheq Chob Bhoi Nauj Mhang Uikhu Nauq Chukh Ghaga Hukha Indh Oiu Mabh Boni Nai 
+						   Ghin Naig Hana Ikh Mho Nich }
+    }
+	
+	
+
+}
+
+bzaifmodian = {
+    leader = feroxaloid
     unit = MiddleEasternGC
 
 	ftemioq = { 
@@ -916,7 +926,7 @@ bzaifmodian = {
 }
 
 ruadian = {
-    leader = genericgeneral
+    leader = occidental_insuloid
     unit = MiddleEasternGC
 
 
@@ -951,7 +961,7 @@ ruadian = {
 }
 
 chrawyayian= {
-    leader = genericgeneral
+    leader = corpuloid
     unit = MiddleEasternGC
 
 	kwargoi = { 
@@ -984,7 +994,7 @@ chrawyayian= {
 }
 
 preirish = {
-    leader = genericgeneral
+    leader = bofungoid
     unit = MiddleEasternGC
 
     bofungi = {
@@ -1060,7 +1070,7 @@ preirish = {
 }
 
 stouian = {
-    leader = genericgeneral
+    leader = feroxaloid
     unit = MiddleEasternGC
 
    assatiog = { 
@@ -1131,7 +1141,7 @@ stouian = {
 ################
 
 asyum_group = {
-	leader = genericgeneral
+	leader = bafinoid
     unit = MiddleEasternGC
 	
 	asyum = { 
@@ -1151,7 +1161,7 @@ asyum_group = {
 }
 
 sharna_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
 
@@ -1186,7 +1196,7 @@ sharna_group = {
 }
 
 mhorish_group = {
-    leader = genericgeneral
+    leader = oriental_gigantoid
     unit = MiddleEasternGC
 
     hohraeth = { 
@@ -1218,7 +1228,7 @@ mhorish_group = {
 }
 
 hrusaan_group = {
-    leader = genericgeneral
+    leader = dentaloid
     unit = MiddleEasternGC
 
     hrusaan = { 
@@ -1236,7 +1246,7 @@ hrusaan_group = {
 }
 
 jeznpoian_group = {
-    leader = genericgeneral
+    leader = azuroid
     unit = MiddleEasternGC
 
     nubiju = { 
@@ -1394,7 +1404,7 @@ jeznpoian_group = {
 }
 
 dhrahdian_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     behshi = { 
@@ -1442,7 +1452,7 @@ dhrahdian_group = {
 }
 
 ratskian_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     nuukheu = { 
@@ -1474,7 +1484,7 @@ ratskian_group = {
 }
 
 tgoen_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     mipabi = { 
@@ -1498,7 +1508,7 @@ tgoen_group = {
 }
 
 gji_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     gji = { 
@@ -1514,7 +1524,7 @@ gji_group = {
 }
 
 khrayian_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     khrayian = { 
@@ -1530,7 +1540,7 @@ khrayian_group = {
 }
 
 mromen_group = {
-    leader = genericgeneral
+    leader = bafinoid
     unit = MiddleEasternGC
 
     gokam = { 
@@ -1628,7 +1638,7 @@ mromen_group = {
 ##### OTHERS
 
 tuqqikian_group = {
-    leader = genericgeneral
+    leader = oriental_insuloid
     unit = MiddleEasternGC
 
     tuqqikian = { 
@@ -1646,7 +1656,7 @@ tuqqikian_group = {
 }
 
 zagkhan_group = {
-    leader = genericgeneral
+    leader = oriental_insuloid
     unit = MiddleEasternGC
 
     zagkhan = { 

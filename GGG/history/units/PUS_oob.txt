@@ -1,0 +1,94 @@
+
+leader = {
+    name = "Khan Soujon Fobos XII"
+    type = land
+    date = 1306.1.1
+    personality = keen
+    background = prince
+}
+
+
+
+army = {
+    name = "Host of the Khan"
+    location = 1249
+    regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1249
+    }
+	
+	regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1241
+    }
+	
+	regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1241
+    }
+	
+	regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1241
+    }
+	
+	regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1241
+    }
+	
+	regiment = {
+        name= "Host Rabble"
+        type = irregular
+        home = 1243
+    }
+
+
+    regiment = {
+        name= "Arqubusiers"
+        type = infantry
+        home = 1252
+    }
+	
+	regiment = {
+        name= "Arqubusiers"
+        type = infantry
+        home = 1252
+    }
+	
+	regiment = {
+        name= "Arqubusiers"
+        type = infantry
+        home = 1227
+    }
+
+
+    regiment = {
+        name= "Bannermen of the Khan"
+        type = cavalry
+        home = 1261
+    }
+	
+	regiment = {
+        name= "Bannermen of the Khan"
+        type = cavalry
+        home = 1255
+    }
+	
+	regiment = {
+        name= "Bannermen of the Khan"
+        type = cavalry
+        home = 1254
+    }
+	
+	regiment = {
+        name= "Bannermen of the Khan"
+        type = cavalry
+        home = 1252
+    }
+}

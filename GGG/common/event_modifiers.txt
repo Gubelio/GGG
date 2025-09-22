@@ -450,3 +450,10 @@ industry_curtailed = {
 	local_factory_throughput = -0.1
     icon = 2
 }
+
+
+ruins_drupe = {
+    immigrant_attract = -0.15
+	immigrant_push = 0.1 
+    icon = 20
+}

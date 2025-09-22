@@ -795,7 +795,8 @@ assimilation_chance =
 		OR = {
 			is_culture_group = buksedian 
 			is_culture_group = nhendian
-			is_culture_group = preirish
+			is_culture_group = nhendian_momurist
+
 		}
 		
 		country = {
@@ -803,8 +804,21 @@ assimilation_chance =
 				OR = {
 					is_culture_group = buksedian 
 					is_culture_group = nhendian
-					is_culture_group = preirish
+					is_culture_group = nhendian_momurist
 				}
+			}
+		}
+		
+	}
+	
+	modifier = { 												#bofungoids - the 'cattle hominids' of the south. notoriously preyed upon by the feroxaloids
+		factor = -100
+		
+		is_culture_group = preirish
+		
+		country = {
+			NOT = {
+				is_culture_group = preirish
 			}
 		}
 		
@@ -1016,11 +1030,14 @@ conversion_chance =
     }
 
 
-	modifier = {
+	modifier = { #evangelizing
         factor = 0.8
 		country = { 
 			OR = {
-				has_country_flag = vewugi_country #evangelizing
+				AND = { 
+					has_country_flag = vewugi_country
+					NOT = { THIS = { has_global_flag = drupe_torched } }
+				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
 			}
@@ -1029,11 +1046,14 @@ conversion_chance =
         country = { civilized = yes }
     }
 	
-	modifier = {
+	modifier = { #evangelizing
         factor = 0.1
 		country = { 
 			OR = {
-				has_country_flag = vewugi_country #evangelizing
+				AND = { 
+					has_country_flag = vewugi_country
+					NOT = { THIS = { has_global_flag = drupe_torched } }
+				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
 			}
@@ -1045,7 +1065,10 @@ conversion_chance =
 	modifier = { #resistant faiths
         factor = -0.95
         OR = {
-            has_pop_religion = vewugi
+			AND = {
+				has_pop_religion = vewugi
+				NOT = { THIS = { has_global_flag = drupe_torched } }
+			}
 			AND = {
 				has_pop_religion = wompowushan
 				NOT = { THIS = { has_global_flag = pudwou_overthrown } }
@@ -1066,6 +1089,12 @@ conversion_chance =
 				THIS = { has_global_flag = pudwou_overthrown }
 			}
         }
+	}
+	
+	modifier = { #vewugism shattered
+		factor = 0.1
+		has_pop_religion = vewugi
+		THIS = { has_global_flag = drupe_torched }
 	}
 	
 	modifier = {

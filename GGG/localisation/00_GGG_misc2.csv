@@ -241,7 +241,7 @@ LOADING_DATABASES;Imagining Frightening Creatures...;x
 LOADING_DATABASES2;Constructing Languages...;x
 INIT_MAP_LOGIC;Charting Landscapes...;x
 CREATING_CHKSUM;Fattening Thralls... ;x
-LOADING_HISTORY;Cataloging Possible Timelines... ;x
+LOADING_HISTORY;Cataloguing Possible Timelines... ;x
 LOADING_SOUNDS;Planting Pruub...;x
 PROC_FLAGS;Locating the Vewug...;x
 EXECUTING_HISTORY;Generating False Past....;x
@@ -251,18 +251,20 @@ CREATING_THE_WORLD;Isolating Necessary Beings...;x
 CREATING_TREES;Imagining Frightening Creatures...;x
 CREATING_BORDERS;Developing Methods of Control...;x
 CREATING_RIVERS;Singing a beautiful song...;x
-MAP_PROPERLY_INIT;Gozomedes Properly Born...;x
+MAP_PROPERLY_INIT;Crowning Gozomedes...;x
 CREATING_PROVINCE;Creating Hominid Type #;x
 CREATING_TEXTS;Silencing Dissenting Voices...;x
 LOAD_EVENTS;Identifying Contigent Phenomena...;x
 ADAPTING_HISTORY;Growing Beautiful Fur...;x
 CALC_PATHS;Arranging Trans-World-Techno-Causal Laws\nThis may take several minutes.;x
 prince;Prince of the Blood;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+ruins_drupe;Ruins of the Drupe;;;;;;;;;;;;;x
+YOU_LOST;§RBitter Defeat;x
+YOU_WON;§GGlorious Victory;x
+zealous_fervor;Zealous Fervor;;;;;;;;;;;;;x
+zealous_fervor_desc;This nation is amidst a large debate about the relationship between the state and church, igniting religious passions and sectarianism.;;;;;;;;;;;;;x
+minor_outrage_province;Provincial Malcontents;;;;;;;;;;;;;x
+major_outrage_province;Provincial Unrest;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

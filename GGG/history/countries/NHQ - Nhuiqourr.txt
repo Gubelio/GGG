@@ -22,6 +22,7 @@ upper_house = { # inherit
 	free_yoker = 0
 }
 
+oob = "NHQ_oob.txt"
 
 #technologies
 
