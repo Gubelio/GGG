@@ -3533,3 +3533,65 @@ country_event = {
 	
 
 }
+
+######################
+### FLAVOR TIDBITS ###
+######################
+
+country_event = { #Ancestral homeland of Gozomedes' recovered 
+	id = 50209
+	title = "EVTNAME50210"
+	desc = "EVTDESC50210"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = VOK
+		owns = 611 #Midod
+		has_leader = "Gozomedes II Midodazh"
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50210OPTA"
+		prestige = 5
+	}
+
+}
+
+country_event = { #Origin site under tehuhrite control once again
+	id = 50210
+	title = "EVTNAME50211"
+	desc = "EVTDESC50211"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = RAN
+			tag = MAM
+			tag = YAM
+		}
+		owns = 905 #Sem
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50211OPTA"
+		any_owned = {
+			any_pop = {
+				militancy = -0.5
+				prestige = 5
+			}
+		}
+	}
+}
+
+
+
