@@ -426,7 +426,7 @@ vuyti = {
 }
 
 huighian = {
-    leader = genericgeneral
+    leader = budobaman
     unit = EuropeanGC
 
     dehuogi = { 
@@ -838,7 +838,7 @@ nhendian_momurist = {
 }
 
 nhendian = {
-    leader = genericgeneral
+    leader = west_cobaloid
     unit = MiddleEasternGC
 
 	aucubhur = { 
