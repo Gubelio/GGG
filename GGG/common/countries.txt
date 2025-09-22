@@ -244,6 +244,11 @@ ATH		= "countries/Athisoroo.txt"
 PRT		= "countries/Pruuntawrish.txt"
 CHB		= "countries/Chiibnazh.txt"
 
+#UNRELEASEABLES
+
+TTT = "countries/Troglodytica.txt"
+
+
 #RELEASABLES
 
 WSW		= "countries/Wushauw Free State.txt"
