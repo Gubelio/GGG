@@ -423,7 +423,11 @@ colonialmigration_chance =
 
 	modifier = {
 		factor = 0.5
-		has_province_modifier = settler_colonialism
+		owner = {
+			any_owned_province = {
+				has_province_modifier = settler_colonialism
+			}
+		}
 	}
 
 	modifier = {
