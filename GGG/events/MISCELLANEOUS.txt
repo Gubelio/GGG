@@ -3573,7 +3573,10 @@ country_event = { #Origin site under tehuhrite control once again
 		OR = {
 			tag = RAN
 			tag = MAM
-			tag = YAM
+			AND = {
+				tag = YAM
+				ai = no
+			}
 		}
 		owns = 905 #Sem
 	}
