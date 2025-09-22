@@ -3585,14 +3585,12 @@ country_event = { #Origin site under tehuhrite control once again
 	option = {
 		name = "EVT50211OPTA"
 		prestige = 5
-		any_owned = {
-			any_pop = {
-				limit = {
-					has_pop_religion = tehuhrite
-				}
-				militancy = -0.5
-				
+		any_pop = {
+			limit = {
+				has_pop_religion = tehuhrite
 			}
+			militancy = -0.5
+			
 		}
 	}
 }
