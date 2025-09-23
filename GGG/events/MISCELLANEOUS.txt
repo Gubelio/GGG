@@ -3542,6 +3542,7 @@ country_event = { #Ancestral homeland of Gozomedes' recovered
 	id = 50210
 	title = "EVTNAME50210"
 	desc = "EVTDESC50210"
+	picture = "gashdzii_rural"
 	
 	fire_only_once = yes
 	
@@ -3563,7 +3564,7 @@ country_event = { #Ancestral homeland of Gozomedes' recovered
 }
 
 country_event = { #Origin site under tehuhrite control once again
-	id = 50210
+	id = 50211
 	title = "EVTNAME50211"
 	desc = "EVTDESC50211"
 	
