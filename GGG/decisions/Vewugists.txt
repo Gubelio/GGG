@@ -112,10 +112,17 @@ political_decisions = {
     embrace_vewugism = {
         alert = no
         potential = {
+			
 			civilized = no
 			NOT = { has_country_flag = vewugi_country }
 			has_country_flag = pagan_country
-			ai = no #REMOVE WHEN FIGURE OUT CONDITIONS FOR AI TO DO THIS EVENT
+			OR = {
+				AND = {
+					ai = yes
+					has_country_flag = vewugi_convert_nation
+				}
+				ai = no
+			}
         }
 
         allow = {

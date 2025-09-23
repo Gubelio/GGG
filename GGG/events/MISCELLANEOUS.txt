@@ -3563,7 +3563,7 @@ country_event = { #Ancestral homeland of Gozomedes' recovered
 }
 
 country_event = { #Origin site under tehuhrite control once again
-	id = 50210
+	id = 50211
 	title = "EVTNAME50211"
 	desc = "EVTDESC50211"
 	
@@ -3598,5 +3598,185 @@ country_event = { #Origin site under tehuhrite control once again
 	}
 }
 
+################
+### VEWUGISM ###
+################
 
+country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no human will ever see this
+	id = 50212
+	title = "EVTNAME50212"
+	desc = "EVTDESC50212"
+	
+	trigger = {
+		ai = yes
+		civilized = no
+		has_country_flag = pagan_country
+	}
+	
+	mean_time_to_happen = {
+		months = 3600 #300 years
+	}
+	
+	option = {
+		name = "EVT50212OPTA"
+		set_country_flag = vewugi_convert_nation
+	}
+}
+
+#country_event = {
+#	id = 50213
+#	title = "EVTNAME50213"
+#	desc = "EVTDESC50213"
+#	
+#	trigger = {
+#		ai = no
+#		civilized = yes
+#		has_country_flag = vewugi_country
+#		OR = {
+#			is_greater_power = yes
+#			is_secondary_power = yes
+#		}
+#		any_owned_province = { has_building = naval_base }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1080 #90 years
+#	}
+#	
+#	option = {
+#		name = "EVT50213OPTA" #Most Money
+#		
+#            random_list = {
+#                85 = { #Succeeds
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50214 days = 465 }
+#					}
+#				}
+#				
+#                15 = { #Fails
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50215 days = 465 }
+#					}
+#				}
+#            }
+#			treasury = -350000
+#			
+#		ai_chance = {
+#            factor = 25
+#            modifier = { factor = 0 NOT = { money = 400000 } }
+#        }
+#	}
+#	
+#	option = {
+#		name = "EVT50213OPTB" #Middle Money
+#		
+#            random_list = {
+#                70 = { #Succeeds
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50214 days = 465 }
+#					}
+#				}
+#				
+#                30 = { #Fails
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50216 days = 465 }
+#					}
+#				}
+#            }
+#			treasury = -200000
+#			
+#		ai_chance = {
+#            factor = 25
+#            modifier = { factor = 0 NOT = { money = 250000 } }
+#        }
+#	}
+#	
+#	option = {
+#		name = "EVT50213OPTC" #Low Money
+#		
+#            random_list = {
+#                55 = { #Succeeds
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50214 days = 465 }
+#					}
+#				}
+#				
+#                45 = { #Fails
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50217 days = 465 }
+#					}
+#				}
+#            }
+#			treasury = -50000
+#			
+#		ai_chance = {
+#            factor = 25
+#            modifier = { factor = 0 NOT = { money = 100000 } }
+#        }
+#	}
+#	
+#	option = {
+#		name = "EVT50213OPTD" #No Money
+#		
+#            random_list = {
+#                10 = { #Succeeds
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50214 days = 465 }
+#					}
+#				}
+#				
+#                90 = { #Fails
+#					random_country = {
+#						limit = {
+#							ai = yes
+#							civilized = no
+#							has_country_flag = pagan_country
+#						}
+#						country_event = { id = 50217 days = 465 }
+#					}
+#				}
+#            }
+#
+#		ai_chance = {
+#            factor = 25
+#            modifier = { factor = 0 NOT = { money = 50000 } }
+#        }
+#	}
+#	
+#}
 
