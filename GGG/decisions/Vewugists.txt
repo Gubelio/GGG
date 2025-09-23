@@ -110,6 +110,7 @@ political_decisions = {
 	}
 	
     embrace_vewugism = {
+		picture = vewugism
         alert = no
         potential = {
 			civilized = no
