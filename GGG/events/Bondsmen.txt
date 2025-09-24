@@ -2,7 +2,7 @@ country_event = {
 	id = 50114 
 	title = "EVTNAME50114" 
 	desc = "EVTDESC50114"
-	picture = "generic"
+	#picture = "locust"
 	
 	is_triggered_only = yes
 	
@@ -628,7 +628,6 @@ country_event = { #### BONDSMANSETUP #####
 	id = 50116
 	title = "EVTNAME50116" 
 	desc = "EVTDESC50116"
-	picture = "generic"
 	
 	is_triggered_only = yes
 	

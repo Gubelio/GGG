@@ -2,7 +2,7 @@ country_event = {
     id = 50054 
     title = "EVTNAME50054" #Mamatoukat has embraced us, Yamatoukat
     desc = "EVTDESC50054"
-	picture = "generic"
+    #picture = "Socialism"
   
 	is_triggered_only = yes
 

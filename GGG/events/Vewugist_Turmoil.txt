@@ -7,7 +7,7 @@ country_event = {
     id = 50052 
     title = "EVTNAME50052" #Someone has torched the drupe!
     desc = "EVTDESC50052"
-	picture = "generic"
+    #picture = "Socialism"
   
 	is_triggered_only = yes
 
@@ -41,7 +41,7 @@ country_event = {
     id = 50053 
     title = "EVTNAME50053" #Someone has torched OUR drupe!
     desc = "EVTDESC50053"
-	picture = "generic"
+    #picture = "Socialism"
   
 	is_triggered_only = yes
 	

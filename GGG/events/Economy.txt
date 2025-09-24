@@ -76,7 +76,7 @@ country_event = {
 	id = 50189
 	title = "EVTNAME50189" #lib_land
     desc = "EVTDESC50189"
-	picture = "generic"
+	#picture = "POU_rev"
 
 	is_triggered_only = yes
 	

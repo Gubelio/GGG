@@ -42,7 +42,7 @@ country_event = {
 	id = 50034
 	title = "EVTNAME50034" #Poumnian side of embracing shamush
 	desc = "EVTDESC50034"
-	picture = "generic"
+	#picture = "Outside_influences"
 
 	is_triggered_only = yes
 
@@ -86,7 +86,7 @@ country_event = {
 	id = 50044
 	title = "EVTNAME50044" #Poumnian succeeds in quelling shamushi dissent
 	desc = "EVTDESC50044"
-	picture = "generic"
+	#picture = "Outside_influences"
 
 	is_triggered_only = yes
 
@@ -107,7 +107,7 @@ country_event = {
     id = 50056 
     title = "EVTNAME50056" #Poumnia demands annexation
     desc = "EVTDESC50056"
-	picture = "generic"
+    #picture = "Socialism"
   
 	is_triggered_only = yes
 
@@ -140,7 +140,6 @@ country_event = {
 	id = 50208
 	title = "EVTNAME50208" #Vassalise Sog
     desc = "EVTDESC50208"
-	picture = "generic"
 
 	trigger = {
 		tag = POU
@@ -185,7 +184,6 @@ country_event = {
 	id = 50209
 	title = "EVTNAME50209" #Vassalise Sog
     desc = "EVTDESC50209"
-	picture = "generic"
 	
 	is_triggered_only = yes
 

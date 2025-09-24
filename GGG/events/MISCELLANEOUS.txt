@@ -10,7 +10,7 @@ country_event = {
 
     title = "EVTNAME50000" #Reactionary revolution
     desc = "EVTDESC50000"
-	picture = "generic"
+    #picture = "???"
 
     option = {
         name = "EVT50000OPTA"
@@ -105,7 +105,7 @@ country_event = {
 
     title = "EVTNAME50001" #Theocratist revolution
     desc = "EVTDESC50001"
-	picture = "generic"
+    #picture = "???"
 
     option = {
         name = "EVT50001OPTA"
@@ -200,7 +200,7 @@ country_event = {
 
     title = "EVTNAME50002" #free yokers revolution
     desc = "EVTDESC50002"
-	picture = "generic"
+    #picture = "???"
 
     option = {
         name = "EVT50002OPTA"
@@ -297,7 +297,7 @@ country_event = {
 
     title = "EVTNAME50003" #Absolutist revolution
     desc = "EVTDESC50003"
-	picture = "generic"
+    #picture = "???"
 
     option = {
         name = "EVT50003OPTA"
@@ -393,7 +393,7 @@ country_event = {
 	id = 50004 #Statism enabled
 	title = "EVTNAME50004" 
 	desc = "EVTDESC50004"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	trigger = {
 		NOT = {
@@ -452,7 +452,7 @@ country_event = {
 	id = 50005 #absolutism enabled
 	title = "EVTNAME50005"
 	desc = "EVTDESC50005"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	trigger = {
 		NOT = {
@@ -497,7 +497,7 @@ country_event = {
 	id = 50006 #Theocratism enabled
 	title = "EVTNAME50006"
 	desc = "EVTDESC50006"
-	picture = "generic"
+	#picture = "Fascist"
 	
 	trigger = {
 		NOT = {
@@ -548,7 +548,7 @@ country_event = { #MOBILIZATION DURING PEACE TIME PUNISHMENT
     id = 50007
     title = "EVTNAME50007"
     desc = "EVTDESC50007"
-	picture = "generic"
+    #picture = "conscription_marching"
 
     trigger = {
         is_mobilised = yes
@@ -661,7 +661,7 @@ country_event = {
 	id = 50008 #theocratic government reforms
 	title = "EVTNAME50008"
 	desc = "EVTDESC50008"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	trigger = {
 		civilized = yes
@@ -702,7 +702,7 @@ country_event = {
 	id = 50009 #princely despotate government reforms
 	title = "EVTNAME50009"
 	desc = "EVTDESC50009"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	trigger = {
 		civilized = yes
@@ -757,7 +757,7 @@ country_event = {
 	id = 50010 #aristocratic commonwealth government reforms
 	title = "EVTNAME50010"
 	desc = "EVTDESC50010"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	trigger = {
 		civilized = yes
@@ -928,7 +928,7 @@ country_event = {
     id = 50013
     title = "EVTNAME50013"
     desc = "EVTDESC50013"
-	picture = "generic"
+    #picture = "Celebration"
 
     is_triggered_only = yes
 
@@ -1121,7 +1121,7 @@ country_event = {
 country_event = {
     title = "EVTNAME50014"
     desc = "EVTDESC50014"
-	picture = "generic"
+    #picture = "Celebration"
 
     id = 50014
 
@@ -1200,7 +1200,7 @@ country_event = {
 	id = 50015 
 	title = "EVTNAME50015"
 	desc = "EVTDESC50015"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	is_triggered_only = yes
 
@@ -1218,7 +1218,7 @@ country_event = {
 	id = 50016 #GRANT REQUEST
 	title = "EVTNAME50016"
 	desc = "EVTDESC50016"
-	picture = "generic"
+	#picture = "Socialism"
 	
 	is_triggered_only = yes
 
@@ -1390,7 +1390,7 @@ country_event = {
 	id = 50032
 	title = "EVTNAME50032"
 	desc = "EVTDESC50032"
-	picture = "generic"
+	#picture = "Outside_influences"
 
 	is_triggered_only = yes
 
@@ -1525,7 +1525,6 @@ country_event = {
 	id = 50057
 	title = "EVTNAME50057"
 	desc = "EVTDESC50057"
-	picture = "generic"
 	
     trigger = {
         ai = no
@@ -1614,7 +1613,7 @@ country_event = {
 	id = 50083
 	title = "EVTNAME50083"
 	desc = "EVTDESC50083"
-	picture = "generic"
+	#picture = "mojifa"
 	
 	fire_only_once = yes
 	
@@ -1676,7 +1675,7 @@ country_event = {
 	id = 50088
 	title = "EVTNAME50088"
 	desc = "EVTDESC50088"
-	picture = "generic"
+	#picture = "mojifa"
 	
 	#fire_only_once = yes
 	
@@ -1836,7 +1835,7 @@ country_event = {
 	id = 50090
 	title = "EVTNAME50090"
 	desc = "EVTDESC50090"
-	picture = "generic"
+	#picture = "mojifa"
 	
     trigger = {
 		ai = yes
@@ -2780,7 +2779,6 @@ country_event = { #national objective reset
 	id = 50091
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"	
 	
 	fire_only_once = yes
 	
@@ -2812,7 +2810,6 @@ country_event = { #national objective reset
 	id = 50092
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -2844,7 +2841,6 @@ country_event = { #national objective reset
 	id = 50093
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -2876,7 +2872,6 @@ country_event = { #national objective reset
 	id = 50094
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -2908,7 +2903,6 @@ country_event = { #national objective reset
 	id = 50095
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -2940,7 +2934,6 @@ country_event = { #national objective reset
 	id = 50096
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -2972,7 +2965,6 @@ country_event = { #national objective reset
 	id = 50097
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -3004,7 +2996,6 @@ country_event = { #national objective reset
 	id = 50098
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -3036,7 +3027,6 @@ country_event = { #national objective reset
 	id = 50099
 	title = "EVTNAME50091"
 	desc = "EVTDESC50091"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -3072,7 +3062,6 @@ province_event = {
     id = 50108
     title = "EVTNAME50108" 
     desc = "EVTDESC50108"
-	picture = "generic"
 
 	mean_time_to_happen = {
 		months = 36
@@ -3127,7 +3116,7 @@ country_event = {
 	id = 50151
 	title = "EVT50151NAME"
 	desc = "EVT50151DESC"
-	picture = "generic"
+	#picture = "something"
 	
 	trigger = {
 		OR = {	
@@ -3522,7 +3511,7 @@ country_event = {
 	id = 50172
 	title = "EVT50172NAME"
 	desc = "EVT50172DESC"
-	picture = "generic"
+	#picture = "pashdzii"
 
 	is_triggered_only = yes
 	
@@ -3619,7 +3608,6 @@ country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no 
 	id = 50212
 	title = "EVTNAME50212"
 	desc = "EVTDESC50212"
-	picture = "generic"
 	
 	trigger = {
 		ai = yes

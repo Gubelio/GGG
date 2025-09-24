@@ -3,8 +3,7 @@ country_event = {
 	id = 50087
 	title = "EVTNAME50087"
 	desc = "EVTDESC50087"
-	picture = "generic"
-	
+	#picture = "crisis"
 	trigger = {
 	}
 

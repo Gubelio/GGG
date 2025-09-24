@@ -6,7 +6,7 @@
 country_event = {
     title = "EVTNAME50043" ##### start of the filibuster #dont localize, no human will ever receive this event
     desc = "EVTDESC50043"
-	picture = "generic"
+    #picture = "Celebration"
 
     id = 50043
 
@@ -53,7 +53,7 @@ country_event = {
     id = 50024 
     title = "EVTNAME50024" #Fund a filibuster
     desc = "EVTDESC50024"
-	picture = "generic"
+    #picture = "Socialism"
   
 	is_triggered_only = yes
 
@@ -114,7 +114,7 @@ country_event = {
     id = 50025 #Filibuster Succeeds
     title = "EVTNAME50025"
     desc = "EVTDESC50025"
-	picture = "generic"
+    #picture = "Socialism"
     
 	is_triggered_only = yes
 
@@ -161,7 +161,7 @@ country_event = {
     id = 50027 
     title = "EVTNAME50027" #Treacherous Adventurer
     desc = "EVTDESC50027"
-	picture = "generic"
+    #picture = "Socialism"
     
 	is_triggered_only = yes
 
@@ -214,7 +214,7 @@ country_event = {
     id = 50028
     title = "EVTNAME50028" #demand a concession from unciv
     desc = "EVTDESC50028" 
-	picture = "generic"
+    #picture = "south_american_native"
 
     trigger = {
 		civilized = yes
@@ -340,7 +340,7 @@ country_event = {
     id = 50029
     title = "EVTNAME50029" # establish protectorate
     desc = "EVTDESC50029"     
-	picture = "generic"
+	#picture = "south_american_native"
 	
     trigger = {
         year = 1318
@@ -553,7 +553,7 @@ country_event = { #Occupy sithuchi desert 3
 country_event = {
     title = "EVTNAME50040" ##### annex a sphereling unciv
     desc = "EVTDESC50040"
-	picture = "generic"
+    #picture = "Celebration"
 
     id = 50040
 
@@ -633,7 +633,7 @@ country_event = {
 country_event = {
     title = "EVTNAME50041" ##### ultimatum to unciv
     desc = "EVTDESC50041"
-	picture = "generic"
+    #picture = "Celebration"
 
     id = 50041
 
@@ -674,7 +674,7 @@ country_event = {
 country_event = {
     title = "EVTNAME50042" ##### back to great power: refusal
     desc = "EVTDESC50042"
-	picture = "generic"
+    #picture = "empty_island_huggins_st_helena"
 
     id = 50042
 
@@ -1428,7 +1428,7 @@ country_event = {
 
     title = "EVTNAME33339"
     desc = "EVTDESC33339"
-	picture = "generic"
+    #picture = "unite"
 
     option = {
         name = "EVT33339OPTA"

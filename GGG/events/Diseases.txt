@@ -46,7 +46,6 @@ country_event = {
 	id = 50202
 	title = "EVTNAME50195" #White Flux Pandemic
 	desc = "EVTDESC50195"
-	picture = "generic"
 	
     trigger = {
 		#year = 2000
@@ -117,7 +116,7 @@ country_event = { #disease ticker
 	id = 50205
 	title = "EVTNAME50205" #White spreads
 	desc = "EVTDESC50205"
-	picture = "generic"
+	
 	
 	trigger = {
 		ai = yes

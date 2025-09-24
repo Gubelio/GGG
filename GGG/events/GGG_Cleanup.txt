@@ -2,7 +2,7 @@ country_event = {
     id = 33337
     title = "EVTNAME33337"
     desc = "EVTDESC33337"
-	picture = "generic"
+    #picture = "danishgovernment"
 
     is_triggered_only = yes
 
@@ -88,7 +88,7 @@ country_event = {
     id = 33338
     title = "EVTNAME33337"
     desc = "EVTDESC33337"
-	picture = "generic"
+    #picture = "danishgovernment"
 
     is_triggered_only = yes
 
