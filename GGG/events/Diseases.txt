@@ -1,43 +1,3 @@
-##########################
-### REGIONAL FLARE-UPS ###
-##########################
-
-#country_event = {
-#	id = 50213
-#	title = "EVTNAME50213" #PotBelly Pox
-#	desc = "EVTDESC50213"
-#	
-#    trigger = {
-#
-#    }
-#
-#	mean_time_to_happen = {
-#        months = 3600 #~300 Years
-#		modifier = {
-#           factor = 0.9
-#		   year = 1328
-#		   NOT = { year = 1348 }
-#		}
-#	}
-#	
-#	option = {
-#		name = "EVT50213OPTA" 
-#		random_province = {
-#			limit = {
-#				is_colonial = no
-#				has_province_modifier = pot_belly_pox
-#			}
-#			any_neighbor_country = {
-#				NOT = { has_province_modifier = pot_belly_pox }
-#				random_list = {
-#					25pot_belly_pox
-#				
-#				}
-#			}
-#		}
-#	}
-#}
-
 ################################
 ### PANDEMIC START UP EVENTS ###
 ################################
@@ -48,7 +8,7 @@ country_event = {
 	desc = "EVTDESC50195"
 	
     trigger = {
-		#year = 2000
+		year = 2000
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
