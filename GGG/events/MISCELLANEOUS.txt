@@ -3567,7 +3567,6 @@ country_event = { #Origin site under tehuhrite control once again
 	id = 50211
 	title = "EVTNAME50211"
 	desc = "EVTDESC50211"
-	picture = "generic"
 	
 	fire_only_once = yes
 	
