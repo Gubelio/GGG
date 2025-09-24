@@ -694,10 +694,10 @@ country_event = {
 
 
 country_event = {
-	 id = 50082 
+	id = 50082 
     title = "EVTNAME50082" #We got the port!!
     desc = "EVTDESC50082"
-	#picture = "carryingtrade"
+	picture = "generic"
 	
 	is_triggered_only = yes
 	
