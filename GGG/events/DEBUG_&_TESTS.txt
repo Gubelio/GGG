@@ -2,6 +2,7 @@ country_event = {
 	id = 12345 
 	title = "militancy and consciousness debug"
 	desc = "10 militancy and 10 consciousness"
+	picture = "generic"
 	
 	is_triggered_only = yes
 
@@ -18,6 +19,7 @@ country_event = {
 	id = 12346 
 	title = "militancy and consciousness debug"
 	desc = "10 militancy and 10 consciousness for slaves, thralls, and serfs"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 
@@ -41,6 +43,7 @@ country_event = {
 	id = 2468 
 	title = "rebel debug"
 	desc = "rebels control everything"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 
@@ -56,6 +59,7 @@ country_event = {
 	id = 11111 
 	title = "infamy lose"
 	desc = "reduce infamy"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 
@@ -79,6 +83,7 @@ country_event = {
 	id = 22222
 	title = "prestige lose"
 	desc = "reduce prestige"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 

@@ -166,7 +166,7 @@ province_event = {
     id = 50071 
     title = "EVT50071" #Booming Port
     desc = "EVTDESC50071"
-	#picture = "decline"
+	picture = "generic"
 
 
 	trigger = {
@@ -345,7 +345,7 @@ country_event = {
     id = 50076 
     title = "EVTNAME50076" #Take Port Scheme
     desc = "EVTDESC50076"
-	#picture = "carryingtrade"
+	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -510,7 +510,7 @@ country_event = {
 	 id = 50077 
     title = "EVTNAME50077" #Treaty Seizeure Response
     desc = "EVTDESC50077"
-	#picture = "carryingtrade"
+	picture = "generic"
 	
 	is_triggered_only = yes
 	
@@ -576,7 +576,7 @@ country_event = {
 	 id = 50078 
     title = "EVTNAME50078" #Ministry detects plot to steal treaty port!
     desc = "EVTDESC50078"
-	#picture = "carryingtrade"
+	picture = "generic"
 	major = yes
 	
 	is_triggered_only = yes
@@ -672,7 +672,7 @@ country_event = {
 	 id = 50081 
     title = "EVTNAME50081" #Evil stuff in Treaty Port!
     desc = "EVTDESC50081"
-	#picture = "carryingtrade"
+	picture = "generic"
 	major = yes
 	
 	is_triggered_only = yes
@@ -719,7 +719,7 @@ country_event = {
 	id = 50207 
     title = "EVTNAME50207" #Open Party in Power
     desc = "EVTDESC50207"
-	#picture = "carryingtrade"
+	picture = "generic"
 	
 	is_triggered_only = yes
 	

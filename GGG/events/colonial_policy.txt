@@ -335,7 +335,7 @@ country_event = { #exploitation
 	id = 50115
 	title = "something"
 	desc = "something" 
-	
+	picture = "generic"
 	
 	
 	allow_multiple_instances = no
@@ -692,7 +692,7 @@ country_event = { #settlement
 	id = 50214
 	title = "something"
 	desc = "something" 
-	
+	picture = "generic"
 	
 	
 	allow_multiple_instances = no
@@ -910,7 +910,7 @@ country_event = { #self rule
 	id = 50215
 	title = "something"
 	desc = "something" 
-	
+	picture = "generic"
 	
 	
 	allow_multiple_instances = no

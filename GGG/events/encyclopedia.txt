@@ -1326,7 +1326,7 @@ country_event = { #study Momurism
 	id = 50141
 	title = "EVT50141NAME" 
 	desc = "EVT50141DESC"
-	#picture = "discourse"
+	picture = "generic"
 
 	trigger = {
 		civilized = yes
@@ -1387,7 +1387,7 @@ country_event = { #study rechktist
 	id = 50142
 	title = "EVT50142NAME" 
 	desc = "EVT50142DESC"
-	#picture = "discourse"
+	picture = "generic"
 
 	trigger = {
 		civilized = yes
@@ -1474,7 +1474,7 @@ country_event = { #study paorusu
 	id = 50186
 	title = "EVT50186NAME" 
 	desc = "EVT50186DESC"
-	#picture = "hamog"
+	picture = "generic"
 
 	trigger = {
 		civilized = yes

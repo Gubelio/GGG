@@ -9,6 +9,7 @@ country_event = {
 	id = 50059
 	title = "EVTNAME50059" #Free-Yoker rebellion
 	desc = "EVTDESC50059"
+	picture = "generic"
 	
     trigger = {
 		NOT = { government = paternalistic_council }
@@ -193,6 +194,7 @@ country_event = {
 	id = 50060
 	title = "EVTNAME50060" #Free-Yoker rebellion ENDS
 	desc = "EVTDESC50060"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -222,8 +224,9 @@ country_event = {
 
 country_event = {
 	id = 50061
-	title = "EVTNAME50061" #Regional flair up
+	title = "EVTNAME50061" #Regional flare up
 	desc = "EVTDESC50061"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -318,6 +321,7 @@ country_event = {
 	id = 50063
 	title = "EVTNAME50063" #Miscellaneous conflict
 	desc = "EVTDESC50063"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -402,6 +406,7 @@ country_event = {
 	id = 50064
 	title = "EVTNAME50064" #Some sort of relieving of tensions
 	desc = "EVTDESC50064"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -468,6 +473,7 @@ country_event = {
 	id = 50065
 	title = "EVTNAME50065" #heinous act of rebellion
 	desc = "EVTDESC50065"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -530,6 +536,7 @@ country_event = {
 	id = 50074
 	title = "EVTNAME50074" #whole nation mad
 	desc = "EVTDESC50074"
+	picture = "generic"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -605,6 +612,7 @@ province_event = {
     id = 50196
     title = "EVTNAME50196" #Heretical Congregation
     desc = "EVTDESC50196"
+	picture = "generic"
 
 	trigger = {
 		owner = {
@@ -1081,6 +1089,7 @@ country_event = {
 	id = 50126
 	title = "EVTNAME50126" #Demagogue Priest
 	desc = "EVTDESC50126"
+	picture = "generic"
 	
     trigger = {
 		NOT = { government = sublime_synod }
@@ -1251,6 +1260,7 @@ country_event = {
 	id = 50195
 	title = "EVTNAME50195" #Religious Revival
 	desc = "EVTDESC50195"
+	picture = "generic"
 	
     trigger = {
 		OR = {
@@ -1434,6 +1444,7 @@ country_event = {
 	id = 50188
 	title = "EVTNAME50188" #Troublesome Statist Unions
 	desc = "EVTDESC50188"
+	picture = "generic"
 	
     trigger = {
 		NOT = { government = statist_bureaucracy }
@@ -1650,6 +1661,7 @@ province_event = {
     id = 50187
     title = "EVTNAME50187" #Industrial slum
     desc = "EVTDESC50187"
+	picture = "generic"
 
 	trigger = {
 		has_factories = yes
@@ -1920,6 +1932,7 @@ country_event = {
 	id = 50197
 	title = "EVTNAME50197" #Reactionary Landowning Cabal
 	desc = "EVTDESC50197"
+	picture = "generic"
 	
     trigger = {
 		civilized = yes
@@ -2199,6 +2212,7 @@ country_event = {
 	id = 50206
 	title = "EVTNAME50206" #Arch-Reactionary Seditionist demands curtailing of local industries
 	desc = "EVTDESC50206"
+	picture = "generic"
 	
     trigger = {
 		civilized = yes

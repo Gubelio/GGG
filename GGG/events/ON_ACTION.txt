@@ -7,7 +7,7 @@ country_event = {
     id = 50017 #70003
     title = "EVTNAME50017"
     desc = "EVTDESC50017"
-    #picture = "Bankruptcy"
+	picture = "generic"
     trigger = {
         NOT = { tag = FROM }
         NOT = { has_country_flag = bankruptcy_events_disabled }
@@ -102,7 +102,7 @@ country_event = {
     id = 50018 #70004
     title = "EVTNAME50018"
     desc = "EVTDESC50018"
-    #picture = "stock_crash"
+	picture = "generic"
     trigger = {
         NOT = { tag = FROM }
         NOT = { has_country_flag = bankruptcy_events_disabled }
@@ -238,7 +238,7 @@ country_event = {
     id = 50019 #70002
     title = "EVTNAME50019"
     desc = "EVTDESC50019"
-    #picture = "Bankruptcy"
+	picture = "generic"
 
     trigger = {
         NOT = { tag = FROM }

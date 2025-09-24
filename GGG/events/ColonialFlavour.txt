@@ -681,7 +681,7 @@ country_event = { #negotiate colonial purchase
 	id = 50148
 	title = "EVT50148NAME"
 	desc = "EVT50148DESC"
-	#picture = "deadboys"
+	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -953,7 +953,7 @@ country_event = { #maps
 	id = 50193
 	title = "EVT50193NAME"
 	desc = "EVT50193DESC"
-	#picture = "bafozhi_swine"
+	picture = "generic"
 	
 	fire_only_once = yes
 	
@@ -1064,7 +1064,7 @@ country_event = { #unciv is mapped
 	id = 50194
 	title = "EVT50194NAME"
 	desc = "EVT50194DESC"
-	#picture = "bafozhi_swine"
+	picture = "generic"
 	
 	fire_only_once = yes
 	

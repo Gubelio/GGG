@@ -2,7 +2,7 @@ country_event = {
     id = 50062
     title = "EVT50062NAME"
     desc = "EVT50062DESC"
-    #picture = "Bandits"
+	picture = "generic"
   
 	trigger = {
 		NOT = { has_global_flag = ended_paknag_banditry }
@@ -487,6 +487,7 @@ country_event = {
 	id = 50200
     title = "EVT50200NAME"
     desc = "EVT50200DESC"
+	picture = "generic"
 	
 	is_triggered_only = yes
 	
@@ -658,6 +659,7 @@ country_event = {
 	id = 50203
 	title = "EVT50203NAME"
     desc = "EVT50203DESC"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 	
@@ -721,6 +723,7 @@ country_event = {
 	id = 50204
 	title = "EVT50203NAME"
     desc = "EVT50203DESC"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 	
@@ -781,6 +784,7 @@ country_event = {
 	id = 50201
     title = "EVT50201NAME"
     desc = "EVT50201DESC"
+	picture = "generic"	
 	
 	is_triggered_only = yes
 	
