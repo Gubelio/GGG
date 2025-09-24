@@ -2,10 +2,12 @@
 ### PANDEMIC START UP EVENTS ###
 ################################
 
+
+
 country_event = {
 	id = 50202
-	title = "EVTNAME50195" #White Flux Pandemic
-	desc = "EVTDESC50195"
+	title = "EVTNAME50202" #White Flux Pandemic
+	desc = "EVTDESC50202"
 	
     trigger = {
 		year = 2000
@@ -57,24 +59,150 @@ country_event = {
 			}
 			add_province_modifier = { name = white_flux duration = 400 }
 			set_province_flag = had_pandemic
-			#change_controller = DDD
+
 		}
 		
-		#DDD = { government = princely_despotate }
+
+	}
+}	
+
+
+country_event = {
+	id = 50216
+	title = "EVTNAME50216" #Red Flux Pandemic
+	desc = "EVTDESC50216"
+	
+    trigger = {
+		year = 2000
+		
+		has_global_flag = pandemics_enabled
+		NOT = { has_global_flag = white_flux_pandemic_happened }
+		NOT = { has_global_flag = red_flux_pandemic_happened }
+		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+    }
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+        months = 3600 #~300 Years
+		modifier = {
+           factor = 0.9
+		   year = 1328
+		   NOT = { year = 1348 }
+		}
+		modifier = {
+           factor = 0.8
+		   year = 1348
+		   NOT = { year = 1368 }
+		}
+		modifier = {
+           factor = 0.7
+		   year = 1368
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.6
+		   year = 1388
+		}
+		#modifier = {
+        #   factor = 0.6
+		#   year = 1388
+		#}
+	}
+	
+	option = {
+		name = "EVT50195OPTA" 
+		set_global_flag = red_flux_pandemic
+		set_global_flag = red_flux_pandemic_happened
+
+		random_province = {
+			limit = {
+				is_colonial = no
+			}
+			add_province_modifier = { name = red_flux duration = 400 }
+			set_province_flag = had_pandemic
+		}
+		
+
+	}
+}	
+
+
+country_event = {
+	id = 50217
+	title = "EVTNAME50217" #Wasting Sickness Pandemic
+	desc = "EVTDESC50217"
+	
+    trigger = {
+		year = 2000
+		
+		has_global_flag = pandemics_enabled
+		NOT = { has_global_flag = white_flux_pandemic_happened }
+		NOT = { has_global_flag = red_flux_pandemic_happened }
+		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+    }
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+        months = 3600 #~300 Years
+		modifier = {
+           factor = 0.9
+		   year = 1328
+		   NOT = { year = 1348 }
+		}
+		modifier = {
+           factor = 0.8
+		   year = 1348
+		   NOT = { year = 1368 }
+		}
+		modifier = {
+           factor = 0.7
+		   year = 1368
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.6
+		   year = 1388
+		}
+		#modifier = {
+        #   factor = 0.6
+		#   year = 1388
+		#}
+	}
+	
+	option = {
+		name = "EVT50195OPTA" 
+		set_global_flag = wasting_sickness_pandemic
+		set_global_flag = wasting_sickness_pandemic_happened
+
+		random_province = {
+			limit = {
+				is_colonial = no
+			}
+			add_province_modifier = { name = wasting_sickness duration = 400 }
+			set_province_flag = had_pandemic
+		}
+		
+
 	}
 }	
 
 
 				
-#############################
-### PANDEMIC SPREAD EVENT ###
-#############################
+##############################
+### PANDEMIC SPREAD EVENTS ###
+##############################
 
 
-country_event = { #disease ticker
+#### WHITE FLUX ####
+
+country_event = { #white flux disease ticker
 
 	id = 50205
-	title = "EVTNAME50205" #White spreads
+	title = "EVTNAME50205" 
 	desc = "EVTDESC50205"
 	
 	
@@ -360,3 +488,856 @@ country_event = { #disease ticker
 	
 }
 
+
+### RED FLUX ###
+
+
+country_event = { #red flux disease ticker
+
+	id = 50218
+	title = "EVTNAME50218" 
+	desc = "EVTDESC50218"
+	
+	
+	trigger = {
+		ai = yes
+		war = no
+		has_global_flag = red_flux_pandemic
+		
+		OR = {
+			any_neighbor_country = {
+				any_owned_province = {
+					has_province_modifier = red_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 10
+	
+	}
+	
+	allow_multiple_instances = no
+	
+	option = {
+		name = "disease spreader"
+		
+		
+
+	
+		any_neighbor_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = red_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+			}
+		
+		
+		##################### 
+		### CHANCES BEGIN ###									# ATTENTION: To add conditions, you must add the specified conditions in the 'limit' section, 
+		### ############# ###									then pick a 'chance' it will spread to the new province. 
+								
+
+			
+			random_owned = {
+				limit = {
+					has_province_modifier = red_flux
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+				
+				#spread to marsh
+				
+				random_list = {
+				
+					50 = {
+						any_neighbor_province = {
+							limit = {
+								terrain = marsh  
+								NOT = {
+									has_province_modifier = red_flux
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 80  
+								add_province_modifier = { name = red_flux duration = 200 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+						
+					}
+					
+					50 = {
+						any_neighbor_province = {
+							limit = {
+								terrain = marsh  
+								NOT = {
+									has_province_modifier = red_flux
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 80  
+								add_province_modifier = { name = red_flux duration = 300 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+					
+					}
+				
+				}
+				
+				#sread to desert
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = desert  
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = red_flux duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				random_list = {
+				
+					50 = {
+				
+						any_neighbor_province = {
+							limit = {
+								terrain = plains  
+								NOT = {
+									has_province_modifier = red_flux
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 90  
+								add_province_modifier = { name = red_flux duration = 150 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+					
+					}
+					
+					50 = {
+					
+						any_neighbor_province = {
+							limit = {
+								terrain = plains  
+								NOT = {
+									has_province_modifier = red_flux
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 90  
+								add_province_modifier = { name = red_flux duration = 300 }
+								set_province_flag = had_pandemic
+							
+							}
+		
+					
+						}
+					
+					}
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = savanna
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = red_flux duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = hills
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = red_flux duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = jungle
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = red_flux duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = farmlands
+						NOT = {
+							has_province_modifier = red_flux
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = red_flux duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+	##################
+	### CHANCES END ##
+	##################
+				
+			
+			
+			}
+			
+		}
+	
+		
+	
+	}
+	
+	
+}
+
+
+
+
+###### WASTING SICKNESS ####
+
+
+country_event = { #wasting_sickness disease ticker
+
+	id = 50219
+	title = "EVTNAME50219" 
+	desc = "EVTDESC50219"
+	
+	
+	trigger = {
+		ai = yes
+		war = no
+		has_global_flag = wasting_sickness_pandemic
+		
+		OR = {
+			any_neighbor_country = {
+				any_owned_province = {
+					has_province_modifier = wasting_sickness
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 10
+	
+	}
+	
+	allow_multiple_instances = no
+	
+	option = {
+		name = "disease spreader"
+		
+		
+
+	
+		any_neighbor_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = wasting_sickness
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+			}
+		
+		
+		##################### 
+		### CHANCES BEGIN ###									# ATTENTION: To add conditions, you must add the specified conditions in the 'limit' section, 
+		### ############# ###									then pick a 'chance' it will spread to the new province. 
+								
+
+			
+			random_owned = {
+				limit = {
+					has_province_modifier = wasting_sickness
+					any_neighbor_province = { 
+						empty = no
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+				}
+				
+				#spread to marsh
+				
+				random_list = {
+				
+					50 = {
+						any_neighbor_province = {
+							limit = {
+								terrain = marsh  
+								NOT = {
+									has_province_modifier = wasting_sickness
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 80  
+								add_province_modifier = { name = wasting_sickness duration = 200 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+						
+					}
+					
+					50 = {
+						any_neighbor_province = {
+							limit = {
+								terrain = marsh  
+								NOT = {
+									has_province_modifier = wasting_sickness
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 80  
+								add_province_modifier = { name = wasting_sickness duration = 300 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+					
+					}
+				
+				}
+				
+				#sread to desert
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = desert  
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = wasting_sickness duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				random_list = {
+				
+					50 = {
+				
+						any_neighbor_province = {
+							limit = {
+								terrain = plains  
+								NOT = {
+									has_province_modifier = wasting_sickness
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 90  
+								add_province_modifier = { name = wasting_sickness duration = 150 }
+								set_province_flag = had_pandemic
+							
+							}
+			
+						
+						}
+					
+					}
+					
+					50 = {
+					
+						any_neighbor_province = {
+							limit = {
+								terrain = plains  
+								NOT = {
+									has_province_modifier = wasting_sickness
+									has_province_flag = had_pandemic
+								}
+							}
+							
+							random = {	
+								chance = 90  
+								add_province_modifier = { name = wasting_sickness duration = 300 }
+								set_province_flag = had_pandemic
+							
+							}
+		
+					
+						}
+					
+					}
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = savanna
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = wasting_sickness duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = hills
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = wasting_sickness duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = jungle
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = wasting_sickness duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+				any_neighbor_province = {
+					limit = {
+						terrain = farmlands
+						NOT = {
+							has_province_modifier = wasting_sickness
+							has_province_flag = had_pandemic
+						}
+					}
+					
+					random = {	
+						chance = 90  
+						add_province_modifier = { name = wasting_sickness duration = 365 }
+						set_province_flag = had_pandemic
+					
+					}
+	
+				
+				}
+				
+	##################
+	### CHANCES END ##
+	##################
+				
+			
+			
+			}
+			
+		}
+	
+		
+	
+	}
+	
+	
+}
+
+
+
+
+####################
+###  FLARE UPS   ###
+####################
+
+
+country_event = { #pot_belly
+	id = 50220
+
+	trigger = {
+		any_owned_province = {
+			NOT = {
+				has_province_modifier = pot_belly_pox
+			
+			}
+		
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	
+	}
+	
+	option = {
+		name = "Quaratine the region!"
+		treasury = -100000
+		
+		random_owned = {
+			limit = {
+				OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+					AND = {
+						terrain = plains
+						has_pop_type = farmers
+					
+					}
+				
+					AND = {
+						terrain = hills
+						has_pop_type = serfs
+					}
+				
+				}
+			
+			}
+			add_province_modifier = {
+				name = pot_belly_pox
+				duration = 400
+			
+			}
+			
+			add_province_modifier = {
+				name = quaratine
+				duration = 500
+			
+			}
+		
+		}
+		
+		
+		
+	
+	}
+	
+	option = {
+		name = "What can we do?"
+		
+		
+		random_owned = {
+			limit = {
+				OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+					AND = {
+						terrain = plains
+						has_pop_type = farmers
+					
+					}
+				
+					AND = {
+						terrain = hills
+						has_pop_type = serfs
+					}
+				
+				}
+			
+			}
+			add_province_modifier = {
+				name = pot_belly_pox
+				duration = 400
+			
+			}
+		
+		}
+		
+		random_owned = {
+			limit = {
+				has_province_modifier = pot_belly_pox
+			
+			}
+			
+			
+			random = {
+				chance = 90
+				random_neighbor_province = {
+					limit = {
+						NOT = {
+							has_province_modifier = pot_belly_pox
+						}
+						OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+							AND = {
+								terrain = plains
+								has_pop_type = farmers
+							
+							}
+						
+							AND = {
+								terrain = hills
+								has_pop_type = serfs
+							}
+					
+						}
+					}
+				
+				
+					add_province_modifier = {
+						name = pot_belly_pox
+						duration = 400
+					
+					}
+				}
+			}
+			
+			random = {
+				chance = 60
+				random_neighbor_province = {
+					limit = {
+						NOT = {
+							has_province_modifier = pot_belly_pox
+						}
+						OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+							AND = {
+								terrain = plains
+								has_pop_type = farmers
+							
+							}
+						
+							AND = {
+								terrain = hills
+								has_pop_type = serfs
+							}
+					
+						}
+					}
+				
+				
+					add_province_modifier = {
+						name = pot_belly_pox
+						duration = 400
+					
+					}
+				}
+			}
+			
+			
+			random = {
+				chance = 40
+				random_neighbor_province = {
+					limit = {
+						NOT = {
+							has_province_modifier = pot_belly_pox
+						}
+						OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+							AND = {
+								terrain = plains
+								has_pop_type = farmers
+							
+							}
+						
+							AND = {
+								terrain = hills
+								has_pop_type = serfs
+							}
+					
+						}
+					}
+				
+				
+					add_province_modifier = {
+						name = pot_belly_pox
+						duration = 400
+					
+					}
+				}
+			}
+			
+			random = {
+				chance = 30
+				random_neighbor_province = {
+					limit = {
+						NOT = {
+							has_province_modifier = pot_belly_pox
+						}
+						OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+							AND = {
+								terrain = plains
+								has_pop_type = farmers
+							
+							}
+						
+							AND = {
+								terrain = hills
+								has_pop_type = serfs
+							}
+					
+						}
+					}
+				
+				
+					add_province_modifier = {
+						name = pot_belly_pox
+						duration = 400
+					
+					}
+				}
+			}
+			
+			random = {
+				chance = 20
+				random_neighbor_province = {
+					limit = {
+						NOT = {
+							has_province_modifier = pot_belly_pox
+						}
+						OR = {						# THESE ARE EXAMPLES! GROUP POSSIBLE ELIGIBLE PROVINCE CONDITIONS INTO AND GROUPS
+							AND = {
+								terrain = plains
+								has_pop_type = farmers
+							
+							}
+						
+							AND = {
+								terrain = hills
+								has_pop_type = serfs
+							}
+					
+						}
+					}
+				
+				
+					add_province_modifier = {
+						name = pot_belly_pox
+						duration = 400
+					
+					}
+				}
+			}
+		
+		}
+	
+	}
+
+
+}
