@@ -16,6 +16,20 @@ GAU = {
     value = 15
 }
 
+#Sphere of Influence 
+
+SHZ = {
+    #value = 50        #relation
+    level = 3       #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+PAK = {
+    #value = 50        #relation
+    level = 3       #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
 #Armies
 
 leader = {

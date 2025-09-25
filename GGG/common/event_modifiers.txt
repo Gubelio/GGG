@@ -233,7 +233,7 @@ exploitation = {
 
 settler_colonization = {
     immigrant_attract = 0.10
-	assimilation_rate = 0.05
+	#assimilation_rate = 0.05
 	#administrative_efficiency_modifier = 0.05
     icon = 19
 }

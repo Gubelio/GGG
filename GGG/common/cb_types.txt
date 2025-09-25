@@ -315,7 +315,7 @@ conquest = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-        total_pops = 500001 #400001
+        total_pops = 550001 #400001
 		
 		OR = {
 			NOT = { total_pops = 600001 } #500001
@@ -387,8 +387,8 @@ conquest_low = {
 
     can_use = {
         #THIS = { ai = no }
-        total_pops = 200000 #100000
-        NOT = { total_pops = 500000 } #400000
+        total_pops = 250000 #200000
+        NOT = { total_pops = 550000 } #500000
         NOT = { is_our_vassal = THIS }
         # only one state or unciv
         NOT = { number_of_states = 5 }
@@ -454,8 +454,8 @@ conquest_tiny = {
 
     can_use = {
         #THIS = { ai = no }
-        total_pops = 50000 #20000
-        NOT = { total_pops = 200000 } #100000
+        total_pops = 100000 #50000
+        NOT = { total_pops = 250000 } #200000
         NOT = { is_our_vassal = THIS }
         # only one state or unciv
         NOT = { number_of_states = 5 }
@@ -523,7 +523,7 @@ conquest_minuscule = {
 	is_vassal = no
 	is_substate = no
         #THIS = { ai = no }
-        NOT = { total_pops = 50000 } #20000
+        NOT = { total_pops = 100000 } #50000
         NOT = { is_our_vassal = THIS }
         # only one state or unciv
         NOT = { number_of_states = 5 }
@@ -1895,7 +1895,7 @@ establish_protectorate_casus_belli = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 400001
+		total_pops = 550001 #400001
 		#THIS = { civilized = yes }
 		OR = {
 			NOT = {
@@ -2850,8 +2850,8 @@ colonial_conquest_low = {
     crisis = no
 
     can_use = {
-        total_pops = 200000 #100000
-        NOT = { total_pops = 500000 } #400000
+        total_pops = 250000 #200000
+        NOT = { total_pops = 550000 } #500000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		#THIS = { civilized = yes }
@@ -2925,8 +2925,8 @@ colonial_conquest_tiny = {
     crisis = no
 
     can_use = {
-        total_pops = 50000 #20000
-        NOT = { total_pops = 200000 } #100000
+        total_pops = 100000 #50000
+        NOT = { total_pops = 250000 } #200000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		#THIS = { civilized = yes }
@@ -3002,7 +3002,7 @@ colonial_conquest_minuscule = {
     can_use = {
 	is_vassal = no
 	is_substate = no
-        NOT = { total_pops = 50000 } #20000
+        NOT = { total_pops = 100000 } #50000
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		#THIS = { civilized = yes }
@@ -3080,7 +3080,7 @@ colonial_conquest_low_KF = {
     crisis = no
 
     can_use = {
-        NOT = { total_pops = 400000 }
+        NOT = { total_pops = 550001 } #400001
         NOT = { is_our_vassal = THIS }
         NOT = { number_of_states = 2 }
 		#THIS = { civilized = yes }

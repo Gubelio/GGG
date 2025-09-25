@@ -4,7 +4,225 @@ POU = {
     value = -200
 }
 
-#Armies
+#Sphere of Influence
+
+DIM = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+CHA = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+SHA = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+POD = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+POF = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+POZ = {
+    #value = 50        #relation
+    level = 3       #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+GOM = {
+    #value = 50        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+JAD = {
+    #value = 50        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+FOB = {
+    #value = 50        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+KIB = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NII = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+PII = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+DHU = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+KIF = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+VUF = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+VII = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+CII = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+PZH = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+SHD = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+JOB = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+KAZ = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NUZ = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NOF = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+ZHO = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NIH = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+MOJ = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+ZHD = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NOK = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NII = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+ZAT = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+DHA = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+NIZ = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+VON = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+UPO = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+MAB = {
+    #value = 50        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+SHK = {
+    #value = 50        #relation
+    level = 4       #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+
+#Leaders
 
 leader = {
     name = "Godhiinimiz 'Snake-Mangler' Zhobodt"
@@ -29,6 +247,8 @@ leader = {
     personality = deeply_religious
     background = priest
 }
+
+#Armies
 
 army = {
     name = "Royal Army"
