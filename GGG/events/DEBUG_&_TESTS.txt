@@ -93,6 +93,45 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 33333
+	title = "change government"
+	desc = "change government"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Paternalistic Council"			
+		government = paternalistic_council
+	}
+	
+	option = {
+		name = "Sublime Synod"			
+		government = sublime_synod
+	}
+	
+	option = {
+		name = "Statist Bureaucracy"			
+		government = statist_bureaucracy
+	}
+	
+	option = {
+		name = "Theocracy"			
+		government = theocracy
+	}
+	
+	option = {
+		name = "Aristocratic Commonwealth"			
+		government = aristocratic_commonwealth
+	}
+	
+	option = {
+		name = "Princely Despotate"			
+		government = princely_despotate
+	}
+}
+
+
 ###### ACTIVATE WARSLAVES FOR REBS ###########
 
 #country_event = {
