@@ -105,7 +105,7 @@ EVTDESC50029;The colonial frontier is always a flexible thing - indeed, all fron
 EVT50029OPTA;This will make a fine addition to the empire;;;;;;;;;;;;;
 EVT50029OPTB;This is simply not possible at this moment;;;;;;;;;;;;;
 EVTNAME50030;The Raid on the Mountain;;;;;;;;;;;;;
-EVTDESC50030;The progressive sophistication of the state, theories of negotiation with the primitive mind, and increasing access to inhospitable regions due to modern technology has created a great amount of tension over the barren Sithit desert. This largely inhospitable empty region is mainly dominated by Sithit wastlanders and their thralls, vewugist mullahs, and strange desert fauna. Nonetheless, the potential security issues with another power controlling it has brought this issue to the forefront of political debate on our frontier. Happily, however, it seems the situation has resolved itself! The Gashdzii marcher lords of the western reaches have staged what is already being called ‘Gibbalobba’s Raid on the Mountain’: a wild band of Gashdzii soldiers of fortune made their way deep into the center of the desert to the great lone mountain, stormed the primitive Sithit fortress city, and declared themselves Lords. However, facing native resistance, they are seeking state reinforcements to guarantee their power…;;;;;;;;;;;;;
+EVTDESC50030;The progressive sophistication of the state, theories of negotiation with the primitive mind, and increasing access to inhospitable regions due to modern technology has created a great amount of tension over the barren Sithit desert. This largely inhospitable empty region is mainly dominated by Sithit wastelanders and their thralls, Vewugi mullahs, and strange desert fauna. Nonetheless, the potential security issues with another power controlling it has brought this issue to the forefront of political debate on our frontier. Happily, however, it seems the situation has resolved itself! The Gashdzii marcher lords of the western reaches have staged what is already being called ‘Gibbalobba’s Raid on the Mountain’: a wild band of Gashdzii soldiers of fortune made their way deep into the center of the desert to the great lone mountain, stormed the primitive Sithit fortress city, and declared themselves Lords. However, facing native resistance, they are seeking state reinforcements to guarantee their power…;;;;;;;;;;;;;
 EVT50030OPTA;How convenient. Send an emissary and a detachment of soldiers. ;;;;;;;;;;;;;
 EVTNAME50031;Occupation of the Dheduhd;;;;;;;;;;;;;
 EVTDESC50031;The Dheduhd region to our north has long been the purview of slavers, political exiles, and religious extremists. While nominally within our 'borders', populated by tribesmen and itinerant bedouins, this region has long been pointless to control besides by mild tributary means and soft religious authority. However, recent innovations in population management and transportation technology has led to the encroachments upon desert regions around the world, and our interior ministry is concerned about security issues in this region should it fall into the hands of foreign powers. They advise the establishment of a frontier garrison to enforce an effective occupation of this region.;;;;;;;;;;;;;
@@ -556,7 +556,7 @@ EVT50199DESC;A great synod is gathering in $CAPITAL$, attracting representatives
 EVT50199OPTA;Make sure the state church sends retributivists, at the very least.;;;;;;;;;;;;;x
 EVT50199OPTB;We should encourage the individualist faction, naturally.;;;;;;;;;;;;;x
 EVT50199OPTC;This is a great honour for our state!;;;;;;;;;;;;;x
-EVT50200NAME;Departure for the Synod;;;;;;;;;;;;;x 
+EVT50200NAME;Departure for the Synod;;;;;;;;;;;;;x
 EVT50200DESC;There is a great oecumenical synod in $FROMCOUNTRY$, hosting Motkohnic scholars and delegates from across the Motkohnic world. We maintain the right to select those who will go from our state church, but the decentralised and personal nature of the Motkohnic faith means that a number of delegates from smaller communities, churches, and unaffiliated private individuals also plan to go. A number of unscrupulous ministers in the state religious colleges have proposed a number of underhanded methods to ensure that principally those who are amenable to our governments view on the matter attend the synod. We must choose between the ‘dapk’ school, or the retributivist school, who argue that the community, and the state, have a moral responsibility to punish the wicked, even by torture and the prolonging of life, in this life, and the ‘madmhomak’ or ‘individualist’ school, who argue that Kauzhut's teachings have made right action the profound existential burden of the individual.;;;;;;;;;;;;;x 
 EVT50200OPTA;Pay for the transportation of the retributivists across our land.;;;;;;;;;;;;;x
 EVT50200OPTB;We in $COUNTRY$ will make sure individualists are sent, of course.;;;;;;;;;;;;;x
@@ -607,11 +607,11 @@ EVTNAME50218;ai disease ticker;;;;;;;;;;;;;x
 EVTDESC50218;x;;;;;;;;;;;;;x
 EVTNAME50219;ai disease ticker;;;;;;;;;;;;;x
 EVTDESC50219;x;;;;;;;;;;;;;x
-EVTNAME50220;Pot-Belly Pox Flare Up;;;;;;;;;;;;;x
+EVTNAME50220;Pot-Belly Pox Flare-Up;;;;;;;;;;;;;x
 EVTDESC50220;x;;;;;;;;;;;;;x
-EVTNAME50221;Blinding Cough Flare Up;;;;;;;;;;;;;x
+EVTNAME50221;Blinding Cough Flare-Up;;;;;;;;;;;;;x
 EVTDESC50221;x;;;;;;;;;;;;;x
-EVTNAME50222;Cudeater Flu-Flare up;;;;;;;;;;;;;x
+EVTNAME50222;Cudfeeder's Flu Flare-up;;;;;;;;;;;;;x
 EVTDESC50222;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
