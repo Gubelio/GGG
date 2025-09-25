@@ -467,4 +467,5 @@ quaratine = {
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = 0.01
 	local_RGO_output = -0.70
+	icon = 20
 }
