@@ -1050,7 +1050,7 @@ conversion_chance =
 			OR = {
 				AND = { 
 					has_country_flag = vewugi_country
-					NOT = { THIS = { has_global_flag = drupe_torched } }
+					NOT = { country = { has_global_flag = drupe_torched } }
 				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
@@ -1066,7 +1066,7 @@ conversion_chance =
 			OR = {
 				AND = { 
 					has_country_flag = vewugi_country
-					NOT = { THIS = { has_global_flag = drupe_torched } }
+					NOT = { country = { has_global_flag = drupe_torched } }
 				}
 				has_country_flag = motkohnic_country
 				has_country_flag = rechktist_country
@@ -1081,11 +1081,11 @@ conversion_chance =
         OR = {
 			AND = {
 				has_pop_religion = vewugi
-				NOT = { THIS = { has_global_flag = drupe_torched } }
+				NOT = { country = { has_global_flag = drupe_torched } }
 			}
 			AND = {
 				has_pop_religion = wompowushan
-				NOT = { THIS = { has_global_flag = pudwou_overthrown } }
+				NOT = { country = { has_global_flag = pudwou_overthrown } }
 			}
             has_pop_religion = rechktist
         }
@@ -1100,7 +1100,7 @@ conversion_chance =
 			has_pop_religion = jur
 			AND = {
 				has_pop_religion = wompowushan
-				THIS = { has_global_flag = pudwou_overthrown }
+				country = { has_global_flag = pudwou_overthrown }
 			}
         }
 	}
@@ -1108,7 +1108,7 @@ conversion_chance =
 	modifier = { #vewugism shattered
 		factor = 0.1
 		has_pop_religion = vewugi
-		THIS = { has_global_flag = drupe_torched }
+		country = { has_global_flag = drupe_torched }
 	}
 	
 	modifier = {
