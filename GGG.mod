@@ -1,5 +1,5 @@
 name = "GGG: Gozomedes' Great Game 1.0"
-path = "mod/GGG/GGG"
+path = "mod/GGG"
 user_dir = "GGG"
 replace_path = "common"
 replace_path = "history/provinces"
