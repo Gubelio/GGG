@@ -276,11 +276,11 @@ country_event = { #white flux disease ticker
 				
 				#spread to marsh
 				
-				random_list = {
+				random_list = {  ### This functions to separate the chances of it being for 200 or 400 days. Add another entry with a different probability, but make sure they add to 100, to add a new possible time delay
 				
 					50 = {
 						any_neighbor_province = {
-							limit = {
+							limit = {  # the limit can be used to specify province conditions, e.g. what sort of province we are talking about, then...  
 								terrain = marsh  
 								NOT = {
 									has_province_modifier = white_flux
@@ -288,7 +288,7 @@ country_event = { #white flux disease ticker
 								}
 							}
 							
-							random = {	
+							random = {	 #... then, the random chance is used to determine how likely it WILL spread to the above specified province
 								chance = 80  
 								add_province_modifier = { name = white_flux duration = 200 }
 								set_province_flag = had_pandemic
