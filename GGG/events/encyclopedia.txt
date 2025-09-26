@@ -1383,6 +1383,65 @@ country_event = { #study Momurism
 	}
 }
 
+country_event = { #study Kusii
+	id = 50223
+	title = "EVT50223NAME" 
+	desc = "EVT50223DESC"
+	#picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		OR = {
+			functionalism = 1
+			invention = manifest_destiny
+		}
+		OR = {
+			AND = {
+				any_pop = {
+					religion = kusii
+				}	
+				any_owned_province = {
+					continent = africa
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				has_country_flag = kusii_country
+				has_country_flag = studied_kusii
+				AND = {
+					year = 1350
+					THIS = {
+						civilized = yes
+						any_neighbor_country = { has_country_flag = studied_kusii }
+						invention = social_anthropology
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "We must understand them to save them from themselves."
+		prestige = 1
+		treasury = -10000
+		set_country_flag = studied_kusii
+		set_country_flag = kusii_prohibited
+		kusii_info = {}
+		encylopedia_updated = {}
+	}
+	
+	option = {
+		name = "We can't afford this..."
+		prestige = -1
+	}
+}
+
 country_event = { #study rechktist
 	id = 50142
 	title = "EVT50142NAME" 

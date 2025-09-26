@@ -1113,6 +1113,15 @@ conversion_chance =
 	}
 	
 	modifier = {
+		factor = 0.5
+		AND = {
+			has_pop_religion = kusii
+			THIS = { has_country_flag = kusii_prohibited }
+		}
+	
+	}
+	
+	modifier = {
 		factor = -0.1
 		type = clergymen
 	}
