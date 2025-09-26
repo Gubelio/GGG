@@ -1035,6 +1035,14 @@ conversion_chance =
         country = { civilized = no }
     }
 
+	modifier = {
+		factor = 0.5
+		AND = {
+			has_pop_religion = kusii
+			country = { has_country_flag = kusii_prohibited }
+		}
+	
+	}
 
 	modifier = { #evangelizing
         factor = 0.8
@@ -1112,14 +1120,7 @@ conversion_chance =
 	
 	}
 	
-	modifier = {
-		factor = 0.5
-		AND = {
-			has_pop_religion = kusii
-			THIS = { has_country_flag = kusii_prohibited }
-		}
 	
-	}
 	
 	modifier = {
 		factor = -0.1
