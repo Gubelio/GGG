@@ -141,6 +141,7 @@ end_paknag_banditry = {
 				owns = 394
 			
         }
+		NOT = { has_global_flag = ended_paknag_banditry }
 		}
 
         allow = {
