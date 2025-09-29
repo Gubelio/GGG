@@ -3781,3 +3781,92 @@ country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no 
 #	
 #}
 
+#############################
+### Vokonazh AI Expansion ###
+#############################
+
+country_event = { #force AI Vokonazh to annex north gashdzii states
+	id = 50224
+	title = "EVTNAME50224"
+	desc = "EVTDESC50224"
+	
+	trigger = {
+		ai = yes
+		tag = VOK
+		OR = {
+			AND = {
+				exists = DZH
+				NOT = { DZH = { vassal_of = THIS } }
+				NOT = { truce_with = DZH }
+			}
+			AND = {
+				exists = GIZ
+				NOT = { GIZ = { vassal_of = THIS } }
+				NOT = { truce_with = GIZ }
+			}
+			AND = {
+				exists = CHH
+				NOT = { CHH = { vassal_of = THIS } }
+				NOT = { truce_with = CHH }
+			}
+			AND = {
+				exists = NFS
+				NOT = { NFS = { vassal_of = THIS } }
+				NOT = { truce_with = NFS }
+			}
+			AND = {
+				exists = NOB
+				NOT = { NOB = { vassal_of = THIS } }
+				NOT = { truce_with = NOB }
+			}
+		}
+		war = no
+        military_score = 10
+		NOT = { war_exhaustion = 50 }
+        NOT = { any_core = { country_units_in_province = REB } }
+	}
+	
+	mean_time_to_happen = {
+		months = 180 #15 years
+		modifier = {
+			factor = 0.5
+			owns = 670
+		} 
+	}
+	
+	option = {
+		name = "EVT50224OPTA"
+		random_country = {
+            limit = {
+				OR = {
+					tag = DZH
+					tag = GIZ
+					tag = CHH
+					tag = NFS
+					tag = NOB
+				}
+				NOT = { vassal_of = VOK }
+				NOT = { truce_with = VOK }
+            }
+            add_casus_belli = {
+                target = THIS
+                type = swallow_me_whole
+                months = 12
+            }
+            relation = {
+                who = THIS
+                value = -200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = swallow_me_whole
+				}
+			}
+        }
+	}
+}
