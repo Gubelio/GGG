@@ -3832,7 +3832,7 @@ country_event = { #force AI Vokonazh to annex north gashdzii states
 		modifier = {
 			factor = 0.5
 			owns = 670
-		} 
+		}
 	}
 	
 	option = {
