@@ -3798,26 +3798,41 @@ country_event = { #force AI Vokonazh to annex north gashdzii states
 				exists = DZH
 				NOT = { DZH = { vassal_of = THIS } }
 				NOT = { truce_with = DZH }
+				DZH = { neighbour = THIS }
+				DZH = { war = no }
+				DZH = { ai = yes }
 			}
 			AND = {
 				exists = GIZ
 				NOT = { GIZ = { vassal_of = THIS } }
 				NOT = { truce_with = GIZ }
+				GIZ = { neighbour = THIS }
+				GIZ = { war = no }
+				GIZ = { ai = yes }
 			}
 			AND = {
 				exists = CHH
 				NOT = { CHH = { vassal_of = THIS } }
 				NOT = { truce_with = CHH }
+				CHH = { neighbour = THIS }
+				CHH = { war = no }
+				CHH = { ai = yes }
 			}
 			AND = {
 				exists = NFS
 				NOT = { NFS = { vassal_of = THIS } }
 				NOT = { truce_with = NFS }
+				NFS = { neighbour = THIS }
+				NFS = { war = no }
+				NFS = { ai = yes }
 			}
 			AND = {
 				exists = NOB
 				NOT = { NOB = { vassal_of = THIS } }
 				NOT = { truce_with = NOB }
+				NOB = { neighbour = THIS }
+				NOB = { war = no }
+				NOB = { ai = yes }
 			}
 		}
 		war = no
@@ -3848,7 +3863,47 @@ country_event = { #force AI Vokonazh to annex north gashdzii states
 				}
 				NOT = { vassal_of = VOK }
 				NOT = { truce_with = VOK }
+				neighbour = VOK
+				war = no
+				ai = yes
             }
+			country_event = 50225
+            add_casus_belli = {
+                target = THIS
+                type = conquest
+                months = 12
+            }
+            #relation = {
+            #    who = THIS
+            #    value = -200
+            #}
+            #diplomatic_influence = {
+            #    who = THIS
+            #    value = -200
+            #}
+			#war = {
+			#	target = THIS
+			#	defender_goal = { 
+			#		casus_belli = conquest
+			#	}
+			#	attacker_goal = { 
+			#		casus_belli = status_quo
+			#	}
+			#}
+        }
+	}
+}
+
+country_event = { #Victim of Vokonazhi aggression AI ONLY
+	id = 50225
+	title = "EVTNAME50225"
+	desc = "EVTDESC50225"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50225OPTA"
+		FROM = {
             add_casus_belli = {
                 target = THIS
                 type = conquest
@@ -3868,6 +3923,6 @@ country_event = { #force AI Vokonazh to annex north gashdzii states
 					casus_belli = conquest
 				}
 			}
-        }
+		}
 	}
 }
