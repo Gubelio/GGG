@@ -340,6 +340,15 @@ migration_chance = {
 			has_factories = yes
 			}
 	}
+	
+	modifier = {
+		factor = 0.7
+		location = {
+			has_province_modifier = dehuogi_deportations
+		}
+		culture = dehuogi
+	
+	}
 
 	group = {
 		modifier = {
@@ -527,6 +536,15 @@ emigration_chance =
 		state_scope = {
 			has_factories = yes
 			}
+	}
+	
+	modifier = {
+		factor = 0.7
+		location = {
+			has_province_modifier = dehuogi_deportations
+		}
+		culture = dehuogi
+	
 	}
 
 	group = {

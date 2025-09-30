@@ -182,6 +182,12 @@ migration_target = {
         is_overseas = yes
         country = { border_policy = closed_borders }
     }
+	modifier = {
+		factor = 10
+		has_province_modifier = dehuogi_settlers
+		is_accepted_culture = yes
+	
+	}
 
     modifier = {
         factor = 0

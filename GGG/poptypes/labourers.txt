@@ -224,7 +224,12 @@ migration_target = {
         factor = 1.5
         any_core = { is_primary_culture = THIS }
     }
-
+	modifier = {
+		factor = 10
+		has_province_modifier = dehuogi_settlers
+		is_accepted_culture = yes
+	
+	}
     modifier = {
         factor = 0.75
         state_scope = { is_slave = yes }

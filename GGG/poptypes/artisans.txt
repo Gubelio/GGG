@@ -225,6 +225,12 @@ migration_target = {
             work_available = { worker = craftsmen }
         }
     }
+	modifier = {
+		factor = 10
+		has_province_modifier = dehuogi_settlers
+		is_accepted_culture = yes
+	
+	}
     modifier = {
         factor = 1.2
         # Audax Validator "." Ignore_NEXT
