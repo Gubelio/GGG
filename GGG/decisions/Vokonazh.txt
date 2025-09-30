@@ -35,7 +35,7 @@ political_decisions = {
 
 
 	integrate_north_gashdzii_princely_states = {
-		#picture = "carl_hasch_libyan_desert"
+		picture = "vokonazhi_desert"
 		potential = {
 			tag = VOK
 			NOT = { has_country_flag = integrate_north_gashdzii_princely_states }
