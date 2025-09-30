@@ -3843,7 +3843,7 @@ country_event = { #force AI Vokonazh to annex north gashdzii states
 	}
 	
 	mean_time_to_happen = {
-		months = 180 #15 years
+		months = 60 #~5 years ###180 #15 years
 		modifier = {
 			factor = 0.5
 			owns = 670
