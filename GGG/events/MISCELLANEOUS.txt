@@ -460,7 +460,7 @@ country_event = {
 		}
 		year = 1370
 		civilized = yes
-		literacy = 0.3
+		literacy = 0.6
 		OR = {
 			planned_economy = 10
 			pro_atheism = 10
@@ -505,7 +505,7 @@ country_event = {
 		}
 		
 		year = 1330 
-		literacy = 0.65
+		literacy = 0.30
 		civilized = yes
 		OR = {
 			moralism = 25
