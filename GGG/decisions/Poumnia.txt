@@ -1,6 +1,7 @@
 political_decisions = {
 
 	annex_deuuyeuru = {
+		picture = "diwvish_isles"
 		potential = {
 			tag = POU
 			DEU = { exists = yes }
