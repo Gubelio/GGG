@@ -4,7 +4,7 @@ political_decisions = {
 		picture = "caravan"
 		potential = {
 			tag = BOG
-			RAN = { ai = no }
+			RAN = { ai = yes }
 			NOT = { has_country_flag = dehuogi_question }
 		}
 		
