@@ -1,0 +1,48 @@
+political_decisions = {
+	
+	dehuogi_question_ai_rannu = {
+		picture = "caravan"
+		potential = {
+			tag = BOG
+			RAN = { ai = no }
+			NOT = { has_country_flag = dehuogi_question }
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = BOG }
+			state_n_government = 1
+			nationalism_n_imperialism = 1
+			BUD = { have_core_in = RAN }
+		}
+		
+		effect = {
+			country_event = 50226
+			set_country_flag = dehuogi_question			
+		}
+	}
+	
+	dehuogi_question_player_rannu = {
+		picture = "caravan"
+		potential = {
+			tag = BOG
+			RAN = { ai = no }
+			NOT = { has_country_flag = dehuogi_question }
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = BOG }
+			state_n_government = 1
+			nationalism_n_imperialism = 1
+			BUD = { have_core_in = RAN }
+		}
+		
+		effect = {
+			country_event = 50227
+			set_country_flag = dehuogi_question			
+		}
+	}
+	
+
+}
