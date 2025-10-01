@@ -54,7 +54,7 @@ country_event = { #Bogorug request to AI
 	}
 }
 
-country_event = {  #For AI - Rannu rejects
+country_event = {  #For AI - don't localize - Rannu rejects
 	id = 50229
 	title = "EVTNAME50229"
 	desc = "EVTDESC50229"

@@ -1,6 +1,6 @@
 political_decisions = {
 
-    annex_dhuknag = {
+annex_dhuknag = {
         potential = {
             tag = TGN
 			#NOT = { exists = DKN } #can bring them in unwilling if need be
@@ -248,3 +248,26 @@ end_paknag_banditry = {
     }
 	
 }	
+
+
+#restore_order_to_the_south = {
+#	picture = "the_burning_coast"
+#    potential = {
+#        tag = TGN
+#		has_country_flag = cored_dhuknag
+#		NOT = { has_country_flag = restore_order_to_the_south }
+#    }
+#
+#    allow = {
+#		TGN = { all_core = { owned_by = TGN } }
+#    }
+#
+#    effect = {
+#		set_country_flag = restore_order_to_the_south
+#		badboy = 20
+#		
+#	}
+#}
+
+
+}

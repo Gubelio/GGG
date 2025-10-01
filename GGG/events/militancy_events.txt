@@ -2197,11 +2197,12 @@ country_event = {
 
 country_event = {
 	id = 50206
-	title = "EVTNAME50206" #Arch-Reactionary Seditionist demands curtailing of local industries
+	title = "EVTNAME50206" #Artisan's demands curtailing of local industries
 	desc = "EVTDESC50206"
 	
     trigger = {
 		civilized = yes
+		industrial_score = 10
     }
 	
 	mean_time_to_happen = {
