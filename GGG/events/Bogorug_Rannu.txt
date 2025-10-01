@@ -64,7 +64,7 @@ country_event = {  #For AI - Rannu rejects
 
 	option = {
 		name = "EVT50226OPTA"
-		BOG = { country_event = { id = 50233 days = 1 } }
+		BOG = { country_event = { id = 50233 } }
 	}
 }
 
@@ -106,7 +106,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 days = 1 } }
+		BOG = { country_event = { id = 50234 } }
 		ai_chance = {
             factor = 1
         }
@@ -114,7 +114,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 	
 	option = {
 		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 days = 1 } }
+		BOG = { country_event = { id = 50233 } }
 	}
 }
 
@@ -128,7 +128,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 days = 1 } }
+		BOG = { country_event = { id = 50234 } }
 		BOG = { treasury = -500000 }
 		treasury = 500000
 		any_owned = {
@@ -144,7 +144,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	
 	option = {
 		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 days = 1 } }
+		BOG = { country_event = { id = 50233 } }
 	}
 }
 
@@ -158,7 +158,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 
 	option = {
 		name = "EVT50232OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 days = 1 } }
+		BOG = { country_event = { id = 50234 } }
 		BOG = { treasury = -850000 }
 		REG_171 = { remove_core = BOG }
 		REG_171 = { add_core = RAN }
@@ -181,7 +181,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 	
 	option = {
 		name = "EVT50232OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 days = 1 } }
+		BOG = { country_event = { id = 50233 } }
 	}
 }
 
