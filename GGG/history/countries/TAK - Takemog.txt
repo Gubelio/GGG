@@ -8,6 +8,8 @@ literacy = 0.19
 non_state_culture_literacy = 0.01
 civilized = yes
 
+prestige = 25
+
 # Political reforms
 
 citizens_rights = primary_culture_only
