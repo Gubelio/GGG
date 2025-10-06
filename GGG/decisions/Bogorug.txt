@@ -4,6 +4,18 @@ political_decisions = {
 		picture = "caravan"
 		potential = {
 			tag = BOG
+			RAN = {
+				OR = {
+					owns = 823
+					owns = 822
+					owns = 825
+					owns = 817
+					owns = 811
+					owns = 797
+					owns = 808
+					owns = 778
+				}
+			}
 			RAN = { ai = yes }
 			NOT = { has_country_flag = dehuogi_question }
 		}
@@ -13,7 +25,10 @@ political_decisions = {
 			all_core = { owned_by = BOG }
 			state_n_government = 1
 			nationalism_n_imperialism = 1
-			BUD = { have_core_in = RAN }
+			OR = {
+				border_policy = open_borders
+				border_policy = quota_immigration
+			}
 		}
 		
 		effect = {
@@ -26,6 +41,18 @@ political_decisions = {
 		picture = "caravan"
 		potential = {
 			tag = BOG
+			RAN = {
+				OR = {
+					owns = 823
+					owns = 822
+					owns = 825
+					owns = 817
+					owns = 811
+					owns = 797
+					owns = 808
+					owns = 778
+				}
+			}
 			RAN = { ai = no }
 			NOT = { has_country_flag = dehuogi_question }
 		}
@@ -36,6 +63,10 @@ political_decisions = {
 			state_n_government = 1
 			nationalism_n_imperialism = 1
 			BUD = { have_core_in = RAN }
+			OR = {
+				border_policy = open_borders
+				border_policy = quota_immigration
+			}
 		}
 		
 		effect = {
