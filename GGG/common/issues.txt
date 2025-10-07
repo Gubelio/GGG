@@ -258,10 +258,10 @@ political_reforms = {
 		
         noble_parliament = {
             ruling_party_support = 0.05
-            rich_vote = 1
-            middle_vote = 0
+            rich_vote = 2
+            middle_vote = 1
             poor_vote = 0
-            rules = { rich_only = yes }
+			rules = { state_vote = yes }
 			allow = {
 				THIS = {
 					NOT = { has_country_flag = federalised }
@@ -324,7 +324,6 @@ political_reforms = {
             rich_vote = 1
             middle_vote = 0
             poor_vote = 0
-			rules = { state_vote = yes }
             rules = { rich_only = yes }
 			rules = { largest_share = yes }
         }
