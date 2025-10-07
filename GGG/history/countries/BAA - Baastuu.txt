@@ -8,8 +8,11 @@ literacy = 0.02
 non_state_culture_literacy = 0.01
 civilized = no
 
+federalisation = tribal_assembly_i
+
 slavery = yes_slavery
 # Social Reforms
+
 
 ruling_party = dominion_conservative
 upper_house = { # inherit

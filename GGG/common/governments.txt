@@ -82,7 +82,7 @@ aristocratic_commonwealth = {
     absolutist = yes
 
     election = yes
-	duration = 48
+	duration = 64
     flagType = monarchy
 }
 
@@ -95,6 +95,6 @@ princely_despotate = {
 
     election = yes
 	duration = 48
-    #appoint_ruling_party = yes
+    appoint_ruling_party = yes
     flagType = monarchy
 }
