@@ -618,12 +618,20 @@ EVT50223DESC;The main problem our colonial administrators have in our lands in c
 EVTNAME50224;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50225;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50226;Negotiations with the Empire;;;;;;;;;;;;;x
-EVTDESC50226;x;;;;;;;;;;;;;x
+EVTDESC50226;Since passing a resolution to invite Dehuogi settlers into our lands, the Assembly of the Old Clans is putting together a delegation to negotiate with the foreign ministry of the Rannu. The Court in Vepht is notorious for its opacity and sensitivity - and the delegates are anxious not to blunder what could be a unique chance for the audience with Rannu. Before heading eastward to the border stations in Sem, there has to be a decision made on what to offer in exchange for Rannutan facilitation of Dehuogi migration. ;;;;;;;;;;;;;x
 EVTNAME50227;Negotiations with the Empire;;;;;;;;;;;;;x
-EVTDESC50227;x;;;;;;;;;;;;;x
+EVT50226OPTA;Surely they'll just be jolly to aid their allies?;;;;;;;;;;;;;x
+EVT50226OPTB;We should offer to pay for transport. §R(¤500,000)§!;;;;;;;;;;;;;x
+EVT50226OPTC;We should pay for transport, and compensate them further. §R(¤800,000)§!;;;;;;;;;;;;;x
+EVT50226OPTD;Grant them control of their Sedentarian holy valley! §R(Cede Land!)§!;;;;;;;;;;;;;x
+EVT50227OPTA;Surely they'll just be jolly to aid their allies?;;;;;;;;;;;;;x
+EVT50227OPTB;We should offer to pay for transport. §R(¤500,000)§!;;;;;;;;;;;;;x
+EVT50227OPTC;We should pay for transport, and compensate them further. §R(¤800,000)§!;;;;;;;;;;;;;x
+EVT50227OPTD;Grant them control of their Sedentarian holy valley! §R(Cede Land!)§!;;;;;;;;;;;;;x
+EVTDESC50227;Since passing a resolution to invite Dehuogi settlers into our lands, the Assembly of the Old Clans is putting together a delegation to negotiate with the foreign ministry of the Rannu. The Court in Vepht is notorious for its opacity and sensitivity - and the delegates are anxious not to blunder what could be a unique chance for audience with the Rannu. Before heading eastward to the border stations in Sem, there has to be a decision made on what to offer in exchange for Rannutan facilitation of Dehuogi migration. This is to be our bid to get them to comply, but of course they can refuse and we will keep our offer.;;;;;;;;;;;;;x
 EVTNAME50228;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
 EVTDESC50228;x;;;;;;;;;;;;;x
-EVTNAME50229;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
+EVTNAME50229;Inauspicous Envoys Arrive;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50230;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
 EVTDESC50230;x;;;;;;;;;;;;;x
 EVTNAME50231;Bogoran Envoys Arrive!;;;;;;;;;;;;;x

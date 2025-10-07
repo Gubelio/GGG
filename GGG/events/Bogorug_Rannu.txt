@@ -10,8 +10,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTA" #offer nothing
         random_list = {
-            25 = { RAN = { country_event = { id = 50228 } } } #Succeeds
-            75 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            25 = { RAN = { country_event = { id = 50228 days = 30 } } } #Succeeds
+            75 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -21,8 +21,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTB" #offer 500k
         random_list = {
-            50 = { RAN = { country_event = { id = 50230 } } } #Succeeds
-            50 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            50 = { RAN = { country_event = { id = 50230 days = 30 } } } #Succeeds
+            50 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -33,8 +33,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTC" #offer 850k
         random_list = {
-            75 = { RAN = { country_event = { id = 50231 } } } #Succeeds
-            25 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            75 = { RAN = { country_event = { id = 50231 days = 30 } } } #Succeeds
+            25 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -45,8 +45,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTD" #offer Yauje valley
         random_list = {
-            99 = { RAN = { country_event = { id = 50232 } } } #Succeeds
-            1 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            99 = { RAN = { country_event = { id = 50232 days = 30 } } } #Succeeds
+            1 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -64,7 +64,7 @@ country_event = {  #For AI - don't localize - Rannu rejects
 
 	option = {
 		name = "EVT50226OPTA"
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -139,7 +139,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 } }
 		ai_chance = {
             factor = 1
         }
@@ -161,7 +161,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 	
 	option = {
 		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -175,7 +175,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 }  }
 		BOG = { treasury = -500000 }
 		treasury = 500000
 		any_owned = {
@@ -199,7 +199,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	
 	option = {
 		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -213,7 +213,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 } }
 		BOG = { treasury = -850000 }
 		treasury = 500000
 		any_owned = {
@@ -237,7 +237,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 	
 	option = {
 		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -251,7 +251,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 
 	option = {
 		name = "EVT50232OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 }  }
 		BOG = { treasury = -850000 }
 		REG_171 = { remove_core = BOG }
 		REG_171 = { add_core = RAN }
@@ -282,7 +282,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 	
 	option = {
 		name = "EVT50232OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -296,7 +296,7 @@ country_event = { #Bogorug request to Player
 
 	option = {
 		name = "EVT50227OPTA" #offer nothing
-		RAN = { country_event = { id = 50228 } }
+		RAN = { country_event = { id = 50228 days = 30  } }
 		ai_chance = {
             factor = 1
         }
@@ -304,7 +304,7 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTB" #offer 500k
-		RAN = { country_event = { id = 50230 } }
+		RAN = { country_event = { id = 50230 days = 30  } }
 		ai_chance = {
             factor = 1
             modifier = { factor = 0 NOT = { money = 510000 } }
@@ -313,7 +313,7 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTC" #offer 850k
-		RAN = { country_event = { id = 50231 } }
+		RAN = { country_event = { id = 50231 days = 30  } }
 		ai_chance = {
             factor = 1
             modifier = { factor = 0 NOT = { money = 860000 } }
@@ -322,7 +322,7 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTD" #offer Yauje valley
-		RAN = { country_event = { id = 50232 } }
+		RAN = { country_event = { id = 50232  days = 30 } }
 		ai_chance = {
             factor = 1
         }
