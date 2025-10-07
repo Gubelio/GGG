@@ -293,7 +293,7 @@ migration_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = 50
+		factor = 10
 		location = {
 			has_province_modifier = dehuogi_deportations
 		}
@@ -397,6 +397,14 @@ migration_chance = {
 		}	
 		
 	}
+	
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
+	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -480,6 +488,14 @@ colonialmigration_chance =
 		}
 		
 	}
+	
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
+	}
 }
 
 #general emigration chance
@@ -556,7 +572,7 @@ emigration_chance =
 	}
 	
 	modifier = {
-		factor = 0.7
+		factor = 50
 		location = {
 			has_province_modifier = dehuogi_deportations
 		}
@@ -615,6 +631,14 @@ emigration_chance =
 	modifier = {
 		factor = -8.0
 		country = { emigration_law = emigration_forbidden }
+	}
+	
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
 	}
 }
 

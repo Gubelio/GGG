@@ -48,10 +48,8 @@ country_migration_target = {
 			has_province_modifier = dehuogi_settlers
 		
 		}
-		is_accepted_culture = yes
-		THIS = {
-			tag = RAN
-		}
+		is_accepted_culture = THIS
+		
 	}
 
     modifier = {
@@ -116,6 +114,7 @@ country_migration_target = {
 			continent = africa #Shobgizob
 			continent = asia #Gofakidzia
 		}
+
 	}
 	
 	modifier = {
@@ -129,6 +128,7 @@ country_migration_target = {
 			continent = north_america #Ishahfazh
 			continent = south_america #Gofakidzia
 		}
+		
 	}
 
 #    modifier = {
