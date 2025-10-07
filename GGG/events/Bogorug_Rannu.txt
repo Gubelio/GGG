@@ -79,6 +79,7 @@ country_event = { #Rannu sends a rejection back
 	option = {
 		name = "EVT50233OPTA"
 		prestige = -5
+		
 	}
 }
 
@@ -93,13 +94,45 @@ country_event = { #Rannu sends terms of agreement back
 	option = {
 		name = "EVT50234OPTA"
 		prestige = 5
+		
+		add_accepted_culture = dehuogi
+		
+		479 = {
+			add_province_modifier = {
+			
+				name = dehuogi_settlers
+				duration = 3600
+				
+			}
+		
+		}
+		
+		480 = {
+			add_province_modifier = {
+			
+				name = dehuogi_settlers
+				duration = 3600
+				
+			}
+		
+		}
+		
+		481 = {
+			add_province_modifier = {
+			
+				name = dehuogi_settlers
+				duration = 3600
+				
+			}
+		
+		}
 	}
 }
 
 country_event = {  #Rannu receives offer of nothing from bogorug
-	id = 50229
-	title = "EVTNAME50229"
-	desc = "EVTDESC50229"
+	id = 50228
+	title = "EVTNAME50228"
+	desc = "EVTDESC50228"
 	#picture = "Outside_influences"
 
 	is_triggered_only = yes
@@ -110,6 +143,20 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 		ai_chance = {
             factor = 1
         }
+		any_owned = {
+			limit = {
+				is_core = BUD
+			}
+			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = dehuogi
+			
+			}
+			militancy = 3
+			consciousness = 8
+		}
 	}
 	
 	option = {
@@ -119,9 +166,9 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 }
 
 country_event = {  #Rannu receives offer of 500k from bogorug
-	id = 50229
-	title = "EVTNAME50229"
-	desc = "EVTDESC50229"
+	id = 50230
+	title = "EVTNAME50230"
+	desc = "EVTDESC50230"
 	#picture = "Outside_influences"
 
 	is_triggered_only = yes
@@ -140,6 +187,52 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 		ai_chance = {
             factor = 1
         }
+		any_pop = {
+			limit = {
+				has_pop_culture = dehuogi
+			
+			}
+			militancy = 3
+			consciousness = 8
+		}
+	}
+	
+	option = {
+		name = "EVT50229OPTA" #Rejects - AI will never pick
+		BOG = { country_event = { id = 50233 } }
+	}
+}
+
+country_event = {  #Rannu receives offer of 850k from bogorug
+	id = 50231
+	title = "EVTNAME50231"
+	desc = "EVTDESC50231"
+	#picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT50229OPTA" #Accepts - AI will always pick
+		BOG = { country_event = { id = 50234 } }
+		BOG = { treasury = -850000 }
+		treasury = 500000
+		any_owned = {
+			limit = {
+				is_core = BUD
+			}
+			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+		}
+		ai_chance = {
+            factor = 1
+        }
+		any_pop = {
+			limit = {
+				has_pop_culture = dehuogi
+			
+			}
+			militancy = 3
+			consciousness = 8
+		}
 	}
 	
 	option = {
@@ -177,6 +270,14 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 		ai_chance = {
             factor = 1
         }
+		any_pop = {
+			limit = {
+				has_pop_culture = dehuogi
+			
+			}
+			militancy = 3
+			consciousness = 8
+		}
 	}
 	
 	option = {

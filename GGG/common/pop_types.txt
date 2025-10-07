@@ -292,6 +292,15 @@ demotion_chance =
 migration_chance = {
 	factor = 1
 	
+	modifier = {
+		factor = 100
+		location = {
+			has_province_modifier = dehuogi_deportations
+		}
+		culture = dehuogi
+	
+	}
+	
 	group = {
 		modifier = {
 			factor = -0.1
@@ -341,14 +350,7 @@ migration_chance = {
 			}
 	}
 	
-	modifier = {
-		factor = 0.7
-		location = {
-			has_province_modifier = dehuogi_deportations
-		}
-		culture = dehuogi
 	
-	}
 
 	group = {
 		modifier = {

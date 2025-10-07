@@ -589,7 +589,7 @@ EVTNAME50211;The Holy Yauje Valley;;;;;;;;;;;;;x
 EVTDESC50211;x;;;;;;;;;;;;;x
 EVT50211OPTA;x;;;;;;;;;;;;;x
 EVTNAME50212;FOR AI DONT LOCALIZE;;;;;;;;;;;;;x
-EVTNAME50213;A Vewugi Mission!;;;;;;;;;;;;;x
+EVTNAME50213;A Vewugi Mission!;;;;;;;;;;;;;x #unfinished
 EVTDESC50213;x;;;;;;;;;;;;;x
 EVT50213OPTA;They will have;;;;;;;;;;;;;x
 EVT50213OPTB;x;;;;;;;;;;;;;x
@@ -603,9 +603,9 @@ EVTNAME50216;Red Flux Pandemic;;;;;;;;;;;;;x
 EVTDESC50216;x;;;;;;;;;;;;;x
 EVTNAME50217;Wasting Sickness Pandemic;;;;;;;;;;;;;x
 EVTDESC50217;x;;;;;;;;;;;;;x
-EVTNAME50218;ai disease ticker;;;;;;;;;;;;;x
+EVTNAME50218;ai disease ticker;;;;;;;;;;;;;x #no loc needed
 EVTDESC50218;x;;;;;;;;;;;;;x
-EVTNAME50219;ai disease ticker;;;;;;;;;;;;;x
+EVTNAME50219;ai disease ticker;;;;;;;;;;;;;x #no loc needed
 EVTDESC50219;x;;;;;;;;;;;;;x
 EVTNAME50220;Pot-Belly Pox Flare-Up;;;;;;;;;;;;;x
 EVTDESC50220;x;;;;;;;;;;;;;x
@@ -617,6 +617,23 @@ EVT50223NAME;The Kusii Bloodletters;;;;;;;;;;;;;x
 EVT50223DESC;The main problem our colonial administrators have in our lands in colonial Shobgizob is the persistent bloodletting done by the Kusii faithful. Despite efforts to forbid this practice, they still continue to maintain clandestine meetings at the officially proscribed temples and kill large amounts of animals and even people, which is a serious impediment to colonial governance, an insult to our laws, and generally a waste of the population resources of the state. Our current governor, in an effort to properly enforce the laws which forbid their cult (which have largely been ignored out until now out of practical necessity in not enraging a colonial populace), has submitted a report to $CAPITAL$, requesting permission to forcibly engage a detachment of sailors and soldiers to be employed in the dismantlement of their ghastly temple complexes, and to pay a scholar to study their strange faith in an effort to understand what drives them to this bloodshed.;;;;;;;;;;;;;x
 EVTNAME50224;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50225;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
+EVTNAME50226;Negotiations with the Empire;;;;;;;;;;;;;x
+EVTDESC50226;x;;;;;;;;;;;;;x
+EVTNAME50227;Negotiations with the Empire;;;;;;;;;;;;;x
+EVTDESC50227;x;;;;;;;;;;;;;x
+EVTNAME50228;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
+EVTDESC50228;x;;;;;;;;;;;;;x
+EVTNAME50229;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
+EVTNAME50230;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
+EVTDESC50230;x;;;;;;;;;;;;;x
+EVTNAME50231;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
+EVTDESC50231;x;;;;;;;;;;;;;x
+EVTNAME50232;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
+EVTDESC50232;x;;;;;;;;;;;;;x
+EVTNAME50233;Rannutan Declines!;;;;;;;;;;;;;x
+EVTDESC50233;x;;;;;;;;;;;;;x
+EVTNAME50234;Rannutan Accepts;;;;;;;;;;;;;x
+EVTDESC50234;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

@@ -52,6 +52,15 @@ luxury_needs = {
 country_migration_target = {
     factor = 1
 
+	modifier = {
+		factor = 100
+		any_owned_province = {
+			has_province_modifier = dehuogi_settlers
+		
+		}
+		is_accepted_culture = yes
+	}
+
     modifier = {
         factor = 0
         border_policy = quota_immigration
