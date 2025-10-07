@@ -2525,6 +2525,10 @@ country_event = { #pot_belly
 				duration = 500
 			
 			}
+			
+			ai_chance = {
+				factor = 0
+			}
 		
 		}
 		
@@ -2725,6 +2729,10 @@ country_event = { #pot_belly
 				}
 			}
 		
+		}
+		
+		ai_chance = {
+			factor = 1
 		}
 	
 	}
