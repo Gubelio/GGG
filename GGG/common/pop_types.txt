@@ -292,42 +292,42 @@ demotion_chance =
 migration_chance = {
 	factor = 1
 	
-	modifier = {
-		factor = 10
-		location = {
-			has_province_modifier = dehuogi_deportations
-		}
-		culture = dehuogi
-	
-	}
+	#modifier = {
+	#	factor = 10
+	#	location = {
+	#		has_province_modifier = dehuogi_deportations
+	#	}
+	#	culture = dehuogi
+	#
+	#}
 	
 	group = {
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 6 }
-			not = {
-				location = {
-						has_province_modifier = dehuogi_deportations
-					}
-			}
+			#not = {
+			#	location = {
+			#			has_province_modifier = dehuogi_deportations
+			#		}
+			#}
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 7 }
-			not = {
-				location = {
-						has_province_modifier = dehuogi_deportations
-					}
-			}
+			#not = {
+			#	location = {
+			#			has_province_modifier = dehuogi_deportations
+			#		}
+			#}
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 8 } 
-			not = {
-				location = {
-						has_province_modifier = dehuogi_deportations
-					}
-			}
+			#not = {
+			#	location = {
+			#			has_province_modifier = dehuogi_deportations
+			#		}
+			#}
 		}
 	}
 
@@ -571,14 +571,14 @@ emigration_chance =
 			}
 	}
 	
-	modifier = {
-		factor = 50
-		location = {
-			has_province_modifier = dehuogi_deportations
-		}
-		culture = dehuogi
-	
-	}
+	#modifier = {
+	#	factor = 50
+	#	location = {
+	#		has_province_modifier = dehuogi_deportations
+	#	}
+	#	culture = dehuogi
+	#
+	#}
 
 	group = {
 		modifier = {

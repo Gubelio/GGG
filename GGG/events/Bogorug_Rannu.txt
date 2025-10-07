@@ -89,6 +89,8 @@ country_event = { #Rannu sends terms of agreement back
 	desc = "EVTDESC50234"
 	#picture = "Outside_influences"
 
+
+
 	is_triggered_only = yes
 
 	option = {
@@ -97,32 +99,74 @@ country_event = { #Rannu sends terms of agreement back
 		
 		add_accepted_culture = dehuogi
 		
-		479 = {
-			add_province_modifier = {
-			
-				name = dehuogi_settlers
-				duration = 3600
+		
+		814 = {
+			any_pop = {
+				limit = {
+					type = artisans
+					culture = dehuogi
+					has_pop_religion = vewugi
+				}
+				pop_type = clerks
+				move_pop = 479
 				
+			}
+			add_core = RAN
+		}
+		
+		815 = {
+			any_pop = {
+				limit = {
+					type = artisans
+					culture = dehuogi
+					has_pop_religion = vewugi
+				}
+				pop_type = clerks
+				move_pop = 480
+			}
+			add_core = RAN
+		}
+		
+		817 = {
+			any_pop = {
+				limit = {
+					type = artisans
+					culture = dehuogi
+					has_pop_religion = vewugi
+				}
+				pop_type = clerks
+				move_pop = 481
+
+			}
+			add_core = RAN
+		}
+		
+		479 = {
+			any_pop = {
+				limit = {
+					type = clerks
+				}
+				pop_type = farmers
 			}
 		
 		}
 		
 		480 = {
-			add_province_modifier = {
-			
-				name = dehuogi_settlers
-				duration = 3600
-				
+			any_pop = {
+				limit = {
+					type = clerks
+				}
+				pop_type = farmers
 			}
 		
 		}
 		
 		481 = {
-			add_province_modifier = {
-			
-				name = dehuogi_settlers
-				duration = 3600
-				
+			any_pop = {
+				limit = {
+					type = clerks
+				}
+				pop_type = farmers
 			}
 		
 		}
@@ -147,14 +191,14 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		any_pop = {
 			limit = {
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
@@ -182,7 +226,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -192,7 +236,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
@@ -220,7 +264,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -230,7 +274,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
@@ -265,7 +309,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -275,7 +319,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}

@@ -479,8 +479,8 @@ dehuogi_settlers = {
 
 dehuogi_deportations = {
 	icon = 20
-	pop_consciousness_modifier = 0.01
-	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.03
+	pop_militancy_modifier = 0.03
 	local_RGO_output = -0.05
 	#immigrant_push = 1
 }
