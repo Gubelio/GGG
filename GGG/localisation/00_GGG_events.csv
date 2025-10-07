@@ -630,18 +630,28 @@ EVT50227OPTC;We should pay for transport, and compensate them further. §R(¤800,0
 EVT50227OPTD;Grant them control of their Sedentarian holy valley! §R(Cede Land!)§!;;;;;;;;;;;;;x
 EVTDESC50227;Since passing a resolution to invite Dehuogi settlers into our lands, the Assembly of the Old Clans is putting together a delegation to negotiate with the foreign ministry of the Rannu. The Court in Vepht is notorious for its opacity and sensitivity - and the delegates are anxious not to blunder what could be a unique chance for audience with the Rannu. Before heading eastward to the border stations in Sem, there has to be a decision made on what to offer in exchange for Rannutan facilitation of Dehuogi migration. This is to be our bid to get them to comply, but of course they can refuse and we will keep our offer. We must keep in mind that if the Rannutan have state serfs to give, they will likely send us far more souls.;;;;;;;;;;;;;x
 EVTNAME50228;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
-EVTDESC50228;x;;;;;;;;;;;;;x
+EVTDESC50228;We have just received a deputation from the Bogoran lands with the most curious proposal. The ministers of state are meeting in conclave before producing a reply to the Bogorans. They have proposed that we deport a large amount of the Dehuogi of the east of the empire to Bogoran lands, where they will become privileged settlers. The Dehuogi are a perennial thorn in our side - their horrendous Hajduks and bandits claim to serve the deposed pretenders of House Budobam, a puppet of the Vokonazhi, and the average Dehuogi brute drags his feet through every command. Whether we sent them a collection of troublesome serfs, or cleared out some artisan settlements, it would give us more certain control of this troubled region, though the prospect of deportations is sure to engulf the region in anger. The Bogorugi have patiently put this request before us.;;;;;;;;;;;;;x
 EVTNAME50229;Inauspicous Envoys Arrive;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50230;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
-EVTDESC50230;x;;;;;;;;;;;;;x
+EVTDESC50230;We have just received a deputation from the Bogoran lands with the most curious proposal. The ministers of state are meeting in conclave before producing a reply to the Bogorans. They have proposed that we deport a large amount of the Dehuogi of the east of the empire to Bogoran lands, where they will become privileged settlers. The Dehuogi are a perennial thorn in our side - their horrendous Hajduks and bandits claim to serve the deposed pretenders of House Budobam, a puppet of the Vokonazhi, and the average Dehuogi brute drags his feet through every command. Whether we sent them a collection of troublesome serfs, or cleared out some artisan settlements, it would give us more certain control of this troubled region, though the prospect of deportations is sure to engulf the region in anger. The Bogorugi have patiently put this request before us, and offered to pay for transportation;;;;;;;;;;;;;x
 EVTNAME50231;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
-EVTDESC50231;x;;;;;;;;;;;;;x
+EVTDESC50231;We have just received a deputation from the Bogoran lands with the most curious proposal. The ministers of state are meeting in conclave before producing a reply to the Bogorans. They have proposed that we deport a large amount of the Dehuogi of the east of the empire to Bogoran lands, where they will become privileged settlers. The Dehuogi are a perennial thorn in our side - their horrendous Hajduks and bandits claim to serve the deposed pretenders of House Budobam, a puppet of the Vokonazhi, and the average Dehuogi brute drags his feet through every command. Whether we sent them a collection of troublesome serfs, or cleared out some artisan settlements, it would give us more certain control of this troubled region, though the prospect of deportations is sure to engulf the region in anger. The Bogorugi have patiently put this request before us, and offered to pay for transportation, as well as give an additional fee.;;;;;;;;;;;;;x
 EVTNAME50232;Bogoran Envoys Arrive!;;;;;;;;;;;;;x
-EVTDESC50232;x;;;;;;;;;;;;;x
+EVTDESC50232;We have just received a deputation from the Bogoran lands with the most curious proposal. The ministers of state are meeting in conclave before producing a reply to the Bogorans. They have proposed that we deport a large amount of the Dehuogi of the east of the empire to Bogoran lands, where they will become privileged settlers. The Dehuogi are a perennial thorn in our side - their horrendous Hajduks and bandits claim to serve the deposed pretenders of House Budobam, a puppet of the Vokonazhi, and the average Dehuogi brute drags his feet through every command. Whether we sent them a collection of troublesome serfs, or cleared out some artisan settlements, it would give us more certain control of this troubled region, though the prospect of deportations is sure to engulf the region in anger. The Bogorugi, have, astonishingly, offered to cede us the holy Yauje valley in exchange for this! We are urgently encouraged to accept by the whole of the clergy,;;;;;;;;;;;;;x
+EVT50228OPTA;Anything to get rid of these dreadful folk!;;;;;;;;;;;;;x
+EVT50228OPTB;Who are they kidding?;;;;;;;;;;;;;x
+EVT50230OPTA;Approved.;;;;;;;;;;;;;x
+EVT50230OPTB;And nothing to cover the cost of the population loss?;;;;;;;;;;;;;x
+EVT50231OPTA;Excellent, approved.;;;;;;;;;;;;;x
+EVT50231OPTB;We value our subjects too greatly.;;;;;;;;;;;;;x
+EVT50232OPTA;What a diplomatic coup!;;;;;;;;;;;;;x
+EVT50232OPTB;We cannot risk rousing the Dehuogi.;;;;;;;;;;;;;x
 EVTNAME50233;Rannutan Declines!;;;;;;;;;;;;;x
 EVTDESC50233;x;;;;;;;;;;;;;x
 EVTNAME50234;Rannutan Accepts;;;;;;;;;;;;;x
 EVTDESC50234;x;;;;;;;;;;;;;x
+EVTNAME50235;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
+EVTNAME50236;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

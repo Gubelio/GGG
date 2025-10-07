@@ -472,9 +472,11 @@ quaratine = {
 	icon = 20
 }
 
-dehuogi_settlers = {
+seat_of_the_dehuogi_clan = {
 	icon = 19
-	pop_consciousness_modifier = 0.01
+	local_repair = 0.1
+	local_ruling_party_support = 2
+	
 }
 
 dehuogi_deportations = {

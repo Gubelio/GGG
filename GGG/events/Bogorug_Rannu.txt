@@ -95,7 +95,16 @@ country_event = { #Rannu sends terms of agreement back
 	desc = "EVTDESC50234"
 	#picture = "Outside_influences"
 
+	immediate = {
+		480 = {
+			add_province_modifier = {
+				name = seat_of_the_dehuogi_clan 
+				duration = -1
+			}
+			
+		}
 	
+	}
 
 	is_triggered_only = yes
 
@@ -304,7 +313,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
+		name = "EVT50228OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
@@ -318,7 +327,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT50229OPTA" #Accepts - AI will always pick
+		name = "EVT50230OPTA" #Accepts - AI will always pick
 		BOG = { country_event = { id = 50234 days = 30 }  }
 		BOG = { treasury = -500000 }
 		treasury = 500000
@@ -342,7 +351,7 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
+		name = "EVT50230OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
@@ -356,7 +365,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT50229OPTA" #Accepts - AI will always pick
+		name = "EVT50231OPTA" #Accepts - AI will always pick
 		BOG = { country_event = { id = 50234 days = 30 } }
 		BOG = { treasury = -850000 }
 		treasury = 500000
@@ -380,7 +389,7 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
+		name = "EVT50231OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
@@ -425,7 +434,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 	}
 	
 	option = {
-		name = "EVT50232OPTA" #Rejects - AI will never pick
+		name = "EVT50232OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
