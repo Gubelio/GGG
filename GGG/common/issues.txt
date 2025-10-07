@@ -252,11 +252,8 @@ political_reforms = {
         next_step_only = yes
 
         tribal_assembly = {
-            rich_vote = 1
-            middle_vote = 0
-            poor_vote = 0
-            rules = { state_vote = yes }
-
+			
+			
         }
 		
         noble_parliament = {
@@ -265,16 +262,19 @@ political_reforms = {
             middle_vote = 0
             poor_vote = 0
             rules = { rich_only = yes }
-
+			allow = {
+				THIS = {
+					NOT = { has_country_flag = federalised }
+				}
+            }
         }
 		
-        regulated_elections = {
+	regulated_elections = {
             ruling_party_support = 0.10
             rich_vote = 1
             middle_vote = 0
             poor_vote = 0
             rules = { rich_only = yes }
-
         }
 		
         approved_candidacy = {
@@ -283,7 +283,6 @@ political_reforms = {
             middle_vote = 0
             poor_vote = 0
             rules = { rich_only = yes }
-
         }
 		
         appointed_legislatures = {
@@ -294,6 +293,62 @@ political_reforms = {
             rules = { same_as_ruling_party = yes }
 
         }
+    }
+	
+	federalisation = {
+        next_step_only = yes
+
+		centralised = {
+
+
+        }
+
+        tribal_assembly_i = {
+            rich_vote = 3
+            #middle_vote = 2
+            poor_vote = 1
+            rules = { state_vote = yes }
+			rules = { largest_share = yes }
+			allow = {
+             
+				THIS = {
+					NOT = { has_country_flag = centralised }
+				}
+				
+					
+				
+            }
+        }
+		
+        noble_parliament_i = {
+            rich_vote = 1
+            middle_vote = 0
+            poor_vote = 0
+			rules = { state_vote = yes }
+            rules = { rich_only = yes }
+			rules = { largest_share = yes }
+        }
+		
+        states_system = {
+           ruling_party_support = 0.02
+           rich_vote = 2
+           middle_vote = 1
+           poor_vote = 0
+           rules = { state_vote = yes }
+		   rules = { dhont = yes }
+
+        }
+		
+        vocational_candidacy = {
+           ruling_party_support = 0.05
+           rich_vote = 5
+           middle_vote = 2
+           poor_vote = 1
+			rules = { state_vote = yes }
+			rules = { sainte_laque = yes }
+        }
+		
+      
     }
 
 	
@@ -333,29 +388,29 @@ political_reforms = {
     }
 	
 	
-	banking_system = {
-        next_step_only = yes
-	
-        unregulated_currency = {
-			#tax_efficiency = -0.2 
-			
-        }
-        banking_licenses = {
-			tax_efficiency = 0.01 
-			
-        }
-
-        central_banking = {
-			tax_efficiency = 0.05 
-			
-        }
-		
-        regulatory_institutions = {
-			tax_efficiency = 0.1
-			
-        }
-
-    }
+	#banking_system = {
+   #    next_step_only = yes
+	#
+   #    unregulated_currency = {
+	#		#tax_efficiency = -0.2 
+	#		
+   #    }
+   #    banking_licenses = {
+	#		#tax_efficiency = 0.01 
+	#		
+   #    }
+	#
+   #    central_banking = {
+	#		#tax_efficiency = 0.05 
+	#		
+   #    }
+	#	
+   #    regulatory_institutions = {
+	#		#tax_efficiency = 0.1
+	#		
+   #    }
+	#
+   #}
 	
 	thralldom = {
 	

@@ -173,3 +173,125 @@ country_event = {
             }
     }
 }
+
+country_event = {
+    id = 50238
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				legislative_system = federalised
+				NOT = { has_country_flag = federalised }
+			}
+            any_neighbor_country = {
+                ai = no
+                legislative_system = federalised
+				NOT = { has_country_flag = federalised }
+            }
+            any_greater_power = {
+                ai = no
+                legislative_system = federalised
+				NOT = { has_country_flag = federalised }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        legislative_system = federalised
+                    }
+                }
+                owner = {
+                    set_country_flag = federalised
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    legislative_system = federalised
+					NOT = { has_country_flag = federalised }
+                }
+                set_country_flag = federalised
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50239
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				federalisation = centralised
+				NOT = { has_country_flag = centralised }
+			}
+            any_neighbor_country = {
+                ai = no
+                federalisation = centralised
+				NOT = { has_country_flag = centralised }
+            }
+            any_greater_power = {
+                ai = no
+                federalisation = centralised
+				NOT = { has_country_flag = centralised }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        federalisation = centralised
+                    }
+                }
+                owner = {
+                    set_country_flag = centralised
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    federalisation = centralised
+					NOT = { has_country_flag = centralised }
+                }
+                set_country_flag = centralised
+            }
+			
+		
+		
+		
+    }
+}

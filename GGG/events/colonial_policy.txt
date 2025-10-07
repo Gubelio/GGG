@@ -431,7 +431,7 @@ country_event = { #exploitation
 		name = "ai"
 	
 		
-		any_greater_power = {
+		any_country = {
 			limit = {
 				colonial_policy = exploitation
 				civilized = yes
@@ -556,132 +556,132 @@ country_event = { #exploitation
 		
 		}
 		
-		any_neighbor_country = {
-			limit = {
-				colonial_policy = exploitation
-				civilized = yes
-	
-				any_owned_province = {
-					is_colonial = yes
-					OR = {
-						has_province_modifier = settler_colonization
-						has_province_modifier = self_rule
-						NOT = { has_province_modifier = exploitation }
-					}
-					NOT = { continent = north_america }
-					NOT = {
-						OR = { 
-							province_id = 122 
-							province_id = 123
-							province_id = 919
-							province_id = 921 
-							province_id = 920 
-							province_id = 922 
-							province_id = 923
-							province_id = 924 
-							province_id = 925 
-							province_id = 926 
-							province_id = 1391 
-							province_id = 1495 
-							province_id = 1927 
-							province_id = 1312 
-							province_id = 1313 
-							province_id = 1314 
-						}
-					}
-					
-				}
-			
-			}
-			
-		
-			any_owned = {
-				limit = {
-					is_colonial = yes
-					NOT = { has_province_modifier = exploitation }
-				}
-				remove_province_modifier = exploitation
-				remove_province_modifier = self_rule
-				remove_province_modifier = settler_colonization
-				add_province_modifier = {
-					name = exploitation
-					duration = 36525
-				}
-			}
-		
-			any_owned = {
-				limit = { 
-					OR = {
-						has_pop_type = farmers
-						has_pop_type = labourers
-						has_pop_type = serfs
-					}
-					is_colonial = yes
-					NOT = { continent = north_america }
-					NOT = { has_province_flag = exploited }
-					NOT = {
-						OR = { 
-							province_id = 122 
-							province_id = 123
-							province_id = 919
-							province_id = 921 
-							province_id = 920 
-							province_id = 922 
-							province_id = 923
-							province_id = 924 
-							province_id = 925 
-							province_id = 926 
-							province_id = 1391 
-							province_id = 1495 
-							province_id = 1927 
-							province_id = 1312 
-							province_id = 1313 
-							province_id = 1314 
-						}
-					}
-					NOT = {
-						OR = {
-							is_core = NHQ
-							is_core = PUS
-							is_core = ORH
-							is_core = FCH
-							is_core = QOO
-						}
-					}
-				}
-				set_province_flag = exploitated
-				any_pop = {
-					limit = {
-						type = serfs
-						OR = {
-							NOT = { is_accepted_culture = yes }
-							NOT = { is_primary_culture = yes }
-						}
-					}
-					pop_type = slaves
-					militancy = 10
-				}
-				any_pop = { 
-					limit = {
-						OR = {
-							type = farmers
-							type = labourers
-						}
-						OR = {
-							NOT = { is_accepted_culture = yes }
-							NOT = { is_primary_culture = yes }
-						}
-						
-					}
-					pop_type = serfs
-					militancy  = 7
-				}
-				
-						
-			}
-		
-		
-		}
+		#any_neighbor_country = {
+		#	limit = {
+		#		colonial_policy = exploitation
+		#		civilized = yes
+		#
+		#		any_owned_province = {
+		#			is_colonial = yes
+		#			OR = {
+		#				has_province_modifier = settler_colonization
+		#				has_province_modifier = self_rule
+		#				NOT = { has_province_modifier = exploitation }
+		#			}
+		#			NOT = { continent = north_america }
+		#			NOT = {
+		#				OR = { 
+		#					province_id = 122 
+		#					province_id = 123
+		#					province_id = 919
+		#					province_id = 921 
+		#					province_id = 920 
+		#					province_id = 922 
+		#					province_id = 923
+		#					province_id = 924 
+		#					province_id = 925 
+		#					province_id = 926 
+		#					province_id = 1391 
+		#					province_id = 1495 
+		#					province_id = 1927 
+		#					province_id = 1312 
+		#					province_id = 1313 
+		#					province_id = 1314 
+		#				}
+		#			}
+		#			
+		#		}
+		#	
+		#	}
+		#	
+		#
+		#	any_owned = {
+		#		limit = {
+		#			is_colonial = yes
+		#			NOT = { has_province_modifier = exploitation }
+		#		}
+		#		remove_province_modifier = exploitation
+		#		remove_province_modifier = self_rule
+		#		remove_province_modifier = settler_colonization
+		#		add_province_modifier = {
+		#			name = exploitation
+		#			duration = 36525
+		#		}
+		#	}
+		#
+		#	any_owned = {
+		#		limit = { 
+		#			OR = {
+		#				has_pop_type = farmers
+		#				has_pop_type = labourers
+		#				has_pop_type = serfs
+		#			}
+		#			is_colonial = yes
+		#			NOT = { continent = north_america }
+		#			NOT = { has_province_flag = exploited }
+		#			NOT = {
+		#				OR = { 
+		#					province_id = 122 
+		#					province_id = 123
+		#					province_id = 919
+		#					province_id = 921 
+		#					province_id = 920 
+		#					province_id = 922 
+		#					province_id = 923
+		#					province_id = 924 
+		#					province_id = 925 
+		#					province_id = 926 
+		#					province_id = 1391 
+		#					province_id = 1495 
+		#					province_id = 1927 
+		#					province_id = 1312 
+		#					province_id = 1313 
+		#					province_id = 1314 
+		#				}
+		#			}
+		#			NOT = {
+		#				OR = {
+		#					is_core = NHQ
+		#					is_core = PUS
+		#					is_core = ORH
+		#					is_core = FCH
+		#					is_core = QOO
+		#				}
+		#			}
+		#		}
+		#		set_province_flag = exploitated
+		#		any_pop = {
+		#			limit = {
+		#				type = serfs
+		#				OR = {
+		#					NOT = { is_accepted_culture = yes }
+		#					NOT = { is_primary_culture = yes }
+		#				}
+		#			}
+		#			pop_type = slaves
+		#			militancy = 10
+		#		}
+		#		any_pop = { 
+		#			limit = {
+		#				OR = {
+		#					type = farmers
+		#					type = labourers
+		#				}
+		#				OR = {
+		#					NOT = { is_accepted_culture = yes }
+		#					NOT = { is_primary_culture = yes }
+		#				}
+		#				
+		#			}
+		#			pop_type = serfs
+		#			militancy  = 7
+		#		}
+		#		
+		#				
+		#	}
+		#
+		#
+		#}
 	
 	
 	}
@@ -788,7 +788,7 @@ country_event = { #settlement
 		name = "ai"
 	
 		
-		any_greater_power = {
+		any_country = {
 			limit = {
 				colonial_policy = settlement
 				civilized = yes
@@ -843,63 +843,63 @@ country_event = { #settlement
 		
 		}
 		
-		any_neighbor_country = {
-			limit = {
-				colonial_policy = settler_colonization
-				civilized = yes
-	
-				any_owned_province = {
-					is_colonial = yes
-					OR = {
-						has_province_modifier = exploitation
-						has_province_modifier = self_rule
-						NOT = { has_province_modifier = settler_colonization }
-					}
-					NOT = { continent = north_america }
-					NOT = {
-						OR = { 
-							province_id = 122 
-							province_id = 123
-							province_id = 919
-							province_id = 921 
-							province_id = 920 
-							province_id = 922 
-							province_id = 923
-							province_id = 924 
-							province_id = 925 
-							province_id = 926 
-							province_id = 1391 
-							province_id = 1495 
-							province_id = 1927 
-							province_id = 1312 
-							province_id = 1313 
-							province_id = 1314 
-						}
-					}
-					
-				}
-			
-			}
-			
-		
-			any_owned = {
-				limit = {
-					is_colonial = yes
-					NOT = { has_province_modifier = settler_colonization }
-				}
-				remove_province_modifier = exploitation
-				remove_province_modifier = self_rule
-				remove_province_modifier = settler_colonization
-				add_province_modifier = {
-					name = settler_colonization
-					duration = 36525
-				}
-			}
-		
-			
-		
-		
-		}
+		#any_neighbor_country = {
+		#	limit = {
+		#		colonial_policy = settler_colonization
+		#		civilized = yes
+		#
+		#		any_owned_province = {
+		#			is_colonial = yes
+		#			OR = {
+		#				has_province_modifier = exploitation
+		#				has_province_modifier = self_rule
+		#				NOT = { has_province_modifier = settler_colonization }
+		#			}
+		#			NOT = { continent = north_america }
+		#			NOT = {
+		#				OR = { 
+		#					province_id = 122 
+		#					province_id = 123
+		#					province_id = 919
+		#					province_id = 921 
+		#					province_id = 920 
+		#					province_id = 922 
+		#					province_id = 923
+		#					province_id = 924 
+		#					province_id = 925 
+		#					province_id = 926 
+		#					province_id = 1391 
+		#					province_id = 1495 
+		#					province_id = 1927 
+		#					province_id = 1312 
+		#					province_id = 1313 
+		#					province_id = 1314 
+		#				}
+		#			}
+		#			
+		#		}
+		#	
+		#	}
+		#	
+		#
+		#	any_owned = {
+		#		limit = {
+		#			is_colonial = yes
+		#			NOT = { has_province_modifier = settler_colonization }
+		#		}
+		#		remove_province_modifier = exploitation
+		#		remove_province_modifier = self_rule
+		#		remove_province_modifier = settler_colonization
+		#		add_province_modifier = {
+		#			name = settler_colonization
+		#			duration = 36525
+		#		}
+		#	}
+		#
+		#	
+		#
+		#
+		#}
 	
 	
 	}
@@ -1006,7 +1006,7 @@ country_event = { #self rule
 		name = "ai"
 	
 		
-		any_greater_power = {
+		any_country = {
 			limit = {
 				colonial_policy = self_rule
 				civilized = yes
@@ -1061,63 +1061,63 @@ country_event = { #self rule
 		
 		}
 		
-		any_neighbor_country = {
-			limit = {
-				colonial_policy = self_rule
-				civilized = yes
-	
-				any_owned_province = {
-					is_colonial = yes
-					OR = {
-						has_province_modifier = exploitation
-						has_province_modifier = settler_colonization
-						NOT = { has_province_modifier = self_rule }
-					}
-					NOT = { continent = north_america }
-					NOT = {
-						OR = { 
-							province_id = 122 
-							province_id = 123
-							province_id = 919
-							province_id = 921 
-							province_id = 920 
-							province_id = 922 
-							province_id = 923
-							province_id = 924 
-							province_id = 925 
-							province_id = 926 
-							province_id = 1391 
-							province_id = 1495 
-							province_id = 1927 
-							province_id = 1312 
-							province_id = 1313 
-							province_id = 1314 
-						}
-					}
-					
-				}
-			
-			}
-			
-		
-			any_owned = {
-				limit = {
-					is_colonial = yes
-					NOT = { has_province_modifier = self_rule }
-				}
-				remove_province_modifier = exploitation
-				remove_province_modifier = self_rule
-				remove_province_modifier = settler_colonization
-				add_province_modifier = {
-					name = self_rule
-					duration = 36525
-				}
-			}
-		
-			
-		
-		
-		}
+		#any_neighbor_country = {
+		#	limit = {
+		#		colonial_policy = self_rule
+		#		civilized = yes
+		#
+		#		any_owned_province = {
+		#			is_colonial = yes
+		#			OR = {
+		#				has_province_modifier = exploitation
+		#				has_province_modifier = settler_colonization
+		#				NOT = { has_province_modifier = self_rule }
+		#			}
+		#			NOT = { continent = north_america }
+		#			NOT = {
+		#				OR = { 
+		#					province_id = 122 
+		#					province_id = 123
+		#					province_id = 919
+		#					province_id = 921 
+		#					province_id = 920 
+		#					province_id = 922 
+		#					province_id = 923
+		#					province_id = 924 
+		#					province_id = 925 
+		#					province_id = 926 
+		#					province_id = 1391 
+		#					province_id = 1495 
+		#					province_id = 1927 
+		#					province_id = 1312 
+		#					province_id = 1313 
+		#					province_id = 1314 
+		#				}
+		#			}
+		#			
+		#		}
+		#	
+		#	}
+		#	
+		#
+		#	any_owned = {
+		#		limit = {
+		#			is_colonial = yes
+		#			NOT = { has_province_modifier = self_rule }
+		#		}
+		#		remove_province_modifier = exploitation
+		#		remove_province_modifier = self_rule
+		#		remove_province_modifier = settler_colonization
+		#		add_province_modifier = {
+		#			name = self_rule
+		#			duration = 36525
+		#		}
+		#	}
+		#
+		#	
+		#
+		#
+		#}
 	
 	
 	}
