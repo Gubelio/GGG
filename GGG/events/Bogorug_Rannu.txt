@@ -105,6 +105,40 @@ country_event = { #Rannu sends terms of agreement back
 		
 		add_accepted_culture = dehuogi
 		
+		479 = {
+			any_pop = {
+				limit = {
+					type = clerks
+					has_pop_religion = vewugi
+				}
+				move_pop = 466
+			}
+		
+		}
+			
+		480 = {
+			any_pop = {
+				limit = {
+					type = clerks
+					has_pop_religion = vewugi
+				}
+				move_pop = 466
+			}
+		
+		}
+			
+		481 = {
+			any_pop = {
+				limit = {
+					type = clerks
+					has_pop_religion = vewugi
+				}
+				move_pop = 466
+			}
+		
+		}
+		
+		
 		if = {
 			limit = {
 				RAN = {
