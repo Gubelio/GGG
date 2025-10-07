@@ -4,6 +4,12 @@ country_event = { #Bogorug request to AI
 	title = "EVTNAME50226" 
 	desc = "EVTDESC50226"
 	#picture = "Outside_influences"
+	
+	immediate = {
+	ran_bog_info = { }
+	ran_serf_status = { }
+	
+	}
 
 	is_triggered_only = yes
 
@@ -89,7 +95,7 @@ country_event = { #Rannu sends terms of agreement back
 	desc = "EVTDESC50234"
 	#picture = "Outside_influences"
 
-
+	
 
 	is_triggered_only = yes
 
@@ -99,74 +105,165 @@ country_event = { #Rannu sends terms of agreement back
 		
 		add_accepted_culture = dehuogi
 		
-		
-		814 = {
-			any_pop = {
-				limit = {
-					type = artisans
-					culture = dehuogi
-					has_pop_religion = vewugi
+		if = {
+			limit = {
+				RAN = {
+					debt_law = serfdom
 				}
-				pop_type = clerks
-				move_pop = 479
-				
+			
 			}
-			add_core = RAN
-		}
 		
-		815 = {
-			any_pop = {
-				limit = {
-					type = artisans
-					culture = dehuogi
-					has_pop_religion = vewugi
+			814 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 479
+					
 				}
-				pop_type = clerks
-				move_pop = 480
+				add_core = RAN
 			}
-			add_core = RAN
-		}
-		
-		817 = {
-			any_pop = {
-				limit = {
-					type = artisans
-					culture = dehuogi
-					has_pop_religion = vewugi
+			
+			815 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 480
 				}
-				pop_type = clerks
-				move_pop = 481
+				add_core = RAN
+			}
+			
+			817 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 481
+	
+				}
+				add_core = RAN
+			}
+			
+			479 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
+			}
+			
+			480 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
+			}
+			
+			481 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
+			}
+		
+		}
 
-			}
-			add_core = RAN
-		}
 		
-		479 = {
-			any_pop = {
-				limit = {
-					type = clerks
+		if = {
+			limit = {
+				RAN = {
+					NOT = { debt_law = serfdom }
 				}
-				pop_type = farmers
+			
 			}
 		
-		}
-		
-		480 = {
-			any_pop = {
-				limit = {
-					type = clerks
+			814 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 479
+					
 				}
-				pop_type = farmers
+				add_core = RAN
 			}
-		
-		}
-		
-		481 = {
-			any_pop = {
-				limit = {
-					type = clerks
+			
+			815 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 480
 				}
-				pop_type = farmers
+				add_core = RAN
+			}
+			
+			817 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 481
+	
+				}
+				add_core = RAN
+			}
+			
+			479 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
+			}
+			
+			480 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
+			}
+			
+			481 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
 			}
 		
 		}
@@ -335,6 +432,12 @@ country_event = { #Bogorug request to Player
 	title = "EVTNAME50227" 
 	desc = "EVTDESC50227"
 	#picture = "Outside_influences"
+	
+	immediate = {
+	ran_bog_info = { }
+	ran_serf_status = { }
+	
+	}
 
 	is_triggered_only = yes
 
@@ -373,3 +476,78 @@ country_event = { #Bogorug request to Player
 	}
 }
 
+country_event = {
+	id = 50235
+	
+	trigger = {
+		ai = yes
+		RAN = {
+			NOT = { debt_law = serfdom }
+				
+			}
+		NOT = { has_global_flag = serf_updated }
+		}
+
+	option = {
+		set_global_flag = serf_updated
+			
+		THIS = {
+			2411 = {
+				secede_province = THIS 
+			}
+			ran_serf_status = {
+				state_scope = {
+					change_region_name = "Outlawed"
+				}
+			}
+			2411 = {
+				secede_province = --- 
+			}
+		}
+			
+			
+		
+		
+		
+		
+	}
+
+}
+
+country_event = {
+	id = 50236
+	
+	trigger = {
+		ai = yes
+		RAN = {
+			debt_law = serfdom
+				
+			}
+		has_global_flag = serf_updated
+		}
+
+	option = {
+		clr_global_flag = serf_updated
+			
+		THIS = {
+			2411 = {
+				secede_province = THIS 
+			}
+			ran_serf_status = {
+				state_scope = {
+					change_region_name = "Legal"
+				}
+			}
+			2411 = {
+				secede_province = --- 
+			}
+		}
+			
+			
+		
+		
+		
+		
+	}
+
+}
