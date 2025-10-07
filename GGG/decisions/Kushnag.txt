@@ -1,7 +1,7 @@
 political_decisions = {
 
 	conquest_of_the_bushlands = {
-		picture = "great_warrior"
+		picture = "bafozhi_beastmen"
 		potential = {
 			1856 = { empty = yes }
 			1872 = { empty = yes }

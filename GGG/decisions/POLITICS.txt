@@ -368,6 +368,7 @@ political_decisions = {
 ##########################
 
 	leave_soi = {
+		picture = "imperial_palace"
 		alert = no
 		potential = {
 			part_of_sphere = yes
@@ -411,6 +412,7 @@ political_decisions = {
 	}
 	
 	nationalize = {
+		picture = "imperial_palace"
 		alert = no
 			
 		potential = {
