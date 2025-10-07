@@ -1,6 +1,7 @@
 political_decisions = {
 
     player_settings_open = {
+		picture = "starting_options"
         alert = yes
         potential = {
 			NOT = { year = 1309 }            
@@ -19,6 +20,7 @@ political_decisions = {
     }
 
     player_settings_close = {
+	picture = "starting_options"	
         alert = no
         potential = {
 			NOT = { year = 1309 }
@@ -38,6 +40,7 @@ political_decisions = {
 
 
     bankruptcy_events = {
+	picture = "starting_options"
         alert = no
         potential = {
 			NOT = { year = 1309 }
@@ -56,6 +59,7 @@ political_decisions = {
     }
 	
     disable_sanctions = {
+	picture = "starting_options"
         alert = no
         potential = {
 			NOT = { year = 1309 }
@@ -74,6 +78,7 @@ political_decisions = {
     }
 	
     enable_multiplayer = {
+	picture = "starting_options"
         alert = no
         potential = {
 			NOT = { year = 1309 }
@@ -92,6 +97,7 @@ political_decisions = {
     }
 	
     not_interested_in_grants = {
+	picture = "starting_options"
         alert = no
         potential = {
 			ai = no
@@ -109,6 +115,7 @@ political_decisions = {
     }
 
     interested_in_grants = {
+	picture = "starting_options"
         alert = no
         potential = {
 			ai = no
@@ -126,6 +133,7 @@ political_decisions = {
     }
 
     request_grant = {
+	picture = "starting_options"
         alert = no
         potential = {
 			ai = no
@@ -149,6 +157,27 @@ political_decisions = {
         }
     }
 	
+	
+	
+    enable_pandemics = {
+	picture = "starting_options"
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_country_flag = pandemics_enabled }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_country_flag = pandemics_enabled
+        }
+		
+    }
+	
 	open_encyclopedia = {
         alert = no
 		picture = encycl
@@ -166,24 +195,6 @@ political_decisions = {
 		set_country_flag = encyclopedia_open
 
         }
-    }
-	
-    enable_pandemics = {
-        alert = no
-        potential = {
-			NOT = { year = 1309 }
-			ai = no
-			has_country_flag = player_settings_opened
-			NOT = { has_country_flag = pandemics_enabled }
-        }
-
-        allow = {
-        }
-
-        effect = {
-			set_country_flag = pandemics_enabled
-        }
-		
     }
 	
 	
