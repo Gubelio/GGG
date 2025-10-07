@@ -482,5 +482,5 @@ dehuogi_deportations = {
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = 0.01
 	local_RGO_output = -0.05
-	immigrant_push = 2
+	#immigrant_push = 1
 }
