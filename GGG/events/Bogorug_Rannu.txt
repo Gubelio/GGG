@@ -121,6 +121,7 @@ country_event = { #Rannu sends terms of agreement back
 						has_pop_religion = vewugi
 					}
 					pop_type = clerks
+					reduce_pop = 0.8
 					move_pop = 479
 					
 				}
@@ -135,6 +136,7 @@ country_event = { #Rannu sends terms of agreement back
 						has_pop_religion = vewugi
 					}
 					pop_type = clerks
+					reduce_pop = 0.8
 					move_pop = 480
 				}
 				add_core = RAN
@@ -148,6 +150,7 @@ country_event = { #Rannu sends terms of agreement back
 						has_pop_religion = vewugi
 					}
 					pop_type = clerks
+					reduce_pop = 0.8
 					move_pop = 481
 	
 				}
@@ -159,7 +162,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = soldiers
+					pop_type = farmers
 				}
 			
 			}
@@ -169,7 +172,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = soldiers
+					pop_type = farmers
 				}
 			
 			}
@@ -179,7 +182,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = soldiers
+					pop_type = farmers
 				}
 			
 			}
@@ -241,7 +244,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = farmers
+					pop_type = soldiers
 				}
 			
 			}
@@ -251,7 +254,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = farmers
+					pop_type = soldiers
 				}
 			
 			}
@@ -261,7 +264,7 @@ country_event = { #Rannu sends terms of agreement back
 					limit = {
 						type = clerks
 					}
-					pop_type = farmers
+					pop_type = soldiers
 				}
 			
 			}
