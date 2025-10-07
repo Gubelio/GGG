@@ -647,11 +647,15 @@ EVT50231OPTB;We value our subjects too greatly.;;;;;;;;;;;;;x
 EVT50232OPTA;What a diplomatic coup!;;;;;;;;;;;;;x
 EVT50232OPTB;We cannot risk rousing the Dehuogi.;;;;;;;;;;;;;x
 EVTNAME50233;Rannutan Declines!;;;;;;;;;;;;;x
-EVTDESC50233;x;;;;;;;;;;;;;x
+EVTDESC50233;The talks we began with the Imperial Court of the Rannutan Empire about the invitation of their Dehuogi settlers into our lands have apparently faltered, with our diplomats arriving this morning dejected and gloomy. They are expected to give a full address to the assembly of clans this afternoon, but the interior ministry considers the matter a forgone conclusion: Rannutan has no interest. ;;;;;;;;;;;;;x
+EVT50233OPTA;What a shame!;;;;;;;;;;;;;x
 EVTNAME50234;Rannutan Accepts;;;;;;;;;;;;;x
-EVTDESC50234;x;;;;;;;;;;;;;x
+EVTDESC50234;The talks we began with the Imperial Court of the Rannutan Empire about the invitation of their Dehuogi settlers into our lands have been successful! We had only scarcely received the diplomats themselves at a border post, who had been gone for about two months, when they informed us that coming shortly behind them were a beleaguered line of Dehuogi who had been marched across the empire with a Rannutan Imperial Army Escort. These settlers are complaining of great mistreatment at the hands of the Rannutan, and are in quite poor condition, having left with only their pack animals and what goods they could carry, but seem eager at the prospect of the large acres we have set aside for them in one of the least governed lands at the western edge of our state. The government has already made contact with a few community leaders to begin establishing their clan government, granted them their banner, and provided them with some Oujoy bearers.;;;;;;;;;;;;;x
+EVT50234OPTA;Our state, nay - our people, are strengthened today.;;;;;;;;;;;;;x
 EVTNAME50235;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
 EVTNAME50236;x;;;;;;;;;;;;;x #EVENT ONLY FOR AI, NO HUMAN WILL EVER SEE
+EVTNAME50237;The End of the Dehuogi Clan!;;;;;;;;;;;;;x
+EVTDESC50237;Since we have occupied the land of Souzzo, the capital of the Dehuogi clan, their clan structure seemingly has come undone. Their great fortress is abandoned, and their banners captured by one of our generals. This curious expedient by the Bogoran state, to strengthen their hold on the Yieswamau, seems to have come apart, but the Dehuogi still remain, if in a state of disarray and hopelessness, now that their protector has gone.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

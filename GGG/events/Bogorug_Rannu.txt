@@ -95,16 +95,7 @@ country_event = { #Rannu sends terms of agreement back
 	desc = "EVTDESC50234"
 	#picture = "Outside_influences"
 
-	immediate = {
-		480 = {
-			add_province_modifier = {
-				name = seat_of_the_dehuogi_clan 
-				duration = -1
-			}
-			
-		}
 	
-	}
 
 	is_triggered_only = yes
 
@@ -278,6 +269,14 @@ country_event = { #Rannu sends terms of agreement back
 			
 			}
 		
+		}
+		
+		480 = {
+			add_province_modifier = {
+				name = seat_of_the_dehuogi_clan 
+				duration = -1
+			}
+			
 		}
 	}
 }
@@ -491,6 +490,13 @@ country_event = { #Bogorug request to Player
 country_event = {
 	id = 50235
 	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	allow_multiple_instances = no
+	
 	trigger = {
 		ai = yes
 		RAN = {
@@ -529,6 +535,15 @@ country_event = {
 country_event = {
 	id = 50236
 	
+	
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	allow_multiple_instances = no
+	
 	trigger = {
 		ai = yes
 		RAN = {
@@ -558,6 +573,39 @@ country_event = {
 			
 		
 		
+		
+		
+	}
+
+}
+
+country_event = {
+	id = 50237
+	title = "EVTNAME50237" 
+	desc = "EVTDESC50237"
+	
+	
+	trigger = {
+		owns = 480
+		NOT = { tag = BOG }
+		480 = {
+			has_province_modifier = seat_of_the_dehuogi_clan
+		
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+
+	option = {
+		name = "Good riddance!"
+		480 = {
+			remove_province_modifier = seat_of_the_dehuogi_clan
+		
+		}
+				
 		
 		
 	}

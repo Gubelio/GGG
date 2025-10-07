@@ -476,7 +476,8 @@ seat_of_the_dehuogi_clan = {
 	icon = 19
 	local_repair = 0.1
 	local_ruling_party_support = 2
-	
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.01
 }
 
 dehuogi_deportations = {

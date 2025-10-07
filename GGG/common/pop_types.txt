@@ -292,42 +292,22 @@ demotion_chance =
 migration_chance = {
 	factor = 1
 	
-	#modifier = {
-	#	factor = 10
-	#	location = {
-	#		has_province_modifier = dehuogi_deportations
-	#	}
-	#	culture = dehuogi
-	#
-	#}
 	
 	group = {
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 6 }
-			#not = {
-			#	location = {
-			#			has_province_modifier = dehuogi_deportations
-			#		}
-			#}
+
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 7 }
-			#not = {
-			#	location = {
-			#			has_province_modifier = dehuogi_deportations
-			#		}
-			#}
+	
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 8 } 
-			#not = {
-			#	location = {
-			#			has_province_modifier = dehuogi_deportations
-			#		}
-			#}
+	
 		}
 	}
 
@@ -571,14 +551,7 @@ emigration_chance =
 			}
 	}
 	
-	#modifier = {
-	#	factor = 50
-	#	location = {
-	#		has_province_modifier = dehuogi_deportations
-	#	}
-	#	culture = dehuogi
-	#
-	#}
+
 
 	group = {
 		modifier = {
@@ -755,15 +728,28 @@ assimilation_chance =
 	modifier = { 
 		factor = -100
 		
+		is_culture = paguyti								#ruminoids - largely docile, mainly vegetarian, short, dwellers in plains. rotund and simple.
+		
+		country = {
+			NOT = {
+				is_culture = paguyti
+			}
+		}
+		
+	}
+	
+	modifier = { 
+		factor = -100
+		
 		OR = {
-			is_culture_group = vuyti 									#ruminoids - largely docile, mainly vegetarian, short, dwellers in peripheral enviornments (plains, scrubland, swampy jungle).
+			is_culture = vupuyti 									#arboraloids - the tree climbing hominids of the scrubland and the jungles of ishahfazh.
 			is_culture_group = thihudian
 		}
 		
 		country = {
 			NOT = {
 				OR = {
-					is_culture_group = vuyti 									
+					is_culture = vupuyti 									
 					is_culture_group = thihudian
 				}
 			}
