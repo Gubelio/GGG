@@ -3089,6 +3089,7 @@ province_event = {
 				year = 1372
 			}
 		}
+		NOT = { has_province_flag = planting_declined }
 
 	option = {
 		name = "EVT500108OPTA"
@@ -3104,7 +3105,7 @@ province_event = {
 	
 	option = {
 		name = "EVT500108OPTC"
-		
+		set_province_flag = planting_declined
 	}
 }
 

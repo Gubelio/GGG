@@ -80,8 +80,13 @@ country_event = {
                     any_pop = { limit = { type = serfs } pop_type = farmers }
                 }
             }
+			
+		
+		
+		
     }
 }
+
 
 
 country_event = {

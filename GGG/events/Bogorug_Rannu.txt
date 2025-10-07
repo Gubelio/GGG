@@ -4,14 +4,20 @@ country_event = { #Bogorug request to AI
 	title = "EVTNAME50226" 
 	desc = "EVTDESC50226"
 	#picture = "Outside_influences"
+	
+	immediate = {
+	ran_bog_info = { }
+	ran_serf_status = { }
+	
+	}
 
 	is_triggered_only = yes
 
 	option = {
 		name = "EVT50226OPTA" #offer nothing
         random_list = {
-            25 = { RAN = { country_event = { id = 50228 } } } #Succeeds
-            75 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            25 = { RAN = { country_event = { id = 50228 days = 30 } } } #Succeeds
+            75 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -21,8 +27,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTB" #offer 500k
         random_list = {
-            50 = { RAN = { country_event = { id = 50230 } } } #Succeeds
-            50 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            50 = { RAN = { country_event = { id = 50230 days = 30 } } } #Succeeds
+            50 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -33,8 +39,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTC" #offer 850k
         random_list = {
-            75 = { RAN = { country_event = { id = 50231 } } } #Succeeds
-            25 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            75 = { RAN = { country_event = { id = 50231 days = 30 } } } #Succeeds
+            25 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -45,8 +51,8 @@ country_event = { #Bogorug request to AI
 	option = {
 		name = "EVT50226OPTD" #offer Yauje valley
         random_list = {
-            99 = { RAN = { country_event = { id = 50232 } } } #Succeeds
-            1 = { RAN = { country_event = { id = 50229 } } } #Fails 
+            99 = { RAN = { country_event = { id = 50232 days = 30 } } } #Succeeds
+            1 = { RAN = { country_event = { id = 50229 days = 30 } } } #Fails 
         }
 		ai_chance = {
             factor = 1
@@ -64,7 +70,7 @@ country_event = {  #For AI - don't localize - Rannu rejects
 
 	option = {
 		name = "EVT50226OPTA"
-		BOG = { country_event = { id = 50233 } }
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -89,6 +95,8 @@ country_event = { #Rannu sends terms of agreement back
 	desc = "EVTDESC50234"
 	#picture = "Outside_influences"
 
+	
+
 	is_triggered_only = yes
 
 	option = {
@@ -97,34 +105,178 @@ country_event = { #Rannu sends terms of agreement back
 		
 		add_accepted_culture = dehuogi
 		
-		479 = {
-			add_province_modifier = {
+		if = {
+			limit = {
+				RAN = {
+					debt_law = serfdom
+				}
 			
-				name = dehuogi_settlers
-				duration = 3600
-				
+			}
+		
+			814 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					reduce_pop = 0.8
+					move_pop = 479
+					
+				}
+				add_core = RAN
+			}
+			
+			815 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					reduce_pop = 0.8
+					move_pop = 480
+				}
+				add_core = RAN
+			}
+			
+			817 = {
+				any_pop = {
+					limit = {
+						type = serfs
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					reduce_pop = 0.8
+					move_pop = 481
+	
+				}
+				add_core = RAN
+			}
+			
+			479 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
+			}
+			
+			480 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
+			}
+			
+			481 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = farmers
+				}
+			
+			}
+		
+		}
+
+		
+		if = {
+			limit = {
+				RAN = {
+					NOT = { debt_law = serfdom }
+				}
+			
+			}
+		
+			814 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 479
+					
+				}
+				add_core = RAN
+			}
+			
+			815 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 480
+				}
+				add_core = RAN
+			}
+			
+			817 = {
+				any_pop = {
+					limit = {
+						type = artisans
+						culture = dehuogi
+						has_pop_religion = vewugi
+					}
+					pop_type = clerks
+					move_pop = 481
+	
+				}
+				add_core = RAN
+			}
+			
+			479 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
+			}
+			
+			480 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
+			}
+			
+			481 = {
+				any_pop = {
+					limit = {
+						type = clerks
+					}
+					pop_type = soldiers
+				}
+			
 			}
 		
 		}
 		
 		480 = {
 			add_province_modifier = {
-			
-				name = dehuogi_settlers
-				duration = 3600
-				
+				name = seat_of_the_dehuogi_clan 
+				duration = -1
 			}
-		
-		}
-		
-		481 = {
-			add_province_modifier = {
 			
-				name = dehuogi_settlers
-				duration = 3600
-				
-			}
-		
 		}
 	}
 }
@@ -139,7 +291,7 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 
 	option = {
 		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 } }
 		ai_chance = {
             factor = 1
         }
@@ -147,21 +299,21 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		any_pop = {
 			limit = {
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		name = "EVT50228OPTB" #Rejects - AI will never pick
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -174,15 +326,15 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		name = "EVT50230OPTA" #Accepts - AI will always pick
+		BOG = { country_event = { id = 50234 days = 30 }  }
 		BOG = { treasury = -500000 }
 		treasury = 500000
 		any_owned = {
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -192,14 +344,14 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		name = "EVT50230OPTB" #Rejects - AI will never pick
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -212,15 +364,15 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT50229OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		name = "EVT50231OPTA" #Accepts - AI will always pick
+		BOG = { country_event = { id = 50234 days = 30 } }
 		BOG = { treasury = -850000 }
 		treasury = 500000
 		any_owned = {
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -230,14 +382,14 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
 	
 	option = {
-		name = "EVT50229OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		name = "EVT50231OPTB" #Rejects - AI will never pick
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -251,7 +403,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 
 	option = {
 		name = "EVT50232OPTA" #Accepts - AI will always pick
-		BOG = { country_event = { id = 50234 } }
+		BOG = { country_event = { id = 50234 days = 30 }  }
 		BOG = { treasury = -850000 }
 		REG_171 = { remove_core = BOG }
 		REG_171 = { add_core = RAN }
@@ -265,7 +417,7 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 			limit = {
 				is_core = BUD
 			}
-			add_province_modifier = { name = dehuogi_deportations duration = 5475 }
+			add_province_modifier = { name = dehuogi_deportations duration = 40 }
 		}
 		ai_chance = {
             factor = 1
@@ -275,14 +427,14 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 				has_pop_culture = dehuogi
 			
 			}
-			militancy = 3
+			militancy = 5
 			consciousness = 8
 		}
 	}
 	
 	option = {
-		name = "EVT50232OPTA" #Rejects - AI will never pick
-		BOG = { country_event = { id = 50233 } }
+		name = "EVT50232OPTB" #Rejects - AI will never pick
+		BOG = { country_event = { id = 50233 days = 30 } }
 	}
 }
 
@@ -291,12 +443,18 @@ country_event = { #Bogorug request to Player
 	title = "EVTNAME50227" 
 	desc = "EVTDESC50227"
 	#picture = "Outside_influences"
+	
+	immediate = {
+	ran_bog_info = { }
+	ran_serf_status = { }
+	
+	}
 
 	is_triggered_only = yes
 
 	option = {
 		name = "EVT50227OPTA" #offer nothing
-		RAN = { country_event = { id = 50228 } }
+		RAN = { country_event = { id = 50228 days = 30  } }
 		ai_chance = {
             factor = 1
         }
@@ -304,7 +462,7 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTB" #offer 500k
-		RAN = { country_event = { id = 50230 } }
+		RAN = { country_event = { id = 50230 days = 30  } }
 		ai_chance = {
             factor = 1
             modifier = { factor = 0 NOT = { money = 510000 } }
@@ -313,7 +471,7 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTC" #offer 850k
-		RAN = { country_event = { id = 50231 } }
+		RAN = { country_event = { id = 50231 days = 30  } }
 		ai_chance = {
             factor = 1
             modifier = { factor = 0 NOT = { money = 860000 } }
@@ -322,10 +480,134 @@ country_event = { #Bogorug request to Player
 	
 	option = {
 		name = "EVT50227OPTD" #offer Yauje valley
-		RAN = { country_event = { id = 50232 } }
+		RAN = { country_event = { id = 50232  days = 30 } }
 		ai_chance = {
             factor = 1
         }
 	}
 }
 
+country_event = {
+	id = 50235
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	allow_multiple_instances = no
+	
+	trigger = {
+		ai = yes
+		RAN = {
+			NOT = { debt_law = serfdom }
+				
+			}
+		NOT = { has_global_flag = serf_updated }
+		}
+
+	option = {
+		set_global_flag = serf_updated
+			
+		THIS = {
+			2411 = {
+				secede_province = THIS 
+			}
+			ran_serf_status = {
+				state_scope = {
+					change_region_name = "Outlawed"
+				}
+			}
+			2411 = {
+				secede_province = --- 
+			}
+		}
+			
+			
+		
+		
+		
+		
+	}
+
+}
+
+country_event = {
+	id = 50236
+	
+	
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	allow_multiple_instances = no
+	
+	trigger = {
+		ai = yes
+		RAN = {
+			debt_law = serfdom
+				
+			}
+		has_global_flag = serf_updated
+		}
+
+	option = {
+		clr_global_flag = serf_updated
+			
+		THIS = {
+			2411 = {
+				secede_province = THIS 
+			}
+			ran_serf_status = {
+				state_scope = {
+					change_region_name = "Legal"
+				}
+			}
+			2411 = {
+				secede_province = --- 
+			}
+		}
+			
+			
+		
+		
+		
+		
+	}
+
+}
+
+country_event = {
+	id = 50237
+	title = "EVTNAME50237" 
+	desc = "EVTDESC50237"
+	
+	
+	trigger = {
+		owns = 480
+		NOT = { tag = BOG }
+		480 = {
+			has_province_modifier = seat_of_the_dehuogi_clan
+		
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+
+	option = {
+		name = "Good riddance!"
+		480 = {
+			remove_province_modifier = seat_of_the_dehuogi_clan
+		
+		}
+				
+		
+		
+	}
+
+}

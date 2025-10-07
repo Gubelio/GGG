@@ -936,6 +936,10 @@ mot_info_in = { }
 
 kusii_info = { }
 
+ran_bog_info = { }
+
+ran_serf_status = { 2411 }
+
 for15 = { 2301 2302 2303 2304 2305 2306 2307 2308 2309 2310 2311 2312 2313 2314 2315 }
 
 #global = {

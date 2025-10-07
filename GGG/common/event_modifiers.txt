@@ -472,15 +472,18 @@ quaratine = {
 	icon = 20
 }
 
-dehuogi_settlers = {
+seat_of_the_dehuogi_clan = {
 	icon = 19
+	local_repair = 0.1
+	local_ruling_party_support = 2
 	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.01
 }
 
 dehuogi_deportations = {
 	icon = 20
-	pop_consciousness_modifier = 0.01
-	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.03
+	pop_militancy_modifier = 0.03
 	local_RGO_output = -0.05
 	#immigrant_push = 1
 }

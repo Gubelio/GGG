@@ -24,10 +24,7 @@ political_decisions = {
 			war = no
 			all_core = { owned_by = BOG }
 			nationalism_n_imperialism = 1
-			OR = {
-				border_policy = open_borders
-				border_policy = quota_immigration
-			}
+			
 		}
 		
 		effect = {
@@ -61,10 +58,7 @@ political_decisions = {
 			all_core = { owned_by = BOG }
 			nationalism_n_imperialism = 1
 			BUD = { have_core_in = RAN }
-			OR = {
-				border_policy = open_borders
-				border_policy = quota_immigration
-			}
+			
 		}
 		
 		effect = {
