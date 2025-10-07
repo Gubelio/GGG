@@ -53,12 +53,15 @@ country_migration_target = {
     factor = 1
 
 	modifier = {
-		factor = 100
+		factor = 1000
 		any_owned_province = {
 			has_province_modifier = dehuogi_settlers
 		
 		}
 		is_accepted_culture = yes
+		THIS = {
+			tag = RAN
+		}
 	}
 
     modifier = {
@@ -235,7 +238,7 @@ migration_target = {
         }
     }
 	modifier = {
-		factor = 10
+		factor = 100
 		has_province_modifier = dehuogi_settlers
 		is_accepted_culture = yes
 	
