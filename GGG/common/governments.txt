@@ -95,6 +95,6 @@ princely_despotate = {
 
     election = yes
 	duration = 48
-    appoint_ruling_party = yes
+    #appoint_ruling_party = yes
     flagType = monarchy
 }

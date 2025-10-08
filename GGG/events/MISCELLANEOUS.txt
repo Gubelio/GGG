@@ -3927,6 +3927,11 @@ country_event = { #Victim of Vokonazhi aggression AI ONLY
 	}
 }
 
+
+######################
+#### CONSTITUTION ####
+######################
+
 country_event = { 
 	id = 50244
 	title = "EVTNAME50244"
@@ -3935,6 +3940,7 @@ country_event = {
 	trigger = {
 		legislative_system = tribal_assembly
 		federalisation = centralised
+		civilized = yes
 	
 	}
 	
