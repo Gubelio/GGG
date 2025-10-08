@@ -487,3 +487,8 @@ dehuogi_deportations = {
 	local_RGO_output = -0.05
 	#immigrant_push = 1
 }
+
+law_changed_by_force = {
+    diplomatic_points_modifier = -0.01
+    icon = 6
+}

@@ -49,15 +49,19 @@ appointed_bureaucrats;Appointed Bureaucrats;;;;;;;;;;;;;x
 appointed_bureaucrats_desc;The main offices of the bureaucracy are appointed by the political party in charge of the central government, which, while vulnerable to patronage, allows for more professionalism.;;;;;;;;;;;;;x
 professional_bureaucracy;Professional Bureaucracy;;;;;;;;;;;;;x
 professional_bureaucracy_desc;The civil service is meritocratic and outcomes oriented.;;;;;;;;;;;;;x
-legislative_system;Legislature;;;;;;;;;;;;;x #Legislative System
-tribal_assembly;Tribal Assembly;;;;;;;;;;;;;x
-tribal_assembly_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
-noble_parliament;Noble Parliament;;;;;;;;;;;;;x
-noble_parliament_desc;All hereditary peers of the higher orders have a seat in the legislative assembly.;;;;;;;;;;;;;x
-regulated_elections;Regulated Elections;;;;;;;;;;;;;x
-regulated_elections_desc;The legislative assembly is composed of candidates chosen by organised regional election.;;;;;;;;;;;;;x
+legislative_system;Centralisation;;;;;;;;;;;;;x #Legislative System
+tribal_assembly_i;Tribal Assembly;;;;;;;;;;;;;x
+tribal_assembly_i_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
+tribal_assembly;Devolved;;;;;;;;;;;;;x
+tribal_assembly_desc;This state is devolved, and passing any further reforms here will reset that!;;;;;;;;;;;;;x
+noble_parliament_i;Noble Parliament;;;;;;;;;;;;;x
+noble_parliament_i_desc;All hereditary peers of the higher orders have a seat in the legislative assembly.;;;;;;;;;;;;;x
+noble_parliament;Estates System;;;;;;;;;;;;;x
+noble_parliament_desc;The ruling powers maintain a carefully balanced system of estates to manage popular consent to governance.;;;;;;;;;;;;;x
+regulated_elections;Legislative Commisions;;;;;;;;;;;;;x
+regulated_elections_desc;Landowners are expected to serve in regional and national legislatures, and they tend to determine national policy.;;;;;;;;;;;;;x
 approved_candidacy;Approved Candidacy;;;;;;;;;;;;;x
-approved_candidacy_desc;The legislature only consists of delegates chosen in elections directed by the central government.;;;;;;;;;;;;;x
+approved_candidacy_desc;The legislature and the cabinet only consists of delegates chosen in "elections" directed by the central government.;;;;;;;;;;;;;x
 appointed_legislatures;Appointed Legislatures;;;;;;;;;;;;;x
 appointed_legislatures_desc;The legislature is composed of civil servants chosen by the ruling party.;;;;;;;;;;;;;x
 infrastructure;Infrastructure;;;;;;;;;;;;;x
@@ -459,9 +463,11 @@ all_voting_pops_l;All Cultures Accepted;;;;;;;;;;;;;x
 closed_borders_l;Closed Borders;;;;;;;;;;;;;x
 quota_immigration_l;Quota Immigration;;;;;;;;;;;;;x
 open_borders_l;Open Borders;;;;;;;;;;;;;x
-tribal_assembly_l;Tribal Assembly;;;;;;;;;;;;;x
-noble_parliament_l;Noble Parliament;;;;;;;;;;;;;x
-regulated_elections_l;Regulated Elections;;;;;;;;;;;;;x
+tribal_assembly_i_l;Tribal Assembly;;;;;;;;;;;;;x
+noble_parliament_i_l;Noble Parliament;;;;;;;;;;;;;x
+tribal_assembly_l;Federalised;;;;;;;;;;;;;x
+noble_parliament_l;Estates System;;;;;;;;;;;;;x
+regulated_elections_l;Legislative Commisions;;;;;;;;;;;;;x
 approved_candidacy_l;Approved Candidacy;;;;;;;;;;;;;x
 appointed_legislatures_l;Appointed Legislatures;;;;;;;;;;;;;x
 feudal_tenure_l;Commons System;;;;;;;;;;;;;x

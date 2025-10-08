@@ -720,7 +720,7 @@ country_event = {
 		}	
 
 		administrative_reform = proprietary_bureaucracy
-		land_reform_civ = feudal_tenure
+		#land_reform_civ = feudal_tenure
 		public_order = appointed_justices
 		scriptural_law = courts_of_canon
 
@@ -728,10 +728,11 @@ country_event = {
 			social_privileges = feudal_rights
 			social_privileges = sanctioned_privileges
 			social_privileges = sumptuary_laws
+			social_privileges = legal_disabilities
 		}
 
 		OR = {
-		    legislative_system = tribal_assembly
+		    #legislative_system = tribal_assembly
 		    legislative_system = noble_parliament
 		    legislative_system = regulated_elections
 		}
@@ -778,9 +779,7 @@ country_event = {
 		public_order = feudal_courts
 
 		OR = {
-		    legislative_system = tribal_assembly
-		    legislative_system = noble_parliament
-		    legislative_system = regulated_elections
+		    federalisation = noble_parliament
 		}
 
 		OR = {
@@ -3925,5 +3924,34 @@ country_event = { #Victim of Vokonazhi aggression AI ONLY
 				}
 			}
 		}
+	}
+}
+
+country_event = { 
+	id = 50244
+	title = "EVTNAME50244"
+	desc = "EVTDESC50244"
+	
+	trigger = {
+		legislative_system = tribal_assembly
+		federalisation = centralised
+	
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "The justice of the prince is the way forward!"
+		political_reform = noble_parliament
+	}
+	
+	option = {
+		name = "Empower the hereditary castes, censi, and tribes."
+		political_reform = tribal_assembly_i
+		
 	}
 }

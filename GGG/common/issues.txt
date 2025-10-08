@@ -264,9 +264,14 @@ political_reforms = {
 			rules = { state_vote = yes }
 			allow = {
 				THIS = {
-					NOT = { has_country_flag = federalised }
+					NOT = {
+						has_country_flag = locked_fed
+					
+					}
+				
 				}
-            }
+			
+			}
         }
 		
 	regulated_elections = {
@@ -310,14 +315,16 @@ political_reforms = {
             rules = { state_vote = yes }
 			rules = { largest_share = yes }
 			allow = {
-             
 				THIS = {
-					NOT = { has_country_flag = centralised }
-				}
-				
+					NOT = {
+						has_country_flag = locked_cent
 					
+					}
 				
-            }
+				}
+			
+			}
+
         }
 		
         noble_parliament_i = {

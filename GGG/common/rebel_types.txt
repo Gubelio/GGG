@@ -24,7 +24,7 @@ reactionary_rebels = {
         	sublime_synod = princely_despotate
         	statist_bureaucracy = princely_despotate
         	theocracy = princely_despotate
-        	aristocratic_commonwealth = princely_despotate
+        	aristocratic_commonwealth = theocracy
         	princely_despotate = theocracy
 	}
 	
@@ -251,10 +251,19 @@ reactionary_rebels = {
 
     demands_enforced_effect = {
         ruling_party_ideology = reactionary
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
 
         political_reform = feudal_tenure
         political_reform = aristocratic_bureaucracy
-        political_reform = noble_parliament
+        random_list = {
+			50 = {
+				political_reform = noble_parliament
+			}
+			50 = {
+				political_reform = noble_parliament_i
+			}
+		}
         political_reform = primary_culture_only
         political_reform = feudal_courts
 
@@ -273,6 +282,7 @@ reactionary_rebels = {
 		
 		clr_country_flag = we_embraced_shamush
 		remove_country_modifier = backwards_customs
+		
     }
 }
 
@@ -536,6 +546,8 @@ theocratist_rebels = {
         }
     }
     demands_enforced_effect = {
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
 
         ruling_party_ideology = theocratist
 
@@ -559,6 +571,7 @@ theocratist_rebels = {
 		
 		clr_country_flag = we_embraced_shamush
 		remove_country_modifier = backwards_customs
+		
     }
 }
 
@@ -803,11 +816,13 @@ free_yoker_rebels = {
         }
     }
     demands_enforced_effect = {
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
 
         ruling_party_ideology = free_yoker
 
         political_reform = thralldom_allowed
-        political_reform = regulated_elections
+        political_reform = tribal_assembly_i
         political_reform = no_school_system
 
         social_reform = good_minimum_wage
@@ -869,6 +884,7 @@ free_yoker_rebels = {
     
 		clr_country_flag = we_embraced_shamush
 		remove_country_modifier = backwards_customs
+		
 	}
 }
 
@@ -1124,6 +1140,9 @@ absolutist_rebels = {
         }
     }
     demands_enforced_effect = {
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
+
 
         ruling_party_ideology = absolutist
 
@@ -1152,6 +1171,7 @@ absolutist_rebels = {
     
 		clr_country_flag = we_embraced_shamush	
 		remove_country_modifier = backwards_customs
+		
 	}
 }
 

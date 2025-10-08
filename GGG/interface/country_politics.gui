@@ -740,7 +740,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_legislative_system"
 				 spriteType = "GFX_politics_legislative_system"
-				 position = { x= 6 y = 16 }
+				 position = { x= 4 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
 			 

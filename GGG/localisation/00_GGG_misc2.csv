@@ -272,7 +272,17 @@ appointed;Municipal Rates Reform;x
 ran_bog_info;§RSerfdom Status in Rannu Empire§!;;;;;;;;;;;;;x
 ran_serf_status;Legal;;;;;;;;;;;;;x
 seat_of_the_dehuogi_clan;Seat of the Dehuogi Clan \n\n§WThis is the seat of the Dehuogi clan, the tribal census that governs all Dehuogi in the Bogoran Clan-Parliamentary System, as well as represents them in the Assembly of the Old Clans. It is the newest clan, and was invited in the last century. The Dehuogi Marchlanders are famous for their loyalty to the Bogoran state, and from their fortresses maintain a zealous watch over the coast of Yamajoury.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+RULE_DHONT;Pazzak's Method;x
+centralised;Centralised;x
+centralised_1;Centralised;x
+centralised_desc;This state is centralised, and passing any further reforms here will reset that!;x
+states_system;States System;x
+states_system_1;States System;x
+states_system_desc;This state is organised along the lines of a system of federated states, with develolved responsibility.;x
+vocational_candidacy;Vocational Constituency;x
+vocational_candidacy_1;Vocational Constituency;x
+vocational_candidacy_desc;This state is broadly corporatist, with major chartered organisations, occupational guilds, indstiral firms, and numerous other bodies having the power to elect or appoint representatives in a byzantine network of rights and privlieges.;x
+federalisation;Devolution;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
