@@ -738,9 +738,9 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_legislative_system"
-				 spriteType = "GFX_politics_legislative_system"
-				 position = { x= 4 y = 13 }
+				 name = "politics_banking_system"
+				 spriteType = "GFX_politics_banking_system"
+				 position = { x= 4 y = 16 }
 				 Orientation = "UPPER_LEFT"
 			 }
 			 
@@ -1055,7 +1055,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_legislative_system"
 				 spriteType = "GFX_politics_legislative_system"
-				 position = { x= 6 y = 12 }
+				 position = { x= 6 y = 16 }
 				 Orientation = "UPPER_LEFT"
 			 }
 				
