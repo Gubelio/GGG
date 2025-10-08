@@ -20,7 +20,7 @@ administration = {
 stability = {
     core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = -0.01
-    ruling_party_support = 0.2
+    ruling_party_support = 0.5
 }
 
 extraction = {
