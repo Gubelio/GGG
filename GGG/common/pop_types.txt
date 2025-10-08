@@ -292,22 +292,18 @@ demotion_chance =
 migration_chance = {
 	factor = 1
 	
-	
 	group = {
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 6 }
-
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 7 }
-	
 		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 8 } 
-	
 		}
 	}
 
@@ -345,7 +341,14 @@ migration_chance = {
 			}
 	}
 	
+	modifier = {
+		factor = 0.7
+		location = {
+			has_province_modifier = dehuogi_deportations
+		}
+		culture = dehuogi
 	
+	}
 
 	group = {
 		modifier = {
@@ -376,14 +379,6 @@ migration_chance = {
 			location = { controlled_by = owner }
 		}	
 		
-	}
-	
-	modifier = {
-		factor = -10
-		OR = {
-			type = serfs
-			type = thralls
-		}
 	}
 }
 
@@ -468,14 +463,6 @@ colonialmigration_chance =
 		}
 		
 	}
-	
-	modifier = {
-		factor = -10
-		OR = {
-			type = serfs
-			type = thralls
-		}
-	}
 }
 
 #general emigration chance
@@ -551,7 +538,14 @@ emigration_chance =
 			}
 	}
 	
-
+	modifier = {
+		factor = 0.7
+		location = {
+			has_province_modifier = dehuogi_deportations
+		}
+		culture = dehuogi
+	
+	}
 
 	group = {
 		modifier = {
@@ -604,14 +598,6 @@ emigration_chance =
 	modifier = {
 		factor = -8.0
 		country = { emigration_law = emigration_forbidden }
-	}
-	
-	modifier = {
-		factor = -10
-		OR = {
-			type = serfs
-			type = thralls
-		}
 	}
 }
 
@@ -728,28 +714,15 @@ assimilation_chance =
 	modifier = { 
 		factor = -100
 		
-		is_culture = paguyti								#ruminoids - largely docile, mainly vegetarian, short, dwellers in plains. rotund and simple.
-		
-		country = {
-			NOT = {
-				is_culture = paguyti
-			}
-		}
-		
-	}
-	
-	modifier = { 
-		factor = -100
-		
 		OR = {
-			is_culture = vupuyti 									#arboraloids - the tree climbing hominids of the scrubland and the jungles of ishahfazh.
+			is_culture_group = vuyti 									#ruminoids - largely docile, mainly vegetarian, short, dwellers in peripheral enviornments (plains, scrubland, swampy jungle).
 			is_culture_group = thihudian
 		}
 		
 		country = {
 			NOT = {
 				OR = {
-					is_culture = vupuyti 									
+					is_culture_group = vuyti 									
 					is_culture_group = thihudian
 				}
 			}
