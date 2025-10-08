@@ -2,6 +2,7 @@ owner = BOG
 controller = BOG
 add_core = BOG
 add_core = YAM
+add_core = BEN
 trade_goods = wool
 life_rating = 20
 
