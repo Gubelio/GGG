@@ -64,8 +64,8 @@ reaction = {
 }
 
 diplomacy = {
-    influence_modifier = 0.15
-    diplomatic_points_modifier = 0.1
+    influence_modifier = 0.5
+    diplomatic_points_modifier = 0.25
     cb_generation_speed_modifier = 0.05
 }
 
