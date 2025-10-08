@@ -722,20 +722,32 @@ assimilation_chance =
 	modifier = { 
 		factor = -100
 		
+		culture = paguyti								#ruminoids - largely docile, mainly vegetarian, short, dwellers in plains. rotund and simple.
+		
+		country = {
+			NOT = {
+				primary_culture = paguyti
+			}
+		}
+		
+	}
+	
+	modifier = { 
+		factor = -100
+		
 		OR = {
-			is_culture_group = vuyti 									#ruminoids - largely docile, mainly vegetarian, short, dwellers in peripheral enviornments (plains, scrubland, swampy jungle).
+			culture = vupuyti 									#arboraloids - the tree climbing hominids of the scrubland and the jungles of ishahfazh.
 			is_culture_group = thihudian
 		}
 		
 		country = {
 			NOT = {
 				OR = {
-					is_culture_group = vuyti 									
+					primary_culture = vupuyti 																		
 					is_culture_group = thihudian
 				}
 			}
 		}
-		
 	}
 	
 	
