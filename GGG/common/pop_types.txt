@@ -341,14 +341,7 @@ migration_chance = {
 			}
 	}
 	
-	modifier = {
-		factor = 0.7
-		location = {
-			has_province_modifier = dehuogi_deportations
-		}
-		culture = dehuogi
 	
-	}
 
 	group = {
 		modifier = {
@@ -379,6 +372,13 @@ migration_chance = {
 			location = { controlled_by = owner }
 		}	
 		
+	}
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
 	}
 }
 
@@ -463,6 +463,13 @@ colonialmigration_chance =
 		}
 		
 	}
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
+	}
 }
 
 #general emigration chance
@@ -538,14 +545,7 @@ emigration_chance =
 			}
 	}
 	
-	modifier = {
-		factor = 0.7
-		location = {
-			has_province_modifier = dehuogi_deportations
-		}
-		culture = dehuogi
 	
-	}
 
 	group = {
 		modifier = {
@@ -599,6 +599,14 @@ emigration_chance =
 		factor = -8.0
 		country = { emigration_law = emigration_forbidden }
 	}
+	modifier = {
+		factor = -10
+		OR = {
+			type = serfs
+			type = thralls
+		}
+	}
+	
 }
 
 #general assimilation mtth, same for all pops
