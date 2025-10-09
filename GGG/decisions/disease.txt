@@ -1,51 +1,49 @@
 political_decisions = {
 	
-#	establish_cordon_sanitaire_capital = {
-#		#picture = "yauje_valley"
-#		potential = {
-#			OR = {
-#				has_global_flag = white_flux_pandemic
-#				has_global_flag = red_flux_pandemic				
-#				has_global_flag = wasting_sickness_pandemic				
-#			}
-#			NOT = {
-#				OR = {
-#					any_owned_province = { 
-#						limit = {
-#							is_capital = yes
-#						}
-#						has_province_modifier = white_flux 
-#					}
-#					any_owned_province = { 
-#						limit = {
-#							is_capital = yes
-#						}
-#						has_province_modifier = red_flux 
-#					}
-#					any_owned_province = { 
-#						limit = {
-#							is_capital = yes
-#						}
-#						has_province_modifier = wasting_sickness 
-#					}
-#				}
-#			}
-#		}
-#		
-#		allow = {
-#			OR = {
-#				any_owned_province = { has_province_modifier = white_flux }
-#				any_owned_province = { has_province_modifier = red_flux }
-#				any_owned_province = { has_province_modifier = wasting_sickness }
-#			}
-#		}
-#		
-#		effect = {
-#			any_owned_province = {
-#				limit = { is_capital = yes }
-#				add_province_modifier = { name = cordon_sanitaire_province duration = 36525 }
-#			}
-#		}
-#	}
+	establish_cordon_sanitaire_capital = {
+		#picture = "yauje_valley"
+		potential = {
+			OR = {
+				AND = {
+					has_global_flag = white_flux_pandemic
+					capital_scope = {
+						NOT = { has_province_modifier = white_flux }
+						NOT = { has_province_modifier = cordon_sanitaire_province }
+					}
+				}
+				AND = {
+					has_global_flag = red_flux_pandemic	
+					capital_scope = {
+						NOT = { has_province_modifier = white_flux }
+						NOT = { has_province_modifier = cordon_sanitaire_province }
+					}
+				}
+				AND = {
+					has_global_flag = wasting_sickness_pandemic	
+					capital_scope = {
+						NOT = { has_province_modifier = white_flux }
+						NOT = { has_province_modifier = cordon_sanitaire_province }
+					}
+				}
+							
+							
+			}
+			
+		}
+		
+		allow = {
+			OR = {
+				any_owned_province = { has_province_modifier = white_flux }
+				any_owned_province = { has_province_modifier = red_flux }
+				any_owned_province = { has_province_modifier = wasting_sickness }
+			}
+		}
+		
+		effect = {
+			capital_scope = {
+				add_province_modifier = { name = cordon_sanitaire_province duration = 36525 }
+			}
+		}
+	}
 
 }
