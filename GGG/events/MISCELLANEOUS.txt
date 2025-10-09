@@ -3961,3 +3961,224 @@ country_event = {
 		
 	}
 }
+
+
+############################
+#### SERFDOM RESISTANCE ####
+############################
+
+country_event = { 
+	id = 50245
+	title = "EVTNAME50245"
+	desc = "EVTDESC50245"
+	
+	trigger = {
+		NOT = { debt_law = serfdom }
+		NOT = { has_country_flag = serfdom_abolished }
+	
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "Force through the reform!"
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 9
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 9
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+	}
+	
+	option = {
+		name = "We cannot risk such a conflagration."
+		debt_law = serfdom
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+		}
+		
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 3
+			}
+		}
+		
+	}
+}
+
+
+country_event = { 
+	id = 50246
+	title = "EVTNAME50246"
+	desc = "EVTDESC50246"
+	
+	trigger = {
+		NOT = { debt_law = serfdom }
+		NOT = { has_country_flag = serfdom_abolished }
+	
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.7
+			nationalvalue = stability
+		}
+		
+		modifier = {
+			factor = 0.7
+			nationalvalue = reform
+		}
+		
+		modifier = {
+			factor = 0.7
+			social_privileges = equality_before_the_law
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				legislative_system = noble_parliament
+				legislative_system = approved_candidacy
+				legislative_system = regulated_elections
+			}
+		}
+	
+		modifier = {
+			factor = 0.6
+			legislative_system = appointed_legislatures
+		}
+		
+		modifier = {
+			factor = 0.6
+			administrative_reform = appointed_bureaucrats
+		}
+	
+		modifier = {
+			factor = 0.6
+			administrative_reform = professional_bureaucracy
+		}
+		
+		modifier = {
+			factor = 0.5
+			military_spending = 75
+		}
+		
+		modifier = {
+			factor = 0.5
+			total_amount_of_divisions = 10
+		}
+		
+		modifier = {
+			factor = 0.5
+			literacy = 50
+		}
+		
+		modifier = {
+			factor = 0.7
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				NOT = { 
+					militancy = 5
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.3
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				NOT = { 
+					militancy = 2
+				}
+			}
+		}
+	
+	}
+	
+	option = {
+		name = "Excellent."
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 2
+			}
+		
+		}
+	}
+	
+	
+}
