@@ -418,6 +418,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -445,6 +446,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -472,6 +474,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -499,6 +502,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -534,6 +538,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -563,6 +568,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -592,6 +598,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -621,6 +628,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -658,6 +666,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = white_flux
@@ -680,6 +689,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = white_flux
@@ -702,6 +712,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = white_flux
@@ -724,6 +735,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = white_flux
@@ -754,6 +766,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -780,6 +793,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -806,6 +820,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -832,6 +847,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -866,6 +882,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -892,6 +909,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -918,6 +936,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -944,6 +963,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -978,6 +998,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								total_pops = 300000
 								NOT = {
 									has_province_modifier = white_flux
@@ -1000,6 +1021,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								total_pops = 300000
 								NOT = {
 									has_province_modifier = white_flux
@@ -1022,6 +1044,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								total_pops = 300000
 								NOT = {
 									has_province_modifier = white_flux
@@ -1044,6 +1067,7 @@ country_event = { #white flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								total_pops = 300000
 								NOT = {
 									has_province_modifier = white_flux
@@ -1169,6 +1193,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1196,6 +1221,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1223,6 +1249,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1250,6 +1277,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1285,6 +1313,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -1314,6 +1343,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -1343,6 +1373,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -1372,6 +1403,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -1409,6 +1441,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = red_flux
@@ -1431,6 +1464,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = red_flux
@@ -1453,6 +1487,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = red_flux
@@ -1475,6 +1510,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = red_flux
@@ -1505,6 +1541,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -1531,6 +1568,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -1557,6 +1595,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -1583,6 +1622,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -1617,6 +1657,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -1643,6 +1684,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -1669,6 +1711,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -1695,6 +1738,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -1729,6 +1773,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									is_coastal = yes
 									total_pops = 300000
@@ -1755,6 +1800,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									is_coastal = yes
 									total_pops = 300000
@@ -1781,6 +1827,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									is_coastal = yes
 									total_pops = 300000
@@ -1807,6 +1854,7 @@ country_event = { #red flux disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									is_coastal = yes
 									total_pops = 300000
@@ -1941,6 +1989,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1968,6 +2017,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -1995,6 +2045,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -2022,6 +2073,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = marsh 
 									terrain = jungle
@@ -2057,6 +2109,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -2086,6 +2139,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -2115,6 +2169,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -2144,6 +2199,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = savanna
 									terrain = steppe
@@ -2181,6 +2237,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = wasting_sickness
@@ -2203,6 +2260,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = wasting_sickness
@@ -2225,6 +2283,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = wasting_sickness
@@ -2247,6 +2306,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								terrain = desert
 								NOT = {
 									has_province_modifier = wasting_sickness
@@ -2277,6 +2337,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -2303,6 +2364,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -2329,6 +2391,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -2355,6 +2418,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = mountain
 									terrain = dry_mountains 
@@ -2389,6 +2453,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -2415,6 +2480,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -2441,6 +2507,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -2467,6 +2534,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									terrain = plains
 									terrain = forest 
@@ -2501,6 +2569,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									total_pops = 300000
 									trade_goods = cattle #flies act as a vector
@@ -2527,6 +2596,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									total_pops = 300000
 									trade_goods = cattle #flies act as a vector
@@ -2553,6 +2623,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									total_pops = 300000
 									trade_goods = cattle #flies act as a vector
@@ -2579,6 +2650,7 @@ country_event = { #wasting_sickness disease ticker
 					25 = {
 						any_neighbor_province = {
 							limit = {
+								empty = no
 								OR = {
 									total_pops = 300000
 									trade_goods = cattle #flies act as a vector
@@ -2621,8 +2693,126 @@ country_event = { #wasting_sickness disease ticker
 	
 }
 
+####################
+### HOPING EVENT ###
+####################
 
+country_event = {
+	id = 50249
+	title = "EVTNAME50249" 
+	desc = "EVTDESC50249"
+	
+	trigger = {
+		ai = yes
+		war = no
+		has_global_flag = red_flux_pandemic
+		
+		OR = {
+			any_neighbor_country = {
+				any_owned_province = {
+					is_coastal = yes
+					OR = {
+						has_province_modifier = red_flux
+						has_province_modifier = white_flux
+						has_province_modifier = wasting_sickness	
+					}
+				}
+			}
+		}
+	}
 
+	mean_time_to_happen = {
+		months = 3
+	
+	}
+	
+	option = {
+		if = {
+			limit = {
+				THIS = {
+					has_global_flag = white_flux_pandemic
+				
+				}
+			
+			}
+			
+			random_country = {
+				random_owned = {
+					limit = {
+						is_coastal = yes
+					
+					}
+					add_province_modifier = {
+						name = white_flux
+						duration = 400
+						
+					}
+				}
+		
+		
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					has_global_flag = red_flux_pandemic
+				
+				}
+			
+			}
+			
+			random_country = {
+				random_owned = {
+					limit = {
+						is_coastal = yes
+					
+					}
+					add_province_modifier = {
+						name = red_flux
+						duration = 400
+						
+					}
+				}
+		
+		
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					has_global_flag = wasting_sickness_pandemic
+				
+				}
+			
+			}
+			
+			random_country = {
+				random_owned = {
+					limit = {
+						is_coastal = yes
+					
+					}
+					add_province_modifier = {
+						name = wasting_sickness
+						duration = 400
+						
+					}
+				}
+		
+		
+			}
+		
+		}
+	
+		
+		
+	}
+
+}
 
 ####################
 ###  FLARE UPS   ###
