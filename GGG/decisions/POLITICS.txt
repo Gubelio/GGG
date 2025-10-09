@@ -369,7 +369,7 @@ political_decisions = {
 			
 		potential = {
 			ai = no
-			NOT = { has_country_flag = abolished_serfdom }
+			NOT = { has_country_flag = serfdom_abolished }
 			debt_law = serfdom
 			year = 1309
 				
@@ -379,7 +379,7 @@ political_decisions = {
 		}
 		effect = {
 			#treasury = -2000000
-			set_country_flag = abolished_serfdom
+			set_country_flag = serfdom_abolished
 			any_pop = {
 				limit = {
 					type = aristocrats
