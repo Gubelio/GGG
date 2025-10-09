@@ -4044,11 +4044,11 @@ country_event = {
 		any_pop = {
 			scaled_militancy = {
 				ideology = liberationist
-				factor = 5
+				factor = 3
 			}
 			scaled_consciousness = {
 				ideology = liberationist
-				factor = 3
+				factor = 2
 			}
 			scaled_militancy = {
 				ideology = free_yoker
@@ -4140,7 +4140,7 @@ country_event = {
 					type = aristocrats
 				}
 				NOT = { 
-					militancy = 5
+					consciousness = 5
 				}
 			}
 		}
@@ -4152,7 +4152,7 @@ country_event = {
 					type = aristocrats
 				}
 				NOT = { 
-					militancy = 2
+					consciousness = 2
 				}
 			}
 		}
