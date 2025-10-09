@@ -4016,7 +4016,7 @@ country_event = {
 	option = {
 		name = "Avoid provoking them, then, but free the state serfs."
 		prestige = -5
-		debt_law = serfdom
+		social_reform = serfdom
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
