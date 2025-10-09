@@ -3,6 +3,7 @@ political_decisions = {
 	establish_cordon_sanitaire_capital = {
 		#picture = "yauje_valley"
 		potential = {
+			ai = no
 			OR = {
 				AND = {
 					has_global_flag = white_flux_pandemic
@@ -40,10 +41,16 @@ political_decisions = {
 		}
 		
 		effect = {
+			treasury = -250000
 			capital_scope = {
 				add_province_modifier = { name = cordon_sanitaire_province duration = 36525 }
+				any_pop = {
+					militancy = 3
+				}
 			}
 		}
 	}
+	
+
 
 }

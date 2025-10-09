@@ -619,7 +619,7 @@ province_event = {
 	allow_multiple_instances = no
 	
     mean_time_to_happen = {
-        months = 6000 #400 = #~33 years
+        months = 8000 #6000 #400
 		
 		modifier = {
            factor = 0.9
@@ -768,7 +768,7 @@ province_event = {
 		owner = {
 			any_pop = {
 				militancy = 1
-				consciousness = 3
+				consciousness = 2
 				ideology = {
 					factor = 0.03
 					value = liberationist

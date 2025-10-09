@@ -471,12 +471,12 @@ vewugist_conversion = {
     icon = 7
 }
 
-quaratine = {
-	pop_consciousness_modifier = 0.01
-	pop_militancy_modifier = 0.01
-	local_RGO_output = -0.70
-	icon = 20
-}
+#quaratine = {
+#	pop_consciousness_modifier = 0.01
+#	pop_militancy_modifier = 0.01
+#	local_RGO_output = -0.70
+#	icon = 20
+#}
 
 seat_of_the_dehuogi_clan = {
 	icon = 19
@@ -508,3 +508,6 @@ cordon_sanitaire_province = {
 	local_factory_output = -0.2
 	icon = 17
 }
+
+
+
