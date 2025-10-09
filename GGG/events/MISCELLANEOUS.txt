@@ -3986,6 +3986,7 @@ country_event = {
 	
 	option = {
 		name = "Force through the reform!"
+		prestige = 5
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
@@ -4013,13 +4014,40 @@ country_event = {
 	}
 	
 	option = {
-		name = "We cannot risk such a conflagration."
+		name = "Avoid provoking them, then, but free the state serfs."
+		prestige = -5
 		debt_law = serfdom
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
 			set_country_flag = serfdom_abolished
         }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+					
 		
 		any_pop = {
 			scaled_militancy = {
@@ -4160,7 +4188,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Excellent."
+		name = "This is a new day for our country,"
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
@@ -4175,6 +4203,18 @@ country_event = {
 			scaled_consciousness = {
 				ideology = reactionary
 				factor = 2
+			}
+		
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = -1
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = -1
 			}
 		
 		}
