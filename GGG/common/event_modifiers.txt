@@ -397,18 +397,20 @@ obstructive_landowners = {
 }
 
 white_flux = {
-	life_rating = -0.6
+	life_rating = -0.25
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.02
     icon = 21
 }
 
 red_flux = {
-	life_rating = -0.6
+	life_rating = -0.25
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.02
     icon = 22
 }
 
@@ -417,6 +419,7 @@ wasting_sickness = {
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.02
     icon = 23
 }
 
@@ -425,6 +428,7 @@ blinding_cough = {
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.01
     icon = 24
 }
 
@@ -433,6 +437,7 @@ pot_belly_pox = {
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.01
     icon = 25
 }
 
@@ -441,6 +446,7 @@ cudfeeder_flu = {
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.01
+	population_growth = -0.01
     icon = 26
 }
 
