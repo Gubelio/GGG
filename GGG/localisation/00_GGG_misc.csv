@@ -52,8 +52,8 @@ professional_bureaucracy_desc;The civil service is meritocratic and outcomes ori
 legislative_system;Centralisation;;;;;;;;;;;;;x #Legislative System
 tribal_assembly_i;Tribal Assembly;;;;;;;;;;;;;x
 tribal_assembly_i_desc;The legislative assembly is composed of delegates chosen by hereditary tribal censi.;;;;;;;;;;;;;x
-tribal_assembly;Devolved;;;;;;;;;;;;;x
-tribal_assembly_desc;This state is devolved, and passing any further reforms here will reset that!;;;;;;;;;;;;;x
+tribal_assembly;Decentralised;;;;;;;;;;;;;x
+tribal_assembly_desc;This state is decentralised, and passing any further reforms here will reset that!;;;;;;;;;;;;;x
 noble_parliament_i;Noble Parliament;;;;;;;;;;;;;x
 noble_parliament_i_desc;All hereditary peers of the higher orders have a seat in the legislative assembly.;;;;;;;;;;;;;x
 noble_parliament;Estates System;;;;;;;;;;;;;x
