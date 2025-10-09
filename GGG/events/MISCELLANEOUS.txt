@@ -4000,11 +4000,11 @@ country_event = {
 			}
 			scaled_consciousness = {
 				ideology = reactionary
-				factor = 9
+				factor = 7
 			}
 			scaled_militancy = {
 				ideology = conservative
-				factor = 2
+				factor = 3
 			}
 			scaled_consciousness = {
 				ideology = conservative
