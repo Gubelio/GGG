@@ -371,6 +371,7 @@ political_decisions = {
 			ai = no
 			NOT = { has_country_flag = abolished_serfdom }
 			debt_law = serfdom
+			year = 1309
 				
 		}
 		allow = {
