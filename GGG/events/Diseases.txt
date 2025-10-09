@@ -59,6 +59,7 @@ country_event = {
 			}
 			add_province_modifier = { name = white_flux duration = 600 }
 			set_province_flag = had_pandemic
+			set_province_flag = pandemic_origin
 
 		}
 		
@@ -122,6 +123,7 @@ country_event = {
 			}
 			add_province_modifier = { name = red_flux duration = 600 }
 			set_province_flag = had_pandemic
+			set_province_flag = pandemic_origin
 		}
 		
 
@@ -184,13 +186,167 @@ country_event = {
 			}
 			add_province_modifier = { name = wasting_sickness duration = 600 }
 			set_province_flag = had_pandemic
+			set_province_flag = pandemic_origin
 		}
 		
 
 	}
 }	
 
+#######################################
+###### ARRIVES IN COUNTRY EVENTS ######
+#######################################
 
+country_event = {
+	id = 50246
+	title = "EVTNAME50246" 
+	desc = "EVTDESC50246"
+	
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = white_flux
+			
+		}
+		any_owned_province = {
+			NOT = { has_province_flag = pandemic_origin }
+			
+		}
+		NOT = { has_country_flag = white_flux_in_country }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	
+	}
+	
+	option = {
+		name = "These are grim times."
+		set_country_flag = white_flux_in_country
+	}
+
+}
+
+country_event = {
+	id = 50247
+	title = "EVTNAME50247" 
+	desc = "EVTDESC50247"
+	
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = red_flux
+			
+		}
+		any_owned_province = {
+			NOT = { has_province_flag = pandemic_origin }
+			
+		}
+		NOT = { has_country_flag = red_flux_in_country }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	
+	}
+	
+	option = {
+		name = "These are grim times."
+		set_country_flag = red_flux_in_country
+	}
+
+}
+
+country_event = {
+	id = 50248
+	title = "EVTNAME50248" 
+	desc = "EVTDESC50248"
+	
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = wasting_sickness
+			
+		}
+		any_owned_province = {
+			NOT = { has_province_flag = pandemic_origin }
+			
+		}
+		NOT = { has_country_flag = wasting_sickness_in_country }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	
+	}
+	
+	option = {
+		name = "These are grim times."
+		set_country_flag = wasting_sickness_in_country
+	}
+
+}
+
+country_event = {
+	id = 50249
+	title = "EVTNAME50249" 
+	desc = "EVTDESC50249"
+	
+	trigger = {
+		NOT = {
+			OR = {
+				any_owned_province = {
+					has_province_modifier = wasting_sickness
+				}
+				any_owned_province = {
+					has_province_modifier = red_flux
+				}
+				any_owned_province = {
+					has_province_modifier = white_flux
+				}
+			}
+		
+		}
+		OR = {
+			has_country_flag = wasting_sickness_in_country
+			has_country_flag = white_flux_in_country
+			has_country_flag = red_flux_in_country
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	
+	}
+	
+	option = {
+		name = "And may it never return!"
+		clr_country_flag = wasting_sickness_in_country
+		clr_country_flag = red_flux_in_country
+		clr_country_flag = white_flux_in_country
+		
+		if = {
+			limit = {
+				THIS = {
+					any_owned_province = {
+						has_province_flag = pandemic_origin
+					}
+				
+				}
+			
+			}
+			THIS = {
+				random_owned = {
+					limit = {
+						has_province_flag = pandemic_origin
+					
+					}
+					clr_province_flag = pandemic_origin
+				}
+			
+			}
+		}
+	}
+
+}
+ 
 				
 ##############################
 ### PANDEMIC SPREAD EVENTS ###
