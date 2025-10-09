@@ -2866,7 +2866,7 @@ country_event = { #pot_belly
 			}
 			
 			add_province_modifier = {
-				name = quaratine
+				name = cordon_sanitaire_province
 				duration = 500
 			
 			}
