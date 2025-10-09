@@ -3985,7 +3985,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Force through the reform!"
+		name = "Force them to comply, by all means!"
 		prestige = 5
 		set_country_flag = serfdom_abolished
 		any_country = {
