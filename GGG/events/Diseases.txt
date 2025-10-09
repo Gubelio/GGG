@@ -207,9 +207,11 @@ country_event = {
 			has_province_modifier = white_flux
 			
 		}
-		any_owned_province = {
-			NOT = { has_province_flag = pandemic_origin }
-			
+		NOT = {
+			any_owned_province = {
+				has_province_flag = pandemic_origin
+				
+			}
 		}
 		NOT = { has_country_flag = white_flux_in_country }
 	}
@@ -236,9 +238,11 @@ country_event = {
 			has_province_modifier = red_flux
 			
 		}
-		any_owned_province = {
-			NOT = { has_province_flag = pandemic_origin }
-			
+		NOT = {
+			any_owned_province = {
+				has_province_flag = pandemic_origin
+				
+			}
 		}
 		NOT = { has_country_flag = red_flux_in_country }
 	}
@@ -265,9 +269,11 @@ country_event = {
 			has_province_modifier = wasting_sickness
 			
 		}
-		any_owned_province = {
-			NOT = { has_province_flag = pandemic_origin }
-			
+		NOT = {
+			any_owned_province = {
+				has_province_flag = pandemic_origin
+				
+			}
 		}
 		NOT = { has_country_flag = wasting_sickness_in_country }
 	}
