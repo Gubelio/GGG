@@ -4014,6 +4014,45 @@ country_event = {
 	}
 	
 	option = {
+		name = "Perhaps some compensation will soothe them?"
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		treasury = -1000000
+		
+		any_pop = {
+			limit = {
+				type = aristocrats
+			
+			}
+			money = 300
+		
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 1
+			}
+		}
+	}
+	
+	option = {
 		name = "Avoid provoking them, then, but free the state serfs."
 		prestige = -5
 		social_reform = serfdom

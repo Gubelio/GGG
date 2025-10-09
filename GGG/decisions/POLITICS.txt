@@ -363,6 +363,37 @@ political_decisions = {
 	
 	}
 	
+	redeem_serfs = {
+		picture = "serfdom"
+		alert = no
+			
+		potential = {
+			ai = no
+			NOT = { has_country_flag = abolished_serfdom }
+			debt_law = serfdom
+				
+		}
+		allow = {
+			
+		}
+		effect = {
+			treasury = -2000000
+			set_country_flag = abolished_serfdom
+			any_pop = {
+				limit = {
+					type = aristocrats
+				
+				}
+				money = 600
+		
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 ##########################
 ### POLITICAL FUNCTION ### 
 ##########################
@@ -429,5 +460,8 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	
+	
+
 
 }
