@@ -2698,9 +2698,9 @@ country_event = { #wasting_sickness disease ticker
 ####################
 
 country_event = {
-	id = 50249
-	title = "EVTNAME50249" 
-	desc = "EVTDESC50249"
+	id = 50250
+	title = "EVTNAME50250" 
+	desc = "EVTDESC50250"
 	
 	trigger = {
 		ai = yes
