@@ -4021,6 +4021,10 @@ country_event = {
 			set_country_flag = serfdom_abolished
         }
 		
+		ai_chance = {
+            factor = 0
+		}
+		
 		any_pop = {
 			limit = {
 				type = aristocrats
