@@ -67,6 +67,19 @@ organize_juruntine = {
 				primary_culture = THIS
 				add_accepted_culture = asyum
 			}
+			
+			if = {
+				limit = {
+					THIS = {
+						has_country_flag = serfdom_abolished
+					
+					}
+				}
+				JTN = {
+					set_country_flag = serfdom_abolished
+				
+				}
+			}
 		}
 		
 }
@@ -178,7 +191,18 @@ organize_paukzhodo = {
 				add_accepted_culture = pugure
 				add_accepted_culture = yattae
 			}
-			
+			if = {
+				limit = {
+					THIS = {
+						has_country_flag = serfdom_abolished
+					
+					}
+				}
+				PAU = {
+					set_country_flag = serfdom_abolished
+				
+				}
+			}
 		}
 		
 }
