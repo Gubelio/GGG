@@ -4021,14 +4021,18 @@ country_event = {
 			set_country_flag = serfdom_abolished
         }
 		
-		treasury = -1000000
-		
 		any_pop = {
 			limit = {
 				type = aristocrats
 			
 			}
-			money = 300
+			money = 2000
+			location = {
+				
+				owner = {
+					treasury = -2000
+				}
+			}
 		
 		}
 		

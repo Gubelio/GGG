@@ -378,14 +378,20 @@ political_decisions = {
 			
 		}
 		effect = {
-			treasury = -2000000
+			#treasury = -2000000
 			set_country_flag = abolished_serfdom
 			any_pop = {
 				limit = {
 					type = aristocrats
 				
 				}
-				money = 600
+				money = 4500
+				location = {
+					
+					owner = {
+						treasury = -4500
+					}
+				}
 		
 			}
 		}
