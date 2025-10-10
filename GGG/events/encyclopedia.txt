@@ -91,6 +91,26 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = BUD
+				}
+			}
+			THIS = { 
+				country_event = { id = 50270 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = RAN
+				}
+			}
+			THIS = { 
+				country_event = { id = 50271 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -101,6 +121,8 @@ country_event = {
 							tag = BOZ
 							tag = KUS
 							tag = BOG
+							tag = RAN
+							tag = BUD
 						}
 					}
 				}
@@ -1718,6 +1740,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		name = "The Rannu Empire"
+		country_event = { id = 50271 }
+	}
+
+	option = {
 		name = "Bogorug"
 		country_event = { id = 50251 }
 	}
@@ -2053,8 +2080,28 @@ country_event = {
 
 country_event = {
 	id = 50270 
-	title = "EVT50251NAME" ##### BUD
-	desc = "EVT50251DESC"
+	title = "EVT50270NAME" ##### BUD
+	desc = "EVT50270DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50271 
+	title = "EVT50270NAME" ##### RAN
+	desc = "EVT50270DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
