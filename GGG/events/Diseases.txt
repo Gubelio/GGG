@@ -2945,7 +2945,11 @@ country_event = {
 	trigger = {
 		ai = yes
 		war = no
-		has_global_flag = red_flux_pandemic
+		OR = {
+			has_global_flag = red_flux_pandemic
+			has_global_flag = white_flux_pandemic
+			has_global_flag = wasting_sickness_pandemic
+		}
 		
 		OR = {
 			any_neighbor_country = {
