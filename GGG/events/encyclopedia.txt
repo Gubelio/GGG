@@ -2729,6 +2729,70 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = "Statism"
+		if = {
+			limit = {
+				is_ideology_enabled = statist
+			}
+			THIS = {
+				country_event = { id = 50268 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = statist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
+	
+	option = {
+		name = "Theocratism"
+		if = {
+			limit = {
+				is_ideology_enabled = theocratist
+			}
+			THIS = {
+				country_event = { id = 50269 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = theocratist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
+	
+	option = {
+		name = "Princely Despotate"
+		country_event = { id = 50267 }
+	}
+	
+	option = {
+		name = "Aristocratic Commonwealth"
+		country_event = { id = 50264 }
+	}
+	
+	option = {
+		name = "Liberationism"
+		country_event = { id = 50265 }
+	}
+	
+	option = {
+		name = "Paternalistic Council"
+		country_event = { id = 50266 }
+	}
 
 
 	option = {
@@ -2761,8 +2825,122 @@ country_event = {
 
 country_event = {
 	id = 50155
-	title = "EVT50155NAME" ##### Absolutism
+	title = "EVT50155NAME" ##### Absolutism state
 	desc = "EVT50155DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50264
+	title = "EVT50264NAME" ##### Aristoc
+	desc = "EVT50264DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50265
+	title = "EVT50265NAME" ##### Liberationism
+	desc = "EVT50265DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50266
+	title = "EVT50266NAME" ##### Pat-Council
+	desc = "EVT50266DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50267
+	title = "EVT50267NAME" ##### Princely
+	desc = "EVT50267DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50268
+	title = "EVT50268NAME" ##### Statism
+	desc = "EVT50268DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50269
+	title = "EVT50269NAME" ##### Theocratism
+	desc = "EVT50269DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
