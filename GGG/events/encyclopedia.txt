@@ -1722,7 +1722,41 @@ country_event = {
 		country_event = { id = 50251 }
 	}
 	
+	option = {
+		name = "Budobaman"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50270 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
 	
+	}
 
 
 
@@ -2000,6 +2034,26 @@ country_event = {
 country_event = {
 	id = 50251 
 	title = "EVT50251NAME" ##### BOG
+	desc = "EVT50251DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50270 
+	title = "EVT50251NAME" ##### BUD
 	desc = "EVT50251DESC"
 	picture = "encyclo"
 	
