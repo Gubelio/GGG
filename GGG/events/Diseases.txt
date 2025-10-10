@@ -16,6 +16,10 @@ country_event = {
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+		NOT = { tag = AYU }
+		NOT = { tag = HMO }
+		NOT = { tag = HUP }
+		NOT = { tag = NGJ }
     }
 	
 	major = yes
@@ -80,6 +84,10 @@ country_event = {
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+		NOT = { tag = AYU }
+		NOT = { tag = HMO }
+		NOT = { tag = HUP }
+		NOT = { tag = NGJ }
     }
 	
 	major = yes
@@ -143,6 +151,10 @@ country_event = {
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+		NOT = { tag = AYU }
+		NOT = { tag = HMO }
+		NOT = { tag = HUP }
+		NOT = { tag = NGJ }
     }
 	
 	major = yes
