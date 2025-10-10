@@ -2100,8 +2100,8 @@ country_event = {
 
 country_event = {
 	id = 50271 
-	title = "EVT50270NAME" ##### RAN
-	desc = "EVT50270DESC"
+	title = "EVT50271NAME" ##### RAN
+	desc = "EVT50271DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
