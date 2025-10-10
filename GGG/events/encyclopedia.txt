@@ -81,6 +81,16 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = BOG
+				}
+			}
+			THIS = { 
+				country_event = { id = 50251 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -90,6 +100,7 @@ country_event = {
 							tag = PPN
 							tag = BOZ
 							tag = KUS
+							tag = BOG
 						}
 					}
 				}
@@ -1593,9 +1604,17 @@ country_event = {
 	}
 
 	option = {
+		name = "The Northern States"
+		country_event = { id = 50252 }
+	
+	}
+	
+	option = {
 		name = "The Colonial Gashdzii States"
 		country_event = { id = 50179 }
 	}
+	
+	
 
 	option = {
 		name = "Close Encylopedia"
@@ -1689,6 +1708,29 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = 50252
+	title = "EVT50252NAME" ##### Northern Area Subheading
+	desc = "EVT50252DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Bogorug"
+		country_event = { id = 50251 }
+	}
+	
+	
+
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 country_event = {
 	id = 50179
@@ -1939,6 +1981,26 @@ country_event = {
 	id = 50182 
 	title = "EVT50182NAME" ##### BOZ
 	desc = "EVT50182DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50251 
+	title = "EVT50251NAME" ##### BOG
+	desc = "EVT50251DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
@@ -2331,6 +2393,30 @@ country_event = {
 	
 	is_triggered_only = yes
 
+	option = {
+		name = "The Pruub Flower"
+		country_event = { id = 50253 }
+	}
+	
+	option = {
+		name = "The Nuddi Root"
+		country_event = { id = 50254 }
+	}
+	
+	option = {
+		name = "The Nuzhdap Plant"
+		country_event = { id = 50255 }
+	}
+	
+	option = {
+		name = "The Instituion of Thralldom"
+		country_event = { id = 50256 }
+	}
+	
+	option = {
+		name = "The Continents"
+		country_event = { id = 50257 }
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -2338,6 +2424,255 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50257
+	title = "EVT50257NAME" ##### Continents
+	desc = "EVT50257DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Ishahfazh"
+		country_event = { id = 50258 }
+	}
+	
+	option = {
+		name = "Kovazh"
+		country_event = { id = 50259 }
+	}
+	
+	option = {
+		name = "Bafozh"
+		country_event = { id = 50260 }
+	}
+	
+	option = {
+		name = "Shobgizob"
+		country_event = { id = 50261 }
+	}
+	
+	option = {
+		name = "Paukzhodo"
+		country_event = { id = 50262 }
+	}
+	
+	option = {
+		name = "Gofakidzia"
+		country_event = { id = 50263 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+##### ENTRIES #########
+
+country_event = {
+	id = 50253
+	title = "EVT50253NAME" ##### Pruub
+	desc = "EVT50253DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50254
+	title = "EVT50254NAME" ##### Nuddi
+	desc = "EVT50254DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50255
+	title = "EVT50255NAME" ##### Nuzhdap
+	desc = "EVT50255DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50256
+	title = "EVT50256NAME" ##### Thralldom
+	desc = "EVT50256DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50258
+	title = "EVT50258NAME" ##### Ishahfazh
+	desc = "EVT50258DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50259
+	title = "EVT50259NAME" ##### Kovazh
+	desc = "EVT50259DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50260
+	title = "EVT50260NAME" ##### Bafozh
+	desc = "EVT50260DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50261
+	title = "EVT50261NAME" ##### Shobgizob
+	desc = "EVT50261DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50262
+	title = "EVT50262NAME" ##### Paukzhodo
+	desc = "EVT50262DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50263
+	title = "EVT50263NAME" ##### Gofakidzia
+	desc = "EVT50263DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 ###############################
 ### PHILOSOPHY AND IDEOLOGY ###
