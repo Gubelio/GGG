@@ -2995,14 +2995,25 @@ country_event = {
 			random_country = {
 				random_owned = {
 					limit = {
-						is_coastal = yes
-					
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+							any_neighbor_province = {
+								NOT = {
+									owned_by = THIS
+								}
+							}
+						}
 					}
 					add_province_modifier = {
 						name = white_flux
 						duration = 400
 						
 					}
+					set_province_flag = had_pandemic
 				}
 		
 		
@@ -3022,14 +3033,25 @@ country_event = {
 			random_country = {
 				random_owned = {
 					limit = {
-						is_coastal = yes
-					
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+							any_neighbor_province = {
+								NOT = {
+									owned_by = THIS
+								}
+							}
+						}
 					}
 					add_province_modifier = {
 						name = red_flux
 						duration = 400
 						
 					}
+					set_province_flag = had_pandemic
 				}
 		
 		
@@ -3049,14 +3071,25 @@ country_event = {
 			random_country = {
 				random_owned = {
 					limit = {
-						is_coastal = yes
-					
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+							any_neighbor_province = {
+								NOT = {
+									owned_by = THIS
+								}
+							}
+						}
 					}
 					add_province_modifier = {
 						name = wasting_sickness
 						duration = 400
 						
 					}
+					set_province_flag = had_pandemic
 				}
 		
 		
