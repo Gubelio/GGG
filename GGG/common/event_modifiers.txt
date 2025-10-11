@@ -516,5 +516,9 @@ cordon_sanitaire_province = {
 	icon = 17
 }
 
+had_pandemic = { #invisible
+	icon = 27
+}
+
 
 
