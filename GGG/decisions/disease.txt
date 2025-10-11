@@ -80,20 +80,26 @@ political_decisions = {
 			OR = {
 				AND = {
 					has_global_flag = white_flux_pandemic
-					any_owned_province = {
-						NOT = { has_province_modifier = white_flux }
+					NOT = {
+						any_owned_province = {
+							has_province_modifier = white_flux
+						}
 					}
 				}
 				AND = {
 					has_global_flag = red_flux_pandemic	
-					any_owned_province = {
-						NOT = { has_province_modifier = red_flux }
+					NOT = {
+						any_owned_province = {
+							has_province_modifier = red_flux
+						}
 					}
 				}
 				AND = {
 					has_global_flag = wasting_sickness_pandemic	
-					any_owned_province = {
-						NOT = { has_province_modifier = wasting_sickness }
+					NOT = {
+						any_owned_province = {
+							NOT = { has_province_modifier = wasting_sickness }
+						}
 					}
 				}		
 			}
@@ -112,6 +118,7 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
+					is_overseas = no
 					OR = {
 						has_building = naval_base
 						AND = {
@@ -130,5 +137,8 @@ political_decisions = {
 			set_country_flag = began_national_cordon_sanitaire
 		}
 	}
+	
+	
+	
 
 }
