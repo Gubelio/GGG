@@ -296,8 +296,8 @@ movement_feudal_tenure;Commons Recovery Lobby;x
 movement_peonage;Abolition of Serfdom Movement;x
 movement_thralldom_outlawed;Anti-Thralldom League;x
 cordon_sanitaire_province;Cordon Sanitaire;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+had_pandemic;Had Pandemic;;;;;;;;;;;;;x
+had_pandemic_desc;Ignore this modifier. It is simply here to halt provincial reinfection.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
