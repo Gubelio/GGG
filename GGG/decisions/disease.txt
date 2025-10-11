@@ -66,10 +66,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			any_owned_province = {
-				limit = {
-					is_capital = yes
-				}
+			capital_scope = {
 				remove_province_modifier = cordon_sanitaire_province
 			}
 		}
@@ -83,20 +80,20 @@ political_decisions = {
 			OR = {
 				AND = {
 					has_global_flag = white_flux_pandemic
-					any_owned = {
+					any_owned_province = {
 						NOT = { has_province_modifier = white_flux }
 					}
 				}
 				AND = {
 					has_global_flag = red_flux_pandemic	
-					any_owned = {
-						NOT = { has_province_modifier = white_flux }
+					any_owned_province = {
+						NOT = { has_province_modifier = red_flux }
 					}
 				}
 				AND = {
 					has_global_flag = wasting_sickness_pandemic	
-					any_owned = {
-						NOT = { has_province_modifier = white_flux }
+					any_owned_province = {
+						NOT = { has_province_modifier = wasting_sickness }
 					}
 				}		
 			}
@@ -113,11 +110,19 @@ political_decisions = {
 			any_pop = {
 				militancy = 3
 			}
-			any_owned_province = {
+			any_owned = {
 				limit = {
 					OR = {
-						has_building = port
-						#
+						has_building = naval_base
+						AND = {
+							total_pops = 400000
+							port = yes
+						}
+						any_neighbor_province = {
+							NOT = {
+								owned_by = THIS
+							}
+						}
 					}
 				}
 				add_province_modifier = { name = cordon_sanitaire_province duration = 36525 }

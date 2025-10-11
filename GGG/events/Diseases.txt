@@ -2945,9 +2945,9 @@ country_event = { #wasting_sickness disease ticker
 	
 }
 
-####################
-### HOPING EVENT ###
-####################
+#####################
+### HOPPING EVENT ###
+#####################
 
 country_event = {
 	id = 50250
@@ -2993,10 +2993,30 @@ country_event = {
 			}
 			
 			random_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
+						NOT = {   
+							has_province_modifier = cordon_sanitaire_province
+						}
+					}
+				
+				}
 				random_owned = {
 					limit = {
-						is_coastal = yes
-					
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
 					}
 					add_province_modifier = {
 						name = white_flux
@@ -3006,6 +3026,44 @@ country_event = {
 				}
 		
 		
+			}
+			
+			random = { 
+				chance = 10
+				random_country = {
+					limit = {
+						any_owned_province = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}  
+							has_province_modifier = cordon_sanitaire_province
+						}
+					
+					}
+					random_owned = {
+						limit = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}
+						}
+						add_province_modifier = {
+							name = white_flux
+							duration = 400
+							
+						}
+					}
+			
+			
+				}
+			
 			}
 		
 		}
@@ -3020,9 +3078,30 @@ country_event = {
 			}
 			
 			random_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
+						NOT = {   
+							has_province_modifier = cordon_sanitaire_province
+						}
+					}
+				
+				}
 				random_owned = {
 					limit = {
-						is_coastal = yes
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
 					
 					}
 					add_province_modifier = {
@@ -3033,6 +3112,44 @@ country_event = {
 				}
 		
 		
+			}
+			
+			random = { 
+				chance = 10
+				random_country = {
+					limit = {
+						any_owned_province = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}  
+							has_province_modifier = cordon_sanitaire_province
+						}
+					
+					}
+					random_owned = {
+						limit = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}
+						}
+						add_province_modifier = {
+							name = red_flux
+							duration = 400
+							
+						}
+					}
+			
+			
+				}
+			
 			}
 		
 		}
@@ -3047,9 +3164,30 @@ country_event = {
 			}
 			
 			random_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
+						NOT = {   
+							has_province_modifier = cordon_sanitaire_province
+						}
+					}
+				
+				}
 				random_owned = {
 					limit = {
-						is_coastal = yes
+						OR = {
+							has_building = naval_base
+							AND = {
+								total_pops = 400000
+								port = yes
+							}
+						}
 					
 					}
 					add_province_modifier = {
@@ -3060,6 +3198,44 @@ country_event = {
 				}
 		
 		
+			}
+			
+			random = { 
+				chance = 10
+				random_country = {
+					limit = {
+						any_owned_province = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}  
+							has_province_modifier = cordon_sanitaire_province
+						}
+					
+					}
+					random_owned = {
+						limit = {
+							OR = {
+								has_building = naval_base
+								AND = {
+									total_pops = 400000
+									port = yes
+								}
+							}
+						}
+						add_province_modifier = {
+							name = wasting_sickness
+							duration = 400
+							
+						}
+					}
+			
+			
+				}
+			
 			}
 		
 		}
