@@ -62,8 +62,7 @@ country_event = {
 				is_colonial = no
 			}
 			add_province_modifier = { name = white_flux duration = 600 }
-			set_province_flag = had_pandemic
-			set_province_flag = pandemic_origin
+			add_province_modifier = { name = had_pandemic duration = 1000 }
 			set_country_flag = white_flux_in_country
 
 		}
@@ -131,8 +130,7 @@ country_event = {
 				is_colonial = no
 			}
 			add_province_modifier = { name = red_flux duration = 600 }
-			set_province_flag = had_pandemic
-			set_province_flag = pandemic_origin
+			add_province_modifier = { name = had_pandemic duration = 1000 }
 			set_country_flag = red_flux_in_country
 		}
 		
@@ -199,8 +197,7 @@ country_event = {
 				is_colonial = no
 			}
 			add_province_modifier = { name = wasting_sickness duration = 600 }
-			set_province_flag = had_pandemic
-			set_province_flag = pandemic_origin
+			add_province_modifier = { name = had_pandemic duration = 1000 }
 			set_country_flag = wasting_sickness_in_country
 		}
 		
@@ -224,7 +221,7 @@ country_event = {
 		}
 		NOT = {
 			any_owned_province = {
-				has_province_flag = pandemic_origin
+				has_province_modifier = pandemic_origin
 				
 			}
 		}
@@ -255,7 +252,7 @@ country_event = {
 		}
 		NOT = {
 			any_owned_province = {
-				has_province_flag = pandemic_origin
+				has_province_modifier = pandemic_origin
 				
 			}
 		}
@@ -286,7 +283,7 @@ country_event = {
 		}
 		NOT = {
 			any_owned_province = {
-				has_province_flag = pandemic_origin
+				has_province_modifier = pandemic_origin
 				
 			}
 		}
@@ -343,27 +340,6 @@ country_event = {
 		clr_country_flag = red_flux_in_country
 		clr_country_flag = white_flux_in_country
 		
-		if = {
-			limit = {
-				THIS = {
-					any_owned_province = {
-						has_province_flag = pandemic_origin
-					}
-				
-				}
-			
-			}
-			THIS = {
-				random_owned = {
-					limit = {
-						has_province_flag = pandemic_origin
-					
-					}
-					clr_province_flag = pandemic_origin
-				}
-			
-			}
-		}
 	}
 
 }
@@ -396,7 +372,7 @@ country_event = { #white flux disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = white_flux
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -425,7 +401,7 @@ country_event = { #white flux disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = white_flux
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -449,14 +425,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 50  
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -478,14 +454,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 50  
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -507,14 +483,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 50  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -536,14 +512,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 50  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -575,14 +551,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -606,14 +582,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60 
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -637,14 +613,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -668,14 +644,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -700,14 +676,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -724,14 +700,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -748,14 +724,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -772,14 +748,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 60  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -808,14 +784,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25 
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -836,14 +812,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -864,14 +840,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -892,14 +868,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -928,14 +904,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55 
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -956,14 +932,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -984,14 +960,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1012,14 +988,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1044,14 +1020,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1068,14 +1044,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = white_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1092,14 +1068,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1116,14 +1092,14 @@ country_event = { #white flux disease ticker
 								NOT = {
 									has_province_modifier = white_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = white_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1147,14 +1123,14 @@ country_event = { #white flux disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = white_flux
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = white_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1170,14 +1146,14 @@ country_event = { #white flux disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = white_flux
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = white_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1228,7 +1204,7 @@ country_event = { #red flux disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = red_flux
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -1258,7 +1234,7 @@ country_event = { #red flux disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = red_flux
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -1278,7 +1254,7 @@ country_event = { #red flux disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = red_flux
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -1302,14 +1278,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1331,14 +1307,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1360,14 +1336,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1389,14 +1365,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1428,14 +1404,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 35  
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1459,14 +1435,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 35  
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1490,14 +1466,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 35  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1521,14 +1497,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 35  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1553,14 +1529,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10  
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1577,14 +1553,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10  
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1601,14 +1577,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1625,14 +1601,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1661,14 +1637,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25 
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1689,14 +1665,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1717,14 +1693,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1745,14 +1721,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1781,14 +1757,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55 
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1809,14 +1785,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1837,14 +1813,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1865,14 +1841,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1901,14 +1877,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1929,14 +1905,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = red_flux duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1957,14 +1933,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -1985,14 +1961,14 @@ country_event = { #red flux disease ticker
 								NOT = {
 									has_province_modifier = red_flux
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = red_flux duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2016,14 +1992,14 @@ country_event = { #red flux disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = red_flux
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = red_flux duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2039,14 +2015,14 @@ country_event = { #red flux disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = red_flux
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = red_flux duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2101,7 +2077,7 @@ country_event = { #wasting_sickness disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = wasting_sickness
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -2131,7 +2107,7 @@ country_event = { #wasting_sickness disease ticker
 						empty = no
 						NOT = {
 							has_province_modifier = wasting_sickness
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -2152,7 +2128,7 @@ country_event = { #wasting_sickness disease ticker
 						NOT = {
 							has_province_modifier = wasting_sickness
 							has_province_modifier = cordon_sanitaire_province
-							has_province_flag = had_pandemic
+							has_province_modifier = had_pandemic
 						}
 					}
 				}
@@ -2176,14 +2152,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 45  
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2205,14 +2181,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 45  
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2234,14 +2210,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 45  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2263,14 +2239,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 45  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2302,14 +2278,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2333,14 +2309,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70 
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2364,14 +2340,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2395,14 +2371,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 70  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2427,14 +2403,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 75  
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2451,14 +2427,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 75  
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2475,14 +2451,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 75  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2499,14 +2475,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 75  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2535,14 +2511,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25 
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2563,14 +2539,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2591,14 +2567,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2619,14 +2595,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 25  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2655,14 +2631,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55 
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2683,14 +2659,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2711,14 +2687,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2739,14 +2715,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 55  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2775,14 +2751,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2803,14 +2779,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20 
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2831,14 +2807,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2859,14 +2835,14 @@ country_event = { #wasting_sickness disease ticker
 								NOT = {
 									has_province_modifier = wasting_sickness
 									has_province_modifier = cordon_sanitaire_province
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 20  
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2890,14 +2866,14 @@ country_event = { #wasting_sickness disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = wasting_sickness
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -2913,14 +2889,14 @@ country_event = { #wasting_sickness disease ticker
 								has_province_modifier = cordon_sanitaire_province
 								NOT = {
 									has_province_modifier = wasting_sickness
-									has_province_flag = had_pandemic
+									has_province_modifier = had_pandemic
 								}
 							}
 							
 							random = {	
 								chance = 10 
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								set_province_flag = had_pandemic
+								add_province_modifier = { name = had_pandemic duration = 1000 }
 							
 							}
 			
@@ -3016,7 +2992,7 @@ country_event = {
 						duration = 400
 						
 					}
-					set_province_flag = had_pandemic
+					add_province_modifier = { name = had_pandemic duration = 1000 }
 				}
 		
 		
@@ -3054,7 +3030,7 @@ country_event = {
 						duration = 400
 						
 					}
-					set_province_flag = had_pandemic
+					add_province_modifier = { name = had_pandemic duration = 1000 }
 				}
 		
 		
@@ -3092,7 +3068,7 @@ country_event = {
 						duration = 400
 						
 					}
-					set_province_flag = had_pandemic
+					add_province_modifier = { name = had_pandemic duration = 1000 }
 				}
 		
 		

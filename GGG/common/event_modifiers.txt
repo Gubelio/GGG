@@ -21,6 +21,13 @@ colonial_chaos = {
     icon = 2
 }
 
+
+had_pandemic = {
+  
+    icon = 2
+}
+
+
 peacetime_mobilization = {
     ruling_party_support = -0.40
     loan_interest = 1
