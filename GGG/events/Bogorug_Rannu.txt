@@ -348,6 +348,9 @@ country_event = {  #Rannu receives offer of nothing from bogorug
 	option = {
 		name = "EVT50228OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
+		ai_chance = {
+            factor = 0
+        }
 	}
 }
 
@@ -386,6 +389,9 @@ country_event = {  #Rannu receives offer of 500k from bogorug
 	option = {
 		name = "EVT50230OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
+		ai_chance = {
+            factor = 0
+        }
 	}
 }
 
@@ -424,6 +430,9 @@ country_event = {  #Rannu receives offer of 850k from bogorug
 	option = {
 		name = "EVT50231OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
+		ai_chance = {
+            factor = 0
+        }
 	}
 }
 
@@ -469,6 +478,9 @@ country_event = {  #Rannu receives offer of Yauje Valley from bogorug
 	option = {
 		name = "EVT50232OPTB" #Rejects - AI will never pick
 		BOG = { country_event = { id = 50233 days = 30 } }
+		ai_chance = {
+            factor = 0
+        }
 	}
 }
 
