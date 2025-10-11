@@ -51,6 +51,79 @@ political_decisions = {
 		}
 	}
 	
+	end_cordon_sanitaire_capital = {
+		#picture = "yauje_valley"
+		potential = {
+			ai = no
+			capital_scope = {
+				has_province_modifier = cordon_sanitaire_province
+			}
+			NOT = { has_country_flag = began_national_cordon_sanitaire }
+		}
+		
+		allow = {
 
+		}
+		
+		effect = {
+			any_owned_province = {
+				limit = {
+					is_capital = yes
+				}
+				remove_province_modifier = cordon_sanitaire_province
+			}
+		}
+	}
+	
+	establish_cordon_sanitaire_nation = {
+		#picture = "yauje_valley"
+		potential = {
+			ai = no
+			NOT = { has_country_flag = began_national_cordon_sanitaire }
+			OR = {
+				AND = {
+					has_global_flag = white_flux_pandemic
+					any_owned = {
+						NOT = { has_province_modifier = white_flux }
+					}
+				}
+				AND = {
+					has_global_flag = red_flux_pandemic	
+					any_owned = {
+						NOT = { has_province_modifier = white_flux }
+					}
+				}
+				AND = {
+					has_global_flag = wasting_sickness_pandemic	
+					any_owned = {
+						NOT = { has_province_modifier = white_flux }
+					}
+				}		
+			}
+			
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			treasury = -500000
+			prestige = -20
+			any_pop = {
+				militancy = 3
+			}
+			any_owned_province = {
+				limit = {
+					OR = {
+						has_building = port
+						#
+					}
+				}
+				add_province_modifier = { name = cordon_sanitaire_province duration = 36525 }
+			}
+			set_country_flag = began_national_cordon_sanitaire
+		}
+	}
 
 }
