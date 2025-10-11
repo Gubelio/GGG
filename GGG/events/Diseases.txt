@@ -63,7 +63,6 @@ country_event = {
 			}
 			add_province_modifier = { name = white_flux duration = 600 }
 			add_province_modifier = { name = had_pandemic duration = 1000 }
-			set_country_flag = white_flux_in_country
 
 		}
 		
@@ -131,7 +130,6 @@ country_event = {
 			}
 			add_province_modifier = { name = red_flux duration = 600 }
 			add_province_modifier = { name = had_pandemic duration = 1000 }
-			set_country_flag = red_flux_in_country
 		}
 		
 
@@ -198,7 +196,6 @@ country_event = {
 			}
 			add_province_modifier = { name = wasting_sickness duration = 600 }
 			add_province_modifier = { name = had_pandemic duration = 1000 }
-			set_country_flag = wasting_sickness_in_country
 		}
 		
 
@@ -210,22 +207,16 @@ country_event = {
 #######################################
 
 country_event = {
-	id = 50246
-	title = "EVTNAME50246" 
-	desc = "EVTDESC50246"
+	id = 50272
+	title = "EVTNAME50272" 
+	desc = "EVTDESC50272"
 	
 	trigger = {
 		any_owned_province = {
 			has_province_modifier = white_flux
 			
 		}
-		NOT = {
-			any_owned_province = {
-				has_province_modifier = pandemic_origin
-				
-			}
-		}
-		NOT = { has_country_flag = white_flux_in_country }
+		NOT = { has_country_flag = w_f_arrived }
 	}
 
 	mean_time_to_happen = {
@@ -235,7 +226,7 @@ country_event = {
 	
 	option = {
 		name = "These are grim times."
-		set_country_flag = white_flux_in_country
+		set_country_flag = w_f_arrived
 	}
 
 }
@@ -249,12 +240,6 @@ country_event = {
 		any_owned_province = {
 			has_province_modifier = red_flux
 			
-		}
-		NOT = {
-			any_owned_province = {
-				has_province_modifier = pandemic_origin
-				
-			}
 		}
 		NOT = { has_country_flag = red_flux_in_country }
 	}
@@ -280,12 +265,6 @@ country_event = {
 		any_owned_province = {
 			has_province_modifier = wasting_sickness
 			
-		}
-		NOT = {
-			any_owned_province = {
-				has_province_modifier = pandemic_origin
-				
-			}
 		}
 		NOT = { has_country_flag = wasting_sickness_in_country }
 	}
