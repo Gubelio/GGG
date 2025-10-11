@@ -64,6 +64,7 @@ country_event = {
 			add_province_modifier = { name = white_flux duration = 600 }
 			set_province_flag = had_pandemic
 			set_province_flag = pandemic_origin
+			set_country_flag = white_flux_in_country
 
 		}
 		
@@ -132,6 +133,7 @@ country_event = {
 			add_province_modifier = { name = red_flux duration = 600 }
 			set_province_flag = had_pandemic
 			set_province_flag = pandemic_origin
+			set_country_flag = red_flux_in_country
 		}
 		
 
@@ -199,6 +201,7 @@ country_event = {
 			add_province_modifier = { name = wasting_sickness duration = 600 }
 			set_province_flag = had_pandemic
 			set_province_flag = pandemic_origin
+			set_country_flag = wasting_sickness_in_country
 		}
 		
 
