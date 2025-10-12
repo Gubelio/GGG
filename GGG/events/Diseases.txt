@@ -3444,3 +3444,102 @@ country_event = { #pot_belly
 
 
 }
+
+
+##############################
+### CORDON SANITAIRE DEBUG ###
+##############################
+
+country_event = { #Capital quarantine has failed due to infection of capital province
+	id = 50273
+	title = "EVTNAME50273"
+	desc = "EVTDESC50273"
+	
+    trigger = {
+		capital_scope = {
+			has_province_modifier = cordon_sanitaire_province
+			OR = {
+				has_province_modifier = red_flux
+				has_province_modifier = wasting_sickness
+				has_province_modifier = white_flux
+			}
+		}
+		has_country_flag = began_capital_cordon_sanitaire
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50273OPTA"
+		capital_scope = {
+			remove_province_modifier = cordon_sanitaire_province
+		}
+		clr_country_flag = began_capital_cordon_sanitaire
+	}
+}
+
+country_event = { #Capital quarantine has failed due to war
+	id = 50274
+	title = "EVTNAME50274"
+	desc = "EVTDESC50274"
+	
+    trigger = {
+		war = yes
+		capital_scope = {
+			has_province_modifier = cordon_sanitaire_province
+		}
+		has_country_flag = began_capital_cordon_sanitaire
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50274OPTA"
+		capital_scope = {
+			remove_province_modifier = cordon_sanitaire_province
+		}
+		clr_country_flag = began_capital_cordon_sanitaire
+	}
+}
+
+country_event = { #National quarantine has failed due to war
+	id = 50275
+	title = "EVTNAME50275"
+	desc = "EVTDESC50275"
+	
+    trigger = {
+		war = yes
+		has_country_flag = began_national_cordon_sanitaire
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+	
+	option = {
+		name = "EVT50275OPTA"
+		any_owned = {
+			limit = {
+				is_overseas = no
+				OR = {
+					has_building = naval_base
+					AND = {
+						total_pops = 400000
+						port = yes
+					}
+					any_neighbor_province = {
+						NOT = {
+							owned_by = THIS
+						}
+					}
+				}
+			}
+			remove_province_modifier = cordon_sanitaire_province
+		}
+		clr_country_flag = began_national_cordon_sanitaire
+	}
+}

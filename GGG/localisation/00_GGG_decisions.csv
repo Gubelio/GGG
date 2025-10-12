@@ -163,12 +163,12 @@ restoration_of_yauje_valley_title;Restore the Yauje Valley;;;;;;;;;;;;;x
 restoration_of_yauje_valley_desc;x;;;;;;;;;;;;;x
 establish_cordon_sanitaire_capital_title;Establish a Cordon Sanitaire on $CAPITAL$;;;;;;;;;;;;;x
 establish_cordon_sanitaire_capital_desc;x;;;;;;;;;;;;;x
-end_cordon_sanitaire_capital_title;Terminate Cordon Sanitaire on $CAPITAL$;;;;;;;;;;;;;x
+end_cordon_sanitaire_capital_title;End Cordon Sanitaire on $CAPITAL$;;;;;;;;;;;;;x
 end_cordon_sanitaire_capital_desc;x;;;;;;;;;;;;;x
 establish_cordon_sanitaire_nation_title;Establish a Cordon Sanitaire on our National Borders;;;;;;;;;;;;;x
 establish_cordon_sanitaire_nation_desc;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+end_cordon_sanitaire_nation_title;End the National Cordon Sanitaire;;;;;;;;;;;;;x
+end_cordon_sanitaire_nation_title;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

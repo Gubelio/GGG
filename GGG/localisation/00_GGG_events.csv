@@ -719,15 +719,15 @@ EVT50271NAME;The Rannu Empire;;;;;;;;;;;;;x
 EVT50271DESC;The Rannu empire is a large and old Tehuhrite empire which dominates the northern reaches of Ishahfazh. Emerging from a collection of allied tribute taking military castes in the north of the continent, the martial Unnahu and Unnobanhu peoples slowly spread their influence around the region, dominating local upland tribes, neighbouring people and establishing sturdy borderlands. The pressures of modernisation caused this vaguely unstable network of warlords to gradually sacralise and institutionalize a tradition of imperial administration by regional governorates organised by local, loyal elites. The central point of the Rannu Empire is the Rannutan Dynasty, who have ruled since the 8th century, overthrowing the previous Bennaru Dynasty in a dramatic civil war in 727-33. Dynastic submission by compliant local governors, trained in Tehurite philosophy, which sanctions the entire regime as an order-bringing empire.;x
 EVTNAME50272;White Flux Arrives!;;;;;;;;;;;;;x
 EVTDESC50272;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50273;Quarantine of $CAPITAL$ Has Failed!;;;;;;;;;;;;;x
+EVTDESC50273;x;;;;;;;;;;;;;x
+EVT50273OPTA;Hard times are ahead...;;;;;;;;;;;;;x
+EVTNAME50274;Quarantine of $CAPITAL$ Collapses!;;;;;;;;;;;;;x
+EVTDESC50274;x;;;;;;;;;;;;;x
+EVT50274OPTA;We have a more pressing use for the military now;;;;;;;;;;;;;x
+EVTNAME50275;National Cordon Sanitaire Collapses!;;;;;;;;;;;;;x
+EVTDESC50275;x;;;;;;;;;;;;;x
+EVT50275OPTA;We have a more pressing use for the military now;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

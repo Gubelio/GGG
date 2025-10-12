@@ -3,6 +3,7 @@ political_decisions = {
 	establish_cordon_sanitaire_capital = {
 		#picture = "yauje_valley"
 		potential = {
+			war = no
 			ai = no
 			OR = {
 				AND = {
@@ -15,14 +16,14 @@ political_decisions = {
 				AND = {
 					has_global_flag = red_flux_pandemic	
 					capital_scope = {
-						NOT = { has_province_modifier = white_flux }
+						NOT = { has_province_modifier = red_flux }
 						NOT = { has_province_modifier = cordon_sanitaire_province }
 					}
 				}
 				AND = {
 					has_global_flag = wasting_sickness_pandemic	
 					capital_scope = {
-						NOT = { has_province_modifier = white_flux }
+						NOT = { has_province_modifier = wasting_sickness }
 						NOT = { has_province_modifier = cordon_sanitaire_province }
 					}
 				}
@@ -48,6 +49,7 @@ political_decisions = {
 					militancy = 3
 				}
 			}
+			set_country_flag = began_capital_cordon_sanitaire
 		}
 	}
 	
@@ -58,7 +60,7 @@ political_decisions = {
 			capital_scope = {
 				has_province_modifier = cordon_sanitaire_province
 			}
-			NOT = { has_country_flag = began_national_cordon_sanitaire }
+			has_country_flag = began_capital_cordon_sanitaire
 		}
 		
 		allow = {
@@ -69,12 +71,14 @@ political_decisions = {
 			capital_scope = {
 				remove_province_modifier = cordon_sanitaire_province
 			}
+			clr_country_flag = began_capital_cordon_sanitaire
 		}
 	}
 	
 	establish_cordon_sanitaire_nation = {
 		#picture = "yauje_valley"
 		potential = {
+			war = no
 			ai = no
 			NOT = { has_country_flag = began_national_cordon_sanitaire }
 			OR = {
@@ -138,7 +142,39 @@ political_decisions = {
 		}
 	}
 	
-	
+	end_cordon_sanitaire_nation = {
+		#picture = "yauje_valley"
+		potential = {
+			ai = no
+			has_country_flag = began_national_cordon_sanitaire
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					is_overseas = no
+					OR = {
+						has_building = naval_base
+						AND = {
+							total_pops = 400000
+							port = yes
+						}
+						any_neighbor_province = {
+							NOT = {
+								owned_by = THIS
+							}
+						}
+					}
+				}
+				remove_province_modifier = cordon_sanitaire_province
+			}
+			clr_country_flag = began_national_cordon_sanitaire
+		}
+	}
 	
 
 }
