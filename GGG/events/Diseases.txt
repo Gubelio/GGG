@@ -61,8 +61,8 @@ country_event = {
 			limit = {
 				is_colonial = no
 			}
+			add_province_modifier = { name = had_pandemic duration = 2100 }
 			add_province_modifier = { name = white_flux duration = 600 }
-			add_province_modifier = { name = had_pandemic duration = 2000 }
 
 		}
 		
@@ -128,8 +128,8 @@ country_event = {
 			limit = {
 				is_colonial = no
 			}
+			add_province_modifier = { name = had_pandemic duration = 2100 }
 			add_province_modifier = { name = red_flux duration = 600 }
-			add_province_modifier = { name = had_pandemic duration = 2000 }
 		}
 		
 
@@ -194,8 +194,8 @@ country_event = {
 			limit = {
 				is_colonial = no
 			}
+			add_province_modifier = { name = had_pandemic duration = 2100 }
 			add_province_modifier = { name = wasting_sickness duration = 600 }
-			add_province_modifier = { name = had_pandemic duration = 2000 }
 		}
 		
 
@@ -422,8 +422,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 50  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -451,8 +451,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 50  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -480,8 +480,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 50  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -509,8 +509,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 50  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -548,8 +548,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -579,8 +579,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -610,8 +610,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -641,8 +641,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -673,8 +673,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -697,8 +697,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -721,8 +721,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -745,8 +745,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 60  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -781,8 +781,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 25 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -809,8 +809,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -837,8 +837,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -865,8 +865,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -901,8 +901,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 55 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -929,8 +929,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -957,8 +957,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -985,8 +985,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1017,8 +1017,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1041,8 +1041,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1065,8 +1065,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1089,8 +1089,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1120,8 +1120,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 10 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = white_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1143,8 +1143,8 @@ country_event = { #white flux disease ticker
 							
 							random = {	
 								chance = 10 
-								add_province_modifier = { name = white_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
+								add_province_modifier = { name = had_pandemic duration = 2100 }
+								add_province_modifier = { name = white_flux duration = 200 }
 							
 							}
 			
@@ -1275,8 +1275,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1304,8 +1304,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1333,8 +1333,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1362,8 +1362,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1401,8 +1401,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 35  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1432,8 +1432,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 35  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1463,8 +1463,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 35  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1494,8 +1494,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 35  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1526,8 +1526,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1550,8 +1550,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1574,8 +1574,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1598,8 +1598,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1634,8 +1634,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 25 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1662,8 +1662,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1690,8 +1690,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1718,8 +1718,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1754,8 +1754,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 55 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1782,8 +1782,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1810,8 +1810,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1838,8 +1838,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1874,8 +1874,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1902,8 +1902,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1930,8 +1930,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1958,8 +1958,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -1989,8 +1989,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = red_flux duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2012,8 +2012,8 @@ country_event = { #red flux disease ticker
 							
 							random = {	
 								chance = 10 
-								add_province_modifier = { name = red_flux duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
+								add_province_modifier = { name = had_pandemic duration = 2100 }
+								add_province_modifier = { name = red_flux duration = 200 }
 							
 							}
 			
@@ -2149,8 +2149,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 45  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2178,8 +2178,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 45  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2207,8 +2207,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 45  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2236,8 +2236,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 45  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2275,8 +2275,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2306,8 +2306,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 70 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2337,8 +2337,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2368,8 +2368,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 70  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2400,8 +2400,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 75  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2424,8 +2424,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 75  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2448,8 +2448,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 75  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2472,8 +2472,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 75  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2508,8 +2508,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 25 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2536,8 +2536,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2564,8 +2564,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2592,8 +2592,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 25  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2628,8 +2628,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 55 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2656,8 +2656,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2684,8 +2684,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2712,8 +2712,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 55  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2748,8 +2748,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2776,8 +2776,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 20 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 200 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2804,8 +2804,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2832,8 +2832,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 20  
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 400 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2863,8 +2863,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 10 
+								add_province_modifier = { name = had_pandemic duration = 2100 }
 								add_province_modifier = { name = wasting_sickness duration = 100 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
 							
 							}
 			
@@ -2886,8 +2886,8 @@ country_event = { #wasting_sickness disease ticker
 							
 							random = {	
 								chance = 10 
-								add_province_modifier = { name = wasting_sickness duration = 300 }
-								add_province_modifier = { name = had_pandemic duration = 2000 }
+								add_province_modifier = { name = had_pandemic duration = 2100 }
+								add_province_modifier = { name = wasting_sickness duration = 200 }
 							
 							}
 			
@@ -2976,12 +2976,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
 						name = white_flux
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
@@ -3008,12 +3009,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
 						name = white_flux
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
@@ -3046,12 +3048,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
 						name = red_flux
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
@@ -3078,12 +3081,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
-						name = white_flux
+						name = red_flux
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
@@ -3121,12 +3125,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
 						name = wasting_sickness
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
@@ -3153,12 +3158,13 @@ country_event = {
 							}
 						}
 					}
+					add_province_modifier = { name = had_pandemic duration = 2000 }
 					add_province_modifier = {
-						name = white_flux
+						name = wasting_sickness
 						duration = 400
 						
 					}
-					add_province_modifier = { name = had_pandemic duration = 2000 }
+					
 				}
 		
 		
