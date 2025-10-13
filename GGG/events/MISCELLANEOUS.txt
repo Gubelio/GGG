@@ -3621,6 +3621,33 @@ country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no 
 	option = {
 		name = "EVT50212OPTA"
 		set_country_flag = vewugi_convert_nation
+		any_country = {
+			limit = {
+				has_country_flag = vewugi_country
+			}
+			country_event = 50276
+		}
+	}
+}
+
+country_event = { 
+	id = 50276
+	title = "EVTNAME50276"
+	desc = "EVTDESC50276"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50276OPTA"
+		prestige = 1
+		diplomatic_influence = {
+			who = FROM
+			value = 50
+		}
+		relation = {
+			who = FROM
+			value = 100
+		}
 	}
 }
 
