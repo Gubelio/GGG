@@ -131,6 +131,53 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 44444
+	title = "change upperhouse"
+	desc = "change upperhouse"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Absolutist"			
+		upper_house = {
+			ideology = absolutist
+			value = 5
+		}
+	}
+	
+	option = {
+		name = "Free-Yoker"			
+		upper_house = {
+			ideology = free_yoker
+			value = 5
+		}
+	}
+	
+	option = {
+		name = "Theocratist"			
+		upper_house = {
+			ideology = theocratist
+			value = 5
+		}
+	}
+}
+
+#country_event = {
+#	id = 98765
+#	title = "own all uncolonized land"
+#	desc = "own all uncolonized land"
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "THANKS BUDDY"			
+#		upper_house = {
+#			ideology = absolutist
+#			value = 5
+#		}
+#	}
+#}
 
 ###### ACTIVATE WARSLAVES FOR REBS ###########
 
