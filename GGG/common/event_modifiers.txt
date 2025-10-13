@@ -166,7 +166,7 @@ developing_economy = {
 	middle_luxury_needs = 0.25
 	poor_everyday_needs = 0.1
 	poor_luxury_needs = 0.1
-	global_population_growth = 0.001
+	#global_population_growth = 0.001
 	icon = 11
 }
 
@@ -177,7 +177,7 @@ industrialising_economy = {
 	middle_luxury_needs = 0.5
 	poor_everyday_needs = 0.25
 	poor_luxury_needs = 0.25
-	global_population_growth = 0.002
+	#global_population_growth = 0.002
 	icon = 11
 }
 
@@ -516,9 +516,9 @@ cordon_sanitaire_province = {
 	icon = 17
 }
 
-had_pandemic = { #invisible
-	icon = 27
-}
+#had_pandemic = { #invisible
+#	icon = 27
+#}
 
 
 

@@ -157,11 +157,11 @@ country_event = {
 
 country_event = {
 	id = 50190
-	title = "EVTNAME50190" #reform land
+	title = "EVTNAME50190" 
     desc = "EVTDESC50190"
 	
 	trigger = {
-		has_country_modifier = developing_economy
+		invention = aerial_bacteria_and_antiseptic_principle
 		has_country_flag = smallholder_society
 		NOT = {
 			has_country_modifier = smallholder_society_1
@@ -186,11 +186,11 @@ country_event = {
 
 country_event = {
 	id = 50191
-	title = "EVTNAME50191" #reform land
+	title = "EVTNAME50191" 
     desc = "EVTDESC50191"
 	
 	trigger = {
-		has_country_modifier = industrialising_economy
+		invention = x_rays
 		has_country_flag = smallholder_society
 		NOT = {
 			has_country_modifier = smallholder_society_2
