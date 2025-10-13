@@ -1327,13 +1327,13 @@ guiTypes = {
 		iconType = {
 			name = "icon_8"
 			spriteType = "GFX_budget_admin_icon"
-			position = { x= 533 y = 210 }
+			position = { x= 535 y = 210 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "icon_9"
 			spriteType = "GFX_budget_social_spend_icon"
-			position = { x= 533 y = 264 }
+			position = { x= 530 y = 260 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
