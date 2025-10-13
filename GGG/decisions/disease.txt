@@ -86,6 +86,9 @@ political_decisions = {
 					has_global_flag = white_flux_pandemic
 					NOT = {
 						any_owned_province = {
+							limit = {
+								is_overseas = no
+							}
 							has_province_modifier = white_flux
 						}
 					}
@@ -94,6 +97,9 @@ political_decisions = {
 					has_global_flag = red_flux_pandemic	
 					NOT = {
 						any_owned_province = {
+							limit = {
+								is_overseas = no
+							}
 							has_province_modifier = red_flux
 						}
 					}
@@ -102,6 +108,9 @@ political_decisions = {
 					has_global_flag = wasting_sickness_pandemic	
 					NOT = {
 						any_owned_province = {
+							limit = {
+								is_overseas = no
+							}
 							NOT = { has_province_modifier = wasting_sickness }
 						}
 					}
