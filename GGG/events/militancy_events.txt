@@ -619,7 +619,7 @@ province_event = {
 	allow_multiple_instances = no
 	
     mean_time_to_happen = {
-        months = 8000 #6000 #400
+        months = 10000 #6000 #400
 		
 		modifier = {
            factor = 0.9
@@ -803,7 +803,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 320 #150
+        months = 400 #150
         modifier = {
             factor = 1.5
 			NOT = {
@@ -914,6 +914,11 @@ province_event = {
 		any_pop = {
 			militancy = 5
 			consciousness = 3
+		}
+		
+		ai_chance = {
+			factor = 1
+		
 		}
 	}
 		
