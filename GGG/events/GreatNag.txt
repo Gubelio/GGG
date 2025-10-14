@@ -1001,3 +1001,74 @@ country_event = {
 	
 
 }
+
+
+country_event = {
+	id = 50278
+	title = "EVTNAME50278"
+    desc = "EVTDESC50278"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GAU
+		government = paternalistic_council
+		NOT = { has_country_flag = settled_sucession }
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "We shall not betray the revolution in such a way!"
+		prestige = 20
+		
+		scaled_militancy = {
+			ideology = liberationist
+			factor = 1
+		
+		}
+		
+		scaled_consciousness = {
+			ideology = liberationist
+			factor = 1
+		
+		}
+		
+		set_country_flag = settled_sucession
+	}
+	
+	option = {
+		name = "Hurrah for King Godonimiz! Hurrah for the True Blood"
+		 	
+
+		ruling_party_ideology = liberationist
+		
+		define_general = {
+			name = "Godonimiz III"
+			personality = indifferent
+			background = prince
+		}
+		
+		scaled_militancy = {
+			ideology = free_yoker
+			factor = 3
+		
+		}
+		
+		scaled_consciousness = {
+			ideology = free_yoker
+			factor = 3
+		
+		}
+		
+		political_reform = noble_parliament
+		political_reform = centralised
+		
+		set_country_flag = settled_sucession
+	}
+
+}
