@@ -3236,14 +3236,17 @@ country_event = { #pot belly pox
 		modifier = {
             factor = 1.2
             health_care = low_health_care
+			invention = aerial_bacteria_and_antiseptic_principle
         }
 		modifier = {
             factor = 1.3
             health_care = acceptable_health_care
+			invention = germ_theory
         }
 		modifier = {
             factor = 1.4
             health_care = good_health_care
+			invention = gaslights
         }
 	}
 	
@@ -3480,14 +3483,17 @@ country_event = { #Blinding Cough
 		modifier = {
             factor = 1.2
             health_care = low_health_care
+			invention = aerial_bacteria_and_antiseptic_principle
         }
 		modifier = {
             factor = 1.3
             health_care = acceptable_health_care
+			invention = germ_theory
         }
 		modifier = {
             factor = 1.4
             health_care = good_health_care
+			invention = gaslights
         }
 	}
 	
@@ -3723,14 +3729,17 @@ country_event = { #Cudfeeder's Flu
 		modifier = {
             factor = 1.2
             health_care = low_health_care
+			invention = aerial_bacteria_and_antiseptic_principle
         }
 		modifier = {
             factor = 1.3
             health_care = acceptable_health_care
+			invention = germ_theory
         }
 		modifier = {
             factor = 1.4
             health_care = good_health_care
+			invention = gaslights
         }
 	}
 	
