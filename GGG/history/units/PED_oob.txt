@@ -1,0 +1,35 @@
+#Relations
+
+#Armies
+
+leader = {
+    name = "Hid Thirim Sesooga"
+    type = land
+    date = 1307.1.1
+    personality = gallant
+    background = prince
+}
+
+army = {
+    name = "Army of the Hid"
+    location = 719
+
+    regiment = {
+        name= "Thrall-Takers"
+        type = irregular
+        home = 719
+    }
+
+    regiment = {
+        name= "Thall-Beaters"
+        type = irregular
+        home = 718
+    }
+	
+	regiment = {
+        name= "The Swinery"
+        type = cavalry
+        home = 710
+    }
+}
+
