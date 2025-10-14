@@ -773,7 +773,11 @@ country_event = {
 	trigger = {
 		ai = yes
 		NOT = { has_global_flag = setup_complete }
-	
+		NOT = {
+			is_secondary_power = yes
+			is_greater_power = yes
+		
+		}
 	
 	}
 	
