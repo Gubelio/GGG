@@ -165,6 +165,9 @@ political_decisions = {
             prestige = 25
             #all_core = { remove_core = THIS }
             change_tag = TGN
+			government = aristocratic_commonwealth
+			political_reform = tribal_assembly
+			political_reform = states_system
             any_country = {
                 limit = {
                     OR = {
