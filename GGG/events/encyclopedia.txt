@@ -1651,8 +1651,8 @@ country_event = {
 
 country_event = {
 	id = 50159
-	title = "EVT50146NAME" ##### Poumnian area subheading
-	desc = "EVT50146DESC"
+	title = "EVT50159NAME" ##### Poumnian area subheading
+	desc = "EVT50159DESC"
 	picture = "POU_generic"
 	
 	is_triggered_only = yes
