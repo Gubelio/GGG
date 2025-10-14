@@ -637,6 +637,7 @@ country_event = {
 
 	
 	trigger = {
+		ai = yes
 		NOT = {
 			has_global_flag = crisis_enabled
 		}
@@ -758,3 +759,93 @@ country_event = {
             }
     }
 }
+
+country_event = {
+    id = 50282
+    title = "setup"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+	allow_multiple_instances = no
+	fire_only_once = yes
+
+	
+	trigger = {
+		ai = yes
+		NOT = { has_global_flag = setup_complete }
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	
+	}
+	
+	option = {
+		name = "ai"
+		
+		set_global_flag = setup_complete
+	
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				ai = yes
+				civilized = yes
+			
+			}
+			treasury = 300000
+		}
+		
+		any_country = {
+			limit = {
+				is_secondary_power = yes
+				ai = yes
+				civilized = yes
+			}
+			treasury = 150000
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+				ai = yes
+				prestige = 40
+				civilized = yes
+			}
+			treasury = 50000
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+				ai = yes
+				prestige = 20
+				civilized = yes
+			}
+			treasury = 25000
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+				ai = yes
+				civilized = yes
+			}
+			treasury = 25000
+		}
+	
+	}
+	
+	
+}
+
