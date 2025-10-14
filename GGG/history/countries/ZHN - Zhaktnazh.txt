@@ -1,4 +1,4 @@
-capital = 1852
+capital = 2179
 primary_culture = jazhakdii
 religion = motkohnic
 government = aristocratic_commonwealth
@@ -36,7 +36,7 @@ slavery = yes_slavery
 wage_reform = no_minimum_wage
 social_privileges = legal_disabilities
 
-ruling_party = DZN_conservative
+ruling_party = ZHN_conservative
 upper_house = { # inherit
 	theocratist = 0
 	statist = 0
@@ -76,4 +76,4 @@ basic_chemistry = 1
 
 #flags
 
-set_country_flag = kadkohi_country
+set_country_flag = motkohnic_country
