@@ -3330,6 +3330,11 @@ country_event = { #### Pashdzii occupation GASHDZII
 						neighbour = THIS
 					}
 				}
+				NOT = {
+					tag = GOZ
+					tag = CHS
+					tag = TGN
+				}
 			}
 			country_event = { id = 50168 days = 30	}
 		}
@@ -3404,6 +3409,11 @@ country_event = { #### Pashdzii occupation FOREIGNER
 					primary_culture = west_gashdzii
 					primary_culture = south_gashdzii
 					primary_culture = north_gashdzii
+				}
+				NOT = {
+					tag = GOZ
+					tag = CHS
+					tag = TGN
 				}
 			}
 		
@@ -4295,4 +4305,40 @@ country_event = {
 	}
 	
 	
+}
+
+
+country_event = { 
+	id = 50279
+	title = "EVTNAME50279"
+	desc = "EVTDESC50279"
+	
+	trigger = {
+		tag = VUG
+		government = paternalistic_council
+		ruling_party_ideology = conservative
+		NOT = { has_country_flag = revolution_betrayed }
+		
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			thralldom = thralldom_outlawed
+		}
+	
+	}
+	
+	option = {
+		
+		set_country_flag = revolution_betrayed
+	}
+	
+	option = {
+		
+		set_country_flag = revolution_betrayed
+	}
 }

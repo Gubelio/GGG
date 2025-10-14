@@ -1626,6 +1626,11 @@ country_event = {
 	}
 
 	option = {
+		name = "The Maabizhpti Peninsula and its Environs"
+		country_event = { id = 50279 }
+	}
+
+	option = {
 		name = "The Northern States"
 		country_event = { id = 50252 }
 	
@@ -1730,6 +1735,26 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = 50279
+	title = "EVTNAME50279" ##### South Gashdzii area subheading
+	desc = "EVTDESC50279"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Sober Jiishanag"
+		country_event = { id = 50156 }
+	}
+	
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+	
+}
 
 country_event = {
 	id = 50252
