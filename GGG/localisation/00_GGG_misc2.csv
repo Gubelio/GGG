@@ -257,11 +257,11 @@ CREATING_PROVINCE;Creating Hominid Type #;x
 CREATING_TEXTS;Silencing Dissenting Voices...;x
 LOAD_EVENTS;Identifying Contigent Phenomena...;x
 ADAPTING_HISTORY;Growing Beautiful Fur...;x
-CALC_PATHS;Arranging Trans-World-Techno-Causal Laws\nThis may take several minutes.;x
+CALC_PATHS;Arranging Trans-World-Techno-Causal Laws;x
 prince;Prince of the Blood;;;;;;;;;;;;;x
 ruins_drupe;Ruins of the Drupe;;;;;;;;;;;;;x
 YOU_LOST;§RBitter Defeat;x
-YOU_WON;§GGlorious Victory;x
+YOU_WON;§GVictory;x
 zealous_fervor;Zealous Fervor;;;;;;;;;;;;;x
 zealous_fervor_desc;This nation is amidst a large debate about the relationship between the state and church, igniting religious passions and sectarianism.;;;;;;;;;;;;;x
 minor_outrage_province;Provincial Malcontents;;;;;;;;;;;;;x
@@ -299,6 +299,8 @@ cordon_sanitaire_province;Cordon Sanitaire;;;;;;;;;;;;;x
 had_pandemic;Had Pandemic;;;;;;;;;;;;;x
 had_pandemic_desc;Ignore this modifier. It is simply here to halt provincial reinfection.;;;;;;;;;;;;;x
 ballsy;Temerarious;;;;;;;;;;;;;x
+vewugist_conversion;Vewugist Conversion;x
+vewugist_conversion_desc;This country has recently converted to Vewugism and is enjoying increased links with the developed world on account of this.;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
