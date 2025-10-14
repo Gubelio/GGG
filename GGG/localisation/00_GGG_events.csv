@@ -25,7 +25,7 @@ EVTDESC50007;Conscripts are being drafted left and right and the poor are being 
 EVT50007OPTA;These are just harmless exercises.;;;;;;;;;;;;;
 EVTNAME50008;A Theocratic Government;;;;;;;;;;;;;
 EVTDESC50008;Recent reforms in our state have dramatically elevated the significance and constitutional role of a number of religious authorities and bodies. This preponderant influence of the clergy and faith institutions in decision making, legislation, and judgment means our state most properly ought to be described as a 'theocracy' above anything else. Gradually, through the influence of the courts and religious police, much of the nominally “secular” government has become beholden to religious authorities, and has melded into one structure. Religious discourse dominates the public sphere, and there is at this point very few who would not publicly profess the state faith. ;;;;;;;;;;;;;
-EVT50008OPTA;Glory be, and all that, yes, yes.;;;;;;;;;;;;;
+EVT50008OPTA;All praise to the transcendent!;;;;;;;;;;;;;
 EVTNAME50009;The Rise of a Prince;;;;;;;;;;;;;
 EVTDESC50009;Recent reforms in our country have graduated centralized power around a single authoritarian personage of an aristocratic dynasty, suggesting that at this point it is probably appropriate to call our country a “princely despotate”, as per the common parlance. This creeping shift has occurred as the executive has gradually gained power by the slow removal of special ecclesiastical dominion, as well as centralized the bureaucracy in the hands of loyalist bourgeois officeholders. The effective decline of aristocratic power in active governance has weakened the parliament with the rise of the power of the prince. Local magnates and squires in the countryside are bewailing a decline in “natural liberties” and “the old constitution and our beloved commonwealth”, and clerics are warning of a “new secularism”, but it seems most subjects have quiescently accepted the augmented power of our monarch, who increasingly formalizes their power by the day, as the royal court grows more sure of itself.;;;;;;;;;;;;;
 EVT50009OPTA;Well, at least it will cut down on squabbling...;;;;;;;;;;;;;
@@ -729,10 +729,10 @@ EVTNAME50275;National Cordon Sanitaire Collapses!;;;;;;;;;;;;;x
 EVTDESC50275;x;;;;;;;;;;;;;x
 EVT50275OPTA;We have a more pressing use for the military now;;;;;;;;;;;;;x
 EVTNAME50276;$FROMCOUNTRY$ has converted to Vewugism!;;;;;;;;;;;;;x
-EVTDESC50276;x;;;;;;;;;;;;;x
+EVTDESC50276;We have received news, through the various Vewugist missionary societies, that the political and social elite of $FROMCOUNTRY$ have, undoubtedly under the guidance of pious Vewugist missionaries, converted to Vewugism! This is undoubtedly a wonderful day for the hosts of his majesty and might the holy Vewug, as it is his pleasure to see his hosts increasing, as our puny souls go someway to endow him with the power to secure us with ever greater favours and boons, and reign down misfortune on our enemies. Though they are quite primitive, those pagans in $FROMCOUNTRY$ are clearly on the path to civilization.;;;;;;;;;;;;;x
 EVT50276OPTA;These are wise beastmen.;;;;;;;;;;;;;x
 EVTNAME50277;The Zhakdi Request!;;;;;;;;;;;;;x
-EVTDESC50277;x;;;;;;;;;;;;;x
+EVTDESC50277;In the Shau Zhakd, the ‘new settlements’ of the western coast of Bafozh, for several decades a collection of Gashdzii settlers lived largely ungoverned by any state system. Unlike the Kushnag or Poponazh, the abundance of land and the relative placid nature of the Fauwozhi seems to have given rise to a remarkably communitarian and voluntarist political structure, if it can be called a political structure at all. Now, however, since we have established our dominion over these lands, the local Jazhakdi have been complaining of the arbitrary and wanton trampling of their ancient privileges. In any sense of the formal Gashdzii political and religious legal tradition, they are indeed nearly totally beyond it. However, a collection of them have submitted a request to formalise what they call the ‘Zhakdnag’ or the ‘setter/farmer concern/public matter.’ This decentralised intuition would be under our protection, and would guarantee us their goodwill.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
