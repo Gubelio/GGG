@@ -30,4 +30,6 @@ upper_house = { # inherit
 
 #flags
 
+oob = "PED_oob.txt"
+
 set_country_flag = vewugi_country
