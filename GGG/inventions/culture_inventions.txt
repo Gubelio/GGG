@@ -84,10 +84,10 @@ realist_literature = {
 			factor = 3
 			is_greater_power = no
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = -2
 			OR = {
@@ -393,7 +393,7 @@ jazz = {
 		shared_prestige = 25 
 	}
 }
-liberationist_realism = {
+socialist_realism = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {

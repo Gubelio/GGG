@@ -4,10 +4,10 @@ multitude_of_financial_instruments = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 		modifier = {
 			factor = 2
 			trade_policy = free_trade
@@ -178,10 +178,10 @@ private_bank_monitoring = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_order
+		#}
 	}
 	effect = {
 		tax_eff = 1 
@@ -192,10 +192,10 @@ market_behaviour_monitoring = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 1
 			ruling_party_ideology = liberationist
@@ -215,10 +215,10 @@ buying_on_margin = {
 			factor = 2
 			ruling_party_ideology = statist
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		factory_cost = -0.01
@@ -230,10 +230,10 @@ silver_standard = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 1
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 1
 			economic_policy = interventionism
@@ -248,10 +248,10 @@ decimal_monetary_system = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 1
 			economic_policy = interventionism
@@ -349,10 +349,10 @@ state_bond_monetary_mechanism = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 1
 			economic_policy = interventionism
@@ -465,10 +465,10 @@ john_elliot_cairnes = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 		modifier = {
 			factor = 1
 			trade_unions = all_trade_unions
@@ -501,10 +501,10 @@ john_stuart_mill = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 1
 			ruling_party_ideology = statist
@@ -520,10 +520,10 @@ pierre_joseph_proudhon = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 3
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 3
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = liberationist
@@ -542,10 +542,10 @@ karl_marx = {
 			factor = 3
 			ruling_party_ideology = free_yoker
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 1
 			economic_policy = planned_economy
@@ -590,10 +590,10 @@ eduard_bernstein = {
 			factor = 2
 			economic_policy = planned_economy
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_order
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -632,10 +632,10 @@ karl_kautsky = {
 			factor = 2
 			invention = friedrich_engels
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 2
 			economic_policy = state_capitalism
@@ -669,10 +669,10 @@ friedrich_list = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 1
 			economic_policy = state_capitalism
@@ -691,10 +691,10 @@ wilhelm_roscher = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_order
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -723,10 +723,10 @@ karl_knies = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = conservative
@@ -763,10 +763,10 @@ adolph_wagner = {
 			factor = 2
 			average_consciousness = 2
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -781,10 +781,10 @@ william_cunningham = {
 			factor = 2
 			is_greater_power = yes
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -818,10 +818,10 @@ léon_walras = {
 			factor = 2
 			economic_policy = planned_economy
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_equality
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -836,10 +836,10 @@ stanley_jevons = {
 			factor = 2
 			economic_policy = interventionism
 		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 1
+		#	nationalvalue = nv_order
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -854,10 +854,10 @@ carl_menger = {
 			factor = 3
 			economic_policy = laissez_faire
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -890,10 +890,10 @@ alfred_marshall = {
 			factor = 3
 			economic_policy = laissez_faire
 		}
-		modifier = {	
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {	
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -908,10 +908,10 @@ augustin_cournot = {
 			factor = 3
 			average_consciousness = 3
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -962,10 +962,10 @@ knut_wicksell = {
 			factor = 2
 			economic_policy = laissez_faire
 		}
-		modifier = {
-			factor = 3
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 3
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1122,10 +1122,10 @@ polypoly_structure = {
 			factor = 2
 			ruling_party_ideology = statist
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_liberty
+		#}
 	}
 	effect = {
 		factory_input = -0.02
@@ -1144,10 +1144,10 @@ oligopoly_structure = {
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = conservative
@@ -1170,10 +1170,10 @@ monopoly_structure = {
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 		modifier = {
 			factor = 2
 			economic_policy = state_capitalism
@@ -1225,10 +1225,10 @@ patent = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_order
+		#}
 		modifier = {
 			factor = 2
 			is_greater_power = yes
@@ -1278,10 +1278,10 @@ anti_trust_laws = {
 			factor = 2
 			ruling_party_ideology = liberationist
 		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
+		#modifier = {
+		#	factor = 2
+		#	nationalvalue = nv_equality
+		#}
 	}
 	effect = {
 		tax_eff = 1 
