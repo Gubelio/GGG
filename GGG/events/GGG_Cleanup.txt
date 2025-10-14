@@ -634,6 +634,7 @@ country_event = {
 
 	allow_multiple_instances = no
 	fire_only_once = yes
+
 	
 	trigger = {
 		NOT = {
@@ -677,6 +678,7 @@ country_event = {
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
 
+	is_triggered_only = yes
 
     trigger = {
         ai = yes
