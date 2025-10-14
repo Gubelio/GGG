@@ -917,7 +917,7 @@ province_event = {
 		}
 		
 		ai_chance = {
-			factor = 1
+			factor = 100
 		
 		}
 	}

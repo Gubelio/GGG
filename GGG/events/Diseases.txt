@@ -3446,7 +3446,7 @@ country_event = { #pot belly pox
 		}
 		
 		ai_chance = {
-			factor = 1
+			factor = 100
 		}
 	
 	}
@@ -3690,7 +3690,7 @@ country_event = { #Blinding Cough
 		}
 		
 		ai_chance = {
-			factor = 1
+			factor = 100
 		}
 	
 	}
@@ -3940,7 +3940,7 @@ country_event = { #Cudfeeder's Flu
 		}
 		
 		ai_chance = {
-			factor = 1
+			factor = 100
 		}
 	
 	}
