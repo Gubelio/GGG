@@ -901,7 +901,7 @@ assimilation_chance =
 		country = {
 			NOT = {
 				OR = {
-					is_culture_group = stouian
+					is_culture_group = chrawyayian
 					is_culture_group = bemuven
 					is_culture_group = tikongian
 				}
