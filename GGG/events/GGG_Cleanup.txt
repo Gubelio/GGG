@@ -614,3 +614,135 @@ country_event = {
 		
     }
 }
+
+
+country_event = {
+    id = 50281
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+	allow_multiple_instances = no
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			has_global_flag = crisis_enabled
+		}
+		OR = {
+			any_neighbor_country = {
+				nationalism_n_imperialism = 1
+			
+			}
+			
+			any_greater_power = {
+				nationalism_n_imperialism = 1
+			
+			}
+			year = 1350
+		}
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	
+	}
+	
+	option = {
+		name = "ai"
+		
+		set_global_flag = crisis_enabled
+	
+	
+	}
+	
+	
+}
+
+country_event = {
+    id = 50280
+    title = "EVTNAME33337"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        
+        OR = {
+			any_owned_province = {
+                    state_scope = { flashpoint_tension = 10 }
+                    owner = {
+                        OR = {
+                            NOT = { has_global_flag = crisis_enabled }
+                            is_vassal = yes
+                        }
+                    }
+                }
+            any_owned_province = {
+                any_neighbor_province = {
+                    empty = yes
+                    state_scope = { flashpoint_tension = 10 }
+                }
+                owner = { NOT = { has_global_flag = crisis_enabled } }
+            }
+            any_greater_power = {
+                ai = no
+                NOT = { has_global_flag = crisis_enabled }
+                any_owned_province = {
+                    state_scope = { flashpoint_tension = 10 }
+                }
+            }
+            any_neighbor_country = {
+                ai = no
+                NOT = { has_global_flag = crisis_enabled }
+                any_owned_province = {
+                    state_scope = { flashpoint_tension = 10 }
+                }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+         any_country = {
+                limit = {
+                    OR = {
+                        NOT = { has_global_flag = crisis_enabled }
+                        is_vassal = yes
+                    }
+                }
+                any_state  = { flashpoint_tension = -100 }
+            }
+            any_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            NOT = { has_global_flag = crisis_enabled }
+                            is_vassal = yes
+                        }
+                    }
+                }
+                owner = {
+                    any_state  = { flashpoint_tension = -100 }
+                }
+            }
+            any_owned = {
+                limit = { owner = { NOT = { has_global_flag = crisis_enabled } } }
+                any_neighbor_province = {
+                    limit = {
+                        empty = yes
+                        state_scope = { flashpoint_tension = 10 }
+                    }
+                    state_scope = { flashpoint_tension = -100 }
+                }
+            }
+    }
+}
