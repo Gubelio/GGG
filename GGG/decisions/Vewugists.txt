@@ -159,6 +159,30 @@ political_decisions = {
 					factor = 3
 				}
 			}
+			
+			if = {
+				limit = {
+					THIS = {
+						ai = no
+					}
+				}
+				any_country = {
+					limit = {
+						has_country_flag = vewugi_country
+						NOT = {
+							any_owned_province = {
+								owned_by = THIS
+							
+							}
+						
+						}
+					}
+					country_event = {
+						id = 50276
+						days = 30 
+					}
+				}
+			}
         }
     }
 
