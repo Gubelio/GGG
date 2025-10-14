@@ -441,7 +441,7 @@ pot_belly_pox = {
     icon = 25
 }
 
-cudfeeder_flu = {
+cudfeeders_flu = {
 	life_rating = -0.35
 	immigrant_push = 0.75
 	local_RGO_output = -0.5
