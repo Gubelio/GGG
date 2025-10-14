@@ -720,14 +720,14 @@ EVT50271DESC;The Rannu empire is a large and old Tehuhrite empire which dominate
 EVTNAME50272;White Flux Arrives!;;;;;;;;;;;;;x
 EVTDESC50272;x;;;;;;;;;;;;;x
 EVTNAME50273;Quarantine of $CAPITAL$ Has Failed!;;;;;;;;;;;;;x
-EVTDESC50273;x;;;;;;;;;;;;;x
+EVTDESC50273;Despite all our best efforts, the cordon sanitaire of our capital has failed! The ghastly pandemic now stalks the streets of $CAPITAL$, and the soldiers deployed to enforce the quarantines are themselves ill with the accursed gripe! There is no point now in sinking such resources into the maintenance of the quarantine system.;;;;;;;;;;;;;x
 EVT50273OPTA;Hard times are ahead...;;;;;;;;;;;;;x
 EVTNAME50274;Quarantine of $CAPITAL$ Collapses!;;;;;;;;;;;;;x
-EVTDESC50274;x;;;;;;;;;;;;;x
-EVT50274OPTA;We have a more pressing use for the military now;;;;;;;;;;;;;x
+EVTDESC50274;With the outbreak of military conflict, it has become, for all intents and purposes, untenable to maintain our cordon sanitaire implemented in our capital to protect against the alarming spread of the global pandemic. We can no longer sanction the diversion of military resources to maintenance of district checks at the capital, and furthermore, it is expected that the cycling of units back and forth from the frontline for recuperation and medication, as well as for supply and resupply, if the war persists, will make cordon saintaire superfluous. Doubtless, too, the possible arrival of foreign soldiers, refugees, and other incidents of war means altogether we must brave the possibility of disease as well as occupation!;;;;;;;;;;;;;x
+EVT50274OPTA;We have a more pressing use for the military now.;;;;;;;;;;;;;x
 EVTNAME50275;National Cordon Sanitaire Collapses!;;;;;;;;;;;;;x
-EVTDESC50275;x;;;;;;;;;;;;;x
-EVT50275OPTA;We have a more pressing use for the military now;;;;;;;;;;;;;x
+EVTDESC50275;With the outbreak of military conflict, it has become, for all intents and purposes, untenable to maintain our national cordon sanitaire implemented to protect against the alarming spread of the global pandemic. We can no longer sanction the diversion of military resources to maintenance of border checks, and furthermore, it is expected that the cycling of units back and forth from the frontline for recuperation and medication, as well as for supply and resupply, if the war persists, will make cordon saintaire superfluous. Doubtless, too, the possible arrival of foreign soldiers, refugees, and other incidents of war means altogether we must brave the possibility of disease as well as occupation!;;;;;;;;;;;;;x
+EVT50275OPTA;We have a more pressing use for the military now.;;;;;;;;;;;;;x
 EVTNAME50276;$FROMCOUNTRY$ has converted to Vewugism!;;;;;;;;;;;;;x
 EVTDESC50276;We have received news, through the various Vewugist missionary societies, that the political and social elite of $FROMCOUNTRY$ have, undoubtedly under the guidance of the very same pious Vewugist missionaries, converted to Vewugism! This is unmistakably a wonderful day for the hosts of his majesty and might the holy Vewug, as it is his pleasure to see his faithful increasing, for our puny souls go someway to endow him with the power to secure us with ever greater favours and boons, and reign down misfortune on our enemies. Though they are quite primitive, these pagans in $FROMCOUNTRY$ are clearly on the path to civilization.;;;;;;;;;;;;;x
 EVT50276OPTA;These are wise beastmen.;;;;;;;;;;;;;x
