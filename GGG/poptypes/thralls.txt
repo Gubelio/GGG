@@ -2,7 +2,7 @@ sprite = 14
 color = { 191 115 67 }
 strata = poor
 allowed_to_vote = no
-unemployment = yes
+unemployment = no
 
 rebel = {
     cavalry = 0.0
@@ -24,14 +24,7 @@ luxury_needs = {
     grain = 1
 }
 
-country_migration_target = {
-    factor = 1
 
-    modifier = {
-        factor = -100 #0
-		NOT = { thralldom = thralldom_allowed }
-    }
-}
 
 ideologies = {
     statist = {

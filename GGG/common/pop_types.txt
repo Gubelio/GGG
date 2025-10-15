@@ -374,7 +374,7 @@ migration_chance = {
 		
 	}
 	modifier = {
-		factor = -1000
+		factor = -10000
 		OR = {
 			type = serfs
 			type = thralls
@@ -464,7 +464,7 @@ colonialmigration_chance =
 		
 	}
 	modifier = {
-		factor = -1000
+		factor = -10000
 		OR = {
 			type = serfs
 			type = thralls
@@ -600,7 +600,7 @@ emigration_chance =
 		country = { emigration_law = emigration_forbidden }
 	}
 	modifier = {
-		factor = -1000
+		factor = -10000
 		OR = {
 			type = serfs
 			type = thralls
