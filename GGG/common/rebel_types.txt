@@ -253,6 +253,8 @@ reactionary_rebels = {
         ruling_party_ideology = reactionary
 		clr_country_flag = locked_fed
 		clr_country_flag = locked_cent
+		clr_country_flag = federalised
+		clr_country_flag = centralised
 
         political_reform = feudal_tenure
         political_reform = aristocratic_bureaucracy
@@ -832,11 +834,13 @@ free_yoker_rebels = {
     demands_enforced_effect = {
 		clr_country_flag = locked_fed
 		clr_country_flag = locked_cent
+		clr_country_flag = centralised
 
         ruling_party_ideology = free_yoker
 
         political_reform = thralldom_allowed
         political_reform = tribal_assembly_i
+		political_reform = tribal_assembly
         political_reform = no_school_system
 
         social_reform = good_minimum_wage
@@ -1160,6 +1164,7 @@ absolutist_rebels = {
     demands_enforced_effect = {
 		clr_country_flag = locked_fed
 		clr_country_flag = locked_cent
+		clr_country_flag = federalised
 
 
         ruling_party_ideology = absolutist
@@ -1169,6 +1174,7 @@ absolutist_rebels = {
         political_reform = thralldom_outlawed
         political_reform = professional_bureaucracy
         political_reform = appointed_legislatures
+		political_reform = centralised
         political_reform = collectivized_farming
 
         social_reform = no_minimum_wage
