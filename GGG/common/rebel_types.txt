@@ -266,7 +266,7 @@ reactionary_rebels = {
 			}
 			44 = {
 				political_reform = noble_parliament_i
-				political_reform = federalised
+				political_reform = tribal_assembly
 				governement = princely_despotate
 			}
 			6 = {
@@ -276,7 +276,7 @@ reactionary_rebels = {
 			}
 			6 = {
 				political_reform = noble_parliament_i
-				political_reform = federalised
+				political_reform = tribal_assembly
 				governement = theocracy
 			}
 		}
