@@ -5633,7 +5633,7 @@ issues =
         modifier = {
             factor = 0
             OR = {
-                NOT = { country = { has_country_flag = medicine_invented } }
+                NOT = { country = { invention = aerial_bacteria_and_antiseptic_principle } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = trinket_health_care }
                 country = { civilized = no }
@@ -5699,7 +5699,7 @@ issues =
             factor = 0
             OR = {
                 luxury_needs = 1.0
-                NOT = { country = { has_country_flag = germs_invented } }
+                NOT = { country = { invention = germ_theory } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = low_health_care }
                 country = { civilized = no }
@@ -5764,7 +5764,7 @@ issues =
             factor = 0
             OR = {
                 luxury_needs = 1.0
-                NOT = { country = { has_country_flag = gaslights_invented } }
+                NOT = { country = { invention = gaslights } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = acceptable_health_care }
                 country = { civilized = no }
@@ -5831,7 +5831,7 @@ issues =
             OR = {
                 luxury_needs = 1.0
                 NOT = { consciousness = 7 }
-                NOT = { country = { has_country_flag = electricity_invented } }
+                NOT = { country = { invention = x_rays } }
                 NOT = { is_next_reform = good_health_care }
                 country = { civilized = no }
             }
@@ -6596,7 +6596,7 @@ bankruptcy = {
             luxury_needs =  1.0
             NOT = { consciousness = 8 }
             NOT = { everyday_needs = 0.4 }
-            NOT = { country = { has_country_flag = central_bank_instituted } }
+            #NOT = { country = { has_country_flag = central_bank_instituted } }
             state_scope = { is_colonial = yes }
             NOT = { is_ideology_enabled = statist }
             NOT = { literacy = 0.7 }
