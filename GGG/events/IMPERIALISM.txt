@@ -1266,7 +1266,7 @@ country_event = {
             year = 1325
         }
         modifier = {
-            factor = 0.9
+            factor = 0.8
             owns = 926
         }
         modifier = {
@@ -1356,7 +1356,10 @@ country_event = {
 		}
 		OR = {
 			REG_190 = { owned_by = THIS }
-			REG_185 = { owned_by = THIS }
+			932 = { owned_by = THIS }
+			928 = { owned_by = THIS }
+			927 = { owned_by = THIS }
+			929 = { owned_by = THIS }
 			933 = { owned_by = THIS }
 			934 = { owned_by = THIS }
 			935 = { owned_by = THIS }
