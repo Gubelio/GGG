@@ -25,6 +25,19 @@ luxury_needs = {
 }
 
 
+country_migration_target = {
+    factor = -8.0
+
+	
+
+}
+
+migration_target = {
+    factor = -8.0
+	
+	
+}
+
 
 ideologies = {
     statist = {
