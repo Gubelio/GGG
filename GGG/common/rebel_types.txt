@@ -24,8 +24,8 @@ reactionary_rebels = {
         	sublime_synod = princely_despotate
         	statist_bureaucracy = princely_despotate
         	theocracy = princely_despotate
-        	aristocratic_commonwealth = theocracy
-        	princely_despotate = theocracy
+        	aristocratic_commonwealth = aristocratic_commonwealth
+        	princely_despotate = princely_despotate
 	}
 	
 	
@@ -257,11 +257,25 @@ reactionary_rebels = {
         political_reform = feudal_tenure
         political_reform = aristocratic_bureaucracy
         random_list = {
-			50 = {
+			44 = {
 				political_reform = noble_parliament
+				political_reform = centralised
+				governement = aristocratic_commonwealth
 			}
-			50 = {
+			44 = {
 				political_reform = noble_parliament_i
+				political_reform = federalised
+				governement = princely_despotate
+			}
+			6 = {
+				political_reform = noble_parliament
+				political_reform = centralised
+				governement = theocracy
+			}
+			6 = {
+				political_reform = noble_parliament_i
+				political_reform = federalised
+				governement = theocracy
 			}
 		}
         political_reform = primary_culture_only
