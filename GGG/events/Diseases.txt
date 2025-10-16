@@ -53,7 +53,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50195OPTA" 
+		name = "How terrible! ... and, stand further back, minister." 
 		set_global_flag = white_flux_pandemic
 		set_global_flag = white_flux_pandemic_happened
 
@@ -128,7 +128,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50195OPTA" 
+		name = "Revolting and Terrible." 
 		set_global_flag = red_flux_pandemic
 		set_global_flag = red_flux_pandemic_happened
 
@@ -202,7 +202,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT50195OPTA" 
+		name = "Ghastly, simply ghastly!" 
 		set_global_flag = wasting_sickness_pandemic
 		set_global_flag = wasting_sickness_pandemic_happened
 
