@@ -149,6 +149,10 @@ country_event = {
 			war_with = VUG
 			war_with = ATH
 		}
+		SOG = {
+			war = no
+		
+		}
 	
 	}
 	
