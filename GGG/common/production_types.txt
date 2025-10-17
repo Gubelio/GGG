@@ -572,8 +572,9 @@ dye_factory = {
         value = 0.25
     }
 }
+
 jelly_factory = {
-    template = factory_template #used to be cheap_factory_template
+    template = factory_template
     input_goods = {
         oil = 1           
     }
