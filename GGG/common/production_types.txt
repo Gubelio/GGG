@@ -413,6 +413,7 @@ clipper_shipyard = {
         fabric = 100        #180
         lumber = 100        #100
         steel = 30        #141        total input+maint = 430.825
+		mollusc_oil = 2
     }
     output_goods = clipper_convoy
     is_coastal = yes
@@ -516,9 +517,10 @@ ammunition_factory = {
     input_goods = {
         sulphur = 2        #12
         steel = 3            #14.1    total input+maint = 30.1
+		mollusc_oil = 0.5
     }
     output_goods = ammunition
-    value = 2.5            #45 - profit = 14.9
+    value = 3            #45 - profit = 14.9
     bonus = {
         trigger = { trade_goods_in_state = sulphur }
         value = 0.1
@@ -567,6 +569,18 @@ dye_factory = {
     value = 3.4            #40.8 - profit = 10.1
     bonus = {
         trigger = { trade_goods_in_state = coal }
+        value = 0.25
+    }
+}
+jelly_factory = {
+    template = factory_template #used to be cheap_factory_template
+    input_goods = {
+        oil = 1           
+    }
+    output_goods = mollusc_oil
+    value = 2            
+    bonus = {
+        trigger = { trade_goods_in_state = oil }
         value = 0.25
     }
 }
@@ -805,6 +819,13 @@ coffee_plantation = {
     template = RGO_template_farmers
     output_goods = coffee
     value = 1.5    #1.5
+    farm = yes
+}
+
+mollusc_whaling_operation = {
+    template = RGO_template_farmers
+    output_goods = mollusc_oil
+    value = 3    #1.5
     farm = yes
 }
 
@@ -1196,6 +1217,7 @@ artisan_clipper = {
         fabric = 100            #180
         lumber = 100        #100
         steel = 30                #141        total input = 421
+		mollusc_oil = 2
     }
     output_goods = clipper_convoy
     is_coastal = yes
@@ -1306,9 +1328,10 @@ artisan_ammunition = {
     input_goods = {
         sulphur = 2        #12
         steel = 3            #14.1    total input = 26.1
+		mollusc_oil = 0.5
     }
     output_goods = ammunition
-    value = 2.3            #41.4 - profit = 15.3
+    value = 3            #41.4 - profit = 15.3
 
     owner = {
         poptype = artisans

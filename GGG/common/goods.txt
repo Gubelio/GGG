@@ -80,6 +80,10 @@ raw_material_goods = {
         cost = 12.0
         color = { 0 0 0 }
     }
+	mollusc_oil = {
+        cost = 7
+        color = { 20 12 4 }
+    }
     precious_metal = {
         cost = 8
         tradeable = no

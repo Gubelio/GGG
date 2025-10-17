@@ -1179,6 +1179,23 @@ synthetic_dye = {
 		activate_building = dye_factory 
 	}
 }
+synthetic_lubricants = {
+	limit = { organic_chemistry = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			clean_coal = 1
+		}
+		modifier = {
+			factor = 2
+			management_strategy = 1
+		}
+	}
+	effect = {
+		activate_building = jelly_factory
+	}
+}
 gaslights = {
 	limit = { organic_chemistry = 1 }
 	chance = {

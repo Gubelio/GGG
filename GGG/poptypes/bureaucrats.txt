@@ -56,6 +56,7 @@ everyday_needs = {
     telephones = 0.5    #8
     cement = 0.5        #8
     steel = 0.5            #4.7
+	mollusc_oil = 0.1
 }
 
 #Total cash needed: 461.7 - Vanilla value: 383.4
