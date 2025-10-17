@@ -507,5 +507,10 @@ had_pandemic = { #invisible
 	icon = 27
 }
 
-
+chazd_molluscing = {
+    icon = 17
+    local_RGO_throughput = 0.2
+    local_RGO_output = 0.2
+	icon = 11
+}
 

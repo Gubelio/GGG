@@ -789,6 +789,15 @@ country_event = {
 	option = {
 		name = "ai"
 		
+		322 = {
+			add_province_modifier = {
+				name = chazd_molluscing
+				duration = -1
+			
+			}
+		
+		}
+		
 		set_global_flag = setup_complete
 	
 		any_country = {
