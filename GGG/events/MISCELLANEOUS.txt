@@ -485,6 +485,30 @@ country_event = {
 			factor = 1.5
 			poor_strata_life_needs = 0.95
 		}
+		
+		modifier = {
+            factor = 0.1
+            invention = the_doctrine_of_fascism
+        }
+
+        modifier = {
+            factor = 0.1
+            is_disarmed = yes
+        }
+
+        modifier = {
+            factor = 0.2
+            invention = paramilitary_groups
+        }
+
+        modifier = {
+            factor = 0.9
+            war_exhaustion = 4
+        }
+        modifier = {
+            factor = 0.9
+            average_consciousness = 4
+        }
 	}
 
 	option = {
@@ -521,10 +545,14 @@ country_event = {
 	mean_time_to_happen =  {
 		months = 300
 		
-		modifier = {
-			factor = 0.9
-			average_consciousness = 4
-		}
+		 modifier = {
+            factor = 0.5
+            invention = dogma_of_mass_action
+        }
+        modifier = {
+            factor = 0.8
+            invention = vangaurd_party
+        }
 		modifier = {
 			factor = 1.2
 			NOT = {

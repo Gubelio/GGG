@@ -165,7 +165,9 @@ country_event = {
 		has_country_flag = smallholder_society
 		NOT = {
 			has_country_modifier = smallholder_society_1
+			has_country_modifier = smallholder_society_2
 		}
+		
 	}
 	
 	mean_time_to_happen = {

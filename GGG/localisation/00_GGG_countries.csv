@@ -548,13 +548,13 @@ D39;$REGION$ Territories;;;;;;;;;;;;;x
 D39_ADJ;$REGION$ite;;;;;;;;;;;;;x
 D45;Free Commonwealth;;;;;;;;;;;;;x
 D45_ADJ;Commonwealther;;;;;;;;;;;;;x
-D41;Freemans' Republic;;;;;;;;;;;;;x
-D41_ADJ;Republican;;;;;;;;;;;;;;x
+D41;Freemans' Commonwealth;;;;;;;;;;;;;x
+D41_ADJ;Commonwealthan;;;;;;;;;;;;;;x
 D42;Freemans' State;;;;;;;;;;;;;x
 D42_ADJ;Freedman;;;;;;;;;;;;;x
 D43;Freestate;;;;;;;;;;;;;x
 D43_ADJ;Freestater;;;;;;;;;;;;;x
-D40;Republic of Goodhope;;;;;;;;;;;;;x
+D40;Commonwealth of Goodhope;;;;;;;;;;;;;x
 D40_ADJ;Goodhoper;;;;;;;;;;;;;x
 D44;The Free Cities;;;;;;;;;;;;;x
 D44_ADJ;Freistadter;;;;;;;;;;;;;x
@@ -562,8 +562,8 @@ D46;Commonwealth of Man;;;;;;;;;;;;;x
 D46_ADJ;Commonwealther;;;;;;;;;;;;;x
 D47;The Liberated Territories;;;;;;;;;;;;;x
 D47_ADJ;Territorial;;;;;;;;;;;;;x
-D48;The Sublime Republic;;;;;;;;;;;;;x
-D48_ADJ;Republican;;;;;;;;;;;;;x
+D48;The Sublime Commonwealth;;;;;;;;;;;;;x
+D48_ADJ;Commonwealthan;;;;;;;;;;;;;x
 D49;The Freedman's Bund;;;;;;;;;;;;;x
 D49_ADJ;Bunder;;;;;;;;;;;;;x
 #D40;$REGION$ Protectorate;;;;;;;;;;;;;x
@@ -607,27 +607,27 @@ CHB_ADJ;Chiibnazhi;;;;;;;;;;;;;
 THN;Theanâg;;;;;;;;;;;;;x
 THN_ADJ;Theanâgi;;;;;;;;;;;;;x
 PAU;Paukzhodo;;;;;;;;;;;;;x
-PAU_adj;Paukzhodan;;;;;;;;;;;;;x
+PAU_ADJ;Paukzhodan;;;;;;;;;;;;;x
 TTT;Colonial Paukzhodo;;;;;;;;;;;;;x
-TTT_adj;Troglodytican;;;;;;;;;;;;;x
+TTT_ADJ;Troglodytican;;;;;;;;;;;;;x
 WBC;West Bafozh;;;;;;;;;;;;;x
-WBC_adj;West Bafozhi;;;;;;;;;;;;;x
+WBC_ADJ;West Bafozhi;;;;;;;;;;;;;x
 SBC;South Bafozh;;;;;;;;;;;;;x
-SBC_adj;South Bafozhi;;;;;;;;;;;;;x
+SBC_ADJ;South Bafozhi;;;;;;;;;;;;;x
 EBC;East Bafozh;;;;;;;;;;;;;x
-EBC_adj;East Bafozhi;;;;;;;;;;;;;x
+EBC_ADJ;East Bafozhi;;;;;;;;;;;;;x
 CBC;Central Bafozh;;;;;;;;;;;;;x
-CBC_adj;Central Bafozhi;;;;;;;;;;;;;x
+CBC_ADJ;Central Bafozhi;;;;;;;;;;;;;x
 SLC;Sarengiland;;;;;;;;;;;;;x
-SLC_adj;Sarengilander;;;;;;;;;;;;;x
+SLC_ADJ;Sarengilander;;;;;;;;;;;;;x
 CSC;Colonial Shobgizob;;;;;;;;;;;;;x
-CSC_adj;Shobgizobi;;;;;;;;;;;;;x
+CSC_ADJ;Shobgizobi;;;;;;;;;;;;;x
 JTC;Juruntine Territories;;;;;;;;;;;;;x
-JTC_adj;Juruntine;;;;;;;;;;;;;x
+JTC_ADJ;Juruntine;;;;;;;;;;;;;x
 IIC;Colonial Ishnesia;;;;;;;;;;;;;x
-IIC_adj;Ishnesian;;;;;;;;;;;;;x
+IIC_ADJ;Ishnesian;;;;;;;;;;;;;x
 TGC;Gofakidzia;;;;;;;;;;;;;x
-TGC_adj;Gofakidzian;;;;;;;;;;;;;x
+TGC_ADJ;Gofakidzian;;;;;;;;;;;;;x
 WSW;Wushauwland;;;;;;;;;;;;;x
 WSW_ADJ;Wushavian;;;;;;;;;;;;;x
 WSW_paternalistic_council;Wushauw Free State;;;;;;;;;;;;;x
