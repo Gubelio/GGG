@@ -332,7 +332,7 @@ sitheve = {
     }
 
     sithuchi = {
-	  color = { 162 207 158 }
+	  color = { 214 206 159 }
 			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
                             Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
 							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
@@ -378,7 +378,7 @@ sitheve_not_formable = { #sithev e
     }
 
     chyothit = {
-	  color = { 162 70 158 }
+	  color = { 191 174 133 }
 			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
                             Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
 						    Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
@@ -638,7 +638,7 @@ tikongian = {
     unit = MiddleEasternGC
 
 	tingi = { 
-	  color = { 38 5 99 }
+	  color = { 224 131 137 }
 			first_names = { Ksote Fetu Gungo Kigu Kato Gingi Qokh Meot Qejif Ote Mita Ageng Qojo Ksiteo 
 							Nifu Gereng Firejas Keja Negi Qimeos Imuf Omeonut Qujeos Mingit Gingingeon Kena 
 							Ganut Qeokef }
@@ -721,7 +721,7 @@ bemuven = {
     }
 
 	soxuppapi = { 
-		color = { 237 216 28 }
+		color = { 179 41 121 }
 			first_names = { Xeso Xiomuraes Vioxuxo Vixi Veppaer Xime Xusof Ximi Vaesior Riami Tubis Raeiaf Mouvio Borae  
 							Xiobia Takae Mune Nesiappin Raeka Xiosiob Vouwe Vaekiob Vemae Isio Bevatk Vouvechk Besi Vita 
 							Xouxom Riowe Biamexio Matus Baexi Tita Xawio Mixouchk Vaemup Sixaetk Bokio Niation Voro Nobiomaen }
@@ -768,7 +768,7 @@ buksedian = { #momurist cobaloids
     }
 
     dexun = {
-		color = { 182 219 33 }
+		color = { 219 117 33 }
 			first_names = { Oweo Deko Oko Susod Bewad Oosab Gixa Duma Dexun Hedad Qedab Soneb Hoxu Hodwe Dodwe 
 							Goko Ikedh Dexud Bone Dokwo Sime Gidheb Mehawi Hudad Bomun Mudwu Bekwid Qumu Sidwedh 
 							Garob Qihub }
@@ -856,7 +856,7 @@ nhendian = {
 	
 
 	chobajhi = { 
-	  color = { 250 105 243 }
+	  color = { 222 190 22 }
 			first_names = { Huinghau Bhaugur Chumha Chagauh Nhabau Ghakhhe Ghuibhaur Chaubhauh Bhukhoh Bachaur Ghaunghe 
 							Ghaubhu Boniboiu Mhaunghond Mhenuind Chuibha Ungho Mhabir Chaunir Ghikhuig Ghabhe Nhoiuspkh 
 							Mhubhu Bamhuh Indhau Bhukhu Bhuiboiund Oiuvher Mhospkh Raubhar Bhokhui Ukhur Raukhi Nhebhakh 
@@ -1026,7 +1026,7 @@ preirish = {
     }
 
     bogurg = { 
-	  color = { 56 173 220 }
+	  color = { 53 191 159 }
 			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
 							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
 							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
@@ -1040,7 +1040,7 @@ preirish = {
     }
 
     gengugemeg = { 
-	  color = { 234 22 32 }
+	  color = { 53 160 191 }
 			first_names = { Emoun Treru Chyebi Chyisoq Trous Rojoq Trebou Besei Pebe Bursin Kussong Proboursorg Trer Sujiq Chyero 
 							Prourg Eimig Troureg Pouros Imoun Fonojo Req Goujojun Siso Chyome Dumu Eimourg Torsoung Fibos Stos  
 							Proreiq Chyoumou Goug Peisei Poror Preir Gosurg Pomung Touno Preimeng Soujon Kio Obou Beiq Ousi Fobi }
@@ -1086,7 +1086,7 @@ stouian = {
     }
 
     piok = { 
-	  color = { 43 11 16 }
+	  color = { 128 23 52 }
 			first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
 							Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
 							Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
@@ -1098,7 +1098,7 @@ stouian = {
     }
 
     gior = { 
-	  color = { 234 212 21 }
+	  color = { 158 22 138 }
 			first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
 							Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
 							Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou
@@ -1110,7 +1110,7 @@ stouian = {
     }
 
     poussan = { 
-	  color = { 84 233 11 }
+	  color = { 164 134 176 }
 			first_names = { Touks-Thiaror Posik-Nogor Tero-Gossaiok Papi-Nefe Paioke-Storoustri Thika-Raiosse Afa-Staga Tiako-Pouka
 							Tunir-Stopa Piapa-Iat Gokia-Iokia Tastrio-Puna Raioso-Reso Stage-Paiotuks Stougos-Stekoks Tugor-Koupok 
 							Nior-Thastriot Potu-Thuga Thotiosen-Stestre Thakaio-Rafit Stustragun-Gana Touso-Pai Thian-Pugi Tiok-Goforou

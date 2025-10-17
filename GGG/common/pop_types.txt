@@ -373,13 +373,13 @@ migration_chance = {
 		}	
 		
 	}
-	modifier = {
-		factor = -8.0
-		OR = {
-			type = serfs
-			type = thralls
-		}
-	}
+	#modifier = {
+	#	factor = -8.0
+	#	OR = {
+	#		type = serfs
+	#		type = thralls
+	#	}
+	#}
 }
 
 #general colonial migration mtth, same for all pops
@@ -430,16 +430,14 @@ colonialmigration_chance =
 		}
 	}
 
-	#modifier = {
-	#	factor = 0.5
-	#	location = {
-	#		owner = {
-	#			any_owned_province = {
-	#				has_province_modifier = settler_colonialism
-	#			}
-	#		}
-	#	}
-	#}
+	modifier = {
+		factor = 0.5
+		location = {
+			owner = {
+				colonial_policy = settlement
+			}
+		}
+	}
 
 	modifier = {
 		factor = -0.3
@@ -463,13 +461,10 @@ colonialmigration_chance =
 		}
 		
 	}
-	modifier = {
-		factor = -8.0
-		OR = {
-			type = serfs
-			type = thralls
-		}
-	}
+	#modifier = {
+	#	factor = -8.0
+	#	type = serfs
+	#}
 }
 
 #general emigration chance
@@ -599,13 +594,13 @@ emigration_chance =
 		factor = -8.0
 		country = { emigration_law = emigration_forbidden }
 	}
-	modifier = {
-		factor = -8.0
-		OR = {
-			type = serfs
-			type = thralls
-		}
-	}
+	#modifier = {
+	#	factor = -8.0
+	#	OR = {
+	#		type = serfs
+	#		type = thralls
+	#	}
+	#}
 	
 }
 
