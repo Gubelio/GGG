@@ -259,6 +259,7 @@ country_event = {
 	id = 50247
 	title = "EVTNAME50247" 
 	desc = "EVTDESC50247"
+	picture = "red_flux"
 	
 	trigger = {
 		any_owned_province = {

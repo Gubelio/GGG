@@ -139,7 +139,8 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Absolutist"			
+		name = "Absolutist"
+		ruling_party_ideology = absolutist		
 		upper_house = {
 			ideology = absolutist
 			value = 5
@@ -147,7 +148,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "Free-Yoker"			
+		name = "Free-Yoker"
+		ruling_party_ideology = free_yoker		
 		upper_house = {
 			ideology = free_yoker
 			value = 5
@@ -163,6 +165,22 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 45454
+	title = "ally all"
+	desc = "ally all"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Absolutist"
+		any_country = {
+			#limit = {}
+			create_alliance = THIS
+		}
+	}
+}
+
 #country_event = {
 #	id = 98765
 #	title = "own all uncolonized land"
@@ -172,10 +190,10 @@ country_event = {
 #
 #	option = {
 #		name = "THANKS BUDDY"			
-#		upper_house = {
-#			ideology = absolutist
-#			value = 5
-#		}
+#		
+#	
+#	
+#		
 #	}
 #}
 
