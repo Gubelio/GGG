@@ -332,7 +332,7 @@ sitheve = {
     }
 
     sithuchi = {
-	  color = { 214 206 159 }
+	  color = { 249 255 159 }
 			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
                             Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
 							Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
@@ -378,7 +378,7 @@ sitheve_not_formable = { #sithev e
     }
 
     chyothit = {
-	  color = { 191 174 133 }
+	  color = { 220 240 113 }
 			first_names = { Biso Vab Guu Wiwu Fithaoog Chyooha Toosob Bochyet Sesooga Fuwumug Masogu Thirim Chyichy Oovure 
                             Tichyoth Vuthohi Ruvib Ruchy Soora Soot Tusag Bov Gogoo Mibi Tege Thosúb Vugo Chyosu
 						    Bum Tub Yot Hig Rab Heg Wiú Voso Sevo Turoo Som Suvov Buro Yuthi Soofúb Vúseth Yúfub }
