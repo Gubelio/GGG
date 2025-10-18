@@ -1395,6 +1395,7 @@ priming_the_pump_ = {
 	}
 	effect = {
 		loan_interest = -0.005
+		max_loan_modifier = 0.25
 	}
 }
 mixed_economy = {
@@ -1413,6 +1414,7 @@ mixed_economy = {
 	}
 	effect = {
 		loan_interest = -0.005
+		max_loan_modifier = 0.25
 	}
 }
 centralized_economic_planning = {
@@ -1431,6 +1433,7 @@ centralized_economic_planning = {
 	}
 	effect = {
 		factory_cost = -0.01
+		max_loan_modifier = 0.25
 	}
 }
 autarky = {
@@ -1446,14 +1449,11 @@ autarky = {
 			factor = 2
 			ruling_party_ideology = liberationist
 		}
-		#modifier = {
-		#	factor = 100
-		#	stupidity = yes
-		#}
 	}
 	effect = {
-		loan_interest = -0.005
+		activate_building = synthetic_oil_factory
 	}
+	
 }
 import_substitution_industrialization = {
 	limit = { government_interventionism = 1 }
@@ -1478,8 +1478,10 @@ import_substitution_industrialization = {
 		}
 	}
 	effect = {
-		activate_building = synthetic_oil_factory
+		loan_interest = -0.005
+		max_loan_modifier = 0.25
 	}
+	
 }
 #organized_factories
 work_classification = {
