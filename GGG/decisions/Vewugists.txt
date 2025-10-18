@@ -116,6 +116,7 @@ political_decisions = {
 			
 			civilized = no
 			NOT = { has_country_flag = vewugi_country }
+			NOT = { government = theocracy }
 			OR = {
 				has_country_flag = pagan_country
 				has_country_flag = kusii_country
