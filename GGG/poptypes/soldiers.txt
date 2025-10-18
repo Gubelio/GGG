@@ -4943,7 +4943,7 @@ issues =
         modifier = {
             factor = 0
             OR = {
-                NOT = { country = { invention = aerial_bacteria_and_antiseptic_principle } }
+                #NOT = { country = { invention = aerial_bacteria_and_antiseptic_principle } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = trinket_health_care }
                 country = { civilized = no }
@@ -5009,7 +5009,7 @@ issues =
             factor = 0
             OR = {
                 luxury_needs = 1.0
-                NOT = { country = { invention = germ_theory } }
+                #NOT = { country = { invention = germ_theory } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = low_health_care }
                 country = { civilized = no }
@@ -5074,7 +5074,7 @@ issues =
             factor = 0
             OR = {
                 luxury_needs = 1.0
-                NOT = { country = { invention = gaslights } }
+                ##NOT = { country = { invention = gaslights } }
                 NOT = { consciousness = 7 }
                 NOT = { is_next_reform = acceptable_health_care }
                 country = { civilized = no }
@@ -5141,7 +5141,7 @@ issues =
             OR = {
                 luxury_needs = 1.0
                 NOT = { consciousness = 7 }
-                NOT = { country = { invention = x_rays } }
+                ##NOT = { country = { invention = x_rays } }
                 NOT = { is_next_reform = good_health_care }
                 country = { civilized = no }
             }
