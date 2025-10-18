@@ -3650,6 +3650,9 @@ country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no 
 		ai = yes
 		civilized = no
 		has_country_flag = pagan_country
+		NOT =	{
+			government = theocracy
+		}
 	}
 	
 	mean_time_to_happen = {
