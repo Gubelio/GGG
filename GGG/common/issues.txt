@@ -534,36 +534,37 @@ political_reforms = {
 			global_population_growth = 0.001 #0.002
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
-            allow = {
-				invention = aerial_bacteria_and_antiseptic_principle
-            }
+            #allow = {
+            #   has_country_flag = medicine_invented
+			#	#medicine = 1
+            #}
 		}
 		
 		low_health_care = {
 			global_population_growth = 0.002 #0.004
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
-            allow = {
-                invention = germ_theory
-            }
+            #allow = {
+            #    has_country_flag = germs_invented
+            #}
 		}
 		
 		acceptable_health_care = {
 			global_population_growth = 0.003 #0.006
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
-            allow = {
-                invention = gaslights
-            }
+            #allow = {
+            #    has_country_flag = gaslights_invented
+            #}
 		}
 		
 		good_health_care = {
 			global_population_growth = 0.004 #0.008
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
-            allow = {
-                invention = x_rays
-            }
+            #allow = {
+            #    has_country_flag = electricity_invented
+            #}
 		
 		}
 	}
