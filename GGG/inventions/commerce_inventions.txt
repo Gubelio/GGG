@@ -1109,12 +1109,12 @@ polypoly_structure = {
 	news = no
 	limit = { 
 		market_structure = 1 
-		NOT = {
-				OR = {
-					invention = oligopoly_structure
-					invention = monopoly_structure
-				}
-		}	
+		#NOT = {
+		#		OR = {
+		#			invention = oligopoly_structure
+		#			invention = monopoly_structure
+		#		}
+		#}	
 	}
 	chance = {
 		base = 2
@@ -1128,19 +1128,19 @@ polypoly_structure = {
 		#}
 	}
 	effect = {
-		factory_input = -0.02
+		factory_input = -0.01
 	}
 }
 oligopoly_structure = {
 	news = no
 	limit = { 
 		market_structure = 1 
-		NOT = {
-			OR = {
-				invention = polypoly_structure
-				invention = monopoly_structure
-			}
-		}		
+		#NOT = {
+		#	OR = {
+		#		invention = polypoly_structure
+		#		invention = monopoly_structure
+		#	}
+		#}		
 	}
 	chance = {
 		base = 2
@@ -1154,19 +1154,19 @@ oligopoly_structure = {
 		}
 	}
 	effect = {
-		factory_output = 0.02
+		factory_output = 0.01
 	}
 }
 monopoly_structure = {
 	news = no
 	limit = { 
 		market_structure = 1 
-		NOT = {
-			OR = {
-				invention = polypoly_structure
-				invention = oligopoly_structure
-			}
-		}	
+		#NOT = {
+		#	OR = {
+		#		invention = polypoly_structure
+		#		invention = oligopoly_structure
+		#	}
+		#}	
 	}
 	chance = {
 		base = 2
@@ -1180,7 +1180,7 @@ monopoly_structure = {
 		}
 	}
 	effect = {
-		factory_throughput = 0.05
+		factory_throughput = 0.01
 	}
 }
 #business_regulations
