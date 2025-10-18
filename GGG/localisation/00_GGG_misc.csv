@@ -541,15 +541,18 @@ sanctioned_privileges_l;Sanctioned Privileges;;;;;;;;;;;;;x
 sumptuary_laws_l;Sumptuary Laws;;;;;;;;;;;;;x
 legal_disabilities_l;Legal Disabilities;;;;;;;;;;;;;x
 equality_before_the_law_l;Equality Before the Law;;;;;;;;;;;;;x
-movement_primary_culture_only;Primary Culture Only Movement;;;;;;;;;;;;;x
-movement_culture_voting_only;Minority Rights Movement;;;;;;;;;;;;;x
-movement_all_voting_pops;All Cultures Accepted Movement;;;;;;;;;;;;;x
-movement_closed_borders;Closed Borders Movement;;;;;;;;;;;;;x
+movement_primary_culture_only;Citizenship Restriction Movement;;;;;;;;;;;;;x
+movement_culture_voting_only;Classified Minorities Movement;;;;;;;;;;;;;x
+movement_all_voting_pops;Plural Citizenship Movement;;;;;;;;;;;;;x
+movement_closed_borders;Closed Borders Lobby;;;;;;;;;;;;;x
 movement_quota_immigration;Quota Immigration Movement;;;;;;;;;;;;;x
 movement_open_borders;Open Borders Movement;;;;;;;;;;;;;x
-movement_tribal_assembly;Tribal Assembly Movement;;;;;;;;;;;;;x
-movement_noble_parliament;Noble Parliament Movement;;;;;;;;;;;;;x
-movement_regulated_elections;Regulated Elections Movement;;;;;;;;;;;;;x
+movement_tribal_assembly;Regionalist Movement;;;;;;;;;;;;;x
+movement_centralised;Centralisation Campaign;;;;;;;;;;;;;x
+movement_noble_parliament;Ancient Rights League;;;;;;;;;;;;;x
+movement_noble_parliament_i;Aristocratic Sovereignity Movement;;;;;;;;;;;;;x
+movement_tribal_assembly_i;Common Rights League;;;;;;;;;;;;;x
+movement_regulated_elections;Noble Obligations Movement;;;;;;;;;;;;;x
 movement_approved_candidacy;Approved Candidacy Movement;;;;;;;;;;;;;x
 movement_appointed_legislatures;Appointed Legislatures Movement;;;;;;;;;;;;;x
 movement_feudal_tenure;Common Land Movement;;;;;;;;;;;;;x
@@ -558,35 +561,35 @@ movement_private_landownership;Private Landownership Movement;;;;;;;;;;;;;x
 movement_land_banking;Land Banking Movement;;;;;;;;;;;;;x
 movement_farm_cooperatives;Farm Cooperatives Movement;;;;;;;;;;;;;x
 movement_collectivized_farming;Collectivized Farming Movement;;;;;;;;;;;;;x
-movement_unregulated_currency;Unregulated Currency Movement;;;;;;;;;;;;;x
+movement_unregulated_currency;Financial Deregulation Movement;;;;;;;;;;;;;x
 movement_banking_licenses;Banking Licenses Movement;;;;;;;;;;;;;x
 movement_central_banking;Central Banking Movement;;;;;;;;;;;;;x
 movement_regulatory_institutions;Regulatory Institutions Movement;;;;;;;;;;;;;x
-movement_thralldom_allowed;Thralldom Allowed Movement;;;;;;;;;;;;;x
-movement_thralldom_outlawed;Thralldom Outlawed Movement;;;;;;;;;;;;;x
-movement_feudal_courts;Feudal Courts Movement;;;;;;;;;;;;;x
-movement_appointed_justices;Appointed Justices Movement;;;;;;;;;;;;;x
-movement_unified_legal_code;Unified Legal Code Movement;;;;;;;;;;;;;x
-movement_aristocratic_bureaucracy;Aristocratic Bureaucracy Movement;;;;;;;;;;;;;x
-movement_proprietary_bureaucracy;Proprietary Bureaucracy Movement;;;;;;;;;;;;;x
-movement_appointed_bureaucrats;Appointed Bureaucrats Movement;;;;;;;;;;;;;x
-movement_professional_bureaucracy;Professional Bureaucracy Movement;;;;;;;;;;;;;x
-movement_ad_hoc_development;Ad-Hoc Development Movement;;;;;;;;;;;;;x
-movement_turnpikes_n_municipal_funding;Turnpikes & Municipal Funding Movement;;;;;;;;;;;;;x
-movement_urban_planning;Urban Planning Movement;;;;;;;;;;;;;x
-movement_monopoly_corporations;Transport Monopolies Movement;;;;;;;;;;;;;x
-movement_public_works_division;Public Works Division Movement;;;;;;;;;;;;;x
-movement_no_health_care;No Health Care Movement;;;;;;;;;;;;;x
-movement_trinket_health_care;Trinket Health Care Movement;;;;;;;;;;;;;x
-movement_low_health_care;Low Health Care Movement;;;;;;;;;;;;;x
-movement_acceptable_health_care;Acceptable Health Care Movement;;;;;;;;;;;;;x
-movement_good_health_care;Good Health Care Movement;;;;;;;;;;;;;x
-movement_no_school_system;No School System Movement;;;;;;;;;;;;;x
-movement_parish_school_system;Parish School System Movement;;;;;;;;;;;;;x
+movement_thralldom_allowed;Thrall-Taker's Lobby;;;;;;;;;;;;;x
+movement_thralldom_outlawed;Anti-Thralldom League;x
+movement_feudal_courts;Lordly Justice Lobby;;;;;;;;;;;;;x
+movement_appointed_justices;Judicial Reform Campaign;;;;;;;;;;;;;x
+movement_unified_legal_code;Judicial Reform Campaign;;;;;;;;;;;;;x
+movement_aristocratic_bureaucracy;Hereditary Offices Movement;;;;;;;;;;;;;x
+movement_proprietary_bureaucracy;Sale of Offices Movement;;;;;;;;;;;;;x
+movement_appointed_bureaucrats;Civil Service Reform Movement;;;;;;;;;;;;;x
+movement_professional_bureaucracy;Civil Service Reform Movement;;;;;;;;;;;;;x
+movement_ad_hoc_development;Municipal Liberties Movement;;;;;;;;;;;;;x
+movement_turnpikes_n_municipal_funding;Urban Development Campaign;;;;;;;;;;;;;x
+movement_urban_planning;Urban Development Campaign;;;;;;;;;;;;;x
+movement_monopoly_corporations;Infrastructure Development Campaign;;;;;;;;;;;;;x
+movement_public_works_division;Infrastructure Development Campaign;;;;;;;;;;;;;x
+movement_no_health_care;Grave-Pits Movement;;;;;;;;;;;;;x
+movement_trinket_health_care;Public Sanitation Movement;;;;;;;;;;;;;x
+movement_low_health_care;Public Inoculation Campaign;;;;;;;;;;;;;x
+movement_acceptable_health_care;Public Hospitals Movement;;;;;;;;;;;;;x
+movement_good_health_care;Medical Inspection Movement;;;;;;;;;;;;;x
+movement_no_school_system;Private Schools Movement;;;;;;;;;;;;;x
+movement_parish_school_system;Clerical Education Movement;;;;;;;;;;;;;x
 movement_state_school_system;State School System Movement;;;;;;;;;;;;;x
 movement_emigration_forbidden;Emigration Forbidden Movement;;;;;;;;;;;;;x
-movement_emigration_restricted;Emigration Restricted Movement;;;;;;;;;;;;;x
-movement_emigration_permitted;Emigration Permitted Movement;;;;;;;;;;;;;x
+movement_emigration_restricted;Emigration Permission Movement;;;;;;;;;;;;;x
+movement_emigration_permitted;Freedom of Emigration Campaign;;;;;;;;;;;;;x
 movement_empowered_clergy;Empowered Clergy Movement;;;;;;;;;;;;;x
 movement_magisterialism;Magisterialism Movement;;;;;;;;;;;;;x
 movement_anti_clericalism;Anti-Clericalism Movement;;;;;;;;;;;;;x
@@ -595,34 +598,34 @@ movement_trinket_protections;Trinket Protections Movement;;;;;;;;;;;;;x
 movement_low_protections;Low Protections Movement;;;;;;;;;;;;;x
 movement_acceptable_protections;Acceptable Protections Movement;;;;;;;;;;;;;x
 movement_good_protections;Good Protections Movement;;;;;;;;;;;;;x
-movement_morality_police;Morality Police Movement;;;;;;;;;;;;;x
-movement_courts_of_canon;Courts of Canon Movement;;;;;;;;;;;;;x
-movement_freedom_of_conscience;Freedom of Conscience Movement;;;;;;;;;;;;;x
+movement_morality_police;Social Morality Movement;;;;;;;;;;;;;x
+movement_courts_of_canon;Religious Tribunals Movement;;;;;;;;;;;;;x
+movement_freedom_of_conscience;Freedom of Conscience Society;;;;;;;;;;;;;x
 movement_permitted_heterodoxy;Permitted Heterodoxy Movement;;;;;;;;;;;;;x
 movement_local_congregationalism;Local Congregationalism Movement;;;;;;;;;;;;;x
-movement_no_dole;No Dole Movement;;;;;;;;;;;;;x
-movement_public_granaries;Public Granaries Movement;;;;;;;;;;;;;x
-movement_subsidized_grain_imports;Subsidized Grain Imports Movement;;;;;;;;;;;;;x
+movement_no_dole;Anti-Pauper Lobby;;;;;;;;;;;;;x
+movement_public_granaries;Provender Security Campaign;;;;;;;;;;;;;x
+movement_subsidized_grain_imports;Provender Security Campaign;;;;;;;;;;;;;x
 movement_universal_grain_dole;Universal Grain Dole Movement;;;;;;;;;;;;;x
 movement_mule_n_seed_law;Mule & Seed Law Movement;;;;;;;;;;;;;x
-movement_serfdom;Serfdom Movement;;;;;;;;;;;;;x
-movement_peonage;Peonage Movement;;;;;;;;;;;;;x
-movement_debtors_prisons;Debtors Prisons Movement;;;;;;;;;;;;;x
-movement_bankruptcy;Bankruptcy Movement;;;;;;;;;;;;;x
+movement_serfdom;Re-Enserfment Lobby;;;;;;;;;;;;;x
+movement_peonage;Abolition of Serfdom Movement;;;;;;;;;;;;;;x
+movement_debtors_prisons;Debtor Protection Movement;;;;;;;;;;;;;x
+movement_bankruptcy;Debtor Protection Movement;;;;;;;;;;;;;x
 movement_capital_punishment;Capital Punishment Movement;;;;;;;;;;;;;x
-movement_colonial_transportation;Colonial Transportation Movement;;;;;;;;;;;;;x
-movement_incarceration;Incarceration Movement;;;;;;;;;;;;;x
-movement_rehabilitation;Rehabilitation Movement;;;;;;;;;;;;;x
-movement_yes_slavery;Slavery Allowed Movement;;;;;;;;;;;;;x #Normally just Allowed
-movement_code_of_rights;Code of Rights Movement;;;;;;;;;;;;;x
+movement_colonial_transportation;Commuted Sentences Movement;;;;;;;;;;;;;x
+movement_incarceration;Punitive Reform Movement;;;;;;;;;;;;;x
+movement_rehabilitation;Prison Reform Movement;;;;;;;;;;;;;x
+movement_yes_slavery;Pro-Slavery Campaign;;;;;;;;;;;;;x #Normally just Allowed
+movement_code_of_rights;Slave Protection Campaign;;;;;;;;;;;;;x
 movement_public_ownership;Public Ownership Movement;;;;;;;;;;;;;x
 movement_gradual_abolition;Gradual Abolition Movement;;;;;;;;;;;;;x
-movement_no_slavery;Slavery Outlawed Movement;;;;;;;;;;;;;x #Normally just Outlawed
+movement_no_slavery;Slavery Absolutist Movement;;;;;;;;;;;;;x #Normally just Outlawed
 movement_feudal_rights;Feudal Rights Movement;;;;;;;;;;;;;x
 movement_sanctioned_privileges;Sanctioned Privileges Movement;;;;;;;;;;;;;x
 movement_sumptuary_laws;Sumptuary Laws Movement;;;;;;;;;;;;;x
 movement_legal_disabilities;Legal Disabilities Movement;;;;;;;;;;;;;x
-movement_equality_before_the_law;Equality Before the Law Movement;;;;;;;;;;;;;x
+movement_equality_before_the_law;Legal Equality Movement;;;;;;;;;;;;;x
 war_torn;War Torn;;;;;;;;;;;;;x
 colonial_chaos;Colonial Chaos;;;;;;;;;;;;;x
 peacetime_mobilization;Peacetime Mobilization;;;;;;;;;;;;;x

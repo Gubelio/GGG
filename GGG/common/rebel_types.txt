@@ -400,6 +400,16 @@ theocratist_rebels = {
             type = slaves
         }
 
+		modifier = {
+			factor = 0
+			NOT = {
+				has_pop_religion = THIS
+			
+			}
+		
+		
+		}
+
         modifier = {
             factor = 0
             country = { civilized = no }

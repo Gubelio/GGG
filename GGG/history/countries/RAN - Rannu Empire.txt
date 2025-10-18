@@ -13,7 +13,7 @@ prestige = 150 #50
 
 # Political reforms
 
-citizens_rights = primary_culture_only
+citizens_rights = culture_voting_only
 border_policy = closed_borders
 legislative_system = noble_parliament
 land_reform_civ = feudal_tenure
