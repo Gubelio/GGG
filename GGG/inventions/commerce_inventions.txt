@@ -1491,7 +1491,7 @@ work_classification = {
 		base = 2
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = state_capitalism
 		}
 		modifier = {
 			factor = 2
@@ -1513,7 +1513,7 @@ work_specialization = {
 		}
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = state_capitalism
 		}
 		modifier = {
 			factor = 2
@@ -1535,7 +1535,7 @@ work_control_and_hierarchy = {
 		}
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = interventionism
 		}
 		modifier = {
 			factor = 2
@@ -1572,7 +1572,7 @@ inventory_planning = {
 		base = 2
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = state_capitalism
 		}
 		modifier = {
 			factor = 2
@@ -1590,7 +1590,7 @@ quality_assurance_procedure = {
 		base = 2
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = state_capitalism
 		}
 		modifier = {
 			factor = 2
@@ -1613,7 +1613,7 @@ time_studies = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = statist
 		}
 	}
 	effect = {
@@ -1627,7 +1627,7 @@ time_clock = {
 		base = 2
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = interventionism
 		}
 		modifier = {
 			factor = 2
@@ -1642,14 +1642,14 @@ lighting = {
 	limit = { time_saving_measures = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 1
 		modifier = {
-			factor = 4
+			factor = 5
 			electricity = 1
 		}
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			economic_policy = interventionism
 		}
 	}
 	effect = {
@@ -1721,7 +1721,7 @@ i_scientific_management = {
 		base = 2
 		modifier = {
 			factor = 2
-			economic_policy = laissez_faire
+			government = statist_bureaucracy
 		}
 		modifier = {
 			factor = 2
@@ -1736,14 +1736,18 @@ human_resource_development = {
 	limit = { organizational_development = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 1
 		modifier = {
 			factor = 2
-			average_consciousness = 3
+			slavery = yes_slavery
 		}
 		modifier = {
-			factor = 2
-			trade_unions = all_trade_unions
+			factor = 1
+			government = statist_bureaucracy
+		}
+		modifier = {
+			factor = 1
+			government = sublime_synod
 		}
 	}
 	effect = {
