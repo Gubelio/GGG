@@ -1463,7 +1463,7 @@ womens_suffrage_movement = {
 			factor = 2
 			OR = {
 				government = paternalistic_council
-				government = absolute_autocracy
+				government = statist_bureaucracy
 			}
 		}
 		modifier = {
@@ -1624,7 +1624,7 @@ the_police_state = {
 		}
 		modifier = {
 			factor = 2
-			government = absolute_autocracy
+			government = statist_bureaucracy
 		}
 	}
 	effect = {
@@ -1652,7 +1652,7 @@ mass_advertising = {
 		}
 		modifier = {
 			factor = 1
-			government = absolute_autocracy
+			government = statist_bureaucracy
 		}
 	}
 	effect = {

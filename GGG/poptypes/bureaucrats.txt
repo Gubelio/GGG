@@ -1666,13 +1666,13 @@ ideologies = {
 
         modifier = {
             factor = 3
-            country = { government = absolute_autocracy }
+            country = { government = statist_bureaucracy }
             nationalvalue = nv_autocracy
         }
 
         modifier = {
             factor = 0.3
-            NOT = { country = { government = absolute_autocracy } }
+            NOT = { country = { government = statist_bureaucracy } }
             nationalvalue = nv_autocracy
         }
 
@@ -1680,7 +1680,7 @@ ideologies = {
             factor = 0.1
             NOT = {
                 militancy = 6
-                country = { government = absolute_autocracy }
+                country = { government = statist_bureaucracy }
             }
         }
 

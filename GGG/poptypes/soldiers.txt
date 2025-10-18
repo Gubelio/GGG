@@ -1261,7 +1261,7 @@ ideologies = {
 
         modifier = {
             factor = 3
-            country = { government = absolute_autocracy }
+            country = { government = statist_bureaucracy }
             nationalvalue = nv_autocracy
             OR = {
                 is_primary_culture = yes
@@ -1271,7 +1271,7 @@ ideologies = {
 
         modifier = {
             factor = 0.3
-            NOT = { country = { government = absolute_autocracy } }
+            NOT = { country = { government = statist_bureaucracy } }
             OR = {
                 is_accepted_culture = yes
                 is_primary_culture = yes
@@ -1283,7 +1283,7 @@ ideologies = {
             factor = 0.1
             NOT = {
                 militancy = 6
-                country = { government = absolute_autocracy }
+                country = { government = statist_bureaucracy }
             }
         }
 

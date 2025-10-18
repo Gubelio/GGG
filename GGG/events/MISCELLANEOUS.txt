@@ -340,7 +340,7 @@ country_event = {
             limit = {
                 neighbour = THIS
                 NOT = {
-                    government = absolute_autocracy
+                    government = statist_bureaucracy
                 }
             }
             any_pop = {
