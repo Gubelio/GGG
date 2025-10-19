@@ -3228,7 +3228,7 @@ country_event = { #pot belly pox
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 600
 		
 		modifier = {
             factor = 1.1
@@ -3472,7 +3472,7 @@ country_event = { #Blinding Cough
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 600
 		
 		modifier = {
             factor = 1.1
@@ -3715,7 +3715,7 @@ country_event = { #Cudfeeder's Flu
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 600
 		
 		modifier = {
             factor = 1.1
