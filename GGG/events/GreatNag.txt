@@ -1069,6 +1069,11 @@ country_event = {
 		political_reform = centralised
 		
 		set_country_flag = settled_sucession
+		
+		ai_chance = {
+			factor = 100
+		
+		}
 	}
 
 }
