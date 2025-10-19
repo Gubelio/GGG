@@ -1067,6 +1067,7 @@ country_event = {
 		
 		political_reform = noble_parliament
 		political_reform = centralised
+		clr_country_flag = federalised
 		
 		set_country_flag = settled_sucession
 		
