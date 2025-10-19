@@ -173,11 +173,31 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Absolutist"
+		name = "THANKS BUDDY"
 		any_country = {
 			#limit = {}
 			create_alliance = THIS
 		}
+	}
+}
+
+country_event = {
+	id = 61616
+	title = "infinite genocide"
+	desc = "reduce all pops (within countries) by 99.99% to take screenshots without units. Spam this event multiple times."
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "THANKS BUDDY"
+		any_country = {
+			any_pop = { reduce_pop = 0.01 }
+			#add_country_modifier = { name = destroy_country duration = 36525 }
+			treasury = -10000000
+		}
+		any_pop = { reduce_pop = 0.01 }
+		#add_country_modifier = { name = destroy_country duration = 36525 }
+		#treasury = -10000000
 	}
 }
 
