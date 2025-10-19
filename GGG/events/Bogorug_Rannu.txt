@@ -699,6 +699,10 @@ country_event = {
 		NOT = { accepted_culture = uttobanhu }
 		NOT = { exists = BEN }
 		BEN = { any_core = { owned_by = RAN } }
+		NOT = {
+			government = paternalistic_council
+			government = statist_bureaucracy
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -750,6 +754,10 @@ country_event = {
 		NOT = { accepted_culture = ngoghu }
 		NOT = { exists = VAD }
 		VAD = { any_core = { owned_by = RAN } }
+		NOT = {
+			government = paternalistic_council
+			government = statist_bureaucracy
+		}
 	}
 	
 	mean_time_to_happen = {

@@ -47,6 +47,10 @@ political_decisions = {
 			is_greater_power = yes
 			RAN = { all_core = { owned_by = RAN } }
 			nationalism_n_imperialism = 1
+			NOT = {
+				government = paternalistic_council
+				government = statist_bureaucracy
+			}
 		}
 		
 		effect = {
@@ -60,6 +64,7 @@ political_decisions = {
 		potential = {
 			tag = RAN
 			NOT = { has_country_flag = restored_yauje }
+			accepted_culture = uttobanhu
 		}
 		
 		allow = {
