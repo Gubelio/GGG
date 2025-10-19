@@ -383,7 +383,9 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					type = aristocrats
-				
+					location = {
+						has_pop_type = serfs
+					}
 				}
 				money = 4500
 				location = {

@@ -4096,7 +4096,9 @@ country_event = {
 		any_pop = {
 			limit = {
 				type = aristocrats
-			
+				location = {
+					has_pop_type = serfs
+				}
 			}
 			money = 2000
 			location = {
