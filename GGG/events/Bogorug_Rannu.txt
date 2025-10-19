@@ -657,3 +657,103 @@ country_event = {
 	}
 
 }
+
+
+########################################
+### RANNU EMPIRE ACCEPTED POPS DEBUG ###
+########################################
+
+country_event = {
+	id = 50283
+	title = "EVTNAME50283" #remove uttobanhu accepted pops
+    desc = "EVTDESC50283"
+
+	trigger = {
+		tag = RAN
+		accepted_culture = uttobanhu
+		exists = BEN
+		THIS = { any_core = { owned_by = BEN } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50283OPTA"
+		remove_accepted_culture = uttobanhu
+	}
+	
+}
+
+country_event = {
+	id = 50284
+	title = "EVTNAME50284" #readd uttobanhu accepted pops
+    desc = "EVTDESC50284"
+
+	trigger = {
+		tag = RAN
+		NOT = { accepted_culture = uttobanhu }
+		NOT = { exists = BEN }
+		BEN = { any_core = { owned_by = RAN } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50284OPTA"
+		add_accepted_culture = uttobanhu
+	}
+	
+}
+
+country_event = {
+	id = 50285
+	title = "EVTNAME50285" #remove ngoghu accepted pops
+    desc = "EVTDESC50285"
+
+	trigger = {
+		tag = RAN
+		accepted_culture = ngoghu
+		exists = VAD
+		THIS = { any_core = { owned_by = VAD } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50285OPTA"
+		remove_accepted_culture = ngoghu
+		set_country_flag = ngoghu_freed_from_yoke
+	}
+	
+}
+
+country_event = {
+	id = 50286
+	title = "EVTNAME50286" #readd ngoghu accepted pops
+    desc = "EVTDESC50286"
+
+	trigger = {
+		tag = RAN
+		has_country_flag = ngoghu_freed_from_yoke
+		NOT = { accepted_culture = ngoghu }
+		NOT = { exists = VAD }
+		VAD = { any_core = { owned_by = RAN } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT50286OPTA"
+		add_accepted_culture = ngoghu
+		clr_country_flag = ngoghu_freed_from_yoke
+	}
+	
+}
