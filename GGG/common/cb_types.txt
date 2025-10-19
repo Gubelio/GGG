@@ -2694,9 +2694,9 @@ war_reparations = {
             is_our_vassal = THIS
             has_country_flag = in_great_war
         }
-        THIS = {
-            civilized = yes
-        }
+        #THIS = {
+        #    civilized = yes
+        #}
     }
 
     po_reparations = yes
