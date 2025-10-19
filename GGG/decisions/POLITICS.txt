@@ -371,11 +371,11 @@ political_decisions = {
 			ai = no
 			NOT = { has_country_flag = serfdom_abolished }
 			debt_law = serfdom
-			#year = 1309
+			year = 1309
 			civilized = yes
 		}
 		allow = {
-			#state_n_government = 1
+			state_n_government = 1
 		}
 		effect = {
 			#treasury = -2000000

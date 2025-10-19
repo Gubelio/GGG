@@ -862,3 +862,140 @@ country_event = {
 	
 }
 
+country_event = {
+    id = 50280
+    title = "medicine_flags"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+	is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        
+        OR = {
+			OR = {
+				AND = {
+					NOT = { has_country_flag = discovered_vaccines }
+					invention = vaccination
+				}
+			
+				AND = {
+					NOT = { has_country_flag = discovered_germs }
+					invention = germ_theory
+				
+				}
+				
+				AND = {
+					NOT = { has_country_flag = discovered_lighting }
+					invention = gaslights
+				
+				}
+				
+				AND = {
+					NOT = { has_country_flag = discovered_xrays }
+					invention = x_rays
+				
+				}
+			
+			}
+			
+            any_greater_power = {
+                OR = {
+					AND = {
+						NOT = { has_country_flag = discovered_vaccines }
+						invention = vaccination
+					}
+				
+					AND = {
+						NOT = { has_country_flag = discovered_germs }
+						invention = germ_theory
+					
+					}
+					
+					AND = {
+						NOT = { has_country_flag = discovered_lighting }
+						invention = gaslights
+					
+					}
+					
+					AND = {
+						NOT = { has_country_flag = discovered_xrays }
+						invention = x_rays
+					
+					}
+			
+				}
+            }
+            any_neighbor_country = {
+                OR = {
+					AND = {
+						NOT = { has_country_flag = discovered_vaccines }
+						invention = vaccination
+					}
+				
+					AND = {
+						NOT = { has_country_flag = discovered_germs }
+						invention = germ_theory
+					
+					}
+					
+					AND = {
+						NOT = { has_country_flag = discovered_lighting }
+						invention = gaslights
+					
+					}
+					
+					AND = {
+						NOT = { has_country_flag = discovered_xrays }
+						invention = x_rays
+					
+					}
+			
+				}
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+		any_country = {
+            limit = {
+				NOT = { has_country_flag = discovered_vaccines }
+				invention = vaccination
+			}
+			set_country_flag = discovered_vaccines
+        }
+		
+		any_country = {
+            limit = {
+				NOT = { has_country_flag = discovered_germs }
+				invention = germ_theory
+			}
+			set_country_flag = discovered_germs
+        }
+		
+		any_country = {
+            limit = {
+				NOT = { has_country_flag = discovered_lighting }
+				invention = gaslights
+			}
+			set_country_flag = discovered_lighting
+        }
+		
+		any_country = {
+            limit = {
+				NOT = { has_country_flag = discovered_xrays }
+				invention = x_rays
+			}
+			set_country_flag = discovered_xrays
+        }
+			
+	}
+    
+}

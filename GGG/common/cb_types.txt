@@ -27,8 +27,8 @@
 #po_make_puppet
 #po_release_puppet
 #po_status_quo
-#po_install_free_yoker_gov_type
-#po_uninstall_free_yoker_gov_type
+#po_install_commununism
+#po_uninstall_commununism
 #po_remove_cores
 #po_colony
 
@@ -92,8 +92,8 @@ take_capital
 take_colonial_concession_capital
 take_colonial_concession_capital_EM
 take_colonial_concession_capital_KF
-install_free_yoker_gov_cb
-uninstall_free_yoker_gov_cb
+#install_free_yoker_gov_cb
+#uninstall_free_yoker_gov_cb
 great_war_penalty_cb 
 }
 
@@ -2447,133 +2447,133 @@ rude_boy = {
 }
 
 # Install free_yoker Government
-install_free_yoker_gov_cb = {
-	sprite_index = 12
-	is_triggered_only = yes
-	months = 12
-	crisis = no
-
-	badboy_factor = 1
-	prestige_factor = 1
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		THIS = {
-			# If actor is a great power
-			is_greater_power = yes
-			
-			# If actor gov truly free_yoker
-			government = paternalistic_council
-			
-			# If actor ruling party is free_yoker
-			ruling_party_ideology = free_yoker
-		}
-		
-		AND = {
-			# If reciever ruling party is not a free_yoker
-			#NOT = {
-			#	ruling_party_ideology = free_yoker
-			#}
-			
-			# There are some amount of free_yoker already in the country
-			free_yoker = 0.1
-				
-			# If reciever current gov is not proletarian_dictatorship
-			NOT = {
-				government = paternalistic_council
-			}
-			
-			# If reciever is not a great power
-			is_greater_power = no
-		}
-	}
-	
-	po_install_free_yoker_gov_type = yes
-
-	war_name = WAR_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-	
-	on_po_accepted = {
-        political_reform = thralldom_allowed
-        political_reform = regulated_elections
-        political_reform = no_school_system
-
-        social_reform = good_minimum_wage
-        social_reform = good_protections
-        social_reform = local_congregationalism
-        social_reform = equality_before_the_law
-        social_reform = mule_n_seed_law
-        social_reform = no_slavery
-        social_reform = bankruptcy
-	}
-}
+#install_free_yoker_gov_cb = {
+#	sprite_index = 12
+#	is_triggered_only = yes
+#	months = 12
+#	crisis = no
+#
+#	badboy_factor = 1
+#	prestige_factor = 1
+#	peace_cost_factor = 1
+#	penalty_factor = 1
+#
+#	break_truce_prestige_factor = 1
+#	break_truce_infamy_factor = 1
+#	break_truce_militancy_factor = 1
+#	truce_months = 0
+#	
+#	good_relation_prestige_factor = 1
+#	good_relation_infamy_factor = 1
+#	good_relation_militancy_factor = 1
+#
+#	can_use = {
+#		THIS = {
+#			# If actor is a great power
+#			is_greater_power = yes
+#			
+#			# If actor gov truly free_yoker
+#			government = paternalistic_council
+#			
+#			# If actor ruling party is free_yoker
+#			ruling_party_ideology = free_yoker
+#		}
+#		
+#		AND = {
+#			# If reciever ruling party is not a free_yoker
+#			#NOT = {
+#			#	ruling_party_ideology = free_yoker
+#			#}
+#			
+#			# There are some amount of free_yoker already in the country
+#			free_yoker = 0.1
+#				
+#			# If reciever current gov is not proletarian_dictatorship
+#			NOT = {
+#				government = paternalistic_council
+#			}
+#			
+#			# If reciever is not a great power
+#			is_greater_power = no
+#		}
+#	}
+#	
+#	po_install_free_yoker_gov_type = yes
+#
+#	war_name = WAR_NAME
+#	
+#	on_add = {
+#		move_issue_percentage = { 
+#			from = jingoism 
+#			to = pro_military
+#			value = 0.25
+#		}
+#	}
+#	
+#	on_po_accepted = {
+#        political_reform = thralldom_allowed
+#        political_reform = regulated_elections
+#        political_reform = no_school_system
+#
+#        social_reform = good_minimum_wage
+#        social_reform = good_protections
+#        social_reform = local_congregationalism
+#        social_reform = equality_before_the_law
+#        social_reform = mule_n_seed_law
+#        social_reform = no_slavery
+#        social_reform = bankruptcy
+#	}
+#}
 
 # Revert from free_yoker Government
-uninstall_free_yoker_gov_cb = {
-	sprite_index = 13
-	is_triggered_only = yes
-	months = 12
-	crisis = no
-	
-	# Is automatically added to countries that intervened at while install_free_yoker_gov_cb
-	# so they can revert those countries government.
-	constructing_cb = no
-
-	badboy_factor = 1
-	prestige_factor = 1
-	peace_cost_factor = 5
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		THIS = {
-			# If actor ruling party is not free_yoker
-			NOT = {
-				ruling_party_ideology = free_yoker
-			}
-		}
-		
-		# If reciever current gov is proletarian_dictatorship
-		government = paternalistic_council
-	}
-	
-	po_uninstall_free_yoker_gov_type = yes
-
-	war_name = WAR_NAME
-	
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
+#uninstall_free_yoker_gov_cb = {
+#	sprite_index = 13
+#	is_triggered_only = yes
+#	months = 12
+#	crisis = no
+#	
+#	# Is automatically added to countries that intervened at while install_free_yoker_gov_cb
+#	# so they can revert those countries government.
+#	constructing_cb = no
+#
+#	badboy_factor = 1
+#	prestige_factor = 1
+#	peace_cost_factor = 5
+#	penalty_factor = 1
+#
+#	break_truce_prestige_factor = 1
+#	break_truce_infamy_factor = 1
+#	break_truce_militancy_factor = 1
+#	truce_months = 0
+#	
+#	good_relation_prestige_factor = 1
+#	good_relation_infamy_factor = 1
+#	good_relation_militancy_factor = 1
+#
+#	can_use = {
+#		THIS = {
+#			# If actor ruling party is not free_yoker
+#			NOT = {
+#				ruling_party_ideology = free_yoker
+#			}
+#		}
+#		
+#		# If reciever current gov is proletarian_dictatorship
+#		government = paternalistic_council
+#	}
+#	
+#	po_uninstall_free_yoker_gov_type = yes
+#
+#	war_name = WAR_NAME
+#	
+#	on_add = {
+#		move_issue_percentage = {
+#			from = jingoism 
+#			to = pro_military
+#			value = 0.25
+#		}
+#	}
+#}
 
 
 # Great War Penalty
