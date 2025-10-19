@@ -1042,13 +1042,13 @@ country_event = {
 	}
 	
 	option = {
-		name = "Hurrah for King Godonimiz! Hurrah for the True Blood"
+		name = "Hurrah for King Mozzanimiz! Hurrah for the True Blood"
 		 	
 
 		ruling_party_ideology = liberationist
 		
 		define_general = {
-			name = "Mozzanimiz V Pōzâfauk"
+			name = "Mozzanimiz V Pozafauk"
 			personality = indifferent
 			background = prince
 		}
