@@ -1288,7 +1288,7 @@ nationalist_rebels = {
             location = { is_core = THIS }
         }
 		modifier = {
-            factor = 0.01
+            factor = 0
 			OR = {
 				location = { is_core = TTT }
 				AND = {
