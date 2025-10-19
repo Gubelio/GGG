@@ -2404,6 +2404,9 @@ country_event = {
 	
 	option = {
 		name = "EVT50206OPTA" #Give in to his demands
+		artisans = {
+			consciousness = 2
+		}
 		random_state = {
 			limit = {
 				is_colonial = no

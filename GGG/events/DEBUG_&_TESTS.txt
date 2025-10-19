@@ -192,14 +192,61 @@ country_event = {
 		name = "THANKS BUDDY"
 		any_country = {
 			any_pop = { reduce_pop = 0.01 }
-			#add_country_modifier = { name = destroy_country duration = 36525 }
 			treasury = -10000000
 		}
 		any_pop = { reduce_pop = 0.01 }
-		#add_country_modifier = { name = destroy_country duration = 36525 }
 		#treasury = -10000000
 	}
 }
+
+#country_event = {
+#	id = 31313
+#	title = "radicalize all"
+#	desc = "make all pops care about issues"
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "Political Issues"
+#		
+#		any_pop = {
+#			dominant_issue = {
+#				value = appointed_legislatures 
+#				factor = 0.5
+#			}
+#			militancy = 1
+#		}
+#		scaled_militancy = {
+#			issue = appointed_legislatures
+#			factor = 3
+#		}
+#		
+#		any_pop = {
+#			dominant_issue = {
+#				value = vocational_candidacy 
+#				factor = 0.5
+#			}
+#			militancy = 1
+#		}
+#		scaled_militancy = {
+#			issue = vocational_candidacy
+#			factor = 3
+#		}
+#	
+#		any_pop = {
+#			dominant_issue = {
+#				value = collectivized_farming 
+#				factor = 0.5
+#			}
+#			militancy = 1
+#		}
+#		scaled_militancy = {
+#			issue = collectivized_farming
+#			factor = 3
+#		}
+#	
+#	}
+#}
 
 #country_event = {
 #	id = 98765
