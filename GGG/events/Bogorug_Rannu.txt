@@ -673,6 +673,9 @@ country_event = {
 		accepted_culture = uttobanhu
 		exists = BEN
 		THIS = { any_core = { owned_by = BEN } }
+		NOT = {
+			is_our_vassal = BEN
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -719,6 +722,9 @@ country_event = {
 		accepted_culture = ngoghu
 		exists = VAD
 		THIS = { any_core = { owned_by = VAD } }
+		NOT = {
+			is_our_vassal = VAD
+		}
 	}
 	
 	mean_time_to_happen = {
