@@ -4339,37 +4339,153 @@ country_event = {
 }
 
 
-#country_event = { 
-#	id = 50279
-#	title = "EVTNAME50279"
-#	desc = "EVTDESC50279"
-#	
-#	trigger = {
-#		tag = VUG
-#		government = paternalistic_council
-#		ruling_party_ideology = conservative
-#		NOT = { has_country_flag = revolution_betrayed }
-#		
-#	}
-#	
-#	
-#	mean_time_to_happen = {
-#		months = 300
-#		
-#		modifier = {
-#			factor = 0.9
-#			thralldom = thralldom_outlawed
-#		}
-#	
-#	}
-#	
-#	option = {
-#		
-#		set_country_flag = revolution_betrayed
-#	}
-#	
-#	option = {
-#		
-#		set_country_flag = revolution_betrayed
-#	}
-#}
+country_event = { 
+	id = 50287
+	title = "EVTNAME50287"
+	desc = "EVTDESC50287"
+	
+	trigger = {
+		tag = VUG
+		government = paternalistic_council
+		OR = {
+			ruling_party_ideology = conservative
+			ruling_party_ideology = statist
+			ruling_party_ideology = reactionary
+			ruling_party_ideology = theocratist
+			ruling_party_ideology = absolutist
+		}
+		
+		OR = {
+			thralldom = thralldom_outlawed
+			debt_law = peonage
+			debt_law = serfdom
+			NOT = { land_reform_civ = feudal_tenure }
+			industrial_score = 150
+		}
+		
+		NOT = { 
+			has_country_flag = revolution_betrayed 
+			has_country_flag = revolution_preserved
+		}
+		
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			thralldom = thralldom_outlawed
+		}
+		
+		modifier = {
+			factor = 0.9
+			debt_law = peonage
+		}
+		
+		modifier = {
+			factor = 0.1
+			debt_law = serfdom
+		}
+		
+		modifier = {
+			factor = 0.9
+			NOT = { land_reform_civ = feudal_tenure }
+		}
+		
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				has_factories = yes
+			
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			industrial_score = 20
+		}
+		
+		modifier = {
+			factor = 0.9
+			NOT = { social_privileges = equality_before_the_law }
+		}
+		
+		modifier = {
+			factor = 0.9
+			NOT = { scriptural_law = local_congregationalism }
+		}
+		
+		modifier = {
+			factor = 0.9
+			NOT = { welfare_laws = mule_n_seed_law }
+		}
+		
+		modifier = {
+			factor = 0.8
+			industrial_score = 50
+		}
+	
+	}
+	
+	option = {
+		name = "Nonsense! The revolutionary spirit continues in Veyethu"
+		set_country_flag = revolution_betrayed
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 7
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 2
+			}
+		
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 4
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 1
+			}
+		
+		}
+		
+	}
+	
+	option = {
+		name = "They are right! We must preserve the revolutionary spirit!"
+		set_country_flag = revolution_preserved
+		
+		ruling_party_ideology = free_yoker
+		
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 6
+			}
+		
+		}
+		
+		upper_house = {
+				ideology = free_yoker
+				value = 0.6
+		}		
+			
+		upper_house = {
+				ideology = liberationist
+				value = 0.2
+		}		
+		
+	}
+}
