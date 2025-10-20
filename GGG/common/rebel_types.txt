@@ -255,7 +255,8 @@ reactionary_rebels = {
 		clr_country_flag = locked_cent
 		clr_country_flag = federalised
 		clr_country_flag = centralised
-
+		clr_country_flag = locked_usu
+		clr_country_flag = usufruct_law_country
         political_reform = feudal_tenure
         political_reform = aristocratic_bureaucracy
         random_list = {
@@ -845,12 +846,38 @@ free_yoker_rebels = {
 		clr_country_flag = locked_fed
 		clr_country_flag = locked_cent
 		clr_country_flag = centralised
+		clr_country_flag = federalised
+		clr_country_flag = usufruct_law_country
+		clr_country_flag = realty_law_country
 
         ruling_party_ideology = free_yoker
 
         political_reform = thralldom_allowed
-        political_reform = tribal_assembly_i
-		political_reform = tribal_assembly
+		random_list = {
+			30 = {
+				political_reform = tribal_assembly_i
+				political_reform = tribal_assembly
+			}
+			70 = {
+				political_reform = centralised
+				political_reform = noble_parliament
+			}
+		
+		}
+		
+		random_list = {
+			30 = {
+				political_reform = enclosure_of_commons
+				social_reform = realty_prioritised
+			}
+			70 = {
+				political_reform = usufruct_prioritised
+				social_reform = commons_system
+				set_country_flag = usufruct_law_country
+			}
+		
+		}
+		
         political_reform = no_school_system
 
         social_reform = good_minimum_wage
@@ -897,7 +924,12 @@ free_yoker_rebels = {
 		if = {
 			limit = {
 				THIS = {
-					NOT = { has_country_flag = smallholder_society }
+					NOT = { 
+						has_country_flag = smallholder_society 
+						has_country_flag = usufruct_law_country
+					
+					}
+					
 				}
 			}
 			THIS = {
@@ -1177,6 +1209,7 @@ absolutist_rebels = {
 		clr_country_flag = locked_fed
 		clr_country_flag = locked_cent
 		clr_country_flag = federalised
+		clr_country_flag = usufruct_law_country
 
 
         ruling_party_ideology = absolutist
