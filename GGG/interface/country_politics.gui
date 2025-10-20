@@ -1282,7 +1282,7 @@ guiTypes = {
 				
 				iconType = {
 				 name = "politics_usufruct_law"
-				 spriteType = "GFX_usufruct_law"
+				 spriteType = "GFX_politics_usufruct_law"
 				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
