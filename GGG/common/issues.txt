@@ -373,7 +373,10 @@ political_reforms = {
         }
 
         enclosure_of_commons = {
-
+			allow = {
+				NOT = { has_country_flag = locked_real }
+			
+			}
         }
 
         private_landownership = {
@@ -744,6 +747,10 @@ social_reforms = {
         commons_system = {
             rgo_throughput = -0.1
             rgo_output = -0.05
+			allow = {
+				NOT = { has_country_flag = locked_real }
+			
+			}
 
         }
 

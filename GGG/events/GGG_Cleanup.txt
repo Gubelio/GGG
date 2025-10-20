@@ -246,6 +246,140 @@ country_event = {
 }
 
 country_event = {
+    id = 50290
+    title = "usufruct_flags"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				land_reform_civ = usufruct_prioritised
+				NOT = { has_country_flag = usufruct_law_country }
+				civilized = yes
+			}
+           any_neighbor_country = {
+               ai = no
+				land_reform_civ = usufruct_prioritised
+				NOT = { has_country_flag = usufruct_law_country }
+				civilized = yes
+           }
+           any_greater_power = {
+               ai = no
+               land_reform_civ = usufruct_prioritised
+				NOT = { has_country_flag = usufruct_law_country }
+				civilized = yes
+           }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        land_reform_civ = usufruct_prioritised
+						NOT = { has_country_flag = usufruct_law_country }
+						civilized = yes
+                    }
+                }
+                owner = {
+                    set_country_flag = usufruct_law_country
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    land_reform_civ = usufruct_prioritised
+					NOT = { has_country_flag = usufruct_law_country }
+					civilized = yes
+                }
+                set_country_flag = usufruct_law_country
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50291
+    title = "realty_flags"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				usufruct_law = realty_prioritised
+				NOT = { has_country_flag = realty_law_country }
+				civilized = yes
+			}
+           any_neighbor_country = {
+               ai = no
+				usufruct_law = realty_prioritised
+				NOT = { has_country_flag = realty_law_country }
+				civilized = yes
+           }
+           any_greater_power = {
+               ai = no
+				usufruct_law = realty_prioritised
+				NOT = { has_country_flag = realty_law_country }
+				civilized = yes
+           }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        usufruct_law = realty_prioritised
+						NOT = { has_country_flag = realty_law_country }
+						civilized = yes
+                    }
+                }
+                owner = {
+                    set_country_flag = realty_law_country
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    usufruct_law = realty_prioritised
+					NOT = { has_country_flag = realty_law_country }
+					civilized = yes
+                }
+                set_country_flag = realty_law_country
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
     id = 50239
     title = "cent_flags"
     desc = "EVTDESC33337"
@@ -399,6 +533,208 @@ country_event = {
                 political_reform = centralised
                 set_country_flag = centralised
 				clr_country_flag = federalised
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50291
+    title = "usufruct_swaper"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				has_country_flag = usufruct_law_country
+				OR = {
+					land_reform_civ = feudal_tenure
+					land_reform_civ = enclosure_of_commons
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+					
+				}
+			}
+            any_neighbor_country = {
+                ai = no
+                has_country_flag = usufruct_law_country
+				OR = {
+					land_reform_civ = feudal_tenure
+					land_reform_civ = enclosure_of_commons
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+					
+				}
+            }
+            any_greater_power = {
+                ai = no
+                has_country_flag = usufruct_law_country
+				OR = {
+					land_reform_civ = feudal_tenure
+					land_reform_civ = enclosure_of_commons
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+					
+				}
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = usufruct_law_country
+						OR = {
+							land_reform_civ = feudal_tenure
+							land_reform_civ = enclosure_of_commons
+							land_reform_civ = private_landownership
+							land_reform_civ = farm_cooperatives
+							land_reform_civ = collectivized_farming
+							
+						}
+                    }
+                }
+                owner = {
+					social_reform = realty_prioritised
+                    set_country_flag = realty_law_country
+					clr_country_flag = usufruct_law_country
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    has_country_flag = usufruct_law_country
+					OR = {
+						land_reform_civ = feudal_tenure
+						land_reform_civ = enclosure_of_commons
+						land_reform_civ = private_landownership
+						land_reform_civ = farm_cooperatives
+						land_reform_civ = collectivized_farming
+						
+					}
+                }
+                social_reform = realty_prioritised
+                set_country_flag = realty_law_country
+				clr_country_flag = usufruct_law_country
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50292
+    title = "realty_swaper"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				has_country_flag = realty_law_country
+				OR = {
+					usufruct_law = commons_system
+					usufruct_law = land_covenants
+					usufruct_law = commoning_bills
+					usufruct_law = common_courts
+					usufruct_law = two_sphere_law
+					
+				}
+			}
+            any_neighbor_country = {
+                ai = no
+                has_country_flag = realty_law_country
+				OR = {
+					usufruct_law = commons_system
+					usufruct_law = land_covenants
+					usufruct_law = commoning_bills
+					usufruct_law = common_courts
+					usufruct_law = two_sphere_law
+					
+				}
+            }
+            any_greater_power = {
+                ai = no
+                has_country_flag = realty_law_country
+				OR = {
+					usufruct_law = commons_system
+					usufruct_law = land_covenants
+					usufruct_law = commoning_bills
+					usufruct_law = common_courts
+					usufruct_law = two_sphere_law
+					
+				}
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = realty_law_country
+						OR = {
+							usufruct_law = commons_system
+							usufruct_law = land_covenants
+							usufruct_law = commoning_bills
+							usufruct_law = common_courts
+							usufruct_law = two_sphere_law
+					
+						}
+                    }
+                }
+                owner = {
+					political_reform = usufruct_prioritised
+                    set_country_flag = usufruct_law_country
+					clr_country_flag = realty_law_country
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    has_country_flag = realty_law_country
+					OR = {
+						usufruct_law = commons_system
+						usufruct_law = land_covenants
+						usufruct_law = commoning_bills
+						usufruct_law = common_courts
+						usufruct_law = two_sphere_law
+					
+					}
+                }
+                political_reform = usufruct_prioritised
+                set_country_flag = usufruct_law_country
+				clr_country_flag = realty_law_country
             }
 			
 		
@@ -562,6 +898,196 @@ country_event = {
 		
 		
     }
+}
+
+country_event = {
+    id = 50293
+    title = "usufruct_locking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				usufruct_law = land_covenants
+				NOT = { has_country_flag = locked_usu }
+			}
+            any_neighbor_country = {
+                ai = no
+                usufruct_law = land_covenants
+				NOT = { has_country_flag = locked_usu }
+            }
+            any_greater_power = {
+                ai = no
+                usufruct_law = land_covenants
+				NOT = { has_country_flag = locked_usu }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        usufruct_law = land_covenants
+                    }
+                }
+                owner = {
+                    set_country_flag = locked_usu
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                     usufruct_law = land_covenants
+					NOT = { has_country_flag = locked_usu }
+                }
+                set_country_flag = locked_usu
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50294
+    title = "real_locking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				land_reform_civ = private_landownership
+				NOT = { has_country_flag = locked_real }
+			}
+            any_neighbor_country = {
+                ai = no
+               land_reform_civ = private_landownership
+				NOT = { has_country_flag = locked_real }
+            }
+            any_greater_power = {
+                ai = no
+                land_reform_civ = private_landownership
+				NOT = { has_country_flag = locked_real }
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        land_reform_civ = private_landownership
+                    }
+                }
+                owner = {
+                    set_country_flag = locked_real
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                     land_reform_civ = private_landownership
+					NOT = { has_country_flag = locked_real }
+                }
+                set_country_flag = locked_real
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+	id = 50295
+	title = "land_picker"
+    desc = "EVTDESC50295"
+    
+	is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				land_reform_civ = usufruct_prioritised
+				usufruct_law = realty_prioritised
+			}
+            any_neighbor_country = {
+                ai = no
+               land_reform_civ = usufruct_prioritised
+				usufruct_law = realty_prioritised
+            }
+            any_greater_power = {
+                ai = no
+                land_reform_civ = usufruct_prioritised
+				usufruct_law = realty_prioritised
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        land_reform_civ = usufruct_prioritised
+						usufruct_law = realty_prioritised
+                    }
+                }
+                owner = {
+                    random_list = {
+						70 = { political_reform = feudal_tenure }
+						30 = { social_reform = commons_system }
+					}
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    land_reform_civ = usufruct_prioritised
+					usufruct_law = realty_prioritised
+                }
+                random_list = {
+						70 = { political_reform = feudal_tenure }
+						30 = { social_reform = commons_system }
+					}
+            }
+			
+		
+		
+		
+    }
+
 }
 
 country_event = {
