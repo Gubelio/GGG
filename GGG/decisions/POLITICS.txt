@@ -478,7 +478,16 @@ political_decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				OR = {
+					tag = POU
+					NOT = { treasury = 500000 }
+				}
+				
+			}
 		}
 	}
 	
