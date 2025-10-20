@@ -3131,12 +3131,12 @@ issues =
             consciousness = 9
         }
     }
-    land_banking = {
+    usufruct_prioritised  = {
         factor = 1
         modifier = {
             factor = 0
             OR = {
-                NOT = { is_next_reform = land_banking }
+                NOT = { is_next_reform = usufruct_prioritised  }
                 NOT = { consciousness = 6 }
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
@@ -6518,63 +6518,7 @@ incarceration = {
     }
 }
 
-rehabilitation = {
-    factor = 1
 
-    modifier = {
-        factor = 0
-            OR = {
-                NOT = { is_next_reform = rehabilitation }
-                country = {    civilized = no }
-                NOT = { consciousness = 8 }
-                NOT = { literacy = 0.8 }
-                NOT = { wage_reform = good_minimum_wage }
-				OR = {
-                NOT = { welfare_laws = universal_grain_dole }
-				NOT = { welfare_laws = mule_n_seed_law }
-				}
-                NOT = { worker_protections = good_protections }
-                state_scope = { is_colonial = yes }
-                NOT = { everyday_needs = 0.4 }
-        }
-    }
-
-    modifier = {
-        factor = 1.2
-        OR = {
-            pop_majority_ideology = statist
-            pop_majority_ideology = liberationist
-        }
-    }
-
-    modifier = {
-        factor = 1.2
-        consciousness = 7
-    }
-
-    modifier = {
-        factor = 1.2
-        consciousness = 8
-    }
-
-    modifier = {
-        factor = 1.2
-        consciousness = 9
-    }
-
-    modifier = {
-        factor = 1.2
-        OR = {
-            nationalvalue = nv_equality
-            nationalvalue = nv_liberty
-        }
-        OR = { is_accepted_culture = yes is_primary_culture = yes }
-    }
-    modifier = {
-        factor = 1.6
-        literacy = 0.9
-    }
-}
 ######### Federalisation ###############
 
 tribal_assembly_i = {

@@ -360,6 +360,11 @@ political_reforms = {
 	
 	land_reform_civ = {
         next_step_only = yes
+		
+		usufruct_prioritised = {
+		
+		
+		}
 
         feudal_tenure = {
             rgo_throughput = -0.1
@@ -376,18 +381,14 @@ political_reforms = {
 
         }
 
-        land_banking = {
+
+        farm_cooperatives = {
             rgo_throughput = 0.05
 
         }
 
-        farm_cooperatives = {
-            rgo_throughput = 0.07
-
-        }
-
         collectivized_farming = {
-            rgo_throughput = 0.1
+            rgo_throughput = 0.2
             rgo_output = 0.05
 
         }
@@ -889,14 +890,6 @@ social_reforms = {
 
         incarceration = {
             administrative_multiplier = 1
-
-        }
-
-        rehabilitation = {
-            global_immigrant_attract = 0.02
-            global_assimilation_rate = 0.02
-            suppression_points_modifier = -0.2
-            administrative_multiplier = 2
 
         }
     }
