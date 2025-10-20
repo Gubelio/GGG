@@ -941,14 +941,14 @@ vaccination = {
 			factor = 2
 			stock_exchange = 1
 		}	
-		modifier = {
-			factor = 1
-			any_owned_province = {
-				has_core = QOO
-			
-			}
-		
-		}
+		#modifier = { #qooxib practice primitve innoculation
+		#	factor = 1
+		#	any_owned_province = {
+		#		has_core = QOO
+		#	
+		#	}
+		#
+		#}
 	}
 	effect = {
 		land_attrition = -0.05 

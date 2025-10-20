@@ -394,6 +394,8 @@ political_decisions = {
 						treasury = -4500
 					}
 				}
+				militancy = 1
+				consciousness = 1
 		
 			}
 		}
@@ -402,6 +404,84 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	
+	compensate_slaveowners = {
+		#picture = "serfdom"
+		alert = no
+			
+		potential = {
+			#ai = no
+			NOT = { has_country_flag = slaveowners_compensated }
+			OR = {
+				slavery = yes_slavery
+				slavery = code_of_rights
+			}
+			year = 1309
+			civilized = yes
+		}
+		allow = {
+			enlightenment_thought = 1
+		}
+		effect = {
+			set_country_flag = slaveowners_compensated
+			#political_reform = public_ownership
+			any_pop = {
+				limit = {
+					type = aristocrats
+					location = {
+						has_pop_type = slaves
+					}
+				}
+				money = 1000
+				location = {
+					
+					owner = {
+						treasury = -1000
+					}
+				}
+				militancy = 2
+				consciousness = 2
+		
+			}
+			if = {
+				limit = {
+					THIS = {
+						tag = POU
+					
+					}
+				
+				}
+				THIS = {
+					any_pop = {
+						limit = {
+							type = aristocrats
+							location = {
+								has_pop_type = slaves
+							}
+						}
+						money = 2000
+						location = {
+							
+							owner = {
+								treasury = -2000
+							}
+						}
+						militancy = 4
+						consciousness = 4
+		
+				}
+				
+				
+				}
+			
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	
 ##########################
 ### POLITICAL FUNCTION ### 

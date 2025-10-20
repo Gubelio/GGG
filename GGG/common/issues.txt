@@ -921,9 +921,8 @@ social_reforms = {
 			tax_efficiency = 0.05 
             global_immigrant_attract = 0.02
 			allow = { 
-				NOT = { 
-					has_country_flag = we_love_slavery
-				}
+				has_country_flag = slaveowners_compensated
+				
 			}
         }
         
@@ -931,6 +930,7 @@ social_reforms = {
             rules = { slavery_allowed = yes }
             global_immigrant_attract = 0.03
 			allow = { 
+				has_country_flag = slaveowners_compensated
 				NOT = { 
 					has_country_flag = we_love_slavery
 				}
@@ -941,6 +941,7 @@ social_reforms = {
             rules = { slavery_allowed = no }
             global_immigrant_attract = 0.04
 			allow = { 
+				has_country_flag = slaveowners_compensated
 				NOT = { 
 					has_country_flag = we_love_slavery
 				}
