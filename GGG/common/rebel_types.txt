@@ -914,6 +914,7 @@ free_yoker_rebels = {
 		clr_country_flag = we_love_slavery
 		remove_country_modifier = backwards_customs
 		set_country_flag = serfdom_abolished
+		set_country_flag = slavery_ended_by_force
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
 			set_country_flag = serfdom_abolished

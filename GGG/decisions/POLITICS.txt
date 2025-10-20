@@ -416,7 +416,7 @@ political_decisions = {
 				slavery = yes_slavery
 				slavery = code_of_rights
 			}
-			year = 1309
+			year = 1312
 			civilized = yes
 		}
 		allow = {
@@ -471,6 +471,15 @@ political_decisions = {
 		
 				}
 				
+				
+				}
+			
+			}
+			
+			THIS = {
+				country_event = {
+					id = 50289
+					days = 25
 				
 				}
 			

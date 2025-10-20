@@ -817,51 +817,28 @@ country_event = { #### BONDSMANSETUP #####
 		political_reform = appointed_bureaucrats
 		political_reform = appointed_justices
 		political_reform = private_landownership
+		political_reform = tribal_assembly_i
 		political_reform = tribal_assembly
 		political_reform = all_voting_pops
+		
+		set_country_flag = slavery_ended_by_force
+		set_country_flag = serfdom_abolished
 		
 	}
 
 }
 
-#country_event = {
-#	id = 50157
-#	title = "EVTNAME50157" 
-#	desc = "EVTDESC50157"
-#
-#	trigger = {
-#		any_pop = {
-#			type = slaves
-#			militancy = 5
-#		}
-#	
-#	}
-#	
-#	mean_time_to_happen {
-#		months = 120
-#	}
-#	
-#	option = {
-#		name = "Deal with the Leaders"			
-#			THIS = {
-#				random_owned = {
-#                    limit = {
-#                        has_pop_type = thralls
-#						has_pop_type = slaves
-#                    }
-#                    any_pop = { 
-#						limit = { 
-#						OR = {
-#							type = thralls
-#							type = slaves						
-#						}
-#						} 
-#						money = 20
-#					}
-#                }
-#				
-#		}
-#	}
-#	
-#
-#}
+country_event = {
+	id = 50289
+	title = "EVTNAME50289" 
+	desc = "EVTDESC50289"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "I see."
+		political_reform = public_ownership
+	}
+	
+
+}
