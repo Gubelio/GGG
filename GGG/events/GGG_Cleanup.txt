@@ -542,7 +542,7 @@ country_event = {
 }
 
 country_event = {
-    id = 50291
+    id = 50292
     title = "usufruct_swaper"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -643,7 +643,7 @@ country_event = {
 }
 
 country_event = {
-    id = 50292
+    id = 50293
     title = "realty_swaper"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -901,7 +901,7 @@ country_event = {
 }
 
 country_event = {
-    id = 50293
+    id = 50294
     title = "usufruct_locking"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -962,7 +962,7 @@ country_event = {
 }
 
 country_event = {
-    id = 50294
+    id = 50295
     title = "real_locking"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -1023,7 +1023,7 @@ country_event = {
 }
 
 country_event = {
-	id = 50295
+	id = 50296
 	title = "land_picker"
     desc = "EVTDESC50295"
     
