@@ -614,6 +614,29 @@ school_reforms = {
 		}
 	}
 	
+	naval_estimates = {
+		
+		no_naval_estimates = {
+		}
+		
+		three_year_estimates = {
+			naval_unit_start_experience = 10
+			loan_interest = -0.02
+		
+		}
+		
+		five_year_estimates = {
+			naval_unit_start_experience = 20
+			loan_interest = -0.03
+		}
+		
+		seven_year_estimates = {
+			naval_unit_start_experience = 30
+			loan_interest = -0.04
+		}
+	}
+	
+	
 	conscription = {
 		next_step_only = yes
 		mandatory_service = {

@@ -307,9 +307,15 @@ WARINDEMNITIES_INCOME;Tribute;;;;;;;;;;;;;x
 we_love_slavery;Poumnian Slave Society;;;;;;;;;;;;;x
 usufruct_prioritised;Usufruct Prioritsed;;;;;;;;;;;;;x
 usufruct_prioritised_desc;With regards to land, this country's legal system prioritise unsufructary property arrangements over real property arangements.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+naval_estimates;Naval Estimates;;;;;;;;;;;;;x
+no_naval_estimates;No Naval Estimates;;;;;;;;;;;;;x
+no_naval_estimates_desc;There is no sinking or hypothecated funds for the purposes of naval construction.;;;;;;;;;;;;;x
+three_year_estimates;Three Year Estimates;;;;;;;;;;;;;x
+three_year_estimates_desc;Money for shipbuilding is allocated three years in advance.;;;;;;;;;;;;;x
+five_year_estimates;Five Year Estimates;;;;;;;;;;;;;x
+five_year_estimates_desc;Money for shipbuilding is allocated five years in advance.;;;;;;;;;;;;;x
+seven_year_estimates;Seven Year Estimates;;;;;;;;;;;;;x
+seven_year_estimates_desc;Money for shipbuilding is allocated seven years in advance.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

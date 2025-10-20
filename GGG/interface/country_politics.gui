@@ -645,7 +645,7 @@ guiTypes = {
 		windowType = {
 			name = "colonial_policy"
 			backGround =""
-			position = { x = 691 y = 515 }
+			position = { x = 843 y = 515 } 
 			size = { x=151 y=92 }
 			moveable = 0
 			dontRender = ""
@@ -701,7 +701,35 @@ guiTypes = {
 			windowType = {
 				name = "border_policy"
 				backGround =""
-				position = { x = 843 y = 451 }
+				position = { x = 843 y = 449 }
+				size = { x=151 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_border_policy"
+				 spriteType = "GFX_politics_border_policy"
+				 position = { x= 6 y = 11 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 37 y = 20 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
+			windowType = {
+				name = "naval_estimates"
+				backGround =""
+				position = { x = 691 y = 515 }
 				size = { x=151 y=100 }
 				moveable = 0
 				dontRender = ""
