@@ -305,23 +305,52 @@ chazd_molluscing;Chazd Molluscing Industry \n\n§WThe Molluscers of Chazd are pro
 WARINDEMNITIES_EXPENSE;Tribute;;;;;;;;;;;;;x
 WARINDEMNITIES_INCOME;Tribute;;;;;;;;;;;;;x
 we_love_slavery;Poumnian Slave Society;;;;;;;;;;;;;x
-usufruct_prioritised;Usufruct Prioritsed;;;;;;;;;;;;;x
+usufruct_prioritised;Usufruct Prioritised;;;;;;;;;;;;;x
+movement_usufruct_prioritised;Common Land Movement;;;;;;;;;;;;;x
+usufruct_prioritised_1;Usufruct Prioritised;;;;;;;;;;;;;x
 usufruct_prioritised_desc;With regards to land, this country's legal system prioritise unsufructary property arrangements over real property arangements.;;;;;;;;;;;;;x
 naval_estimates;Naval Estimates;;;;;;;;;;;;;x
 no_naval_estimates;No Naval Estimates;;;;;;;;;;;;;x
+movement_no_naval_estimates;Naval Disarmament Movement;;;;;;;;;;;;;x
+no_naval_estimates_1;No Naval Estimates;;;;;;;;;;;;;x
 no_naval_estimates_desc;There is no sinking or hypothecated funds for the purposes of naval construction.;;;;;;;;;;;;;x
 three_year_estimates;Three Year Estimates;;;;;;;;;;;;;x
+movement_three_year_estimates;Three Year Estimates Movement;;;;;;;;;;;;;x
+three_year_estimates_1;Naval Armament Movement;;;;;;;;;;;;;x
 three_year_estimates_desc;Money for shipbuilding is allocated three years in advance.;;;;;;;;;;;;;x
 five_year_estimates;Five Year Estimates;;;;;;;;;;;;;x
+movement_five_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
+five_year_estimates_1;Five Year Estimates;;;;;;;;;;;;;x
 five_year_estimates_desc;Money for shipbuilding is allocated five years in advance.;;;;;;;;;;;;;x
 seven_year_estimates;Seven Year Estimates;;;;;;;;;;;;;x
+movement_seven_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
+seven_year_estimates_1;Seven Year Estimates;;;;;;;;;;;;;x
 seven_year_estimates_desc;Money for shipbuilding is allocated seven years in advance.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+usufruct_law;Usufruct Law;;;;;;;;;;;;;x
+realty_prioritised;Realty Prioritsed;;;;;;;;;;;;;x
+realty_prioritised_1;Realty Prioritsed;;;;;;;;;;;;;x
+movement_realty_prioritised_1;Property Rights Movement;;;;;;;;;;;;;x
+realty_prioritised_desc;With regard to land laws, this country prioritises the recognition of 'real' property above concerns of use.;;;;;;;;;;;;;x
+commons_system;Commons System;;;;;;;;;;;;;x
+commons_system_desc;Land is held in a village commons system, with fields rotated between households yearly.;;;;;;;;;;;;;x
+commons_system_1;Commons System;;;;;;;;;;;;;x
+movement_commons_system;Commons Land Movement;;;;;;;;;;;;;x
+land_covenants;Land Covenants;;;;;;;;;;;;;x
+land_covenants_desc;Land covenants, binding legal oaths sworn upon the great seals of the land, garuntee the preservation of most commonlands from the encroachment of private aquisition.;;;;;;;;;;;;;x
+land_covenants_1;Land Covenants;;;;;;;;;;;;;x
+movement_land_covenants;Landsman's Oath Society;;;;;;;;;;;;;x
+commoning_bills;Commoning Bills;;;;;;;;;;;;;x
+commoning_bills_1;Commoning Bills;;;;;;;;;;;;;x
+movement_commoning_bills;Expansion of the Commons Movement;;;;;;;;;;;;;x
+commoning_bills_desc;The government has passed many commoning bills, allowing the expansion of commonland into previous government land or terra nullius.;;;;;;;;;;;;;x
+common_courts;Common Courts;;;;;;;;;;;;;x
+common_courts_1;Common Courts;;;;;;;;;;;;;x
+movement_common_courts;Common Judiciary Movement;;;;;;;;;;;;;x
+common_courts_desc;The status of the land courts has been totally separated and made independent from the civil government.;;;;;;;;;;;;;x
+two_sphere_law;Twain Writ System;;;;;;;;;;;;;x
+two_sphere_law_1;Twain Writ System;;;;;;;;;;;;;x
+movement_two_sphere_law;Twain Writs Movement;;;;;;;;;;;;;x
+two_sphere_law_desc;The culmination of yokerish judicial thought, the twain writ system is a state cleaven into two radical different legal systems between customs and land issues, and civil trials. The civil state acts as little more than a militarised 'watchman', while contract and customary law governs land use and personal lives.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
