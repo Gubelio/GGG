@@ -849,6 +849,8 @@ free_yoker_rebels = {
 		clr_country_flag = federalised
 		clr_country_flag = usufruct_law_country
 		clr_country_flag = realty_law_country
+		clr_country_flag = locked_usu
+		clr_country_flag = locked_real
 
         ruling_party_ideology = free_yoker
 
@@ -1207,9 +1209,9 @@ absolutist_rebels = {
     }
     demands_enforced_effect = {
 		clr_country_flag = locked_fed
-		clr_country_flag = locked_cent
 		clr_country_flag = federalised
 		clr_country_flag = usufruct_law_country
+		clr_country_flag = locked_usu
 
 
         ruling_party_ideology = absolutist
