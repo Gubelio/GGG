@@ -39,6 +39,16 @@ spriteTypes = {
 		name = "GFX_politics_regional_government"
 		texturefile = "gfx\\interface\\politics_regional_government.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_politics_usufruct_law"
+		texturefile = "gfx\\interface\\politics_usufruct_law.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_politics_naval_estimates"
+		texturefile = "gfx\\interface\\politics_naval_estimates.dds"
+	}
 
 	spriteType = {
 		name = "GFX_politics_legal_system"

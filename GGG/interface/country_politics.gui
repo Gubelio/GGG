@@ -738,8 +738,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_border_policy"
-				 spriteType = "GFX_politics_border_policy"
+				 name = "politics_naval_estimates"
+				 spriteType = "GFX_politics_naval_estimates"
 				 position = { x= 6 y = 11 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1281,8 +1281,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_slavery"
-				 spriteType = "GFX_politics_slavery"
+				 name = "politics_usufruct_law"
+				 spriteType = "GFX_politics_usufruct_law"
 				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
