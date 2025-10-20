@@ -2999,6 +2999,145 @@ issues =
 
 ####Land Reform####
 
+	usufruct_prioritised  = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = usufruct_prioritised  }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+	
+	feudal_tenure  = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = feudal_tenure  }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				usufruct_law = commons_system
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+
     enclosure_of_commons  = {
         factor = 1
         modifier = {
@@ -3009,6 +3148,11 @@ issues =
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }
+				usufruct_law = commons_system
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
             }
         }
         modifier = {
@@ -3075,72 +3219,11 @@ issues =
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }
-            }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 1 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.90 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.80 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.70 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.60 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.50 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.40 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.30 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.20 }
-        }
-        modifier = {
-            factor = 1.25
-            NOT = { agree_with_ruling_party = 0.10 }
-        }
-        modifier = {
-            factor = 1.25
-            consciousness = 7
-        }
-        modifier = {
-            factor = 1.25
-            consciousness = 8
-        }
-
-        modifier = {
-            factor = 1.25
-            consciousness = 9
-        }
-    }
-    usufruct_prioritised  = {
-        factor = 1
-        modifier = {
-            factor = 0
-            OR = {
-                NOT = { is_next_reform = usufruct_prioritised  }
-                NOT = { consciousness = 6 }
-                luxury_needs =  1.0
-                NOT = { life_needs = 0.7 }
-                country = { civilized = no }
+				usufruct_law = commons_system
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
             }
         }
         modifier = {
@@ -3207,6 +3290,11 @@ issues =
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }
+				usufruct_law = commons_system
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
             }
         }
         modifier = {
@@ -3273,6 +3361,438 @@ issues =
                 luxury_needs =  1.0
                 NOT = { life_needs = 0.7 }
                 country = { civilized = no }
+				usufruct_law = commons_system
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
+            }
+        }
+
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+	
+############ USUFRUCT LAW #############################
+
+realty_prioritised  = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = realty_prioritised  }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+    commons_system = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = commons_system }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				land_reform_civ = feudal_tenure
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership
+				land_reform_civ = farm_cooperatives
+				land_reform_civ = collectivized_farming
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+    land_covenants  = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = land_covenants   }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				land_reform_civ = feudal_tenure
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership
+				land_reform_civ = farm_cooperatives
+				land_reform_civ = collectivized_farming
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+    commoning_bills  = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = commoning_bills }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				land_reform_civ = feudal_tenure
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership
+				land_reform_civ = farm_cooperatives
+				land_reform_civ = collectivized_farming
+            }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.25
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+    common_courts = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = common_courts }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				land_reform_civ = feudal_tenure
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership
+				land_reform_civ = farm_cooperatives
+				land_reform_civ = collectivized_farming
+            }
+        }
+
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 1 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.90 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.80 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.70 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.60 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.50 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.40 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.30 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.20 }
+        }
+        modifier = {
+            factor = 1.3
+            NOT = { agree_with_ruling_party = 0.10 }
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 7
+        }
+        modifier = {
+            factor = 1.25
+            consciousness = 8
+        }
+
+        modifier = {
+            factor = 1.25
+            consciousness = 9
+        }
+    }
+	
+	two_sphere_law = {
+        factor = 1
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { is_next_reform = two_sphere_law }
+                NOT = { consciousness = 6 }
+                luxury_needs =  1.0
+                NOT = { life_needs = 0.7 }
+                country = { civilized = no }
+				land_reform_civ = feudal_tenure
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership
+				land_reform_civ = farm_cooperatives
+				land_reform_civ = collectivized_farming
             }
         }
 
