@@ -621,18 +621,18 @@ school_reforms = {
 		
 		three_year_estimates = {
 			naval_unit_start_experience = 10
-			loan_interest = -0.02
+			loan_interest = -0.002
 		
 		}
 		
 		five_year_estimates = {
 			naval_unit_start_experience = 20
-			loan_interest = -0.03
+			loan_interest = -0.003
 		}
 		
 		seven_year_estimates = {
 			naval_unit_start_experience = 30
-			loan_interest = -0.04
+			loan_interest = -0.004
 		}
 	}
 	
@@ -731,6 +731,42 @@ social_reforms = {
 
         }
 
+    }
+	
+	usufruct_law = {
+        next_step_only = yes
+		
+		realty_prioritised = {
+		
+		
+		}
+
+        commons_system = {
+            rgo_throughput = -0.1
+            rgo_output = -0.05
+
+        }
+
+        land_covenants = {
+
+        }
+
+        commoning_bills = {
+            #rgo_throughput = 0.03
+
+        }
+
+
+        common_courts = {
+            #rgo_throughput = 0.05
+
+        }
+
+        two_sphere_law = {
+            #rgo_throughput = 0.2
+            #rgo_output = 0.05
+
+        }
     }
 
 

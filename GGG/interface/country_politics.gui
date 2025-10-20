@@ -1270,6 +1270,34 @@ guiTypes = {
 			}
 			
 			windowType = {
+				name = "usufruct_law"
+				backGround =""
+				position = {  x = 536 y = 235  } #
+				size = { x=151 y=92 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_slavery"
+				 spriteType = "GFX_politics_slavery"
+				 position = { x = 6 y = 13 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 39 y = 20 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
+			windowType = {
 				name = "debt_law"
 				backGround =""
 				position = { x = 384 y = 515 } #x = 384 y = 328
