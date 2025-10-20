@@ -476,14 +476,14 @@ political_decisions = {
 			
 			}
 			
-			THIS = {
-				country_event = {
-					id = 50289
-					days = 25
-				
-				}
-			
-			}
+			#THIS = {
+			#	country_event = {
+			#		id = 50289
+			#		days = 25
+			#	
+			#	}
+			#
+			#}
 		}
 		
 		ai_will_do = {
