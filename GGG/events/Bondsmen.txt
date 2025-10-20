@@ -828,17 +828,17 @@ country_event = { #### BONDSMANSETUP #####
 
 }
 
-country_event = {
-	id = 50289
-	title = "EVTNAME50289" 
-	desc = "EVTDESC50289"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "I see."
-		political_reform = public_ownership
-	}
-	
-
-}
+#country_event = {
+#	#id = 50289
+#	#title = "EVTNAME50289" 
+#	#desc = "EVTDESC50289"
+#	#
+#	#is_triggered_only = yes
+#	#
+#	#option = {
+#	#	name = "I see."
+#	#	political_reform = public_ownership
+#	#}
+#	
+#
+#}
