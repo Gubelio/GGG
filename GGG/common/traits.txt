@@ -402,6 +402,27 @@ personality = {
 		morale = -0.30
 		reliability = -0.03
 	}
+	wicked = {
+		attack = 2
+		reliability = -0.1
+		morale = -0.2
+	}
+	cruel = {
+		reliability = -0.03
+		morale = -0.02
+		attack = 1
+	}
+	diligent = {
+		reliability = 0.02
+		organisation = 0.05
+		attrition = -0.03
+	
+	}
+	
+	disgraced_p = {
+		experience = 0.05
+	}
+	
 }
 
 background = {
@@ -545,7 +566,7 @@ background = {
 	}
 	womanizer = {
 		morale = 0.20
-		reliability = -0.02
+		reliability = -0.03
 	}
 	warmonger = {
 		morale = -0.20
