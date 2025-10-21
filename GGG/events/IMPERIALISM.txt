@@ -471,11 +471,11 @@ country_event = { #Occupy sithuchi desert 1
 
     option = {
         name = "EVT50030OPTA"
-			398 = { secede_province = THIS add_core = THIS }
-			399 = { secede_province = THIS add_core = THIS }
-			401 = { secede_province = THIS add_core = THIS }
-			402 = { secede_province = THIS add_core = THIS }
-			403 = { secede_province = THIS add_core = THIS }
+			398 = { secede_province = THIS  }
+			399 = { secede_province = THIS  }
+			401 = { secede_province = THIS  }
+			402 = { secede_province = THIS  }
+			403 = { secede_province = THIS  }
     }
 }
 
@@ -503,11 +503,11 @@ country_event = { #Occupy sithuchi desert 2
 
     option = {
         name = "EVT50031OPTA"
-			408 = { secede_province = THIS add_core = THIS }
-			407 = { secede_province = THIS add_core = THIS }
-			406 = { secede_province = THIS add_core = THIS }
-			405 = { secede_province = THIS add_core = THIS }
-			404 = { secede_province = THIS add_core = THIS }
+			408 = { secede_province = THIS  }
+			407 = { secede_province = THIS  }
+			406 = { secede_province = THIS  }
+			405 = { secede_province = THIS  }
+			404 = { secede_province = THIS  }
     }
 }
 
@@ -538,11 +538,11 @@ country_event = { #Occupy sithuchi desert 3
         name = "EVT50033OPTA"
 			415 = { add_core = THIS }
 			416 = { add_core = THIS }
-			413 = { secede_province = THIS add_core = THIS }
-			412 = { secede_province = THIS add_core = THIS }
-			411 = { secede_province = THIS add_core = THIS }
-			410 = { secede_province = THIS add_core = THIS }
-			409 = { secede_province = THIS add_core = THIS }
+			413 = { secede_province = THIS  }
+			412 = { secede_province = THIS  }
+			411 = { secede_province = THIS  }
+			410 = { secede_province = THIS  }
+			409 = { secede_province = THIS  }
     }
 }
 

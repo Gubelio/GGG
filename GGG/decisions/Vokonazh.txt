@@ -22,13 +22,13 @@ political_decisions = {
 		}
 		
 		effect = {
-			635 = { secede_province = THIS add_core = THIS }
-			632 = { secede_province = THIS add_core = THIS }
-			633 = { secede_province = THIS add_core = THIS }
-			636 = { secede_province = THIS add_core = THIS }
-			634 = { secede_province = THIS add_core = THIS }
-			637 = { secede_province = THIS add_core = THIS }
-			670 = { secede_province = THIS add_core = THIS }
+			635 = { secede_province = THIS  }
+			632 = { secede_province = THIS }
+			633 = { secede_province = THIS  }
+			636 = { secede_province = THIS  }
+			634 = { secede_province = THIS  }
+			637 = { secede_province = THIS  }
+			670 = { secede_province = THIS  }
 			set_global_flag = conquest_of_the_zatgizob			
 		}
 	}

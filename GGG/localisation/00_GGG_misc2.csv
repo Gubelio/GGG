@@ -203,12 +203,12 @@ backwards_customs;Backwards Customs;;;;;;;;;;;;;x
 backwards_customs_desc;The Poumnian state chose to keep internal customs. Unlike their more progressive neighbours, they stand out for their curious tax regime.;;;;;;;;;;;;;x
 gap_toothing_resolved;Gap Toothing Resolved;;;;;;;;;;;;;x
 gap_toothing_resolved;The struggle over the gap toothing debate as strengthened the grip of the central government on the land.;;;;;;;;;;;;;x
-exploitation_1;Exploitation;;;;;;;;;;;;;x
-four_year_draft_1;Four Year Draft;;;;;;;;;;;;;x
-two_year_draft_1;Two Year Draft;;;;;;;;;;;;;x
-one_year_draft_1;One Year Draft;;;;;;;;;;;;;x
-self_rule_1;Self Rule;;;;;;;;;;;;;x
-settlement_1;Settlement;;;;;;;;;;;;;x
+exploitation_l;Exploitation;;;;;;;;;;;;;x
+four_year_draft_l;Four Year Draft;;;;;;;;;;;;;x
+two_year_draft_l;Two Year Draft;;;;;;;;;;;;;x
+one_year_draft_l;One Year Draft;;;;;;;;;;;;;x
+self_rule_l;Self Rule;;;;;;;;;;;;;x
+settlement_l;Settlement;;;;;;;;;;;;;x
 statist_strike;Statist Obstruction;;;;;;;;;;;;;x
 smallholder_society;Smallholder Society;;;;;;;;;;;;;x
 smallholder_society_desc;This is a society of smallholders - moderately sized farms owned by largely by families, not firms or capitalists.;;;;;;;;;;;;;x
@@ -274,20 +274,20 @@ ran_serf_status;Legal;;;;;;;;;;;;;x
 seat_of_the_dehuogi_clan;Seat of the Dehuogi Clan \n\n§WThis is the seat of the Dehuogi clan, the tribal census that governs all Dehuogi in the Bogoran Clan-Parliamentary System, as well as represents them in the Assembly of the Old Clans. It is the newest clan, and was invited in the last century. The Dehuogi Marchlanders are famous for their loyalty to the Bogoran state, and from their fortresses maintain a zealous watch over the coast of Yamajoury.;;;;;;;;;;;;;x
 RULE_DHONT;Pazzak's Method;x
 centralised;Centralised;x
-centralised_1;Centralised;x
+centralised_l;Centralised;x
 centralised_desc;This state is centralised, and passing any further reforms here will reset that!;x
 states_system;States System;x
-states_system_1;States System;x
+states_system_l;States System;x
 states_system_desc;This state is organised along the lines of a system of federated states, with develolved responsibility.;x
 vocational_candidacy;Vocational Constituency;x
-vocational_candidacy_1;Vocational Constituency;x
+vocational_candidacy_l;Vocational Constituency;x
 vocational_candidacy_desc;This state is broadly corporatist, with major chartered organisations, occupational guilds, industiral firms, and numerous other bodies having the power to elect or appoint representatives in a byzantine network of rights and privlieges.;x
 federalisation;Decentralisation;;;;;;;;;;;;;x
 upper_house_composition;Minor Issues;;;;;;;;;;;;;x
 two_per_state;National Ramient;;;;;;;;;;;;;x
-two_per_state_1;National Ramient;;;;;;;;;;;;;x
+two_per_state_l;National Ramient;;;;;;;;;;;;;x
 proportional;Anti-Witch Legislation;;;;;;;;;;;;;x
-proportional_1;Anti-Witch Legislation;;;;;;;;;;;;;x
+proportional_l;Anti-Witch Legislation;;;;;;;;;;;;;x
 POP_DAILY_EVENT;Windfalls: §Y$VAL$§W¤;;;;;;;;;;;;;;x
 cordon_sanitaire_province;Cordon Sanitaire;;;;;;;;;;;;;x
 had_pandemic;Had Pandemic;;;;;;;;;;;;;x
@@ -307,49 +307,49 @@ WARINDEMNITIES_INCOME;Tribute;;;;;;;;;;;;;x
 we_love_slavery;Poumnian Slave Society;;;;;;;;;;;;;x
 usufruct_prioritised;Usufruct Prioritised;;;;;;;;;;;;;x
 movement_usufruct_prioritised;Common Land Movement;;;;;;;;;;;;;x
-usufruct_prioritised_1;Usufruct Prioritised;;;;;;;;;;;;;x
+usufruct_prioritised_l;Usufruct Prioritised;;;;;;;;;;;;;x
 usufruct_prioritised_desc;With regards to land, this country's legal system prioritise unsufructary property arrangements over real property arangements.;;;;;;;;;;;;;x
 naval_estimates;Naval Estimates;;;;;;;;;;;;;x
 no_naval_estimates;No Naval Estimates;;;;;;;;;;;;;x
 movement_no_naval_estimates;Naval Disarmament Movement;;;;;;;;;;;;;x
-no_naval_estimates_1;No Naval Estimates;;;;;;;;;;;;;x
+no_naval_estimates_l;No Naval Estimates;;;;;;;;;;;;;x
 no_naval_estimates_desc;There is no sinking or hypothecated funds for the purposes of naval construction.;;;;;;;;;;;;;x
 three_year_estimates;Three Year Estimates;;;;;;;;;;;;;x
 movement_three_year_estimates;Three Year Estimates Movement;;;;;;;;;;;;;x
-three_year_estimates_1;Naval Armament Movement;;;;;;;;;;;;;x
+three_year_estimates_l;Naval Armament Movement;;;;;;;;;;;;;x
 three_year_estimates_desc;Money for shipbuilding is allocated three years in advance.;;;;;;;;;;;;;x
 five_year_estimates;Five Year Estimates;;;;;;;;;;;;;x
 movement_five_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
-five_year_estimates_1;Five Year Estimates;;;;;;;;;;;;;x
+five_year_estimates_l;Five Year Estimates;;;;;;;;;;;;;x
 five_year_estimates_desc;Money for shipbuilding is allocated five years in advance.;;;;;;;;;;;;;x
 seven_year_estimates;Seven Year Estimates;;;;;;;;;;;;;x
 movement_seven_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
-seven_year_estimates_1;Seven Year Estimates;;;;;;;;;;;;;x
+seven_year_estimates_l;Seven Year Estimates;;;;;;;;;;;;;x
 seven_year_estimates_desc;Money for shipbuilding is allocated seven years in advance.;;;;;;;;;;;;;x
 usufruct_law;Usufruct Law;;;;;;;;;;;;;x
 realty_prioritised;Realty Prioritsed;;;;;;;;;;;;;x
-realty_prioritised_1;Realty Prioritsed;;;;;;;;;;;;;x
+realty_prioritised_l;Realty Prioritsed;;;;;;;;;;;;;x
 movement_realty_prioritised_1;Property Rights Movement;;;;;;;;;;;;;x
 realty_prioritised_desc;With regard to land laws, this country prioritises the recognition of 'real' property above concerns of use.;;;;;;;;;;;;;x
 commons_system;Commons System;;;;;;;;;;;;;x
 commons_system_desc;Land is held in a village commons system, with fields rotated between households yearly.;;;;;;;;;;;;;x
-commons_system_1;Commons System;;;;;;;;;;;;;x
+commons_system_l;Commons System;;;;;;;;;;;;;x
 movement_commons_system;Commons Land Movement;;;;;;;;;;;;;x
 land_covenants;Land Covenants;;;;;;;;;;;;;x
 land_covenants_desc;Land covenants, binding legal oaths sworn upon the great seals of the land, garuntee the preservation of most commonlands from the encroachment of private aquisition.;;;;;;;;;;;;;x
-land_covenants_1;Land Covenants;;;;;;;;;;;;;x
+land_covenants_l;Land Covenants;;;;;;;;;;;;;x
 movement_land_covenants;Landsman's Oath Society;;;;;;;;;;;;;x
 commoning_bills;Commoning Bills;;;;;;;;;;;;;x
-commoning_bills_1;Commoning Bills;;;;;;;;;;;;;x
+commoning_bills_l;Commoning Bills;;;;;;;;;;;;;x
 movement_commoning_bills;Expansion of the Commons Movement;;;;;;;;;;;;;x
 commoning_bills_desc;The government has passed many commoning bills, allowing the expansion of commonland into previous government land or terra nullius.;;;;;;;;;;;;;x
 common_courts;Common Courts;;;;;;;;;;;;;x
-common_courts_1;Common Courts;;;;;;;;;;;;;x
+common_courts_l;Common Courts;;;;;;;;;;;;;x
 movement_common_courts;Common Judiciary Movement;;;;;;;;;;;;;x
 common_courts_desc;The status of the land courts has been totally separated and made independent from the civil government.;;;;;;;;;;;;;x
-two_sphere_law;Twain Writ System;;;;;;;;;;;;;x
-two_sphere_law_1;Twain Writ System;;;;;;;;;;;;;x
-movement_two_sphere_law;Twain Writs Movement;;;;;;;;;;;;;x
+two_sphere_law;Two Sphere System;;;;;;;;;;;;;x
+two_sphere_law_l;Two Sphere System;;;;;;;;;;;;;x
+movement_two_sphere_law;Two Spheres Movement;;;;;;;;;;;;;x
 two_sphere_law_desc;The culmination of yokerish judicial thought, the twain writ system is a state cleaven into two radical different legal systems between customs and land issues, and civil trials. The civil state acts as little more than a militarised 'watchman', while contract and customary law governs land use and personal lives.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

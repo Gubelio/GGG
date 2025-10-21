@@ -24,13 +24,13 @@ political_decisions = {
 		}
 		
 		effect = {
-			760 = { secede_province = THIS add_core = THIS }
-			759 = { secede_province = THIS add_core = THIS }
-			758 = { secede_province = THIS add_core = THIS }
-			713 = { secede_province = THIS add_core = THIS }
-			700 = { secede_province = THIS add_core = THIS }
-			698 = { secede_province = THIS add_core = THIS }
-			699 = { secede_province = THIS add_core = THIS }
+			760 = { secede_province = THIS  }
+			759 = { secede_province = THIS  }
+			758 = { secede_province = THIS  }
+			713 = { secede_province = THIS  }
+			700 = { secede_province = THIS  }
+			698 = { secede_province = THIS  }
+			699 = { secede_province = THIS  }
 			set_global_flag = conquest_of_the_ishagizob			
 		}
 	}
