@@ -77,6 +77,18 @@ promote_to = {
             factor = 2
             luxury_needs = 0.5
         }
+		modifier = {
+            factor = 1.3
+            OR = {
+				land_reform_civ = enclosure_of_commons
+				land_reform_civ = private_landownership			
+				land_reform_civ = farm_cooperatives
+				
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
+			}
+        }
     }
 }
 
