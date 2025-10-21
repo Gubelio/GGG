@@ -17,7 +17,7 @@ prestige = 40 #25
 citizens_rights = culture_voting_only
 border_policy = quota_immigration
 legislative_system = regulated_elections
-land_reform_civ = feudal_tenure
+land_reform_civ = usufruct_prioritised
 banking_system = banking_licenses
 thralldom = thralldom_allowed
 public_order = feudal_courts
@@ -27,6 +27,7 @@ health_care = no_health_care
 school_reforms = no_school_system
 
 # Social Reforms
+usufruct_law = land_covenants
 emigration_law = emigration_restricted
 clerical_law = anti_clericalism
 worker_protections = acceptable_protections

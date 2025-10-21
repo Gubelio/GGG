@@ -285,6 +285,7 @@ reactionary_rebels = {
         political_reform = feudal_courts
 
         social_reform = feudal_rights
+		social_reform = realty_prioritised
 
         #random_owned = { limit = { owner = { NOT = { trade_unions = no_trade_unions } } } owner = { political_reform = state_controlled } }
         #random_owned = { limit = { owner = { NOT = { citizens_rights = primary_culture_only } } } owner = { social_reform = culture_voting_only } }
@@ -855,30 +856,19 @@ free_yoker_rebels = {
         ruling_party_ideology = free_yoker
 
         political_reform = thralldom_allowed
-		random_list = {
-			30 = {
-				political_reform = tribal_assembly_i
-				political_reform = tribal_assembly
-			}
-			70 = {
-				political_reform = centralised
-				political_reform = noble_parliament
-			}
 		
-		}
+		set_country_flag = centralised
+		political_reform = centralised
+		political_reform = regulated_elections
 		
-		random_list = {
-			30 = {
-				political_reform = enclosure_of_commons
-				social_reform = realty_prioritised
-			}
-			70 = {
-				political_reform = usufruct_prioritised
-				social_reform = commons_system
-				set_country_flag = usufruct_law_country
-			}
 		
-		}
+	
+		set_country_flag = usufruct_law_country
+		political_reform = usufruct_prioritised
+		social_reform = land_covenants
+
+		
+
 		
         political_reform = no_school_system
 
@@ -923,24 +913,14 @@ free_yoker_rebels = {
 			}
 		}
 		
-		if = {
-			limit = {
-				THIS = {
-					NOT = { 
-						has_country_flag = smallholder_society 
-						has_country_flag = usufruct_law_country
-					
-					}
-					
-				}
-			}
+		random = {
+			chance = 20
 			THIS = {
 				country_event = {
 					id = 50189
-					days = 30
+					days = 20
 				}
 			}
-		
 		}
 		
     
