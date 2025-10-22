@@ -236,7 +236,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = kadkohi
+								has_pop_religion = kadkohi
 							}
 						}
 					}
@@ -259,7 +259,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = kadkohi
+								has_pop_religion = kadkohi
 							}
 						}
 					}
@@ -287,7 +287,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = motkohnic
+								has_pop_religion = motkohnic
 							}
 						}
 					}
@@ -310,7 +310,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = motkohnic
+								has_pop_religion = motkohnic
 							}
 						}
 					}
@@ -336,7 +336,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = vewugi
+								has_pop_religion = vewugi
 							}
 						}
 						tag = AYU
@@ -360,7 +360,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = vewugi
+								has_pop_religion = vewugi
 							}
 						}
 						tag = AYU
@@ -388,7 +388,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = wompowushan
+								has_pop_religion = wompowushan
 							}
 						}
 					}
@@ -410,7 +410,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = wompowushan
+								has_pop_religion = wompowushan
 							}
 						}
 					}
@@ -436,7 +436,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = tehuhrite
+								has_pop_religion = tehuhrite
 							}
 						}
 					}
@@ -458,7 +458,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = tehuhrite
+								has_pop_religion = tehuhrite
 							}
 						}
 					}
@@ -488,7 +488,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = shamush
+								has_pop_religion = shamush
 							}
 						}
 					}
@@ -514,7 +514,7 @@ country_event = { ####### INDEX
 							civilized = yes
 							year = 1370
 							any_pop = {
-								religion = shamush
+								has_pop_religion = shamush
 							}
 						}
 					}
@@ -1292,7 +1292,7 @@ country_event = {
 }
 
 
-#### RELIGION UNLOCKS ###
+#### has_pop_religion UNLOCKS ###
 
 country_event = { #study J'ur
 	id = 50140
@@ -1304,7 +1304,7 @@ country_event = { #study J'ur
 		civilized = yes
 		functionalism = 1
 		any_pop = {
-			religion = jur
+			has_pop_religion = jur
 		}
 		any_owned_province = {
 			continent = europe
@@ -1371,7 +1371,7 @@ country_event = { #study Momurism
 			is_sphere_leader_of = QOO
 			AND = {
 				any_pop = {
-					religion = momuirst
+					has_pop_religion = momuirst
 				}	
 				any_owned_province = {
 					continent = south_america
@@ -1431,7 +1431,7 @@ country_event = { #study Kusii
 		OR = {
 			AND = {
 				any_pop = {
-					religion = kusii
+					has_pop_religion = kusii
 				}	
 				any_owned_province = {
 					continent = africa
@@ -1485,7 +1485,7 @@ country_event = { #study rechktist
 		civilized = yes
 		functionalism = 1
 		any_pop = {
-			religion = rechktist
+			has_pop_religion = rechktist
 		}
 		any_owned_province = {
 			continent = south_america
@@ -1572,7 +1572,7 @@ country_event = { #study paorusu
 		civilized = yes
 		functionalism = 1
 		any_pop = {
-			religion = paorusu
+			has_pop_religion = paorusu
 		}
 		any_owned_province = {
 			continent = south_america

@@ -400,11 +400,11 @@ socialist_realism = {
 		base = 2
 		modifier = {
 			factor = 2
-			government = paternalistic_council
+			government = statist_bureaucracy
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = liberationist
+			ruling_party_ideology = absolutist
 		}
 		modifier = {
 			factor = 2
