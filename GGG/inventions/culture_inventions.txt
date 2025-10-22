@@ -348,10 +348,10 @@ surrealism = {
 			factor = 2
 			anti__rationalism = 1
 		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_violence
-		}
+		#modifier = {
+		#	factor = 2
+		#	invention = dogma_of_violence
+		#}
 	}
 	effect = {
 		shared_prestige = 25 
