@@ -618,7 +618,7 @@ school_reforms = {
 	}
 	
 	naval_estimates = {
-		
+		next_step_only = yes
 		no_naval_estimates = {
 		}
 		
