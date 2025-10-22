@@ -273,6 +273,11 @@ personality = {
 		organisation = 0.05
 		reconnaissance = 0.25
 	}
+	diligent = {
+		reliability = 0.02
+		organisation = 0.05
+		attrition = -0.03
+	}
 	skilled = {
 		attack = 1
 		organisation = 0.05
@@ -412,13 +417,6 @@ personality = {
 		morale = -0.02
 		attack = 1
 	}
-	diligent = {
-		reliability = 0.02
-		organisation = 0.05
-		attrition = -0.03
-	
-	}
-	
 	disgraced_p = {
 		experience = 0.05
 	}
@@ -648,5 +646,9 @@ background = {
 	}
 	incompetent = {
 		reliability = -0.03
+	}
+	bungler = {
+		reliability = -0.04
+		attack = -1
 	}
 }
