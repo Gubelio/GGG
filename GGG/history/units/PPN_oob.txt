@@ -1,0 +1,42 @@
+
+#Leaders
+
+leader = {
+    name = "Mauzpt Miib"
+    type = land
+    date = 1307.1.1
+    personality = resourceful
+    background = yesman
+}
+
+#Armies
+
+army = {
+    name = "Colonial Army"
+    location = 1398
+
+    regiment = {
+        name= "Militia"
+        type = irregular
+        home = 1398
+    }
+
+    regiment = {
+        name= "Militia"
+        type = irregular
+        home = 1399
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 1401
+    }
+	
+    regiment = {
+        name= "Swine Riders"
+        type = hussar
+        home = 1406
+    }
+
+}
