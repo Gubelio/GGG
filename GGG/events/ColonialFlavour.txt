@@ -648,7 +648,7 @@ country_event = { #EXPLORERSLOST
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 400
 		 
 		#modifier = {
         #    factor = 0.9
@@ -691,7 +691,7 @@ country_event = { #negotiate colonial purchase
 	}
 	
 	mean_time_to_happen = {
-		months = 85
+		months = 139
 		 
 		modifier = {
 			factor = 0.9
@@ -758,7 +758,7 @@ country_event = { #charming native discovered
 	}
 	
 	mean_time_to_happen = {
-		months = 90
+		months = 134
 		 
 	}
 	
@@ -797,7 +797,7 @@ country_event = { #renaming lakes
 
 	
 	mean_time_to_happen = {
-		months = 68
+		months = 100
 		 
 	
 	}
@@ -926,7 +926,7 @@ country_event = { #the bafozhi pig!
 	}
 	
 	mean_time_to_happen = {
-		months = 90
+		months = 184
 		
 		modifier = {
 			factor = 0.7
@@ -963,7 +963,7 @@ country_event = { #maps
 	}
 	
 	mean_time_to_happen = {
-		months = 92
+		months = 192
 		
 		 
 	}
@@ -971,6 +971,7 @@ country_event = { #maps
 	option = {
 		name = "Distribute these maps among our commericial and industrial elite."
 		prestige = 3
+		clr_country_flag = exploring_bafozh
 		
 		random_country = {
 			limit = {
@@ -1098,7 +1099,7 @@ country_event = { #barely_survived
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 300
 
 		 
 	}
