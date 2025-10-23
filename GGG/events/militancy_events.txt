@@ -975,7 +975,7 @@ province_event = {
     allow_multiple_instances = no
 
     mean_time_to_happen = {
-        months = 3000 #1200
+        months = 5500 #3000
 
     }
 
@@ -1048,7 +1048,7 @@ province_event = {
     allow_multiple_instances = no
 
     mean_time_to_happen = {
-        months = 2400 #1200
+        months = 2000 #1200
 
     }
 
