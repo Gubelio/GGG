@@ -915,7 +915,17 @@ country_event = {
 				has_pop_type = serfs
 			
 			}
-			add_province_modifier = { name = dumuv_abolished duration = 365 }
+			random_list = {
+				34 = {
+					add_province_modifier = { name = dumuv_abolished duration = 250 }
+				}
+				33 = {
+					add_province_modifier = { name = dumuv_abolished duration = 300 }
+				}
+				33 = {
+					add_province_modifier = { name = dumuv_abolished duration = 350 }
+				}
+			}
 		}
 		
 		set_country_flag = serfdom_abolished
@@ -952,7 +962,17 @@ country_event = {
 				has_pop_type = serfs
 			
 			}
-			add_province_modifier = { name = dumuv_abolished duration = 365 }
+			random_list = {
+				34 = {
+					add_province_modifier = { name = dumuv_abolished duration = 250 }
+				}
+				33 = {
+					add_province_modifier = { name = dumuv_abolished duration = 300 }
+				}
+				33 = {
+					add_province_modifier = { name = dumuv_abolished duration = 350 }
+				}
+			}
 		}
 		
 		set_country_flag = serfdom_abolished
@@ -1103,6 +1123,8 @@ country_event = {
 		
 		}
 		
+		government = theocracy
+		
 		year = 1334
 		
 		owns = 5
@@ -1122,7 +1144,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Select a vessel from the smaller house."
+		name = "... the Pudwou will surely wish to associate with talent and virtue."
 		
 		random_owned = {
 			limit = {
@@ -1773,7 +1795,7 @@ country_event = {
 	
 	
 	option = {
-		name = "We should seek to court the favour of the larger house."
+		name = "... the Pudwou will surely mingle with might and tradition."
 	
 		
 		
