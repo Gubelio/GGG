@@ -31,6 +31,11 @@ country_event = {
 			limit = { terrain = marsh }
 			add_province_modifier = { name = ancestral_swamp_farms duration = 36525 }
 		}
+		
+		set_variable = {
+			which = poumnian_succession
+			value = 0
+		}
 	}
 }
 
@@ -153,6 +158,7 @@ country_event = {
 			war = no
 		
 		}
+		NOT = { has_country_flag = sog_vas_event }
 	
 	}
 	
@@ -170,6 +176,7 @@ country_event = {
 			}
 		
 		}
+		NOT = { has_country_flag = sog_vas_event }
 	
 	}
 	
@@ -180,6 +187,7 @@ country_event = {
 			who = SOG
 			value = 100
 		}
+		NOT = { has_country_flag = sog_vas_event }
 	}
 
 }
@@ -872,4 +880,1505 @@ country_event = {
 	}
 
 
+}
+
+###################################
+###### SERFDOM END POUMNIA ########
+###################################
+
+
+country_event = { 
+	id = 50296
+	title = "EVTNAME50296"
+	desc = "EVTDESC50296"
+	picture = "POU_generic"
+	
+	trigger = {
+		NOT = { debt_law = serfdom }
+		NOT = { has_country_flag = serfdom_abolished }
+		tag = POU
+	
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "The Will of the Vopudwou is Final!"
+		prestige = 10
+		
+		any_owned = {
+			limit = {
+				has_pop_type = serfs
+			
+			}
+			add_province_modifier = { name = dumuv_abolished duration = 365 }
+		}
+		
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 10
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 9
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "We must make it clear that we mean the aristocracy no ill will."
+		
+		any_owned = {
+			limit = {
+				has_pop_type = serfs
+			
+			}
+			add_province_modifier = { name = dumuv_abolished duration = 365 }
+		}
+		
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		ai_chance = {
+            factor = 0
+		}
+		
+		any_pop = {
+			limit = {
+				type = aristocrats
+				location = {
+					has_pop_type = serfs
+				}
+			}
+			money = 4000
+			location = {
+				
+				owner = {
+					treasury = -4000
+				}
+			}
+		
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 4
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 4
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 1
+			}
+		}
+		
+		
+	}
+	
+	option = {
+		name = "This was unwise of us. Free only the imperial serfs."
+		prestige = -10
+		social_reform = serfdom
+		set_country_flag = serfdom_abolished
+		any_country = {
+            limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+        }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+		random_owned = {
+            limit = {
+                has_pop_type = serfs
+                has_pop_type = farmers
+            }
+            any_pop = { limit = { type = serfs } pop_type = farmers }
+        }
+		
+					
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 4
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 4
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 4
+			}
+		}
+		
+	}
+}
+
+
+#############################
+###### SELECT VESSEL ########
+#############################
+
+country_event = {
+	id = 50297
+	title = "EVTNAME50297"
+	desc = "EVTDESC50297"
+	picture = "POU_imperial"
+	
+	trigger = {
+		tag = POU
+		NOT = {
+			check_variable = {
+				which = poumnian_succession
+				value = 2
+			}
+		
+		}
+		
+		year = 1334
+		
+		owns = 5
+		owns = 17
+		owns = 54
+		owns = 21
+		owns = 31
+		owns = 42
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 350
+	
+	
+	}
+	
+	option = {
+		name = "Select a vessel from the smaller house."
+		
+		random_owned = {
+			limit = {
+				OR = {
+					province_id = 8
+					province_id = 31
+					province_id = 45
+				
+				}
+			
+			}
+			state_scope = {
+				any_pop = {
+					limit = {
+						type = aristocrats
+					
+					}
+					
+					militancy = 2
+					consciousness = 2
+					
+				}
+			}
+		
+	
+		}
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+				
+						has_country_flag = ashouw_selected
+						has_country_flag = tangpt_selected
+						has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					34 = {
+						define_general = {
+							name = "Oro Sha-Ashouw"
+							personality = chivalrous
+							background = aristocrat
+						}
+						set_country_flag = ashouw_selected
+						set_country_flag = selection_made
+						
+						5 = {
+
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+							
+					
+						}
+					
+					}
+					
+					33 = {
+						define_general = {
+							name = "Foug Sha-Tangpt"
+							personality = implacable
+							background = aristocrat
+						}
+						set_country_flag = tangpt_selected
+						set_country_flag = selection_made
+						17 = {
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+	
+					
+						}
+					}
+					
+					33 = {
+						define_general = {
+							name = "Praakunt Sha-Wongpt"
+							personality = resolute
+							background = aristocrat
+						}
+						set_country_flag = wongpt_selected
+						set_country_flag = selection_made
+						
+						54 = {
+
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_country_flag = selection_made
+						#has_country_flag = ashouw_selected
+						has_country_flag = tangpt_selected
+						has_country_flag = wongpt_selected
+							
+					
+			
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					#34 = {
+					#	define_general = {
+					#		name = "Oro Sha-Ashouw"
+					#		personality = chivalrous
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = ashouw_selected
+					#	
+					#	5 = {
+					#
+					#		any_pop = {
+					#			limit = {
+					#				type = aristocrats
+					#		
+					#			}
+					#		
+					#		militancy = -1
+					#		consciousness = -1
+					#		
+					#		}
+					#	
+					#		
+					#
+					#	}
+					#
+					#}
+					
+					50 = {
+						define_general = {
+							name = "Foug Sha-Tangpt"
+							personality = implacable
+							background = aristocrat
+						}
+						set_country_flag = tangpt_selected
+						set_country_flag = selection_made
+						17 = {
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+	
+					
+						}
+					}
+					
+					50 = {
+						define_general = {
+							name = "Praakunt Sha-Wongpt"
+							personality = resolute
+							background = aristocrat
+						}
+						set_country_flag = wongpt_selected
+						set_country_flag = selection_made
+						
+						54 = {
+
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ashouw_selected
+						#has_country_flag = tangpt_selected
+						has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					50 = {
+						define_general = {
+							name = "Oro Sha-Ashouw"
+							personality = chivalrous
+							background = aristocrat
+						}
+						set_country_flag = ashouw_selected
+						set_country_flag = selection_made
+						
+						5 = {
+					
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+							
+					
+						}
+					
+					}
+					
+					#50 = {
+					#	define_general = {
+					#		name = "Foug Sha-Tangpt"
+					#		personality = implacable
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = tangpt_selected
+					#	17 = {
+					#		any_pop = {
+					#			limit = {
+					#				type = aristocrats
+					#		
+					#			}
+					#		
+					#		militancy = -1
+					#		consciousness = -1
+					#		
+					#		}
+					#	
+					#
+					#
+					#	}
+					#}
+					
+					50 = {
+						define_general = {
+							name = "Praakunt Sha-Wongpt"
+							personality = resolute
+							background = aristocrat
+						}
+						set_country_flag = wongpt_selected
+						set_country_flag = selection_made
+						
+						54 = {
+
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ashouw_selected
+						has_country_flag = tangpt_selected
+						#has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					50 = {
+						define_general = {
+							name = "Oro Sha-Ashouw"
+							personality = chivalrous
+							background = aristocrat
+						}
+						set_country_flag = ashouw_selected
+						set_country_flag = selection_made
+						
+						5 = {
+					
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+							
+					
+						}
+					
+					}
+					
+					50 = {
+						define_general = {
+							name = "Foug Sha-Tangpt"
+							personality = implacable
+							background = aristocrat
+						}
+						set_country_flag = tangpt_selected
+						set_country_flag = selection_made
+						17 = {
+							any_pop = {
+								limit = {
+									type = aristocrats
+							
+								}
+							
+							militancy = -1
+							consciousness = -1
+							
+							}
+						
+					
+					
+						}
+					}
+					
+					#50 = {
+					#	define_general = {
+					#		name = "Praakunt Sha-Wongpt"
+					#		personality = resolute
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = wongpt_selected
+					#	
+					#	54 = {
+					#
+					#		any_pop = {
+					#			limit = {
+					#				type = aristocrats
+					#		
+					#			}
+					#		
+					#		militancy = -1
+					#		consciousness = -1
+					#		
+					#		}
+					#	
+					#
+					#
+					#	}
+					#
+					#}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ashouw_selected
+						#has_country_flag = tangpt_selected
+						#has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Oro Sha-Ashouw"
+					personality = chivalrous
+					background = aristocrat
+				}
+				set_country_flag = ashouw_selected
+				set_country_flag = selection_made
+				
+				5 = {
+					
+					any_pop = {
+						limit = {
+							type = aristocrats
+					
+						}
+					
+					militancy = -1
+					consciousness = -1
+					
+					}
+				
+					
+		
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						#has_country_flag = ashouw_selected
+						#has_country_flag = tangpt_selected
+						has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Praakunt Sha-Wongpt"
+					personality = resolute
+					background = aristocrat
+				}
+				set_country_flag = wongpt_selected
+				set_country_flag = selection_made
+				
+				54 = {
+
+					any_pop = {
+						limit = {
+							type = aristocrats
+					
+						}
+					
+					militancy = -1
+					consciousness = -1
+					
+					}
+				
+
+					
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						#has_country_flag = ashouw_selected
+						has_country_flag = tangpt_selected
+						#has_country_flag = wongpt_selected
+						has_country_flag = selection_made
+						
+						
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Foug Sha-Tangpt"
+					personality = implacable
+					background = aristocrat
+				}
+				set_country_flag = tangpt_selected
+				set_country_flag = selection_made
+				17 = {
+					any_pop = {
+						limit = {
+							type = aristocrats
+					
+						}
+					
+					militancy = -1
+					consciousness = -1
+					
+					}
+				
+					
+					
+				}
+			
+			}
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		change_variable = {
+			which = poumnian_succession
+			value = 1
+		}
+		
+		clr_country_flag = selection_made
+	
+	}
+	
+	
+	option = {
+		name = "We should seek to court the favour of the larger house."
+	
+		
+		
+		random_owned = {
+			limit = {
+				OR = {
+					province_id = 5
+					province_id = 17
+					province_id = 54
+				
+				}
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				
+				}
+				
+				militancy = 2
+				consciousness = 2
+				
+			}
+		
+	
+		}
+		
+		
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ibu_selected
+						has_country_flag = shoummid_selected
+						has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					34 = {
+						define_general = {
+							name = "Droum Sha-Ibu"
+							personality = sharp
+							background = aristocrat
+						}
+						set_country_flag = ibu_selected
+						set_country_flag = selection_made
+						
+						31 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					33 = {
+						define_general = {
+							name = "Otun Sha-Shoummid"
+							personality = soft
+							background = aristocrat
+						}
+						set_country_flag = shoummid_selected
+						set_country_flag = selection_made
+						6 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					}
+					
+					33 = {
+						define_general = {
+							name = "Uptad Sha-Fruman"
+							personality = wicked
+							background = aristocrat
+						}
+						set_country_flag = fruman_selected
+						set_country_flag = selection_made
+						
+						42 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ibu_selected
+						has_country_flag = shoummid_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					50 = {
+						define_general = {
+							name = "Droum Sha-Ibu"
+							personality = sharp
+							background = aristocrat
+						}
+						set_country_flag = ibu_selected
+						set_country_flag = selection_made
+						31 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					50 = {
+						define_general = {
+							name = "Otun Sha-Shoummid"
+							personality = soft
+							background = aristocrat
+						}
+						set_country_flag = shoummid_selected
+						set_country_flag = selection_made
+						6 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					}
+					
+					#33 = {
+					#	define_general = {
+					#		name = "Uptad Sha-Fruman"
+					#		personality = wicked
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = fruman_selected
+					#
+					#}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ibu_selected
+						#has_country_flag = shoummid_selected
+						has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					50 = {
+						define_general = {
+							name = "Droum Sha-Ibu"
+							personality = sharp
+							background = aristocrat
+						}
+						set_country_flag = ibu_selected
+						set_country_flag = selection_made
+						31 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					#33 = {
+					#	define_general = {
+					#		name = "Otun Sha-Shoummid"
+					#		personality = soft
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = shoummid_selected
+					#}
+					
+					50 = {
+						define_general = {
+							name = "Uptad Sha-Fruman"
+							personality = wicked
+							background = aristocrat
+						}
+						set_country_flag = fruman_selected
+						set_country_flag = selection_made
+						42 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						#has_country_flag = ibu_selected
+						has_country_flag = shoummid_selected
+						has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+				random_list = {
+					#50 = {
+					#	define_general = {
+					#		name = "Droum Sha-Ibu"
+					#		personality = sharp
+					#		background = aristocrat
+					#	}
+					#	set_country_flag = ibu_selected
+					#
+					#}
+					
+					50 = {
+						define_general = {
+							name = "Otun Sha-Shoummid"
+							personality = soft
+							background = aristocrat
+						}
+						set_country_flag = shoummid_selected
+						set_country_flag = selection_made
+						6 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					}
+					
+					50 = {
+						define_general = {
+							name = "Uptad Sha-Fruman"
+							personality = wicked
+							background = aristocrat
+						}
+						set_country_flag = fruman_selected
+						set_country_flag = selection_made
+						42 = {
+							state_scope = {
+								any_pop = {
+									limit = {
+										type = aristocrats
+								
+									}
+								
+								militancy = -1
+								consciousness = -1
+							
+								}
+						
+							}
+					
+						}
+					
+					}
+					
+					
+				
+				}
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						has_country_flag = ibu_selected
+						#has_country_flag = shoummid_selected
+						#has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+						
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Droum Sha-Ibu"
+					personality = sharp
+					background = aristocrat
+				}
+				set_country_flag = ibu_selected
+				set_country_flag = selection_made
+				31 = {
+					state_scope = {
+						any_pop = {
+							limit = {
+								type = aristocrats
+						
+							}
+						
+						militancy = -1
+						consciousness = -1
+					
+						}
+						
+					}
+					
+				}
+				
+	
+					
+					
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						#has_country_flag = ibu_selected
+						has_country_flag = shoummid_selected
+						#has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Otun Sha-Shoummid"
+					personality = soft
+					background = aristocrat
+				}
+				set_country_flag = shoummid_selected
+				set_country_flag = selection_made
+				
+				6 = {
+					state_scope = {
+						any_pop = {
+							limit = {
+								type = aristocrats
+						
+							}
+						
+						militancy = -1
+						consciousness = -1
+					
+						}
+				
+					}
+					
+				}
+					
+					
+			
+			}
+		
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+
+						#has_country_flag = ibu_selected
+						#has_country_flag = shoummid_selected
+						has_country_flag = fruman_selected
+						has_country_flag = selection_made
+						
+
+					
+					}
+				
+				
+				}
+			
+			
+			
+			}
+			
+			THIS = {
+
+				define_general = {
+					name = "Uptad Sha-Fruman"
+					personality = wicked
+					background = aristocrat
+				}
+				set_country_flag = fruman_selected	
+				set_country_flag = selection_made
+				
+				42 = {
+					state_scope = {
+						any_pop = {
+							limit = {
+								type = aristocrats
+						
+							}
+						
+						militancy = -1
+						consciousness = -1
+					
+						}
+				
+					}
+					
+				}
+				
+				
+					
+					
+			
+			}
+		
+		
+		}
+		
+		
+		change_variable = {
+			which = poumnian_succession
+			value = 1
+		}
+		
+		clr_country_flag = selection_made
+
+
+
+	}
+	
 }

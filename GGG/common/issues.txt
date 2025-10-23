@@ -374,7 +374,7 @@ political_reforms = {
 
         enclosure_of_commons = {
 			allow = {
-				NOT = { has_country_flag = locked_real }
+				NOT = { has_country_flag = locked_usu }
 			
 			}
         }
@@ -1003,6 +1003,7 @@ social_reforms = {
 				OR = {
 					has_country_flag = slaveowners_compensated
 					has_country_flag = slavery_ended_by_force
+					has_country_flag = dumuv_extended
 				}
 				
 			}

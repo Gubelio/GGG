@@ -28,6 +28,7 @@ political_decisions = {
 	}
 	
 	subjugate_the_pruunts = {
+		picture = "poumnia_generic"
 		potential = {
 			tag = POU
 			OR = {
@@ -74,6 +75,7 @@ political_decisions = {
 		}
 		
 	annex_sog = {
+		picture = "poumnia_generic"
 		potential = {
 			tag = POU
 			SOG = { 

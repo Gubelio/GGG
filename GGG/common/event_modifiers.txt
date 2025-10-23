@@ -514,3 +514,12 @@ chazd_molluscing = {
 	icon = 11
 }
 
+dumuv_abolished = {
+    icon = 17
+	local_RGO_output = -0.2
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_consciousness_modifier = 0.01
+	icon = 12
+}
+

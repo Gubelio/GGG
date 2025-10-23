@@ -373,6 +373,7 @@ political_decisions = {
 			debt_law = serfdom
 			year = 1309
 			civilized = yes
+			NOT = { tag = POU }
 		}
 		allow = {
 			state_n_government = 1
@@ -418,6 +419,7 @@ political_decisions = {
 			}
 			year = 1312
 			civilized = yes
+			NOT = { tag = POU }
 		}
 		allow = {
 			enlightenment_thought = 1
@@ -443,38 +445,7 @@ political_decisions = {
 				consciousness = 2
 		
 			}
-			if = {
-				limit = {
-					THIS = {
-						tag = POU
-					
-					}
-				
-				}
-				THIS = {
-					any_pop = {
-						limit = {
-							type = aristocrats
-							location = {
-								has_pop_type = slaves
-							}
-						}
-						money = 2000
-						location = {
-							
-							owner = {
-								treasury = -2000
-							}
-						}
-						militancy = 4
-						consciousness = 4
 		
-				}
-				
-				
-				}
-			
-			}
 			
 			#THIS = {
 			#	country_event = {
@@ -495,6 +466,70 @@ political_decisions = {
 					tag = POU
 					NOT = { treasury = 500000 }
 				}
+				
+			}
+		}
+	}
+	
+	extend_dumuv = {
+		picture = "poumnia_generic"
+		alert = no
+			
+		potential = {
+			#ai = no
+			NOT = { has_country_flag = dumuv_extended }
+			has_country_flag = we_love_slavery
+			OR = {
+				slavery = yes_slavery
+				slavery = code_of_rights
+			}
+			debt_law = serfdom
+			year = 1320
+			civilized = yes
+			tag = POU
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = dumuv_extended
+			any_pop = {
+				limit = {
+					type = aristocrats
+					location = {
+						has_pop_type = slaves
+					}
+				}
+				money = 4000
+				location = {
+					
+					owner = {
+						treasury = -4000
+					}
+				}
+				militancy = 6
+				consciousness = 6
+		
+			}
+		
+			
+			#THIS = {
+			#	country_event = {
+			#		id = 50289
+			#		days = 25
+			#	
+			#	}
+			#
+			#}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = { treasury = 2000000 }
 				
 			}
 		}

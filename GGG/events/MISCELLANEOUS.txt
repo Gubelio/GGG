@@ -4043,6 +4043,7 @@ country_event = {
 	trigger = {
 		NOT = { debt_law = serfdom }
 		NOT = { has_country_flag = serfdom_abolished }
+		NOT = { tag = POU }
 	
 	}
 	
