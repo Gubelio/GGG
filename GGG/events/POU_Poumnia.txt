@@ -891,7 +891,7 @@ country_event = {
 	id = 50296
 	title = "EVTNAME50296"
 	desc = "EVTDESC50296"
-	picture = "POU_generic"
+	picture = "POU_rev"
 	
 	trigger = {
 		NOT = { debt_law = serfdom }
