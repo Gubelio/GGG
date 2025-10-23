@@ -17,6 +17,22 @@ paternalistic_council = {
     flagType = republic
 }
 
+pastoral_confederacy = {
+    
+    liberationist = yes
+    free_yoker = yes
+    conservative = yes
+    reactionary = yes
+    statist = yes
+    absolutist = yes
+	theocratist = yes
+
+    election = yes
+    duration = 48
+    #appoint_ruling_party = yes
+    flagType = republic
+}
+
 ###############
 # Theocratist #
 ###############
@@ -46,13 +62,20 @@ statist_bureaucracy = {
     flagType = communist
 }
 
-#absolute_autocracy = {
-#    absolutist = yes
-#
-#    election = no
-#    appoint_ruling_party = yes
-#    flagType = communist
-#}
+grand_syndicate = {
+    liberationist = yes
+    free_yoker = yes
+    conservative = yes
+    reactionary = yes
+    statist = yes
+    absolutist = yes
+	theocratist = yes
+
+    election = yes
+	duration = 48
+    #appoint_ruling_party = yes
+    flagType = communist
+}
 
 ###########################
 # Conservative Foundation #
@@ -73,13 +96,13 @@ theocracy = { #could represent clergy council?
 }
 
 aristocratic_commonwealth = {
-    reactionary = yes
-    conservative = yes
-    theocratist = yes
-    free_yoker = yes
     liberationist = yes
+    free_yoker = yes
+    conservative = yes
+    reactionary = yes
     statist = yes
     absolutist = yes
+	theocratist = yes
 
     election = yes
 	duration = 64
@@ -89,12 +112,12 @@ aristocratic_commonwealth = {
 princely_despotate = {
     reactionary = yes
     conservative = yes
-    liberationist = yes
-    statist = yes
-    theocratist = yes
+    #liberationist = yes
+    #statist = yes
+    #theocratist = yes
 
     election = yes
 	duration = 48
-    #appoint_ruling_party = yes
+    appoint_ruling_party = yes
     flagType = monarchy
 }
