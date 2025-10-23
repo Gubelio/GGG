@@ -10,7 +10,7 @@ romanticist_literature = {
 		}
 		modifier = {
 			factor = 2
-			government = princely_despotate
+			government = paternalistic_council
 		}
 		modifier = {
 			factor = -2
@@ -139,7 +139,7 @@ realist_music = {
 		}
 		modifier = {
 			factor = 2
-			idealism = 1
+			ideological_thought = 1
 		}
 	}
 	effect = {
@@ -161,7 +161,7 @@ impressionist_literature = {
 		}
 		modifier = {
 			factor = 2
-			positivism = 1
+			empiricism = 1
 		}
 	}
 	effect = {
@@ -182,7 +182,7 @@ impressionist_art = {
 		}
 		modifier = {
 			factor = 2
-			ideological_thought = 1
+			idealism = 1
 		}
 	}
 	effect = {
@@ -203,7 +203,7 @@ impressionist_music = {
 		}
 		modifier = {
 			factor = 2
-			empiricism = 1
+			ideological_thought = 1
 		}
 	}
 	effect = {
@@ -215,7 +215,7 @@ expressionist_literature = {
 	limit = { expressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 0
 		modifier = {
 			factor = -2
 			OR = {
@@ -224,8 +224,8 @@ expressionist_literature = {
 			}
 		}
 		modifier = {
-			factor = 2
-			experimental_psychology = 1
+			factor = 3
+			mass_politics = 1
 		}
 			
 	}
@@ -290,7 +290,7 @@ avantgarde_literature = {
 		}
 		modifier = {
 			factor = 2
-			anti__rationalism = 1
+			colonial_nation = yes
 		}
 	}
 	effect = {
@@ -368,7 +368,7 @@ modern_design = {
 		}
 		modifier = {
 			factor = 2
-			invention = sociology
+			government_interventionism = 1
 		}
 	}
 	effect = {
@@ -1238,16 +1238,20 @@ biased_multiculturalism = {
 			ruling_party_ideology = reactionary
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			ruling_party_ideology = conservative
 		}
 		modifier = {
 			factor = 1
 			government = princely_despotate
 		}
+		modifier = {
+			factor = 1
+			colonial_nation = yes
+		}
 	}
 	effect = {
-		colonial_migration = 0.10
+		colonial_migration = 0.15
 	}
 }
 manifest_destiny = {
@@ -1437,7 +1441,7 @@ secret_police = {
 			factor = 3
 			OR = {
 				ruling_party_ideology = theocratist
-				ruling_party_ideology = free_yoker
+				ruling_party_ideology = statist
 			}
 		}
 		modifier = {
@@ -1493,7 +1497,7 @@ rhetoric_of_hate = {
 		}
 		modifier = {
 			factor = -1
-			government = paternalistic_council
+			government = aristocratic_commonwealth
 		}
 	}
 	effect = {
