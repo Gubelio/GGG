@@ -1,0 +1,75 @@
+#country_event = {
+#	id = 50298
+#	title = "EVTNAME50297"
+#	desc = "EVTDESC50297"
+#
+#	trigger = {
+#		is_sphere_leader_of = PAS
+#		not = { has_country_flag = imperial_constable }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	
+#	}
+#	
+#	option = {
+#		name = "We hold this title with reverence."
+#		
+#		any_country = {
+#			limit = {
+#				has_country_flag =  imperial_constable 
+#				
+#			}
+#			clr_country_flag = imperial_constable
+#				event = {
+#					id = 50299
+#					days = 20
+#				
+#				}
+#			
+#		}
+#		
+#		prestige = 10
+#		
+#		set_country_flag = imperial_constable
+#		
+#		
+#		any_country = {
+#			limit = {
+#			
+#			}
+#			
+#			add_casus_belli = {
+#				target = [TAG/FROM/THIS]
+#				type = [casus belli]
+#				months = n
+#			}
+#		
+#		}
+#	
+#	
+#	}
+#
+#
+#}
+#
+#
+#
+#country_event = {
+#	id = 50299
+#	title = "EVTNAME50299"
+#	desc = "EVTDESC50299"
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "Curses!"
+#		
+#		prestige = -10
+#	
+#	
+#	}
+#
+#
+#}
