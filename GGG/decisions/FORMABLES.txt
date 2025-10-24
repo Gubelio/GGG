@@ -402,6 +402,7 @@ political_decisions = {
             any_country = {
                 limit = {
 					primary_culture = west_gashdzii
+					NOT = { tag = PAS }
 					OR = {
 						in_sphere = THIS
 						vassal_of = THIS
@@ -409,6 +410,20 @@ political_decisions = {
                 }
 				country_event = 50013
             }
+			if = {
+				limit = {
+					THIS = {
+						tag = PAS
+					
+					}
+				
+				}
+				THIS = {
+					set_country_flag = imperial_forms_chiibnazh
+				
+				}
+			
+			}
 		}
         ai_will_do = {
             factor = 1
