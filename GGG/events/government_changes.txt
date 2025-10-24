@@ -1,0 +1,245 @@
+########################
+## GOVERNMENT CHANGES ##
+########################
+
+#THEOCRACY
+country_event = {
+	id = 50008 
+	title = "EVTNAME50008"
+	desc = "EVTDESC50008"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+		scriptural_law = morality_police 
+		clerical_law = empowered_clergy
+		school_reforms = parish_school_system
+		OR = {
+		    legislative_system = regulated_elections
+		    legislative_system = approved_candidacy
+		    legislative_system = appointed_legislatures
+		}
+		NOT = { government = theocracy }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50008OPTA"
+		government = theocracy
+	}
+}
+
+
+#PRINCELY DESPOTATE
+country_event = {
+	id = 50009
+	title = "EVTNAME50009"
+	desc = "EVTDESC50009"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+
+		NOT = { 
+		    tag = POU #Poumnian God King cannot become secular
+		    government = theocracy
+		}	
+
+		#NOT = { #Can't reform out of radical government
+		#    OR = {
+		#       government = paternalistic_council
+		#       government = statist_bureaucracy
+		#    }
+		#}	
+
+		administrative_reform = proprietary_bureaucracy
+		#land_reform_civ = feudal_tenure
+		public_order = appointed_justices
+		scriptural_law = courts_of_canon
+
+		OR = {
+			social_privileges = feudal_rights
+			social_privileges = sanctioned_privileges
+			social_privileges = sumptuary_laws
+			social_privileges = legal_disabilities
+		}
+
+		OR = {
+		    #legislative_system = tribal_assembly
+		    legislative_system = noble_parliament
+		    legislative_system = regulated_elections
+		}
+
+		NOT = { government = princely_despotate }
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50009OPTA"
+		government = princely_despotate
+	}
+}
+
+#ARISTOCRATIC COMMONWEALTH
+country_event = {
+	id = 50010 
+	title = "EVTNAME50010"
+	desc = "EVTDESC50010"
+	#picture = "Socialism"
+	
+	trigger = {
+		civilized = yes
+
+		NOT = { 
+		    tag = POU #Poumnian God King cannot become secular
+		    government = theocracy
+		}
+
+		NOT = { #Can't reform out of radical government
+		    OR = {
+		       government = paternalistic_council
+		       government = statist_bureaucracy
+		    }
+		}	
+
+		administrative_reform = aristocratic_bureaucracy
+		public_order = feudal_courts
+
+		OR = {
+		    federalisation = noble_parliament
+		}
+
+		OR = {
+		    land_reform_civ = feudal_tenure
+		    land_reform_civ = enclosure_of_commons
+		    land_reform_civ = private_landownership
+		}
+
+		NOT = {
+		    government = aristocratic_commonwealth
+		}
+		
+		    
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50010OPTA"
+		government = aristocratic_commonwealth
+	}
+}
+
+#PASTORAL CONFEDERACY
+country_event = {
+	id = 50298 
+	title = "EVTNAME50298"
+	desc = "EVTDESC50298"
+	
+	trigger = {
+		civilized = yes
+		OR = {
+		    federalisation = regulated_elections
+		    federalisation = vocational_candidacy
+		}
+		usufruct_law = two_sphere_law
+		NOT = { government = pastoral_confederacy } 
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50298OPTA"
+		government = pastoral_confederacy
+	}
+}
+
+#PATERNALISTIC COUNCIL
+country_event = {
+	id = 50299 
+	title = "EVTNAME50299"
+	desc = "EVTDESC50299"
+	
+	trigger = {
+		civilized = yes
+		OR = {
+		    legislative_system = approved_candidacy
+		    legislative_system = appointed_legislatures
+		}
+		usufruct_law = two_sphere_law
+		NOT = { government = paternalistic_council } 
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50299OPTA"
+		government = paternalistic_council
+	}
+}
+
+#GRAND SYNDICATE
+country_event = {
+	id = 50300 
+	title = "EVTNAME50300"
+	desc = "EVTDESC50300"
+	
+	trigger = {
+		civilized = yes
+		OR = {
+		    federalisation = regulated_elections
+		    federalisation = vocational_candidacy
+		}
+		land_reform_civ = collectivized_farming
+		NOT = { government = grand_syndicate } 
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50300OPTA"
+		government = grand_syndicate
+	}
+}
+
+#STATIST BUREAUCRACY
+country_event = {
+	id = 50301 
+	title = "EVTNAME50301"
+	desc = "EVTDESC50301"
+	
+	trigger = {
+		civilized = yes
+		OR = {
+		    legislative_system = approved_candidacy
+		    legislative_system = appointed_legislatures
+		}
+		land_reform_civ = collectivized_farming
+		NOT = { government = statist_bureaucracy } 
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50301OPTA"
+		government = statist_bureaucracy
+	}
+}
