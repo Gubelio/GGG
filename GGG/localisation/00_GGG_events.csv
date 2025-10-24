@@ -779,11 +779,11 @@ EVT50300OPTA;x;;;;;;;;;;;;;x
 EVTNAME50301;Statist Bureaucracy;;;;;;;;;;;;;x
 EVTDESC50301;x;;;;;;;;;;;;;x
 EVT50301OPTA;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50302;x;;;;;;;;;;;;;x #AI ONLY
+EVTNAME50303;$FROMCOUNTRY$ Requests Aid Against Uprising!;;;;;;;;;;;;;x
+EVTDESC50303;x;;;;;;;;;;;;;x
+EVT50303OPTA;We must stamp out revolution wherever it rises!;;;;;;;;;;;;;x
+EVT50303OPTB;The $FROMCOUNTRY_ADJ$ are on their own in this matter;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

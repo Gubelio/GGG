@@ -4340,3 +4340,95 @@ country_event = {
 		
 	}
 }
+
+############################
+### REBELLION ASSISTANCE ###
+############################
+
+country_event = {
+	id = 50302 
+	title = "EVTNAME50302"
+	desc = "EVTDESC50302"
+	
+	trigger = {
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+			government = theocracy
+		}
+		civilized = yes
+		ai = yes
+		any_core = {
+			limit = {
+				controlled_by_rebels = yes
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		
+		modifier = {
+			factor = 0.3
+			capital_scope = {
+				limit = {
+					country_units_in_province = REB
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.1
+			NOT = { total_amount_of_divisions = 1 }
+		}
+		
+	}
+
+	option = {
+		name = "EVT50302OPTA"
+		any_neighbor_country  = {
+			limit = {
+				civilized = yes
+				ai = no
+				OR = {
+					government = princely_despotate
+					government = aristocratic_commonwealth
+					government = theocracy
+				}
+			}
+			country_event = { id = 50303 }
+		}
+	}
+}
+
+country_event = {
+	id = 50303
+	title = "EVTNAME50303"
+	desc = "EVTDESC50303"
+	
+	is_triggered_only = yes
+
+	option = { #Yes
+		name = "EVT50303OPTA"
+		military_access = FROM
+		any_pop = {
+			consciousness = 0.5
+		}
+		relation = {
+			who = FROM
+			value = 100
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = 50
+		}
+	}
+	
+	option = { #No
+		name = "EVT50303OPTB"
+		relation = {
+			who = FROM
+			value = -100
+		}
+	}
+}
