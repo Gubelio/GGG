@@ -14,12 +14,27 @@ country_event = {
 		scriptural_law = morality_police 
 		clerical_law = empowered_clergy
 		school_reforms = parish_school_system
+
+		NOT = { government = theocracy }
+		
+		OR = {
+			land_reform_civ = usufruct_prioritised
+			land_reform_civ = feudal_tenure
+			land_reform_civ = enclosure_of_commons
+			land_reform_civ = private_landownership
+		}
+		OR = {
+			usufruct_law = realty_prioritised
+			usufruct_law = commons_system
+			usufruct_law = land_covenants
+			usufruct_law = commoning_bills
+		}
+
 		OR = {
 		    legislative_system = regulated_elections
 		    legislative_system = approved_candidacy
 		    legislative_system = appointed_legislatures
 		}
-		NOT = { government = theocracy }
 	}
 
 	mean_time_to_happen = {
@@ -42,40 +57,38 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-
-		NOT = { 
-		    tag = POU #Poumnian God King cannot become secular
-		    government = theocracy
-		}	
-
-		#NOT = { #Can't reform out of radical government
-		#    OR = {
-		#       government = paternalistic_council
-		#       government = statist_bureaucracy
-		#    }
-		#}	
-
-		administrative_reform = proprietary_bureaucracy
-		#land_reform_civ = feudal_tenure
-		public_order = appointed_justices
-		scriptural_law = courts_of_canon
-
+	
+		NOT = {
+			scriptural_law = morality_police 
+			clerical_law = empowered_clergy
+			school_reforms = parish_school_system
+		}
+	
 		OR = {
-			social_privileges = feudal_rights
-			social_privileges = sanctioned_privileges
-			social_privileges = sumptuary_laws
-			social_privileges = legal_disabilities
+			land_reform_civ = usufruct_prioritised
+			land_reform_civ = feudal_tenure
+			land_reform_civ = enclosure_of_commons
+			land_reform_civ = private_landownership
+		}
+		OR = {
+			usufruct_law = realty_prioritised
+			usufruct_law = commons_system
+			usufruct_law = land_covenants
+			usufruct_law = commoning_bills
 		}
 
 		OR = {
-		    #legislative_system = tribal_assembly
-		    legislative_system = noble_parliament
 		    legislative_system = regulated_elections
+		    legislative_system = approved_candidacy
+		    legislative_system = appointed_legislatures
 		}
 
 		NOT = { government = princely_despotate }
 		
-		    
+		NOT = { 
+		    tag = POU #Poumnian God King cannot become secular
+		    government = theocracy
+		}		
 	}
 
 	mean_time_to_happen = {
@@ -98,36 +111,31 @@ country_event = {
 	trigger = {
 		civilized = yes
 
+		OR = {
+			land_reform_civ = usufruct_prioritised
+			land_reform_civ = feudal_tenure
+			land_reform_civ = enclosure_of_commons
+			land_reform_civ = private_landownership
+		}
+		OR = {
+			usufruct_law = realty_prioritised
+			usufruct_law = commons_system
+			usufruct_law = land_covenants
+			usufruct_law = commoning_bills
+		}
+
+		OR = {
+		    legislative_system = noble_parliament_i
+		    legislative_system = states_system
+		    legislative_system = vocational_candidacy
+		}
+
+		NOT = { government = aristocratic_commonwealth }
+		    
 		NOT = { 
 		    tag = POU #Poumnian God King cannot become secular
 		    government = theocracy
 		}
-
-		NOT = { #Can't reform out of radical government
-		    OR = {
-		       government = paternalistic_council
-		       government = statist_bureaucracy
-		    }
-		}	
-
-		administrative_reform = aristocratic_bureaucracy
-		public_order = feudal_courts
-
-		OR = {
-		    federalisation = noble_parliament
-		}
-
-		OR = {
-		    land_reform_civ = feudal_tenure
-		    land_reform_civ = enclosure_of_commons
-		    land_reform_civ = private_landownership
-		}
-
-		NOT = {
-		    government = aristocratic_commonwealth
-		}
-		
-		    
 	}
 
 	mean_time_to_happen = {
