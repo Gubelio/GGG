@@ -188,10 +188,6 @@ country_event = {
 		}
 		usufruct_law = two_sphere_law
 		NOT = { government = paternalistic_council } 
-		OR = {
-			ruling_party_ideology = liberationist
-			ruling_party_ideology = free_yoker
-		}
 	}
 
 	mean_time_to_happen = {
@@ -244,10 +240,6 @@ country_event = {
 		}
 		land_reform_civ = collectivized_farming
 		NOT = { government = statist_bureaucracy } 
-		OR = {
-			ruling_party_ideology = statist
-			ruling_party_ideology = absolutist
-		}
 	}
 
 	mean_time_to_happen = {
