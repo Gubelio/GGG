@@ -404,7 +404,7 @@ EVT50132DESC;The Momurist Faith is an institutional religion practiced by the la
 EVT50134NAME;The Paorusu Witch Cults;;;;;;;;;;;;;x 
 EVT50134DESC;The Paorusu ‘witch cults’ of the south west of Kovazh are a large faith believing in a number of persistently reincarnated ‘canonical’ deities. The main practice of worship is the adulation of a number of women, fifteen - in particular, who are considered reincarnated powerful spirits. The faith retains a great degree of scriptures recounting the deeds of these powerful spirits in history and mythic prehistory. The Paorusu clergy maintain a large library of these in Isi, where they also convene synods to confirm the reincarnation of a spirit. Beyond the adulation of the fifteen canon deities, which includes burning offerings brought to their sees, mantras, prayers, and gestures of reverence, the Paorusu faithful also turn to a great many local ‘witch women’ who claim to work magic, like the great deities, as well as believe in universal reincarnation and the transmigration of the soul. The Paorusu symbol is the knotted reed, symbolising eternal recurrence.;;;;;;;;;;;;;x 
 EVT50135NAME;The Parqmun Faith;;;;;;;;;;;;;x 
-EVT50135DESC;x;;;;;;;;;;;;;x 
+EVT50135DESC;The Parqmun are iconoclasts, both with a fanatical need to burn the captured idols and symbols of other faiths, and a ritualistic habit of burning sculpted idols in the signs of the various devils, fallen angels, and cursing spirits of their cosmology. Recognising no other God than the one God ‘Mun’, the Parqmun are the faithful of Mun, shaper of the world and protector of the faithful from their many enemies. Their strict monotheism allows for a great host of devils and sprites, whom they take to be the cause of both many natural disasters, wickedness in men, and to be the tricksters that ensnare the minds of foreign nations and cause them to set up their false gods. The Parqmun scriptures are held in the great temple in Do Dhruzd, presided over by the collection of ‘pure’ child-priests, whose innocence allows them to behold the one sacred image of Mun held therein. Their symbol is the burning idol. ;;;;;;;;;;;;;x 
 EVT50136NAME;The Gyahki Faith;;;;;;;;;;;;;x 
 EVT50136DESC;;;;;;;;;;;;;;x 
 EVT50133NAME;The Shamush Beliefs;;;;;;;;;;;;;x 
@@ -784,6 +784,9 @@ EVTNAME50303;$FROMCOUNTRY$ Requests Aid Against Uprising!;;;;;;;;;;;;;x
 EVTDESC50303;x;;;;;;;;;;;;;x
 EVT50303OPTA;We must stamp out revolution wherever it rises!;;;;;;;;;;;;;x
 EVT50303OPTB;The $FROMCOUNTRY_ADJ$ are on their own in this matter;;;;;;;;;;;;;x
+EVTNAME50304;An Historical Mystery?;;;;;;;;;;;;;x
+EVTDESC50304;It is well known that the Parqmun sculpt small wooden idols of various demons and spirits, and then burn them in great holocausts, to honour Mun and destroy the power of the devils and spirits. But one of our anthropological professors, who spent a number of years living with the Parqmun, has recently compiled a great degree of observations about the character of the idols, and compared them to catalogs of the idols held by the juewaeg faithful kept in the archives and private scholarly libraries in $CAPITAL$, drawing notable similarities. He has come up with a particularly fascinating thesis that a number of more powerful Parqmum empires once ruled a much larger area in Bafozh, and came across, and came to understand, the horrendous sacrificial rites happening in the southern forests, and because of this came to identify this particular style of idol with devilish activity.;;;;;;;;;;;;;x
+EVTNAME50305;x;;;;;;;;;;;;;x #AI ONLY
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

@@ -539,17 +539,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_momurism
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_momurism }
-								any_greater_power = { has_country_flag = studied_momurism }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_momurism }
+					#			any_greater_power = { has_country_flag = studied_momurism }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50132 } }
@@ -567,17 +567,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_momurism
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_momurism }
-								any_greater_power = { has_country_flag = studied_momurism }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_momurism }
+					#			any_greater_power = { has_country_flag = studied_momurism }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -601,17 +601,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_rechktist
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_rechktist }
-								any_greater_power = { has_country_flag = studied_rechktist }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_rechktist }
+					#			any_greater_power = { has_country_flag = studied_rechktist }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50131 } }
@@ -629,17 +629,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_rechktist
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_rechktist }
-								any_greater_power = { has_country_flag = studied_rechktist }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_rechktist }
+					#			any_greater_power = { has_country_flag = studied_rechktist }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -658,17 +658,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_parousou
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_parousou }
-								any_greater_power = { has_country_flag = studied_parousou }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_parousou }
+					#			any_greater_power = { has_country_flag = studied_parousou }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 					THIS = {
 						tag = AYU
 					}
@@ -686,17 +686,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_parousou
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_parousou }
-								any_greater_power = { has_country_flag = studied_parousou }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_parousou }
+					#			any_greater_power = { has_country_flag = studied_parousou }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 					THIS = {
 						tag = AYU
 					}
@@ -718,17 +718,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_jur
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_jur }
-								any_greater_power = { has_country_flag = studied_jur }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_jur }
+					#			any_greater_power = { has_country_flag = studied_jur }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50125 } }
@@ -743,17 +743,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_jur
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_jur }
-								any_greater_power = { has_country_flag = studied_jur }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_jur }
+					#			any_greater_power = { has_country_flag = studied_jur }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -772,17 +772,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_parqmun
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_parqmun }
-								any_greater_power = { has_country_flag = studied_parqmun }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_parqmun }
+					#			any_greater_power = { has_country_flag = studied_parqmun }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50135 } }
@@ -797,17 +797,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_parqmun
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_parqmun }
-								any_greater_power = { has_country_flag = studied_parqmun }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_parqmun }
+					#			any_greater_power = { has_country_flag = studied_parqmun }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -826,17 +826,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_gyahki
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_gyahki }
-								any_greater_power = { has_country_flag = studied_gyahki }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_gyahki }
+					#			any_greater_power = { has_country_flag = studied_gyahki }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50136 } }
@@ -851,17 +851,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_gyahki
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_gyahki }
-								any_greater_power = { has_country_flag = studied_gyahki }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_gyahki }
+					#			any_greater_power = { has_country_flag = studied_gyahki }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -880,17 +880,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_juewaeg
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_juewaeg }
-								any_greater_power = { has_country_flag = studied_juewaeg }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_juewaeg }
+					#			any_greater_power = { has_country_flag = studied_juewaeg }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50137 } }
@@ -905,17 +905,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_juewaeg
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_juewaeg }
-								any_greater_power = { has_country_flag = studied_juewaeg }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_juewaeg }
+					#			any_greater_power = { has_country_flag = studied_juewaeg }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -934,17 +934,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_dkatkang
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_dkatkang }
-								any_greater_power = { has_country_flag = studied_dkatkang }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_dkatkang }
+					#			any_greater_power = { has_country_flag = studied_dkatkang }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50138 } }
@@ -959,17 +959,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_dkatkang
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_dkatkang }
-								any_greater_power = { has_country_flag = studied_dkatkang }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_dkatkang }
+					#			any_greater_power = { has_country_flag = studied_dkatkang }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -988,17 +988,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_kusii
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_kusii }
-								any_greater_power = { has_country_flag = studied_kusii }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_kusii }
+					#			any_greater_power = { has_country_flag = studied_kusii }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 			}
 		THIS = { country_event = { id = 50139 } }
@@ -1013,17 +1013,17 @@ country_event = { ####### INDEX
 					THIS = {
 						has_country_flag = studied_kusii
 					}
-					AND = {
-						year = 1350
-						THIS = {
-							civilized = yes
-							OR  = { 
-								any_neighbor_country = { has_country_flag = studied_kusii }
-								any_greater_power = { has_country_flag = studied_kusii }
-							}
-							invention = social_anthropology
-						}
-					}
+					#AND = {
+					#	year = 1350
+					#	THIS = {
+					#		civilized = yes
+					#		OR  = { 
+					#			any_neighbor_country = { has_country_flag = studied_kusii }
+					#			any_greater_power = { has_country_flag = studied_kusii }
+					#		}
+					#		invention = social_anthropology
+					#	}
+					#}
 				}
 				}
 			}
@@ -1368,17 +1368,17 @@ country_event = { #study J'ur
 			OR = {
 				has_country_flag = studied_jur
 				has_country_flag = jur_country
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_jur }
-							any_greater_power = { has_country_flag = studied_jur }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_jur }
+				#			any_greater_power = { has_country_flag = studied_jur }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
@@ -1442,17 +1442,17 @@ country_event = { #study Momurism
 					has_country_flag = rechktist_country
 				}
 				has_country_flag = studied_momurism
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_momurism }
-							any_greater_power = { has_country_flag = studied_momurism }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_momurism }
+				#			any_greater_power = { has_country_flag = studied_momurism }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
@@ -1502,17 +1502,17 @@ country_event = { #study Kusii
 			OR = {
 				has_country_flag = kusii_country
 				has_country_flag = studied_kusii
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_kusii }
-							any_greater_power = { has_country_flag = studied_kusii }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_kusii }
+				#			any_greater_power = { has_country_flag = studied_kusii }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
@@ -1559,17 +1559,17 @@ country_event = { #study rechktist
 				has_country_flag = studied_rechktist
 				has_country_flag = rechktist_country
 				has_country_flag = momurist_country
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_rechktist }
-							any_greater_power = { has_country_flag = studied_rechktist }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_rechktist }
+				#			any_greater_power = { has_country_flag = studied_rechktist }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
@@ -1589,7 +1589,7 @@ country_event = { #study rechktist
 
 country_event = { #study juewaeg
 	id = 50143
-	title = "EVT50132NAME" 
+	title = "EVT50143NAME" 
 	desc = "EVT50143DESC"
 	picture = "hamog"
 
@@ -1603,17 +1603,17 @@ country_event = { #study juewaeg
 			OR = {
 				has_country_flag = studied_juewaeg
 				has_country_flag = juewaeg_country
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_juewaeg }
-							any_greater_power = { has_country_flag = studied_juewaeg }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_juewaeg }
+				#			any_greater_power = { has_country_flag = studied_juewaeg }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
@@ -1627,6 +1627,54 @@ country_event = { #study juewaeg
 		name = "Curious"
 		prestige = 5
 		set_country_flag = studied_juewaeg
+		encylopedia_updated = {}
+	}
+}
+
+country_event = { #study juewaeg
+	id = 50304
+	title = "EVTNAME50304" 
+	desc = "EVTDESC50304"
+	picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		any_pop = {
+			has_pop_religion = rechktist
+		}
+		any_owned_province = {
+			continent = europe
+		}
+		has_country_flag = studied_juewaeg
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_parqmun
+				has_country_flag = parqmun_country
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_juewaeg }
+				#			any_greater_power = { has_country_flag = studied_juewaeg }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Fascinating!"
+		prestige = 5
+		set_country_flag = studied_parqmun
 		encylopedia_updated = {}
 	}
 }
@@ -1651,17 +1699,17 @@ country_event = { #study paorusu
 			OR = {
 				has_country_flag = studied_parousou
 				has_country_flag = paorusu_country
-				AND = {
-					year = 1350
-					THIS = {
-						civilized = yes
-						OR  = { 
-							any_neighbor_country = { has_country_flag = studied_paorusu }
-							any_greater_power = { has_country_flag = studied_paorusu }
-						}
-						invention = social_anthropology
-					}
-				}
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_paorusu }
+				#			any_greater_power = { has_country_flag = studied_paorusu }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
 			}
 		}
 	}
