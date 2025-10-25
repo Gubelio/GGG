@@ -4359,9 +4359,7 @@ country_event = {
 		civilized = yes
 		ai = yes
 		any_core = {
-			limit = {
-				controlled_by_rebels = yes
-			}
+			controlled_by_rebels = yes
 		}
 	}
 
@@ -4371,9 +4369,8 @@ country_event = {
 		modifier = {
 			factor = 0.3
 			capital_scope = {
-				limit = {
-					country_units_in_province = REB
-				}
+				country_units_in_province = REB
+				
 			}
 		}
 		
@@ -4396,7 +4393,10 @@ country_event = {
 					government = theocracy
 				}
 			}
-			country_event = { id = 50303 }
+			country_event = { 
+				id = 50303
+				days = 2
+			}
 		}
 	}
 }
