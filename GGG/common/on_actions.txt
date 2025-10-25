@@ -10,7 +10,7 @@ on_yearly_pulse = {
 	#100 = 22510 # Some event
 	#100 = 22520 # Some event
 	#100 = 22530 # Some event
-	100 = 50305
+	100 = 50305 # encylopedia GGG
 }
 
 on_quarterly_pulse = {
@@ -39,6 +39,7 @@ on_quarterly_pulse = {
 	#100 = 10190
 	#100 = 10200
 	#100 = 10210
+	##### GGG CLEANUP #######
 	75 = 33337
 	75 = 33338
 	75 = 50238
@@ -56,7 +57,7 @@ on_quarterly_pulse = {
 	75 = 50293
 	75 = 50294
 	75 = 50295
-	#75 = 20205
+	#75 = 20205 # I don't remember what this was - bokaida
 
 }
 
@@ -144,9 +145,9 @@ on_debtor_default_second =
 
 on_civilize =
 {
-	100 = 90900 # CHI
-	100 = 90903 # CHI substates
-	100 = 90910 # RotW
+	#100 = 90900 # CHI
+	#100 = 90903 # CHI substates
+	#100 = 90910 # RotW
 }
 
 on_my_factories_nationalized = 
