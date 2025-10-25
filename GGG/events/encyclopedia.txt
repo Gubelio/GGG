@@ -1727,6 +1727,49 @@ country_event = { #study paorusu
 	}
 }
 
+country_event = { #study dkatkang
+	id = 50306
+	title = "EVTNAME50306" 
+	desc = "EVTDESC50306"
+	picture = "grave_stele"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		owns = 1593
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_dkatkang
+				has_country_flag = dkatkang_country
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_paorusu }
+				#			any_greater_power = { has_country_flag = studied_paorusu }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "How curious."
+		prestige = 5
+		set_country_flag = studied_dkatkang
+		encylopedia_updated = {}
+	}
+}
+
 
 #####################
 ######### NATIONS ####
