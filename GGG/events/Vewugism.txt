@@ -86,8 +86,8 @@ country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no 
 			has_country_flag = dkatkang_country
 			has_country_flag = parqmun_country
 			has_country_flag = gyahki_country
-			has_country_flag = jur_country
-			has_country_flag = kusii
+			#has_country_flag = jur_country #j'ur are a much more organised faith
+			has_country_flag = kusii_country
 		}
 		NOT =	{
 			government = theocracy
@@ -152,8 +152,8 @@ country_event = { #AI ONLY - start up event
 			has_country_flag = dkatkang_country
 			has_country_flag = parqmun_country
 			has_country_flag = gyahki_country
-			has_country_flag = jur_country
-			has_country_flag = kusii
+			#has_country_flag = jur_country #j'ur are a much more organised faith
+			has_country_flag = kusii_country
 		}
 		NOT =	{
 			government = theocracy
@@ -282,6 +282,7 @@ country_event = {
 		name = "EVT50276OPTA"
 		FROM = { country_event = 50351 }
 		set_country_flag = vewugi_convert_nation
+		add_country_modifier = { name = vewugist_conversion duration = 3652 }
 		any_country = {
 			limit = {
 				has_country_flag = vewugi_country

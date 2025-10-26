@@ -1155,7 +1155,24 @@ conversion_chance =
 	
 	}
 	
+	modifier = {
+		factor = 6
+		country = {
+			has_country_modifier = vewugist_conversion
+		
+		}
+		OR = {
+			has_pop_religion = pagan
+			has_pop_religion = juewaeg
+			has_pop_religion = dkatkang
+			has_pop_religion = paorusu
+			has_pop_religion = parqmun
+			has_pop_religion = gyahki
+			has_pop_religion = kusii
+		
+		}
 	
+	}
 	
 	modifier = {
 		factor = -0.1
