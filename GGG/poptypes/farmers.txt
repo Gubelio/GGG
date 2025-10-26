@@ -1177,7 +1177,41 @@ promote_to = {
     slaves = {
         factor = 0.002 #Negligable but will be made relevant by a national focus
 
+		modifier = {
+			factor = -100
+			OR = {
+				is_accepted_culture = yes
+				is_primary_culture = yes
+				AND = {
+					country = {
+						is_culture_group = gashdzii
+					}
+					OR = {
+						is_culture_group = gashdzii
+						is_culture_group = colonial_gashdzii
+					}
+				}
+				
+			
+			}
+        }
+		
+		modifier = {
+			factor = -100
+			country = {
+
+				OR = {
+					slavery = gradual_abolition
+					slavery = no_slavery
+				}
+	
+			}
+		}
+		
+
         modifier = {
+			factor = 0.5
+			is_primary_culture = no
             is_accepted_culture = no
 			country = {
 				NOT = {
@@ -1191,6 +1225,7 @@ promote_to = {
 		
         modifier = {
 		    factor = 10
+			is_primary_culture = no
             is_accepted_culture = no
 			state_scope = { is_colonial = yes }
 			country = {
