@@ -2445,8 +2445,8 @@ country_event = {
 
 country_event = {
 	id = 50348 
-	title = "EVT50271NAME" ##### GAU
-	desc = "EVT50271DESC"
+	title = "EVT50348NAME" ##### GAU
+	desc = "EVT50348DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
@@ -2465,8 +2465,8 @@ country_event = {
 
 country_event = {
 	id = 50349 
-	title = "EVT50271NAME" ##### GOZ
-	desc = "EVT50271DESC"
+	title = "EVT50349NAME" ##### GOZ
+	desc = "EVT50349DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
@@ -2485,8 +2485,8 @@ country_event = {
 
 country_event = {
 	id = 50350 
-	title = "EVT50271NAME" ##### CHS
-	desc = "EVT50271DESC"
+	title = "EVT50350NAME" ##### CHS
+	desc = "EVT50350DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
@@ -3887,12 +3887,7 @@ country_event = {
 		}
 		
 	}
-	
-	
-		
-	}
-
-	
+	 
 
 	option = {
 		name = "Close Encylopedia"
