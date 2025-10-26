@@ -431,7 +431,7 @@ colonialmigration_chance =
 	}
 
 	modifier = {
-		factor = 0.5
+		factor = 1
 		location = {
 			owner = {
 				colonial_policy = settlement
