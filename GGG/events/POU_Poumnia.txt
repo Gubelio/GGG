@@ -36,6 +36,11 @@ country_event = {
 			which = poumnian_succession
 			value = 0
 		}
+		
+		set_variable = {
+			which = tribute_ships_arrived
+			value = 0
+		}
 	}
 }
 
@@ -2403,4 +2408,200 @@ country_event = {
 
 	}
 	
+}
+
+
+########################
+#### TRIBUTE SYSTEM ####
+########################
+
+country_event = { #tribute event for pruunt
+	id = 50355
+	title = "EVTNAME50355"
+	desc = "EVTDESC50355"
+	#picture = "x"
+	
+	trigger = {
+		is_culture_group = peninsular_diwvo
+		NOT = { has_country_flag = we_embraced_shamush }
+		POU = { 
+			government = theocracy 
+			is_greater_power = yes
+			NOT = {
+				has_global_flag = poumnia_appears_weak
+				has_country_flag = pudwou_overthrown
+			}
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	
+	}
+	
+	option = {
+		name = "We cannot risk angering the Poumnians"
+		
+		prestige = -5
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = shamush
+			
+			}
+			militancy = 2
+			consciousness = 2
+		}
+	
+		any_owned = {
+			limit = {
+				OR = {
+					trade_goods = opium
+					trade_goods = tobacco
+				}
+			}
+			
+			owner = {
+				treasury = -2000
+			
+			}
+			
+			POU = {
+				change_variable = {
+					which = tribute_ships_arrived
+					value = 2
+				}
+			
+			}
+		
+		}
+		
+		any_owned = {
+			limit = {
+				NOT = {
+					trade_goods = opium
+					trade_goods = tobacco
+				}
+			}
+			
+			owner = {
+				treasury = -1000
+			
+			}
+			
+			POU = {
+				change_variable = {
+					which = tribute_ships_arrived
+					value = 1
+				}
+			
+			}
+		
+		}
+	
+	}
+	
+	option = {
+		name = "If they wish for the tribute, let them collect it themselves!"
+		
+		prestige = 5
+		
+		POU = {
+			country_event = {
+				id = 50356
+				days = 10
+			
+			}
+		
+		}
+	
+	
+	}
+
+
+}
+
+country_event = { #tribute ships fall short
+	id = 50356
+	title = "EVTNAME50356"
+	desc = "EVTDESC50356"
+	#picture = "x"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "They must be reminded of their tributary status!"
+		
+		#FROM = {
+		#	add_casus_belli = {
+		#		target = POU
+		#		type = war_reparations
+		#		months = 12
+		#	}
+		#
+		#}
+		
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = war_reparations
+			}
+		}
+		
+		
+		ai_chance = {
+			factor = 100
+		
+		}
+	
+	}
+	
+	
+	option = {
+		name = "Who cares if we are a few boats short...?"
+		prestige = -20
+	
+	}
+
+}
+
+country_event = { #tribute arrives
+	id = 50357
+	title = "EVTNAME50357"
+	desc = "EVTDESC50357"
+	#picture = "x"
+
+	trigger = {
+		tag = POU
+		check_variable = {
+			which = tribute_ships_arrived
+			value = 25
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "Excellent!"
+		
+		treasury = 25000
+		
+		 	
+
+		change_variable = {
+			which = tribute_ships_arrived
+			value = -25
+		}
+		
+	
+	}
+	
+	
+
+
 }

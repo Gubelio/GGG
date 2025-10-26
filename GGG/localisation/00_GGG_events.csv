@@ -885,6 +885,12 @@ EVTDESC50352;x;;;;;;;;;;;;;x
 EVT50352OPTA;Bah, beastmen will be beastmen;;;;;;;;;;;;;x
 EVTNAME50353;Mission Successful!;;;;;;;;;;;;;x #AI ONLY
 EVTNAME50354;Mission Fails!;;;;;;;;;;;;;x #AI ONLY
+EVTNAME50355;The Tribute Collection Year;;;;;;;;;;;;;x
+EVTDESC50355;We are, regrettably, tributaries of the great Poumnian Vopudshawrish. The Celestial Emperor in Prousorum demands, on irregular years, contributions to the imperial treasury from the Poumnian states, both in kind, in bullion, and in coinage. Sadly, this year, the tribute has fallen upon us. From most productive districts the Vopudwou is demanding a simple tax that roughly equates to 1000¤ Gashdzii dhamaks, but the extra duties of Pruub and Nuzhdap paid in kind means that those districts effectively pay double. This is always a contentious time in $COUNTRY$, as those who are of a Pruuntish particularist bent always complain greatly, and resist the collection, while those who are pro-imperial are particularly officious and overbearing. The the tax collectors, are simply hoping for the collection to end swiftly, the tribute boats to be loaded, and this whole affair to be over, or for the government to refuse or delay collecting the tribute, which we must decide.;;;;;;;;;;;;;x
+EVTNAME50356;Pruuntish Tribute Falls Short;;;;;;;;;;;;;x
+EVTDESC50356;x;;;;;;;;;;;;;x
+EVTNAME50357;Tribute Ships Arrive;;;;;;;;;;;;;x
+EVTDESC50357;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
