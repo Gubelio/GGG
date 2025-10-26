@@ -883,8 +883,8 @@ EVT50351OPTA;The might of the Vewug is undeniable!;;;;;;;;;;;;;x
 EVTNAME50352;Mission to $FROMCOUNTRY$ Fails!;;;;;;;;;;;;;x
 EVTDESC50352;x;;;;;;;;;;;;;x
 EVT50352OPTA;Bah, beastmen will be beastmen;;;;;;;;;;;;;x
-EVTNAME50353;Mission Successful!;;;;;;;;;;;;;x
-EVTNAME50354;Mission Fails!;;;;;;;;;;;;;x
+EVTNAME50353;Mission Successful!;;;;;;;;;;;;;x #AI ONLY
+EVTNAME50354;Mission Fails!;;;;;;;;;;;;;x #AI ONLY
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

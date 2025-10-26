@@ -161,7 +161,7 @@ country_event = { #AI ONLY - start up event
 	}
 	
 	mean_time_to_happen = {
-		months = 100 #10800 #900 years
+		months = 10800 #900 years
 	}
 	
 	option = {
