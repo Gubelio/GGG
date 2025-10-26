@@ -1144,21 +1144,14 @@ conversion_chance =
 		factor = 0.1
 		has_pop_religion = vewugi
 		country = { has_global_flag = drupe_torched }
-	}
-	
-	modifier = {
-		factor = -0.95
-		AND = {
-			has_pop_religion = vewugi
-			location = { province_id = 221 }
-		}
-	
+		
 	}
 	
 	modifier = {
 		factor = 6
 		country = {
-			has_country_modifier = vewugist_conversion
+			has_country_flag = vewugi_convert_nation
+			NOT = { has_global_flag = drupe_torched
 		
 		}
 		OR = {
@@ -1173,6 +1166,17 @@ conversion_chance =
 		}
 	
 	}
+	
+	modifier = {
+		factor = -0.95
+		AND = {
+			has_pop_religion = vewugi
+			location = { province_id = 221 }
+		}
+	
+	}
+	
+	
 	
 	modifier = {
 		factor = -0.1

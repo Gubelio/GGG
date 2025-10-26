@@ -183,6 +183,7 @@ political_decisions = {
 						days = 30 
 					}
 				}
+				THIS = { set_country_flag = vewugi_convert_nation }
 			}
         }
     }
