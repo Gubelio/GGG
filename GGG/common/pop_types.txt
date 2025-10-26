@@ -1148,10 +1148,11 @@ conversion_chance =
 	}
 	
 	modifier = {
-		factor = 6
+		factor = 10
 		country = {
 			has_country_flag = vewugi_convert_nation
-			NOT = { has_global_flag = drupe_torched
+			NOT = { has_global_flag = drupe_torched }
+			civilized = no
 		
 		}
 		OR = {
@@ -1163,6 +1164,10 @@ conversion_chance =
 			has_pop_religion = gyahki
 			has_pop_religion = kusii
 		
+		}
+		location = {
+			is_overseas = no
+			is_primary_culture = yes
 		}
 	
 	}
