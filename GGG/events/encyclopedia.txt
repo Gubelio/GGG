@@ -111,6 +111,36 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = GAU
+				}
+			}
+			THIS = { 
+				country_event = { id = 50348 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = GOZ
+				}
+			}
+			THIS = { 
+				country_event = { id = 50349 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = CHS
+				}
+			}
+			THIS = { 
+				country_event = { id = 50350 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -123,6 +153,9 @@ country_event = {
 							tag = BOG
 							tag = RAN
 							tag = BUD
+							tag = GAU
+							tag = GOZ
+							tag = CHS
 						}
 					}
 				}
@@ -1792,6 +1825,20 @@ country_event = {
 		name = "The Maabizhpti Peninsula and its Environs"
 		country_event = { id = 50279 }
 	}
+	
+	option = {
+		name = "The Old Kiidnazh"
+		#country_event = { id = ----- }
+		clr_country_flag = encyclopedia_open
+	
+	}
+	
+	option = {
+		name = "The Sithevan Kingdoms"
+		#country_event = { id = ----- }
+		clr_country_flag = encyclopedia_open
+	
+	}
 
 	option = {
 		name = "The Northern States"
@@ -1800,8 +1847,22 @@ country_event = {
 	}
 	
 	option = {
+		name = "The Great Powers of Kovazh"
+		#country_event = { id = ----- }
+		clr_country_flag = encyclopedia_open
+	
+	}
+	
+	option = {
 		name = "The Colonial Gashdzii States"
 		country_event = { id = 50179 }
+	}
+	
+	option = {
+		name = "The Foremost Bafozhi States"
+		#country_event = { id = ----- }
+		clr_country_flag = encyclopedia_open
+	
 	}
 	
 	
@@ -1911,6 +1972,82 @@ country_event = {
 		name = "Sober Jiishanag"
 		country_event = { id = 50156 }
 	}
+	
+	option = {
+		name = "Stoud Gaubja"
+		country_event = { id = 50348 }
+	}
+	
+	option = {
+		name = "Young Gozonazh"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50349 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Lands of Chiishozd"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50350 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
 	
 	option = {
 		name = "Close Encylopedia"
@@ -2306,6 +2443,66 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50348 
+	title = "EVT50271NAME" ##### GAU
+	desc = "EVT50271DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50349 
+	title = "EVT50271NAME" ##### GOZ
+	desc = "EVT50271DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50350 
+	title = "EVT50271NAME" ##### CHS
+	desc = "EVT50271DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #####################
 #### CULTURES ########
 ####################
@@ -2327,6 +2524,41 @@ country_event = {
 		name = "The Gashdzii"
 		country_event = { id = 50178 }
 	}
+	
+	option = {
+		name = "The Sithevans"
+		country_event = { id = 50311 }
+	}
+	
+	option = {
+		name = "The Surgoians"
+		country_event = { id = 50315 }
+	}
+	
+	option = {
+		name = "The Duttuphti"
+		country_event = { id = 50321 }
+	}
+	
+	option = {
+		name = "The Lesser Peoples of Ishahfazh"
+		country_event = { id = 50326 }
+	}
+	
+	option = {
+		name = "The Kovan Cultures"
+		country_event = { id = 50331 }
+	}
+	
+	option = {
+		name = "The Bafozhi Cultures"
+		country_event = { id = 50337 }
+	}
+	
+	option = {
+		name = "Island Cultures"
+		country_event = { id = 50344 }
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -2345,6 +2577,11 @@ country_event = {
 	option = {
 		name = "The Noble Poumnians"
 		country_event = { id = 50161 }
+	}
+	
+	option = {
+		name = "The Stout Pruunts"
+		country_event = { id = 50307 }
 	}
 	
 	option = {
@@ -2490,17 +2727,17 @@ country_event = {
 
 	option = {
 		name = "The North Gashdzii"
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50310 }
 	}
 	
 	option = {
 		name = "The South Gashdzii"
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50309 }
 	}
 	
 	option = {
 		name = "The West Gashdzii"
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50308 }
 		
 	}
 
@@ -2533,10 +2770,1129 @@ country_event = {
 				}
 			
 			}
-			THIS = { country_event = { id = 50183 } }
+			THIS = { country_event = { id = 50123 } }
 		
 		}
 	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50311
+	title = "EVT50311NAME" ##### Siethevan Heading
+	desc = "EVT50311DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Central Sithevan Cultures"
+		country_event = { id = 50312 }
+	}
+	
+	option = {
+		name = "The Vufami"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50313 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Tufume"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50314 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Chyothit"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50320 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50315
+	title = "EVT50315NAME" ##### Surgoian HEading
+	desc = "EVT50315DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Mamoujouy"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50316 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Yamoujouy"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50317 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Takemoujoy"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50318 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Miegpaup"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50319 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50321
+	title = "EVT50321NAME" ##### Duttuphti Heading
+	desc = "EVT50321DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Unnahu"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50322 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Uttobanhu"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50323 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Ngoghu"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50324 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Yat-Pugrian Peoples"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50325 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50326
+	title = "EVT50326NAME" ##### Lesser Peoples Heading
+	desc = "EVT50326DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Vuyti Folk"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50327 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Thudians"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50328 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "Dehuogi"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50329 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Bogorans"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50330 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50331
+	title = "EVT50331NAME" ##### Kovan Heading
+	desc = "EVT50331DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Imperial Momurist Cultures"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_mom_cults
+						capital_scope = { continent = south_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50332 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_mom_cults
+						capital_scope = { continent = south_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Northerners"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_northerners
+						capital_scope = { continent = south_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50333 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_northerners
+						capital_scope = { continent = south_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The High Cultures of the Tea Coast"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_tea_coasters
+						capital_scope = { continent = south_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50334 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_tea_coasters
+						capital_scope = { continent = south_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Anyumbites"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_anyumb
+						capital_scope = { continent = south_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50335 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_anyumb
+						capital_scope = { continent = south_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Southerners"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_southerners
+						capital_scope = { continent = south_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50336 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_southerners
+						capital_scope = { continent = south_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50337
+	title = "EVT50331NAME" ##### Bafozhi Heading
+	desc = "EVT50331DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Asyum"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_asyum
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50338 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_asyum
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Charchlanders"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_charchland
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50339 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_charchland
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Forest Dwellers"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_forests
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50340 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_forests
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Beast-Men of the North"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_beast_men
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50341 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_beast_men
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Bafinoids of the Central Belt"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_belter_bafinoids
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50342 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_belter_bafinoids
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Azuroids of the Central Belt"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_belter_azuroids
+						capital_scope = { continent = europe }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50343 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_belter_azuroids
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+
+	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50344
+	title = "EVT50344NAME" ##### Island Heading
+	desc = "EVT50344DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Orgehi"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_ogrehi
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50345 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_ogrehi
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Tuqqikian"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_tuqqikian
+						capital_scope = { continent = africa }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50346 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_charchland
+						capital_scope = { continent = europe }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Zagkhan"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_zag
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50347 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_zag
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	
+		
+	}
+
+	
 
 	option = {
 		name = "Close Encylopedia"
@@ -2651,6 +4007,686 @@ country_event = {
 	id = 50183
 	title = "EVT50183NAME" ##### The Jazhakdi
 	desc = "EVT50183DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50307
+	title = "EVT50307NAME" ##### The Pruunts
+	desc = "EVT50307DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50308
+	title = "EVT50308NAME" ##### The West Gashdzii
+	desc = "EVT50308DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50309
+	title = "EVT50309NAME" ##### The South Gashdzii
+	desc = "EVT50309DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50310
+	title = "EVT50310NAME" ##### The North Gashdzii
+	desc = "EVT50310DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50312
+	title = "EVT50312NAME" ##### Central Sithevan
+	desc = "EVT50312DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50313
+	title = "EVT50313NAME" ##### Vufami
+	desc = "EVT50313DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50314
+	title = "EVT50314NAME" ##### The Tufume
+	desc = "EVT50314DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50316
+	title = "EVT50316NAME" ##### Mamoujouy
+	desc = "EVT50316DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50317
+	title = "EVT50317NAME" ##### Yamoujouy
+	desc = "EVT50317DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50318
+	title = "EVT50318NAME" ##### Takemoujoy
+	desc = "EVT50318DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50319
+	title = "EVT50319NAME" ##### Miegpaup
+	desc = "EVT50319DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50320
+	title = "EVT50320NAME" ##### Chyothit
+	desc = "EVT50320DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50322
+	title = "EVT50322NAME" ##### Unnahu
+	desc = "EVT50322DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50323
+	title = "EVT50323NAME" ##### Uttobanhu
+	desc = "EVT50323DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50324
+	title = "EVT50324NAME" ##### Ngoghu
+	desc = "EVT50324DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50325
+	title = "EVT50324NAME" ##### Yat-Pugrians
+	desc = "EVT50324DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50327
+	title = "EVT50327NAME" ##### Vuyti
+	desc = "EVT50327DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50328
+	title = "EVT50328NAME" ##### Thudians
+	desc = "EVT50328DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50329
+	title = "EVT50329NAME" ##### Dehugoi
+	desc = "EVT50329DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50330
+	title = "EVT50330NAME" ##### Bogorans
+	desc = "EVT50330DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50332
+	title = "EVT50332NAME" ##### Imperial Momurist
+	desc = "EVT50332DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50333
+	title = "EVT50333NAME" ##### Northerners
+	desc = "EVT50333DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50334
+	title = "EVT50334NAME" ##### Tea Coasters
+	desc = "EVT50334DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50335
+	title = "EVT50335NAME" ##### Anyumbites
+	desc = "EVT50335DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50336
+	title = "EVT50336NAME" ##### Southerners
+	desc = "EVT50336DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50338
+	title = "EVT50338NAME" ##### Asyum
+	desc = "EVT50338DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50339
+	title = "EVT50339NAME" ##### Charchlanders
+	desc = "EVT50339DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50340
+	title = "EVT50340NAME" ##### Forest Dwellers
+	desc = "EVT50340DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50341
+	title = "EVT50341NAME" ##### Beast Men
+	desc = "EVT50341DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50342
+	title = "EVT50342NAME" ##### Belter Bafinoids
+	desc = "EVT50342DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50343
+	title = "EVT50343NAME" ##### Belter Azuroids
+	desc = "EVT50343DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50345
+	title = "EVT50345NAME" ##### Ogrehi
+	desc = "EVT50345DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+country_event = {
+	id = 50346
+	title = "EVT50346NAME" ##### Tuqqikian
+	desc = "EVT50346DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50347
+	title = "EVT50347NAME" ##### Zagkhan
+	desc = "EVT50347DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
