@@ -1,0 +1,353 @@
+
+#################################
+### TORCHING THE DRUPE EVENTS ###
+#################################
+
+country_event = {
+    id = 50052 
+    title = "EVTNAME50052" #Someone has torched the drupe!
+    desc = "EVTDESC50052"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+
+	
+
+
+    option = {
+        name = "EVT50052OPTA" #Death to the heathen!
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+		ai_chance = {
+            factor = 5
+        }
+    }
+	
+    option = {
+        name = "EVT50052OPTB" #We will not act
+		prestige = -25
+			
+    }
+}
+
+country_event = {
+    id = 50053 
+    title = "EVTNAME50053" #Someone has torched OUR drupe!
+    desc = "EVTDESC50053"
+    #picture = "Socialism"
+  
+	is_triggered_only = yes
+	
+	major = yes
+
+    option = {
+        name = "EVT50053OPTA" #Woe is me!
+		prestige = -20
+		war_exhaustion = 40
+		any_pop = {
+			limit = { 
+				has_pop_religion = vewugi
+				location = { is_colonial = no }
+			}
+			militancy = 4
+			consciousness = 2
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+    }
+	
+}
+
+###########################
+### VEWUGISM CONVERSION ###
+###########################
+
+country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no human will ever see this
+	id = 50212
+	title = "EVTNAME50212"
+	desc = "EVTDESC50212"
+	
+	trigger = {
+		ai = yes
+		civilized = no
+		OR = {
+			has_country_flag = pagan_country
+			has_country_flag = juewaeg_country
+			has_country_flag = green_country
+			has_country_flag = dkatkang_country
+			has_country_flag = parqmun_country
+			has_country_flag = gyahki_country
+			has_country_flag = jur_country
+			has_country_flag = kusii
+		}
+		NOT =	{
+			government = theocracy
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600 #300 years
+	}
+	
+	option = {
+		name = "EVT50212OPTA"
+		set_country_flag = vewugi_convert_nation
+		any_country = {
+			limit = {
+				has_country_flag = vewugi_country
+			}
+			country_event = 50276
+		}
+	}
+}
+
+country_event = { 
+	id = 50276
+	title = "EVTNAME50276"
+	desc = "EVTDESC50276"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50276OPTA"
+		prestige = 1
+		diplomatic_influence = {
+			who = FROM
+			value = 50
+		}
+		relation = {
+			who = FROM
+			value = 100
+		}
+	}
+}
+
+########################
+### VEWUGIST MISSION ###
+########################
+
+country_event = { #AI ONLY - start up event
+	id = 50212
+	title = "EVTNAME50212"
+	desc = "EVTDESC50212"
+	
+	trigger = {
+		ai = yes
+		civilized = no
+		war = no
+		is_vassal = no
+		OR = {
+			has_country_flag = pagan_country
+			has_country_flag = juewaeg_country
+			has_country_flag = green_country
+			has_country_flag = dkatkang_country
+			has_country_flag = parqmun_country
+			has_country_flag = gyahki_country
+			has_country_flag = jur_country
+			has_country_flag = kusii
+		}
+		NOT =	{
+			government = theocracy
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #10800 #900 years
+	}
+	
+	option = {
+		name = "EVT50212OPTA"
+		random_country = {
+			limit = {
+				ai = no
+				civilized = yes
+				has_country_flag = vewugi_country
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+				any_owned_province = { has_building = naval_base }
+			}
+			country_event = 50213
+		}
+	}
+}
+
+country_event = {
+	id = 50213
+	title = "EVTNAME50213"
+	desc = "EVTDESC50213"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVT50213OPTA" #Most Money
+		
+            random_list = {
+                85 = { #Succeeds
+					FROM = { country_event = { id = 50353 days = 465 } }
+				}
+				
+                15 = { #Fails
+					FROM = { country_event = { id = 50354 days = 465 } }
+				}
+            }
+			treasury = -350000
+			
+		#ai_chance = {
+        #    factor = 25
+        #    modifier = { factor = 0 NOT = { money = 400000 } }
+        #}
+	}
+	
+	option = {
+		name = "EVT50213OPTB" #Middle Money
+		
+            random_list = {
+                70 = { #Succeeds
+					FROM = { country_event = { id = 50353 days = 465 } }
+				}
+				
+                30 = { #Fails
+					FROM = { country_event = { id = 50354 days = 465 } }
+				}
+            }
+			treasury = -200000
+			
+		#ai_chance = {
+        #    factor = 25
+        #    modifier = { factor = 0 NOT = { money = 250000 } }
+        #}
+	}
+	
+	option = {
+		name = "EVT50213OPTC" #Low Money
+		
+            random_list = {
+                55 = { #Succeeds
+					FROM = { country_event = { id = 50353 days = 465 } }
+				}
+				
+                45 = { #Fails
+					FROM = { country_event = { id = 50354 days = 465 } }
+				}
+            }
+			treasury = -50000
+			
+		#ai_chance = {
+        #    factor = 25
+        #    modifier = { factor = 0 NOT = { money = 100000 } }
+        #}
+	}
+	
+	option = {
+		name = "EVT50213OPTD" #No Money
+		
+            random_list = {
+                10 = { #Succeeds
+					FROM = { country_event = { id = 50353 days = 465 } }
+				}
+				
+                90 = { #Fails
+					FROM = { country_event = { id = 50354 days = 465 } }
+				}
+            }
+
+		#ai_chance = {
+        #    factor = 25
+        #    modifier = { factor = 0 NOT = { money = 50000 } }
+        #}
+	}
+	
+}
+
+#Conversion Successful # AI ONLY
+country_event = { 
+	id = 50353
+	title = "EVTNAME50353"
+	desc = "EVTDESC50276"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50276OPTA"
+		FROM = { country_event = 50351 }
+		set_country_flag = vewugi_convert_nation
+		any_country = {
+			limit = {
+				has_country_flag = vewugi_country
+			}
+			country_event = 50276
+		}
+		#any_pop = {
+		#	
+		#}
+	}
+}
+
+#Conversion Fails # AI ONLY
+country_event = { 
+	id = 50354
+	title = "EVTNAME50354"
+	desc = "EVTDESC50276"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50276OPTA"
+		FROM = { country_event = 50352 }
+	}
+}
+
+#Conversion Successful # FOR PLAYER
+country_event = { 
+	id = 50351
+	title = "EVTNAME50351"
+	desc = "EVTDESC50351"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50351OPTA"
+		prestige = 15
+		diplomatic_influence = {
+			who = FROM
+			value = 200
+		}
+		relation = {
+			who = FROM
+			value = 200
+		}
+	}
+}
+
+#Conversion Fails # FOR PLAYER
+country_event = { 
+	id = 50352
+	title = "EVTNAME50352"
+	desc = "EVTDESC50352"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50352OPTA"
+		prestige = -1
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		relation = {
+			who = FROM
+			value = -200
+		}
+	}
+}
