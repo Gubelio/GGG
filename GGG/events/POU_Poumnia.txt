@@ -2423,7 +2423,11 @@ country_event = { #tribute event for pruunt
 	
 	trigger = {
 		is_culture_group = peninsular_diwvo
-		NOT = { has_country_flag = we_embraced_shamush }
+		NOT = { 
+			has_country_flag = we_embraced_shamush
+			war_with = POU
+			vassal_of = POU
+		}
 		POU = { 
 			government = theocracy 
 			is_greater_power = yes
@@ -2432,6 +2436,7 @@ country_event = { #tribute event for pruunt
 				has_country_flag = pudwou_overthrown
 			}
 		}
+
 	
 	}
 	
@@ -2472,7 +2477,7 @@ country_event = { #tribute event for pruunt
 					which = tribute_ships_arrived
 					value = 2
 				}
-			
+				tribute_info = { }
 			}
 		
 		}
@@ -2495,7 +2500,7 @@ country_event = { #tribute event for pruunt
 					which = tribute_ships_arrived
 					value = 1
 				}
-			
+				tribute_info = { }
 			}
 		
 		}
@@ -2510,7 +2515,7 @@ country_event = { #tribute event for pruunt
 		POU = {
 			country_event = {
 				id = 50356
-				days = 10
+				days = 60
 			
 			}
 		
@@ -2533,14 +2538,14 @@ country_event = { #tribute ships fall short
 	option = {
 		name = "They must be reminded of their tributary status!"
 		
-		#FROM = {
-		#	add_casus_belli = {
-		#		target = POU
-		#		type = war_reparations
-		#		months = 12
-		#	}
-		#
-		#}
+		FROM = {
+			add_casus_belli = {
+				target = POU
+				type = war_reparations
+				months = 12
+			}
+		
+		}
 		
 		war = {
 			target = FROM

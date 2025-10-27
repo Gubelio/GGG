@@ -1568,6 +1568,18 @@ make_puppet = {
 			value = 0.25
 		}
 	}
+	
+	on_po_accepted = {
+		THIS = {
+			set_variable = {
+				which = tribute_recieved
+				value = 0
+			}
+		
+		}
+		set_country_flag = tributary_country
+	
+	}
 }
 
 # Become Independent
