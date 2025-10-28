@@ -1,501 +1,501 @@
-country_event = { #tribute event
-	id = 50358
-	title = "EVTNAME50358"
-	desc = "EVTDESC50358"
-	#picture = "x"
-	
-	trigger = {
-		has_country_flag = tributary_country
-		is_vassal = yes
-		
-		OR = {
-			AND = {
-				ai = yes
-				treasury = 20000
-			}
-			
-			AND = {
-				ai = no
-				treasury = 100000
-			
-			}
-		
-		
-		}
-		
-	}
-	
-	mean_time_to_happen = {
-		#months = 4
-	
-	}
-	
-	option = {
-		name = "This is our lot, it seems."
-		
-		prestige = -5
-		
-		any_pop = {
-			militancy = 2
-			consciousness = 2
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					ai = yes
-				
-				}
-			}
-			any_country = {
-				limit = {
-					is_our_vassal = THIS
-				}
-			
-				change_variable = {
-					which = tribute_recieved
-					value = 18
-				}
-			
-			}
-			THIS = {
-				treasury = -18000
-			
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					ai = no
-				
-				}
-			}
-			any_country = {
-				limit = {
-					is_our_vassal = THIS
-				}
-			
-				change_variable = {
-					which = tribute_recieved
-					value = 90
-				}
-			
-			}
-			THIS = {
-				treasury = -90000
-			
-			}
-		
-		}
-	
-		
-	
-	}
-}
-
-country_event = { #tribute arrives
-	id = 50359
-	title = "EVTNAME50359"
-	desc = "EVTDESC50359"
-	#picture = "x"
-
-	trigger = {
-		OR = {
-			AND = {
-				num_of_vassals_no_substates = 1
-				NOT = { num_of_vassals_no_substates = 2 }
-				check_variable = {
-					which = tribute_recieved
-					value = 200
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 2
-				NOT = { num_of_vassals_no_substates = 3 }
-				check_variable = {
-					which = tribute_recieved
-					value = 400
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 3
-				NOT = { num_of_vassals_no_substates = 4 }
-				check_variable = {
-					which = tribute_recieved
-					value = 600
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 4
-				NOT = { num_of_vassals_no_substates = 5 }
-				check_variable = {
-					which = tribute_recieved
-					value = 800
-				}
-			}
-			AND = {
-				num_of_vassals_no_substates = 5
-				NOT = { num_of_vassals_no_substates = 6 }
-				check_variable = {
-					which = tribute_recieved
-					value = 1000
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 8
-				NOT = { num_of_vassals_no_substates = 9 }
-				check_variable = {
-					which = tribute_recieved
-					value = 1600
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 12
-				NOT = { num_of_vassals_no_substates = 13 }
-				check_variable = {
-					which = tribute_recieved
-					value = 2400
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 20
-				NOT = { num_of_vassals_no_substates = 21 }
-				check_variable = {
-					which = tribute_recieved
-					value = 4000
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 30
-				NOT = { num_of_vassals_no_substates = 31 }
-				check_variable = {
-					which = tribute_recieved
-					value = 6000
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 40
-				NOT = { num_of_vassals_no_substates = 41 }
-				check_variable = {
-					which = tribute_recieved
-					value = 8000
-				}
-			}
-			
-			AND = {
-				num_of_vassals_no_substates = 50
-				check_variable = {
-					which = tribute_recieved
-					value = 10000
-				}
-			}
-			
-		}
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	
-	}
-	
-	option = {
-		name = "Excellent!"
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 200
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 400
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 200000
-				change_variable = {
-					which = tribute_recieved
-					value = -200
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 400
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 600
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 400000
-				change_variable = {
-					which = tribute_recieved
-					value = -400
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 600
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 800
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 600000
-				change_variable = {
-					which = tribute_recieved
-					value = -600
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 800
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 1000
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 800000
-				change_variable = {
-					which = tribute_recieved
-					value = -800
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 1000
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 1600
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 1000000
-				change_variable = {
-					which = tribute_recieved
-					value = -1000
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 1600
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 2400
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 1600000
-				change_variable = {
-					which = tribute_recieved
-					value = -1600
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 2400
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 4000
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 2400000
-				change_variable = {
-					which = tribute_recieved
-					value = -2400
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 4000
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 6000
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 4000000
-				change_variable = {
-					which = tribute_recieved
-					value = -4000
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 6000
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 8000
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 6000000
-				change_variable = {
-					which = tribute_recieved
-					value = -6000
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 8000
-					}
-					NOT = {
-						check_variable = {
-							which = tribute_recieved
-							value = 10000
-						}
-					}
-				}
-			}
-			THIS = {
-				treasury = 8000000
-				change_variable = {
-					which = tribute_recieved
-					value = -8000
-				
-				}
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 10000
-					}
-				}
-			}
-			THIS = {
-				treasury = 10000000
-				change_variable = {
-					which = tribute_recieved
-					value = -10000
-				
-				}
-			}
-		
-		}
-		
-	
-	}
-	
-	
-
-
-}
+#country_event = { #tribute event
+#	id = 50358
+#	title = "EVTNAME50358"
+#	desc = "EVTDESC50358"
+#	#picture = "x"
+#	
+#	trigger = {
+#		has_country_flag = tributary_country
+#		is_vassal = yes
+#		
+#		OR = {
+#			AND = {
+#				ai = yes
+#				treasury = 20000
+#			}
+#			
+#			AND = {
+#				ai = no
+#				treasury = 100000
+#			
+#			}
+#		
+#		
+#		}
+#		
+#	}
+#	
+#	mean_time_to_happen = {
+#		#months = 4
+#	
+#	}
+#	
+#	option = {
+#		name = "This is our lot, it seems."
+#		
+#		prestige = -5
+#		
+#		any_pop = {
+#			militancy = 2
+#			consciousness = 2
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					ai = yes
+#				
+#				}
+#			}
+#			any_country = {
+#				limit = {
+#					is_our_vassal = THIS
+#				}
+#			
+#				change_variable = {
+#					which = tribute_recieved
+#					value = 18
+#				}
+#			
+#			}
+#			THIS = {
+#				treasury = -18000
+#			
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					ai = no
+#				
+#				}
+#			}
+#			any_country = {
+#				limit = {
+#					is_our_vassal = THIS
+#				}
+#			
+#				change_variable = {
+#					which = tribute_recieved
+#					value = 90
+#				}
+#			
+#			}
+#			THIS = {
+#				treasury = -90000
+#			
+#			}
+#		
+#		}
+#	
+#		
+#	
+#	}
+#}
+#
+#country_event = { #tribute arrives
+#	id = 50359
+#	title = "EVTNAME50359"
+#	desc = "EVTDESC50359"
+#	#picture = "x"
+#
+#	trigger = {
+#		OR = {
+#			AND = {
+#				num_of_vassals_no_substates = 1
+#				NOT = { num_of_vassals_no_substates = 2 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 200
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 2
+#				NOT = { num_of_vassals_no_substates = 3 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 400
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 3
+#				NOT = { num_of_vassals_no_substates = 4 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 600
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 4
+#				NOT = { num_of_vassals_no_substates = 5 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 800
+#				}
+#			}
+#			AND = {
+#				num_of_vassals_no_substates = 5
+#				NOT = { num_of_vassals_no_substates = 6 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 1000
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 8
+#				NOT = { num_of_vassals_no_substates = 9 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 1600
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 12
+#				NOT = { num_of_vassals_no_substates = 13 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 2400
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 20
+#				NOT = { num_of_vassals_no_substates = 21 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 4000
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 30
+#				NOT = { num_of_vassals_no_substates = 31 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 6000
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 40
+#				NOT = { num_of_vassals_no_substates = 41 }
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 8000
+#				}
+#			}
+#			
+#			AND = {
+#				num_of_vassals_no_substates = 50
+#				check_variable = {
+#					which = tribute_recieved
+#					value = 10000
+#				}
+#			}
+#			
+#		}
+#	
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	
+#	}
+#	
+#	option = {
+#		name = "Excellent!"
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 200
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 400
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 200000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -200
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 400
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 600
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 400000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -400
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 600
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 800
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 600000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -600
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 800
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 1000
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 800000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -800
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 1000
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 1600
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 1000000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -1000
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 1600
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 2400
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 1600000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -1600
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 2400
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 4000
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 2400000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -2400
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 4000
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 6000
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 4000000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -4000
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 6000
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 8000
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 6000000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -6000
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 8000
+#					}
+#					NOT = {
+#						check_variable = {
+#							which = tribute_recieved
+#							value = 10000
+#						}
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 8000000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -8000
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#		if = {
+#			limit = {
+#				THIS = {
+#					check_variable = {
+#						which = tribute_recieved
+#						value = 10000
+#					}
+#				}
+#			}
+#			THIS = {
+#				treasury = 10000000
+#				change_variable = {
+#					which = tribute_recieved
+#					value = -10000
+#				
+#				}
+#			}
+#		
+#		}
+#		
+#	
+#	}
+#	
+#	
+#
+#
+#}
