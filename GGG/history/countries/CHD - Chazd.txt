@@ -1,7 +1,7 @@
 capital = 322
 primary_culture = south_gashdzii
 religion = motkohnic
-government = paternalistic_council
+government = pastoral_confederacy
 plurality = 5.0
 nationalvalue = no_national_objective
 literacy = 0.21
@@ -13,8 +13,9 @@ prestige = 5 #first liberationist state
 # Political reforms
 citizens_rights = culture_voting_only
 border_policy = open_borders
-legislative_system = regulated_elections
+legislative_system = tribal_assembly
 land_reform_civ = usufruct_prioritised
+federalisation = vocational_candidacy
 banking_system = banking_licenses
 thralldom = thralldom_allowed
 public_order = feudal_courts
