@@ -837,6 +837,14 @@ country_event = { #renaming lakes
 			}
 			1541 = { change_province_name = "Lake Jadhov" }
 		}
+		if = {
+			limit = {
+				THIS = {
+					tag = TAK
+				}
+			}
+			1541 = { change_province_name = "Lake Takemog" }
+		}
 		
 		
 		
@@ -886,6 +894,15 @@ country_event = { #renaming lakes
 				}
 			}
 			1541 = { change_province_name = "Lake Nimiz" }
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					tag = TAK
+				}
+			}
+			1541 = { change_province_name = "Lake ApYakau" }
 		}
 		
 		set_country_flag = discovered_lakes

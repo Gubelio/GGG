@@ -798,7 +798,7 @@ EVT50309DESC;x;;;;;;;;;;;;;x
 EVT50310NAME;The North Gashdzii;;;;;;;;;;;;;x 
 EVT50310DESC;x;;;;;;;;;;;;;x 
 EVT50311NAME;The Sithevan Tongues;;;;;;;;;;;;;x 
-EVT50311DESC;x;;;;;;;;;;;;;x 
+EVT50311DESC;The Sithevan people are a belt of common ethnolinguistic identity along the western edge of southern Ishahfazh. Marked by extreme regionalism, they are unified by a historic series of ruling Dynasties and the Vewugist faith, but minor differences guided by various historical legacies of occupation and legal traditions are the source of much particularism. The Central Sithevan dialect are generally mutually intelligible, but remain culturally differentiated by a history of different historic ruling dynasties, different lifestyles (the pastoral north, the agrarian south), different cultural contacts (Towuzhian, Poumnian, Ghech), whereas the Chyothit, the Tufume, and the Vufami, all living much further afield, having adopted different faiths, different lifestyles, and constitutions, never experienced the homogenizing influence of the Athisoron dynasty which ruled the central area.;;;;;;;;;;;;;x 
 EVT50312NAME;The Central Sithevans;;;;;;;;;;;;;x 
 EVT50312DESC;x;;;;;;;;;;;;;x 
 EVT50313NAME;The Vufami;;;;;;;;;;;;;x 
@@ -806,19 +806,19 @@ EVT50313DESC;x;;;;;;;;;;;;;x
 EVT50314NAME;The Tufume;;;;;;;;;;;;;x 
 EVT50314DESC;x;;;;;;;;;;;;;x 
 EVT50315NAME;The Surgoian Peoples;;;;;;;;;;;;;x 
-EVT50315DESC;x;;;;;;;;;;;;;x 
+EVT50315DESC;The Surgoian peoples are a class of various ethnolinguistic communities living in the north west of Ishahfazh. From the Oujoys of the mountains, who share a nearly common tongue, but who have gradually adopted divergent identities due to the rule of the Bogorans over the Yamoujoy, to the oppressed Miegpaup nomads of the deserts, and the Islanders of Takemog, a common linguistic root means there is a consciousness of common history, but a variety of different lifestyles and historical differences means these cultures have much variety. ‘Surgoian peoples’ takes its name from the ancient kingdom of Surgoia, which existed c. 100-500 I.R., but there were people of an ancient Surgoian tongue living in this region long before the kingdom, which merely gave rise to its ‘classical’ expression and still is the root of the high culture of Oujoy peoples, whose ancient name, but not culture, gradually has extended to the Takemoujoy, and the Miegpaup.;;;;;;;;;;;;;x 
 EVT50316NAME;The Mamoujoy;;;;;;;;;;;;;x 
 EVT50316DESC;x;;;;;;;;;;;;;x 
 EVT50317NAME;The Yamoujoy;;;;;;;;;;;;;x 
 EVT50317DESC;x;;;;;;;;;;;;;x 
 EVT50318NAME;The Takemoujoy;;;;;;;;;;;;;x 
-EVT50318DESC;x;;;;;;;;;;;;;x 
+EVT50318DESC;The Takemoujoy, the ‘military people’, a name they took, is believed, from their feudal tradition of bonded warfare in service of a local king, are the Island Surgoians. The Islands are known for their harsh weather and their dour, self-disciplined people living in great fortresses. The sedentarian faith arrived in the islands long ago, but the Takemogine are looked down upon by most mainly Sedentarians as not truly pious (for how, the theologians of the mainland in Tauje say, did one get to the Island? Surely, he and his kin must have moved there, and forsaken their homeland!). Perhaps consequently, they maintain a less philosophical and more animist version of the faith, venerating island deities of salt and storm, and local mountain and river spirits, and are great seafarers. The people mostly subsist on fish caught in trawlers, island grains, and the meat of the astouding ‘takemog cattle’, whose shaggy coats and colossal size protect them from cold weather as they graze on the abundant grass of takemog.;;;;;;;;;;;;;x 
 EVT50319NAME;The Miegpaup;;;;;;;;;;;;;x 
 EVT50319DESC;x;;;;;;;;;;;;;x 
 EVT50320NAME;The Chyothit Thrall-lords;;;;;;;;;;;;;x 
 EVT50320DESC;x;;;;;;;;;;;;;x 
 EVT50321NAME;The Duttuphti Peoples;;;;;;;;;;;;;x 
-EVT50321DESC;x;;;;;;;;;;;;;x 
+EVT50321DESC;The Duttphti are a a linguistic bundle in northern Ishahfazh, their primary representative cultures being the Ûttôbânhu, the Unnahu, the Ngoghu, the Pû?urê and the Yattâe. Primarily incorporated in Rannu Empire, the Ûttôbânhu, the Unnahu, especially, and the Ngoghu to a lesser extent, share a high degree of mutual intelligibility, whereas the Pû?urê and the Yattâe diverged many centuries ago after migrations to Paukzhodo. The Rannuiac folk are known for their staid and somber morality, whereas the wild Pû?urê and Yattâe are known as bold warriors, drinkers, and adventurers, tinged with the paganism of Paukzhodo.;;;;;;;;;;;;;x 
 EVT50322NAME;The Lordly Unnahu;;;;;;;;;;;;;x 
 EVT50322DESC;x;;;;;;;;;;;;;x 
 EVT50323NAME;The Uttobanhu;;;;;;;;;;;;;x 
@@ -830,7 +830,7 @@ EVT50325DESC;x;;;;;;;;;;;;;x
 EVT50326NAME;The Lesser folk of Ishahfazh;;;;;;;;;;;;;x 
 EVT50326DESC;x;;;;;;;;;;;;;x 
 EVT50327NAME;The Vuyti Folk;;;;;;;;;;;;;x 
-EVT50327DESC;x;;;;;;;;;;;;;x 
+EVT50327DESC;The Vuyti peoples are a collection of speciated and culturally distinct peoples living in the southeastern jungles and plains of the Ishahfazh. Divided into plains Pagyuti and Jungle Vuypuyti, they are renowned for their animism, fertility rituals, and strange war masks. Lacking a great degree of development, they have been persecuted and enslaved brutally by the Gashdzii. Quite curiously, the Vuyti are an example of cross-species linguistic continuity. The Pagyuti are classical ruminoids - fat, plump, gullible, and docile grazers, whereas the Vuypuyti are clever semi-arboreal pygmy arboraloids, who display a remarkable intelligence, much greater than the Pagyutin. It is assumed that the ancient Vuypuyti actually shared the gift of language with the Pagyuti, whether through primitive exchange, ‘animal’ husbandry - the thralldom of the Pagyuti, or by simply chatting around those they deemed disinterested animals, or by some other means.;;;;;;;;;;;;;x 
 EVT50328NAME;The Thuidans;;;;;;;;;;;;;x 
 EVT50328DESC;x;;;;;;;;;;;;;x 
 EVT50329NAME;The Dehuogi;;;;;;;;;;;;;x 
@@ -891,6 +891,12 @@ EVTNAME50356;Pruuntish Tribute Falls Short;;;;;;;;;;;;;x
 EVTDESC50356;The Pruuntish people are our tributaries, and they are expected to yield to us a number of tributes, both in coinage, bullion, and commodities, which arrive at the great docks at the mouth of the delta, in what is commonly known as ‘the tribute ships’. These tributes are nominally invested in the imperial temples, who usually sell them, with profit to the government. We have noticed, however, that recently, tribute from $FROMCOUNTRY$ has been delayed by several months, and despite a few of their ships docking in our harbours, nothing has arrived. Upon making contact with a few agents in their lands, it appears their government has declined to collect the proscribed tributes and was hoping we would not notice, or care! The imperial clergy excise and tribute office is incensed, and is demanding a retributive war against these impudent upstarts.;;;;;;;;;;;;;x
 EVTNAME50357;Tribute Ships Arrive;;;;;;;;;;;;;x
 EVTDESC50357;The Pruuntish people are our tributaries, and they are expected to yield to us a number of tributes, both in coinage, bullion, and commodities, which arrive at the great docks at the mouth of the delta, in what is commonly known as ‘the tribute ships’. Today a large collection of tribute ships have arrived. The heavy merchantmen, laid heavy with a lastage of all sorts of goods and precious metals, as well as Pruuntish coins, and some imperial coins, have arrived. The goods will be sold on the market, and the coins that aren’t our own will be melted down and then reissued by the imperial mint or sent to the treasury. The docks are awash with activity, as longshoremen unload the great tribute ships and imperial overseers from the clergy direct the transportation of the yields to the temples and the mint.;;;;;;;;;;;;;x
+EVTNAME50358;Tribute is Due;;;;;;;;;;;;;x
+EVTDESC50358;x;;;;;;;;;;;;;x
+EVTNAME50359;The Tribute Arrives;;;;;;;;;;;;;x
+EVTDESC50359;x;;;;;;;;;;;;;x
+EVT50360NAME;The Kingdom of Takemog;;;;;;;;;;;;;x 
+EVT50360DESC;The Island monarchy of the Takemog is an aristocratic kingdom of seafaring Surgoian Tehurite people, and some Tufume Vewugist relicts. The unified monarchy of Takemog is a union of various island duchies and kingdoms. Following the invasions of the Sithevan Vewugists in the 400s, the local sedentarian kingdoms in the Moutmaswau, the big island, remained fractured and weak, and the Vewugist conquerors maintained a brutal kingdom that drove most local sedentarians away from the southern islands, and the south coast of Moutmaswau. By the 700s, however, the Petty Kingdom of Souswam had proclaimed a kingdom of the Takemojouy people, having nearly unified Moumasawau, and in the next 300 years, the smaller island kingdoms would, though intermarriage, become parts of the kingdom, and in 1021, the last Tufume kingdom was conquered. The Parlements of the dutchies and petty kingdoms still retain a great degree of power, and the government of the kingdom is largely in the hands of local gentry.;;;;;;;;;;;;;x 
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

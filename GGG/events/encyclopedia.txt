@@ -141,6 +141,16 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = TAK
+				}
+			}
+			THIS = { 
+				country_event = { id = 50360 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -156,6 +166,7 @@ country_event = {
 							tag = GAU
 							tag = GOZ
 							tag = CHS
+							tag = TAK
 						}
 					}
 				}
@@ -2068,6 +2079,11 @@ country_event = {
 		name = "The Rannu Empire"
 		country_event = { id = 50271 }
 	}
+	
+	option = {
+		name = "The Kingdom of Takemog"
+		country_event = { id = 50360 }
+	}
 
 	option = {
 		name = "Bogorug"
@@ -2427,6 +2443,26 @@ country_event = {
 	id = 50271 
 	title = "EVT50271NAME" ##### RAN
 	desc = "EVT50271DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50360 
+	title = "EVT50360NAME" ##### TAK
+	desc = "EVT50360DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
