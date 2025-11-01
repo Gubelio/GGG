@@ -48,6 +48,14 @@ leader = {
     background = hated   
 }
 
+leader = {
+    name = "Sem Maswam the Great"
+    type = sea
+    date = 1260.1.1
+    personality = daring   
+    background = old_school   
+}
+
 #Armies
 
 army = {
