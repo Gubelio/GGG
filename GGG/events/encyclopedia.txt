@@ -2577,6 +2577,11 @@ country_event = {
 	}
 	
 	option = {
+		name "The Vuyti Cultues"
+		country_event = { id = 50327 }
+	}
+	
+	option = {
 		name = "The Lesser Peoples of Ishahfazh"
 		country_event = { id = 50326 }
 	}
@@ -3257,40 +3262,6 @@ country_event = {
 	#picture = "gashdzii_generic"
 	
 	is_triggered_only = yes
-
-	option = {
-		name = "The Vuyti Folk"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						civilized = yes
-						capital_scope = { continent = north_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50327 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						civilized = yes
-						capital_scope = { continent = north_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-	}
 	
 	option = {
 		name = "The Thudians"
@@ -3327,7 +3298,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Dehuogi"
+		name = "The Dehuogi"
 		if2 = {
 			limit = {
 				THIS = {
@@ -3931,6 +3902,36 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50327
+	title = "EVT50327NAME" ##### Vuyti subheading
+	desc = "EVT50327DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	#option = {
+	#	name = "The Vuypuyti"
+	#	clr_country_flag = encyclopedia_open
+	#}
+	#
+	#option = {
+	#	name = "The Vuypuyti"
+	#	clr_country_flag = encyclopedia_open
+	#}
+	#
+	#option = {
+	#	name = "The Vuypuyti"
+	#	clr_country_flag = encyclopedia_open
+	#}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #################
 Culture Entries ###
 
@@ -4375,25 +4376,6 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 50327
-	title = "EVT50327NAME" ##### Vuyti
-	desc = "EVT50327DESC"
-	picture = "encyclo"
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "Return to 'Cultures' Subheading"
-		country_event = { id = 50160 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
 
 country_event = {
 	id = 50328
