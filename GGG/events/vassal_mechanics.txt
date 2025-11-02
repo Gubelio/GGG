@@ -533,6 +533,7 @@ country_event = {
 	
 	option = {
 		name = "Bleed them dry!"
+		clr_country_flag = negotiating_with_vassals
 		FROM = {
 			set_country_flag = bleed_dry_vassal
 			clr_country_flag = moderate_tribute
@@ -546,6 +547,7 @@ country_event = {
 	
 	option = {
 		name = "They should pay a moderate tribute."
+		clr_country_flag = negotiating_with_vassals
 		FROM = {
 			set_country_flag = moderate_tribute
 			clr_country_flag = bleed_dry_vassal
@@ -558,6 +560,7 @@ country_event = {
 	
 	option = {
 		name = "We shall make them pay nothing."
+		clr_country_flag = negotiating_with_vassals
 		FROM = {
 			clr_country_flag = moderate_tribute
 			clr_country_flag = bleed_dry_vassal
@@ -570,9 +573,12 @@ country_event = {
 	
 	option = {
 		name = "Leave the policy as it is, actually."
-		any_pop = {
-			militancy = -0.5
-			consciousness = 0.5
+		clr_country_flag = negotiating_with_vassals
+		FROM = {
+			any_pop = {
+				militancy = -0.5
+				consciousness = 0.5
+			}
 		}
 	}
 }
