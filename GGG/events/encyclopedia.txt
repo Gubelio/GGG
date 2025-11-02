@@ -3910,20 +3910,107 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#option = {
-	#	name = "The Vuypuyti"
-	#	clr_country_flag = encyclopedia_open
-	#}
-	#
-	#option = {
-	#	name = "The Vuypuyti"
-	#	clr_country_flag = encyclopedia_open
-	#}
-	#
-	#option = {
-	#	name = "The Vuypuyti"
-	#	clr_country_flag = encyclopedia_open
-	#}
+	option = {
+		name = "The Vuypuyti"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50366 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Paguyti"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50367 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Uytophat"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50368 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
 
 
 	option = {

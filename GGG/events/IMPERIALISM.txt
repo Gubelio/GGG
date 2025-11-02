@@ -1525,6 +1525,8 @@ country_event = {
 				accepted_culture = paguyti
 				primary_culture = vupuyti
 				accepted_culture = vupuyti
+				primary_culture = uytophat
+				accepted_culture = uytophat
 			}
 		}
 		civilized = yes
@@ -1555,7 +1557,11 @@ country_event = {
 		303 = { trade_goods = coal }
 		any_pop = {
 			limit = {
-				culture = paguyti
+				OR = {
+					culture = paguyti
+					culture = uytophat
+					culture = vupuyti
+				}
 				has_pop_religion = pagan
 			}
 		militancy = 8
@@ -1568,7 +1574,11 @@ country_event = {
 		prestige = -5
 		any_pop = {
 			limit = {
-				culture = paguyti
+				OR = {
+					culture = paguyti
+					culture = uytophat
+					culture = vupuyti
+				}
 				has_pop_religion = pagan
 			}
 		militancy = -1
