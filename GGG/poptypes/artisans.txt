@@ -63,6 +63,11 @@ country_migration_target = {
 	#	
 	#	
 	#}
+	
+	modifier = {
+		is_vassal = yes
+		factor = 0
+	}
 
     modifier = {
         factor = 0

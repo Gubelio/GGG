@@ -76,6 +76,11 @@ country_migration_target = {
         THIS = { NOT = { literacy = 0.6 } }
     }
 
+	modifier = {
+		is_vassal = yes
+		factor = 0
+	}
+
     modifier = {
         factor = 0.9
         unemployment = 0.05
