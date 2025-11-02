@@ -3658,12 +3658,21 @@ country_event = {
 	option = {
 		name = "The justice of the prince is the way forward!"
 		political_reform = noble_parliament
+		political_reform = centralised
+		ai_chance = {
+			factor = 80
+		
+		}
 	}
 	
 	option = {
 		name = "Empower the hereditary castes, censi, and tribes."
 		political_reform = tribal_assembly_i
+		political_reform = tribal_assembly
+		ai_chance = {
+			factor = 20
 		
+		}
 	}
 }
 

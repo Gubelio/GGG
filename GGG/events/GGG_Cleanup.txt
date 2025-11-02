@@ -1214,7 +1214,7 @@ country_event = {
         
         OR = {
 			any_owned_province = {
-                    state_scope = { flashpoint_tension = 10 }
+                    state_scope = { flashpoint_tension = 5 }
                     owner = {
                         OR = {
                             NOT = { has_global_flag = crisis_enabled }
@@ -1225,7 +1225,7 @@ country_event = {
             any_owned_province = {
                 any_neighbor_province = {
                     empty = yes
-                    state_scope = { flashpoint_tension = 10 }
+                    state_scope = { flashpoint_tension = 5 }
                 }
                 owner = { NOT = { has_global_flag = crisis_enabled } }
             }
@@ -1233,14 +1233,14 @@ country_event = {
                 ai = no
                 NOT = { has_global_flag = crisis_enabled }
                 any_owned_province = {
-                    state_scope = { flashpoint_tension = 10 }
+                    state_scope = { flashpoint_tension = 5 }
                 }
             }
             any_neighbor_country = {
                 ai = no
                 NOT = { has_global_flag = crisis_enabled }
                 any_owned_province = {
-                    state_scope = { flashpoint_tension = 10 }
+                    state_scope = { flashpoint_tension = 5 }
                 }
             }
         }
