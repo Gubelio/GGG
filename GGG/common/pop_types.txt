@@ -758,6 +758,7 @@ assimilation_chance =
 			is_culture_group = peninsular_diwvo
 			is_culture_group = sitheve
 			is_culture_group = sitheve_not_formable
+			culture = uytophat
 		}
 		
 		country = {
@@ -769,6 +770,7 @@ assimilation_chance =
 					is_culture_group = peninsular_diwvo
 					is_culture_group = sitheve
 					is_culture_group = sitheve_not_formable
+					primary_culture = uytophat
 				}
 			}
 		}
