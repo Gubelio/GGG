@@ -4230,3 +4230,37 @@ country_event = {
 		}
 	}
 }
+
+########################
+### BUDOBAMAN FLAVOR ###
+########################
+
+country_event = {
+	id = 50369 
+	title = "EVTNAME50369"
+	desc = "EVTDESC50369"
+	
+	trigger = {
+		tag = BUD
+		owns = 812
+		war = no
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVT50369OPTA"
+		prestige = 10
+		capital = 812
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "EVT50369OPTB" 
+		prestige = -1
+	}
+}
