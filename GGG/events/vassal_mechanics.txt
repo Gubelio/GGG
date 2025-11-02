@@ -97,9 +97,9 @@ country_event = { #tribute event
 }
 
 country_event = { #tribute event
-	id = 50360
-	title = "EVTNAME50360"
-	desc = "EVTDESC50360"
+	id = 50363
+	title = "EVTNAME50363"
+	desc = "EVTDESC50363"
 	#picture = "x"
 	
 	trigger = {
@@ -512,6 +512,7 @@ country_event = {
 			consciousness = 1
 		}
 		FROM = {
+			set_country_flag = negotiating_with_vassals
 			country_event = {
 				id = 50362
 				days = 5

@@ -627,7 +627,7 @@ political_decisions = {
 					days = 2
 				}
 			}
-			set_country_flag = negotiating_with_vassals
+			
 		}
 		
 		ai_will_do = {
