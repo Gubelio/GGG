@@ -4,6 +4,16 @@ VOK = {
     value = 150
 }
 
+#Leaders
+
+leader = {
+    name = "Hushu Budobam"
+    type = land
+    date = 1275.1.1
+    personality = spirited 
+    background = natural_born_leader
+}
+
 #Armies
 
 army = {
@@ -17,11 +27,10 @@ army = {
     }
 
     regiment = {
-        name= "Infantry Brigade"
-        type = infantry
+        name= "The Swinemen"
+        type = hussar
         home = 780
     }
-
 }
 
 

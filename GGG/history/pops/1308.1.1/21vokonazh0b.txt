@@ -223,13 +223,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 6325
+		size = 16325
 	}
 
 	farmers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 6262
+		size = 8262
 	}
 
 	soldiers = {
@@ -276,7 +276,7 @@
 	farmers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =25621
+		 size = 15621
 	}
 
 
@@ -290,7 +290,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =9930
+		 size =7930
 	}
 
 }
@@ -332,13 +332,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 1741
+		size = 18741
 	}
 
 	farmers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 1723
+		size = 3723
 	}
 
 	soldiers = {
@@ -385,7 +385,7 @@
 	farmers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =31426
+		 size = 15426
 	}
 
 
@@ -399,7 +399,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =12180
+		 size =7180
 	}
 
 }
@@ -441,13 +441,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 4899
+		size = 19899
 	}
 
 	farmers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 4849
+		size = 9849
 	}
 
 	soldiers = {
@@ -494,7 +494,7 @@
 	farmers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =41169
+		 size = 12169
 	}
 
 
@@ -508,7 +508,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =15957
+		 size = 4957
 	}
 
 }
@@ -1771,13 +1771,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 2059
+		size = 18059
 	}
 
 	labourers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 2038
+		size = 4038
 	}
 
 	soldiers = {
@@ -1824,7 +1824,7 @@
 	labourers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =22006
+		 size =10006
 	}
 
 
@@ -1838,7 +1838,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =8529
+		 size =2529
 	}
 
 }
@@ -1930,13 +1930,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 3579
+		size = 26579
 	}
 
 	labourers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 3543
+		size = 6543
 	}
 
 	soldiers = {
@@ -1983,7 +1983,7 @@
 	labourers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =28809
+		 size = 8809
 	}
 
 
@@ -1997,7 +1997,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =11166
+		 size = 5166
 	}
 
 }
@@ -2008,13 +2008,13 @@
 	serfs = {
 		culture = eshemi
 		religion = kadkohi
-		size = 3429
+		size = 33429
 	}
 
 	farmers = {
 		culture = eshemi
 		religion = kadkohi
-		size = 3394
+		size = 8394
 	}
 
 	soldiers = {
@@ -2061,7 +2061,7 @@
 	farmers = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =55471
+		 size = 30471
 	}
 
 
@@ -2075,7 +2075,7 @@
 	serfs = {
 		 culture = north_gashdzii
 		 religion = kadkohi
-		 size =21499
+		 size = 11499
 	}
 
 }
