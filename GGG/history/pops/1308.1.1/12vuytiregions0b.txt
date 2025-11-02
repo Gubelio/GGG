@@ -3643,23 +3643,40 @@
 	}
 
 	aristocrats = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 1600
+	}
+	
+	aristocrats = {
 		 culture = paguyti
 		 religion = pagan
-		 size =1731
+		 size = 131
 	}
 
-
+	bureaucrats = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 60
+	}
+	
 	bureaucrats = {
 		 culture = paguyti
 		 religion = pagan
-		 size =69
+		 size = 9
 	}
 
 
 	clergymen = {
 		 culture = paguyti
 		 religion = pagan
-		 size =691
+		 size = 300
+	}
+	
+	clergymen = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 391
 	}
 
 
@@ -3671,16 +3688,22 @@
 
 
 	soldiers = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 3338
+	}
+	
+	soldiers = {
 		 culture = paguyti
 		 religion = pagan
-		 size =1938
+		 size = 938
 	}
 
 
 	labourers = {
 		 culture = paguyti
 		 religion = pagan
-		 size =41904
+		 size = 41904
 	}
 
 
@@ -4312,35 +4335,60 @@
 	aristocrats = {
 		 culture = paguyti
 		 religion = pagan
-		 size =2373
+		 size = 373
+	}
+	
+	aristocrats = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 2073
 	}
 
 
 	bureaucrats = {
 		 culture = paguyti
 		 religion = pagan
-		 size =94
+		 size = 14
 	}
 
 
 	clergymen = {
 		 culture = paguyti
 		 religion = pagan
-		 size =948
+		 size = 600
+	}
+	
+	bureaucrats = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 74
+	}
+
+
+	clergymen = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 248
 	}
 
 
 	artisans = {
 		 culture = paguyti
 		 religion = pagan
-		 size =4746
+		 size = 4746
 	}
 
 
 	soldiers = {
+		 culture = uytophat
+		 religion = pagan
+		 size = 1656
+	}
+
+	soldiers = {
 		 culture = paguyti
 		 religion = pagan
-		 size =2656
+		 size = 2656
 	}
 
 

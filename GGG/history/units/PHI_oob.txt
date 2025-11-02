@@ -1,4 +1,12 @@
-#Relations
+#Leaders
+
+leader = {
+    name = "Ji'did the Seer"
+    type = land
+    date = 1285.1.1
+    personality = stalwart
+    background = poet 
+}
 
 #Armies
 
@@ -7,8 +15,8 @@ army = {
     location = 303
 
     regiment = {
-        name= "Warrior Band"
-        type = irregular
+        name= "Üytophat Guardians"
+        type = infantry
         home = 303
     }
 

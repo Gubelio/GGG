@@ -1,4 +1,12 @@
-#Relations
+#Leaders
+
+leader = {
+    name = "Vutjüphi Gâshd-Hater"
+    type = land
+    date = 1285.1.1
+    personality = harsh
+    background = sucker 
+}
 
 #Armies
 
@@ -7,8 +15,8 @@ army = {
     location = 310
 
     regiment = {
-        name= "Warrior Band"
-        type = irregular
+        name= "Üytophat War Party"
+        type = infantry
         home = 310
     }
 

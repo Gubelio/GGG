@@ -388,24 +388,9 @@ sitheve_not_formable = { #sithev e
 
 }
 
-vuyti = {
+vupuyti_vuyti = {
     leader = vuyti1
     unit = EuropeanGC
-
-    paguyti = { 
-	  color = { 159 191 113 }
-			first_names = { Dyanbu Jir Unju Ntunur Junwa Vutjüphi Dazhtu Onna Phosh Jduzh Twobyub Pyav Zhobnu Yüwjapho Voppüg
-							Vonjar Ji'did A'dunbo Gu'da }
-
-        	last_names = { "the World-Burner" Long-Stroke Head-Cracker "the Snake-Eater" "the Elder" "the Wiser" Fire-Eyes
-							Spirit-Talker Club-Wielder "of the Leaves" "of the Streams" Four-Tooth Six-Tooth Nine-Tooth 
-							Head-Taker Swine-Kin Tree-Feller Ground-Shaker Long-Cock Seed-Spiller Foggy-Eyes Life-Taker 
-							"of the Mud" Bone-Feller "the Castrator" Spirit-Taker Pruub-Eater "the Man-Slaver" War-Slave
-							Man-Flesher Brain-Eater "the Fleshmonger" Bone-Taker Hand-Taker Smoke-Breather Sword-Wielder
-							"the Good-headed" Tail-Eater "of the Fire" "of the Sea" "of the Mountain" Gun-Wielder Gâshd-Hater
-							"the Fish" "the Toad" "the Swine" "the Snake" "the Bird" "the Carp" "the Seer" "the Knower" 
-							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
-    }
 
     vupuyti = { #vupuyti
 	  color = { 25 117 43 }
@@ -422,6 +407,42 @@ vuyti = {
 							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
     }
 
+
+}
+
+paguyti_vuyti = {
+    leader = uytophat
+    unit = EuropeanGC
+
+    uytophat = { #Racially Gashdzii
+	  color = { 168 50 104 }
+			first_names = { Dyanbu Jir Unju Ntunur Junwa Vutjüphi Dazhtu Onna Phosh Jduzh Twobyub Pyav Zhobnu Yüwjapho Voppüg
+							Vonjar Ji'did A'dunbo Gu'da }
+
+        	last_names = { "the World-Burner" Long-Stroke Head-Cracker "the Snake-Eater" "the Elder" "the Wiser" Fire-Eyes
+							Spirit-Talker Club-Wielder "of the Leaves" "of the Streams" Four-Tooth Six-Tooth Nine-Tooth 
+							Head-Taker Swine-Kin Tree-Feller Ground-Shaker Long-Cock Seed-Spiller Foggy-Eyes Life-Taker 
+							"of the Mud" Bone-Feller "the Castrator" Spirit-Taker Pruub-Eater "the Man-Slaver" War-Slave
+							Man-Flesher Brain-Eater "the Fleshmonger" Bone-Taker Hand-Taker Smoke-Breather Sword-Wielder
+							"the Good-headed" Tail-Eater "of the Fire" "of the Sea" "of the Mountain" Gun-Wielder Gâshd-Hater
+							"the Fish" "the Toad" "the Swine" "the Snake" "the Bird" "the Carp" "the Seer" "the Knower" 
+							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
+    }
+	
+    paguyti = { 
+	  color = { 159 191 113 }
+			first_names = { Dyanbu Jir Unju Ntunur Junwa Vutjüphi Dazhtu Onna Phosh Jduzh Twobyub Pyav Zhobnu Yüwjapho Voppüg
+							Vonjar Ji'did A'dunbo Gu'da }
+
+        	last_names = { "the World-Burner" Long-Stroke Head-Cracker "the Snake-Eater" "the Elder" "the Wiser" Fire-Eyes
+							Spirit-Talker Club-Wielder "of the Leaves" "of the Streams" Four-Tooth Six-Tooth Nine-Tooth 
+							Head-Taker Swine-Kin Tree-Feller Ground-Shaker Long-Cock Seed-Spiller Foggy-Eyes Life-Taker 
+							"of the Mud" Bone-Feller "the Castrator" Spirit-Taker Pruub-Eater "the Man-Slaver" War-Slave
+							Man-Flesher Brain-Eater "the Fleshmonger" Bone-Taker Hand-Taker Smoke-Breather Sword-Wielder
+							"the Good-headed" Tail-Eater "of the Fire" "of the Sea" "of the Mountain" Gun-Wielder Gâshd-Hater
+							"the Fish" "the Toad" "the Swine" "the Snake" "the Bird" "the Carp" "the Seer" "the Knower" 
+							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
+    }
 
 }
 
