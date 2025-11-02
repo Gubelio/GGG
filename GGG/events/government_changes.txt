@@ -209,7 +209,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-		    federalisation = regulated_elections
+		    federalisation = states_system
 		    federalisation = vocational_candidacy
 		}
 		land_reform_civ = collectivized_farming
@@ -233,6 +233,7 @@ country_event = {
 	desc = "EVTDESC50301"
 	
 	trigger = {
+		is_ideology_enabled = statist
 		civilized = yes
 		OR = {
 		    legislative_system = approved_candidacy
