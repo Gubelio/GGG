@@ -1,6 +1,6 @@
 capital = 310
-primary_culture = paguyti
-culture = uytophat
+primary_culture = uytophat
+culture = paguyti
 religion = pagan
 government = princely_despotate #aristocratic_commonwealth
 plurality = 5.0
@@ -27,6 +27,7 @@ upper_house = { # inherit
 
 #technologies
 
+flintlock_rifles = 1
 
 #flags
 
