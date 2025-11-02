@@ -1200,7 +1200,7 @@ country_event = {
 }
 
 country_event = {
-    id = 50280
+    id = 50364
     title = "crisis_cleanup"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -1213,6 +1213,30 @@ country_event = {
         war = no
         
         OR = {
+			any_owned_province = {
+                    state_scope = { 
+						flashpoint_tension = 5 
+						any_owned_province = {
+							is_core = BUD
+						}
+						NOT = {
+							any_owned_province = {
+								OR = {
+									port = yes
+									any_neighbor_province = {
+										owner = { 
+											tag = BUD
+										}
+									}
+								}
+							}
+						}
+					}
+                    owner = {
+                        tag = RAN
+                    }
+					
+                }
 			any_owned_province = {
                     state_scope = { flashpoint_tension = 5 }
                     owner = {
@@ -1231,17 +1255,71 @@ country_event = {
             }
             any_greater_power = {
                 ai = no
-                NOT = { has_global_flag = crisis_enabled }
-                any_owned_province = {
-                    state_scope = { flashpoint_tension = 5 }
-                }
+				OR = {
+					AND = {
+						NOT = { has_global_flag = crisis_enabled }
+						any_owned_province = {
+							state_scope = { flashpoint_tension = 5 }
+						}
+					}
+					AND = {
+						tag = RAN
+						any_owned_province = {
+							state_scope = { 
+								flashpoint_tension = 5 
+								any_owned_province = {
+									is_core = BUD
+								}
+								NOT = {
+									any_owned_province = {
+										OR = {
+											port = yes
+											any_neighbor_province = {
+												owner = { 
+													tag = BUD
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
             }
             any_neighbor_country = {
                 ai = no
-                NOT = { has_global_flag = crisis_enabled }
-                any_owned_province = {
-                    state_scope = { flashpoint_tension = 5 }
-                }
+                OR = {
+					AND = {
+						NOT = { has_global_flag = crisis_enabled }
+						any_owned_province = {
+							state_scope = { flashpoint_tension = 5 }
+						}
+					}
+					AND = {
+						tag = RAN
+						any_owned_province = {
+							state_scope = { 
+								flashpoint_tension = 5 
+								any_owned_province = {
+									is_core = BUD
+								}
+								NOT = {
+									any_owned_province = {
+										OR = {
+											port = yes
+											any_neighbor_province = {
+												owner = { 
+													tag = BUD
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
             }
         }
     }
@@ -1264,6 +1342,9 @@ country_event = {
                 limit = {
                     owner = {
                         OR = {
+							NOT = {
+								tag = RAN
+							}
                             NOT = { has_global_flag = crisis_enabled }
                             is_vassal = yes
                         }
@@ -1274,7 +1355,7 @@ country_event = {
                 }
             }
             any_owned = {
-                limit = { owner = { NOT = { has_global_flag = crisis_enabled } } }
+                limit = { owner = { NOT = { has_global_flag = crisis_enabled tag = RAN } } }
                 any_neighbor_province = {
                     limit = {
                         empty = yes
@@ -1283,6 +1364,55 @@ country_event = {
                     state_scope = { flashpoint_tension = -100 }
                 }
             }
+			any_country = {
+				limit = {
+					tag = RAN
+						any_owned_province = {
+							state_scope = { 
+								flashpoint_tension = 5 
+								any_owned_province = {
+									is_core = BUD
+								}
+								NOT = {
+									any_owned_province = {
+										OR = {
+											port = yes
+											any_neighbor_province = {
+												owner = { 
+													tag = BUD
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+				}
+				any_owned = {
+					limit = {
+						state_scope = { 
+							flashpoint_tension = 5 
+							any_owned_province = {
+								is_core = BUD
+							}
+							NOT = {
+								any_owned_province = {
+									OR = {
+										port = yes
+										any_neighbor_province = {
+											owner = { 
+												tag = BUD
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					state_scope = { flashpoint_tension = -100 }
+				}
+			
+			}
     }
 }
 
