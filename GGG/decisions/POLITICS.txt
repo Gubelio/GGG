@@ -603,6 +603,38 @@ political_decisions = {
 		}
 	}
 	
+	vassal_neg = {
+		picture = "imperial_palace"
+		alert = no
+			
+		potential = {
+			num_of_vassals_no_substates = 1
+			ai = no
+		}
+		allow = {
+			NOT = { has_country_flag = negotiating_with_vassals }
+		}
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					capital_scope = {
+						country_units_in_province = THIS
+					}
+				}
+				country_event = {
+					id = 50361
+					days = 2
+				}
+			}
+			set_country_flag = negotiating_with_vassals
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	
 
 

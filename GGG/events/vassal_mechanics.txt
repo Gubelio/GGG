@@ -6,6 +6,7 @@ country_event = { #tribute event
 	
 	trigger = {
 		has_country_flag = tributary_country
+		has_country_flag = bleed_dry_vassal
 		is_vassal = yes
 		
 		OR = {
@@ -93,6 +94,54 @@ country_event = { #tribute event
 		
 	
 	}
+}
+
+country_event = { #tribute event
+	id = 50360
+	title = "EVTNAME50360"
+	desc = "EVTDESC50360"
+	#picture = "x"
+	
+	trigger = {
+		has_country_flag = tributary_country
+		has_country_flag = moderate_tribute
+		is_vassal = yes
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	
+	}
+	
+	option = {
+		name = "This is our lot, it seems."
+		
+		prestige = -5
+		
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		
+		any_owned = {
+			owner = {
+				treasury = -1000
+			}
+			any_country = {
+				limit = {
+					is_our_vassal = THIS
+				}
+			
+				change_variable = {
+					which = tribute_recieved
+					value = 1
+				}
+			
+			}
+		}
+	}
+	
 }
 
 country_event = { #tribute arrives
@@ -445,4 +494,84 @@ country_event = { #tribute arrives
 	
 
 
+}
+
+country_event = {
+	id = 50361 
+	title = "EVTNAME50361"  
+	desc = "EVTDESC50361"
+	#picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = "We have little choice but to comply."
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+		FROM = {
+			country_event = {
+				id = 50362
+				days = 5
+			}	
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50362 
+	title = "EVTNAME50362" 
+	desc = "EVTDESC50362"
+	#picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = "Bleed them dry!"
+		FROM = {
+			set_country_flag = bleed_dry_vassal
+			clr_country_flag = moderate_tribute
+			any_pop = {
+				militancy = 1
+				consciousness = 1
+			}
+		
+		}
+	}
+	
+	option = {
+		name = "They should pay a moderate tribute."
+		FROM = {
+			set_country_flag = moderate_tribute
+			clr_country_flag = bleed_dry_vassal
+			any_pop = {
+				militancy = 0.5
+				consciousness = 0.5
+			}
+		}
+	}
+	
+	option = {
+		name = "We shall make them pay nothing."
+		FROM = {
+			clr_country_flag = moderate_tribute
+			clr_country_flag = bleed_dry_vassal
+			any_pop = {
+				militancy = -0.5
+				consciousness = 0.5
+			}
+		}
+	}
+	
+	option = {
+		name = "Leave the policy as it is, actually."
+		any_pop = {
+			militancy = -0.5
+			consciousness = 0.5
+		}
+	}
 }

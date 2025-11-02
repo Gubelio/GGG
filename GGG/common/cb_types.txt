@@ -1578,6 +1578,7 @@ make_puppet = {
 		
 		}
 		set_country_flag = tributary_country
+		set_country_flag = bleed_dry_vassal
 	
 	}
 }
