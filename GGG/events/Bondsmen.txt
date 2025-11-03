@@ -816,7 +816,6 @@ country_event = { #### BONDSMANSETUP #####
 		political_reform = thralldom_outlawed
 		political_reform = appointed_bureaucrats
 		political_reform = appointed_justices
-		political_reform = private_landownership
 		political_reform = tribal_assembly_i
 		political_reform = tribal_assembly
 		political_reform = all_voting_pops
