@@ -2463,7 +2463,7 @@ country_event = {
 	id = 50360 
 	title = "EVT50360NAME" ##### TAK
 	desc = "EVT50360DESC"
-	picture = "encyclo"
+	picture = "takemog"
 	
 	is_triggered_only = yes
 
@@ -4327,7 +4327,7 @@ country_event = {
 	id = 50318
 	title = "EVT50318NAME" ##### Takemoujoy
 	desc = "EVT50318DESC"
-	picture = "encyclo"
+	picture = "takemog"
 	
 	is_triggered_only = yes
 

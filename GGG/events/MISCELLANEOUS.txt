@@ -4239,6 +4239,7 @@ country_event = {
 	id = 50369 
 	title = "EVTNAME50369"
 	desc = "EVTDESC50369"
+	picture = "budo_city"
 	
 	trigger = {
 		tag = BUD
