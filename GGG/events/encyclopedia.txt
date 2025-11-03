@@ -4826,7 +4826,7 @@ country_event = {
 country_event = {
 	id = 50366
 	title = "EVT50366NAME" ##### Vuyti
-	desc = "EVT5036DESC"
+	desc = "EVT50366DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
