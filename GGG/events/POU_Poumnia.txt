@@ -2544,7 +2544,7 @@ country_event = { #tribute ships fall short
 		FROM = {
 			add_casus_belli = {
 				target = POU
-				type = war_reparations
+				type = pruuntish_submission
 				months = 12
 			}
 		
@@ -2553,7 +2553,7 @@ country_event = { #tribute ships fall short
 		war = {
 			target = FROM
 			attacker_goal = {
-				casus_belli = war_reparations
+				casus_belli = pruuntish_submission
 			}
 		}
 		

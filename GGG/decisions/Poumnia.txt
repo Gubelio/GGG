@@ -58,6 +58,9 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = pruuntish
+					NOT = {
+						vassal_of = THIS
+					}
 				}
 				leave_alliance = THIS
 				relation = {
@@ -71,6 +74,13 @@ political_decisions = {
 				}
 			
 				}
+			}
+			any_country = {
+				limit = {
+					primary_culture = pruuntish
+					vassal_of = THIS
+				}
+				annex_to = THIS
 			}
 		}
 		
