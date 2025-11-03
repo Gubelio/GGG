@@ -2577,7 +2577,7 @@ country_event = {
 	}
 	
 	option = {
-		name "The Vuyti Cultues"
+		name = "The Vuyti Cultures"
 		country_event = { id = 50327 }
 	}
 	
@@ -4787,6 +4787,66 @@ country_event = {
 	id = 50347
 	title = "EVT50347NAME" ##### Zagkhan
 	desc = "EVT50347DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50368
+	title = "EVT50368NAME" ##### Tophat
+	desc = "EVT50368DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50366
+	title = "EVT50366NAME" ##### Vuyti
+	desc = "EVT5036DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50367
+	title = "EVT50367NAME" ##### Pagyuti
+	desc = "EVT50367DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
