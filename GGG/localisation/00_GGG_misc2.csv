@@ -356,7 +356,7 @@ chickenhearted;Listless;;;;;;;;;;;;;x
 shrinking_violet;Misanthropic;;;;;;;;;;;;;x
 cavalry_school;Swine Rider;;;;;;;;;;;;;x
 womanizer;Plunderer;;;;;;;;;;;;;x
-exranker;Pedant;;;;;;;;;;;;;x
+#exranker;Pedant;;;;;;;;;;;;;x
 glory_hound;Bloodthirsty;;;;;;;;;;;;;x
 natural_born_leader;Inspiring Leader;;;;;;;;;;;;;x
 bureaucrat_speed;Bureaucrat;;;;;;;;;;;;;x
@@ -366,7 +366,7 @@ expert;Paranoid;;;;;;;;;;;;;x
 old_school;Old Guard;;;;;;;;;;;;;x
 hated;Exile;;;;;;;;;;;;;x
 cursed_luck;Torturer;;;;;;;;;;;;;x
-clueless;Legatee;;;;;;;;;;;;;x
+clueless;Pedant;;;;;;;;;;;;;x
 immoral;Pilferer;;;;;;;;;;;;;x
 spoiled;Princeling;;;;;;;;;;;;;x
 uncommonly_young;Dreamer;;;;;;;;;;;;;x
