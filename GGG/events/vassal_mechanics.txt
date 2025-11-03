@@ -37,8 +37,8 @@ country_event = { #tribute event
 		prestige = -5
 		
 		any_pop = {
-			militancy = 2
-			consciousness = 2
+			militancy = 0.5
+			consciousness = 0.5
 		}
 		
 		if = {
@@ -120,8 +120,8 @@ country_event = { #tribute event
 		prestige = -5
 		
 		any_pop = {
-			militancy = 2
-			consciousness = 2
+			militancy = 0.5
+			consciousness = 0.5
 		}
 		
 		any_owned = {
