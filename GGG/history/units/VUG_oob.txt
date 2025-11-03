@@ -28,6 +28,7 @@ HAH = {
 
 leader = {
     name = "Soora Gooth-So"
+    picture = vewugist1_general_0
     type = land
     date = 1301.1.1
     personality = cautious
@@ -35,11 +36,66 @@ leader = {
 }
 
 leader = {
-    name = "Biso Tum-So"
+    name = "Biso 'the Rustic' Tum-So"
     type = land
     date = 1305.1.1
     personality = persistant
     background = pawn
+}
+
+leader = {
+    name = "Buro Yoke-Breaker"
+    type = land
+    date = 1298.1.1
+    personality = brutish
+    background = womanizer
+}
+
+army = {
+    name = "Men of the Bowl"
+    location = 167
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 184
+    }
+
+    regiment = {
+        name= "Freemen Militia"
+        type = irregular
+        home = 185
+    }
+
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 187
+    }
+	
+    regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 186
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 176
+    }
+
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 221
+    }
+
+    regiment = {
+        name= "Swinery Brigade"
+        type = hussar
+        home = 180
+    }
+
 }
 
 army = {

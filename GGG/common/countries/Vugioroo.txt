@@ -1,4 +1,6 @@
-color = { 181 170 129 }
+color = { 201 163 183 } #175 63 121
+paternalistic_council = { 181 170 129 }
+pastoral_confederacy = { 181 170 129 }
 graphical_culture = EuropeanGC # inherit
 
 party = {
