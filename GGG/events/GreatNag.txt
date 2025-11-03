@@ -1012,7 +1012,10 @@ country_event = {
 	
 	trigger = {
 		tag = GAU
-		government = paternalistic_council
+		OR = {
+			government = paternalistic_council
+			government = pastoral_confederacy
+		}
 		NOT = { has_country_flag = settled_sucession }
 	
 	

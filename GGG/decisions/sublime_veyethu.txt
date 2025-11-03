@@ -4,7 +4,10 @@ political_decisions = {
 		#picture = "ivan_shishkin_countess_mordvinovas_wood"
 		potential = {
 			tag = VUG
-			government = paternalistic_council
+			OR = {
+				government = paternalistic_council
+				government = pastoral_confederacy
+			}
 			NOT = { has_country_flag = liberated_hahabi }
 		}
 		
@@ -24,7 +27,10 @@ political_decisions = {
 		#picture = "ivan_shishkin_countess_mordvinovas_wood"
 		potential = {
 			tag = VUG
-			government = paternalistic_council
+			OR = {
+				government = paternalistic_council
+				government = pastoral_confederacy
+			}
 			NOT = { has_country_flag = liberated_thesathi }
 		}
 		

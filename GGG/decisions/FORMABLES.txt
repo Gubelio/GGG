@@ -247,7 +247,9 @@ political_decisions = {
 				OR = {
 					exists = ATH
 					government = paternalistic_council
+					government = pastoral_confederacy
 					government = statist_bureaucracy
+					government = grand_syndicate
 				}
             }
         }

@@ -883,7 +883,10 @@ soldiers = {
             factor = -100
             OR = {
                 state_scope = { aristocrats = 0.02 }
-                country = { government = paternalistic_council }
+                country = { 
+					government = paternalistic_council
+					government = pastoral_confederacy
+				}
             }
         }
 
@@ -1070,9 +1073,8 @@ ideologies = {
             country = {
                 ruling_party_ideology = reactionary
                 OR = {
-                    government = aristocratic_commonwealth
-                    government = aristocratic_commonwealth
                     government = paternalistic_council
+                    government = pastoral_confederacy
                 }
             }
             OR = {
@@ -1433,31 +1435,34 @@ ideologies = {
             factor = 0.1
             NOT = {
                 militancy = 6
-                country = { government = paternalistic_council }
+                country = { 
+					government = paternalistic_council
+					government = pastoral_confederacy
+				}
             }
         }
 
-        modifier = {
-            factor = 3
-            country = { government = paternalistic_council }
-            nationalvalue = nv_autocracy
-            OR = {
-                is_primary_culture = yes
-                is_accepted_culture = yes
-            }
-        }
-
-        modifier = {
-            factor = 4
-            country = {
-                government = paternalistic_council
-                has_country_flag = totalitarian_government
-            }
-            OR = {
-                is_primary_culture = yes
-                is_accepted_culture = yes
-            }
-        }
+        #modifier = {
+        #    factor = 3
+        #    country = { government = paternalistic_council }
+        #    nationalvalue = nv_autocracy
+        #    OR = {
+        #        is_primary_culture = yes
+        #        is_accepted_culture = yes
+        #    }
+        #}
+		#
+        #modifier = {
+        #    factor = 4
+        #    country = {
+        #        government = paternalistic_council
+        #        has_country_flag = totalitarian_government
+        #    }
+        #    OR = {
+        #        is_primary_culture = yes
+        #        is_accepted_culture = yes
+        #    }
+        #}
 
         modifier = {
             factor = 2
@@ -1697,31 +1702,36 @@ ideologies = {
             }
         }
 
-        modifier = {
-            factor = 3
-            country = { government = statist_bureaucracy }
-            nationalvalue = nv_autocracy
-            OR = {
-                is_primary_culture = yes
-                is_accepted_culture = yes
-            }
-        }
-
-        modifier = {
-            factor = 0.3
-            NOT = { country = { government = statist_bureaucracy } }
-            OR = {
-                is_accepted_culture = yes
-                is_primary_culture = yes
-            }
-            nationalvalue = nv_autocracy
-        }
+        #modifier = {
+        #    factor = 3
+        #    country = { government = statist_bureaucracy }
+        #    nationalvalue = nv_autocracy
+        #    OR = {
+        #        is_primary_culture = yes
+        #        is_accepted_culture = yes
+        #    }
+        #}
+		#
+        #modifier = {
+        #    factor = 0.3
+        #    NOT = { country = { government = statist_bureaucracy } }
+        #    OR = {
+        #        is_accepted_culture = yes
+        #        is_primary_culture = yes
+        #    }
+        #    nationalvalue = nv_autocracy
+        #}
 
         modifier = {
             factor = 0.1
             NOT = {
                 militancy = 6
-                country = { government = statist_bureaucracy }
+                country = { 
+					OR = {
+						government = statist_bureaucracy
+						government = grand_syndicate
+					}
+				}
             }
         }
 

@@ -349,7 +349,10 @@ country_event = {
 
     trigger = {
 		tag = POU
-		government = paternalistic_council
+		OR = {
+			government = paternalistic_council
+			government = pastoral_confederacy
+		}
 		NOT = { has_country_flag = dealt_with_anuvo }
     }
 

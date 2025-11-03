@@ -48,8 +48,12 @@ political_decisions = {
 			RAN = { all_core = { owned_by = RAN } }
 			nationalism_n_imperialism = 1
 			NOT = {
-				government = paternalistic_council
-				government = statist_bureaucracy
+				OR = {
+					government = paternalistic_council
+					government = pastoral_confederacy
+					government = statist_bureaucracy
+					government = grand_syndicate
+				}
 			}
 		}
 		

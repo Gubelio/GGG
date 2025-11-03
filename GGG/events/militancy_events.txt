@@ -11,7 +11,12 @@ country_event = {
 	desc = "EVTDESC50059"
 	
     trigger = {
-		NOT = { government = paternalistic_council }
+		NOT = { 
+			OR = {
+				government = paternalistic_council 
+				government = pastoral_confederacy
+			}
+		}
         NOT = { has_country_flag = free_yoker_revolution }
         NOT = { has_global_flag = disabled_militancy_events }
 		civilized = yes
@@ -206,7 +211,10 @@ country_event = {
 		}
 		modifier = {
            factor = 0.01
-			government = paternalistic_council
+			OR = {
+				government = paternalistic_council 
+				government = pastoral_confederacy
+			}
 		}
 	}
 	
@@ -608,7 +616,12 @@ province_event = {
 
 	trigger = {
 		owner = {
-			NOT = { government = paternalistic_council }
+			NOT = { 
+				OR = {
+					government = paternalistic_council 
+					government = pastoral_confederacy
+				}
+			}
 			NOT = { scriptural_law = local_congregationalism }
 			civilized = yes
 		}
@@ -1286,9 +1299,12 @@ country_event = {
 	desc = "EVTDESC50195"
 	
     trigger = {
-		OR = {
-			NOT = { government = sublime_synod }
-			NOT = { government = paternalistic_council }
+		NOT = { 
+			OR = {
+				government = paternalistic_council 
+				government = pastoral_confederacy
+				government = sublime_synod
+			}
 		}
 		is_ideology_enabled = theocratist
 		civilized = yes
@@ -1469,7 +1485,12 @@ country_event = {
 	desc = "EVTDESC50188"
 	
     trigger = {
-		NOT = { government = statist_bureaucracy }
+		NOT = { 
+			OR = {
+				government = statist_bureaucracy
+				government = grand_syndicate
+			}
+		}
 		is_ideology_enabled = statist
 		civilized = yes
     }
@@ -1690,8 +1711,14 @@ province_event = {
 		owner = {
 			industrial_score = 10
 			is_ideology_enabled = statist
-			NOT = { government = statist_bureaucracy }
-			NOT = { government = paternalistic_council }
+			NOT = { 
+				OR = {
+					government = paternalistic_council 
+					government = pastoral_confederacy
+					government = statist_bureaucracy 
+					government = grand_syndicate
+				}
+			}
 		}
 	}
 	
@@ -2065,8 +2092,10 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			OR = {
-				government = statist_bureaucracy
-				government = paternalistic_council
+				government = paternalistic_council 
+				government = pastoral_confederacy
+				government = statist_bureaucracy 
+				government = grand_syndicate
 			}
 		}
 
@@ -2344,8 +2373,10 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			OR = {
-				government = statist_bureaucracy
-				government = paternalistic_council
+				government = paternalistic_council 
+				government = pastoral_confederacy
+				government = statist_bureaucracy 
+				government = grand_syndicate
 			}
 		}
 

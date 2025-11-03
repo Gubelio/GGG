@@ -10,7 +10,10 @@ romanticist_literature = {
 		}
 		modifier = {
 			factor = 2
-			government = paternalistic_council
+			OR = {
+				government = paternalistic_council
+				government = pastoral_confederacy
+			}
 		}
 		modifier = {
 			factor = -2

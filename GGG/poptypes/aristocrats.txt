@@ -125,7 +125,10 @@ country_migration_target = {
 
     modifier = {
         factor = 0
-        government = paternalistic_council
+		OR = {
+			government = paternalistic_council
+			government = pastoral_confederacy
+		}
     }
 
 	modifier = {
@@ -1068,11 +1071,10 @@ ideologies = {
             factor = 1.3
             country = {
                 ruling_party_ideology = reactionary
-                OR = {
-                    government = aristocratic_commonwealth
-                    government = aristocratic_commonwealth
-                    government = paternalistic_council
-                }
+				OR = {
+					government = paternalistic_council
+					government = pastoral_confederacy
+				}
             }
             country = { civilized = yes }
         }
@@ -1601,31 +1603,36 @@ ideologies = {
             }
         }
 
-        modifier = {
-            factor = 3
-            country = { government = statist_bureaucracy }
-            nationalvalue = nv_autocracy
-            OR = {
-                is_primary_culture = yes
-                is_accepted_culture = yes
-            }
-        }
-
-        modifier = {
-            factor = 0.3
-            NOT = { country = { government = statist_bureaucracy } }
-            OR = {
-                is_accepted_culture = yes
-                is_primary_culture = yes
-            }
-            nationalvalue = nv_autocracy
-        }
+        #modifier = {
+        #    factor = 3
+        #    country = { government = statist_bureaucracy }
+        #    nationalvalue = nv_autocracy
+        #    OR = {
+        #        is_primary_culture = yes
+        #        is_accepted_culture = yes
+        #    }
+        #}
+		#
+        #modifier = {
+        #    factor = 0.3
+        #    NOT = { country = { government = statist_bureaucracy } }
+        #    OR = {
+        #        is_accepted_culture = yes
+        #        is_primary_culture = yes
+        #    }
+        #    nationalvalue = nv_autocracy
+        #}
 
         modifier = {
             factor = 0.1
             NOT = {
                 militancy = 6
-                country = { government = statist_bureaucracy }
+                country = { 
+					OR = {
+						government = statist_bureaucracy
+						government = grand_syndicate
+					}
+				}
             }
         }
 

@@ -10,6 +10,7 @@ political_decisions = {
 			war = no
 			OR = {
 				government = statist_bureaucracy
+				government = grand_syndicate
 				upper_house = {
 					ideology = statist
 					value = 0.5
@@ -18,8 +19,8 @@ political_decisions = {
 					ideology = absolutist
 					value = 0.5
 				}
-				ideology = absolutist
-				ideology = statist
+				ruling_party_ideology = absolutist
+				ruling_party_ideology = statist
 			}
 		}
 		

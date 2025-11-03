@@ -701,7 +701,9 @@ country_event = {
 		BEN = { any_core = { owned_by = RAN } }
 		NOT = {
 			government = paternalistic_council
+			government = pastoral_confederacy
 			government = statist_bureaucracy
+			government = grand_syndicate
 		}
 	}
 	
@@ -756,7 +758,9 @@ country_event = {
 		VAD = { any_core = { owned_by = RAN } }
 		NOT = {
 			government = paternalistic_council
+			government = pastoral_confederacy
 			government = statist_bureaucracy
+			government = grand_syndicate
 		}
 	}
 	

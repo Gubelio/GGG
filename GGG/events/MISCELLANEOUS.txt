@@ -246,6 +246,7 @@ country_event = {
                 neighbour = THIS
                 NOT = {
                     government = paternalistic_council
+					government = pastoral_confederacy
                 }
             }
             any_pop = {
@@ -340,7 +341,10 @@ country_event = {
             limit = {
                 neighbour = THIS
                 NOT = {
-                    government = statist_bureaucracy
+					OR = {
+						government = statist_bureaucracy
+						government = grand_syndicate
+					}
                 }
             }
             any_pop = {
@@ -890,11 +894,19 @@ country_event = {
             modifier = {
                 factor = 0.1
                 government = sublime_synod 
-                FROM = { government = paternalistic_council }
+                FROM = {
+					OR = {
+						government = paternalistic_council
+						government = pastoral_confederacy
+					}
+				}
             }
             modifier = {
                 factor = 0.1
-                government = paternalistic_council
+				OR = {
+					government = paternalistic_council
+					government = pastoral_confederacy
+				}
                 FROM = { government = sublime_synod  }
             }
         }
@@ -972,6 +984,11 @@ country_event = {
                 factor = 0.25
                 government = paternalistic_council
                 FROM = { government = paternalistic_council }
+            }
+            modifier = {
+                factor = 0.25
+                government = pastoral_confederacy
+                FROM = { government = pastoral_confederacy }
             }
             modifier = {
                 factor = 0.25
@@ -2356,11 +2373,17 @@ country_event = {
 			#radical governments don't need to reform
 			modifier = {
 				factor = 0.2
-				government = paternalistic_council
+				OR = {
+					government = paternalistic_council
+					government = pastoral_confederacy
+				}
 			}
 			modifier = {
 				factor = 0.2
-				government = statist_bureaucracy
+				OR = {
+					government = statist_bureaucracy
+					government = grand_syndicate
+				}
 			}
 			#If already reformed no need
 			modifier = {
@@ -2640,7 +2663,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.1
-				government = statist_bureaucracy
+				OR = {
+					government = statist_bureaucracy
+					government = grand_syndicate
+				}
 			}
 			
 		}
@@ -3995,7 +4021,10 @@ country_event = {
 	
 	trigger = {
 		tag = VUG
-		government = paternalistic_council
+		OR = {
+			government = paternalistic_council
+			government = pastoral_confederacy
+		}
 		OR = {
 			ruling_party_ideology = conservative
 			ruling_party_ideology = statist
