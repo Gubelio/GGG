@@ -1164,7 +1164,11 @@ size = 1914
 
 1956 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = tuqqikian
@@ -2168,7 +2172,11 @@ size = 2454
 
 1966 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = tuqqikian
@@ -2688,7 +2696,11 @@ size = 6370
 
 1971 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = tuqqikian
@@ -4288,7 +4300,11 @@ size = 9670
 
 1985 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = tuqqikian

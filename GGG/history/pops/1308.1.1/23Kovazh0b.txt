@@ -23308,7 +23308,11 @@ thralls = {
 
 1184 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = ftemioq
@@ -24044,7 +24048,11 @@ thralls = {
 
 1189 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -24464,7 +24472,11 @@ thralls = {
 
 1192 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -24788,7 +24800,11 @@ thralls = {
 
 1195 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -24898,7 +24914,11 @@ thralls = {
 
 1196 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -25002,7 +25022,11 @@ thralls = {
 
 1197 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = bogurg
@@ -25278,7 +25302,11 @@ thralls = {
 
 1200 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -25382,12 +25410,16 @@ thralls = {
 
 1201 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
 		religion = paorusu
-		size = 0
+		size = 4
 	}
 
 	serfs = {
@@ -25417,7 +25449,7 @@ thralls = {
 	clergymen = {
 		culture = bogurg
 		religion = paorusu
-		size = 0
+		size = 1
 	}
 
 	aristocrats = {
@@ -25633,7 +25665,11 @@ thralls = {
 
 1204 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = gert
@@ -26332,7 +26368,11 @@ thralls = {
 
 1210 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = assatiog
@@ -26806,7 +26846,11 @@ thralls = {
 
 1216 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = assatiog
@@ -27291,7 +27335,11 @@ thralls = {
 
 1221 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -27394,7 +27442,11 @@ thralls = {
 
 1222 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = piok
@@ -28530,7 +28582,11 @@ thralls = {
 
 1233 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = bogurg
@@ -32723,7 +32779,11 @@ thralls = {
 
 1263 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	officers = {
 		culture = deuseuian
@@ -32832,7 +32892,11 @@ thralls = {
 
 1264 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	officers = {
 		culture = deuseuian
@@ -32941,7 +33005,11 @@ thralls = {
 
 1265 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	officers = {
 		culture = deuseuian

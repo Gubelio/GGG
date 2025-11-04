@@ -119,9 +119,13 @@ political_decisions = {
 			NOT = { government = theocracy }
 			OR = {
 				has_country_flag = pagan_country
-				has_country_flag = kusii_country
+				has_country_flag = juewaeg_country
+				has_country_flag = green_country
 				has_country_flag = dkatkang_country
 				has_country_flag = parqmun_country
+				has_country_flag = gyahki_country
+				#has_country_flag = jur_country #j'ur are a much more organised faith
+				has_country_flag = kusii_country
 			}
 			OR = {
 				AND = {

@@ -169,7 +169,6 @@ size = 395
 size = 13
 	}
 
-
 	clergymen = {
 		 culture = jazhakdii
 		 religion = kadkohi
@@ -5148,7 +5147,11 @@ size = 0
 
 1454 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 
 	thralls = {
@@ -19633,7 +19636,11 @@ size = 261
 
 1647 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = nuukheu
@@ -20198,7 +20205,11 @@ size = 120
 
 1658 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	farmers = {
 		culture = mnashi
@@ -20293,7 +20304,11 @@ size = 147
 
 1659 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	farmers = {
 		culture = padud
@@ -20648,7 +20663,11 @@ size = 11
 
 1664 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	farmers = {
 		culture = padud
@@ -20790,7 +20809,11 @@ size = 108
 
 1666 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	serfs = {
 		culture = padud
@@ -21468,7 +21491,11 @@ size = 636
 
 1673 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = padud
@@ -21648,7 +21675,11 @@ size = 100
 
 1675 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	serfs = {
 		culture = padud
@@ -22956,7 +22987,11 @@ size = 3600
 
 1688 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = mnashi
@@ -25887,7 +25922,11 @@ size = 3469
 
 1712 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = mnashi
@@ -26271,7 +26310,11 @@ size = 3064
 
 1715 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = nubiju
@@ -28815,7 +28858,11 @@ size = 343
 
 1736 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = umodi
@@ -29963,7 +30010,11 @@ size = 3463
 
 1746 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = nubiju
@@ -32755,7 +32806,11 @@ size = 387
 
 1771 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -33093,6 +33148,79 @@ size = 7287
 
 }
 
+1775 = {
+
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
+	
+
+	aristocrats = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 728
+	}
+
+
+	bureaucrats = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 24
+	}
+
+
+	clergymen = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 242
+	}
+
+
+	artisans = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 2071
+	}
+
+
+	soldiers = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 1423
+	}
+
+
+	farmers = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 18659
+	}
+
+
+	slaves = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 6429
+	}
+
+
+	officers = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 124
+	}
+
+
+	serfs = {
+		 culture = hrusaan
+		 religion = gyahki
+size = 14287
+	}
+
+}
+
 1777 = {
 
 
@@ -33163,7 +33291,11 @@ size = 6489
 
 1778 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -33231,7 +33363,11 @@ size = 6489
 
 1779 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -33299,7 +33435,11 @@ size = 9489
 
 1780 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -33639,7 +33779,11 @@ size = 11529
 
 1785 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -33911,7 +34055,11 @@ size = 3774
 
 1789 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -35284,7 +35432,11 @@ size = 3766
 
 1807 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	aristocrats = {
 		 culture = hrusaan
@@ -62496,7 +62648,11 @@ size = 2869
 
 2188 = {
 
-
+	clergymen = { #here so if a pagan country converts to Vewugism the pagan pops have a target to convert to
+		culture = hahuibi
+		religion = vewugi
+		size = 1
+	}
 
 	thralls = {
 		culture = gji
