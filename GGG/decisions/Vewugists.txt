@@ -142,11 +142,13 @@ political_decisions = {
 
         effect = {
 			religion = vewugi
-			set_country_flag = vewugi_country
-			clr_country_flag = pagan_country
-			clr_country_flag = kusii_country
-			clr_country_flag = dkatkang_country
-			clr_country_flag = parqmun_country
+				clr_country_flag = pagan_country
+				clr_country_flag = juewaeg_country
+				clr_country_flag = green_country
+				clr_country_flag = dkatkang_country
+				clr_country_flag = parqmun_country
+				clr_country_flag = gyahki_country
+				clr_country_flag = kusii_country
 			add_country_modifier = { name = vewugist_conversion duration = 3652 } #~10 years
 			any_pop = {
 				militancy = 1
