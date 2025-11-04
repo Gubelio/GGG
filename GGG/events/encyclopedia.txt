@@ -1675,7 +1675,7 @@ country_event = { #study juewaeg
 	}
 }
 
-country_event = { #study juewaeg
+country_event = { #study parqmun
 	id = 50304
 	title = "EVTNAME50304" 
 	desc = "EVTDESC50304"
@@ -1684,7 +1684,7 @@ country_event = { #study juewaeg
 	trigger = {
 		civilized = yes
 		any_pop = {
-			has_pop_religion = rechktist
+			has_pop_religion = parqmun
 		}
 		any_owned_province = {
 			continent = europe
@@ -1812,6 +1812,114 @@ country_event = { #study dkatkang
 		set_country_flag = studied_dkatkang
 		encylopedia_updated = {}
 	}
+}
+
+country_event = { #study dkatkang
+	id = 50370
+	title = "EVTNAME50370" 
+	desc = "EVTDESC50370"
+	#picture = "grave_stele"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		owns = 1774
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_gyahki
+				has_country_flag = gyahki_country
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_paorusu }
+				#			any_greater_power = { has_country_flag = studied_paorusu }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+		
+	}
+
+	option = {
+		name = "Why should we care for their primitive superstition?"
+		treasury = 4000
+		random_pop = {
+			limit = {
+				type = officers
+				is_primary_culture = yes
+				is_state_religion = yes
+			}
+			money = 36000
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = gyahki
+				location = {
+					province_id = 1774
+				}
+			
+			}
+			militancy = 6
+		}
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = gyahki
+				location = {
+					NOT = { 
+						province_id = 1774
+					}
+				}
+			
+			}
+			militancy = 3
+		}
+		
+		set_country_flag = studied_gyahki
+		encylopedia_updated = {}
+	}
+	
+	option = {
+		name = "Return their baubles and remove the officer."
+		prestige = -2
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = gyahki
+				location = {
+					province_id = 1774
+				}
+			
+			}
+			militancy = 2
+		}
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = gyahki
+				location = {
+					NOT = { 
+						province_id = 1774
+					}
+				}
+			
+			}
+			militancy = 1
+		}
+		
+		set_country_flag = studied_gyahki
+		encylopedia_updated = {}
+	}
+	
 }
 
 
