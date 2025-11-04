@@ -80,7 +80,7 @@ political_decisions = {
 					primary_culture = pruuntish
 					vassal_of = THIS
 				}
-				annex_to = THIS
+				inherit = THIS
 			}
 		}
 		
