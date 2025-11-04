@@ -157,7 +157,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 2 }
 				check_variable = {
 					which = tribute_recieved
-					value = 200
+					value = 100
 				}
 			}
 			
@@ -166,7 +166,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 3 }
 				check_variable = {
 					which = tribute_recieved
-					value = 400
+					value = 200
 				}
 			}
 			
@@ -175,7 +175,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 4 }
 				check_variable = {
 					which = tribute_recieved
-					value = 600
+					value = 300
 				}
 			}
 			
@@ -184,7 +184,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 5 }
 				check_variable = {
 					which = tribute_recieved
-					value = 800
+					value = 400
 				}
 			}
 			AND = {
@@ -192,7 +192,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 6 }
 				check_variable = {
 					which = tribute_recieved
-					value = 1000
+					value = 500
 				}
 			}
 			
@@ -201,7 +201,7 @@ country_event = { #tribute arrives
 				NOT = { num_of_vassals_no_substates = 9 }
 				check_variable = {
 					which = tribute_recieved
-					value = 1600
+					value = 800
 				}
 			}
 			
@@ -366,49 +366,6 @@ country_event = { #tribute arrives
 				THIS = {
 					check_variable = {
 						which = tribute_recieved
-						value = 1600
-					}
-				}
-			}
-			THIS = {
-				treasury = 1600000
-				change_variable = {
-					which = tribute_recieved
-					value = -1600
-				
-				}
-			}
-		
-		}
-		
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
-						value = 1000
-					}
-				}
-			}
-			THIS = {
-				treasury = 1000000
-				change_variable = {
-					which = tribute_recieved
-					value = -1000
-				
-				}
-			}
-		
-		}
-		
-
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = tribute_recieved
 						value = 800
 					}
 				}
@@ -430,20 +387,22 @@ country_event = { #tribute arrives
 				THIS = {
 					check_variable = {
 						which = tribute_recieved
-						value = 600
+						value = 500
 					}
 				}
 			}
 			THIS = {
-				treasury = 600000
+				treasury = 500000
 				change_variable = {
 					which = tribute_recieved
-					value = -600
+					value = -500
 				
 				}
 			}
 		
 		}
+		
+
 		
 		if = {
 			limit = {
@@ -452,7 +411,6 @@ country_event = { #tribute arrives
 						which = tribute_recieved
 						value = 400
 					}
-
 				}
 			}
 			THIS = {
@@ -466,6 +424,27 @@ country_event = { #tribute arrives
 		
 		}
 		
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = tribute_recieved
+						value = 300
+					}
+				}
+			}
+			THIS = {
+				treasury = 300000
+				change_variable = {
+					which = tribute_recieved
+					value = -300
+				
+				}
+			}
+		
+		}
+		
 		if = {
 			limit = {
 				THIS = {
@@ -473,6 +452,7 @@ country_event = { #tribute arrives
 						which = tribute_recieved
 						value = 200
 					}
+
 				}
 			}
 			THIS = {
@@ -480,6 +460,26 @@ country_event = { #tribute arrives
 				change_variable = {
 					which = tribute_recieved
 					value = -200
+				
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = tribute_recieved
+						value = 100
+					}
+				}
+			}
+			THIS = {
+				treasury = 100000
+				change_variable = {
+					which = tribute_recieved
+					value = -100
 				
 				}
 			}
