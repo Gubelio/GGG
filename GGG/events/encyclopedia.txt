@@ -2690,7 +2690,41 @@ country_event = {
 	}
 	
 	option = {
-		name = "The Lesser Peoples of Ishahfazh"
+		name = "The Thudians"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50328 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						civilized = yes
+						capital_scope = { continent = north_america }
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+	}
+	
+	option = {
+		name = "The Scattered Huighans"
 		country_event = { id = 50326 }
 	}
 	
@@ -3327,7 +3361,7 @@ country_event = {
 				THIS = {
 					OR = {
 						civilized = yes
-						capital_scope = { continent = north_america }
+						capital_scope = { continent = oceania }
 					}
 				}
 			
@@ -3343,7 +3377,7 @@ country_event = {
 				THIS = {
 					OR = {
 						civilized = yes
-						capital_scope = { continent = north_america }
+						capital_scope = { continent = oceania }
 					}
 				}
 				}
@@ -3370,40 +3404,7 @@ country_event = {
 	#picture = "gashdzii_generic"
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = "The Thudians"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						civilized = yes
-						capital_scope = { continent = north_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50328 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						civilized = yes
-						capital_scope = { continent = north_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-	}
+
 	
 	option = {
 		name = "The Dehuogi"
@@ -4553,8 +4554,8 @@ country_event = {
 
 country_event = {
 	id = 50325
-	title = "EVT50324NAME" ##### Yat-Pugrians
-	desc = "EVT50324DESC"
+	title = "EVT50325NAME" ##### Yat-Pugrians
+	desc = "EVT50325DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
