@@ -430,7 +430,8 @@ nationalist_rebels_title;Particularist;x
 nationalist_rebels_name;$INDEP$ Particularists;x
 nationalist_rebels_desc;Particularist rebels seek freedom for their bretheren. They are well led and equipped, and they will focus on achieving independence for their people.;x
 nationalist_rebels_army;$INDEP$ Particularists;x
-X;x;;;;;;;;;;;;;x
+ANY_POP_IN_PROVINCE_STARTS;Any pop in province;x
+vassal_nation_too_much_prestige;Vassal Nation;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

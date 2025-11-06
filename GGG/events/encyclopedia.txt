@@ -1401,11 +1401,12 @@ country_event = { #study J'ur
 	trigger = {
 		civilized = yes
 		functionalism = 1
-		any_pop = {
-			has_pop_religion = jur
-		}
+		
 		any_owned_province = {
 			continent = europe
+			any_pop = {
+				has_pop_religion = jur
+			}
 		}
 		
 		NOT = {
@@ -1471,11 +1472,11 @@ country_event = { #study Momurism
 		OR = {
 			is_sphere_leader_of = QOO
 			AND = {
-				any_pop = {
-					has_pop_religion = momuirst
-				}	
 				any_owned_province = {
 					continent = south_america
+					any_pop = {
+						has_pop_religion = momuirst
+					}	
 				}
 			}
 		}
@@ -1534,11 +1535,11 @@ country_event = { #study Kusii
 		}
 		OR = {
 			AND = {
-				any_pop = {
-					has_pop_religion = kusii
-				}	
 				any_owned_province = {
 					continent = africa
+					any_pop = {
+						has_pop_religion = kusii
+					}	
 				}
 			}
 		}
@@ -1591,11 +1592,11 @@ country_event = { #study rechktist
 	trigger = {
 		civilized = yes
 		functionalism = 1
-		any_pop = {
-			has_pop_religion = rechktist
-		}
 		any_owned_province = {
 			continent = south_america
+			any_pop = {
+				has_pop_religion = rechktist
+			}
 		}
 		
 		NOT = {
@@ -1683,11 +1684,12 @@ country_event = { #study parqmun
 
 	trigger = {
 		civilized = yes
-		any_pop = {
-			has_pop_religion = parqmun
-		}
+		
 		any_owned_province = {
 			continent = europe
+			any_pop = {
+				has_pop_religion = parqmun
+			}
 		}
 		has_country_flag = studied_juewaeg
 		
@@ -1732,11 +1734,12 @@ country_event = { #study paorusu
 	trigger = {
 		civilized = yes
 		functionalism = 1
-		any_pop = {
-			has_pop_religion = paorusu
-		}
+		
 		any_owned_province = {
 			continent = south_america
+			any_pop = {
+				has_pop_religion = paorusu
+			}
 		}
 		
 		NOT = {
@@ -1814,7 +1817,7 @@ country_event = { #study dkatkang
 	}
 }
 
-country_event = { #study dkatkang
+country_event = { #study gyahki
 	id = 50370
 	title = "EVTNAME50370" 
 	desc = "EVTDESC50370"
