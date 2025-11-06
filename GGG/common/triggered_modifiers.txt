@@ -170,6 +170,17 @@ vassal_nation = {
     prestige = -0.1
 }
 
+vassal_nation_too_much_prestige = {
+    trigger = {
+        exists = yes
+        is_vassal = yes
+        is_substate = no
+		prestige = 50
+    }
+    icon = 10
+    prestige = -10
+}
+
 substate_nation = {
     trigger = {
         exists = yes
