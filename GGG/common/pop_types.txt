@@ -728,6 +728,7 @@ assimilation_chance =
 		}
 		
 	}
+
 	
 	modifier = { 
 		factor = -100
@@ -751,6 +752,19 @@ assimilation_chance =
 	modifier = { 
 		factor = -100
 		
+		culture = uytophat								#sapinoids non assimable
+		
+		country = {
+			NOT = {
+				primary_culture = uytophat
+			}
+		}
+		
+	}
+	
+	modifier = { 
+		factor = -100
+		
 		OR = {
 			is_culture_group = gashdzii 							#sapinoids - hairy, agile, stout and intelligent species from southern ishahfazh
 			is_culture_group = colonial_gashdzii
@@ -758,7 +772,7 @@ assimilation_chance =
 			is_culture_group = peninsular_diwvo
 			is_culture_group = sitheve
 			is_culture_group = sitheve_not_formable
-			culture = uytophat
+			
 		}
 		
 		country = {
@@ -770,7 +784,6 @@ assimilation_chance =
 					is_culture_group = peninsular_diwvo
 					is_culture_group = sitheve
 					is_culture_group = sitheve_not_formable
-					primary_culture = uytophat
 				}
 			}
 		}

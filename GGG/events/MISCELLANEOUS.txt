@@ -3025,16 +3025,25 @@ country_event = {
 			has_country_flag = liberates_brothers
 			is_culture_group = gashdzii
 			is_culture_group = colonial_gashdzii
-			primary_culture = poumnain
+			#primary_culture = poumnian
 			#is_culture_group = peninsular_diwvo
 			is_culture_group = byotrish
-			is_culture_group = vuyti
+			is_culture_group = paguyti_vuyti
+			is_culture_group = vupuyti_vuyti
 		}
-		any_owned_province = {
-			any_pop = {
-				type = slaves
-				is_culture_group = THIS
-				}
+		OR = {
+			any_owned_province = {
+				any_pop = {
+					type = slaves
+					is_culture_group = THIS
+					}
+			}
+			any_owned_province = {
+				any_pop = {
+					type = thralls
+					is_culture_group = THIS
+					}
+			}
 		}
 	}
 	
@@ -3054,7 +3063,10 @@ country_event = {
 						is_culture_group = byotrish
 					}
 					THIS = {
-						is_culture_group = vuyti
+						is_culture_group = paguyti_vuyti
+					}
+					THIS = {
+						is_culture_group = vupuyti_vuyti
 					}
 				}
 				
