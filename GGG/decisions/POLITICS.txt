@@ -610,11 +610,25 @@ political_decisions = {
 		potential = {
 			num_of_vassals_no_substates = 1
 			ai = no
+			
 		}
 		allow = {
 			NOT = { has_country_flag = negotiating_with_vassals }
+			global = {
+				owner = {
+					vassal_of = THIS
+					capital_scope = {
+						country_units_in_province = THIS
+					}
+				
+				}
+				
+
+			
+			}
 		}
 		effect = {
+			set_country_flag = negotiating_with_vassals
 			any_country = {
 				limit = {
 					vassal_of = THIS

@@ -1657,7 +1657,7 @@ country_event = {
 }
 
 country_event = {
-    id = 30305
+    id = 50305
     title = "encylopedia_ticker"
     desc = "EVTDESC33337"
     #picture = "danishgovernment"
@@ -2397,4 +2397,230 @@ country_event = {
         }
 	}
     
+}
+
+country_event = {
+	id = 50371
+    title = "slave_pop_growth"
+	#desc = "EVTDESC33337"
+
+	is_triggered_only = yes
+
+	trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        year = 1310
+		
+		OR = {
+			slavery = yes_slavery
+			slavery = code_of_rights
+			slavery = public_ownership
+		}
+		
+		any_owned_province = {
+			has_pop_type = slaves
+		
+		}
+		
+		any_neighbor_country = {
+			OR = {
+				slavery = yes_slavery
+				slavery = code_of_rights
+				slavery = public_ownership
+			}
+			any_owned_province = {
+				has_pop_type = slaves
+		
+			}
+		
+		}
+		
+		any_greater_power = {
+		
+			OR = {
+				slavery = yes_slavery
+				slavery = code_of_rights
+				slavery = public_ownership
+			}
+			any_owned_province = {
+				has_pop_type = slaves
+		
+			}
+		
+		
+		}
+		NOT = {
+			global = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+		}
+	}
+	
+
+	
+	option = {
+		name = "update"
+		
+		add_country_modifier = {
+			name = slavery_updated
+			duration = 1825
+		
+		}
+		
+		any_country = {
+			limit = {
+				slavery = yes_slavery
+				any_owned_province = {
+					has_pop_type = slaves
+			
+				}
+			}
+		
+			any_pop = {
+				limit = {
+					type = slaves
+				
+				}
+				reduce_pop = 1.003
+			}
+		
+		}
+		
+		any_country = {
+			limit = {
+				slavery = code_of_rights
+				any_owned_province = {
+					has_pop_type = slaves
+			
+				}
+			}
+		
+			any_pop = {
+				limit = {
+					type = slaves
+				
+				}
+				reduce_pop = 1.002
+			}
+		
+		}
+		
+		any_country = {
+			limit = {
+				slavery = public_ownership
+				any_owned_province = {
+					has_pop_type = slaves
+			
+				}
+			}
+		
+			any_pop = {
+				limit = {
+					type = slaves
+				
+				}
+				reduce_pop = 1.003
+			}
+		
+		}
+	
+	
+	}
+
+	
+
+}
+
+country_event = {
+	id = 50372
+    title = "thrall_pop_growth"
+	#desc = "EVTDESC33337"
+
+	is_triggered_only = yes
+
+	trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        year = 1309
+		
+		OR = {
+			thralldom = thralldom_allowed
+		}
+		
+		any_owned_province = {
+			has_pop_type = thralls
+		
+		}
+		
+		any_neighbor_country = {
+			thralldom = thralldom_allowed
+			any_owned_province = {
+				has_pop_type = thralls
+		
+			}
+		
+		}
+		
+		any_greater_power = {
+		
+			thralldom = thralldom_allowed
+			any_owned_province = {
+				has_pop_type = thralls
+		
+			}
+		
+		
+		}
+		NOT = {
+			global = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+			
+			}
+		}
+	}
+	
+	
+	option = {
+		name = "update"
+		
+		add_country_modifier = {
+			name = thralls_updated
+			duration = 300
+		
+		}
+		
+		any_country = {
+			limit = {
+				thralldom = thralldom_allowed
+				any_owned_province = {
+					has_pop_type = thralls
+			
+				}
+			}
+		
+			any_pop = {
+				limit = {
+					type = thralls
+				
+				}
+				reduce_pop = 1.006
+			}
+		
+		}
+		
+		
+		}
+	
+	
+	}
+
+	
+
 }
