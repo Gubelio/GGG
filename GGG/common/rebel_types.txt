@@ -446,7 +446,7 @@ theocratist_rebels = {
         }
         modifier = {
             factor = 0
-            country = { government = theocratist_dictatorship }
+            country = { government = sublime_synod }
         }
         modifier = {
             factor = 1.015

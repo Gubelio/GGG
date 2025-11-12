@@ -4084,8 +4084,9 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			any_owned_province = {
-				has_factories = yes
-			
+				state_scope = {
+					has_factories = yes
+				}
 			}
 		}
 		

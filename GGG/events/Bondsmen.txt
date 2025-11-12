@@ -637,13 +637,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = anuvo
 				}
 			}
@@ -655,13 +648,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = shagmodt
 				}
 			}
@@ -673,13 +659,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = miegpaup
 				}
 			}
@@ -692,13 +671,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = ghechi
 				}
 			}
@@ -711,13 +683,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = paguyti
 				}
 			}
@@ -730,13 +695,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = vupuyti
 				}
 			}
@@ -749,13 +707,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = dehuogi
 				}
 			}
@@ -768,13 +719,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = eshemi
 				}
 			}
@@ -786,13 +730,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = ihntithot
 				}
 			}
@@ -804,13 +741,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = ihnpedi
 				}
 			}
@@ -822,13 +752,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = ihnpihmi
 				}
 			}
@@ -840,13 +763,6 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					any_pop = {
-						limit = {
-							type = slaves
-						
-						}
-					
-					}
 					pop_majority_culture  = ihnthedehert
 				}
 			}
