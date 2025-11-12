@@ -1072,10 +1072,10 @@ country_event = {
         prestige = 2
         ai_chance = {
             factor = 95
-            modifier = {
-                factor = 1.5
-                government = absolute_monarchy
-            }
+            #modifier = {
+            #    factor = 1.5
+            #    government = absolute_monarchy
+            #}
         }
         any_pop = {
             limit = { is_primary_culture = yes }

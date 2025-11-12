@@ -63,7 +63,7 @@ political_decisions = {
 		effect = {
 			prestige = 15
 			REG_111 = { add_core = VOK }
-			REG_112 = { add_core = VOK }
+			#REG_112 = { add_core = VOK }
 			REG_101 = { add_core = VOK }
 			REG_100 = { add_core = VOK }
 			611 = { add_core = VOK }

@@ -17,7 +17,7 @@ political_decisions = {
 			prestige = 15
 			badboy = 5
 			REG_111 = { add_core = CHB }
-			REG_112 = { add_core = CHB }
+			#REG_112 = { add_core = CHB }
 			REG_101 = { add_core = CHB }
 			REG_100 = { add_core = CHB }
 			611 = { add_core = CHB }

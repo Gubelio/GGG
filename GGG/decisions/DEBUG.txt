@@ -88,7 +88,9 @@ political_decisions = {
 
         effect = {
 			any_owned = {
-				has_pop_type = thralls
+				limit = {
+					has_pop_type = thralls
+				}
 				thralls = { pop_type = slaves }
 			}
 			any_pop = {

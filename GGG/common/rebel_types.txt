@@ -265,22 +265,22 @@ reactionary_rebels = {
 			44 = {
 				political_reform = noble_parliament
 				political_reform = centralised
-				governement = aristocratic_commonwealth
+				government = aristocratic_commonwealth
 			}
 			44 = {
 				political_reform = noble_parliament_i
 				political_reform = tribal_assembly
-				governement = princely_despotate
+				government = princely_despotate
 			}
 			6 = {
 				political_reform = noble_parliament
 				political_reform = centralised
-				governement = theocracy
+				government = theocracy
 			}
 			6 = {
 				political_reform = noble_parliament_i
 				political_reform = tribal_assembly
-				governement = theocracy
+				government = theocracy
 			}
 		}
         political_reform = primary_culture_only
