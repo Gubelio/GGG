@@ -30,6 +30,21 @@ peacetime_mobilization = {
     icon = 6
 }
 
+dismantled_infrastructure = {
+    factory_cost = 0.04
+    icon = 6
+}
+
+demanded_contributions = {
+    core_pop_militancy_modifier = 0.01
+    icon = 6
+}
+
+demanded_ships = {
+    naval_unit_start_experience = -3
+    icon = 6
+}
+
 national_confusion = {
     research_points_modifier = -0.01
     global_pop_consciousness_modifier = 0.01

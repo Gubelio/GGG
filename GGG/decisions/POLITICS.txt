@@ -635,6 +635,848 @@ political_decisions = {
 		}
 	}
 	
+###########################
+### MILITARY DESCISIONS ###
+###########################
+	
+	#dismantle_civilian_infrastructure = {
+	#	#picture = "mil_inf"
+	#	alert = yes
+	#	
+	#	potential = {
+	#		ai = no
+	#		#war = yes
+	#		#war_exhaustion = 25
+	#		NOT = {
+	#			has_country_modifier = dismantled_infrastructure
+	#		
+	#		}
+	#	
+	#	}
+	#
+	#	allow = {
+	#		OR = {
+	#			war_policy = pro_military
+	#			war_policy = jingoism
+	#		}
+	#		any_owned_province = {
+	#			has_building = railroad
+	#			NOT = {
+	#				any_neighbor_province = {
+	#					NOT = {
+	#						owned_by = THIS
+	#					}
+	#				}
+	#			}
+	#
+	#			controlled_by = THIS
+	#		
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#
+	#		war_exhaustion = 5
+	#		
+	#		steel = 10
+	#		
+	#		add_country_modifier = {
+	#			name = dismantled_infrastructure
+	#			duration = 365
+	#		}
+	#		
+	#	
+	#		random_owned = {
+	#			limit = {
+	#				has_building = railroad
+	#				NOT = {
+	#					any_neighbor_province = {
+	#						NOT = {
+	#							owned_by = THIS
+	#						}
+	#					}
+	#				}
+	#				controlled_by = THIS
+	#			
+	#			}
+	#			infrastructure = -1
+	#			owner = {
+	#				iron = 30
+	#				steel = 10
+	#				timber = 30
+	#				cement = 10
+	#			
+	#			}
+	#			any_pop = {
+	#				militancy = 1
+	#				consciousness = 2
+	#			}
+	#		}
+	#			
+	#			
+	#		#random_owned = {
+	#		#	limit = {
+	#		#		has_building = railroad
+	#		#		NOT = {
+	#		#			any_neighbor_province = {
+	#		#				NOT = {
+	#		#					owned_by = THIS
+	#		#				}
+	#		#			}
+	#		#		}
+	#		#		controlled_by = THIS
+	#		#	
+	#		#	}
+	#		#	infrastructure = -1
+	#		#	owner = {
+	#		#		iron = 30
+	#		#		steel = 10
+	#		#		timber = 30
+	#		#		cement = 10
+	#		#	
+	#		#	}
+	#		#	any_pop = {
+	#		#		limit = {
+	#		#			NOT = { pop_majority_issue = jingoism }
+	#		#		
+	#		#		}
+	#		#		militancy = 1
+	#		#		consciousness = 2
+	#		#	}
+	#		#}
+	#			
+	#		
+	#		
+	#		
+	#		
+	#		
+	#	
+	#	}
+	#	
+	#	ai_will_do = {					
+	#		factor = 0.1
+	#		
+	#		modifier = {
+	#			factor = 0
+	#			OR = {
+	#				NOT =  {
+	#					national_provinces_occupied = 30
+	#					war_score = 1
+	#					war_exhaustion = 51
+	#				}
+	#			
+	#			}
+	#		
+	#		}
+	#	}
+	#}							
+	
+	
+	demand_civilian_contribution = {
+		picture = "mil_civ"
+		alert = yes
+		
+		potential = {
+			ai = no
+			war = yes
+			war_exhaustion = 25
+			NOT = {
+				has_country_modifier = demanded_contributions
+			
+			}
+		}
+	
+		allow = {
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+		}
+		
+		effect = {
+
+			war_exhaustion = 7
+			any_pop = {
+				militancy = 1
+				consciousness = 1
+			
+			}
+			
+			steel = 40
+			ammunition = 25
+			small_arms = 10
+			artillery = 10
+			canned_food = 30
+			
+			add_country_modifier = {
+				name = demanded_contributions
+				duration = 720
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							check_variable = {
+								which = military_influence
+								value = 1
+							}
+						}
+					
+					}
+				
+				}
+				THIS = {
+					set_variable = {
+						which = military_influence
+						value = 0
+					}
+				}
+			
+			}
+			
+			random_owned = {
+				limit = {
+					has_building = railroad
+					NOT = {
+						any_neighbor_province = {
+							NOT = {
+								owned_by = THIS
+							}
+						}
+					}
+					controlled_by = THIS
+				
+				}
+				infrastructure = -1
+				owner = {
+					iron = 30
+					steel = 10
+					timber = 30
+					cement = 10
+				
+				}
+				any_pop = {
+					militancy = 1
+					consciousness = 2
+				}
+			}
+			
+			change_variable = {
+				which = military_influence
+				value = 1
+			}
+		
+		}
+		
+		ai_will_do = {					
+			factor = 0.1
+			
+			modifier = {
+				factor = 0
+				OR = {
+					national_provinces_occupied = 30
+					NOT =  {
+						war_score = 1
+						war_exhaustion = 35
+					}
+				
+				}
+			
+			}
+		}
+	}
+	
+	draft_merchant_ships = {
+		picture = "mil_navy"
+		alert = yes
+		
+		potential = {
+			ai = no
+			war = yes
+			war_exhaustion = 25
+			NOT = {
+				has_country_modifier = demanded_ships
+			
+			}
+		}
+	
+		allow = {
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+		}
+		
+		effect = {
+
+			war_exhaustion = 3
+			
+			if = {
+				limit = {
+					THIS = {
+						steamers = 1
+					
+					}
+				
+				}
+				THIS = {
+				
+					add_country_modifier = {
+						name = demanded_ships
+						duration = 1080
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = commerce_raider
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = commerce_raider
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = commerce_raider
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = commerce_raider
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = steam_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = steam_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = steam_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = steam_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = steam_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+				}
+				
+				
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = { steamers = 1 }
+					
+					}
+				
+				}
+				THIS = {
+				
+					add_country_modifier = {
+						name = demanded_ships
+						duration = 365
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = frigate
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = frigate
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = frigate
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = frigate
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+				
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+					
+					random_owned = {
+						limit = {
+							port = yes
+							controlled_by = THIS
+						}
+						sub_unit = { 
+							type = clipper_transport
+							value = current 
+						}
+						random_pop = {
+							limit = {
+								OR = {
+									type = aristocrats
+									type = capitalists
+								}
+							
+							}
+							militancy = 1
+							consciousness = 1
+							money = -30
+						
+						}
+					
+					}
+				}
+				
+				
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							check_variable = {
+								which = military_influence
+								value = 1
+							}
+						}
+					
+					}
+				
+				}
+				THIS = {
+					set_variable = {
+						which = military_influence
+						value = 0
+					}
+				}
+			
+			}
+			
+			change_variable = {
+				which = military_influence
+				value = 1
+			}
+			
+			
+		
+		}
+		
+		ai_will_do = {					
+			factor = 0.1
+			
+			modifier = {
+				factor = 0
+				OR = {
+					national_provinces_occupied = 30
+					NOT =  {
+						war_score = 1
+						war_exhaustion = 40
+					}
+				
+				}
+			
+			}
+		}
+	}
+	
+	
+	
 	
 
 
