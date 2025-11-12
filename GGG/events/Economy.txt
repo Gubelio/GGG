@@ -275,6 +275,257 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = 50373
+	title = "EVTNAME50373" #thrall culls
+    desc = "EVTDESC50373"
+	
+	trigger = {
+		year = 1312
+		thralldom = thralldom_allowed
+		any_owned_province = {
+			has_pop_type = thralls
+			OR = {	
+				has_pop_type = aristocrats
+				has_pop_type =  farmers
+			}
+		
+		}
+		NOT = {
+			has_country_modifier = thralls_culled
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	
+	}
+	
+	option = {
+		name = "The bloodletting is always a pleasure to see."
+		
+		add_country_modifier = {
+			name = thralls_culled
+			duration = 1300
+		
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				has_pop_type = thralls
+					OR = {	
+						has_pop_type = aristocrats
+						has_pop_type =  farmers
+					}
+			
+			}
+			owner = {
+				cattle = 100
+			}
+			any_pop = {
+				limit = {
+					type = thralls
+				}
+				reduce_pop = 0.99
+				
+			
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				money = 100
+			}
+			
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				money = 10
+			}
+		}
+	
+	}
+
+
+}
 	
 	
 

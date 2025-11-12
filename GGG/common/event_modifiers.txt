@@ -45,6 +45,11 @@ thralls_updated = {
     icon = 6
 }
 
+thralls_culled = {
+    #factory_cost = 0.04
+    icon = 17
+}
+
 demanded_contributions = {
     core_pop_militancy_modifier = 0.01
     icon = 6
