@@ -2344,31 +2344,31 @@ country_event = {
 			#Ruling party
 			modifier = {
 				factor = 1.5
-				ideology = liberationist
+				ruling_party_ideology = liberationist
 			}		
 			modifier = {
 				factor = 2
-				ideology = free_yoker
+				ruling_party_ideology = free_yoker
 			}
 			modifier = {
 				factor = 1.5
-				ideology = statist
+				ruling_party_ideology = statist
 			}		
 			modifier = {
 				factor = 2
-				ideology = absolutist
+				ruling_party_ideology = absolutist
 			}
 			modifier = {
 				factor = 0.2
-				ideology = conservative
+				ruling_party_ideology = conservative
 			}
 			modifier = {
 				factor = 0
-				ideology = reactionary
+				ruling_party_ideology = reactionary
 			}
 			modifier = {
 				factor = 0.2
-				ideology = theocratist
+				ruling_party_ideology = theocratist
 			}
 			#radical governments don't need to reform
 			modifier = {
@@ -2422,10 +2422,10 @@ country_event = {
 				factor = 0.8
 				public_order = unified_legal_code
 			}
-			modifier = {
-				factor = 0.8
-				banking_system = regulatory_institutions
-			}
+			#modifier = {
+			#	factor = 0.8
+			#	banking_system = regulatory_institutions
+			#}
 			modifier = {
 				factor = 0.8
 				land_reform_civ = collectivized_farming
@@ -2495,27 +2495,27 @@ country_event = {
 			#Ruling party
 			modifier = {
 				factor = 0.2
-				ideology = liberationist
+				ruling_party_ideology = liberationist
 			}		
 			modifier = {
 				factor = 0
-				ideology = free_yoker
+				ruling_party_ideology = free_yoker
 			}
 			modifier = {
 				factor = 0.2
-				ideology = statist
+				ruling_party_ideology = statist
 			}		
 			modifier = {
 				factor = 0
-				ideology = absolutist
+				ruling_party_ideology = absolutist
 			}
 			modifier = {
 				factor = 1.2
-				ideology = conservative
+				ruling_party_ideology = conservative
 			}
 			modifier = {
 				factor = 1.5
-				ideology = reactionary
+				ruling_party_ideology = reactionary
 			}
 			#If already reformed need grows
 			modifier = {
@@ -2554,10 +2554,10 @@ country_event = {
 				factor = 1.1
 				public_order = unified_legal_code
 			}
-			modifier = {
-				factor = 1.1
-				banking_system = regulatory_institutions
-			}
+			#modifier = {
+			#	factor = 1.1
+			#	banking_system = regulatory_institutions
+			#}
 			modifier = {
 				factor = 1.1
 				land_reform_civ = collectivized_farming
@@ -2606,7 +2606,7 @@ country_event = {
 			modifier = { #already unified country
 				factor = 0
 				OR = {
-					tag = KII
+					tag = KID
 					tag = PRT
 					tag = TGN
 					#tag = CHB
@@ -2983,14 +2983,15 @@ province_event = {
 			province_id = 1725 
 		}
 		NOT = { trade_goods = opium }
-			OR = {
-				owner = {
-					steam_turbine = 1
-				}
-				year = 1372
+		OR = {
+			owner = {
+				steam_turbine = 1
 			}
+			year = 1372
 		}
 		NOT = { has_province_flag = planting_declined }
+		}
+		
 
 	option = {
 		name = "EVT500108OPTA"
@@ -3966,9 +3967,7 @@ country_event = {
 		modifier = {
 			factor = 0.7
 			any_pop = {
-				limit = {
-					type = aristocrats
-				}
+				type = aristocrats
 				NOT = { 
 					consciousness = 5
 				}
@@ -3978,9 +3977,7 @@ country_event = {
 		modifier = {
 			factor = 0.3
 			any_pop = {
-				limit = {
-					type = aristocrats
-				}
+				type = aristocrats
 				NOT = { 
 					consciousness = 2
 				}
@@ -4086,7 +4083,7 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			any_neighbor_province = {
+			any_owned_province = {
 				has_factories = yes
 			
 			}

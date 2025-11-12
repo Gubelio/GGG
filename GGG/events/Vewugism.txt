@@ -72,7 +72,7 @@ country_event = {
 ###########################
 
 country_event = { #Random unciv pagan converts to vewugism. Do not Localize, no human will ever see this
-	id = 50212
+	id = 50212 #1
 	title = "EVTNAME50212"
 	desc = "EVTDESC50212"
 	
@@ -136,7 +136,7 @@ country_event = {
 ########################
 
 country_event = { #AI ONLY - start up event
-	id = 50212
+	id = 50374 #2
 	title = "EVTNAME50212"
 	desc = "EVTDESC50212"
 	

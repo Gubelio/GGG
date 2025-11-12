@@ -469,10 +469,10 @@ john_elliot_cairnes = {
 		#	factor = 2
 		#	nationalvalue = nv_liberty
 		#}
-		modifier = {
-			factor = 1
-			trade_unions = all_trade_unions
-		}
+		#modifier = {
+		#	factor = 1
+		#	trade_unions = all_trade_unions
+		#}
 	}
 	effect = {
 		permanent_prestige = 1 

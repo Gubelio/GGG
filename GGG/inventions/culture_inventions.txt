@@ -634,10 +634,10 @@ existentialism = {
 			factor = 2
 			invention = expressionist_literature
 		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_violence
-		}
+		#modifier = {
+		#	factor = 2
+		#	invention = dogma_of_violence
+		#}
 	}
 	effect = {
 		shared_prestige = 25 
@@ -1546,7 +1546,7 @@ anti_egalitarianism = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		enable_crime = citizen_guard
+		#enable_crime = citizen_guard
 	}
 }
 vangaurd_party = {
@@ -1681,12 +1681,12 @@ national_radio_networks = {
 			factor = 2
 			government = paternalistic_council
 		}
-		modifier = {
-			factor = -1
-			NOT = {
-				press_rights = free_press
-			}
-		}
+		#modifier = {
+		#	factor = -1
+		#	NOT = {
+		#		press_rights = free_press
+		#	}
+		#}
 	}
 	effect = { 
 		activate_building = radio_factory 

@@ -11,6 +11,6 @@ terrain = savanna
     owner = JAD
     controller = JAD
     add_core = JAD
-    remove_core = CHA
+    #remove_core = CHA
 }
 

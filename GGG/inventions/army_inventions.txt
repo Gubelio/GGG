@@ -1446,10 +1446,10 @@ army_local_military_government = {
 			factor = 1
 			nationalism_n_imperialism = 1
 		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_violence
-		}
+		#modifier = {
+		#	factor = 2
+		#	invention = dogma_of_violence
+		#}
 	}
 	effect = {
 		army_base = {

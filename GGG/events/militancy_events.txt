@@ -716,7 +716,7 @@ province_event = {
 
 		modifier = {
 			factor = 0.9
-			owner {
+			owner = {
 				war_exhaustion = 60
 				NOT = { war_exhaustion = 95 }
 			}
@@ -724,7 +724,7 @@ province_event = {
 		
 		modifier = {
            factor = 0.7
-			owner {
+			owner = {
 				war_exhaustion = 95
 			}
 		}
@@ -821,20 +821,20 @@ country_event = {
             factor = 1.5
 			NOT = {
 				OR = {
-					month = july #First Rain
-					month = august #High Monsoon
-					month = september #Late Monsoon
-					month = october #Harvesttime
+					month = 6 #First Rain
+					month = 7 #High Monsoon
+					month = 8 #Late Monsoon
+					month = 9 #Harvesttime
 				}
 			}
         }
         modifier = {
             factor = 0.8
-			month = july #First Rain
+			month = 6 #First Rain
         }
         modifier = {
             factor = 0.9
-			month = august #High Monsoon
+			month = 7 #High Monsoon
         }
         modifier = {
             factor = 0.4
@@ -1706,7 +1706,9 @@ province_event = {
     desc = "EVTDESC50187"
 
 	trigger = {
-		has_factories = yes
+		state_scope = {
+			has_factories = yes
+		}
 		civilized = yes
 		owner = {
 			industrial_score = 10
@@ -1891,15 +1893,23 @@ province_event = {
 				factor = 6
 			}
 		}
-        any_pop = {
-			limit = {
-				OR = {
-					ideology = conservative
-					ideology = reactionary
-				}
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
 			}
-			militancy = 5
-			consciousness = 3
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 3
+			}
 		}
     }
 	

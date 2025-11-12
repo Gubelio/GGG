@@ -1475,7 +1475,7 @@ country_event = { #study Momurism
 				any_owned_province = {
 					continent = south_america
 					any_pop = {
-						has_pop_religion = momuirst
+						has_pop_religion = momurist
 					}	
 				}
 			}
@@ -4131,8 +4131,8 @@ country_event = {
 	}
 }
 
-#################
-Culture Entries ###
+#######################
+### Culture Entries ###
 
 country_event = {
 	id = 50161

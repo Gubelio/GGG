@@ -39,7 +39,7 @@ political_decisions = {
 			}
 			modifier = { 
 				factor = 0 #will never do if
-				relation = { POU = THIS value = 50 } #relations 50 or over with POU
+				relation = { who = POU value = 50 } #relations 50 or over with POU
 			}
 		}
 		

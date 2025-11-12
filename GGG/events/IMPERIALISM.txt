@@ -185,7 +185,7 @@ country_event = {
 			political_reform = open_borders
 			civilized = yes
 			primary_culture = THIS
-			religion = THIS
+			#religion = THIS #doesn't work
 			diplomatic_influence = {
 				who = THIS
 				value = -100
@@ -1211,7 +1211,7 @@ country_event = {
 }
 
 ####
-KOVAZH NORTH
+### KOVAZH NORTH
 #####
 
 country_event = { 

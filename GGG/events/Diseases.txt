@@ -2978,6 +2978,7 @@ country_event = {
 	}
 	
 	option = {
+		name = "ai"
 		if = {
 			limit = {
 				THIS = {
@@ -3024,8 +3025,8 @@ country_event = {
 				
 				}
 				random_owned = {
-					has_province_modifier = cordon_sanitaire_province
 					limit = {
+						has_province_modifier = cordon_sanitaire_province
 						OR = {
 							has_building = naval_base
 							AND = {
@@ -3096,8 +3097,8 @@ country_event = {
 				
 				}
 				random_owned = {
-					has_province_modifier = cordon_sanitaire_province
 					limit = {
+						has_province_modifier = cordon_sanitaire_province
 						OR = {
 							has_building = naval_base
 							AND = {
@@ -3173,8 +3174,8 @@ country_event = {
 				
 				}
 				random_owned = {
-					has_province_modifier = cordon_sanitaire_province
 					limit = {
+						has_province_modifier = cordon_sanitaire_province
 						OR = {
 							has_building = naval_base
 							AND = {

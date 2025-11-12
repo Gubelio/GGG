@@ -326,7 +326,7 @@ country_event = { #HAMOGDISCOVERED
 	trigger = {
 		has_country_flag = exploring_bafozh
 		NOT = { has_global_flag = hamog_discovered }
-		HMO = exists
+		exists = HMO 
 	}
 	
 	mean_time_to_happen = {
@@ -1172,7 +1172,7 @@ country_event = { #zhakdnag requests autonomy
 	option = {
 		name = "We should take their request seriously."
 		prestige = 5
-		infamy = -1
+		badboy = -1
 		 	
 
 		release_vassal = ZHN

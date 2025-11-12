@@ -1403,10 +1403,10 @@ nationalist_rebels = {
             factor = 1.015
             NOT = { is_culture_group = THIS }
         }
-        modifier = {
-            factor = 2
-            location = { has_province_modifier = nationalist_agitation }
-        }
+        #modifier = {
+        #    factor = 2
+        #    location = { has_province_modifier = nationalist_agitation }
+        #}
         modifier = {
             factor = 1.2
             location = { is_colonial = yes }
