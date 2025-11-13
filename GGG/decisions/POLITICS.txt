@@ -624,7 +624,7 @@ political_decisions = {
 					
 					}
 				}
-				                REG_2 = {
+				REG_2 = {
 				    owner = {
 						vassal_of = THIS
 						capital_scope = {
