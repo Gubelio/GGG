@@ -2451,12 +2451,7 @@ country_event = {
 		
 		}
 		NOT = {
-			global = {
-				owner = {
-					has_country_modifier = slavery_updated
-				}
-					
-			}
+			has_global_flag = slave_cleanup_flag
 		}
 	}
 	
@@ -2465,9 +2460,47 @@ country_event = {
 	option = {
 		name = "update"
 		
-		add_country_modifier = {
-			name = slavery_updated
-			duration = 1825
+		set_global_flag = slave_cleanup_flag
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50376
+				days = 720
+			
+			}
+		
+		}
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50376
+				days = 720
+			
+			}
+		
+		}
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50376
+				days = 720
+			
+			}
 		
 		}
 		
@@ -2577,12 +2610,7 @@ country_event = {
 		
 		}
 		NOT = {
-			global = {
-				owner = {
-					has_country_modifier = thralls_updated
-				}
-			
-			}
+			has_global_flag = thrall_cleanup_flag
 		}
 	}
 	
@@ -2590,9 +2618,47 @@ country_event = {
 	option = {
 		name = "update"
 		
-		add_country_modifier = {
-			name = thralls_updated
-			duration = 300
+		set_global_flag = thrall_cleanup_flag
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50375
+				days = 310
+			
+			}
+		
+		}
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50375
+				days = 310
+			
+			}
+		
+		}
+		
+		random_country = {
+			limit = {
+				ai = yes
+				war = no
+			}
+			
+			country_event = {
+				id = 50375
+				days = 310
+			
+			}
 		
 		}
 		
@@ -2622,5 +2688,37 @@ country_event = {
 	}
 
 	
+
+}
+
+country_event = {
+	id = 50375
+    title = "thrall_flag_cleanup"
+	#desc = "EVTDESC33337"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "yes master"
+		
+		clr_global_flag = thrall_cleanup_flag
+	
+	}
+
+}
+
+country_event = {
+	id = 50376
+    title = "slave_flag_cleanup"
+	#desc = "EVTDESC33337"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "yes master"
+		
+		clr_global_flag = slave_cleanup_flag
+	
+	}
 
 }

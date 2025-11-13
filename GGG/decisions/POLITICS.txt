@@ -614,18 +614,19 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_flag = negotiating_with_vassals }
-			global = {
-				owner = {
-					vassal_of = THIS
-					capital_scope = {
-						country_units_in_province = THIS
-					}
-				
-				}
-				
-
-			
-			}
+			#has_country_flag = can_manage_vassals
+			#global = {
+			#	owner = {
+			#		vassal_of = THIS
+			#		capital_scope = {
+			#			country_units_in_province = THIS
+			#		}
+			#	
+			#	}
+			#	
+			#
+			#
+			#}
 		}
 		effect = {
 			set_country_flag = negotiating_with_vassals
