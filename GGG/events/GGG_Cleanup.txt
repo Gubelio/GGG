@@ -2451,7 +2451,2671 @@ country_event = {
 		
 		}
 		NOT = {
-			has_global_flag = slave_cleanup_flag
+			REG_01 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+			            REG_2 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_3 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_4 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_5 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_6 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_7 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_8 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_9 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_10 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_11 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_12 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_13 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_14 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_15 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_16 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_17 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_18 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_19 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_20 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_21 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_22 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_23 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_24 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_25 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_26 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_27 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_28 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_29 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_30 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_31 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_32 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_33 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_34 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_35 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_36 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_37 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_38 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_39 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_40 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_41 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_42 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_43 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_44 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_45 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_46 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_47 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_48 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_49 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_50 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_51 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_52 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_53 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_54 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_55 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_56 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_57 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_58 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_59 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_60 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_61 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_62 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_63 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_64 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_65 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_66 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_67 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_68 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_69 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_70 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_71 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_72 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_73 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_74 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_75 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_76 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_77 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_78 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_79 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_80 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_81 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_82 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_83 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_84 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_85 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_86 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_87 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_89 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_90 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_91 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_92 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_93 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_94 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_95 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_96 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_97 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_98 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_99 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_100 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_101 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_102 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_103 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_104 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_105 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_106 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_107 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_108 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_109 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_110 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_111 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_113 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_114 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_115 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_116 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_117 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_118 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_119 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_120 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_121 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_122 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_123 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_124 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_125 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_126 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_127 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_128 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_129 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_130 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_131 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_132 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_133 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_134 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_135 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_136 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_137 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_138 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_139 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_140 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_141 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_142 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_143 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_144 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_145 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_146 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_147 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_148 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_149 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_150 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_151 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_152 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_153 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_154 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_155 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_156 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_157 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_158 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_159 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_160 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_161 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_162 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_163 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_164 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_165 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_166 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_167 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_168 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_169 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_170 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_171 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_172 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_173 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_174 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_175 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_176 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_177 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_178 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_179 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_180 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_181 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_182 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_183 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_184 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_185 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_186 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_187 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_188 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_189 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_190 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_191 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_192 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_193 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_194 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_195 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_196 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_197 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_198 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_199 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_200 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_201 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_202 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_203 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_204 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_205 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_206 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_207 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_208 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_209 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_210 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_211 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_212 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_213 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_214 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_215 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_216 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_217 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_218 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_219 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_220 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_221 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_222 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_223 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_224 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_225 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_226 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_227 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_228 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_229 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_230 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_231 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_232 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_233 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_234 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_235 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_236 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_237 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_238 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_239 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_240 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_241 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_242 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_243 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_244 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_245 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_246 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_247 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_248 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_249 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_250 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_251 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_252 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_253 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_254 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_255 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_256 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_257 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_258 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_259 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_260 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_261 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_262 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_263 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_264 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_265 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_266 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_267 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_268 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_269 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_270 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_271 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_272 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_273 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_274 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_275 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_276 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_277 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_278 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_279 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_280 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_281 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_282 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_283 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_284 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_285 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_286 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_287 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_288 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_289 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_290 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_291 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_292 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_293 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_294 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_295 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_296 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_297 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_298 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_299 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_300 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_301 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_302 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_303 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_304 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_305 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_306 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_307 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_308 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_309 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_310 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_311 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_312 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_313 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_314 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_315 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_316 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_317 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_318 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_319 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_320 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_321 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_322 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_323 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_324 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_325 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_326 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_327 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_328 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_329 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_330 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_331 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_332 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_333 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_334 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_335 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_336 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_337 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_338 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_339 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_340 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_341 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_342 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_343 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_344 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_345 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_346 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_347 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_348 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_349 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_350 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_351 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_352 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_353 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_354 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_355 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_356 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_357 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_358 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_359 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_360 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_361 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_362 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_363 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_364 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_365 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_366 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_367 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_368 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_369 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_370 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_371 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_372 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_373 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_374 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_375 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_376 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_377 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_378 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_379 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_380 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_381 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_382 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_383 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_384 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_385 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_386 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_387 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_388 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_389 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_390 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_391 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_392 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_393 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_394 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_395 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_396 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_397 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_398 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_399 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_400 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_401 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_402 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_403 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_404 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_405 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_406 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_407 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_408 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_409 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_410 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_411 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_412 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_413 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_414 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_415 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_416 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_417 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_418 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_419 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_420 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_421 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_422 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_423 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_424 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_425 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_426 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_427 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_428 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_429 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_430 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_431 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_432 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_433 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_434 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_435 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_436 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_437 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_438 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_439 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_440 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_441 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_442 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_443 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_444 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_445 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+            REG_446 = {
+				owner = {
+					has_country_modifier = slavery_updated
+				}
+					
+			}
+
 		}
 	}
 	
@@ -2460,47 +5124,9 @@ country_event = {
 	option = {
 		name = "update"
 		
-		set_global_flag = slave_cleanup_flag
-		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50376
-				days = 720
-			
-			}
-		
-		}
-		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50376
-				days = 720
-			
-			}
-		
-		}
-		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50376
-				days = 720
-			
-			}
+		add_country_modifier = {
+			name = slavery_updated
+			duration = 730
 		
 		}
 		
@@ -2610,7 +5236,2671 @@ country_event = {
 		
 		}
 		NOT = {
-			has_global_flag = thrall_cleanup_flag
+			REG_01 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+			
+			}
+			            REG_2 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_3 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_4 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_5 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_6 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_7 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_8 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_9 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_10 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_11 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_12 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_13 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_14 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_15 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_16 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_17 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_18 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_19 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_20 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_21 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_22 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_23 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_24 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_25 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_26 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_27 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_28 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_29 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_30 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_31 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_32 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_33 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_34 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_35 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_36 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_37 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_38 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_39 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_40 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_41 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_42 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_43 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_44 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_45 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_46 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_47 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_48 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_49 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_50 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_51 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_52 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_53 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_54 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_55 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_56 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_57 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_58 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_59 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_60 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_61 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_62 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_63 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_64 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_65 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_66 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_67 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_68 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_69 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_70 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_71 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_72 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_73 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_74 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_75 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_76 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_77 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_78 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_79 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_80 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_81 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_82 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_83 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_84 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_85 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_86 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_87 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_89 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_90 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_91 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_92 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_93 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_94 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_95 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_96 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_97 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_98 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_99 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_100 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_101 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_102 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_103 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_104 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_105 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_106 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_107 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_108 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_109 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_110 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_111 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_113 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_114 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_115 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_116 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_117 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_118 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_119 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_120 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_121 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_122 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_123 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_124 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_125 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_126 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_127 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_128 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_129 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_130 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_131 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_132 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_133 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_134 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_135 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_136 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_137 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_138 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_139 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_140 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_141 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_142 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_143 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_144 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_145 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_146 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_147 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_148 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_149 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_150 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_151 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_152 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_153 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_154 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_155 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_156 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_157 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_158 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_159 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_160 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_161 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_162 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_163 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_164 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_165 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_166 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_167 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_168 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_169 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_170 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_171 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_172 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_173 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_174 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_175 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_176 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_177 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_178 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_179 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_180 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_181 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_182 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_183 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_184 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_185 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_186 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_187 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_188 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_189 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_190 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_191 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_192 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_193 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_194 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_195 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_196 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_197 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_198 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_199 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_200 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_201 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_202 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_203 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_204 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_205 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_206 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_207 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_208 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_209 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_210 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_211 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_212 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_213 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_214 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_215 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_216 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_217 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_218 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_219 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_220 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_221 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_222 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_223 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_224 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_225 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_226 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_227 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_228 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_229 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_230 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_231 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_232 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_233 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_234 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_235 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_236 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_237 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_238 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_239 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_240 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_241 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_242 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_243 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_244 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_245 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_246 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_247 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_248 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_249 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_250 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_251 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_252 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_253 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_254 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_255 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_256 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_257 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_258 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_259 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_260 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_261 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_262 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_263 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_264 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_265 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_266 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_267 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_268 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_269 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_270 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_271 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_272 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_273 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_274 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_275 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_276 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_277 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_278 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_279 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_280 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_281 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_282 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_283 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_284 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_285 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_286 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_287 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_288 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_289 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_290 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_291 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_292 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_293 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_294 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_295 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_296 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_297 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_298 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_299 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_300 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_301 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_302 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_303 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_304 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_305 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_306 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_307 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_308 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_309 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_310 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_311 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_312 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_313 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_314 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_315 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_316 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_317 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_318 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_319 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_320 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_321 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_322 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_323 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_324 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_325 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_326 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_327 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_328 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_329 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_330 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_331 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_332 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_333 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_334 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_335 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_336 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_337 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_338 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_339 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_340 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_341 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_342 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_343 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_344 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_345 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_346 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_347 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_348 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_349 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_350 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_351 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_352 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_353 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_354 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_355 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_356 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_357 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_358 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_359 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_360 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_361 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_362 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_363 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_364 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_365 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_366 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_367 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_368 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_369 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_370 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_371 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_372 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_373 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_374 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_375 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_376 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_377 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_378 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_379 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_380 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_381 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_382 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_383 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_384 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_385 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_386 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_387 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_388 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_389 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_390 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_391 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_392 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_393 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_394 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_395 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_396 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_397 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_398 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_399 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_400 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_401 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_402 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_403 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_404 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_405 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_406 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_407 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_408 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_409 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_410 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_411 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_412 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_413 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_414 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_415 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_416 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_417 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_418 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_419 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_420 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_421 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_422 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_423 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_424 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_425 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_426 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_427 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_428 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_429 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_430 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_431 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_432 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_433 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_434 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_435 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_436 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_437 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_438 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_439 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_440 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_441 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_442 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_443 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_444 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_445 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+            REG_446 = {
+				owner = {
+					has_country_modifier = thralls_updated
+				}
+					
+			}
+
 		}
 	}
 	
@@ -2618,49 +7908,12 @@ country_event = {
 	option = {
 		name = "update"
 		
-		set_global_flag = thrall_cleanup_flag
-		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50375
-				days = 310
-			
-			}
+		add_country_modifier = {
+			name = thralls_updated
+			duration = 300
 		
 		}
 		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50375
-				days = 310
-			
-			}
-		
-		}
-		
-		random_country = {
-			limit = {
-				ai = yes
-				war = no
-			}
-			
-			country_event = {
-				id = 50375
-				days = 310
-			
-			}
-		
-		}
 		
 		any_country = {
 			limit = {
@@ -2686,37 +7939,5 @@ country_event = {
 	}
 
 	
-
-}
-
-country_event = {
-	id = 50375
-    title = "thrall_flag_cleanup"
-	#desc = "EVTDESC33337"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "yes master"
-		
-		clr_global_flag = thrall_cleanup_flag
-	
-	}
-
-}
-
-country_event = {
-	id = 50376
-    title = "slave_flag_cleanup"
-	#desc = "EVTDESC33337"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "yes master"
-		
-		clr_global_flag = slave_cleanup_flag
-	
-	}
 
 }
