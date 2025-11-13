@@ -614,19 +614,4005 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_flag = negotiating_with_vassals }
-			#has_country_flag = can_manage_vassals
-			#global = {
-			#	owner = {
-			#		vassal_of = THIS
-			#		capital_scope = {
-			#			country_units_in_province = THIS
-			#		}
-			#	
-			#	}
-			#	
-			#
-			#
-			#}
+			OR = {
+				REG_1 = {
+					owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+				                REG_2 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_3 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_4 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_5 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_6 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_7 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_8 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_9 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_10 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_11 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_12 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_13 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_14 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_15 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_16 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_17 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_18 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_19 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_20 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_21 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_22 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_23 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_24 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_25 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_26 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_27 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_28 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_29 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_30 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_31 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_32 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_33 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_34 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_35 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_36 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_37 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_38 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_39 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_40 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_41 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_42 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_43 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_44 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_45 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_46 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_47 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_48 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_49 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_50 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_51 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_52 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_53 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_54 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_55 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_56 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_57 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_58 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_59 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_60 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_61 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_62 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_63 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_64 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_65 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_66 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_67 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_68 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_69 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_70 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_71 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_72 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_73 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_74 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_75 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_76 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_77 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_78 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_79 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_80 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_81 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_82 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_83 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_84 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_85 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_86 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_87 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_89 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_90 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_91 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_92 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_93 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_94 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_95 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_96 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_97 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_98 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_99 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_100 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_101 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_102 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_103 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_104 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_105 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_106 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_107 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_108 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_109 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_110 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_111 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_113 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_114 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_115 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_116 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_117 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_118 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_119 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_120 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_121 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_122 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_123 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_124 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_125 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_126 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_127 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_128 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_129 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_130 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_131 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_132 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_133 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_134 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_135 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_136 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_137 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_138 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_139 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_140 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_141 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_142 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_143 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_144 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_145 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_146 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_147 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_148 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_149 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_150 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_151 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_152 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_153 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_154 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_155 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_156 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_157 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_158 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_159 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_160 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_161 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_162 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_163 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_164 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_165 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_166 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_167 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_168 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_169 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_170 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_171 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_172 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_173 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_174 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_175 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_176 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_177 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_178 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_179 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_180 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_181 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_182 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_183 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_184 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_185 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_186 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_187 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_188 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_189 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_190 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_191 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_192 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_193 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_194 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_195 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_196 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_197 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_198 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_199 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_200 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_201 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_202 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_203 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_204 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_205 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_206 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_207 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_208 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_209 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_210 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_211 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_212 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_213 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_214 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_215 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_216 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_217 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_218 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_219 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_220 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_221 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_222 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_223 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_224 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_225 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_226 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_227 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_228 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_229 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_230 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_231 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_232 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_233 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_234 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_235 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_236 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_237 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_238 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_239 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_240 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_241 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_242 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_243 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_244 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_245 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_246 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_247 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_248 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_249 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_250 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_251 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_252 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_253 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_254 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_255 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_256 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_257 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_258 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_259 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_260 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_261 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_262 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_263 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_264 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_265 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_266 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_267 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_268 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_269 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_270 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_271 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_272 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_273 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_274 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_275 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_276 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_277 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_278 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_279 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_280 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_281 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_282 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_283 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_284 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_285 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_286 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_287 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_288 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_289 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_290 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_291 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_292 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_293 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_294 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_295 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_296 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_297 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_298 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_299 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_300 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_301 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_302 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_303 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_304 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_305 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_306 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_307 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_308 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_309 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_310 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_311 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_312 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_313 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_314 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_315 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_316 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_317 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_318 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_319 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_320 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_321 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_322 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_323 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_324 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_325 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_326 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_327 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_328 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_329 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_330 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_331 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_332 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_333 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_334 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_335 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_336 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_337 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_338 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_339 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_340 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_341 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_342 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_343 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_344 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_345 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_346 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_347 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_348 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_349 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_350 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_351 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_352 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_353 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_354 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_355 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_356 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_357 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_358 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_359 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_360 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_361 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_362 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_363 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_364 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_365 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_366 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_367 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_368 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_369 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_370 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_371 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_372 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_373 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_374 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_375 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_376 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_377 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_378 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_379 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_380 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_381 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_382 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_383 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_384 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_385 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_386 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_387 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_388 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_389 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_390 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_391 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_392 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_393 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_394 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_395 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_396 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_397 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_398 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_399 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_400 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_401 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_402 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_403 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_404 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_405 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_406 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_407 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_408 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_409 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_410 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_411 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_412 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_413 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_414 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_415 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_416 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_417 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_418 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_419 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_420 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_421 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_422 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_423 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_424 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_425 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_426 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_427 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_428 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_429 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_430 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_431 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_432 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_433 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_434 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_435 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_436 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_437 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_438 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_439 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_440 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_441 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_442 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_443 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_444 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_445 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+                REG_446 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
+
+			}
 		}
 		effect = {
 			set_country_flag = negotiating_with_vassals
