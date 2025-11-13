@@ -582,3 +582,20 @@ country_event = {
 		}
 	}
 }
+
+#country_event = {
+#	id = 50377 
+#	title = "EVTNAME50377"  
+#	desc = "EVTDESC50377"
+#	#picture = "encyclo"
+#	
+#	trigger = {
+#		overlord = { 
+#		
+#		
+#		
+#		}
+#	
+#	}
+#
+#}
