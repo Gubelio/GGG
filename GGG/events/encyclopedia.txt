@@ -3915,6 +3915,7 @@ country_event = {
 				THIS = {
 					OR = {
 						has_country_flag = studied_ogrehi
+						capital_scope = { continent = oceania }
 					}
 				}
 			
@@ -3930,6 +3931,7 @@ country_event = {
 				THIS = {
 					OR = {
 						has_country_flag = studied_ogrehi
+						capital_scope = { continent = oceania }
 					}
 				}
 				}
@@ -3962,7 +3964,7 @@ country_event = {
 				NOT ={
 				THIS = {
 					OR = {
-						has_country_flag = studied_charchland
+						has_country_flag = studied_tuqqikian
 						capital_scope = { continent = europe }
 					}
 				}
@@ -3987,6 +3989,39 @@ country_event = {
 			}
 			THIS = { 
 				country_event = { id = 50347 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT ={
+				THIS = {
+					OR = {
+						has_country_flag = studied_zag
+					}
+				}
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		
+		}
+		
+	}
+	
+	option = {
+		name = "The Mjhm'an"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = studied_mjh
+					}
+				}
+			
+			}
+			THIS = { 
+				country_event = { id = 50375 }
 			}
 		}
 		
@@ -4876,6 +4911,25 @@ country_event = {
 	}
 }
 country_event = {
+	id = 50375
+	title = "EVT50375NAME" ##### Mjhman
+	desc = "EVT50375DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+country_event = {
 	id = 50346
 	title = "EVT50346NAME" ##### Tuqqikian
 	desc = "EVT50346DESC"
@@ -4972,6 +5026,151 @@ country_event = {
 	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+#########################
+#### CULTURE UNLOCKS ####
+#########################
+
+country_event = { #ogrehi
+	id = 50376
+	title = "EVT50376NAME" 
+	desc = "EVT50376DESC"
+	#picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		#functionalism = 1
+		
+		any_owned_province = {
+			continent = oceania
+			any_pop = {
+				has_pop_culture = ogrehi
+			}
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_ogrehi
+				capital_scope = { continent = oceania }
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_jur }
+				#			any_greater_power = { has_country_flag = studied_jur }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "Forbid the passage of private fur traders to the region."
+		
+		
+		random_pop = {
+			limit = {
+				type = soldiers
+				location = {
+					port = yes
+				}
+			
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		
+		random_pop = {
+			limit = {
+				type = farmers
+				location = {
+					port = yes
+				}
+			
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		
+		random_pop = {
+			limit = {
+				type = soldiers
+				location = {
+					port = yes
+				}
+			
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		
+		set_country_flag = studied_ogrehi
+		encylopedia_updated = {}
+	}
+	
+	option = {
+		name = "Regularise the trade, and make sure that the government takes a cut."
+		treasury = 200
+		
+		random_pop = {
+			limit = {
+				type = soldiers
+				location = {
+					port = yes
+				}
+			
+			}
+			money = 200
+		}
+		
+		random_pop = {
+			limit = {
+				type = farmers
+				location = {
+					port = yes
+				}
+			
+			}
+			money = 200
+		}
+		
+		random_pop = {
+			limit = {
+				type = soldiers
+				location = {
+					port = yes
+				}
+			
+			}
+			money = 200
+		}
+		
+		any_pop = {
+			limit = {
+				has_pop_culture = ogrehi
+				location = {
+					continent = oceania
+				}
+			}
+			
+			militancy = 8
+			consciousness = 8
+		
+		}
+		
+		
+		set_country_flag = studied_ogrehi
+		encylopedia_updated = {}
 	}
 }
 

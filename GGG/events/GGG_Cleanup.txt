@@ -2189,6 +2189,32 @@ country_event = {
 						}
 					}
 				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_ogrehi
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_ogrehi
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+
+						has_country_flag = studied_ogrehi
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_ogrehi
+						}
+					}
+				}
 			}
 			
 			OR = {
@@ -2394,6 +2420,18 @@ country_event = {
 				NOT = { has_country_flag = studied_kusii  }
 			}
 			set_country_flag = studied_kusii
+        }
+		any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_ogrehi }
+					any_greater_power = { has_country_flag = studied_ogrehi }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_ogrehi  }
+			}
+			set_country_flag = studied_ogrehi
         }
 	}
     
