@@ -637,29 +637,42 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = anuvo
+					any_pop = {
+						has_pop_culture = anuvo
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = anuvo
+				add_accepted_culture = ghechi
+				add_accepted_culture = shagmodt
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = shagmodt
+					any_pop = {
+						has_pop_culture = shagmodt
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = shagmodt
+				add_accepted_culture = anuvo
+				add_accepted_culture = ghechi
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = miegpaup
+					any_pop = {
+						has_pop_culture = miegpaup
+						type = slaves
+					}
 				}
 			}
 			THIS = {
@@ -671,11 +684,16 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = ghechi
+					any_pop = {
+						has_pop_culture = ghechi
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = ghechi
+				add_accepted_culture = anuvo
+				add_accepted_culture = shagmodt
 			}
 		}
 		
@@ -683,11 +701,15 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = paguyti
+					any_pop = {
+						has_pop_culture = paguyti
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = paguyti
+				add_accepted_culture = vupuyti
 			}
 		}
 		
@@ -695,11 +717,15 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = vupuyti
+					any_pop = {
+						has_pop_culture = vupuyti
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = vupuyti
+				add_accepted_culture = paguyti
 			}
 		}
 		
@@ -707,7 +733,10 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = dehuogi
+					any_pop = {
+						has_pop_culture = dehuogi
+						type = slaves
+					}
 				}
 			}
 			THIS = {
@@ -719,55 +748,98 @@ country_event = { #### BONDSMANSETUP #####
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = eshemi
+					any_pop = {
+						has_pop_culture = eshemi
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = eshemi
+				add_accepted_culture = duyo
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = ihntithot
+					any_pop = {
+						has_pop_culture = duyo
+						type = slaves
+					}
+				}
+			}
+			THIS = {
+				primary_culture = duyo
+				add_accepted_culture = eshemi
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = ihntithot
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = ihntithot
+				add_accepted_culture = ihnthedehert
+				add_accepted_culture = ihnpedi
+				add_accepted_culture = ihnpihmi
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = ihnpedi
+					any_pop = {
+						has_pop_culture = ihnpedi
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = ihnpedi
+				add_accepted_culture = ihnthedehert
+				add_accepted_culture = ihntithot
+				add_accepted_culture = ihnpihmi
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = ihnpihmi
+					any_pop = {
+						has_pop_culture = ihnpihmi
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = ihnpihmi
+				add_accepted_culture = ihnthedehert
+				add_accepted_culture = ihnpedi
+				add_accepted_culture = ihntithot
 			}
 		}
 		
 		if = {
 			limit = {
 				THIS = {
-					pop_majority_culture  = ihnthedehert
+					any_pop = {
+						has_pop_culture = ihnthedehert
+						type = slaves
+					}
 				}
 			}
 			THIS = {
 				primary_culture = ihnthedehert
+				add_accepted_culture = ihntithot
+				add_accepted_culture = ihnpedi
+				add_accepted_culture = ihnpihmi
 			}
 		}
 		
