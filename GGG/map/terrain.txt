@@ -286,6 +286,18 @@ categories =  {
         min_build_railroad = 3
     }
 
+    montane_forest = { #Temperate Rainforest
+        movement_cost = 1.2
+        defence = 1
+        color = { 2 3 4 }
+        farm_rgo_size = 0.0
+        farm_rgo_eff = 0.0
+        mine_rgo_size = 0.0
+        mine_rgo_eff = 0.0
+        supply_limit = 6
+        combat_width = -0.20
+    }
+
 
 ###### HPM ##################
 
@@ -305,23 +317,6 @@ categories =  {
 
         combat_width = -0.6
         attrition = 2
-    }
-
-    montane_forest = {
-        movement_cost = 1.5
-        defence = 3
-        color = { 117 108 121 }
-
-        farm_rgo_size = -0.4
-        farm_rgo_eff = -0.2
-        mine_rgo_size = 0.0
-        mine_rgo_eff = 0.0
-
-        supply_limit = 2
-
-        combat_width = -0.70
-
-        min_build_railroad = 3
     }
 	
 	coastal_desert = {

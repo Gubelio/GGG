@@ -239,6 +239,11 @@ spriteTypes = {
 		size = 14
 	}
 	
+	spriteType = {
+		name = "GFX_terrainimg_montane_forest"
+		texturefile = "gfx\\interface\\terrain_montane_forest.tga"
+		norefcount = yes
+	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_mountain"
