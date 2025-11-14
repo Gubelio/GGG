@@ -645,7 +645,7 @@ karl_kautsky = {
 		permanent_prestige = 1 
 	}
 }
-jean_jaurès = {
+jean_jaures = {
 	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
@@ -791,7 +791,7 @@ william_cunningham = {
 	}
 }
 #neoclassical_theory
-johann_heinrich_von_thünen = {
+johann_heinrich_von_thunen = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -809,7 +809,7 @@ johann_heinrich_von_thünen = {
 		permanent_prestige = 1 
 	}
 }
-léon_walras = {
+leon_walras = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -1007,7 +1007,7 @@ joseph_schumpeter = {
 		permanent_prestige = 1 
 	}
 }
-eugen_von_böhm_bawerk = {
+eugen_von_bohm_bawerk = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {

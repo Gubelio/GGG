@@ -258,16 +258,7 @@ country_event = {
 				country_event = { id = 50390 }
 			}
 		}
-		if = {
-			limit = {
-				THIS = {
-					tag = CHB
-				}
-			}
-			THIS = { 
-				country_event = { id = 50392 }
-			}
-		}
+		
 		if = {
 			limit = {
 				THIS = {
