@@ -280,6 +280,7 @@ country_event = {
 	id = 50373
 	title = "EVTNAME50373" #thrall culls
     desc = "EVTDESC50373"
+	picture = "thrallmaster"
 	
 	trigger = {
 		year = 1312

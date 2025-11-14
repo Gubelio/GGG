@@ -407,7 +407,7 @@ political_decisions = {
 	}
 	
 	compensate_slaveowners = {
-		#picture = "serfdom"
+		picture = "slavery"
 		alert = no
 			
 		potential = {
