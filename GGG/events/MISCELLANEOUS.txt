@@ -4305,43 +4305,44 @@ country_event = {
 	}
 }
 
-########################
-### BUDOBAMAN FLAVOR ###
-########################
+####################
+### VUPUYTI RAID ###
+####################
 
-country_event = {
-	id = 50391
-	title = "EVT50391NAME"
-	desc = "EVT50391DESC"
-	
-	trigger = {
-		civilized = yes
-		NOT = { primary_culture = vupuyti }
-		any_neighbor_country = {
-			primary_culture = vupuyti
-			civilized = no
-			NOT = { has_country_flag = vewugi_convert_nation }
- 		}
-	}
-
-	mean_time_to_happen = {
-		months = 360 #~30 years
-	}
-
-	option = {
-		name = "EVT50391OPTA"
-		prestige = -1
-		random_province = {
-			limit = {
-				any_neighbor_province = {
-					owner = {
-						primary_culture = vupuyti
-						civilized = no
-						NOT = { has_country_flag = vewugi_convert_nation }
-					}
-				}
-			}
-			add_province_modifier = { name = vupuyti_raid duration = 365 }
-		}
-	}
-}
+#country_event = {
+#	id = 50391
+#	title = "EVT50391NAME"
+#	desc = "EVT50391DESC"
+#	
+#	trigger = {
+#		civilized = yes
+#		NOT = { primary_culture = vupuyti }
+#		any_neighbor_country = {
+#			primary_culture = vupuyti
+#			civilized = no
+#			NOT = { has_country_flag = vewugi_convert_nation }
+# 		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 360 #~30 years
+#	}
+#
+#	option = {
+#		name = "EVT50391OPTA"
+#		prestige = -1
+#		random_province = {
+#			limit = {
+#				any_neighbor_province = {
+#					pop
+#					owner = {
+#						primary_culture = vupuyti
+#						civilized = no
+#						NOT = { has_country_flag = vewugi_convert_nation }
+#					}
+#				}
+#			}
+#			add_province_modifier = { name = vupuyti_raid duration = 365 }
+#		}
+#	}
+#}
