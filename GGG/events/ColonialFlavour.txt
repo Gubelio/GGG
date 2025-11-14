@@ -1033,6 +1033,7 @@ country_event = { #maps
 			}
 		
 		}
+		
 	
 		
 		if = {
@@ -1043,6 +1044,8 @@ country_event = { #maps
 			}
 			THIS = {
 				set_global_flag = bafozh_maps_1
+				set_country_flag = studied_belter_bafinoids
+				set_country_flag = studied_belter_azuroids
 			}
 		
 		}
@@ -1056,6 +1059,8 @@ country_event = { #maps
 			}
 			THIS = {
 				set_global_flag = bafozh_maps_2
+				set_country_flag = studied_asyum
+				set_country_flag = studied_beast_men
 			}
 		
 		}
@@ -1069,9 +1074,13 @@ country_event = { #maps
 			}
 			THIS = {
 				set_global_flag = bafozh_maps_done
+				set_country_flag = studied_charchland
+				set_country_flag = studied_forests
 			}
 		
 		}
+		
+		encylopedia_updated = {}
 		
 	}
 	
