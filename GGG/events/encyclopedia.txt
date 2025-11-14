@@ -307,7 +307,6 @@ country_event = {
 							tag = AYU
 							tag = PUS
 							tag = GHE
-							tag = CHB
 						}
 					}
 				}
@@ -2696,25 +2695,7 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 50392 
-	title = "EVT50392NAME" ##### CHB
-	desc = "EVT50392DESC"
-	#picture = "POU_generic"
-	
-	is_triggered_only = yes
 
-	option = {
-		name = "Return to 'Countries' Subheading"
-		country_event = { id = 50146 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
 
 country_event = {
 	id = 50390 

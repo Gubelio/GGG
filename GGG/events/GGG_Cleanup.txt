@@ -2836,43 +2836,6 @@ country_event = {
 				}
 			}
 			
-						OR = {
-				invention = social_anthropology
-				civilized = yes
-				NOT = { 
-					has_country_flag = know_of_chm
-				}
-				any_neighbor_country = {
-					OR = {
-						has_country_flag = know_of_chm
-					}
-				}
-				
-				any_greater_power = {
-					invention = social_anthropology
-					civilized = yes
-					NOT = { 
-						has_country_flag = know_of_chm
-					}
-					any_neighbor_country = {
-						OR = {
-							has_country_flag = know_of_chm
-						}
-					}
-				}
-				any_neighbor_country = {
-					invention = social_anthropology
-					civilized = yes
-					NOT = { 
-						has_country_flag = know_of_chm
-					}
-					any_neighbor_country = {
-						OR = {
-							has_country_flag = know_of_chm
-						}
-					}
-				}
-			}
 			
 			
 			
@@ -3184,18 +3147,7 @@ country_event = {
 			}
 			set_country_flag = studied_mom_cults
         }
-		any_country = {
-            limit = {
-				OR = {
-					any_neighbor_country = { has_country_flag = know_of_chm }
-					any_greater_power = { has_country_flag = know_of_chm }
-				}
-				invention = social_anthropology
-				civilized = yes
-				NOT = { has_country_flag = know_of_chm  }
-			}
-			set_country_flag = know_of_chm
-        }
+	
 			
 			
 			
