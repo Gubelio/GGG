@@ -2096,7 +2096,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Stoud Gaubja"
+		name = "Stout Gaubja"
 		country_event = { id = 50348 }
 	}
 	
@@ -2594,7 +2594,7 @@ country_event = {
 	id = 50348 
 	title = "EVT50348NAME" ##### GAU
 	desc = "EVT50348DESC"
-	picture = "encyclo"
+	picture = "gaubjan_coast"
 	
 	is_triggered_only = yes
 
@@ -3909,7 +3909,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "The Orgehi"
+		name = "The Ogrehi"
 		if2 = {
 			limit = {
 				THIS = {
@@ -3982,7 +3982,7 @@ country_event = {
 			limit = {
 				THIS = {
 					OR = {
-						has_country_flag = studied_zag
+						has_country_flag = studied_zagkhan
 					}
 				}
 			
@@ -3997,7 +3997,7 @@ country_event = {
 				NOT ={
 				THIS = {
 					OR = {
-						has_country_flag = studied_zag
+						has_country_flag = studied_zagkhan
 					}
 				}
 				}
@@ -4030,7 +4030,7 @@ country_event = {
 				NOT ={
 				THIS = {
 					OR = {
-						has_country_flag = studied_zag
+						has_country_flag = studied_mjh
 					}
 				}
 				}
@@ -5083,6 +5083,10 @@ country_event = { #ogrehi
 				type = soldiers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5095,6 +5099,10 @@ country_event = { #ogrehi
 				type = farmers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5107,6 +5115,10 @@ country_event = { #ogrehi
 				type = soldiers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5127,6 +5139,10 @@ country_event = { #ogrehi
 				type = soldiers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5138,6 +5154,10 @@ country_event = { #ogrehi
 				type = farmers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5149,6 +5169,10 @@ country_event = { #ogrehi
 				type = soldiers
 				location = {
 					port = yes
+					OR = {
+						colonial = no
+						continent = oceania
+					}
 				}
 			
 			}
@@ -5172,6 +5196,112 @@ country_event = { #ogrehi
 		set_country_flag = studied_ogrehi
 		encylopedia_updated = {}
 	}
+}
+
+country_event = { #tuqqikian
+	id = 50377
+	title = "EVT50377NAME" 
+	desc = "EVT50377DESC"
+	picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		has_country_flag = studied_kusii
+		
+		any_owned_province = {
+			continent = africa
+			any_pop = {
+				has_pop_culture = tuqqikian
+			}
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_tuqqikian
+				capital_scope = { continent = africa }
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_jur }
+				#			any_greater_power = { has_country_flag = studied_jur }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "How fascinating!"
+		prestige = 2
+		
+		set_country_flag = studied_tuqqikian
+		encylopedia_updated = {}
+	}
+	
+	
+}
+
+country_event = { #zagkhan
+	id = 50378
+	title = "EVT50378NAME" 
+	desc = "EVT50378DESC"
+	picture = "ishnapt_island"
+
+	trigger = {
+		civilized = yes
+		#functionalism = 1
+		#has_country_flag = studied_kusii
+		
+		any_owned_province = {
+			continent = africa
+			any_pop = {
+				has_pop_culture = zagkhan
+			}
+			trade_goods = mollusc_oil
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_zagkhan
+				capital_scope = { continent = africa }
+				#AND = {
+				#	year = 1350
+				#	THIS = {
+				#		civilized = yes
+				#		OR  = { 
+				#			any_neighbor_country = { has_country_flag = studied_jur }
+				#			any_greater_power = { has_country_flag = studied_jur }
+				#		}
+				#		invention = social_anthropology
+				#	}
+				#}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "Despite their primitive ways, they are very impressive peoples."
+		prestige = 2
+		mollusc_oil = 5
+		
+		set_country_flag = studied_zagkhan
+		encylopedia_updated = {}
+	}
+	
+	
 }
 
 ######################
