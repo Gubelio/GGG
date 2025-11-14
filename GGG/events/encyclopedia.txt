@@ -5137,7 +5137,7 @@ country_event = {
 	id = 50397
 	title = "EVT50397NAME" ##### The Shagmodt
 	desc = "EVT50397DESC"
-	picture = "gashdzii_rural"
+	picture = "gashdzii_generic_1"
 	
 	is_triggered_only = yes
 
