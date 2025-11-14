@@ -151,6 +151,66 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = VOK
+				}
+			}
+			THIS = { 
+				country_event = { id = 50380 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = PAS
+				}
+			}
+			THIS = { 
+				country_event = { id = 50381 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = VAF
+				}
+			}
+			THIS = { 
+				country_event = { id = 50382 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = VUG
+					OR = {
+						government = pastoral_confederacy
+						government = paternalistic_council
+					
+					}
+				}
+			}
+			THIS = { 
+				country_event = { id = 50383 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
+					tag = VUG
+					NOT = {
+						government = pastoral_confederacy
+						government = paternalistic_council
+					
+					}
+				}
+			}
+			THIS = { 
+				country_event = { id = 50384 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -167,6 +227,10 @@ country_event = {
 							tag = GOZ
 							tag = CHS
 							tag = TAK
+							tag = VOK
+							tag = PAS
+							tag = VAF
+							tag = VUG
 						}
 					}
 				}
@@ -1950,15 +2014,50 @@ country_event = {
 	
 	option = {
 		name = "The Old Kiidnazh"
-		#country_event = { id = ----- }
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50379 }
 	
 	}
 	
 	option = {
-		name = "The Sithevan Kingdoms"
-		#country_event = { id = ----- }
-		clr_country_flag = encyclopedia_open
+		name = "Veyethu or Vugioroo"
+		if = {
+			limit = { 
+				VUG = {
+					OR = {
+						government = pastoral_confederacy
+						government = paternalistic_council
+					
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50383 }
+			
+			}
+		
+		}
+		
+		if = {
+			limit = { 
+				VUG = {
+					NOT = {
+						government = pastoral_confederacy
+						government = paternalistic_council
+					
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50384 }
+			
+			}
+		
+		}
+		
 	
 	}
 
@@ -1970,8 +2069,7 @@ country_event = {
 	
 	option = {
 		name = "The Great Powers of Kovazh"
-		#country_event = { id = ----- }
-		clr_country_flag = encyclopedia_open
+		country_event = { id = 50385 }
 	
 	}
 	
@@ -1981,13 +2079,320 @@ country_event = {
 	}
 	
 	option = {
-		name = "The Foremost Bafozhi States"
-		#country_event = { id = ----- }
-		clr_country_flag = encyclopedia_open
+		name = "The Ghechi Confederacy"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = GHE
+					}
+					THIS = {
+						capital_scope = { 
+							continent = north_america
+						}
+					}
+				}
+			}
+		THIS = { country_event = { id = 50593 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = GHE
+					}
+					THIS = {
+						capital_scope = { 
+							continent = north_america
+						}
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+		
+	
+	}
+	
+	option = {
+		name = "The Kanate of Chomebed"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = CHM
+					}
+					THIS = {
+						has_country_flag = know_of_chm
+					}
+				}
+			}
+		THIS = { country_event = { id = 50592 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = CHM
+					}
+					THIS = {
+						has_country_flag = know_of_chm
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+		
 	
 	}
 	
 	
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+#### SUBHEADS ###
+
+country_event = {
+	id = 50385
+	title = "EVT50385NAME" ##### Kovazh
+	desc = "EVT50385DESC"
+	#picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Qooxib"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = QOO
+					}
+					THIS = {
+						has_country_flag = know_of_qoo
+					}
+				}
+			}
+		THIS = { country_event = { id = 50586 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = QOO
+					}
+					THIS = {
+						has_country_flag = know_of_qoo
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "Ourrhond"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = ORH
+					}
+					THIS = {
+						has_country_flag = know_of_orh
+					}
+				}
+			}
+		THIS = { country_event = { id = 50587 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = ORH
+					}
+					THIS = {
+						has_country_flag = know_of_orh
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Fazhri Chrur"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = FCH
+					}
+					THIS = {
+						has_country_flag = know_of_fch
+					}
+				}
+			}
+		THIS = { country_event = { id = 50591 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = FCH
+					}
+					THIS = {
+						has_country_flag = know_of_fch
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Rhuiqourran Empire"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = NHQ
+					}
+					THIS = {
+						has_country_flag = know_of_nhq
+					}
+				}
+			}
+		THIS = { country_event = { id = 50588 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = NHQ
+					}
+					THIS = {
+						has_country_flag = know_of_nhq
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "Pusunetos of the Great Khan"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = PUS
+					}
+					THIS = {
+						has_country_flag = know_of_pus
+					}
+				}
+			}
+		THIS = { country_event = { id = 50589 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = PUS
+					}
+					THIS = {
+						has_country_flag = know_of_pus
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	option = {
+		name = "The Serene Kingdom of Anyumb"
+		if2 = {
+			limit = {
+				OR = {
+					THIS = {
+						tag = AYU
+					}
+					THIS = {
+						has_country_flag = know_of_ayu
+					}
+				}
+			}
+		THIS = { country_event = { id = 50590 } }
+		}
+		if3 = {
+			limit = {
+				
+				NOT = {
+					THIS = {
+						tag = AYU
+					}
+					THIS = {
+						has_country_flag = know_of_ayu
+					}
+				}
+			
+			}
+		THIS = { country_event = { id = 50123 } }
+		}
+	}
+	
+	
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+country_event = {
+	id = 50379
+	title = "EVT50379NAME" ##### Kiidnazh Area
+	desc = "EVT50379DESC"
+	picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Vokonazh"
+		country_event = { id = 50380 }
+	}
+	
+	option = {
+		name = "Ancient Pashdzii"
+		country_event = { id = 50381 }
+	}
+	
+	option = {
+		name = "The Kingdom of Vafaut"
+		country_event = { id = 50382 }
+	}
+
 
 	option = {
 		name = "Close Encylopedia"
@@ -2367,6 +2772,266 @@ country_event = {
 }
 
 #########
+
+country_event = {
+	id = 50393 
+	title = "EVT50393NAME" ##### GHE
+	desc = "EVT50393DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50392 
+	title = "EVT50392NAME" ##### CHB
+	desc = "EVT50392DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50390 
+	title = "EVT50390NAME" ##### AYU
+	desc = "EVT50390DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50389 
+	title = "EVT50389NAME" ##### PUS
+	desc = "EVT50389DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50388 
+	title = "EVT50388NAME" ##### NHQ
+	desc = "EVT50388DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50391 
+	title = "EVT50391NAME" ##### FCH
+	desc = "EVT50391DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50387 
+	title = "EVT50387NAME" ##### ORH
+	desc = "EVT50387DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50386 
+	title = "EVT50386NAME" ##### QOO
+	desc = "EVT50386DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50384 
+	title = "EVT50384NAME" ##### Vugioroo
+	desc = "EVT50384DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50383 
+	title = "EVT50383NAME" ##### Veyethu
+	desc = "EVT50383DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50380 
+	title = "EVT50380NAME" ##### Vokonazh
+	desc = "EVT50380DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50381 
+	title = "EVT50381NAME" ##### Pashdzii
+	desc = "EVT50381DESC"
+	picture = "pashdzii"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50382 
+	title = "EVT50382NAME" ##### Vafaut
+	desc = "EVT50382DESC"
+	#picture = "POU_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 country_event = {
 	id = 50144 

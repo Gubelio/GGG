@@ -2836,6 +2836,267 @@ country_event = {
 				}
 			}
 			
+						OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_chm
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_chm
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_chm
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_chm
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_chm
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_chm
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_qoo
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_qoo
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_qoo
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_qoo
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_qoo
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_qoo
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_orh
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_orh
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_orh
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_orh
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_orh
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_orh
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_fch
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_fch
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_fch
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_fch
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_fch
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_fch
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_nhq
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_nhq
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_nhq
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_nhq
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_nhq
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_nhq
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_pus
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_pus
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_pus
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_pus
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_pus
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_pus
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = know_of_ayu
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = know_of_ayu
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_ayu
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_ayu
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = know_of_ayu
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = know_of_ayu
+						}
+					}
+				}
+			}
+			
+			
 			
 			
 		}
@@ -3144,6 +3405,91 @@ country_event = {
 			}
 			set_country_flag = studied_mom_cults
         }
+		any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_chm }
+					any_greater_power = { has_country_flag = know_of_chm }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_chm  }
+			}
+			set_country_flag = know_of_chm
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_qoo }
+					any_greater_power = { has_country_flag = know_of_qoo }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_qoo  }
+			}
+			set_country_flag = know_of_qoo
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_orh }
+					any_greater_power = { has_country_flag = know_of_orh }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_orh  }
+			}
+			set_country_flag = know_of_orh
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_fch }
+					any_greater_power = { has_country_flag = know_of_fch }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_fch  }
+			}
+			set_country_flag = know_of_fch
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_nhq }
+					any_greater_power = { has_country_flag = know_of_nhq }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_nhq  }
+			}
+			set_country_flag = know_of_nhq
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_pus }
+					any_greater_power = { has_country_flag = know_of_pus }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_pus  }
+			}
+			set_country_flag = know_of_pus
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = know_of_ayu }
+					any_greater_power = { has_country_flag = know_of_ayu }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = know_of_ayu  }
+			}
+			set_country_flag = know_of_ayu
+        }
+			
 			
 	}
     
