@@ -2199,7 +2199,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "The Kanate of Chomebed"
+		name = "The Khanate of Chomebed"
 		if2 = {
 			limit = {
 				THIS = {
@@ -2250,184 +2250,32 @@ country_event = {
 
 	option = {
 		name = "The Qooxib"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = QOO
-						has_country_flag = know_of_qoo
-					}
-				}
-			}
-		THIS = { country_event = { id = 50386 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = QOO
-						has_country_flag = know_of_qoo
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50386 } 
 	}
 	
 	option = {
 		name = "Ourrhond"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = ORH
-						has_country_flag = know_of_orh
-					}
-				}
-			}
-		THIS = { country_event = { id = 50387 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = ORH
-						has_country_flag = know_of_orh
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50387 } 
 	}
 	
 	option = {
 		name = "The Fazhri Chrur"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = FCH
-						has_country_flag = know_of_fch
-					}
-				}
-			}
-		THIS = { country_event = { id = 50391 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = FCH
-						has_country_flag = know_of_fch
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50391 }
 	}
 	
 	option = {
 		name = "The Rhuiqourran Empire"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = NHQ
-						has_country_flag = know_of_nhq
-					}
-				}
-			}
-		THIS = { country_event = { id = 50388 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = NHQ
-						has_country_flag = know_of_nhq
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50388 } 
 	}
 	
 	option = {
 		name = "Pusunetos of the Great Khan"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = PUS
-						has_country_flag = know_of_pus
-					}
-				}
-			}
-		THIS = { country_event = { id = 50389 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = PUS
-						has_country_flag = know_of_pus
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50389 }
 	}
 	
 	option = {
 		name = "The Serene Kingdom of Anyumb"
-		if2 = {
-			limit = {
-				OR = {
-					THIS = {
-						tag = AYU
-					}
-					THIS = {
-						has_country_flag = know_of_ayu
-					}
-				}
-			}
-		THIS = { country_event = { id = 50590 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-						tag = AYU
-					}
-					THIS = {
-						has_country_flag = know_of_ayu
-					}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
+		country_event = { id = 50590 }
 	}
 	
 	

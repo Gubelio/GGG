@@ -1675,6 +1675,10 @@ country_event = { # unciv railway trigger
 				days = 15
 			}
 		}
+		
+		ai_chance = { 
+			factor = 100
+		}
 	}
 	
 	option = {
