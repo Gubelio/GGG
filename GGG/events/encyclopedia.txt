@@ -5783,7 +5783,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -5799,7 +5799,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -5815,7 +5815,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -5839,7 +5839,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -5854,7 +5854,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -5869,7 +5869,7 @@ country_event = { #ogrehi
 				location = {
 					port = yes
 					OR = {
-						colonial = no
+						is_colonial = no
 						continent = oceania
 					}
 				}
@@ -6016,7 +6016,7 @@ country_event = { #mjmahn
 		any_owned_province = {
 			continent = asia
 			any_pop = {
-				has_pop_culture = mjmahn
+				has_pop_culture = mjhman
 			}
 		}
 		
