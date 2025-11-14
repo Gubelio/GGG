@@ -5116,7 +5116,7 @@ country_event = {
 	id = 50396
 	title = "EVT50396NAME" ##### The Ghech
 	desc = "EVT50396DESC"
-	picture = "POU_generic"
+	#picture = "POU_generic"
 	
 	is_triggered_only = yes
 
@@ -5137,7 +5137,7 @@ country_event = {
 	id = 50397
 	title = "EVT50397NAME" ##### The Shagmodt
 	desc = "EVT50397DESC"
-	picture = "POU_generic"
+	picture = "gashdzii_rural"
 	
 	is_triggered_only = yes
 
