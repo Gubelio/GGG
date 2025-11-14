@@ -2082,31 +2082,25 @@ country_event = {
 		name = "The Ghechi Confederacy"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = GHE
-					}
-					THIS = {
-						capital_scope = { 
-							continent = north_america
-						}
+						capital_scope = { continent = north_america }
 					}
 				}
 			}
-		THIS = { country_event = { id = 50593 } }
+		THIS = { country_event = { id = 50393 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = GHE
+						capital_scope = { continent = north_america }
 					}
-					THIS = {
-						capital_scope = { 
-							continent = north_america
-						}
-					}
+				}
 				}
 			
 			}
@@ -2120,27 +2114,25 @@ country_event = {
 		name = "The Kanate of Chomebed"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = CHM
-					}
-					THIS = {
 						has_country_flag = know_of_chm
 					}
 				}
 			}
-		THIS = { country_event = { id = 50592 } }
+		THIS = { country_event = { id = 50392 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = CHM
-					}
-					THIS = {
 						has_country_flag = know_of_chm
 					}
+				}
 				}
 			
 			}
@@ -2172,27 +2164,25 @@ country_event = {
 		name = "The Qooxib"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = QOO
-					}
-					THIS = {
 						has_country_flag = know_of_qoo
 					}
 				}
 			}
-		THIS = { country_event = { id = 50586 } }
+		THIS = { country_event = { id = 50386 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = QOO
-					}
-					THIS = {
 						has_country_flag = know_of_qoo
 					}
+				}
 				}
 			
 			}
@@ -2204,27 +2194,25 @@ country_event = {
 		name = "Ourrhond"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = ORH
-					}
-					THIS = {
 						has_country_flag = know_of_orh
 					}
 				}
 			}
-		THIS = { country_event = { id = 50587 } }
+		THIS = { country_event = { id = 50387 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = ORH
-					}
-					THIS = {
 						has_country_flag = know_of_orh
 					}
+				}
 				}
 			
 			}
@@ -2236,27 +2224,25 @@ country_event = {
 		name = "The Fazhri Chrur"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = FCH
-					}
-					THIS = {
 						has_country_flag = know_of_fch
 					}
 				}
 			}
-		THIS = { country_event = { id = 50591 } }
+		THIS = { country_event = { id = 50391 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = FCH
-					}
-					THIS = {
 						has_country_flag = know_of_fch
 					}
+				}
 				}
 			
 			}
@@ -2268,27 +2254,25 @@ country_event = {
 		name = "The Rhuiqourran Empire"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = NHQ
-					}
-					THIS = {
 						has_country_flag = know_of_nhq
 					}
 				}
 			}
-		THIS = { country_event = { id = 50588 } }
+		THIS = { country_event = { id = 50388 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = NHQ
-					}
-					THIS = {
 						has_country_flag = know_of_nhq
 					}
+				}
 				}
 			
 			}
@@ -2300,27 +2284,25 @@ country_event = {
 		name = "Pusunetos of the Great Khan"
 		if2 = {
 			limit = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						tag = PUS
-					}
-					THIS = {
 						has_country_flag = know_of_pus
 					}
 				}
 			}
-		THIS = { country_event = { id = 50589 } }
+		THIS = { country_event = { id = 50389 } }
 		}
 		if3 = {
 			limit = {
 				
 				NOT = {
 					THIS = {
+					OR = {
 						tag = PUS
-					}
-					THIS = {
 						has_country_flag = know_of_pus
 					}
+				}
 				}
 			
 			}
