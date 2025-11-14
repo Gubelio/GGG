@@ -274,7 +274,7 @@ political_reforms = {
 			}
         }
 		
-	regulated_elections = {
+		regulated_elections = {
             ruling_party_support = 0.10
             rich_vote = 1
             middle_vote = 0
@@ -573,9 +573,9 @@ political_reforms = {
 		}
 	}
 	
-school_reforms = {
-	next_step_only = yes
-	administrative = yes
+	school_reforms = {
+		next_step_only = yes
+		administrative = yes
 		
 	no_school_system = {
         
@@ -672,6 +672,7 @@ school_reforms = {
 		}
 
 	}
+	
 #### VANILLA UNUSED #####
 	
 	upper_house_composition = {
