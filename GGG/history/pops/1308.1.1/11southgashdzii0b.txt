@@ -107,7 +107,7 @@
 	slaves = {
 		culture = paguyti
 		religion = motkohnic
-		size = 10197
+		size = 18197
 	}
 
 	farmers = {
@@ -160,7 +160,7 @@
 	farmers = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size =48772
+		 size = 40772
 	}
 
 
@@ -174,7 +174,7 @@
 	serfs = {
 		 culture = south_gashdzii
 		 religion = motkohnic
-		 size =12451
+		 size = 12451
 	}
 
 }

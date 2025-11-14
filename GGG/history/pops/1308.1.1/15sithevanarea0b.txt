@@ -1,7 +1,11 @@
 
 370 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
+	}
 
 	thralls = {
 		culture = ihntithot
@@ -723,7 +727,11 @@
 
 376 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
+	}
 
 	thralls = {
 		culture = ihntithot
@@ -1087,7 +1095,11 @@
 
 379 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
+	}
 
 	thralls = {
 		culture = ihntithot
@@ -1214,7 +1226,11 @@
 
 380 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 7300
+	}
 
 	thralls = {
 		culture = ihntithot
@@ -1341,7 +1357,11 @@
 
 381 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
+	}
 
 	serfs = {
 		culture = sithuchi
@@ -1843,6 +1863,12 @@
 		 culture = thesathi
 		 religion = vewugi
 		 size =6507
+	}
+	
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
 	}
 
 }

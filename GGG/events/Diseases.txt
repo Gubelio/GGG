@@ -285,6 +285,7 @@ country_event = {
 	id = 50248
 	title = "EVTNAME50248" 
 	desc = "EVTDESC50248"
+	picture = "wasting_sickness"
 	
 	trigger = {
 		any_owned_province = {
