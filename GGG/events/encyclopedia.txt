@@ -4169,142 +4169,14 @@ country_event = {
 	
 	option = {
 		name = "The Northerners"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						has_country_flag = studied_northerners
-						capital_scope = { continent = south_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50333 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						has_country_flag = studied_northerners
-						capital_scope = { continent = south_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
+		country_event = { id = 50333 }
 	}
 	
 	option = {
-		name = "The High Cultures of the Tea Coast"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						has_country_flag = studied_tea_coasters
-						capital_scope = { continent = south_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50334 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						has_country_flag = studied_tea_coasters
-						capital_scope = { continent = south_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-		
+		name = "The Tea-Coasters"
+		country_event = { id = 50334 }
 	}
 	
-	option = {
-		name = "The Anyumbites"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						has_country_flag = studied_anyumb
-						capital_scope = { continent = south_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50335 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						has_country_flag = studied_anyumb
-						capital_scope = { continent = south_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-		
-	}
-	
-	option = {
-		name = "The Southerners"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						has_country_flag = studied_southerners
-						capital_scope = { continent = south_america }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50336 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						has_country_flag = studied_southerners
-						capital_scope = { continent = south_america }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-		
-	}
 
 	
 
@@ -4460,40 +4332,7 @@ country_event = {
 		
 	}
 	
-	option = {
-		name = "The Bafinoids of the Central Belt"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						has_country_flag = studied_belter_bafinoids
-						capital_scope = { continent = europe }
-					}
-				}
-			
-			}
-			THIS = { 
-				country_event = { id = 50342 }
-			}
-		}
-		
-		if3 = {
-			limit = {
-				NOT ={
-				THIS = {
-					OR = {
-						has_country_flag = studied_belter_bafinoids
-						capital_scope = { continent = europe }
-					}
-				}
-				}
-			
-			}
-			THIS = { country_event = { id = 50123 } }
-		
-		}
-		
-	}
+	
 	
 	option = {
 		name = "The Azuroids of the Central Belt"
@@ -5531,25 +5370,7 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 50342
-	title = "EVT50342NAME" ##### Belter Bafinoids
-	desc = "EVT50342DESC"
-	picture = "encyclo"
-	
-	is_triggered_only = yes
 
-	option = {
-		name = "Return to 'Cultures' Subheading"
-		country_event = { id = 50160 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
 
 country_event = {
 	id = 50343
@@ -6021,6 +5842,61 @@ country_event = { #mjmahn
 	
 	
 }
+
+country_event = { #momurist culures
+	id = 50398
+	title = "EVT50398NAME" 
+	desc = "EVT50398DESC"
+	#picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		
+		OR = {
+			any_owned_province = {
+				continent = south_america
+				any_pop = {
+					OR = {
+						has_pop_culture = aucubhur
+						has_pop_culture = tingi
+						has_pop_culture = teong
+						has_pop_culture = soxuppapi
+						has_pop_culture = humabi
+						has_pop_culture = dexun
+						has_pop_culture = babi
+						has_pop_culture = aucbocharr
+					}
+				}
+			}
+			in_sphere = QOO
+			in_sphere = ORH
+			in_sphere = FCH
+			
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_mom_cults
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "How interesting..."
+		prestige = 1
+		set_country_flag = studied_mom_cults
+		encylopedia_updated = {}
+	}
+	
+	
+}
+
+
 
 ######################
 ##### PLACES #########
