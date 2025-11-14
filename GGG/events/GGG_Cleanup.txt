@@ -2612,6 +2612,231 @@ country_event = {
 				}
 			}
 			
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_asyum
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_asyum
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_asyum
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_asyum
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_asyum
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_asyum
+						}
+					}
+				}
+			}
+			
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_southerners
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_southerners
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_southerners
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_southerners
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_southerners
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_southerners
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_anyumb
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_anyumb
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_anyumb
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_anyumb
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_anyumb
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_anyumb
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_tea_coasters
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_tea_coasters
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_tea_coasters
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_tea_coasters
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_tea_coasters
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_tea_coasters
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_northerners
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_northerners
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_northerners
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_northerners
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_northerners
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_northerners
+						}
+					}
+				}
+			}
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_mom_cults
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = studied_mom_cults
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_mom_cults
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_mom_cults
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_mom_cults
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = studied_mom_cults
+						}
+					}
+				}
+			}
+			
+			
 			
 		}
     }
@@ -2847,6 +3072,79 @@ country_event = {
 			}
 			set_country_flag = studied_charchland
         }
+		any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_asyum }
+					any_greater_power = { has_country_flag = studied_asyum }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_asyum  }
+			}
+			set_country_flag = studied_asyum
+        }
+				any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_southerners }
+					any_greater_power = { has_country_flag = studied_southerners }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_southerners  }
+			}
+			set_country_flag = studied_southerners
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_anyumb }
+					any_greater_power = { has_country_flag = studied_anyumb }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_anyumb  }
+			}
+			set_country_flag = studied_anyumb
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_tea_coasters }
+					any_greater_power = { has_country_flag = studied_tea_coasters }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_tea_coasters  }
+			}
+			set_country_flag = studied_tea_coasters
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_northerners }
+					any_greater_power = { has_country_flag = studied_northerners }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_northerners  }
+			}
+			set_country_flag = studied_northerners
+        }
+			any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_mom_cults }
+					any_greater_power = { has_country_flag = studied_mom_cults }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_mom_cults  }
+			}
+			set_country_flag = studied_mom_cults
+        }
+			
 	}
     
 }
