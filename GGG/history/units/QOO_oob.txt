@@ -64,6 +64,12 @@ army = {
     name = "1st Army of the Qooxib"
     location = 1039
 
+	regiment = {
+        name= "The Soxupappi Guard"
+        type = infantry
+        home = 1058
+    }
+
     regiment = {
         name= "Standing Militia"
         type = irregular

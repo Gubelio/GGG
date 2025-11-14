@@ -261,16 +261,6 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
-					tag = FCH
-				}
-			}
-			THIS = { 
-				country_event = { id = 50391 }
-			}
-		}
-		if = {
-			limit = {
-				THIS = {
 					tag = CHB
 				}
 			}
@@ -314,7 +304,6 @@ country_event = {
 							tag = QOO
 							tag = ORH
 							tag = NHQ
-							tag = FCH
 							tag = AYU
 							tag = PUS
 							tag = GHE
@@ -2258,10 +2247,6 @@ country_event = {
 		country_event = { id = 50387 } 
 	}
 	
-	option = {
-		name = "The Fazhri Chrur"
-		country_event = { id = 50391 }
-	}
 	
 	option = {
 		name = "The Rhuiqourran Empire"
@@ -2791,25 +2776,7 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 50391 
-	title = "EVT50391NAME" ##### FCH
-	desc = "EVT50391DESC"
-	#picture = "POU_generic"
-	
-	is_triggered_only = yes
 
-	option = {
-		name = "Return to 'Countries' Subheading"
-		country_event = { id = 50146 }
-	}
-
-
-	option = {
-		name = "Close Encylopedia"
-		clr_country_flag = encyclopedia_open
-	}
-}
 
 country_event = {
 	id = 50387 
