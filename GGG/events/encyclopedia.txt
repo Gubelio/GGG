@@ -5969,6 +5969,44 @@ country_event = { #zagkhan
 	
 }
 
+country_event = { #mjmahn
+	id = 50394
+	title = "EVT50394NAME" 
+	desc = "EVT50394DESC"
+	picture = "discourse"
+
+	trigger = {
+		civilized = yes
+		functionalism = 1
+		
+		any_owned_province = {
+			continent = asia
+			any_pop = {
+				has_pop_culture = mjmahn
+			}
+		}
+		
+		NOT = {
+			OR = {
+				has_country_flag = studied_mjh
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50 
+	}
+
+	option = {
+		name = "How interesting..."
+		prestige = 1
+		set_country_flag = studied_mjh
+		encylopedia_updated = {}
+	}
+	
+	
+}
+
 ######################
 ##### PLACES #########
 ######################
