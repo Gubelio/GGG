@@ -814,7 +814,13 @@
 	farmers = {
 		culture = shagmodt
 		religion = vewugi
-		size = 12802
+		size = 4802
+	}
+	
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 8102
 	}
 
 	soldiers = {
@@ -1026,7 +1032,11 @@
 
 191 = {
 
-
+	thralls = {
+		culture = paguyti
+		religion = kadkohi
+		size = 179
+	}
 
 	thralls = {
 		culture = west_gashdzii
@@ -1038,6 +1048,12 @@
 		culture = west_gashdzii
 		religion = kadkohi
 		size = 780
+	}
+	
+	slaves = {
+		culture = paguyti
+		religion = kadkohi
+		size = 380
 	}
 
 	farmers = {
@@ -1160,10 +1176,16 @@
 		size = 85
 	}
 
+	slaves = {
+		culture = shagmodt
+		religion = kadkohi
+		size = 20173
+	}
+
 	farmers = {
 		culture = shagmodt
 		religion = vewugi
-		size = 54714
+		size = 34714
 	}
 
 	soldiers = {
@@ -1415,7 +1437,7 @@
 	officers = {
 		culture = shagmodt
 		religion = motkohnic
-		size = 0
+		size = 1
 	}
 
 	farmers = {

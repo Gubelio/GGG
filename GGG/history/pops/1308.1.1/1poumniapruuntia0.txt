@@ -16063,7 +16063,11 @@ size = 75
 
 168 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 9300
+	}
 
 	aristocrats = {
 		 culture = hahuibi
@@ -16117,7 +16121,11 @@ size = 75
 
 169 = {
 
-
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 4300
+	}
 
 	aristocrats = {
 		 culture = hahuibi
@@ -17150,6 +17158,11 @@ size = 120
 
 181 = {
 
+	slaves = {
+		culture = shagmodt
+		religion = vewugi
+		size = 3300
+	}
 
 	aristocrats = {
 		 culture = poumnian
@@ -17341,7 +17354,7 @@ size = 9
 	bureaucrats = {
 		culture = poumnian
 		religion = wompowushan
-size = 3
+		size = 3
 	}
 
 	aristocrats = {
@@ -17359,7 +17372,13 @@ size = 3
 	farmers = {
 		culture = anuvo
 		religion = vewugi
-		size = 2817
+		size = 4817
+	}
+	
+	farmers = {
+		culture = ghechi
+		religion = vewugi
+		size = 7817
 	}
 
 	soldiers = {
@@ -17383,7 +17402,7 @@ size = 3
 	bureaucrats = {
 		culture = anuvo
 		religion = vewugi
-size = 6
+		size = 6
 	}
 
 	aristocrats = {
@@ -17414,7 +17433,7 @@ size = 6
 	bureaucrats = {
 		 culture = sevuma
 		 religion = vewugi
-size = 33
+		size = 33
 	}
 
 
@@ -17428,7 +17447,7 @@ size = 33
 	artisans = {
 		 culture = sevuma
 		 religion = vewugi
-		 size =1194
+		 size = 1194
 	}
 
 
@@ -17442,7 +17461,7 @@ size = 33
 	farmers = {
 		 culture = sevuma
 		 religion = vewugi
-		 size =15111
+		 size = 6111
 	}
 
 
