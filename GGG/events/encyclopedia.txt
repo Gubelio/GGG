@@ -2177,37 +2177,6 @@ country_event = {
 	
 	}
 	
-	option = {
-		name = "The Khanate of Chomebed"
-		if2 = {
-			limit = {
-				THIS = {
-					OR = {
-						tag = CHM
-						has_country_flag = know_of_chm
-					}
-				}
-			}
-		THIS = { country_event = { id = 50392 } }
-		}
-		if3 = {
-			limit = {
-				
-				NOT = {
-					THIS = {
-					OR = {
-						tag = CHM
-						has_country_flag = know_of_chm
-					}
-				}
-				}
-			
-			}
-		THIS = { country_event = { id = 50123 } }
-		}
-		
-	
-	}
 	
 	
 
