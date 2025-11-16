@@ -193,6 +193,83 @@ political_decisions = {
 			}
         }
     }
+	
+	embrace_vewugism_bud = {
+		picture = vewugism
+        alert = no
+        potential = {
+			
+			tag = BUD
+			
+			NOT = { has_country_flag = vewugi_country }
+			NOT = { government = theocracy }
+			
+        }
+
+        allow = {
+			812 = {
+				owned_by = THIS
+				is_capital = yes
+			
+			}
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			
+			}
+        }
+
+        effect = {
+			religion = vewugi
+			set_country_flag = vewugi_country
+			clr_country_flag = kadkohi_country
+			prestige = 10
+			relation = {
+				who = VOK
+				value = -200
+			}
+			#add_country_modifier = { name = vewugist_conversion duration = 3652 } #~10 years
+			any_pop = {
+				limit = {
+					has_pop_religion = kadkohi
+				}
+				militancy = 1
+				consciousness = 1
+				ideology = {
+					factor = 0.005
+					value = reactionary
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+				scaled_consciousness = {
+					ideology = reactionary
+					factor = 3
+				}
+			}
+			
+			
+			any_country = {
+				limit = {
+					has_country_flag = vewugi_country
+					NOT = {
+						any_owned_province = {
+							owned_by = THIS
+						
+						}
+					
+					}
+				}
+				country_event = {
+					id = 50276
+					days = 30 
+				}
+			}
+			THIS = { set_country_flag = vewugi_convert_nation }
+			
+        }
+    }
 
 
 }
