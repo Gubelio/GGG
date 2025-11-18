@@ -674,9 +674,9 @@ take_from_sphere = {
 	is_triggered_only = yes
 	months = 12
 	
-	badboy_factor = 2
-	prestige_factor = 3
-	peace_cost_factor = 20
+    badboy_factor = 0.5
+	prestige_factor = 0.5
+	peace_cost_factor = 5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 5

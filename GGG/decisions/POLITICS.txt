@@ -426,7 +426,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = slaveowners_compensated
-			#political_reform = public_ownership
+			social_reform = public_ownership
 			any_pop = {
 				limit = {
 					type = aristocrats
