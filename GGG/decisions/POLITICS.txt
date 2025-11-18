@@ -1308,6 +1308,15 @@ political_decisions = {
 					
 					}
 				}
+                REG_78 = {
+				    owner = {
+						vassal_of = THIS
+						capital_scope = {
+							country_units_in_province = THIS
+						}
+					
+					}
+				}
                 REG_79 = {
 				    owner = {
 						vassal_of = THIS
