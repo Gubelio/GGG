@@ -3669,12 +3669,6 @@ country_event = {
 				}
 					
 			}
-            REG_78 = {
-				owner = {
-					has_country_modifier = slavery_updated
-				}
-					
-			}
             REG_79 = {
 				owner = {
 					has_country_modifier = slavery_updated
@@ -6449,12 +6443,6 @@ country_event = {
 					
 			}
             REG_77 = {
-				owner = {
-					has_country_modifier = thralls_updated
-				}
-					
-			}
-            REG_78 = {
 				owner = {
 					has_country_modifier = thralls_updated
 				}
