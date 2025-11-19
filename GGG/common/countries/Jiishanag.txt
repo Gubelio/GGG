@@ -139,7 +139,9 @@ unit_names = {
 		"General Ganuk Nagjoni" "Marshal Bazadamaz" "Zhozodzhu" "Rouxaem" "Sekum Island"
     }
     manowar = {
-
+		"Utkoz" "Dhov" "Dhob-tooth" "Bazajop" "Kizzanat" "Kushnag" "Port Qaata" "Doshjizha" "Jishanag" "Master"
+		"Toiler" "Lasher" "Beater" "Makt" "Pazzanak" "Mangler" "Tormentor" "Poponazh" "Nyut" "Midod" "Kiid-kapk"
+		"J'ur House" "Snake-Sinker" "Greatmouth" "Lungfish" "Pinniped" "Unpleasant" "Bakdap" "Mazfa" "Jazhakd"
     }
     cruiser = {
 		"Ranger" "Paznapt" "Ishnapt" "Detector" "Constrictor" "Swordfish" "Dhob-fish" "Great Mollusc" "Dhozt of the Wicked"
@@ -147,7 +149,9 @@ unit_names = {
 		"Blemishless" "Unsinfull" "Righteous" "Punisher" 
     }
     frigate = {
-
+		"Vonjar" "Vadt" "Jozi" "Zhof" "Buk" "Wiwzhut" "Oauzd" "Beetle" "Unfriendly" "Hasty One" "Mizhachfa" "Starlight"
+		"Glow Worm" "Sea Snake" "Dagger" "Sunlight" "Dhov Bozzamogga Makdazh" "Zieth" "Sekum" "Rurch" "Niiz Kan" "Aeommuor"
+		"Gonyi" "Pazhta" "Chazdfa" "Shau Maug" "Shau Vaufo" "Shau Gaubja" "Va Yesy" "Va Omkokat" "Niiz Dhoung"
     }
     monitor = {
 		"Motmodt" "Mojimodt" "Jiishamodt" "The Pride of the Nag" "Unsinkable" "Rehurizhk" "Pruunt-Killer"

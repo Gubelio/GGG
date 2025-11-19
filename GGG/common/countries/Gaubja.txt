@@ -122,5 +122,45 @@ party = {
 }
 
 unit_names = {
-	#inherit
+	dreadnought = {
+		
+    }
+    battleship = {
+		
+		
+    }
+    ironclad = {
+		"GBD Jadhov" "GBD Dhov" "GBD Gaubja" "GBD Guzzadt" "GBD Her Fist" "GBD The Iron Lady" "GBD Vadhov" "GBD Buzzamnan"
+		"GBD Zhuidim" "GBD Chiib" "GBD Holy Synod" "GBD Bip" "GBD Pagyuti" "GBD Tohat" "GBD Vokoja" "GBD Pashdzii" "GBD Kiidnazhk"
+		"GBD Jadhov Ja" "GBD Fatipt" "GBD Madho" "GBD Chufk" "GBD Shagmodt" "GBD Giizhok" "GBD Gidshau" "GBD Vausho" "GBD Mvess"
+    }
+    manowar = {
+		
+    }
+    cruiser = {
+		
+    }
+    frigate = {
+		
+    }
+    monitor = {
+		
+    }
+    clipper_transport = {
+       1.Kishdziaa 2.Kishdziaa 3.Kishdziaa 4.Kishdziaa 5.Kishdziaa 6.Kishdziaa 7.Kishdziaa
+	   8.Kishdziaa 9.Kishdziaa 10.Kishdziaa 11.Kishdziaa 12.Kishdziaa 13.Kishdziaa 14.Kishdziaa
+	   15.Kishdziaa 16.Kishdziaa 17.Kishdziaa 18.Kishdziaa 19.Kishdziaa 20.Kishdziaa
+    }
+    steam_transport = {
+	1.Gumdii 2.Gumdii 3.Gumdii 4.Gumdii 5.Gumdii 6.Gumdii 7.Gumdii
+	   8.Gumdii 9.Gumdii 10.Gumdii 11.Gumdii 12.Gumdii 13.Gumdii 14.Gumdii
+	   15.Gumdii 16.Gumdii 17.Gumdii 18.Gumdii 19.Gumdii 20.Gumdii
+    }
+    commerce_raider = {
+		"Dado" "Va Chazpt" "Va Ba" "Mpacha" "Thokie" "Fhobi" "Spearliner" "Frog" "Viimi Ferry" "The Buttered Duyo" "Fatswine" "Big One"
+		"Barrel" "Lovely Boat" "Bagh Steel Company" "Gohdinimiz" "Bruiser" "Squire" "Kingdom" "Jadhovak" "Zhibomgid" "Fazhgid" "Godti"
+		"Guzzadt" "Churchman" "Gullet" "Maw" "Wheel-boat" "J'on" "Nuddi Hauler" "Niiz Vum" "Niiz Kush" "Shau Nozho" "Knagta Knang"
+    }
+	
+	
 }

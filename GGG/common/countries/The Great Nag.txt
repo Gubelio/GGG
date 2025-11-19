@@ -122,5 +122,63 @@ party = {
 }
 
 unit_names = {
-	#inherit
+	dreadnought = {
+		"Arquebus" "Arm of Kauzhut" "Arm of the Stars" "Justiciar" "Deliverance" "Kohiimot" "Oknapt"
+		"Paukzhodo" "Paumnak-Eater" "Loveless" "Cutter" "Scimitar" "Lancer" "Pozhpo" "Leviathan of Nozho"
+		"Stellar" "Rememberance" "The Steel Pig" "Mozptmot" "Theanag" "Wushauwland" "Juruntine" "Spearman"
+    }
+    battleship = {
+		"Oknapt" "Mojinapt" "Niiz Moji" "Niiz Kan" "Lord Qooxib" "King Chombed" "Tyrant" "False Nimiz"
+		"Pashdzii" "Kiidnazh" "The Nag" "Gashdziik" "Bafozh" "Kovazh" "Shobgizob" "Terror" "Shan"
+		"The Khan of Pusunteos" "Anthrophage" "Dauntless" "Terrible" "Dhob" "Azgizob" "Zatgizob"
+		
+    }
+    ironclad = {
+		"Pride of Nozho" "Motzk" "Shining Star" "Caigur" "Nihi" "Vodmhu" "Vazzunak" "Ishnapt" "Panzapt"
+		"Vepht" "Nozbau" "Vetchk" "Izhow" "Rikou" "Old Fucho" "Do Dhruzd" "Zhof" "Vazhkt" 
+		"General Ganuk Nagjoni" "Marshal Bazadamaz" "Zhozodzhu" "Rouxaem" "Sekum Island"
+		"GBD Jadhov" "GBD Dhov" "GBD Gaubja" "GBD Guzzadt" "GBD Her Fist" "GBD The Iron Lady" "GBD Vadhov" "GBD Buzzamnan"
+		"GBD Zhuidim" "GBD Chiib" "GBD Holy Synod" "GBD Bip" "GBD Pagyuti" "GBD Tohat" "GBD Vokoja" "GBD Pashdzii" "GBD Kiidnazhk"
+		"GBD Jadhov Ja" "GBD Fatipt" "GBD Madho" "GBD Chufk" "GBD Shagmodt" "GBD Giizhok" "GBD Gidshau" "GBD Vausho" "GBD Mvess"
+    }
+    manowar = {
+		"Utkoz" "Dhov" "Dhob-tooth" "Bazajop" "Kizzanat" "Kushnag" "Port Qaata" "Doshjizha" "Jishanag" "Master"
+		"Toiler" "Lasher" "Beater" "Makt" "Pazzanak" "Mangler" "Tormentor" "Poponazh" "Nyut" "Midod" "Kiid-kapk"
+		"J'ur House" "Snake-Sinker" "Greatmouth" "Lungfish" "Pinniped" "Unpleasant" "Bakdap" "Mazfa" "Jazhakd"
+    }
+    cruiser = {
+		"Ranger" "Paznapt" "Ishnapt" "Detector" "Constrictor" "Swordfish" "Dhob-fish" "Great Mollusc" "Dhozt of the Wicked"
+		"Wushauw" "Parliament" "Confederacy" "Union" "Lord Shamaz" "Admiral Bidazh" "Knife" "Great Blue" "Peace and Tolleration"
+		"Blemishless" "Unsinfull" "Righteous" "Punisher" 
+    }
+    frigate = {
+		"Vonjar" "Vadt" "Jozi" "Zhof" "Buk" "Wiwzhut" "Oauzd" "Beetle" "Unfriendly" "Hasty One" "Mizhachfa" "Starlight"
+		"Glow Worm" "Sea Snake" "Dagger" "Sunlight" "Dhov Bozzamogga Makdazh" "Zieth" "Sekum" "Rurch" "Niiz Kan" "Aeommuor"
+		"Gonyi" "Pazhta" "Chazdfa" "Shau Maug" "Shau Vaufo" "Shau Gaubja" "Va Yesy" "Va Omkokat" "Niiz Dhoung"
+    }
+    monitor = {
+		"Motmodt" "Mojimodt" "Jiishamodt" "The Pride of the Nag" "Unsinkable" "Rehurizhk" "Pruunt-Killer"
+		"Unkind" "Giifugizob" "Piercer" "Quick" "Carapace" "Quadrapoint" "Star" "Blue Star" "Brother" "Sister"
+		"Deserved" "Constellation" "Kan Vodt" "Three Cheers" "Synod" "Dhuknag" "Jobiinag" "Paknag" "Sepulchre"
+    }
+    clipper_transport = {
+       1.Kishdziaa 2.Kishdziaa 3.Kishdziaa 4.Kishdziaa 5.Kishdziaa 6.Kishdziaa 7.Kishdziaa
+	   8.Kishdziaa 9.Kishdziaa 10.Kishdziaa 11.Kishdziaa 12.Kishdziaa 13.Kishdziaa 14.Kishdziaa
+	   15.Kishdziaa 16.Kishdziaa 17.Kishdziaa 18.Kishdziaa 19.Kishdziaa 20.Kishdziaa
+    }
+    steam_transport = {
+	1.Gumdii 2.Gumdii 3.Gumdii 4.Gumdii 5.Gumdii 6.Gumdii 7.Gumdii
+	   8.Gumdii 9.Gumdii 10.Gumdii 11.Gumdii 12.Gumdii 13.Gumdii 14.Gumdii
+	   15.Gumdii 16.Gumdii 17.Gumdii 18.Gumdii 19.Gumdii 20.Gumdii
+    }
+    commerce_raider = {
+		"Paumnak" "Pruundzi" "Mye Love" "The Jolly Thrall" "Nanuvut Hauler" "Sea-Legs" "Landsman"
+		"Biter" "Cruelle One" "The Fat Vuyti" "Conscript" "Gofa-Cutter" "Trawler" "Marque" "Python"
+		"Bafinoid" "Bofungi" "Kovan Hauler" "Dancer" "The Beauty" "Storm-Rider" "Mye Lady" "The Modt"
+		"Dado" "Va Chazpt" "Va Ba" "Mpacha" "Thokie" "Fhobi" "Spearliner" "Frog" "Viimi Ferry" "The Buttered Duyo" "Fatswine" "Big One"
+		"Barrel" "Lovely Boat" "Bagh Steel Company" "Gohdinimiz" "Bruiser" "Squire" "Kingdom" "Jadhovak" "Zhibomgid" "Fazhgid" "Godti"
+		"Guzzadt" "Churchman" "Gullet" "Maw" "Wheel-boat" "J'on" "Nuddi Hauler" "Niiz Vum" "Niiz Kush" "Shau Nozho" "Knagta Knang"
+    }
+	
+	
 }
