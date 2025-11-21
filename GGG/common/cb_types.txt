@@ -629,7 +629,7 @@ add_to_sphere = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 2
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 50
 	penalty_factor = 1
