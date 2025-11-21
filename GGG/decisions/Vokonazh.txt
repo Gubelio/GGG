@@ -63,12 +63,10 @@ political_decisions = {
 		effect = {
 			prestige = 15
 			REG_111 = { add_core = VOK }
-			#REG_112 = { add_core = VOK }
+			REG_113 = { add_core = VOK }
 			REG_101 = { add_core = VOK }
 			REG_100 = { add_core = VOK }
 			611 = { add_core = VOK }
-			638 = { add_core = VOK }
-			639 = { add_core = VOK }
 			set_country_flag = integrate_north_gashdzii_princely_states			
 		}
 	}
