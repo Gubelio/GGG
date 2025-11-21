@@ -18,9 +18,12 @@ political_decisions = {
 			badboy = 5
 			REG_111 = { add_core = CHB }
 			REG_113 = { add_core = CHB }
-			REG_101 = { add_core = CHB }
+			#REG_101 = { add_core = CHB }
 			REG_100 = { add_core = CHB }
 			611 = { add_core = CHB }
+			665 = { add_core = CHB }
+			666 = { add_core = CHB }
+			667 = { add_core = CHB }
 			set_country_flag = restore_order_north_gashdzii_princely_states			
 		}
 	}

@@ -1727,7 +1727,7 @@ province_event = {
 	allow_multiple_instances = no
 	
     mean_time_to_happen = {
-        months = 960 #~80 years
+        months = 3000 #~250 years 
 		#modifier = {
         #   factor = 1.5
 		#	owner = {
