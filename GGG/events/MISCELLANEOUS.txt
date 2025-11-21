@@ -17839,6 +17839,7 @@ country_event = {
 	
 	option = {
 		name = "No, the current capital is more suitable."
+		set_country_flag = declined_capital_move
 	
 	}
 	
