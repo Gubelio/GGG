@@ -577,7 +577,6 @@ country_event = {
 		FROM = {
 			any_pop = {
 				militancy = -0.5
-				consciousness = 0.5
 			}
 		}
 	}
