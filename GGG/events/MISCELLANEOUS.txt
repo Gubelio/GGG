@@ -17826,7 +17826,7 @@ country_event = {
 	
 	option = {
 		name = "We should return to our ancestral capital."
-			prestige = 10
+			prestige = 2
 			random_country = {
 				limit = {
 					ai = yes
