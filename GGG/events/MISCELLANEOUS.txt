@@ -4430,6 +4430,13 @@ country_event = {
 						}
 					}
 				}
+				any_pop = {
+					limit = {
+						type = aristocrats
+					}
+					militancy = 2
+					consciousness = 2
+				}
 				trade_goods = grain
 			}
 		}
