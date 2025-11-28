@@ -4308,6 +4308,157 @@ country_event = {
 	}
 }
 
+########################
+### VOKONAZH FLAVOUR ###
+########################
+
+country_event = {
+	id = 50400 
+	title = "EVTNAME50400"
+	desc = "EVTDESC50400"
+	picture = "vok_pol"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Prince should be empowered unconditionally!"
+		political_reform = appointed_legislatures
+		any_pop = {
+			limit = {
+				type = aristocrats
+			
+			}
+			militancy = 3
+			consciousness = 3
+			ideology = {
+				factor = 0.03
+				value = reactionary
+			}
+		
+		}
+	}
+	
+	option = {
+		name = "We must turn to the people and set up village councils."
+		clr_country_flag = centralised
+		set_country_flag = federalised		
+		political_reform = tribal_assembly_i
+		political_reform = tribal_assembly
+		any_pop = {
+			limit = {
+				type = aristocrats
+			
+			}
+			militancy = 9
+			consciousness = 9
+			ideology = {
+				factor = 0.04
+				value = reactionary
+			}
+		
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					type = farmers
+					type = serfs
+					type = labourers
+				}
+			}
+			militancy = -1
+			consciousness = 3
+			ideology = {
+				factor = 0.05
+				value = liberationist
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 50401 
+	title = "EVTNAME50401"
+	desc = "EVTDESC50401"
+	picture = "vok_com"
+		
+		trigger = {
+			war = no
+			NOT = {
+				has_country_flag = settled_commodity_crisis
+			}
+			any_owned_province = {
+				controlled_by = THIS
+				trade_goods = cotton
+				OR = {
+					unemployment_by_type = {
+						type = farmers
+						value = 0.70
+					}
+					unemployment_by_type = {
+						type = serfs
+						value = 0.70
+					}
+				
+				}
+			}
+		}
+		
+		mean_time_to_happen = {
+			months = 15
+		
+		}
+	
+		option = {
+			name = "Arrange for reform in the more troubled provinces."
+			
+			set_country_flag = settled_agrarian_question
+			
+			any_owned = {
+				limit = {
+					controlled_by = THIS
+					trade_goods = cotton
+					OR = {
+						unemployment_by_type = {
+							type = farmers
+							value = 0.30
+						}
+						unemployment_by_type = {
+							type = serfs
+							value = 0.30
+						}
+					}
+				}
+				trade_goods = grain
+			}
+		}
+		option = {
+			name = "Spindleweed will recover, I am sure of it!"
+		
+			any_pop = {
+				limit = {
+					OR = {
+						type = farmers
+						type = serfs
+					}
+					location = {
+						trade_goods = cotton
+					}
+					unemployment = 0.5
+				}
+				militancy = 3
+				consciousness = 3
+			
+			}
+			set_country_flag = settled_commodity_crisis
+		}
+		
+	}
+
+
+}
+
 ####################
 ### VUPUYTI RAID ###
 ####################

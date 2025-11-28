@@ -73,7 +73,36 @@ political_decisions = {
 			set_country_flag = integrate_north_gashdzii_princely_states			
 		}
 	}
+	
+	the_electoral_question = {
+		picture = "smoking_aristocrat"
+		potential = {
+			tag = VOK
+			NOT = { has_country_flag = settled_political_debate }
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				political_reform_want = 0.10
+				social_reform_want = 0.10
+			}
+		}
+	
+		effect = {
+			country_event = {
+				id = 50400
+				days = 10
+			}		
+			set_country_flag = settled_political_debate
+		}
+	}
 
+	
 
 
 }
