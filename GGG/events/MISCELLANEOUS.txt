@@ -4338,6 +4338,17 @@ country_event = {
 			}
 		
 		}
+		
+		ai_chance = {
+			factor = 70
+			
+			modifier = {
+				factor = 75
+				has_leader = "Gozomedes II Midodazh"
+			
+			}
+		
+		}
 	}
 	
 	option = {
@@ -4373,6 +4384,10 @@ country_event = {
 				factor = 0.05
 				value = liberationist
 			}
+		}
+		
+		ai_chance = {
+			factor = 30
 		}
 	}
 }
