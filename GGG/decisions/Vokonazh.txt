@@ -69,7 +69,7 @@ political_decisions = {
 			611 = { add_core = VOK }
 			665 = { add_core = VOK }
 			666 = { add_core = VOK }
-			611 = { add_core = VOK }
+			667 = { add_core = VOK }
 			set_country_flag = integrate_north_gashdzii_princely_states			
 		}
 	}
