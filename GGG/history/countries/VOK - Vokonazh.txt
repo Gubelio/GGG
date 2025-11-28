@@ -26,7 +26,7 @@ school_reforms = no_school_system
 
 # Social Reforms
 
-emigration_law = emigration_restricted
+emigration_law = emigration_forbidden
 clerical_law = magisterialism
 worker_protections = no_protections
 scriptural_law = courts_of_canon
