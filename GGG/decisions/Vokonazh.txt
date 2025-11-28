@@ -100,6 +100,16 @@ political_decisions = {
 			}		
 			set_country_flag = settled_political_debate
 		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				has_leader = "Gozomedes II Midodazh"
+			}
+		
+		}
 	}
 
 	
