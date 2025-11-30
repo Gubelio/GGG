@@ -562,3 +562,10 @@ vupuyti_raid = {
     population_growth = -0.001
     icon = 18
 }
+
+dynastic_security = {
+	suppression_points_modifier = 0.2
+	icon = 5
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.01
+}

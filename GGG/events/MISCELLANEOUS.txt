@@ -4313,6 +4313,259 @@ country_event = {
 ########################
 
 country_event = {
+	id = 50402 
+	title = "EVTNAME50402"
+	desc = "EVTDESC50402"
+	picture = "pashdzii"
+		
+	trigger = {
+		tag = KID
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+		NOT = {
+			has_country_flag = imperial_forms_kiidnazh
+			has_country_flag = settled_imperial_question
+		}
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	
+	}
+	
+	option = {
+		name = "Exile him - we shall build a new dynasty above and over the old empire!"
+		prestige = 10
+		add_country_modifier = {
+			name = dynastic_security
+			duration = -1
+		
+		}
+		any_pop = {
+			consciousness = 5
+			scaled_militancy = {
+				factor = 4
+				ideology = conservative
+			
+			}
+			
+			scaled_militancy = {
+				factor = 6
+				ideology = reactionary
+			
+			}
+		
+		
+		}
+		set_country_flag = settled_imperial_question
+	}
+	
+	option = {
+		name = "The old emperor shall remain figurehead of our state."
+		prestige = -10
+		set_country_flag = settled_imperial_question
+		any_pop = {
+			scaled_militancy = {
+				factor = -2
+				ideology = conservative
+			
+			}
+			
+			scaled_militancy = {
+				factor = -1
+				ideology = reactionary
+			
+			}
+		
+		
+		}
+	}
+	
+}
+
+country_event = {
+	id = 50403 
+	title = "EVTNAME50403"
+	desc = "EVTDESC50403"
+	picture = "pashdzii"
+		
+	trigger = {
+		tag = KID
+		NOT = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+		NOT = {
+			#has_country_flag = imperial_forms_kiidnazh
+			has_country_flag = settled_imperial_question
+		}
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	
+	}
+	
+	option = {
+		name = "The old emperors must be restored!"
+		prestige = 10
+		set_country_flag = settled_imperial_question
+		government = princely_despotate
+		clr_country_flag = centralised
+		set_country_flag = federalised
+		political_reform = tribal_assembly
+		political_reform = states_system
+		
+		any_pop = {
+		
+			scaled_militancy = {
+				factor = 2
+				ideology = liberationist
+			
+			}
+			
+			scaled_militancy = {
+				factor = 2
+				ideology = free_yoker
+			
+			}
+			
+			scaled_militancy = {
+				factor = 2
+				ideology = statist
+			
+			}
+			
+			scaled_militancy = {
+				factor = 2
+				ideology = absolutist
+			
+			}
+			
+			scaled_militancy = {
+				factor = -1
+				ideology = conservative
+			
+			}
+			
+			scaled_militancy = {
+				factor = -1
+				ideology = reactionary
+			
+			}
+		
+		}
+	}
+	
+	option = {
+		name = "The Kiidnazh is now as much a nation as it was a state."
+		prestige = 5
+		set_country_flag = settled_imperial_question
+		any_pop = {
+		
+			scaled_militancy = {
+				factor = -1
+				ideology = liberationist
+			
+			}
+			
+			
+			scaled_militancy = {
+				factor = -1
+				ideology = statist
+			
+			}
+		
+		}
+	}
+	
+}
+
+country_event = {
+	id = 50404 
+	title = "EVTNAME50404"
+	desc = "EVTDESC50404"
+	picture = "pashdzii"
+		
+	trigger = {
+		tag = KID
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+		has_country_flag = imperial_forms_kiidnazh
+		NOT = {
+			has_country_flag = settled_imperial_question
+		}
+	
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	
+	}
+	
+	option = {
+		name = "The Empire must never shatter again."
+		prestige = 25
+		infamy = -5
+		war_exhaustion = -5
+		
+		set_country_flag = settled_imperial_question
+		set_country_flag = unbroken_imperial_lineage
+		clr_country_flag = federalised
+		set_country_flag = centralised
+		political_reform = centralised
+		political_reform = appointed_legislatures
+		
+		
+		any_pop = {
+		
+			scaled_militancy = {
+				factor = -3
+				ideology = conservative
+			
+			}
+			
+			scaled_militancy = {
+				factor = -3
+				ideology = reactionary
+			
+			}
+		
+		}
+		
+		REG_16  = {
+			add_core = KID
+		}
+		REG_14 = {
+			add_core = KID
+		}
+		REG_15 = {
+			add_core = KID
+		}
+		REG_13 = {
+			add_core = KID
+		}
+		REG_46 = {
+			add_core = KID
+		}
+		
+		add_accepted_culture = jazhakdii
+	}
+	
+}
+
+
+
+country_event = {
 	id = 50400 
 	title = "EVTNAME50400"
 	desc = "EVTDESC50400"
