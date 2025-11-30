@@ -4402,7 +4402,7 @@ country_event = {
 				THIS = {
 					OR = {
 						has_country_flag = studied_tuqqikian
-						capital_scope = { continent = europe }
+						capital_scope = { continent = africa }
 					}
 				}
 				}
