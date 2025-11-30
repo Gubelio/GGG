@@ -3207,7 +3207,14 @@ country_event = { #### Pashdzii occupation GASHDZII
 	trigger = {
 		NOT = { has_global_flag = pashdzii_occupied_gashdzii }
 		owns = 533
-		NOT = { tag = PAS }
+		NOT = { 
+			tag = PAS 
+			AND = {
+				tag = CHB
+				has_country_flag = imperial_forms_chiibnazh
+			
+			}
+		}
 		is_culture_group = gashdzii
 	
 	}
@@ -3303,7 +3310,14 @@ country_event = { #### Pashdzii occupation FOREIGNER
 	trigger = {
 		NOT = { has_global_flag = pashdzii_occupied_foreign }
 		owns = 533
-		NOT = { tag = PAS }
+		NOT = { 
+			tag = PAS 
+			AND = {
+				tag = CHB
+				has_country_flag = imperial_forms_chiibnazh
+			
+			}
+		}
 		NOT = { is_culture_group = gashdzii }
 	
 	}

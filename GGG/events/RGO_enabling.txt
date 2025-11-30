@@ -167,7 +167,7 @@ province_event = {
 			province_id = 90 
 			province_id = 285
 			province_id = 284
-			province_id = 291	
+			#province_id = 291	
 			province_id = 294
 			province_id = 296
 			province_id = 297
@@ -183,8 +183,8 @@ province_event = {
 			province_id = 1731
 			province_id = 1729
 			province_id = 1730
-			province_id = 1725
-			province_id = 1722			
+			#province_id = 1725
+			#province_id = 1722			
 		}
 		not = { trade_goods = rubber }
 		OR = {
