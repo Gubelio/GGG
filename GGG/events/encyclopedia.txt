@@ -2648,8 +2648,8 @@ country_event = {
 
 country_event = {
 	id = 50405 
-	title = "EVTNAME50393" ##### KID
-	desc = "EVTDESC50393"
+	title = "EVTNAME50405" ##### KID
+	desc = "EVTDESC50405"
 	picture = "gashdzii_generic"
 	
 	is_triggered_only = yes
