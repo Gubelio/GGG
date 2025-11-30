@@ -308,6 +308,7 @@ political_decisions = {
 		alert = yes
 		potential = {
 			government = statist_bureaucracy 
+			NOT = { land_reform_civ = collectivized_farming }
 			OR = {
 				#NOT = { land_reform_civ = land_banking }
 				NOT = { land_reform_civ = collectivized_farming }
