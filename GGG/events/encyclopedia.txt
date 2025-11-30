@@ -272,6 +272,16 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = KID
+				}
+			}
+			THIS = { 
+				country_event = { id = 50405 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -298,6 +308,7 @@ country_event = {
 							tag = AYU
 							tag = PUS
 							tag = GHE
+							tag = KID
 						}
 					}
 				}
@@ -2634,6 +2645,26 @@ country_event = {
 }
 
 #########
+
+country_event = {
+	id = 50405 
+	title = "EVTNAME50393" ##### KID
+	desc = "EVTDESC50393"
+	picture = "gashdzii_generic"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 country_event = {
 	id = 50393 
