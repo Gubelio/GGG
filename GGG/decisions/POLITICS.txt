@@ -325,6 +325,8 @@ political_decisions = {
 			political_reform = collectivized_farming
 			clr_country_flag = smallholder_society
 			remove_country_modifier = smallholder_society
+			remove_country_modifier = smallholder_society_1
+			remove_country_modifier = smallholder_society_2
 		
 			scaled_militancy = {
 				ideology = liberationist
