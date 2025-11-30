@@ -4798,7 +4798,11 @@ country_event = {
 
 
 	trigger = {
-		NOT = { has_country_flag = declined_capital_move }
+		NOT = { 
+			has_country_flag = declined_capital_move 
+			tag = KID
+			tag = CHB
+		}
 		OR = {
 			
 			
