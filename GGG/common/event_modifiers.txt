@@ -584,4 +584,5 @@ depression = {
 	mobilisation_economy_impact = 0.3
 	ruling_party_support = -0.1
 	social_reform_desire = 0.1
+	political_reform_desire = 0.1
 }
