@@ -449,9 +449,9 @@ protectionism_l;Discouraged;;;;;;;;;;;;;x
 dynastic_security;Dynastic Security;;;;;;;;;;;;;x
 dynastic_security_desc;The old Emperor has been exiled, and a new dynasty has taken the role of Kiidnazhk!;;;;;;;;;;;;;x
 MODIFIER_POP_CONSCIOUSNESS_MODIFIER;Pop consciousness;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+HAVE_INDUSTRIAL_SCORE_LESS_THAN;Have industrial score less than;;;;;;;;;;;;;x
+HAS_NO_MINORITIES;Has minorities;;;;;;;;;;;;;x
+depression;Economic Depression;;;;;;;;;;;;;x
+depression_desc;This country is in an economic slump at the moment.;;;;;;;;;;;;;x
+debased_currency;Debased Currency;;;;;;;;;;;;;x
+debased_currency_desc;The currency has been debased by the government, causing inflation and an indirect 'tax' on currency holders besides the government mint.;;;;;;;;;;;;;x

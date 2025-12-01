@@ -307,9 +307,22 @@ country_event = {
 	option = {
 		name = "The bloodletting is always a pleasure to see."
 		
-		add_country_modifier = {
-			name = thralls_culled
-			duration = 1300
+		random_list = {
+			50 = {
+				add_country_modifier = {
+					name = thralls_culled
+					duration = 1700
+				
+				}
+			}
+			
+			50 = {
+				add_country_modifier = {
+					name = thralls_culled
+					duration = 1500
+				
+				}
+			}
 		
 		}
 		
@@ -329,7 +342,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.95
 				
 			
 			}
@@ -364,7 +377,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.95
 				
 			
 			}
@@ -399,7 +412,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.95
 				
 			
 			}
@@ -434,7 +447,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.94
 				
 			
 			}
@@ -469,7 +482,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.96
 				
 			
 			}
@@ -504,7 +517,7 @@ country_event = {
 				limit = {
 					type = thralls
 				}
-				reduce_pop = 0.97
+				reduce_pop = 0.94
 				
 			
 			}
@@ -528,5 +541,266 @@ country_event = {
 
 }
 	
-	
 
+
+
+country_event = {
+	id = 50406
+	title = "EVTNAME50406" #economic crash
+    desc = "EVTDESC50406"
+	picture = "industrial"
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = depression
+		
+		}
+		OR = { 
+			unemployment = 0.40
+			AND = {
+				has_country_modifier = industrialising_economy
+				NOT = { industrial_score = 20 }
+				NOT = { economic_policy = laissez_faire }
+				war = no
+			}
+			AND = {
+				has_country_modifier = industrial_economy
+				NOT = { industrial_score = 50 }
+				NOT = { economic_policy = laissez_faire }
+				war = no
+			}
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	
+	}
+	
+	option = {
+		name = "Debase the currency and pay the army at the very least."
+		treasury = 250000
+		
+		
+		
+		add_country_modifier = {
+			name = debased_currency
+			duration = 720
+		
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = farmers
+					type = labouers
+					type = serfs
+					type = craftsmen
+					type = artisans
+				
+				}
+			
+			}
+			
+			militancy = 4
+			consciousness = 4
+		
+		}
+		
+		add_country_modifier = {
+			name = depression
+			duration = 800
+		
+		}
+	
+	}
+	
+	option = {
+		name = "Debase the currency and distrubute aid."
+		treasury = 250000
+		
+		add_country_modifier = {
+			name = debased_currency
+			duration = 1440
+		
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = farmers
+					type = labouers
+					type = serfs
+					type = craftsmen
+					type = artisans
+				
+				}
+			
+			}
+			
+			money = 40
+			
+			militancy = 1
+			consciousness = 1
+		
+		}
+		
+		add_country_modifier = {
+			name = depression
+			duration = 800
+		
+		}
+	
+	}
+	
+	option = {
+		name = "The economy will recover, just wait!"
+		any_pop = {
+			limit = {
+				OR = {
+					type = farmers
+					type = labouers
+					type = serfs
+					type = craftsmen
+					type = artisans
+				
+				}
+			
+			}
+			
+			militancy = 6
+			consciousness = 6
+		
+		}
+	
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalist
+					type = aristocrats
+				
+				}
+			}
+			
+			militancy = -1
+			consciousness = -1
+		
+		}
+		
+		add_country_modifier = {
+			name = depression
+			duration = 800
+		
+		}
+	}
+	
+}
+
+
+province_event = {
+	id = 50407
+	title = "EVTNAME50407" #attack_minorities
+    desc = "EVTDESC50407"
+	picture = "industrial"
+	
+	trigger = {
+		has_country_modifier = depression
+		unemployment = 0.2
+		minorities = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	
+	}
+	
+	option = {
+		name = "Stop these hooligans! Send in the Gendarme!"
+		random_pop = {
+			limit = {
+				is_accepted_culture = no
+			}
+			reduce_pop = 0.99
+		
+		}
+		
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			
+			}
+			
+			militancy = 3
+			consciousness = 3
+		
+		}
+	
+	}
+	
+	
+	option = {
+		name = "At least it diverts attention from the government"
+		random_pop = {
+			limit = {
+				is_accepted_culture = no
+			}
+			reduce_pop = 0.94
+		
+		}
+		
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			
+			}
+			
+			militancy = -1
+			consciousness = 2
+		
+		}
+	}
+	
+}
+
+
+country_event = {
+	id = 50408
+	title = "EVTNAME50408" #solution debates
+    desc = "EVTDESC50408"
+	picture = "industrial"
+	
+	trigger = {
+		has_country_modifier = depression
+		is_ideology_enabled = statist
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	
+	}
+	
+	option = {
+		name = "...the statist critique is highly compelling."
+		any_pop = {
+			ideology = {
+				factor = 0.04
+				value = statist
+			}
+		
+		}
+	
+	}
+	
+	
+	option = {
+		name = "...the project of industrial modernity is entirely doomed."
+		any_pop = {
+			ideology = {
+				factor = 0.03
+				value = liberationist
+			}
+		}
+	}
+	
+}
