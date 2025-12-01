@@ -575,7 +575,7 @@ debased_currency = {
 	poor_life_needs = 0.25
 	poor_everyday_needs = 0.25
 	middle_everyday_needs = 0.25
-	middle_lfe_needs = 0.25
+	middle_life_needs = 0.20
 }
 
 depression = {
