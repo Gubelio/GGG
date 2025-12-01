@@ -559,13 +559,13 @@ country_event = {
 			unemployment = 0.40
 			AND = {
 				has_country_modifier = industrialising_economy
-				NOT = { industrial_score = 20 }
+				NOT = { industrial_score = 50 }
 				NOT = { economic_policy = laissez_faire }
 				war = no
 			}
 			AND = {
 				has_country_modifier = industrial_economy
-				NOT = { industrial_score = 50 }
+				NOT = { industrial_score = 200 }
 				NOT = { economic_policy = laissez_faire }
 				war = no
 			}
