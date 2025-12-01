@@ -641,7 +641,7 @@ country_event = {
 			
 			money = 40
 			
-			militancy = 1
+			militancy = -1
 			consciousness = 1
 		
 		}
