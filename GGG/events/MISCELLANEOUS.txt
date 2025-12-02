@@ -4212,6 +4212,7 @@ country_event = {
 		any_core = {
 			controlled_by_rebels = yes
 		}
+		
 	}
 
 	mean_time_to_happen = {
@@ -4243,6 +4244,7 @@ country_event = {
 					government = aristocratic_commonwealth
 					government = theocracy
 				}
+				war = no
 			}
 			country_event = { 
 				id = 50303
@@ -4666,6 +4668,7 @@ country_event = {
 	picture = "vok_com"
 		
 		trigger = {
+			tag = VOK
 			war = no
 			NOT = {
 				has_country_flag = settled_commodity_crisis

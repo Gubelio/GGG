@@ -551,6 +551,7 @@ country_event = {
 	picture = "industrial"
 	
 	trigger = {
+		war = no
 		NOT = {
 			has_country_modifier = depression
 		
