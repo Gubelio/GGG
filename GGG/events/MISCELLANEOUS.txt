@@ -513,6 +513,18 @@ country_event = {
             factor = 0.9
             average_consciousness = 4
         }
+		modifier = {
+            factor = 0.9
+            year = 1372
+        }
+		modifier = {
+            factor = 0.9
+            year = 1374
+        }
+		modifier = {
+            factor = 0.7
+            year = 1376
+        }
 	}
 
 	option = {
@@ -538,7 +550,7 @@ country_event = {
 		OR = {
 			moralism = 25
 			residency = 5
-			social_reform_want = 0.5
+			social_reform_want = 0.3
 			unemployment = 0.2
 		}
 	}
