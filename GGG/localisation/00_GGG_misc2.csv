@@ -288,14 +288,14 @@ vocational_candidacy_l;Vocational Constituency;x
 vocational_candidacy_desc;This state is broadly corporatist, with major chartered organisations, occupational guilds, industiral firms, and numerous other bodies having the power to elect or appoint representatives in a byzantine network of rights and privlieges.;x
 federalisation;Decentralisation;;;;;;;;;;;;;x
 upper_house_composition;Minor Issues;;;;;;;;;;;;;x
-two_per_state;National Ramient;;;;;;;;;;;;;x
-two_per_state_l;National Ramient;;;;;;;;;;;;;x
-proportional;Anti-Witch Legislation;;;;;;;;;;;;;x
-proportional_l;Anti-Witch Legislation;;;;;;;;;;;;;x
+population_equal_weight;National Ramient;;;;;;;;;;;;;x
+population_equal_weight_l;National Ramient;;;;;;;;;;;;;x
+state_equal_weight;Anti-Witch Legislation;;;;;;;;;;;;;x
+state_equal_weight_l;Anti-Witch Legislation;;;;;;;;;;;;;x
 POP_DAILY_EVENT;Windfalls: §Y$VAL$§W¤;;;;;;;;;;;;;;x
 cordon_sanitaire_province;Cordon Sanitaire;;;;;;;;;;;;;x
 had_pandemic;Had Pandemic;;;;;;;;;;;;;x
-had_pandemic_desc;Ignore this modifier. It is simply here to halt provincial reinfection.;;;;;;;;;;;;;x
+had_pandemic_desc;This province has a degree of disease resitance.;;;;;;;;;;;;;x
 ballsy;Temerarious;;;;;;;;;;;;;x
 vewugist_conversion;Vewugist Conversion;x
 vewugist_conversion_desc;This country has recently converted to Vewugism and is enjoying increased links with the developed world on account of this.;x
