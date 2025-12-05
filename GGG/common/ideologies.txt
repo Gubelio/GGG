@@ -9,7 +9,11 @@ theocratist_group = {
 
 
         add_political_reform = {
-            base = 0
+            base = 1
+			modifier = {
+                factor = -1
+                NOT = { ruling_party_ideology = theocratist }
+            }
         }
         remove_political_reform = {
             base = 0

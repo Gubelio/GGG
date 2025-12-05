@@ -204,7 +204,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-        months = 55 #~5 years
+        months = 60 #~5 years
 		modifier = {
            factor = 0.7
 		   has_country_flag = tepid_suppression
