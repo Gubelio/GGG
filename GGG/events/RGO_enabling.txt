@@ -207,6 +207,21 @@ province_event = {
 					aeronautics = 1
 					}
 			}
+			AND = {
+				year = 1365
+				owner = {
+					civilised = yes
+				}
+				any_greater_power = {
+					or = {
+						invention = daimlers_automobile
+						invention = edison_light_bulb
+						infiltration = 1
+						aeronautics = 1
+					}
+				
+				}
+			}
 		}
 	}
 
@@ -259,6 +274,21 @@ province_event = {
 					infiltration = 1
 					aeronautics = 1
 					}
+			}
+			AND = {
+				year = 1372
+				owner = {
+					civilised = yes
+				}
+				any_greater_power = {
+					or = {
+						invention = daimlers_automobile
+						invention = edison_light_bulb
+						infiltration = 1
+						aeronautics = 1
+					}
+				
+				}
 			}
 		}
 	}
