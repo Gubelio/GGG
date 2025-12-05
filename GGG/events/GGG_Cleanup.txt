@@ -854,17 +854,26 @@ country_event = {
         NOT = { has_country_modifier = law_changed_by_force }
         OR = {
 			AND = {
-				federalisation = states_system
+				OR = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
 				NOT = { has_country_flag = locked_fed }
 			}
             any_neighbor_country = {
                 ai = no
-                federalisation = states_system
+                OR = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
 				NOT = { has_country_flag = locked_fed }
             }
             any_greater_power = {
                 ai = no
-                federalisation = states_system
+                OR = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
 				NOT = { has_country_flag = locked_fed }
             }
         }
@@ -878,7 +887,10 @@ country_event = {
             random_owned = {
                 limit = {
                     owner = {
-                        federalisation = states_system
+						OR = {
+							federalisation = states_system
+							federalisation = vocational_candidacy
+						}
                     }
                 }
                 owner = {
@@ -888,7 +900,10 @@ country_event = {
             any_country = {
                 limit = {
                     exists = yes
-                    federalisation = states_system
+                    OR = {
+						federalisation = states_system
+						federalisation = vocational_candidacy
+					}
 					NOT = { has_country_flag = locked_fed }
                 }
                 set_country_flag = locked_fed
@@ -915,17 +930,32 @@ country_event = {
         NOT = { has_country_modifier = law_changed_by_force }
         OR = {
 			AND = {
-				usufruct_law = land_covenants
+				OR = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
 				NOT = { has_country_flag = locked_usu }
 			}
             any_neighbor_country = {
                 ai = no
-                usufruct_law = land_covenants
+                OR = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
 				NOT = { has_country_flag = locked_usu }
             }
             any_greater_power = {
                 ai = no
-                usufruct_law = land_covenants
+                OR = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
 				NOT = { has_country_flag = locked_usu }
             }
         }
@@ -939,7 +969,12 @@ country_event = {
             random_owned = {
                 limit = {
                     owner = {
-                        usufruct_law = land_covenants
+                        OR = {
+							usufruct_law = two_sphere_law
+							usufruct_law = common_courts
+							usufruct_law = commoning_bills
+							usufruct_law = land_covenants
+						}
                     }
                 }
                 owner = {
@@ -949,7 +984,12 @@ country_event = {
             any_country = {
                 limit = {
                     exists = yes
-                     usufruct_law = land_covenants
+                    OR = {
+						usufruct_law = two_sphere_law
+						usufruct_law = common_courts
+						usufruct_law = commoning_bills
+						usufruct_law = land_covenants
+					}
 					NOT = { has_country_flag = locked_usu }
                 }
                 set_country_flag = locked_usu
@@ -976,17 +1016,29 @@ country_event = {
         NOT = { has_country_modifier = law_changed_by_force }
         OR = {
 			AND = {
-				land_reform_civ = private_landownership
+				OR = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
 				NOT = { has_country_flag = locked_real }
 			}
             any_neighbor_country = {
                 ai = no
-               land_reform_civ = private_landownership
+				OR = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
 				NOT = { has_country_flag = locked_real }
             }
             any_greater_power = {
                 ai = no
-                land_reform_civ = private_landownership
+                OR = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
 				NOT = { has_country_flag = locked_real }
             }
         }
@@ -1000,7 +1052,11 @@ country_event = {
             random_owned = {
                 limit = {
                     owner = {
-                        land_reform_civ = private_landownership
+                        OR = {
+							land_reform_civ = private_landownership
+							land_reform_civ = farm_cooperatives
+							land_reform_civ = collectivized_farming
+						}
                     }
                 }
                 owner = {
@@ -1010,7 +1066,11 @@ country_event = {
             any_country = {
                 limit = {
                     exists = yes
-                     land_reform_civ = private_landownership
+                    OR = {
+						land_reform_civ = private_landownership
+						land_reform_civ = farm_cooperatives
+						land_reform_civ = collectivized_farming
+					}
 					NOT = { has_country_flag = locked_real }
                 }
                 set_country_flag = locked_real
@@ -1105,17 +1165,29 @@ country_event = {
         NOT = { has_country_modifier = law_changed_by_force }
         OR = {
 			AND = {
-				legislative_system = regulated_elections
+				OR = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
 				NOT = { has_country_flag = locked_cent }
 			}
             any_neighbor_country = {
                 ai = no
-                legislative_system = regulated_elections
+                OR = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
 				NOT = { has_country_flag = locked_cent }
             }
             any_greater_power = {
                 ai = no
-                legislative_system = regulated_elections
+                OR = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
 				NOT = { has_country_flag = locked_cent }
             }
         }
@@ -1129,7 +1201,11 @@ country_event = {
             random_owned = {
                 limit = {
                     owner = {
-                        legislative_system = regulated_elections
+                        OR = {
+							legislative_system = regulated_elections
+							legislative_system = approved_candidacy
+							legislative_system = appointed_legislatures
+						}
                     }
                 }
                 owner = {
@@ -1139,7 +1215,11 @@ country_event = {
             any_country = {
                 limit = {
                     exists = yes
-                    legislative_system = regulated_elections
+                    OR = {
+						legislative_system = regulated_elections
+						legislative_system = approved_candidacy
+						legislative_system = appointed_legislatures
+					}
 					NOT = { has_country_flag = locked_cent }
                 }
                 set_country_flag = locked_cent
