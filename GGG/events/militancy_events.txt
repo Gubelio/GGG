@@ -216,6 +216,60 @@ country_event = {
 				government = pastoral_confederacy
 			}
 		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				worker_protections = acceptable_protections
+				worker_protections = good_protections
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			clerical_law = anti_clericalism
+		}
+		
+		modifier = {
+			factor = 0.8
+			OR = {
+				scriptural_law = permitted_heterodoxy
+				scriptural_law = local_congregationalism
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+			OR = {
+				welfare_laws = universal_grain_dole
+				welfare_laws = mule_n_seed_law
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+				debt_law = bankruptcy
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				slavery = gradual_abolition
+				slavery = no_slavery
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				wage_reform = acceptable_minimum_wage
+				wage_reform = good_minimum_wage
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+				social_privileges = equality_before_the_law
+		}
 	}
 	
 	option = {
