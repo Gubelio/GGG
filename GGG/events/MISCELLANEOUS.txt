@@ -4543,7 +4543,7 @@ country_event = {
 	option = {
 		name = "The Empire must never shatter again."
 		prestige = 25
-		infamy = -5
+		badboy = -5
 		war_exhaustion = -5
 		
 		set_country_flag = settled_imperial_question
