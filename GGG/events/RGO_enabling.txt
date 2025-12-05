@@ -210,7 +210,7 @@ province_event = {
 			AND = {
 				year = 1365
 				owner = {
-					civilised = yes
+					civilized = yes
 				}
 				any_greater_power = {
 					or = {
@@ -278,7 +278,7 @@ province_event = {
 			AND = {
 				year = 1372
 				owner = {
-					civilised = yes
+					civilized = yes
 				}
 				any_greater_power = {
 					or = {
