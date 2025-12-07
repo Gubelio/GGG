@@ -555,7 +555,7 @@ country_event = {
 		NOT = {
 			has_country_modifier = depression
 			social_spending = 0.7
-			year = 1390
+			year = 1360
 		
 		}
 		OR = { 
