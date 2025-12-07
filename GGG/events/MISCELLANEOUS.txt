@@ -4444,6 +4444,7 @@ country_event = {
 		name = "The old emperors must be restored!"
 		prestige = 10
 		set_country_flag = settled_imperial_question
+		set_country_flag = decentralised_empire
 		government = princely_despotate
 		clr_country_flag = centralised
 		set_country_flag = federalised

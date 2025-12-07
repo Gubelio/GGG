@@ -1411,6 +1411,22 @@ nationalist_rebels = {
             factor = 1.2
             location = { is_colonial = yes }
         }
+		modifier = {
+			factor = 0
+			location = {
+				is_core = KID
+				owner = {
+					tag = KID
+					OR = {
+						has_country_flag = imperial_forms_kiidnazh
+						has_country_flag = decentralised_empire
+					}
+				
+				}
+			
+			}
+		
+		}
 
     }
 
