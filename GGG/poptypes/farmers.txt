@@ -913,8 +913,10 @@ promote_to = {
                 is_colonial = yes
                 is_overseas = yes
             }
-            is_primary_culture = no
-            is_accepted_culture = no
+			OR = {
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
             NOT = { has_pop_religion = pagan }
             country = { has_country_flag = colonial_armies }
         }
@@ -922,6 +924,14 @@ promote_to = {
 
     craftsmen = {
         factor = 0.01
+		modifier = {
+			factor = -100
+			OR = {
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+		
+		}
         group = {
             modifier = {
                 factor = -4

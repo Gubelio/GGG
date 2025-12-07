@@ -919,6 +919,14 @@ serfs = {
 
     craftsmen = {
         factor = 0.01
+		modifier = {
+			factor = -100
+			OR = {
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+		
+		}
         group = {
             modifier = {
                 factor = -4
