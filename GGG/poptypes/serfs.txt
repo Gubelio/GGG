@@ -84,7 +84,7 @@ promote_to = {
             luxury_needs = 0.5
         }
 		modifier = {
-            factor = 1.3
+            factor = 0.1
             OR = {
 				land_reform_civ = enclosure_of_commons
 				land_reform_civ = private_landownership			

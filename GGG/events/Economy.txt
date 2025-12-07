@@ -554,12 +554,11 @@ country_event = {
 		war = no
 		NOT = {
 			has_country_modifier = depression
-			social_spending = 0.7
-			year = 1360
-		
+			social_spending = 0.8
 		}
 		OR = { 
-			unemployment = 0.40
+			unemployment_by_type = { type = craftsmen value = 0.40 } 
+			unemployment_by_type = { type = labouers value = 0.40 } 
 			AND = {
 				has_country_modifier = industrialising_economy
 				NOT = { industrial_score = 50 }
