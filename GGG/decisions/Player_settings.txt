@@ -173,7 +173,7 @@ political_decisions = {
         }
 
         effect = {
-			set_country_flag = pandemics_enabled
+			set_global_flag = pandemics_enabled
         }
 		
     }
