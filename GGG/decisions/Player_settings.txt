@@ -166,7 +166,7 @@ political_decisions = {
 			NOT = { year = 1309 }
 			ai = no
 			has_country_flag = player_settings_opened
-			NOT = { has_country_flag = pandemics_enabled }
+			NOT = { has_global_flag = pandemics_enabled }
         }
 
         allow = {
