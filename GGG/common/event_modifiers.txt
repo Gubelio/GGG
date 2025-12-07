@@ -203,12 +203,12 @@ industrialising_economy = {
 }
 
 industrial_economy = {
-	rich_everyday_needs = 0.6
-	rich_luxury_needs = 0.6
-	middle_everyday_needs = 1.5
-	middle_luxury_needs = 1.5
-	poor_everyday_needs = 0.75
-	poor_luxury_needs = 0.75
+	rich_everyday_needs = 0.7
+	rich_luxury_needs = 0.7
+	middle_everyday_needs = 1.7
+	middle_luxury_needs = 1.7
+	poor_everyday_needs = 1
+	poor_luxury_needs = 1
 	population_growth = -0.001
 	icon = 11
 }
