@@ -1886,7 +1886,7 @@ country_event = { #study paorusu
 		
 		NOT = {
 			OR = {
-				has_country_flag = studied_parousou
+				has_country_flag = studied_paorusu
 				has_country_flag = paorusu_country
 				#AND = {
 				#	year = 1350
