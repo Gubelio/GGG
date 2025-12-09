@@ -70,11 +70,18 @@ country_event = {
 			land_reform_civ = enclosure_of_commons
 			land_reform_civ = private_landownership
 		}
+		
+		
+		OR = {
+			administrative_reform = proprietary_bureaucracy
+			administrative_reform = appointed_bureaucrats
+		}
+		
 		OR = {
 			usufruct_law = realty_prioritised
 			usufruct_law = commons_system
-			usufruct_law = land_covenants
-			usufruct_law = commoning_bills
+			#usufruct_law = land_covenants
+			#usufruct_law = commoning_bills
 		}
 
 		OR = {
@@ -117,11 +124,12 @@ country_event = {
 			land_reform_civ = enclosure_of_commons
 			land_reform_civ = private_landownership
 		}
+		
 		OR = {
 			usufruct_law = realty_prioritised
 			usufruct_law = commons_system
-			usufruct_law = land_covenants
-			usufruct_law = commoning_bills
+			#usufruct_law = land_covenants
+			#usufruct_law = commoning_bills
 		}
 
 		OR = {
