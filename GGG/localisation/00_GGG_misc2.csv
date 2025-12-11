@@ -464,3 +464,12 @@ depression;Economic Depression;;;;;;;;;;;;;x
 depression_desc;This country is in an economic slump at the moment.;;;;;;;;;;;;;x
 debased_currency;Debased Currency;;;;;;;;;;;;;x
 debased_currency_desc;The currency has been debased by the government, causing inflation and an indirect 'tax' on currency holders besides the government mint.;;;;;;;;;;;;;x
+TRIGGER_STATE;State;x
+slave_liquor_distillery;Liqour Bottling Plant;x
+slave_liquor_distillery_desc;x;x
+slave_winery;Bottling Plant;x
+slave_winery_desc;x;x
+slave_cannery;Cannery;x
+slave_cannery_desc;x;x
+slave_munitions_plant;Munitions Plant;x
+slave_munitions_plant_desc;x;x
