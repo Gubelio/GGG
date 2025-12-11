@@ -429,7 +429,7 @@ colonialmigration_chance =
 		}
 	}
 	modifier = {
-		factor = -2.0
+		factor = -5.0
 		state_scope = { is_colonial = yes }
 	}
 	group = {
@@ -484,10 +484,6 @@ colonialmigration_chance =
 		}
 		
 	}
-	#modifier = {
-	#	factor = -8.0
-	#	type = serfs
-	#}
 }
 
 #general emigration chance
