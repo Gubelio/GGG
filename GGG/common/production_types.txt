@@ -61,6 +61,41 @@ cheap_factory_template = {
     workforce = 10000
 }
 
+cheap_factory_template_slave = {
+    efficiency = {
+        cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+    }
+
+    owner = {
+        poptype = capitalists
+        effect = input
+        effect_multiplier = -1.5
+    }
+
+    employees = {
+		{
+            poptype = slaves
+            effect = throughput
+            amount = 0.4
+        }
+        {
+            poptype = craftsmen
+            effect = throughput
+            amount = 0.8
+        }
+        {
+            poptype = clerks
+            effect = output
+            effect_multiplier = 1.5
+            amount = 0.2
+        }
+		
+
+    }
+    type = factory
+    workforce = 10000
+}
+
 machine_part_user_template = {
     efficiency = {
         cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
@@ -623,6 +658,98 @@ winery = {
     }
     bonus = {
         trigger = { trade_goods_in_state = fruit }
+        value = 0.1
+    }
+}
+
+
+##### SLAVE FACTORIES ####
+
+slave_liquor_distillery = {
+    template = cheap_factory_template_slave
+    input_goods = {
+        grain = 10        #22
+        fruit = 5        #9
+        glass = 13        #37.7    total input+maint = 72.7
+    }
+    output_goods = liquor
+    value = 18.5        #81.4 - profit = 8.7
+    bonus = {
+        trigger = { has_building = glass_factory }
+        value = 0.15
+    }
+    bonus = {
+        trigger = { trade_goods_in_state = grain }
+        value = 0.05
+    }
+    bonus = {
+        trigger = { trade_goods_in_state = fruit }
+        value = 0.05
+    }
+}
+
+slave_winery = {
+    template = cheap_factory_template_slave
+    input_goods = {
+        fruit = 5        #9
+        glass = 5        #14.5    total input+maint = 27.5
+    }
+    output_goods = wine
+    value = 4.5            #43.65 - profit = 16.15
+    bonus = {
+        trigger = { has_building = glass_factory }
+        value = 0.15
+    }
+    bonus = {
+        trigger = { trade_goods_in_state = fruit }
+        value = 0.1
+    }
+}
+
+slave_ammunition_factory = {
+    template = cheap_factory_template_slave
+    input_goods = {
+        sulphur = 2        #12
+        steel = 3            #14.1    total input+maint = 30.1
+		mollusc_oil = 0.5
+    }
+    output_goods = ammunition
+    value = 3            #45 - profit = 14.9
+    bonus = {
+        trigger = { trade_goods_in_state = sulphur }
+        value = 0.1
+    }
+    bonus = {
+        trigger = { has_building = steel_factory }
+        value = 0.15
+    }
+}
+
+slave_canned_food_factory = {
+    template = cheap_factory_template_slave
+    input_goods = {
+        steel = 0.5     #2.35
+        cattle = 4         #8
+        grain = 4         #8.8
+        fish = 4         #6    total input+maint = 29.15
+    }
+    output_goods = canned_food
+    value = 3            #48 - profit = 18.85
+    bonus = {
+        trigger = { trade_goods_in_state = grain }
+        value = 0.075
+    }
+    bonus = {
+        trigger = {
+            OR = {
+                trade_goods_in_state = fish
+                trade_goods_in_state = cattle
+            }
+        }
+        value = 0.075
+    }
+    bonus = {
+        trigger = { has_building = steel_factory }
         value = 0.1
     }
 }

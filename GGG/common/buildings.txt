@@ -654,6 +654,94 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
+### SLAVE FACTORIES ###
+
+slave_liquor_distillery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 200
+		cement = 200
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+	
+	#default_enabled = yes	
+	production_type = slave_liquor_distillery
+	pop_build_factory = yes
+}
+
+slave_winery = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 200
+		cement = 200
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+
+	#default_enabled = yes	
+	production_type = slave_winery
+	pop_build_factory = yes
+}
+
+slave_munitions_plant = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 200
+		cement = 200
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+	
+	#default_enabled = yes	
+	production_type = slave_ammunition_factory
+	pop_build_factory = yes
+}
+
+slave_cannery = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 200
+		cement = 200
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+
+	#default_enabled = yes	
+	production_type = slave_canned_food_factory
+	pop_build_factory = yes
+}
+
+
+##### OTHER ####
+
+
 fort = {
     type = fort
     goods_cost = {

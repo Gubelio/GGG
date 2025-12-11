@@ -1546,6 +1546,86 @@ work_control_and_hierarchy = {
 		factory_output = 0.01
 	}
 }
+
+slave_munitions_plants = {
+	limit = { organized_factories = 1 }
+	news = no
+	chance = {
+		base = 2
+
+		modifier = {
+			factor = -100
+			OR = {
+				slavery =  no_slavery
+				slavery =  gradual_abolition
+			}
+		
+		}
+	}
+	effect = {
+		activate_building = slave_munitions_plant 
+	}
+}
+
+slave_canneries = {
+	limit = { organized_factories = 1 }
+	news = no
+	chance = {
+		base = 2
+
+		modifier = {
+			factor = -100
+			OR = {
+				slavery =  no_slavery
+				slavery =  gradual_abolition
+			}
+		
+		}
+	}
+	effect = {
+		activate_building = slave_cannery
+	}
+}
+
+slave_bottling_plants = {
+	limit = { organized_factories = 1 }
+	news = no
+	chance = {
+		base = 2
+
+		modifier = {
+			factor = -100
+			OR = {
+				slavery =  no_slavery
+				slavery =  gradual_abolition
+			}
+		
+		}
+	}
+	effect = {
+		activate_building = slave_winery
+	}
+}
+
+slave_breweries = {
+	limit = { organized_factories = 1 }
+	news = no
+	chance = {
+		base = 2
+
+		modifier = {
+			factor = -100
+			OR = {
+				slavery =  no_slavery
+				slavery =  gradual_abolition
+			}
+		
+		}
+	}
+	effect = {
+		activate_building = slave_liquor_distillery 
+	}
+}
 #scientific_management
 sequence_planning = {
 	limit = { scientific_management = 1 }
