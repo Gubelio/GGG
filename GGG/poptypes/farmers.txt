@@ -1014,10 +1014,17 @@ promote_to = {
 		modifier = {
 			factor = 10
 			unemployment = 0.95
+			location = {
+				owner = {
+					civilized = yes
+					NOT = {
+						unemployment_by_type = { type = farmers value = 0.6 } }
+					}
+				}
+			}
 			NOT = {
 				location = {
 					owner = {
-						civilized = yes
 						OR = {
 							usufruct_law = land_covenants
 							usufruct_law = commoning_bills
