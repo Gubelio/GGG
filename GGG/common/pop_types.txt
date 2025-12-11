@@ -371,29 +371,6 @@ migration_chance = {
 			unemployment = 0.6
 			location = { controlled_by = owner }
 		}	
-		modifier = {
-			factor = 0.3
-			unemployment = 0.7
-			location = { controlled_by = owner }
-		}	
-		
-		modifier = {
-			factor = 0.3
-			unemployment = 0.8
-			location = { controlled_by = owner }
-		}	
-		
-		modifier = {
-			factor = 0.3
-			unemployment = 0.9
-			location = { controlled_by = owner }
-		}	
-		
-		modifier = {
-			factor = 0.3
-			unemployment = 1
-			location = { controlled_by = owner }
-		}	
 		
 	}
 	#modifier = {
@@ -454,7 +431,7 @@ colonialmigration_chance =
 	}
 
 	modifier = {
-		factor = 2
+		factor = 1
 		location = {
 			owner = {
 				colonial_policy = settlement
