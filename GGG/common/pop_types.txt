@@ -489,7 +489,7 @@ colonialmigration_chance =
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.5
+	factor = 0.3
 
 	group = {
 
@@ -622,6 +622,11 @@ emigration_chance =
 	modifier = {
 		factor = -8.0
 		country = { emigration_law = emigration_forbidden }
+	}
+	modifier = {
+		factor = -2.0
+		country = { emigration_law = emigration_restricted }
+		culture = dehuogi
 	}
 	#modifier = {
 	#	factor = -8.0
