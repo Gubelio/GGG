@@ -245,6 +245,8 @@ country_event = {
     }
 }
 
+
+
 country_event = {
     id = 50290
     title = "usufruct_flags"
@@ -916,6 +918,83 @@ country_event = {
 }
 
 country_event = {
+    id = 50409
+    title = "federalisation_unlocking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				NOT = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
+				has_country_flag = locked_fed
+			}
+            any_neighbor_country = {
+                ai = no
+                NOT = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
+				has_country_flag = locked_fed
+            }
+            any_greater_power = {
+                ai = no
+                NOT = {
+					federalisation = states_system
+					federalisation = vocational_candidacy
+				}
+				has_country_flag = locked_fed
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+						NOT = {
+							federalisation = states_system
+							federalisation = vocational_candidacy
+						}
+						has_country_flag = locked_fed
+                    }
+                }
+                owner = {
+                    clr_country_flag = locked_fed
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    NOT = {
+						federalisation = states_system
+						federalisation = vocational_candidacy
+					}
+					has_country_flag = locked_fed
+                }
+                clr_country_flag = locked_fed
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
     id = 50294
     title = "usufruct_locking"
     desc = "EVTDESC33337"
@@ -1001,6 +1080,94 @@ country_event = {
     }
 }
 
+
+country_event = {
+    id = 50410
+    title = "usufruct_unlocking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				NOT = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
+				has_country_flag = locked_usu
+			}
+            any_neighbor_country = {
+                ai = no
+                NOT = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
+				has_country_flag = locked_usu
+            }
+            any_greater_power = {
+                ai = no
+                NOT = {
+					usufruct_law = two_sphere_law
+					usufruct_law = common_courts
+					usufruct_law = commoning_bills
+					usufruct_law = land_covenants
+				}
+				has_country_flag = locked_usu
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+						NOT = {
+							usufruct_law = two_sphere_law
+							usufruct_law = common_courts
+							usufruct_law = commoning_bills
+							usufruct_law = land_covenants
+						}
+						has_country_flag = locked_usu
+                    }
+                }
+                owner = {
+                    clr_country_flag = locked_usu
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    NOT = {
+						usufruct_law = two_sphere_law
+						usufruct_law = common_courts
+						usufruct_law = commoning_bills
+						usufruct_law = land_covenants
+					}
+					has_country_flag = locked_usu
+                }
+                clr_country_flag = locked_usu
+            }
+			
+		
+		
+		
+    }
+}
+
 country_event = {
     id = 50295
     title = "real_locking"
@@ -1074,6 +1241,88 @@ country_event = {
 					NOT = { has_country_flag = locked_real }
                 }
                 set_country_flag = locked_real
+            }
+			
+		
+		
+		
+    }
+}
+
+country_event = {
+    id = 50411
+    title = "real_unlocking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				NOT = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
+				has_country_flag = locked_real
+			}
+            any_neighbor_country = {
+                ai = no
+				NOT = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
+				has_country_flag = locked_real
+            }
+            any_greater_power = {
+                ai = no
+                NOT = {
+					land_reform_civ = private_landownership
+					land_reform_civ = farm_cooperatives
+					land_reform_civ = collectivized_farming
+				}
+				has_country_flag = locked_real
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+							land_reform_civ = private_landownership
+							land_reform_civ = farm_cooperatives
+							land_reform_civ = collectivized_farming
+						}
+						has_country_flag = locked_real
+                    }
+                }
+                owner = {
+                    clr_country_flag = locked_real
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    NOT = {
+						land_reform_civ = private_landownership
+						land_reform_civ = farm_cooperatives
+						land_reform_civ = collectivized_farming
+					}
+					has_country_flag = locked_real
+                }
+                clr_country_flag = locked_real
             }
 			
 		
@@ -1223,6 +1472,89 @@ country_event = {
 					NOT = { has_country_flag = locked_cent }
                 }
                 set_country_flag = locked_cent
+            }
+			
+		
+		
+		
+    }
+}
+
+
+country_event = {
+    id = 50412
+    title = "centralisation_unlocking"
+    desc = "EVTDESC33337"
+    #picture = "danishgovernment"
+
+    is_triggered_only = yes
+
+    trigger = {
+        ai = yes
+        exists = yes
+        war = no
+        NOT = { has_country_modifier = law_changed_by_force }
+        OR = {
+			AND = {
+				NOT = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
+				has_country_flag = locked_cent
+			}
+            any_neighbor_country = {
+                ai = no
+                NOT = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
+				has_country_flag = locked_cent
+            }
+            any_greater_power = {
+                ai = no
+                NOT = {
+					legislative_system = regulated_elections
+					legislative_system = approved_candidacy
+					legislative_system = appointed_legislatures
+				}
+				has_country_flag = locked_cent
+            }
+        }
+    }
+
+    allow_multiple_instances = no
+
+    option = {
+        name = "EVT33337OPTA"
+        add_country_modifier = { name = law_changed_by_force duration = 365 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+							legislative_system = regulated_elections
+							legislative_system = approved_candidacy
+							legislative_system = appointed_legislatures
+						}
+						has_country_flag = locked_cent
+                    }
+                }
+                owner = {
+                    clr_country_flag = locked_cent
+                }
+            }
+            any_country = {
+                limit = {
+                    exists = yes
+                    NOT = {
+						legislative_system = regulated_elections
+						legislative_system = approved_candidacy
+						legislative_system = appointed_legislatures
+					}
+					has_country_flag = locked_cent
+                }
+                clr_country_flag = locked_cent
             }
 			
 		
