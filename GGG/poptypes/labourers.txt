@@ -995,7 +995,7 @@ serfs = {
             location = { is_colonial = yes }
         }
 		modifier = {
-			factor = 2
+			factor = 8
 			unemployment = 0.95
 			location = {
 				owner = {

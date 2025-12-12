@@ -25,7 +25,7 @@ everyday_needs = {
     wool =  1.5       #0.7
     fish =  1.5       #1.5
     fruit =  1.5       #1.8
-    grain =  3.7
+    grain =  5
     coal = 1.1
     tobacco = 5.5
     tea = 2.2
@@ -39,11 +39,11 @@ everyday_needs = {
 
 
 luxury_needs = {
-	cattle = 0.5      #2.0
-    wool =  0.5       #0.7
-    fish =  0.5       #1.5
-    fruit =  0.5       #1.8
-    grain =  1.2
+	cattle = 1      #2.0
+    wool =  1       #0.7
+    fish =  1       #1.5
+    fruit =  1       #1.8
+    grain =  1.5
     regular_clothes = 2.2
     furniture = 3.3
     liquor = 1.65

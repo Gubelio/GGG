@@ -29,11 +29,11 @@ everyday_needs = {
 
 #Total cash needed: 136.78 - Vanilla value: 125.995
 luxury_needs = {
-	cattle = 0.5      #2.0
-    wool =  0.5       #0.7
-    fish =  0.5       #1.5
-    fruit =  0.5       #1.8
-    grain =  1.2
+	cattle = 1      #2.0
+    wool =  1       #0.7
+    fish =  1       #1.5
+    fruit =  1       #1.8
+    grain =  1
     regular_clothes = 6.3
     furniture = 6.3
     paper = 1.1
@@ -1015,7 +1015,7 @@ promote_to = {
             location = { is_colonial = yes }
         }
 		modifier = {
-			factor = 1
+			factor = 4
 			unemployment = 0.95
 			location = {
 				is_colonial = no
@@ -1049,7 +1049,7 @@ promote_to = {
 		
 		}
 		modifier = {
-			factor = 1
+			factor = 4
 			unemployment = 0.95
 			location = {
 				is_colonial = no
