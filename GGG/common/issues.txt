@@ -371,14 +371,14 @@ political_reforms = {
         feudal_tenure = {
             rgo_throughput = -0.1
             rgo_output = -0.05
-
-        }
-
-        enclosure_of_commons = {
 			allow = {
 				NOT = { has_country_flag = locked_usu }
 			
 			}
+        }
+
+        enclosure_of_commons = {
+	
         }
 
         private_landownership = {
