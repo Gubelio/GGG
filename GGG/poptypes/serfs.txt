@@ -17,7 +17,11 @@ rebel = {
 
 #Total 11.5
 life_needs = {
-    
+    cattle = 1.5      #2.0
+    wool =  1.5       #0.7
+    fish =  1.5       #1.5
+    fruit =  1.5       #1.8
+    grain =  5
 }
 
 everyday_needs = {
