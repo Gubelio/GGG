@@ -1185,9 +1185,7 @@ country_event = { #zhakdnag requests autonomy
 		 	
 
 		release_vassal = ZHN
-		ZHN = {
-			government = pastoral_confederacy
-		}
+		
 		
 	}
 	
