@@ -509,10 +509,10 @@ emigration_chance =
 			factor = 0.2
 			militancy = 8
 		}
-		#modifier = {
-		#	factor = 0.2
-		#	militancy = 9
-		#}
+		modifier = {
+			factor = 0.2
+			militancy = 9
+		}
 	}
 
 	group = {
