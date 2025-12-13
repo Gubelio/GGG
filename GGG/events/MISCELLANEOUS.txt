@@ -4647,7 +4647,7 @@ country_event = {
 			militancy = 9
 			consciousness = 9
 			ideology = {
-				factor = 0.02
+				factor = 0.04
 				value = reactionary
 			}
 		
@@ -4663,7 +4663,7 @@ country_event = {
 			militancy = -1
 			consciousness = 3
 			ideology = {
-				factor = 0.03
+				factor = 0.05
 				value = liberationist
 			}
 		}
