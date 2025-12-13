@@ -41,11 +41,7 @@ everyday_needs = {
 
 #Total cash needed: 429.2 - Vanilla value: 383.4
 luxury_needs = {
-	cattle = 0.3
-    wool =  0.5
-    fish =  0.5
-    fruit =  0.5
-    grain =  1.5
+	
     canned_food = 0.75
     fruit = 1.1
     wool = 3.3

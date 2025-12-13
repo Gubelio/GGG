@@ -559,16 +559,6 @@ emigration_chance =
 			}
 	}
 	
-	modifier = {
-		factor = -0.5
-		type = craftsmen
-	}
-	
-	modifier = {
-		factor = -0.5
-		type = farmers
-	}
-	
 	
 
 	group = {
