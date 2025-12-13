@@ -985,20 +985,10 @@ promote_to = {
         modifier = {
             factor = 10
             state_scope = { has_factories = yes }
-            NOT = {
-                location = {
-                    unemployment_by_type = { type = craftsmen value = 0.25 } 
-					OR = {
-						owner = {
-							usufruct_law = land_covenants
-							usufruct_law = commoning_bills
-							usufruct_law = common_courts
-							usufruct_law = two_sphere_law
-						}
-					
-						}
-					}
-                }
+            #NOT = {
+            #    location = {
+            #        unemployment_by_type = { type = craftsmen value = 1 } }
+            #    }
         }
         modifier = {
             factor = -40
@@ -1016,16 +1006,11 @@ promote_to = {
 		modifier = {
 			factor = 10
 			unemployment = 0.95
-			#CONTROLLED BY
 			NOT = {
-				location = {
-					owner = {
-						usufruct_law = land_covenants
-						usufruct_law = commoning_bills
-						usufruct_law = common_courts
-						usufruct_law = two_sphere_law
-					}
-				}
+				usufruct_law = land_covenants
+				usufruct_law = commoning_bills
+				usufruct_law = common_courts
+				usufruct_law = two_sphere_law
 			
 			}
 		
