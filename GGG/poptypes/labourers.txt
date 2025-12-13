@@ -977,7 +977,7 @@ serfs = {
             }
         }
         modifier = {
-            factor = 5
+            factor = 10
             state_scope = { has_factories = yes }
             #NOT = {
             #    location = {
@@ -990,6 +990,10 @@ serfs = {
             country = { economic_policy = planned_economy }
         }
 
+		modifier = {
+            factor = -100
+            #NOT = { location = { work_available = { worker = craftsmen } } }
+        }
         modifier = {
             factor = -100
             location = { is_colonial = yes }
@@ -997,12 +1001,7 @@ serfs = {
 		modifier = {
 			factor = 10
 			unemployment = 0.95
-			location = {
-				owner = {
-					civilized = yes
-				
-				}
-			}
+		
 		}
     }
 

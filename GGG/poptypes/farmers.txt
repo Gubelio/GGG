@@ -983,21 +983,20 @@ promote_to = {
             }
         }
         modifier = {
-            factor = 5
+            factor = 10
             state_scope = { has_factories = yes }
             NOT = {
                 location = {
                     unemployment_by_type = { type = craftsmen value = 0.25 } 
+					OR = {
 						owner = {
-							OR = {
-								usufruct_law = land_covenants
-								usufruct_law = commoning_bills
-								usufruct_law = common_courts
-								usufruct_law = two_sphere_law
-							}
+							usufruct_law = land_covenants
+							usufruct_law = commoning_bills
+							usufruct_law = common_courts
+							usufruct_law = two_sphere_law
 						}
 					
-
+						}
 					}
                 }
         }
@@ -1006,7 +1005,10 @@ promote_to = {
             state_scope = { has_factories = no }
             country = { economic_policy = planned_economy }
         }
-   
+        modifier = {
+            factor = -100
+            #NOT = { location = { work_available = { worker = craftsmen } } }
+        }
         modifier = {
             factor = -100
             location = { is_colonial = yes }
@@ -1014,16 +1016,14 @@ promote_to = {
 		modifier = {
 			factor = 10
 			unemployment = 0.95
+			#CONTROLLED BY
 			NOT = {
 				location = {
 					owner = {
-						civilized = yes
-						OR = {
-							usufruct_law = land_covenants
-							usufruct_law = commoning_bills
-							usufruct_law = common_courts
-							usufruct_law = two_sphere_law
-						}
+						usufruct_law = land_covenants
+						usufruct_law = commoning_bills
+						usufruct_law = common_courts
+						usufruct_law = two_sphere_law
 					}
 				}
 			
