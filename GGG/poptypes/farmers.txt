@@ -983,7 +983,7 @@ promote_to = {
             }
         }
         modifier = {
-            factor = 3
+            factor = 5
             state_scope = { has_factories = yes }
 			location = {
 				is_colonial = no
@@ -1015,7 +1015,7 @@ promote_to = {
             location = { is_colonial = yes }
         }
 		modifier = {
-			factor = 1.5
+			factor = 5
 			unemployment = 0.95
 			location = {
 				is_colonial = no
@@ -1049,7 +1049,7 @@ promote_to = {
 		
 		}
 		modifier = {
-			factor = 1.5
+			factor = 5
 			unemployment = 0.95
 			location = {
 				is_colonial = no

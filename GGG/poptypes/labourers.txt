@@ -977,7 +977,7 @@ serfs = {
             }
         }
         modifier = {
-            factor = 3
+            factor = 5
             state_scope = { has_factories = yes }
             #NOT = {
             #    location = {
@@ -995,7 +995,7 @@ serfs = {
             location = { is_colonial = yes }
         }
 		modifier = {
-			factor = 3
+			factor = 10
 			unemployment = 0.95
 			location = {
 				owner = {
