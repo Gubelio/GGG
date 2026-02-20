@@ -647,17 +647,17 @@ conquest_minuscule;Minuscule Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_MINUSCULE_NAME;$ORDER$Minuscule Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_minuscule_desc;Annex a single-state 即country劬 with less than 50,000 pops;;;;;;;;;;;;;x
+conquest_minuscule_desc;Annex a single-state 即country劬 with less than 100,000 pops;;;;;;;;;;;;;x
 conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_tiny_desc;Annex a single-state 即country劬 with less than 200,000 pops;;;;;;;;;;;;;x
+conquest_tiny_desc;Annex a single-state 即country劬 with less than 250,000 pops;;;;;;;;;;;;;x
 conquest_low;Lowly Conquest;;;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_LOW_NAME;$ORDER$Lowly Conquest of $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
-conquest_low_desc;Annex a single-state 即country劬 with less than 500,000 pops;;;;;;;;;;;;;x
+conquest_low_desc;Annex a single-state 即country劬 with less than 550,000 pops;;;;;;;;;;;;;x
 in_bankrupcy;In Bankruptcy;;;;;;;;;;;;;x
 in_disrepair;In Disrepair;;;;;;;;;;;;;x
 ancestral_swamp_farms;Ancestral Swamp Farming;;;;;;;;;;;;;x
