@@ -11,7 +11,7 @@ war_torn = {
     immigrant_attract = -0.25
     immigrant_push = 0.5
     population_growth = -0.001
-    icon = 4
+    icon = 34
 }
 
 colonial_chaos = {
@@ -95,7 +95,7 @@ ancestral_swamp_farms = {
 bustling_metropolis = {
     farm_rgo_size = 0.50
     mine_rgo_size = 0.50
-    icon = 19
+    icon = 33
 }
 
 switched_production = {
@@ -126,7 +126,7 @@ yoker_agitation = {
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.05
 	social_reform_desire = 0.05
-	icon = 16
+	icon = 30
 }
 
 regional_revolt = {
@@ -153,7 +153,7 @@ paknag_bandits = {
     immigrant_attract = -0.10
     immigrant_push = 0.05
     population_growth = -0.0005
-	icon = 20
+	icon = 30
 }
 
 treaty_port = {
@@ -241,11 +241,11 @@ locust_plague = {
 	population_growth = -0.001
 	#tax_efficiency = -0.1
 	#administrative_efficiency_modifier = -0.1
-    icon = 20
+    icon = 28
 }
 
 locust_threat = {
-    icon = 19
+    icon = 27
 }
 
 bondsman_control = {
@@ -278,7 +278,7 @@ minor_outrage_national = {
 	tax_efficiency = -0.05
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	icon = 18
+	icon = 30
 }
 
 major_outrage_national = {
@@ -298,7 +298,7 @@ minor_outrage_province = {
     immigrant_push = 0.25
     mine_rgo_size = -0.2
     farm_rgo_size = -0.2
-	icon = 20
+	icon = 32
 }
 
 major_outrage_province = {
@@ -490,7 +490,7 @@ industry_curtailed = {
 ruins_drupe = {
     immigrant_attract = -0.15
 	immigrant_push = 0.1 
-    icon = 20
+    icon = 34
 }
 
 vewugist_conversion = {
@@ -532,7 +532,7 @@ cordon_sanitaire_province = {
 }
 
 had_pandemic = { #invisible
-	icon = 27
+	icon = 35
 }
 
 chazd_molluscing = {
@@ -558,7 +558,7 @@ vupuyti_raid = {
     immigrant_attract = -0.25
     immigrant_push = 0.5
     population_growth = -0.001
-    icon = 18
+    icon = 30
 }
 
 dynastic_security = {
