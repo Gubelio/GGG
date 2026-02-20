@@ -26,7 +26,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 12000 #~1000 years    ###3600 #~300 Years
+        months = 36024 #~3000 years       12000 #~1000 years 
 		modifier = {
            factor = 0.9
 		   year = 1328
@@ -35,21 +35,32 @@ country_event = {
 		modifier = {
            factor = 0.8
 		   year = 1348
-		   NOT = { year = 1368 }
+		   NOT = { year = 1358 }
 		}
 		modifier = {
            factor = 0.7
-		   year = 1368
-		   NOT = { year = 1388 }
+		   year = 1358
+		   NOT = { year = 1368 }
 		}
 		modifier = {
            factor = 0.6
-		   year = 1388
+		   year = 1368
+		   NOT = { year = 1378 }
 		}
-		#modifier = {
-        #   factor = 0.6
-		#   year = 1388
-		#}
+		modifier = {
+           factor = 0.4
+		   year = 1378
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1388
+		   NOT = { year = 1398 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1398
+		}
 	}
 	
 	option = {
@@ -101,7 +112,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 12000 #~1000 years    ###3600 #~300 Years
+        months = 36024 #~3000 years       12000 #~1000 years 
 		modifier = {
            factor = 0.9
 		   year = 1328
@@ -110,21 +121,32 @@ country_event = {
 		modifier = {
            factor = 0.8
 		   year = 1348
-		   NOT = { year = 1368 }
+		   NOT = { year = 1358 }
 		}
 		modifier = {
            factor = 0.7
-		   year = 1368
-		   NOT = { year = 1388 }
+		   year = 1358
+		   NOT = { year = 1368 }
 		}
 		modifier = {
            factor = 0.6
-		   year = 1388
+		   year = 1368
+		   NOT = { year = 1378 }
 		}
-		#modifier = {
-        #   factor = 0.6
-		#   year = 1388
-		#}
+		modifier = {
+           factor = 0.4
+		   year = 1378
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1388
+		   NOT = { year = 1398 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1398
+		}
 	}
 	
 	option = {
@@ -175,7 +197,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 12000 #~1000 years    ###3600 #~300 Years
+        months = 36024 #~3000 years       12000 #~1000 years 
 		modifier = {
            factor = 0.9
 		   year = 1328
@@ -184,21 +206,32 @@ country_event = {
 		modifier = {
            factor = 0.8
 		   year = 1348
-		   NOT = { year = 1368 }
+		   NOT = { year = 1358 }
 		}
 		modifier = {
            factor = 0.7
-		   year = 1368
-		   NOT = { year = 1388 }
+		   year = 1358
+		   NOT = { year = 1368 }
 		}
 		modifier = {
            factor = 0.6
-		   year = 1388
+		   year = 1368
+		   NOT = { year = 1378 }
 		}
-		#modifier = {
-        #   factor = 0.6
-		#   year = 1388
-		#}
+		modifier = {
+           factor = 0.4
+		   year = 1378
+		   NOT = { year = 1388 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1388
+		   NOT = { year = 1398 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1398
+		}
 	}
 	
 	option = {
