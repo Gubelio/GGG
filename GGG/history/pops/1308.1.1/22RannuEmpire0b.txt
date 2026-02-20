@@ -11180,7 +11180,7 @@
 	aristocrats = {
 		 culture = bogoran
 		 religion = vewugi
-		 size =28
+		 size = 28
 	}
 
 
@@ -13294,6 +13294,74 @@
 		 culture = bogoran
 		 religion = vewugi
 		 size =499
+	}
+
+}
+
+2126 = {
+
+
+
+	aristocrats = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 34
+	}
+
+
+	bureaucrats = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 1
+	}
+
+
+	clergymen = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 11
+	}
+
+
+	artisans = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 46
+	}
+
+
+	soldiers = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 44
+	}
+
+
+	farmers = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 609
+	}
+
+
+	farmers = {
+		 culture = yamoujoy
+		 religion = tehuhrite
+		size = 46
+	}
+
+
+	officers = {
+		 culture = bogoran
+		 religion = vewugi
+		size = 1
+	}
+
+
+	serfs = {
+		 culture = yamoujoy
+		 religion = tehuhrite
+		size = 349
 	}
 
 }

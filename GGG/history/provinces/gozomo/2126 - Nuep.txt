@@ -1,4 +1,6 @@
-trade_goods = wool
-life_rating = 15
-add_core = CBC
-
+owner = BOG
+controller = BOG
+add_core = BOG
+trade_goods = mollusc_oil
+life_rating = 33
+terrain = montane_forest
