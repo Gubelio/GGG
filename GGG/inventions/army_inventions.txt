@@ -1196,6 +1196,24 @@ hussar_activation = {
 		activate_unit = hussar 
 	}
 }	
+
+scout_activation = {
+    limit = { military_staff_system = 1 }
+    chance = {
+        base = 2
+        modifier = {
+            factor = -2
+            NOT = { civilized = yes }
+        }
+        modifier = { 
+            factor = -2
+            ai = yes 
+        }
+    }
+    effect = {
+		activate_unit = scout
+    }
+}
 	
 #military_plans
 telegraph_coordination = {
