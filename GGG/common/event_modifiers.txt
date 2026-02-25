@@ -103,15 +103,15 @@ switched_production = {
     icon = 14
 }
 
-international_sanctions = {
-    import_cost = 0.5
-    diplomatic_points_modifier = -0.6
-    non_accepted_pop_militancy_modifier = 0.2
-    prestige = -0.3
-    war_exhaustion = 2.0
-    core_pop_militancy_modifier = 0.1
-    icon = 6
-}
+#international_sanctions = { #now a trigmod
+#    import_cost = 0.5
+#    diplomatic_points_modifier = -0.6
+#    non_accepted_pop_militancy_modifier = 0.2
+#    prestige = -0.3
+#    war_exhaustion = 2.0
+#    core_pop_militancy_modifier = 0.1
+#    icon = 6
+#}
 
 plantations = {
     immigrant_attract = 0.15
