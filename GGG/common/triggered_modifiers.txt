@@ -5,7 +5,7 @@
 
 international_sanctions = {
         trigger = {
-			badboy = 1.3 #36.4
+			badboy = 1.3 # 46.8
             NOT = { has_global_flag = sanctions_disabled }
         }
 
