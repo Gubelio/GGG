@@ -4179,8 +4179,8 @@ country_event = {
 
 country_event = {
 	id = 50337
-	title = "EVT50331NAME" ##### Bafozhi Heading
-	desc = "EVT50331DESC"
+	title = "EVT50337NAME" ##### Bafozhi Heading
+	desc = "EVT50337DESC"
 	#picture = "gashdzii_generic"
 	
 	is_triggered_only = yes
