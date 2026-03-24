@@ -264,6 +264,7 @@ political_reforms = {
             middle_vote = 1
             poor_vote = 0
 			rules = { state_vote = yes }
+            rules = { largest_share = yes }
 			allow = {
 				THIS = {
 					NOT = {
@@ -282,6 +283,7 @@ political_reforms = {
             middle_vote = 0
             poor_vote = 0
             rules = { rich_only = yes }
+            rules = { largest_share = yes }
         }
 		
         approved_candidacy = {
@@ -290,6 +292,7 @@ political_reforms = {
             middle_vote = 0
             poor_vote = 0
             rules = { rich_only = yes }
+            rules = { largest_share = yes }
         }
 		
         appointed_legislatures = {
@@ -298,6 +301,7 @@ political_reforms = {
             middle_vote = 0
             poor_vote = 0
             rules = { same_as_ruling_party = yes }
+            rules = { largest_share = yes }
 
         }
     }
