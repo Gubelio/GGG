@@ -2479,14 +2479,14 @@ country_event = { #tribute event for pruunt
 			}
 			
 			owner = {
-				treasury = -2000
+				treasury = -5000
 			
 			}
 			
 			POU = {
 				change_variable = {
 					which = tribute_ships_arrived
-					value = 2
+					value = 5
 				}
 				tribute_info = { }
 			}
@@ -2502,14 +2502,14 @@ country_event = { #tribute event for pruunt
 			}
 			
 			owner = {
-				treasury = -1000
+				treasury = -2000
 			
 			}
 			
 			POU = {
 				change_variable = {
 					which = tribute_ships_arrived
-					value = 1
+					value = 2
 				}
 				tribute_info = { }
 			}
