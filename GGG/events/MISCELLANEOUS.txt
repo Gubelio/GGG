@@ -621,6 +621,27 @@ country_event = { #MOBILIZATION DURING PEACE TIME PUNISHMENT
 
     option = {
         name = "EVT50007OPTA"
+
+        any_pop = {
+            limit = {
+                type = soliders
+            }
+            dominant_issue = {
+	            value = jingoism
+	            factor = 0.1
+            }
+        }
+
+        any_pop = {
+            limit = {
+                NOT = { type = soliders }
+            }
+            dominant_issue = {
+	            value = anti_military
+	            factor = 0.1
+            }
+        }
+
         random_owned = { limit = { owner = { is_greater_power = yes } }
             owner = {
             add_country_modifier = { name = peacetime_mobilization duration = 365 }
@@ -1203,6 +1224,22 @@ province_event = {
         name = "EVT50020OPTA"
         naval_base = -1
         add_province_modifier = { name = in_disrepair duration = 545 }
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = statist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    ideology = {
+	                    factor = 0.1
+	                    value = statist
+                    }
+                }
+
+            }
+        }
     }
 }
 
@@ -1242,6 +1279,22 @@ province_event = {
         state_scope = {
             infrastructure = -1
             add_province_modifier = { name = in_disrepair duration = 545 }
+        }
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = statist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    ideology = {
+	                    factor = 0.1
+	                    value = statist
+                    }
+                }
+
+            }
         }
     }
 }
@@ -1283,6 +1336,23 @@ province_event = {
             fort = -1
             add_province_modifier = { name = in_disrepair duration = 545 }
         }
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = statist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    ideology = {
+	                    factor = 0.1
+	                    value = statist
+                    }
+                }
+
+            }
+        }
+        
     }
 }
 
@@ -1335,6 +1405,12 @@ country_event = {
 				casus_belli = cut_down_to_size
 			}
 		}
+        any_pop = {
+            dominant_issue = {
+                value = pro_military
+                factor = 0.05
+            }
+        }
 	}
 
 	option = {
@@ -1344,6 +1420,12 @@ country_event = {
 			value = -100
 		}
 		prestige = -20
+        any_pop = {
+            dominant_issue = {
+                value = anti_military
+                factor = 0.07
+            }
+        }
 	}
 }
 
@@ -1417,6 +1499,12 @@ province_event = {
 	option = {
 		name = "EVT50055OPTA"
 		add_core = THIS
+        any_pop = {
+            dominant_issue = {
+                value = residency
+                factor = 0.1
+            }
+        }
 	}
 }
 
@@ -1505,6 +1593,22 @@ country_event = {
 				militancy = 1
 			}
 		}
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = statist
+                }
+            }
+            563 = {
+                any_pop = {
+                    ideology = {
+	                   factor = 0.07
+	                  value = staist
+                    }
+                }
+
+            }
+        }
 	}
 }
 
@@ -3545,7 +3649,10 @@ country_event = { #Origin site under tehuhrite control once again
 				has_pop_religion = tehuhrite
 			}
 			militancy = -0.5
-			
+			dominant_issue = {
+                factor = 0.03
+                value = moralism
+            }
 		}
 	}
 }
@@ -3767,6 +3874,52 @@ country_event = {
 	option = {
 		name = "Force them to comply, by all means!"
 		prestige = 5
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = statist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    limit = {
+                        type = serfs
+                    }
+                    ideology = {
+	                    factor = 0.04
+	                    value = statist
+                    }   
+                }
+            }
+        }
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = absolutist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    limit = {
+                        type = serfs
+                    }
+                    ideology = {
+	                    factor = 0.04
+	                    value = absolutist
+                    }   
+                }
+            }
+        }
+        any_pop = {
+            limit = {
+                type = aristocrats
+            }
+            ideology = {
+	            factor = 0.04
+	            value = reactionary
+            }
+
+        }
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
@@ -3795,6 +3948,36 @@ country_event = {
 	
 	option = {
 		name = "Perhaps some compensation will soothe them?"
+        any_pop = {
+            limit = {
+                type = serfs
+            }
+            ideology = {
+	            factor = 0.03
+	            value = liberationist
+            }
+
+        }
+        any_pop = {
+            limit = {
+                type = serfs
+            }
+            ideology = {
+	            factor = 0.02
+	            value = free_yoker
+            }
+
+        }
+        any_pop = {
+            limit = {
+                type = aristocrats
+            }
+            ideology = {
+	            factor = 0.02
+	            value = reactionary
+            }
+
+        }
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
@@ -3846,6 +4029,44 @@ country_event = {
 		name = "Avoid provoking them, then, but free the state serfs."
 		prestige = -5
 		social_reform = serfdom
+        if = {
+            limit = {
+                THIS = {
+                    is_ideology_enabled = absolutist
+                }
+            }
+            THIS = {
+                any_pop = {
+                    limit = {
+                        type = serfs
+                    }
+                    ideology = {
+	                    factor = 0.04
+	                    value = absolutist
+                    }   
+                }
+            }
+        }
+        any_pop = {
+            limit = {
+                type = serfs
+            }
+            ideology = {
+	            factor = 0.02
+	            value = free_yoker
+            }
+
+        }
+        any_pop = {
+            limit = {
+                type = aristocrats
+            }
+            ideology = {
+	            factor = 0.02
+	            value = conservative
+            }
+
+        }
 		set_country_flag = serfdom_abolished
 		any_country = {
             limit = { exists = no capital_scope = { owned_by = THIS } }
@@ -4712,6 +4933,22 @@ country_event = {
 			name = "Arrange for reform in the more troubled provinces."
 			
 			set_country_flag = settled_agrarian_question
+
+            if = {
+                limit = {
+                     THIS = {
+                        is_ideology_enabled = statist
+                    }
+                }
+                THIS = {
+                    any_pop = {
+                        ideology = {
+	                        factor = 0.04
+	                        value = statist
+                        }   
+                    }
+                }
+            }
 			
 			any_owned = {
 				limit = {
@@ -4756,6 +4993,22 @@ country_event = {
 				consciousness = 3
 			
 			}
+
+            if = {
+                limit = {
+                     THIS = {
+                        is_ideology_enabled = free_yoker
+                    }
+                }
+                THIS = {
+                    any_pop = {
+                        ideology = {
+	                        factor = 0.04
+	                        value = free_yoker
+                        }   
+                    }
+                }
+            }
 			set_country_flag = settled_commodity_crisis
 		}
 		
