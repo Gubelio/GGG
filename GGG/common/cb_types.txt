@@ -52,6 +52,7 @@ conquest_tiny
 conquest_minuscule 
 civil_war 
 acquire_core_state 
+acquire_all_cores
 annex_core_country
 acquire_state 
 #acquire_lesser_state
@@ -97,6 +98,67 @@ take_colonial_concession_capital_KF
 great_war_penalty_cb 
 }
 
+acquire_all_cores = {
+    sprite_index = 5
+    is_triggered_only = yes
+    months = 12
+    constructing_cb = no
+    crisis = no
+
+    badboy_factor = 0
+    prestige_factor = 2
+    peace_cost_factor = 0.5
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 48
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+        always = no
+        NOT = { is_our_vassal = THIS }
+        number_of_states = 2 # annex if you want their last state
+        is_vassal = no
+        any_owned_province = { is_core = THIS }
+        any_owned_province = { NOT = { is_core = THIS } }
+        THIS = {
+            NOT = {
+                AND = {
+                    war_policy = pacifism
+                    war = no
+                }
+            }
+        }
+    }
+
+    allowed_countries = {
+
+    }
+
+    allowed_states = {
+        any_owned_province = { is_core = THIS }
+        #NOT = { any_owned_province = { is_capital = yes } }
+    }
+
+    all_allowed_states = yes
+    po_transfer_provinces = yes
+
+    war_name = WAR_ALL_CORES_NAME
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+}
 
 treaty_port_casus_belli = {
     sprite_index = 1

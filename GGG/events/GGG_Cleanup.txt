@@ -38234,3 +38234,163 @@ country_event = {
 	
 
 }
+
+###########
+### AGGRO AI EVENTS
+###########
+
+country_event = {
+	id = 246246
+	title = "EVTNAME123123"
+	desc = "EVTDESC123123"
+	
+
+    trigger = {
+        ai = no
+        number_of_states = 2
+        any_owned_province = {
+			is_colonial = no
+		}
+        OR = {
+            war = yes
+            NOT = {
+               total_amount_of_divisions = 5
+            }
+        }
+        OR = {
+            any_owned_province = {
+                any_core = {
+                    neighbor = THIS
+                    is_independant = yes
+                    civilized = yes
+                    ai = yes
+		            war = no
+		            total_amount_of_divisions = 5
+                    NOT = {
+                        alliance_with = THIS
+                        war_exhaustion = 30
+                        relation = { who = THIS value = 100 }
+                    }
+                }
+            }
+            any_neighbor_country = {
+                is_independant = yes
+                civilized = yes
+                ai = yes
+		        war = no
+		        total_amount_of_divisions = 5
+                NOT = {
+                    alliance_with = THIS
+                    war_exhaustion = 30
+                    relation = { who = THIS value = -50 }
+                }
+            }
+
+        }
+        
+	}
+	
+	mean_time_to_happen = {
+		months = 360 #180
+
+	}
+
+    option = {
+		name = "EVT246246OPTA"
+		random_country = {
+            limit = {
+                any_owned_province = {
+                    any_neighbor_province = {
+                        owned_by = THIS
+                    }
+                }
+                is_independant = yes
+                civilized = yes
+                ai = yes
+		        war = no
+		        total_amount_of_divisions = 5
+                NOT = {
+                 alliance_with = THIS
+                    war_exhaustion = 30
+                 relation = { who = THIS value = 100 }
+                }
+            }
+               country_event = {
+	                id = 123123
+	                days = 5
+                }
+        }
+        
+	}
+
+}
+
+# AI_WAR_OF_OPPERTUNITY
+country_event = {
+	id = 123123
+	title = "EVTNAME123123"
+	desc = "EVTDESC123123"
+	
+	is_triggered_only = yes
+
+   
+	
+	option = {
+		name = "EVT123123OPTA"
+
+         if = {
+        limit = {
+            FROM = {
+                any_owned_province = {
+                    is_core = THIS
+                }
+            }
+        }
+
+        FROM = {
+			add_casus_belli = {
+				target = THIS
+				type = acquire_all_cores
+				months = 12
+			}
+		}
+		
+		THIS = {
+			war = {
+				target = FROM
+				attacker_goal = { casus_belli = acquire_all_cores }
+				call_ally = yes
+			}
+            set_country_flag = cb_check_done
+		}
+
+    }
+
+        if = {
+            limit = {
+                THIS = {
+                    NOT = {
+                        has_country_flag = cb_check_done
+                    }
+                }
+
+            }
+		    FROM = {
+			    add_casus_belli = {
+				    target = THIS
+				    type = cut_down_to_size
+				    months = 12
+			    }
+		    }
+		
+		    THIS = {
+			    war = {
+				    target = FROM
+				    attacker_goal = { casus_belli = cut_down_to_size }
+				    call_ally = yes
+			    }
+		    }
+        }
+        clr_country_flag = cb_check_done
+	}
+}

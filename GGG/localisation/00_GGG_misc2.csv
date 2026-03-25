@@ -477,3 +477,7 @@ slave_cannery;Cannery;x
 slave_cannery_desc;x;x
 scout;Scout;;;;;;;;;;;;;
 scout_activation;Scouts;;;;;;;;;;;;;
+acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;
+acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;
+acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;
+acquire_all_cores_desc;Acquire all enemy §Ystates§W where we have §Ycore provinces§W;;;;;;;;;;;;;
