@@ -586,3 +586,9 @@ depression = {
 	social_reform_desire = 0.1
 	political_reform_desire = 0.1
 }
+
+ai_econ_helper = {
+	icon = 9
+	tax_efficiency = 0.1
+	administrative_efficiency_modifier = 0.1
+}

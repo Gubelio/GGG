@@ -44,7 +44,7 @@ player_settings_open_desc;This is a player only decision. Clicking this will ope
 player_settings_close_title;Close Player Settings;;;;;;;;;;;;;x
 player_settings_close_desc;Minimize the game rule decisions. This can be undone before the year 1309.;;;;;;;;;;;;;x
 bankruptcy_events_title;Disable Bankruptcy Events;;;;;;;;;;;;;x
-bankruptcy_events_desc;This will stop events related to bankruptcy from spawning. This may be helpful due to the fact that these events can become spammy at certain points during the game.;;;;;;;;;;;;;x
+bankruptcy_events_desc;§RThis is highly recommended!§! This will stop events related to bankruptcy from spawning. This may be helpful due to the fact that these events can become spammy at certain points during the game.;;;;;;;;;;;;;x
 conquest_kovazhi_desert_title;Conquest the Great Bauxae;;;;;;;;;;;;;x
 conquest_kovazhi_desert_desc;For all of known history the great empty white sands of the Bauxae have remained a wild and dangerous place. To our northern border towns and cities it is known for harboring bandits and Biori raiders who for centuries have made forays into our land to loot homes, pillage temples, and capture children to be made into thralls, but now after a series of centralization and modernization projects our government now finally has the means to do something about this hazardous wasteland. Our generals tell us it would take one swift military operation to occupy the desert, subdue the Biori tribesmen, and finally bring peace to the northlands.;;;;;;;;;;;;;x
 centralize_the_empire_title;Abolish the Prayerlands;;;;;;;;;;;;;x
@@ -185,10 +185,10 @@ embrace_vewugism_bud_title;Return to the Vewugist Faith;;;;;;;;;;;;;x
 embrace_vewugism_bud_desc;We Dehuogi are by instinct Vewugists. Since the faith was given to us through conquest in the 500s, for many years the Dehuogi identity has been bound up in Vewugism. It was the arrival of the faith that sculpted the steppe and plains nomads of yore into the common culture and nation it is today. However, since the Rannutan have driven us from our home, and we have been driven to the island of Kaubtashug, we have gradually drifted into the influence of the despotate of Vokonazh. In the 1100s, one of our princes made the decision to officially sponsor the cult of Dozshk, the Kadkohi high god favoured by the Midodazh dynasty of Vokonazh. While this secured us favours with our protector, now, with the recovery of our ancestral capital and the reincorporation of many devout Vewugist Dehuogis, there is much grumbling about the official sponsorship of a Gashdzii God. The state ought to renew its connection to the Great Vewug, and throw down these false idols!;;;;;;;;;;;;;x
 the_electoral_question_title;The Question of the Estates;;;;;;;;;;;;;x
 the_electoral_question_desc;The figure of the aristocratic estate owner is a well loathed person in Vokonazhi society. Lazy, cruel, prone to smoking copious amounts of Pruub, he tyrannizes the serf, the peasant, and even the local central government official. Ever since the ‘Gâdân Fi Ja' or the ‘law of the three orders’ of 755, the serfs have been entirely subjugated politically and financially to the regional aristocrats. Furthermore, the complicated system of estates and national assemblies, which this law gave the hereditary master of many districts a right to sit on, the headstrong and obstreperous regional aristocrat has been a continual source of annoyance for the royal constabulary in reforming the country. Recently, the situation has become considerably intolerable, with many in the national press crying out for reforms of various ways, and our government increasingly amenable to this, but with copious amounts of arrogant assemblymen getting in the way of meaningful reform. It is said that the power of the aristocrats must be broken somehow. We must call the privy council to make an extraordinary decree to deal with this problem!;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+double_all_pops_title;Double All Pops;;;;;;;;;;;;;x
+double_all_pops_desc;§RNOTE: Doubling all pops can negatively effect the game's performance!§! Enacting this decision will make all pops in land owned by a country double. This is intended to help with economic problems and bolster national armies. This cannot be undone.;;;;;;;;;;;;;x
+ai_cash_injections_title;AI Cash Injections;;;;;;;;;;;;;x
+ai_cash_injections_desc;This decision will give all AI countries a yearly cash injection alongside a continuous tax and administrative efficiency modifier. This is intended to make AI countries struggle less with their economies and encourage them to build more formidable armies and industry.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

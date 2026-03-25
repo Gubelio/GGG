@@ -178,6 +178,52 @@ political_decisions = {
 		
     }
 	
+    double_all_pops = {
+	picture = "starting_options"
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = double_the_pops }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = double_the_pops
+			any_pop = { reduce_pop = 2 }
+			any_country = {
+				any_pop = { reduce_pop = 2 }
+			}
+        }
+		
+    }
+	
+    ai_cash_injections = {
+	picture = "starting_options"
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = ai_cash_injections_initiated }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = ai_cash_injections_initiated
+			any_country = {
+				limit = { ai = yes }
+				treasury = 100000
+			}
+        }
+		
+    }
+	
 	open_encyclopedia = {
         alert = no
 		picture = encycl

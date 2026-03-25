@@ -26,7 +26,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 36024 #~3000 years       12000 #~1000 years 
+        months = 120082 #~10,000 years
 		modifier = {
            factor = 0.9
 		   year = 1328
@@ -112,7 +112,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 36024 #~3000 years       12000 #~1000 years 
+        months = 120082 #~10,000 years
 		modifier = {
            factor = 0.9
 		   year = 1328
@@ -197,7 +197,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 36024 #~3000 years       12000 #~1000 years 
+        months = 120082 #~10,000 years
 		modifier = {
            factor = 0.9
 		   year = 1328
