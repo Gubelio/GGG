@@ -994,10 +994,12 @@ EVTNAME50410;AI CLEANUP;;;;;;;;;;;;;x
 EVTNAME50411;AI CLEANUP;;;;;;;;;;;;;x
 EVTNAME50412;AI CLEANUP;;;;;;;;;;;;;x
 EVTNAME50413;AI CASH INJECTION!;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50416;Gold Vein Struck!;;;;;;;;;;;;;x
+EVTDESC50416;x;;;;;;;;;;;;;x
+EVTNAME50417;Gold Vein Depleted;;;;;;;;;;;;;x
+EVTDESC50417;x;;;;;;;;;;;;;x
+EVTNAME246246;From Bad to Worse...;;;;;;;;;;;;;x
+EVTNAME123123;AI AGRESSOR EVENT;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

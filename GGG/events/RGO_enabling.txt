@@ -299,3 +299,86 @@ province_event = {
         add_province_modifier = { name = switched_production duration = 1825 }
 	}
 }
+
+province_event = {
+    id = 50416 ## Gold Rush
+    title = "EVTNAME50416" 
+    desc = "EVTDESC50416"
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+		or = {
+			province_id = 1538
+            province_id = 1525
+            province_id = 1586
+            province_id = 1480	
+            province_id = 1799
+            province_id = 2042
+		}
+		not = { trade_goods = precious_metal }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					civilized = yes
+				}
+			}
+			owner = {
+				civilized = yes
+			}
+		}
+	}
+
+	option = {
+		name = "Send buying agents from the state mint."
+		trade_goods = precious_metal
+        add_province_modifier = { name = switched_production duration = 912 }
+        add_province_modifier = { name = gold_fever duration = 1825 }
+	}
+}
+
+province_event = {
+    id = 50417 ## Lode Dried Up
+    title = "EVTNAME50417" 
+    desc = "EVTDESC50417"
+
+	mean_time_to_happen = {
+		months = 100
+
+        modifier = {
+            factor = 0.9
+            total_pops = 5000
+        }
+
+        modifier = {
+            factor = 0.9
+            total_pops = 10000
+        }
+
+        modifier = {
+            factor = 0.9
+            total_pops = 20000
+        }
+	}
+
+	trigger = {
+		or = {
+			province_id = 1538
+            province_id = 1525
+            province_id = 1586
+            province_id = 1480	
+            province_id = 1799
+            province_id = 2042
+		}
+		trade_goods = precious_metal
+		year = 1380
+	}
+
+	option = {
+		name = "It was bound to happen eventually."
+        add_province_modifier = { name = depleted_reserves duration = -1 }
+	}
+}

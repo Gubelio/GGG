@@ -622,26 +622,6 @@ country_event = { #MOBILIZATION DURING PEACE TIME PUNISHMENT
     option = {
         name = "EVT50007OPTA"
 
-        any_pop = {
-            limit = {
-                type = soliders
-            }
-            dominant_issue = {
-	            value = jingoism
-	            factor = 0.1
-            }
-        }
-
-        any_pop = {
-            limit = {
-                NOT = { type = soliders }
-            }
-            dominant_issue = {
-	            value = anti_military
-	            factor = 0.1
-            }
-        }
-
         random_owned = { limit = { owner = { is_greater_power = yes } }
             owner = {
             add_country_modifier = { name = peacetime_mobilization duration = 365 }

@@ -38241,8 +38241,8 @@ country_event = {
 
 country_event = {
 	id = 246246
-	title = "EVTNAME123123"
-	desc = "EVTDESC123123"
+	title = "EVTNAME246246"
+	desc = "EVTDESC246246"
 	
 
     trigger = {
@@ -38296,7 +38296,7 @@ country_event = {
 	}
 
     option = {
-		name = "EVT246246OPTA"
+		name = "This does not bode well..."
 		random_country = {
             limit = {
                 any_owned_province = {

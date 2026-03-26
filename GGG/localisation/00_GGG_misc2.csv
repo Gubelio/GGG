@@ -481,3 +481,5 @@ acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;
 acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;
 acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;
 acquire_all_cores_desc;Acquire all enemy §Ystates§W where we have §Ycore provinces§W;;;;;;;;;;;;;
+gold_fever;Gold Fever;;;;;;;;;;;;;
+depleted_reserves;Depleted Reserves;;;;;;;;;;;;;

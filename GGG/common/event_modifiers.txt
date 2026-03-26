@@ -592,3 +592,18 @@ ai_econ_helper = {
 	tax_efficiency = 0.5
 	administrative_efficiency_modifier = 0.25
 }
+
+gold_fever = {
+    icon = 11
+    local_RGO_throughput = 0.2
+    local_RGO_output = 0.2
+    immigrant_attract = 0.15
+	population_growth = 0.001
+}
+
+depleted_reserves = {
+    icon = 12
+    mine_rgo_size = -0.75
+    immigrant_attract = -0.25
+    immigrant_push = 0.5
+}
