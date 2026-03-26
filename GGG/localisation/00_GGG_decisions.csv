@@ -189,8 +189,8 @@ double_all_pops_title;Double All Pops;;;;;;;;;;;;;x
 double_all_pops_desc;§RNOTE: Doubling all pops can negatively effect the game's performance!§! Enacting this decision will make all pops in land owned by a country double. This is intended to help with economic problems and bolster national armies. This cannot be undone.;;;;;;;;;;;;;x
 ai_cash_injections_title;AI Cash Injections;;;;;;;;;;;;;x
 ai_cash_injections_desc;This decision will give all AI countries a yearly cash injection alongside a continuous tax and administrative efficiency modifier. This is intended to make AI countries struggle less with their economies and encourage them to build more formidable armies and industry.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+reenable_craftsmen_exploit_title;Reenable Craftsmen Exploit;;;;;;;;;;;;;x
+reenable_craftsmen_exploit_desc;The craftsmen 'exploit' happens when non-accepted pops are automatically assimiliated to the primary culture due to the way that the Victoria II engine creates craftsmen pops. GGG has changed this by not allowing unnacepted pops to become craftsmen. There are a number of special rules that GGG adds to try to stop different species of hominid from converting to eachother. The craftsmen exploit would ruin these rules. However, the player may wish for it return, for economic or other reasons. This cannot be undone.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

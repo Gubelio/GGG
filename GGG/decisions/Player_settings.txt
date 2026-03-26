@@ -223,6 +223,25 @@ political_decisions = {
         }
 		
     }
+
+    reenable_craftsmen_exploit = {
+	picture = "starting_options"
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = craftsman_exploit_reenabled }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = craftsman_exploit_reenabled
+        }
+		
+    }
 	
 	open_encyclopedia = {
         alert = no
