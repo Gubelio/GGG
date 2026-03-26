@@ -589,6 +589,6 @@ depression = {
 
 ai_econ_helper = {
 	icon = 9
-	tax_efficiency = 0.1
-	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.5
+	administrative_efficiency_modifier = 0.25
 }

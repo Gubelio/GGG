@@ -47706,78 +47706,28 @@ country_event = {
 ##############################
 # Only AI will ever receive these events!
 
-country_event = { #Great powers
+country_event = { 
 	id = 50413
 	title = "EVTNAME50413"
 	desc = "EVTDESC50413"
 	
 	trigger = {
 		ai = yes
-		is_greater_power = yes
+		NOT = { money = 6000 }
 		has_global_flag = ai_cash_injections_initiated
 		NOT = { has_country_modifier = ai_econ_helper }
 	}
 	
 	mean_time_to_happen = {
 		months = 1
-		 
 	}
 	
 	option = {
 		name = "EVT50413OPTA"
 		add_country_modifier = { name = ai_econ_helper duration = 365 }
-		treasury = 500000
-	}
-
-}
-
-country_event = { #Secondary powers
-	id = 50414
-	title = "EVTNAME50414"
-	desc = "EVTDESC50414"
-	
-	trigger = {
-		ai = yes
-		is_secondary_power = yes
-		has_global_flag = ai_cash_injections_initiated
-		NOT = { has_country_modifier = ai_econ_helper }
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-		 
-	}
-	
-	option = {
-		name = "EVT50414OPTA"
-		add_country_modifier = { name = ai_econ_helper duration = 365 }
-		treasury = 250000
-	}
-
-}
-
-country_event = { #everyone else
-	id = 50415
-	title = "EVTNAME50415"
-	desc = "EVTDESC50415"
-	
-	trigger = {
-		ai = yes
-		is_secondary_power = no
-		is_greater_power = no
-		has_global_flag = ai_cash_injections_initiated
-		NOT = { has_country_modifier = ai_econ_helper }
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-		 
-	}
-	
-	option = {
-		name = "EVT50415OPTA"
-		add_country_modifier = { name = ai_econ_helper duration = 365 }
 		treasury = 100000
+		set_global_flag = ai_cash_injections_initiated
 	}
 
 }
+

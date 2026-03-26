@@ -219,6 +219,7 @@ political_decisions = {
 			any_country = {
 				limit = { ai = yes }
 				treasury = 100000
+				add_country_modifier = { name = ai_econ_helper duration = 36525 }
 			}
         }
 		
