@@ -995,10 +995,11 @@ EVTNAME50411;AI CLEANUP;;;;;;;;;;;;;x
 EVTNAME50412;AI CLEANUP;;;;;;;;;;;;;x
 EVTNAME50413;AI CASH INJECTION!;;;;;;;;;;;;;x
 EVTNAME50416;Gold Vein Struck!;;;;;;;;;;;;;x
-EVTDESC50416;x;;;;;;;;;;;;;x
+EVTDESC50416;Gold is a precious commodity, and it is incredibly rare. In fact, the total amount of gold dug up before the fourteenth century would scarcely fill up four large rooms. Nonetheless, it plays an important role in both the international currency market, and the commodity trade in many societies. Thus, it was of great interest to the treasury that it appears credible that a large gold vein has been discovered in $PROVINCE$ by prospectors. There is already a great hubbub in $CAPITAL$, with many declaring that they intend to pack their bags, travel the great distance to $PROVINCE$ and get rich. Doubtless, for many, this is not likely to happen, but the discovery bodes well for our state.;;;;;;;;;;;;;x
 EVTNAME50417;Gold Vein Depleted;;;;;;;;;;;;;x
-EVTDESC50417;x;;;;;;;;;;;;;x
+EVTDESC50417;Some years ago, a great vein of gold was found in $PROVINCE$. $PROVINCE$ itself has become a byword for sudden and fantastical wealth, and many fortunes were both made and lost in prospecting and mining in $PROVINCE$. In recent years, however, it seems as if this fabled land of rivers of gold is becoming one of streams, and now droplets. The great gold mines of $PROVINCE$ are running dry. The eager prospectors are now packing up their bags, and mounting their swine to head to the next awaited great bonanza, and those who remain are left to try to scrounge up a little life in the undeveloped wastes.;;;;;;;;;;;;;x
 EVTNAME246246;From Bad to Worse...;;;;;;;;;;;;;x
+EVTDESC246246;In our currently politically vulnerable situation, it seems we have been given a premonition for further negative developments. One of our neighbours has recently elected to withdraw its ambassadorial staff, and shutter its consulates. This, it is felt, could mean only one thing: war. We must brace for this challenge!;;;;;;;;;;;;;x
 EVTNAME123123;AI AGRESSOR EVENT;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
