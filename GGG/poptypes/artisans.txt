@@ -53,6 +53,14 @@ luxury_needs = {
 country_migration_target = {
     factor = 1
 
+    modifier = {
+        factor = 4
+        THIS = {
+            has_pop_culture = dehuogi
+        }
+        has_country_flag = dehuogi_question
+    }
+
 	#modifier = {
 	#	factor = 1000
 	#	any_owned_province = {
