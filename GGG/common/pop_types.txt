@@ -597,7 +597,7 @@ emigration_chance =
 	modifier = {
 		factor = -2.0
 		country = { emigration_law = emigration_restricted }
-		culture = dehuogi
+		has_pop_culture = dehuogi
 	}
 	#modifier = {
 	#	factor = -8.0
