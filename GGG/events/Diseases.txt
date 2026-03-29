@@ -10,7 +10,7 @@ country_event = {
 	desc = "EVTDESC50202"
 	
     trigger = {
-		#year = 2000
+		year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -30,42 +30,36 @@ country_event = {
 		
 		modifier = {
            factor = 3
-		   year = 1318
-		   NOT = { year = 1328 }
+		   NOT = { year = 1350 }
 		}
 		modifier = {
            factor = 2
-		   year = 1328
-		   NOT = { year = 1348 }
+		   year = 1350
+		   NOT = { year = 1360 }
 		}
 		modifier = {
            factor = 0.9
-		   year = 1348
-		   NOT = { year = 1358 }
+		   year = 1360
+		   NOT = { year = 1370 }
 		}
 		modifier = {
            factor = 0.8
-		   year = 1358
-		   NOT = { year = 1368 }
+		   year = 1370
+		   NOT = { year = 1380 }
 		}
 		modifier = {
-           factor = 0.6
-		   year = 1368
-		   NOT = { year = 1378 }
-		}
-		modifier = {
-           factor = 0.4
-		   year = 1378
-		   NOT = { year = 1388 }
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
 		}
 		modifier = {
            factor = 0.2
-		   year = 1388
-		   NOT = { year = 1398 }
+		   year = 1390
+		   NOT = { year = 1400 }
 		}
 		modifier = {
            factor = 0.1
-		   year = 1398
+		   year = 1400
 		}
 	}
 	
@@ -102,7 +96,7 @@ country_event = {
 	desc = "EVTDESC50216"
 	
     trigger = {
-		#year = 2000
+		year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -122,42 +116,36 @@ country_event = {
 		
 		modifier = {
            factor = 3
-		   year = 1318
-		   NOT = { year = 1328 }
+		   NOT = { year = 1350 }
 		}
 		modifier = {
            factor = 2
-		   year = 1328
-		   NOT = { year = 1348 }
+		   year = 1350
+		   NOT = { year = 1360 }
 		}
 		modifier = {
            factor = 0.9
-		   year = 1348
-		   NOT = { year = 1358 }
+		   year = 1360
+		   NOT = { year = 1370 }
 		}
 		modifier = {
            factor = 0.8
-		   year = 1358
-		   NOT = { year = 1368 }
+		   year = 1370
+		   NOT = { year = 1380 }
 		}
 		modifier = {
-           factor = 0.6
-		   year = 1368
-		   NOT = { year = 1378 }
-		}
-		modifier = {
-           factor = 0.4
-		   year = 1378
-		   NOT = { year = 1388 }
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
 		}
 		modifier = {
            factor = 0.2
-		   year = 1388
-		   NOT = { year = 1398 }
+		   year = 1390
+		   NOT = { year = 1400 }
 		}
 		modifier = {
            factor = 0.1
-		   year = 1398
+		   year = 1400
 		}
 	}
 	
@@ -193,7 +181,7 @@ country_event = {
 	desc = "EVTDESC50217"
 	
     trigger = {
-		#year = 2000
+		year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -213,42 +201,36 @@ country_event = {
 		
 		modifier = {
            factor = 3
-		   year = 1318
-		   NOT = { year = 1328 }
+		   NOT = { year = 1350 }
 		}
 		modifier = {
            factor = 2
-		   year = 1328
-		   NOT = { year = 1348 }
+		   year = 1350
+		   NOT = { year = 1360 }
 		}
 		modifier = {
            factor = 0.9
-		   year = 1348
-		   NOT = { year = 1358 }
+		   year = 1360
+		   NOT = { year = 1370 }
 		}
 		modifier = {
            factor = 0.8
-		   year = 1358
-		   NOT = { year = 1368 }
+		   year = 1370
+		   NOT = { year = 1380 }
 		}
 		modifier = {
-           factor = 0.6
-		   year = 1368
-		   NOT = { year = 1378 }
-		}
-		modifier = {
-           factor = 0.4
-		   year = 1378
-		   NOT = { year = 1388 }
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
 		}
 		modifier = {
            factor = 0.2
-		   year = 1388
-		   NOT = { year = 1398 }
+		   year = 1390
+		   NOT = { year = 1400 }
 		}
 		modifier = {
            factor = 0.1
-		   year = 1398
+		   year = 1400
 		}
 	}
 	
