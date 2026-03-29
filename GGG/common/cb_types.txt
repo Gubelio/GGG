@@ -50,6 +50,10 @@ conquest
 conquest_low
 conquest_tiny
 conquest_minuscule 
+conquest_dp #double pops
+conquest_low_dp #double pops
+conquest_tiny_dp #double pops
+conquest_minuscule_dp #double pops
 civil_war 
 acquire_core_state 
 acquire_all_cores
@@ -74,13 +78,19 @@ demand_concession_casus_belli_1342
 demand_concession_casus_belli_event
 demand_concession_casus_belli_EM
 demand_concession_casus_belli_KF
-establish_protectorate_casus_belli
+establish_protectorate_casus_belli 
 establish_protectorate_casus_belli_1342
 colonial_conquest_low
 colonial_conquest_low_KF
 colonial_conquest_tiny
 colonial_conquest_minuscule 
-unification_humiliate_cb
+establish_protectorate_casus_belli_dp 
+establish_protectorate_casus_belli_1342_dp
+colonial_conquest_low_dp
+colonial_conquest_low_KF_dp
+colonial_conquest_tiny_dp
+colonial_conquest_minuscule_dp 
+unification_humiliate_cb_dp
 unification_release_puppet_cb
 unification_casus_belli
 unification_annex_casus_belli
@@ -410,6 +420,7 @@ conquest = {
 		#	}
 		#}
 		is_independant = yes
+		NOT = { has_global_flag = double_the_pops }
 	}
 
 	badboy_factor = 1.8 #2.2
@@ -477,6 +488,7 @@ conquest_low = {
             AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
             AND = { war_with = THIS ai = no }
         }
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 1.0
@@ -544,6 +556,7 @@ conquest_tiny = {
             AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
             AND = { war_with = THIS ai = no }
         }
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 0.5
@@ -612,6 +625,7 @@ conquest_minuscule = {
             AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
             AND = { war_with = THIS ai = no }
         }
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 0.1
@@ -2019,6 +2033,7 @@ establish_protectorate_casus_belli = {
 				tag = QOO
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
 	}
 	
 	po_annex = yes
@@ -2059,7 +2074,7 @@ establish_protectorate_casus_belli_1342 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 50000
+		total_pops = 500000
 		THIS = {
 			civilized = yes
 		}
@@ -2092,6 +2107,7 @@ establish_protectorate_casus_belli_1342 = {
 				tag = QOO
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
 	}
 	
 	po_annex = yes
@@ -2963,6 +2979,7 @@ colonial_conquest_low = {
 				tag = QOO
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 1.2 #1.0
@@ -3038,6 +3055,7 @@ colonial_conquest_tiny = {
 				tag = QOO
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 0.7 #0.7
@@ -3113,6 +3131,7 @@ colonial_conquest_minuscule = {
 				tag = QOO
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 0.3 #0.1
@@ -3198,6 +3217,7 @@ colonial_conquest_low_KF = {
 
 			}
 		}
+		NOT = { has_global_flag = double_the_pops }
     }
 
     badboy_factor = 1.6
@@ -3710,4 +3730,768 @@ swallow_me_whole = { #event protectorate
 			value = 0.1
 		}
 	}
+}
+
+
+############################
+###### DOUBLE POP CBs ######
+############################
+
+# Conquest
+conquest_dp = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+        total_pops = 900000 
+		
+		OR = {
+			NOT = { total_pops = 950000 } #500001
+			NOT = { number_of_states = 2 }	
+		}
+
+		NOT = { number_of_states = 4 } #was 5	
+
+		# only one state or unciv
+		civilized = yes
+		#OR = {
+		#	AND = {
+		#		civilized = yes
+		#		NOT = { number_of_states = 2 }
+		#	}
+		#	AND = {
+		#		civilized = no
+		#		THIS = { civilized = no }
+		#		NOT = { number_of_states = 2 }
+		#	}
+		#	AND = {
+		#		civilized = no
+		#		number_of_states = 2
+		#		THIS = {
+		#			OR = {
+		#				NOT = { is_greater_power = yes }
+		#				NOT = { nationalism_n_imperialism = 1 }
+		#			}
+		#		}
+		#	}
+		#}
+		is_independant = yes
+		has_global_flag = double_the_pops
+	}
+
+	badboy_factor = 1.8 #2.2
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+conquest_low_dp = {
+    sprite_index = 2
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+        #THIS = { ai = no }
+        total_pops = 550000 
+        NOT = { total_pops = 900000 }
+        NOT = { is_our_vassal = THIS }
+        # only one state or unciv
+        NOT = { number_of_states = 5 }
+		civilized = yes
+        #OR = {
+        #    AND = {
+        #        civilized = yes
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+        #        THIS = { civilized = no }
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+		#		NOT = { number_of_states = 3 }
+        #        THIS = { civilized = yes }
+        #    }
+        #}
+        OR = {
+            any_owned_province = { port = yes }
+            neighbour = THIS
+            AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
+            AND = { war_with = THIS ai = no }
+        }
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 1.0
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 0.5
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_LOW_NAME
+}
+
+conquest_tiny_dp = {
+    sprite_index = 2
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+        #THIS = { ai = no }
+        total_pops = 250000 
+        NOT = { total_pops = 550000 } 
+        NOT = { is_our_vassal = THIS }
+        # only one state or unciv
+        NOT = { number_of_states = 5 }
+		civilized = yes
+        #OR = {
+        #    AND = {
+        #        civilized = yes
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+        #        THIS = { civilized = no }
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+		#		NOT = { number_of_states = 3 }
+        #        THIS = { civilized = yes }
+        #    }
+        #}
+        OR = {
+            any_owned_province = { port = yes }
+            neighbour = THIS
+            AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
+            AND = { war_with = THIS ai = no }
+        }
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 0.5
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 0.5
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_TINY_NAME
+}
+
+conquest_minuscule_dp = {
+    sprite_index = 2
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+	is_vassal = no
+	is_substate = no
+        #THIS = { ai = no }
+        NOT = { total_pops = 250000 } 
+        NOT = { is_our_vassal = THIS }
+        # only one state or unciv
+        NOT = { number_of_states = 5 }
+		civilized = yes
+        #OR = {
+        #    AND = {
+        #        civilized = yes
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+        #        THIS = { civilized = no }
+        #        NOT = { number_of_states = 3 }
+        #    }
+        #    AND = {
+        #        civilized = no
+		#		NOT = { number_of_states = 3 }
+        #        THIS = { civilized = yes }
+        #    }
+        #}
+        OR = {
+            any_owned_province = { port = yes }
+            neighbour = THIS
+            AND = { OR = { any_neighbor_country = { substate_of = THIS } any_neighbor_country = { vassal_of = THIS } } THIS = { ai = no } }
+            AND = { war_with = THIS ai = no }
+        }
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 0.1
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 0.5
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_MINUSCULE_NAME
+}
+
+### colonial CBS
+
+# Establish Protectorate
+establish_protectorate_casus_belli = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 0
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 1.5 #1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		total_pops = 900000
+		#THIS = { civilized = yes }
+		OR = {
+			NOT = {
+				number_of_states = 2 
+			}
+			AND = {
+				THIS = {
+					AND = {
+						is_greater_power = yes
+						nationalism_n_imperialism = 1
+					}
+				}
+				NOT = { number_of_states = 5 }
+			}
+		}
+		civilized = no
+		THIS = {
+			NOT = {
+					AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
+				}
+		}
+		OR = {
+			capital_scope = { continent = asia }
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = europe }
+			OR = {
+				tag = TIA
+				tag = VUN
+				tag = GHU
+				tag = NEX
+			}
+		}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		has_global_flag = double_the_pops
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_PROTECTORATE_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+establish_protectorate_casus_belli_1342 = {
+	sprite_index = 22
+	is_triggered_only = yes
+	months = 0
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 0.3 #1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		total_pops = 900000
+		THIS = {
+			civilized = yes
+		}
+		OR = {
+			NOT = {
+				number_of_states = 2 
+			}
+			AND = {
+				THIS = {
+					AND = {
+						is_greater_power = yes
+						nationalism_n_imperialism = 1
+					}
+				}
+				NOT = { number_of_states = 5 }
+			}
+		}
+		civilized = no
+		THIS = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		has_global_flag = double_the_pops
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_PROTECTORATE_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+colonial_conquest_low_dp = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+        total_pops = 550000 
+        NOT = { total_pops = 900000 } 
+        NOT = { is_our_vassal = THIS }
+        NOT = { number_of_states = 2 }
+		#THIS = { civilized = yes }
+		civilized = no
+		OR = {
+			capital_scope = { continent = asia }
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = europe }
+			OR = {
+				tag = TIA
+				tag = VUN
+				tag = GHU
+				tag = NEX
+			}
+		}
+		THIS = {
+			NOT = {
+				AND = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 1.2 #1.0
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 1.2
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_LOW_NAME
+}
+
+colonial_conquest_tiny_dp = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+        total_pops = 250000
+        NOT = { total_pops = 550000 }
+        NOT = { is_our_vassal = THIS }
+        NOT = { number_of_states = 2 }
+		#THIS = { civilized = yes }
+		civilized = no
+		OR = {
+			capital_scope = { continent = asia }
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = europe }
+			OR = {
+				tag = TIA
+				tag = VUN
+				tag = GHU
+				tag = NEX
+			}
+		}
+		THIS = {
+			NOT = {
+				AND = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 0.7 #0.7
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 1.2
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_TINY_NAME
+}
+
+colonial_conquest_minuscule_dp = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+	is_vassal = no
+	is_substate = no
+        NOT = { total_pops = 250000 } 
+        NOT = { is_our_vassal = THIS }
+        NOT = { number_of_states = 2 }
+		#THIS = { civilized = yes }
+		civilized = no
+		OR = {
+			capital_scope = { continent = asia }
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = europe }
+			OR = {
+				tag = TIA
+				tag = VUN
+				tag = GHU
+				tag = NEX
+			}
+			AND = {
+				capital_scope = { continent = south_america }
+				THIS = {
+					nationalism_n_imperialism = 1
+					machine_guns = 1
+					medicine = 1
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 0.3 #0.1
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 1.2
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_MINUSCULE_NAME
+}
+
+
+
+####
+#### KOFAZH CBs
+
+colonial_conquest_low_KF_dp = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+
+    can_use = {
+        NOT = { total_pops = 900000 }
+        NOT = { is_our_vassal = THIS }
+        NOT = { number_of_states = 2 }
+		#THIS = { civilized = yes }
+		civilized = no
+		NOT = {
+			capital_scope = { continent = asia }
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = europe }
+		}
+
+		capital_scope = { continent = south_america }
+		capital_scope = { is_coastal = yes }
+		NOT = {
+			THIS = {
+				AND = {
+						nationalism_n_imperialism = 1
+						machine_guns = 1
+						medicine = 1
+					}
+			}
+		}
+		NOT = {
+			OR = {
+				tag = NHQ
+				tag = PUS
+				tag = ORH
+				tag = FCH
+				tag = QOO
+			}
+		}
+		NOT = {
+			OR = {
+				tag = TIA
+				tag = VUN
+				tag = GHU
+				tag = NEX
+
+			}
+		}
+		has_global_flag = double_the_pops
+    }
+
+    badboy_factor = 1.6
+    prestige_factor = 5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 5
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    construction_speed = 1.2
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_LOW_NAME
 }
