@@ -82,6 +82,21 @@ country_migration_target = {
 	}
 
     modifier = {
+		factor = 5
+		tag = WAP
+        has_country_flag = open_wapkam
+        THIS = {
+            has_pop_culture = poumnian
+            country = {
+                OR = {
+                    government = paternalistic_council
+                    government = pastoral_confederacy
+                }
+            }
+        }
+	}
+
+    modifier = {
         factor = 0.9
         unemployment = 0.05
     }

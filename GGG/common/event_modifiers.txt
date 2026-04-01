@@ -156,6 +156,13 @@ paknag_bandits = {
 	icon = 30
 }
 
+closed_city_of_aincha = {
+	local_ruling_party_support = 0.2
+    immigrant_attract = -1
+    immigrant_push = -1
+	icon = 7
+}
+
 treaty_port = {
     mine_rgo_size = 8
     farm_rgo_size = 8

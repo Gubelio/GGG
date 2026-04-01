@@ -1865,6 +1865,15 @@ country_event = {
 			}
 		
 		}
+
+        1916 = {
+            add_province_modifier = {
+				name = closed_city_of_aincha
+				duration = -1
+			
+			}
+
+        }
 		
 		set_global_flag = setup_complete
 	

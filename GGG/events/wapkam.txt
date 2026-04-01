@@ -1,0 +1,55 @@
+country_event = { 
+    id = 50414 
+    title = "EVTNAME50414" Pudwou Overthrown Exiles
+    desc = "EVTDESC50414"
+	picture = "POU_rev"
+
+    trigger = {
+		has_global_flag = pudwou_overthrown
+
+        NOT = {
+            government = pastoral_confederacy
+            government = paternalistic_council
+        }
+    }
+
+
+    mean_time_to_happen = {
+        months = 1
+
+    }
+
+    option = {
+        name = "We shall welcome these exiles."
+        prestige = 10
+
+        any_pop = {
+            consciousness = 1
+        }
+
+        set_country_flag = open_wapkam
+        
+        relation = {
+	        who = POU
+	        value = -150
+        }
+		
+	}
+
+    option = {
+        name = "Wapkam does not need the detritus of the old world."
+        any_pop = {
+            consciousness = -1
+        }
+
+        set_country_flag = closed_wapkam
+
+        relation = {
+	        who = POU
+	        value = 50
+        }
+    }
+
+
+}
+
