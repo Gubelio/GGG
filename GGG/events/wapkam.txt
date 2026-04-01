@@ -1,6 +1,6 @@
 country_event = { 
     id = 50414 
-    title = "EVTNAME50414" Pudwou Overthrown Exiles
+    title = "EVTNAME50414" #Pudwou Overthrown Exiles
     desc = "EVTDESC50414"
 	picture = "POU_rev"
 
@@ -11,6 +11,8 @@ country_event = {
             government = pastoral_confederacy
             government = paternalistic_council
         }
+
+        
     }
 
 
@@ -52,4 +54,215 @@ country_event = {
 
 
 }
+
+country_event = { 
+    id = 50415 
+    title = "EVTNAME50415" #Extend the protected lands
+    desc = "EVTDESC50415"
+	#picture = "POU_rev"
+
+    trigger = {
+		has_country_flag = integration_of_strangers_act
+        NOT = {
+            has_country_flag = protected_lands_debate
+        }
+        NOT = {
+            border_policy = closed_borders
+        }
+        
+    }
+
+
+    mean_time_to_happen = {
+        months = 100
+
+    }
+
+    option = {
+        name = "This is a wise course of action."
+        set_country_flag = protected_lands_debate
+        set_country_flag = affirmed_protected_lands
+        if = {
+            limit = {
+                1936 = {
+                    empty = yes
+                }
+            }
+            1913 = {
+                secede_province = THIS
+            }
+            1936 = {
+                secede_province = THIS
+            }
+            1912 = {
+                secede_province = THIS
+            }
+            1935 = {
+                secede_province = THIS
+            }
+            1911 = {
+                secede_province = THIS
+            }
+            1917 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+
+            }
+
+            1918 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+            }
+            1915 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+
+            }
+
+            1914 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+            }
+        }
+
+        1939 = {
+            owner = {
+                add_casus_belli = {
+                    target = WAP
+                    type = swallow_me_whole
+                    months = 12
+                }
+            }
+        }
+		    
+
+
+        any_pop = {
+            limit = {
+                pop_majority_ideology = statist
+            }
+            consciousness = 1
+        }
+
+        any_pop = {
+            dominant_issue = {
+	            value = jingoism
+	            factor = 0.1
+             }
+
+        }
+		
+	}
+
+    option = {
+        name = "War is more danger than it is worth. Things are fine."
+        set_country_flag = protected_lands_debate
+        
+        any_pop = {
+            limit = {
+                pop_majority_ideology = reactionary
+            }
+            consciousness = -1
+        }
+
+        any_pop = {
+            limit = {
+                pop_majority_ideology = statist
+            }
+            consciousness = 2
+        }
+
+        any_pop = {
+            dominant_issue = {
+	            value = anti_military
+	            factor = 0.1
+             }
+
+        }
+
+    }
+
+
+}
+
+country_event = { 
+    id = 50418 
+    title = "EVTNAME50418"  #opening later.
+    desc = "EVTDESC50418"
+	#picture = "POU_rev"
+
+    trigger = {
+        tag = WAP
+        OR = {
+            1939 = {
+                owned_by = THIS
+            }
+            1913 = {
+                owned_by = THIS
+            }
+        }
+
+        NOT = {
+            1917 = {
+                has_province_modifier = protected_lands
+
+            }
+
+        }
+        
+    }
+
+
+    mean_time_to_happen = {
+        months = 1
+
+    }
+
+    option = {
+        name = "Excellent."
+        
+        1917 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+
+            }
+
+            1918 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+            }
+            1915 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+
+            }
+
+            1914 = {
+                add_province_modifier = {
+                    name = protected_lands
+                    duration = -1
+                }
+            }
+		
+	}
+
+
+
+}
+
+
 

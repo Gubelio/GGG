@@ -377,6 +377,9 @@ political_decisions = {
 			year = 1309
 			civilized = yes
 			NOT = { tag = POU }
+            NOT = {
+                has_country_flag = guest_worker_act
+            }
 		}
 		allow = {
 			state_n_government = 1

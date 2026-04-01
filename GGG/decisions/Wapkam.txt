@@ -1,0 +1,127 @@
+political_decisions = {
+
+	integration_of_strangers_act = {
+		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			tag = WAP
+            #year = 1310
+            NOT = {
+                has_country_flag = integration_of_strangers_act
+                has_country_flag = intergreation_pathway_begun
+            }
+            
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+			NOT = {
+                border_policy = closed_borders
+                citizens_rights = all_voting_pops
+            }
+            
+		}
+		
+		effect = {
+			political_reform = quota_immigration
+            set_country_flag = integration_of_strangers_act
+            set_country_flag = integration_pathway_begun
+		}
+	}
+
+    repeal_strangers_act = {
+		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			tag = WAP
+            has_country_flag = integration_of_strangers_act
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+            clr_country_flag = integration_of_strangers_act
+            any_pop = {
+                limit = {
+                    has_pop_culture = rashuum
+                    OR = {
+                        pop_majority_ideology = conservative
+                        pop_majority_ideology = reactionary
+                        pop_majority_ideology = theocratist
+                    }
+                }
+                militancy = 4
+                consciousness = 4
+            }
+		}
+	}
+
+
+    guest_worker_act = {
+		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			tag = WAP
+            has_country_flag = integration_of_strangers_act
+            OR = {
+                REG_345 = {
+                    owned_by = THIS
+                }
+                REG_346 = {
+                    owned_by = THIS
+                }
+            }
+            NOT = {
+                has_country_flag = guest_worker_act
+                has_country_flag = enacted_guest_workers
+            }
+            
+		}
+		
+		allow = {
+			state_n_government = 1
+            debt_law = serfdom
+		}
+		
+		effect = {
+            add_country_modifier = {
+                name = guest_workers
+                duration = -1
+            }
+            set_country_flag = ennected_guest_workers
+            set_country_flag = guest_workers_act
+       
+
+		}
+	}
+
+    repeal_guests_act = {
+		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		potential = {
+			tag = WAP
+            has_country_flag = guest_workers_act
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+            remove_country_modifier = guest_workers
+            clr_country_flag = guest_worker_act
+            any_pop = {
+                limit = {
+                    has_pop_culture = rashuum
+                    OR = {
+                        pop_majority_ideology = conservative
+                        pop_majority_ideology = reactionary
+                        pop_majority_ideology = theocratist
+                    }
+                }
+                militancy = 4
+                consciousness = 4
+            }
+		}
+	}
+
+}

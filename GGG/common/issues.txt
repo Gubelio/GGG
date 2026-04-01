@@ -245,6 +245,11 @@ political_reforms = {
         }
 		
         open_borders = {
+            allow = {
+                NOT = {
+                    has_country_flag = integration_of_strangers_act
+                }
+            }
 
         }
     }
@@ -946,6 +951,11 @@ social_reforms = {
         }
 
         peonage = {
+            allow = {
+                NOT = {
+                    has_country_flag = guest_worker_act
+                }
+            }
             education_efficiency_modifier = -0.03
             RGO_throughput  = 0.05
             global_immigrant_attract = -0.05

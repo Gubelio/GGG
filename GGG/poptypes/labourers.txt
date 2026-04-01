@@ -387,6 +387,23 @@ serfs = {
         }
 
         modifier = {
+            factor = 15
+            location = {
+                owner = {
+                    has_country_flag = guest_workers_act
+                }
+            }
+            is_accepted_culture = no
+            is_primary_culture = no
+            NOT = {
+                has_pop_culture = asyum
+                has_pop_culture = poumnian
+                has_pop_culture = jazhakdii
+            }
+
+        }
+
+        modifier = {
             factor = 5
             NOT = { life_needs = 0.2 }
         }
@@ -420,13 +437,15 @@ serfs = {
 		    factor = 2
             is_accepted_culture = no
 			state_scope = { is_colonial = yes }
-			country = {
+			location = { 
+                owner = {
 				colonial_policy = exploitation
 				OR = {
 					slavery = gradual_abolition
 					slavery = no_slavery
 				}
 				NOT = { debt_law = serfdom }
+                }
 			}
 		}
 		
