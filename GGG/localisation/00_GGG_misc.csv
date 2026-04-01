@@ -826,6 +826,42 @@ DIPLO_WE_SATELLITE;We are a tributary of theirs;;;;;;;;;;;;;x
 DIPLO_THEY_SATELLITE;They are a tributary of our nation;;;;;;;;;;;;;x
 uytophat;閍tophat;;;;;;;;;;;;;x
 craftsman_exploit_reenabled;Craftsmen Exploit Reenabled;;;;;;;;;;;;;x
+conquest_minuscule_dp;Minuscule Conquest;;;;;;;;;;;;;x
+conquest_minuscule_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_minuscule_dp_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_minuscule_dp_desc;Annex a single-state 即country劬 with less than 250,000 pops;;;;;;;;;;;;;x
+conquest_tiny_dp;Tiny Conquest;;;;;;;;;;;;;x
+conquest_tiny_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_tiny_dp_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_tiny_dp_desc;Annex a single-state 即country劬 with less than 550,000 pops;;;;;;;;;;;;;x
+conquest_low_dp;Lowly Conquest;;;;;;;;;;;;;x
+conquest_low_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low_dp_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low_dp_desc;Annex a single-state 即country劬 with less than 900,000 pops;;;;;;;;;;;;;x
+colonial_conquest_minuscule_dp;Establish Minuscule Protectorate;;;;;;;;;;;;;x
+colonial_conquest_minuscule_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_minuscule_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_minuscule_dp_desc;Annex a single-state 即uncivilized country劬 with less than 250,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_tiny_dp;Establish Tiny Protectorate;;;;;;;;;;;;;x
+colonial_conquest_tiny_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_tiny_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_tiny_dp_desc;Annex a single-state 即uncivilized country劬 with less than 550,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_low_dp;Establish Lowly Protectorate;;;;;;;;;;;;;x
+colonial_conquest_low_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_low_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_low_dp_desc;Annex a single-state 即uncivilized country劬 with less than 900,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+colonial_conquest_low_KF_dp;Establish Lowly Protectorate;;;;;;;;;;;;;x
+colonial_conquest_low_KF_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_low_KF_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_low_KF_dp_desc;Annex a single-state 即uncivilized country劬 with less than 900,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_dp;Establish Protectorate;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_dp_desc;Annex a single-state 即uncivilized country劬 by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_dp;Establish Protectorate;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_dp_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_dp_desc;Annex a single-state 即uncivilized country劬 by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
