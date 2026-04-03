@@ -17,10 +17,10 @@ life_needs = {
 #Total cash needed: 50.75 - Vanilla value: 49.25
 everyday_needs = {
     tea = 4.4
-    coal = 1.1
+    coal = 1.2
     liquor = 2.2
-    regular_clothes = 1.3
-    furniture = 1.2
+    regular_clothes = 1.7
+    furniture = 1.5
     coffee = 1.1
     tobacco = 1.1
     fertilizer = 0.7 #0
@@ -28,9 +28,9 @@ everyday_needs = {
 
 #Total cash needed: 136.78 - Vanilla value: 125.995
 luxury_needs = {
-    regular_clothes = 3.3
-    furniture = 3.3
-    paper = 1.1
+    regular_clothes = 3.8
+    furniture = 3.8
+    paper = 1.3
     telephones = 1.1
     automobiles = 0.6
     radio = 1.1
@@ -40,6 +40,20 @@ luxury_needs = {
 
 country_migration_target = {
     factor = 1
+
+    modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
+    }
 
 	modifier = {
 		is_vassal = yes
@@ -209,11 +223,11 @@ migration_target = {
         total_pops = 750000
     }
 
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
+    #modifier = {
+    #    factor = 0
+    #    is_overseas = yes
+    #    country = { border_policy = closed_borders }
+    #}
 	
 
     modifier = {

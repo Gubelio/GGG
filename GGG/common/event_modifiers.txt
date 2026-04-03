@@ -158,15 +158,15 @@ paknag_bandits = {
 
 closed_city_of_aincha = {
 	local_ruling_party_support = 0.2
-    immigrant_attract = -1
-    immigrant_push = -1
+    immigrant_attract = -10
+    immigrant_push = -10
 	icon = 7
 }
 
 protected_lands = {
 	local_ruling_party_support = 0.2
-    immigrant_attract = -1
-    immigrant_push = -1
+    immigrant_attract = -3
+    immigrant_push = -3
 	icon = 7
 }
 

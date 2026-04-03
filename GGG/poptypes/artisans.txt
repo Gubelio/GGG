@@ -37,6 +37,9 @@ everyday_needs = {
 #Total cash needed: 429.2 - Vanilla value: 383.4
 luxury_needs = {
     canned_food = 0.75
+    furniture = 2.2
+    regular_clothes = 1.1
+    paper = 2.1
     fruit = 1.1
     wool = 3.3
     opium = 1.1
@@ -59,6 +62,20 @@ country_migration_target = {
             has_pop_culture = dehuogi
         }
         has_country_flag = dehuogi_question
+    }
+
+    modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
     }
 
 	#modifier = {
@@ -215,11 +232,6 @@ migration_target = {
         total_pops = 750000
     }
 
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
 
     modifier = {
         factor = 0

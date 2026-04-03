@@ -19,7 +19,7 @@ everyday_needs = {
     tea = 4.4                #10.4
     coal = 1.1            #2.3
     liquor = 3        #11
-    regular_clothes = 3.3 #17.4
+    regular_clothes = 4.3 #17.4
     furniture = 3.3        #14.7
     coffee = 2.2            #2.1
     tobacco = 1.1            #1.1
@@ -40,6 +40,20 @@ luxury_needs = {
 
 country_migration_target = {
     factor = 1
+
+    modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
+    }
 	
 	modifier = {
 		is_vassal = yes
@@ -182,11 +196,7 @@ migration_target = {
         total_pops = 750000
     }
 
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
+
 
     modifier = {
         factor = 0

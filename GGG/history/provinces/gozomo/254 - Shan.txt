@@ -16,5 +16,20 @@ state_building = {
 	building = steel_factory
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
 railroad = 1
 

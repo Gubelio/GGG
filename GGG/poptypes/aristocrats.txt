@@ -32,8 +32,8 @@ everyday_needs = {
     luxury_furniture = 3.3
     wine = 11
     tobacco = 11
-    coffee = 5.5
-    tea = 5.5
+    coffee = 6
+    tea = 6
     radio = 3.3
     telephones = 3.3
     automobiles = 1.1
@@ -80,6 +80,20 @@ country_migration_target = {
 		is_vassal = yes
 		factor = 0
 	}
+
+    modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
+    }
 
     modifier = {
 		factor = 5
@@ -225,11 +239,11 @@ migration_target = {
         factor = 1.2
         total_pops = 750000
     }
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
+    #modifier = {
+    #    factor = 0
+    #    is_overseas = yes
+    #    country = { border_policy = closed_borders }
+    #}
     modifier = {
         factor = 1.2
         has_pop_culture = THIS

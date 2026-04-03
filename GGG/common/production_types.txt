@@ -646,11 +646,11 @@ lumber_mill = {
 fabric_factory = {
     template = factory_template
     input_goods = {
-        cotton = 18        # 36
+        cotton = 36        # 36
         dye = 2                # 24 total input+maint = 69.875
     }
     output_goods = fabric
-    value = 44            #79.2 - profit = 9.3
+    value = 79            #79.2 - profit = 9.3
     bonus = {
         trigger = { trade_goods_in_state = cotton }
         value = 0.125
@@ -805,7 +805,7 @@ RGO_template_mines = {
 cattle_ranch = {
     template = RGO_template_farmers
     output_goods = cattle
-    value = 1.2 #1.8
+    value = 1 #1.8
     farm = yes
 }
 
@@ -819,7 +819,7 @@ coal_mine = {
 coffee_plantation = {
     template = RGO_template_farmers
     output_goods = coffee
-    value = 1.5    #1.5
+    value = 1.3    #1.5
     farm = yes
 }
 
@@ -833,7 +833,7 @@ mollusc_whaling_operation = {
 cotton_plantation = {
     template = RGO_template_farmers
     output_goods = cotton
-    value = 1.1 #3
+    value = 0.8 #3
     farm = yes
 }
 
@@ -882,7 +882,7 @@ opium_plantation = {
 orchard = {
     template = RGO_template_farmers
     output_goods = fruit
-    value = 2.3 #2.8
+    value = 2 #2.8
     farm = yes
 }
 
@@ -910,7 +910,7 @@ rubber_lodge = {
 sheep_ranch = {
     template = RGO_template_farmers
     output_goods = wool
-    value = 4.3 #5
+    value = 4 #5
     farm = yes
 }
 
@@ -931,28 +931,28 @@ sulphur_mine = {
 tea_plantation = {
     template = RGO_template_farmers
     output_goods = tea
-    value = 1.5    #1.75
+    value = 1.2    #1.75
     farm = yes
 }
 
 timber_lodge = {
     template = RGO_template_labourers
     output_goods = timber
-    value = 4 #8
+    value = 3 #8
     farm = yes
 }
 
 tobacco_plantation = {
     template = RGO_template_farmers
     output_goods = tobacco
-    value = 2 #2.5
+    value = 1.4 #2.5
     farm = yes
 }
 
 tropical_wood_lodge = {
     template = RGO_template_labourers
     output_goods = tropical_wood
-    value = 2 #4
+    value = 1.9 #4
     farm = yes
 }
 

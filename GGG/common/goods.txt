@@ -37,7 +37,7 @@ military_goods = {
 
 raw_material_goods = {
     cotton = {
-        cost = 2.0
+        cost = 1.0
         color = { 255 255 255 }
     }
     dye = {
@@ -45,7 +45,7 @@ raw_material_goods = {
         color = { 69 0 182 }
     }
     wool = {
-        cost = 0.7
+        cost = 0.5
         color = { 234 195 158 }
     }
     silk = {
@@ -153,7 +153,7 @@ industrial_goods = {
         color = { 255 255 0 }
     }
     fabric = {
-        cost = 1.8
+        cost = 2.5
         color = { 186 50 40 }
     }
     lumber = {

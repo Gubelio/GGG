@@ -6,10 +6,11 @@ country_event = {
 
     trigger = {
 		has_global_flag = pudwou_overthrown
-
+        tag = WAP
         NOT = {
             government = pastoral_confederacy
             government = paternalistic_council
+            has_country_flag = wap_ref
         }
 
         
@@ -30,6 +31,7 @@ country_event = {
         }
 
         set_country_flag = open_wapkam
+        set_country_flag = wap_ref
         
         relation = {
 	        who = POU
@@ -45,6 +47,7 @@ country_event = {
         }
 
         set_country_flag = closed_wapkam
+        set_country_flag = wap_ref
 
         relation = {
 	        who = POU
@@ -141,6 +144,25 @@ country_event = {
                     months = 12
                 }
             }
+        }
+    
+        if = {
+            limit = {
+                THIS = {
+                    ai = yes
+
+                }
+    
+            }
+            THIS = {
+                war = {
+	                target = JUR
+	                attacker_goal = { casus_belli = swallow_me_whole }
+	                defender_goal = { casus_belli = status_quo }
+	                call_ally = yes
+                }
+            }
+
         }
 		    
 

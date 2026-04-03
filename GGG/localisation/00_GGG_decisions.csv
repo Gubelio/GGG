@@ -191,14 +191,14 @@ ai_cash_injections_title;AI Econ Helper;;;;;;;;;;;;;x
 ai_cash_injections_desc;This decision will give all AI countries a permanent large tax and administrative efficiency modifier. They will also receive a cash injection if their treasury ever dips below a certain amount. This is intended to make AI countries struggle less with their economies and encourage them to build more formidable armies and industry.;;;;;;;;;;;;;x
 reenable_craftsmen_exploit_title;Reenable Craftsmen Exploit;;;;;;;;;;;;;x
 reenable_craftsmen_exploit_desc;The craftsmen 'exploit' happens when non-accepted pops are automatically assimiliated to the primary culture due to the way that the Victoria II engine creates craftsmen pops. GGG has changed this by not allowing unnacepted pops to become craftsmen. There are a number of special rules that GGG adds to try to stop different species of hominid from converting to eachother. The craftsmen exploit would ruin these rules. However, the player may wish for it return, for economic or other reasons. This cannot be undone.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+integration_of_strangers_act_title;Pass Integration of Strangers Act;;;;;;;;;;;;;x
+integration_of_strangers_act_desc;x;;;;;;;;;;;;;x
+repeal_strangers_act_title;Repeal Restrictions on Xenotic Immigration;;;;;;;;;;;;;x
+repeal_strangers_act_desc;x;;;;;;;;;;;;;x
+guest_worker_act_title;Insitute Metical Restrictions;;;;;;;;;;;;;x
+guest_worker_act_desc;x;;;;;;;;;;;;;x
+repeal_guests_act_title;Abolish the Status of Metic;;;;;;;;;;;;;x
+repeal_guests_act_desc;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

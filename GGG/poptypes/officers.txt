@@ -86,6 +86,21 @@ luxury_needs = {
 country_migration_target = {
     factor = 1
 	
+
+    modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
+    }
+
 	modifier = {
 		is_vassal = yes
 		factor = 0
@@ -211,11 +226,7 @@ migration_target = {
         total_pops = 750000
     }
 
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
+
 
     modifier = {
         factor = 1.2

@@ -85,6 +85,20 @@ country_migration_target = {
 	}
 
     modifier = {
+        factor = 3
+        OR = {
+            AND = {
+                THIS = {
+                    is_culture_group = gashdzii
+                }
+                is_culture_group = colonial_gashdzii
+            }
+
+        }
+
+    }
+
+    modifier = {
         factor = 0
         border_policy = quota_immigration
         THIS = { NOT = { literacy = 0.6 } }
@@ -220,11 +234,7 @@ migration_target = {
         total_pops = 750000
     }
 
-    modifier = {
-        factor = 0
-        is_overseas = yes
-        country = { border_policy = closed_borders }
-    }
+
 
     modifier = {
         factor = 1.2
