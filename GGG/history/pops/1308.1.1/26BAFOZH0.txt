@@ -20043,25 +20043,25 @@ size = 355
 
 
 	farmers = {
-		culture = dhrasho
+		culture = padud
 		religion = dkatkang
 size = 5569
 	}
 
 	soldiers = {
-		culture = dhrasho
+		culture = padud
 		religion = dkatkang
 size = 61
 	}
 
 	artisans = {
-		culture = dhrasho
+		culture = padud
 		religion = dkatkang
 size = 428
 	}
 
 	clergymen = {
-		culture = dhrasho
+		culture = padud
 		religion = dkatkang
 size = 61
 	}
@@ -55421,37 +55421,37 @@ size = 53
 	}
 
 	thralls = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 84
 	}
 
 	serfs = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 21
 	}
 
 	slaves = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 212
 	}
 
 	farmers = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 1696
 	}
 
 	soldiers = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 84
 	}
 
 	artisans = {
-		culture = gajada
+		culture = gji
 		religion = pagan
 size = 21
 	}
