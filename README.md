@@ -8,3 +8,6 @@ Here are some of the mod’s features:
     Many familiar features from other mods, such as serfdom and treaty ports, recreated in a lore compatible way
     Comprehensive set of high quality GFX to replace nearly all reminders of the ‘human world’
     Multiplayer features such as grants, sanctions, and transfer cbs
+
+
+To setup from GitHub: extract the .zip in your /mod directory. Then copy the .mod file out of the GGG-workingreformbranch directory into your /mod directory.
