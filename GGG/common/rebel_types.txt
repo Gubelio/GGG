@@ -1318,12 +1318,9 @@ nationalist_rebels = {
 		modifier = {
             factor = 0
 			OR = {
-				location = { is_core = TTT }
-				AND = {
-					location = { is_core = WBC }
-					NOT = { location = { is_core = ZHN } }
-				}	
+				location = { is_core = TTT }	
 				location = { is_core = SBC }
+                location = { is_core = WBC }
 				location = { is_core = EBC }
 				location = { is_core = CBC }
 				location = { is_core = CSC }
