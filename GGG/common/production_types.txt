@@ -903,7 +903,7 @@ precious_goods_market = {
 rubber_lodge = {
     template = RGO_template_labourers
     output_goods = rubber
-    value = 0.45
+    value = 0.75
     farm = yes
 }
 
