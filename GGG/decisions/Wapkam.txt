@@ -1,7 +1,7 @@
 political_decisions = {
 
 	integration_of_strangers_act = {
-		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		picture = "the_burning_coast"
 		potential = {
 			tag = WAP
             year = 1310
@@ -59,7 +59,7 @@ political_decisions = {
 
 
     guest_worker_act = {
-		#picture = "ivan_shishkin_countess_mordvinovas_wood"
+		picture = "the_burning_coast"
 		potential = {
 			tag = WAP
             has_country_flag = integration_of_strangers_act

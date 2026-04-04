@@ -610,8 +610,8 @@ depression = {
 
 ai_econ_helper = {
 	icon = 9
-	tax_efficiency = 0.5
-	administrative_efficiency_modifier = 0.25
+	tax_efficiency = 0.25
+	administrative_efficiency_modifier = 0.12
 }
 
 gold_fever = {

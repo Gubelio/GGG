@@ -27,6 +27,20 @@ political_decisions = {
 				type = swallow_me_whole
 				months = 24
 			}
+
+            if = {
+                limit = {
+                    THIS = {
+                        ai = yes
+                    }
+
+                }
+                war = {
+	                target = HUP
+	                attacker_goal = { casus_belli = swallow_me_whole }
+	                call_ally = no
+                }
+            }
 		}
 	}
 
@@ -57,6 +71,19 @@ political_decisions = {
 				type = swallow_me_whole
 				months = 24
 			}
+            if = {
+                limit = {
+                    THIS = {
+                        ai = yes
+                    }
+
+                }
+                war = {
+	                target = NGJ
+	                attacker_goal = { casus_belli = swallow_me_whole }
+	                call_ally = no
+                }
+            }
 		}
 	}
 
