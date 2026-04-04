@@ -10,4 +10,4 @@ Here are some of the mod’s features:
     Multiplayer features such as grants, sanctions, and transfer cbs
 
 
-To setup from GitHub: extract the .zip in your /mod directory. Then copy the .mod file out of the GGG-workingreformbranch directory into your /mod directory.
+To setup from GitHub zip download: extract the .zip in your /mod directory. Then copy the .mod file out of the GGG-workingreformbranch directory into your /mod directory.
