@@ -247,6 +247,7 @@ country_event = {
 		tag = POU
 		NOT = {
 			government = theocracy
+            government = sublime_synod
 		}
 		NOT = {
 			has_global_flag = pudwou_overthrown

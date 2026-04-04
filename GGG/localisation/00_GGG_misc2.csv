@@ -1,0 +1,496 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+free_yoker_rebels_army;Freeman's Militia;;;;;;;;;;;;;x
+absolutist_rebels_army;Protocivil Commissariat;;;;;;;;;;;;;x
+theocratist_rebels_army;Freikorper Unit;;;;;;;;;;;;;x
+reactionary_rebels_army;Civil Guard;;;;;;;;;;;;;x
+free_yoker_rebels_title;Free Yoker;;;;;;;;;;;;;x
+theocratist_rebels_title;Theocratist;;;;;;;;;;;;;x
+absolutist_rebels_title;Absolutist;;;;;;;;;;;;;x
+theocratist;Theocratist;;;;;;;;;;;;;x
+barrel_factory;Two-Legger Factory;;;;;;;;;;;;;x
+barrel_factory_desc;This factory produces "Two-Leggers", the moveable artillery landship of the late fourteenth century. It depends upon automobiles, steel, machine parts, and artilery for the production of these war machines. From artillery pieces installed upon automobile chasis, sheet metal is sculpted around this, to protect the engine and cabintower, as well as gunnery hold.;;;;;;;;;;;;;x
+fabric_factory_desc;This factory turns the versatile spindleweed, a flaxen fiberous yeild of the seedpod of a certain plant, and various dyes, synthetic or natural pigments, into beautiful and pratical textiles. Automated looms, spindles, jennies, mules, press-vats, and other machines, powered by steam or combustion, and operated by wretched factory attendants, litter the shop floor. These textiles will be used for a number of things in the consumer and public sector.;;;;;;;;;;;;;x
+barrels;Two Leggers;;;;;;;;;;;;;x
+steel_factory;Steel Mill;;;;;;;;;;;;;x
+fabric_factory;Textile Mill;;;;;;;;;;;;;x
+steel_factory_desc;This factory complex is a steel mill, producing steel and iron products for private and public entities. It consists of large furnaces or crucibles for smelting pig iron, mills for rolling, casting pits as part of a foundry, as well as likely some specialised operations. Its workers work long hours in sweltering conditions, making the essential metalworks for consumer and military use.;;;;;;;;;;;;;x
+colonial_conquest_low_KF;Establish Lowly Protectorate;;;;;;;;;;;;;x
+colonial_conquest_low_KF_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+colonial_conquest_low_KF_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+colonial_conquest_low_KF_desc;Annex a single-state §Yuncivilized country§W with less than 400,000 pops by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF;Demand Capital;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_KF_desc;Aquire a primitive enemy's §Ycapital state§W;;;;;;;;;;;;;x
+international_sanctions;International Sanctions;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM;Demand Capital;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_short;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_setup;Acquire $STATE$;;;;;;;;;;;;;x
+take_colonial_concession_capital_EM_desc;Aquire a primitive enemy's §Ycapital state§W;;;;;;;;;;;;;x
+demand_concession_casus_belli_KF;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_KF_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_KF_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+demand_concession_casus_belli_EM;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_EM_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_EM_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+pruuntish_conquest;Pruuntish Integration;;;;;;;;;;;;;x
+NORMAL_WAR_PRUUNTISH_CONQUEST_NAME;$ORDER$Integration of $SECOND_COUNTRY$;;;;;;;;;;;;;x
+pruuntish_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_conquest_desc;Annex a Pruuntish §Ycountry§W to establish controll of the peninsula.;;;;;;;;;;;;;x
+swallow_me_whole;Establish Protectorate;;;;;;;;;;;;;x
+swallow_me_whole_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+swallow_me_whole_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+swallow_me_whole_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+social_conscience;Egatism;;;;;;;;;;;;;x
+social_conscience_desc;The liberationist impulse began to falter slowly after the achievement of the Worldly liberationist state after the shattering of the Athisard monarchy. Failing ultimately to deliver the promised paradise, the liberationist state quickly became a tyranny in its own right. Clumsy, violent, and despotic, the dictacts from the central government failed to perfectly reflect and paternally guide the popular will. Amid speculation on improvement and reform, parallel to the growth of the statist ideology, briefly flourished the thought of the truly impressive Soora Egat-so. This radical pamphleteer, preacher, militant, and philosopher took the Liberationist ideology to a radical extreme: rather than a divine polity guided by the gods, and sanctioned by the will of man, Egat called for the repudiation of all political authority beyond the treaty between two sovereign individuals. In a collection of pamphlets known as the “Mystic Secrets” series (1316-7), Egat builds a cosmology based on the willing soul and the certainty of a world beyond, from which he develops an admirable contractualist political philosophy. Egat was killed in the hills near Sesi by forces of the Sublime Veyethan government defending a radical commune who repudiated the government’s authority.;;;;;;;;;;;;;x
+collectivism;Syndicism;;;;;;;;;;;;;x
+collectivism_desc;The principles of liberationist philosophy and government emphasize the cooperative enterprise, particularly the maintenance of the commons and the streets. Everyone had a responsibility to scare the birds, to cobble the streets, and small guilds and assemblies were usually used to maintain these institutions, rather than give way to the relentless pressure of industrial expansion. In the years of liberationist experimentation, there was the practical result of the arrival of a number of cooperativist dogmatists, who preached cooperativism as a basic political given and good, whether in the fields, the factory, the government, or the army. The views, ideas and actions of these syndics, guildists, cooperativsts are most exemplified in Rajug Duttûnnony’s “Study of the Organisation of Manufactuaries in the Southern Empire” (1320). The syndicate would become a critical institution in Absolutist theory of government.;;;;;;;;;;;;;x
+social_justice;Antidevelopmentalism;;;;;;;;;;;;;x
+social_justice_desc;A very popular political cause and much dogmatised position in the early fourteenth century was that of the Antidevelopmentalist. Hating the advent of the machines that came to remark the world and the countryside, that drove down wages, created great slums, and made the cruel burgher even richer, many of various political and social inclinations came to be sure of the need to chain the wheels of industry. In a popular melody, the “Bahdro Blower’s Lament”, the narrator tells of the tragic lives of the Bahdro glass blowers, who used to make much of the loamy, sandy soil and the need for the bottling of the Magoupt oils, but now cannot find a job due to glass produced in the furnaces of Rodhrot.;;;;;;;;;;;;;x
+populism_vs._establishment;Modern Disciplinary Methods;;;;;;;;;;;;;x
+populism_vs._establishment_desc;Born out of dint of necessity in managing a modern industrial civilisation and Statist speculation, the 1320s and 30s were filled with innovations for the management of people and societies, as well as innovations in the way states managed themselves. Particularly, in the school of disciplinary thought, traditional floggings, whippings, oubliettes, and hangings moved to a broader system of indefinite detentions, implicit blackmail, disappearances, and conspicuous yet sparse violence. An outgrowth of the authoritarian impulse, much of the innovation in this field came in the rationalization of these methods, and the application of them not only to the troublesome populace, but also the appendages of the state itself. The practical system of disciplinary reform by inspector Drid Tzau-Thruunt was highly influential. In his tenure of office as the Mreuvayk prefecture district inspector, 1324-9, he developed a broadly systematic approach to internal discipline the gendarmerie that prioritized an integrated system of incentives, cultivated collective identity, and humiliating punishments that bound officers to the state, and allowed for the easy social exclusion and then removal of troublesome men.;;;;;;;;;;;;;x
+clericalism_vs._anticlericalism;Toleration and Suppression;;;;;;;;;;;;;x
+clericalism_vs._anticlericalism_desc;The staggering pluralism of the modern world emerged as a challenge for the modern government. Atheists, secularists, sectarian zealots, mystics, practitioners of foreign cults, and the great masses of heathen believers in the imperialised periphery presented a great babble of disagreement, and were easily stirred to conflict and hatred of one government or the other. A rationalized system of approved cults and faiths, and the vigorous suppression of those deemed socially unhygienic, based explicitly on expectation of social coherency and public order, broadly emerged as the states of Ishahfazh grappled both with unorthodox at home and heathen subjects in the colonies. In the early stations and factories established by the Gaubjan government in the Juuruntine territories, we learn directly of the various permits and writs needed for traditional J’ur meeting places to be maintained, and there a few interesting records of the various considerations Gaubjan bureaucrats enquired and worried about during these hearings.;;;;;;;;;;;;;x
+jazhakdii;Jazhakdii;;;;;;;;;;;;;x
+plantations;Plantations;;;;;;;;;;;;;x
+new_world_plantations_title;Plantations in the Great East;;;;;;;;;;;;;x
+new_world_plantations_desc;The vast continents to the east are largely underpopulated and undercultivated. Agriculture, if done at all, is clumsy, ad-hoc, and on very small scales. A unique oppertunity is presented to our colonial government to appartition great swathes of land to planters and settlers to encourage the development of large plantations that could hopefully produce crops more efficiently than farms and estates in the metropole.;;;;;;;;;;;;;x
+paknag_bandits;Banditry;;;;;;;;;;;;;x
+ended_bandits;Banditry Suppressed;;;;;;;;;;;;;x
+precious_goods;Trade Goods;;;;;;;;;;;;;x
+treaty_port;Treaty Port;;;;;;;;;;;;;x
+factory_port;Factory Port;;;;;;;;;;;;;x
+treaty_port_casus_belli;Punitive Expedition;;;;;;;;;;;;;x
+treaty_port_casus_belli_short;Compensiation from $RECIPIENT$;;;;;;;;;;;;;x
+treaty_port_casus_belli_setup;Demand reparations and port concessions from $RECIPIENT$.;;;;;;;;;;;;;x
+treaty_port_casus_belli_desc;Seize a treaty port from a large and prosperous §Yuncivilized country§W, as well as extract reparations from them.;;;;;;;;;;;;;x
+PUNITIVE_EXPEDITION_WAR_NAME;Punitive Expedition;;;;;;;;;;;;;x
+negotiating_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
+negotiating_unequal_treaty;Negotiating Unequal Treaty;;;;;;;;;;;;;x
+thriving_trade;Thriving Trade;;;;;;;;;;;;;x
+yoker_agitation;Free-Yoker Agitation;;;;;;;;;;;;;x
+regional_revolt;Regional Revolt;;;;;;;;;;;;;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Partially Modernized Nation;;;;;;;;;;;;;x
+UNCIV_CANT_RESEARCH;Modernize to be able to research;;;;;;;;;;;;;x
+MILITARY_REFORM_COST_DESC;Cost modifier for political reforms:;;;;;;;;;;;;;x
+SET_MILITARY_REFORM_EFFECT;Political reform selected: §Y$NAME$§W.\n;;;;;;;;;;;;;x
+NO_CIV_PROGRESS;We have made no progress towards modernization. We need to enact political or economic reforms;;;;;;;;;;;;;x
+MODIFIER_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
+MODIFIER_SELF_UNCIV_MILITARY;Political reform cost;;;;;;;;;;;;;x
+CIVILIZE_NO_MASTER_DESC;Fully embrace modern ideas. This will gives us access to the technological advances from around the world;;;;;;;;;;;;;x
+CIVILIZE_DESC;Fully embrace modern ideas. This will give us access to the technological advances of our sphere leader;;;;;;;;;;;;;x
+demand_concession_casus_belli_event;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_event_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_event_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_event_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+closed_drupe;Closed Drupe;;;;;;;;;;;;;x
+open_drupe;Open Drupe;;;;;;;;;;;;;x
+right_to_the_familiar;Right To The Familiar;;;;;;;;;;;;;x
+NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$ Punitive Expedition to $SECOND_COUNTRY$;;;;;;;;;;;;;x
+national_confusion_desc;This country has been thrown into national confusion!;;;;;;;;;;;;;x
+political_outrage_desc;This country is expiriencing widespread political outrage.;;;;;;;;;;;;;x
+international_sanctions_desc;There are currently international sanctions upon this country.;;;;;;;;;;;;;x
+yoker_agitation_desc;This country is undergoing free-yoker agitaiton.;;;;;;;;;;;;;x
+negotiating_unequal_treaty_desc;This country is currently negotating a treaty concession.;;;;;;;;;;;;;x
+negotiating_treaty_desc;This country is currently negotating a treaty concession.;;;;;;;;;;;;;x
+developing_economy_desc;This economy is beginning to see the features of an industrial society.;;;;;;;;;;;;;x
+industrialising_economy_desc;This economy is rapidly industrialising!;;;;;;;;;;;;;x
+industrial_economy_desc;This country meets much of Talcott Parsons' criteria for an industrial society.;;;;;;;;;;;;;x
+right_to_the_familiar_desc;This Tehuhrite Country respects the doctrine of the Right to the Familiar.;;;;;;;;;;;;;x
+industrialising_economy;Industrialising Economy;;;;;;;;;;;;;x
+industrial_economy;Industrial Economy;;;;;;;;;;;;;x
+developing_economy;Developing Economy;;;;;;;;;;;;;x
+January;Midwinter;;;;;;;;;;;;;x
+February;Winter's End;;;;;;;;;;;;;x
+March;Springtime;;;;;;;;;;;;;x
+April;Drytime;;;;;;;;;;;;;x
+May;Sweltertime;;;;;;;;;;;;;x
+June;Midyear;;;;;;;;;;;;;x
+July;First Rain;;;;;;;;;;;;;x
+August;High Monsoon;;;;;;;;;;;;;x
+September;Late Monsoon;;;;;;;;;;;;;x
+October;Harvesttime;;;;;;;;;;;;;x
+November;Winnowtime;;;;;;;;;;;;;x
+December;Early Winter;;;;;;;;;;;;;x
+demand_concession_casus_belli_1342;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;
+demand_concession_casus_belli_1342_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;Obligez un §Ypays non civilisé§W ?faire sécession d'un territoire pour former une concession coloniale.;Zwingen Sie ein §Yunzivilisiertes Land§W, Gebiete zur Gründung einer Kolonie abzuspalten.;;Obliga a un §Ypaís incivilizado§W a escindir territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_1342_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;Demandez ?ce que $RECIPIENT$ fasse sécession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Gründung einer Kolonie abspaltet.;;Exigir que $RECIPIENT$ escinda territorio para formar una concesión colonial.;;;;;;;;;x;;
+demand_concession_casus_belli_1342_short;Demand $STATE$;Demande $STATE$;Fordern Sie $STATE$;;Exigir $STATE$;;;;;;;;;x;;
+establish_protectorate_casus_belli_1342;Establish Protectorate;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;;;;;;;;;;;;;x
+establish_protectorate_casus_belli_1342_desc;Annex a single-state §Yuncivilized country§W by forcing them to become a protectorate of ours.;;;;;;;;;;;;;x
+locust_plague;Locust Devastation;;;;;;;;;;;;;x
+locust_threat;Locust Threat;;;;;;;;;;;;;x
+if;If the following is true;;;;;;;;;;;;;x
+TRIGMOD_HEADER;The cabinet reports that;;;;;;;;;;;;;x
+TRIGMODLOST_HEADER;The cabinet reports that;;;;;;;;;;;;;x
+brownnoser;Lackey;L?he-cul;Stiefellecker;;Obsequioso;;;;;;;;;x;;;;
+for2;For any;;;;;;;;;;;;;x
+if2;§GIf we have the knowledge§!;x
+if3;§RIf we do not have the knowledge§!;x
+for15;For any;;;;;;;;;;;;;x
+bondsman_rebels_name;Bondsman Rebels;;;;;;;;;;;;;x
+bondsman_rebels_desc;Bondsman rebels are a rag-tag collection of the various wretched bonded folk - the slaves, thralls, serfs, prisoners, hereditary servants, who have come together to seek their collective liberty, and establish a free state.;;;;;;;;;;;;;x
+bondsman_rebels_title;Bondsman;;;;;;;;;;;;;x
+bondsman_rebels_army;Liberated Brigade;;;;;;;;;;;;;x
+HAS_GOODS;has goods;;;;;;;;;;;;;x
+FE_BASIC;The Setting (1);x
+FE_MEDIUM;The Setting (2);x
+FE_ADVANCED;Major Nations;x
+FE_SETTING_BODY_1;Gozomedes' Great Game (GGG) is a Victoria II mod set in a fictional world populated by alternate hominids, largely based on the Australopithecus. The world of GGG (the Miiv) lies on a planetary sphere that is roughly the same size as earth, and spins also with a tilted axis. It is dominated by three major continents: Ishahfazh, Kovazh, and Bafozh, which are accompanied by three sub-continental shelves: Paukzhodo, Shobgizob, and Gofakidzia. The world itself is a watery world, dominated by vast and deep oceans, and the major continents lie close together, lining the few easily navigable seas. Beyond this area of calm, the vast oceanic geography cultivates the development of massive, nigh continuous storms, especially in the vast empty ocean of the north of the planet.\nThe concurrent presence of multiple intelligent and significantly genetically different species has led to a number of notable differences between the world of GGG and our own. Above all, the world lacks any sort of enlightenment universalism, and people persist in a number of practices that would seem savage in our own world, above all the keeping of other hominids as ‘thralls’ or cattle-slaves for eating and working. Beyond this, transcultural hostility remains higher, the world is largely more violent, and diplomatic practices bereft of any notions of international law, balances of power, common heritage, etc. There are a variety of notable species: Ishahfazh is mainly populated by the stout and hairy folk who make up most of the large empires (Gashdzii, Poumnian, Sithevan), but the Byotrin (Ghech, Anuvo, Shagmodt) people are tall, hairless, flat faced, white skinned giants living the central regions, and the Oujoy and Unnahu are large eyed and thin. The peoples of the east and centre of Kovazh (the Qooxib, Ourrhond) are decidedly smaller, and have features more similar to those of the capuchin or macaque monkeys of our world. In the wilds of Bafozh one finds strange beast men, hominidae with blue faces, and all sorts in between.;x
+FE_SETTING_BODY_2;In southern Ishahfazh has risen a dynamic, now industrial collection of civilisations, the foremost among these being the Old Gashdzii Empire and its successor states, the ancient theocratic Poumnian Empire, and the fractious Sithevan peoples of the west around the state of Athis or Veyethu. It is worth surveying the history of these civilisations. Poumnia, through its various dynasties and dynastic cycles, is ruled by the eternal Pudwou, the supposed God-Emperor and his noble retainers and governors. It has remained for the past millennia a relatively cohesive state. It lies in the Poudwouvas river delta ecosystem in the southern lands of Ishahfazh, notable for growing the euphoria inducing Pruub flower and the rivergrain that has fed the Poumnian civilization. Most of the people of Poumnia live on the rivers, cultivating grain and living in mud or stilt houses. The Poumnian civilisation is part of a larger continuum of the Diwvish languages and peoples, who also include the seafaring rugged Pruunts of the southern peninsula, and the jungle dwelling Roshupt and Towuzhians, most of whom remain nominal or actual vassals of the Poumnian empire to this day. Out of wars and political conflicts in Poumnian antiquity, which was fraught with many warring noble houses all claiming some degree of divinity or divine tutelage emerged the Vopudwou, or the Pudwou, the divine emperor, who subdued and pacified other nobles, extending his divine grace to these ‘lesser deities’. The Poumnian state developed a proud military, and a highly authoritarian, stratified tradition of governance, for many years maintaining a powerful grasp on its own lands and its environs.;x
+FE_SETTING_BODY_3;The Gashdzii empire emerged around 1200 years ago, out of a small number of plateau dwelling folk in the central savannah of Ishahfazh. At this time much of the Savannah was inhabited by the ancestors of the Byotrin, peoples speaking relatives of Proto-Gashdziik, and peoples speaking now-dead languages perhaps related to the Pagyuti of the southern peninsula. The massive Gashdzii empire, founded by Godhiinimiz I (r. 102-149 i.r.) became a force for the settlement, colonisation, and assimilation of massive swathes of central Ishahfazh, only running up against the might of the Poumnians in the south, and inhospitable deserts and dense jungles in the north and east respectively. The majority of the Gashdzii practice Kadkohi, the idolatrous faith lauding the four high spirits that rule the world. For nearly 800 years the empire centred around Pashdzii, the Imperial city, remained powerful and influential, until a number of political and economic circumstances precipitated the slow disentanglement of the empire. The imperial successor states continued to pay lip service to the empire, but began engaging increasingly in their own endeavours. Particularly on the southern coasts, the Jiishanagi and the Gaubjans, along with a reinvigorated Poumnia, engaged in the exploration and exploitation of the southern and eastern continents, settling, colonising, warring and trading, eventually shifting the apex of the world market to the circle sea on which lies Nozho of Jiishanag and the many ports of the Poumnians.;x
+FE_SETTING_BODY_4;A gradual concentration of markets and wealth facilitated increasing scientific and engineering knowledge as merchants scrambled to create weaponry and textiles to export to the hinter and hither continents. Burgeoning populations, more powerful weaponry, and more taxes as a result of flourishing trade and industry facilitated the creation of more centralised states. Gradually, an industrial and modern society was emerging on the southern shores of the circle sea. Meanwhile, the old lands of the Gashdzii empire experienced dramatic political and religious changes. The old iron grip of the deity-focused synods was challenged by the anti-magisterial movement, which challenged clerical authority. The preachings of Kauzhut ‘Mifachâzhafta’ ‘the great diviner’, and Kauzhut ‘Donavvat’ ‘the describer’ founded the jurico-ethical heretical Motkhonic faith which spread across the south. The anti-magisterial movement precipitated a large-scale series of uprisings and instability, crystallizing into the ‘liberationist’ movement which came to challenge not only clerical but also aristocratic power. As we come to the modern age, the ancient Sithevan monarchy of the house of Athis was shattered by the revolutionary liberationist movement of the Sublime Veyethu, now the foremost revolutionary state. The Poumnians must grapple with consolidating regional power in a changing world, and the various Gashdzii look to reconstruct the old empire or develop new and modern political configurations. In the far reaches of the north, the Sedentarian, or Tehuhrite monarchies, always lagging a bit behind the south, must be gradually awakening and modernising.\n\nAt game start, the international political sphere remains dynamic and unstable: lands are opening up for colonization, political leaders seek to restore fallen empires, and ancient kingdoms seek to keep a stranglehold on power. ;x
+FE_TUTORIAL;GGG Lore;x
+FE_JII;Jiishanâg;x
+FE_POU;Poumnia;x
+FE_VOK;Vokonazh;x
+FE_VUG;Sublime Veyethu;x
+FE_VAF;Vâfaut;x
+FE_GAU;Gaubja;x
+FE_RAN;Rannu Empire;x
+FE_BOG;Bogorug;x
+FE_MAM;Mamatoukat;x
+trade_policy;Foreign Trade;;;;;;;;;;;;;x
+protectionism;Discouraged;;;;;;;;;;;;;x
+protectionism_desc;The government has erected a number of barriers and notable exclusions to foreign commerce.;;;;;;;;;;;;;x
+free_trade;Tolerated;;;;;;;;;;;;;x
+free_trade_desc;Foreign traders and capitalist are largely suffered here in their projects and trades.;;;;;;;;;;;;;x
+economic_policy;Industrial Policy;;;;;;;;;;;;;x
+laissez_faire;Agrarianism;;;;;;;;;;;;;x
+laissez_faire_desc;The government attempts to forbid the development or expansion of industrial enterprise;;;;;;;;;;;;;x
+FE_JIISHANAG;Jiishanâg is a large aristocratic commonwealth on the southern coast of Ishahfazh. They are motkohnic in faith, and one of the foremost industrial powers. They have a number of outlying colonial possessions and may form The Great Nag.;x
+FE_POUMNIA;Poumnia is the great dynastic theocratic empire that lies on the southern deltas of Ishahfazh. They are a highly unequal society, with massive numbers of bonded people, and while backwards, they excel in arms. They have a number of focused expansion routes.;x
+FE_VOKONAZH;Vokonazh, a large nation lying in the east of Ishahfazh, is the seat of Great Lord Gozomedes. It has a strong army and is in a position to unite the now shattered Kiidnazh, the old Gashdzii Empire.;x
+FE_VEYETHU;Sublime Veyethu is the liberationist rump state that lies on the west of Ishahfazh, lying in the center of the old Athisard lands. These revolutionaries seek to export the liberationist rebellion to their hostile neighbours.;x
+FE_VAFAUT;Vâfaut is a large plantation society on the mountain range diving the Poumnian lands from the old Gashdzii empire. They are in a position to form a defensive compact of the west Gashdzii people.;x
+FE_GAUBJA;Gaubja is an industrialised kingdom lying on the temperate eastern shores of Ishahfazh. They have a number of colonial territories, a noble army, and are in a position to form The Great Nag.;x
+FE_RANNU;Rannu Empire is the rambling, lethargic Unnahu empire of the north. With many subject peoples, they face a decisive moment in consolidating their empire, or succumbing to rebellion and partition.;x
+FE_BOGORUG;Bogorug is an aristocratic commonwealth in the north of Ishahfazh. The embattled ruling minority of Bogoran nomad-descended conquerers rules with tenuous grasp over the Oujoy peasantry, leaning on Rannu support.;x
+FE_MAMATOUKAT;Mamatoukat is a powerful Oujoy kingdom in the northwest of Ishahfazh. They are seen as the natural protectors of the sedentarian faith, and have a number of expension routes to establish regional influence.;x
+jingoism;Expansionism;;;;;;;;;;;;;x
+WORLD_YEAR;Miiv: $YEAR$ I.R.;x
+Friday;Festday;x
+Monday;Week's Dawn;x
+Saturday;Prayerday;x
+Sunday;Week's Dusk;x
+Thursday;Feasting Day;x
+Tuesday;Fasting Day;x
+Wednesday;Midweek;x
+encylopedia_updated;§GYour Encylopedia has been updated!§!§b;;;;;;;;;;;;;x
+kusii_info;§GKusii pops will now be more likely to convert!§! \n;;;;;;;;;;;;;x
+gashdzii;Gashdzii;;;;;;;;;;;;;x
+colonial_gashdzii;Colonial Gashdzii;;;;;;;;;;;;;x
+byotrish;Byotrish;;;;;;;;;;;;;x
+vuyti;Vuyti;;;;;;;;;;;;;x
+imperial_restit;Imperial Restitution;;;;;;;;;;;;;x
+imperial_restit_short;$THIRD$ acquires $STATE$ and punish $RECIPIENT$;;;;;;;;;;;;;x
+imperial_restit_setup;Restore Imperial government in $STATE$ and chastize $RECIPIENT$;;;;;;;;;;;;;x
+imperial_restit_desc;Restore Imperial Government to §YPashdzii§W and punish its occupiers;;;;;;;;;;;;;;x
+imperial_malcontents;Imperial Malcontents;;;;;;;;;;;;;x
+imperial_malcontents_desc;The old Imperial elite in Pashdzii are slow to adjust to the new 'illigitimate' government.;;;;;;;;;;;;;x
+gashdzii_resistance;Gashdzii Resistance;;;;;;;;;;;;;x
+gashdzii_resistance;The Gashdzii are not quick to let their imperial capital fall to the hands of foriegners!;;;;;;;;;;;;;x
+null_warning;§RIf there is a player on Veyethu/Vugioroo, this has no effect!§!§b;;;;;;;;;;;;;x
+an_refugee;Anuvo Refugees;;;;;;;;;;;;;x
+an_deported;Anuvos Deported;;;;;;;;;;;;;x
+an_violence;Anuvos Attacked;;;;;;;;;;;;;x
+backwards_customs;Backwards Customs;;;;;;;;;;;;;x
+backwards_customs_desc;The Poumnian state chose to keep internal customs. Unlike their more progressive neighbours, they stand out for their curious tax regime.;;;;;;;;;;;;;x
+gap_toothing_resolved;Gap Toothing Resolved;;;;;;;;;;;;;x
+gap_toothing_resolved_desc;The struggle over the gap toothing debate as strengthened the grip of the central government on the land.;;;;;;;;;;;;;x
+exploitation_l;Exploitation;;;;;;;;;;;;;x
+movement_exploitation;Campaign for the Enslavement of the Foreign Man;;;;;;;;;;;;;x
+four_year_draft_l;Four Year Draft;;;;;;;;;;;;;x
+movement_mandatory_conscription;Pro-Conscription Movement;;;;;;;;;;;;;x
+movement_four_year_draft;Anti-Conscription Movement;;;;;;;;;;;;;x
+movement_two_year_draft;Anti-Conscription Movement;;;;;;;;;;;;;x
+movement_one_year_draft;Anti-Conscription Movement;;;;;;;;;;;;;x
+two_year_draft_l;Two Year Draft;;;;;;;;;;;;;x
+one_year_draft_l;One Year Draft;;;;;;;;;;;;;x
+self_rule_l;Self Rule;;;;;;;;;;;;;x
+movement_self_rule;Campaign for Aboriginal Autonomy;;;;;;;;;;;;;x
+settlement_l;Settlement;;;;;;;;;;;;;x
+movement_settlement;Colonial Cleruchies Movement;;;;;;;;;;;;;x
+statist_strike;Statist Obstruction;;;;;;;;;;;;;x
+smallholder_society;Smallholder Society;;;;;;;;;;;;;x
+smallholder_society_desc;This is a society of smallholders - moderately sized farms owned by largely by families, not firms or capitalists.;;;;;;;;;;;;;x
+smallholder_society_1;Smallholder Society;;;;;;;;;;;;;x
+smallholder_society_1_desc;This is a society of smallholders - moderately sized farms owned by largely by families, not firms or capitalists.;;;;;;;;;;;;;x
+smallholder_society_2;Smallholder Society;;;;;;;;;;;;;x
+smallholder_society_2_desc;This is a society of smallholders - moderately sized farms owned by largely by families, not firms or capitalists.;;;;;;;;;;;;;x
+mot_accessory;§R The Resolution of the Conference was§!§Y;;;;;;;;;;;;;x
+mot_result;Unsettled;;;;;;;;;;;;;x
+loc_reset;\n §!;;;;;;;;;;;;;x
+mot_if;If the resolution was §YRetributivist§!;;;;;;;;;;;;;x
+mot_if_no;If the resolution was §YIndividualist§!;;;;;;;;;;;;;x
+mot_info_ret;We will support the §YRetributivists§!;;;;;;;;;;;;;x
+mot_info_in;We will support the §YIndividualists§!;;;;;;;;;;;;;x
+retributivist_settlement;Retributivist School;;;;;;;;;;;;;x
+retributivist_settlement_desc;This Motkohnic state folows the retributivist judicial school, taking extreme responsibility for its citizens moral lives. It encourages both social initiatives to reduce crime, as well as engages in methods of extreme torture for notable criminals, forgoing altogether the death penalty for decades of torture.;;;;;;;;;;;;;x
+individualist_settlement;Individualist School;;;;;;;;;;;;;x
+individualist_settlement_desc;This Motkhonic state follows the individualist judicial school, giving its citizens broad lattitude in moral responsibility, and only imprisoning and executing criminals for the sake of community stability. Justice is seen as the profound responsibility of the thinking, conscious subject, whose moral obligations arise from this. Communal confession is encouraged, and institutions preach social awareness and empathy.;;;;;;;;;;;;;x
+global;Global;;;;;;;;;;;;;x
+obstructive_landowners;Obstructive Landowners;;;;;;;;;;;;;x
+white_flux;White Flux Outbreak;;;;;;;;;;;;;x
+red_flux;Red Flux Outbreak;;;;;;;;;;;;;x
+wasting_sickness;Wasting Sickness Outbreak;;;;;;;;;;;;;x
+blinding_cough;Blinding Cough Outbreak;;;;;;;;;;;;;x
+pot_belly_pox;Pot-Belly Pox Outbreak;;;;;;;;;;;;;x
+cudfeeders_flu;Cudfeeder's Flu Outbreak;;;;;;;;;;;;;x
+industry_curtailed;Industry Curtailed;;;;;;;;;;;;;x
+LOADING_MAP_SPRITES;Cultivating Phylogenetic Differences...;x
+LOADING_GUI_DEF;Developing Simple Tools...;x
+LOADING_DATABASES;Imagining Frightening Creatures...;x
+LOADING_DATABASES2;Constructing Languages...;x
+INIT_MAP_LOGIC;Charting Landscapes...;x
+CREATING_CHKSUM;Fattening Thralls... ;x
+LOADING_HISTORY;Cataloguing Possible Timelines... ;x
+LOADING_SOUNDS;Planting Pruub...;x
+PROC_FLAGS;Locating the Vewug...;x
+EXECUTING_HISTORY;Generating False Past....;x
+LOAD_FLAGS;Fostering Mercantile Networks...;;x
+LOAD_GFX;Determining Synthetic Present...;x
+CREATING_THE_WORLD;Isolating Necessary Beings...;x
+CREATING_TREES;Imagining Frightening Creatures...;x
+CREATING_BORDERS;Developing Methods of Control...;x
+CREATING_RIVERS;Singing a beautiful song...;x
+MAP_PROPERLY_INIT;Crowning Gozomedes...;x
+CREATING_PROVINCE;Creating Hominid Type #;x
+CREATING_TEXTS;Silencing Dissenting Voices...;x
+LOAD_EVENTS;Identifying Contigent Phenomena...;x
+ADAPTING_HISTORY;Growing Beautiful Fur...;x
+CALC_PATHS;Arranging Trans-World-Techno-Causal Laws;x
+prince;Prince of the Blood;;;;;;;;;;;;;x
+ruins_drupe;Ruins of the Drupe;;;;;;;;;;;;;x
+YOU_LOST;§RBitter Defeat;x
+YOU_WON;§GVictory;x
+zealous_fervor;Zealous Fervor;;;;;;;;;;;;;x
+zealous_fervor_desc;This nation is amidst a large debate about the relationship between the state and church, igniting religious passions and sectarianism.;;;;;;;;;;;;;x
+minor_outrage_province;Provincial Malcontents;;;;;;;;;;;;;x
+major_outrage_province;Provincial Unrest;;;;;;;;;;;;;x
+quaratine;Province Quarantined;;;;;;;;;;;;;x
+appointed_l;The Municipal Rates;x
+appointed;Municipal Rates Reform;x
+ran_bog_info;§RSerfdom Status in Rannu Empire§!;;;;;;;;;;;;;x
+ran_serf_status;Legal;;;;;;;;;;;;;x
+seat_of_the_dehuogi_clan;Seat of the Dehuogi Clan \n\n§WThis is the seat of the Dehuogi clan, the tribal census that governs all Dehuogi in the Bogoran Clan-Parliamentary System, as well as represents them in the Assembly of the Old Clans. It is the newest clan, and was invited in the last century. The Dehuogi Marchlanders are famous for their loyalty to the Bogoran state, and from their fortresses maintain a zealous watch over the coast of Yamajoury.;;;;;;;;;;;;;x
+RULE_DHONT;Pazzak's Method;x
+centralised;Centralised;x
+centralised_l;Centralised;x
+centralised_desc;This state is centralised, and passing any further reforms here will reset that!;x
+states_system;States System;x
+states_system_l;States System;x
+states_system_desc;This state is organised along the lines of a system of federated states, with develolved responsibility.;x
+vocational_candidacy;Vocational Constituency;x
+vocational_candidacy_l;Vocational Constituency;x
+vocational_candidacy_desc;This state is broadly corporatist, with major chartered organisations, occupational guilds, industiral firms, and numerous other bodies having the power to elect or appoint representatives in a byzantine network of rights and privlieges.;x
+federalisation;Decentralisation;;;;;;;;;;;;;x
+upper_house_composition;Minor Issues;;;;;;;;;;;;;x
+population_equal_weight;National Ramient;;;;;;;;;;;;;x
+population_equal_weight_l;National Ramient;;;;;;;;;;;;;x
+state_equal_weight;Anti-Witch Legislation;;;;;;;;;;;;;x
+state_equal_weight_l;Anti-Witch Legislation;;;;;;;;;;;;;x
+movement_state_equal_weight;Anti-Witchcraft Campaign;;;;;;;;;;;;;x
+movement_population_equal_weight;Traditional Dress Movement;;;;;;;;;;;;;x
+POP_DAILY_EVENT;Windfalls: §Y$VAL$§W¤;;;;;;;;;;;;;;x
+cordon_sanitaire_province;Cordon Sanitaire;;;;;;;;;;;;;x
+had_pandemic;Had Pandemic;;;;;;;;;;;;;x
+had_pandemic_desc;This province has a degree of disease resitance.;;;;;;;;;;;;;x
+ballsy;Temerarious;;;;;;;;;;;;;x
+vewugist_conversion;Vewugist Conversion;x
+vewugist_conversion_desc;This country has recently converted to Vewugism and is enjoying increased links with the developed world on account of this.;x
+mollusc_oil;Mollusc Oil;;;;;;;;;;;;;x
+oil;Petroleum;;;;;;;;;;;;;x
+jelly_factory;Synthetic Jelly Factory;;;;;;;;;;;;;x
+jelly_factory_desc;This factory uses petroluems to produce jelly lubricants, reducing dependence on natural oils and jellies from the great molluscs of the sea.;;;;;;;;;;;;;x
+synthetic_lubricants;Synthetic Lubricants;;;;;;;;;;;;;x
+synthetic_lubricants_desc;For centuries the people of the Miiv have hunted the great oceanic Molluscs for their gellatinous bodies to use as lubricants, for everything from weaponry to oil lanterns, to grease machines, and to tar ships. Now, however, in the 14th century, the development of organic chemistry has allowed for the production of synthetic jelly.;;;;;;;;;;;;;x
+chazd_molluscing;Chazd Molluscing Industry \n\n§WThe Molluscers of Chazd are probverbial for their bravery and stupendous hauls, hunting the prodigiously large molluscs of the stormy northern seas.;;;;;;;;;;;;;x
+closed_city_of_aincha;Closed City of Aincha \n\n§WSince 1220 Aincha has been a closed city. The residence of the congress of the estates, and the president director, the activities here are considered too sensitive to allow just any foriegner or coolie from the provinces come settle here.;;;;;;;;;;;;;x
+WARINDEMNITIES_EXPENSE;Tribute;;;;;;;;;;;;;x
+WARINDEMNITIES_INCOME;Tribute;;;;;;;;;;;;;x
+we_love_slavery;Poumnian Slave Society;;;;;;;;;;;;;x
+usufruct_prioritised;Usufruct Prioritised;;;;;;;;;;;;;x
+movement_usufruct_prioritised;Common Land Movement;;;;;;;;;;;;;x
+usufruct_prioritised_l;Usufruct Prioritised;;;;;;;;;;;;;x
+usufruct_prioritised_desc;With regards to land, this country's legal system prioritise unsufructary property arrangements over real property arangements.;;;;;;;;;;;;;x
+naval_estimates;Naval Estimates;;;;;;;;;;;;;x
+no_naval_estimates;No Naval Estimates;;;;;;;;;;;;;x
+movement_no_naval_estimates;Naval Disarmament Movement;;;;;;;;;;;;;x
+no_naval_estimates_l;No Naval Estimates;;;;;;;;;;;;;x
+no_naval_estimates_desc;There is no sinking or hypothecated funds for the purposes of naval construction.;;;;;;;;;;;;;x
+three_year_estimates;Three Year Estimates;;;;;;;;;;;;;x
+movement_three_year_estimates;Three Year Estimates Movement;;;;;;;;;;;;;x
+three_year_estimates_l;Naval Armament Movement;;;;;;;;;;;;;x
+three_year_estimates_desc;Money for shipbuilding is allocated three years in advance.;;;;;;;;;;;;;x
+five_year_estimates;Five Year Estimates;;;;;;;;;;;;;x
+movement_five_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
+five_year_estimates_l;Five Year Estimates;;;;;;;;;;;;;x
+five_year_estimates_desc;Money for shipbuilding is allocated five years in advance.;;;;;;;;;;;;;x
+seven_year_estimates;Seven Year Estimates;;;;;;;;;;;;;x
+movement_seven_year_estimates;Naval Armament Movement;;;;;;;;;;;;;x
+seven_year_estimates_l;Seven Year Estimates;;;;;;;;;;;;;x
+seven_year_estimates_desc;Money for shipbuilding is allocated seven years in advance.;;;;;;;;;;;;;x
+usufruct_law;Usufruct Law;;;;;;;;;;;;;x
+realty_prioritised;Realty Prioritsed;;;;;;;;;;;;;x
+realty_prioritised_l;Realty Prioritsed;;;;;;;;;;;;;x
+movement_realty_prioritised_1;Property Rights Movement;;;;;;;;;;;;;x
+realty_prioritised_desc;With regard to land laws, this country prioritises the recognition of 'real' property above concerns of use.;;;;;;;;;;;;;x
+commons_system;Commons System;;;;;;;;;;;;;x
+commons_system_desc;Land is held in a village commons system, with fields rotated between households yearly.;;;;;;;;;;;;;x
+commons_system_l;Commons System;;;;;;;;;;;;;x
+movement_commons_system;Commons Land Movement;;;;;;;;;;;;;x
+land_covenants;Land Covenants;;;;;;;;;;;;;x
+land_covenants_desc;Land covenants, binding legal oaths sworn upon the great seals of the land, garuntee the preservation of most commonlands from the encroachment of private aquisition.;;;;;;;;;;;;;x
+land_covenants_l;Land Covenants;;;;;;;;;;;;;x
+movement_land_covenants;Landsman's Oath Society;;;;;;;;;;;;;x
+commoning_bills;Commoning Bills;;;;;;;;;;;;;x
+commoning_bills_l;Commoning Bills;;;;;;;;;;;;;x
+movement_commoning_bills;Expansion of the Commons Movement;;;;;;;;;;;;;x
+commoning_bills_desc;The government has passed many commoning bills, allowing the expansion of commonland into previous government land or terra nullius.;;;;;;;;;;;;;x
+common_courts;Common Courts;;;;;;;;;;;;;x
+common_courts_l;Common Courts;;;;;;;;;;;;;x
+movement_common_courts;Common Judiciary Movement;;;;;;;;;;;;;x
+common_courts_desc;The status of the land courts has been totally separated and made independent from the civil government.;;;;;;;;;;;;;x
+two_sphere_law;Two Sphere System;;;;;;;;;;;;;x
+two_sphere_law_l;Two Sphere System;;;;;;;;;;;;;x
+movement_two_sphere_law;Two Spheres Movement;;;;;;;;;;;;;x
+two_sphere_law_desc;The culmination of yokerish judicial thought, the twain writ system is a state cleaven into two radical different legal systems between customs and land issues, and civil trials. The civil state acts as little more than a militarised 'watchman', while contract and customary law governs land use and personal lives.;;;;;;;;;;;;;x
+unmanly;Pathetic;;;;;;;;;;;;;x
+chickenhearted;Listless;;;;;;;;;;;;;x
+shrinking_violet;Misanthropic;;;;;;;;;;;;;x
+cavalry_school;Swine Rider;;;;;;;;;;;;;x
+womanizer;Plunderer;;;;;;;;;;;;;x
+#exranker;Pedant;;;;;;;;;;;;;x
+glory_hound;Bloodthirsty;;;;;;;;;;;;;x
+natural_born_leader;Inspiring Leader;;;;;;;;;;;;;x
+bureaucrat_speed;Bureaucrat;;;;;;;;;;;;;x
+cruel;Cruel;;;;;;;;;;;;;
+diligent;Diligent;;;;;;;;;;;;;
+expert;Paranoid;;;;;;;;;;;;;x
+old_school;Old Guard;;;;;;;;;;;;;x
+hated;Exile;;;;;;;;;;;;;x
+cursed_luck;Torturer;;;;;;;;;;;;;x
+clueless;Pedant;;;;;;;;;;;;;x
+immoral;Pilferer;;;;;;;;;;;;;x
+spoiled;Princeling;;;;;;;;;;;;;x
+uncommonly_young;Dreamer;;;;;;;;;;;;;x
+elderly;Elder;;;;;;;;;;;;;x
+incompetent;Wastrel;;;;;;;;;;;;;x
+unqualified;Drunkard;;;;;;;;;;;;;x
+unfit;Sinecurist;;;;;;;;;;;;;x
+disgraced_p;Careerist;;;;;;;;;;;;;x
+disgraced;Campaigner;;;;;;;;;;;;;x
+bungler;Bungler;;;;;;;;;;;;;x
+corrupt;Embezzler;;;;;;;;;;;;;x
+war_college;War College Graduate;;;;;;;;;;;;;x
+shirker;Shirking;;;;;;;;;;;;;x
+powerful_friends;Social Climber;;;;;;;;;;;;;x
+school_of_defense;Constable;;;;;;;;;;;;;x
+school_of_offense;Rifleman;;;;;;;;;;;;;x
+school_of_the_bayonet;Prize Fighter;;;;;;;;;;;;;x
+school_of_firepower;Doctor;;;;;;;;;;;;;x
+sucker;Fool;;;;;;;;;;;;;x
+HAS_NO_COLONIES;has colonial territories.\n;x
+HAS_COLONIES;does not have colonial territories.\n;x
+dumuv_abolished;Dumuv Abolished;;;;;;;;;;;;;x
+dumuv_extended;Dumuv Extended;;;;;;;;;;;;;x
+slaveowners_compensated;Slaveowners Compensated;;;;;;;;;;;;;x
+slavery_ended_by_force;Slavery Ended by Force;;;;;;;;;;;;;x
+locked_real;Realty Rights Solidly Established;;;;;;;;;;;;;x
+locked_usu;Usufruct Rights Solidly Established;;;;;;;;;;;;;x
+discovered_vaccines;Discovered Vaccination;;;;;;;;;;;;;x
+locked_fed;Federated Constitution;;;;;;;;;;;;;x
+locked_cent;Centralised Constitution;;;;;;;;;;;;;x
+discovered_germs;Discovered Germ Theory;;;;;;;;;;;;;x
+discovered_lighting;Discovered Gaslights;;;;;;;;;;;;;x
+discovered_xrays;Discovered X-Rays;;;;;;;;;;;;;x
+kusii_prohibited;Kusii Worship Prohibited;;;;;;;;;;;;;x
+vewugi_country;Vewugist Country;;;;;;;;;;;;;x
+drupe_torched;Great Drupe Destroyed;;;;;;;;;;;;;x
+motkohnic_country;Motkohnic Country;;;;;;;;;;;;;x
+rechktist_country;Rechktist Country;;;;;;;;;;;;;x
+pudwou_overthrown;Pudwou Overthrown;;;;;;;;;;;;;x
+diwvo;Diwvish;;;;;;;;;;;;;x
+peninsular_diwvo;Pruuntish;;;;;;;;;;;;;x
+sitheve;Sithevan;;;;;;;;;;;;;x
+sitheve_not_formable;Distant Sithevan;;;;;;;;;;;;;x
+bogoroid_huighian;Bogoroid;;;;;;;;;;;;;x
+huighian;Huighian;;;;;;;;;;;;;x
+duttuphti;Duttuphti;;;;;;;;;;;;;x
+surgoian;Surgoian;;;;;;;;;;;;;x
+surgoian_islander;Takemogine;;;;;;;;;;;;;x
+yat-pugurian;Yat-Pugurian;;;;;;;;;;;;;x
+thihudian;Thihudian;;;;;;;;;;;;;x
+voted_mot;Sent Delegates to the Synod;;;;;;;;;;;;;x
+HAS_NOT_GOODS;does not have goods;;;;;;;;;;;;;x
+tribute_info;§Gwill recieve tribute.§!\n;;;;;;;;;;;;;x
+HAVE_LESS_VASSALS_THAN;have less vassals than;;;;;;;;;;;;;x
+HAVE_NOT_A_IN;An ocean borders ;;;;;;;;;;;;;x
+negotiating_with_vassals;Negotiating with Vassals;;;;;;;;;;;;;x
+liberationist_group;Liberationist and Free-Yoker parties;;;;;;;;;;;;;x
+statist_group;Statist and Absolutist parties;;;;;;;;;;;;;x
+theocratist_group;Theocratist parties;;;;;;;;;;;;;x
+nationalist_rebels_title;Particularist;x
+nationalist_rebels_name;$INDEP$ Particularists;x
+nationalist_rebels_desc;Particularist rebels seek freedom for their bretheren. They are well led and equipped, and they will focus on achieving independence for their people.;x
+nationalist_rebels_army;$INDEP$ Particularists;x
+ANY_POP_IN_PROVINCE_STARTS;Any pop in province;x
+vassal_nation_too_much_prestige;Vassal Nation;;;;;;;;;;;;;x
+for7;For Seven;;;;;;;;;;;;;x
+demanded_contributions;Expanded Civilian Requisitioning;;;;;;;;;;;;;x
+demanded_contributions_desc;This nation has turned to desperate measures to aquire materiel for its army.;;;;;;;;;;;;;x
+demanded_ships;Drafted Merchant Ships;;;;;;;;;;;;;x
+demanded_ships_desc;This nation recently forced merchants and mercantile firms to yield their vessels and crews to the admirality. These fellows are a little untested.;;;;;;;;;;;;;x
+thralls_culled;Thralls Culled;;;;;;;;;;;;;x
+thralls_culled_desc;The thrall culling season has gone by and the older thralls (13-15) are now being fattened.;;;;;;;;;;;;;x
+vupuyti_raid;Vupuyti Raid;;;;;;;;;;;;;x
+montane_forest;Temperate Rainforest;;;;;;;;;;;;;x
+law_changed_by_force;Law Changed By Force;;;;;;;;;;;;;x
+jingoism_l;Expansionism;;;;;;;;;;;;;x
+laissez_faire_l;Agrarianism;;;;;;;;;;;;;x
+free_trade_l;Encouraged;;;;;;;;;;;;;x
+protectionism_l;Discouraged;;;;;;;;;;;;;x
+dynastic_security;Dynastic Security;;;;;;;;;;;;;x
+dynastic_security_desc;The old Emperor has been exiled, and a new dynasty has taken the role of Kiidnazhk!;;;;;;;;;;;;;x
+MODIFIER_POP_CONSCIOUSNESS_MODIFIER;Pop consciousness;x
+HAVE_INDUSTRIAL_SCORE_LESS_THAN;Have industrial score less than;;;;;;;;;;;;;x
+HAS_NO_MINORITIES;Has minorities;;;;;;;;;;;;;x
+depression;Economic Depression;;;;;;;;;;;;;x
+depression_desc;This country is in an economic slump at the moment.;;;;;;;;;;;;;x
+debased_currency;Debased Currency;;;;;;;;;;;;;x
+debased_currency_desc;The currency has been debased by the government, causing inflation and an indirect 'tax' on currency holders besides the government mint.;;;;;;;;;;;;;x
+TRIGGER_STATE;State;x
+slave_liquor_distillery;Liqour Bottling Plant;x
+slave_liquor_distillery_desc;x;x
+slave_winery;Bottling Plant;x
+slave_winery_desc;x;x
+slave_cannery;Cannery;x
+slave_cannery_desc;x;x
+slave_munitions_plant;Munitions Plant;x
+slave_munitions_plant_desc;x;x
+slave_cannery;Cannery;x
+slave_cannery_desc;x;x
+scout;Scout;;;;;;;;;;;;;
+scout_activation;Scouts;;;;;;;;;;;;;
+acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;
+acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;
+acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;
+acquire_all_cores_desc;Acquire all enemy §Ystates§W where we have §Ycore provinces§W;;;;;;;;;;;;;
+gold_fever;Gold Fever;;;;;;;;;;;;;
+depleted_reserves;Depleted Reserves;;;;;;;;;;;;;
+integration_of_strangers_act;Integration of Strangers Act;;;;;;;;;;;;;
+intergreation_pathway_begun;Integration Pathway Begun;;;;;;;;;;;;;
+guest_workers_act;Enacted Metic Laws;;;;;;;;;;;;;
+ennected_guest_workers;Enacted Metic Laws;;;;;;;;;;;;;
+protected_lands;Protected Lands;;;;;;;;;;;;;
+guest_workers;The Metic Act;;;;;;;;;;;;;
+new_overlordship;New Overlordship;;;;;;;;;;;;;
+new_overlordship_desc;This country has only recently been subjugated, and is taking some time to get used to their new overlords.;;;;;;;;;;;;;
+foriegn_rule;Foreign Rule;;;;;;;;;;;;;
+foriegn_rule_desc;The elites and the government in this country is largely in the hands of citizens of their foriegn overlord.;;;;;;;;;;;;;

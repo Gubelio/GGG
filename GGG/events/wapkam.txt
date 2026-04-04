@@ -62,7 +62,7 @@ country_event = {
     id = 50415 
     title = "EVTNAME50415" #Extend the protected lands
     desc = "EVTDESC50415"
-	#picture = "POU_rev"
+	picture = "wapkam"
 
     trigger = {
 		has_country_flag = integration_of_strangers_act
@@ -219,7 +219,7 @@ country_event = {
     id = 50418 
     title = "EVTNAME50418"  #opening later.
     desc = "EVTDESC50418"
-	#picture = "POU_rev"
+	picture = "wapkam"
 
     trigger = {
         tag = WAP

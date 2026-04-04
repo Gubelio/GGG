@@ -1596,6 +1596,14 @@ release_puppet = {
 			value = 0.25
 		}
 	}
+
+    on_pop_accepted = {
+        FROM = {
+            remove_country_modifier = foreign_rule
+            remove_country_modifier = new_overlordship
+        }
+
+    }
 }
 
 # Make Puppet
@@ -1656,6 +1664,10 @@ make_puppet = {
 		}
 		set_country_flag = tributary_country
 		set_country_flag = bleed_dry_vassal
+        add_country_modifier = {
+            name = new_overlordship
+            duration = 7300
+        }
 	    treasury = 0
 	}
 }
@@ -1713,6 +1725,8 @@ become_independent = {
 		}
 		leave_alliance = FROM
 		release_vassal = THIS
+        remove_country_modifier = foreign_rule
+        remove_country_modifier = new_overlordship
 	}
 }
 
@@ -2232,6 +2246,14 @@ unification_release_puppet_cb = {
 			value = 0.25
 		}
 	}
+
+    on_pop_accepted = {
+        FROM = {
+            remove_country_modifier = foreign_rule
+            remove_country_modifier = new_overlordship
+        }
+
+    }
 }
 
 # Unification Demand State
