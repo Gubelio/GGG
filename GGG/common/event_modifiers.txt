@@ -295,6 +295,18 @@ minor_outrage_national = {
 	icon = 30
 }
 
+new_overlordship = {
+	ruling_party_support = -0.1
+	tax_efficiency = -0.05
+	icon = 30
+}
+
+foreign_rule = {
+	ruling_party_support = -0.2
+	tax_efficiency = -0.1
+	icon = 30
+}
+
 major_outrage_national = {
 	ruling_party_support = -1
 	#social_reform_desire = 0.1

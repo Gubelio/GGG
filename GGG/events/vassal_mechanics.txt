@@ -500,7 +500,7 @@ country_event = {
 	id = 50361 
 	title = "EVTNAME50361"  
 	desc = "EVTDESC50361"
-	#picture = "encyclo"
+	picture = "chinese_palace_event"
 	
 	is_triggered_only = yes
 
@@ -526,13 +526,155 @@ country_event = {
 	id = 50362 
 	title = "EVTNAME50362" 
 	desc = "EVTDESC50362"
-	#picture = "encyclo"
+	picture = "chinese_palace_event"
 	
 	is_triggered_only = yes
 
+    option = {
+        name = "It is time to do away with the pretenses of vassalhood."
+		clr_country_flag = negotiating_with_vassals
+        if = {
+            limit = {
+                FROM = {
+                    NOT = { 
+                        has_country_modifier = new_overlordship
+                    }
+                    primary_culture = THIS
+                }
+            }
+
+            THIS = {
+                inherit = FROM
+                set_country_flag = vass_ann_suc
+            }
+
+        }
+
+        if = {
+            limit = {
+                THIS = {
+                    NOT = { 
+                        has_country_flag = vass_ann_suc
+                    }
+                }
+            }
+            THIS = {
+                release_vassal = FROM
+            }
+                
+            FROM = {
+			    add_casus_belli = {
+				    target = THIS
+				    type = make_puppet
+				    months = 12
+			    }
+            }
+            THIS = {
+			    war = {
+				    target = FROM
+				    attacker_goal = { casus_belli = make_puppet }
+				    defender_goal = { casus_belli = status_quo }
+                }
+            }
+        }
+        clr_country_flag = vassal_ann_suc
+		
+
+
+    }
+
+    option = {
+        name = "They are no longer fit to govern their country."
+		clr_country_flag = negotiating_with_vassals
+        if = {
+            limit = {
+                FROM = {
+                    NOT = { 
+                        has_country_modifier = new_overlordship
+                    }
+                }
+            }
+            THIS = {
+                random = {
+                    chance = 90
+
+                    FROM = {
+                        
+                        any_pop = {
+                            militancy = 7
+                            consciousness = 7
+                        }
+
+                        plurality = -20
+                        prestige = -10
+                        
+                        primary_culture = THIS
+            
+                    }
+                    set_country_flag = vass_int_suc
+                }
+            }
+
+            
+
+        }
+
+        if = {
+            limit = {
+                THIS = {
+                    NOT = { 
+                        has_country_flag = vass_int_suc
+                    }
+                }
+            }
+            THIS = {
+                release_vassal = FROM
+            }
+
+            FROM = {
+			    add_casus_belli = {
+				    target = THIS
+				    type = make_puppet
+				    months = 12
+			    }
+            }
+
+			THIS = {
+			    war = {
+				    target = FROM
+				    attacker_goal = { casus_belli = make_puppet }
+				    defender_goal = { casus_belli = status_quo }
+                }
+            }
+        }
+
+        clr_country_flag = vass_int_suc
+		
+
+
+    }
+
+    
+
+
+    option = {
+        name = "We no longer with to be their overlords. Set them free."
+		clr_country_flag = negotiating_with_vassals
+		release_vassal = FROM
+        prestige = -10
+        infamy = -0.5
+
+        FROM = {
+            remove_country_modifier = foreign_rule
+            remove_country_modifier = new_overlordship
+
+        }
+
+    }
+
 	
 	option = {
-		name = "Bleed them dry!"
+		name = "We wish to raise their tribute: bleed them dry!"
 		clr_country_flag = negotiating_with_vassals
 		FROM = {
 			set_country_flag = bleed_dry_vassal
@@ -546,7 +688,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "They should pay a moderate tribute."
+		name = "We wish to raise their tribute: They should pay moderately."
 		clr_country_flag = negotiating_with_vassals
 		FROM = {
 			set_country_flag = moderate_tribute
@@ -582,19 +724,4 @@ country_event = {
 	}
 }
 
-#country_event = {
-#	id = 50377 
-#	title = "EVTNAME50377"  
-#	desc = "EVTDESC50377"
-#	#picture = "encyclo"
-#	
-#	trigger = {
-#		overlord = { 
-#		
-#		
-#		
-#		}
-#	
-#	}
-#
-#}
+

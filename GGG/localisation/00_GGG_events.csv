@@ -898,7 +898,7 @@ EVT50360DESC;The Island monarchy of the Takemog is an aristocratic kingdom of se
 EVTNAME50361;$FROMCOUNTRY$ Interference!;;;;;;;;;;;;;x
 EVTDESC50361;The presence of $FROMCOUNTRY$ soldiers in our capital for an extended period of time has long been worrying our government, but finally they have made their purpose clear. From amongst their ranks appeared a small and infuriatingly smug envoy, who announced to us that the tribute contract we have with them is to be altered according to the whims of his government. We have little choice but to suffer and bear whatever they dictate, and no doubt this preemptive show of force is to remind us what can happen if we were to cause trouble when, during the next tribute season, we found out things had changed. The soldiers, the envoy informs us, will be departing soon, and we needn’t worry, he was merely here to inform us of the change.;;;;;;;;;;;;;x
 EVTNAME50362;The Tribute Status of $FROMCOUNTRY$;;;;;;;;;;;;;x
-EVTDESC50362;We have recently informed $FROMCOUNTRY$ that we will be reviewing and altering their tribute contract, and they have, our envoy to $FROMCOUNTRY$ reports, broadly acquiesced to this change. The question remains how we wish to collect the tribute from them.;;;;;;;;;;;;;x
+EVTDESC50362;We have recently informed $FROMCOUNTRY$ that we will be reviewing and altering their tributary contract, and they have, our envoy to $FROMCOUNTRY$ reports, broadly acquiesced to this change. The question remains how we wish to treat with them. §RNOTE: Attempting to impose ones own cultural bureaucracy without waiting around 20 years of overlordship is much more likely to cause resistance, and annexing without imposing one's cultural bureaucracy is garunteed to fail!§!;;;;;;;;;;;;;x
 EVTNAME50363;Tribute is Due;;;;;;;;;;;;;x
 EVTDESC50363;We are regrettably a tributary of a greater power. They regularly dispatch tyrannical envoys and cruel collectors to assess the wealth of our treasury, and demand exacting payments that siphon away much of the wealth of our land. The time has come again for us to pay our tribute.;;;;;;;;;;;;;x
 EVTNAME50364;AI CLEANUP;;;;;;;;;;;;;x
@@ -1007,6 +1007,8 @@ EVTDESC246246;In our currently politically vulnerable situation, it seems we hav
 EVTNAME123123;AI AGRESSOR EVENT;;;;;;;;;;;;;x
 EVTNAME50418;Protection Implemented;;;;;;;;;;;;;x
 EVTDEC50418;Following our successful seizure of territories further into the Juruntine, the director-general has issued an order for the closure of the old settlements and territories. For most estates this means very little actual change in policy beyond a few more rejections of admission or transfer requests, though watchmen at sensitive points like exchanges, border posts, public granaries, mess halls, and factories are increasingly encouraged to check internal passports of labourers.;;;;;;;;;;;;;x
+EVTNAME50420;$FROMCOUNTRY$ Rejects Overlordship!;;;;;;;;;;;;;x
+EVTDEC50420;Our recent efforts to meddle in $FROMCOUNTRY$'s government have ended in disaster. Rather than accepting the changes we imposed upon them, they have raised their flag in rebellion, and broken the seal of our government!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
