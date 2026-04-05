@@ -11,3 +11,5 @@ Here are some of the mod’s features:
 
 
 To setup from GitHub zip download: extract the .zip in your /mod directory. Then copy the .mod file out of the GGG-workingreformbranch directory into your /mod directory.
+
+Cloning directly with git will require changing the default.map pathway to .../GGG/GGG/...
