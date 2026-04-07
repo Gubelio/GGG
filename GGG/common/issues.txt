@@ -215,12 +215,25 @@ political_reforms = {
 
         }
         culture_voting_only = {
+		allow = {
+			NOT = {
+				has_country_flag = asyum_integrated_strict
+			}
+		
+		}
             rules = { culture_voting = yes }
             global_assimilation_rate = 0.05
 
         }
 		
         all_voting_pops = {
+		allow = {
+			NOT = {
+				has_country_flag = asyum_integrated_generous
+				has_country_flag = asyum_integrated_strict
+			}
+		
+		}
             rules = { all_voting = yes }
             non_accepted_pop_militancy_modifier = -0.01
             global_assimilation_rate = 0.15

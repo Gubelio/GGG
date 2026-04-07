@@ -8,6 +8,7 @@ political_decisions = {
             NOT = {
                 has_country_flag = integration_of_strangers_act
                 has_country_flag = intergreation_pathway_begun
+		has_country_flag = asyum_pathway_begun
             }
             
 		}

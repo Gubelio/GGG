@@ -1006,9 +1006,17 @@ EVTNAME246246;From Bad to Worse...;;;;;;;;;;;;;x
 EVTDESC246246;In our currently politically vulnerable situation, it seems we have been given a premonition for further negative developments. One of our neighbours has recently elected to withdraw its ambassadorial staff, and shutter its consulates. This, it is felt, could mean only one thing: war. We must brace for this challenge!;;;;;;;;;;;;;x
 EVTNAME123123;AI AGRESSOR EVENT;;;;;;;;;;;;;x
 EVTNAME50418;Protection Implemented;;;;;;;;;;;;;x
-EVTDEC50418;Following our successful seizure of territories further into the Juruntine, the director-general has issued an order for the closure of the old settlements and territories. For most estates this means very little actual change in policy beyond a few more rejections of admission or transfer requests, though watchmen at sensitive points like exchanges, border posts, public granaries, mess halls, and factories are increasingly encouraged to check internal passports of labourers.;;;;;;;;;;;;;x
+EVTDESC50418;Following our successful seizure of territories further into the Juruntine, the director-general has issued an order for the closure of the old settlements and territories. For most estates this means very little actual change in policy beyond a few more rejections of admission or transfer requests, though watchmen at sensitive points like exchanges, border posts, public granaries, mess halls, and factories are increasingly encouraged to check internal passports of labourers.;;;;;;;;;;;;;x
+EVTNAME50419;The J'ur Temple Debate;;;;;;;;;;;;;x
+EVTDESC50419;x;;;;;;;;;;;;;x
 EVTNAME50420;$FROMCOUNTRY$ Rejects Overlordship!;;;;;;;;;;;;;x
-EVTDEC50420;Our recent efforts to meddle in $FROMCOUNTRY$'s government have ended in disaster. Rather than accepting the changes we imposed upon them, they have raised their flag in rebellion, and broken the seal of our government!;;;;;;;;;;;;;x
+EVTDESC50420;Our recent efforts to meddle in $FROMCOUNTRY$'s government have ended in disaster. Rather than accepting the changes we imposed upon them, they have raised their flag in rebellion, and broken the seal of our government!;;;;;;;;;;;;;x
+EVTNAME50421;The Asyum Question Debate;;;;;;;;;;;;;x
+EVTDESC50421;x;;;;;;;;;;;;;x
+EVTNAME50422;Wapkam Extends Protection to Pagan Temples!;;;;;;;;;;;;;x
+EVTDESC50422;x;;;;;;;;;;;;;x
+EVTNAME50423;Imperial Clergy Declares Intention to Restore Orthodoxy;;;;;;;;;;;;;x
+EVTDESC50423;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

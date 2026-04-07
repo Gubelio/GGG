@@ -1099,6 +1099,24 @@ conversion_chance =
 		}
 	
 	}
+	
+	modifier = {
+		factor = -0.9
+		AND = {
+			has_pop_religion = jur
+			country = { has_country_flag = jur_worship_tolerated }
+		}
+	
+	}
+	
+	modifier = {
+		factor = 0.4
+		AND = {
+			has_pop_religion = jur
+			country = { has_country_flag = jur_worship_prohibited }
+		}
+	
+	}
 
 	modifier = { #evangelizing
         factor = 0.8
