@@ -436,11 +436,7 @@ sea_starts = {
 
 }
 
-<<<<<<< HEAD
 definitions = "../mod/GGG-GGG-AliceBranch/GGG/map/definition.csv"
-=======
-definitions = "../mod/GGG/GGG/map/definition.csv"
->>>>>>> workingreformbranch
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
