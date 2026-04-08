@@ -693,10 +693,12 @@ wushauw;Wushauw;;;;;;;;;;;;;x
 tuqqikian;Tuqqikian;;;;;;;;;;;;;x
 zagkhan;Zagkhan;;;;;;;;;;;;;x
 mjhman;Mjhm'an;;;;;;;;;;;;;x
-pruuntish_submission;Quelling Apostasy;;;;;;;;;;;;;x
-pruuntish_submission_short;Poumnia is attempting to puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
-pruuntish_submission_setup;Poumnia is attempting to puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
-pruuntish_submission_desc;Poumnia is attempting to puppet, sphere and restore Wompowushan as the state religion in $RECIPIENT$ for denying the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
+pruuntish_submission;Crush Apostasy;;;;;;;;;;;;;x
+pruuntish_submission_short;Crush Apostasy in $RECIPIENT$;;;;;;;;;;;;;x
+pruuntish_submission_setup;Poumnia is attempting to puppet, sphere and restore Wompowushan as the sole state religion in $RECIPIENT$.;;;;;;;;;;;;;x
+pruuntish_submission_desc;Poumnia is attempting to puppet, sphere and restore Wompowushan as the sole state religion in $RECIPIENT$ for challening the divinity of the Poumnian Emperor;;;;;;;;;;;;;x
+NORMAL_WAR_NAME_POUMNIAN_APOSTASY;$ORDER$ War of $SECOND$ Apostasy;;;;;;;;;;;;;
+AGRESSION_WAR_NAME_POUMNIAN_APOSTASY;$ORDER$ War of $SECOND$ Apostasy;;;;;;;;;;;;;
 NORMAL_WAR_NAME_REPARATIONS;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;
 AGRESSION_WAR_NAME_REPARATIONS;$ORDER$War of $FIRST$ Aggression;;;;;;;;;;;;;
 war_reparations;Extract Tribute;;;;;;;;;;;;;

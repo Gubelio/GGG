@@ -290,7 +290,7 @@ country_event = {
     id = 50419 
     title = "EVTNAME50419"  
     desc = "EVTDESC50419"
-	picture = "wapkam"
+	picture = "jur_temple"
 
     trigger = {
         tag = WAP
@@ -312,54 +312,7 @@ country_event = {
 
     }
 
-	option = {
-		name = "The J'ur faith must not be restricted. We cannot risk angering the Asyum."
-		set_country_flag = jur_worship_tolerated
-		set_country_flag = jur_temple_debate
-		set_country_flag = asyum_pathway_begun
-		
-		any_pop = {
-			limit = {
-				has_pop_religion = wompowushan
-			}
-			militancy = 3
-			consciousness = 3
-		
-		}
-       
-		any_pop = {
-			limit = {
-				has_pop_religion = jur
-			}
-			consciousness = 1
-			militancy = -1
-		
-		}
-		
-		relation = {
-			who = POU
-			value = -200
-		}
-		
-		any_country = {
-			limit = {
-				tag = POU
-				OR = {
-					government = sublime_synod
-					government = theocracy
-				}
-			
-			}
-			
-			country_event = {
-				id = 50422
-				days = 20
-			
-			}
-		
-		}
-		
-	}
+	
 	
 	option = {
 		name = "These barbarous temples are an affront to the World Soul himself."
@@ -414,6 +367,55 @@ country_event = {
 	
 	
 	}
+	
+	option = {
+		name = "J'ur temples will be given full equality in status with the imperial temples."
+		set_country_flag = jur_worship_tolerated
+		set_country_flag = jur_temple_debate
+		set_country_flag = asyum_pathway_begun
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = wompowushan
+			}
+			militancy = 8
+			consciousness = 8
+		
+		}
+       
+		any_pop = {
+			limit = {
+				has_pop_religion = jur
+			}
+			consciousness = 1
+			militancy = -1
+		
+		}
+		
+		relation = {
+			who = POU
+			value = -200
+		}
+		
+		any_country = {
+			limit = {
+				tag = POU
+				OR = {
+					government = sublime_synod
+					government = theocracy
+				}
+			
+			}
+			
+			country_event = {
+				id = 50422
+				days = 20
+			
+			}
+		
+		}
+		
+	}
 
 
 
@@ -428,7 +430,7 @@ country_event = {
 
     trigger = {
         tag = WAP
-        year = 1335
+        year = 1366
 	has_country_flag = asyum_pathway_begun
 	OR = {
 		has_country_flag = jur_worship_tolerated
@@ -521,7 +523,7 @@ country_event = {
     id = 50422 
     title = "EVTNAME50422"  
     desc = "EVTDESC50422"
-	picture = "wapkam"
+	picture = "jur_temple"
 
    
 	is_triggered_only = yes
@@ -542,7 +544,7 @@ country_event = {
 		}
 		
 		WAP = {
-			country_event = id = 50423
+			country_event = 50423
 		}
        
 		
