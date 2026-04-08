@@ -2774,11 +2774,12 @@ pruuntish_submission = {
 	
 	on_po_accepted = {
 		country_event = { id = 50044 }
+		clr_country_flag = jur_worship_tolerated
 	}
 	po_make_puppet = yes
 	po_add_to_sphere = yes
 	
-	war_name = WAR_NAME
+	war_name = WAR_NAME_POUMNIAN_APOSTASY
 }
 
 # War Reparations

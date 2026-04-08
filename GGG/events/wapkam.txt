@@ -286,5 +286,308 @@ country_event = {
 
 }
 
+country_event = { 
+    id = 50419 
+    title = "EVTNAME50419"  
+    desc = "EVTDESC50419"
+	picture = "jur_temple"
+
+    trigger = {
+        tag = WAP
+        year = 1320
+	
+	
+
+        NOT = {
+            has_country_flag = integration_pathway_begun
+	    has_country_flag = jur_temple_debate
+
+        }
+        
+    }
+
+
+    mean_time_to_happen = {
+        months = 1
+
+    }
+
+	
+	
+	option = {
+		name = "These barbarous temples are an affront to the World Soul himself."
+		set_country_flag = jur_worship_restricted
+		set_country_flag = jur_temple_debate
+       
+		any_pop = {
+			limit = {
+				has_pop_religion = wompowushan
+			}
+			militancy = -1
+			consciousness = -1
+		
+		}
+		
+		relation = {
+			who = POU
+			value = 100
+		}
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = jur
+			}
+			consciousness = 2
+			militancy = 2
+		
+		}
+       
+		
+		}
+	
+	option = {
+		name = "As long as their temples include a shrine to the Pudwou, they can be tolerated."
+		set_country_flag = jur_worship_tolerated
+		set_country_flag = jur_womp_syncreticism
+		set_country_flag = jur_temple_debate
+		set_country_flag = asyum_pathway_begun
+       
+		any_pop = {
+			limit = {
+				has_pop_religion = wompowushan
+			}
+			consciousness = 1
+		
+		}
+		
+		relation = {
+			who = POU
+			value = -25
+		}
+	
+	
+	}
+	
+	option = {
+		name = "J'ur temples will be given full equality in status with the imperial temples."
+		set_country_flag = jur_worship_tolerated
+		set_country_flag = jur_temple_debate
+		set_country_flag = asyum_pathway_begun
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = wompowushan
+			}
+			militancy = 8
+			consciousness = 8
+		
+		}
+       
+		any_pop = {
+			limit = {
+				has_pop_religion = jur
+			}
+			consciousness = 1
+			militancy = -1
+		
+		}
+		
+		relation = {
+			who = POU
+			value = -200
+		}
+		
+		any_country = {
+			limit = {
+				tag = POU
+				OR = {
+					government = sublime_synod
+					government = theocracy
+				}
+			
+			}
+			
+			country_event = {
+				id = 50422
+				days = 20
+			
+			}
+		
+		}
+		
+	}
+
+
+
+}
+
+
+country_event = { 
+    id = 50421 
+    title = "EVTNAME50421"  
+    desc = "EVTDESC50421"
+	picture = "wapkam"
+
+    trigger = {
+        tag = WAP
+        year = 1366
+	has_country_flag = asyum_pathway_begun
+	OR = {
+		has_country_flag = jur_worship_tolerated
+	}
+         NOT = {
+            has_country_flag = protected_lands_debate
+        }
+    }
+
+
+    mean_time_to_happen = {
+        months = 15
+	
+    }
+
+	option = {
+        name = "We must extend guild protections to the Asyum, for the sake of our nationhood."
+		add_accepted_culture = asyum
+		set_country_flag = asyum_integrated_strict
+		political_reform = primary_culture_only
+		
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = rashuum
+					has_pop_culture = asyum
+				}
+			}
+			consciousness = 3
+		
+		}
+		
+	
+		
+	}
+	
+	option = {
+        name = "The Asyum must be made full partners of the Wapkam Company."
+		add_accepted_culture = asyum
+		set_country_flag = asyum_integrated_generous
+		political_reform = culture_voting_only
+		
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = asyum
+				}
+			}
+			consciousness = 2
+			militancy = -1
+		
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = rashuum
+				}
+			}
+			consciousness = 8
+			militancy = 6
+		
+		}
+		
+	}
+	
+	
+	option = {
+        name = "These native dogs will surely subvert and destroy the state from within!"
+		
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = rashuum
+				}
+			}
+			consciousness = -2
+			militancy = -2
+		
+		}
+		
+	}
+
+
+
+}
+
+
+country_event = { 
+    id = 50422 
+    title = "EVTNAME50422"  
+    desc = "EVTDESC50422"
+	picture = "jur_temple"
+
+   
+	is_triggered_only = yes
+
+	option = {
+		name = "The very toleration of Paganism is Apostasy!  Organise an expedition at once!"
+        
+		casus_belli = {
+			target = FROM
+			type = pruuntish_submission
+			months = 12
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = pruuntish_submission
+			}
+		}
+		
+		WAP = {
+			country_event = 50423
+		}
+       
+		
+	}
+	
+	option = {
+		name = "Enforcing Orthodoxy in a worthless hinterland is not a matter for a world power."
+		prestige = -10
+       
+		
+	}
+
+
+}
+
+country_event = { 
+    id = 50423 
+    title = "EVTNAME50423"  
+    desc = "EVTDESC50423"
+	picture = "wapkam"
+
+   
+	is_triggered_only = yes
+
+	option = {
+		name = "We must rally to defend our nation!"
+		
+		any_pop = {
+			limit = {
+				has_pop_religion = jur
+			
+			}
+			consciousness = 2
+			militancy = -5
+		
+		}
+		
+	}
+	
+	
+
+
+}
+
 
 
