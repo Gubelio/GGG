@@ -222,7 +222,8 @@ country_event = {
 	picture = "wapkam"
 
     trigger = {
-        tag = WAP
+		has_country_flag = affirmed_protected_lands
+ 		tag = WAP
         OR = {
             1939 = {
                 owned_by = THIS

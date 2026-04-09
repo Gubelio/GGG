@@ -23,6 +23,7 @@ administrative_reform = proprietary_bureaucracy
 infrastructure = turnpikes_n_municipal_funding
 health_care = no_health_care
 school_reforms = no_school_system
+colonial_policy = settlement
 
 # Social Reforms
 
@@ -84,3 +85,4 @@ oob = "GAU_oob.txt"
 set_country_flag = kadkohi_country
 set_country_flag = studied_rechktist
 set_country_flag = studied_momurism
+set_country_flag =  chose_colonial_policy
