@@ -1149,21 +1149,25 @@ country_event = {
 	option = {
 		name = "Facilitate the subordination of the locals to metropolitian capital."
 		political_reform = exploitation
+		set_country_flag = chose_colonial_policy
 	}
 	
 	option = {
 		name = "We should let the natives manage themselves as much as they can."
 		political_reform = self_rule
+		set_country_flag = chose_colonial_policy
 	}
 	
 	option = {
 		name = "Governors should crush native communities and attact metropolitan settlers."
 		political_reform = settlement
+		set_country_flag = chose_colonial_policy
 	}
 	
 	
 	option = {
 		name = "We should let local governors do as they see fit."
+		set_country_flag = chose_colonial_policy
 	
 	}
 }
