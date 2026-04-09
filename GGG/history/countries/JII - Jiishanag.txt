@@ -23,6 +23,7 @@ administrative_reform = aristocratic_bureaucracy
 infrastructure = turnpikes_n_municipal_funding
 health_care = no_health_care
 school_reforms = parish_school_system
+colonial_policy = self_rule
 
 # Social Reforms
 emigration_law = emigration_restricted
@@ -84,3 +85,4 @@ set_country_flag = motkohnic_country
 set_country_flag = studied_rechktist
 set_country_flag = studied_momurism
 set_country_flag = serfdom_abolished
+set_country_flag =  chose_colonial_policy
