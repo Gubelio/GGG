@@ -1019,11 +1019,12 @@ EVTNAME50423;Imperial Clergy Declares Intention to Restore Orthodoxy;;;;;;;;;;;;
 EVTDESC50423;Our recent choice to extend religious privileges to the J'ur of Wapkam, it seems, has greatly displeased the Imperial government in Poumnia! They are accusing the Wapkam company of apostasy, and have, it seems, declared an intention to restore "correct doctrines and divine honours in the ancestral customs" by force of military arms! The President-Director has declared that he is now the official head to the Wapkami state, and the Estates have convened to attempt to organise a military resistance.;;;;;;;;;;;;;x
 EVTNAME50424;Debate on Colonial Policy;;;;;;;;;;;;;x
 EVTDESC50424;Our government's recent establishment of explict colonial territories, under the responsibility of the colonial governors, and bearing no integral incorporation into the regular aparatus of our state has issued a public and governmental debate about the role of these adjunct territories. Certain sections of society believe that the government should pass legislation to variously faciliate the subordination of locals, to enshrine local polities as an essential plank of colonial governance, or to facilitate the ease of settlement by peoples of our race. The excited debate on this topic, and the as-yet-undecided juridictional place of the colonial territories, gives the present government an oppertunity to pass legislation on this matter quickly without the usual political give and take needed to secure legislation.;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50425;Infamy Decay Bonus;;;;;;;;;;;;;x
+EVTDESC50425;Pick an additional infamy decay modifier for all countries in the game. This cannot be undone.;;;;;;;;;;;;;x
+EVT50425OPTA;§G-0.02§!;;;;;;;;;;;;;x
+EVT50425OPTB;§G-0.04§!;;;;;;;;;;;;;x
+EVT50425OPTC;§G-0.06§!;;;;;;;;;;;;;x
+EVT50425OPTD;Nevermind!;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

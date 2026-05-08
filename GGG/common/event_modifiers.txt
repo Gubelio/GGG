@@ -640,3 +640,19 @@ depleted_reserves = {
     immigrant_attract = -0.25
     immigrant_push = 0.5
 }
+
+infamy_decay_2 = {
+    icon = 5
+    badboy = -0.02
+}
+
+infamy_decay_4 = {
+    icon = 5
+    badboy = -0.04
+}
+
+infamy_decay_6 = {
+    icon = 5
+    badboy = -0.06
+}
+

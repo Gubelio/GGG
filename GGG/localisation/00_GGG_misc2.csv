@@ -495,3 +495,6 @@ new_overlordship_desc;This country has only recently been subjugated, and is tak
 foriegn_rule;Foreign Rule;;;;;;;;;;;;;
 foriegn_rule_desc;The elites and the government in this country is largely in the hands of citizens of their foriegn overlord.;;;;;;;;;;;;;
 wicked;Wicked;;;;;;;;;;;;;
+infamy_decay_2;Infamy Decay -0.2;;;;;;;;;;;;;
+infamy_decay_4;Infamy Decay -0.4;;;;;;;;;;;;;
+infamy_decay_6;Infamy Decay -0.6;;;;;;;;;;;;;

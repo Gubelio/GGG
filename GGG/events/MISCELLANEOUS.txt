@@ -1817,7 +1817,7 @@ country_event = { #poumnian
 #### AI NATIONAL OBJECTIVE ####
 ###############################
 
-#Don't both localizing this. No human will ever see it.
+#Don't bother localizing this. No human will ever see it.
 
 country_event = {
 	id = 50090
@@ -47711,3 +47711,45 @@ country_event = {
 
 }
 
+###########################
+### INFAMY DECAY OPTION ###
+###########################
+
+country_event = { 
+	id = 50425
+	title = "EVTNAME50425"
+	desc = "EVTDESC50425"
+	
+	is_triggered_only = yes	
+
+	
+	option = {
+		name = "EVT50425OPTA"
+		add_country_modifier = { name = infamy_decay_2 duration = 36525 }
+		any_country = {
+			add_country_modifier = { name = infamy_decay_2 duration = 36525 }
+		}
+	}
+	
+	option = {
+		name = "EVT50425OPTB"
+		add_country_modifier = { name = infamy_decay_4 duration = 36525 }
+		any_country = {
+			add_country_modifier = { name = infamy_decay_4 duration = 36525 }
+		}
+	}
+	
+	option = {
+		name = "EVT50425OPTC"
+		add_country_modifier = { name = infamy_decay_6 duration = 36525 }
+		any_country = {
+			add_country_modifier = { name = infamy_decay_6 duration = 36525 }
+		}
+	}
+	
+	option = {
+		name = "EVT50425OPTD"
+	}
+	
+
+}

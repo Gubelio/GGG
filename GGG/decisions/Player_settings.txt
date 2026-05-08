@@ -244,6 +244,26 @@ political_decisions = {
 		
     }
 	
+    infamy_decay_options = {
+	picture = "starting_options"
+        alert = no
+        potential = {
+			NOT = { year = 1309 }
+			ai = no
+			has_country_flag = player_settings_opened
+			NOT = { has_global_flag = infamy_decay_options }
+        }
+
+        allow = {
+        }
+
+        effect = {
+			set_global_flag = infamy_decay_options
+			country_event = { id = 50425 } 
+        }
+		
+    }
+	
 	open_encyclopedia = {
         alert = no
 		picture = encycl
