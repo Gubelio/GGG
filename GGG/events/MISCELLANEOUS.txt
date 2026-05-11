@@ -1573,22 +1573,6 @@ country_event = {
 				militancy = 1
 			}
 		}
-        if = {
-            limit = {
-                THIS = {
-                    is_ideology_enabled = statist
-                }
-            }
-            563 = {
-                any_pop = {
-                    ideology = {
-	                   factor = 0.07
-	                  value = staist
-                    }
-                }
-
-            }
-        }
 	}
 }
 
