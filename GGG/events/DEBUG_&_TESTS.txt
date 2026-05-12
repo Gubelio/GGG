@@ -96,6 +96,11 @@ country_event = {
 		name = "THANKS BUDDY"			
 		prestige = -10
 	}
+
+	option = {
+		name = "THANKS BUDDY"			
+		prestige = -50
+	}
 }
 
 country_event = {
