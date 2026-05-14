@@ -2247,7 +2247,7 @@ unification_release_puppet_cb = {
 		}
 	}
 
-    on_pop_accepted = {
+    on_po_accepted = {
         FROM = {
             remove_country_modifier = foreign_rule
             remove_country_modifier = new_overlordship
