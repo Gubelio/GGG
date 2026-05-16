@@ -286,12 +286,12 @@ migration_target = {
     }
 
     modifier = {
-        factor = 0.1
+        factor = 0
         terrain = small_island
     }
 
     modifier = {
-        factor = 0.01
+        factor = 0
         terrain = coral_island
     }
 
