@@ -201,8 +201,8 @@ migration_target = {
 	#
 	#}
 
-    modifier = {
-        factor = 0.1
+   modifier = {
+        factor = 0
         unemployment = 0.1
         state_scope = { has_factories = no }
     }
