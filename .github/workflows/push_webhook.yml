@@ -6,5 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: >-
-          curl -X POST -H 'Content-type: application/json'
-          --data '{"text":"This is a test!"}' "https://discord.com/api/webhooks/1520518388995063818/Kv30_K6keJOU4DRMf6NyMZxM8LI54_YP4lLBp1fIxyUcWSW7iIvbHDuUJg59X2SKBtao"
+          # Source - https://stackoverflow.com/a/58502729
+        # Posted by Efrat Levitan, modified by community. See post 'Timeline' for change history
+        # Retrieved 2026-06-28, License - CC BY-SA 4.0
+
+        "curl \"https://discord.com/api/webhooks/1520518388995063818/Kv30_K6keJOU4DRMf6NyMZxM8LI54_YP4lLBp1fIxyUcWSW7iIvbHDuUJg59X2SKBtao\" -H 'Content-Type: application/json' -d '{\"content\": {\"SimpleWebhookTest\"}}'\n"
+
