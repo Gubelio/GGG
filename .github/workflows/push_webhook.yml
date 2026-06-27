@@ -5,4 +5,7 @@ jobs:
   update-webhooks:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X "https://discord.com/api/webhooks/1520518388995063818/Kv30_K6keJOU4DRMf6NyMZxM8LI54_YP4lLBp1fIxyUcWSW7iIvbHDuUJg59X2SKBtao" \ -H "Content-Type: application/json" \ -d '{"content": "New Commit Pushed to GitHub"}'
+      - run: >-
+        curl -X "https://discord.com/api/webhooks/1520518388995063818/Kv30_K6keJOU4DRMf6NyMZxM8LI54_YP4lLBp1fIxyUcWSW7iIvbHDuUJg59X2SKBtao" \ 
+        -H "Content-Type: application/json" \ 
+        -d '{"content": "New Commit Pushed to GitHub"}'
