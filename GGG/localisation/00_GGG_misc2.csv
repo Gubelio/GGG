@@ -504,3 +504,5 @@ open_markets_setup;Force $RECIPIENT$ into a trade agreement with us, reducing th
 open_markets_desc;Force an enemy §Great Power§W to end their sanctions against us. Enough forced open markets will break the back of the sanctions regime against us.;;;;;;;;;;;;;x
 international_hegemon;International Hegemony;;;;;;;;;;;;;
 trading_in_pruub;Pruub Monopoly;;;;;;;;;;;;;
+NORMAL_WAR_MARKETS_NAME;$ORDER$$SECOND$-$FIRST$ Trade War;;;;;;;;;;;;;x
+AGGRESSION_WAR_MARKETS_NAME;$ORDER$$SECOND$-$FIRST$ Trade War;;;;;;;;;;;;;x
