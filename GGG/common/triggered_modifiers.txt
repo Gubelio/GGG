@@ -3,10 +3,24 @@
 #
 # Effects are fully scriptable here.
 
+trading_in_pruub = {
+	trigger = {
+		big_producer = opium
+	}
+	prestige = 0.1
+	loan_interest = -0.1
+	influence_modifier = 0.2
+}
+
 international_sanctions = {
         trigger = {
 			badboy = 1.3 # 46.8
             NOT = { has_global_flag = sanctions_disabled }
+	    NOT = { 
+		check_variable = {
+			which = international_hegemon
+			value = 4
+		}
         }
 
     import_cost = 0.5
@@ -16,6 +30,20 @@ international_sanctions = {
     war_exhaustion = 2.0
     core_pop_militancy_modifier = 0.1
     icon = 6
+}
+
+international_hegemon = {
+	trigger = {
+		rank = 3
+		check_variable = {
+			which = international_hegemon
+			value = 4
+		}
+	}
+	prestige = 0.1
+	diplomatic_points_modifier = 0.2
+	core_pop_militancy_modifier = -0.1
+	icon = 5
 }
 
 trinket_health_care_fully_funded = {

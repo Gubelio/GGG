@@ -38403,3 +38403,178 @@ country_event = {
         clr_country_flag = cb_check_done
 	}
 }
+
+country_event = {
+	id = 123124
+	title = "EVTNAME123124"
+	desc = "EVTDESC123124"
+	
+	is_triggered_only = yes
+	
+	allow_multiple_instances = no
+
+	trigger = {
+		ai = yes
+		exists = yes
+		OR = {
+			AND = {
+				has_country_flag = lost_containment_war
+			}
+			any_neighbor_country = {
+				ai = no
+				exists = yes
+				has_country_flag = lost_containment_war
+			}
+			any_greater_power = {
+				ai = no
+				has_country_flag = lost_containment_war
+			}
+		}
+	}
+	
+	option = {
+		name = "containment_cleanup_fired"
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which =  international_hegemon
+						value = 1
+					}
+					has_country_flag = lost_containment_war
+				}
+			}
+			THIS = {
+				change_variable = {
+					which = international_hegemon
+					value = -1
+				}
+				clr_country_flag = lost_containment_war
+			}
+		}
+		
+		any_country = {
+			limit = {
+				check_variable = {
+					which =  international_hegemon
+					value = 1
+				}
+				has_country_flag = lost_containment_war
+			}
+			change_variable = {
+				which = international_hegemon
+				value = -1
+			}
+			clr_country_flag = lost_containment_war
+			
+		}
+	}
+
+}
+
+country_event = {
+	id = 123125
+	title = "EVTNAME123125"
+	desc = "EVTDESC123125"
+	
+	is_triggered_only = yes
+	
+	allow_multiple_instances = no
+
+	trigger = {
+		ai = yes
+		exists = no
+		OR = {
+			AND = {
+				has_country_flag = won_hegemony_war
+			}
+			any_neighbor_country = {
+				ai = no
+				exists = yes
+				has_country_flag = won_hegemony_war
+			}
+			any_greater_power = {
+				ai = no
+				has_country_flag = won_hegemony_war
+			}
+		}
+	}
+	
+	option = {
+		name = "containment_cleanup_fired_2"
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which =  international_hegemon
+						value = 0
+					}
+					has_country_flag = won_hegemony_war
+				}
+			}
+			THIS = {
+				change_variable = {
+					which = international_hegemon
+					value = 1
+				}
+				clr_country_flag = won_hegemony_war
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = { 
+						check_variable = {
+							which =  international_hegemon
+							value = 0
+						}
+					}
+					has_country_flag = won_hegemony_war
+				}
+			}
+			THIS = {
+				set_variable = {
+					which = international_hegemon
+					value = 1
+				}
+				clr_country_flag = won_hegemony_war
+			}
+		}
+		
+		any_country = {
+			limit = {
+				check_variable = {
+					which =  international_hegemon
+					value = 0
+				}
+				has_country_flag = won_hegemony_war
+			}
+			change_variable = {
+				which = international_hegemon
+				value = 1
+			}
+			clr_country_flag = won_hegemony_war
+			
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which =  international_hegemon
+						value = 0
+					}
+				}
+				has_country_flag = won_hegemony_war
+			}
+			set_variable = {
+				which = international_hegemon
+				value = 1
+			}
+			clr_country_flag = won_hegemony_war
+			
+		}
+	}
+
+}
