@@ -438,6 +438,9 @@ country_event = {
 	}
          NOT = {
             has_country_flag = protected_lands_debate
+	    has_country_flag = asyum_integrated_strict
+	    has_country_flag = asyum_integrated_generous
+	    has_country_flag = integration_stalled
         }
     }
 
@@ -501,7 +504,7 @@ country_event = {
 	
 	option = {
         name = "These native dogs will surely subvert and destroy the state from within!"
-		
+		set_country_flag = integration_stalled
 		any_pop = {
 			limit = {
 				OR = {
