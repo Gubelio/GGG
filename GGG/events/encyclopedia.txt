@@ -6263,6 +6263,7 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
 		name = "Theocratism"
 		if = {
@@ -6303,6 +6304,55 @@ country_event = {
 	option = {
 		name = "Paternalistic Council"
 		country_event = { id = 50266 }
+	}
+	
+	option = {
+		name = "Pastoral Confederacy"
+		country_event = { id = 50428 }
+	}
+	
+	option = {
+		name = "Statist Bureaucracy"
+		if = {
+			limit = {
+				is_ideology_enabled = statist
+			}
+			THIS = {
+				country_event = { id = 50426 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = statist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
+	
+	option = {
+		name = "Grand Syndicate"
+		if = {
+			limit = {
+				is_ideology_enabled = statist
+			}
+			THIS = {
+				country_event = { id = 50427 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_ideology_enabled = statist
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
 	}
 
 
@@ -6395,6 +6445,63 @@ country_event = {
 	id = 50266
 	title = "EVT50266NAME" ##### Pat-Council
 	desc = "EVT50266DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50426
+	title = "EVT50426NAME" ##### Pastoral Confederacy
+	desc = "EVT50426DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50427
+	title = "EVT50427NAME" ##### Grand Syndicate
+	desc = "EVT50427DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Philosophy and Politics"
+		country_event = { id = 50153 }
+	}
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50428
+	title = "EVT50428NAME" ##### Pastoral Confederacy
+	desc = "EVT504286DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
