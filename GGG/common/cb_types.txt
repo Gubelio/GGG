@@ -1430,7 +1430,6 @@ liberate_country = {
 	sprite_index = 15
 	is_triggered_only = yes
 	months = 12
-	crisis = no
 
 	badboy_factor = 2.2
 	prestige_factor = 1
