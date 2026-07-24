@@ -1813,6 +1813,9 @@ demand_concession_casus_belli = {
 				tag = GHU
 				tag = NEX
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
 		}
 		THIS = {
 			NOT = {
@@ -1823,13 +1826,29 @@ demand_concession_casus_belli = {
 					}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 	}
@@ -1890,13 +1909,29 @@ demand_concession_casus_belli_1342 = {
 		}
 		civilized = no
 		number_of_states = 2
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 	}
@@ -2037,14 +2072,33 @@ establish_protectorate_casus_belli = {
 				tag = GHU
 				tag = NEX
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = { has_global_flag = double_the_pops }
@@ -2112,13 +2166,29 @@ establish_protectorate_casus_belli_1342 = {
 					machine_guns = 1
 					medicine = 1
 				}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = { has_global_flag = double_the_pops }
@@ -3052,13 +3122,29 @@ colonial_conquest_low = {
 				}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = { has_global_flag = double_the_pops }
@@ -3128,13 +3214,29 @@ colonial_conquest_tiny = {
 				}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = { has_global_flag = double_the_pops }
@@ -3204,13 +3306,29 @@ colonial_conquest_minuscule = {
 				}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = { has_global_flag = double_the_pops }
@@ -3271,7 +3389,12 @@ colonial_conquest_low_KF = {
 		}
 
 		capital_scope = { continent = south_america }
-		capital_scope = { is_coastal = yes }
+		OR = {
+			capital_scope = { is_coastal = yes }
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+		}
 		NOT = {
 			THIS = {
 				AND = {
@@ -3281,13 +3404,29 @@ colonial_conquest_low_KF = {
 					}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = {
@@ -3387,13 +3526,29 @@ demand_concession_casus_belli_KF = {
 
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 	}
@@ -3535,7 +3690,12 @@ take_colonial_concession_capital_KF = {
 			capital_scope = { continent = europe }
 		}
 		capital_scope = { continent = south_america }
-		capital_scope = { is_coastal = yes }
+		OR = {
+			capital_scope = { is_coastal = yes }
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+		}
 		NOT = {
 			THIS = {
 					AND = {
@@ -3545,13 +3705,29 @@ take_colonial_concession_capital_KF = {
 					}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = {
@@ -4164,14 +4340,33 @@ establish_protectorate_casus_belli = {
 				tag = GHU
 				tag = NEX
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		has_global_flag = double_the_pops
@@ -4239,13 +4434,29 @@ establish_protectorate_casus_belli_1342 = {
 					machine_guns = 1
 					medicine = 1
 				}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		has_global_flag = double_the_pops
@@ -4289,6 +4500,9 @@ colonial_conquest_low_dp = {
 				tag = GHU
 				tag = NEX
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
 		}
 		THIS = {
 			NOT = {
@@ -4299,13 +4513,29 @@ colonial_conquest_low_dp = {
 				}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		has_global_flag = double_the_pops
@@ -4365,6 +4595,10 @@ colonial_conquest_tiny_dp = {
 				tag = GHU
 				tag = NEX
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			
+			}
 		}
 		THIS = {
 			NOT = {
@@ -4375,13 +4609,29 @@ colonial_conquest_tiny_dp = {
 				}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		has_global_flag = double_the_pops
@@ -4450,14 +4700,33 @@ colonial_conquest_minuscule_dp = {
 					medicine = 1
 				}
 			}
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		has_global_flag = double_the_pops
@@ -4528,13 +4797,29 @@ colonial_conquest_low_KF_dp = {
 					}
 			}
 		}
-		NOT = {
-			OR = {
-				tag = NHQ
-				tag = PUS
-				tag = ORH
-				tag = FCH
-				tag = QOO
+		OR = {
+			THIS = {
+				capital_scope = { continent = south_america }
+			}
+			AND = {
+				OR = {
+					THIS = {
+						capital_scope = { continent = asia }
+						capital_scope = { continent = north_america }
+						capital_scope = { continent = africa }
+						capital_scope = { continent = oceania }
+						capital_scope = { continent = europe }
+					}
+				}
+				NOT = {
+					OR = {
+						tag = NHQ
+						tag = PUS
+						tag = ORH
+						tag = FCH
+						tag = QOO
+					}
+				}
 			}
 		}
 		NOT = {
