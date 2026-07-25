@@ -30,3 +30,5 @@ upper_house = { # inherit
 #flags
 
 set_country_flag = green_country
+
+oob = "AIO_oob.txt"

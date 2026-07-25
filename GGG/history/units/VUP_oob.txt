@@ -2,6 +2,8 @@
 
 #Armies
 
+
+
 army = {
     name = "War Party"
     location = 295
@@ -13,4 +15,3 @@ army = {
     }
 
 }
-

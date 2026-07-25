@@ -1,0 +1,20 @@
+#Relations
+
+#Armies
+
+leader = {
+    name = "Thian-Pai Puiri IV"
+    type = land
+    date = 1307.1.1
+    personality = careful
+    background = prince
+}
+
+leader = {
+    name = "Lat-Gana Puiri II"
+    type = land
+    date = 1306.1.1
+    personality = defiant
+    background = prince
+}
+

@@ -282,6 +282,16 @@ country_event = {
 		if = {
 			limit = {
 				THIS = {
+					tag = AIO
+				}
+			}
+			THIS = { 
+				country_event = { id = 50429 }
+			}
+		}
+		if = {
+			limit = {
+				THIS = {
 					NOT = {
 						OR = {
 							tag = POU
@@ -309,6 +319,7 @@ country_event = {
 							tag = PUS
 							tag = GHE
 							tag = KID
+							tag = AIO
 						}
 					}
 				}
@@ -338,6 +349,12 @@ country_event = {
 		name = "Philosophy and Politics"
 		country_event = { id = 50153 }
 	}
+	
+	#option = {
+	#	name = "The Species of the World"
+	#	country_event = { id = 504xx }
+	#
+	#}
 	
 	option = {
 		name = "Miscellany"
@@ -2069,6 +2086,12 @@ country_event = { #study gyahki
 
 
 #####################
+#### SPECIES ###########
+#####################
+
+
+
+#####################
 ######### NATIONS ####
 ######################
 
@@ -3172,6 +3195,26 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50429 
+	title = "EVTNAME50429" ##### AIO
+	desc = "EVTDESC40429"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Countries' Subheading"
+		country_event = { id = 50146 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 #####################
 #### CULTURES ########
 ####################
@@ -4169,7 +4212,36 @@ country_event = {
 	}
 	
 
-	
+	option = {
+		name = "The Ferroxaloids of the South"
+		if2 = {
+			limit = {
+				THIS = {
+					any_owned_province = {
+						continent = south_america
+					}
+				}
+			}
+			THIS = {
+				country_event = { id = 50430 }
+			}
+		}
+		
+		if2 = {
+			limit = {
+				NOT = {
+					THIS = {
+						any_owned_province = {
+							continent = south_america
+						}
+					}
+				}
+			}
+			THIS = {
+				country_event = { id = 50123 }
+			}
+		}
+	}
 
 	option = {
 		name = "Close Encylopedia"
@@ -5387,6 +5459,26 @@ country_event = {
 	id = 50345
 	title = "EVT50345NAME" ##### Ogrehi
 	desc = "EVT50345DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Cultures' Subheading"
+		country_event = { id = 50160 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50430
+	title = "EVTNAME50430" ##### Sothern Ferroxaloids
+	desc = "EVTDESC50430"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
