@@ -1827,8 +1827,8 @@ demand_concession_casus_belli = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -1910,8 +1910,8 @@ demand_concession_casus_belli_1342 = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -2077,8 +2077,8 @@ establish_protectorate_casus_belli = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -2167,8 +2167,8 @@ establish_protectorate_casus_belli_1342 = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3123,8 +3123,8 @@ colonial_conquest_low = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3215,8 +3215,8 @@ colonial_conquest_tiny = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3307,8 +3307,8 @@ colonial_conquest_minuscule = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3405,8 +3405,8 @@ colonial_conquest_low_KF = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3527,8 +3527,8 @@ demand_concession_casus_belli_KF = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -3706,8 +3706,8 @@ take_colonial_concession_capital_KF = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4345,8 +4345,8 @@ establish_protectorate_casus_belli = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4435,8 +4435,8 @@ establish_protectorate_casus_belli_1342 = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4514,8 +4514,8 @@ colonial_conquest_low_dp = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4610,8 +4610,8 @@ colonial_conquest_tiny_dp = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4705,8 +4705,8 @@ colonial_conquest_minuscule_dp = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
@@ -4798,8 +4798,8 @@ colonial_conquest_low_KF_dp = {
 				capital_scope = { continent = south_america }
 			}
 			AND = {
-				OR = {
-					THIS = {
+				THIS = {
+					OR = {
 						capital_scope = { continent = asia }
 						capital_scope = { continent = north_america }
 						capital_scope = { continent = africa }
