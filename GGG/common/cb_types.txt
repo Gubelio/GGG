@@ -2289,7 +2289,7 @@ unification_release_puppet_cb = {
 		}
 		NOT = {
 			is_culture_group = THIS
-		}		
+		}
 	}
 	
 	# THIS - us
@@ -2297,7 +2297,11 @@ unification_release_puppet_cb = {
 	# war target country of goal is scope
 	allowed_countries = {
 		is_our_vassal = FROM
-		FROM = { is_culture_group = THIS is_substate = no }
+		FROM = { 
+			exists = FROM
+			is_culture_group = THIS 
+			is_substate = no 
+		}
 	}
 	
 	po_release_puppet = yes
