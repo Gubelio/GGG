@@ -507,3 +507,7 @@ trading_in_pruub;Pruub Monopoly;;;;;;;;;;;;;
 peacetime_mobilisation_desc;The decision by the government to activate our mobilisation plans has caused widespread unrest and confusion, and fear in our neighbours.;;;;;;;;;;;;;
 NORMAL_WAR_MARKETS_NAME;$ORDER$$SECOND$-$FIRST$ Trade War;;;;;;;;;;;;;x
 AGGRESSION_WAR_MARKETS_NAME;$ORDER$$SECOND$-$FIRST$ Trade War;;;;;;;;;;;;;x
+conquest_dp;Conquest;;;;;;;;;;;;;x
+conquest_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_dp_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
+conquest_dp_desc;Annex a single-state §Ycountry§! with more than 900,000 pops;;;;;;;;;;;;;x
