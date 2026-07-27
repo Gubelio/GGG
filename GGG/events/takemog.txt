@@ -1,0 +1,51 @@
+country_event = { 
+    id = 50431 
+    title = "EVTNAME50431" 
+    desc = "EVTDESC50431"
+	picture = "takemog"
+
+	fire_only_once = yes
+
+
+    trigger = {
+		tag = TAK
+		NOT = {
+			has_country_flag = takemog_setup
+		}
+		month = 4
+    }
+
+
+    option = {
+        name = "Let us hope his ministry will last."
+		set_country_flag = takemog_setup
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				OR = {
+					type = officers
+					type = bureaucrats
+					type = aristocrats
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciouness = 1
+		}
+		
+		set_variable = {
+			which = barons_influence
+			value = 2
+		}
+		
+		set_variable = {
+			which = clergy_influence
+			value = 2
+		}
+		
+		set_variable = {
+			which = assembly_influence
+			value = 2
+		}
+	}
+}

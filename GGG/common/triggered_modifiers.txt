@@ -3,6 +3,115 @@
 #
 # Effects are fully scriptable here.
 
+
+powerful_barons = {
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = barons_influence
+			value = 3
+		}
+	}
+	
+	wealth_vote = 0.1
+	naval_organisation = 0.05
+	naval_unit_start_experience = 10
+	supply_consumption = 0.05
+	administrative_efficiency_modifier = -0.03
+	
+}
+
+weak_barons = {
+	trigger = {
+		tag = TAK
+		NOT = {
+			check_variable = {
+				which = barons_influence
+				value = 1
+			}
+		}
+	}
+	
+	wealth_vote = -0.05
+	naval_organisation = -0.02
+	naval_unit_start_experience = -5
+	supply_consumption = -0.05
+	administrative_efficiency_modifier = 0.01
+	
+}
+
+powerful_clergy = {
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = clergy_influence
+			value = 3
+		}
+	}
+	
+	middle_vote = 0.1
+	suppression_points_modifier = 0.2
+	mobilisation_economy_impact = -0.25
+	factory_cost = 0.1
+	social_reform_desire = -0.1
+	
+}
+
+weak_clergy = {
+	trigger = {
+		tag = TAK
+		NOT = {
+			check_variable = {
+				which = clergy_influence
+				value = 1
+			}
+		}
+	}
+	
+	middle_vote = -0.05
+	suppression_points_modifier = -0.1
+	mobilisation_economy_impact = 0.05
+	factory_cost = -0.05
+	social_reform_desire = 0.05
+	
+}
+
+powerful_assembly = {
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = assembly_influence
+			value = 3
+		}
+	}
+	
+	poor_vote = 0.1
+	administrative_efficiency_modifier = 0.02
+	political_reform_desire = 0.05
+	issue_change_speed = 0.1
+	min_social_spending = 0.1
+	
+}
+
+weak_assembly = {
+	trigger = {
+		tag = TAK
+		NOT = {
+			check_variable = {
+				which = assembly_influence
+				value = 1
+			}
+		}
+	}
+	
+	poor_vote = -0.05
+	administrative_efficiency_modifier = -0.01
+	political_reform_desire = -0.05
+	issue_change_speed = -0.05
+	min_social_spending = -0.1
+	
+}
+
 trading_in_pruub = {
 	trigger = {
 		big_producer = opium
