@@ -3,6 +3,33 @@
 ##################################################################################################
 
 
+baronial_dominance = {
+	rich_vote = 0.15
+	naval_organisation = 0.1
+	naval_unit_start_experience = 15
+	supply_consumption = 0.1
+	administrative_efficiency_modifier = -0.04
+	icon = 5
+}
+
+clerical_dominance = {
+	middle_vote = 0.15
+	suppression_points_modifier = 0.3
+	mobilisation_economy_impact = -0.3
+	factory_cost = 0.15
+	social_reform_desire = -0.15
+	icon = 5
+}
+
+assembly_dominance = {
+	poor_vote = 0.15
+	administrative_efficiency_modifier = 0.03
+	political_reform_desire = 0.1
+	issue_change_speed = 0.15
+	min_social_spending = 0.15
+	icon = 5
+}
+
 war_torn = {
     local_ruling_party_support = -0.5
     #pop_militancy_modifier = -0.1

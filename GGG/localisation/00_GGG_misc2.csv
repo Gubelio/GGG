@@ -511,6 +511,12 @@ conquest_dp;Conquest;;;;;;;;;;;;;x
 conquest_dp_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_dp_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_dp_desc;Annex a single-state §Ycountry§! with more than 900,000 pops;;;;;;;;;;;;;x
+baronial_dominance;Dominant Barons;;;;;;;;;;;;;x
+baronial_dominance_desc;The old and great aristocratic families have achieved total dominance of the privy council and the Takemogine government.;;;;;;;;;;;;;x
+clerical_dominance;Dominant Clerics;;;;;;;;;;;;;x
+clerical_dominance_desc;The temples and the clerical schools have acheived total dominance of privy council and the Takemogine government.;;;;;;;;;;;;;x
+assembly_dominance;Dominant Yewhaut;;;;;;;;;;;;;x
+assembly_dominance_desc;The Yewhaut, the municipal assembly of Siekakhz, traditionally the domain of the great merchants and their retainers, clients, and creatures, dominates the privy council and the Takemogine Government.;;;;;;;;;;;;;x
 powerful_barons;Powerful Barons;;;;;;;;;;;;;x
 weak_barons;Weak Barons;;;;;;;;;;;;;x
 powerful_clergy;Powerful Clergy;;;;;;;;;;;;;x

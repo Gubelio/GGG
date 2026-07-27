@@ -13,7 +13,7 @@ powerful_barons = {
 		}
 	}
 	
-	wealth_vote = 0.1
+	rich_vote = 0.1
 	naval_organisation = 0.05
 	naval_unit_start_experience = 10
 	supply_consumption = 0.05
@@ -32,7 +32,7 @@ weak_barons = {
 		}
 	}
 	
-	wealth_vote = -0.05
+	rich_vote = -0.05
 	naval_organisation = -0.02
 	naval_unit_start_experience = -5
 	supply_consumption = -0.05
