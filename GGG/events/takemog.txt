@@ -1,7 +1,7 @@
 country_event = { 
-    id = 50431 
-    title = "EVTNAME50431" 
-    desc = "EVTDESC50431"
+	id = 50431 
+	title = "EVTNAME50431" 
+	desc = "EVTDESC50431"
 	picture = "takemog"
 
 	fire_only_once = yes
@@ -50,3 +50,424 @@ country_event = {
 		}
 	}
 }
+
+country_event = { 
+	id = 50432 
+	title = "EVTNAME50432" 
+	desc = "EVTDESC50432"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50433 
+	title = "EVTNAME50433" 
+	desc = "EVTDESC50433"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50434 
+	title = "EVTNAME50434" 
+	desc = "EVTDESC50434"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50435 
+	title = "EVTNAME50435" 
+	desc = "EVTDESC50435"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50436 
+	title = "EVTNAME50436" 
+	desc = "EVTDESC50436"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50437 
+	title = "EVTNAME50437" 
+	desc = "EVTDESC50437"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50438 
+	title = "EVTNAME50438" 
+	desc = "EVTDESC50438"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50439 
+	title = "EVTNAME50439" 
+	desc = "EVTDESC50439"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50440 
+	title = "EVTNAME50440" 
+	desc = "EVTDESC50440"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50441 
+	title = "EVTNAME50441" 
+	desc = "EVTDESC50441"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50442
+	title = "EVTNAME50442" 
+	desc = "EVTDESC50437"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50443 
+	title = "EVTNAME50438" 
+	desc = "EVTDESC50438"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50444 
+	title = "EVTNAME50439" 
+	desc = "EVTDESC50439"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50445 
+	title = "EVTNAME50440" 
+	desc = "EVTDESC50440"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50446 
+	title = "EVTNAME50441" 
+	desc = "EVTDESC50441"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			mot_result = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
