@@ -1185,7 +1185,7 @@ conversion_chance =
 	modifier = { #shamushic revival
 		factor = 0.3
 		has_pop_culture = pruuntish
-		has_pop_culture = wompowushan
+		has_pop_religion = wompowushan
 		country = {
 			has_country_flag = we_are_shamush
 		}
