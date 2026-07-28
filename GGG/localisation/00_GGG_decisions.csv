@@ -88,7 +88,7 @@ fight_paknag_banditry_desc;There has been, sadly, a recent flare up on banditry 
 decide_our_national_objective_title;Decide Our National Objective;;;;;;;;;;;;;x
 decide_our_national_objective_desc;Our current government has not resolved on a national objective! The ministers of the new administration are suggesting a meeting of the cabinet to resolve on a broad policy and a number of objectives for the government.  §RNOTE: We must take a decision to choose a 'national objective' for the next ten years. This will provide our country with a number of modifiers by means of the vanilla national value system that will serve to effect this objective. You will have an opportunity to pick a new objective once this one ends. §!;;;;;;;;;;;;;x
 national_objective_assimilation_title;Assimilation;;;;;;;;;;;;;x
-national_objective_assimilation_desc;Assimilation Rate: §G+5.0%§!\nConsciousness for Non-Accepted: §R+0.01§!;;;;;;;;;;;;;x
+national_objective_assimilation_desc;Assimilation Rate: §G+5.0%§!\nReligious Conversion Chance: §G+0.15§!\nConsciousness for Non-Accepted: §R+0.01§!;;;;;;;;;;;;;x
 national_objective_research_title;National Research;;;;;;;;;;;;;x
 national_objective_research_desc;Research Points: §G+0.75§!\nResearch Points Modifier: §G+5.0%§!;;;;;;;;;;;;;x
 national_objective_administration_title;Effective Administration;;;;;;;;;;;;;x

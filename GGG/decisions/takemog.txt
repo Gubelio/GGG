@@ -53,6 +53,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			baron_status = { }
 			treasury = -25000
 			
 			any_pop = {
@@ -199,6 +200,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			clergy_status = { }
 			treasury = -25000
 		
 			any_pop = {
@@ -346,6 +348,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			assembly_status = { }
 			treasury = -15000
 		
 			any_pop = {
