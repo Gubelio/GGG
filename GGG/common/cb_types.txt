@@ -84,8 +84,8 @@ colonial_conquest_low
 colonial_conquest_low_KF
 colonial_conquest_tiny
 colonial_conquest_minuscule 
-establish_protectorate_casus_belli_dp 
-establish_protectorate_casus_belli_1342_dp
+#establish_protectorate_casus_belli_dp 
+#establish_protectorate_casus_belli_1342_dp
 colonial_conquest_low_dp
 colonial_conquest_low_KF_dp
 colonial_conquest_tiny_dp
@@ -2139,7 +2139,7 @@ establish_protectorate_casus_belli_1342 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 500000
+		total_pops = 550000
 		THIS = {
 			civilized = yes
 		}
@@ -3335,7 +3335,7 @@ colonial_conquest_minuscule = {
 		NOT = { has_global_flag = double_the_pops }
     }
 
-    badboy_factor = 0.3 #0.1
+    badboy_factor = 0.2 #0.1
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -4303,7 +4303,7 @@ establish_protectorate_casus_belli = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 900000
+		total_pops = 550000
 		#THIS = { civilized = yes }
 		OR = {
 			NOT = {
@@ -4411,7 +4411,7 @@ establish_protectorate_casus_belli_1342 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 900000
+		total_pops = 550000
 		THIS = {
 			civilized = yes
 		}
