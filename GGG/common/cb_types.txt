@@ -3151,7 +3151,7 @@ colonial_conquest_low = {
 		NOT = { has_global_flag = double_the_pops }
     }
 
-    badboy_factor = 1.2 #1.0
+    badboy_factor = 1.0 #1.2
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -3243,7 +3243,7 @@ colonial_conquest_tiny = {
 		NOT = { has_global_flag = double_the_pops }
     }
 
-    badboy_factor = 0.7 #0.7
+    badboy_factor = 0.4 #0.7
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -3335,7 +3335,7 @@ colonial_conquest_minuscule = {
 		NOT = { has_global_flag = double_the_pops }
     }
 
-    badboy_factor = 0.2 #0.1
+    badboy_factor = 0.1 #0.2
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -3442,7 +3442,7 @@ colonial_conquest_low_KF = {
 		NOT = { has_global_flag = double_the_pops }
     }
 
-    badboy_factor = 1.6
+    badboy_factor = 1.5
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -3478,7 +3478,7 @@ demand_concession_casus_belli_KF = {
 	construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 2
+	badboy_factor =1.9
 	prestige_factor = 0.1
 	peace_cost_factor = 0.6
 	penalty_factor = 1
@@ -3584,7 +3584,7 @@ demand_concession_casus_belli_EM = {
 	construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 1.5
+	badboy_factor = 1.6
 	prestige_factor = 0.1
 	peace_cost_factor = 0.6
 	penalty_factor = 1
@@ -4542,7 +4542,7 @@ colonial_conquest_low_dp = {
 		has_global_flag = double_the_pops
     }
 
-    badboy_factor = 1.2 #1.0
+    badboy_factor = 1.0 #1.2
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -4638,7 +4638,7 @@ colonial_conquest_tiny_dp = {
 		has_global_flag = double_the_pops
     }
 
-    badboy_factor = 0.7 #0.7
+    badboy_factor = 0.4 #0.7
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
@@ -4733,7 +4733,7 @@ colonial_conquest_minuscule_dp = {
 		has_global_flag = double_the_pops
     }
 
-    badboy_factor = 0.3 #0.1
+    badboy_factor = 0.1 #0.3
     prestige_factor = 5
     peace_cost_factor = 1
     penalty_factor = 1
