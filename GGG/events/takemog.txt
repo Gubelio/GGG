@@ -25,6 +25,7 @@ country_event = {
 				OR = {
 					type = officers
 					type = bureaucrats
+					type = capitalists
 					type = aristocrats
 					type = clergymen
 				}

@@ -1,0 +1,224 @@
+political_decisions = {
+
+	curtail_the_barons = {
+		#picture =
+		potential = {
+			tag = TAK
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				check_variable = {
+					which = barons_influence
+					value = 0
+				}
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+					NOT = {
+						check_variable = {
+							which = barons_influence
+							value = 0
+						}
+					}
+				}
+				
+				THIS = {
+					ai = yes
+					NOT = {
+						check_variable = {
+							which = barons_influence
+							value = 0
+						}
+					}
+					check_variable = {
+						which = barons_influence
+						value = 4
+					}
+					money = 30000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			treasury = -25000
+		
+			change_variable = {
+				which = barons_influence
+				value = -1
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = officers
+						type = aristocrats
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		
+		}
+	}
+	
+	curtail_the_clergy = {
+		#picture =
+		potential = {
+			tag = TAK
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				check_variable = {
+					which = clergy_influence
+					value = 0
+				}
+			}
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+					NOT = {
+						check_variable = {
+							which = clergy_influence
+							value = 0
+						}
+					}
+				}
+				
+				THIS = {
+					ai = yes
+					NOT = {
+						check_variable = {
+							which = clergy_influence
+							value = 0
+						}
+					}
+					check_variable = {
+						which = clergy_influence
+						value = 4
+					}
+					money = 30000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			treasury = -25000
+		
+			change_variable = {
+				which = clergy_influence
+				value = -1
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = clergymen
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		
+		}
+	}
+	
+	curtail_the_assembly = {
+		#picture =
+		potential = {
+			tag = TAK
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				check_variable = {
+					which = assembly_influence
+					value = 0
+				}
+			}
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+					NOT = {
+						check_variable = {
+							which = assembly_influence
+							value = 0
+						}
+					}
+				}
+				
+				THIS = {
+					ai = yes
+					NOT = {
+						check_variable = {
+							which = assembly_influence
+							value = 0
+						}
+					}
+					check_variable = {
+						which = assembly_influence
+						value = 4
+					}
+					money = 20000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			treasury = -15000
+		
+			change_variable = {
+				which = clergy_influence
+				value = -1
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = capitalists
+						type = bureaucrats
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		
+		}
+	}
+
+}
