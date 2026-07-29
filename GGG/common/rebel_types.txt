@@ -1400,6 +1400,14 @@ nationalist_rebels = {
             factor = 1.015
             NOT = { is_culture_group = THIS }
         }
+	modifier = {
+		factor 1.2
+		location = {
+			owner = {
+				nationalism_n_imperialism = 1
+			}
+		}
+	}
         #modifier = {
         #    factor = 2
         #    location = { has_province_modifier = nationalist_agitation }
