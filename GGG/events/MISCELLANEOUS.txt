@@ -4438,6 +4438,10 @@ country_event = {
 		any_neighbor_country  = {
 			limit = {
 				civilized = yes
+				relation = {
+					who = THIS
+					value = 50
+				}
 				ai = no
 				OR = {
 					government = princely_despotate
