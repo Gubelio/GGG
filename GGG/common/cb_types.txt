@@ -2239,6 +2239,11 @@ unification_humiliate_cb = {
 		is_culture_group = THIS
 		NOT = { is_cultural_union = THIS }
 		has_cultural_sphere = yes
+		THIS = {
+			NOT = {
+				tag = TGN
+			}
+		}
 	}
 	
 	po_clear_union_sphere = yes
@@ -2290,6 +2295,11 @@ unification_release_puppet_cb = {
 		}
 		NOT = {
 			is_culture_group = THIS
+		}
+		THIS = {
+			NOT = {
+				tag = TGN
+			}
 		}
 	}
 	
@@ -2372,6 +2382,11 @@ unification_casus_belli = {
 			}
 			not = { any_owned_province = { is_capital = yes } }
 		}
+		THIS = {
+			NOT = {
+				tag = TGN
+			}
+		}
 	}
 	allowed_states = {
 		any_owned_province = {
@@ -2437,6 +2452,11 @@ unification_annex_casus_belli = {
 			any_core = {
 				this_culture_union = this_union
 				is_cultural_union = yes
+			}
+		}
+		THIS = {
+			NOT = {
+				tag = TGN
 			}
 		}
 	}
