@@ -486,10 +486,15 @@ country_event = {
 			has_leader = "Sem Maswam the Great"
 		}
 		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
 		OR = {
-				government = princely_despotate
-				government = aristocratic_commonwealth
-			}
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1648,6 +1653,386 @@ country_event = {
 			}
 		}
 		election = yes
+	}
+}
+
+country_event = { 
+	id = 50448 
+	title = "EVTNAME50448" 
+	desc = "EVTDESC50448"
+	picture = "takemog"
+
+	trigger = {
+		tag = TAK
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+		any_owned_province = {
+			is_colonial = yes
+			is_coastal = yes
+			NOT = {
+				has_province_modifier = baronial_estates
+				has_province_modifier = clerical_estates
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+
+	option = {
+		name = "The Barons are right. Lands should be awarded to them."
+		
+		random_owned = {
+			limit = {
+				is_colonial = yes
+				is_coastal = yes
+			}
+			
+			add_province_modifier = {
+				name = baronial_estates
+				duration = -1
+			}
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = officers
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = barons_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50435 }
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = barons_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50434 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50433 }
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 3
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50432 }
+			}
+		
+		}
+		
+	
+		
+		change_variable = {
+			which = barons_influence
+			value = 1
+		}
+		
+		clr_country_flag = barons_up_check
+	}
+	
+	option = {
+		name = "The land should be left open to trade."
+		
+		treasury = 10000
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = aristocrats
+					type = officers
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50445 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50444 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50443 }
+			}
+		
+		}
+		
+		change_variable = {
+			which = assembly_influence
+			value = 1
+		}
+		
+		clr_country_flag = assembly_up_check
+	}
+	
+	option = {
+		name = "Where would we be if we chose to snub the clergymen?"
+		
+		random_owned = {
+			limit = {
+				is_colonial = yes
+				is_costal = yes
+			}
+			
+			add_province_modifier = {
+				name = clerical_estates
+				duration = -1
+			}
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = officers
+					
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50440 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50439 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50438 }
+			}
+		
+		}
+		
+		
+		
+		change_variable = {
+			which = clergy_influence
+			value = 1
+		}
+		
+		clr_country_flag = clergy_up_check
 	}
 }
 

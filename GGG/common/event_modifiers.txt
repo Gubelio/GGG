@@ -2,6 +2,24 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+baronial_estates = {
+	local_repair = 0.25
+	local_ship_build = 0.25
+	farm_rgo_size = -0.25
+	mine_rgo_size = -0.25
+	rich_income_modifier = 0.25
+	middle_life_needs = -0.25
+	icon = 33
+}
+
+clerical_estates = {
+	local_ruling_party_support = 0.25
+	farm_rgo_size = -0.25
+	mine_rgo_size = -0.25
+	middle_income_modifier = 0.25
+	rich_life_needs = -0.25
+	icon = 33
+}
 
 baronial_dominance = {
 	rich_vote = 0.15
