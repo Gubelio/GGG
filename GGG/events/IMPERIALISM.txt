@@ -587,7 +587,7 @@ country_event = {
 
     option = {
         name = "EVT50040OPTA"
-		badboy = 5
+		badboy = 2.8
 		
 		random_country = {
 			limit = { 
