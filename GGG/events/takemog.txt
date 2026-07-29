@@ -471,3 +471,1183 @@ country_event = {
 	}
 }
 
+country_event = { 
+	id = 50447 
+	title = "EVTNAME50447 " 
+	desc = "EVTDESC50447"
+	picture = "takemog"
+
+	fire_only_once = yes
+
+
+    trigger = {
+		tag = TAK
+		NOT = {
+			has_leader = "Sem Maswam the Great"
+		}
+		has_country_flag = takemog_setup
+		OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+
+	option = {
+		name = "The Baronial faction is best for our nation."			
+			any_pop = {
+				limit = {
+					OR = {
+						type = officers
+						type = aristocrats
+					}
+				}
+				militancy = -2
+				consciousness = -2
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = capitalists
+						type = bureaucrats
+						type = clergymen
+					}
+				}
+				militancy = 1
+				consciousness = 1
+			}
+			
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 0
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_up_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50434 }
+				}
+			
+			}
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = barons_up_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_up_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50433 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 2
+						}
+						NOT = {
+							has_country_flag = barons_up_check
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50432 }
+				}
+			
+			}
+			
+		change_variable = {
+			which = barons_influence
+			value = 2
+		}
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50441 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = clergy_influence
+					value = -1
+				}
+				
+				clr_country_flag = clergy_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50446 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = assembly_influence
+					value = -1
+				}
+				
+				clr_country_flag = assembly_down_check
+			}
+		}
+		election = yes
+	}
+	
+	option = {
+		name = "The clergy will doubtlessly protect virtue and the nation."
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciousness = -2
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 1
+			consciousness = 1
+		}
+	
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50439 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50438 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50437 }
+			}
+		
+		}
+		
+		
+		
+		change_variable = {
+			which = clergy_influence
+			value = 2
+		}
+		
+		clr_country_flag = clergy_up_check
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50436 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				
+				change_variable = {
+					which = barons_influence
+					value = -1
+				}
+				
+				clr_country_flag = barons_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50446 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = assembly_influence
+					value = -1
+				}
+				
+				clr_country_flag = assembly_down_check
+			}
+		}
+		election = yes
+	}
+	option = {
+		name = "The Merchants of the Yewhaut may not be nobles, but they are shrewd."
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			militancy = -2
+			consciousness = -2
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50444 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50443 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50442 }
+			}
+		
+		}
+	
+		
+		
+		change_variable = {
+			which = assembly_influence
+			value = 2
+		}
+		
+		clr_country_flag = assembly_up_check
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50441 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = clergy_influence
+					value = -1
+				}
+				
+				clr_country_flag = clergy_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50436 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				
+				change_variable = {
+					which = barons_influence
+					value = -1
+				}
+				
+				clr_country_flag = barons_down_check
+			}
+		}
+		election = yes
+	}
+	
+	option = {
+		name = "Too much meddling in the Sat risks unbalancing the nation."
+		random_list = {
+			34 = { 
+				
+		
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50432 }
+					}
+				
+				}
+				
+			
+				
+				change_variable = {
+					which = barons_influence
+					value = 1
+				}
+				
+				clr_country_flag = barons_up_check
+				
+			}
+			
+			33 = {  
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+				
+				
+				
+				change_variable = {
+					which = clergy_influence
+					value = 1
+				}
+				
+				clr_country_flag = clergy_up_check
+			}
+			33 = { 
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				
+				
+				change_variable = {
+					which = assembly_influence
+					value = 1
+				}
+				
+				clr_country_flag = assembly_up_check
+			}
+		}
+		election = yes
+	}
+}
+
