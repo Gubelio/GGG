@@ -1065,7 +1065,7 @@ conversion_chance =
 	#}
 	
 	modifier = {
-        factor = 0.1
+        factor = 0.13
         country = { government = theocracy }
     }
 
