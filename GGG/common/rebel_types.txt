@@ -1401,7 +1401,7 @@ nationalist_rebels = {
             NOT = { is_culture_group = THIS }
         }
 	modifier = {
-		factor 1.2
+		factor = 1.2
 		location = {
 			owner = {
 				nationalism_n_imperialism = 1
