@@ -1903,7 +1903,7 @@ country_event = {
 					is_greater_power = yes
 				}
 				ai = yes
-				prestige = 40
+				prestige = 15
 				civilized = yes
 			}
 			treasury = 50000
@@ -1916,7 +1916,7 @@ country_event = {
 					is_greater_power = yes
 				}
 				ai = yes
-				prestige = 20
+				prestige = 4
 				civilized = yes
 			}
 			treasury = 25000

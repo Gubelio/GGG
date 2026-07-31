@@ -419,7 +419,7 @@ country_event = { #LOST CIVILIZATION IN BOBIT?
 	
 	option = {
 		name = "EVT50106OPTA"
-		prestige = 30
+		prestige = 20
 		clr_country_flag = exploring_bafozh
 		set_global_flag = bobit_civ
 		change_variable = {
