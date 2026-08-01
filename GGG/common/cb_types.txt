@@ -177,7 +177,7 @@ treaty_port_casus_belli = {
     crisis = no
 
     badboy_factor = 1
-    prestige_factor = 0.5
+    prestige_factor = 0.2
     peace_cost_factor = 10
     penalty_factor = 2
 
@@ -424,7 +424,7 @@ conquest = {
 	}
 
 	badboy_factor = 1.8 #2.2
-	prestige_factor = 5
+	prestige_factor = 4
 	peace_cost_factor = 1
 	penalty_factor = 1
 	
@@ -492,7 +492,7 @@ conquest_low = {
     }
 
     badboy_factor = 1.0
-    prestige_factor = 5
+    prestige_factor = 2.5
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -560,7 +560,7 @@ conquest_tiny = {
     }
 
     badboy_factor = 0.5
-    prestige_factor = 5
+    prestige_factor = 1.5
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -629,7 +629,7 @@ conquest_minuscule = {
     }
 
     badboy_factor = 0.1
-    prestige_factor = 5
+    prestige_factor = 0.8
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -2530,7 +2530,7 @@ take_capital = {
     construction_speed = 0.5
 
     badboy_factor = 2.4 #3
-    prestige_factor = 10
+    prestige_factor = 6
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -3172,7 +3172,7 @@ colonial_conquest_low = {
     }
 
     badboy_factor = 1.0 #1.2
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -3264,7 +3264,7 @@ colonial_conquest_tiny = {
     }
 
     badboy_factor = 0.4 #0.7
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -3356,7 +3356,7 @@ colonial_conquest_minuscule = {
     }
 
     badboy_factor = 0.1 #0.2
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -3463,7 +3463,7 @@ colonial_conquest_low_KF = {
     }
 
     badboy_factor = 1.5
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -3922,7 +3922,7 @@ pruuntish_conquest = {
 	}
 
 	badboy_factor = 2.2
-	prestige_factor = 5
+	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
 	
@@ -4130,7 +4130,7 @@ conquest_low_dp = {
     }
 
     badboy_factor = 1.0
-    prestige_factor = 5
+    prestige_factor = 2.3
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4198,7 +4198,7 @@ conquest_tiny_dp = {
     }
 
     badboy_factor = 0.5
-    prestige_factor = 5
+    prestige_factor = 0.8
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4267,7 +4267,7 @@ conquest_minuscule_dp = {
     }
 
     badboy_factor = 0.1
-    prestige_factor = 5
+    prestige_factor = 0.5
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4297,203 +4297,6 @@ conquest_minuscule_dp = {
 
 ### colonial CBS
 
-# Establish Protectorate
-establish_protectorate_casus_belli = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 0
-	construction_speed = 1.2
-	crisis = no
-	
-	badboy_factor = 1.5 #1
-	prestige_factor = 1
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 12
-	
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-	
-	always = no
-	
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		total_pops = 550000
-		#THIS = { civilized = yes }
-		OR = {
-			NOT = {
-				number_of_states = 2 
-			}
-			AND = {
-				THIS = {
-					AND = {
-						is_greater_power = yes
-						nationalism_n_imperialism = 1
-					}
-				}
-				NOT = { number_of_states = 5 }
-			}
-		}
-		civilized = no
-		THIS = {
-			NOT = {
-					AND = {
-						nationalism_n_imperialism = 1
-						machine_guns = 1
-						medicine = 1
-					}
-				}
-		}
-		OR = {
-			capital_scope = { continent = asia }
-			capital_scope = { continent = north_america }
-			capital_scope = { continent = africa }
-			capital_scope = { continent = oceania }
-			capital_scope = { continent = europe }
-			OR = {
-				tag = TIA
-				tag = VUN
-				tag = GHU
-				tag = NEX
-			}
-			THIS = {
-				capital_scope = { continent = south_america }
-			}
-		}
-		OR = {
-			THIS = {
-				capital_scope = { continent = south_america }
-			}
-			AND = {
-				THIS = {
-					OR = {
-						capital_scope = { continent = asia }
-						capital_scope = { continent = north_america }
-						capital_scope = { continent = africa }
-						capital_scope = { continent = oceania }
-						capital_scope = { continent = europe }
-					}
-				}
-				NOT = {
-					OR = {
-						tag = NHQ
-						tag = PUS
-						tag = ORH
-						tag = FCH
-						tag = QOO
-					}
-				}
-			}
-		}
-		has_global_flag = double_the_pops
-	}
-	
-	po_annex = yes
-	
-	war_name = WAR_PROTECTORATE_NAME
-
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.1
-		}
-	}
-}
-
-establish_protectorate_casus_belli_1342 = {
-	sprite_index = 22
-	is_triggered_only = yes
-	months = 0
-	construction_speed = 1.2
-	crisis = no
-	
-	badboy_factor = 0.3 #1
-	prestige_factor = 1
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 12
-	
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-	
-	always = no
-	
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		THIS = {
-			civilized = yes
-		}
-		OR = {
-			NOT = {
-				number_of_states = 2 
-			}
-			AND = {
-				THIS = {
-					AND = {
-						is_greater_power = yes
-						nationalism_n_imperialism = 1
-					}
-				}
-				NOT = { number_of_states = 5 }
-			}
-		}
-		civilized = no
-		THIS = {
-					nationalism_n_imperialism = 1
-					machine_guns = 1
-					medicine = 1
-				}
-		OR = {
-			THIS = {
-				capital_scope = { continent = south_america }
-			}
-			AND = {
-				THIS = {
-					OR = {
-						capital_scope = { continent = asia }
-						capital_scope = { continent = north_america }
-						capital_scope = { continent = africa }
-						capital_scope = { continent = oceania }
-						capital_scope = { continent = europe }
-					}
-				}
-				NOT = {
-					OR = {
-						tag = NHQ
-						tag = PUS
-						tag = ORH
-						tag = FCH
-						tag = QOO
-					}
-				}
-			}
-		}
-		has_global_flag = double_the_pops
-	}
-	
-	po_annex = yes
-	
-	war_name = WAR_PROTECTORATE_NAME
-
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.1
-		}
-	}
-}
 
 colonial_conquest_low_dp = {
     sprite_index = 7
@@ -4562,7 +4365,7 @@ colonial_conquest_low_dp = {
     }
 
     badboy_factor = 1.0 #1.2
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4658,7 +4461,7 @@ colonial_conquest_tiny_dp = {
     }
 
     badboy_factor = 0.4 #0.7
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4753,7 +4556,7 @@ colonial_conquest_minuscule_dp = {
     }
 
     badboy_factor = 0.1 #0.3
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
@@ -4855,7 +4658,7 @@ colonial_conquest_low_KF_dp = {
     }
 
     badboy_factor = 1.6
-    prestige_factor = 5
+    prestige_factor = 0.1
     peace_cost_factor = 1
     penalty_factor = 1
 
