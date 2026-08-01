@@ -95,10 +95,10 @@ country = {
 
 economy = {
     MAX_DAILY_RESEARCH            = 100,
-    LOAN_BASE_INTEREST            = 0.02,
+    LOAN_BASE_INTEREST            = 0.01,
     BANKRUPTCY_EXTERNAL_LOAN_YEARS    = 10,
     BANKRUPTCY_FACTOR = 0.2,
-    SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 300000,
+    SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 1000000,
     MAX_LOAN_CAP_FROM_BANKS = 20, -- can loan max % of country tax base from single country
     GUNBOAT_LOW_TAX_CAP = 0.0,
     GUNBOAT_HIGH_TAX_CAP = 1.0,
@@ -113,8 +113,8 @@ economy = {
     CIV_BASE_SHARE_FACTOR = 0.75,
     UNCIV_BASE_SHARE_FACTOR = 1,
     FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.6, -- % of how much we pay to the pops and capitalists, from the leftovers.
-    MAX_FACTORY_MONEY_SAVE = 1000,    -- how much money is stored maximum in a factory.
-    SMALL_DEBT_LIMIT = 20000,
+    MAX_FACTORY_MONEY_SAVE = 10000,    -- how much money is stored maximum in a factory.
+    SMALL_DEBT_LIMIT = 50000,
     FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.7, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
     RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,    -- how fast pops are Hired when there is a high demand
     RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,    -- how fast pops are Hired when there is a medium demand
