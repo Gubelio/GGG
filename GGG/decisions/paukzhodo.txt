@@ -35,15 +35,13 @@ political_decisions = {
                     }
 
                 }
-		THIS = {
-			war = {
-				target = HUP
-				attacker_goal = { casus_belli = swallow_me_whole }
-				call_ally = no
+		HUP = {
+			country_event = {
+				id = 50448
 			}
 		}
             }
-		}
+	}
 	}
 
 	conquer_ngjutto = {
@@ -80,11 +78,9 @@ political_decisions = {
                     }
 
                 }
-		THIS = {
-			war = {
-				target = NGJ
-				attacker_goal = { casus_belli = swallow_me_whole }
-				call_ally = no
+		NGJ = {
+			country_event = {
+				id = 50448
 			}
 		}
             }

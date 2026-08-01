@@ -3771,6 +3771,34 @@ country_event = { #Victim of Vokonazhi aggression AI ONLY
 	}
 }
 
+country_event = { #AI_aggression_event_colonial
+	id = 50448
+	title = "EVTNAME50448"
+	desc = "EVTDESC50448"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT50225OPTA"
+		FROM = {
+            relation = {
+                who = THIS
+                value = -200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = -200
+            }
+			war = {
+				target = THIS
+				attacker_goal = { 
+					casus_belli = swallow_me_whole
+				}
+			}
+		}
+	}
+}
+
 
 ######################
 #### CONSTITUTION ####
