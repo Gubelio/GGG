@@ -35,14 +35,12 @@ everyday_needs = {
     coffee = 2.2            #2.1
     tobacco = 1.1            #1.1
 	mollusc_oil = 0.1
+    paper = 5.5
+    canned_food = 0.75
 }
 
 #Total cash needed: 448.9 - Vanilla value: 383.4
 luxury_needs = {
-    paper = 5.5
-    canned_food = 0.75
-    fruit = 1.1
-    wool = 3.3
     opium = 1.1
     luxury_clothes = 1.1
     luxury_furniture = 1.1

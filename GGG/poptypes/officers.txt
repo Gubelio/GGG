@@ -44,8 +44,7 @@ life_needs = {
 #Total cash needed: 151 - Vanilla value: 119.1
 everyday_needs = {
     coal = 2.2            #4.6
-    liquor = 4.4            #17.6
-    #wine = 1.1
+    liquor = 6.0            #17.6
     regular_clothes = 5.5 #29
     furniture = 4.4        #19.6
     paper = 5.5            #17
@@ -58,26 +57,22 @@ everyday_needs = {
     radio = 0.6            #8
     telephones = 0.6    #8
     artillery = 0.1
-    steel = 0.25
-    cement = 0.25
+    steel = 0.5
+    cement = 0.5
     lumber = 0.5
+    canned_food = 0.75
 	mollusc_oil = 0.1
 }
 
 #Total cash needed: 437.4 - Vanilla value: 383.4
 luxury_needs = {
-    steel = 0.25
-    cement = 0.25
-    lumber = 0.25
-    canned_food = 0.75
-    fruit = 1.1
-    wool = 3.3
+    
     opium = 2
     luxury_clothes = 1.1
     luxury_furniture = 1.1
     telephones = 1.5
     automobiles = 1.1
-    wine = 10
+    wine = 12
     aeroplanes = 0.5
     radio = 1.1
     fuel = 0.3

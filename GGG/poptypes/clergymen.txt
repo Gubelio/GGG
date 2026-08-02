@@ -55,16 +55,11 @@ everyday_needs = {
     cement = 0.1
     lumber = 0.1
 	mollusc_oil = 0.1
+    canned_food = 0.75
 }
 
 #Total cash needed: 388.6 - Vanilla value: 383.4
 luxury_needs = {
-    steel = 0.25
-    cement = 0.25
-    lumber = 0.25
-    canned_food = 0.75
-    fruit = 1.1
-    wool = 3.3
     opium = 1.1
     luxury_clothes = 1.1
     luxury_furniture = 1.1

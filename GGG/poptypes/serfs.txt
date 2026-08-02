@@ -40,16 +40,16 @@ everyday_needs = {
 luxury_needs = {
     regular_clothes = 2.2
     furniture = 3.3
-    liquor = 1.65
+    #liquor = 1.65
     wine = 1.1
     coffee = 3.3
-    tobacco = 3.3
+    #tobacco = 3.3
     paper = 1.1
     telephones = 1.1
     automobiles = 0.65
     radio = 1.1
     fuel = 0.12
-    opium = 2.2
+    #opium = 2.2
 }
 
 country_migration_target = {

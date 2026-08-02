@@ -22,10 +22,11 @@ life_needs = {
 
 #Total cash needed: 110.725 - Vanilla value: 116.9
 everyday_needs = {
+    canned_food = 1.0
     coal = 1.1
     liquor = 5.5
     regular_clothes = 5.5
-    furniture = 4.4
+    furniture = 5.4
     paper = 5.5
     glass = 1.1
     tobacco = 3.3
@@ -36,12 +37,12 @@ everyday_needs = {
 
 #Total cash needed: 429.2 - Vanilla value: 383.4
 luxury_needs = {
-    canned_food = 0.75
-    furniture = 2.2
-    regular_clothes = 1.1
-    paper = 2.1
-    fruit = 1.1
-    wool = 3.3
+    
+    #furniture = 2.2
+    #regular_clothes = 1.1
+    #paper = 2.1
+    #fruit = 1.1
+    #wool = 3.3
     opium = 1.1
     luxury_clothes = 1.1
     luxury_furniture = 1.1
