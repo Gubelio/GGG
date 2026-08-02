@@ -4477,6 +4477,9 @@ country_event = {
 					government = theocracy
 				}
 				war = no
+				NOT = {
+					has_country_modifier = heard_calls_for_aid
+				}
 			}
 			country_event = { 
 				id = 50303
@@ -4507,6 +4510,10 @@ country_event = {
 			who = FROM
 			value = 50
 		}
+		set_country_modifier = {
+			name = heard_calls_for_aid
+			duration = 720
+		}
 	}
 	
 	option = { #No
@@ -4514,6 +4521,10 @@ country_event = {
 		relation = {
 			who = FROM
 			value = -100
+		}
+		set_country_modifier = {
+			name = heard_calls_for_aid
+			duration = 720
 		}
 	}
 }
