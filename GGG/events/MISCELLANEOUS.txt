@@ -4510,7 +4510,7 @@ country_event = {
 			who = FROM
 			value = 50
 		}
-		set_country_modifier = {
+		add_country_modifier = {
 			name = heard_calls_for_aid
 			duration = 720
 		}
@@ -4522,7 +4522,7 @@ country_event = {
 			who = FROM
 			value = -100
 		}
-		set_country_modifier = {
+		add_country_modifier = {
 			name = heard_calls_for_aid
 			duration = 720
 		}
