@@ -530,3 +530,5 @@ jur_worship_tollerated;J'ur Worship Tollerated;;;;;;;;;;;;;x
 SHADOWY_INVESTOR;Government Mints;;;;;;;;;;;;;x
 heard_calls_for_aid;Heard Calls for Aid;;;;;;;;;;;;;x
 heard_calls_for_aid_desc;We have recieved diplomats from another country requesting our aid in putting down rebellion.;;;;;;;;;;;;x
+NORMAL_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;
+AGGRESSION_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;
