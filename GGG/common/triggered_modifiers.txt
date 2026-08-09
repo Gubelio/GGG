@@ -142,14 +142,14 @@ weak_assembly = {
 	
 }
 
-trading_in_pruub = {
-	trigger = {
-		big_producer = opium
-	}
-	#prestige = 0.1
-	loan_interest = -0.1
-	influence_modifier = 0.2
-}
+#trading_in_pruub = {
+#	trigger = {
+#		big_producer = opium
+#	}
+#	#prestige = 0.1
+#	loan_interest = -0.1
+#	influence_modifier = 0.2
+#}
 
 international_sanctions = {
         trigger = {
