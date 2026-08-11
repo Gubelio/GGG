@@ -8,7 +8,7 @@ heard_calls_for_aid = {
 
 baronial_estates = {
 	local_repair = 0.25
-	local_ship_build = 0.25
+	local_ship_build = -0.25
 	farm_rgo_size = -0.25
 	mine_rgo_size = -0.25
 	rich_income_modifier = 0.25

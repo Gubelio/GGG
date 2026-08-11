@@ -1,6 +1,6 @@
 color = { 81 188 174 }
-paternalistic_council = { 25 119 0 }
-pastoral_confederacy = { 25 119 0 }
+paternalistic_council = {120 194 100 }
+pastoral_confederacy = { 120 194 100 }
 graphical_culture = EuropeanGC # inherit
 
 party = {

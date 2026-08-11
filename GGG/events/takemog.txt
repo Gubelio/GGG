@@ -48,6 +48,27 @@ country_event = {
 			which = assembly_influence
 			value = 2
 		}
+		
+		random_country = {
+			limit = {
+				ai = yes
+			}
+			country_event = { id = 50434 }
+		}
+				
+		random_country = {
+			limit = {
+				ai = yes
+			}
+			country_event = { id = 50439  }
+		}
+				
+		random_country = {
+			limit = {
+				ai = yes
+			}
+			country_event = { id =  50444  }
+		}
 	}
 }
 
@@ -527,13 +548,15 @@ country_event = {
 				consciousness = 1
 			}
 			
-		
 			if = {
 				limit = {
 					THIS = {
 						check_variable = {
 							which = barons_influence
-							value = 0
+							value = 2
+						}
+						NOT = {
+							has_country_flag = barons_up_check
 						}
 					}
 				}
@@ -544,10 +567,12 @@ country_event = {
 					limit = {
 						ai = yes
 					}
-					country_event = { id = 50434 }
+					country_event = { id = 50432 }
 				}
+				
 			
 			}
+			
 			if = {
 				limit = {
 					THIS = {
@@ -571,42 +596,50 @@ country_event = {
 				}
 			
 			}
-			
+		
 			if = {
 				limit = {
 					THIS = {
 						check_variable = {
 							which = barons_influence
-							value = 2
+							value = 0
 						}
 						NOT = {
 							has_country_flag = barons_up_check
 						}
 					}
 				}
-				
+				THIS = {
+					set_country_flag = barons_up_check
+				}
 				random_country = {
 					limit = {
 						ai = yes
 					}
-					country_event = { id = 50432 }
+					country_event = { id = 50434 }
 				}
-				
 			
 			}
 			
-		change_variable = {
-			which = barons_influence
-			value = 2
-		}
+			
+			clr_country_flag = barons_up_check	
+				
+			change_variable = {
+				which = barons_influence
+				value = 2
+			}
 		random_list = {
 			50 = {
+				
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 1
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
 							}
 						}
 					}
@@ -617,11 +650,35 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50441 }
+						country_event = { id = 50438 }
 					}
 				
 				}
 				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+			
 				if = {
 					limit = {
 						THIS = {
@@ -651,12 +708,13 @@ country_event = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 3
+								value = 1
 							}
 							NOT = {
 								has_country_flag = clergy_down_check
 							}
 						}
+						
 					}
 					THIS = {
 						set_country_flag = clergy_down_check
@@ -665,31 +723,12 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50439 }
+						country_event = { id = 50441 }
 					}
 				
 				}
 				
-				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = clergy_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = clergy_down_check
-							}
-						}
-					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50438 }
-					}
 				
-				}
 			
 				change_variable = {
 					which = clergy_influence
@@ -700,94 +739,100 @@ country_event = {
 			}
 			50 = {
 				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 1
-							}
-						}
-					}
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 4
 						}
-						country_event = { id = 50446 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 2
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50443 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 3
 						}
-						country_event = { id = 50445 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 3
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50444 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 2
 						}
-						country_event = { id = 50444 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50443 }
-					}
-				
+					country_event = { id = 50445 }
 				}
+			
+			}
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50446 }
+				}
+			
+			}
 			
 				change_variable = {
 					which = assembly_influence
@@ -824,13 +869,16 @@ country_event = {
 			militancy = 1
 			consciousness = 1
 		}
-	
+		
 		if = {
 			limit = {
 				THIS = {
 					check_variable = {
 						which = clergy_influence
-						value = 0
+						value = 2
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
 					}
 				}
 			}
@@ -841,7 +889,7 @@ country_event = {
 				limit = {
 					ai = yes
 				}
-				country_event = { id = 50439 }
+				country_event = { id = 50437 }
 			}
 		
 		}
@@ -869,27 +917,34 @@ country_event = {
 			}
 		
 		}
-		
+	
 		if = {
 			limit = {
 				THIS = {
 					check_variable = {
 						which = clergy_influence
-						value = 2
+						value = 0
 					}
 					NOT = {
 						has_country_flag = clergy_up_check
 					}
 				}
 			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
 			random_country = {
 				limit = {
 					ai = yes
 				}
-				country_event = { id = 50437 }
+				country_event = { id = 50439 }
 			}
 		
 		}
+		
+		
+		clr_country_flag = clergy_up_check
+		
 		
 		
 		
@@ -902,94 +957,100 @@ country_event = {
 		random_list = {
 			50 = {
 				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 1
-							}
-						}
-					}
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 4
 						}
-						country_event = { id = 50436 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 2
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50433 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 3
 						}
-						country_event = { id = 50435 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 3
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50434 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 2
 						}
-						country_event = { id = 50434 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50433 }
-					}
-				
+					country_event = { id = 50435 }
 				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = barons_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50436 }
+				}
+			
+			}
 				
 				change_variable = {
 					which = barons_influence
@@ -1000,94 +1061,100 @@ country_event = {
 			}
 			50 = {
 				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 1
-							}
-						}
-					}
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 4
 						}
-						country_event = { id = 50446 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 2
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50443 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 3
 						}
-						country_event = { id = 50445 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 3
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50444 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = assembly_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = assembly_influence
+							value = 2
 						}
-						country_event = { id = 50444 }
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = assembly_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = assembly_down_check
-							}
-						}
+						ai = yes
 					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50443 }
-					}
-				
+					country_event = { id = 50445 }
 				}
+			
+			}
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50446 }
+				}
+			
+			}
 			
 				change_variable = {
 					which = assembly_influence
@@ -1129,7 +1196,10 @@ country_event = {
 				THIS = {
 					check_variable = {
 						which = assembly_influence
-						value = 0
+						value = 2
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
 					}
 				}
 			}
@@ -1140,7 +1210,7 @@ country_event = {
 				limit = {
 					ai = yes
 				}
-				country_event = { id = 50444 }
+				country_event = { id = 50442 }
 			}
 		
 		}
@@ -1174,23 +1244,28 @@ country_event = {
 				THIS = {
 					check_variable = {
 						which = assembly_influence
-						value = 2
+						value = 0
 					}
 					NOT = {
 						has_country_flag = assembly_up_check
 					}
 				}
 			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
 			random_country = {
 				limit = {
 					ai = yes
 				}
-				country_event = { id = 50442 }
+				country_event = { id = 50444 }
 			}
 		
 		}
-	
 		
+		
+		clr_country_flag = assembly_up_check
+	
 		
 		change_variable = {
 			which = assembly_influence
@@ -1205,7 +1280,10 @@ country_event = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 1
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
 							}
 						}
 					}
@@ -1216,11 +1294,35 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50441 }
+						country_event = { id = 50438 }
 					}
 				
 				}
 				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+			
 				if = {
 					limit = {
 						THIS = {
@@ -1250,12 +1352,13 @@ country_event = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 3
+								value = 1
 							}
 							NOT = {
 								has_country_flag = clergy_down_check
 							}
 						}
+						
 					}
 					THIS = {
 						set_country_flag = clergy_down_check
@@ -1264,28 +1367,7 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50439 }
-					}
-				
-				}
-				
-				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = clergy_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = clergy_down_check
-							}
-						}
-					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50438 }
+						country_event = { id = 50441 }
 					}
 				
 				}
@@ -1299,94 +1381,100 @@ country_event = {
 			}
 			50 = {
 				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 1
-							}
-						}
-					}
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 4
 						}
-						country_event = { id = 50436 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 2
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50433 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 3
 						}
-						country_event = { id = 50435 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 3
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
+					country_event = { id = 50434 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
 					THIS = {
-						set_country_flag = barons_down_check
-					}
-					random_country = {
-						limit = {
-							ai = yes
+						check_variable = {
+							which = barons_influence
+							value = 2
 						}
-						country_event = { id = 50434 }
+						NOT = {
+							has_country_flag = barons_down_check
+						}
 					}
-				
 				}
-				
-				if = {
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
 					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 4
-							}
-							NOT = {
-								has_country_flag = barons_down_check
-							}
-						}
+						ai = yes
 					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50433 }
-					}
-				
+					country_event = { id = 50435 }
 				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = barons_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50436 }
+				}
+			
+			}
 				
 				change_variable = {
 					which = barons_influence
@@ -1404,13 +1492,15 @@ country_event = {
 		random_list = {
 			34 = { 
 				
-		
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = barons_influence
-								value = 0
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_up_check
 							}
 						}
 					}
@@ -1421,10 +1511,35 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50435 }
+						country_event = { id = 50432 }
 					}
 				
 				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				
 				if = {
 					limit = {
 						THIS = {
@@ -1448,49 +1563,33 @@ country_event = {
 					}
 				
 				}
-				
+		
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = barons_influence
-								value = 2
+								value = 0
 							}
 							NOT = {
 								has_country_flag = barons_up_check
 							}
 						}
 					}
-					random_country = {
-						limit = {
-							ai = yes
-						}
-						country_event = { id = 50433 }
-					}
-				
-				}
-				if = {
-					limit = {
-						THIS = {
-							check_variable = {
-								which = barons_influence
-								value = 3
-							}
-							NOT = {
-								has_country_flag = barons_up_check
-							}
-						}
+					THIS = {
+						set_country_flag = barons_up_check
 					}
 					random_country = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50432 }
+						country_event = { id = 50435 }
 					}
 				
 				}
 				
-			
+				
+				
 				
 				change_variable = {
 					which = barons_influence
@@ -1502,12 +1601,16 @@ country_event = {
 			}
 			
 			33 = {  
+			
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 0
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
 							}
 						}
 					}
@@ -1518,7 +1621,31 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50440 }
+						country_event = { id = 50437 }
+					}
+				
+				}
+			
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
 					}
 				
 				}
@@ -1546,27 +1673,33 @@ country_event = {
 					}
 				
 				}
-				
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = clergy_influence
-								value = 2
+								value = 0
 							}
 							NOT = {
 								has_country_flag = clergy_up_check
 							}
 						}
 					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
 					random_country = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50438 }
+						country_event = { id = 50440 }
 					}
 				
 				}
+				
+				
+				
+			
 				
 				
 				
@@ -1578,12 +1711,16 @@ country_event = {
 				clr_country_flag = clergy_up_check
 			}
 			33 = { 
+			
 				if = {
 					limit = {
 						THIS = {
 							check_variable = {
 								which = assembly_influence
-								value = 0
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
 							}
 						}
 					}
@@ -1594,11 +1731,35 @@ country_event = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50445 }
+						country_event = { id = 50442 }
 					}
 				
 				}
+			
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
 				
+				}
+			
 				if = {
 					limit = {
 						THIS = {
@@ -1628,21 +1789,28 @@ country_event = {
 						THIS = {
 							check_variable = {
 								which = assembly_influence
-								value = 2
+								value = 0
 							}
 							NOT = {
 								has_country_flag = assembly_up_check
 							}
 						}
 					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
 					random_country = {
 						limit = {
 							ai = yes
 						}
-						country_event = { id = 50443 }
+						country_event = { id = 50445 }
 					}
 				
 				}
+				
+				
+				
+				
 			
 				
 				
@@ -1659,9 +1827,9 @@ country_event = {
 }
 
 country_event = { 
-	id = 50448 
-	title = "EVTNAME50448" 
-	desc = "EVTDESC50448"
+	id = 50450 
+	title = "EVTNAME50450" 
+	desc = "EVTDESC50450"
 	picture = "takemog"
 
 	trigger = {
@@ -1728,89 +1896,100 @@ country_event = {
 		}
 		
 		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = barons_influence
-						value = 0
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
 					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50432 }
+					}
+				
 				}
-			}
-			THIS = {
-				set_country_flag = barons_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
 				}
-				country_event = { id = 50435 }
-			}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
 		
-		}
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = barons_influence
-						value = 1
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 0
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
 					}
-					NOT = {
-						has_country_flag = barons_up_check
+					THIS = {
+						set_country_flag = barons_up_check
 					}
-				}
-			}
-			THIS = {
-				set_country_flag = barons_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50434 }
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = barons_influence
-						value = 2
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
 					}
-					NOT = {
-						has_country_flag = barons_up_check
-					}
+				
 				}
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50433 }
-			}
-		
-		}
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = barons_influence
-						value = 3
-					}
-					NOT = {
-						has_country_flag = barons_up_check
-					}
-				}
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50432 }
-			}
-		
-		}
 		
 	
 		
@@ -1850,70 +2029,100 @@ country_event = {
 		}
 		
 		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = assembly_influence
-						value = 0
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
 					}
-				}
-			}
-			THIS = {
-				set_country_flag = assembly_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50445 }
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = assembly_influence
-						value = 1
+					THIS = {
+						set_country_flag = assembly_up_check
 					}
-					NOT = {
-						has_country_flag = assembly_up_check
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50442 }
 					}
+				
 				}
-			}
-			THIS = {
-				set_country_flag = assembly_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50444 }
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = assembly_influence
-						value = 2
+			
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
 					}
-					NOT = {
-						has_country_flag = assembly_up_check
+					THIS = {
+						set_country_flag = assembly_up_check
 					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
 				}
-			}
-			random_country = {
-				limit = {
-					ai = yes
+			
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
 				}
-				country_event = { id = 50443 }
-			}
-		
-		}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 0
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
 		
 		change_variable = {
 			which = assembly_influence
@@ -1962,70 +2171,99 @@ country_event = {
 		}
 		
 		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = clergy_influence
-						value = 0
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
 					}
-				}
-			}
-			THIS = {
-				set_country_flag = clergy_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50440 }
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = clergy_influence
-						value = 1
+					THIS = {
+						set_country_flag = clergy_up_check
 					}
-					NOT = {
-						has_country_flag = clergy_up_check
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50437 }
 					}
+				
 				}
-			}
-			THIS = {
-				set_country_flag = clergy_up_check
-			}
-			random_country = {
-				limit = {
-					ai = yes
-				}
-				country_event = { id = 50439 }
-			}
-		
-		}
-		
-		if = {
-			limit = {
-				THIS = {
-					check_variable = {
-						which = clergy_influence
-						value = 2
+			
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
 					}
-					NOT = {
-						has_country_flag = clergy_up_check
+					THIS = {
+						set_country_flag = clergy_up_check
 					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
 				}
-			}
-			random_country = {
-				limit = {
-					ai = yes
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
 				}
-				country_event = { id = 50438 }
-			}
-		
-		}
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 0
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
 		
 		
 		

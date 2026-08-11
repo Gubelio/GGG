@@ -534,3 +534,7 @@ NORMAL_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;
 AGGRESSION_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;
 UNIT_PRICE;Unit price: ¤§Y$VAL$§W;;;;;;;;;;;;;x
 PROVINCEVIEW_GOODSINCOME;Sold §Y$GOODS$§W for ¤§Y$VALUE$§W yesterday;;;;;;;;;;;;;x
+baronial_estates;Baronial Estates;;;;;;;;;;;;;x
+baronial_estates_desc;In this province, the writ to exploit the land and rule the people has been granted to several powerful baronial families, who tend to support the lives of them and their clients with their untaxable estates.;;;;;;;;;;;;;x
+clerical_estates;Clerical Estates;;;;;;;;;;;;;x
+clerical_estates_desc;In this province, the writ to exploit the land and rule the natives has been entrusted to several temples and clerical instituions, who support themselves by means of private planatations, reducing the amount of land available for exploitation.;;;;;;;;;;;;;x
