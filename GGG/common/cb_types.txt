@@ -2139,7 +2139,7 @@ establish_protectorate_casus_belli_1342 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		total_pops = 550000
+		#total_pops = 550000
 		THIS = {
 			civilized = yes
 		}
