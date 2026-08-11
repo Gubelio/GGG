@@ -1,5 +1,135 @@
 political_decisions = {
 
+
+#########################
+### SIEZE POWER ###########
+########################
+
+	sieze_power_liberationist = {
+		picture = "generic_political_gashdzii"
+		alert = no
+		potential = {
+			ai = no
+			ruling_party_ideology = free_yoker
+			NOT = {
+				government = paternalistic_council
+				government = pastoral_confederacy
+			}
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			random_list = {
+				60 = {
+				
+					country_event = {
+						id = 50451
+						days = 7
+					}
+				
+				}
+				
+				40 = {
+				
+					country_event = {
+						id = 50452
+						days = 7
+					}
+				
+				}
+			
+			}
+		
+		}
+	}
+	
+	sieze_power_absolutist = {
+		picture = "generic_political_gashdzii"
+		alert = no
+		potential = {
+			ai = no
+			ruling_party_ideology = absolutist
+			NOT = {
+				government = grand_syndicate
+				government = statist_bureaucracy
+			}
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			random_list = {
+				60 = {
+				
+					country_event = {
+						id = 50453
+						days = 7
+					}
+				
+				}
+				
+				40 = {
+				
+					country_event = {
+						id = 50454
+						days = 7
+					}
+				
+				}
+			
+			}
+		
+		}
+	}
+	
+	sieze_power_theocratist = {
+		picture = "generic_political_gashdzii"
+		alert = no
+		potential = {
+			ai = no
+			ruling_party_ideology = theocratist
+			NOT = {
+				government = sublime_synod
+				government = theocracy
+			}
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			random_list = {
+				60 = {
+				
+					country_event = {
+						id = 50455
+						days = 7
+					}
+				
+				}
+				
+				40 = {
+				
+					country_event = {
+						id = 50456
+						days = 7
+					}
+				
+				}
+			
+			}
+		
+		}
+	}
+
+
+
 ##########################
 ### STACKING THE HOUSE ###
 ##########################

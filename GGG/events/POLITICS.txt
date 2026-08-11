@@ -1,0 +1,480 @@
+country_event = {
+	id = 50451 
+	title = "EVTNAME50451" 
+	desc = "EVTDESC50451"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This is but a further expression of the people's will."
+		
+		government = paternalistic_council
+		
+		clr_country_flag = we_embraced_shamush
+		clr_country_flag = we_love_slavery
+		remove_country_modifier = backwards_customs
+		set_country_flag = serfdom_abolished
+		set_country_flag = slavery_ended_by_force
+		any_country = {
+		limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					OR = {
+						tag = THS
+						tag = HAH
+						tag = SOG
+						tag = MUB
+						tag = MAC
+						tag = VAS
+					}
+					AND = {
+						VUG = {
+							exists = yes
+							government = paternalistic_council
+						}
+					}
+				}
+			}
+			THIS = {
+				country_event = 50171
+			}
+		}
+		
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
+		clr_country_flag = centralised
+		clr_country_flag = federalised
+		clr_country_flag = usufruct_law_country
+		clr_country_flag = realty_law_country
+		clr_country_flag = locked_usu
+		clr_country_flag = locked_real
+	
+		political_reform = thralldom_allowed
+		set_country_flag = centralised
+		political_reform = centralised
+		political_reform = regulated_elections
+		set_country_flag = usufruct_law_country
+		political_reform = usufruct_prioritised
+		social_reform = land_covenants
+
+		political_reform = no_school_system
+	
+		social_reform = good_minimum_wage
+		social_reform = good_protections
+		social_reform = local_congregationalism
+		social_reform = equality_before_the_law
+		social_reform = mule_n_seed_law
+		social_reform = no_slavery
+		social_reform = bankruptcy
+	
+		#nationalize = yes
+	
+		add_country_modifier = {
+		name = national_confusion
+		duration = 180
+		}
+		prestige_factor = -0.15
+		plurality = -15
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = statist
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = statist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = theocratist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = theocratist
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = absolutist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = absolutist
+				factor = 3
+			}
+		}
+	}
+
+}
+
+country_event = {
+	id = 50452 
+	title = "EVTNAME50452" 
+	desc = "EVTDESC50452"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Reprisals will surely be brutal."
+		add_country_modifier = {
+			name = national_confusion
+			duration = 60
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		prestige_factor = -0.1
+		plurality = -10
+		upper_house = {
+			ideology = free_yoker
+			value = -0.1
+		}
+		upper_house = {
+			ideology = liberationist
+			value = -0.05
+		}
+		any_pop = {
+			ideology = {
+					factor = -0.01
+					value = liberationist
+				}
+			ideology = {
+				factor = -0.02
+				value = free_yoker
+			}
+		}
+		election = yes
+	}
+
+}
+
+country_event = {
+	id = 50453 
+	title = "EVTNAME50453" 
+	desc = "EVTDESC50453"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Now the real task begins, of building a state."
+		government = statist_bureaucracy
+		
+		clr_country_flag = locked_fed
+		clr_country_flag = federalised
+		clr_country_flag = usufruct_law_country
+		clr_country_flag = locked_usu
+	
+		political_reform = unified_legal_code
+		political_reform = state_school_system
+		political_reform = thralldom_outlawed
+		political_reform = professional_bureaucracy
+		political_reform = appointed_legislatures
+		political_reform = centralised
+		political_reform = collectivized_farming
+	
+		social_reform = no_minimum_wage
+		social_reform = no_protections
+		social_reform = no_dole
+		social_reform = debtors_prisons
+	
+		nationalize = yes
+	
+		add_country_modifier = {
+		name = national_confusion
+		duration = 180
+		}
+		prestige_factor = -0.15
+		plurality = -15
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		clr_country_flag = we_embraced_shamush	
+		clr_country_flag = we_love_slavery
+		remove_country_modifier = backwards_customs
+		set_country_flag = serfdom_abolished
+		any_country = {
+		limit = { exists = no capital_scope = { owned_by = THIS } }
+			set_country_flag = serfdom_abolished
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = theocratist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = theocratist
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 3
+			}
+		}
+	}
+
+}
+
+country_event = {
+	id = 50454 
+	title = "EVTNAME50454" 
+	desc = "EVTDESC50454"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Reprisals will surely be brutal."
+		add_country_modifier = {
+			name = national_confusion
+			duration = 60
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		prestige_factor = -0.1
+		plurality = -10
+		upper_house = {
+			ideology = absolutist
+			value = -0.1
+		}
+		upper_house = {
+			ideology = statist
+			value = -0.05
+		}
+		any_pop = {
+			ideology = {
+					factor = -0.01
+					value = statist
+				}
+			ideology = {
+				factor = -0.02
+				value = absolutist
+			}
+		}
+		election = yes
+	}
+
+}
+
+country_event = {
+	id = 50455 
+	title = "EVTNAME50455" 
+	desc = "EVTDESC50455"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Our victory was of course, divinely secure."
+		
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
+		political_reform = appointed_justices
+		political_reform = appointed_legislatures
+		political_reform = state_school_system
+		
+		social_reform = morality_police
+		social_reform = empowered_clergy
+		
+		add_country_modifier = {
+		name = national_confusion
+		duration = 180
+		}
+		prestige_factor = -0.15
+		plurality = -15
+				
+		clr_country_flag = we_embraced_shamush
+		remove_country_modifier = backwards_customs
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		random_province  = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = free_yoker
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = free_yoker
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = liberationist
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = liberationist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = statist
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = statist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = theocratist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = theocratist
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = absolutist
+				factor = 6
+			}
+			scaled_consciousness = {
+				ideology = absolutist
+				factor = 3
+			}
+		}
+
+}
+
+country_event = {
+	id = 50456 
+	title = "EVTNAME50456" 
+	desc = "EVTDESC50456"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Reprisals will surely be brutal."
+		capital_scope = {
+			add_province_modifier = {
+				name = war_torn
+				duration = 100
+			}
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 60
+		}
+		prestige_factor = -0.1
+		plurality = -10
+		upper_house = {
+			ideology = theocratist
+			value = -0.1
+		}
+		upper_house = {
+			ideology = reactionary
+			value = -0.05
+		}
+		
+		any_pop = {
+			ideology = {
+					factor = -0.01
+					value = reactionary
+				}
+			ideology = {
+				factor = -0.02
+				value = theocratist
+			}
+		}
+		
+		election = yes
+	}
+
+}
