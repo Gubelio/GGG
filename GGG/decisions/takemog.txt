@@ -1,984 +1,967 @@
-#political_decisions = {
-#
-#	curtail_the_barons = {
-#		#picture =
-#		potential = {
-#			tag = TAK
-#			OR = {
-#				government = princely_despotate
-#				government = aristocratic_commonwealth
-#			}
-#			NOT = {
-#				has_country_flag = dominant_clergy
-#				has_country_flag = dominant_barons
-#				has_country_flag = dominant_assembly
-#				check_variable = {
-#					which = barons_influence
-#					value = 0
-#				}
-#			}
-#		}
-#		
-#		allow = {
-#		
-#			OR = {
-#				THIS = {
-#					ai = no
-#					NOT = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 0
-#						}
-#					}
-#				}
-#				
-#				THIS = {
-#					ai = yes
-#					NOT = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 0
-#						}
-#					}
-#					check_variable = {
-#						which = barons_influence
-#						value = 4
-#					}
-#					money = 30000
-#					
-#				}
-#			
-#			}
-#		
-#		}
-#		
-#		effect = {
-#			baron_status = { }
-#			treasury = -25000
-#			
-#			any_pop = {
-#				limit = {
-#					OR = {
-#						type = officers
-#						type = aristocrats
-#					}
-#				}
-#				militancy = 5
-#				consciousness = 5
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 1
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = barons_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50436 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 2
-#						}
-#						NOT = {
-#							has_country_flag = barons_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = barons_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50435 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 3
-#						}
-#						NOT = {
-#							has_country_flag = barons_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = barons_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50434 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 4
-#						}
-#						NOT = {
-#							has_country_flag = barons_down_check
-#						}
-#					}
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50433 }
-#				}
-#			
-#			}
-#			
-#			change_variable = {
-#				which = barons_influence
-#				value = -1
-#			}
-#			
-#			clr_country_flag = barons_down_check
-#			
-#		}
-#	}
-#	
-#	curtail_the_clergy = {
-#		#picture =
-#		potential = {
-#			tag = TAK
-#			NOT = {
-#				has_country_flag = dominant_clergy
-#				has_country_flag = dominant_barons
-#				has_country_flag = dominant_assembly
-#				check_variable = {
-#					which = clergy_influence
-#					value = 0
-#				}
-#			}
-#			OR = {
-#				government = princely_despotate
-#				government = aristocratic_commonwealth
-#			}
-#		}
-#		
-#		allow = {
-#		
-#			OR = {
-#				THIS = {
-#					ai = no
-#					NOT = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 0
-#						}
-#					}
-#				}
-#				
-#				THIS = {
-#					ai = yes
-#					NOT = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 0
-#						}
-#					}
-#					check_variable = {
-#						which = clergy_influence
-#						value = 4
-#					}
-#					money = 30000
-#					
-#				}
-#			
-#			}
-#		
-#		}
-#		
-#		effect = {
-#			clergy_status = { }
-#			treasury = -25000
-#		
-#			any_pop = {
-#				limit = {
-#					OR = {
-#						type = clergymen
-#					}
-#				}
-#				militancy = 5
-#				consciousness = 5
-#			}
-#		
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 1
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = clergy_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50441 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 2
-#						}
-#						NOT = {
-#							has_country_flag = clergy_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = clergy_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50440 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 3
-#						}
-#						NOT = {
-#							has_country_flag = clergy_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = clergy_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50439 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = clergy_influence
-#							value = 4
-#						}
-#						NOT = {
-#							has_country_flag = clergy_down_check
-#						}
-#					}
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50438 }
-#				}
-#			
-#			}
-#		
-#			change_variable = {
-#				which = clergy_influence
-#				value = -1
-#			}
-#			
-#			clr_country_flag = clergy_down_check
-#		
-#		}
-#	}
-#	
-#	curtail_the_assembly = {
-#		#picture =
-#		potential = {
-#			tag = TAK
-#			NOT = {
-#				has_country_flag = dominant_clergy
-#				has_country_flag = dominant_barons
-#				has_country_flag = dominant_assembly
-#				check_variable = {
-#					which = assembly_influence
-#					value = 0
-#				}
-#			}
-#			OR = {
-#				government = princely_despotate
-#				government = aristocratic_commonwealth
-#			}
-#		}
-#		
-#		allow = {
-#		
-#			OR = {
-#				THIS = {
-#					ai = no
-#					NOT = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 0
-#						}
-#					}
-#				}
-#				
-#				THIS = {
-#					ai = yes
-#					NOT = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 0
-#						}
-#					}
-#					check_variable = {
-#						which = assembly_influence
-#						value = 4
-#					}
-#					money = 20000
-#					
-#				}
-#			
-#			}
-#		
-#		}
-#		
-#		effect = {
-#			assembly_status = { }
-#			treasury = -15000
-#		
-#			any_pop = {
-#				limit = {
-#					OR = {
-#						type = capitalists
-#						type = bureaucrats
-#					}
-#				}
-#				militancy = 5
-#				consciousness = 5
-#			}
-#		
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 1
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = assembly_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50446 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 2
-#						}
-#						NOT = {
-#							has_country_flag = assembly_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = assembly_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50445 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 3
-#						}
-#						NOT = {
-#							has_country_flag = assembly_down_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = assembly_down_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50444 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = assembly_influence
-#							value = 4
-#						}
-#						NOT = {
-#							has_country_flag = assembly_down_check
-#						}
-#					}
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50443 }
-#				}
-#			
-#			}
-#		
-#			change_variable = {
-#				which = assembly_influence
-#				value = -1
-#			}
-#			
-#			clr_country_flag = assembly_down_check
-#		
-#		}
-#	}
-#	
-#	#support_the_barons = {
-#	#	#picture =
-#	#	potential = {
-#	#		tag = TAK
-#	#		OR = {
-#	#			government = princely_despotate
-#	#			government = aristocratic_commonwealth
-#	#		}
-#	#		NOT = {
-#	#			has_country_flag = dominant_clergy
-#	#			has_country_flag = dominant_barons
-#	#			has_country_flag = dominant_assembly
-#	#			check_variable = {
-#	#				which = barons_influence
-#	#				value = 3
-#	#			}
-#	#		}
-#	#	}
-#	#	
-#	#	allow = {
-#	#	
-#	#		OR = {
-#	#			THIS = {
-#	#				ai = no
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = barons_influence
-#	#						value = 3
-#	#					}
-#	#				}
-#	#			}
-#	#			
-#	#			THIS = {
-#	#				ai = yes
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = barons_influence
-#	#						value = 1
-#	#					}
-#	#				}
-#	#				check_variable = {
-#	#					which = barons_influence
-#	#					value = 0
-#	#				}
-#	#				money = 25000
-#	#				
-#	#			}
-#	#		
-#	#		}
-#	#	
-#	#	}
-#	#	
-#	#	effect = {
-#	#		baron_status = { }
-#	#		treasury = -20000
-#	#		prestige = -10
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = officers
-#	#					type = aristocrats
-#	#				}
-#	#			}
-#	#			militancy = -2
-#	#			consciousness = -2
-#	#		}
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = capitalists
-#	#					type = bureaucrats
-#	#					type = clergymen
-#	#				}
-#	#			}
-#	#			militancy = 1
-#	#			consciousness = 1
-#	#		}
-#	#		
-#	#		
-#	#	
-#	#		
-#	#	
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = barons_influence
-#	#						value = 0
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = barons_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50435 }
-#	#			}
-#	#		
-#	#		}
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = barons_influence
-#	#						value = 1
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = barons_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = barons_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50434 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = barons_influence
-#	#						value = 2
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = barons_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50433 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		
-#	#		change_variable = {
-#	#			which = barons_influence
-#	#			value = 1
-#	#		}
-#	#		
-#	#		clr_country_flag = barons_up_check
-#	#		
-#	#	}
-#	#}
-#	#
-#	#support_the_clergy = {
-#	#	#picture =
-#	#	potential = {
-#	#		tag = TAK
-#	#		OR = {
-#	#			government = princely_despotate
-#	#			government = aristocratic_commonwealth
-#	#		}
-#	#		NOT = {
-#	#			has_country_flag = dominant_clergy
-#	#			has_country_flag = dominant_barons
-#	#			has_country_flag = dominant_assembly
-#	#			check_variable = {
-#	#				which = clergy_influence
-#	#				value = 3
-#	#			}
-#	#		}
-#	#	}
-#	#	
-#	#	allow = {
-#	#	
-#	#		OR = {
-#	#			THIS = {
-#	#				ai = no
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = clergy_influence
-#	#						value = 3
-#	#					}
-#	#				}
-#	#			}
-#	#			
-#	#			THIS = {
-#	#				ai = yes
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = clergy_influence
-#	#						value = 1
-#	#					}
-#	#				}
-#	#				check_variable = {
-#	#					which = clergy_influence
-#	#					value = 0
-#	#				}
-#	#				
-#	#			}
-#	#		
-#	#		}
-#	#	
-#	#	}
-#	#	
-#	#	effect = {
-#	#		clergy_status = { }
-#	#		prestige = -10
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = clergymen
-#	#				}
-#	#			}
-#	#			militancy = -2
-#	#			consciousness = -2
-#	#		}
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = capitalists
-#	#					type = bureaucrats
-#	#					type = officers
-#	#					type = aristocrats
-#	#				}
-#	#			}
-#	#			militancy = 1
-#	#			consciousness = 1
-#	#		}
-#	#		
-#	#		
-#	#		
-#	#		
-#	#	
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = clergy_influence
-#	#						value = 0
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = clergy_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50440 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = clergy_influence
-#	#						value = 1
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = clergy_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = clergy_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50439 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = clergy_influence
-#	#						value = 2
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = clergy_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50438 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		
-#	#		
-#	#		change_variable = {
-#	#			which = clergy_influence
-#	#			value = 1
-#	#		}
-#	#		
-#	#		clr_country_flag = clergy_up_check
-#	#		
-#	#	}
-#	#}
-#	#
-#	#support_the_assembly = {
-#	#	#picture =
-#	#	potential = {
-#	#		tag = TAK
-#	#		OR = {
-#	#			government = princely_despotate
-#	#			government = aristocratic_commonwealth
-#	#		}
-#	#		NOT = {
-#	#			has_country_flag = dominant_clergy
-#	#			has_country_flag = dominant_barons
-#	#			has_country_flag = dominant_assembly
-#	#			check_variable = {
-#	#				which = assembly_influence
-#	#				value = 3
-#	#			}
-#	#		}
-#	#	}
-#	#	
-#	#	allow = {
-#	#	
-#	#		OR = {
-#	#			THIS = {
-#	#				ai = no
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = assembly_influence
-#	#						value = 3
-#	#					}
-#	#				}
-#	#			}
-#	#			
-#	#			THIS = {
-#	#				ai = yes
-#	#				NOT = {
-#	#					check_variable = {
-#	#						which = assembly_influence
-#	#						value = 1
-#	#					}
-#	#				}
-#	#				check_variable = {
-#	#					which = assembly_influence
-#	#					value = 0
-#	#				}
-#	#				
-#	#			}
-#	#		
-#	#		}
-#	#	
-#	#	}
-#	#	
-#	#	effect = {
-#	#		clergy_status = { }
-#	#		prestige = -10
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = capitalists
-#	#					type = bureaucrats
-#	#				}
-#	#			}
-#	#			militancy = -2
-#	#			consciousness = -2
-#	#		}
-#	#		
-#	#		any_pop = {
-#	#			limit = {
-#	#				OR = {
-#	#					type = clergymen
-#	#					type = officers
-#	#					type = aristocrats
-#	#				}
-#	#			}
-#	#			militancy = 1
-#	#			consciousness = 1
-#	#		}
-#	#		
-#	#		
-#	#		
-#	#		
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = assembly_influence
-#	#						value = 0
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = assembly_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50445 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = assembly_influence
-#	#						value = 1
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = assembly_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			THIS = {
-#	#				set_country_flag = assembly_up_check
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50444 }
-#	#			}
-#	#		
-#	#		}
-#	#		
-#	#		if = {
-#	#			limit = {
-#	#				THIS = {
-#	#					check_variable = {
-#	#						which = assembly_influence
-#	#						value = 2
-#	#					}
-#	#					NOT = {
-#	#						has_country_flag = assembly_up_check
-#	#					}
-#	#				}
-#	#			}
-#	#			random_country = {
-#	#				limit = {
-#	#					ai = yes
-#	#				}
-#	#				country_event = { id = 50443 }
-#	#			}
-#	#		
-#	#		}
-#	#	
-#	#		
-#	#		
-#	#		change_variable = {
-#	#			which = assembly_influence
-#	#			value = 1
-#	#		}
-#	#		
-#	#		clr_country_flag = assembly_up_check
-#	#		
-#	#	}
-#	#}
-#
-#}
-#
+political_decisions = {
+
+	curtail_the_barons = {
+		#picture =
+		potential = {
+			tag = TAK
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				
+			}
+			check_variable = {
+				which = barons_influence
+				value = 1
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+					check_variable = {
+						which = barons_influence
+						value = 1
+					}
+					
+				}
+				
+				THIS = {
+					ai = yes
+					check_variable = {
+						which = barons_influence
+						value = 4
+					}
+					money = 30000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			baron_status = { }
+			treasury = -25000
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = officers
+						type = aristocrats
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 1
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50436 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 2
+						}
+						NOT = {
+							has_country_flag = barons_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50435 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 3
+						}
+						NOT = {
+							has_country_flag = barons_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50434 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 4
+						}
+						NOT = {
+							has_country_flag = barons_down_check
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50433 }
+				}
+			
+			}
+			
+			change_variable = {
+				which = barons_influence
+				value = -1
+			}
+			
+			clr_country_flag = barons_down_check
+			
+		}
+	}
+	
+	curtail_the_clergy = {
+		#picture =
+		potential = {
+			tag = TAK
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				
+			}
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+			check_variable = {
+				which = clergy_influence
+				value = 1
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+
+					check_variable = {
+						which = clergy_influence
+						value = 1
+					}
+					
+				}
+				
+				THIS = {
+					ai = yes
+					check_variable = {
+						which = clergy_influence
+						value = 4
+					}
+					money = 30000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			clergy_status = { }
+			treasury = -25000
+		
+			any_pop = {
+				limit = {
+					OR = {
+						type = clergymen
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = clergy_influence
+							value = 1
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = clergy_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50441 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = clergy_influence
+							value = 2
+						}
+						NOT = {
+							has_country_flag = clergy_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = clergy_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50440 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = clergy_influence
+							value = 3
+						}
+						NOT = {
+							has_country_flag = clergy_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = clergy_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50439 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = clergy_influence
+							value = 4
+						}
+						NOT = {
+							has_country_flag = clergy_down_check
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50438 }
+				}
+			
+			}
+		
+			change_variable = {
+				which = clergy_influence
+				value = -1
+			}
+			
+			clr_country_flag = clergy_down_check
+		
+		}
+	}
+	
+	curtail_the_assembly = {
+		#picture =
+		potential = {
+			tag = TAK
+			NOT = {
+				has_country_flag = dominant_clergy
+				has_country_flag = dominant_barons
+				has_country_flag = dominant_assembly
+				
+			}
+			OR = {
+				government = princely_despotate
+				government = aristocratic_commonwealth
+			}
+			check_variable = {
+				which = assembly_influence
+				value = 1
+			}
+		}
+		
+		allow = {
+		
+			OR = {
+				THIS = {
+					ai = no
+
+					check_variable = {
+						which = assembly_influence
+						value = 0
+					}
+					
+				}
+				
+				THIS = {
+					ai = yes
+					check_variable = {
+						which = assembly_influence
+						value = 4
+					}
+					money = 20000
+					
+				}
+			
+			}
+		
+		}
+		
+		effect = {
+			assembly_status = { }
+			treasury = -15000
+		
+			any_pop = {
+				limit = {
+					OR = {
+						type = capitalists
+						type = bureaucrats
+					}
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 1
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50446 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 2
+						}
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50445 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 3
+						}
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = assembly_down_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50444 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = assembly_influence
+							value = 4
+						}
+						NOT = {
+							has_country_flag = assembly_down_check
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50443 }
+				}
+			
+			}
+		
+			change_variable = {
+				which = assembly_influence
+				value = -1
+			}
+			
+			clr_country_flag = assembly_down_check
+		
+		}
+	}
+	
+	#support_the_barons = {
+	#	#picture =
+	#	potential = {
+	#		tag = TAK
+	#		OR = {
+	#			government = princely_despotate
+	#			government = aristocratic_commonwealth
+	#		}
+	#		NOT = {
+	#			has_country_flag = dominant_clergy
+	#			has_country_flag = dominant_barons
+	#			has_country_flag = dominant_assembly
+	#			check_variable = {
+	#				which = barons_influence
+	#				value = 3
+	#			}
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#	
+	#		OR = {
+	#			THIS = {
+	#				ai = no
+	#				NOT = {
+	#					check_variable = {
+	#						which = barons_influence
+	#						value = 3
+	#					}
+	#				}
+	#			}
+	#			
+	#			THIS = {
+	#				ai = yes
+	#				NOT = {
+	#					check_variable = {
+	#						which = barons_influence
+	#						value = 1
+	#					}
+	#				}
+	#				check_variable = {
+	#					which = barons_influence
+	#					value = 0
+	#				}
+	#				money = 25000
+	#				
+	#			}
+	#		
+	#		}
+	#	
+	#	}
+	#	
+	#	effect = {
+	#		baron_status = { }
+	#		treasury = -20000
+	#		prestige = -10
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = officers
+	#					type = aristocrats
+	#				}
+	#			}
+	#			militancy = -2
+	#			consciousness = -2
+	#		}
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = capitalists
+	#					type = bureaucrats
+	#					type = clergymen
+	#				}
+	#			}
+	#			militancy = 1
+	#			consciousness = 1
+	#		}
+	#		
+	#		
+	#	
+	#		
+	#	
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = barons_influence
+	#						value = 0
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = barons_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50435 }
+	#			}
+	#		
+	#		}
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = barons_influence
+	#						value = 1
+	#					}
+	#					NOT = {
+	#						has_country_flag = barons_up_check
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = barons_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50434 }
+	#			}
+	#		
+	#		}
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = barons_influence
+	#						value = 2
+	#					}
+	#					NOT = {
+	#						has_country_flag = barons_up_check
+	#					}
+	#				}
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50433 }
+	#			}
+	#		
+	#		}
+	#		
+	#		
+	#		change_variable = {
+	#			which = barons_influence
+	#			value = 1
+	#		}
+	#		
+	#		clr_country_flag = barons_up_check
+	#		
+	#	}
+	#}
+	#
+	#support_the_clergy = {
+	#	#picture =
+	#	potential = {
+	#		tag = TAK
+	#		OR = {
+	#			government = princely_despotate
+	#			government = aristocratic_commonwealth
+	#		}
+	#		NOT = {
+	#			has_country_flag = dominant_clergy
+	#			has_country_flag = dominant_barons
+	#			has_country_flag = dominant_assembly
+	#			check_variable = {
+	#				which = clergy_influence
+	#				value = 3
+	#			}
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#	
+	#		OR = {
+	#			THIS = {
+	#				ai = no
+	#				NOT = {
+	#					check_variable = {
+	#						which = clergy_influence
+	#						value = 3
+	#					}
+	#				}
+	#			}
+	#			
+	#			THIS = {
+	#				ai = yes
+	#				NOT = {
+	#					check_variable = {
+	#						which = clergy_influence
+	#						value = 1
+	#					}
+	#				}
+	#				check_variable = {
+	#					which = clergy_influence
+	#					value = 0
+	#				}
+	#				
+	#			}
+	#		
+	#		}
+	#	
+	#	}
+	#	
+	#	effect = {
+	#		clergy_status = { }
+	#		prestige = -10
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = clergymen
+	#				}
+	#			}
+	#			militancy = -2
+	#			consciousness = -2
+	#		}
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = capitalists
+	#					type = bureaucrats
+	#					type = officers
+	#					type = aristocrats
+	#				}
+	#			}
+	#			militancy = 1
+	#			consciousness = 1
+	#		}
+	#		
+	#		
+	#		
+	#		
+	#	
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = clergy_influence
+	#						value = 0
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = clergy_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50440 }
+	#			}
+	#		
+	#		}
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = clergy_influence
+	#						value = 1
+	#					}
+	#					NOT = {
+	#						has_country_flag = clergy_up_check
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = clergy_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50439 }
+	#			}
+	#		
+	#		}
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = clergy_influence
+	#						value = 2
+	#					}
+	#					NOT = {
+	#						has_country_flag = clergy_up_check
+	#					}
+	#				}
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50438 }
+	#			}
+	#		
+	#		}
+	#		
+	#		
+	#		
+	#		change_variable = {
+	#			which = clergy_influence
+	#			value = 1
+	#		}
+	#		
+	#		clr_country_flag = clergy_up_check
+	#		
+	#	}
+	#}
+	#
+	#support_the_assembly = {
+	#	#picture =
+	#	potential = {
+	#		tag = TAK
+	#		OR = {
+	#			government = princely_despotate
+	#			government = aristocratic_commonwealth
+	#		}
+	#		NOT = {
+	#			has_country_flag = dominant_clergy
+	#			has_country_flag = dominant_barons
+	#			has_country_flag = dominant_assembly
+	#			check_variable = {
+	#				which = assembly_influence
+	#				value = 3
+	#			}
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#	
+	#		OR = {
+	#			THIS = {
+	#				ai = no
+	#				NOT = {
+	#					check_variable = {
+	#						which = assembly_influence
+	#						value = 3
+	#					}
+	#				}
+	#			}
+	#			
+	#			THIS = {
+	#				ai = yes
+	#				NOT = {
+	#					check_variable = {
+	#						which = assembly_influence
+	#						value = 1
+	#					}
+	#				}
+	#				check_variable = {
+	#					which = assembly_influence
+	#					value = 0
+	#				}
+	#				
+	#			}
+	#		
+	#		}
+	#	
+	#	}
+	#	
+	#	effect = {
+	#		clergy_status = { }
+	#		prestige = -10
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = capitalists
+	#					type = bureaucrats
+	#				}
+	#			}
+	#			militancy = -2
+	#			consciousness = -2
+	#		}
+	#		
+	#		any_pop = {
+	#			limit = {
+	#				OR = {
+	#					type = clergymen
+	#					type = officers
+	#					type = aristocrats
+	#				}
+	#			}
+	#			militancy = 1
+	#			consciousness = 1
+	#		}
+	#		
+	#		
+	#		
+	#		
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = assembly_influence
+	#						value = 0
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = assembly_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50445 }
+	#			}
+	#		
+	#		}
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = assembly_influence
+	#						value = 1
+	#					}
+	#					NOT = {
+	#						has_country_flag = assembly_up_check
+	#					}
+	#				}
+	#			}
+	#			THIS = {
+	#				set_country_flag = assembly_up_check
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50444 }
+	#			}
+	#		
+	#		}
+	#		
+	#		if = {
+	#			limit = {
+	#				THIS = {
+	#					check_variable = {
+	#						which = assembly_influence
+	#						value = 2
+	#					}
+	#					NOT = {
+	#						has_country_flag = assembly_up_check
+	#					}
+	#				}
+	#			}
+	#			random_country = {
+	#				limit = {
+	#					ai = yes
+	#				}
+	#				country_event = { id = 50443 }
+	#			}
+	#		
+	#		}
+	#	
+	#		
+	#		
+	#		change_variable = {
+	#			which = assembly_influence
+	#			value = 1
+	#		}
+	#		
+	#		clr_country_flag = assembly_up_check
+	#		
+	#	}
+	#}
+
+}

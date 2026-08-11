@@ -1,2039 +1,2040 @@
-#country_event = { 
-#	id = 50431 
-#	title = "EVTNAME50431" 
-#	desc = "EVTDESC50431"
-#	picture = "takemog"
-#
-#	fire_only_once = yes
-#
-#
-#    trigger = {
-#		tag = TAK
-#		NOT = {
-#			has_country_flag = takemog_setup
-#		}
-#		month = 4
-#    }
-#
-#
-#    option = {
-#        name = "Let us hope his ministry will last."
-#		set_country_flag = takemog_setup
-#		any_pop = {
-#			limit = {
-#				is_primary_culture = yes
-#				OR = {
-#					type = officers
-#					type = bureaucrats
-#					type = capitalists
-#					type = aristocrats
-#					type = clergymen
-#				}
-#			}
-#			militancy = -2
-#			consciouness = 1
-#		}
-#		
-#		set_variable = {
-#			which = barons_influence
-#			value = 2
-#		}
-#		
-#		set_variable = {
-#			which = clergy_influence
-#			value = 2
-#		}
-#		
-#		set_variable = {
-#			which = assembly_influence
-#			value = 2
-#		}
-#	}
-#}
-#
-#country_event = { 
-#	id = 50432 
-#	title = "EVTNAME50432" 
-#	desc = "EVTDESC50432"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2412 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Powerful"
-#				}
-#			}
-#			2412 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50433 
-#	title = "EVTNAME50433" 
-#	desc = "EVTDESC50433"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2412 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Prominent"
-#				}
-#			}
-#			2412 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50434 
-#	title = "EVTNAME50434" 
-#	desc = "EVTDESC50434"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2412 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Respectable"
-#				}
-#			}
-#			2412 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50435 
-#	title = "EVTNAME50435" 
-#	desc = "EVTDESC50435"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2412 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Weak"
-#				}
-#			}
-#			2412 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50436 
-#	title = "EVTNAME50436" 
-#	desc = "EVTDESC50436"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2412 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Pathetic"
-#				}
-#			}
-#			2412 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50437 
-#	title = "EVTNAME50437" 
-#	desc = "EVTDESC50437"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2413 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Powerful"
-#				}
-#			}
-#			2413 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50438 
-#	title = "EVTNAME50438" 
-#	desc = "EVTDESC50438"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2413 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Prominent"
-#				}
-#			}
-#			2413 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50439 
-#	title = "EVTNAME50439" 
-#	desc = "EVTDESC50439"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2413 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Respectable"
-#				}
-#			}
-#			2413 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50440 
-#	title = "EVTNAME50440" 
-#	desc = "EVTDESC50440"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2413 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Weak"
-#				}
-#			}
-#			2413 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50441 
-#	title = "EVTNAME50441" 
-#	desc = "EVTDESC50441"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2413 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Pathetic"
-#				}
-#			}
-#			2413 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50442
-#	title = "EVTNAME50442" 
-#	desc = "EVTDESC50437"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2414 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Powerful"
-#				}
-#			}
-#			2414 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50443 
-#	title = "EVTNAME50438" 
-#	desc = "EVTDESC50438"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2414 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Prominent"
-#				}
-#			}
-#			2414 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50444 
-#	title = "EVTNAME50439" 
-#	desc = "EVTDESC50439"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2414 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Respectable"
-#				}
-#			}
-#			2414 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50445 
-#	title = "EVTNAME50440" 
-#	desc = "EVTDESC50440"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2414 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Weak"
-#				}
-#			}
-#			2414 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50446 
-#	title = "EVTNAME50441" 
-#	desc = "EVTDESC50441"
-#	picture = "takemog"
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = "change"
-#		
-#		THIS = {
-#			2414 = {
-#				secede_province = THIS 
-#			}
-#			mot_result = {
-#				state_scope = {
-#					change_region_name = "Pathetic"
-#				}
-#			}
-#			2414 = {
-#				secede_province = --- 
-#			}
-#		}
-#	
-#	}
-#}
-#
-#country_event = { 
-#	id = 50447 
-#	title = "EVTNAME50447 " 
-#	desc = "EVTDESC50447"
-#	picture = "takemog"
-#
-#	fire_only_once = yes
-#
-#
-#    trigger = {
-#		tag = TAK
-#		NOT = {
-#			has_leader = "Sem Maswam the Great"
-#		}
-#		has_country_flag = takemog_setup
-#		NOT = {
-#			has_country_flag = dominant_clergy
-#			has_country_flag = dominant_barons
-#			has_country_flag = dominant_assembly
-#		}
-#		OR = {
-#			government = princely_despotate
-#			government = aristocratic_commonwealth
-#		}
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#
-#
-#	option = {
-#		name = "The Baronial faction is best for our nation."			
-#			any_pop = {
-#				limit = {
-#					OR = {
-#						type = officers
-#						type = aristocrats
-#					}
-#				}
-#				militancy = -2
-#				consciousness = -2
-#			}
-#			
-#			any_pop = {
-#				limit = {
-#					OR = {
-#						type = capitalists
-#						type = bureaucrats
-#						type = clergymen
-#					}
-#				}
-#				militancy = 1
-#				consciousness = 1
-#			}
-#			
-#		
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 0
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = barons_up_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50434 }
-#				}
-#			
-#			}
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 1
-#						}
-#						NOT = {
-#							has_country_flag = barons_up_check
-#						}
-#					}
-#				}
-#				THIS = {
-#					set_country_flag = barons_up_check
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50433 }
-#				}
-#			
-#			}
-#			
-#			if = {
-#				limit = {
-#					THIS = {
-#						check_variable = {
-#							which = barons_influence
-#							value = 2
-#						}
-#						NOT = {
-#							has_country_flag = barons_up_check
-#						}
-#					}
-#				}
-#				random_country = {
-#					limit = {
-#						ai = yes
-#					}
-#					country_event = { id = 50432 }
-#				}
-#			
-#			}
-#			
-#		change_variable = {
-#			which = barons_influence
-#			value = 2
-#		}
-#		random_list = {
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50441 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50440 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50439 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50438 }
-#					}
-#				
-#				}
-#			
-#				change_variable = {
-#					which = clergy_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = clergy_down_check
-#			}
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50446 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50445 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50444 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50443 }
-#					}
-#				
-#				}
-#			
-#				change_variable = {
-#					which = assembly_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = assembly_down_check
-#			}
-#		}
-#		election = yes
-#	}
-#	
-#	option = {
-#		name = "The clergy will doubtlessly protect virtue and the nation."
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = clergymen
-#				}
-#			}
-#			militancy = -2
-#			consciousness = -2
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = capitalists
-#					type = bureaucrats
-#					type = officers
-#					type = aristocrats
-#				}
-#			}
-#			militancy = 1
-#			consciousness = 1
-#		}
-#	
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 0
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = clergy_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50439 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 1
-#					}
-#					NOT = {
-#						has_country_flag = clergy_up_check
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = clergy_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50438 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 2
-#					}
-#					NOT = {
-#						has_country_flag = clergy_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50437 }
-#			}
-#		
-#		}
-#		
-#		
-#		
-#		change_variable = {
-#			which = clergy_influence
-#			value = 2
-#		}
-#		
-#		clr_country_flag = clergy_up_check
-#		random_list = {
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50436 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50435 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50434 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50433 }
-#					}
-#				
-#				}
-#				
-#				change_variable = {
-#					which = barons_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = barons_down_check
-#			}
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50446 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50445 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50444 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = assembly_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50443 }
-#					}
-#				
-#				}
-#			
-#				change_variable = {
-#					which = assembly_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = assembly_down_check
-#			}
-#		}
-#		election = yes
-#	}
-#	option = {
-#		name = "The Merchants of the Yewhaut may not be nobles, but they are shrewd."
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = capitalists
-#					type = bureaucrats
-#				}
-#			}
-#			militancy = -2
-#			consciousness = -2
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = clergymen
-#					type = officers
-#					type = aristocrats
-#				}
-#			}
-#			militancy = 1
-#			consciousness = 1
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 0
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = assembly_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50444 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 1
-#					}
-#					NOT = {
-#						has_country_flag = assembly_up_check
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = assembly_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50443 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 2
-#					}
-#					NOT = {
-#						has_country_flag = assembly_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50442 }
-#			}
-#		
-#		}
-#	
-#		
-#		
-#		change_variable = {
-#			which = assembly_influence
-#			value = 2
-#		}
-#		
-#		clr_country_flag = assembly_up_check
-#		random_list = {
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50441 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50440 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50439 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = clergy_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50438 }
-#					}
-#				
-#				}
-#			
-#				change_variable = {
-#					which = clergy_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = clergy_down_check
-#			}
-#			50 = {
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 1
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50436 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50435 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_down_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50434 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 4
-#							}
-#							NOT = {
-#								has_country_flag = barons_down_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50433 }
-#					}
-#				
-#				}
-#				
-#				change_variable = {
-#					which = barons_influence
-#					value = -1
-#				}
-#				
-#				clr_country_flag = barons_down_check
-#			}
-#		}
-#		election = yes
-#	}
-#	
-#	option = {
-#		name = "Too much meddling in the Sat risks unbalancing the nation."
-#		random_list = {
-#			34 = { 
-#				
-#		
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 0
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50435 }
-#					}
-#				
-#				}
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 1
-#							}
-#							NOT = {
-#								has_country_flag = barons_up_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = barons_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50434 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = barons_up_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50433 }
-#					}
-#				
-#				}
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = barons_influence
-#								value = 3
-#							}
-#							NOT = {
-#								has_country_flag = barons_up_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50432 }
-#					}
-#				
-#				}
-#				
-#			
-#				
-#				change_variable = {
-#					which = barons_influence
-#					value = 1
-#				}
-#				
-#				clr_country_flag = barons_up_check
-#				
-#			}
-#			
-#			33 = {  
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 0
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50440 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 1
-#							}
-#							NOT = {
-#								has_country_flag = clergy_up_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = clergy_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50439 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = clergy_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = clergy_up_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50438 }
-#					}
-#				
-#				}
-#				
-#				
-#				
-#				change_variable = {
-#					which = clergy_influence
-#					value = 1
-#				}
-#				
-#				clr_country_flag = clergy_up_check
-#			}
-#			33 = { 
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 0
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50445 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 1
-#							}
-#							NOT = {
-#								has_country_flag = assembly_up_check
-#							}
-#						}
-#					}
-#					THIS = {
-#						set_country_flag = assembly_up_check
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50444 }
-#					}
-#				
-#				}
-#				
-#				if = {
-#					limit = {
-#						THIS = {
-#							check_variable = {
-#								which = assembly_influence
-#								value = 2
-#							}
-#							NOT = {
-#								has_country_flag = assembly_up_check
-#							}
-#						}
-#					}
-#					random_country = {
-#						limit = {
-#							ai = yes
-#						}
-#						country_event = { id = 50443 }
-#					}
-#				
-#				}
-#			
-#				
-#				
-#				change_variable = {
-#					which = assembly_influence
-#					value = 1
-#				}
-#				
-#				clr_country_flag = assembly_up_check
-#			}
-#		}
-#		election = yes
-#	}
-#}
-#
-#country_event = { 
-#	id = 50448 
-#	title = "EVTNAME50448" 
-#	desc = "EVTDESC50448"
-#	picture = "takemog"
-#
-#	trigger = {
-#		tag = TAK
-#		has_country_flag = takemog_setup
-#		NOT = {
-#			has_country_flag = dominant_clergy
-#			has_country_flag = dominant_barons
-#			has_country_flag = dominant_assembly
-#		}
-#		OR = {
-#			government = princely_despotate
-#			government = aristocratic_commonwealth
-#		}
-#		any_owned_province = {
-#			is_colonial = yes
-#			is_coastal = yes
-#			NOT = {
-#				has_province_modifier = baronial_estates
-#				has_province_modifier = clerical_estates
-#			}
-#		}
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 200
-#	}
-#
-#	option = {
-#		name = "The Barons are right. Lands should be awarded to them."
-#		
-#		random_owned = {
-#			limit = {
-#				is_colonial = yes
-#				is_coastal = yes
-#			}
-#			
-#			add_province_modifier = {
-#				name = baronial_estates
-#				duration = -1
-#			}
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = aristocrats
-#					type = officers
-#				}
-#			}
-#			militancy = -2
-#			consciousness = -1
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = clergymen
-#					type = capitalists
-#					type = bureaucrats
-#				}
-#			}
-#			consciousness = 1
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = barons_influence
-#						value = 0
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = barons_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50435 }
-#			}
-#		
-#		}
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = barons_influence
-#						value = 1
-#					}
-#					NOT = {
-#						has_country_flag = barons_up_check
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = barons_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50434 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = barons_influence
-#						value = 2
-#					}
-#					NOT = {
-#						has_country_flag = barons_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50433 }
-#			}
-#		
-#		}
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = barons_influence
-#						value = 3
-#					}
-#					NOT = {
-#						has_country_flag = barons_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50432 }
-#			}
-#		
-#		}
-#		
-#	
-#		
-#		change_variable = {
-#			which = barons_influence
-#			value = 1
-#		}
-#		
-#		clr_country_flag = barons_up_check
-#	}
-#	
-#	option = {
-#		name = "The land should be left open to trade."
-#		
-#		treasury = 10000
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = capitalists
-#					type = bureaucrats
-#				}
-#			}
-#			militancy = -2
-#			consciousness = -1
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = clergymen
-#					type = aristocrats
-#					type = officers
-#				}
-#			}
-#			consciousness = 1
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 0
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = assembly_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50445 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 1
-#					}
-#					NOT = {
-#						has_country_flag = assembly_up_check
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = assembly_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50444 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = assembly_influence
-#						value = 2
-#					}
-#					NOT = {
-#						has_country_flag = assembly_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50443 }
-#			}
-#		
-#		}
-#		
-#		change_variable = {
-#			which = assembly_influence
-#			value = 1
-#		}
-#		
-#		clr_country_flag = assembly_up_check
-#	}
-#	
-#	option = {
-#		name = "Where would we be if we chose to snub the clergymen?"
-#		
-#		random_owned = {
-#			limit = {
-#				is_colonial = yes
-#				is_costal = yes
-#			}
-#			
-#			add_province_modifier = {
-#				name = clerical_estates
-#				duration = -1
-#			}
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = clergymen
-#				}
-#			}
-#			militancy = -2
-#			consciousness = -1
-#		}
-#		
-#		any_pop = {
-#			limit = {
-#				OR = {
-#					type = aristocrats
-#					type = officers
-#					
-#					type = capitalists
-#					type = bureaucrats
-#				}
-#			}
-#			consciousness = 1
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 0
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = clergy_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50440 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 1
-#					}
-#					NOT = {
-#						has_country_flag = clergy_up_check
-#					}
-#				}
-#			}
-#			THIS = {
-#				set_country_flag = clergy_up_check
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50439 }
-#			}
-#		
-#		}
-#		
-#		if = {
-#			limit = {
-#				THIS = {
-#					check_variable = {
-#						which = clergy_influence
-#						value = 2
-#					}
-#					NOT = {
-#						has_country_flag = clergy_up_check
-#					}
-#				}
-#			}
-#			random_country = {
-#				limit = {
-#					ai = yes
-#				}
-#				country_event = { id = 50438 }
-#			}
-#		
-#		}
-#		
-#		
-#		
-#		change_variable = {
-#			which = clergy_influence
-#			value = 1
-#		}
-#		
-#		clr_country_flag = clergy_up_check
-#	}
-#}
-#
-#
+country_event = { 
+	id = 50431 
+	title = "EVTNAME50431" 
+	desc = "EVTDESC50431"
+	picture = "takemog"
+
+	fire_only_once = yes
+
+
+    trigger = {
+		tag = TAK
+		NOT = {
+			has_country_flag = takemog_setup
+		}
+		month = 4
+    }
+
+
+    option = {
+        name = "Let us hope his ministry will last."
+		set_country_flag = takemog_setup
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				OR = {
+					type = officers
+					type = bureaucrats
+					type = capitalists
+					type = aristocrats
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciouness = 1
+		}
+		
+		set_variable = {
+			which = barons_influence
+			value = 2
+		}
+		
+		set_variable = {
+			which = clergy_influence
+			value = 2
+		}
+		
+		set_variable = {
+			which = assembly_influence
+			value = 2
+		}
+	}
+}
+
+country_event = { 
+	id = 50432 
+	title = "EVTNAME50432" 
+	desc = "EVTDESC50432"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			baron_status = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50433 
+	title = "EVTNAME50433" 
+	desc = "EVTDESC50433"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			baron_status = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50434 
+	title = "EVTNAME50434" 
+	desc = "EVTDESC50434"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			baron_status = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50435 
+	title = "EVTNAME50435" 
+	desc = "EVTDESC50435"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			baron_status = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50436 
+	title = "EVTNAME50436" 
+	desc = "EVTDESC50436"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2412 = {
+				secede_province = THIS 
+			}
+			baron_status = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2412 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50437 
+	title = "EVTNAME50437" 
+	desc = "EVTDESC50437"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			clergy_status = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50438 
+	title = "EVTNAME50438" 
+	desc = "EVTDESC50438"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			clergy_status = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50439 
+	title = "EVTNAME50439" 
+	desc = "EVTDESC50439"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			clergy_status = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50440 
+	title = "EVTNAME50440" 
+	desc = "EVTDESC50440"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			clergy_status = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50441 
+	title = "EVTNAME50441" 
+	desc = "EVTDESC50441"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2413 = {
+				secede_province = THIS 
+			}
+			clergy_status = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2413 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50442
+	title = "EVTNAME50442" 
+	desc = "EVTDESC50437"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			assembly_status = {
+				state_scope = {
+					change_region_name = "Powerful"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50443 
+	title = "EVTNAME50438" 
+	desc = "EVTDESC50438"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			assembly_status = {
+				state_scope = {
+					change_region_name = "Prominent"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50444 
+	title = "EVTNAME50439" 
+	desc = "EVTDESC50439"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			assembly_status = {
+				state_scope = {
+					change_region_name = "Respectable"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50445 
+	title = "EVTNAME50440" 
+	desc = "EVTDESC50440"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			assembly_status = {
+				state_scope = {
+					change_region_name = "Weak"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50446 
+	title = "EVTNAME50441" 
+	desc = "EVTDESC50441"
+	picture = "takemog"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "change"
+		
+		THIS = {
+			2414 = {
+				secede_province = THIS 
+			}
+			assembly_status = {
+				state_scope = {
+					change_region_name = "Pathetic"
+				}
+			}
+			2414 = {
+				secede_province = --- 
+			}
+		}
+	
+	}
+}
+
+country_event = { 
+	id = 50447 
+	title = "EVTNAME50447 " 
+	desc = "EVTDESC50447"
+	picture = "takemog"
+
+	fire_only_once = yes
+
+
+    trigger = {
+		tag = TAK
+		NOT = {
+			has_leader = "Sem Maswam the Great"
+		}
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+
+	option = {
+		name = "The Baronial faction is best for our nation."			
+			any_pop = {
+				limit = {
+					OR = {
+						type = officers
+						type = aristocrats
+					}
+				}
+				militancy = -2
+				consciousness = -2
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						type = capitalists
+						type = bureaucrats
+						type = clergymen
+					}
+				}
+				militancy = 1
+				consciousness = 1
+			}
+			
+		
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 0
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_up_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50434 }
+				}
+			
+			}
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 1
+						}
+						NOT = {
+							has_country_flag = barons_up_check
+						}
+					}
+				}
+				THIS = {
+					set_country_flag = barons_up_check
+				}
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50433 }
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						check_variable = {
+							which = barons_influence
+							value = 2
+						}
+						NOT = {
+							has_country_flag = barons_up_check
+						}
+					}
+				}
+				
+				random_country = {
+					limit = {
+						ai = yes
+					}
+					country_event = { id = 50432 }
+				}
+				
+			
+			}
+			
+		change_variable = {
+			which = barons_influence
+			value = 2
+		}
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50441 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = clergy_influence
+					value = -1
+				}
+				
+				clr_country_flag = clergy_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50446 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = assembly_influence
+					value = -1
+				}
+				
+				clr_country_flag = assembly_down_check
+			}
+		}
+		election = yes
+	}
+	
+	option = {
+		name = "The clergy will doubtlessly protect virtue and the nation."
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciousness = -2
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 1
+			consciousness = 1
+		}
+	
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50439 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50438 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50437 }
+			}
+		
+		}
+		
+		
+		
+		change_variable = {
+			which = clergy_influence
+			value = 2
+		}
+		
+		clr_country_flag = clergy_up_check
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50436 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				
+				change_variable = {
+					which = barons_influence
+					value = -1
+				}
+				
+				clr_country_flag = barons_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50446 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = assembly_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = assembly_influence
+					value = -1
+				}
+				
+				clr_country_flag = assembly_down_check
+			}
+		}
+		election = yes
+	}
+	option = {
+		name = "The Merchants of the Yewhaut may not be nobles, but they are shrewd."
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			militancy = -2
+			consciousness = -2
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50444 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50443 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50442 }
+			}
+		
+		}
+	
+		
+		
+		change_variable = {
+			which = assembly_influence
+			value = 2
+		}
+		
+		clr_country_flag = assembly_up_check
+		random_list = {
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50441 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = clergy_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+			
+				change_variable = {
+					which = clergy_influence
+					value = -1
+				}
+				
+				clr_country_flag = clergy_down_check
+			}
+			50 = {
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50436 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_down_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 4
+							}
+							NOT = {
+								has_country_flag = barons_down_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				
+				change_variable = {
+					which = barons_influence
+					value = -1
+				}
+				
+				clr_country_flag = barons_down_check
+			}
+		}
+		election = yes
+	}
+	
+	option = {
+		name = "Too much meddling in the Sat risks unbalancing the nation."
+		random_list = {
+			34 = { 
+				
+		
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50435 }
+					}
+				
+				}
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = barons_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50434 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50433 }
+					}
+				
+				}
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = barons_influence
+								value = 3
+							}
+							NOT = {
+								has_country_flag = barons_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50432 }
+					}
+				
+				}
+				
+			
+				
+				change_variable = {
+					which = barons_influence
+					value = 1
+				}
+				
+				clr_country_flag = barons_up_check
+				
+			}
+			
+			33 = {  
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50440 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = clergy_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50439 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = clergy_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = clergy_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50438 }
+					}
+				
+				}
+				
+				
+				
+				change_variable = {
+					which = clergy_influence
+					value = 1
+				}
+				
+				clr_country_flag = clergy_up_check
+			}
+			33 = { 
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 0
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50445 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 1
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					THIS = {
+						set_country_flag = assembly_up_check
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50444 }
+					}
+				
+				}
+				
+				if = {
+					limit = {
+						THIS = {
+							check_variable = {
+								which = assembly_influence
+								value = 2
+							}
+							NOT = {
+								has_country_flag = assembly_up_check
+							}
+						}
+					}
+					random_country = {
+						limit = {
+							ai = yes
+						}
+						country_event = { id = 50443 }
+					}
+				
+				}
+			
+				
+				
+				change_variable = {
+					which = assembly_influence
+					value = 1
+				}
+				
+				clr_country_flag = assembly_up_check
+			}
+		}
+		election = yes
+	}
+}
+
+country_event = { 
+	id = 50448 
+	title = "EVTNAME50448" 
+	desc = "EVTDESC50448"
+	picture = "takemog"
+
+	trigger = {
+		tag = TAK
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+		any_owned_province = {
+			is_colonial = yes
+			is_coastal = yes
+			NOT = {
+				has_province_modifier = baronial_estates
+				has_province_modifier = clerical_estates
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+
+	option = {
+		name = "The Barons are right. Lands should be awarded to them."
+		
+		random_owned = {
+			limit = {
+				is_colonial = yes
+				is_coastal = yes
+			}
+			
+			add_province_modifier = {
+				name = baronial_estates
+				duration = -1
+			}
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = officers
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = barons_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50435 }
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = barons_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50434 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50433 }
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = barons_influence
+						value = 3
+					}
+					NOT = {
+						has_country_flag = barons_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50432 }
+			}
+		
+		}
+		
+	
+		
+		change_variable = {
+			which = barons_influence
+			value = 1
+		}
+		
+		clr_country_flag = barons_up_check
+	}
+	
+	option = {
+		name = "The land should be left open to trade."
+		
+		treasury = 10000
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+					type = aristocrats
+					type = officers
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50445 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = assembly_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50444 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = assembly_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = assembly_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50443 }
+			}
+		
+		}
+		
+		change_variable = {
+			which = assembly_influence
+			value = 1
+		}
+		
+		clr_country_flag = assembly_up_check
+	}
+	
+	option = {
+		name = "Where would we be if we chose to snub the clergymen?"
+		
+		random_owned = {
+			limit = {
+				is_colonial = yes
+				is_costal = yes
+			}
+			
+			add_province_modifier = {
+				name = clerical_estates
+				duration = -1
+			}
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = clergymen
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = officers
+					
+					type = capitalists
+					type = bureaucrats
+				}
+			}
+			consciousness = 1
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 0
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50440 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 1
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			THIS = {
+				set_country_flag = clergy_up_check
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50439 }
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = clergy_influence
+						value = 2
+					}
+					NOT = {
+						has_country_flag = clergy_up_check
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = { id = 50438 }
+			}
+		
+		}
+		
+		
+		
+		change_variable = {
+			which = clergy_influence
+			value = 1
+		}
+		
+		clr_country_flag = clergy_up_check
+	}
+}
+
