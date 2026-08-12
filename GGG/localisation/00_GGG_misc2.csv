@@ -498,6 +498,9 @@ wicked;Wicked;;;;;;;;;;;;;
 infamy_decay_2;Infamy Decay -0.2;;;;;;;;;;;;;
 infamy_decay_4;Infamy Decay -0.4;;;;;;;;;;;;;
 infamy_decay_6;Infamy Decay -0.6;;;;;;;;;;;;;
+infamy_decay_2_desc;A player has set global infamy decay to have an additional -0.2 per tick;;;;;;;;;;;;;
+infamy_decay_4_desc;A player has set global infamy decay to have an additional -0.4 per tick;;;;;;;;;;;;;
+infamy_decay_6_desc;A player has set global infamy decay to have an additional -0.6 per tick;;;;;;;;;;;;;
 open_markets;Open Markets;;;;;;;;;;;;;x
 open_markets_short;Force $RECIPIENT$ to End Sanctions.;;;;;;;;;;;;;x
 open_markets_setup;Force $RECIPIENT$ into a trade agreement with us, reducing the effects of sanctions.;;;;;;;;;;;;;x
