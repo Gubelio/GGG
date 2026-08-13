@@ -21,7 +21,7 @@ political_decisions = {
 		}
 		
 		allow = {
-		
+	
 			OR = {
 				THIS = {
 					ai = no
@@ -47,7 +47,9 @@ political_decisions = {
 		}
 		
 		effect = {
+			baron_pre = { }
 			baron_status = { }
+			loc_reset = { }
 			treasury = -25000
 			
 			any_pop = {
@@ -194,7 +196,7 @@ political_decisions = {
 		}
 		
 		allow = {
-		
+	
 			OR = {
 				THIS = {
 					ai = no
@@ -221,7 +223,9 @@ political_decisions = {
 		}
 		
 		effect = {
+			clergy_pre = { }
 			clergy_status = { }
+			loc_reset = { }
 			treasury = -25000
 		
 			any_pop = {
@@ -367,7 +371,7 @@ political_decisions = {
 		}
 		
 		allow = {
-		
+
 			OR = {
 				THIS = {
 					ai = no
@@ -394,7 +398,9 @@ political_decisions = {
 		}
 		
 		effect = {
+			assembly_pre = { }
 			assembly_status = { }
+			loc_reset = { }
 			treasury = -15000
 		
 			any_pop = {
