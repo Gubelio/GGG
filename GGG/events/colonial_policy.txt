@@ -533,6 +533,7 @@ country_event = { #exploitation
 					}
 					pop_type = slaves
 					militancy = 10
+					reduce_pop = 0.6
 				}
 				any_pop = { 
 					limit = {
@@ -547,7 +548,7 @@ country_event = { #exploitation
 						
 					}
 					pop_type = serfs
-					militancy  = 7
+					militancy  = 10
 				}
 				
 						

@@ -3578,7 +3578,7 @@ demand_concession_casus_belli_KF = {
 		any_owned_province = {
 			is_colonial = no
 			is_coastal = yes
-			NOT = { total_pops = 400000 }
+			NOT = { total_pops = 550000 }
 		}
 		not = { any_owned_province = { is_capital = yes } }
 	}

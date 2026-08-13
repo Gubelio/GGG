@@ -95,11 +95,11 @@ country = {
 
 economy = {
     MAX_DAILY_RESEARCH            = 100,
-    LOAN_BASE_INTEREST            = 0.01,
+    LOAN_BASE_INTEREST            = 0.0,
     BANKRUPTCY_EXTERNAL_LOAN_YEARS    = 10,
     BANKRUPTCY_FACTOR = 0.2,
-    SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 1000000,
-    MAX_LOAN_CAP_FROM_BANKS = 20, -- can loan max % of country tax base from single country
+    SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 0,
+    MAX_LOAN_CAP_FROM_BANKS = 0, -- can loan max % of country tax base from single country
     GUNBOAT_LOW_TAX_CAP = 0.0,
     GUNBOAT_HIGH_TAX_CAP = 1.0,
     GUNBOAT_FLEET_SIZE_FACTOR = 100,
@@ -114,7 +114,7 @@ economy = {
     UNCIV_BASE_SHARE_FACTOR = 1,
     FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.6, -- % of how much we pay to the pops and capitalists, from the leftovers.
     MAX_FACTORY_MONEY_SAVE = 10000,    -- how much money is stored maximum in a factory.
-    SMALL_DEBT_LIMIT = 50000,
+    SMALL_DEBT_LIMIT = 100000,
     FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.7, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
     RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,    -- how fast pops are Hired when there is a high demand
     RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,    -- how fast pops are Hired when there is a medium demand
@@ -660,7 +660,7 @@ pops = {
 
     NATIONAL_FOCUS_DIVIDER = 400000.0,
 
-    POP_SAVINGS = 0.03,
+    POP_SAVINGS = 0.0,
 
     STATE_CREATION_ADMIN_LIMIT = 0.01,
     MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction

@@ -1,3 +1,32 @@
+#country_event = {
+#	id = xxxxx
+#	title = "central bank civ printing"
+#	desc = "ai"
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#	
+#	
+#	}
+#	
+#	effect = {
+#		any_country = {
+#			limit = {
+#				OR = {
+#					is_greater_power = yes
+#					is_secondary_power = yes
+#					number_of_states = 5
+#				}
+#			}
+#		
+#		}
+#	
+#	}
+#
+#}
+
+
 country_event = {
     id = 33337
     title = "serf_cleanup"
