@@ -649,7 +649,7 @@ conquest_minuscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_minuscule_desc;Annex a single-state §Ycountry§W with less than 100,000 pops;;;;;;;;;;;;;x
 conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
-NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of he $SECOND_COUNTRY$;;;;;;;;;;;;;x
+NORMAL_WAR_CONQUEST_TINY_NAME;$ORDER$Tiny Conquest of the $SECOND_COUNTRY$;;;;;;;;;;;;;x
 conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 conquest_tiny_desc;Annex a single-state §Ycountry§W with less than 250,000 pops;;;;;;;;;;;;;x

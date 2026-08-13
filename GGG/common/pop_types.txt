@@ -439,6 +439,15 @@ colonialmigration_chance =
 			}
 		}
 	}
+	
+	modifier = {
+		factor = -0.2
+		location = {
+			owner = {
+				colonial_policy = self_rule
+			}
+		}
+	}
 
 	modifier = {
 		factor = -0.3
