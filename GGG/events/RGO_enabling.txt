@@ -438,7 +438,7 @@ province_event = {
     desc = "EVTDESC50417"
 
 	mean_time_to_happen = {
-		months = 200
+		months = 300
 
         modifier = {
             factor = 0.9
@@ -466,9 +466,10 @@ province_event = {
             province_id = 2042
 	     province_id = 1322
 	     province_id = 1126
+	     province_id = 1459
 		}
 		trade_goods = precious_metal
-		year = 1360
+		year = 1355
 	}
 
 	option = {

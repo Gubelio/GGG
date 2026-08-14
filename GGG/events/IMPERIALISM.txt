@@ -206,6 +206,59 @@ country_event = {
     }
 }
 
+#########################
+###### PANNING ON THE GULF ####
+#########################
+
+country_event = { 
+    id = 50462
+    title = "EVTNAME50462" #demand a concession from unciv
+    desc = "EVTDESC50462" 
+    picture = "bafozh"
+	
+	trigger = {
+		civilized = yes
+		is_greater_power = yes
+		total_amount_of_ships = 13
+		any_owned_province = {
+			is_overseas = yes
+			NOT = {
+				continent = oceania
+			}
+		}
+		year = 1820
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 20
+	}
+	
+	option = {
+		name = "We ought to declare a nominal protectorate over these regions."
+		1459 = {
+			secede_province = THIS
+			trade_goods = precious_metal
+			add_province_modifier = { name = switched_production duration = 912 }
+			add_province_modifier = { name = gold_fever duration = 1825 }
+			add_core = KHR
+		}
+		1479 = {
+			secede_province = THIS
+			add_core = KHR
+		}
+		
+		relation = {
+			who = KHR
+			value = -200
+		}
+	
+	}
+    
+}
+
+
 ###########################
 ### RANDOM COLONIAL CBs ###
 ###########################
