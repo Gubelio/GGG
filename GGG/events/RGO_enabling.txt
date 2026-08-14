@@ -317,6 +317,8 @@ province_event = {
             province_id = 1480	
             province_id = 1799
             province_id = 2042
+	    province_id = 1323
+	     province_id = 1322
 		}
 		not = { trade_goods = precious_metal }
 		OR = {
@@ -341,12 +343,101 @@ province_event = {
 }
 
 province_event = {
+    id = 50460 ## Gold Rush
+    title = "EVTNAME50460" 
+    desc = "EVTDESC50460"
+
+	mean_time_to_happen = {
+		months = 10
+	}
+
+	trigger = {
+		OR = {
+			province_id = 59
+			province_id = 579
+			province_id = 1126
+		}
+		not = { trade_goods = precious_metal }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					civilized = yes
+					invention = nitroglycerin
+				}
+			}
+			any_greater_power = {
+				invention = nitroglycerin
+			}
+			owner = {
+				civilized = yes
+				invention = nitroglycerin
+			}
+		}
+	}
+
+	option = {
+		name = "The miralces of modern science!"
+		trade_goods = precious_metal
+		add_province_modifier = { name = switched_production duration = 912 }
+		add_province_modifier = { name = gold_fever duration = 1825 }
+		if = {
+			limit = {
+				owner = {
+					NOT = {
+						sphere_owner = {
+							invention = nitroglycerin
+						}
+						invention = nitroglycerin
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					invention = nitroglycerin
+				}
+				country_event = {
+					id = 50461
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 50461
+	title = "EVTNAME50461" 
+	desc = "EVTDESC50461"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		diplomatic_influence = {
+			who = FROM
+			value = 200
+		}
+		treasury = 5000
+		random_pop = {
+			limit = {
+				OR = {
+					type = capitalists
+					type = aristocrats
+				}
+			}
+			money = 5000
+		}
+	}
+}
+
+province_event = {
     id = 50417 ## Lode Dried Up
     title = "EVTNAME50417" 
     desc = "EVTDESC50417"
 
 	mean_time_to_happen = {
-		months = 100
+		months = 200
 
         modifier = {
             factor = 0.9
@@ -372,9 +463,11 @@ province_event = {
             province_id = 1480	
             province_id = 1799
             province_id = 2042
+	     province_id = 1322
+	     province_id = 1126
 		}
 		trade_goods = precious_metal
-		year = 1380
+		year = 1360
 	}
 
 	option = {
