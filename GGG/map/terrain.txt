@@ -229,6 +229,7 @@ categories =  {
         mine_rgo_eff = 0.0
         supply_limit = 2
         combat_width = -0.3
+	min_build_railroad = 6
     }
 
 ########### GGG ##############
