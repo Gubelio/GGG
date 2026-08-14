@@ -226,7 +226,10 @@ country_event = {
 				continent = oceania
 			}
 		}
-		year = 1820
+		year = 1320
+		NOT = {
+			has_global_flag = krayland_gold
+		}
 	}
 	
 	fire_only_once = yes
@@ -237,6 +240,7 @@ country_event = {
 	
 	option = {
 		name = "We ought to declare a nominal protectorate over these regions."
+		set_global_flag = krayland_gold
 		1459 = {
 			secede_province = THIS
 			trade_goods = precious_metal
@@ -258,6 +262,7 @@ country_event = {
 	
 	option = {
 		name = "Why not just work with the Khan in the harvesting of the Gold?"
+		set_global_flag = krayland_gold
 		1459 = {
 			secede_province = THIS
 			secede_province = KHR
@@ -291,6 +296,64 @@ country_event = {
 	
 	}
     
+}
+
+country_event = { 
+    id = 50463
+    title = "EVTNAME50463" 
+    desc = "EVTDESC50463" 
+    picture = "bafozh"
+    
+    trigger = {
+	year = 1330
+	tag = KHR
+	owns = 1459
+	1480 = {
+		empty = yes
+	}
+	1460 = {
+		empty = yes
+	}
+	1517 = {
+		empty = yes
+	}
+	1520 = {
+		empty = yes
+	}
+	1521 = {
+		empty = yes
+	}
+	1496 = {
+		empty = yes
+	}
+    }
+    
+    mean_time_to_happen = {
+	months = 30
+    }
+    
+    option = {
+	name = "As is only right."
+	
+	1480 = {
+		secede_province = THIS
+	}
+	1460 = {
+		secede_province = THIS
+	}
+	1517 = {
+		secede_province = THIS
+	}
+	1520 = {
+		secede_province = THIS
+	}
+	1521 = {
+		secede_province = THIS
+	}
+	1496 = {
+		secede_province = THIS
+	}
+    }
 }
 
 
