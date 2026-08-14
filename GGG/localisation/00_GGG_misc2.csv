@@ -545,3 +545,7 @@ clerical_estates_desc;In this province, the writ to exploit the land and rule th
 clergy_pre;The influence of the clergy is currently;;;;;;;;;;;;x
 baron_pre;The influence of the barons is currently;;;;;;;;;;;;x
 assembly_pre;The influence of the assembly is currently;;;;;;;;;;;;x
+national_resistance;Cultural Independence War;;;;;;;;;;;;x
+national_resistance_desc;This state is currently in a war for rulership of its own culture against an imperial overlord. Such a struggle is attracting broad support from the male population.;;;;;;;;;;;;x
+colonial_overlordship;Colonial Wardship;;;;;;;;;;;;x
+colonial_overlordship_desc;This state is the political artifice of a colonial overlord, who has made broad promises about the advancement of civilisation and an improved life for the native population.;;;;;;;;;;;;x

@@ -344,6 +344,15 @@ minor_outrage_national = {
 	icon = 30
 }
 
+national_resistance = {
+	mobilisation_size = 0.07
+}
+
+colonial_overlordship = {
+	ruling_party_support = 0.2
+	icon = 30
+}
+
 new_overlordship = {
 	ruling_party_support = -0.1
 	tax_efficiency = -0.05

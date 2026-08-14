@@ -21,7 +21,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = intends_to_conquer_hupennohu
-			badboy = 5
+			badboy = 3.6
 			casus_belli = {
 				target = HUP
 				type = swallow_me_whole
@@ -65,7 +65,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = intends_to_conquer_ngjutto
-			badboy = 5
+			badboy = 3.6
 			casus_belli = {
 				target = NGJ
 				type = swallow_me_whole

@@ -538,6 +538,7 @@ country_event = {
                 FROM = {
                     NOT = { 
                         has_country_modifier = new_overlordship
+			has_country_modifier = colonial_overlordship
                     }
                     primary_culture = THIS
                 }
@@ -597,7 +598,7 @@ country_event = {
             THIS = {
                 random = {
                     chance = 90
-
+		    badboy = 2
                     FROM = {
                         
                         any_pop = {
@@ -629,6 +630,7 @@ country_event = {
             }
             THIS = {
                 release_vassal = FROM
+		badboy = 6
             }
 
             FROM = {
@@ -637,6 +639,10 @@ country_event = {
 				    type = make_puppet
 				    months = 12
 			    }
+			    add_country_modifier = {
+					name = national_resistance
+					duration = 200
+				}
             }
 
 			THIS = {
@@ -667,6 +673,7 @@ country_event = {
         FROM = {
             remove_country_modifier = foreign_rule
             remove_country_modifier = new_overlordship
+	    remove_country_modifier = colonial_overlordship
 
         }
 

@@ -1,3 +1,142 @@
+country_event = {  #baronial_coup
+	id = 50457 
+	title = "EVTNAME50457" 
+	desc = "EVTDESC50457"
+	picture = "takemog"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = barons_influence
+			value = 5
+		}
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "We must accept this state of affairs."
+		set_country_flag = dominant_barons
+		add_country_modifier = {
+			name = baronial_dominance
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "The United Monarchy must be preserved!"
+	
+	}
+	
+}
+
+country_event = {  #clerical_coup
+	id = 50458 
+	title = "EVTNAME50458" 
+	desc = "EVTDESC50458"
+	picture = "takemog"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = clergy_influence
+			value = 5
+		}
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "We must accept this state of affairs."
+		set_country_flag = dominant_clergy
+		add_country_modifier = {
+			name = clerical_dominance
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "The power of the king must not falter!"
+	
+	}
+	
+}
+
+country_event = {  #assembly_coup
+	id = 50459 
+	title = "EVTNAME50459" 
+	desc = "EVTDESC50459"
+	picture = "takemog"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TAK
+		check_variable = {
+			which = assembly_influence
+			value = 5
+		}
+		has_country_flag = takemog_setup
+		NOT = {
+			has_country_flag = dominant_clergy
+			has_country_flag = dominant_barons
+			has_country_flag = dominant_assembly
+		}
+		OR = {
+			government = princely_despotate
+			government = aristocratic_commonwealth
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "We must accept this state of affairs."
+		set_country_flag = dominant_assembly
+		add_country_modifier = {
+			name = assembly_dominance
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "The demotic savages shall not infringe the rights of the crown!"
+	
+	}
+	
+}
+
+
 country_event = { 
 	id = 50431 
 	title = "EVTNAME50431" 

@@ -190,6 +190,10 @@ organize_paukzhodo = {
 				primary_culture = THIS
 				add_accepted_culture = pugure
 				add_accepted_culture = yattae
+				#add_country_modifier = {
+				#	name = colonial_overlordship
+				#	duration = 7300
+				#}
 			}
 			if = {
 				limit = {
