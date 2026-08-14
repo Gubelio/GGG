@@ -389,6 +389,7 @@ province_event = {
 							invention = nitroglycerin
 						}
 						invention = nitroglycerin
+						is_greater_power = yes
 					}
 				}
 			}
