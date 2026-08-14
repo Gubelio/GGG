@@ -255,6 +255,41 @@ country_event = {
 		}
 	
 	}
+	
+	option = {
+		name = "Why not just work with the Khan in the harvesting of the Gold?"
+		1459 = {
+			secede_province = THIS
+			secede_province = KHR
+			trade_goods = precious_metal
+			add_province_modifier = { name = switched_production duration = 912 }
+			add_province_modifier = { name = gold_fever duration = 1825 }
+			add_core = KHR
+			any_pop = {
+				militancy = 3
+			}
+		}
+		1479 = {
+			secede_province = THIS
+			secede_province = KHR
+			add_core = KHR
+		}
+		
+		relation = {
+			who = KHR
+			value = 200
+		}
+		
+		diplomatic_influence = {
+			who = KHR
+			value = 200
+		}
+		
+		KHR = {
+			research_points = 2000
+		}
+	
+	}
     
 }
 
