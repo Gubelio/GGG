@@ -952,10 +952,13 @@ serfs = {
         factor = 0.01
 		modifier = {
 			factor = -100
-			OR = {
-				is_primary_culture = no
-				is_accepted_culture = no
+
+			is_primary_culture = no
+			is_accepted_culture = no
+			NOT = {
+				has_pop_culture = paguyti
 			}
+
             NOT = {
                 country = { has_global_flag = craftsman_exploit_reenabled }
             }

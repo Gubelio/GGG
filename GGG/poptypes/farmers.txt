@@ -933,8 +933,10 @@ promote_to = {
                 is_colonial = yes
                 is_overseas = yes
             }
-            is_primary_culture = no
-            is_accepted_culture = no
+
+                is_accepted_culture = no
+                is_primary_culture = no
+            
             OR = {
                 has_pop_religion = pagan
                 NOT = { country = { has_country_flag = colonial_armies } }
@@ -948,10 +950,10 @@ promote_to = {
                 is_colonial = yes
                 is_overseas = yes
             }
-			OR = {
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
+
+		is_accepted_culture = no
+		is_primary_culture = no
+			
             NOT = { has_pop_religion = pagan }
             country = { has_country_flag = colonial_armies }
         }
@@ -961,10 +963,12 @@ promote_to = {
         factor = 0.01
 		modifier = {
 			factor = -100
-			OR = {
-				is_primary_culture = no
-				is_accepted_culture = no
+			is_accepted_culture =no
+			is_primary_culture = no
+			NOT = {
+				has_pop_culture = paguyti
 			}
+	
             NOT = {
                 country = { has_global_flag = craftsman_exploit_reenabled }
             }

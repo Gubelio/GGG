@@ -38,7 +38,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			
+			ai = no
 		}
 		
 		effect = {
@@ -104,7 +104,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			
+			ai = no
 		}
 		
 		effect = {
