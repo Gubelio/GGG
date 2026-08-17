@@ -38512,7 +38512,7 @@ country_event = {
 
 	trigger = {
 		ai = yes
-		exists = no
+		exists = yes
 		OR = {
 			AND = {
 				has_country_flag = won_hegemony_war
