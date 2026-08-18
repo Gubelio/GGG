@@ -153,6 +153,9 @@ weak_assembly = {
 
 international_sanctions = {
         trigger = {
+		NOT = {
+			war_exhaustion = 45
+		}
 		badboy = 1.3 # 46.8
 		NOT = { has_global_flag = sanctions_disabled }
 		NOT = { 
@@ -167,7 +170,7 @@ international_sanctions = {
     diplomatic_points_modifier = -0.6
     non_accepted_pop_militancy_modifier = 0.2
     prestige = -0.3
-    war_exhaustion = 2.0
+    war_exhaustion = 0.5
     core_pop_militancy_modifier = 0.1
     icon = 6
 }
