@@ -206,22 +206,34 @@ migration_target = {
         unemployment = 0.1
         state_scope = { has_factories = no }
     }
+    
     modifier = {
-        factor = 1.2
-        total_pops = 150000
+	factor = 1.2
+	country = {
+		NOT = {
+			colonial_policy = self_rule 
+		}
+	}
+	is_colonial = yes
+	is_primary_culture = no
     }
-    modifier = {
-        factor = 1.2
-        total_pops = 250000
-    }
-    modifier = {
-        factor = 1.2
-        total_pops = 500000
-    }
-    modifier = {
-        factor = 1.2
-        total_pops = 750000
-    }
+    
+    #modifier = {
+    #    factor = 1.2
+    #    total_pops = 150000
+    #}
+    #modifier = {
+    #    factor = 1.2
+    #    total_pops = 250000
+    #}
+    #modifier = {
+    #    factor = 1.2
+    #    total_pops = 500000
+    #}
+    #modifier = {
+    #    factor = 1.2
+    #    total_pops = 750000
+    #}
 
     #modifier = {
     #    factor = 0
@@ -334,12 +346,12 @@ migration_target = {
     }
 
     modifier = {
-        factor = 0
+        factor = 0.01
         terrain = small_island
     }
 
     modifier = {
-        factor = 0
+        factor = 0.01
         terrain = coral_island
     }
 
