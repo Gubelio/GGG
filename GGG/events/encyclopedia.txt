@@ -6593,7 +6593,7 @@ country_event = {
 country_event = {
 	id = 50428
 	title = "EVT50428NAME" ##### Pastoral Confederacy
-	desc = "EVT504286DESC"
+	desc = "EVT50428DESC"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
