@@ -389,7 +389,6 @@ province_event = {
 							invention = nitroglycerin
 						}
 						invention = nitroglycerin
-						is_greater_power = yes
 					}
 				}
 			}
@@ -425,6 +424,11 @@ country_event = {
 				OR = {
 					type = capitalists
 					type = aristocrats
+				}
+				is_primary_culture = yes
+				location = {
+					is_colonial = no
+					is_overseas = no
 				}
 			}
 			money = 5000
