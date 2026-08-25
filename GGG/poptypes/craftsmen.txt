@@ -1850,32 +1850,41 @@ ideologies = {
 
     statist = {
         factor = 1.05
-        modifier = {
-            factor = 0.9
-            OR = { is_accepted_culture = yes is_primary_culture = yes }
-            OR = {
-                AND = {
-                    OR = {
-                        nationalvalue = nv_autocracy
-                        nationalvalue = nv_tradition
-                    }
-                    country = { civilized = yes }
-                }
-                state_scope = { is_slave = yes }
-            }
+	
+	 modifier = {
+            factor = 1.4
+	    OR = {
+		ruling_party_ideology = free_yoker
+		ruling_party_ideology = liberationist
+	    }
         }
+	
+        #modifier = {
+        #    factor = 0.9
+        #    OR = { is_accepted_culture = yes is_primary_culture = yes }
+        #    OR = {
+        #        AND = {
+        #            OR = {
+        #                nationalvalue = nv_autocracy
+        #                nationalvalue = nv_tradition
+        #            }
+        #            country = { civilized = yes }
+        #        }
+        #        state_scope = { is_slave = yes }
+        #    }
+        #}
         modifier = {
             factor = 0.5
             militancy = 6
         }
-        modifier = {
-            factor = 1.2
-            nationalvalue = nv_liberty
-            OR = {
-                is_accepted_culture = yes
-                is_primary_culture = yes
-            }
-        }
+        #modifier = {
+        #    factor = 1.2
+        #    nationalvalue = nv_liberty
+        #    OR = {
+        #        is_accepted_culture = yes
+        #        is_primary_culture = yes
+        #    }
+        #}
         modifier = {
             factor = 1.1
             consciousness = 5
@@ -1987,6 +1996,20 @@ ideologies = {
     }
     absolutist = {
         factor = 1
+
+	modifier = {
+            factor = 1.4
+	    OR = {
+		ruling_party_ideology = liberationist
+	    }
+        }
+	
+	modifier = {
+            factor = 2
+	    OR = {
+		ruling_party_ideology = free_yoker
+	    }
+        }
 
         modifier = {
             factor = 2
