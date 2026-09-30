@@ -528,6 +528,10 @@ promote_to =
     clergymen =
     {
         factor = 0.01
+	modifier = {
+		factor = 0.02
+		is_culture_group = gashdzii
+	}
         group = {
             modifier = {
                 factor = 0.5

@@ -357,6 +357,7 @@ promote_to = {
 soldiers = {
 
         factor = 0.01
+	
         group = {
             modifier = {
                 factor = -4
