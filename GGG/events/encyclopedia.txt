@@ -472,6 +472,80 @@ country_event  = {
 	}
 	
 	option = {
+		name = "The Ruminoids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50468 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = north_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Arboraloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50469 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = north_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
@@ -521,6 +595,45 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50468
+	title = "EVTNAME50468" ##### Ruminoids
+	desc = "EVTDESC50468"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50469
+	title = "EVTNAME50469" ##### Ruminoids
+	desc = "EVTDESC50469"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 
 
