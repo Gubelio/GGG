@@ -6013,7 +6013,7 @@ country_event = {
 	
 	option = {
 		name = "Mollusc Oil"
-		country_event = { id = 
+		country_event = { id = 50464 }
 	}
 	
 	option = {
