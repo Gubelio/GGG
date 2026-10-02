@@ -346,15 +346,14 @@ country_event = {
 	}
 	
 	option = {
+		name = "The Kindreds of Man"
+		country_event = { id = 50465 }
+	}
+	
+	option = {
 		name = "Philosophy and Politics"
 		country_event = { id = 50153 }
 	}
-	
-	#option = {
-	#	name = "The Species of the World"
-	#	country_event = { id = 504xx }
-	#
-	#}
 	
 	option = {
 		name = "Miscellany"
@@ -410,6 +409,120 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+
+###################
+#### SPECIES ##########
+##################
+
+country_event  = {
+	id 50465
+	title = "EVTNAME50465"
+	desc = "EVTDESC50465"
+	picture = "encylo"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Back to the Index"
+		country_event = { id = 50117 }
+	}
+	
+	option = {
+		name = "The Sapinoids"
+		country_event = { id = 50466 }
+	
+	}
+	
+	option = {
+		name = "The Occidental Gigantoids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50467 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = north_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+	
+
+}
+
+
+
+country_event = {
+	id = 50466 
+	title = "EVTNAME50466" ##### Sapinoids
+	desc = "EVTDESC50466"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50467 
+	title = "EVTNAME50467" ##### Occidental Gigantoids
+	desc = "EVTDESC50467"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+
 
 #######################
 #### FAITHS #######
