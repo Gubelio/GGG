@@ -937,7 +937,7 @@ assimilation_chance =
 		
 	}
 	
-	modifier = { 												#occidental insuloids - insular type, seemingly related to sapinoids
+	modifier = { 												#occidental insuloids - insular type, seemingly related to arboraloids
 		factor = -100
 		
 		is_culture_group = ruadian

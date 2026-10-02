@@ -546,6 +546,43 @@ country_event  = {
 	}
 	
 	option = {
+		name = "The Seniloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50470 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = north_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
