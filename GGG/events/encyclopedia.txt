@@ -6012,6 +6012,11 @@ country_event = {
 	}
 	
 	option = {
+		name = "Mollusc Oil"
+		country_event = { id = 
+	}
+	
+	option = {
 		name = "The Instituion of Thralldom"
 		country_event = { id = 50256 }
 	}
@@ -6020,6 +6025,7 @@ country_event = {
 		name = "The Continents"
 		country_event = { id = 50257 }
 	}
+	
 
 	option = {
 		name = "Close Encylopedia"
@@ -6138,6 +6144,26 @@ country_event = {
 	id = 50256
 	title = "EVT50256NAME" ##### Thralldom
 	desc = "EVT50256DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50464
+	title = "EVTNAME50464" ##### Mollus Oil
+	desc = "EVTDESC50464"
 	picture = "encyclo"
 	
 	is_triggered_only = yes
