@@ -583,6 +583,114 @@ country_event  = {
 	}
 	
 	option = {
+		name = "The Occuloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = north_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50473 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = north_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	
+	option = {
+		name = "The Troglodytoids"
+		if2 = {
+			limit = {
+				THIS = {
+					has_country_flag = studied_ogrehi
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50472 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							has_country_flag = studied_ogrehi
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Cobaloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = south_america }
+						civilized = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50471 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = south_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
@@ -654,7 +762,7 @@ country_event = {
 
 country_event = {
 	id = 50469
-	title = "EVTNAME50469" ##### Ruminoids
+	title = "EVTNAME50469" ##### Arboraloids
 	desc = "EVTDESC50469"
 	picture = "encyclo"
 	
@@ -671,6 +779,87 @@ country_event = {
 		clr_country_flag = encyclopedia_open
 	}
 }
+
+country_event = {
+	id = 50473
+	title = "EVTNAME50473" ##### Occuloids
+	desc = "EVTDESC50473"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50470
+	title = "EVTNAME50470" ##### Seniloids
+	desc = "EVTDESC50470"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50471
+	title = "EVTNAME50471" ##### Cobaloids
+	desc = "EVTDESC50471"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50472
+	title = "EVTNAME50472" ##### Troglodtyoids
+	desc = "EVTDESC50472"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 
 
 
