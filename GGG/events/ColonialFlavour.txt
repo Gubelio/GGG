@@ -1213,3 +1213,171 @@ country_event = { #zhakdnag requests autonomy
 	
 
 }
+
+country_event = { #colonial competition trigger
+	id = 50474
+	title = "EVTNAME50474"
+	desc = "EVTDESC50474"
+	#picture = "deadboys"
+	
+	
+	trigger = {
+		NOT = {
+			has_global_flag = scramble_for_bafozh
+			has_country_flag = backed_down_in_bafozh
+		}
+		THIS = {
+			nationalism_n_imperialism = 1
+			machine_guns = 1
+			medicine = 1
+			OR = {
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
+			}
+		}
+		OR = {
+			any_owned_province = {
+				limit = {
+					continent = europe
+				}
+				any_neighbor_province = {
+					OR = {
+						is_core = EBC
+						is_core = WBC
+						is_core = CBC
+						is_core = SBC
+					}
+					owner = {
+						OR = {
+							is_greater_power = yes
+							is_secondary_power = yes
+						}
+						NOT = {
+							capital_scope = { continent = europe }
+						}
+					
+					}
+				
+				}
+			
+			}
+			any_sphere_member = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+					civilized = no
+				}
+				any_owned_province = {
+					limit = {
+						continent = europe
+					}
+					any_neighbor_province = {
+						OR = {
+							is_core = EBC
+							is_core = WBC
+							is_core = CBC
+							is_core = SBC
+						}
+						owner = {
+							OR = {
+								is_greater_power = yes
+								is_secondary_power = yes
+							}
+							NOT = {
+								capital_scope = { continent = europe }
+							}
+						
+						}
+					
+					}
+				
+				}
+			
+			}
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 10
+	
+	}
+	
+	option = {
+		name = "Our interests are at stake and we must escalate."
+		random_country = {
+			limit = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+				NOT = {
+					capital_scope = { continent = europe }
+				}
+				any_owned_province = {
+					continent = europe
+					OR = {
+						is_core = EBC
+						is_core = WBC
+						is_core = CBC
+						is_core = SBC
+					}
+					OR = {
+						any_neighbor_province = {
+							owner = {
+								capital_scope = { continent = europe }
+								civilized = no
+								is_our_vassal = THIS
+							}
+						}
+						any_neighbor_province = {
+							owned_by = THIS
+						}
+					}
+				
+				}
+			}
+			
+			country_event = {
+				id = 50475
+				days = 10
+			
+			}
+			
+			
+		}
+	
+	}
+	
+	option = {
+		name = "We cannot risk a with a great power right now."
+		set_country_flag = backed_down_in_bafozh
+		prestige = -5
+	
+	}
+	
+}
+
+
+country_event = { #colonial competition trigger_reply
+	id = 50475
+	title = "EVTNAME50475"
+	desc = "EVTDESC50475"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What a preposterous demand! Not a chance!"
+		prestige = 5
+	
+	}
+	
+	option = {
+		name = "We cannot risk such a war at this delicate moment"
+		presige = -10
+	
+	}
+	
+}

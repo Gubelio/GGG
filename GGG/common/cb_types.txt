@@ -1916,7 +1916,7 @@ scramble_for_bafozh_state = {
 						limit = {
 							continent = europe
 						}
-						any_neighbour_province = {
+						any_neighbor_province = {
 							owner = {
 								OR = {
 									is_secondary_power = yes
@@ -2350,7 +2350,7 @@ scramble_for_bafozh_annex = {
 						limit = {
 							continent = europe
 						}
-						any_neighbour_province = {
+						any_neighbor_province = {
 							owner = {
 								OR = {
 									is_secondary_power = yes
