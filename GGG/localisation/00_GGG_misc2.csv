@@ -557,7 +557,15 @@ AGGRESSION_REACTIONARY_WAR_NAME;$ORDER$ $FIRST$ Intervention in $SECOND_COUNTRY$
 install_free_yoker_gov_cb;Liberate Peasantry;;;;;;;;;;;;;x
 install_free_yoker_gov_cb_short;Install Yokerism in$ RECIPIENT$;;;;;;;;;;;;;x
 install_free_yoker_gov_cb_setup;Install a Yokerish Government in $RECIPIENT$;;;;;;;;;;;;;x
-install_free_yoker_gov_cb_desc;Change this countrie's §Ygovernment§! to a paternalistic council;;;;;;;;;;;;;x
+install_free_yoker_gov_cb_desc;Change this countrie's §Ygovernment§! to a paternalistic council.;;;;;;;;;;;;;x
+scramble_for_bafozh_annex;Annex Bafozhi State;;;;;;;;;;;;x
+scramble_for_bafozh_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+scramble_for_bafozh_annex_setup;Annex a Bafozhi $RECIPIENT$;;;;;;;;;;;;;x
+scramble_for_bafozh_annex_desc;Annex a §YBafozhi§! country before another great power gets to them!;;;;;;;;;;;;;x
+scramble_for_bafozh_state;Seize Bafozhi Land;;;;;;;;;;;;x
+scramble_for_bafozh_state_short;Seize $RECIPIENT$'s Land;;;;;;;;;;;;;x
+scramble_for_bafozh_state_setup;Seize Bafozhi $RECIPIENT$'s Land;;;;;;;;;;;;;x
+scramble_for_bafozh_state_desc;Seize land from a §YBafozhi§! country before another great power can occupy it.;;;;;;;;;;;;;x
 uninstall_free_yoker_gov_cb;Crush Yokerism;;;;;;;;;;;;;x
 uninstall_free_yoker_gov_cb_short;Purge $RECIPIENT$ of Yokerism;;;;;;;;;;;;;x
 uninstall_free_yoker_gov_cb_setup;Purge $RECIPIENT$ of its Free-Yoker Government;;;;;;;;;;;;;x
