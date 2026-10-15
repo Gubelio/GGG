@@ -1328,7 +1328,7 @@ country_event = { #colonial competition trigger
 							owner = {
 								capital_scope = { continent = europe }
 								civilized = no
-								is_our_vassal = THIS
+								in_sphere = THIS
 							}
 						}
 						any_neighbor_province = {
@@ -1351,7 +1351,7 @@ country_event = { #colonial competition trigger
 	}
 	
 	option = {
-		name = "We cannot risk a with a great power right now."
+		name = "We cannot risk trouble with a great power right now."
 		set_country_flag = backed_down_in_bafozh
 		prestige = -5
 	
@@ -1370,14 +1370,349 @@ country_event = { #colonial competition trigger_reply
 	
 	option = {
 		name = "What a preposterous demand! Not a chance!"
-		prestige = 5
+		prestige = 10
+		relation = {
+			who = FROM
+			value = -100
+		}
+		FROM = {
+			country_event = {
+				id = 50476
+				days = 10
+			}
+		}
+	}
+	
+	option = {
+		name = "We understand their concern, but we must have some greater compensation."
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -20
+		}
+		FROM = {
+			country_event = {
+				id = 50477
+				days = 10
+			}
+		}
 	
 	}
 	
 	option = {
-		name = "We cannot risk such a war at this delicate moment"
+		name = "We cannot risk such a war at this delicate moment. Agree."
 		presige = -10
+		relation = {
+			who = FROM
+			value = 50
+		}
+		FROM = {
+			country_event = {
+				id = 50478
+				days = 10
+			}
+		}
+	}
+	
+}
+
+country_event = { #colonial competition reply_refused
+	id = 50476
+	title = "EVTNAME50476"
+	desc = "EVTDESC50476"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Damn them!"
+		casus_belli = {
+			target = FROM
+			type = humiliate
+			months = 12
+		}
+
+		country_event = {
+			id = 50481
+			days = 30
+		}
+
+	}
+	
+}
+
+country_event = { #colonial competition reply_agreed
+	id = 50478
+	title = "EVTNAME50478"
+	desc = "EVTDESC50478"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		treasury = -5000
+		FROM = {
+			random_province = {
+				limit = {
+					continent = europe
+					OR = {
+						any_neighbor_province = {
+							owned_by = THIS
+						}
+						any_neighbor_province = {
+							owner = {
+								capital_scope = { continent = europe }
+								civilized = no
+								in_sphere = THIS
+							}
+
+						}
+					}
+				}
+				state_scope = {
+					any_owned = {
+						secede_province = THIS
+					}
+				}
+			
+			}
+
+			country_event = {
+				id = 50481
+				days = 20
+			}
+			
+		}
+	}
+	
+}
+
+
+country_event = { #colonial competition reply_negotiate
+	id = 50477
+	title = "EVTNAME50477"
+	desc = "EVTDESC50477"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Negotiation is the surest way to peace and harmony."
+		
+		if = {
+			limit = {
+				THIS = {
+					any_owned_province = {
+						NOT = {
+							is_core = THIS
+						}
+						is_core = FROM
+						OR = {
+							any_neighbor_province = {
+								owned_by = FROM
+							}
+							is_overseas = yes
+							port = yes
+						}
+					}
+				}
+			
+			}
+			THIS = {
+				random_owned = {
+					limit = {
+						NOT = {
+							is_core = THIS
+						}
+						is_core = FROM
+						OR = {
+							any_neighbor_province = {
+								owned_by = FROM
+							}
+							is_overseas = yes
+							port = yes
+						}
+					}
+					secede_province = FROM
+					set_country_flag = cores_check
+				}
+			
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_country_flag = cores_check
+					}
+					any_owned_province = {
+						NOT = {
+							is_core = THIS
+						}
+						is_overseas = yes
+						port = yes
+					}
+				
+				}
+			
+			}
+			THIS = {
+				random_owned = {
+					limit = {
+						NOT = {
+							is_core = THIS
+						}
+						OR = {
+							is_overseas = yes
+							port = yes
+						}
+					}
+					secede_province = FROM
+					set_country_flag = prov_check
+				}
+			
+			}
+		
+		}
+		if = {
+			limit = {
+				THIS = {
+					OR = {
+						has_country_flag = prov_check
+						has_country_flag = core_check
+					}
+				
+				}
+			
+			}
+			FROM = {
+				random_province = {
+					limit = {
+						continent = europe
+						OR = {
+							any_neighbor_province = {
+								owned_by = THIS
+							}
+							any_neighbor_province = {
+								owner = {
+									capital_scope = { continent = europe }
+									civilized = no
+									in_sphere = THIS
+								}
+	
+							}
+						}
+					}
+					state_scope = {
+						any_owned = {
+							secede_province = THIS
+						}
+					}
+				
+				}
+				country_event = {
+					id = 50481
+					days = 30
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_country_flag = cores_check
+						has_country_flag = prov_check
+					}
+				
+				}
+			}
+			THIS = {
+				country_event = {
+					id = 50479
+					days = 20
+				}
+				
+				country_event = {
+					id = 50481
+					days = 30
+				}
+			}
+			
+			FROM = {
+				country_event = {
+					id = 50480
+					days = 20
+				}
+			}
+		
+		}
+		clr_country_flag = cores_check
+		clr_country_flag = prov_check
+	
+	}
+	
+	option = {
+		name = "The audacity of these folk! Not a chance."
+		casus_belli = {
+			target = FROM
+			type = humiliate
+			months = 12
+		}
 	
 	}
 	
 }
+
+country_event = { #negotiations fall apart humiliated
+	id = 50479
+	title = "EVTNAME50479"
+	desc = "EVTDESC50479"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "It seems we have overplayed our hand..."
+		prestige = -10
+	
+	}
+	
+}
+
+country_event = { #negotiations fall apart triumphant
+	id = 50480
+	title = "EVTNAME50480"
+	desc = "EVTDESC50480"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This reflects nothing but good upon our state."
+		prestige = 15
+	
+	}
+	
+}
+
+country_event = { #scramble for bafozh activator alert
+	id = 50481
+	title = "EVTNAME50481"
+	desc = "EVTDESC50481"
+	#picture = "deadboys"
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We must take the future into our own hands."
+		set_global_flag = scramble_for_bafozh
+	}
+	
+}
+
