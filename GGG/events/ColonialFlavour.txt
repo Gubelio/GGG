@@ -1716,3 +1716,201 @@ country_event = { #scramble for bafozh activator alert
 	
 }
 
+country_event = { #great lakes trigger
+	id = 50482
+	title = "EVTNAME50482"
+	desc = "EVTDESC50482"
+	#picture = "deadboys"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			has_global_flag = lakes_issue_resolved
+		}
+		has_country_flag = discovered_lakes
+		2208 = {
+			NOT = {
+				owned_by = THIS
+			}
+			empty = no
+			owner = {
+				NOT = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				owns = 2210
+			}
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+			factor = 0.3
+			is_greater_power = yes
+		
+		}
+		
+		modifier = {
+			factor = 0.6
+			is_seconary_power = yes
+		
+		}
+	
+	}
+	
+	option = {
+		name = "The lakes region is rightfully ours!"
+		any_country = {
+			limit = {
+				owns = 2208
+			}
+			country_event = {
+				id = 50482
+				days = 10
+			}
+		
+		}
+		set_global_flag = lakes_issue_resolved
+	
+	}
+	
+	option = {
+		name = "We cannot risk provoking them at the moment."
+		set_global_flag = lakes_issue_resolved
+		prestige = -10
+	
+	}
+	
+
+}
+
+country_event = { #great lakes region demanded
+	id = 50483
+	title = "EVTNAME50483"
+	desc = "EVTDESC50483"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A few lousey officers doing a sightseeing trip does not warrant this!"
+		relation = {
+			who = FROM
+			value = -50
+		}
+		FROM = {
+			country_event = {
+				days = 10
+				id = 40485
+			}
+		}
+	
+	}
+	
+	option = {
+		name = "Very well. They may have access to the lands they claim."
+		FROM = {
+			country_event = {
+				days = 10
+				id = 40485
+			}
+		
+		}
+		
+		country_event = {
+			id = 50481
+			days = 30
+		}
+		
+	
+	}
+	
+}
+
+country_event = { #Great Lakes Rejected!
+	id = 50484
+	title = "EVTNAME50484"
+	desc = "EVTDESC50484"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name =  "Then we shall have our lands by force!"
+		
+		FROM = {
+			add_casus_belli = {
+				target = THIS
+				type = place_in_the_sun
+				months = 12
+				state_province_id =  2210 #REG_316
+			}
+			
+			add_casus_belli = {
+				target = THIS
+				type = place_in_the_sun
+				months = 12
+				state_province_id = 2208    #REG_315
+			}
+		}
+		
+		country_event = {
+			id = 50481
+			days = 30
+		}
+	}
+	
+	option = {
+		name = "Well, what can we do now?"
+		prestige = -20
+	
+	}
+	
+}
+
+
+country_event = { #Great Lakes Accepted
+	id = 50485
+	title = "EVTNAME50485"
+	desc = "EVTDESC50485"
+	#picture = "deadboys"
+	
+	is_triggered_only = yes
+	
+	option = {
+		 name = "Diplomacy prevails. Hurrah!"
+		 2210 = {
+			state_scope = {
+				any_owned = {
+					secede_province = THIS
+				}
+			}
+		}
+		2208 = {
+			state_scope = {
+				any_owned = {
+					secede_province = THIS
+				}
+			}
+		}
+		relation = {
+			who = FROM
+			value = 100
+		}
+	
+	}
+	
+	
+}
+
+
+
+
+
+
+
