@@ -1774,7 +1774,7 @@ humiliate = {
 demand_concession_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -1875,9 +1875,9 @@ demand_concession_casus_belli = {
 
 scramble_for_bafozh_state = {
 	sprite_index = 22
-	is_triggered_only = yes
-	months = 0
-	construction_speed = 1.2
+	is_triggered_only = no
+	months = 12
+	#construction_speed = 1.2
 	crisis = no
 	
 	badboy_factor = 0
@@ -1894,7 +1894,7 @@ scramble_for_bafozh_state = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	always = no
+	always = yes
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -1915,9 +1915,7 @@ scramble_for_bafozh_state = {
 				}
 				AND = {
 					any_owned_province = {
-						limit = {
-							continent = europe
-						}
+						continent = europe
 						any_neighbor_province = {
 							owner = {
 								OR = {
@@ -1942,7 +1940,7 @@ scramble_for_bafozh_state = {
 	
 	allowed_states = {
 		any_owned_province = {
-			is_colonial = no
+			is_colonial = yes
 		}
 	}
 	
@@ -1963,7 +1961,7 @@ scramble_for_bafozh_state = {
 demand_concession_casus_belli_1342 = {
 	sprite_index = 22
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -2045,7 +2043,7 @@ demand_concession_casus_belli_event = {
 	sprite_index = 7
 	is_triggered_only = yes
 	constructing_cb = no
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -2098,7 +2096,7 @@ demand_concession_casus_belli_event = {
 establish_protectorate_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -2206,7 +2204,7 @@ establish_protectorate_casus_belli = {
 establish_protectorate_casus_belli_dp = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -2313,12 +2311,12 @@ establish_protectorate_casus_belli_dp = {
 
 scramble_for_bafozh_annex = {
 	sprite_index = 22
-	is_triggered_only = yes
-	months = 0
-	construction_speed = 1.2
+	is_triggered_only = no
+	months = 12
+	#construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 0.3 #1
+	badboy_factor = 0 #1
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -2332,7 +2330,7 @@ scramble_for_bafozh_annex = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	always = no
+	always = yes
 	
 	can_use = {
 		THIS = {
@@ -2349,9 +2347,7 @@ scramble_for_bafozh_annex = {
 				}
 				AND = {
 					any_owned_province = {
-						limit = {
-							continent = europe
-						}
+						continent = europe
 						any_neighbor_province = {
 							owner = {
 								OR = {
@@ -2390,7 +2386,7 @@ scramble_for_bafozh_annex = {
 establish_protectorate_casus_belli_1342 = {
 	sprite_index = 22
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -2480,7 +2476,7 @@ establish_protectorate_casus_belli_1342 = {
 establish_protectorate_casus_belli_1342_dp = {
 	sprite_index = 22
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -3078,6 +3074,7 @@ install_free_yoker_gov_cb = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 2
 	crisis = no
 
 	badboy_factor = 1
@@ -3097,7 +3094,10 @@ install_free_yoker_gov_cb = {
 	can_use = {
 		THIS = {
 			# If actor is a great power
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 			
 			# If actor gov truly free_yoker
 			government = paternalistic_council
@@ -3141,19 +3141,39 @@ install_free_yoker_gov_cb = {
 	
 		government = paternalistic_council
 		ruling_party_ideology = free_yoker
-	
-	
-		political_reform = thralldom_allowed
+		clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
+		clr_country_flag = centralised
+		clr_country_flag = federalised
+		clr_country_flag = usufruct_law_country
+		clr_country_flag = realty_law_country
+		clr_country_flag = locked_usu
+		clr_country_flag = locked_real
+
+        ruling_party_ideology = free_yoker
+
+        political_reform = thralldom_allowed
+		
+		set_country_flag = centralised
+		political_reform = centralised
 		political_reform = regulated_elections
-		political_reform = no_school_system
+		
+		
 	
-		social_reform = good_minimum_wage
-		social_reform = good_protections
-		social_reform = local_congregationalism
-		social_reform = equality_before_the_law
-		social_reform = mule_n_seed_law
-		social_reform = no_slavery
-		social_reform = bankruptcy
+		set_country_flag = usufruct_law_country
+		political_reform = usufruct_prioritised
+		social_reform = land_covenants
+
+		
+
+		
+        political_reform = no_school_system
+
+        social_reform = good_minimum_wage
+        social_reform = good_protections
+        social_reform = local_congregationalism
+        social_reform = equality_before_the_law
+        social_reform = mule_n_seed_law
 	}
 }
 
@@ -3163,6 +3183,7 @@ uninstall_free_yoker_gov_cb = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 2
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -3214,15 +3235,52 @@ uninstall_free_yoker_gov_cb = {
 	}
 	
 	on_po_accepted = {
-		government = princely_despotate
-		ruling_party_ideology = reactionary
-		
-		social_reform = trinket_wage
-		social_reform = trinket_protections
-		social_reform = morality_police
-		social_reform = legal_disabilities
-		social_reform = debtors_prisons
-		social_reform = capital_punishment
+			clr_country_flag = locked_fed
+		clr_country_flag = locked_cent
+		clr_country_flag = federalised
+		clr_country_flag = centralised
+		clr_country_flag = locked_usu
+		clr_country_flag = usufruct_law_country
+        political_reform = feudal_tenure
+        political_reform = aristocratic_bureaucracy
+	ruling_party_ideology = reactionary
+        random_list = {
+			44 = {
+				political_reform = noble_parliament
+				political_reform = centralised
+				government = aristocratic_commonwealth
+			}
+			44 = {
+				political_reform = noble_parliament_i
+				political_reform = tribal_assembly
+				government = princely_despotate
+			}
+			6 = {
+				political_reform = noble_parliament
+				political_reform = centralised
+				government = theocracy
+			}
+			6 = {
+				political_reform = noble_parliament_i
+				political_reform = tribal_assembly
+				government = theocracy
+			}
+		}
+        political_reform = primary_culture_only
+        political_reform = feudal_courts
+
+        social_reform = feudal_rights
+		social_reform = realty_prioritised
+
+        #random_owned = { limit = { owner = { NOT = { trade_unions = no_trade_unions } } } owner = { political_reform = state_controlled } }
+        #random_owned = { limit = { owner = { NOT = { citizens_rights = primary_culture_only } } } owner = { social_reform = culture_voting_only } }
+
+        add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+        prestige_factor = -0.25
+		plurality = -25
 	}
 }
 
@@ -3881,7 +3939,7 @@ colonial_conquest_low_KF = {
 demand_concession_casus_belli_KF = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -3987,7 +4045,7 @@ demand_concession_casus_belli_KF = {
 demand_concession_casus_belli_EM = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	
@@ -4342,7 +4400,7 @@ swallow_me_whole = { #event protectorate
 	sprite_index = 7
 	is_triggered_only = yes
 	constructing_cb = no
-	months = 0
+	months = 12
 	construction_speed = 1.2
 	crisis = no
 	

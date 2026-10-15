@@ -550,3 +550,15 @@ national_resistance_desc;This state is currently in a war for rulership of its o
 colonial_overlordship;Colonial Wardship;;;;;;;;;;;;x
 colonial_overlordship_desc;This state is the political artifice of a colonial overlord, who has made broad promises about the advancement of civilisation and an improved life for the native population.;;;;;;;;;;;;x
 sanctions_disabled;Sanctions Disabled;;;;;;;;;;;;;x
+NORMAL_YOKER_WAR_NAME;$ORDER$ $FIRST$ War for  $SECOND$ Peasant Liberation;
+AGGRESSION_YOKER_WAR_NAME;$ORDER$ $FIRST$ War for  $SECOND$ Peasant Liberation;
+NORMAL_REACTIONARY_WAR_NAME;$ORDER$ $FIRST$ Intervention in $SECOND_COUNTRY$;
+AGGRESSION_REACTIONARY_WAR_NAME;$ORDER$ $FIRST$ Intervention in $SECOND_COUNTRY$;
+install_free_yoker_gov_cb;Liberate Peasantry;;;;;;;;;;;;;x
+install_free_yoker_gov_cb_short;Install Yokerism in$ RECIPIENT$;;;;;;;;;;;;;x
+install_free_yoker_gov_cb_setup;Install a Yokerish Government in $RECIPIENT$;;;;;;;;;;;;;x
+install_free_yoker_gov_cb_desc;Change this countrie's §Ygovernment§! to a paternalistic council;;;;;;;;;;;;;x
+uninstall_free_yoker_gov_cb;Crush Yokerism;;;;;;;;;;;;;x
+uninstall_free_yoker_gov_cb_short;Purge $RECIPIENT$ of Yokerism;;;;;;;;;;;;;x
+uninstall_free_yoker_gov_cb_setup;Purge $RECIPIENT$ of its Free-Yoker Government;;;;;;;;;;;;;x
+uninstall_free_yoker_gov_cb_desc;Intervene in a free-yoker country and change their §Ygovernment§! to a reactionary one.;;;;;;;;;;;;;x
