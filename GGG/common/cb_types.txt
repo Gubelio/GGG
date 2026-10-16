@@ -1933,6 +1933,14 @@ scramble_for_bafozh_state = {
 			}
 			
 		}
+		any_owned_province = {
+			OR = {
+				port = yes
+				any_neighbor_province = {
+					owned_by = THIS
+				}
+			}
+		}
 		civilized = no
 		number_of_states = 4
 		capital_scope = { continent = europe }
@@ -1940,8 +1948,16 @@ scramble_for_bafozh_state = {
 	
 	allowed_states = {
 		any_owned_province = {
-			is_colonial = yes
+			is_colonial = no
+			OR = {
+				port = yes
+				any_neighbor_province = {
+					owned_by = THIS
+				}
+			}
 		}
+		not = { any_owned_province = { is_capital = yes } 
+		
 	}
 	
 	po_demand_state = yes
@@ -2360,6 +2376,14 @@ scramble_for_bafozh_annex = {
 						
 						}
 					}
+				}
+			}
+		}
+		any_owned_province = {
+			OR = {
+				port = yes
+				any_neighbor_province = {
+					owned_by = THIS
 				}
 			}
 		}
