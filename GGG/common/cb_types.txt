@@ -3150,7 +3150,10 @@ install_free_yoker_gov_cb = {
 			government = paternalistic_council
 			
 			# If actor ruling party is free_yoker
-			ruling_party_ideology = free_yoker
+			OR = {
+				ruling_party_ideology = free_yoker
+				ruling_party_ideology = free_yoker
+			}
 		}
 		
 		AND = {
@@ -3185,6 +3188,31 @@ install_free_yoker_gov_cb = {
 	}
 	
 	on_po_accepted = {
+	
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						tag = THS
+						tag = HAH
+						tag = SOG
+						tag = MUB
+						tag = MAC
+						tag = VAS
+					
+					AND = {
+						VUG = {
+							exists = yes
+							government = paternalistic_council
+						}
+					}
+				}
+			}
+			owner = {
+				country_event = 50171
+			}
+			
+		}
 	
 		government = paternalistic_council
 		ruling_party_ideology = free_yoker
