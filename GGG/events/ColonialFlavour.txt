@@ -1246,6 +1246,8 @@ country_event = { #colonial competition trigger
 						is_core = WBC
 						is_core = CBC
 						is_core = SBC
+						is_core = JTC
+						is_core = SLC
 					}
 					owner = {
 						OR = {

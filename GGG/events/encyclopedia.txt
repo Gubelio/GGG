@@ -6465,6 +6465,11 @@ country_event = {
 	}
 	
 	option = {
+		name = "Wool-bats"
+		country_event = { id = 50487 }
+	}
+	
+	option = {
 		name = "The Instituion of Thralldom"
 		country_event = { id = 50256 }
 	}
@@ -6571,6 +6576,26 @@ country_event = {
 	id = 50255
 	title = "EVT50255NAME" ##### Nuzhdap
 	desc = "EVT50255DESC"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to Miscellany"
+		country_event = { id = 50152 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50487
+	title = "EVTNAME50487" ##### Wool_bats
+	desc = "EVTDESC50487"
 	picture = "encyclo"
 	
 	is_triggered_only = yes

@@ -655,3 +655,31 @@ province_event = {
 	}
 }
 
+province_event = {
+    id = 50488 ## Wool-Bats
+    title = "EVTNAME50488" 
+    desc = "EVTDESC50488"
+
+	mean_time_to_happen = {
+		months = 10
+	}
+
+	trigger = {
+		OR = {
+			province_id = 2029
+			province_id = 2059
+			province_id = 2042
+			province_id = 2062
+			province_id = 1390
+		}
+		not = { trade_goods = wool }
+	}
+
+	option = {
+		name = "Out with the old, in with new, as it always is!"
+		trade_goods = wool
+		add_province_modifier = { name = switched_production duration = 912 }
+		add_province_modifier = { name = ecological_chages duration = -1 }
+		
+	}
+}
