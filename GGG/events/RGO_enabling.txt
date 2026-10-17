@@ -686,3 +686,32 @@ province_event = {
 		
 	}
 }
+
+province_event = {
+    id = 50490 ## Cattle
+    title = "EVTNAME50490" 
+    desc = "EVTDESC50490"
+
+	mean_time_to_happen = {
+		months = 30
+	}
+
+	trigger = {
+		OR = {
+			province_id = 2030
+			province_id = 2055
+		}
+		NOT = { 
+			trade_goods = cattle
+			trade_goods = precious_metal
+		}
+	}
+
+	option = {
+		name = "Out with the old, in with new, as it always is!"
+		trade_goods = wool
+		add_province_modifier = { name = switched_production duration = 912 }
+		add_province_modifier = { name = ecological_chages duration = -1 }
+		
+	}
+}
