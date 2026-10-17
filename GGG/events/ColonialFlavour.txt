@@ -1322,6 +1322,8 @@ country_event = { #colonial competition trigger
 						is_core = WBC
 						is_core = CBC
 						is_core = SBC
+						is_core = SLC
+						is_core = JTC
 					}
 					OR = {
 						any_neighbor_province = {
@@ -1904,6 +1906,56 @@ country_event = { #Great Lakes Accepted
 		}
 	
 	}
+	
+	
+}
+
+
+country_event = { #colonial_comp_scramble_trigger
+	id = 50486
+	title = "EVTNAME50486"
+	desc = "EVTDESC50486"
+	#picture = "deadboys"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		any_owned_province ={
+			has_province_modifier = enemy_influence
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	
+	}
+	
+	option = {
+		country_event = {
+			id = 50481
+			days = 30
+		}
+		
+		any_owned_province = {
+			limit = {
+				has_province_modifier = enemy_influence
+			}	
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+				}
+				militancy = 5
+				consciousness = 3
+				
+			}
+		}
+		
+		any_owned_province = {
+			remove_province_modifier = enemy_influence
+		}
+	
+	}
+	
 	
 	
 }

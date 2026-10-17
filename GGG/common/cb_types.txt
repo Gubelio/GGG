@@ -1211,6 +1211,29 @@ colonial_competition = {
 			to = pro_military
 			value = 0.25
 		}
+		random_owned = {
+			limit = {
+				OR = {
+					is_core = EBC
+					is_core = WBC
+					is_core = CBC
+					is_core = SBC
+					is_core = SLC
+					is_core = JTC
+				}
+				owner = {
+					NOT = {
+						has_global_flag = scramble_for_bafozh
+					
+					}
+				}
+			}
+			add_province_modifier = {
+				name = enemy_influence
+				duration = -1
+			}
+		
+		}
 	}
 }
 
