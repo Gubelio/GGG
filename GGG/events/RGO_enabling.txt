@@ -368,6 +368,7 @@ province_event = {
 			}
 			any_greater_power = {
 				invention = nitroglycerin
+				relation = { who = THIS value = 10 }
 			}
 			owner = {
 				civilized = yes
@@ -395,6 +396,7 @@ province_event = {
 			random_country = {
 				limit = {
 					invention = nitroglycerin
+					relation = { who = THIS value = 10 }
 				}
 				country_event = {
 					id = 50461
@@ -414,10 +416,29 @@ country_event = {
 	
 	option = {
 		name = "Excellent!"
-		diplomatic_influence = {
-			who = FROM
-			value = 200
+		if = {
+			limit = {
+				FROM = {
+					is_greater_power = no
+				
+				}
+			
+			}
+			THIS = {
+				diplomatic_influence = {
+					who = FROM
+					value = 200
+				}
+			
+			}
+		
 		}
+		
+		relation = {
+			who = FROM
+			value = 50
+		}
+		
 		treasury = 5000
 		random_pop = {
 			limit = {
