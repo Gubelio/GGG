@@ -1520,7 +1520,7 @@ country_event = { #colonial competition reply_negotiate
 						any_neighbor_province = {
 							NOT = {
 								AND = {
-									owned_by = THIS
+									owned_by = FROM
 									continent = europe
 								}
 							}
@@ -1547,7 +1547,7 @@ country_event = { #colonial competition reply_negotiate
 						any_neighbor_province = {
 							NOT = {
 								AND = {
-									owned_by = THIS
+									owned_by = FROM
 									continent = europe
 								}
 							}
@@ -1578,7 +1578,7 @@ country_event = { #colonial competition reply_negotiate
 						any_neighbor_province = {
 							NOT = {
 								AND = {
-									owned_by = THIS
+									owned_by = FROM
 									continent = europe
 								}
 							}
@@ -1599,7 +1599,7 @@ country_event = { #colonial competition reply_negotiate
 						any_neighbor_province = {
 							NOT = {
 								AND = {
-									owned_by = THIS
+									owned_by = FROM
 									continent = europe
 								}
 							}
