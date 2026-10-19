@@ -490,10 +490,6 @@ country_event = {
 			poor_strata_life_needs = 0.95
 		}
 		
-		modifier = {
-            factor = 0.1
-            invention = the_doctrine_of_fascism
-        }
 
         modifier = {
             factor = 0.1
@@ -514,15 +510,15 @@ country_event = {
             average_consciousness = 4
         }
 		modifier = {
-            factor = 0.9
+            factor = 0.8
             year = 1372
         }
 		modifier = {
-            factor = 0.9
+            factor = 0.7
             year = 1374
         }
 		modifier = {
-            factor = 0.7
+            factor = 0.6
             year = 1376
         }
 	}
@@ -561,13 +557,13 @@ country_event = {
 	mean_time_to_happen =  {
 		months = 300
 		
-		 modifier = {
+		 modifier = { 
             factor = 0.5
             invention = dogma_of_mass_action
         }
         modifier = {
             factor = 0.8
-            invention = vangaurd_party
+            invention = vanguard_party
         }
 		modifier = {
 			factor = 1.2
