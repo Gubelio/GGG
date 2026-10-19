@@ -68,7 +68,7 @@ country_event = {
 	desc = "EVTDESC50202"
 	
     trigger = {
-		year = 1345
+		#year = 1345
 		
 		has_global_flag = pandemics_started
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -85,6 +85,26 @@ country_event = {
 	
 	mean_time_to_happen = {
         months = 10000
+	
+		modifier = {
+           factor = 0.8
+		   year = 1370
+		   NOT = { year = 1380 }
+		}
+		modifier = {
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1390
+		   NOT = { year = 1400 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1400
+		}
 	
 	}
 	
@@ -121,7 +141,7 @@ country_event = {
 	desc = "EVTDESC50216"
 	
     trigger = {
-		year = 1345
+		#year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -139,6 +159,25 @@ country_event = {
 	mean_time_to_happen = {
         months = 10000
 		
+		modifier = {
+           factor = 0.8
+		   year = 1370
+		   NOT = { year = 1380 }
+		}
+		modifier = {
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1390
+		   NOT = { year = 1400 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1400
+		}
 
 	}
 	
@@ -174,7 +213,7 @@ country_event = {
 	desc = "EVTDESC50217"
 	
     trigger = {
-		year = 1345
+		#year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -191,6 +230,26 @@ country_event = {
 	
 	mean_time_to_happen = {
         months = 10000
+		
+		modifier = {
+           factor = 0.8
+		   year = 1370
+		   NOT = { year = 1380 }
+		}
+		modifier = {
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1390
+		   NOT = { year = 1400 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1400
+		}
 		
 	}
 	
@@ -243,7 +302,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "These are grim times"
 		set_country_flag = w_f_arrived
 	}
 
@@ -269,7 +328,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "The 'Poumnian Gift' has returned..."
 		set_country_flag = red_flux_in_country
 	}
 
@@ -295,7 +354,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "These are grim times"
 		set_country_flag = wasting_sickness_in_country
 	}
 
