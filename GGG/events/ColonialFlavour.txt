@@ -1393,7 +1393,7 @@ country_event = { #colonial competition trigger_reply
 	}
 	
 	option = {
-		name = "We understand their concern, but we must have some greater compensation."
+		name = "We understand their concern, but we must have some compensation."
 		prestige = 1
 		relation = {
 			who = FROM
@@ -1561,8 +1561,9 @@ country_event = { #colonial competition reply_negotiate
 						}
 					}
 					secede_province = FROM
-					set_country_flag = cores_check
 				}
+				
+				set_country_flag = cores_check
 			
 			}
 		
@@ -1575,16 +1576,14 @@ country_event = { #colonial competition reply_negotiate
 					}
 					
 					any_owned_province = {
-						any_neighbor_province = {
-							NOT = {
-								AND = {
-									owned_by = FROM
-									continent = europe
-								}
-							}
-						}
 						NOT = {
 							is_core = THIS
+							is_core = EBC
+							is_core = WBC
+							is_core = CBC
+							is_core = SBC
+							is_core = SLC
+							is_core = JTC
 						}
 						is_overseas = yes
 						port = yes
@@ -1596,25 +1595,24 @@ country_event = { #colonial competition reply_negotiate
 			THIS = {
 				random_owned = {
 					limit = {
-						any_neighbor_province = {
-							NOT = {
-								AND = {
-									owned_by = FROM
-									continent = europe
-								}
-							}
-						}
 						NOT = {
 							is_core = THIS
+							is_core = EBC
+							is_core = WBC
+							is_core = CBC
+							is_core = SBC
+							is_core = SLC
+							is_core = JTC
 						}
-						OR = {
-							is_overseas = yes
-							port = yes
-						}
+						is_overseas = yes
+						port = yes
+						
 					}
 					secede_province = FROM
-					set_country_flag = prov_check
+					
 				}
+				
+				set_country_flag = prov_check
 			
 			}
 		
@@ -1630,6 +1628,7 @@ country_event = { #colonial competition reply_negotiate
 				}
 			
 			}
+			
 			FROM = {
 				random_province = {
 					limit = {
@@ -1648,6 +1647,12 @@ country_event = { #colonial competition reply_negotiate
 							}
 						}
 					}
+					owner = {
+						country_event = {
+							id = 50481
+							days = 30
+						}
+					}
 					state_scope = {
 						any_owned = {
 							secede_province = THIS
@@ -1655,10 +1660,7 @@ country_event = { #colonial competition reply_negotiate
 					}
 				
 				}
-				country_event = {
-					id = 50481
-					days = 30
-				}
+				
 			}
 		
 		}
@@ -1668,6 +1670,8 @@ country_event = { #colonial competition reply_negotiate
 				THIS = {
 					NOT = {
 						has_country_flag = cores_check
+					}
+					NOT = {
 						has_country_flag = prov_check
 					}
 				
@@ -1727,7 +1731,7 @@ country_event = { #colonial competition reply_negotiate
 			move_issue_percentage = { 
 				from = pro_military
 				to = anti_military
-				value = 1
+				value = 0.05
 			}
 		
 		}
@@ -1757,7 +1761,7 @@ country_event = { #colonial competition reply_negotiate
 			move_issue_percentage = { 
 				from = pro_military
 				to = jingoism
-				value = 1
+				value = 0.05
 			}
 		
 		}
