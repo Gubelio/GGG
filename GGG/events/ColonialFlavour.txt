@@ -1927,6 +1927,18 @@ country_event = { #great lakes region demanded
 				id = 40485
 			}
 		}
+		
+		ai_chance = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					relation = { who = FROM value = 0 }
+				}
+			}
+		
+		}
 	
 	}
 	
@@ -1940,11 +1952,37 @@ country_event = { #great lakes region demanded
 		
 		}
 		
-		country_event = {
-			id = 50481
-			days = 30
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_global_flag = scramble_for_bafozh
+					}
+				
+				}
+			}
+			THIS = {
+				country_event = {
+					id = 50481
+					days = 30
+				}
+			
+			}
+			
+		
 		}
 		
+		ai_chance = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 0.8
+				NOT = {
+					relation = { who = FROM value = 100 }
+				}
+			}
+		
+		}
 	
 	}
 	
@@ -1977,15 +2015,50 @@ country_event = { #Great Lakes Rejected!
 			}
 		}
 		
-		country_event = {
-			id = 50481
-			days = 30
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_global_flag = scramble_for_bafozh
+					}
+				
+				}
+			}
+			THIS = {
+				country_event = {
+					id = 50481
+					days = 30
+				}
+			
+			}
+			
+		
 		}
 	}
 	
 	option = {
-		name = "Well, what can we do now?"
+		name = "We must look for other territorial holds in Bafozh."
 		prestige = -20
+		
+		if = {
+			limit = {
+				THIS = {
+					NOT = {
+						has_global_flag = scramble_for_bafozh
+					}
+				
+				}
+			}
+			THIS = {
+				country_event = {
+					id = 50481
+					days = 30
+				}
+			
+			}
+			
+		
+		}
 	
 	}
 	
