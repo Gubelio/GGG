@@ -2,31 +2,22 @@
 ### PANDEMIC START UP EVENTS ###
 ################################
 
+country_event = { #enabling the pandemic
+	id = 50489
+	title = "EVTNAME50489" 
+	desc = "EVTDESC50489"
 
 
-country_event = {
-	id = 50202
-	title = "EVTNAME50202" #White Flux Pandemic
-	desc = "EVTDESC50202"
-	
-    trigger = {
-		year = 1345
-		
+	trigger = {
+		ai = yes
 		has_global_flag = pandemics_enabled
-		NOT = { has_global_flag = white_flux_pandemic_happened }
-		NOT = { has_global_flag = red_flux_pandemic_happened }
-		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
-		NOT = { tag = AYU }
-		NOT = { tag = HMO }
-		NOT = { tag = HUP }
-		NOT = { tag = NGJ }
-    }
+		NOT = { has_global_flag = pandemics_started }
+	}
 	
-	major = yes
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-        months = 10000
+		months = 10000
 		
 		modifier = {
            factor = 3
@@ -61,6 +52,60 @@ country_event = {
            factor = 0.1
 		   year = 1400
 		}
+		
+	}
+	
+	option = {
+		name = "I am but a lowly robot"
+		set_global_flag = pandemics_started
+	}
+	
+}
+
+country_event = {
+	id = 50202
+	title = "EVTNAME50202" #White Flux Pandemic
+	desc = "EVTDESC50202"
+	
+    trigger = {
+		#year = 1345
+		
+		has_global_flag = pandemics_started
+		NOT = { has_global_flag = white_flux_pandemic_happened }
+		NOT = { has_global_flag = red_flux_pandemic_happened }
+		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
+		NOT = { tag = AYU }
+		NOT = { tag = HMO }
+		NOT = { tag = HUP }
+		NOT = { tag = NGJ }
+    }
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+        months = 10000
+	
+		modifier = {
+           factor = 0.8
+		   year = 1370
+		   NOT = { year = 1380 }
+		}
+		modifier = {
+           factor = 0.5
+		   year = 1380
+		   NOT = { year = 1390 }
+		}
+		modifier = {
+           factor = 0.2
+		   year = 1390
+		   NOT = { year = 1400 }
+		}
+		modifier = {
+           factor = 0.1
+		   year = 1400
+		}
+	
 	}
 	
 	option = {
@@ -96,7 +141,7 @@ country_event = {
 	desc = "EVTDESC50216"
 	
     trigger = {
-		year = 1345
+		#year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -114,20 +159,6 @@ country_event = {
 	mean_time_to_happen = {
         months = 10000
 		
-		modifier = {
-           factor = 3
-		   NOT = { year = 1350 }
-		}
-		modifier = {
-           factor = 2
-		   year = 1350
-		   NOT = { year = 1360 }
-		}
-		modifier = {
-           factor = 0.9
-		   year = 1360
-		   NOT = { year = 1370 }
-		}
 		modifier = {
            factor = 0.8
 		   year = 1370
@@ -147,6 +178,7 @@ country_event = {
            factor = 0.1
 		   year = 1400
 		}
+
 	}
 	
 	option = {
@@ -181,7 +213,7 @@ country_event = {
 	desc = "EVTDESC50217"
 	
     trigger = {
-		year = 1345
+		#year = 1345
 		
 		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
@@ -199,20 +231,6 @@ country_event = {
 	mean_time_to_happen = {
         months = 10000
 		
-		modifier = {
-           factor = 3
-		   NOT = { year = 1350 }
-		}
-		modifier = {
-           factor = 2
-		   year = 1350
-		   NOT = { year = 1360 }
-		}
-		modifier = {
-           factor = 0.9
-		   year = 1360
-		   NOT = { year = 1370 }
-		}
 		modifier = {
            factor = 0.8
 		   year = 1370
@@ -232,6 +250,7 @@ country_event = {
            factor = 0.1
 		   year = 1400
 		}
+		
 	}
 	
 	option = {
@@ -283,7 +302,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "These are grim times"
 		set_country_flag = w_f_arrived
 	}
 
@@ -309,7 +328,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "The 'Poumnian Gift' has returned..."
 		set_country_flag = red_flux_in_country
 	}
 
@@ -335,7 +354,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "These are grim times."
+		name = "These are grim times"
 		set_country_flag = wasting_sickness_in_country
 	}
 
