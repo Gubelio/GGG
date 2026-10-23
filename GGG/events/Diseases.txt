@@ -17,50 +17,41 @@ country_event = { #enabling the pandemic
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 10000
-		
-		modifier = {
-           factor = 3
-		   NOT = { year = 1350 }
-		}
-		modifier = {
-           factor = 2
-		   year = 1350
-		   NOT = { year = 1360 }
-		}
-		modifier = {
-           factor = 0.9
-		   year = 1360
-		   NOT = { year = 1370 }
-		}
-		modifier = {
-           factor = 0.8
-		   year = 1370
-		   NOT = { year = 1380 }
-		}
-		modifier = {
-           factor = 0.5
-		   year = 1380
-		   NOT = { year = 1390 }
-		}
-		modifier = {
-           factor = 0.2
-		   year = 1390
-		   NOT = { year = 1400 }
-		}
-		modifier = {
-           factor = 0.1
-		   year = 1400
-		}
+		months = 1
 		
 	}
 	
 	option = {
 		name = "I am but a lowly robot"
 		set_global_flag = pandemics_started
+		
+				random_list = { #five year increments
+				
+					5 = { set_global_flag = pandemics_started_1313 }
+					5 = { set_global_flag = pandemics_started_1318 }
+					5 = { set_global_flag = pandemics_started_1323 }
+					5 = { set_global_flag = pandemics_started_1328 }
+					5 = { set_global_flag = pandemics_started_1333 }
+					5 = { set_global_flag = pandemics_started_1338 }
+					6 = { set_global_flag = pandemics_started_1343 }
+					6 = { set_global_flag = pandemics_started_1348 }
+					6 = { set_global_flag = pandemics_started_1353 }
+					6 = { set_global_flag = pandemics_started_1358 }
+					6 = { set_global_flag = pandemics_started_1363 }
+					6 = { set_global_flag = pandemics_started_1368 }
+					6 = { set_global_flag = pandemics_started_1373 }
+					6 = { set_global_flag = pandemics_started_1378 }
+					6 = { set_global_flag = pandemics_started_1383 }
+					6 = { set_global_flag = pandemics_started_1388 }
+					5 = { set_global_flag = pandemics_started_1393 }
+					5 = { set_global_flag = pandemics_started_1398 }
+					
+				}
 	}
 	
 }
+
+#############################33
 
 country_event = {
 	id = 50202
@@ -70,7 +61,81 @@ country_event = {
     trigger = {
 		#year = 1345
 		
-		has_global_flag = pandemics_started
+		OR = {
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1313
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1318
+			}
+			AND = {
+				has_global_flag = pandemics_started_1323
+				year = 1323
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1328
+			}
+			AND = {
+				has_global_flag = pandemics_started_1333
+				year = 1333
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1338
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1343
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1348
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1353
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1358
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1363
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1368
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1373
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1378
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1383
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1388
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1393
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1398
+			}
+		}
+
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
@@ -85,26 +150,7 @@ country_event = {
 	
 	mean_time_to_happen = {
         months = 10000
-	
-		modifier = {
-           factor = 0.8
-		   year = 1370
-		   NOT = { year = 1380 }
-		}
-		modifier = {
-           factor = 0.5
-		   year = 1380
-		   NOT = { year = 1390 }
-		}
-		modifier = {
-           factor = 0.2
-		   year = 1390
-		   NOT = { year = 1400 }
-		}
-		modifier = {
-           factor = 0.1
-		   year = 1400
-		}
+
 	
 	}
 	
@@ -141,9 +187,82 @@ country_event = {
 	desc = "EVTDESC50216"
 	
     trigger = {
-		#year = 1345
+	
+		OR = {
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1313
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1318
+			}
+			AND = {
+				has_global_flag = pandemics_started_1323
+				year = 1323
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1328
+			}
+			AND = {
+				has_global_flag = pandemics_started_1333
+				year = 1333
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1338
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1343
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1348
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1353
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1358
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1363
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1368
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1373
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1378
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1383
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1388
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1393
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1398
+			}
+		}
 		
-		has_global_flag = pandemics_enabled
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
@@ -213,9 +332,82 @@ country_event = {
 	desc = "EVTDESC50217"
 	
     trigger = {
-		#year = 1345
-		
-		has_global_flag = pandemics_enabled
+
+		OR = {
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1313
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1318
+			}
+			AND = {
+				has_global_flag = pandemics_started_1323
+				year = 1323
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1328
+			}
+			AND = {
+				has_global_flag = pandemics_started_1333
+				year = 1333
+			}
+			AND = {
+				has_global_flag = pandemics_started_1328
+				year = 1338
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1343
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1348
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1353
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1358
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1363
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1368
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1373
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1378
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1383
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1388
+			}
+			AND = {
+				has_global_flag = pandemics_started_1313
+				year = 1393
+			}
+			AND = {
+				has_global_flag = pandemics_started_1318
+				year = 1398
+			}
+		}
+
 		NOT = { has_global_flag = white_flux_pandemic_happened }
 		NOT = { has_global_flag = red_flux_pandemic_happened }
 		NOT = { has_global_flag = wasting_sickness_pandemic_happened }
