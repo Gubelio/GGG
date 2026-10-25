@@ -2168,26 +2168,35 @@ issues =
                 economic_policy = laissez_faire
             }
         }
+	modifier = {
+            factor = 0
+            NOT = {
+               everyday_needs = 0.75
+            }
+            country = {
+                economic_policy = laissez_faire
+            }
+        }
         modifier = {
             factor = 1.1
             everyday_needs = 1.0
             country = { economic_policy = laissez_faire }
         }
-        modifier = {
-            factor = 1.1
-            everyday_needs = 0.25
-            country = { economic_policy = laissez_faire }
-        }
-        modifier = {
-            factor = 1.1
-            everyday_needs = 0.5
-            country = { economic_policy = laissez_faire }
-        }
-        modifier = {
-            factor = 1.1
-            everyday_needs = 0.75
-            country = { economic_policy = laissez_faire }
-        }
+        #modifier = {
+        #    factor = 1.1
+        #    everyday_needs = 0.25
+        #    country = { economic_policy = laissez_faire }
+        #}
+        #modifier = {
+        #    factor = 1.1
+        #    everyday_needs = 0.5
+        #    country = { economic_policy = laissez_faire }
+        #}
+        #modifier = {
+        #    factor = 1.1
+        #    everyday_needs = 0.75
+        #    country = { economic_policy = laissez_faire }
+        #}
     }
     interventionism = {
         factor = 1
