@@ -2150,9 +2150,9 @@ country_event = { #colonial_comp_scramble_trigger
 }
 
 country_event = { #the coast of charchland
-	id = 50491
-	title = "EVTNAME50491"
-	desc = "EVTDESC50491"
+	id = 50493
+	title = "EVTNAME50493"
+	desc = "EVTDESC50493"
 	#picture = "deadboys"
 	
 	fire_only_once = yes
