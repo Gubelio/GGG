@@ -714,7 +714,81 @@ country_event  = {
 					THIS = {
 						OR = {
 							capital_scope = { continent = south_america }
-							civilized = yes
+							has_country_flag = discovered_corpuloid_natures
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Bofungoids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = south_america }
+						has_country_flag = ferox_bofung
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50494 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = south_america }
+							has_country_flag = ferox_bofung
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Ferroxaloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = south_america }
+						has_country_flag = ferox_bofung
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50496 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = south_america }
+							has_country_flag = ferox_bofung
 						}
 				
 					}
@@ -917,6 +991,46 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50494
+	title = "EVTNAME50494" ##### Bofungoids
+	desc = "EVTDESC50494"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50496
+	title = "EVTNAME50496" ##### Ferroxaloids
+	desc = "EVTDESC50496"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 
 #### SPECIES TRIGGERS #####
 
@@ -964,7 +1078,7 @@ country_event = { ####### Corpuloids
 	}
 	
 	option = {
-		"The advancement of knowledge is one of the features of our age."
+		name  = "The advancement of knowledge is one of the features of our age."
 		prestige = 10
 		set_country_flag = discovered_corpuloid_natures
 		set_global_flag = corpuloid_dissections
@@ -992,6 +1106,65 @@ country_event = { ####### Corpuloids
 	
 	
 }
+
+country_event = { ####### ferroxaloids and bofungoids
+	id = 50495
+	title = "EVTNAME50495"
+	desc = "EVTDESC50495"
+	#picture = "faiths"
+	
+	trigger = {
+		NOT = {
+			has_country_flag = ferox_bofung
+			has_global_flag = tea_coast_ecology
+		}
+		NOT = {
+			is_culture_group = stouian
+			is_culture_group = bzaifmodian
+			is_culture_group = preirish
+		}
+		NOT = {
+			capital_scope = {
+				continent = south_america
+			}
+		}
+		invention = social_anthropology
+		any_owned_province = {
+			continent = south_america
+			any_pop = {
+				is_culture_group = preirish
+			}
+			any_pop = {
+				OR = {
+					is_culture_group = stouian
+					is_culture_group = bzaifmodian
+			
+				}
+			}
+		}
+		
+		
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	
+	option = {
+		name = "Despite their pretentions, they are still a beastly folk."
+		prestige = 5
+		set_country_flag = ferox_bofung
+		set_global_flag = tea_coast_ecology
+		
+		encylopedia_updated = {}
+	
+	}
+	
+	
+	
+}
+
 
 
 #######################

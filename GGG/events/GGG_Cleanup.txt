@@ -32203,6 +32203,44 @@ country_event = {
 				invention = social_anthropology
 				civilized = yes
 				NOT = { 
+					has_country_flag = ferox_bofung
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = ferox_bofung
+					}
+				}
+				
+				any_greater_power = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = ferox_bofung
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = ferox_bofung
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention = social_anthropology
+					civilized = yes
+					NOT = { 
+						has_country_flag = ferox_bofung
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = ferox_bofung
+						}
+					}
+				}
+			}
+			
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
 					has_country_flag = studied_asyum
 				}
 				any_neighbor_country = {
@@ -32474,6 +32512,20 @@ country_event = {
     option = {
         name = "EVT33337OPTA"
         add_country_modifier = { name = law_changed_by_force duration = 365 }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = ferox_bofung }
+					any_greater_power = { has_country_flag = ferox_bofung }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = ferox_bofung  }
+			}
+			set_country_flag = ferox_bofung
+        }
+	
 	
 	any_country = {
             limit = {
