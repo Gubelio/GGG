@@ -442,7 +442,11 @@ country_event = { #exploitation
 						has_province_modifier = self_rule
 						NOT = { has_province_modifier = exploitation }
 					}
-					NOT = { continent = north_america }
+					NOT = { 
+						continent = north_america
+						continent = south_america
+						total_pops = 200000
+					}
 					NOT = {
 						OR = { 
 							province_id = 122 
@@ -490,7 +494,10 @@ country_event = { #exploitation
 						has_pop_type = serfs
 					}
 					is_colonial = yes
-					NOT = { continent = north_america }
+					NOT = { continent = north_america
+						continent = south_america
+						total_pops = 200000
+						}
 					NOT = { has_province_flag = exploited }
 					NOT = {
 						OR = { 
