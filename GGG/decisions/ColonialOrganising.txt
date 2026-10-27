@@ -89,7 +89,7 @@ organize_wushaw = { #just starts with core
         picture = colonialorg
         potential = {
             civilized = yes
-		capital_scope = { continent = north_america }
+		NOT = { capital_scope = { continent = europe } }
             NOT = {
                 has_global_flag = wushaw_organized
             }
