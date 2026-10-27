@@ -984,6 +984,8 @@ country_event = { ####### Corpuloids
 				militancy = 3
 			}
 		}
+		
+		encylopedia_updated = {}
 	
 	}
 	
