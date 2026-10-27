@@ -93,7 +93,7 @@ organize_wushaw = { #just starts with core
             NOT = {
                 has_global_flag = wushaw_organized
             }
-            AND = {
+            OR = {
 				REG_301 = { owned_by = THIS }
 				REG_300 = { owned_by = THIS }
 				REG_307 = { owned_by = THIS }		
