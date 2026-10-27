@@ -736,3 +736,91 @@ province_event = {
 		
 	}
 }
+
+country_event = {
+	 id = 50497 ## swamp_fish
+	title = "EVTNAME50497" 
+	desc = "EVTDESC50497"
+	
+	trigger = {
+		1092 = {
+			owned_by = THIS
+			trade_goods = fish
+			state_scope = {
+				has_factories = yes
+			}
+		
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		
+		modifier = {
+			factor = 0.9
+			high_n_low_pressure_steam_engines = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.9
+			steam_turbine = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.9
+			combustion_engine = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.9
+			inorganic_chemistry = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.9
+			organic_chemistry  = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.9
+			synthetic_polymers  = 1
+			
+		}
+		
+		modifier = {
+			factor = 0.8
+			1092 = {
+				total_pop = 300000
+			}
+		
+		}
+		
+		modifier = {
+			factor = 0.9
+			NOT = {
+				economic_policy = laissez_faire
+			}
+		
+		}
+	
+	}
+	
+	option = {
+		name = "The changes brought by industry go further than we thought."
+		1092 = {
+			trade_goods = fruit
+			add_province_modifier = {
+				name = ecological_devestation
+				duration = -1
+			}
+		}
+	
+	}
+
+}
