@@ -819,6 +819,15 @@ country_event = {
 				name = ecological_devestation
 				duration = -1
 			}
+			any_neighbor_province = {
+				limit = {
+					trade_goods = fruit
+				}
+				add_province_modifier = {
+					name = ecological_changes
+					duration = -1
+				}
+			}
 		}
 	
 	}
