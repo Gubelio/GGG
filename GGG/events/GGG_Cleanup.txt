@@ -32423,6 +32423,44 @@ country_event = {
 				}
 			}
 			
+			OR = {
+				medicine = 1
+				civilized = yes
+				NOT = { 
+					has_country_flag = discovered_corpuloid_natures
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag = discovered_corpuloid_natures
+					}
+				}
+				
+				any_greater_power = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = discovered_corpuloid_natures
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = discovered_corpuloid_natures
+						}
+					}
+				}
+				any_neighbor_country = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = discovered_corpuloid_natures
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag = discovered_corpuloid_natures
+						}
+					}
+				}
+			}
+			
 			
 			
 			
@@ -32436,6 +32474,20 @@ country_event = {
     option = {
         name = "EVT33337OPTA"
         add_country_modifier = { name = law_changed_by_force duration = 365 }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = discovered_corpuloid_natures }
+					any_greater_power = { has_country_flag = discovered_corpuloid_natures }
+				}
+				medicine = 1
+				civilized = yes
+				NOT = { has_country_flag = discovered_corpuloid_natures  }
+			}
+			set_country_flag = discovered_corpuloid_natures
+        }
+	
 		any_country = {
             limit = {
 				OR = {

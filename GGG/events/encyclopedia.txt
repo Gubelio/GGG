@@ -691,6 +691,43 @@ country_event  = {
 	}
 	
 	option = {
+		name = "The Corpuloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = south_america }
+						has_country_flag = discovered_corpuloid_natures
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50491 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = south_america }
+							civilized = yes
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
@@ -860,7 +897,99 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50491
+	title = "EVTNAME50491" ##### Corpuloids
+	desc = "EVTDESC50491"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
 
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+
+#### SPECIES TRIGGERS #####
+
+
+country_event = { ####### Corpuloids
+	id = 50492
+	title = "EVTNAME50492"
+	desc = "EVTDESC50492"
+	#picture = "faiths"
+	
+	trigger = {
+		NOT = {
+			has_country_flag = discovered_corpuloid_natures
+			has_global_flag = corpuloid_dissections
+		}
+		NOT = {
+			is_culture_group = chrawyayian
+			is_culture_group = bemuven
+			is_culture_group = tikongian
+		}
+		NOT = {
+			capital_scope = {
+				continent = south_america
+			}
+		}
+		medicine = 1
+		any_owned_province = {
+			continent = south_america
+			any_pop = {
+				OR = {
+					is_culture_group = chrawyayian
+					is_culture_group = bemuven
+					is_culture_group = tikongian
+				}
+		
+			}
+		}
+		
+		
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	
+	option = {
+		"The advancement of knowledge is one of the features of our age."
+		prestige = 10
+		set_country_flag = discovered_corpuloid_natures
+		set_global_flag = corpuloid_dissections
+		
+		random_province = {
+			limit = {
+				continent = south_america
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						is_culture_group = chrawyayian
+						is_culture_group = bemuven
+						is_culture_group = tikongian
+					}
+				}
+				militancy = 3
+			}
+		}
+	
+	}
+	
+	
+	
+}
 
 
 #######################
