@@ -3251,6 +3251,7 @@ install_free_yoker_gov_cb = {
         social_reform = mule_n_seed_law
 	}
 }
+}
 
 # Revert from free_yoker Government
 uninstall_free_yoker_gov_cb = {
