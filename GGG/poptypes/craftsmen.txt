@@ -528,7 +528,16 @@ promote_to = {
         modifier = {
             factor = 10
             state_scope = { has_factories = no }
-            can_build_factory = no
+	    OR = {
+		can_build_factory = no
+		location = {
+			owner = {
+				economic_policy = laissez_faire
+			}
+		}
+		
+	    }
+	    
         }
     }
 
