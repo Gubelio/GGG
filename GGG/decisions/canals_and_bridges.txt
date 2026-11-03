@@ -1,0 +1,33 @@
+political_decisions = {
+	build_wrout_bridge = {
+	#picture = "carl_hasch_libyan_desert"
+		potential = {
+			THIS = {
+				OR = {
+					controls = 1473
+					controls = 1474
+				}
+			}
+			invention = bessemer_steel
+			NOT = {
+				has_global_flag = wrout_bridge_construction
+				is_canal_enabled = 1
+			}
+		}
+		
+		allow = {
+			money = 400000
+		}
+		
+		effect = {
+			treasury = -400000
+			set_global_flag = wrout_bridge_construction
+			set_country_flag = wrout_bridge_builder
+			add_country_modifier = {
+				name = wrout_bridge_construction
+				duration = 400
+			}
+		}
+
+	}
+}

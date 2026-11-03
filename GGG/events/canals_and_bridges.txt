@@ -1,0 +1,76 @@
+country_event = {
+	id = 50498
+	title = "EVTNAME50498"
+	decs = "EVTDESC50498"
+	#picture =
+	
+	trigger = {
+		NOT = {
+			controls = 1473
+			controls = 1474
+		
+		}
+	
+	}
+	
+	mean_time_to_happen = {
+	
+		days = 5
+		
+	}
+	
+	option = {
+		name = "Damn and blast! Damn and blast, sir!"
+		clr_country_flag = wrout_bridge_builder
+		remove_country_modifier = wrout_bridge_construction
+		clr_country_flag =  wrout_bridge_construction
+		
+		random_pop = {
+			limit = {
+				location = {
+					is_overseas = np
+				}
+				has_pop_culture = THIS
+				OR = {
+					type = capitalists
+					type = officers
+				}
+				
+			}
+			militancy = 4
+			consciousness = 4
+		
+		}
+	
+	}
+
+
+}
+
+country_event = {
+	id = 50499
+	title = "EVTNAME50499"
+	decs = "EVTDESC50499"
+	#picture =
+	
+	trigger = {
+		has_country_flag = wrout_bridge_builder
+		NOT = {
+			has_country_modifier = wrout_bridge_construction
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+		
+	}
+	
+	option = {
+		name = "A marvel of modern engineering!"
+		prestige = 10
+		enable_canal = 1
+	
+	}
+
+
+}
