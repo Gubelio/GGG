@@ -9,6 +9,7 @@ country_event = {
 	id = 50059
 	title = "EVTNAME50059" #Free-Yoker rebellion
 	desc = "EVTDESC50059"
+	picture = "yoker_types"
 	
     trigger = {
 		NOT = { 
@@ -198,6 +199,7 @@ country_event = {
 	id = 50060
 	title = "EVTNAME50060" #Free-Yoker rebellion ENDS
 	desc = "EVTDESC50060"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -286,6 +288,7 @@ country_event = {
 	id = 50061
 	title = "EVTNAME50061" #Regional flair up
 	desc = "EVTDESC50061"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -380,6 +383,7 @@ country_event = {
 	id = 50063
 	title = "EVTNAME50063" #Miscellaneous conflict
 	desc = "EVTDESC50063"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -464,6 +468,7 @@ country_event = {
 	id = 50064
 	title = "EVTNAME50064" #Some sort of relieving of tensions
 	desc = "EVTDESC50064"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -530,6 +535,7 @@ country_event = {
 	id = 50065
 	title = "EVTNAME50065" #heinous act of rebellion
 	desc = "EVTDESC50065"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -592,6 +598,7 @@ country_event = {
 	id = 50074
 	title = "EVTNAME50074" #whole nation mad
 	desc = "EVTDESC50074"
+	picture = "yoker_types"
 	
     trigger = {
 		has_country_flag = free_yoker_revolution
@@ -1181,6 +1188,7 @@ country_event = {
 	id = 50126
 	title = "EVTNAME50126" #Demagogue Priest
 	desc = "EVTDESC50126"
+	picture = "yoker_types"
 	
     trigger = {
 		NOT = { government = sublime_synod }
@@ -1351,6 +1359,7 @@ country_event = {
 	id = 50195
 	title = "EVTNAME50195" #Religious Revival
 	desc = "EVTDESC50195"
+	picture = "yoker_types"
 	
     trigger = {
 		NOT = { 
