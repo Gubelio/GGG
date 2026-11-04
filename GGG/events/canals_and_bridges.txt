@@ -10,6 +10,7 @@ country_event = {
 			controls = 1474
 		
 		}
+		has_country_flag = wrout_bridge_builder
 	
 	}
 	
@@ -22,8 +23,8 @@ country_event = {
 	option = {
 		name = "Damn and blast! Damn and blast, sir!"
 		clr_country_flag = wrout_bridge_builder
+		clr_global_flag = wrout_bridge_construction
 		remove_country_modifier = wrout_bridge_construction
-		clr_country_flag =  wrout_bridge_construction
 		
 		random_pop = {
 			limit = {
