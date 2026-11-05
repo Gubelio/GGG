@@ -634,6 +634,13 @@ country_event = { #### BONDSMANSETUP #####
 	option = {
 		name = "EVT50116OPTA"
 		
+		any_owned_province = {
+			remove_province_modifier = exploitation
+			remove_province_modifier = self_rule
+			remove_province_modifier = settler_colonization
+		
+		}
+		
 		if = {
 			limit = {
 				THIS = {
@@ -647,6 +654,78 @@ country_event = { #### BONDSMANSETUP #####
 				primary_culture = anuvo
 				add_accepted_culture = ghechi
 				add_accepted_culture = shagmodt
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = tufume
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture = tufume
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = nuukheu
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  nuukheu
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = asyum
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  asyum
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = pomiga
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  pomiga
 			}
 		}
 		
@@ -696,6 +775,61 @@ country_event = { #### BONDSMANSETUP #####
 				add_accepted_culture = shagmodt
 			}
 		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = fauhwozi
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  fauhwozi
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = deuseuian
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  deuseuian
+			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = mipabi
+						OR = {
+							type = slaves
+							type = serfs
+							
+						}
+					}
+				}
+			}
+			THIS = {
+				primary_culture =  mipabi
+			}
+		}
+		
 		
 		
 		if = {
@@ -841,6 +975,35 @@ country_event = { #### BONDSMANSETUP #####
 				add_accepted_culture = ihnpedi
 				add_accepted_culture = ihnpihmi
 			}
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					any_pop = {
+						has_pop_culture = foussunni
+						type = slaves
+					}
+				}
+			}
+			THIS = {
+				primary_culture = foussunni
+			}
+		}
+		
+		
+		
+		any_pop = {
+			limit = {
+				OR = {
+					type = slaves
+					type = serfs
+					type = thralls
+				}
+			}
+			
+			pop_type = farmers
+		
 		}
 		
 		
