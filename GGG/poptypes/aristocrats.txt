@@ -78,6 +78,12 @@ country_migration_target = {
         #Audax Validator "." Ignore_1001
         THIS = { NOT = { literacy = 0.6 } }
     }
+    
+	modifier = {
+		factor = 0
+		has_country_flag = pirate_republic
+	
+	}
 
 	modifier = {
 		is_vassal = yes

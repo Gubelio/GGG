@@ -5078,6 +5078,7 @@ country_event = {
 			has_country_flag = declined_capital_move 
 			tag = KID
 			tag = CHB
+			tag = BOZ
 		}
 		OR = {
 			

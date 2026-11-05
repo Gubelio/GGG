@@ -70,6 +70,58 @@ country_event = {
 		name = "A marvel of modern engineering!"
 		prestige = 10
 		enable_canal = 1
+		
+		if = {
+			limit = {
+				THIS = {
+					tag = BOZ
+				}
+			}
+			
+			THIS = {
+				capital = 1473
+				random_list = {
+					20 = {
+						1473 = {
+							change_province_name = "Niiz Bozza"
+						}
+						
+					}
+					
+					20 = {
+						1473 = {
+							change_province_name = "Shau Dham"
+						}
+						
+					}
+					
+					20 = {
+						1473 = {
+							change_province_name = "Bozza Nuok"
+						}
+						
+					}
+					
+					20 = {
+						1473 = {
+							change_province_name = "Bazd Bozza"
+						}
+						
+					}
+					
+					20 = {
+						1473 = {
+							change_province_name = "Bazd Nuok"
+						}
+						
+					}
+				
+				}
+				
+			
+			}
+		
+		}
 	
 	}
 
