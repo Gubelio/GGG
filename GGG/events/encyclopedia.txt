@@ -815,7 +815,7 @@ country_event = {
 	id = 50466 
 	title = "EVTNAME50466" ##### Sapinoids
 	desc = "EVTDESC50466"
-	picture = "encyclo"
+	picture = "red_flux"
 	
 	is_triggered_only = yes
 
@@ -835,7 +835,7 @@ country_event = {
 	id = 50467 
 	title = "EVTNAME50467" ##### Occidental Gigantoids
 	desc = "EVTDESC50467"
-	picture = "encyclo"
+	picture = "anuvo_battle"
 	
 	is_triggered_only = yes
 
@@ -3609,7 +3609,7 @@ country_event = {
 	id = 50380 
 	title = "EVT50380NAME" ##### Vokonazh
 	desc = "EVT50380DESC"
-	#picture = "POU_generic"
+	picture = "gozomedes_great_army"
 	
 	is_triggered_only = yes
 
@@ -5545,7 +5545,7 @@ country_event = {
 	id = 50165
 	title = "EVT50165NAME" ##### The Anuvo
 	desc = "EVT50165DESC"
-	picture = "POU_generic"
+	picture = "anuvo_battle"
 	
 	is_triggered_only = yes
 
@@ -5647,7 +5647,7 @@ country_event = {
 	id = 50308
 	title = "EVT50308NAME" ##### The West Gashdzii
 	desc = "EVT50308DESC"
-	picture = "encyclo"
+	picture = "gashdzii_noble"
 	
 	is_triggered_only = yes
 
@@ -5687,7 +5687,7 @@ country_event = {
 	id = 50310
 	title = "EVT50310NAME" ##### The North Gashdzii
 	desc = "EVT50310DESC"
-	picture = "encyclo"
+	picture = "gozomedes_great_army"
 	
 	is_triggered_only = yes
 
@@ -7321,7 +7321,7 @@ country_event = {
 	id = 50265
 	title = "EVT50265NAME" ##### Liberationism
 	desc = "EVT50265DESC"
-	picture = "encyclo"
+	picture = "yoker_types"
 	
 	is_triggered_only = yes
 
@@ -7340,7 +7340,7 @@ country_event = {
 	id = 50266
 	title = "EVT50266NAME" ##### Pat-Council
 	desc = "EVT50266DESC"
-	picture = "encyclo"
+	picture = "yoker_types"
 	
 	is_triggered_only = yes
 
@@ -7359,7 +7359,7 @@ country_event = {
 	id = 50426
 	title = "EVT50426NAME" ##### Pastoral Confederacy
 	desc = "EVT50426DESC"
-	picture = "encyclo"
+	picture = "yoker_types"
 	
 	is_triggered_only = yes
 
