@@ -703,7 +703,7 @@ province_event = {
 		name = "Out with the old, in with new, as it always is!"
 		trade_goods = wool
 		add_province_modifier = { name = switched_production duration = 912 }
-		add_province_modifier = { name = ecological_chages duration = -1 }
+		add_province_modifier = { name = ecological_changes duration = -1 }
 		
 	}
 }
@@ -730,9 +730,9 @@ province_event = {
 
 	option = {
 		name = "Out with the old, in with new, as it always is!"
-		trade_goods = wool
+		trade_goods = cattle
 		add_province_modifier = { name = switched_production duration = 912 }
-		add_province_modifier = { name = ecological_chages duration = -1 }
+		add_province_modifier = { name = ecological_changes duration = -1 }
 		
 	}
 }
