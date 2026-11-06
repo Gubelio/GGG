@@ -1,0 +1,38 @@
+capital = 303
+primary_culture = vupuyti
+culture = paguyti
+#culture = uytophat
+religion = pagan
+government = theocracy
+plurality = 5.0
+nationalvalue = no_national_objective
+literacy = 0.01
+non_state_culture_literacy = 0.01
+civilized = no
+
+slavery = yes_slavery
+legislative_system = noble_parliament
+
+# Social Reforms
+
+ruling_party = PHI_conservative
+upper_house = { # inherit
+	theocratist = 0
+	statist = 0
+	conservative = 65
+	reactionary = 15
+	absolutist = 0
+	liberationist = 15
+	free_yoker = 5
+}
+
+
+#technologies
+
+flintlock_rifles = 1
+
+#flags
+
+oob = "PHW_oob.txt"
+
+set_country_flag = pagan_country

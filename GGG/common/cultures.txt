@@ -407,6 +407,7 @@ vupuyti_vuyti = {
 							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker }
     }
 
+	union = WUP
 
 }
 
@@ -446,6 +447,8 @@ paguyti_vuyti = {
 							"the Kinder" "the Sweeter" Good-friend "the Fatter" Blood-Eater Thrall-Taker "the Gentle" 
 							Cud-Chewer Bone-Grinder }
     }
+	
+	union = PWU
 
 }
 
