@@ -802,6 +802,43 @@ country_event  = {
 	}
 	
 	option = {
+		name = "The Occidental Insuloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = south_america }
+						has_country_flag = studied_occ_inn
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50503 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = south_america }
+							has_country_flag = studied_occ_inn
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
@@ -1031,6 +1068,26 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 50503
+	title = "EVTNAME50503" ##### Occidental Insuloids
+	desc = "EVTDESC50503"
+	picture = "encyclo"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50465 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
 
 #### SPECIES TRIGGERS #####
 
@@ -1156,6 +1213,44 @@ country_event = { ####### ferroxaloids and bofungoids
 		prestige = 5
 		set_country_flag = ferox_bofung
 		set_global_flag = tea_coast_ecology
+		
+		encylopedia_updated = {}
+	
+	}
+	
+	
+	
+}
+
+country_event = { ####### occ_inn_studies
+	id = 50504
+	title = "EVTNAME50504"
+	desc = "EVTDESC50504"
+	#picture = "faiths"
+	
+	allow_multiple_instances = no
+	
+	trigger = {
+		NOT = {
+			has_country_flag = studied_occ_inn
+			has_global_flag = encounter_in_anyumb
+		}
+		
+		NOT ={
+			tag = AYU
+		}
+		war_with = AYU
+		unit_in_battle = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Clever as it may be, we still have to figure out how to kill them."
+		set_country_flag = studied_occ_inn
+		set_global_flag = encounter_in_anyumb
 		
 		encylopedia_updated = {}
 	
