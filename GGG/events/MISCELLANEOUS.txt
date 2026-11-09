@@ -47808,6 +47808,42 @@ country_event = {
 	option = {
 		name = "EVT50500OPTA"
 		
+		if = {
+			limit = {
+				THIS = {
+					is_greater_power = yes
+				
+				}
+			
+			}
+			THIS = {
+				leadership = 80
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					is_secondary_power = yes
+				
+				}
+			
+			}
+			THIS = {
+				leadership = 60
+			}
+		
+		}
+		
+		THIS = {
+		
+			leadership = 40
+		
+		}
+		
+		
+		
 		any_country = {
 			limit = {
 				is_greater_power = yes
@@ -47831,6 +47867,89 @@ country_event = {
 	
 	option = {
 		name = "EVT50500OPTB"
+		
+		THIS = {
+			kill_leader = 1
+			kill_leader = 2
+			kill_leader = 3
+			kill_leader = 4
+			kill_leader = 5
+			kill_leader = 6
+			kill_leader = 7
+			kill_leader = 8
+			kill_leader = 9
+			kill_leader = 10
+			kill_leader = 11
+			kill_leader = 12
+			kill_leader = 13
+			kill_leader = 14
+			kill_leader = 15
+			kill_leader = 16
+			kill_leader = 17
+			kill_leader = 18
+			kill_leader = 19
+			kill_leader = 20
+			kill_leader = 21
+			kill_leader = 22
+			kill_leader = 23
+			kill_leader = 24
+			kill_leader = 25
+			kill_leader = 26
+			kill_leader = 27
+			kill_leader = 28
+			kill_leader = 29
+			kill_leader = 30
+			kill_leader = 31
+			kill_leader = 32
+			kill_leader = 33
+			kill_leader = 34
+			kill_leader = 35
+			kill_leader = 36
+			kill_leader = 37
+			kill_leader = 38
+			kill_leader = 39
+			kill_leader = 40
+			kill_leader = 41
+			kill_leader = 42
+			kill_leader = 43
+			kill_leader = 44
+			kill_leader = 45
+			kill_leader = 46
+			kill_leader = 47
+			kill_leader = 48
+			kill_leader = 49
+			kill_leader = 50
+			kill_leader = 51
+			kill_leader = 52
+			kill_leader = 53
+			kill_leader = 54
+			kill_leader = 55
+			kill_leader = 56
+			kill_leader = 57
+			kill_leader = 58
+			kill_leader = 59
+			kill_leader = 60
+			kill_leader = 61
+			kill_leader = 62
+			kill_leader = 63
+			kill_leader = 64
+			kill_leader = 65
+			kill_leader = 66
+			kill_leader = 67
+			kill_leader = 68
+			kill_leader = 69
+			kill_leader = 70
+			kill_leader = 71
+			kill_leader = 72
+			kill_leader = 73
+			kill_leader = 74
+			kill_leader = 75
+			kill_leader = 76
+			kill_leader = 77
+			kill_leader = 78
+			kill_leader = 79
+		}
+		
 		
 		any_country = {
 			kill_leader = 1
@@ -47933,10 +48052,126 @@ country_event = {
 			}
 			leadership = 40
 		}
+		
+		if = {
+			limit = {
+				THIS = {
+					is_greater_power = yes
+				
+				}
+			
+			}
+			THIS = {
+				leadership = 80
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				THIS = {
+					is_secondary_power = yes
+				
+				}
+			
+			}
+			THIS = {
+				leadership = 60
+			}
+		
+		}
+		
+		THIS = {
+		
+			leadership = 40
+		
+		}
 	}
 	
 	option = {
 		name = "EVT50500OPTC"
+		
+		THIS = {
+			kill_leader = 1
+			kill_leader = 2
+			kill_leader = 3
+			kill_leader = 4
+			kill_leader = 5
+			kill_leader = 6
+			kill_leader = 7
+			kill_leader = 8
+			kill_leader = 9
+			kill_leader = 10
+			kill_leader = 11
+			kill_leader = 12
+			kill_leader = 13
+			kill_leader = 14
+			kill_leader = 15
+			kill_leader = 16
+			kill_leader = 17
+			kill_leader = 18
+			kill_leader = 19
+			kill_leader = 20
+			kill_leader = 21
+			kill_leader = 22
+			kill_leader = 23
+			kill_leader = 24
+			kill_leader = 25
+			kill_leader = 26
+			kill_leader = 27
+			kill_leader = 28
+			kill_leader = 29
+			kill_leader = 30
+			kill_leader = 31
+			kill_leader = 32
+			kill_leader = 33
+			kill_leader = 34
+			kill_leader = 35
+			kill_leader = 36
+			kill_leader = 37
+			kill_leader = 38
+			kill_leader = 39
+			kill_leader = 40
+			kill_leader = 41
+			kill_leader = 42
+			kill_leader = 43
+			kill_leader = 44
+			kill_leader = 45
+			kill_leader = 46
+			kill_leader = 47
+			kill_leader = 48
+			kill_leader = 49
+			kill_leader = 50
+			kill_leader = 51
+			kill_leader = 52
+			kill_leader = 53
+			kill_leader = 54
+			kill_leader = 55
+			kill_leader = 56
+			kill_leader = 57
+			kill_leader = 58
+			kill_leader = 59
+			kill_leader = 60
+			kill_leader = 61
+			kill_leader = 62
+			kill_leader = 63
+			kill_leader = 64
+			kill_leader = 65
+			kill_leader = 66
+			kill_leader = 67
+			kill_leader = 68
+			kill_leader = 69
+			kill_leader = 70
+			kill_leader = 71
+			kill_leader = 72
+			kill_leader = 73
+			kill_leader = 74
+			kill_leader = 75
+			kill_leader = 76
+			kill_leader = 77
+			kill_leader = 78
+			kill_leader = 79
+		}
 		
 		any_country = {
 			kill_leader = 1
