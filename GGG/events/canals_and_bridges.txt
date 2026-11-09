@@ -174,7 +174,6 @@ country_event = {
 	
 	option = {
 		name = "Our industries are the greatest in the world!"
-		treasury = 100000
 		random_pop = {
 				limit = {
 					OR = {
