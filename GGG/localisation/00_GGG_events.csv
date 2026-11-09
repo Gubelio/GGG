@@ -1147,11 +1147,11 @@ EVTNAME50498;Bridge Construction Interrupted;;;;;;;;;;;;;x
 EVTDESC50498;x;;;;;;;;;;;;;x
 EVTNAME50499;Bridge Project Complete!;;;;;;;;;;;;;x
 EVTDESC50499;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
-X;x;;;;;;;;;;;;;x
+EVTNAME50500;x;;;;;;;;;;;;;x
+EVTDESC50500;x;;;;;;;;;;;;;x
+EVT50500OPTA;Add starting leadership points, but keep all starting generals;;;;;;;;;;;;;x
+EVT50500OPTB;Add starting leadership points and remove all starting generals;;;;;;;;;;;;;x
+EVT50500OPTC;Remove all starting generals, but do not add any starting leadership points;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
