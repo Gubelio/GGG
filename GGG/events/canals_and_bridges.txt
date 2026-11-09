@@ -26,6 +26,14 @@ country_event = {
 		clr_global_flag = wrout_bridge_construction
 		remove_country_modifier = wrout_bridge_construction
 		
+		any_country = {
+			limit = {
+				controls = 1473
+				controls = 1474
+			}
+			treasury = 100000
+		}
+		
 		random_pop = {
 			limit = {
 				location = {
@@ -126,4 +134,69 @@ country_event = {
 	}
 
 
+}
+
+country_event = {
+	id = 50501
+	title = "EVTNAME50501"
+	decs = "EVTDESC50501"
+	#picture =
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This will greatly enrich the factories of the state!"
+		treasury = 100000
+		random_province = {
+			limit = {
+				has_building = steel_factory
+			}
+			random_pop = {
+				limit = {
+					type = craftsmen
+				}
+				money = 100000
+			}
+		
+		}
+	
+	}
+	
+}
+
+country_event = {
+	id = 50502
+	title = "EVTNAME50502"
+	decs = "EVTDESC50502"
+	#picture =
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Our industries are the greatest in the world!"
+		treasury = 100000
+		random_pop = {
+				limit = {
+					OR = {
+						type = capitalists
+						type = aristocrats
+					}
+				}
+				money = 180000
+			}
+		random_province = {
+			limit = {
+				has_building = steel_factory
+			}
+			random_pop = {
+				limit = {
+					type = craftsmen
+				}
+				money = 20000
+			}
+		
+		}
+	
+	}
+	
 }

@@ -1144,14 +1144,18 @@ EVTDESC50496;The 'Ferroxaloids' are an omnivorous carnivorous-leaning race of Ko
 EVTNAME50497;The Zhruvoi Loach;;;;;;;;;;;;;x
 EVTDESC50497;The Zhruvoi loach is a small freshwater fish which for many years has dwelled in the swampy lakes of Zhruvoi. The loach, yellow in hue, is known for feeding upon the larvae of the various horned insects that breed in the waters of Zhruvoi, and breeds in great numbers, allowing the province to feed itself and export the loaches. However, it appears that the loach fry can only survive in highly basic waters, and recent factory run-off, soot, and dust seems to be saturating the Zhruvoi swamps with acetylene, acidifying the swamps. The rapid but fixed cycle of spawning and dying seems to have been catastrophically interrupted in the recent cycle, with nearly all of the spawning fish producing stunted offspring, and then dying quickly afterwards. The absence of high loach numbers has caused an alarming swarm of horned insects, who are eagerly feeding on the leaves of local sweetroots, and even menacing the sweetroot crop in nearby provinces.;;;;;;;;;;;;;x
 EVTNAME50498;Bridge Construction Interrupted;;;;;;;;;;;;;x
-EVTDESC50498;x;;;;;;;;;;;;;x
+EVTDESC50498;Our recent efforts to construct a large bridge between the Wrout headland and Dhâmit island have been stymied by the recent loss of military control in this region. The violence of the occupation, the shelling and the looting has done great damage to the current construction, but even more alarming, the occupying military has pillaged large amounts of supplies and resources we have accumulated there!;;;;;;;;;;;;;x
 EVTNAME50499;Bridge Project Complete!;;;;;;;;;;;;;x
-EVTDESC50499;x;;;;;;;;;;;;;x
+EVTDESC50499;After much work and toil, a few deaths of falling workmen, and many hundreds of thousands of purchases, now it stands, glistening in the sunlight, the great suspension bridge between Dhâmit island and the Wrout headland. Our nation celebrates this triumph of industry and will today, and cherish the thought that this great landmark will be a testament to our civilisation for centuries to come.;;;;;;;;;;;;;x
 EVTNAME50500;x;;;;;;;;;;;;;x
 EVTDESC50500;x;;;;;;;;;;;;;x
 EVT50500OPTA;Add starting leadership points, but keep all starting generals;;;;;;;;;;;;;x
 EVT50500OPTB;Add starting leadership points and remove all starting generals;;;;;;;;;;;;;x
 EVT50500OPTC;Remove all starting generals, but do not add any starting leadership points;;;;;;;;;;;;;x
+EVTNAME50501;$FROMCOUNTRY$ Steel Comission;;;;;;;;;;;;;x
+EVTDESC50501;$FROMCOUNTRY_ADJ$ contractors have recently arrived in our shores to negotiate a contract for the purchase of large quantities of our high quality lung basin produced steel. For it appears they are breaking ground on a huge new suspension bridge between the Wrout headland and Dhâmit island in old Bozzanazh, in Bafozh. The government minister for manufacturing and production has assured $FROMCOUNTRY$ they will have their steel deliveries made promptly and efficiently. Now, the cabinet agrees, is a moment for our government's commitment to planed economy to shine, as compared to the crude inefficiency of other powers.;;;;;;;;;;;;;x
+EVTNAME50502;$FROMCOUNTRY$ Steel Comission;;;;;;;;;;;;;x
+EVTDESC50502;The merchants and industrialists of our nation have secured a prize from foreign $FROMCOUNTRY$ contractors, newspapers report, with the government in $FROMCOUNTRY$ hoping to buy massive quantities of steel in order to construct a large new suspension bridge between the Wrout headland and Dhâmit island in old Bozzanazh, in Bafozh. Our newspapers proudly proclaim the superior quality of our manufacturing, as instanced by this huge and bountiful contract obtained. It is said that the firm that received the contract are even giving their factory dogsbodies a one time bonus payment! ;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x
 X;x;;;;;;;;;;;;;x

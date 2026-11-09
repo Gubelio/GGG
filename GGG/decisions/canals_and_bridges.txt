@@ -11,7 +11,6 @@ political_decisions = {
 					controls = 1474
 				}
 			}
-			invention = bessemer_steel
 			NOT = {
 				has_global_flag = wrout_bridge_construction
 				is_canal_enabled = 1
@@ -19,7 +18,42 @@ political_decisions = {
 		}
 		
 		allow = {
-			money = 400000
+			OR = {
+				invention = bessemer_steel
+				any_greater_power = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					NOT = {
+						war_with = THIS
+					}
+				}
+				any_neighbor_country = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					NOT = {
+						war_with = THIS
+					}
+				}
+			}
+			OR = {
+				money = 400000
+				AND = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					OR = {
+						government = statist_bureaucracy
+						government = grand_syndicate
+						government = sublime_synod
+					}
+					money = 200000
+				}
+			}
 		}
 		
 		effect = {
@@ -30,6 +64,236 @@ political_decisions = {
 				name = wrout_bridge_construction
 				duration = 400
 			}
+			
+			if = {
+				limit = {
+					THIS = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						
+						NOT = {
+							government = statist_bureaucracy
+							government = grand_syndicate
+							government = sublime_synod
+						}
+					
+					}
+				
+				}
+				
+				THIS = {
+					random_pop = {
+						limit = {
+							OR = {
+								type = aristocrats
+								type = capitalists
+							}
+						
+						}
+						
+						money = 200000
+					}
+					
+					set_country_flag = paid_cap
+				
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = paid_cap
+						}
+					
+					}
+				
+				}
+				
+				random_country = {
+					limit = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						OR = {
+							government = statist_bureaucracy
+							government = grand_syndicate
+							government = sublime_synod
+						}
+						NOT = {
+							war_with = THIS
+						}
+					
+					}
+					country_event = {
+						id = 50501
+						days = 10
+					
+					}
+				
+				}
+				
+				THIS = {
+					set_country_flag = paid_cap
+				
+				}
+				
+				
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = paid_cap
+						}
+					
+					}
+				
+				}
+				
+				random_country = {
+					limit = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						NOT = {
+							war_with = THIS
+						}	
+					
+					}
+					country_event = {
+						id = 50502
+						days = 10
+					
+					}
+				
+				}
+				
+				
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						any_pop = {
+							type = labourers
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_pop = {
+						limit = {
+							type =labourers
+						}
+						money = 100000
+					
+					}
+					set_country_flag = payed_lab_1
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						any_pop = {
+							type = labourers
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_pop = {
+						limit = {
+							type =labourers
+						}
+						money = 100000
+					
+					}
+					set_country_flag = payed_lab_2
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = payed_lab_1
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_country = {
+						limit = {
+							any_pop = {
+								type = labourers
+							}
+						
+						}
+						random_pop = {
+							limit = {
+								type = labourers
+							}
+							money = 100000
+						
+						}
+					
+					}
+				
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = payed_lab_2
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_country = {
+						limit = {
+							any_pop = {
+								type = labourers
+							}
+						
+						}
+						random_pop = {
+							limit = {
+								type = labourers
+							}
+							money = 100000
+						
+						}
+					
+					}
+				
+				}
+			
+			}
+			
+			clr_country_flag = paid_cap
+			clr_country_flag = payed_lab_1
+			clr_country_flag = payed_lab_2
+			
 		}
 
 	}
@@ -44,7 +308,7 @@ political_decisions = {
 					controls = 1474
 				}
 			}
-			invention = bessemer_steel
+			
 			NOT = {
 				has_global_flag = wrout_bridge_construction
 				is_canal_enabled = 1
@@ -52,7 +316,43 @@ political_decisions = {
 		}
 		
 		allow = {
-			money = 400000
+			OR = {
+				invention = bessemer_steel
+				any_greater_power = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					NOT = {
+						war_with = THIS
+					}
+				}
+				any_neighbor_country = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					NOT = {
+						war_with = THIS
+					}
+				}
+			}
+			
+			OR = {
+				money = 400000
+				AND = {
+					invention = bessemer_steel
+					any_owned_province = {
+						has_building = steel_factory
+					}
+					OR = {
+						government = statist_bureaucracy
+						government = grand_syndicate
+						government = sublime_synod
+					}
+					money = 200000
+				}
+			}
 		}
 		
 		effect = {
@@ -63,6 +363,235 @@ political_decisions = {
 				name = wrout_bridge_construction
 				duration = 400
 			}
+			
+			if = {
+				limit = {
+					THIS = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						
+						NOT = {
+							government = statist_bureaucracy
+							government = grand_syndicate
+							government = sublime_synod
+						}
+					
+					}
+				
+				}
+				
+				THIS = {
+					random_pop = {
+						limit = {
+							OR = {
+								type = aristocrats
+								type = capitalists
+							}
+						
+						}
+						
+						money = 200000
+					}
+					
+					set_country_flag = paid_cap
+				
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = paid_cap
+						}
+					
+					}
+				
+				}
+				
+				random_country = {
+					limit = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						OR = {
+							government = statist_bureaucracy
+							government = grand_syndicate
+							government = sublime_synod
+						}
+						NOT = {
+							war_with = THIS
+						}
+					
+					}
+					country_event = {
+						id = 50501
+						days = 10
+					
+					}
+				
+				}
+				
+				THIS = {
+					set_country_flag = paid_cap
+				
+				}
+				
+				
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = paid_cap
+						}
+					
+					}
+				
+				}
+				
+				random_country = {
+					limit = {
+						invention = bessemer_steel
+						any_owned_province = {
+							has_building = steel_factory
+						}
+						NOT = {
+							war_with = THIS
+						}	
+					
+					}
+					country_event = {
+						id = 50502
+						days = 10
+					
+					}
+				
+				}
+				
+				
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						any_pop = {
+							type = labourers
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_pop = {
+						limit = {
+							type =labourers
+						}
+						money = 100000
+					
+					}
+					set_country_flag = payed_lab_1
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						any_pop = {
+							type = labourers
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_pop = {
+						limit = {
+							type =labourers
+						}
+						money = 100000
+					
+					}
+					set_country_flag = payed_lab_2
+				
+				}
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = payed_lab_1
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_country = {
+						limit = {
+							any_pop = {
+								type = labourers
+							}
+						
+						}
+						random_pop = {
+							limit = {
+								type = labourers
+							}
+							money = 100000
+						
+						}
+					
+					}
+				
+				}
+			
+			}
+			
+			if = {
+				limit = {
+					THIS = {
+						NOT = {
+							has_country_flag = payed_lab_2
+						}
+					
+					}
+				
+				}
+				THIS = {
+					random_country = {
+						limit = {
+							any_pop = {
+								type = labourers
+							}
+						
+						}
+						random_pop = {
+							limit = {
+								type = labourers
+							}
+							money = 100000
+						
+						}
+					
+					}
+				
+				}
+			
+			}
+			
+			clr_country_flag = paid_cap
+			clr_country_flag = payed_lab_1
+			clr_country_flag = payed_lab_2
 		}
 
 	}
