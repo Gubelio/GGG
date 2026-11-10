@@ -104,9 +104,9 @@ RST		= "countries/Roshuut.txt"
 HAK		= "countries/Hakduha.txt"
 BEN		= "countries/Bennareth.txt"
 GBM		= "countries/Gibumovon.txt"
-PWU		= "countries/Pwubuwdu.txt" #Pwübuwdu
-WUP		= "countries/Wupodyur.txt"
-TRD		= "countries/Turad.txt" #Türad
+PWU		= "countries/Pwubuwdu.txt" #Pwübuwdu #Paguyti State
+WUP		= "countries/Wupodyur.txt" #Vupuyti State
+TRD		= "countries/Turad.txt" #Türad #Pan-Vuyti State
 
 #PAUKZHODO
 NGJ		= "countries/Ngjutto.txt" #Ngjuttô

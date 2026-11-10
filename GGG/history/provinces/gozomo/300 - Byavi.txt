@@ -1,6 +1,9 @@
 owner = PHW
 controller = PHW
 add_core = PHW
+add_core = YUB
+add_core = PWU
+add_core = WUP
 trade_goods = tropical_wood
 life_rating = 33
 

@@ -1,6 +1,8 @@
 owner = YUB
 controller = YUB
 add_core = YUB
+add_core = WUP
+add_core = PWU
 trade_goods = fish
 life_rating = 33
 

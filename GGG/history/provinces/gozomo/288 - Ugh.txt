@@ -1,6 +1,7 @@
 owner = PHP
 controller = PHP
 add_core = PHP
+add_core = WUP
 trade_goods = fish
 life_rating = 33
 

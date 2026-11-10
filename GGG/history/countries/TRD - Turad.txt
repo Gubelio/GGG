@@ -9,6 +9,7 @@ nationalvalue = no_national_objective
 literacy = 0.01
 non_state_culture_literacy = 0.01
 civilized = no
+is_releasable_vassal = no
 
 slavery = yes_slavery
 legislative_system = noble_parliament
