@@ -47788,7 +47788,6 @@ country_event = {
 
 # STARTUP GENERAL EVENTS
 
-# Great Power
 country_event = {
 	id = 50500
 	title = "EVTNAME50500"
@@ -47800,10 +47799,7 @@ country_event = {
 		NOT = { has_country_flag = given_starting_leadership }
 	}
 	
-	mean_time_to_happen = {
-		months = 1
-
-	}
+	is_triggered_only = yes	
 	
 	option = {
 		name = "EVT50500OPTA"
@@ -50455,3 +50451,73 @@ country_event = {
 		clr_global_flag = bafozh_population_size
 	}
 }
+
+country_event = {
+	id = 50506
+	title = "EVTNAME50506"
+	desc = "EVTDESC50506"
+	picture = "anuvo_battle"
+	
+	trigger = {
+		war = yes
+        primary_culture = uytophat
+		war_countries = {
+			any_owned_province = {
+				OR = {
+					any_pop = { has_pop_culture = south_gashdzii }
+					any_pop = { has_pop_culture = west_gashdzii }
+					any_pop = { has_pop_culture = north_gashdzii }
+				}
+				controlled_by = THIS
+			}
+		}
+		any_owned_province = {
+			any_pop = {
+				has_pop_culture = uytophat
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "EVT50506OPTA"
+		random_owned = {
+			limit = {
+				has_pop_culture = uytophat
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = uytophat
+				}
+				reduce_pop = 1.03
+			}
+		}
+		random_country = {
+			limit = { 
+				war_with = THIS
+				any_owned_province = {
+					controlled_by = THIS
+				}
+			}
+			random_owned = {
+				limit = {	
+					controlled_by = THIS
+				}
+				random_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = west_gashdzii
+							has_pop_culture = south_gashdzii
+							has_pop_culture = north_gashdzii
+						}
+					}
+					reduce_pop = 0.95
+				}
+			}
+		}
+	}
+}
+
