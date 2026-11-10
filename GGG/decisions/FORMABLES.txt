@@ -654,6 +654,18 @@ political_decisions = {
             add_accepted_culture = vupuyti
             add_accepted_culture = paguyti
             remove_accepted_culture = uytophat
+			WUP = { 
+				all_core = { 
+					add_core = TRD 
+					remove_core = WUP 
+				} 
+			}
+			PWU = { 
+				all_core = { 
+					add_core = TRD 
+					remove_core = PWU 
+				} 
+			}
 			
 			
         }
