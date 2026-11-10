@@ -2166,6 +2166,37 @@ country_event = { #the coast of charchland
 			owns = 1751
 			owns = 1443
 		}
+		AND = {
+			1435 = {
+
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				
+			
+			}
+			
+			1441 = {
+
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				
+			
+			}
+			
+			1442 = {
+
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				
+			
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2178,8 +2209,9 @@ country_event = { #the coast of charchland
 	}
 	
 	option = {
-		name = "placeholder"
+		name = "We shall protect them from the encroachments of other powers."
 		set_global_flag = charch_bafozh
+	
 	
 	}
 	
