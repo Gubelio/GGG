@@ -48257,6 +48257,6 @@ country_event = {
 	}
 	option = {
 		name = "EVT50500OPTD"
-		
+		clr_global_flag = starting_leadership_options
 	}
 }
