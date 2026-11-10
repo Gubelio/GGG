@@ -504,7 +504,6 @@ political_decisions = {
             prestige = 20
             #all_core = { remove_core = THIS }
             change_tag = PWU
-            capital = 303
             any_country = {
                 limit = {
                     is_culture_group = paguyti_vuyti
@@ -512,7 +511,7 @@ political_decisions = {
                 }
                 country_event = 50013
             }
-			
+            capital = 303
 			
         }
         ai_will_do = {
