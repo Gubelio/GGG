@@ -48260,3 +48260,37 @@ country_event = {
 		clr_global_flag = starting_leadership_options
 	}
 }
+
+country_event = {
+
+    id = 50505
+    is_triggered_only = yes
+
+    title = "EVTNAME50505" 
+    desc = "EVTDESC50505"
+
+    option = { #x2 pop size
+        name = "EVT50505OPTA"
+		any_pop = {
+			limit = {
+				continent = europe #bafozh
+			}
+		reduce_pop = 2
+		}
+	}
+	
+    option = { #x3 pop size
+        name = "EVT50505OPTB"
+
+	}
+	
+    option = { #x5 pop size
+        name = "EVT50505OPTC"
+
+	}
+	
+	option = { #nevermind
+        name = "EVT50505OPTD"
+		clr_global_flag = bafozh_population_size
+	}
+}
