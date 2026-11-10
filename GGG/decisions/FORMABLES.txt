@@ -459,8 +459,205 @@ political_decisions = {
         }
     }
 
+#######################
+### VUYTI FORMABLES ###
+#######################
 
+    form_pwubuwdu = { #Paguyti state
+		picture = "form_pwubuwdu_image"
+		
+        potential = {
+            is_culture_group = paguyti_vuyti
+            NOT = {
+				OR = {
+					exists = PWU
+					tag = TRD
+				}
+            }
+        }
 
+        allow = {
+            is_greater_power = yes
+            war = no
+			is_vassal = no
+            PWU = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {	
+		
+            prestige = 20
+            #all_core = { remove_core = THIS }
+            change_tag = PWU
+            capital = 303
+            any_country = {
+                limit = {
+                    is_culture_group = paguyti_vuyti
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+			
+			
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    form_wupodyur = { #Vupuyti state
+		picture = "form_wupodyur_image"
+		
+        potential = {
+            is_culture_group = vupuyti_vuyti
+            NOT = {
+				OR = {
+					exists = WUP
+					tag = TRD
+				}
+            }
+        }
+
+        allow = {
+            is_greater_power = yes
+            war = no
+			is_vassal = no
+            WUP = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {	
+		
+            prestige = 20
+            #all_core = { remove_core = THIS }
+            change_tag = WUP
+            #capital = 303
+            any_country = {
+                limit = {
+                    is_culture_group = vupuyti_vuyti
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+			
+			
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    form_turad = { #pan-vuyti state
+		picture = "form_turad_image"
+		
+        potential = {
+			OR = {
+				is_culture_group = vupuyti_vuyti
+				is_culture_group = paguyti_vuyti
+			}
+            NOT = {
+				OR = {
+					exists = TRD
+					tag = WUP
+					tag = PWU
+				}
+            }
+        }
+
+        allow = {
+            is_greater_power = yes
+            war = no
+			is_vassal = no
+            PWU = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+            WUP = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {	
+		
+			badboy = 10
+            prestige = 45
+            #all_core = { remove_core = THIS }
+            change_tag = TRD
+            #capital = 303
+            any_country = {
+                limit = {
+					OR = {
+						is_culture_group = vupuyti_vuyti
+						is_culture_group = paguyti_vuyti
+					}
+                    in_sphere = THIS
+                }
+                country_event = 50013
+            }
+			
+			
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 
 
