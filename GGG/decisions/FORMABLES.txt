@@ -651,6 +651,9 @@ political_decisions = {
                 }
                 country_event = 50013
             }
+            add_accepted_culture = vupuyti
+            add_accepted_culture = paguyti
+            remove_accepted_culture = uytophat
 			
 			
         }
