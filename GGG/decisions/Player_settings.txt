@@ -284,6 +284,26 @@ political_decisions = {
 		
     }
 	
+#    bafozh population_size = {
+#	picture = "starting_options"
+#        alert = no
+#        potential = {
+#			NOT = { year = 1309 }
+#			ai = no
+#			has_country_flag = player_settings_opened
+#			NOT = { has_global_flag = population_size }
+#        }
+#
+#        allow = {
+#        }
+#
+#        effect = {
+#			set_global_flag = population_size
+#			country_event = { id = 50500 } 
+#        }
+#		
+#    }
+	
 	open_encyclopedia = {
         alert = no
 		picture = encycl

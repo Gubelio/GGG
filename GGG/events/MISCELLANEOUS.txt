@@ -48255,4 +48255,8 @@ country_event = {
 			kill_leader = 79
 		}
 	}
+	option = {
+		name = "EVT50500OPTD"
+		
+	}
 }

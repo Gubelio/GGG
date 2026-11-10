@@ -1147,11 +1147,12 @@ EVTNAME50498;Bridge Construction Interrupted;;;;;;;;;;;;;x
 EVTDESC50498;Our recent efforts to construct a large bridge between the Wrout headland and Dhâmit island have been stymied by the recent loss of military control in this region. The violence of the occupation, the shelling and the looting has done great damage to the current construction, but even more alarming, the occupying military has pillaged large amounts of supplies and resources we have accumulated there!;;;;;;;;;;;;;x
 EVTNAME50499;Bridge Project Complete!;;;;;;;;;;;;;x
 EVTDESC50499;After much work and toil, a few deaths of falling workmen, and many hundreds of thousands of purchases, now it stands, glistening in the sunlight, the great suspension bridge between Dhâmit island and the Wrout headland. Our nation celebrates this triumph of industry and will today, and cherish the thought that this great landmark will be a testament to our civilisation for centuries to come.;;;;;;;;;;;;;x
-EVTNAME50500;x;;;;;;;;;;;;;x
-EVTDESC50500;x;;;;;;;;;;;;;x
+EVTNAME50500;Starting Leadership Options;;;;;;;;;;;;;x
+EVTDESC50500; ;;;;;;;;;;;;;x
 EVT50500OPTA;Add starting leadership points, but keep all starting generals;;;;;;;;;;;;;x
 EVT50500OPTB;Add starting leadership points and remove all starting generals;;;;;;;;;;;;;x
 EVT50500OPTC;Remove all starting generals, but do not add any starting leadership points;;;;;;;;;;;;;x
+EVT50500OPTD;Nevermind;;;;;;;;;;;;;x
 EVTNAME50501;$FROMCOUNTRY$ Steel Comission;;;;;;;;;;;;;x
 EVTDESC50501;$FROMCOUNTRY_ADJ$ contractors have recently arrived in our shores to negotiate a contract for the purchase of large quantities of our high quality lung basin produced steel. For it appears they are breaking ground on a huge new suspension bridge between the Wrout headland and Dhâmit island in old Bozzanazh, in Bafozh. The government minister for manufacturing and production has assured $FROMCOUNTRY$ they will have their steel deliveries made promptly and efficiently. Now, the cabinet agrees, is a moment for our government's commitment to planed economy to shine, as compared to the crude inefficiency of other powers.;;;;;;;;;;;;;x
 EVTNAME50502;$FROMCOUNTRY$ Steel Comission;;;;;;;;;;;;;x
