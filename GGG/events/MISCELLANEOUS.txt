@@ -50502,20 +50502,21 @@ country_event = {
 					controlled_by = THIS
 				}
 			}
-			random_owned = {
+			random_pop = {
 				limit = {	
-					controlled_by = THIS
-				}
-				random_pop = {
-					limit = {
-						OR = {
-							has_pop_culture = west_gashdzii
-							has_pop_culture = south_gashdzii
-							has_pop_culture = north_gashdzii
-						}
+					OR = {
+						has_pop_culture = west_gashdzii
+						has_pop_culture = south_gashdzii
+						has_pop_culture = north_gashdzii
 					}
-					reduce_pop = 0.95
+					location = {
+						province_control_days = 1
+					
+					}
+					
 				}
+				
+				reduce_pop = 0.95
 			}
 		}
 	}
