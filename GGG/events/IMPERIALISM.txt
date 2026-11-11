@@ -734,6 +734,27 @@ country_event = {
            factor = 0.5
 		   year = 1362
 		}
+
+		modifier = {
+			factor = 0.5
+			has_global_flag = scramble_for_bafozh
+			any_sphere_member = {
+				capital_scope = { 
+					continent = europe
+					
+					
+				}
+				OR = {
+						any_owned_province = { port = yes }
+					}
+				civilized = no
+				NOT = {
+					has_country_flag = refused_protectorate
+					number_of_states = 4
+				}
+
+			}
+		}
     }
 
     option = {
