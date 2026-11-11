@@ -2159,6 +2159,7 @@ country_event = { #the coast of charchland
 	
 	trigger = {
 		has_global_flag = scramble_for_bafozh
+		civilized = yes
 		NOT = {
 			has_global_flag = charch_bafozh
 		}
@@ -2166,12 +2167,13 @@ country_event = { #the coast of charchland
 			owns = 1751
 			owns = 1443
 		}
-		AND = {
+		OR = {
 			1435 = {
 
 					owner = {
 						civilized = no
 						ai = yes
+						war = no
 					}
 				
 			
@@ -2182,6 +2184,7 @@ country_event = { #the coast of charchland
 					owner = {
 						civilized = no
 						ai = yes
+						war = no
 					}
 				
 			
@@ -2192,6 +2195,7 @@ country_event = { #the coast of charchland
 					owner = {
 						civilized = no
 						ai = yes
+						war = no
 					}
 				
 			
@@ -2211,8 +2215,324 @@ country_event = { #the coast of charchland
 	option = {
 		name = "We shall protect them from the encroachments of other powers."
 		set_global_flag = charch_bafozh
+		prestige = 5
+		
+		if = {
+			limit = {
+				1435 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1435 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1434 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1434 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1439 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1439 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1438 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1438 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1440 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1440 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1436 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1436 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}	
+		
+		}
+		
+		if = {
+			limit = {
+				1437 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1437 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1444 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1444 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1445 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1445 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1446 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1446 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1447 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1447 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1448 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1448 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1441 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1441 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			}
+		
+		}
+		
+		if = {
+			limit = {
+				1442 = {
+					owner = {
+						civilized = no
+						ai = yes
+						war = no
+					}
+				
+				}
+			
+			}
+			1442 = {
+				secede_province = THIS
+				add_province_modifier = {
+					name = charchland_protected_regions
+					duration = -1
+				}
+			
+			}
+		
+		}
 	
 	
+	}
+	
+	option = {
+		name = "Why should we care to negotiate with those we can conquer?"
+		prestige = 2
+		set_global_flag = charch_bafozh
 	}
 	
 }
