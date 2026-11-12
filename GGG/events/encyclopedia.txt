@@ -419,7 +419,7 @@ country_event  = {
 	id = 50465
 	title = "EVTNAME50465"
 	desc = "EVTDESC50465"
-	picture = "encylo"
+	picture = "races"
 	
 	is_triggered_only = yes
 	
