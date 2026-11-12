@@ -1572,7 +1572,7 @@ mromen_group = {
 
     gokam = { 
 	  color = { 137 75 121 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Bozza-Vant Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
@@ -1590,7 +1590,7 @@ mromen_group = {
 
     fauhwozi = { 
 	  color = { 37 99 115 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Tziiaw Vazhamak Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
@@ -1644,12 +1644,12 @@ mromen_group = {
 
     wushauw = { 
 	  color = { 37 120 65 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Wush Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
 
-            last_names = { Ta-Shreaw Sa-Shreaw Ta-Sient Sa-Sient Ta-Fuaw Sa-Fuaw Ta-Fresh Sa-Fresh Ta-Zhouvuot Sa-Zhouvuot 
+            last_names = { Ta-Wusha Ta-Gashti Ta-Shreaw Sa-Shreaw Ta-Sient Sa-Sient Ta-Fuaw Sa-Fuaw Ta-Fresh Sa-Fresh Ta-Zhouvuot Sa-Zhouvuot 
 						   Ta-Kuok Sa-Kuok Ta-Vant Sa-Vant Ta-Tush Sa-Tush Ta-Dhesong Sa-Dhesong Ta-Shech Sa-Shech 
 						   Ta-Thrount Sa-Thrount Ta-Ros Sa-Ros Ta-Dhrea Sa-Dhrea Ta-Wezhted Sa-Wezhted Ta-Dousu Sa-Dousu 
 						   Ta-Zuv Sa-Zuv Ta-Dhinguo Sa-Dhinguo Ta-Zhiedrua Sa-Zhiedrua Ta-Riedran Sa-Riedran Ta-Ngis 
