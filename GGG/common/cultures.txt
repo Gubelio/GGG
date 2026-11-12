@@ -1556,10 +1556,10 @@ khrayian_group = {
 
     khrayian = { 
 	  color = { 255 97 0 }
-			first_names = { Saki K'os Raig Kaid Zokon Nay Zor Jaij Dasz No'ou Nouj Boki Doudakka Rabbai Segaa 
+			first_names = { T'aki K'os Raig Kaid Zokon Nay Zor Jaij Dasz No'ou Nouj Boki Doudakka Rabbai Segaa 
 							J'ayj T'akaad Tigai Joubke Toub }
 
-            last_names = { Na'tau Tsoyvou Y'dous Noukh Yakh Na'geta Y'gaiz Koutev Kakkou Khroja Sobbaj J'ayk 
+            last_names = { Tsoyvou Y'dous Noukh Yakh Na'geta Y'gaiz Koutev Kakkou Khroja Sobbaj J'ayk 
 						   K'ayyva Zitha Y'tait Y'gourid K'esh Na'zaki Gayyvag Y'dana Y'gout Y'tes Na'routhi 
 						   Jouthaizayy }
     }

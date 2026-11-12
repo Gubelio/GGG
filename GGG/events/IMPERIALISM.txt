@@ -363,6 +363,95 @@ country_event = {
     }
 }
 
+country_event = { 
+    id = 50507
+    title = "EVTNAME50507" 
+    desc = "EVTDESC50507" 
+    picture = "bafozh"
+    
+    trigger = {
+	tag = KHR
+	has_country_flag = mastered_the_desert
+	any_greater_power = {
+		invention = mission_to_civilize
+	}
+	NOT = {
+		has_country_flag = requested_recognition
+	
+	}
+    
+    }
+    
+    mean_time_to_happen = {
+	months = 50
+	
+	modifier = {
+		factor = 0.7
+		part_of_sphere = yes
+	}
+    
+    }
+    
+    option = {
+	name = "this is a wise course of action."
+	 	
+
+	set_variable = {
+		which = khr_dip_rec
+		value = n
+	}
+	any_greater_power = {
+		country_event = {
+			id = 50508
+			days = 30
+		}
+	
+	}
+    }
+    
+}
+
+country_event = { 
+    id = 50508
+    title = "EVTNAME50508" 
+    desc = "EVTDESC50508" 
+    picture = "bafozh"
+    
+    is_triggered_only = yes
+    
+    option = {
+	name = "I don't see why not?"
+	prestige = 2
+	change_variable = {
+		which = khr_dip_rec
+		value = 1
+	}
+	diplomatic_influence = {
+		who = FROM
+		value = 50
+	}
+	relation = {
+		who = FROM
+		value = 75
+	}
+    
+    }
+    
+    option = {
+	name = "Frankly, I don't see why at all, minster."
+	prestige = 5
+	diplomatic_influence = {
+		who = FROM
+		value = -25
+	}
+	relation = {
+		who = FROM
+		value = -100
+	}
+    }
+    
+}
+
 
 ###########################
 ### RANDOM COLONIAL CBs ###

@@ -3110,6 +3110,7 @@ country_event = {
 			is_culture_group = byotrish
 			is_culture_group = paguyti_vuyti
 			is_culture_group = vupuyti_vuyti
+			is_culture_group = khrayian_group
 		}
 		OR = {
 			any_owned_province = {
@@ -3148,6 +3149,11 @@ country_event = {
 					THIS = {
 						is_culture_group = vupuyti_vuyti
 					}
+					THIS = {
+						is_culture_group = khrayian_group
+					
+					}
+					
 				}
 				
 			}

@@ -4,7 +4,7 @@ political_decisions = {
 		#picture = "bafozhi_beastmen"
 		potential = {
 			tag = KHR
-			
+			civilized = no
 		}
 		
 		allow = {
@@ -25,12 +25,31 @@ political_decisions = {
 	}
 	
 	
-	#annex_khraygirou = {
-	#	potential = {
-	#		
-	#	
-	#	}
-	#
-	#}
+	annex_khraygirou = {
+		potential = {
+			has_global_flag = krayland_gold
+			has_global_flag = scramble_for_bafozh
+			exists = KHR
+			KHR = {
+				in_sphere = THIS
+				civilized = no
+			}
+		}
+		
+		allow = {
+			war = no
+			KHR = {
+				war = no
+			}
+		
+		}
+		
+		effect = {
+			inherit = KHR
+		}
+		
+		
+	
+	}
 
 }
