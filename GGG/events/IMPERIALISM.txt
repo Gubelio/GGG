@@ -230,6 +230,9 @@ country_event = {
 		NOT = {
 			has_global_flag = krayland_gold
 		}
+		KHR = {
+			ai = yes
+		}
 	}
 	
 	fire_only_once = yes
@@ -326,6 +329,9 @@ country_event = {
 	1496 = {
 		empty = yes
 	}
+	NOT = {
+		has_country_flag = mastered_the_desert
+	}
     }
     
     mean_time_to_happen = {
@@ -353,6 +359,7 @@ country_event = {
 	1496 = {
 		secede_province = THIS
 	}
+	set_country_flag = mastered_the_desert
     }
 }
 

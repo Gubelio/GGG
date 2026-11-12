@@ -1,0 +1,36 @@
+political_decisions = {
+
+	call_the_muster_of_the_khrayians = {
+		#picture = "bafozhi_beastmen"
+		potential = {
+			tag = KHR
+			
+		}
+		
+		allow = {
+			war = yes
+			NOT = {
+				has_country_modifier = muster_of_the_khrayans
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = muster_of_the_khrayans
+				duration = 365
+			}
+		
+		}
+		
+	}
+	
+	
+	#annex_khraygirou = {
+	#	potential = {
+	#		
+	#	
+	#	}
+	#
+	#}
+
+}
