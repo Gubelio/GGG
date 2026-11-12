@@ -1518,7 +1518,7 @@ tgoen_group = {
 	  color = { 239 44 0 }
 			first_names = { Ned Uega Foep Miet Uetis Nabe Toep Ueneg Epue Gana Umo Hubo Fat Nief Ibi Pip Baed Hubaed }
 
-            last_names = { Tgaeg Baet Hosfoegae Uepid Abidh Haene Tahe Goeb Uesubtie Hefug Meha Oepedh Napi Besamo 
+            last_names = { Tgaeg Baet Hosfoegae Uepid Abidh Haene Umo Tahe Goeb Uesubtie Hefug Meha Oepedh Napi Besamo 
 						   Osfaf Hgib Gien Ihue Goesfie Hemue Moed Uetoe Pgenaspmus Fugobigst Uespmaf Oesfaepae 
 						   Fapegst Naeg Tgammies }
     }
@@ -1529,7 +1529,7 @@ tgoen_group = {
 
             last_names = { Tgaeg Baet Hosfoegae Uepid Abidh Haene Tahe Goeb Uesubtie Hefug Meha Oepedh Napi Besamo 
 						   Osfaf Hgib Gien Ihue Goesfie Hemue Moed Uetoe Pgenaspmus Fugobigst Uespmaf Oesfaepae 
-						   Fapegst Naeg Tgammies }
+						   Fapegst Naeg Tgammies Pomigoes Pomigmoed Pomioesfa "Pomis Pomis" "Pomig Pomig" }
     }
 
 }
@@ -1572,7 +1572,7 @@ mromen_group = {
 
     gokam = { 
 	  color = { 137 75 121 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Bozza-Vant Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
@@ -1590,7 +1590,7 @@ mromen_group = {
 
     fauhwozi = { 
 	  color = { 37 99 115 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Tziiaw Vazhamak Gozhomedes Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
@@ -1644,12 +1644,12 @@ mromen_group = {
 
     wushauw = { 
 	  color = { 37 120 65 }
-			first_names = { Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
+			first_names = { Wush Shreaw Sient Fuaw Fresh Zhouvuot Kuok Vant Tush Dhesong Shech Thrount Ros Dhrea Wezhted 
 							Dousu Zuv Dhinguo Zhiedrua Riedran Ngis Shad Wramn Memn Shruach Mauk Dzeangunt Shrauzuot 
 							Zheaso Kuoztek Thream Zheam Shosh Thiem Shrouw Hwaud Thohwau Zhkiethrau Fire Dheash Reazhdaun 
 							Tud Wuf Edhdich }
 
-            last_names = { Ta-Shreaw Sa-Shreaw Ta-Sient Sa-Sient Ta-Fuaw Sa-Fuaw Ta-Fresh Sa-Fresh Ta-Zhouvuot Sa-Zhouvuot 
+            last_names = { Ta-Wusha Ta-Gashti Ta-Shreaw Sa-Shreaw Ta-Sient Sa-Sient Ta-Fuaw Sa-Fuaw Ta-Fresh Sa-Fresh Ta-Zhouvuot Sa-Zhouvuot 
 						   Ta-Kuok Sa-Kuok Ta-Vant Sa-Vant Ta-Tush Sa-Tush Ta-Dhesong Sa-Dhesong Ta-Shech Sa-Shech 
 						   Ta-Thrount Sa-Thrount Ta-Ros Sa-Ros Ta-Dhrea Sa-Dhrea Ta-Wezhted Sa-Wezhted Ta-Dousu Sa-Dousu 
 						   Ta-Zuv Sa-Zuv Ta-Dhinguo Sa-Dhinguo Ta-Zhiedrua Sa-Zhiedrua Ta-Riedran Sa-Riedran Ta-Ngis 
