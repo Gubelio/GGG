@@ -370,6 +370,12 @@ country_event = {
     picture = "bafozh"
     
     trigger = {
+	1465 = {
+		empty = yes
+	}
+	1497 = {
+		empty = yes
+	}
 	tag = KHR
 	has_country_flag = mastered_the_desert
 	any_greater_power = {
@@ -448,6 +454,41 @@ country_event = {
 		who = FROM
 		value = -100
 	}
+    }
+    
+}
+
+country_event = { 
+    id = 50509
+    title = "EVTNAME50509" 
+    desc = "EVTDESC50509" 
+    picture = "bafozh"
+    
+    trigger = {
+	check_variable = {
+		which = khr_dip_rec
+		value = 4
+	}
+
+    
+    }
+    
+    mean_time_to_happen = {
+	months = 1
+    
+    }
+    
+    option = {
+	name = "Our stature ever grows."
+	prestige = 10
+	REG_314 = {
+		secede_province = THIS
+	}
+	
+	REG_313 = {
+		secede_province = THIS
+	}
+	
     }
     
 }
