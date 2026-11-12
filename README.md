@@ -10,6 +10,6 @@ Here are some of the mod’s features:
     Multiplayer features such as grants, sanctions, and transfer cbs
 
 
-To setup from GitHub zip download: extract the .zip in your /mod directory. Then copy the .mod file out of the /GGG directory into your /mod directory.
+To setup from GitHub zip download: extract the .zip in your /mod directory. Then copy the .mod file out of the /GGG (or /GGG-workingreformbranch) directory into your /mod directory. This may require renaming the main folder from 'GGG-workingreformbranch' to 'GGG'.
 
-Cloning directly with git will require changing the default.map pathway to .../GGG/GGG/...
+Cloning directly with git may require changing the default.map pathway to .../GGG/GGG/...
