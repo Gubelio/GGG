@@ -30,7 +30,8 @@ upper_house = { # inherit
 
 #technologies
 
-flintlock_rifles = 1
+military_leadership = officer_class
+record_keeping = rudimentary_records
 
 #flags
 

@@ -1699,6 +1699,7 @@ military_reforms = { #Political Reforms
 
             on_execute = {
                 effect = {
+                    activate_technology = flintlock_rifles
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberationist
