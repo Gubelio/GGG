@@ -839,11 +839,38 @@ country_event  = {
 	}
 	
 	option = {
+		name = "Turn to Index Page Two"
+		THIS = { country_event = { id = 50510 } }
+	}
+	
+	option = {
 		name = "Close Encylopedia"
 		clr_country_flag = encyclopedia_open
 	}
 	
+	
+	
 
+}
+
+country_event = {
+	id = 50510
+	title = "EVTNAME50510" ##### Species Page Two
+	desc = "EVTDESC50510"
+	picture = "races"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Return to Index Page One"
+		THIS = { country_event = { id = 50465 } }
+	}
+	
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+	
 }
 
 
