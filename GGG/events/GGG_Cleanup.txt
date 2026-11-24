@@ -32499,6 +32499,44 @@ country_event = {
 				}
 			}
 			
+			OR = {
+				invention = social_anthropology
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_occ_inn
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_occ_inn
+					}
+				}
+				
+				any_greater_power = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_occ_inn
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_occ_inn
+						}
+					}
+				}
+				any_neighbor_country = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_occ_inn
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_occ_inn
+						}
+					}
+				}
+			}
+			
 			
 			
 			
@@ -32512,6 +32550,19 @@ country_event = {
     option = {
         name = "EVT33337OPTA"
         add_country_modifier = { name = law_changed_by_force duration = 365 }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_occ_inn }
+					any_greater_power = { has_country_flag = studied_occ_inn }
+				}
+				invention = social_anthropology
+				civilized = yes
+				NOT = { has_country_flag = studied_occ_inn  }
+			}
+			set_country_flag = studied_occ_inn
+        }
 	
 	any_country = {
             limit = {
