@@ -1306,7 +1306,55 @@ size = 612
 
 19 = {
 
+	#Priestly Slaves
 
+	slaves = {
+		culture = humabi
+		religion = wompowushan
+		size = 4000
+	}
+	
+	slaves = {
+		culture = dexun
+		religion = wompowushan
+		size = 4000
+	}
+	
+	slaves = {
+		culture = kova
+		religion = wompowushan
+		size = 3000
+	}
+	
+	slaves = {
+		culture = paguyti
+		religion = wompowushan
+		size = 6000
+	}
+	
+	slaves = {
+		culture = biori
+		religion = wompowushan
+		size = 3000
+	}
+	
+	slaves = {
+		culture = hahabi
+		religion = wompowushan
+		size = 2000
+	}
+	
+	slaves = {
+		culture = hahuibi
+		religion = wompowushan
+		size = 2000
+	}
+	
+	slaves = {
+		culture = south_gashdzii
+		religion = wompowushan
+		size = 1000
+	}
 
 	artisans = {
 		culture = pruuntish
