@@ -862,6 +862,197 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
+		name = "The Bafinoids"
+		country_event = { id = 50511 }
+	
+	}
+	
+	option = {
+		name = "The Bafinoid Minae"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = europe }
+						has_country_flag = studied_baf_min
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50512 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = europe }
+							has_country_flag = studied_baf_min
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Azuroids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = europe }
+						has_country_flag = studied_azur_bio
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50513 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = europe }
+							has_country_flag = studied_azur_bio
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Oriental Gigantoids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = europe }
+						has_country_flag = studied_or_gig
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50514 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = europe }
+							has_country_flag = studied_or_gig
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Dentaloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = europe }
+						has_country_flag = studied_dents
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50515 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = europe }
+							has_country_flag = studied_or_gig
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
+		name = "The Oriental Insuloids"
+		if2 = {
+			limit = {
+				THIS = {
+					OR = {
+						capital_scope = { continent = oceania }
+						has_country_flag = studied_or_insels
+					}
+				
+				}
+			
+			}
+			THIS = {
+				country_event = { id = 50516 }
+			}
+		}
+		
+		if3 = {
+			limit = {
+				NOT = {
+					THIS = {
+						OR = {
+							capital_scope = { continent = oceania }
+							has_country_flag = studied_or_insels
+						}
+				
+					}
+				
+				}
+			
+			}
+			THIS = { country_event = { id = 50123 } }
+		}
+	
+	}
+	
+	option = {
 		name = "Return to Index Page One"
 		THIS = { country_event = { id = 50465 } }
 	}
@@ -873,7 +1064,125 @@ country_event = {
 	
 }
 
+country_event = {
+	id = 50511
+	title = "EVTNAME504511" ##### Bafinoids
+	desc = "EVTDESC504511"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
 
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50512
+	title = "EVTNAME504512" ##### Bafinoid Minus
+	desc = "EVTDESC504512"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50513
+	title = "EVTNAME504513" ##### Azuroids
+	desc = "EVTDESC504513"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50514
+	title = "EVTNAME504514" ##### Oriental Gigantoids
+	desc = "EVTDESC504514"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50515
+	title = "EVTNAME504515" ##### Dentaloids
+	desc = "EVTDESC504515"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
+
+country_event = {
+	id = 50516
+	title = "EVTNAME504516" ##### Oriental Insuloids
+	desc = "EVTDESC504516"
+	picture = "red_flux"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Return to 'Species' Subheading"
+		country_event = { id = 50510 }
+	}
+
+
+	option = {
+		name = "Close Encylopedia"
+		clr_country_flag = encyclopedia_open
+	}
+}
 
 country_event = {
 	id = 50466 

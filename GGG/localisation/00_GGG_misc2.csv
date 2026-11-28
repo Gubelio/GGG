@@ -478,6 +478,7 @@ slave_cannery;Cannery;x
 slave_cannery_desc;x;x
 scout;Scout;;;;;;;;;;;;;
 scout_activation;Scouts;;;;;;;;;;;;;
+scout_activation_desc;In the 14th century, military science came to rely not only on division integrated reconnaissance, but dedicated scouting divisions, unencumbered with large amounts of military equipment, to probe enemy lines.;;;;;;;;;;;;;
 acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;
 acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;
 acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;
@@ -579,5 +580,5 @@ wrout_bridge_construction_desc;Currently this nation is undertaking an expensive
 paguyti_vuyti;Paguytic;;;;;;;;;;;x
 vupuyti_vuyti;Vupuytic;;;;;;;;;;;x
 charchland_protected_regions;Charchlander Native States;;;;;;;;;;;x
-muster_of_the_khrayans;Called the Muster of tje Khrayians;;;;;;;;;;;x
+muster_of_the_khrayans;Called the Muster of the Khrayians;;;;;;;;;;;x
 muster_of_the_khrayans_desc;The scattered people of the Khrayians accross the great deserts have been called to serve in the armies of the Khan of Khragirou.;;;;;;;;;;;x

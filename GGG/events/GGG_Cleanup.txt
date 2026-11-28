@@ -32537,6 +32537,195 @@ country_event = {
 				}
 			}
 			
+			OR = {
+				invention =  darwinism
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_baf_min
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_baf_min
+					}
+				}
+				
+				any_greater_power = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_baf_min
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_baf_min
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_baf_min
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_baf_min
+						}
+					}
+				}
+			}
+			
+			OR = {
+				invention =  darwinism
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_azur_bio
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_azur_bio
+					}
+				}
+				
+				any_greater_power = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_azur_bio
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_azur_bio
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_azur_bio
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_azur_bio
+						}
+					}
+				}
+			}
+			
+			OR = {
+				medicine = 1
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_or_gig
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_or_gig
+					}
+				}
+				
+				any_greater_power = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_or_gig
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_or_gig
+						}
+					}
+				}
+				any_neighbor_country = {
+					medicine = 1
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_or_gig
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_or_gig
+						}
+					}
+				}
+			}
+			
+			OR = {
+				invention =  darwinism
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_dents
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_dents
+					}
+				}
+				
+				any_greater_power = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_dents
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_dents
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_dents
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_dents
+						}
+					}
+				}
+			}
+			
+			OR = {
+				invention =  darwinism
+				civilized = yes
+				NOT = { 
+					has_country_flag = studied_or_insels
+				}
+				any_neighbor_country = {
+					OR = {
+						has_country_flag =studied_or_insels
+					}
+				}
+				
+				any_greater_power = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_or_insels
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_or_insels
+						}
+					}
+				}
+				any_neighbor_country = {
+					invention =  darwinism
+					civilized = yes
+					NOT = { 
+						has_country_flag = studied_or_insels
+					}
+					any_neighbor_country = {
+						OR = {
+							has_country_flag =studied_or_insels
+						}
+					}
+				}
+			}
 			
 			
 			
@@ -32550,6 +32739,71 @@ country_event = {
     option = {
         name = "EVT33337OPTA"
         add_country_modifier = { name = law_changed_by_force duration = 365 }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_or_insels }
+					any_greater_power = { has_country_flag =studied_or_insels }
+				}
+				invention =  darwinism
+				civilized = yes
+				NOT = { has_country_flag = studied_or_insels  }
+			}
+			set_country_flag = studied_or_insels
+        }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_dents }
+					any_greater_power = { has_country_flag = studied_dents }
+				}
+				invention =  darwinism
+				civilized = yes
+				NOT = { has_country_flag = studied_dents  }
+			}
+			set_country_flag = studied_dents
+        }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_or_gig }
+					any_greater_power = { has_country_flag = studied_or_gig }
+				}
+				medicine = 1
+				civilized = yes
+				NOT = { has_country_flag = studied_or_gig  }
+			}
+			set_country_flag = studied_or_gig
+        }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_baf_min }
+					any_greater_power = { has_country_flag = studied_baf_min }
+				}
+				invention =  darwinism
+				civilized = yes
+				NOT = { has_country_flag = studied_baf_min  }
+			}
+			set_country_flag = studied_baf_min
+        }
+	
+	any_country = {
+            limit = {
+				OR = {
+					any_neighbor_country = { has_country_flag = studied_azur_bio }
+					any_greater_power = { has_country_flag = studied_azur_bio }
+				}
+				invention =  darwinism
+				civilized = yes
+				NOT = { has_country_flag = studied_azur_bio  }
+			}
+			set_country_flag = studied_azur_bio
+        }
 	
 	any_country = {
             limit = {
